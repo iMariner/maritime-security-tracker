@@ -21,7 +21,7 @@ FIELDS = """{
   "attack_type": "missile | drone (UAV) | sea drone (USV) | mine | boarding/seizure | gunfire | GNSS interference | suspicious approach | explosion (cause unknown) | other",
   "damage": "short English description or null",
   "casualties": "short English description (e.g. '2 crew injured') or null",
-  "attribution_claimed": "who is said or claimed to be responsible, or null",
+  "attribution_claimed": "ONLY if the item explicitly says who carried out or claimed the attack (e.g. 'Russia's defence ministry claimed it', 'Ukraine said it struck', 'the Houthis claimed'), that party in a few words; null if no one is named. Never infer it from context or 'framing'",
   "official_source_cited": "neutral authority quoted as confirming it (UKMTO, JMIC, MARAD, NATO Shipping Centre, a coast guard, flag state, ship owner or manager), or null",
   "summary": "2 sentences in plain English, facts only, attributing claims (e.g. 'Russia's defence ministry said ...')",
   "is_recap": true if the item only mentions an older attack in passing, otherwise false,
