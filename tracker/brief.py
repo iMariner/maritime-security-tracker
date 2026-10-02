@@ -121,8 +121,10 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list) -> d
         "sentence case.\n"
         '"excerpt": meta description, max 155 characters.\n'
         '"key_points": 3 to 5 bullet points (plain text, each one sentence of at most 20 words) summarising the '
-        "day for a reader who reads nothing else; the most important first; keep claim wording.\n"
-        '"article_html": the article body in HTML using only <p>, <h2>, <ul>, <li>, <strong>. Readability rules: '
+        "day for a reader who reads nothing else; the most important first; keep claim wording; always name the "
+        "vessel and its flag when the facts give them.\n"
+        '"article_html": the article body in HTML using only <p>, <h2>, <ul>, <li>, <strong>. Always name a vessel and its flag when the '
+        "facts give them, in the headline too. Readability rules: "
         "every paragraph at most 3 sentences and about 60 words; one incident per paragraph; short sentences. "
         "Structure: a lede paragraph of ONE sentence, at most 35 words, with the single most important news; a second short "
         "paragraph with the overall picture; then one <h2> section per region (Strait of Hormuz area first if it has "
