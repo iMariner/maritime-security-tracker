@@ -393,7 +393,7 @@
       }
     ],
     "first_seen": "2026-10-02T13:59:47Z",
-    "last_updated": "2026-10-02T14:02:01Z",
+    "last_updated": "2026-10-02T14:04:08Z",
     "verification_issue": null,
     "verdict": null,
     "published_in": [],
@@ -512,7 +512,7 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-10-02",
-    "summary": "Russia's defence ministry said its drones struck a general cargo vessel at sea in the Black Sea that was carrying military and dual-use cargo to Odesa port. The claim has not been independently confirmed.",
+    "summary": "Russia's defence ministry claimed its drones struck a general cargo vessel in the Black Sea that was carrying military and dual-use cargo toward Odesa, and separately said it hit a vessel used for military cargo at Chornomorsk port. The claims have not been independently confirmed.",
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.6,
@@ -557,15 +557,25 @@
         "kind": "media",
         "published_at": "2026-10-01T09:46:42Z",
         "title": "Russia attacks bulker it claims was carrying military cargo to Ukraine - tradewindsnews.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNM2ZjZ2xrdnZTZFlCc3huamxWcjBOeVVydy1NUDU4alB0TExrb19Gd2NubnpPYnRDVUhtRkdqRzBzei1YZFdPUFBSTDBqOE9JMFRTcHNlTkFMNlE3M2NmZW5VZnR3SUpJQi1zalJaeHE0WFBPUnN1VGlrVTc4VnVmdEc1MmtOWENsbV9LTHdJVjRuRjFPWGp4dmVLeGNqSlBSRXNOQjdRakE3OTdHblJsa1dPS2tTTnVkOEhTTmNlRG1KZ3lsZldfR0Z4UXk5YTVWdXU3LXg4M1IyZDE5VTMxaThkVdIB6AFBVV95cUxQTUY0Yjc3M1FsaHFwWU5SSDd6czVEWmJSTTJXVGx0R0RfVkRLNjEyMm9wbk1NR0VHOVZwek8yWVN0aUNJTy1EN1RVdmE1MTRGLTllTHlic3pLMGNBQi13ZUFlaXBqWUp1V204Qy1hZTk0THJ4ekxibkZybDJqLUhwVmpXekdONWd3YVl6U2U0V0gxT0VNSWFvY21ncXhuSU56UzVDbDFVSmgwazdXanI5eENuQlVBUHRWX2I4alN1Z1JiRUtsX3d6NDRMbUx1UG4zRFBiVkg3VC13UkVPNjdlWmpuTUgtVlgx?oc=5",
+        "source": "Devdiscourse",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-01T05:30:00Z",
+        "title": "Russia says it struck vessel used to transport military cargo at Ukraine's Chornomorsk port - Devdiscourse"
       }
     ],
     "first_seen": "2026-10-02T14:00:03Z",
-    "last_updated": "2026-10-02T14:00:22Z",
+    "last_updated": "2026-10-02T14:04:08Z",
     "verification_issue": null,
     "verdict": null,
     "published_in": [],
     "status": "claimed",
-    "position_approx": true
+    "position_approx": true,
+    "date_approx": false
   },
   {
     "region": "Strait of Hormuz",
@@ -950,7 +960,7 @@
       }
     ],
     "first_seen": "2026-10-02T14:01:50Z",
-    "last_updated": "2026-10-02T14:01:50Z",
+    "last_updated": "2026-10-02T14:04:08Z",
     "verification_issue": 21,
     "verdict": null,
     "published_in": [],
@@ -990,12 +1000,13 @@
       }
     ],
     "first_seen": "2026-10-02T14:01:50Z",
-    "last_updated": "2026-10-02T14:01:50Z",
+    "last_updated": "2026-10-02T14:04:08Z",
     "verification_issue": 22,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261002-004"
   },
   {
     "region": "Strait of Hormuz",
