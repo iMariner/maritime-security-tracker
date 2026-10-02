@@ -77,6 +77,13 @@ def main() -> None:
         seen[key] = stamp
         store.add_firms_signal(det, incidents)
 
+    # Fix regions the text clearly contradicts (e.g. Houthi attacks filed under Hormuz).
+    for inc in incidents:
+        fixed = geo.region_override(inc)
+        if fixed:
+            log.info("Region of %s corrected: %s -> %s", inc["id"], inc.get("region"), fixed)
+            inc["region"] = fixed
+
     # Review pass: merge entries that are the same real attack, drop out-of-scope ones.
     closed = consolidate(incidents)
     if closed:

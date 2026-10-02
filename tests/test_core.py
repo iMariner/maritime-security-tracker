@@ -189,3 +189,9 @@ def test_brief_new_vs_update():
     upgraded = dict(repeated, id="D", status="confirmed", status_changed_at=iso(now_utc()))
     new, updated, corrections = select([fresh, old_event, repeated, upgraded], since)
     assert [i["id"] for i in new] == ["A"] and [i["id"] for i in updated] == ["D"] and not corrections
+
+
+def test_region_override():
+    from tracker import geo
+    assert geo.region_override({"region": "Strait of Hormuz", "summary": "Yemen's Houthis said they targeted two Saudi tankers"}) == "Red Sea"
+    assert geo.region_override({"region": "Strait of Hormuz", "summary": "Tanker hit east of Fujairah"}) is None

@@ -71,3 +71,19 @@ def fill_position(inc: dict) -> bool:
         return False
     inc["lat"], inc["lon"], inc["position_approx"] = point[0], point[1], True
     return True
+
+
+# Places that fix the region whatever the model wrote (Houthi attacks are Red Sea, not Hormuz).
+REGION_RULES = [
+    (re.compile(r"houthi|yemen|hodeidah|hudaydah|bab[- ]el[- ]mandeb|yanbu|jeddah|jizan|red sea|eritrea|port sudan", re.I), "Red Sea"),
+    (re.compile(r"gulf of aden|\baden\b|djibouti|somali", re.I), "Gulf of Aden"),
+]
+
+
+def region_override(inc: dict) -> str | None:
+    """Return a corrected region when the incident's own text clearly places it elsewhere."""
+    text = " ".join(str(inc.get(k) or "") for k in ("location_text", "summary", "attribution_claimed"))
+    for pattern, region in REGION_RULES:
+        if pattern.search(text):
+            return region if region != inc.get("region") else None
+    return None

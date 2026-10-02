@@ -8,6 +8,7 @@ This pass sees them all at once: one AI call per region group per run.
 from __future__ import annotations
 
 import json
+import re
 from datetime import timedelta
 
 from . import github_issues, llm
@@ -164,6 +165,10 @@ def consolidate(incidents: list[dict]) -> int:
             if not inc or inc["id"] not in live_ids or inc.get("merged_into") or inc.get("status") in CLOSED:
                 continue
             note = no_em_dash(o.get("reason") or "out of scope")
+            # (c) "no specific incident" is only believable for an entry with no vessel type and no location.
+            if not re.match(r"\s*\(?[ab]\)", note) and (inc.get("vessel_type") or inc.get("location_text")):
+                log.info("Review: keeping %s (model said out of scope, but it names a vessel type or place: %s)", inc["id"], note)
+                continue
             inc["verdict"] = {"status": "rejected", "by": "review pass", "at": stamp, "note": f"Out of scope: {note}"}
             inc["status"], inc["last_updated"] = "rejected", stamp
             _close(inc, f"Closed: out of scope ({note}).")
