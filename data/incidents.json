@@ -32,12 +32,11 @@
       }
     ],
     "first_seen": "2026-10-02T13:59:57Z",
-    "last_updated": "2026-10-02T14:00:22Z",
+    "last_updated": "2026-10-02T15:39:04Z",
     "verification_issue": null,
     "verdict": null,
     "published_in": [],
-    "status": "merged",
-    "merged_into": "INC-20261002-001",
+    "status": "claimed",
     "position_approx": true
   },
   {
@@ -315,12 +314,11 @@
       }
     ],
     "first_seen": "2026-10-02T15:36:10Z",
-    "last_updated": "2026-10-02T15:36:11Z",
+    "last_updated": "2026-10-02T15:39:04Z",
     "verification_issue": null,
     "verdict": null,
     "published_in": [],
-    "status": "merged",
-    "merged_into": "INC-20261002-001",
+    "status": "claimed",
     "position_approx": true
   },
   {
@@ -1291,12 +1289,11 @@
       }
     ],
     "first_seen": "2026-10-02T15:36:11Z",
-    "last_updated": "2026-10-02T15:36:11Z",
+    "last_updated": "2026-10-02T15:39:04Z",
     "verification_issue": null,
     "verdict": null,
     "published_in": [],
-    "status": "merged",
-    "merged_into": "INC-20260929-001",
+    "status": "confirmed",
     "position_approx": true
   },
   {
@@ -1345,11 +1342,11 @@
     "region": "Strait of Hormuz",
     "date_utc": "2026-09-29",
     "summary": "Three vessels were reported struck on 29 September in the Strait of Hormuz, with other reports describing four vessels hit in 24 hours and a Chinese-owned oil tanker hit near Hormuz. A cargo ship also reported a suspected attack while crossing, and the US and Iran both fired at ships amid escalating tensions.",
-    "official_source_cited": "UKMTO",
+    "official_source_cited": null,
     "conflicting": false,
     "confidence": 1.0,
-    "vessel_name": "SINBAD",
-    "imo": "9413688",
+    "vessel_name": null,
+    "imo": null,
     "flag": "Kuwait",
     "vessel_type": "tanker",
     "vessel_category": "merchant",
@@ -1461,15 +1458,6 @@
         "kind": "media",
         "published_at": "2026-09-30T14:04:06Z",
         "title": "Shafaq News..Three tankers hit in Strait of Hormuz - شفق نيوز"
-      },
-      {
-        "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9413688-2026-09-29",
-        "source": "IMO (confirmed incidents list)",
-        "source_type": "official",
-        "side": "neutral",
-        "kind": "official",
-        "published_at": "2026-10-02T15:36:11Z",
-        "title": "IMO confirmed incident: SINBAD (IMO 9413688)"
       }
     ],
     "first_seen": "2026-10-02T14:01:56Z",
@@ -1479,7 +1467,7 @@
     "published_in": [
       "2026-10-02"
     ],
-    "status": "confirmed",
+    "status": "reported",
     "status_changed_at": "2026-10-02T14:01:56Z",
     "date_approx": false,
     "position_approx": true
