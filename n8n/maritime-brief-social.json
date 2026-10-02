@@ -72,9 +72,7 @@
               "resumeUnit": "hours"
             }
           }
-        },
-        "approveWithinChat": true,
-        "restrictApprovers": "REPLACE_WITH_YOUR_TELEGRAM_USER_ID"
+        }
       },
       "id": "a3",
       "name": "Ask me on Telegram",
@@ -83,7 +81,8 @@
       "position": [
         440,
         200
-      ]
+      ],
+      "notes": "Approve Within Chat stays off: it needs Telegram to deliver button taps to n8n (a Telegram Trigger webhook), which this setup does not have. Buttons are links that open a small n8n confirmation page."
     },
     {
       "parameters": {
