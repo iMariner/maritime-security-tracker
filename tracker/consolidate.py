@@ -72,13 +72,20 @@ def _system(regions_on: list[str]) -> str:
     )
 
 
-def _merge_into(keep: dict, other: dict) -> None:
+IDENTITY = ("vessel_name", "imo", "flag", "vessel_type", "vessel_category", "lat", "lon", "location_text")
+
+
+def _merge_into(keep: dict, other: dict, sources_only: bool = False) -> None:
+    """Fold `other` into `keep`. With sources_only, only its sources and evidence are added: nothing about
+    the vessel (name, flag, type, position) is copied, used when filing roundups under an official record."""
     urls = {s["url"] for s in keep["sources"]}
     for s in other["sources"]:
         if s["url"] not in urls:
             keep["sources"].append(s)
             urls.add(s["url"])
     for f in MERGE_FIELDS + ("official_source_cited",):
+        if sources_only and f in IDENTITY:
+            continue
         if keep.get(f) in (None, "") and other.get(f) not in (None, ""):
             keep[f] = other[f]
     keep["independent_evidence"] = bool(keep.get("independent_evidence") or other.get("independent_evidence"))
@@ -119,7 +126,7 @@ def absorb_into_official(incidents: list[dict]) -> int:
             if not near:
                 continue
             target = min(near, key=lambda o: abs(_event_time(o) - _event_time(inc)))
-            _merge_into(target, inc)
+            _merge_into(target, inc, sources_only=True)
             inc["status"], inc["last_updated"] = "merged", stamp
             target["status"], target["last_updated"] = compute_status(target), stamp
             _close(inc, f"Closed: covered by the official IMO record {target['id']} ({target['vessel_name']}).")
