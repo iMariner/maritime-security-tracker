@@ -11,6 +11,8 @@ from __future__ import annotations
 
 from pathlib import Path
 
+import time
+
 import requests
 
 from .common import env, log
@@ -22,10 +24,26 @@ class WordPress:
         self.auth = (env("WP_USER", required=True), env("WP_APP_PASSWORD", required=True))
 
     def _req(self, method: str, path: str, **kw):
-        resp = requests.request(method, self.base + path, auth=self.auth, timeout=60, **kw)
-        if resp.status_code >= 300:
-            raise RuntimeError(f"WordPress {method} {path} -> {resp.status_code}: {resp.text[:300]}")
-        return resp.json()
+        """One REST call. Retries busy or odd responses (rate limits, a security plugin's HTML page)."""
+        last = ""
+        for attempt in range(4):
+            try:
+                resp = requests.request(method, self.base + path, auth=self.auth, timeout=60, **kw)
+            except requests.RequestException as exc:
+                last = str(exc)
+            else:
+                if resp.status_code < 300:
+                    try:
+                        return resp.json()
+                    except ValueError:
+                        last = f"non-JSON reply ({resp.headers.get('content-type')}): {resp.text[:200]}"
+                elif resp.status_code in (401, 403, 404) and attempt == 0 and "json" in resp.headers.get("content-type", ""):
+                    raise RuntimeError(f"WordPress {method} {path} -> {resp.status_code}: {resp.text[:300]}")
+                else:
+                    last = f"{resp.status_code}: {resp.text[:200]}"
+            log.warning("WordPress %s %s attempt %d failed: %s", method, path, attempt + 1, last)
+            time.sleep(10 * (attempt + 1))
+        raise RuntimeError(f"WordPress {method} {path} failed after retries: {last}")
 
     def category_id(self, slug: str) -> int:
         found = self._req("GET", "/categories", params={"slug": slug})
