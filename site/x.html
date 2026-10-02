@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Post on X</title>
+<style>
+  :root { --bg:#f4f8fb; --card:#fff; --ink:#0b1e2d; --muted:#64748b; --line:#dde6ee; --x:#000; --teal:#0a91ab; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#08121f; --card:#0f1d30; --ink:#e6edf5; --muted:#93a4b8; --line:#1f3048; --x:#fff; } }
+  * { box-sizing: border-box; }
+  body { margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center; padding:16px;
+         background:var(--bg); color:var(--ink); font:16px/1.5 -apple-system, system-ui, sans-serif; }
+  .card { width:100%; max-width:440px; background:var(--card); border:1px solid var(--line); border-radius:18px; padding:22px; }
+  h1 { font-size:18px; margin:0 0 12px; }
+  .tweet { white-space:pre-wrap; word-break:break-word; border:1px solid var(--line); border-radius:12px; padding:12px; font-size:15px; }
+  .count { color:var(--muted); font-size:13px; margin:6px 0 16px; }
+  a.btn, button { display:block; width:100%; text-align:center; padding:14px; border-radius:999px; font-weight:700;
+                  font-size:16px; text-decoration:none; border:0; margin-top:10px; cursor:pointer; }
+  .primary { background:var(--x); color:var(--bg); }
+  .secondary { background:transparent; color:var(--ink); border:1px solid var(--line) !important; }
+  .note { color:var(--muted); font-size:13px; margin-top:14px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>Post the iMariners brief on X</h1>
+  <div class="tweet" id="tweet"></div>
+  <div class="count" id="count"></div>
+  <a class="btn primary" id="app">Open in the X app</a>
+  <button class="secondary" id="copy">Copy tweet</button>
+  <a class="btn secondary" id="web">Post on x.com instead</a>
+  <p class="note">If the X app does not open from Telegram, tap the three dots at the top and choose "Open in Safari", then tap the button again.</p>
+</div>
+<script>
+  // ?t= carries the full tweet text, link included (URL-encoded by n8n).
+  const text = new URLSearchParams(location.search).get("t") || "";
+  document.getElementById("tweet").textContent = text;
+  document.getElementById("count").textContent = text.length + " characters (links count as 23 on X)";
+  const app = "twitter://post?message=" + encodeURIComponent(text);
+  document.getElementById("app").href = app;
+  document.getElementById("web").href = "https://x.com/intent/post?text=" + encodeURIComponent(text);
+  document.getElementById("copy").onclick = async () => {
+    try { await navigator.clipboard.writeText(text); document.getElementById("copy").textContent = "Copied, now paste it in X"; }
+    catch (e) { document.getElementById("copy").textContent = "Long-press the tweet above to copy"; }
+  };
+</script>
+</body>
+</html>
