@@ -110,12 +110,16 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list) -> d
         '"title": a news headline, max 70 characters, about the most important incident of the day, no date, '
         "sentence case.\n"
         '"excerpt": meta description, max 155 characters.\n'
-        '"article_html": the article body in HTML using only <p>, <h2>, <ul>, <li>, <strong>. Structure: a lede '
-        "paragraph with the most important news; a second paragraph with the overall picture; then one <h2> section "
-        "per region (Strait of Hormuz area first if it has incidents, then Black Sea), each incident in its own short "
-        "paragraph with attribution; then <h2>What this means for crews</h2> with 2 or 3 practical sentences "
-        "(follow UKMTO/JMIC guidance, report to UKMTO, company security procedures). 300 to 700 words. No sources "
-        "list (it is added automatically).\n"
+        '"key_points": 3 to 5 bullet points (plain text, each one sentence of at most 20 words) summarising the '
+        "day for a reader who reads nothing else; the most important first; keep claim wording.\n"
+        '"article_html": the article body in HTML using only <p>, <h2>, <ul>, <li>, <strong>. Readability rules: '
+        "every paragraph at most 3 sentences and about 60 words; one incident per paragraph; short sentences. "
+        "Structure: a lede paragraph of one or two sentences with the single most important news; a second short "
+        "paragraph with the overall picture; then one <h2> section per region (Strait of Hormuz area first if it has "
+        "incidents, then Black Sea), each incident in its own short paragraph with attribution; then "
+        "<h2>What this means for crews</h2> with 2 or 3 practical sentences (follow UKMTO/JMIC guidance, report to "
+        "UKMTO, company security procedures). 300 to 650 words. Do not repeat the key points word for word. "
+        "No sources list (it is added automatically).\n"
         '"x_post": the tweet that shares the article: one or two short sentences, at most 200 characters, saying what '
         "happened and where; then a space and 3 or 4 hashtags chosen from #MaritimeSecurity #Shipping #Seafarers "
         "#BlackSea #StraitOfHormuz #Tanker #UKMTO #MaritimeNews, picking those that fit; no link (added automatically)."
@@ -139,9 +143,12 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list) -> d
         "title": f"Black Sea and Hormuz {'Shipping Attacks' if n else 'Maritime Security'}: {day_label}",
         "excerpt": f"Attacks on merchant ships in the Black Sea and Strait of Hormuz in the last 24 hours, {day_label}. {summary}.",
         "article_html": "",
+        "key_points": [],
         "x_post": f"Maritime Security Brief, {day_label}: {summary}. #MaritimeSecurity #Shipping #Seafarers",
     }
-    out = {k: no_em_dash(str(copy.get(k) or fallback[k])) for k in fallback}
+    points = copy.get("key_points") if isinstance(copy.get("key_points"), list) else []
+    out = {k: no_em_dash(str(copy.get(k) or fallback[k])) for k in fallback if k != "key_points"}
+    out["key_points"] = [no_em_dash(str(p)).strip() for p in points if str(p).strip()][:5]
     out["title"] = out["title"][:90]
     out["article_html"] = _clean_html(out["article_html"])
     return out
@@ -185,7 +192,11 @@ def build(now=None) -> dict:
     copy = write_copy(day_label, new, updated, corrections)
 
     if copy["article_html"]:
-        parts = [copy["article_html"]]
+        parts = []
+        if copy["key_points"]:
+            parts.append('<div class="msb-key-points"><p><strong>Key points</strong></p><ul>'
+                         + "".join(f"<li>{html.escape(p)}</li>" for p in copy["key_points"]) + "</ul></div>")
+        parts.append(copy["article_html"])
     else:  # the AI failed: fall back to the structured layout
         parts = [f"<p>In the 24 hours to 06:00 UTC on {html.escape(day_label)}: "
                  f"{html.escape(copy['excerpt'])}</p>"]

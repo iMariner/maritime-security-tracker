@@ -9,6 +9,10 @@ on:
         description: "Preview only (no WordPress, no social)"
         type: boolean
         default: false
+      notify:
+        description: "Send the Telegram approval message"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -76,7 +80,7 @@ jobs:
           done
           echo "Preview not online after 5 minutes; sending the approval message anyway"
       - name: Send to n8n for approval
-        if: ${{ !inputs.preview }}
+        if: ${{ !inputs.preview && inputs.notify != false }}
         env:
           N8N_WEBHOOK_URL: ${{ secrets.N8N_WEBHOOK_URL }}
           N8N_WEBHOOK_TOKEN: ${{ secrets.N8N_WEBHOOK_TOKEN }}
