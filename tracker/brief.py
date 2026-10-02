@@ -38,11 +38,14 @@ def select(incidents: list[dict], since) -> tuple[list[dict], list[dict], list[d
     corrections: already published, and now rejected."""
     from .common import load_yaml
 
-    include_naval = bool(load_yaml("regions.yaml").get("include_naval"))
+    cfg = load_yaml("regions.yaml")
+    include_naval = bool(cfg.get("include_naval"))
+    regions_on = {r["name"] for r in cfg.get("regions", []) if r.get("enabled")}
     oldest_event = since - timedelta(days=6)
     new, updated, corrections = [], [], []
     for inc in incidents:
-        if inc.get("merged_into") or (inc.get("vessel_category") == "naval" and not include_naval):
+        if inc.get("merged_into") or inc.get("region") not in regions_on or (
+                inc.get("vessel_category") == "naval" and not include_naval):
             continue
         first = parse_dt(inc.get("first_seen"))
         changed = parse_dt(inc.get("status_changed_at"))

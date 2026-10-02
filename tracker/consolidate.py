@@ -19,6 +19,7 @@ GROUPS = {
     "Black Sea": {"Black Sea", "Sea of Azov"},
 }
 WINDOW = timedelta(days=10)
+ALL_REGIONS = ["Black Sea", "Sea of Azov", "Strait of Hormuz", "Persian Gulf", "Gulf of Oman", "Red Sea", "Gulf of Aden"]
 CLOSED = ("rejected", "merged")
 
 
@@ -48,12 +49,19 @@ def _system(regions_on: list[str]) -> str:
         "1. Group entries that are the same real-world attack (or the same cluster of attacks reported together). "
         "Merge only when the details clearly fit: same area, dates within about two days, compatible vessel and "
         "attack details, overlapping headlines. When unsure, do not merge.\n"
-        "2. Mark entries out of scope: no merchant or civilian vessel attacked (strikes on ports or land only), "
-        "attacks on warships, vague statements with no specific incident, or a region outside "
-        f"{', '.join(regions_on)}.\n"
+        "2. Mark an entry out of scope ONLY for one of these reasons: (a) no vessel was attacked at all (a strike "
+        "on a port, terminal or land with no ship hit); (b) the target was a warship or military vessel; (c) it "
+        "describes no specific incident at all (general commentary, statistics, policy news). These are NOT "
+        "reasons to drop an entry: the vessel is not named, there is only one source, it is an unconfirmed claim "
+        "by one side (claims are published as claims), or details are thin. "
+        f"Every one of these areas is IN scope: {', '.join(regions_on)}.\n"
         'Return JSON: {"groups": [{"keep": "<id>", "merge": ["<id>", ...], "vessel_name": "<name or null>", '
         '"date_utc": "<best date of the attack, YYYY-MM-DD>", "summary": "<2 plain sentences describing the '
         'event, attributing claims, no em dashes>"}], "out_of_scope": [{"id": "<id>", "reason": "<short reason>"}]}. '
+        "3. Correct an entry's region when it is clearly wrong (e.g. Yanbu, Jeddah or Houthi attacks off Yemen are "
+        f"Red Sea; Aden is Gulf of Aden). Allowed regions: {', '.join(ALL_REGIONS)}.\n"
+        "The out_of_scope reason must name which of (a), (b) or (c) applies. "
+        "Also return \"region_fixes\": [{\"id\": \"<id>\", \"region\": \"<correct region>\"}] (empty if none). "
         "Only list groups that merge at least one entry. 'keep' is the entry with the most specific details "
         "(a named vessel or an official confirmation). Never invent details."
     )
@@ -130,6 +138,11 @@ def consolidate(incidents: list[dict]) -> int:
             keep["last_updated"] = stamp
             closed += len(merged)
             log.info("Review: merged %s into %s", ", ".join(merged), keep["id"])
+        for fix in answer.get("region_fixes") or []:
+            inc = by_id.get(fix.get("id"))
+            if inc and inc["id"] in live_ids and fix.get("region") in ALL_REGIONS and fix["region"] != inc.get("region"):
+                log.info("Review: %s region %s -> %s", inc["id"], inc.get("region"), fix["region"])
+                inc["region"], inc["last_updated"] = fix["region"], stamp
         for o in answer.get("out_of_scope") or []:
             inc = by_id.get(o.get("id"))
             if not inc or inc["id"] not in live_ids or inc.get("merged_into") or inc.get("status") in CLOSED:
