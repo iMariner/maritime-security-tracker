@@ -10,6 +10,9 @@ feeds:
   - {name: The Maritime Executive, url: "https://maritime-executive.com/articles.rss", side: neutral, kind: media, require_region_term: true}
   - {name: Seatrade Maritime, url: "https://www.seatrade-maritime.com/rss.xml", side: neutral, kind: media, require_region_term: true}
   - {name: Hellenic Shipping News, url: "https://www.hellenicshippingnews.com/feed/", side: neutral, kind: media, require_region_term: true}
+  # Official: US Central Command press releases (Red Sea, Gulf). The US is a party in the region, so its
+  # statements count as one side's account, like the Russian and Ukrainian ministries.
+  - {name: US CENTCOM, url: "https://www.centcom.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=808&max=20", side: us, kind: official, require_region_term: true}
 
 # Google News search feeds. One feed per query; {q} is URL-encoded automatically.
 google_news:

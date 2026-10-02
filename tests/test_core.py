@@ -214,3 +214,22 @@ def test_fit_tweet():
     long = "First sentence about a tanker hit in Hormuz with a fire on board and crew safe. " * 2 + "Second sentence about the Black Sea claim. #MaritimeSecurity #Shipping"
     out = fit_tweet(long)
     assert len(out) + 24 <= 280 and out.endswith("#MaritimeSecurity #Shipping")
+
+
+def test_imo_list_parse():
+    from datetime import datetime, timezone
+    from tracker.collectors import imo
+    html = """<p>Number of confirmed incidents as at 30 September 2026: 3</p><table>
+    <tr><th>Date</th><th>Ship Name (IMO Number)</th><th>Location</th><th>Description</th></tr>
+    <tr><td>29 September</td><td>SINBAD (IMO\xa09413688)</td><td>Strait of Hormuz</td><td>Damaged. No pollution.</td></tr>
+    <tr><td>23 September</td><td>CAPE DAO (IMO 9219020)</td><td>15NM northeast of Khasab, Oman</td><td>Damaged. One seafarer fatality.</td></tr>
+    <tr><td>4 December</td><td>OLD SHIP (IMO 9000001)</td><td>off Fujairah</td><td>Damaged.</td></tr></table>"""
+    rows = imo.parse(html)
+    assert [r["name"] for r in rows] == ["SINBAD", "CAPE DAO", "OLD SHIP"] and rows[0]["imo"] == "9413688"
+    assert rows[0]["date"] == datetime(2026, 9, 29, tzinfo=timezone.utc) and rows[2]["date"].year == 2025
+    rep = imo.to_report(rows[1], "2026-10-02T00:00:00Z")
+    assert rep["region"] == "Strait of Hormuz" and rep["casualties"] == "One seafarer fatality."
+    incs = []
+    inc, _ = store.merge(rep, incs, model_checked=True)
+    assert inc["status"] == "confirmed" and inc["imo"] == "9219020"
+    assert imo.region_for("off Fujairah") == "Gulf of Oman" and imo.region_for("near Hodeidah") == "Red Sea"

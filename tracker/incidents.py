@@ -144,6 +144,7 @@ def _ai_choose(report: dict, candidates: list[dict]) -> dict | None:
 # Only these count as neutral confirmation. Party militaries and governments never do, whatever the model says.
 NEUTRAL_AUTHORITIES = re.compile(
     r"ukmto|jmic|marad|msci|nato|shipping centre|coast ?guard|flag state|registry|\bowner|manager|operator|"
+    r"\bimo\b|international maritime organi|"
     r"imb|piracy reporting|eunavfor|aspides|atalanta|combined maritime forces|\bcmf\b|ambrey|lloyd|"
     r"compan|shipping|tankers?\b|lines\b|maritime\b|\bp&i\b", re.I)
 PARTY_AUTHORITIES = re.compile(r"russia|ukrain|iran|irgc|houthi|ministry of defen|\bmod\b|armed forces|navy|military|kremlin|zelensk|putin", re.I)

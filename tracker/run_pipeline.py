@@ -11,7 +11,7 @@ from datetime import timedelta
 
 from . import geo, github_issues, incidents as store, llm
 from .consolidate import consolidate
-from .collectors import firms, rss, telegram
+from .collectors import firms, imo, rss, telegram
 from .common import SEEN_FILE, env, iso, log, now_utc, parse_dt, prune_seen, read_json, write_json
 from .extract import extract
 from .prefilter import is_candidate
@@ -76,6 +76,11 @@ def main() -> None:
             continue
         seen[key] = stamp
         store.add_firms_signal(det, incidents)
+
+    # Official confirmed incidents (IMO list): named ships with IMO numbers, merged by IMO number.
+    for rep in imo.collect(seen):
+        inc, is_new = store.merge(rep, incidents, model_checked=True)
+        log.info("IMO list: %s %s (%s)", "added" if is_new else "matched", rep["vessel_name"], inc["id"])
 
     # Review pass: merge entries that are the same real attack, drop out-of-scope ones. Only when this run
     # added or changed an incident; otherwise there is nothing new to compare and the call is wasted.
