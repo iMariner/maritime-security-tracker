@@ -11,7 +11,7 @@ before moving on. Anything marked **ASK** needs Ajit's decision or credentials; 
 
 ## 0. What is being built (read first)
 
-A daily **Maritime Security Brief** on attacks against ships in the Black Sea and the Strait of Hormuz,
+A daily **Maritime Security Brief** on attacks against ships in the Black Sea, the Red Sea and the Gulf,
 published on imariners.com and shared on X and LinkedIn.
 
 | Part | Runs on | Job |

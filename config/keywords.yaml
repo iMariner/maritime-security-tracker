@@ -3,6 +3,9 @@
 # attack term (plus a region term for feeds that require one).
 
 vessel_terms:
+  # Arabic
+  - سفينة
+  - ناقلة
   # English
   - ship
   - vessel
@@ -44,6 +47,11 @@ vessel_terms:
   - vas
 
 attack_terms:
+  # Arabic
+  - هجوم
+  - استهداف
+  - صاروخ
+  - مسيرة
   # English
   - attack
   - strike
@@ -125,6 +133,21 @@ region_terms:
   - persian gulf
   - arabian gulf
   - ukmto
+  - red sea
+  - gulf of aden
+  - bab el-mandeb
+  - bab al-mandab
+  - houthi
+  - yemen
+  - hodeidah
+  - aden
+  - jeddah
+  - yanbu
+  - djibouti
+  - eilat
+  - port sudan
+  - البحر الأحمر
+  - الحوثي
   - чорн
   - черн
   - одес

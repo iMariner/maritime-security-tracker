@@ -17,6 +17,9 @@ google_news:
   - {lang: en, gl: US, q: '(Novorossiysk OR Odesa OR Odessa OR Izmail OR Chornomorsk) (ship OR vessel OR tanker) (attack OR drone OR strike)'}
   - {lang: en, gl: US, q: '(Hormuz OR "Gulf of Oman" OR Fujairah) (ship OR vessel OR tanker) (attack OR drone OR missile OR seized)'}
   - {lang: en, gl: US, q: 'UKMTO incident'}
+  - {lang: en, gl: US, q: '("Red Sea" OR "Gulf of Aden" OR "Bab el-Mandeb" OR Hodeidah) (ship OR vessel OR tanker) (attack OR missile OR drone OR hijack)'}
+  - {lang: en, gl: US, q: 'Houthi (ship OR vessel OR tanker OR bulker) (attack OR missile OR drone OR claim)'}
+  - {lang: ar, gl: YE, q: 'سفينة هجوم البحر الأحمر OR الحوثيون استهداف سفينة'}
   - {lang: en, gl: US, q: '"shadow fleet" tanker (attack OR drone OR explosion)'}
   - {lang: uk, gl: UA, q: 'судно атака Одеса OR танкер дрон OR удар по судну'}
   - {lang: ru, gl: RU, q: 'танкер атака OR судно атака Черное море OR безэкипажный катер судно'}

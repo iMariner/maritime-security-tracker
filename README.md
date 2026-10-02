@@ -1,6 +1,6 @@
 # Maritime Security Tracker
 
-Tracks attacks on vessels in the **Black Sea** and the **Strait of Hormuz / Gulf / Gulf of Oman**,
+Tracks attacks on vessels in the **Black Sea**, the **Red Sea / Gulf of Aden** and the **Strait of Hormuz / Gulf / Gulf of Oman**,
 from news, official advisories, public Telegram channels (both sides of the conflict, five languages)
 and NASA satellite fire detections. Every morning it writes the **Maritime Security Brief**, publishes
 it on imariners.com and shares it on X.
@@ -103,7 +103,7 @@ python3.12 -m venv .venv && .venv/bin/pip install -r requirements.txt
 - `config/channels.yaml`: Telegram channels (add `side` and `kind` for each).
 - `config/feeds.yaml`: RSS and Google News queries.
 - `config/keywords.yaml`: pre-filter words. Too many AI calls: tighten it. Missed incidents: widen it.
-- `config/regions.yaml`: regions on/off (Red Sea and Gulf of Aden are listed but off), naval vessels on/off,
+- `config/regions.yaml`: regions on/off (all on, including Red Sea and Gulf of Aden), naval vessels on/off,
   FIRMS sea and port areas.
 
 ## Things to know

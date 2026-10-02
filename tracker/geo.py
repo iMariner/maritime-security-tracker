@@ -27,6 +27,18 @@ PLACES = [
     (r"sea of azov|азовськ|азовск", 46.10, 36.80),
     (r"danube|дунай", 45.30, 29.20),
     (r"crimea|крим|крым", 44.90, 33.60),
+    # Red Sea and Gulf of Aden
+    (r"bab[- ]el[- ]mandeb|bab al[- ]mandab", 12.60, 43.40),
+    (r"hodeidah|hudaydah|ras isa|salif", 14.80, 42.80),
+    (r"mokha|mocha", 13.30, 43.20),
+    (r"\baden\b", 12.70, 45.20),
+    (r"djibouti", 11.70, 43.30),
+    (r"jeddah|jiddah", 21.50, 39.00),
+    (r"yanbu", 24.00, 38.00),
+    (r"port sudan", 19.60, 37.30),
+    (r"eilat|aqaba", 29.40, 34.95),
+    (r"gulf of aden", 12.80, 47.50),
+    (r"red sea|البحر الأحمر", 17.50, 40.50),
     # Strait of Hormuz, Gulf, Gulf of Oman
     (r"fujairah|фуджейр", 25.15, 56.45),
     (r"khor fakkan", 25.35, 56.40),

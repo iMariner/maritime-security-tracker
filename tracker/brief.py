@@ -134,7 +134,7 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list) -> d
         "No sources list (it is added automatically).\n"
         '"x_post": the tweet that shares the article: one or two short sentences, at most 200 characters, saying what '
         "happened and where; then a space and 3 or 4 hashtags chosen from #MaritimeSecurity #Shipping #Seafarers "
-        "#BlackSea #StraitOfHormuz #Tanker #UKMTO #MaritimeNews, picking those that fit; no link (added automatically)."
+        "#BlackSea #StraitOfHormuz #RedSea #Tanker #UKMTO #MaritimeNews, picking those that fit; no link (added automatically)."
     )
     user = json.dumps({"date": day_label, "new_incidents": [_facts(i) for i in new],
                        "updates_on_earlier_incidents": [_facts(i) for i in updated],
@@ -152,8 +152,8 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list) -> d
         by_region[i["region"]] = by_region.get(i["region"], 0) + 1
     summary = ", ".join(f"{r}: {c}" for r, c in by_region.items()) or "no verified attacks on vessels reported"
     fallback = {
-        "title": f"Black Sea and Hormuz {'Shipping Attacks' if n else 'Maritime Security'}: {day_label}",
-        "excerpt": f"Attacks on merchant ships in the Black Sea and Strait of Hormuz in the last 24 hours, {day_label}. {summary}.",
+        "title": f"{'Shipping attacks' if n else 'Maritime security'} in the Black Sea, Red Sea and Gulf: {day_label}",
+        "excerpt": f"Attacks on merchant ships in the Black Sea, Red Sea and Gulf in the last 24 hours, {day_label}. {summary}.",
         "article_html": "",
         "key_points": [],
         "x_post": f"Maritime Security Brief, {day_label}: {summary}. #MaritimeSecurity #Shipping #Seafarers",
@@ -266,7 +266,7 @@ def build(now=None) -> dict:
             f"<li>{html.escape(i.get('vessel_name') or i['id'])} ({html.escape(i['region'])}): an earlier report was "
             f"checked and not confirmed. {html.escape((i.get('verdict') or {}).get('note') or '')}</li>" for i in corrections) + "</ul>")
     if not (new or updated or corrections):
-        parts.append("<p>No attacks on merchant vessels were reported in the Black Sea or the Strait of Hormuz area in the last 24 hours.</p>")
+        parts.append("<p>No attacks on merchant vessels were reported in the Black Sea, the Red Sea or the Gulf area in the last 24 hours.</p>")
     if copy["article_html"]:
         parts.append(sources_html(new + updated))
     parts.append(

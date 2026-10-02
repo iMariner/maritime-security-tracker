@@ -13,7 +13,8 @@ NAVY, SEA, WHITE, MUTED = (11, 37, 69), (230, 238, 245), (255, 255, 255), (150, 
 STATUS_COLOURS = {"confirmed": (200, 30, 45), "reported": (235, 120, 20), "claimed": (120, 120, 120)}
 PANELS = [
     ("Black Sea", (27.5, 40.8, 42.0, 47.2), {"Black Sea", "Sea of Azov"}),
-    ("Strait of Hormuz", (54.0, 23.2, 60.0, 27.5), {"Strait of Hormuz", "Persian Gulf", "Gulf of Oman"}),
+    ("Red Sea and Gulf", (32.0, 11.0, 60.0, 30.0),
+     {"Strait of Hormuz", "Persian Gulf", "Gulf of Oman", "Red Sea", "Gulf of Aden"}),
 ]
 FONT_PATHS = ["/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", "/System/Library/Fonts/Supplemental/Arial Bold.ttf"]
 
@@ -54,7 +55,7 @@ def render(day: datetime, incidents: list[dict], out: Path) -> Path:
     img = Image.new("RGB", (W, H), NAVY)
     d = ImageDraw.Draw(img)
     d.text((40, 28), "MARITIME SECURITY BRIEF", font=_font(34), fill=WHITE)
-    d.text((40, 72), day.strftime("%-d %B %Y") + "  |  Black Sea and Strait of Hormuz", font=_font(22), fill=MUTED)
+    d.text((40, 72), day.strftime("%-d %B %Y") + "  |  Black Sea, Red Sea and Gulf", font=_font(22), fill=MUTED)
     d.text((W - 40, 34), "iMariners", font=_font(30), fill=WHITE, anchor="ra")
 
     panel_w, panel_h, top = 550, 400, 130
