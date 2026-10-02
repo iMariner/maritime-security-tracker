@@ -13,7 +13,7 @@ from datetime import timedelta
 
 from . import github_issues, llm
 from .common import iso, load_yaml, log, no_em_dash, now_utc, parse_dt
-from .incidents import MERGE_FIELDS, compute_status, same_vessel
+from .incidents import MERGE_FIELDS, compute_status, different_flags, has_official, same_vessel
 
 GROUPS = {
     "Hormuz and Gulf": {"Strait of Hormuz", "Persian Gulf", "Gulf of Oman", "Red Sea", "Gulf of Aden"},
@@ -97,14 +97,45 @@ def _close(inc: dict, why: str) -> None:
             log.warning("Could not close issue #%s: %s", inc["verification_issue"], exc)
 
 
+def absorb_into_official(incidents: list[dict]) -> int:
+    """Unnamed reports ('three tankers hit', 'a tanker struck') around official, named records (IMO list)
+    become supporting sources of the official record on the nearest date in the same area. The official
+    record keeps its own summary. Returns how many were absorbed."""
+    stamp = iso(now_utc())
+    absorbed = 0
+    for group in GROUPS.values():
+        official = [i for i in incidents if i.get("region") in group and has_official(i) and i.get("vessel_name")
+                    and i.get("status") not in CLOSED and not i.get("merged_into") and _event_time(i)]
+        if not official:
+            continue
+        for inc in incidents:
+            # Only generic reports: a report naming a flag or IMO number describes a specific ship.
+            if (inc.get("region") not in group or inc.get("vessel_name") or inc.get("flag") or inc.get("imo")
+                    or has_official(inc)
+                    or inc.get("status") in CLOSED or inc.get("merged_into") or not _event_time(inc)):
+                continue
+            near = [o for o in official if abs(_event_time(o) - _event_time(inc)) <= timedelta(days=1)
+                    and not different_flags(o, inc)]
+            if not near:
+                continue
+            target = min(near, key=lambda o: abs(_event_time(o) - _event_time(inc)))
+            _merge_into(target, inc)
+            inc["status"], inc["last_updated"] = "merged", stamp
+            target["status"], target["last_updated"] = compute_status(target), stamp
+            _close(inc, f"Closed: covered by the official IMO record {target['id']} ({target['vessel_name']}).")
+            absorbed += 1
+            log.info("Absorbed unnamed %s into official %s (%s)", inc["id"], target["id"], target["vessel_name"])
+    return absorbed
+
+
 def consolidate(incidents: list[dict]) -> int:
     """Merge duplicates and drop out-of-scope incidents in place. Returns how many entries were closed."""
+    closed = absorb_into_official(incidents)
     if not llm.available():
-        return 0
+        return closed
     regions_on = [r["name"] for r in load_yaml("regions.yaml").get("regions", []) if r.get("enabled")]
     cutoff = now_utc() - WINDOW
     by_id = {i["id"]: i for i in incidents}
-    closed = 0
     stamp = iso(now_utc())
     for group, regions in GROUPS.items():
         live = [i for i in incidents if i.get("region") in regions and i.get("status") not in CLOSED
@@ -135,6 +166,12 @@ def consolidate(incidents: list[dict]) -> int:
                     log.info("Review: not merging %s into %s (attack dates %s / %s)", mid, keep["id"],
                              g.get("keep_attack_date"), m.get("attack_date") if isinstance(m, dict) else None)
                     continue
+                if different_flags(keep, other):
+                    log.info("Review: not merging %s into %s (different flags)", mid, keep["id"])
+                    continue
+                if has_official(other) and not has_official(keep):
+                    log.info("Review: not merging official record %s into %s", mid, keep["id"])
+                    continue  # absorb_into_official() handles unnamed reports around official records
                 if keep.get("vessel_name") and other.get("vessel_name") and \
                         not same_vessel(keep["vessel_name"], other["vessel_name"]):
                     log.info("Review: not merging %s into %s (different vessels)", mid, keep["id"])
@@ -152,7 +189,7 @@ def consolidate(incidents: list[dict]) -> int:
                 keep["vessel_name"] = g["vessel_name"]  # prefer the fuller registered name
             if keep_day:
                 keep["date_utc"], keep["date_approx"] = g["keep_attack_date"], False
-            if g.get("summary") and whole_group:
+            if g.get("summary") and whole_group and not has_official(keep):
                 keep["summary"] = no_em_dash(g["summary"])
             keep["status"] = compute_status(keep)
             keep["last_updated"] = stamp

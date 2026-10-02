@@ -61,6 +61,21 @@ def same_vessel(a: str | None, b: str | None) -> bool:
     return long_.startswith(short) and bool(re.fullmatch(_NUM, long_[len(short):]))
 
 
+_FLAG_ALIASES = {"uae": "unitedarabemirates", "emirati": "unitedarabemirates", "kuwaiti": "kuwait", "panamanian": "panama",
+                 "liberian": "liberia", "maltese": "malta", "greek": "greece", "marshallislands": "marshallislands"}
+
+
+def different_flags(a: dict, b: dict) -> bool:
+    """Both flags known and not the same country: two different ships."""
+    fa, fb = (re.sub(r"[^a-z]", "", (x.get("flag") or "").lower()) for x in (a, b))
+    fa, fb = _FLAG_ALIASES.get(fa, fa), _FLAG_ALIASES.get(fb, fb)
+    return bool(fa and fb and fa != fb)
+
+
+def has_official(inc: dict) -> bool:
+    return any(s.get("source_type") == "official" and s.get("side") == "neutral" for s in inc.get("sources", []))
+
+
 def numbered_differently(a: str | None, b: str | None) -> bool:
     """'Kazimah II' vs 'Kazimah III': same stem, different numbers, so different ships."""
     x, y = norm_name(a), norm_name(b)
@@ -106,6 +121,8 @@ def find_match(report: dict, incidents: list[dict], model_checked: bool = False)
                 return inc
         # A named report can still be the first named account of an earlier unnamed incident.
     hinted = next((i for i in live if i["id"] == report.get("same_as")), None)
+    if hinted and different_flags(hinted, report):
+        hinted = None
     if hinted and not (name and hinted.get("vessel_name") and not same_vessel(hinted["vessel_name"], name)) \
             and not (imo and hinted.get("imo") and hinted["imo"] != imo):
         return hinted
@@ -228,7 +245,7 @@ def merge(report: dict, incidents: list[dict], model_checked: bool = False) -> t
         inc["official_source_cited"] = report["official_source_cited"]
         changed = True
     # A stronger source rewrites the summary (neutral beats party sources).
-    if report.get("summary") and source.get("side") == "neutral" and not any(
+    if report.get("summary") and source.get("side") == "neutral" and not has_official(inc) and not any(
         s.get("side") == "neutral" for s in inc["sources"][:-1]
     ):
         inc["summary"] = no_em_dash(report["summary"])

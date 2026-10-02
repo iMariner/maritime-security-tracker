@@ -233,3 +233,21 @@ def test_imo_list_parse():
     inc, _ = store.merge(rep, incs, model_checked=True)
     assert inc["status"] == "confirmed" and inc["imo"] == "9219020"
     assert imo.region_for("off Fujairah") == "Gulf of Oman" and imo.region_for("near Hodeidah") == "Red Sea"
+
+
+def test_flags_and_official_absorb():
+    from tracker import consolidate as c
+    from tracker.collectors import imo
+    from datetime import datetime, timezone
+    assert store.different_flags({"flag": "Kuwait"}, {"flag": "Panama"})
+    assert not store.different_flags({"flag": "Kuwaiti"}, {"flag": "Kuwait"}) and not store.different_flags({"flag": None}, {"flag": "Panama"})
+    incs = []
+    row = {"date": datetime(2026, 9, 29, tzinfo=timezone.utc), "name": "SINBAD", "imo": "9413688", "location": "Strait of Hormuz", "description": "Damaged."}
+    off, _ = store.merge(imo.to_report(row, "2026-10-02T00:00:00Z"), incs, model_checked=True)
+    roundup, _ = store.merge(report(region="Strait of Hormuz", date_utc="2026-09-29T10:00:00Z",
+                                    summary="Three tankers hit.", source=src("https://n/r", side="neutral", kind="media", source="Seatrade")), incs, model_checked=True)
+    panama, _ = store.merge(report(region="Strait of Hormuz", date_utc="2026-09-29T12:00:00Z", flag="Panama",
+                                   source=src("https://n/p")), incs, model_checked=True)
+    assert c.absorb_into_official(incs) == 1
+    assert roundup["merged_into"] == off["id"] and off["summary"].startswith("The IMO lists SINBAD")
+    assert not panama.get("merged_into")  # a flagged report is a specific ship: never absorbed on a guess
