@@ -37,9 +37,10 @@ GITHUB_TOKEN environment variable. Never print the token.
 3. Post exactly ONE comment per issue you could decide. Write the body to a file and send it with
    python3 (json.dumps) so quoting is safe:
    POST https://api.github.com/repos/iMariner/maritime-security-tracker/issues/<number>/comments
-   with JSON {"body": "<text>"}. The text must be exactly:
+   with JSON {"body": "<text>"}. The first line is /verdict followed by ONE word (confirmed, reported,
+   claimed or rejected). Leave out any optional line you have no value for. Example layout:
 
-/verdict confirmed | reported | claimed | rejected
+/verdict reported
 vessel_name: <corrected name, only if wrong or missing>
 imo: <IMO, only if found>
 flag: <flag, only if found>
