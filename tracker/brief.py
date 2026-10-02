@@ -107,10 +107,16 @@ def _facts(inc: dict) -> dict:
 def write_copy(day_label: str, new: list, updated: list, corrections: list) -> dict:
     """AI writes the news article, headline, excerpt and tweet from the structured facts only."""
     system = (
-        "You are a news editor at iMariners, writing the daily maritime security news article for merchant "
-        "seafarers, ship managers and maritime professionals. Style: a straight news report, like Reuters or "
-        "Lloyd's List. Plain, calm British English. Use ONLY the facts given; never add vessels, numbers, causes, "
-        "quotes or context that is not in the facts.\n"
+        "You are a news editor at iMariners, writing the daily maritime security brief: what happened to merchant "
+        "shipping in the war-risk areas (Black Sea, Red Sea and Gulf of Aden, Strait of Hormuz and the Gulf) in "
+        "the last 24 hours, for seafarers on board and ship managers ashore. Style: a straight news report, like "
+        "Reuters or Lloyd's List. Plain, calm British English. Use ONLY the facts given; never add vessels, numbers, "
+        "causes, quotes or context that is not in the facts.\n"
+        "Time rules: this is a 24-hour brief dated {date}. Give the date of every attack ('on 1 October'). When an "
+        "attack happened more than a day before {date} but was only reported now, say so plainly ('UKMTO released "
+        "late reports of attacks on 28 and 29 September'), never present it as new. For each area listed in "
+        "quiet_areas, say in one sentence that no new attacks on merchant ships were reported there in the last "
+        "24 hours.\n"
         "Accuracy rules: attribute every claim in the text (e.g. 'UKMTO said', 'Russia's defence ministry claimed', "
         "'according to Splash247'). An incident with status 'claimed' must read as a claim by that party, never as "
         "fact. 'reported' means independent reporting without official confirmation. 'confirmed' means confirmed by "
@@ -136,7 +142,12 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list) -> d
         "happened and where; then a space and 3 or 4 hashtags chosen from #MaritimeSecurity #Shipping #Seafarers "
         "#BlackSea #StraitOfHormuz #RedSea #Tanker #UKMTO #MaritimeNews, picking those that fit; no link (added automatically)."
     )
-    user = json.dumps({"date": day_label, "new_incidents": [_facts(i) for i in new],
+    areas = {"Strait of Hormuz and the Gulf": {"Strait of Hormuz", "Persian Gulf", "Gulf of Oman"},
+             "Red Sea and Gulf of Aden": {"Red Sea", "Gulf of Aden"}, "Black Sea": {"Black Sea", "Sea of Azov"}}
+    active = {i["region"] for i in new + updated}
+    quiet = [a for a, regs in areas.items() if not regs & active]
+    system = system.replace("{date}", day_label)
+    user = json.dumps({"date": day_label, "quiet_areas": quiet, "new_incidents": [_facts(i) for i in new],
                        "updates_on_earlier_incidents": [_facts(i) for i in updated],
                        "corrections": [{"region": i["region"], "vessel_name": i.get("vessel_name"),
                                         "note": (i.get("verdict") or {}).get("note")} for i in corrections]},
@@ -158,9 +169,12 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list) -> d
         "key_points": [],
         "x_post": f"Maritime Security Brief, {day_label}: {summary}. #MaritimeSecurity #Shipping #Seafarers",
     }
+    if copy.get("article_html"):
+        copy = fact_check(copy, user)
     points = copy.get("key_points") if isinstance(copy.get("key_points"), list) else []
     out = {k: no_em_dash(str(copy.get(k) or fallback[k])) for k in fallback if k != "key_points"}
     out["key_points"] = [no_em_dash(str(p)).strip() for p in points if str(p).strip()][:5]
+    out["fact_check"] = copy.get("fact_check", "not run")
     out["title"] = out["title"][:90]
     out["x_post"] = fit_tweet(out["x_post"])
     out["article_html"] = _clean_html(out["article_html"])
@@ -213,6 +227,39 @@ def fit_tweet(text: str, limit: int = 280 - 24) -> str:
         sentences.pop()
     out = (" ".join(sentences) + " " + tags).strip()
     return out if len(out) <= limit else out[: limit - 1].rstrip() + "…"
+
+
+def fact_check(copy: dict, facts_json: str) -> dict:
+    """Second pass: check every sentence of the draft against the facts and correct what they do not support."""
+    system = (
+        "You are the fact-checker of a maritime security news desk. You get the FACTS (structured incident records) "
+        "and a DRAFT (title, key points, article, tweet). Check every sentence of the draft against the facts. "
+        "Correct anything not supported: wrong or missing dates, an attack presented as new when the facts show it "
+        "happened earlier, a claim worded as fact, the wrong source credited (e.g. saying UKMTO named a ship when "
+        "the facts say shipping media named it), details merged from two different incidents, places or vessels "
+        "not in the facts, or blame not stated in the facts. Keep everything that is supported, keep the style, "
+        "keep the HTML tags, never add new facts, never use em or en dashes.\n"
+        'Return JSON: {"title": "...", "key_points": ["..."], "article_html": "...", "x_post": "...", '
+        '"corrections": ["one short line per change you made"]}.'
+    )
+    draft = {k: copy.get(k) for k in ("title", "key_points", "article_html", "x_post")}
+    try:
+        checked = llm.chat_json(system, json.dumps({"FACTS": json.loads(facts_json), "DRAFT": draft}, ensure_ascii=False),
+                                kind="brief", max_tokens=5000)
+    except (RuntimeError, ValueError) as exc:
+        log.warning("Fact-check skipped: %s", exc)
+        copy["fact_check"] = "skipped"
+        return copy
+    fixes = [str(c) for c in checked.get("corrections") or [] if str(c).strip()]
+    for k in ("title", "article_html", "x_post"):
+        if isinstance(checked.get(k), str) and checked[k].strip():
+            copy[k] = checked[k]
+    if isinstance(checked.get("key_points"), list) and checked["key_points"]:
+        copy["key_points"] = checked["key_points"]
+    copy["fact_check"] = f"{len(fixes)} correction(s)" if fixes else "no corrections needed"
+    for f in fixes:
+        log.info("Fact-check: %s", f[:200])
+    return copy
 
 
 def sources_html(incidents: list[dict]) -> str:
@@ -279,6 +326,7 @@ def build(now=None) -> dict:
     body = no_em_dash("\n".join(parts))
     return {"date": now.date().isoformat(), "day_label": day_label, "generated_at": iso(now),
             **{k: copy[k] for k in ("title", "excerpt", "x_post")}, "html": body,
+            "fact_check": copy.get("fact_check", "not run"),
             "incident_ids": [i["id"] for i in new + updated], "correction_ids": [i["id"] for i in corrections],
             "counts": {"new": len(new), "updated": len(updated), "corrections": len(corrections)},
             "_incidents": new + updated}
@@ -304,7 +352,7 @@ def publish(brief: dict, image: Path) -> dict:
     preview_url = write_preview_page(brief, image_url)  # brief["html"] already carries the map
     record.update(post_id=post["id"], media_id=media_id, image_url=image_url, preview_url=preview_url,
                   link=post["link"], status=post["status"],
-                  **{k: brief[k] for k in ("title", "excerpt", "x_post", "incident_ids", "counts")})
+                  **{k: brief[k] for k in ("title", "excerpt", "x_post", "incident_ids", "counts", "fact_check")})
     write_json(record_path, record)
     log.info("WordPress post %s (%s): %s", post["id"], post["status"], post["link"])
     return record
