@@ -194,7 +194,7 @@
     {
       "parameters": {
         "chatId": "REPLACE_WITH_YOUR_TELEGRAM_CHAT_ID",
-        "text": "=Published: {{ $('Social text').item.json.link }}\nX: {{ $('Post on X').item.json.error ? 'FAILED ' + $('Post on X').item.json.error.message : 'posted' }}",
+        "text": "=Published on iMariners: {{ $('Social text').item.json.link }}",
         "additionalFields": {
           "disable_web_page_preview": true
         }
