@@ -68,10 +68,8 @@ def incident_html(inc: dict) -> str:
         ("Casualties", _e(inc.get("casualties"))),
         ("Claimed by / attributed to", _e(inc.get("attribution_claimed"))),
     ]
-    sources = "".join(
-        f'<li><a href="{html.escape(s["url"])}" rel="nofollow noopener" target="_blank">{html.escape(s["source"])}</a></li>'
-        for s in inc["sources"]
-    )
+    sources = "".join(f"<li>{html.escape(name)}</li>" for name in
+                      dict.fromkeys(s["source"] for s in inc["sources"] if s.get("source_type") != "satellite"))
     table = "".join(f"<tr><th>{k}</th><td>{v}</td></tr>" for k, v in rows)
     return (f'<h3>{html.escape(no_em_dash(head))}</h3>\n<p>{html.escape(no_em_dash(inc.get("summary") or ""))}</p>\n'
             f'<table class="msb-incident"><tbody>{table}</tbody></table>\n<p><strong>Sources:</strong></p><ul>{sources}</ul>')
@@ -150,24 +148,24 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list) -> d
 
 
 def sources_html(incidents: list[dict]) -> str:
-    """Compact source list: one line per incident, official and independent sources first, at most 5 links."""
+    """Compact source list: one line per incident naming the outlets (no links), official first, at most 5."""
     items = []
     for inc in incidents:
-        srcs = [s for s in inc["sources"] if s.get("source_type") != "satellite"]
+        srcs = [s for s in inc["sources"] if s.get("source_type") not in ("satellite", "verification")]
         srcs.sort(key=lambda s: (SOURCE_RANK.get(s.get("kind"), 9), s.get("side") != "neutral"))
-        seen, links = set(), []
+        names, seen = [], set()
         for s in srcs:
-            if s["source"] in seen:
+            name = re.split(r"\s[-\u2013\u2014|:]\s", s["source"])[0].strip()  # "ABC News - Breaking..." -> "ABC News"
+            key = re.sub(r"[^a-z0-9]", "", name.lower().replace("24/7", "247"))  # "Splash 24/7" == "Splash247"
+            if not key or key in seen:
                 continue
-            seen.add(s["source"])
-            name = re.split(r"\s[-\u2013\u2014|:]\s", s["source"])[0]  # "ABC News - Breaking News..." -> "ABC News"
-            links.append(f'<a href="{html.escape(s["url"])}" rel="nofollow noopener" target="_blank">'
-                         f'{html.escape(name)}</a>')
-            if len(links) == 5:
+            seen.add(key)
+            names.append(html.escape(name))
+            if len(names) == 5:
                 break
         label = inc.get("vessel_name") or (inc.get("vessel_type") or "vessel").capitalize()
         items.append(f"<li><strong>{html.escape(label)}, {html.escape(inc['region'])}</strong> "
-                     f"({STATUS_LABEL[inc['status']].lower()}): {', '.join(links)}</li>")
+                     f"({STATUS_LABEL[inc['status']].lower()}): {', '.join(names)}</li>")
     return "<h2>Sources</h2><ul>" + "".join(items) + "</ul>" if items else ""
 
 

@@ -140,4 +140,4 @@ def test_article_helpers():
     inc, _ = store.merge(report(vessel_name="Kazimah", region="Strait of Hormuz", source=src("https://a/1", side="unknown", kind="media", source="Outlet")), incs)
     store.merge(report(vessel_name="Kazimah", region="Strait of Hormuz", source=src("https://u/2", side="neutral", kind="official", source="UKMTO")), incs)
     out = sources_html(incs)
-    assert out.index("UKMTO") < out.index("Outlet") and "Kazimah, Strait of Hormuz" in out
+    assert out.index("UKMTO") < out.index("Outlet") and "Kazimah, Strait of Hormuz" in out and "<a " not in out
