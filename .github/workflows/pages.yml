@@ -1,0 +1,43 @@
+name: Dashboard (GitHub Pages)
+
+on:
+  push:
+    branches: [main]
+    paths: ["data/incidents.json", "site/**"]
+  # Commits made by the other workflows use GITHUB_TOKEN, which does not trigger `push`,
+  # so also rebuild whenever one of them finishes.
+  workflow_run:
+    workflows: ["Collect and process", "Daily brief", "Apply verdict"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Build site
+        run: |
+          mkdir -p _site
+          cp site/* _site/
+          # Publish only what the brief would publish (no satellite-only leads, no rejected reports).
+          python3 -c "import json;d=json.load(open('data/incidents.json'));json.dump([i for i in d if i['status'] in ('claimed','reported','confirmed')],open('_site/incidents.json','w'),ensure_ascii=False)"
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4

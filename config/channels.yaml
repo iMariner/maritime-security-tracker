@@ -1,0 +1,37 @@
+# Public Telegram channels, read through the web preview at https://t.me/s/<handle>.
+# No Telegram account is needed for this.
+#
+# side:  ua | ru | neutral   (whose side the channel speaks for)
+# kind:  official | media | osint | local
+#   official + ua/ru  -> the incident is labelled "claimed" until someone else backs it up
+#   official + neutral -> counts as confirmation
+#
+# Every handle below was checked on 2026-10-02 and returned public posts.
+# Handles change; the collector logs any channel that comes back empty.
+
+channels:
+  # Ukrainian side
+  - {handle: ukrainian_navy, name: "Ukrainian Navy", side: ua, kind: official}
+  - {handle: odeskaODA, name: "Odesa Regional Military Administration", side: ua, kind: official}
+  - {handle: operativnoZSU, name: "Operatyvnyi ZSU", side: ua, kind: media}
+  - {handle: uniannet, name: "UNIAN", side: ua, kind: media}
+  - {handle: ukrpravda_news, name: "Ukrainska Pravda", side: ua, kind: media}
+  - {handle: suspilneodesa, name: "Suspilne Odesa", side: ua, kind: local}
+  - {handle: Crimeanwind, name: "Crimean Wind", side: ua, kind: osint}
+  - {handle: UkraineNow, name: "Ukraine NOW", side: ua, kind: media}
+
+  # Russian side
+  - {handle: mod_russia, name: "Russian Ministry of Defence", side: ru, kind: official}
+  - {handle: opershtab23, name: "Krasnodar Krai Operational HQ", side: ru, kind: official}
+  - {handle: razvozhaev, name: "Sevastopol governor (Razvozhaev)", side: ru, kind: official}
+  - {handle: tass_agency, name: "TASS", side: ru, kind: media}
+  - {handle: rian_ru, name: "RIA Novosti", side: ru, kind: media}
+  - {handle: kubanoperativ, name: "Kuban Operativny", side: ru, kind: local}
+  - {handle: tuapse_news, name: "Tuapse News", side: ru, kind: local}
+  - {handle: shot_shot, name: "SHOT", side: ru, kind: media}
+  - {handle: mash, name: "Mash", side: ru, kind: media}
+  - {handle: rybar, name: "Rybar", side: ru, kind: osint}
+  - {handle: dva_majors, name: "Dva Mayora", side: ru, kind: osint}
+
+  # Independent
+  - {handle: astrapress, name: "ASTRA", side: neutral, kind: media}

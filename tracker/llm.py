@@ -1,0 +1,78 @@
+"""One OpenAI-compatible client for any provider (DeepSeek by default).
+
+Settings (GitHub repo secrets/variables):
+  LLM_BASE_URL     https://api.deepseek.com
+  LLM_API_KEY      provider key (secret)
+  LLM_MODEL_FAST   deepseek-chat      classify + extract + matching
+  LLM_MODEL_BRIEF  deepseek-chat      daily brief
+
+Fallback: GitHub Models (free, rate limited) using the workflow's GITHUB_TOKEN,
+used when the main provider fails or has no key. Turn off with LLM_FALLBACK=off.
+"""
+from __future__ import annotations
+
+import json
+import re
+import time
+
+from openai import OpenAI
+
+from .common import env, log
+
+GITHUB_MODELS_URL = "https://models.github.ai/inference"
+
+
+def _providers(kind: str) -> list[tuple[str, OpenAI, str]]:
+    providers = []
+    key = env("LLM_API_KEY")
+    if key:
+        model = env("LLM_MODEL_BRIEF" if kind == "brief" else "LLM_MODEL_FAST") or "deepseek-chat"
+        client = OpenAI(api_key=key, base_url=env("LLM_BASE_URL", "https://api.deepseek.com"), timeout=120)
+        providers.append(("primary", client, model))
+    gh_token = env("GITHUB_TOKEN")
+    if gh_token and env("LLM_FALLBACK", "github") != "off":
+        model = env("GITHUB_MODELS_MODEL", "openai/gpt-4.1-mini")
+        providers.append(("github-models", OpenAI(api_key=gh_token, base_url=GITHUB_MODELS_URL, timeout=120), model))
+    return providers
+
+
+def available() -> bool:
+    return bool(_providers("fast"))
+
+
+def free_tier_only() -> bool:
+    """True when only GitHub Models is available (small requests, about 150 calls a day)."""
+    return not env("LLM_API_KEY") and available()
+
+
+def _parse_json(text: str) -> dict:
+    text = text.strip()
+    fenced = re.search(r"```(?:json)?\s*(.*?)```", text, re.S)
+    if fenced:
+        text = fenced.group(1)
+    start = text.find("{")
+    end = text.rfind("}")
+    if start == -1 or end == -1:
+        raise ValueError("no JSON object in response")
+    return json.loads(text[start : end + 1])
+
+
+def chat_json(system: str, user: str, kind: str = "fast", max_tokens: int = 4000) -> dict:
+    """Ask for a JSON object. Tries each provider, retrying once on bad JSON."""
+    errors = []
+    for name, client, model in _providers(kind):
+        for attempt in range(2):
+            try:
+                resp = client.chat.completions.create(
+                    model=model,
+                    messages=[{"role": "system", "content": system}, {"role": "user", "content": user}],
+                    response_format={"type": "json_object"},
+                    temperature=0.1 if kind == "fast" else 0.4,
+                    max_tokens=max_tokens,
+                )
+                return _parse_json(resp.choices[0].message.content or "")
+            except Exception as exc:  # network, rate limit, bad JSON
+                errors.append(f"{name}/{model}: {exc}")
+                log.warning("LLM call failed (%s, attempt %d): %s", name, attempt + 1, exc)
+                time.sleep(3 * (attempt + 1))
+    raise RuntimeError("All LLM providers failed: " + " | ".join(errors) if errors else "No LLM provider configured (set LLM_API_KEY)")

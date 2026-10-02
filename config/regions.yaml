@@ -1,0 +1,63 @@
+# Regions the tracker covers. Set enabled: false to drop one from the AI prompt and the brief.
+regions:
+  - {name: Black Sea, enabled: true}
+  - {name: Sea of Azov, enabled: true}
+  - {name: Strait of Hormuz, enabled: true}
+  - {name: Persian Gulf, enabled: true}
+  - {name: Gulf of Oman, enabled: true}
+  - {name: Red Sea, enabled: false}
+  - {name: Gulf of Aden, enabled: false}
+
+# Warships are out of scope by default; set true to include them.
+include_naval: false
+
+# NASA FIRMS satellite fire detection.
+# Polygons are [lon, lat] and deliberately rough: a fire inside one is only a lead for
+# verification, never published on its own.
+firms:
+  bbox:  # west, south, east, north
+    black_sea: [27.3, 40.8, 42.0, 47.5]
+    hormuz: [54.0, 23.0, 60.5, 27.5]
+  offshore:
+    Black Sea:
+      - [28.9, 42.2]
+      - [29.9, 44.2]
+      - [30.8, 45.2]
+      - [31.8, 45.9]
+      - [32.3, 45.2]
+      - [33.2, 44.4]
+      - [34.5, 44.2]
+      - [36.5, 44.5]
+      - [37.5, 44.3]
+      - [39.2, 43.4]
+      - [41.2, 41.9]
+      - [39.5, 41.3]
+      - [36.0, 41.9]
+      - [33.0, 42.2]
+      - [31.0, 41.6]
+      - [29.6, 41.6]
+    Gulf of Oman:
+      - [56.5, 25.4]
+      - [57.5, 25.4]
+      - [58.8, 24.9]
+      - [59.9, 24.1]
+      - [59.6, 23.0]
+      - [58.8, 23.9]
+      - [57.8, 24.2]
+      - [56.7, 24.6]
+  # Port areas: fires here are attached to matching incidents as satellite evidence,
+  # but do not open a verification issue on their own (ports burn too often in wartime).
+  ports:  # [west, south, east, north]
+    Odesa: [30.60, 46.40, 30.85, 46.55]
+    Chornomorsk: [30.60, 46.27, 30.70, 46.33]
+    Pivdennyi: [31.00, 46.58, 31.07, 46.65]
+    Izmail: [28.75, 45.30, 28.90, 45.37]
+    Reni: [28.25, 45.42, 28.33, 45.47]
+    Novorossiysk: [37.70, 44.65, 37.85, 44.75]
+    Tuapse: [39.05, 44.08, 39.12, 44.12]
+    Taman and Port Kavkaz: [36.65, 45.10, 36.80, 45.40]
+    Sevastopol: [33.45, 44.58, 33.60, 44.64]
+    Feodosia: [35.35, 45.02, 35.42, 45.06]
+    Constanta: [28.60, 44.10, 28.70, 44.20]
+    Bandar Abbas: [56.10, 27.05, 56.40, 27.20]
+    Fujairah anchorage: [56.30, 25.00, 56.60, 25.40]

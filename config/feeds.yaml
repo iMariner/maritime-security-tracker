@@ -1,0 +1,27 @@
+# RSS feeds. `require_region_term: true` means an item must also mention one of the
+# region words in keywords.yaml (used for global maritime feeds).
+#
+# UKMTO, JMIC, MARAD and the NATO Shipping Centre block automated access, so their
+# advisories are followed through the Google News queries below.
+
+feeds:
+  - {name: gCaptain, url: "https://gcaptain.com/feed/", side: neutral, kind: media, require_region_term: true}
+  - {name: Splash247, url: "https://splash247.com/feed/", side: neutral, kind: media, require_region_term: true}
+  - {name: The Maritime Executive, url: "https://maritime-executive.com/articles.rss", side: neutral, kind: media, require_region_term: true}
+  - {name: Seatrade Maritime, url: "https://www.seatrade-maritime.com/rss.xml", side: neutral, kind: media, require_region_term: true}
+  - {name: Hellenic Shipping News, url: "https://www.hellenicshippingnews.com/feed/", side: neutral, kind: media, require_region_term: true}
+
+# Google News search feeds. One feed per query; {q} is URL-encoded automatically.
+google_news:
+  - {lang: en, gl: US, q: '"Black Sea" (ship OR vessel OR tanker) (attack OR drone OR missile OR mine)'}
+  - {lang: en, gl: US, q: '(Novorossiysk OR Odesa OR Odessa OR Izmail OR Chornomorsk) (ship OR vessel OR tanker) (attack OR drone OR strike)'}
+  - {lang: en, gl: US, q: '(Hormuz OR "Gulf of Oman" OR Fujairah) (ship OR vessel OR tanker) (attack OR drone OR missile OR seized)'}
+  - {lang: en, gl: US, q: 'UKMTO incident'}
+  - {lang: en, gl: US, q: '"shadow fleet" tanker (attack OR drone OR explosion)'}
+  - {lang: uk, gl: UA, q: 'судно атака Одеса OR танкер дрон OR удар по судну'}
+  - {lang: ru, gl: RU, q: 'танкер атака OR судно атака Черное море OR безэкипажный катер судно'}
+  - {lang: tr, gl: TR, q: 'gemi saldırı Karadeniz OR tanker saldırı'}
+  - {lang: ro, gl: RO, q: 'navă atac "Marea Neagră" OR dronă navă'}
+
+# Google News results can come from any outlet, so their side is unknown until a second source agrees.
+google_news_defaults: {side: unknown, kind: media, require_region_term: false}

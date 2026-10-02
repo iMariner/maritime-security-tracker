@@ -1,0 +1,357 @@
+{
+  "name": "Maritime Security Brief: approve and share",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "maritime-brief",
+        "authentication": "headerAuth",
+        "responseMode": "onReceived",
+        "options": {}
+      },
+      "id": "a1",
+      "name": "Brief from GitHub",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        300
+      ],
+      "webhookId": "maritime-brief"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "typeValidation": "loose"
+          },
+          "conditions": [
+            {
+              "id": "c1",
+              "leftValue": "={{ $json.body.needs_approval }}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "a2",
+      "name": "Needs approval?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        220,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "sendAndWait",
+        "chatId": "REPLACE_WITH_YOUR_TELEGRAM_CHAT_ID",
+        "message": "=Maritime Security Brief {{ $json.body.counts.new }} new, {{ $json.body.counts.updated }} updates\n\n{{ $json.body.title }}\n\nX:\n{{ $json.body.x_post }}\n\nDraft: {{ $json.body.wp_url }}/?p={{ $json.body.post_id }}&preview=true",
+        "approvalOptions": {
+          "values": {
+            "approvalType": "double",
+            "approveLabel": "Publish",
+            "disapproveLabel": "Skip"
+          }
+        },
+        "options": {
+          "limitWaitTime": {
+            "values": {
+              "limitType": "afterTimeInterval",
+              "resumeAmount": 6,
+              "resumeUnit": "hours"
+            }
+          }
+        }
+      },
+      "id": "a3",
+      "name": "Ask me on Telegram",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        440,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "typeValidation": "loose"
+          },
+          "conditions": [
+            {
+              "id": "c2",
+              "leftValue": "={{ $json.data.approved }}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "a4",
+      "name": "Approved?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        660,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $('Brief from GitHub').item.json.body.wp_url }}/wp-json/wp/v2/posts/{{ $('Brief from GitHub').item.json.body.post_id }}",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "wordpressApi",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{ \"status\": \"publish\" }",
+        "options": {}
+      },
+      "id": "a5",
+      "name": "Publish on iMariners",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        880,
+        120
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "s1",
+              "name": "link",
+              "type": "string",
+              "value": "={{ $('Publish on iMariners').isExecuted ? $('Publish on iMariners').item.json.link : $('Brief from GitHub').item.json.body.link }}"
+            },
+            {
+              "id": "s2",
+              "name": "title",
+              "type": "string",
+              "value": "={{ $('Brief from GitHub').item.json.body.title }}"
+            },
+            {
+              "id": "s3",
+              "name": "excerpt",
+              "type": "string",
+              "value": "={{ $('Brief from GitHub').item.json.body.excerpt }}"
+            },
+            {
+              "id": "s4",
+              "name": "x_text",
+              "type": "string",
+              "value": "={{ $('Brief from GitHub').item.json.body.x_post }} {{ $('Publish on iMariners').isExecuted ? $('Publish on iMariners').item.json.link : $('Brief from GitHub').item.json.body.link }}"
+            },
+            {
+              "id": "s5",
+              "name": "li_text",
+              "type": "string",
+              "value": "={{ $('Brief from GitHub').item.json.body.linkedin_post }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "a6",
+      "name": "Social text",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1100,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "text": "={{ $json.x_text }}",
+        "additionalFields": {}
+      },
+      "id": "a7",
+      "name": "Post on X",
+      "type": "n8n-nodes-base.twitter",
+      "typeVersion": 2,
+      "position": [
+        1320,
+        160
+      ],
+      "continueOnFail": true
+    },
+    {
+      "parameters": {
+        "postAs": "person",
+        "person": "REPLACE_WITH_YOUR_LINKEDIN_PERSON_ID",
+        "text": "={{ $json.li_text }}",
+        "shareMediaCategory": "ARTICLE",
+        "additionalFields": {
+          "originalUrl": "={{ $json.link }}",
+          "title": "={{ $json.title }}",
+          "description": "={{ $json.excerpt }}"
+        }
+      },
+      "id": "a8",
+      "name": "Post on LinkedIn",
+      "type": "n8n-nodes-base.linkedIn",
+      "typeVersion": 1,
+      "position": [
+        1320,
+        320
+      ],
+      "continueOnFail": true
+    },
+    {
+      "parameters": {
+        "chatId": "REPLACE_WITH_YOUR_TELEGRAM_CHAT_ID",
+        "text": "=Posted: {{ $('Social text').item.json.link }}\nX: {{ $('Post on X').item.json.error ? 'FAILED ' + $('Post on X').item.json.error.message : 'ok' }}\nLinkedIn: {{ $('Post on LinkedIn').item.json.error ? 'FAILED ' + $('Post on LinkedIn').item.json.error.message : 'ok' }}",
+        "additionalFields": {
+          "disable_web_page_preview": true
+        }
+      },
+      "id": "a9",
+      "name": "Tell me it's done",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        1540,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "chatId": "REPLACE_WITH_YOUR_TELEGRAM_CHAT_ID",
+        "text": "=Skipped. The brief stays a draft on iMariners: {{ $('Brief from GitHub').item.json.body.wp_url }}/wp-admin/post.php?post={{ $('Brief from GitHub').item.json.body.post_id }}&action=edit",
+        "additionalFields": {}
+      },
+      "id": "a10",
+      "name": "Tell me it was skipped",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        880,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "Brief from GitHub": {
+      "main": [
+        [
+          {
+            "node": "Needs approval?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Needs approval?": {
+      "main": [
+        [
+          {
+            "node": "Ask me on Telegram",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Social text",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ask me on Telegram": {
+      "main": [
+        [
+          {
+            "node": "Approved?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Approved?": {
+      "main": [
+        [
+          {
+            "node": "Publish on iMariners",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Tell me it was skipped",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Publish on iMariners": {
+      "main": [
+        [
+          {
+            "node": "Social text",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Social text": {
+      "main": [
+        [
+          {
+            "node": "Post on X",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Post on LinkedIn",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Post on LinkedIn": {
+      "main": [
+        [
+          {
+            "node": "Tell me it's done",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {}
+}

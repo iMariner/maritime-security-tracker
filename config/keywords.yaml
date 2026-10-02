@@ -1,0 +1,137 @@
+# Cheap keyword pre-filter that runs before the AI step, so only likely items cost tokens.
+# Matching is lower-case substring. An item passes when it has a vessel term AND an
+# attack term (plus a region term for feeds that require one).
+
+vessel_terms:
+  # English
+  - ship
+  - vessel
+  - tanker
+  - bulker
+  - bulk carrier
+  - cargo
+  - freighter
+  - merchant
+  - container
+  - lng carrier
+  - crew
+  - seafarer
+  - mariner
+  - port
+  - terminal
+  - shipping
+  # Ukrainian / Russian
+  - судн
+  - суден
+  - танкер
+  - сухогруз
+  - суховантаж
+  - контейнеровоз
+  - газовоз
+  - теплоход
+  - екіпаж
+  - экипаж
+  - моряк
+  - порт
+  - термінал
+  - терминал
+  # Turkish
+  - gemi
+  - liman
+  # Romanian
+  - navă
+  - nava
+  - vas
+
+attack_terms:
+  # English
+  - attack
+  - strike
+  - struck
+  - missile
+  - drone
+  - uav
+  - usv
+  - unmanned
+  - explosion
+  - blast
+  - mine
+  - fire
+  - hit
+  - hijack
+  - seized
+  - boarded
+  - projectile
+  - damage
+  # Ukrainian / Russian
+  - атак
+  - удар
+  - ракет
+  - дрон
+  - бпла
+  - бэк
+  - безекіпаж
+  - безэкипаж
+  - міна
+  - мина
+  - вибух
+  - взрыв
+  - пожеж
+  - пожар
+  - пошкодж
+  - поврежд
+  - поранен
+  - ранен
+  - загин
+  - погиб
+  - захоп
+  # Turkish
+  - saldırı
+  - patlama
+  - mayın
+  - iha
+  - yangın
+  # Romanian
+  - atac
+  - dronă
+  - explozie
+  - mină
+
+region_terms:
+  - black sea
+  - sea of azov
+  - azov
+  - odesa
+  - odessa
+  - chornomorsk
+  - pivdennyi
+  - izmail
+  - reni
+  - danube
+  - crimea
+  - sevastopol
+  - kerch
+  - novorossiysk
+  - tuapse
+  - taman
+  - constanta
+  - constanța
+  - bosphorus
+  - hormuz
+  - gulf of oman
+  - fujairah
+  - khor fakkan
+  - bandar abbas
+  - persian gulf
+  - arabian gulf
+  - ukmto
+  - чорн
+  - черн
+  - одес
+  - новоросс
+  - керч
+  - крим
+  - крым
+  - ормуз
+  - karadeniz
+  - marea neagră

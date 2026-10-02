@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maritime Security Tracker</title>
+<meta name="description" content="Attacks on merchant ships in the Black Sea and the Strait of Hormuz, compiled daily by iMariners.">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+  :root { --bg:#f5f7fa; --panel:#fff; --ink:#0b2545; --muted:#5b6b7d; --line:#dde3ea;
+          --confirmed:#c81e2d; --reported:#eb7814; --claimed:#787878; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#08121f; --panel:#0f1d30; --ink:#e6edf5; --muted:#93a4b8; --line:#1f3048; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif; }
+  header { padding:20px 16px 8px; max-width:1200px; margin:auto; }
+  h1 { margin:0; font-size:22px; }
+  header p { margin:4px 0 0; color:var(--muted); }
+  main { max-width:1200px; margin:auto; padding:8px 16px 40px; }
+  .controls { display:flex; flex-wrap:wrap; gap:8px; margin:12px 0; }
+  select { padding:6px 8px; border:1px solid var(--line); border-radius:6px; background:var(--panel); color:var(--ink); }
+  #map { height:440px; border-radius:10px; border:1px solid var(--line); }
+  .legend { display:flex; gap:16px; margin:8px 0 16px; color:var(--muted); font-size:13px; }
+  .dot { display:inline-block; width:10px; height:10px; border-radius:50%; margin-right:6px; vertical-align:middle; }
+  .list { display:grid; gap:10px; }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:12px 14px; }
+  .card h3 { margin:0 0 4px; font-size:16px; }
+  .meta { color:var(--muted); font-size:13px; }
+  .badge { font-size:12px; font-weight:600; padding:2px 8px; border-radius:20px; color:#fff; }
+  .card a { color:inherit; }
+  .empty { color:var(--muted); padding:20px 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Maritime Security Tracker</h1>
+  <p>Attacks on vessels in the Black Sea and the Strait of Hormuz. Daily brief on <a href="https://imariners.com/category/maritime-security/">iMariners</a>.</p>
+</header>
+<main>
+  <div class="controls">
+    <select id="region"><option value="">All regions</option></select>
+    <select id="status">
+      <option value="">All statuses</option>
+      <option value="confirmed">Confirmed</option>
+      <option value="reported">Reported</option>
+      <option value="claimed">Claimed</option>
+    </select>
+    <select id="days">
+      <option value="7">Last 7 days</option>
+      <option value="30" selected>Last 30 days</option>
+      <option value="3650">All time</option>
+    </select>
+  </div>
+  <div id="map"></div>
+  <div class="legend">
+    <span><span class="dot" style="background:var(--confirmed)"></span>Confirmed</span>
+    <span><span class="dot" style="background:var(--reported)"></span>Reported</span>
+    <span><span class="dot" style="background:var(--claimed)"></span>Claimed (one side only)</span>
+  </div>
+  <div id="list" class="list"></div>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const COLOURS = { confirmed: "#c81e2d", reported: "#eb7814", claimed: "#787878" };
+const map = L.map("map").setView([37, 45], 4);
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  maxZoom: 12, attribution: "&copy; OpenStreetMap contributors"
+}).addTo(map);
+const layer = L.layerGroup().addTo(map);
+let all = [];
+
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
+const when = i => new Date(i.date_utc || i.first_seen);
+
+function render() {
+  const region = document.getElementById("region").value;
+  const status = document.getElementById("status").value;
+  const cutoff = Date.now() - Number(document.getElementById("days").value) * 864e5;
+  const rows = all.filter(i => (!region || i.region === region) && (!status || i.status === status) && when(i) >= cutoff)
+                  .sort((a, b) => when(b) - when(a));
+  layer.clearLayers();
+  const list = document.getElementById("list");
+  list.innerHTML = rows.length ? "" : '<p class="empty">No incidents for this filter.</p>';
+  for (const i of rows) {
+    const title = `${esc(i.vessel_name || "Unnamed vessel")} <span class="meta">(${esc(i.region)})</span>`;
+    const sources = i.sources.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener nofollow">${esc(s.source)}</a>`).join(", ");
+    const html = `<h3>${title} <span class="badge" style="background:${COLOURS[i.status]}">${esc(i.status)}</span></h3>
+      <div class="meta">${esc(when(i).toUTCString().slice(0, 22))} UTC · ${esc(i.location_text || "")} · ${esc(i.attack_type || "")}</div>
+      <p>${esc(i.summary)}</p><div class="meta">Sources: ${sources}</div>`;
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = html;
+    list.appendChild(card);
+    if (i.lat != null && i.lon != null) {
+      L.circleMarker([i.lat, i.lon], { radius: 8, color: "#fff", weight: 2, fillColor: COLOURS[i.status], fillOpacity: 0.95 })
+        .bindPopup(html).addTo(layer);
+    }
+  }
+  const pts = rows.filter(i => i.lat != null && i.lon != null).map(i => [i.lat, i.lon]);
+  if (pts.length) map.fitBounds(pts, { padding: [40, 40], maxZoom: 7 });
+}
+
+fetch("incidents.json").then(r => r.json()).then(data => {
+  all = data;
+  const sel = document.getElementById("region");
+  [...new Set(data.map(i => i.region))].sort().forEach(r => sel.add(new Option(r, r)));
+  ["region", "status", "days"].forEach(id => document.getElementById(id).addEventListener("change", render));
+  render();
+});
+</script>
+</body>
+</html>
