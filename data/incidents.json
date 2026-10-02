@@ -768,12 +768,36 @@
         "kind": "media",
         "published_at": "2026-09-29T17:15:56Z",
         "title": "Kuwaiti Tanker Struck in the Strait of Hormuz"
+      },
+      {
+        "url": "https://gcaptain.com/three-more-tanker-attacks-surface-in-delayed-hormuz-reports/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-02T11:12:41Z",
+        "title": null
+      },
+      {
+        "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-02T11:12:41Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-02T10:21:32Z",
-    "last_updated": "2026-10-02T10:23:06Z",
+    "last_updated": "2026-10-02T11:12:41Z",
     "verification_issue": 16,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "iMariner",
+      "at": "2026-10-02T11:12:41Z",
+      "note": "UKMTO issued three separate attack warnings (144-26, 145-26 and 146-26) for tankers struck in the Strait of Hormuz on 29 September, and the IMO confirmed-incident list records the damage to Sinbad (IMO 9413688).",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/16#issuecomment-5951066281"
+    },
     "published_in": [],
     "status": "confirmed",
     "position_approx": true
