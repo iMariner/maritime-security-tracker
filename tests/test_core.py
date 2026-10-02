@@ -193,5 +193,15 @@ def test_brief_new_vs_update():
 
 def test_region_override():
     from tracker import geo
-    assert geo.region_override({"region": "Strait of Hormuz", "summary": "Yemen's Houthis said they targeted two Saudi tankers"}) == "Red Sea"
+    assert geo.region_override({"region": "Strait of Hormuz", "attribution_claimed": "Yemen's Houthis"}) == "Red Sea"
+    assert geo.region_override({"region": "Strait of Hormuz", "summary": "Kazimah hit; separately a projectile hit Yanbu"}) is None
     assert geo.region_override({"region": "Strait of Hormuz", "summary": "Tanker hit east of Fujairah"}) is None
+
+
+def test_vessel_name_numbers():
+    assert store.same_vessel("Kazimah", "KAZIMAH III") and store.same_vessel("MV Kazimah III", "Kazimah III")
+    assert not store.same_vessel("Kazimah II", "Kazimah III") and not store.same_vessel("Kazimah", "Kairos")
+    incs = []
+    store.merge(report(vessel_name="Kazimah II"), incs)
+    store.merge(report(vessel_name="Kazimah III", source=src("https://n/k3")), incs)
+    assert len(incs) == 2

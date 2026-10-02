@@ -82,7 +82,8 @@ REGION_RULES = [
 
 def region_override(inc: dict) -> str | None:
     """Return a corrected region when the incident's own text clearly places it elsewhere."""
-    text = " ".join(str(inc.get(k) or "") for k in ("location_text", "summary", "attribution_claimed"))
+    # Only where it happened and who is said to be behind it: summaries often mention other, separate attacks.
+    text = " ".join(str(inc.get(k) or "") for k in ("location_text", "attribution_claimed"))
     for pattern, region in REGION_RULES:
         if pattern.search(text):
             return region if region != inc.get("region") else None

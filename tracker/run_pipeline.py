@@ -77,17 +77,18 @@ def main() -> None:
         seen[key] = stamp
         store.add_firms_signal(det, incidents)
 
-    # Fix regions the text clearly contradicts (e.g. Houthi attacks filed under Hormuz).
+    # Review pass: merge entries that are the same real attack, drop out-of-scope ones.
+    closed = consolidate(incidents)
+    if closed:
+        log.info("Review pass closed %d duplicate or out-of-scope entries", closed)
+
+    # Fix regions the incident's own location or attribution contradicts (e.g. Houthi attacks filed under
+    # Hormuz). Runs after the review so code has the last word.
     for inc in incidents:
         fixed = geo.region_override(inc)
         if fixed:
             log.info("Region of %s corrected: %s -> %s", inc["id"], inc.get("region"), fixed)
             inc["region"] = fixed
-
-    # Review pass: merge entries that are the same real attack, drop out-of-scope ones.
-    closed = consolidate(incidents)
-    if closed:
-        log.info("Review pass closed %d duplicate or out-of-scope entries", closed)
 
     # Re-apply the status rules to every incident, so a rule change takes effect on stored data too.
     # Also give incidents without coordinates an approximate position from the place they name.
