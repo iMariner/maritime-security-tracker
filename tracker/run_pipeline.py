@@ -43,8 +43,17 @@ def main() -> None:
     incidents = store.load()
     stamp = iso(now_utc())
 
+    # On rate-limited free models, let small batches build up between runs, but never hold an item over 3 hours.
+    min_items = int(env("LLM_MIN_ITEMS") or 1)
+    oldest = min((parse_dt(it.get("published_at")) or now_utc() for it in candidates), default=now_utc())
+    if candidates and len(candidates) < min_items and now_utc() - oldest < timedelta(hours=3):
+        log.info("Only %d candidates (< LLM_MIN_ITEMS=%d); waiting for more before calling the AI", len(candidates), min_items)
+        candidates_ready = False
+    else:
+        candidates_ready = True
+
     ai_failed = False
-    if candidates and llm.available():
+    if candidates and candidates_ready and llm.available():
         batch = candidates[:max_items]
         try:
             reports = extract(batch)
@@ -64,7 +73,7 @@ def main() -> None:
             if it["id"] in processed or it["id"] not in candidate_ids:
                 seen[it["id"]] = stamp
     else:
-        if candidates:
+        if candidates and not llm.available():
             log.warning("No LLM configured; %d candidates left unprocessed for the next run", len(candidates))
         for it in fresh:
             if it["id"] not in candidate_ids:

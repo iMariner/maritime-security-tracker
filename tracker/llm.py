@@ -5,6 +5,11 @@ Settings (GitHub repo secrets/variables):
   LLM_API_KEY      provider key (secret)
   LLM_MODEL_FAST   deepseek-chat      classify + extract + matching
   LLM_MODEL_BRIEF  deepseek-chat      daily brief
+Model settings may be a comma-separated list; each is tried in order (useful for busy free models).
+
+OpenRouter free models (testing):
+  LLM_BASE_URL=https://openrouter.ai/api/v1
+  LLM_MODEL_FAST=qwen/qwen3.8-27b:free,google/gemma-4-31b-it:free,nvidia/nemotron-3-super-120b-a12b:free
 
 Optional fallback: GitHub Models via the workflow's GITHUB_TOKEN, enabled with LLM_FALLBACK=github.
 Off by default: on 2026-10-02 every models.github.ai endpoint answered a bare "OK" instead of a completion.
@@ -26,9 +31,12 @@ def _providers(kind: str) -> list[tuple[str, OpenAI, str]]:
     providers = []
     key = env("LLM_API_KEY")
     if key:
-        model = env("LLM_MODEL_BRIEF" if kind == "brief" else "LLM_MODEL_FAST") or "deepseek-chat"
-        client = OpenAI(api_key=key, base_url=env("LLM_BASE_URL", "https://api.deepseek.com"), timeout=120)
-        providers.append(("primary", client, model))
+        models = env("LLM_MODEL_BRIEF" if kind == "brief" else "LLM_MODEL_FAST") or env("LLM_MODEL_FAST") or "deepseek-chat"
+        base_url = env("LLM_BASE_URL") or "https://api.deepseek.com"
+        headers = {"HTTP-Referer": "https://imariners.com", "X-Title": "iMariners Maritime Security Tracker"} if "openrouter" in base_url else None
+        client = OpenAI(api_key=key, base_url=base_url, timeout=180, default_headers=headers)
+        for model in [m.strip() for m in models.split(",") if m.strip()]:
+            providers.append(("primary", client, model))
     gh_token = env("GITHUB_TOKEN")
     if gh_token and env("LLM_FALLBACK", "off") == "github":
         model = env("GITHUB_MODELS_MODEL", "openai/gpt-4.1-mini")
@@ -73,6 +81,8 @@ def chat_json(system: str, user: str, kind: str = "fast", max_tokens: int = 4000
                 return _parse_json(resp.choices[0].message.content or "")
             except Exception as exc:  # network, rate limit, bad JSON
                 errors.append(f"{name}/{model}: {exc}")
-                log.warning("LLM call failed (%s, attempt %d): %s", name, attempt + 1, exc)
+                log.warning("LLM call failed (%s %s, attempt %d): %s", name, model, attempt + 1, str(exc)[:300])
+                if "429" in str(exc) or "rate" in str(exc).lower() or "404" in str(exc):
+                    break  # busy or gone: move to the next model instead of spending another request
                 time.sleep(3 * (attempt + 1))
     raise RuntimeError("All LLM providers failed: " + " | ".join(errors) if errors else "No LLM provider configured (set LLM_API_KEY)")

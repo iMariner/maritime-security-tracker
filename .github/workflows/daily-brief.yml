@@ -32,8 +32,9 @@ jobs:
       - name: Build and publish
         env:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-          LLM_BASE_URL: ${{ vars.LLM_BASE_URL || 'https://api.deepseek.com' }}
-          LLM_MODEL_BRIEF: ${{ vars.LLM_MODEL_BRIEF || 'deepseek-chat' }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          LLM_MODEL_FAST: ${{ vars.LLM_MODEL_FAST }}
+          LLM_MODEL_BRIEF: ${{ vars.LLM_MODEL_BRIEF }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WP_URL: ${{ vars.WP_URL || 'https://imariners.com' }}
           WP_USER: ${{ secrets.WP_USER }}

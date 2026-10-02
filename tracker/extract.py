@@ -4,7 +4,7 @@ from __future__ import annotations
 import json
 
 from . import llm
-from .common import load_yaml, log, now_utc
+from .common import env, load_yaml, log, now_utc
 
 FIELDS = """{
   "region": one of REGIONS,
@@ -59,6 +59,7 @@ def extract(items: list[dict]) -> list[dict]:
     """Return incident candidates, each with the item it came from attached as `source`."""
     # GitHub Models' free tier caps each request at about 8k input tokens, so send less per call there.
     batch_size, max_chars = (4, 1500) if llm.free_tier_only() else (8, 3000)
+    batch_size = int(env("EXTRACT_BATCH_SIZE") or batch_size)
     system = _system_prompt()
     by_id = {it["id"]: it for it in items}
     results = []
@@ -69,7 +70,7 @@ def extract(items: list[dict]) -> list[dict]:
              "title": it["title"], "text": it["text"][:max_chars]}
             for it in batch
         ]
-        data = llm.chat_json(system, json.dumps({"items": payload}, ensure_ascii=False))
+        data = llm.chat_json(system, json.dumps({"items": payload}, ensure_ascii=False), max_tokens=8000)
         for entry in data.get("items", []):
             src = by_id.get(entry.get("item_id"))
             if not src:
