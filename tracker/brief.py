@@ -33,8 +33,13 @@ STATUS_NOTE = {
 
 
 def select(incidents: list[dict], since) -> tuple[list[dict], list[dict], list[dict]]:
+    from .common import load_yaml
+
+    include_naval = bool(load_yaml("regions.yaml").get("include_naval"))
     new, updated, corrections = [], [], []
     for inc in incidents:
+        if inc.get("vessel_category") == "naval" and not include_naval:
+            continue
         last = parse_dt(inc.get("last_updated"))
         if not last or last < since:
             continue
