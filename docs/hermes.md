@@ -1,6 +1,6 @@
 # Hermes agent: verification desk
 
-Runs on the iMariners Hermes (`hermes7.splicerun.net`, on the Webyne VPS), as a cron job every 3 hours.
+Runs on the iMariners Hermes (`hermes7.splicerun.net`, on the Webyne VPS), as the cron job `maritime-security-tracking`, daily at 04:30 UTC, before the 05:40 UTC brief.
 
 Needs:
 - `GITHUB_TOKEN` in Hermes **Keys**: a fine-grained GitHub token owned by the **iMariner** account, limited to the
@@ -24,7 +24,7 @@ variable. Never print, log or write out the token.
 1. Fetch the open issues of that repository that carry the label "verify" (at most 10).
    If there are none, stop and reply "No open verification issues."
 
-2. For each issue (at most 5 per run), read its body and try to establish whether a real attack on
+2. For each issue (at most 3 per run, oldest first), read its body and try to establish whether a real attack on
    that vessel happened:
    - Search the vessel name and IMO, and the place and date, in news (English, Ukrainian, Russian,
      Turkish, Romanian, Arabic, Persian).
