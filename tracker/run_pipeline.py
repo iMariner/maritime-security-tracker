@@ -6,6 +6,7 @@
 from __future__ import annotations
 
 import argparse
+import sys
 from datetime import timedelta
 
 from . import github_issues, incidents as store, llm
@@ -42,9 +43,15 @@ def main() -> None:
     incidents = store.load()
     stamp = iso(now_utc())
 
+    ai_failed = False
     if candidates and llm.available():
         batch = candidates[:max_items]
-        reports = extract(batch)
+        try:
+            reports = extract(batch)
+        except RuntimeError as exc:
+            # Keep going so collection, satellite data and seen-markers are still saved; fail the run at the end.
+            log.error("AI step failed, candidates kept for the next run: %s", exc)
+            ai_failed, reports, batch = True, [], []
         new = updated = 0
         for rep in reports:
             _, is_new = store.merge(rep, incidents)
@@ -79,6 +86,8 @@ def main() -> None:
 
     store.save(incidents)
     write_json(SEEN_FILE, prune_seen(seen))
+    if ai_failed:
+        sys.exit("AI step did not run: check LLM_API_KEY and the provider's credit")
 
 
 if __name__ == "__main__":

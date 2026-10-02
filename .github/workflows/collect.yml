@@ -35,6 +35,7 @@ jobs:
           MAX_LLM_ITEMS_PER_RUN: ${{ vars.MAX_LLM_ITEMS_PER_RUN }}
         run: python -m tracker.run_pipeline
       - name: Commit data
+        if: ${{ !cancelled() }}
         run: |
           git config user.name "tracker-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

@@ -6,8 +6,8 @@ Settings (GitHub repo secrets/variables):
   LLM_MODEL_FAST   deepseek-chat      classify + extract + matching
   LLM_MODEL_BRIEF  deepseek-chat      daily brief
 
-Fallback: GitHub Models (free, rate limited) using the workflow's GITHUB_TOKEN,
-used when the main provider fails or has no key. Turn off with LLM_FALLBACK=off.
+Optional fallback: GitHub Models via the workflow's GITHUB_TOKEN, enabled with LLM_FALLBACK=github.
+Off by default: on 2026-10-02 every models.github.ai endpoint answered a bare "OK" instead of a completion.
 """
 from __future__ import annotations
 
@@ -30,7 +30,7 @@ def _providers(kind: str) -> list[tuple[str, OpenAI, str]]:
         client = OpenAI(api_key=key, base_url=env("LLM_BASE_URL", "https://api.deepseek.com"), timeout=120)
         providers.append(("primary", client, model))
     gh_token = env("GITHUB_TOKEN")
-    if gh_token and env("LLM_FALLBACK", "github") != "off":
+    if gh_token and env("LLM_FALLBACK", "off") == "github":
         model = env("GITHUB_MODELS_MODEL", "openai/gpt-4.1-mini")
         providers.append(("github-models", OpenAI(api_key=gh_token, base_url=GITHUB_MODELS_URL, timeout=120), model))
     return providers

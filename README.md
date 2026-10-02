@@ -6,7 +6,8 @@ and NASA satellite fire detections. Every morning it writes the **Maritime Secur
 it on imariners.com and shares it on X and LinkedIn.
 
 Everything runs free on GitHub Actions (public repo). The only running cost is the DeepSeek API,
-roughly 1 to 2 USD a month at this volume.
+roughly 1 to 2 USD a month at this volume. Without AI credit the tracker still collects, but the run fails
+and no incidents are extracted.
 
 ```
 Every 30 min (GitHub Actions: collect.yml)
@@ -59,8 +60,8 @@ The sections below are the short version.
 | `VERIFIERS` | variable | GitHub usernames allowed to post `/verdict`, comma separated (you are always allowed) |
 | `LLM_BASE_URL`, `LLM_MODEL_FAST`, `LLM_MODEL_BRIEF` | variable | optional; defaults are DeepSeek / `deepseek-chat` |
 
-If DeepSeek fails, the tracker falls back to **GitHub Models** (free, rate limited) automatically.
-To use another provider later, change only `LLM_BASE_URL`, the model names and the key.
+Any OpenAI-compatible provider works: change only `LLM_BASE_URL`, the model names and the key.
+(A GitHub Models fallback exists behind `LLM_FALLBACK=github`, but that service stopped answering in October 2026.)
 
 ### 2. imariners.com (WordPress)
 1. Posts > Categories: create **Maritime Security** with slug `maritime-security`.
