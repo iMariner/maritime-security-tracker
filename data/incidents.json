@@ -950,8 +950,8 @@
     "conflicting": false,
     "confidence": 0.5,
     "vessel_name": "ENCELIA",
-    "imo": null,
-    "flag": null,
+    "imo": "9240172",
+    "flag": "Saudi Arabia",
     "vessel_type": "tanker",
     "vessel_category": "merchant",
     "lat": 26.55,
@@ -972,17 +972,60 @@
         "kind": "media",
         "published_at": "2026-10-01T06:56:06Z",
         "title": "Yemen’s Houthis Say They Targeted Two Saudi Tankers; Source Says Encelia Hit by Missile - EnergyNow.com"
+      },
+      {
+        "url": "https://table.media/assets/documents/20261001_security_brief_soh.pdf",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-02T14:20:51Z",
+        "title": null
+      },
+      {
+        "url": "https://www.reuters.com/world/middle-east/yemens-houthis-say-they-targeted-two-saudi-oil-tankers-2026-07-22/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-02T14:20:51Z",
+        "title": null
+      },
+      {
+        "url": "https://energynow.com/2026/07/yemens-houthis-say-they-targeted-two-saudi-tankers-source-says-encelia-hit-by-missile/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-02T14:20:51Z",
+        "title": null
+      },
+      {
+        "url": "https://gcaptain.com/another-tanker-hit-in-strait-of-hormuz-as-attacks-continue/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-02T14:20:51Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-02T14:01:50Z",
-    "last_updated": "2026-10-02T14:04:08Z",
+    "last_updated": "2026-10-02T14:20:51Z",
     "verification_issue": 21,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-02T14:20:51Z",
+      "note": "The Encelia missile strike was on 22 July 2026 in the Red Sea about 70 nautical miles southwest of Al Shuqaiq and was confirmed by Saudi Arabia's Transport General Authority, the issue's own EnergyNow source is that same 23 July article, and the 1 October Strait of Hormuz attack (UKMTO warning 147-26) involved a different unnamed tanker, so this record is a mis-dated duplicate of the July incident.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/21#issuecomment-5954518723"
+    },
     "published_in": [
       "2026-10-02"
     ],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-10-02T14:20:51Z"
   },
   {
     "region": "Black Sea",
