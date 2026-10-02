@@ -29,17 +29,42 @@
         "kind": "media",
         "published_at": "2026-10-02T06:21:46Z",
         "title": "Три танкера из ОАЭ были атакованы в Ормузском проливе за нарушение правил судоходства - prospect.com.ru"
+      },
+      {
+        "url": "https://en.mehrnews.com/news/248240/3-UAE-owned-tankers-hit-after-breaching-Hormuz-rules",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-02T15:59:16Z",
+        "title": null
+      },
+      {
+        "url": "https://www.seatrade-maritime.com/security/four-vessels-struck-in-hormuz-in-24-hours",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-02T15:59:16Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-02T13:59:57Z",
-    "last_updated": "2026-10-02T15:39:04Z",
+    "last_updated": "2026-10-02T15:59:16Z",
     "verification_issue": 23,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-02T15:59:16Z",
+      "note": "This restates the 28-29 September attacks on Al Ruwais, Sinbad and Mersin Prosperity that the tracker already records on those dates, and only Iran's PGSA claim says the tankers were targeted for breaking navigation rules, so it is a mis-dated duplicate with no new attack on 2 October.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/23#issuecomment-5956178729"
+    },
     "published_in": [
       "2026-10-02"
     ],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-10-02T15:59:16Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -184,12 +209,36 @@
         "kind": "official",
         "published_at": "2026-10-02T15:35:33+00:00",
         "title": null
+      },
+      {
+        "url": "https://ria.ru/20261001/rossiya-2121547505.html",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-02T15:59:15Z",
+        "title": null
+      },
+      {
+        "url": "https://sundayguardianlive.com/world/russia-ukraine-war-latest-news-russia-says-it-struck-vessel-carrying-military-cargo-at-ukraines-chornomorsk-port-heres-what-we-know-so-far-296695",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-02T15:59:15Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-02T14:00:03Z",
-    "last_updated": "2026-10-02T15:36:10Z",
+    "last_updated": "2026-10-02T15:59:15Z",
     "verification_issue": 24,
-    "verdict": null,
+    "verdict": {
+      "status": "claimed",
+      "by": "iMariner",
+      "at": "2026-10-02T15:59:15Z",
+      "note": "Only Russia's defence ministry says its drones hit a general cargo vessel in the Black Sea and a vessel at Chornomorsk, and no independent or Ukrainian confirmation of a vessel strike on 1-2 October was found.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/24#issuecomment-5956178913"
+    },
     "published_in": [
       "2026-10-02"
     ],
@@ -313,17 +362,33 @@
         "kind": "media",
         "published_at": "2026-10-02T14:04:50Z",
         "title": "Kuwait-flagged VLCC, Panama-flagged tanker reported hit in Strait of Hormuz, with fires on board - rivieramm.com"
+      },
+      {
+        "url": "https://www.rivieramm.com/news-content-hub/kuwait-flagged-vlcc-reported-hit-in-strait-of-hormuz-fire-on-board-crew-evacuated-90178",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-02T15:59:13Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-02T15:36:10Z",
-    "last_updated": "2026-10-02T15:39:04Z",
+    "last_updated": "2026-10-02T15:59:13Z",
     "verification_issue": 25,
-    "verdict": null,
+    "verdict": {
+      "status": "reported",
+      "by": "iMariner",
+      "at": "2026-10-02T15:59:13Z",
+      "note": "Maritime security firm Ambrey reported a Panama-flagged tanker struck by a projectile about 5.3 NM north-northwest of Kumzar on 2 October and reviewed imagery of smoke from the stern, but UKMTO has published no matching warning naming this vessel.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/25#issuecomment-5956179162"
+    },
     "published_in": [
       "2026-10-02"
     ],
-    "status": "claimed",
-    "position_approx": true
+    "status": "reported",
+    "position_approx": true,
+    "status_changed_at": "2026-10-02T15:59:13Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -770,17 +835,33 @@
         "kind": "media",
         "published_at": "2026-10-02T14:04:50Z",
         "title": "Kuwait-flagged VLCC, Panama-flagged tanker reported hit in Strait of Hormuz, with fires on board - rivieramm.com"
+      },
+      {
+        "url": "https://www.rivieramm.com/news-content-hub/kuwait-flagged-vlcc-reported-hit-in-strait-of-hormuz-fire-on-board-crew-evacuated-90178",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-02T15:59:11Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-02T13:59:47Z",
-    "last_updated": "2026-10-02T15:36:11Z",
+    "last_updated": "2026-10-02T15:59:11Z",
     "verification_issue": 26,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "iMariner",
+      "at": "2026-10-02T15:59:11Z",
+      "note": "UKMTO Warning 147-26 reported a tanker struck by an unknown projectile in the Strait of Hormuz on 1 October with a fire and the crew safe, and Vanguard Tech and Marisks independently identified the vessel as the Kuwait Oil Tanker Company VLCC Kazimah III.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/26#issuecomment-5956179408"
+    },
     "published_in": [
       "2026-10-02"
     ],
-    "status": "reported",
-    "position_approx": true
+    "status": "confirmed",
+    "position_approx": true,
+    "status_changed_at": "2026-10-02T15:59:11Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -1039,18 +1120,43 @@
         "kind": "media",
         "published_at": "2026-10-01T09:00:00Z",
         "title": "Russian vessel in Black Sea, oil facility and drone depot were struck by Defence Forces. VIDEO - censor.net"
+      },
+      {
+        "url": "https://www.pravda.com.ua/eng/news/2026/10/01/8055937/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-02T15:59:09Z",
+        "title": null
+      },
+      {
+        "url": "https://english.nv.ua/nation/ukraine-hits-russian-ship-drone-base-zelenskyy-50646255.html",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-02T15:59:09Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-02T14:00:18Z",
-    "last_updated": "2026-10-02T14:00:22Z",
+    "last_updated": "2026-10-02T15:59:09Z",
     "verification_issue": 27,
-    "verdict": null,
+    "verdict": {
+      "status": "claimed",
+      "by": "iMariner",
+      "at": "2026-10-02T15:59:09Z",
+      "note": "Only Ukraine's president and Ukrainian outlets say a Russian vessel was struck in the Black Sea, the vessel is not identified and no neutral or Russian confirmation of the strike was found.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/27#issuecomment-5956179661"
+    },
     "published_in": [
       "2026-10-02"
     ],
-    "status": "reported",
+    "status": "claimed",
     "date_approx": false,
-    "position_approx": true
+    "position_approx": true,
+    "status_changed_at": "2026-10-02T15:59:09Z"
   },
   {
     "region": "Strait of Hormuz",
