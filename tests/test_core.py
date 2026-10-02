@@ -139,5 +139,7 @@ def test_article_helpers():
     incs = []
     inc, _ = store.merge(report(vessel_name="Kazimah", region="Strait of Hormuz", source=src("https://a/1", side="unknown", kind="media", source="Outlet")), incs)
     store.merge(report(vessel_name="Kazimah", region="Strait of Hormuz", source=src("https://u/2", side="neutral", kind="official", source="UKMTO")), incs)
+    store.merge(report(vessel_name="Kazimah", region="Strait of Hormuz", source=src("https://news.google.com/rss/articles/x", side="unknown", kind="media", source="Wire")), incs)
     out = sources_html(incs)
-    assert out.index("UKMTO") < out.index("Outlet") and "Kazimah, Strait of Hormuz" in out and "<a " not in out
+    assert "news.google.com" not in out and "Wire" in out
+    assert out.index("UKMTO") < out.index("Outlet") and "Kazimah, Strait of Hormuz" in out and 'rel="nofollow' in out

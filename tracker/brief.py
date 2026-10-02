@@ -148,7 +148,11 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list) -> d
 
 
 def sources_html(incidents: list[dict]) -> str:
-    """Compact source list: one line per incident naming the outlets (no links), official first, at most 5."""
+    """Compact source list: one line per incident, official first, at most 5 outlets.
+
+    Outlets link to the article (nofollow) when the URL is the outlet's own page; Google News redirect URLs
+    are shown as the outlet name only, so the article never carries long redirect links.
+    """
     items = []
     for inc in incidents:
         srcs = [s for s in inc["sources"] if s.get("source_type") not in ("satellite", "verification")]
@@ -160,7 +164,10 @@ def sources_html(incidents: list[dict]) -> str:
             if not key or key in seen:
                 continue
             seen.add(key)
-            names.append(html.escape(name))
+            if "news.google.com" in s["url"]:
+                names.append(html.escape(name))
+            else:
+                names.append(f'<a href="{html.escape(s["url"])}" rel="nofollow noopener" target="_blank">{html.escape(name)}</a>')
             if len(names) == 5:
                 break
         label = inc.get("vessel_name") or (inc.get("vessel_type") or "vessel").capitalize()
