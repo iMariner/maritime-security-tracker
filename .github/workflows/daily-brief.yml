@@ -45,6 +45,7 @@ jobs:
           WP_USER: ${{ secrets.WP_USER }}
           WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
           WP_CATEGORY_SLUG: ${{ vars.WP_CATEGORY_SLUG || 'maritime-security' }}
+          WP_CATEGORY_ID: ${{ vars.WP_CATEGORY_ID }}
           PUBLISH_MODE: ${{ vars.PUBLISH_MODE || 'draft' }}
           PUBLISH_EMPTY_DAYS: ${{ vars.PUBLISH_EMPTY_DAYS || 'true' }}
           N8N_WEBHOOK_URL: ${{ secrets.N8N_WEBHOOK_URL }}

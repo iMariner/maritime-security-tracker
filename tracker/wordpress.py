@@ -11,6 +11,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
+import re
 import time
 
 import requests
@@ -36,7 +37,9 @@ class WordPress:
                     try:
                         return resp.json()
                     except ValueError:
-                        last = f"non-JSON reply ({resp.headers.get('content-type')}): {resp.text[:200]}"
+                        title = re.search(r"<title[^>]*>(.*?)</title>", resp.text, re.S | re.I)
+                        last = (f"non-JSON reply ({resp.headers.get('content-type')}), page title: "
+                                f"{(title.group(1).strip() if title else resp.text[:150])!r}, server: {resp.headers.get('server')}")
                 elif resp.status_code in (401, 403, 404) and attempt == 0 and "json" in resp.headers.get("content-type", ""):
                     raise RuntimeError(f"WordPress {method} {path} -> {resp.status_code}: {resp.text[:300]}")
                 else:
@@ -46,6 +49,9 @@ class WordPress:
         raise RuntimeError(f"WordPress {method} {path} failed after retries: {last}")
 
     def category_id(self, slug: str) -> int:
+        fixed = env("WP_CATEGORY_ID")
+        if fixed:
+            return int(fixed)  # skip the lookup: one request fewer per run
         found = self._req("GET", "/categories", params={"slug": slug})
         if not found:
             raise SystemExit(f"Category '{slug}' not found. Create it in WP admin (Posts > Categories) first.")
