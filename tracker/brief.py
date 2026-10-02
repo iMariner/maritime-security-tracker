@@ -131,7 +131,8 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list) -> d
         "vessel and its flag when the facts give them.\n"
         '"article_html": the article body in HTML using only <p>, <h2>, <ul>, <li>, <strong>. Always name a vessel and its flag when the '
         "facts give them, in the headline too. Readability rules: "
-        "every paragraph at most 3 sentences and about 60 words; one incident per paragraph; short sentences. "
+        "every paragraph at most 3 sentences and about 60 words; one incident per paragraph and one ship per "
+        "incident (never describe another ship inside a paragraph about a different one); short sentences. "
         "Structure: a lede paragraph of ONE sentence, at most 35 words, with the single most important news; a second short "
         "paragraph with the overall picture; then one <h2> section per region (Strait of Hormuz area first if it has "
         "incidents, then Black Sea), each incident in its own short paragraph with attribution; then "
@@ -349,10 +350,13 @@ def publish(brief: dict, image: Path) -> dict:
         "slug": f"maritime-security-brief-{brief['date']}", "featured_media": media_id,
         "categories": [wp.category_id(env("WP_CATEGORY_SLUG", "maritime-security"))],
     })
+    brief["quality"] = quality_report(brief, store.load())
+    log.info("Quality: %s", brief["quality"]["summary"])
     preview_url = write_preview_page(brief, image_url)  # brief["html"] already carries the map
     record.update(post_id=post["id"], media_id=media_id, image_url=image_url, preview_url=preview_url,
                   link=post["link"], status=post["status"],
-                  **{k: brief[k] for k in ("title", "excerpt", "x_post", "incident_ids", "counts", "fact_check")})
+                  **{k: brief[k] for k in ("title", "excerpt", "x_post", "incident_ids", "counts", "fact_check")},
+                  quality=brief["quality"]["summary"])
     write_json(record_path, record)
     log.info("WordPress post %s (%s): %s", post["id"], post["status"], post["link"])
     return record
@@ -371,12 +375,48 @@ def write_preview_page(brief: dict, image_url: str) -> str:
     page = (f'<!doctype html><html lang="en"><head><meta charset="utf-8">'
             f'<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">'
             f"<title>Draft: {html.escape(brief['title'])}</title><style>{PREVIEW_STYLE}</style></head><body>"
-            f'<div class="bar"><strong>DRAFT PREVIEW</strong>, not yet published. Approve or skip it in Telegram.</div>'
+            f'<div class="bar"><strong>DRAFT PREVIEW</strong>, not yet published. Approve or skip it in Telegram.'
+            f'<br>Checks: {html.escape((brief.get("quality") or {}).get("summary", "not run"))}</div>'
             + f"<h1>{html.escape(brief['title'])}</h1><p class=\"ex\">{html.escape(brief['excerpt'])}</p>{brief['html']}"
             f'<h2>Tweet</h2><div class="tw">{html.escape(brief["x_post"])} [link]</div></body></html>')
     (BRIEFS_DIR / f"{brief['date']}.html").write_text(page, encoding="utf-8")
     version = re.sub(r"\D", "", brief["generated_at"])[-6:]  # new link each rebuild, so no cached copy is shown
     return f"{PAGES_URL}/preview/{brief['date']}.html?v={version}"
+
+
+def quality_report(brief: dict, incidents: list[dict]) -> dict:
+    """Fixed checklist shown in the approval message, so a quick glance tells how carefully to read."""
+    from .incidents import has_official
+
+    cut = now_utc() - timedelta(hours=48)
+    used = [i for i in incidents if i["id"] in brief["incident_ids"]]
+    official_recent = [i for i in incidents if has_official(i) and i.get("status") not in ("merged", "rejected")
+                       and (parse_dt(i.get("date_utc")) or now_utc()) >= cut]
+    covered = [i for i in official_recent if i["id"] in brief["incident_ids"]]
+    undated = [i for i in used if not parse_dt(i.get("date_utc")) or i.get("date_approx")]
+    claims = [i for i in used if i["status"] == "claimed"]
+    unattributed = [i for i in claims if not i.get("attribution_claimed") and not any(
+        s.get("kind") == "official" for s in i["sources"])]
+    single = [i for i in used if len({s["source"] for s in i["sources"] if s.get("source_type") != "satellite"}) < 2
+              and not has_official(i)]
+    verified = [i for i in used if i.get("verdict") or has_official(i)]
+    text = brief["html"] + brief["title"] + brief["x_post"]
+    dashes = len(re.findall("[\u2014\u2013]", text))
+    tweet_len = len(brief["x_post"]) + 24
+    checks = {
+        "dates": "ok" if not undated else f"{len(undated)} approximate",
+        "attribution": "ok" if not unattributed else f"{len(unattributed)} claims without a named source",
+        "official coverage": f"{len(covered)}/{len(official_recent)}" + (" ok" if len(covered) == len(official_recent) else " MISSING"),
+        "verified": f"{len(verified)}/{len(used)}",
+        "single-source items": str(len(single)),
+        "fact-check": brief.get("fact_check", "not run"),
+        "tweet": f"{tweet_len}/280" + (" ok" if tweet_len <= 280 else " TOO LONG"),
+        "dashes": "ok" if not dashes else f"{dashes} found",
+    }
+    flags = sum(1 for k, v in checks.items() if "MISSING" in v or "TOO LONG" in v or "found" in v or "without" in v)
+    summary = ("all checks passed" if not flags else f"{flags} check(s) need attention") + ": " + \
+        "; ".join(f"{k} {v}" for k, v in checks.items())
+    return {"checks": checks, "summary": summary}
 
 
 def notify_n8n(record: dict) -> None:

@@ -198,7 +198,11 @@ def needs_verification(inc: dict) -> bool:
     if inc.get("verdict") or inc.get("verification_issue") or inc.get("merged_into"):
         return False
     status = inc.get("status")
-    return status == "signal" or inc.get("conflicting") or (status == "claimed" and (inc.get("confidence") or 0) < 0.6)
+    if status in ("merged", "rejected") or has_official(inc):
+        return False  # closed, or already on an official list (IMO): nothing for Hermes to add
+    # Everything else that could reach the brief is checked once: claims, media reports, satellite leads.
+    recent = (parse_dt(inc.get("date_utc")) or parse_dt(inc.get("first_seen")) or now_utc()) >= now_utc() - timedelta(days=7)
+    return recent and status in ("signal", "claimed", "reported", "confirmed")
 
 
 def _new_id(incidents: list[dict], when) -> str:

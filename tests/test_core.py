@@ -251,3 +251,17 @@ def test_flags_and_official_absorb():
     assert c.absorb_into_official(incs) == 1
     assert roundup["merged_into"] == off["id"] and off["summary"].startswith("The IMO lists SINBAD")
     assert not panama.get("merged_into")  # a flagged report is a specific ship: never absorbed on a guess
+
+
+def test_quality_report_flags_gaps():
+    from datetime import datetime, timezone
+    from tracker.brief import quality_report
+    from tracker.collectors import imo
+    incs = []
+    row = {"date": datetime.now(timezone.utc), "name": "SINBAD", "imo": "9413688", "location": "Strait of Hormuz", "description": "Damaged."}
+    off, _ = store.merge(imo.to_report(row, "2026-10-02T00:00:00Z"), incs, model_checked=True)
+    claim, _ = store.merge(report(attribution_claimed=None, source=src("https://t/1", side="ru", kind="media", source="TASS")), incs)
+    brief = {"incident_ids": [claim["id"]], "html": "<p>Text — more</p>", "title": "T", "x_post": "x" * 300, "fact_check": "no corrections needed"}
+    q = quality_report(brief, incs)["checks"]
+    assert q["official coverage"].endswith("MISSING") and "TOO LONG" in q["tweet"] and q["dashes"] == "1 found"
+    assert "without a named source" in q["attribution"]
