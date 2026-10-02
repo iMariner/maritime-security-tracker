@@ -162,11 +162,17 @@
       }
     ],
     "first_seen": "2026-10-02T10:21:04Z",
-    "last_updated": "2026-10-02T10:21:04Z",
+    "last_updated": "2026-10-02T11:13:53Z",
     "verification_issue": 14,
-    "verdict": null,
+    "verdict": {
+      "status": "reported",
+      "by": "iMariner",
+      "at": "2026-10-02T11:13:53Z",
+      "note": "Independent shipping media and a maritime security firm report a projectile struck inside Yanbu port on 1 October and briefly halted loading, but Saudi Aramco and Saudi port authorities have not confirmed or attributed the incident.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/14#issuecomment-5951066583"
+    },
     "published_in": [],
-    "status": "claimed",
+    "status": "reported",
     "position_approx": true
   },
   {
@@ -199,14 +205,38 @@
         "kind": "media",
         "published_at": "2026-10-02T06:21:46Z",
         "title": "Три танкера из ОАЭ были атакованы в Ормузском проливе за нарушение правил судоходства - prospect.com.ru"
+      },
+      {
+        "url": "https://en.mehrnews.com/news/248240/3-UAE-owned-tankers-hit-after-breaching-Hormuz-rules",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-02T11:13:50Z",
+        "title": null
+      },
+      {
+        "url": "https://gcaptain.com/three-more-tanker-attacks-surface-in-delayed-hormuz-reports/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-02T11:13:50Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-02T10:21:08Z",
-    "last_updated": "2026-10-02T10:21:08Z",
+    "last_updated": "2026-10-02T11:13:50Z",
     "verification_issue": 15,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-02T11:13:50Z",
+      "note": "The three UAE-linked tankers named here, Al Ruwais, Sinbad and Mersin Prosperity, are the same three strikes UKMTO already reported for 29 September, so this record duplicates that incident.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/15#issuecomment-5951066929"
+    },
     "published_in": [],
-    "status": "claimed",
+    "status": "rejected",
     "position_approx": true
   },
   {
@@ -365,10 +395,19 @@
         "kind": "media",
         "published_at": "2026-10-01T20:16:40Z",
         "title": "Oil Tanker struck by unknown projectile in Strait of Hormuz, fire reported, crew safe - investingLive"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOQTRpeFFZOGlVY2lrc2pxOUJweUJqWmJXa2RZRWx2a3hLbDBiM0QzYTZ4S0pTQjE4U0FvRlRuakUxWUNOZ2hoSHFCa0stMGZYUVRsazFZZkdXdGRKRnhNeWN5R2FfM3FTY2IweGkzam42V3Z4SmtScEdocExqOGtwYkptMVBTUXRQanpnZG1zUGlMX0pzUkJXLUJsWGRJdDVhR0g3LVFwS1NOSVVscWptREZiLWM2OUtRX1lBb1BMbnBZb1FtbVBNZUFuS2RyVnRmLWdOdXFwM3p0amd0TGtPQw?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-02T10:07:04Z",
+        "title": "Fire ignites on tanker in Hormuz after strike by unknown projectile - TradeWinds News"
       }
     ],
     "first_seen": "2026-10-02T10:21:14Z",
-    "last_updated": "2026-10-02T10:21:23Z",
+    "last_updated": "2026-10-02T11:14:31Z",
     "verification_issue": null,
     "verdict": null,
     "published_in": [],
@@ -540,6 +579,46 @@
     "first_seen": "2026-10-02T10:21:14Z",
     "last_updated": "2026-10-02T10:22:48Z",
     "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-02",
+    "summary": "A report said Iran launched 40 missiles and drones at 'enemy ships' in the Strait of Hormuz. The targets described are warships, not civilian vessels, so this is out of scope.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.2,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "naval",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "missile",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Iran",
+    "independent_evidence": false,
+    "id": "INC-20261002-007",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQUUYwTUlOQUJjU3hJMnUzXzdXU19xdzNuNmZMTmNaNlBRUDVUMHRCUV85NzNjelUtOWZVQmp3YWRubDE2WUF3RmVOX1JkRW9vdFFmZFJ5cDNYdjk4a0lETV91ZGRLN3Rpclh2SlhZX0RIWjVaamNnS2JHLTltT042VjZxRE5rc29SeGRrUUJUd2ltTFFsZEJaeEUwTDlkYi1JeXZwaU1tY2Q2eW9rRlJXTW9SQ1BQWF9ROHZOU1hpV3BzZ05GV21JZk5Tb2VwRzNoNUwwVTJXMXBhRVFTTzJxaDhkLWt1XzhkdEVlUExlb1JfZDls0gH0AUFVX3lxTFBRRjBNSU5BQmNTeEkydTNfN1dTX3F3M242ZkxOY1o2UFFQNVQwdEJRXzk3M2N6VS05ZlVCandhZG5sMTZZQXdGZU5fUmRFb290UWZkUnlwM1h2OThrSURNX3VkZEs3dGlyWHZKWFlfREhaNVpqY2dLYkctOW1PTjZWNnFETmtzb1J4ZGtRQlR3aW1MUWxkQlp4RTBMOWRiLUl5dnBpTW1jZDZ5b2tGUldNb1JDUFBYX1E4dk5TWGlXcHNnTkZXbUlmTlNvZXBHM2g1TDBVMlcxcGFFUVNPMnFoOGQta3VfOGR0RWVQTGVvUl9kOWw?oc=5",
+        "source": "The Times of India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-02T09:23:53Z",
+        "title": "US Navy Flees? Iran Launches 40 Missiles & Drones At 'ENEMY SHIPS' In Hormuz | WATCH - The Times of India"
+      }
+    ],
+    "first_seen": "2026-10-02T11:14:31Z",
+    "last_updated": "2026-10-02T11:14:31Z",
+    "verification_issue": 20,
     "verdict": null,
     "published_in": [],
     "status": "claimed",
@@ -871,11 +950,17 @@
       }
     ],
     "first_seen": "2026-10-02T10:21:36Z",
-    "last_updated": "2026-10-02T10:22:58Z",
+    "last_updated": "2026-10-02T11:13:48Z",
     "verification_issue": 17,
-    "verdict": null,
+    "verdict": {
+      "status": "claimed",
+      "by": "iMariner",
+      "at": "2026-10-02T11:13:48Z",
+      "note": "Only one Turkish report raises a possible missile strike on a tanker and no independent or official source confirms it.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/17#issuecomment-5951067200"
+    },
     "published_in": [],
-    "status": "confirmed",
+    "status": "claimed",
     "position_approx": true
   },
   {
@@ -1115,10 +1200,19 @@
         "kind": "media",
         "published_at": "2026-09-30T10:30:51Z",
         "title": "Oil tanker attacked in Strait of Hormuz, says UKMTO - timeskuwait.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa3l3VEtndDhhQ3U0OHliWTQ0S1NpMkF5QXJRd0MzR0VwYnFFaDBBdmtOMFJ6NjRSYkx1eUNHbUNOSEM5cXZxX1JBc2N4LWVPNDZET1JsNU5kdWJxSTh2MTg3UWROR2tiT3hudUhfRXJadmh5R3dSZWNIc3JkMlg5djlIZ0dOVTRpZEYzODJHX1hrRUdTcUNPdUFDUU41Q2ZXNmowRUZYTDE0UQ?oc=5",
+        "source": "palestinechronicle.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-09-30T14:17:54Z",
+        "title": "Two Tankers Struck in Strait of Hormuz Amid US-Iran Navigation Dispute - palestinechronicle.com"
       }
     ],
     "first_seen": "2026-10-02T10:22:58Z",
-    "last_updated": "2026-10-02T10:23:06Z",
+    "last_updated": "2026-10-02T11:14:31Z",
     "verification_issue": null,
     "verdict": null,
     "published_in": [],
