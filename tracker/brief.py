@@ -162,6 +162,7 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list) -> d
     out = {k: no_em_dash(str(copy.get(k) or fallback[k])) for k in fallback if k != "key_points"}
     out["key_points"] = [no_em_dash(str(p)).strip() for p in points if str(p).strip()][:5]
     out["title"] = out["title"][:90]
+    out["x_post"] = fit_tweet(out["x_post"])
     out["article_html"] = _clean_html(out["article_html"])
     return out
 
@@ -198,6 +199,20 @@ def with_map(body: str, image_url: str, day_label: str) -> str:
     fig = map_figure_html(image_url, day_label)
     end = body.find("</ul></div>") if 'class="msb-key-points"' in body else -1
     return body[: end + 11] + fig + body[end + 11 :] if end != -1 else fig + body
+
+
+def fit_tweet(text: str, limit: int = 280 - 24) -> str:
+    """Keep the tweet within X's limit once the link (23 characters plus a space) is added: drop trailing
+    sentences before the hashtags, never the hashtags themselves."""
+    if len(text) <= limit:
+        return text
+    tags = " ".join(w for w in text.split() if w.startswith("#"))
+    body = " ".join(w for w in text.split() if not w.startswith("#"))
+    sentences = re.split(r"(?<=[.;])\s+", body)
+    while len(sentences) > 1 and len(" ".join(sentences) + " " + tags) > limit:
+        sentences.pop()
+    out = (" ".join(sentences) + " " + tags).strip()
+    return out if len(out) <= limit else out[: limit - 1].rstrip() + "…"
 
 
 def sources_html(incidents: list[dict]) -> str:

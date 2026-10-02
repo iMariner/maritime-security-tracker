@@ -206,3 +206,10 @@ def test_vessel_name_numbers():
     store.merge(report(vessel_name="Kazimah II"), incs)
     store.merge(report(vessel_name="Kazimah III", source=src("https://n/k3")), incs)
     assert len(incs) == 2
+
+
+def test_fit_tweet():
+    from tracker.brief import fit_tweet
+    long = "First sentence about a tanker hit in Hormuz with a fire on board and crew safe. " * 2 + "Second sentence about the Black Sea claim. #MaritimeSecurity #Shipping"
+    out = fit_tweet(long)
+    assert len(out) + 24 <= 280 and out.endswith("#MaritimeSecurity #Shipping")
