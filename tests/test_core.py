@@ -152,3 +152,35 @@ def test_key_points_card_and_map():
     body = with_map(card + "<p>Lede</p>", "https://x/y.png", "2 October 2026")
     assert body.index("Key points") < body.index("msb-map") < body.index("Lede")
     assert with_map(body, "https://x/y.png", "2 October 2026") == body  # never twice
+
+
+def test_review_pass_merges_and_drops(monkeypatch):
+    from tracker import consolidate as c
+    incs = []
+    a, _ = store.merge(report(region="Strait of Hormuz", vessel_name="Kazimah", source=src("https://n/a", side="neutral", kind="media", source="Splash247")), incs)
+    b, _ = store.merge(report(region="Strait of Hormuz", source=src("https://n/b")), incs, model_checked=True)
+    d, _ = store.merge(report(region="Persian Gulf", source=src("https://n/d")), incs, model_checked=True)
+    monkeypatch.setattr(c.llm, "available", lambda: True)
+    monkeypatch.setattr(c.llm, "chat_json", lambda *args, **kw: {
+        "groups": [{"keep": a["id"], "merge": [b["id"]], "date_utc": "2026-10-01", "summary": "Kazimah was hit — crew safe."}],
+        "out_of_scope": [{"id": d["id"], "reason": "port strike, no vessel"}]})
+    monkeypatch.setattr(c.github_issues, "close_issue", lambda *args, **kw: None)
+    assert c.consolidate(incs) == 2
+    assert b["status"] == "merged" and b["merged_into"] == a["id"] and len(a["sources"]) == 2
+    assert d["status"] == "rejected" and a["summary"] == "Kazimah was hit, crew safe."
+    # a later report about the merged entry lands on the survivor
+    e, new = store.merge(report(region="Strait of Hormuz", same_as=b["id"], source=src("https://n/e")), incs, model_checked=True)
+    assert not new and e is a
+
+
+def test_brief_new_vs_update():
+    from datetime import timedelta
+    from tracker.brief import select
+    from tracker.common import iso, now_utc
+    since = now_utc() - timedelta(hours=24)
+    fresh = {"id": "A", "status": "reported", "region": "Black Sea", "first_seen": iso(now_utc()), "date_utc": iso(now_utc()), "sources": []}
+    old_event = dict(fresh, id="B", date_utc=iso(now_utc() - timedelta(days=20)))
+    repeated = dict(fresh, id="C", published_in=["2026-10-01"], first_seen=iso(now_utc() - timedelta(days=2)))
+    upgraded = dict(repeated, id="D", status="confirmed", status_changed_at=iso(now_utc()))
+    new, updated, corrections = select([fresh, old_event, repeated, upgraded], since)
+    assert [i["id"] for i in new] == ["A"] and [i["id"] for i in updated] == ["D"] and not corrections

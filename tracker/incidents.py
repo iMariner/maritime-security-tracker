@@ -127,6 +127,8 @@ def neutral_confirmation(cited: str | None) -> bool:
 
 
 def compute_status(inc: dict) -> str:
+    if inc.get("merged_into"):
+        return "merged"  # folded into another incident by the review pass
     if inc.get("verdict"):
         return inc["verdict"]["status"]
     sources = [s for s in inc.get("sources", []) if s.get("source_type") != "satellite"]
@@ -148,7 +150,7 @@ def compute_status(inc: dict) -> str:
 
 
 def needs_verification(inc: dict) -> bool:
-    if inc.get("verdict") or inc.get("verification_issue"):
+    if inc.get("verdict") or inc.get("verification_issue") or inc.get("merged_into"):
         return False
     status = inc.get("status")
     return status == "signal" or inc.get("conflicting") or (status == "claimed" and (inc.get("confidence") or 0) < 0.6)
@@ -166,6 +168,9 @@ def merge(report: dict, incidents: list[dict], model_checked: bool = False) -> t
     report["_published"] = source.get("published_at")
     stamp = iso(now_utc())
     match = find_match(report, incidents, model_checked)
+    by_id = {i["id"]: i for i in incidents}
+    while match is not None and match.get("merged_into") in by_id:  # follow merges to the surviving incident
+        match = by_id[match["merged_into"]]
     if match is None:
         inc = {k: report.get(k) for k in ("region", "date_utc", "summary", "official_source_cited", "conflicting", "confidence") + MERGE_FIELDS}
         inc["independent_evidence"] = bool(report.get("independent_evidence"))
@@ -207,6 +212,7 @@ def merge(report: dict, incidents: list[dict], model_checked: bool = False) -> t
     status = compute_status(inc)
     if status != inc.get("status"):
         inc["status"] = status
+        inc["status_changed_at"] = stamp
         changed = True
     if changed:
         inc["last_updated"] = stamp

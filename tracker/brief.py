@@ -33,20 +33,25 @@ STATUS_NOTE = {
 
 
 def select(incidents: list[dict], since) -> tuple[list[dict], list[dict], list[dict]]:
+    """new: first seen in the window, attack within the last 7 days.
+    updated: already published, and its status changed in the window (not merely another outlet repeating it).
+    corrections: already published, and now rejected."""
     from .common import load_yaml
 
     include_naval = bool(load_yaml("regions.yaml").get("include_naval"))
+    oldest_event = since - timedelta(days=6)
     new, updated, corrections = [], [], []
     for inc in incidents:
-        if inc.get("vessel_category") == "naval" and not include_naval:
+        if inc.get("merged_into") or (inc.get("vessel_category") == "naval" and not include_naval):
             continue
-        last = parse_dt(inc.get("last_updated"))
-        if not last or last < since:
-            continue
-        if inc["status"] == "rejected" and inc.get("published_in"):
-            corrections.append(inc)
-        elif inc["status"] in PUBLISHED_STATUSES:
-            (new if not inc.get("published_in") else updated).append(inc)
+        first = parse_dt(inc.get("first_seen"))
+        changed = parse_dt(inc.get("status_changed_at"))
+        event = parse_dt(inc.get("date_utc")) or first
+        if inc.get("published_in"):
+            if changed and changed >= since:
+                (corrections if inc["status"] == "rejected" else updated if inc["status"] in PUBLISHED_STATUSES else []).append(inc)
+        elif inc["status"] in PUBLISHED_STATUSES and first and first >= since and event and event >= oldest_event:
+            new.append(inc)
     return new, updated, corrections
 
 

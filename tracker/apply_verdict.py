@@ -52,6 +52,8 @@ def apply(inc: dict, verdict: dict, user: str, comment_url: str) -> None:
                                    "side": "neutral", "kind": "verification", "published_at": iso(now_utc()), "title": None})
     inc["verdict"] = {"status": verdict["status"], "by": user, "at": iso(now_utc()), "note": verdict["note"],
                       "comment_url": comment_url}
+    if inc.get("status") != verdict["status"]:
+        inc["status_changed_at"] = iso(now_utc())
     inc["status"] = verdict["status"]
     inc["last_updated"] = iso(now_utc())
 

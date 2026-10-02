@@ -10,6 +10,7 @@ import sys
 from datetime import timedelta
 
 from . import geo, github_issues, incidents as store, llm
+from .consolidate import consolidate
 from .collectors import firms, rss, telegram
 from .common import SEEN_FILE, env, iso, log, now_utc, parse_dt, prune_seen, read_json, write_json
 from .extract import extract
@@ -76,10 +77,17 @@ def main() -> None:
         seen[key] = stamp
         store.add_firms_signal(det, incidents)
 
+    # Review pass: merge entries that are the same real attack, drop out-of-scope ones.
+    closed = consolidate(incidents)
+    if closed:
+        log.info("Review pass closed %d duplicate or out-of-scope entries", closed)
+
     # Re-apply the status rules to every incident, so a rule change takes effect on stored data too.
     # Also give incidents without coordinates an approximate position from the place they name.
     for inc in incidents:
-        inc["status"] = store.compute_status(inc)
+        status = store.compute_status(inc)
+        if status != inc.get("status"):
+            inc["status"], inc["status_changed_at"] = status, stamp
         geo.fill_position(inc)
 
     max_issues = int(env("MAX_VERIFY_ISSUES_PER_RUN", "5"))
