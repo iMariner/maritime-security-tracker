@@ -190,8 +190,10 @@ def main() -> None:
     OUT.mkdir(exist_ok=True)
     (OUT / "brief.html").write_text(f"<h1>{html.escape(brief['title'])}</h1>\n{brief['html']}", encoding="utf-8")
     write_json(OUT / "brief.json", brief)
-    if args.preview:
-        log.info("Preview written to %s", OUT)
+    if args.preview or not (env("WP_USER") and env("WP_APP_PASSWORD")):
+        if not args.preview:
+            log.warning("WordPress login not set (WP_USER, WP_APP_PASSWORD): brief built as a preview only, nothing published")
+        log.info("Preview written to %s (download the 'brief' artifact from the Actions run)", OUT)
         return
     if not brief["incident_ids"] and not brief["correction_ids"] and env("PUBLISH_EMPTY_DAYS", "true") != "true":
         log.info("Nothing to report and PUBLISH_EMPTY_DAYS is off")
