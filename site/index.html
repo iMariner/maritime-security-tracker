@@ -87,13 +87,14 @@ function render() {
     const sources = i.sources.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener nofollow">${esc(s.source)}</a>`).join(", ");
     const html = `<h3>${title} <span class="badge" style="background:${COLOURS[i.status]}">${esc(i.status)}</span></h3>
       <div class="meta">${esc(when(i).toUTCString().slice(0, 22))} UTC · ${esc(i.location_text || "")} · ${esc(i.attack_type || "")}</div>
-      <p>${esc(i.summary)}</p><div class="meta">Sources: ${sources}</div>`;
+      <p>${esc(i.summary)}</p><div class="meta">Sources: ${sources}${i.position_approx ? " · map position approximate" : ""}</div>`;
     const card = document.createElement("div");
     card.className = "card";
     card.innerHTML = html;
     list.appendChild(card);
     if (i.lat != null && i.lon != null) {
-      L.circleMarker([i.lat, i.lon], { radius: 8, color: "#fff", weight: 2, fillColor: COLOURS[i.status], fillOpacity: 0.95 })
+      L.circleMarker([i.lat, i.lon], { radius: 8, color: "#fff", weight: 2, fillColor: COLOURS[i.status],
+                                       fillOpacity: i.position_approx ? 0.55 : 0.95, dashArray: i.position_approx ? "3" : null })
         .bindPopup(html).addTo(layer);
     }
   }

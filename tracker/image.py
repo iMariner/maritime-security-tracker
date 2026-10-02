@@ -59,8 +59,15 @@ def render(day: datetime, incidents: list[dict], out: Path) -> Path:
 
     panel_w, panel_h, top = 550, 400, 130
     for idx, (title, bbox, regions) in enumerate(PANELS):
-        pts = [(i["lon"], i["lat"], STATUS_COLOURS.get(i["status"], MUTED))
-               for i in incidents if i.get("region") in regions and i.get("lat") is not None]
+        from .geo import approximate
+
+        pts = []
+        for i in incidents:
+            if i.get("region") not in regions:
+                continue
+            point = (i["lat"], i["lon"]) if i.get("lat") is not None else approximate(i)
+            if point:
+                pts.append((point[1], point[0], STATUS_COLOURS.get(i["status"], MUTED)))
         x0 = 40 + idx * (panel_w + 20)
         img.paste(_map_panel(bbox, pts, (panel_w, panel_h)), (x0, top))
         count = sum(1 for i in incidents if i.get("region") in regions)
@@ -72,7 +79,8 @@ def render(day: datetime, incidents: list[dict], out: Path) -> Path:
         d.ellipse([x, 560, x + 18, 578], fill=colour)
         d.text((x + 26, 557), label.capitalize(), font=_font(20), fill=WHITE)
         x += 170
-    d.text((W - 40, 590), "Map data © OpenStreetMap contributors", font=_font(14), fill=MUTED, anchor="ra")
+    d.text((W - 40, 572), "Positions approximate unless reported", font=_font(14), fill=MUTED, anchor="ra")
+    d.text((W - 40, 592), "Map data © OpenStreetMap contributors", font=_font(14), fill=MUTED, anchor="ra")
     out.parent.mkdir(parents=True, exist_ok=True)
     img.save(out, "PNG", optimize=True)
     return out

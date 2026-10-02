@@ -105,3 +105,17 @@ def test_party_ministry_never_confirms():
     incs = []
     inc, _ = store.merge(report(official_source_cited="Russian Ministry of Defence"), incs)
     assert inc["status"] == "claimed"
+
+
+def test_approximate_positions():
+    from tracker import geo
+    inc = {"region": "Black Sea", "location_text": "Chornomorsk port, Odesa region", "lat": None, "lon": None}
+    assert geo.fill_position(inc) and (inc["lat"], inc["lon"]) == (46.30, 30.66) and inc["position_approx"]
+    inc2 = {"region": "Strait of Hormuz", "location_text": None, "summary": "A tanker was hit", "lat": None, "lon": None}
+    geo.fill_position(inc2)
+    assert (inc2["lat"], inc2["lon"]) == (26.55, 56.35)
+    incs = []
+    a, _ = store.merge(report(region="Strait of Hormuz"), incs)
+    geo.fill_position(a)
+    store.merge(report(region="Strait of Hormuz", vessel_name="Kazimah", lat=26.4, lon=56.5, source=src("https://n/k")), incs)
+    assert len(incs) == 2  # an approximate position is never used to merge two incidents

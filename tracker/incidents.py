@@ -92,7 +92,7 @@ def find_match(report: dict, incidents: list[dict], model_checked: bool = False)
     if not candidates:
         return None
     if all(x is not None for x in (report.get("lat"), report.get("lon"))):
-        near = [c for c in candidates if c.get("lat") is not None and km(report["lat"], report["lon"], c["lat"], c["lon"]) <= 60]
+        near = [c for c in candidates if c.get("lat") is not None and not c.get("position_approx") and km(report["lat"], report["lon"], c["lat"], c["lon"]) <= 60]
         if len(near) == 1:
             return near[0]
     return _ai_choose(report, candidates)
@@ -179,6 +179,9 @@ def merge(report: dict, incidents: list[dict], model_checked: bool = False) -> t
     if source["url"] not in {s["url"] for s in inc["sources"]}:
         inc["sources"].append(source)
         changed = True
+    if inc.get("position_approx") and report.get("lat") is not None and report.get("lon") is not None:
+        inc["lat"], inc["lon"], inc["position_approx"] = report["lat"], report["lon"], False  # real position beats the guess
+        changed = True
     for field in MERGE_FIELDS:
         if report.get(field) not in (None, "") and inc.get(field) in (None, ""):
             inc[field] = report[field]
@@ -210,7 +213,7 @@ def add_firms_signal(det: dict, incidents: list[dict]) -> dict | None:
                   "kind": "data", "published_at": det["time"], "title": None}
     probe = {"date_utc": det["time"]}
     for inc in incidents:
-        if inc.get("lat") is not None and _close_in_time(probe, inc, FIRMS_WINDOW) and km(det["lat"], det["lon"], inc["lat"], inc["lon"]) <= 15:
+        if inc.get("lat") is not None and not inc.get("position_approx") and _close_in_time(probe, inc, FIRMS_WINDOW) and km(det["lat"], det["lon"], inc["lat"], inc["lon"]) <= 15:
             if sat_source["url"] not in {s["url"] for s in inc["sources"]}:
                 inc["sources"].append(sat_source)
                 inc["last_updated"] = iso(now_utc())

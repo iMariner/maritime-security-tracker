@@ -9,7 +9,7 @@ import argparse
 import sys
 from datetime import timedelta
 
-from . import github_issues, incidents as store, llm
+from . import geo, github_issues, incidents as store, llm
 from .collectors import firms, rss, telegram
 from .common import SEEN_FILE, env, iso, log, now_utc, parse_dt, prune_seen, read_json, write_json
 from .extract import extract
@@ -77,8 +77,10 @@ def main() -> None:
         store.add_firms_signal(det, incidents)
 
     # Re-apply the status rules to every incident, so a rule change takes effect on stored data too.
+    # Also give incidents without coordinates an approximate position from the place they name.
     for inc in incidents:
         inc["status"] = store.compute_status(inc)
+        geo.fill_position(inc)
 
     max_issues = int(env("MAX_VERIFY_ISSUES_PER_RUN", "5"))
     for inc in [i for i in incidents if store.needs_verification(i)][:max_issues]:
