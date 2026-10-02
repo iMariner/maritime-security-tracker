@@ -50,19 +50,24 @@ Rules:
 - Today is {now_utc().date().isoformat()}.
 
 Return JSON: {{"items": [{{"item_id": "...", "incidents": [ ... ]}}]}}
+List ONLY items that contain at least one in-scope incident; leave every other item out.
+If no item qualifies, return {{"items": []}}. Return the JSON object only, no other text.
 Each incident has these fields:
-{FIELDS.replace("REGIONS", json.dumps(regions))}
-Items with no in-scope incident get "incidents": []."""
+{FIELDS.replace("REGIONS", json.dumps(regions))}"""
 
 
-def extract(items: list[dict]) -> list[dict]:
-    """Return incident candidates, each with the item it came from attached as `source`."""
+def extract(items: list[dict]) -> tuple[list[dict], set, int]:
+    """Return (incident reports, ids of items the AI read, number of failed batches).
+
+    Each report has the item it came from attached as `source`. A failed batch is skipped so the
+    rest still count; its items stay unread and are retried on the next run.
+    """
     # GitHub Models' free tier caps each request at about 8k input tokens, so send less per call there.
     batch_size, max_chars = (4, 1500) if llm.free_tier_only() else (8, 3000)
     batch_size = int(env("EXTRACT_BATCH_SIZE") or batch_size)
     system = _system_prompt()
     by_id = {it["id"]: it for it in items}
-    results = []
+    results, done, failed = [], set(), 0
     for i in range(0, len(items), batch_size):
         batch = items[i : i + batch_size]
         payload = [
@@ -70,7 +75,13 @@ def extract(items: list[dict]) -> list[dict]:
              "title": it["title"], "text": it["text"][:max_chars]}
             for it in batch
         ]
-        data = llm.chat_json(system, json.dumps({"items": payload}, ensure_ascii=False), max_tokens=8000)
+        try:
+            data = llm.chat_json(system, json.dumps({"items": payload}, ensure_ascii=False), max_tokens=8000)
+        except RuntimeError as exc:
+            failed += 1
+            log.warning("Extract: batch %d skipped, will retry next run: %s", i // batch_size + 1, str(exc)[:300])
+            continue
+        done.update(it["id"] for it in batch)
         for entry in data.get("items", []):
             src = by_id.get(entry.get("item_id"))
             if not src:
@@ -85,5 +96,5 @@ def extract(items: list[dict]) -> list[dict]:
                 }
                 results.append(inc)
         log.info("Extract: batch %d/%d done", i // batch_size + 1, (len(items) + batch_size - 1) // batch_size)
-    log.info("Extract: %d incident reports from %d items", len(results), len(items))
-    return results
+    log.info("Extract: %d incident reports from %d items read (%d batches failed)", len(results), len(done), failed)
+    return results, done, failed

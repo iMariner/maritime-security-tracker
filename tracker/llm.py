@@ -27,20 +27,22 @@ from .common import env, log
 GITHUB_MODELS_URL = "https://models.github.ai/inference"
 
 
-def _providers(kind: str) -> list[tuple[str, OpenAI, str]]:
+def _providers(kind: str) -> list[tuple]:
     providers = []
     key = env("LLM_API_KEY")
     if key:
         models = env("LLM_MODEL_BRIEF" if kind == "brief" else "LLM_MODEL_FAST") or env("LLM_MODEL_FAST") or "deepseek-chat"
         base_url = env("LLM_BASE_URL") or "https://api.deepseek.com"
         headers = {"HTTP-Referer": "https://imariners.com", "X-Title": "iMariners Maritime Security Tracker"} if "openrouter" in base_url else None
+        # OpenRouter: keep reasoning text out of the answer so only the JSON comes back.
+        extra = {"reasoning": {"exclude": True}} if "openrouter" in base_url else None
         client = OpenAI(api_key=key, base_url=base_url, timeout=180, default_headers=headers)
         for model in [m.strip() for m in models.split(",") if m.strip()]:
-            providers.append(("primary", client, model))
+            providers.append(("primary", client, model, extra))
     gh_token = env("GITHUB_TOKEN")
     if gh_token and env("LLM_FALLBACK", "off") == "github":
         model = env("GITHUB_MODELS_MODEL", "openai/gpt-4.1-mini")
-        providers.append(("github-models", OpenAI(api_key=gh_token, base_url=GITHUB_MODELS_URL, timeout=120), model))
+        providers.append(("github-models", OpenAI(api_key=gh_token, base_url=GITHUB_MODELS_URL, timeout=120), model, None))
     return providers
 
 
@@ -54,21 +56,32 @@ def free_tier_only() -> bool:
 
 
 def _parse_json(text: str) -> dict:
-    text = text.strip()
+    text = (text or "").strip()
+    text = re.sub(r"<think>.*?</think>", "", text, flags=re.S).strip()  # some free models inline their reasoning
     fenced = re.search(r"```(?:json)?\s*(.*?)```", text, re.S)
     if fenced:
         text = fenced.group(1)
     start = text.find("{")
+    if start == -1:
+        raise ValueError(f"no JSON object in response: {text[:200]!r}")
     end = text.rfind("}")
-    if start == -1 or end == -1:
-        raise ValueError("no JSON object in response")
-    return json.loads(text[start : end + 1])
+    try:
+        return json.loads(text[start : end + 1])
+    except ValueError:
+        # Free models often return almost-valid JSON (a missing comma, a truncated tail); repair it.
+        from json_repair import repair_json
+
+        repaired = repair_json(text[start:], return_objects=True)
+        if isinstance(repaired, dict) and repaired:
+            log.info("Repaired malformed JSON from the model")
+            return repaired
+        raise ValueError(f"unreadable JSON in response: {text[start:start + 200]!r}")
 
 
 def chat_json(system: str, user: str, kind: str = "fast", max_tokens: int = 4000) -> dict:
     """Ask for a JSON object. Tries each provider, retrying once on bad JSON."""
     errors = []
-    for name, client, model in _providers(kind):
+    for name, client, model, extra in _providers(kind):
         for attempt in range(2):
             try:
                 resp = client.chat.completions.create(
@@ -77,6 +90,7 @@ def chat_json(system: str, user: str, kind: str = "fast", max_tokens: int = 4000
                     response_format={"type": "json_object"},
                     temperature=0.1 if kind == "fast" else 0.4,
                     max_tokens=max_tokens,
+                    extra_body=extra,
                 )
                 return _parse_json(resp.choices[0].message.content or "")
             except Exception as exc:  # network, rate limit, bad JSON

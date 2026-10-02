@@ -55,19 +55,14 @@ def main() -> None:
     ai_failed = False
     if candidates and candidates_ready and llm.available():
         batch = candidates[:max_items]
-        try:
-            reports = extract(batch)
-        except RuntimeError as exc:
-            # Keep going so collection, satellite data and seen-markers are still saved; fail the run at the end.
-            log.error("AI step failed, candidates kept for the next run: %s", exc)
-            ai_failed, reports, batch = True, [], []
+        reports, processed, failed = extract(batch)
+        ai_failed = failed > 0 and not processed  # every batch failed
         new = updated = 0
         for rep in reports:
             _, is_new = store.merge(rep, incidents)
             new += is_new
             updated += not is_new
         log.info("Incidents: %d new, %d reports merged into existing", new, updated)
-        processed = {it["id"] for it in batch}
         # Non-candidates are marked seen right away; candidates only once the AI has read them.
         for it in fresh:
             if it["id"] in processed or it["id"] not in candidate_ids:
