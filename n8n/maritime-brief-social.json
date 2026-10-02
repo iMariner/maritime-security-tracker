@@ -1,5 +1,5 @@
 {
-  "name": "Maritime Security Brief: approve and share",
+  "name": "Maritime Security Brief: approve, publish, tweet",
   "nodes": [
     {
       "parameters": {
@@ -162,12 +162,6 @@
               "name": "x_text",
               "type": "string",
               "value": "={{ $('Brief from GitHub').item.json.body.x_post }} {{ $('Publish on iMariners').isExecuted ? $('Publish on iMariners').item.json.link : $('Brief from GitHub').item.json.body.link }}"
-            },
-            {
-              "id": "s5",
-              "name": "li_text",
-              "type": "string",
-              "value": "={{ $('Brief from GitHub').item.json.body.linkedin_post }}"
             }
           ]
         },
@@ -199,30 +193,8 @@
     },
     {
       "parameters": {
-        "postAs": "person",
-        "person": "REPLACE_WITH_YOUR_LINKEDIN_PERSON_ID",
-        "text": "={{ $json.li_text }}",
-        "shareMediaCategory": "ARTICLE",
-        "additionalFields": {
-          "originalUrl": "={{ $json.link }}",
-          "title": "={{ $json.title }}",
-          "description": "={{ $json.excerpt }}"
-        }
-      },
-      "id": "a8",
-      "name": "Post on LinkedIn",
-      "type": "n8n-nodes-base.linkedIn",
-      "typeVersion": 1,
-      "position": [
-        1320,
-        320
-      ],
-      "continueOnFail": true
-    },
-    {
-      "parameters": {
         "chatId": "REPLACE_WITH_YOUR_TELEGRAM_CHAT_ID",
-        "text": "=Posted: {{ $('Social text').item.json.link }}\nX: {{ $('Post on X').item.json.error ? 'FAILED ' + $('Post on X').item.json.error.message : 'ok' }}\nLinkedIn: {{ $('Post on LinkedIn').item.json.error ? 'FAILED ' + $('Post on LinkedIn').item.json.error.message : 'ok' }}",
+        "text": "=Published: {{ $('Social text').item.json.link }}\nX: {{ $('Post on X').item.json.error ? 'FAILED ' + $('Post on X').item.json.error.message : 'posted' }}",
         "additionalFields": {
           "disable_web_page_preview": true
         }
@@ -233,7 +205,7 @@
       "typeVersion": 1.2,
       "position": [
         1540,
-        300
+        160
       ]
     },
     {
@@ -329,16 +301,11 @@
             "node": "Post on X",
             "type": "main",
             "index": 0
-          },
-          {
-            "node": "Post on LinkedIn",
-            "type": "main",
-            "index": 0
           }
         ]
       ]
     },
-    "Post on LinkedIn": {
+    "Post on X": {
       "main": [
         [
           {

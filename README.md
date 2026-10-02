@@ -3,7 +3,7 @@
 Tracks attacks on vessels in the **Black Sea** and the **Strait of Hormuz / Gulf / Gulf of Oman**,
 from news, official advisories, public Telegram channels (both sides of the conflict, five languages)
 and NASA satellite fire detections. Every morning it writes the **Maritime Security Brief**, publishes
-it on imariners.com and shares it on X and LinkedIn.
+it on imariners.com and shares it on X.
 
 Everything runs free on GitHub Actions (public repo). The only running cost is the DeepSeek API,
 roughly 1 to 2 USD a month at this volume. Without AI credit the tracker still collects, but the run fails
@@ -16,7 +16,7 @@ Every 30 min (GitHub Actions: collect.yml)
   -> doubtful ones open a GitHub issue labelled "verify" -> Hermes (or you) answers /verdict
 
 Daily 05:40 UTC (daily-brief.yml)
-  last 24h incidents -> DeepSeek writes headline, overview, X and LinkedIn text
+  last 24h incidents -> DeepSeek writes headline, overview, X text
   -> map image -> WordPress post on imariners.com (draft or publish)
   -> n8n webhook -> Telegram approval on your phone -> publish + X + LinkedIn
 

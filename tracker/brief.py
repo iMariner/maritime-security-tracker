@@ -1,5 +1,5 @@
 """Daily brief: pick the last 24h of incidents, write the article and social posts,
-publish to imariners.com, then hand over to n8n for approval and X/LinkedIn.
+publish to imariners.com, then hand over to n8n for approval and the tweet on X.
 
   python -m tracker.brief              build + publish (+ n8n webhook)
   python -m tracker.brief --preview    build only, write out/brief.html, out/brief.json, out/featured.png
@@ -87,8 +87,10 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list) -> d
         '"excerpt" (meta description, max 155 chars), '
         '"overview_html" (2 short <p> paragraphs: what happened in the last 24 hours by region, and what it means for '
         "crews and operators), "
-        '"x_post" (max 240 chars, no link, 1 or 2 hashtags at the end), '
-        '"linkedin_post" (3 to 6 short lines, professional, no link, up to 3 hashtags at the end).'
+        '"x_post" (the tweet that shares the blog post: one or two short sentences, at most 200 characters, '
+        'saying what happened in the last 24 hours and where; then a space and 3 or 4 hashtags chosen from '
+        '#MaritimeSecurity #Shipping #Seafarers #BlackSea #StraitOfHormuz #Tanker #UKMTO #MaritimeNews, picking the '
+        'ones that fit the day; no link, the link is added automatically).'
     )
     user = json.dumps({"date": day_label, "new_incidents": len(new), "updates": len(updated),
                        "corrections": len(corrections), "incidents": facts}, ensure_ascii=False)
@@ -106,8 +108,7 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list) -> d
         "title": f"Black Sea and Hormuz {'Shipping Attacks' if n else 'Maritime Security'}: {day_label}",
         "excerpt": f"Attacks on merchant ships in the Black Sea and Strait of Hormuz in the last 24 hours, {day_label}. {summary}.",
         "overview_html": f"<p>In the 24 hours to 06:00 UTC on {day_label}: {summary}.</p>",
-        "x_post": f"Maritime Security Brief, {day_label}. {summary}. #MaritimeSecurity",
-        "linkedin_post": f"Maritime Security Brief, {day_label}\n\n{summary}.\n\n#MaritimeSecurity #Shipping",
+        "x_post": f"Maritime Security Brief, {day_label}: {summary}. #MaritimeSecurity #Shipping #Seafarers",
     }
     out = {k: no_em_dash(str(copy.get(k) or fallback[k])) for k in fallback}
     out["title"] = out["title"][:90]
@@ -163,7 +164,7 @@ def publish(brief: dict, image: Path) -> dict:
         "categories": [wp.category_id(env("WP_CATEGORY_SLUG", "maritime-security"))],
     })
     record.update(post_id=post["id"], media_id=media_id, link=post["link"], status=post["status"],
-                  **{k: brief[k] for k in ("title", "excerpt", "x_post", "linkedin_post", "incident_ids", "counts")})
+                  **{k: brief[k] for k in ("title", "excerpt", "x_post", "incident_ids", "counts")})
     write_json(record_path, record)
     log.info("WordPress post %s (%s): %s", post["id"], post["status"], post["link"])
     return record
