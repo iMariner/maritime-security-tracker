@@ -76,6 +76,10 @@ def main() -> None:
         seen[key] = stamp
         store.add_firms_signal(det, incidents)
 
+    # Re-apply the status rules to every incident, so a rule change takes effect on stored data too.
+    for inc in incidents:
+        inc["status"] = store.compute_status(inc)
+
     max_issues = int(env("MAX_VERIFY_ISSUES_PER_RUN", "5"))
     for inc in [i for i in incidents if store.needs_verification(i)][:max_issues]:
         number = github_issues.open_verification_issue(inc)

@@ -94,3 +94,14 @@ def test_undated_reports_match_by_publish_time():
     assert incs[0]["date_utc"] == "2026-10-01T10:00:00Z" and incs[0]["date_approx"]
     store.merge(report(date_utc=None, lat=26.55, lon=56.35, region="Strait of Hormuz", source=src("https://n/9", side="neutral", kind="media", source="ASTRA")), incs)
     assert len(incs) == 1
+
+
+def test_party_ministry_never_confirms():
+    assert store.neutral_confirmation("UKMTO")
+    assert store.neutral_confirmation("the ship's manager")
+    assert store.neutral_confirmation("Kuwait Oil Tanker Company")
+    assert not store.neutral_confirmation("Russian Ministry of Defence")
+    assert not store.neutral_confirmation("Ukrainian Navy")
+    incs = []
+    inc, _ = store.merge(report(official_source_cited="Russian Ministry of Defence"), incs)
+    assert inc["status"] == "claimed"

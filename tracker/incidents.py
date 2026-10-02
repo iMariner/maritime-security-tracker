@@ -114,13 +114,25 @@ def _ai_choose(report: dict, candidates: list[dict]) -> dict | None:
     return next((c for c in candidates if c["id"] == answer.get("match")), None)
 
 
+# Only these count as neutral confirmation. Party militaries and governments never do, whatever the model says.
+NEUTRAL_AUTHORITIES = re.compile(
+    r"ukmto|jmic|marad|msci|nato|shipping centre|coast ?guard|flag state|registry|\bowner|manager|operator|"
+    r"imb|piracy reporting|eunavfor|aspides|atalanta|combined maritime forces|\bcmf\b|ambrey|lloyd|"
+    r"compan|shipping|tankers?\b|lines\b|maritime\b|\bp&i\b", re.I)
+PARTY_AUTHORITIES = re.compile(r"russia|ukrain|iran|irgc|houthi|ministry of defen|\bmod\b|armed forces|navy|military|kremlin|zelensk|putin", re.I)
+
+
+def neutral_confirmation(cited: str | None) -> bool:
+    return bool(cited and NEUTRAL_AUTHORITIES.search(cited) and not PARTY_AUTHORITIES.search(cited))
+
+
 def compute_status(inc: dict) -> str:
     if inc.get("verdict"):
         return inc["verdict"]["status"]
     sources = [s for s in inc.get("sources", []) if s.get("source_type") != "satellite"]
     if not sources:
         return "signal"
-    if inc.get("official_source_cited"):
+    if neutral_confirmation(inc.get("official_source_cited")):
         return "confirmed"
     sides = {s.get("side") for s in sources}
     outlets = {s.get("source") for s in sources}
