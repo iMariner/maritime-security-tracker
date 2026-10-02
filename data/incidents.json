@@ -11,8 +11,8 @@
     "flag": null,
     "vessel_type": "tanker",
     "vessel_category": "merchant",
-    "lat": null,
-    "lon": null,
+    "lat": 26.55,
+    "lon": 56.35,
     "location_text": null,
     "attack_type": null,
     "damage": null,
@@ -36,7 +36,8 @@
     "verification_issue": 6,
     "verdict": null,
     "published_in": [],
-    "status": "claimed"
+    "status": "claimed",
+    "position_approx": true
   },
   {
     "region": "Strait of Hormuz",
@@ -50,8 +51,8 @@
     "flag": null,
     "vessel_type": "tanker",
     "vessel_category": "merchant",
-    "lat": null,
-    "lon": null,
+    "lat": 26.55,
+    "lon": 56.35,
     "location_text": "Strait of Hormuz",
     "attack_type": "other",
     "damage": null,
@@ -68,14 +69,33 @@
         "kind": "media",
         "published_at": "2026-10-02T05:36:56Z",
         "title": "Hormuz attacks hit 4 tankers: UKMTO - Oil & Gas Middle East"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZzlFaEtaSVAzQVI5cU5YLU5NekRBZlg0bE95WGdJbXFQXzZKVHVBTlM0M0NFb1dmOEREMWxXZXJ3cndrWkNWVy1aU2xIamwxMXhKQmhZTnQ2Z3FsaGNWM0FYbFhJUUFjcEdlR3hhY0VocXVabU9zVU05N3R2bGNxdl91MEVzQTVOMnVlc0szZmxwVmVZSHl5U0wxRUEtaHZCQ3RrcmRyaUZiT3RWOEZsaEkyN2M4UU9NTDFaODBlazBuRG5U?oc=5",
+        "source": "Data Portuaria",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-01T07:01:58Z",
+        "title": "Attacks on Four Tankers Reported in Strait of Hormuz Transit - Data Portuaria"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVFlNQzBkTVpRaHBLcUFOZkxwcFh1YldDSk9SZmVRTDY1UWtlYnpPOG02aDZQUkZMZHkyeFdCM2hwTGFQUGY1TG40OEQtSy1pMTE4V04wcUh3a2RpbnN3ZmR0SnN1WURfODEyVmIzZ1ZBZWNwVFh1ZEdGQUI1ZmpfTTJQTmRpdTTSAYwBQVVfeXFMTUNqM3ZsS1NNRDlDak1URU44QlBzX0pFUlczQ1pPQmNxRGNuUm11ak9McExVMExqWjZFWmN6Ym9IenVGQmdrUG9GNG1yYTJIeF8taVBKa2Z4aGJlOWd1RUZmLXNPSmQ1UzlZNnpwTVR5dWhwWUs5bnZPY1o3NlloSWJQRGppekRwVzRfZVU?oc=5",
+        "source": "Denizcilik Haberleri",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-01T05:58:43Z",
+        "title": "Hürmüz Boğazı’nda 24 saatte dört gemiye saldırı - Denizcilik Haberleri"
       }
     ],
     "first_seen": "2026-10-02T09:54:29Z",
-    "last_updated": "2026-10-02T09:54:29Z",
+    "last_updated": "2026-10-02T10:14:57Z",
     "verification_issue": null,
     "verdict": null,
     "published_in": [],
-    "status": "confirmed"
+    "status": "confirmed",
+    "position_approx": true
   },
   {
     "region": "Black Sea",
@@ -89,8 +109,8 @@
     "flag": null,
     "vessel_type": "general cargo",
     "vessel_category": "merchant",
-    "lat": null,
-    "lon": null,
+    "lat": 46.49,
+    "lon": 30.74,
     "location_text": "Black Sea",
     "attack_type": "other",
     "damage": null,
@@ -111,10 +131,11 @@
     ],
     "first_seen": "2026-10-02T09:54:29Z",
     "last_updated": "2026-10-02T09:54:29Z",
-    "verification_issue": null,
+    "verification_issue": 9,
     "verdict": null,
     "published_in": [],
-    "status": "confirmed"
+    "status": "claimed",
+    "position_approx": true
   },
   {
     "region": "Strait of Hormuz",
@@ -128,8 +149,8 @@
     "flag": null,
     "vessel_type": "tanker",
     "vessel_category": "merchant",
-    "lat": null,
-    "lon": null,
+    "lat": 26.55,
+    "lon": 56.35,
     "location_text": "Strait of Hormuz",
     "attack_type": "other",
     "damage": "caught fire",
@@ -153,7 +174,8 @@
     "verification_issue": 7,
     "verdict": null,
     "published_in": [],
-    "status": "claimed"
+    "status": "claimed",
+    "position_approx": true
   },
   {
     "region": "Strait of Hormuz",
@@ -167,8 +189,8 @@
     "flag": null,
     "vessel_type": "tanker",
     "vessel_category": "merchant",
-    "lat": null,
-    "lon": null,
+    "lat": 26.55,
+    "lon": 56.35,
     "location_text": "Strait of Hormuz",
     "attack_type": "other",
     "damage": null,
@@ -192,7 +214,8 @@
     "verification_issue": 8,
     "verdict": null,
     "published_in": [],
-    "status": "claimed"
+    "status": "claimed",
+    "position_approx": true
   },
   {
     "region": "Strait of Hormuz",
@@ -206,8 +229,8 @@
     "flag": "Kuwait",
     "vessel_type": "tanker",
     "vessel_category": "merchant",
-    "lat": null,
-    "lon": null,
+    "lat": 26.55,
+    "lon": 56.35,
     "location_text": "Strait of Hormuz",
     "attack_type": "other",
     "damage": "struck",
@@ -248,7 +271,8 @@
     "verification_issue": null,
     "verdict": null,
     "published_in": [],
-    "status": "confirmed"
+    "status": "confirmed",
+    "position_approx": true
   },
   {
     "region": "Strait of Hormuz",
@@ -262,8 +286,8 @@
     "flag": null,
     "vessel_type": "tanker",
     "vessel_category": "merchant",
-    "lat": null,
-    "lon": null,
+    "lat": 26.55,
+    "lon": 56.35,
     "location_text": "Strait of Hormuz",
     "attack_type": "other",
     "damage": "caught fire",
@@ -324,14 +348,24 @@
         "kind": "media",
         "published_at": "2026-10-02T06:10:00Z",
         "title": "Oil tanker struck and set ablaze in Strait of Hormuz, crew reported safe - The New Voice of Ukraine"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPazZBeURQTC1BTUFZQTZGaFZENk9ZR2pZdXB6b0NmSnJnalZZMGpPWEZLdUk2eUlVbzRESXVxMzBoaldQUVhzYTU0bzVfc0JYZm9HNGprN2lLWEJwUWFyU1Qxc0NGby1jOW1xLVEtcHNFZFBzMGxmdUtKWUJTQVYyeU9xMHdMeTVPTkIxa3BrOA?oc=5",
+        "source": "fakti.bg",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-02T02:48:00Z",
+        "title": "Tanker catches fire after attack in Strait of Hormuz ᐉ News from Fakti.bg - World - fakti.bg"
       }
     ],
     "first_seen": "2026-10-02T09:51:48Z",
-    "last_updated": "2026-10-02T09:53:23Z",
+    "last_updated": "2026-10-02T10:14:38Z",
     "verification_issue": null,
     "verdict": null,
     "published_in": [],
-    "status": "reported"
+    "status": "reported",
+    "position_approx": true
   },
   {
     "region": "Strait of Hormuz",
@@ -345,8 +379,8 @@
     "flag": null,
     "vessel_type": "tanker",
     "vessel_category": "merchant",
-    "lat": null,
-    "lon": null,
+    "lat": 26.55,
+    "lon": 56.35,
     "location_text": "Strait of Hormuz",
     "attack_type": "missile",
     "damage": null,
@@ -369,7 +403,8 @@
     "verification_issue": null,
     "verdict": null,
     "published_in": [],
-    "status": "claimed"
+    "status": "claimed",
+    "position_approx": true
   },
   {
     "region": "Strait of Hormuz",
@@ -383,8 +418,8 @@
     "flag": null,
     "vessel_type": "tanker",
     "vessel_category": "merchant",
-    "lat": null,
-    "lon": null,
+    "lat": 26.55,
+    "lon": 56.35,
     "location_text": "Strait of Hormuz",
     "attack_type": "other",
     "damage": null,
@@ -407,7 +442,8 @@
     "verification_issue": null,
     "verdict": null,
     "published_in": [],
-    "status": "claimed"
+    "status": "claimed",
+    "position_approx": true
   },
   {
     "region": "Strait of Hormuz",
@@ -421,8 +457,8 @@
     "flag": null,
     "vessel_type": "tanker",
     "vessel_category": "merchant",
-    "lat": null,
-    "lon": null,
+    "lat": 26.55,
+    "lon": 56.35,
     "location_text": "Strait of Hormuz",
     "attack_type": "other",
     "damage": null,
@@ -445,7 +481,8 @@
     "verification_issue": null,
     "verdict": null,
     "published_in": [],
-    "status": "claimed"
+    "status": "claimed",
+    "position_approx": true
   },
   {
     "region": "Strait of Hormuz",
@@ -459,8 +496,8 @@
     "flag": null,
     "vessel_type": "tanker",
     "vessel_category": "merchant",
-    "lat": null,
-    "lon": null,
+    "lat": 26.55,
+    "lon": 56.35,
     "location_text": "Strait of Hormuz",
     "attack_type": "other",
     "damage": null,
@@ -483,26 +520,66 @@
     "verification_issue": null,
     "verdict": null,
     "published_in": [],
-    "status": "claimed"
+    "status": "claimed",
+    "position_approx": true
   },
   {
     "region": "Strait of Hormuz",
-    "date_utc": "2026-10-01",
-    "summary": "A tanker caught fire after an attack in the Strait of Hormuz on 1 October 2026. No further details on the vessel, method, or casualties were provided.",
+    "date_utc": "2026-10-02",
+    "summary": "A tanker was reported hit in the Strait of Hormuz as attacks continued. No details on the vessel, method, damage or casualties were provided.",
     "official_source_cited": null,
     "conflicting": false,
-    "confidence": 0.6,
+    "confidence": 0.5,
     "vessel_name": null,
     "imo": null,
     "flag": null,
     "vessel_type": "tanker",
     "vessel_category": "merchant",
-    "lat": null,
-    "lon": null,
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "id": "INC-20261002-012",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVHRkSlhFRjlXT3RieTgxU3ZpX1pkX0Utcmx5dmNzOXd0ajlqTkNDYTNueENpeXRyN3pDOFFtbVpneGU5QWU1X2JybGRpMXRYNkFhNl9NTldxZ3VIc0RqQkNNZDZRc1FxVWd0UGJCTlpYVzd0dW1zdDhjVExIZFNuazVnTzFzdmRJc2dvNTdURGNQZjQ0QW92Wg?oc=5",
+        "source": "qcintel.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-02T10:02:05Z",
+        "title": "Tanker hit in Strait of Hormuz as attacks continue - qcintel.com"
+      }
+    ],
+    "first_seen": "2026-10-02T10:14:38Z",
+    "last_updated": "2026-10-02T10:14:38Z",
+    "verification_issue": 10,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-01",
+    "summary": "A tanker caught fire after an attack in the Strait of Hormuz on 1 October 2026. No further details on the vessel, method, or casualties were provided.",
+    "official_source_cited": "UKMTO",
+    "conflicting": false,
+    "confidence": 0.85,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
     "location_text": "Strait of Hormuz",
     "attack_type": "other",
     "damage": "caught fire",
-    "casualties": null,
+    "casualties": "crew safe",
     "attribution_claimed": null,
     "id": "INC-20261001-001",
     "sources": [
@@ -514,13 +591,623 @@
         "kind": "media",
         "published_at": "2026-10-02T03:21:24Z",
         "title": "Tanker catches fire after first Hormuz attack in October"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPam1Gc0pRQUFNLVJGUWNMZ21iWnRNcFRzaWVLUG9ab3FKcDVucmlJbGVzTkVNNHRQYWIxRTRHMFk2UUVkYnJnN3VRZ2NfSmIxb0dZNzFrWDJNM1I0RmRSY0Y0X1NYTXNWRmRRMEdJVDEySkJQOTlKYTF1NTNJamdPczJwdFdTWF9MTmZCWi1aU1pMUzZNQW9xN25B?oc=5",
+        "source": "qcintel.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-01T23:10:56Z",
+        "title": "UKMTO reports new tanker attack in Strait of Hormuz - qcintel.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYUx3c2JLRnUtX21KdkVjanpXcVFTa2w3VUVVbTFPZ3E5V0hGZzZ0V2RVdmE2MjkwRmRUeGYweFFYVUdUVmJ5RXdOYS1BdF9tUkJpOUN0NVFHbFM2cWx0ay0tTDJoWmtfc1JrVEFFdU14aHI5OVlKMWkwTjdTOGhHVHNBelI3ZlROLTE3V2FTZW1HTFd1eWU3RUNtd2RDLTh6?oc=5",
+        "source": "Arab News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-01T22:54:21Z",
+        "title": "Tanker attacked in Strait of Hormuz: UK maritime agency - Arab News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMVNZTUZpUUVSWjRwR1Nzel82OFFpcDVmd1ZZQmQyd2xkTm9JU3g0SElPV1FuaG9ZZFl4WmQ3ZEVyNjFmbGQ0N1hPMkFFbUJMeUNlaEpGUTR6dU5YMG9lcjkxRHlQUGlqY0c0V3d1RmJVZVV0OFpZenplTi0wZnNuZTEwUUM5OWJlc2ZOeTEtQzNlYmc1WDdDQ0dsREVYc09ZQWtMYmxNT3RtVVJibFZPRDRhSlRHbEtZ?oc=5",
+        "source": "EnergyNow.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-01T22:22:17Z",
+        "title": "Iran Insists on Right to Control Shipping in Strait of Hormuz After Ship Hit Near Oman - EnergyNow.com"
+      },
+      {
+        "url": "https://gcaptain.com/another-tanker-hit-in-strait-of-hormuz-as-attacks-continue/",
+        "source": "gCaptain",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-01T21:28:21Z",
+        "title": "Another Tanker Hit in Strait of Hormuz as Attacks Continue"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUXZfQjBNVHBySFM3dFNsV2NraWdCZUJGOUdmWmpuRnBfMXZOZ0dJOXRzZWNGNm9oWEhpanlodEtNdVVPaHc1WnphWXFHT1l1bWNWLUN6QlVtWDY2SjFfemk2WlNRS0pMS0JoVGNTSTNhMzVNTmdNSHZDRWFrNG5hbHFxMG42WUE?oc=5",
+        "source": "gCaptain",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-01T21:28:21Z",
+        "title": "Another Tanker Hit in Strait of Hormuz as Attacks Continue - gCaptain"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQaWVzYjNWeW44a0NIZHBFcUFnZDhreVF2QzR1eW9nT1hyWjRJLVJ6MG5mN2hIc0hRYnlKUm1iZlVsaUxWVVpraEI4RV9hcURJWVZHSUVFeXVNVG03X0FPVno2Vi1fWkU4Y3RUd3g2QnNmeUFMNFBfYmJ4Qm5fQVN3SS04eU9EdEl3ZklrWTFXb1dob3RJQlAwc1BKZTgwaEs5R0JxX2EtaXVLQ1p1cVFmbHl1Nkhvdy1WZXNYclhZY0FrUE1NVXlVVFVDWFA?oc=5",
+        "source": "Anadolu Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-01T20:27:57Z",
+        "title": "Tanker struck by unknown projectile in Strait of Hormuz catches fire: UK maritime agency - Anadolu Ajansı"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZmFaSWJ3NDFIUWZic0UteDE2OFN0OG81aHlTN0c5WHdJM2NOZVlyRi01bS1FdUNGdjVVbTdyMXRRZ3VfQUh6QVlKZFRydzU1YkhvODJ5ZW5KbEEwRnZuWE1kVHpvRDIxMG01YVJlbDlmb1JkQzl2TGlJMVA4alFrWGluMDZXMmpFX2NzS1JXdk5Bcnh6SWpkbFNYcm1ZWERadGdCUHliOUVnVHBUNExtUFVVajFUcTFvY3B3MDRfSGJhZw?oc=5",
+        "source": "Arab Times Kuwait News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-01T20:21:59Z",
+        "title": "Tanker catches fire after being struck by unknown projectile in Strait of Hormuz: UKMTO - Arab Times Kuwait News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZDlCcFhWaDVPampBRjY5X3hYM0FmWUJlWk44XzZJUXZVQlRVTnI3UG1aUTdubzMwSVNfc3psOVpTVTFUSFFxUnRlY1lyZXpaUy1jYUdkbW9FWi1xT19RVmhzMUNKNk9LWWFnbTltMnQzbEktcnR0XzR6UG4xR1U3WmRTQjk5a1hWZjRpWjhkdjNsN2FpUlFrUGZfNHlERHY5eWVEOU80b1hpMVo5SDRIUnJ3SkhRUjhkY1RLRXh2cw?oc=5",
+        "source": "investinglive.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-01T20:16:40Z",
+        "title": "Oil Tanker struck by unknown projectile in Strait of Hormuz, fire reported, crew safe - investinglive.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUFU4b3ozU29RV2dNSWR0V09QLXBBVWMwNm14OEtnSzBUa05HYzRBajhkalhTbHFpa0Z3RnhOUGhXM0tDZ2xUR2tHczVnMTJMeU04LTRTT1MtUUpOR1BaYnBfVTNiTXB5cmhjSHM5OER3dHA1TFZjdTJFYUxsTGpWY29TcTJSb2VvUXd2aGQ3WG5ScUpqVHc?oc=5",
+        "source": "Daily Ummah",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-01T07:30:00Z",
+        "title": "Hürmüz Boğazı’nda sıcak saatler: Tankere füze saldırısı mı düzenlendi? - Daily Ummah"
       }
     ],
     "first_seen": "2026-10-02T09:54:29Z",
-    "last_updated": "2026-10-02T09:54:29Z",
+    "last_updated": "2026-10-02T10:14:57Z",
     "verification_issue": null,
     "verdict": null,
     "published_in": [],
-    "status": "reported"
+    "status": "confirmed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-01",
+    "summary": "Russia's defence ministry said it struck a vessel carrying military cargo at Ukraine's Chornomorsk port. No details on the vessel's name, flag, damage or casualties were provided.",
+    "official_source_cited": "Russia's defence ministry",
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 46.3,
+    "lon": 30.66,
+    "location_text": "Chornomorsk port, Ukraine",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Russia",
+    "id": "INC-20261001-002",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPblJUYWhqSXJpTXNmT0hWaGNTdmxCdzd0ekFDeE1hQUMwVWNnVnV5dXJPTkhUbjdMZ2xHcGdRN0xMQWZseVpUQ2Z1bTJmY0QtYWN2TzN3cmozdGJUNlBtWHdSalVRMlB5VGtoTVpEZXpOOFptTjVNRFNhc2dBcTF4MHFIZDlmejNBOFA0dlgtNTlxZnA5VGRvOFRpUW1jQi04S1U1dFF6bWlnU3Z5bGRLX0FNS2ROYnFUX091d1RNcl9OM2ExVkxtQWd2UGxmQXBGaXJQTUd1M1QyeFJNX2liTzZneUo1NjdPajZta3llRmdaN0lpNWoycUlFM1FQNWFBdndqb0pESlhKWmdqekVQZFktM1pYZ9IBlgJBVV95cUxPblJUYWhqSXJpTXNmT0hWaGNTdmxCdzd0ekFDeE1hQUMwVWNnVnV5dXJPTkhUbjdMZ2xHcGdRN0xMQWZseVpUQ2Z1bTJmY0QtYWN2TzN3cmozdGJUNlBtWHdSalVRMlB5VGtoTVpEZXpOOFptTjVNRFNhc2dBcTF4MHFIZDlmejNBOFA0dlgtNTlxZnA5VGRvOFRpUW1jQi04S1U1dFF6bWlnU3Z5bGRLX0FNS2ROYnFUX091d1RNcl9OM2ExVkxtQWd2UGxmQXBGaXJQTUd1M1QyeFJNX2liTzZneUo1NjdPajZta3llRmdaN0lpNWoycUlFM1FQNWFBdndqb0pESlhKWmdqekVQZFktM1pYZw?oc=5",
+        "source": "sundayguardianlive.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-01T16:16:14Z",
+        "title": "Russia-Ukraine War Latest News: Russia Says It Struck Vessel Carrying Military Cargo at Ukraine’s Chornomorsk Port – Here’s What We Know So Far - sundayguardianlive.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcnpjYklPbXFaZ2s3TENqNTBsSjdWWHotS3Y3TTN1WFZ4YUo1SDV2dVU5TkFad2JwQm5VN2h2Qi1xUzdycWJHTWRVamozemJkWjhrckd5SDI0V09JeG9LMy03ZUlfUUxkSDZzcEZTVGs1S0RuRDhzS2syVFBEdE1lUHNuazl6MjlLdDV5aDh0cG1GVVFDM1RlVEtVRy11LUdVRHJXNWNUeTRrU2NCLW9OdllyaEVpakRsSjB4Tlln?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-01T09:46:42Z",
+        "title": "Russia attacks bulker it claims was carrying military cargo to Ukraine - TradeWinds News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNM2ZjZ2xrdnZTZFlCc3huamxWcjBOeVVydy1NUDU4alB0TExrb19Gd2NubnpPYnRDVUhtRkdqRzBzei1YZFdPUFBSTDBqOE9JMFRTcHNlTkFMNlE3M2NmZW5VZnR3SUpJQi1zalJaeHE0WFBPUnN1VGlrVTc4VnVmdEc1MmtOWENsbV9LTHdJVjRuRjFPWGp4dmVLeGNqSlBSRXNOQjdRakE3OTdHblJsa1dPS2tTTnVkOEhTTmNlRG1KZ3lsZldfR0Z4UXk5YTVWdXU3LXg4M1IyZDE5VTMxaThkVdIB6AFBVV95cUxQTUY0Yjc3M1FsaHFwWU5SSDd6czVEWmJSTTJXVGx0R0RfVkRLNjEyMm9wbk1NR0VHOVZwek8yWVN0aUNJTy1EN1RVdmE1MTRGLTllTHlic3pLMGNBQi13ZUFlaXBqWUp1V204Qy1hZTk0THJ4ekxibkZybDJqLUhwVmpXekdONWd3YVl6U2U0V0gxT0VNSWFvY21ncXhuSU56UzVDbDFVSmgwazdXanI5eENuQlVBUHRWX2I4alN1Z1JiRUtsX3d6NDRMbUx1UG4zRFBiVkg3VC13UkVPNjdlWmpuTUgtVlgx?oc=5",
+        "source": "devdiscourse.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-01T05:30:00Z",
+        "title": "Russia says it struck vessel used to transport military cargo at Ukraine's Chornomorsk port - devdiscourse.com"
+      }
+    ],
+    "first_seen": "2026-10-02T10:14:46Z",
+    "last_updated": "2026-10-02T10:15:01Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "reported",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-01",
+    "summary": "Three ships, including a crude oil tanker and an LNG tanker, were struck in the Strait of Hormuz. No further details on the vessels, method, damage or casualties were provided.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "id": "INC-20261001-003",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbjR3cW1zM3FxQ0JSdmFHSlFOTTdfNzB3WXM3dnN1MHI1UWJBZlBIeTNkd185azRoRWJUbXhjX3RGdDNfcEktbl9CNkpsRlZjTnNaTTgwSnEzZ3RMZ08yUXlwYkpqUmhPeU9rZXl1NWRYYVMwMHkxSFVZNS16bGJKT2xOR3BnbHhiV3habnRtRTFnY3VnOGQ5NTBtenhCdnlGblRUV213?oc=5",
+        "source": "Marine Insight",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-01T12:28:13Z",
+        "title": "3 Ships, Including Crude Oil Tanker & LNG Tanker, Struck In Strait Of Hormuz - Marine Insight"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZHE3RkVCM21KMjl3czUxemo5bDFGLWlfVmRtbEpFQzFxRTYwREZWWVpsUm1Tb3JSV0J0MUh4enZNdHkweVRxWHZObl9EMDlxV1FmaENZaEFNUFF1d3Zvb2JWZjhpNDNZcmV3ajFGYVhtYWQ5M3VpTERCWlFlTHpvMnlubjd2dHdlaWhuZlp4TkZ6anUwLUprLU1OVU5rSHB4dXdSRklRT2RMeXY5QWJiZ1VzOXIwUUlYcXJ4U1VBSkXSAcABQVVfeXFMTWRxN0ZFQjNtSjI5d3M1MXpqOWwxRi1pX1ZkbWxKRUMxcUU2MERGVllabFJtU29yUldCdDFIeHp2TXR5MHlUcVh2Tm5fRDA5cVdRZmhDWWhBTVBRdXd2b29iVmY4aTQzWXJld2oxRmFYbWFkOTN1aUxEQlpRZUx6bzJ5bm43dnR3ZWlobmZaeE5Gemp1MC1Kay1NTlVOa0hweHV3UkZJUU9kTHl2OUFiYmdVczlyMFFJWHFyeFNVQUpF?oc=5",
+        "source": "Crude Oil Prices Today | OilPrice.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-01T11:30:00Z",
+        "title": "Three Tankers Struck by Unknown Projectiles in Strait of Hormuz - Crude Oil Prices Today | OilPrice.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNLWUyQ05nWUdKeWlHOFRaSEJDWmVlbk5VZm9rZTdRTklpQ2FNUkxka3RIcnZ2Rkw1YnQ3dkEyVThBYnVSZEo4YTVoSGZxQkl6NUZoXzNqRVpEN1BfblJpSTBfMzJxNl82c19EUk0xV2VheU1adGpYT2tXLUR4N3pxeERiU2U?oc=5",
+        "source": "safety4sea",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-01T09:11:10Z",
+        "title": "Three more tanker attacks reported in Strait of Hormuz - safety4sea"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVzlobDZQSUZXaGtsdXpzQUZ1V3dXRlk3TV84WnA3Szl4U1JrczN2U2UxZGhxRFJYZHF4VkdPYU1nTUd6M3ZDVDF1UzBDZEZsTDdnZ21VeVU1MXFKMjJhaDhDNm1GbG1Yb092a2NaS1RRWlJqNFhMT1k4bHNOTzJkb2prWUVrblItY2NTMUFB?oc=5",
+        "source": "news.az",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-01T06:57:03Z",
+        "title": "Three oil tankers hit by unknown projectiles in Strait of Hormuz - news.az"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNFd6Y002V2tzQnUxRDB1VmRtUzZlRkdzUE1YYy1PX0ZxaG13cDVTekFSd3REZklYVU9RZmhTOUxfdEtKNzJJdm5ybWEyc2xmQzBkVmUxZU16YUVfMmNxR28zam1pOXdkNHM1V0dxVW5raHg1UXM3aFZCN2o4dm9DZDVBUHVZWWJpUHl0Q3VJMWtVWVFrZl9CS1BEY3QxUDA?oc=5",
+        "source": "India News Network",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-01T05:58:35Z",
+        "title": "Three Ships Hit by Unexplained Projectiles in Strait of Hormuz - India News Network"
+      }
+    ],
+    "first_seen": "2026-10-02T10:14:46Z",
+    "last_updated": "2026-10-02T10:14:57Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "reported",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-01",
+    "summary": "Ukraine's Defense Forces struck a vessel along with an oil facility and other Russian targets, according to RBC-Ukraine. No vessel name, flag, damage or casualties were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Ukraine's Defense Forces",
+    "id": "INC-20261001-004",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTVo2R0NQcG43QThFMUhmaE1QNEFMNDFUNWI4MFV3UUloUm9WR0NReGQ4RTVEMDJWZ1RkX0Y4VFdMZndmYUZ0LXVZX3lob1poaG8xZDNLdGlMTXpBdlgtckM2cmtsOHZvVGV3b0VPRmdKMTRPRW5UdGNqdDR4VmVIcTdkY3RYMWVGNlNyOURhalhsM0xwQmEw?oc=5",
+        "source": "RBC-Ukraine",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-01T09:52:07Z",
+        "title": "Ukraine's Defense Forces strike oil facility, vessel and other key Russian targets - RBC-Ukraine"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQTFPT1dESWd1VHNlaE5qRzZEVGtrcER4X2xRbGV6d25uYVpURUJUTDhFOGttSmVCSGhpX2VQM0FRSWg1bzg0Yl9vYnFNR21nV0pqb2IwTk5sME9ybDhiWS1TdFdWZ1hxWE91emZOcHRfOGRFZ1A5WVUzYlFrS1VUTU1rMGxVVms3Q05uQUlEbTBqMUJVMTVpMTdIY2NmamtsRFFBdHo3dFVwZw?oc=5",
+        "source": "Yeni Şafak",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-01T09:50:33Z",
+        "title": "Zelenskiy: Rusya ile bağlantılı iki gemiye saldırı düzenledik - Yeni Şafak"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdllwUUFxZGZzTmh2UFdsVWViNGxydEZmaFpnb0dTUTFjMXdxOHdXclhSOFUtSUNXaFJXR3dVZ0N6UGNfQ0pvX2dQXzNKTElXY1FIeGlmd0NZSnY5TnVKOG0tUENLZmRBR28tNTA0aHpueDdYR1ZTRFV4Vm5qbE54bDlMaEZMQTBobDNXeGhUV05YRknSAY8BQVVfeXFMT2xkQW1zYVRxMk02TXFBLXplT01sNUdnVG9lVFVDUDc0S3E4cWlxd2o4NUZOOU90cGdNbk9uejFMamlNb2NwODZCZGFGRGpGT2NIczZWNG5XanRLalp0Uk5NVTd0Y296ekg5WmlJM0RyZWFjMkpvdWtZdm5fRGh5Zko3RFMybWtzaEVETVYyTkE?oc=5",
+        "source": "english.nv.ua",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-01T09:48:00Z",
+        "title": "Ukraine strikes Russian vessel in Black Sea and multiple rear military assets — Zelenskyy - english.nv.ua"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNFMwQWVsWVRxRGp0TVZfR3dMQTVJbVpoNFRZazlnWGpPOG9KVGJhdlcxbGJ6MmhfR2luTm5IWHQ5R3VfZzVQTXVsdzFkR3E0T185U0VNMmhWekZiQXI5UUlQZGp6NlBIX2t0dmJDeU4yX1daUGZjS1ZTdjhqX0FUel9RdWFld2M3aW81cERDMGVUa2hEcDYtTg?oc=5",
+        "source": "Breakingthenews.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-01T09:21:00Z",
+        "title": "Ukraine hits Black Sea ship, Russian oil facility - Breakingthenews.net"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVXM5WjBzSkpSX29VUkNzZng0aEY0dW1tMmJVWUc0UXRERXdnS1lnTlFlQ2FxWE9KVkhtakM0Y3dvNzhrekZ3Ymg2N0R4alUtWUpZQk1LTFhfY043eE9YdXZ6YTE4b0U1NGYxTGhiLVdJVWg4ZExxN1lBTkpELV9PUmpxSE1jRXFJM3NISWdhX092bjJLTzl5TlQ4MlhTbnV2Ym03cXFR?oc=5",
+        "source": "censor.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-01T09:00:00Z",
+        "title": "Russian vessel in Black Sea, oil facility and drone depot were struck by Defence Forces. VIDEO - censor.net"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcXU0MUZmQTNZOEdLR3QyaHVTVlJnTkJpZjVXNG9Md3E3YnZrQVFiLXo2TGItS1dHNDN5T0JWUXJuYldqR0NQcTFkZG5zUFhxM0ItdnY5NDRVaW8xVllSbnNrSTNPVWgtVDNPaFd4bVVkYWhkMHV3dVhiUFZNbFo1NGRQbnU0Tm04?oc=5",
+        "source": "Babel.ua",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-01T08:58:59Z",
+        "title": "Ukrainian military hit Russian ship in Black Sea — President Zelenskyy reported - Babel.ua"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdHA1Z1lBV3NVcjRaZ1dGTkttZE5BOGJxTDRVakNUcEdiZlIxY1kyUFV6amFDR2N1TGN5bllJRVNFNG5iMmpIWnhSb0NUVnhXZjU0X2NqWGduel9YV0RmUVF6c3NHYmtQSUZfaUdEeENtcVNMM3l4ZHVUbTlSbXZnVUJ0NlFBMUV4aWJMTU5KWnoxNldIZkItY2l1c0FNQ0k?oc=5",
+        "source": "Yahoo",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-01T08:53:00Z",
+        "title": "Zelenskyy: Ukrainian forces have struck Russian vessel in Black Sea and drone launch site in Russia – video - Yahoo"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9YNXBadHZsOXJIbDBBY09uQVJDSFNCSnJNY1FyclRWaVBmTnhTY1RtaEhWZWxBSENqS09FeEk2c3FhQzBfbDVZMzlqSnFRb09iNzJGQnQ2eUxxR3JhMUxSNjd5NzRFMzZialh3RHVtQ1HSAXBBVV95cUxPWDVwWnR2bDlySGwwQWNPbkFSQ0hTQkpyTWNRcnJUVmlQZk54U2NUbWhIVmVsQUhDaktPRXhJNnNxYUMwX2w1WTM5akpxUW9PYjcyRkJ0NnlMcUdyYTFMUjY3eTc0RTM2YmpYd0R1bUNR?oc=5",
+        "source": "Українська правда",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-01T08:53:00Z",
+        "title": "Zelenskyy: Ukrainian forces have struck Russian vessel in Black Sea and drone launch site in Russia – video - Українська правда"
+      }
+    ],
+    "first_seen": "2026-10-02T10:14:51Z",
+    "last_updated": "2026-10-02T10:14:57Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "reported",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-09-30",
+    "summary": "A cargo ship reported a suspected attack while crossing the Strait of Hormuz. No further details on the vessel, method, damage or casualties were provided.",
+    "official_source_cited": "UKMTO",
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "suspicious approach",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "id": "INC-20260930-001",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYi1ySDh4VUU4U2NJa3Q4cFZWUkVqaWp0TkNtYVF4LUswWlF5dm00c1k0Y1lxb3RabVZSb1ZkNTNNc19haXkxVWdSemU0Z0FpU2lxYWJDcHlhNHhOY3psc2lXV0trOUVnbVFMekd4aElOWFU5ak9XRzQwMVBGSEQtcGg0TjAxTVVhSVg4WEE5aXJIdw?oc=5",
+        "source": "EnergyNow.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-09-30T16:36:12Z",
+        "title": "Cargo Ship Reports Suspected Attack While Crossing Hormuz - EnergyNow.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPWkFuVEZpelJUWDBYZEZoZGhmaTdiOVdGQ3JYa09zeGFESFFyNy1fcEpkeGlDQjV2X1Jsa3NwYnNOalc4cGoxYlhqdDVRYUlobE05LXJhLVlYNnpMQ3VxejJkT3dMeHBaN2xoenVNMk94NkJYVEowQ05mUWM2aUFkWVU3YmUwZ3A2VUxybUs3U1pyYUk0aU9aNXh5SFFKR2JFSGlkYUZBSmppenl5V1AxVHQzQjFuN0FJWTVYeDR0aGFKQ2hTTEh5Vmo4by00V09DYUdlcmdNRnBpbWwwTC00WWdXUkJzcTVjM0Rrd0ZsLWQyNVFGbERqeUxHZ29IbFZn0gGAAkFVX3lxTE9aQW5URml6UlRYMFhkRmhkaGZpN2I5V0ZDclhrT3N4YURIUXI3LV9wSmR4aUNCNXZfUmxrc3Bic05qVzhwajFiWGp0NVFhSWhsTTktcmEtWVg2ekxDdXF6MmRPd0x4cFo3bGh6dU0yT3g2QlhUSjBDTmZRYzZpQWRZVTdiZTBncDZVTHJtSzdTWnJhSTRpT1o1eHlIUUpHYkVIaWRhRkFKaml6eXlXUDFUdDNCMW43QUlZNVh4NHRoYUpDaFNMSHlWajhvLTRXT0NhR2VyZ01GcGltbDBMLTRZZ1dSQnNxNWMzRGt3RmwtZDI1UUZsRGp5TEdnb0hsVmc?oc=5",
+        "source": "The Times of India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-09-30T14:52:43Z",
+        "title": "HORMUZ IN FLAMES: Tanker Hit By ‘Mystery Projectile’; HIGH ALERT For Ships Near Iran | Watch - The Times of India"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNGZCNEk5NkFlVXU4YU5JVXJqX3pXcV9FX25vZVotOEFSU0xrZTRuLWlCTlBDTk56Y3VURWRJQldPcEM1ZmZXOXVfQVhBLTFWTVpLb3hBaVVtUTlKRnFKSGJHN2lZS01mNjZpQjJHY0ZMQ0lwN2RFeHNCWWVFcEh5Z280WFRwejZjRkpRTjllRHl0RS1vMkJLT193WERNVGl4V2ZQazJBWjF4S1pk?oc=5",
+        "source": "Arab Times Kuwait News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-09-30T13:23:12Z",
+        "title": "One More Tanker struck by unknown projectile in Strait of Hormuz: UKMTO - Arab Times Kuwait News"
+      }
+    ],
+    "first_seen": "2026-10-02T10:15:01Z",
+    "last_updated": "2026-10-02T10:15:07Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "confirmed",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-09-30",
+    "summary": "As tensions escalated in the Strait of Hormuz, the US and Iran both fired at ships, according to a report. No further details on the vessels, damage or casualties were provided.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "gunfire",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "US and Iran",
+    "id": "INC-20260930-002",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVXh5c1VJbHBFMmEzNXh6RE8wUE1tQmtNdzJ1aVZGWVViN3haTXJjUHdvSzdRNXdsTHBVSzdvZFRxVlU0SHVyY3NXa1hnVHcxcS0xd0lzQ1NzQ2cwRDJtTmlSMlY1X0Z4QXk1dk4tdlFWMHpFeUtSTUZoTmZWU3BaN3hkbXpGRUpNakg2c3hBbDJETEJGaFhFbERIc2E1QXZBUGhDYldn0gGrAUFVX3lxTE44TFFXSGY4Q0RsS3BqWEY4bmdQUW5VcmhnUVFqWS15c09JNTF3M2ZFMXZHaWpITFBiOXBjbEZ6MHRycWdkM0RUd3lndTlCVEx6dlQxcTd0NFN2dFpzdWFGMFdFZWlWN3RLVjc0RFhPUm1fdXFkTndnYkEzU09qS1hoV0Uzd3IzY3RnVU8yTlF5Yzgwc2RpbGl4dzdMbGF1ZmdYZXJYcDFheS1rMA?oc=5",
+        "source": "ABC News - Breaking News, Latest News and Videos",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-09-30T16:22:03Z",
+        "title": "As tensions escalate in the Strait of Hormuz, US and Iran both fire at ships - ABC News - Breaking News, Latest News and Videos"
+      }
+    ],
+    "first_seen": "2026-10-02T10:15:01Z",
+    "last_updated": "2026-10-02T10:15:01Z",
+    "verification_issue": 11,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-09-30",
+    "summary": "A maritime agency reported that two tankers were hit by unknown projectiles in the Strait of Hormuz on 30 September 2026. No further details on the vessels, damage or casualties were provided.",
+    "official_source_cited": "maritime agency",
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "explosion (cause unknown)",
+    "damage": "vessel caught fire",
+    "casualties": null,
+    "attribution_claimed": null,
+    "id": "INC-20260930-003",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQd25kSnBuY2ZYZ1ZyOGg4RXM5Tk5GU3NRSXg3SnVHM0x0dWpXUG13WENjQjdoZDlwb0NrMmRhbFlzLW02dFFEOWwtUDBnSlNDR2p5MzZ1cjhMOWF1b3RCcjBteXBobGQya2hweWxrbnl4VGNwUHBUdU5WX0tTYl93U0FObkFjRnI3Y2ZoR2NfZTd3Y09Jc1dCa0dqanVuMUxSQTBfbkE5OGNFMTNCLTBwTzl5MU43aFdC?oc=5",
+        "source": "Anadolu Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-09-30T13:18:13Z",
+        "title": "2 tankers hit by unknown projectiles in Strait of Hormuz: Maritime agency - Anadolu Ajansı"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9LTGNZcFZuZXdSaXgyQzEwdEJEeFlWbHlGRFR2b0F0MHVvWWpnd3RfMGEtejJfMi0zRVN5SENQVXd1Sjk0c3lITXdBUUl0bHh0SlJ1Rg?oc=5",
+        "source": "Azernews.az",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-09-30T12:56:00Z",
+        "title": "Unknown projectile strikes crude oil tanker in Strait of Hormuz - Azernews.az"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYkI4eXg2TmIwSFNWMnZXVktPbjNjazFqRkhmUkNGLV82TldiVDBrTjI1RWpmOGd1a3RZVm1xSlNyZC1zMTZvVUJJMmdkekljbWNySVVGbzBFNFVIVHo3RnkycGlWY2tUWnlhSUJIWEEtaVQyVnl4YW44VjZsYUMtSU5BaFRHNXlHM1lYR0pnRXlXMHphNHhfMXUwRDRGQUNYTkRhQ1JzNnpaVDRkMG1uMTNjVE00aVpqbmfSAb8BQVVfeXFMUHF5aVNxQ1hJLWNoNkExUHNoYnNNWXluT3ROMHhzdk12LVF3WGtuLWtRN2xZYUJiUTBMNjdtMnZveFB6VW9CTjdoWXp0WEtrT0pjbUJ2MWxxY3lhbWVSVkdFQjgwOHRWbWkyS1haTFJIYzBxRnFRYzB0LWhadDZWRVRZNms5TkEzeGJlbE9MTGZ2VWI5Q0s0a1ktUmZtcUFTQkRlVXhCSnVKa1BoWk41REJfWWl4Y0NOUUFfRktKZkk?oc=5",
+        "source": "ABP Live English",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-09-30T12:28:10Z",
+        "title": "Strait Of Hormuz Incident: Vessel Catches Fire After ‘Unknown Projectile’ Hit - ABP Live English"
+      }
+    ],
+    "first_seen": "2026-10-02T10:15:10Z",
+    "last_updated": "2026-10-02T10:15:10Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "confirmed",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-09-29",
+    "summary": "Three vessels were reported struck on Tuesday, 29 September 2026, in the area around the Strait of Hormuz. No further details on the vessels, method, damage or casualties were provided.",
+    "official_source_cited": "UKMTO",
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "id": "INC-20260929-001",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQS1dIb0wyTnlOaUNqQVRQZmRfSHhwcENubnNSTERxZElaTUgxbEVzYU9CZGNZcnRQQ2FIZjRtZHAzdWZVa1RHTlBmX2c5R09WQXhILVc5YnVPekFxNUZSclBwNEZtZldmUDVkTlVkbk1jZlV6bXNUSUZmMHltbFZSNFB4NFFDaU9BU0lla3RSd28zZ1NCdll0ZHVHS21vU2gwVHBpOC1oaw?oc=5",
+        "source": "rivieramm.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-09-30T23:01:42Z",
+        "title": "News Content Hub - Trio of tankers reportedly attacked in Strait of Hormuz - rivieramm.com"
+      },
+      {
+        "url": "https://maritime-executive.com/article/three-vessels-struck-in-strait-of-hormuz-as-iran-s-grip-loosens",
+        "source": "The Maritime Executive",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-09-30T18:56:11Z",
+        "title": "Three Vessels Struck in Strait of Hormuz as Iran’s Grip Loosens"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNM2JtZVdvWWNSZlFZemRsZDRjazJNemVXNUVud0tLN0ZONkdnMnlwa056ZjZpRkZWSXVuMHFKR0xMc0tDQ3ZBa3lSWVc0OElyLVJLc1NRT2E3eUcwNXhCeTZRNXViNG9zMnpWZ1ZpaU9RT09Va0JtTmEzcU1pRVdXb252U1J2dEhOMmZ4eTNoRlNKbmNBa0NSVzl1QWl6SjlmMlpPdg?oc=5",
+        "source": "The Maritime Executive",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-09-30T18:56:11Z",
+        "title": "Three Vessels Struck in Strait of Hormuz as Iran’s Grip Loosens - The Maritime Executive"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcVpBeS1VdkNydDI5dzY4NXFSX3lrVi1yWGZ4bmszYTFHUEhuOVU0VTFDYlowSVFseFV6bGhrNEZSeEIxcmpwSmRyWW5vX3c4VWZVRnktNGRrR0hZZlBuQnQyM0oyV2xiR0t4WGNFLXRJdXZqaXE1ellIbHBzdzFJN3BGS1lqZ2VYRUE3Ng?oc=5",
+        "source": "Seatrade Maritime News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-09-30T16:11:53Z",
+        "title": "Four vessels struck in Hormuz in 24 hours - Seatrade Maritime News"
+      },
+      {
+        "url": "https://www.seatrade-maritime.com/security/four-vessels-struck-in-hormuz-in-24-hours",
+        "source": "Seatrade Maritime",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-09-30T16:01:24Z",
+        "title": "Four vessels struck in Hormuz in 24 hours"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcldidzlvMk5jM3QzSTJkaHlrd3NibDRkaGZ1cS1KZDNoZzdFaHJMeHlRdFdQa1lEVFBNVVhfVkRKUl9HTGNuV1haRGN5a09kR1JKTWQtNGo1N1MtSkhBMFJEX1JyLWlPMUdLcWJ1WkI4TXZBdjdnVXdiakZmVk1wN0ZyNUljZW83?oc=5",
+        "source": "gCaptain",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-09-30T15:36:09Z",
+        "title": "Three More Tanker Attacks Surface in Delayed Hormuz Reports - gCaptain"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUzdwblAzbWZFSlNrQm04eFA5UEIyYU5fTU4wVU1fb3dQVkdjQlE4TnV5Qm8zYnNVLXFxZ2s4Q0swbi1QbmZRaGtvTmNRRE5SQ1lvN0VMZkYxYmo5ZkxSV1dzaTlmeUdJRzJQcGZwZjRMcGhZZktxMk1uRHlkM2hQRQ?oc=5",
+        "source": "شفق نيوز",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-09-30T14:05:47Z",
+        "title": "Shafaq News..Three tankers hit in Strait of Hormuz - شفق نيوز"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBRZjEtcldvaVVSNjBkRmIxb1hUMl9iQkhDazJjeVlIdDFfM3paUGN4bUQyU0dkYUlXRnpPQ0VQdnBzdWxaY012QjZNZ1MwWmM5cVVfWEJSOVA4ZEVLdXpnU05XTmJyYUZmdzJmR0lxakE5aGoxZW0yQ3htbw?oc=5",
+        "source": "شفق نيوز",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-09-30T14:04:06Z",
+        "title": "Shafaq News..Three tankers hit in Strait of Hormuz - شفق نيوز"
+      }
+    ],
+    "first_seen": "2026-10-02T10:15:01Z",
+    "last_updated": "2026-10-02T10:15:07Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "confirmed",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-09-29",
+    "summary": "A Chinese-owned oil tanker was hit near the Strait of Hormuz, according to a report. No further details on the vessel, method, damage or casualties were provided.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": "China",
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "near the Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "id": "INC-20260929-002",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTlRucG8yb2pMNHB4bHpSOFR4cGVaSF9yMGpoNGtvdDZEUXBpSktYYTl2blJrcWk5RFdhUndoay1vT0F4bjJGWXVkQTJpWTU5b05oZVgzNWNEd0NZMWxXZ3RsREZycVRhZHplaXhIS0lqRjB0ZDJQMlVKYW8tWEtZcTVZT0Z5bnc2UE9uWDlBZEJQYzN6LVQ4VXpobllLU01VMkZQcVlzVXV6anp1SE1YMnlEbVFLRVhu?oc=5",
+        "source": "EnergyNow.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-09-30T22:38:53Z",
+        "title": "Chinese-Owned Oil Tanker Hit Near Hormuz as US Pauses Ship-Protection Plan, Report Says - EnergyNow.com"
+      }
+    ],
+    "first_seen": "2026-10-02T10:15:01Z",
+    "last_updated": "2026-10-02T10:15:01Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
   }
 ]
