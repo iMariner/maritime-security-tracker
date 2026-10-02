@@ -29,6 +29,8 @@ def parse(body: str) -> dict | None:
             continue
         key, value = (x.strip() for x in ln.split(":", 1))
         key = key.lower()
+        if value.startswith("<"):
+            continue  # an unfilled placeholder copied from the example layout
         if key == "source" and value.startswith("http"):
             out["sources"].append(value)
         elif key == "note":

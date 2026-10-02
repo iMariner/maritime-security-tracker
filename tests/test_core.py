@@ -72,6 +72,8 @@ def test_verdict_parse():
     assert v["status"] == "rejected" and v["sources"] == ["https://example.com/x"]
     assert v["note"] == "owner says no incident, vessel in Istanbul"
     assert apply_verdict.parse("looks fine to me") is None
+    v2 = apply_verdict.parse("/verdict claimed\nvessel_name: <corrected name, only if wrong or missing>\nsource: https://x.y/z")
+    assert v2["status"] == "claimed" and v2["fields"] == {}
 
 
 def test_brief_selection_and_html():
