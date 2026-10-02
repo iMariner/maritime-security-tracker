@@ -10,7 +10,7 @@ from .common import env, load_yaml, log, now_utc, parse_dt
 
 FIELDS = """{
   "region": one of REGIONS,
-  "vessel_name": "name in Latin letters as registered (e.g. 'KAIROS'), or null if not named",
+  "vessel_name": "full name in Latin letters as registered, keeping numbers and suffixes (e.g. 'KAZIMAH III', 'NORDIC STAR 2'), or null if not named",
   "imo": "7 digit IMO number or null",
   "flag": "flag state or null",
   "vessel_type": "tanker | bulk carrier | general cargo | container | LNG/LPG carrier | ro-ro | passenger | tug | fishing | naval | other | null",

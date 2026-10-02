@@ -13,7 +13,7 @@ from datetime import timedelta
 
 from . import github_issues, llm
 from .common import iso, load_yaml, log, no_em_dash, now_utc, parse_dt
-from .incidents import MERGE_FIELDS, compute_status, norm_name
+from .incidents import MERGE_FIELDS, compute_status, same_vessel
 
 GROUPS = {
     "Hormuz and Gulf": {"Strait of Hormuz", "Persian Gulf", "Gulf of Oman", "Red Sea", "Gulf of Aden"},
@@ -136,7 +136,7 @@ def consolidate(incidents: list[dict]) -> int:
                              g.get("keep_attack_date"), m.get("attack_date") if isinstance(m, dict) else None)
                     continue
                 if keep.get("vessel_name") and other.get("vessel_name") and \
-                        norm_name(keep["vessel_name"]) != norm_name(other["vessel_name"]):
+                        not same_vessel(keep["vessel_name"], other["vessel_name"]):
                     log.info("Review: not merging %s into %s (different vessels)", mid, keep["id"])
                     continue
                 _merge_into(keep, other)
@@ -145,8 +145,9 @@ def consolidate(incidents: list[dict]) -> int:
                 merged.append(other["id"])
             if not merged:
                 continue
-            if g.get("vessel_name") and not keep.get("vessel_name"):
-                keep["vessel_name"] = g["vessel_name"]
+            if g.get("vessel_name") and (not keep.get("vessel_name") or (
+                    len(g["vessel_name"]) > len(keep["vessel_name"]) and same_vessel(g["vessel_name"], keep["vessel_name"]))):
+                keep["vessel_name"] = g["vessel_name"]  # prefer the fuller registered name
             if keep_day:
                 keep["date_utc"], keep["date_approx"] = g["keep_attack_date"], False
             if g.get("summary"):

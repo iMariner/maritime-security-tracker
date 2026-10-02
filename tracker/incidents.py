@@ -42,6 +42,32 @@ def norm_name(name: str | None) -> str:
     return re.sub(r"[^a-z0-9]", "", name.lower())
 
 
+_NUM = r"(?:i{1,3}|iv|vi{0,3}|ix|x|\d+)"
+
+
+def same_vessel(a: str | None, b: str | None) -> bool:
+    """Names match exactly, or one is the other without its number ('Kazimah' = 'Kazimah III'), but two
+    different numbers never match ('Kazimah II' != 'Kazimah III')."""
+    x, y = norm_name(a), norm_name(b)
+    if not x or not y:
+        return False
+    if x == y:
+        return True
+    if numbered_differently(a, b):
+        return False
+    short, long_ = sorted((x, y), key=len)
+    if re.search(_NUM + "$", short):  # the shorter name already has its own number
+        return False
+    return long_.startswith(short) and bool(re.fullmatch(_NUM, long_[len(short):]))
+
+
+def numbered_differently(a: str | None, b: str | None) -> bool:
+    """'Kazimah II' vs 'Kazimah III': same stem, different numbers, so different ships."""
+    x, y = norm_name(a), norm_name(b)
+    mx, my = re.search(_NUM + "$", x), re.search(_NUM + "$", y)
+    return bool(mx and my and x[: mx.start()] == y[: my.start()] and mx.group(0) != my.group(0))
+
+
 def km(a_lat, a_lon, b_lat, b_lon) -> float:
     r = 6371.0
     p1, p2 = math.radians(a_lat), math.radians(b_lat)
@@ -75,11 +101,12 @@ def find_match(report: dict, incidents: list[dict], model_checked: bool = False)
     if name:
         for inc in live:
             other = norm_name(inc.get("vessel_name"))
-            if other and (other == name or SequenceMatcher(None, other, name).ratio() >= 0.85) and _close_in_time(report, inc, NAME_WINDOW):
+            if other and (same_vessel(other, name) or SequenceMatcher(None, other, name).ratio() >= 0.85) \
+                    and not numbered_differently(other, name) and _close_in_time(report, inc, NAME_WINDOW):
                 return inc
         # A named report can still be the first named account of an earlier unnamed incident.
     hinted = next((i for i in live if i["id"] == report.get("same_as")), None)
-    if hinted and not (name and hinted.get("vessel_name") and norm_name(hinted["vessel_name"]) != name) \
+    if hinted and not (name and hinted.get("vessel_name") and not same_vessel(hinted["vessel_name"], name)) \
             and not (imo and hinted.get("imo") and hinted["imo"] != imo):
         return hinted
     if model_checked:
@@ -87,7 +114,7 @@ def find_match(report: dict, incidents: list[dict], model_checked: bool = False)
     candidates = [
         inc for inc in live
         if inc.get("region") == report.get("region") and _close_in_time(report, inc, UNNAMED_WINDOW)
-        and not (name and inc.get("vessel_name") and norm_name(inc.get("vessel_name")) != name)
+        and not (name and inc.get("vessel_name") and not same_vessel(inc.get("vessel_name"), name))
     ]
     if not candidates:
         return None
