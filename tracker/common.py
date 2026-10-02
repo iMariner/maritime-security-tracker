@@ -85,7 +85,7 @@ def env(name: str, default: str | None = None, required: bool = False) -> str | 
     return value
 
 
-_DASHES = re.compile(r"\s*[—–]\s*")
+_DASHES = re.compile(r"\s*[—–]\s*|\s+-\s+")  # a spaced hyphen too: WordPress turns " - " into an en dash
 
 
 def no_em_dash(text: str) -> str:

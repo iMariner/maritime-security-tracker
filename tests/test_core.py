@@ -87,6 +87,7 @@ def test_brief_selection_and_html():
 
 
 def test_no_em_dash():
+    assert no_em_dash("ABC News - Latest") == "ABC News, Latest" and no_em_dash("ro-ro, 2-3 knots") == "ro-ro, 2-3 knots"
     assert no_em_dash("Tanker hit — crew safe") == "Tanker hit, crew safe"
 
 

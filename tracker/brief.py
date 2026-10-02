@@ -160,8 +160,9 @@ def sources_html(incidents: list[dict]) -> str:
             if s["source"] in seen:
                 continue
             seen.add(s["source"])
+            name = re.split(r"\s[-\u2013\u2014|:]\s", s["source"])[0]  # "ABC News - Breaking News..." -> "ABC News"
             links.append(f'<a href="{html.escape(s["url"])}" rel="nofollow noopener" target="_blank">'
-                         f'{html.escape(s["source"])}</a>')
+                         f'{html.escape(name)}</a>')
             if len(links) == 5:
                 break
         label = inc.get("vessel_name") or (inc.get("vessel_type") or "vessel").capitalize()
