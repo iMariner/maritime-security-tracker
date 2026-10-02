@@ -159,18 +159,16 @@ TEAL, NAVY, BORDER, BODY, MUTED = "#0A91AB", "#0B1E2D", "#DDE6EE", "#334155", "#
 
 
 def key_points_html(points: list[str]) -> str:
-    """'Key points' card: pill label, teal accent bar, teal round bullets. Inline styles, so it looks the
-    same in WordPress (kses keeps these properties) and on the preview page."""
-    items = "".join(
-        f'<li style="margin:0 0 12px;padding-left:24px;text-indent:-24px;line-height:1.6;color:{BODY}">'
-        f'<span style="color:{TEAL};font-size:15px;margin-right:12px">&#9679;</span>{html.escape(p)}</li>'
-        for p in points)
+    """'Key points' card: pill label and teal accent bar. Bullets come from the site's own list style
+    (teal discs), so the card adds none of its own. Inline styles, so it looks the same in WordPress
+    (kses keeps these properties) and on the preview page."""
+    items = "".join(f'<li style="margin:0 0 12px;line-height:1.6;color:{BODY}">{html.escape(p)}</li>' for p in points)
     return (f'<div class="msb-key-points" style="border:1px solid {BORDER};border-left:5px solid {TEAL};'
             f'border-radius:16px;background-color:#FFFFFF;padding:22px 26px 12px;margin:0 0 28px">'
             f'<p style="display:inline-block;margin:0 0 16px;padding:6px 16px;border:1px solid {BORDER};'
             f'border-radius:999px;font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase;'
             f'color:{NAVY}">Key points</p>'
-            f'<ul style="list-style:none;margin:0;padding:0">{items}</ul></div>')
+            f'<ul style="margin:0;padding-left:20px">{items}</ul></div>')
 
 
 def map_figure_html(image_url: str, day_label: str) -> str:
