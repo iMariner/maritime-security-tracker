@@ -18,7 +18,7 @@ Every 30 min (GitHub Actions: collect.yml)
 Daily 05:40 UTC (daily-brief.yml)
   last 24h incidents -> DeepSeek writes headline, overview, X text
   -> map image -> WordPress post on imariners.com (draft or publish)
-  -> n8n webhook -> Telegram approval on your phone -> publish + X + LinkedIn
+  -> n8n webhook -> Telegram approval on your phone -> publish + tweet on X
 
 On every data change (pages.yml)
   public map dashboard on GitHub Pages
@@ -78,9 +78,6 @@ Any OpenAI-compatible provider works: change only `LLM_BASE_URL`, the model name
    - Telegram nodes: a bot from @BotFather; put your chat id in place of `REPLACE_WITH_YOUR_TELEGRAM_CHAT_ID`
    - **Publish on iMariners**: WordPress credential (an Editor or the bot user's app password)
    - **Post on X**: X OAuth2 credential (check your X API tier allows posting)
-   - **Post on LinkedIn**: LinkedIn OAuth2; set your person id. Company page posting needs
-     LinkedIn's Community Management API approval (apply early). LinkedIn tokens expire about
-     every 60 days, so reconnect the credential when the "done" message shows a LinkedIn failure.
 3. Open each node once to confirm the fields survived import, then activate the workflow and
    copy the production webhook URL into `N8N_WEBHOOK_URL`.
 
