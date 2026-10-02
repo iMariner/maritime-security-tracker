@@ -9,6 +9,7 @@ from __future__ import annotations
 import argparse
 import html
 import json
+import re
 from datetime import timedelta
 from pathlib import Path
 
@@ -71,33 +72,60 @@ def incident_html(inc: dict) -> str:
             f'<table class="msb-incident"><tbody>{table}</tbody></table>\n<p><strong>Sources:</strong></p><ul>{sources}</ul>')
 
 
+ALLOWED_TAGS = re.compile(r"</?(p|h2|h3|ul|ol|li|strong|em|a)(\s[^>]*)?>", re.I)
+SOURCE_RANK = {"official": 0, "verification": 1, "media": 2, "local": 3, "osint": 4, "data": 5}
+
+
+def _clean_html(text: str) -> str:
+    """Keep only simple article tags from the model's HTML."""
+    return re.sub(r"<[^>]+>", lambda m: m.group(0) if ALLOWED_TAGS.fullmatch(m.group(0)) else "", text or "")
+
+
+def _facts(inc: dict) -> dict:
+    fact = {k: inc.get(k) for k in ("region", "vessel_name", "vessel_type", "flag", "date_utc", "location_text",
+                                    "attack_type", "damage", "casualties", "attribution_claimed", "status",
+                                    "official_source_cited", "summary")}
+    fact["reported_by"] = sorted({s["source"] for s in inc["sources"] if s.get("source_type") != "satellite"})[:8]
+    if inc.get("verdict"):
+        fact["checked_by_iMariners"] = inc["verdict"].get("note")
+    return fact
+
+
 def write_copy(day_label: str, new: list, updated: list, corrections: list) -> dict:
-    """AI writes the headline, overview and social posts from the structured facts only."""
-    facts = [{k: i.get(k) for k in ("region", "vessel_name", "vessel_type", "flag", "date_utc", "location_text",
-                                    "attack_type", "damage", "casualties", "attribution_claimed", "status", "summary")}
-             for i in new + updated]
+    """AI writes the news article, headline, excerpt and tweet from the structured facts only."""
     system = (
-        "You are the editor of the iMariners Maritime Security Brief, read by merchant seafarers, ship managers and "
-        "maritime professionals. Write in plain, calm British English. Use ONLY the facts given; never add vessels, "
-        "numbers or causes. Keep each incident's status wording: 'claimed' means one side says so, 'reported' means "
-        "independent reporting, 'confirmed' means confirmed. Never use em dashes or en dashes; use commas, colons or "
-        "full stops. No hashtags in the article. Return JSON with keys: "
-        '"title" (max 70 chars, starts with "Black Sea and Hormuz Shipping Attacks:" when there are incidents, '
-        'else "Black Sea and Hormuz Maritime Security:", then the date), '
-        '"excerpt" (meta description, max 155 chars), '
-        '"overview_html" (2 short <p> paragraphs: what happened in the last 24 hours by region, and what it means for '
-        "crews and operators), "
-        '"x_post" (the tweet that shares the blog post: one or two short sentences, at most 200 characters, '
-        'saying what happened in the last 24 hours and where; then a space and 3 or 4 hashtags chosen from '
-        '#MaritimeSecurity #Shipping #Seafarers #BlackSea #StraitOfHormuz #Tanker #UKMTO #MaritimeNews, picking the '
-        'ones that fit the day; no link, the link is added automatically).'
+        "You are a news editor at iMariners, writing the daily maritime security news article for merchant "
+        "seafarers, ship managers and maritime professionals. Style: a straight news report, like Reuters or "
+        "Lloyd's List. Plain, calm British English. Use ONLY the facts given; never add vessels, numbers, causes, "
+        "quotes or context that is not in the facts.\n"
+        "Accuracy rules: attribute every claim in the text (e.g. 'UKMTO said', 'Russia's defence ministry claimed', "
+        "'according to Splash247'). An incident with status 'claimed' must read as a claim by that party, never as "
+        "fact. 'reported' means independent reporting without official confirmation. 'confirmed' means confirmed by "
+        "a neutral authority, the owner or our own check. Never use em dashes or en dashes; use commas, colons or "
+        "full stops. No hashtags in the article.\n"
+        "Return JSON with keys:\n"
+        '"title": a news headline, max 70 characters, about the most important incident of the day, no date, '
+        "sentence case.\n"
+        '"excerpt": meta description, max 155 characters.\n'
+        '"article_html": the article body in HTML using only <p>, <h2>, <ul>, <li>, <strong>. Structure: a lede '
+        "paragraph with the most important news; a second paragraph with the overall picture; then one <h2> section "
+        "per region (Strait of Hormuz area first if it has incidents, then Black Sea), each incident in its own short "
+        "paragraph with attribution; then <h2>What this means for crews</h2> with 2 or 3 practical sentences "
+        "(follow UKMTO/JMIC guidance, report to UKMTO, company security procedures). 300 to 700 words. No sources "
+        "list (it is added automatically).\n"
+        '"x_post": the tweet that shares the article: one or two short sentences, at most 200 characters, saying what '
+        "happened and where; then a space and 3 or 4 hashtags chosen from #MaritimeSecurity #Shipping #Seafarers "
+        "#BlackSea #StraitOfHormuz #Tanker #UKMTO #MaritimeNews, picking those that fit; no link (added automatically)."
     )
-    user = json.dumps({"date": day_label, "new_incidents": len(new), "updates": len(updated),
-                       "corrections": len(corrections), "incidents": facts}, ensure_ascii=False)
+    user = json.dumps({"date": day_label, "new_incidents": [_facts(i) for i in new],
+                       "updates_on_earlier_incidents": [_facts(i) for i in updated],
+                       "corrections": [{"region": i["region"], "vessel_name": i.get("vessel_name"),
+                                        "note": (i.get("verdict") or {}).get("note")} for i in corrections]},
+                      ensure_ascii=False)
     try:
-        copy = llm.chat_json(system, user, kind="brief", max_tokens=2000)
+        copy = llm.chat_json(system, user, kind="brief", max_tokens=4000)
     except RuntimeError as exc:
-        log.warning("AI copy failed, using template: %s", exc)
+        log.warning("AI article failed, using template: %s", exc)
         copy = {}
     n = len(new) + len(updated)
     by_region = {}
@@ -107,12 +135,34 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list) -> d
     fallback = {
         "title": f"Black Sea and Hormuz {'Shipping Attacks' if n else 'Maritime Security'}: {day_label}",
         "excerpt": f"Attacks on merchant ships in the Black Sea and Strait of Hormuz in the last 24 hours, {day_label}. {summary}.",
-        "overview_html": f"<p>In the 24 hours to 06:00 UTC on {day_label}: {summary}.</p>",
+        "article_html": "",
         "x_post": f"Maritime Security Brief, {day_label}: {summary}. #MaritimeSecurity #Shipping #Seafarers",
     }
     out = {k: no_em_dash(str(copy.get(k) or fallback[k])) for k in fallback}
     out["title"] = out["title"][:90]
+    out["article_html"] = _clean_html(out["article_html"])
     return out
+
+
+def sources_html(incidents: list[dict]) -> str:
+    """Compact source list: one line per incident, official and independent sources first, at most 5 links."""
+    items = []
+    for inc in incidents:
+        srcs = [s for s in inc["sources"] if s.get("source_type") != "satellite"]
+        srcs.sort(key=lambda s: (SOURCE_RANK.get(s.get("kind"), 9), s.get("side") != "neutral"))
+        seen, links = set(), []
+        for s in srcs:
+            if s["source"] in seen:
+                continue
+            seen.add(s["source"])
+            links.append(f'<a href="{html.escape(s["url"])}" rel="nofollow noopener" target="_blank">'
+                         f'{html.escape(s["source"])}</a>')
+            if len(links) == 5:
+                break
+        label = inc.get("vessel_name") or (inc.get("vessel_type") or "vessel").capitalize()
+        items.append(f"<li><strong>{html.escape(label)}, {html.escape(inc['region'])}</strong> "
+                     f"({STATUS_LABEL[inc['status']].lower()}): {', '.join(links)}</li>")
+    return "<h2>Sources</h2><ul>" + "".join(items) + "</ul>" if items else ""
 
 
 def build(now=None) -> dict:
@@ -123,28 +173,30 @@ def build(now=None) -> dict:
     new, updated, corrections = select(incidents, since)
     copy = write_copy(day_label, new, updated, corrections)
 
-    parts = [copy["overview_html"]]
-    if new:
-        parts.append("<h2>New incidents</h2>")
-        parts += [incident_html(i) for i in new]
-    if updated:
-        parts.append("<h2>Updates on earlier incidents</h2>")
-        parts += [incident_html(i) for i in updated]
+    if copy["article_html"]:
+        parts = [copy["article_html"]]
+    else:  # the AI failed: fall back to the structured layout
+        parts = [f"<p>In the 24 hours to 06:00 UTC on {html.escape(day_label)}: "
+                 f"{html.escape(copy['excerpt'])}</p>"]
+        parts += [incident_html(i) for i in new + updated]
     if corrections:
         parts.append("<h2>Corrections</h2><ul>" + "".join(
             f"<li>{html.escape(i.get('vessel_name') or i['id'])} ({html.escape(i['region'])}): an earlier report was "
             f"checked and not confirmed. {html.escape((i.get('verdict') or {}).get('note') or '')}</li>" for i in corrections) + "</ul>")
     if not (new or updated or corrections):
         parts.append("<p>No attacks on merchant vessels were reported in the Black Sea or the Strait of Hormuz area in the last 24 hours.</p>")
+    if copy["article_html"]:
+        parts.append(sources_html(new + updated))
     parts.append(
-        "<h2>How this brief is compiled</h2><p>We monitor official advisories, maritime press, local news and public "
-        "Telegram channels from both sides of the conflict, in five languages, plus satellite fire detections. "
-        "<strong>Claimed</strong> means one side says it happened. <strong>Reported</strong> means independent "
-        "reporting. <strong>Confirmed</strong> means a neutral authority, the owner, or our own check confirms it. "
-        "Seafarers: always follow UKMTO, JMIC and your company security instructions.</p>"
+        "<p><em>How we report: iMariners monitors official advisories, maritime press, local news and public Telegram "
+        "channels from both sides of each conflict, in five languages. <strong>Claimed</strong> means one side says it "
+        "happened, <strong>reported</strong> means independent reporting, <strong>confirmed</strong> means a neutral "
+        "authority, the owner or our own check confirms it. Seafarers should always follow UKMTO, JMIC and company "
+        "security instructions.</em></p>"
     )
     body = no_em_dash("\n".join(parts))
-    return {"date": now.date().isoformat(), "day_label": day_label, "generated_at": iso(now), **copy, "html": body,
+    return {"date": now.date().isoformat(), "day_label": day_label, "generated_at": iso(now),
+            **{k: copy[k] for k in ("title", "excerpt", "x_post")}, "html": body,
             "incident_ids": [i["id"] for i in new + updated], "correction_ids": [i["id"] for i in corrections],
             "counts": {"new": len(new), "updated": len(updated), "corrections": len(corrections)},
             "_incidents": new + updated}

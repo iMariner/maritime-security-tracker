@@ -130,3 +130,13 @@ def test_approximate_positions():
     geo.fill_position(a)
     store.merge(report(region="Strait of Hormuz", vessel_name="Kazimah", lat=26.4, lon=56.5, source=src("https://n/k")), incs)
     assert len(incs) == 2  # an approximate position is never used to merge two incidents
+
+
+def test_article_helpers():
+    from tracker.brief import _clean_html, sources_html
+    assert _clean_html('<p>Hi <script>x</script><img src=x><strong>b</strong></p>') == "<p>Hi x<strong>b</strong></p>"
+    incs = []
+    inc, _ = store.merge(report(vessel_name="Kazimah", region="Strait of Hormuz", source=src("https://a/1", side="unknown", kind="media", source="Outlet")), incs)
+    store.merge(report(vessel_name="Kazimah", region="Strait of Hormuz", source=src("https://u/2", side="neutral", kind="official", source="UKMTO")), incs)
+    out = sources_html(incs)
+    assert out.index("UKMTO") < out.index("Outlet") and "Kazimah, Strait of Hormuz" in out
