@@ -948,14 +948,29 @@
         "kind": "media",
         "published_at": "2026-09-30T16:36:12Z",
         "title": "Cargo Ship Reports Suspected Attack While Crossing Hormuz - EnergyNow.com"
+      },
+      {
+        "url": "https://energynow.com/2026/06/cargo-ship-reports-suspected-attack-while-crossing-hormuz",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-02T11:13:03Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-02T10:22:53Z",
-    "last_updated": "2026-10-02T10:22:53Z",
+    "last_updated": "2026-10-02T11:13:03Z",
     "verification_issue": 18,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-02T11:13:03Z",
+      "note": "The cited report is the 25 June 2026 Ever Lovely incident, not a 30 September event, and no cargo-ship attack matching this record was reported around that date.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/18#issuecomment-5951067779"
+    },
     "published_in": [],
-    "status": "claimed",
+    "status": "rejected",
     "position_approx": true
   },
   {
