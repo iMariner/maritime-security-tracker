@@ -33,11 +33,12 @@ class WordPress:
             raise SystemExit(f"Category '{slug}' not found. Create it in WP admin (Posts > Categories) first.")
         return found[0]["id"]
 
-    def upload_image(self, path: Path, alt: str) -> int:
+    def upload_image(self, path: Path, alt: str) -> tuple[int, str]:
+        """Upload a PNG to the media library. Returns (media id, public URL)."""
         media = self._req("POST", "/media", data=path.read_bytes(), headers={
             "Content-Disposition": f'attachment; filename="{path.name}"', "Content-Type": "image/png"})
         self._req("POST", f"/media/{media['id']}", json={"alt_text": alt})
-        return media["id"]
+        return media["id"], media.get("source_url", "")
 
     def upsert_post(self, post_id: int | None, fields: dict) -> dict:
         if post_id:

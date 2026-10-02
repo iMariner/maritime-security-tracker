@@ -7,7 +7,7 @@ on:
   # Commits made by the other workflows use GITHUB_TOKEN, which does not trigger `push`,
   # so also rebuild whenever one of them finishes.
   workflow_run:
-    workflows: ["Collect and process", "Daily brief", "Apply verdict"]
+    workflows: ["Collect and process", "Apply verdict"]  # the daily brief starts this workflow itself
     types: [completed]
   workflow_dispatch:
 
@@ -34,6 +34,8 @@ jobs:
         run: |
           mkdir -p _site
           cp site/* _site/
+          # Unlisted draft previews linked from the Telegram approval message.
+          mkdir -p _site/preview && cp data/briefs/*.html _site/preview/ 2>/dev/null || true
           # Publish only what the brief would publish (no satellite-only leads, no rejected reports).
           python3 -c "import json;d=json.load(open('data/incidents.json'));json.dump([i for i in d if i['status'] in ('claimed','reported','confirmed')],open('_site/incidents.json','w'),ensure_ascii=False)"
       - uses: actions/upload-pages-artifact@v3

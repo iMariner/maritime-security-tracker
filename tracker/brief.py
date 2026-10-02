@@ -220,17 +220,43 @@ def publish(brief: dict, image: Path) -> dict:
     record_path = BRIEFS_DIR / f"{brief['date']}.json"
     record = read_json(record_path, {})
     mode = env("PUBLISH_MODE", "draft")
-    media_id = record.get("media_id") or wp.upload_image(image, f"Map of {brief['title']}")
+    if record.get("media_id") and record.get("image_url"):
+        media_id, image_url = record["media_id"], record["image_url"]
+    else:
+        media_id, image_url = wp.upload_image(image, f"Map of {brief['title']}")
     post = wp.upsert_post(record.get("post_id"), {
         "title": brief["title"], "content": brief["html"], "excerpt": brief["excerpt"], "status": mode,
         "slug": f"maritime-security-brief-{brief['date']}", "featured_media": media_id,
         "categories": [wp.category_id(env("WP_CATEGORY_SLUG", "maritime-security"))],
     })
-    record.update(post_id=post["id"], media_id=media_id, link=post["link"], status=post["status"],
+    preview_url = write_preview_page(brief, image_url)
+    record.update(post_id=post["id"], media_id=media_id, image_url=image_url, preview_url=preview_url,
+                  link=post["link"], status=post["status"],
                   **{k: brief[k] for k in ("title", "excerpt", "x_post", "incident_ids", "counts")})
     write_json(record_path, record)
     log.info("WordPress post %s (%s): %s", post["id"], post["status"], post["link"])
     return record
+
+
+PAGES_URL = "https://imariner.github.io/maritime-security-tracker"
+PREVIEW_STYLE = """body{font:17px/1.65 Georgia,serif;max-width:760px;margin:0 auto;padding:16px;color:#16202b;background:#fff}
+.bar{font:13px system-ui;background:#fff6e0;border:1px solid #f0d58a;padding:10px 12px;border-radius:8px;margin:8px 0 18px}
+h1{font:700 30px/1.2 system-ui;margin:12px 0 8px}h2{font:700 21px/1.3 system-ui;margin:28px 0 8px}
+.ex{color:#4a5867;font-style:italic}img{max-width:100%;border-radius:8px}a{color:#0b5c8a}
+.tw{font:15px/1.5 system-ui;background:#f3f6f9;border-radius:8px;padding:12px;white-space:pre-wrap}"""
+
+
+def write_preview_page(brief: dict, image_url: str) -> str:
+    """Unlisted, no-login copy of the draft for reading before approval (served by GitHub Pages)."""
+    page = (f'<!doctype html><html lang="en"><head><meta charset="utf-8">'
+            f'<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">'
+            f"<title>Draft: {html.escape(brief['title'])}</title><style>{PREVIEW_STYLE}</style></head><body>"
+            f'<div class="bar"><strong>DRAFT PREVIEW</strong>, not yet published. Approve or skip it in Telegram.</div>'
+            + (f'<img src="{html.escape(image_url)}" alt="Map">' if image_url else "")
+            + f"<h1>{html.escape(brief['title'])}</h1><p class=\"ex\">{html.escape(brief['excerpt'])}</p>{brief['html']}"
+            f'<h2>Tweet</h2><div class="tw">{html.escape(brief["x_post"])} [link]</div></body></html>')
+    (BRIEFS_DIR / f"{brief['date']}.html").write_text(page, encoding="utf-8")
+    return f"{PAGES_URL}/preview/{brief['date']}.html"
 
 
 def notify_n8n(record: dict) -> None:
@@ -247,7 +273,16 @@ def notify_n8n(record: dict) -> None:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--preview", action="store_true")
+    ap.add_argument("--notify", action="store_true", help="only send today's saved brief to n8n")
     args = ap.parse_args()
+
+    if args.notify:
+        record = read_json(BRIEFS_DIR / f"{now_utc().date().isoformat()}.json", {})
+        if record.get("post_id"):
+            notify_n8n(record)
+        else:
+            log.info("No brief published today; nothing to send to n8n")
+        return
 
     brief = build()
     image = render(parse_dt(brief["generated_at"]), brief.pop("_incidents"), OUT / f"brief-{brief['date']}.png")
@@ -269,7 +304,8 @@ def main() -> None:
         if inc["id"] in brief["incident_ids"] and brief["date"] not in inc.get("published_in", []):
             inc.setdefault("published_in", []).append(brief["date"])
     store.save(incidents)
-    notify_n8n(record)
+    if env("NOTIFY_LATER") != "1":  # the workflow notifies after the preview page is online
+        notify_n8n(record)
 
 
 if __name__ == "__main__":

@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  actions: write   # start the Pages deploy for the draft preview
   models: read
 
 concurrency:
@@ -44,6 +45,7 @@ jobs:
           PUBLISH_EMPTY_DAYS: ${{ vars.PUBLISH_EMPTY_DAYS || 'true' }}
           N8N_WEBHOOK_URL: ${{ secrets.N8N_WEBHOOK_URL }}
           N8N_WEBHOOK_TOKEN: ${{ secrets.N8N_WEBHOOK_TOKEN }}
+          NOTIFY_LATER: "1"
         run: python -m tracker.brief ${{ inputs.preview && '--preview' || '' }}
       - uses: actions/upload-artifact@v4
         with:
@@ -59,3 +61,24 @@ jobs:
           git commit -m "brief: $(date -u +%Y-%m-%d)"
           git pull --rebase
           git push
+      - name: Put the draft preview online
+        if: ${{ !inputs.preview }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow run pages.yml -R "$GITHUB_REPOSITORY"
+          url=$(python3 -c "import json,datetime;d=datetime.datetime.utcnow().date().isoformat();print(json.load(open(f'data/briefs/{d}.json')).get('preview_url',''))" 2>/dev/null || true)
+          [ -z "$url" ] && exit 0
+          for i in $(seq 1 30); do
+            code=$(curl -s -o /dev/null -w "%{http_code}" "$url?v=$i")
+            [ "$code" = "200" ] && echo "Preview online: $url" && exit 0
+            sleep 10
+          done
+          echo "Preview not online after 5 minutes; sending the approval message anyway"
+      - name: Send to n8n for approval
+        if: ${{ !inputs.preview }}
+        env:
+          N8N_WEBHOOK_URL: ${{ secrets.N8N_WEBHOOK_URL }}
+          N8N_WEBHOOK_TOKEN: ${{ secrets.N8N_WEBHOOK_TOKEN }}
+          WP_URL: ${{ vars.WP_URL || 'https://imariners.com' }}
+        run: python -m tracker.brief --notify
