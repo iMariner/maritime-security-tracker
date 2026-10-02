@@ -77,8 +77,10 @@ def main() -> None:
         seen[key] = stamp
         store.add_firms_signal(det, incidents)
 
-    # Review pass: merge entries that are the same real attack, drop out-of-scope ones.
-    closed = consolidate(incidents)
+    # Review pass: merge entries that are the same real attack, drop out-of-scope ones. Only when this run
+    # added or changed an incident; otherwise there is nothing new to compare and the call is wasted.
+    changed_now = [i for i in incidents if (i.get("last_updated") or "") >= stamp]
+    closed = consolidate(incidents) if changed_now else 0
     if closed:
         log.info("Review pass closed %d duplicate or out-of-scope entries", closed)
 
@@ -107,6 +109,7 @@ def main() -> None:
 
     store.save(incidents)
     write_json(SEEN_FILE, prune_seen(seen))
+    llm.log_usage("collect")
     if ai_failed:
         sys.exit("AI step did not run: check LLM_API_KEY and the provider's credit")
 

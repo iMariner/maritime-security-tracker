@@ -25,6 +25,13 @@ from openai import OpenAI
 from .common import env, log
 
 GITHUB_MODELS_URL = "https://models.github.ai/inference"
+USAGE = {"calls": 0, "in": 0, "out": 0, "cached": 0}  # tokens used in this run, logged at the end
+
+
+def log_usage(label: str) -> None:
+    if USAGE["calls"]:
+        log.info("AI usage (%s): %d calls, %d input tokens (%d from cache), %d output tokens",
+                 label, USAGE["calls"], USAGE["in"], USAGE["cached"], USAGE["out"])
 
 
 def _providers(kind: str) -> list[tuple]:
@@ -92,6 +99,12 @@ def chat_json(system: str, user: str, kind: str = "fast", max_tokens: int = 4000
                     max_tokens=max_tokens,
                     extra_body=extra,
                 )
+                u = getattr(resp, "usage", None)
+                if u:
+                    USAGE["calls"] += 1
+                    USAGE["in"] += u.prompt_tokens or 0
+                    USAGE["out"] += u.completion_tokens or 0
+                    USAGE["cached"] += getattr(u, "prompt_cache_hit_tokens", 0) or 0
                 return _parse_json(resp.choices[0].message.content or "")
             except Exception as exc:  # network, rate limit, bad JSON
                 errors.append(f"{name}/{model}: {exc}")

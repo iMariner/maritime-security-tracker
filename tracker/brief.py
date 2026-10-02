@@ -360,6 +360,7 @@ def main() -> None:
     OUT.mkdir(exist_ok=True)
     (OUT / "brief.html").write_text(f"<h1>{html.escape(brief['title'])}</h1>\n{brief['html']}", encoding="utf-8")
     write_json(OUT / "brief.json", brief)
+    llm.log_usage("brief")
     if args.preview or not (env("WP_USER") and env("WP_APP_PASSWORD")):
         if not args.preview:
             log.warning("WordPress login not set (WP_USER, WP_APP_PASSWORD): brief built as a preview only, nothing published")
