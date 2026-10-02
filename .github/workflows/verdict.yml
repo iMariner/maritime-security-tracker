@@ -14,7 +14,8 @@ concurrency:
 
 jobs:
   apply:
-    # Only verification issues, only comments that start with /verdict. The script also checks who wrote it.
+    # Only verification issues, only comments that start with /verdict. The script sweeps all open
+    # verification issues (several verdicts at once cancel each other's queued runs) and checks who wrote each.
     if: contains(github.event.issue.labels.*.name, 'verify') && startsWith(github.event.comment.body, '/verdict')
     runs-on: ubuntu-latest
     steps:

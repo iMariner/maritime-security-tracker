@@ -25,6 +25,11 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+      - name: Apply pending verdicts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VERIFIERS: ${{ vars.VERIFIERS }}
+        run: python -m tracker.apply_verdict
       - name: Collect, extract, match
         env:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}

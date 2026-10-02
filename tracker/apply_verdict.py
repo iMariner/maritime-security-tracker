@@ -1,12 +1,15 @@
-"""Apply a `/verdict` comment on a verification issue (run by .github/workflows/verdict.yml).
+"""Apply `/verdict` comments on open verification issues.
 
-Reads the GitHub event payload, checks the commenter is allowed, updates data/incidents.json
-and closes the issue.
+Sweeps every open issue labelled `verify` and applies the newest `/verdict` comment from the repo owner
+or a listed verifier (repo variable VERIFIERS). Sweeping, rather than handling only the comment that
+triggered the run, matters: when several verdicts arrive at once GitHub cancels all but one queued run,
+and the run that does go ahead must still apply the others. It also runs before every collection run.
 """
 from __future__ import annotations
 
-import json
 import re
+
+import requests
 
 from . import github_issues, incidents as store
 from .common import env, iso, log, no_em_dash, now_utc
@@ -14,6 +17,7 @@ from .common import env, iso, log, no_em_dash, now_utc
 STATUSES = {"confirmed", "reported", "claimed", "rejected"}
 EDITABLE = {"vessel_name", "imo", "flag", "vessel_type", "location_text", "attack_type", "damage", "casualties",
             "attribution_claimed", "summary", "date_utc"}
+API = "https://api.github.com"
 
 
 def parse(body: str) -> dict | None:
@@ -40,38 +44,59 @@ def parse(body: str) -> dict | None:
     return out
 
 
-def main() -> None:
-    with open(env("GITHUB_EVENT_PATH", required=True), encoding="utf-8") as f:
-        event = json.load(f)
-    comment, issue = event["comment"], event["issue"]
-    user = comment["user"]["login"]
-    allowed = {u.strip().lower() for u in (env("VERIFIERS") or "").split(",") if u.strip()}
-    if comment.get("author_association") != "OWNER" and user.lower() not in allowed:
-        log.info("Ignoring comment from %s (not owner or listed verifier)", user)
-        return
-    verdict = parse(comment["body"])
-    if not verdict:
-        log.info("Comment is not a /verdict; nothing to do")
-        return
-
-    incidents = store.load()
-    inc = next((i for i in incidents if i.get("verification_issue") == issue["number"]), None)
-    if not inc:
-        log.warning("No incident linked to issue #%d", issue["number"])
-        return
+def apply(inc: dict, verdict: dict, user: str, comment_url: str) -> None:
     inc.update(verdict["fields"])
     for url in verdict["sources"]:
         if url not in {s["url"] for s in inc["sources"]}:
             inc["sources"].append({"url": url, "source": "Verifier evidence", "source_type": "verification",
                                    "side": "neutral", "kind": "verification", "published_at": iso(now_utc()), "title": None})
     inc["verdict"] = {"status": verdict["status"], "by": user, "at": iso(now_utc()), "note": verdict["note"],
-                      "comment_url": comment["html_url"]}
+                      "comment_url": comment_url}
     inc["status"] = verdict["status"]
     inc["last_updated"] = iso(now_utc())
-    store.save(incidents)
-    github_issues.close_issue(issue["number"], f"Applied: **{verdict['status']}** for {inc['id']}.")
-    log.info("%s set to %s by %s", inc["id"], verdict["status"], user)
+
+
+def _get(path: str, **params):
+    resp = requests.get(f"{API}{path}", headers=github_issues._headers(), params=params, timeout=30)
+    resp.raise_for_status()
+    return resp.json()
+
+
+def sweep() -> int:
+    """Apply every pending verdict. Returns the number of issues closed."""
+    repo = env("GITHUB_REPOSITORY")
+    if not repo or not env("GITHUB_TOKEN"):
+        log.info("No GitHub context; skipping verdict sweep")
+        return 0
+    allowed = {u.strip().lower() for u in (env("VERIFIERS") or "").split(",") if u.strip()}
+    incidents = store.load()
+    by_issue = {i.get("verification_issue"): i for i in incidents if i.get("verification_issue")}
+    closed = 0
+    for issue in _get(f"/repos/{repo}/issues", labels="verify", state="open", per_page=100):
+        found = None
+        for c in _get(f"/repos/{repo}/issues/{issue['number']}/comments", per_page=100):
+            if c.get("author_association") != "OWNER" and c["user"]["login"].lower() not in allowed:
+                continue
+            parsed = parse(c.get("body") or "")
+            if parsed:
+                found = (parsed, c)  # comments come oldest first, so the newest valid verdict wins
+        if not found:
+            continue
+        verdict, c = found
+        inc = by_issue.get(issue["number"])
+        if inc:
+            apply(inc, verdict, c["user"]["login"], c["html_url"])
+            store.save(incidents)
+            msg = f"Applied: **{verdict['status']}** for {inc['id']}."
+            log.info("%s set to %s by %s (issue #%d)", inc["id"], verdict["status"], c["user"]["login"], issue["number"])
+        else:
+            msg = "Closed: no incident is linked to this issue any more (the data was rebuilt)."
+            log.warning("No incident linked to issue #%d; closing it", issue["number"])
+        github_issues.close_issue(issue["number"], msg)
+        closed += 1
+    log.info("Verdict sweep: %d issue(s) closed", closed)
+    return closed
 
 
 if __name__ == "__main__":
-    main()
+    sweep()
