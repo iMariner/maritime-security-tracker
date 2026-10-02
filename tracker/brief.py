@@ -251,7 +251,8 @@ def fact_check(copy: dict, facts_json: str) -> dict:
         log.warning("Fact-check skipped: %s", exc)
         copy["fact_check"] = "skipped"
         return copy
-    fixes = [str(c) for c in checked.get("corrections") or [] if str(c).strip()]
+    fixes = [str(c) for c in checked.get("corrections") or [] if str(c).strip()
+             and not re.search(r"\bno (changes|corrections)\b|nothing (to|was) (change|correct)", str(c), re.I)]
     for k in ("title", "article_html", "x_post"):
         if isinstance(checked.get(k), str) and checked[k].strip():
             copy[k] = checked[k]
