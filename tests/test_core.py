@@ -26,6 +26,15 @@ def test_prefilter_word_start():
     assert not is_candidate({"title": "Tanker rates climb", "text": "Freight market report", "require_region_term": True})
 
 
+def test_repeated_party_claim_stays_claimed():
+    incs = []
+    a, _ = store.merge(report(independent_evidence=False, source=src("https://n/1", side="unknown", kind="media", source="Outlet A")), incs)
+    store.merge(report(same_as=a["id"], independent_evidence=False, source=src("https://n/2", side="unknown", kind="media", source="Outlet B")), incs, model_checked=True)
+    assert a["status"] == "claimed" and len(a["sources"]) == 2
+    store.merge(report(same_as=a["id"], independent_evidence=True, source=src("https://n/3", side="neutral", kind="media", source="Splash247")), incs, model_checked=True)
+    assert a["status"] == "reported"
+
+
 def test_merge_by_name_and_status_ladder():
     incs = []
     a, new = store.merge(report(vessel_name="MV Kairos"), incs)
@@ -46,7 +55,7 @@ def test_different_vessels_stay_separate():
 def test_unnamed_reports_match_by_position():
     incs = []
     store.merge(report(lat=46.49, lon=30.74), incs)
-    store.merge(report(lat=46.45, lon=30.70, source=src("https://t.me/c/3", side="neutral", kind="media", source="ASTRA")), incs)
+    store.merge(report(lat=46.45, lon=30.70, independent_evidence=True, source=src("https://t.me/c/3", side="neutral", kind="media", source="ASTRA")), incs)
     assert len(incs) == 1 and incs[0]["status"] == "reported"
 
 

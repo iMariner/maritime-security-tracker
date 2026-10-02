@@ -26,6 +26,9 @@ FIELDS = """{
   "summary": "2 sentences in plain English, facts only, attributing claims (e.g. 'Russia's defence ministry said ...')",
   "is_recap": true if the item only mentions an older attack in passing, otherwise false,
   "conflicting": true if the item disputes or contradicts another account, otherwise false,
+  "independent_evidence": true only if the item gives evidence beyond one side's statement (eyewitnesses, crew,
+    the owner or manager, port or coast guard, images, a neutral authority, or the other side confirming);
+    false if it only repeats what one party (a ministry, army, navy, or government of Russia, Ukraine, Iran, etc.) said,
   "confidence": 0.0 to 1.0, how sure you are that a real attack on this vessel is being reported,
   "same_as": "id of a KNOWN incident that this is the same real-world attack as, or null if it is a new one",
   "event_key": "short label for the real-world event, identical for every report of the same attack in this request (e.g. 'kazimah-hormuz-0929')"

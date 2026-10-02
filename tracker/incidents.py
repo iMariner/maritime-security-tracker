@@ -135,10 +135,14 @@ def compute_status(inc: dict) -> str:
     if neutral_confirmation(inc.get("official_source_cited")):
         return "confirmed"
     sides = {s.get("side") for s in sources}
+    if {"ua", "ru"} <= sides:
+        return "reported"  # both sides of the conflict describe it
+    if inc.get("independent_evidence") is not None:
+        # Outlets repeating one party's statement are not independent evidence, however many there are.
+        return "reported" if inc["independent_evidence"] else "claimed"
+    # Incidents stored before the model judged evidence: the older outlet-count rule.
     outlets = {s.get("source") for s in sources}
-    if "neutral" in sides or {"ua", "ru"} <= sides:
-        return "reported"
-    if len(outlets) >= 2 and any(s.get("kind") != "official" for s in sources):
+    if "neutral" in sides or (len(outlets) >= 2 and any(s.get("kind") != "official" for s in sources)):
         return "reported"
     return "claimed"
 
@@ -164,6 +168,7 @@ def merge(report: dict, incidents: list[dict], model_checked: bool = False) -> t
     match = find_match(report, incidents, model_checked)
     if match is None:
         inc = {k: report.get(k) for k in ("region", "date_utc", "summary", "official_source_cited", "conflicting", "confidence") + MERGE_FIELDS}
+        inc["independent_evidence"] = bool(report.get("independent_evidence"))
         if not parse_dt(inc.get("date_utc")) and parse_dt(source.get("published_at")):
             # No date in the text: use the article's publish time and say it is approximate.
             inc["date_utc"], inc["date_approx"] = source["published_at"], True
@@ -197,6 +202,8 @@ def merge(report: dict, incidents: list[dict], model_checked: bool = False) -> t
         changed = True
     inc["confidence"] = max(inc.get("confidence") or 0, report.get("confidence") or 0)
     inc["conflicting"] = bool(inc.get("conflicting") or report.get("conflicting"))
+    if report.get("independent_evidence"):
+        inc["independent_evidence"] = True
     status = compute_status(inc)
     if status != inc.get("status"):
         inc["status"] = status
