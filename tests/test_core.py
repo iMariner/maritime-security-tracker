@@ -172,7 +172,8 @@ def test_review_pass_merges_and_drops(monkeypatch):
     assert b["status"] == "merged" and b["merged_into"] == a["id"] and len(a["sources"]) == 2
     assert not f.get("merged_into")  # three days apart: refused by the hard date rule
     assert not f.get("merged_into")  # three days apart: refused by the hard date rule
-    assert d["status"] == "rejected" and a["summary"] == "Kazimah was hit, crew safe."
+    assert d["status"] == "rejected"
+    assert a["summary"] != "Kazimah was hit, crew safe."  # f was refused, so the group's summary is not used
     # a later report about the merged entry lands on the survivor
     e, new = store.merge(report(region="Strait of Hormuz", same_as=b["id"], source=src("https://n/e")), incs, model_checked=True)
     assert not new and e is a

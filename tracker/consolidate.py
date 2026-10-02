@@ -145,12 +145,14 @@ def consolidate(incidents: list[dict]) -> int:
                 merged.append(other["id"])
             if not merged:
                 continue
+            proposed = {m.get("id") if isinstance(m, dict) else m for m in g.get("merge") or []}
+            whole_group = proposed <= set(merged)  # the model's summary describes every proposed member
             if g.get("vessel_name") and (not keep.get("vessel_name") or (
                     len(g["vessel_name"]) > len(keep["vessel_name"]) and same_vessel(g["vessel_name"], keep["vessel_name"]))):
                 keep["vessel_name"] = g["vessel_name"]  # prefer the fuller registered name
             if keep_day:
                 keep["date_utc"], keep["date_approx"] = g["keep_attack_date"], False
-            if g.get("summary"):
+            if g.get("summary") and whole_group:
                 keep["summary"] = no_em_dash(g["summary"])
             keep["status"] = compute_status(keep)
             keep["last_updated"] = stamp
