@@ -11,7 +11,7 @@ from datetime import timedelta
 
 from . import geo, github_issues, incidents as store, llm
 from .consolidate import consolidate
-from .collectors import firms, imo, rss, telegram
+from .collectors import firms, imo, missed, rss, telegram
 from .common import SEEN_FILE, env, iso, log, now_utc, parse_dt, prune_seen, read_json, write_json
 from .extract import extract
 from .prefilter import is_candidate
@@ -25,11 +25,12 @@ def main() -> None:
     args = ap.parse_args()
 
     seen = read_json(SEEN_FILE, {})
-    items = telegram.collect(seen) + rss.collect(seen)
+    official_items = missed.collect()  # official reports Hermes found that we lacked (UKMTO, JMIC)
+    items = official_items + telegram.collect(seen) + rss.collect(seen)
     fresh = [it for it in items if it["id"] not in seen]
     cutoff = now_utc() - MAX_AGE
     fresh = [it for it in fresh if (parse_dt(it.get("published_at")) or now_utc()) >= cutoff]
-    candidates = [it for it in fresh if is_candidate(it)]
+    candidates = [it for it in fresh if it.get("kind") == "official" or is_candidate(it)]
     # Newest first, so if the AI cap is hit the older items wait for the next run.
     candidates.sort(key=lambda it: parse_dt(it.get("published_at")) or now_utc(), reverse=True)
     candidate_ids = {it["id"] for it in candidates}
@@ -57,6 +58,7 @@ def main() -> None:
     if candidates and candidates_ready and llm.available():
         batch = candidates[:max_items]
         new, updated, processed, failed = extract(batch, incidents)
+        missed.close_read(official_items, processed)
         ai_failed = failed > 0 and not processed  # every batch failed
         log.info("Incidents: %d new, %d reports merged into existing", new, updated)
         # Non-candidates are marked seen right away; candidates only once the AI has read them.
