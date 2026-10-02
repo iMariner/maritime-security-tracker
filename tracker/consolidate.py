@@ -12,7 +12,7 @@ from datetime import timedelta
 
 from . import github_issues, llm
 from .common import iso, load_yaml, log, no_em_dash, now_utc, parse_dt
-from .incidents import MERGE_FIELDS, compute_status
+from .incidents import MERGE_FIELDS, compute_status, norm_name
 
 GROUPS = {
     "Hormuz and Gulf": {"Strait of Hormuz", "Persian Gulf", "Gulf of Oman", "Red Sea", "Gulf of Aden"},
@@ -55,9 +55,13 @@ def _system(regions_on: list[str]) -> str:
         "reasons to drop an entry: the vessel is not named, there is only one source, it is an unconfirmed claim "
         "by one side (claims are published as claims), or details are thin. "
         f"Every one of these areas is IN scope: {', '.join(regions_on)}.\n"
-        'Return JSON: {"groups": [{"keep": "<id>", "merge": ["<id>", ...], "vessel_name": "<name or null>", '
-        '"date_utc": "<best date of the attack, YYYY-MM-DD>", "summary": "<2 plain sentences describing the '
-        'event, attributing claims, no em dashes>"}], "out_of_scope": [{"id": "<id>", "reason": "<short reason>"}]}. '
+        'Return JSON: {"groups": [{"keep": "<id>", "keep_attack_date": "YYYY-MM-DD", '
+        '"merge": [{"id": "<id>", "attack_date": "YYYY-MM-DD"}], "vessel_name": "<name or null>", '
+        '"summary": "<2 plain sentences describing the event, attributing claims, no em dashes>"}], '
+        '"out_of_scope": [{"id": "<id>", "reason": "<short reason>"}]}. '
+        "attack_date is the day the attack itself happened according to that entry's text and headlines, NOT the "
+        "day the article was published (a 1 October article about 'late reports of attacks on 28 and 29 September' "
+        "has attack_date 2026-09-29). Entries whose attacks are more than two days apart are different events.\n"
         "3. Correct an entry's region when it is clearly wrong (e.g. Yanbu, Jeddah or Houthi attacks off Yemen are "
         f"Red Sea; Aden is Gulf of Aden). Allowed regions: {', '.join(ALL_REGIONS)}.\n"
         "The out_of_scope reason must name which of (a), (b) or (c) applies. "
@@ -118,9 +122,21 @@ def consolidate(incidents: list[dict]) -> int:
             if not keep or keep["id"] not in live_ids or keep.get("merged_into"):
                 continue
             merged = []
-            for mid in g.get("merge") or []:
+            keep_day = parse_dt(g.get("keep_attack_date"))
+            for m in g.get("merge") or []:
+                mid = m.get("id") if isinstance(m, dict) else m
                 other = by_id.get(mid)
                 if not other or other is keep or other["id"] not in live_ids or other.get("merged_into"):
+                    continue
+                # Hard rules the model cannot override.
+                day = parse_dt(m.get("attack_date")) if isinstance(m, dict) else None
+                if not (keep_day and day) or abs(keep_day - day) > timedelta(days=2):
+                    log.info("Review: not merging %s into %s (attack dates %s / %s)", mid, keep["id"],
+                             g.get("keep_attack_date"), m.get("attack_date") if isinstance(m, dict) else None)
+                    continue
+                if keep.get("vessel_name") and other.get("vessel_name") and \
+                        norm_name(keep["vessel_name"]) != norm_name(other["vessel_name"]):
+                    log.info("Review: not merging %s into %s (different vessels)", mid, keep["id"])
                     continue
                 _merge_into(keep, other)
                 other["status"], other["last_updated"] = "merged", stamp
@@ -130,8 +146,8 @@ def consolidate(incidents: list[dict]) -> int:
                 continue
             if g.get("vessel_name") and not keep.get("vessel_name"):
                 keep["vessel_name"] = g["vessel_name"]
-            if g.get("date_utc") and parse_dt(g["date_utc"]):
-                keep["date_utc"], keep["date_approx"] = g["date_utc"], False
+            if keep_day:
+                keep["date_utc"], keep["date_approx"] = g["keep_attack_date"], False
             if g.get("summary"):
                 keep["summary"] = no_em_dash(g["summary"])
             keep["status"] = compute_status(keep)

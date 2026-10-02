@@ -160,13 +160,18 @@ def test_review_pass_merges_and_drops(monkeypatch):
     a, _ = store.merge(report(region="Strait of Hormuz", vessel_name="Kazimah", source=src("https://n/a", side="neutral", kind="media", source="Splash247")), incs)
     b, _ = store.merge(report(region="Strait of Hormuz", source=src("https://n/b")), incs, model_checked=True)
     d, _ = store.merge(report(region="Persian Gulf", source=src("https://n/d")), incs, model_checked=True)
+    f, _ = store.merge(report(region="Strait of Hormuz", source=src("https://n/f")), incs, model_checked=True)
     monkeypatch.setattr(c.llm, "available", lambda: True)
     monkeypatch.setattr(c.llm, "chat_json", lambda *args, **kw: {
-        "groups": [{"keep": a["id"], "merge": [b["id"]], "date_utc": "2026-10-01", "summary": "Kazimah was hit — crew safe."}],
+        "groups": [{"keep": a["id"], "keep_attack_date": "2026-10-01",
+                    "merge": [{"id": b["id"], "attack_date": "2026-10-01"}, {"id": f["id"], "attack_date": "2026-09-28"}],
+                    "summary": "Kazimah was hit — crew safe."}],
         "out_of_scope": [{"id": d["id"], "reason": "port strike, no vessel"}]})
     monkeypatch.setattr(c.github_issues, "close_issue", lambda *args, **kw: None)
     assert c.consolidate(incs) == 2
     assert b["status"] == "merged" and b["merged_into"] == a["id"] and len(a["sources"]) == 2
+    assert not f.get("merged_into")  # three days apart: refused by the hard date rule
+    assert not f.get("merged_into")  # three days apart: refused by the hard date rule
     assert d["status"] == "rejected" and a["summary"] == "Kazimah was hit, crew safe."
     # a later report about the merged entry lands on the survivor
     e, new = store.merge(report(region="Strait of Hormuz", same_as=b["id"], source=src("https://n/e")), incs, model_checked=True)
