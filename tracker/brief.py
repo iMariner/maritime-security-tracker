@@ -154,6 +154,42 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list) -> d
     return out
 
 
+# iMariners palette: teal accent, navy headings, soft border, slate body text.
+TEAL, NAVY, BORDER, BODY, MUTED = "#0A91AB", "#0B1E2D", "#DDE6EE", "#334155", "#64748B"
+
+
+def key_points_html(points: list[str]) -> str:
+    """'Key points' card: pill label, teal accent bar, teal round bullets. Inline styles, so it looks the
+    same in WordPress (kses keeps these properties) and on the preview page."""
+    items = "".join(
+        f'<li style="margin:0 0 12px;padding-left:24px;text-indent:-24px;line-height:1.6;color:{BODY}">'
+        f'<span style="color:{TEAL};font-size:15px;margin-right:12px">&#9679;</span>{html.escape(p)}</li>'
+        for p in points)
+    return (f'<div class="msb-key-points" style="border:1px solid {BORDER};border-left:5px solid {TEAL};'
+            f'border-radius:16px;background-color:#FFFFFF;padding:22px 26px 12px;margin:0 0 28px">'
+            f'<p style="display:inline-block;margin:0 0 16px;padding:6px 16px;border:1px solid {BORDER};'
+            f'border-radius:999px;font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase;'
+            f'color:{NAVY}">Key points</p>'
+            f'<ul style="list-style:none;margin:0;padding:0">{items}</ul></div>')
+
+
+def map_figure_html(image_url: str, day_label: str) -> str:
+    return (f'<figure class="msb-map" style="margin:0 0 28px">'
+            f'<img src="{html.escape(image_url)}" alt="Map of reported attacks on ships, {html.escape(day_label)}" '
+            f'width="1200" height="630" style="width:100%;height:auto;border-radius:12px" />'
+            f'<figcaption style="font-size:13px;color:{MUTED};margin-top:8px">Incidents in the last 24 hours. '
+            f'Positions are approximate unless reported. Map data &copy; OpenStreetMap contributors.</figcaption></figure>')
+
+
+def with_map(body: str, image_url: str, day_label: str) -> str:
+    """Put the map right after the key points card (or at the top when there is none)."""
+    if not image_url or 'class="msb-map"' in body:
+        return body
+    fig = map_figure_html(image_url, day_label)
+    end = body.find("</ul></div>") if 'class="msb-key-points"' in body else -1
+    return body[: end + 11] + fig + body[end + 11 :] if end != -1 else fig + body
+
+
 def sources_html(incidents: list[dict]) -> str:
     """Compact source list: one line per incident, official first, at most 5 outlets.
 
@@ -194,8 +230,7 @@ def build(now=None) -> dict:
     if copy["article_html"]:
         parts = []
         if copy["key_points"]:
-            parts.append('<div class="msb-key-points"><p><strong>Key points</strong></p><ul>'
-                         + "".join(f"<li>{html.escape(p)}</li>" for p in copy["key_points"]) + "</ul></div>")
+            parts.append(key_points_html(copy["key_points"]))
         parts.append(copy["article_html"])
     else:  # the AI failed: fall back to the structured layout
         parts = [f"<p>In the 24 hours to 06:00 UTC on {html.escape(day_label)}: "
@@ -235,12 +270,13 @@ def publish(brief: dict, image: Path) -> dict:
         media_id, image_url = record["media_id"], record["image_url"]
     else:
         media_id, image_url = wp.upload_image(image, f"Map of {brief['title']}")
+    brief["html"] = with_map(brief["html"], image_url, brief["day_label"])
     post = wp.upsert_post(record.get("post_id"), {
         "title": brief["title"], "content": brief["html"], "excerpt": brief["excerpt"], "status": mode,
         "slug": f"maritime-security-brief-{brief['date']}", "featured_media": media_id,
         "categories": [wp.category_id(env("WP_CATEGORY_SLUG", "maritime-security"))],
     })
-    preview_url = write_preview_page(brief, image_url)
+    preview_url = write_preview_page(brief, image_url)  # brief["html"] already carries the map
     record.update(post_id=post["id"], media_id=media_id, image_url=image_url, preview_url=preview_url,
                   link=post["link"], status=post["status"],
                   **{k: brief[k] for k in ("title", "excerpt", "x_post", "incident_ids", "counts")})
@@ -263,7 +299,6 @@ def write_preview_page(brief: dict, image_url: str) -> str:
             f'<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">'
             f"<title>Draft: {html.escape(brief['title'])}</title><style>{PREVIEW_STYLE}</style></head><body>"
             f'<div class="bar"><strong>DRAFT PREVIEW</strong>, not yet published. Approve or skip it in Telegram.</div>'
-            + (f'<img src="{html.escape(image_url)}" alt="Map">' if image_url else "")
             + f"<h1>{html.escape(brief['title'])}</h1><p class=\"ex\">{html.escape(brief['excerpt'])}</p>{brief['html']}"
             f'<h2>Tweet</h2><div class="tw">{html.escape(brief["x_post"])} [link]</div></body></html>')
     (BRIEFS_DIR / f"{brief['date']}.html").write_text(page, encoding="utf-8")

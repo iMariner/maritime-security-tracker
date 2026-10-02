@@ -143,3 +143,12 @@ def test_article_helpers():
     out = sources_html(incs)
     assert "news.google.com" not in out and "Wire" in out
     assert out.index("UKMTO") < out.index("Outlet") and "Kazimah, Strait of Hormuz" in out and 'rel="nofollow' in out
+
+
+def test_key_points_card_and_map():
+    from tracker.brief import key_points_html, with_map
+    card = key_points_html(["Tanker hit", "Claim by Russia"])
+    assert card.count("<li ") == 2 and "Key points" in card and "#0A91AB" in card
+    body = with_map(card + "<p>Lede</p>", "https://x/y.png", "2 October 2026")
+    assert body.index("Key points") < body.index("msb-map") < body.index("Lede")
+    assert with_map(body, "https://x/y.png", "2 October 2026") == body  # never twice
