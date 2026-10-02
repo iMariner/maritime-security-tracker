@@ -18,7 +18,7 @@ Every 30 min (GitHub Actions: collect.yml)
 Daily 05:40 UTC (daily-brief.yml)
   last 24h incidents -> DeepSeek writes headline, overview, X text
   -> map image -> WordPress post on imariners.com (draft or publish)
-  -> n8n webhook -> Telegram approval on your phone -> publish + tweet on X
+  -> n8n webhook -> Telegram approval on your phone -> publish -> Telegram gives a one-tap X share link
 
 On every data change (pages.yml)
   public map dashboard on GitHub Pages

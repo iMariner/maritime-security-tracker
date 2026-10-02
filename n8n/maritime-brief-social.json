@@ -191,12 +191,14 @@
         1320,
         160
       ],
-      "continueOnFail": true
+      "continueOnFail": true,
+      "disabled": true,
+      "notes": "Off: the X API charges per post (about $0.20 with a link). The tweet is posted by hand from the 'Tap to post on X' link in the confirmation message."
     },
     {
       "parameters": {
         "chatId": "REPLACE_WITH_YOUR_TELEGRAM_CHAT_ID",
-        "text": "=Published on iMariners: {{ $('Social text').item.json.link }}",
+        "text": "=Published on iMariners: {{ $('Social text').item.json.link }}\n\nTap to post on X:\n{{ 'https://x.com/intent/post?text=' + encodeURIComponent($('Brief from GitHub').item.json.body.x_post) + '&url=' + encodeURIComponent($('Social text').item.json.link) }}\n\nOr copy this tweet:\n{{ $('Brief from GitHub').item.json.body.x_post }} {{ $('Social text').item.json.link }}",
         "additionalFields": {
           "disable_web_page_preview": true
         }
