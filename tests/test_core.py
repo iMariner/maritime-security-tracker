@@ -187,8 +187,9 @@ def test_brief_new_vs_update():
     old_event = dict(fresh, id="B", date_utc=iso(now_utc() - timedelta(days=20)))
     repeated = dict(fresh, id="C", published_in=["2026-10-01"], first_seen=iso(now_utc() - timedelta(days=2)))
     upgraded = dict(repeated, id="D", status="confirmed", status_changed_at=iso(now_utc()))
-    new, updated, corrections = select([fresh, old_event, repeated, upgraded], since)
-    assert [i["id"] for i in new] == ["A"] and [i["id"] for i in updated] == ["D"] and not corrections
+    rerun = dict(fresh, id="E", published_in=[now_utc().date().isoformat()])
+    new, updated, corrections = select([fresh, old_event, repeated, upgraded, rerun], since)
+    assert [i["id"] for i in new] == ["A", "E"] and [i["id"] for i in updated] == ["D"] and not corrections
 
 
 def test_region_override():

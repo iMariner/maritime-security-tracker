@@ -42,6 +42,7 @@ def select(incidents: list[dict], since) -> tuple[list[dict], list[dict], list[d
     include_naval = bool(cfg.get("include_naval"))
     regions_on = {r["name"] for r in cfg.get("regions", []) if r.get("enabled")}
     oldest_event = since - timedelta(days=6)
+    today = now_utc().date().isoformat()
     new, updated, corrections = [], [], []
     for inc in incidents:
         if inc.get("merged_into") or inc.get("region") not in regions_on or (
@@ -50,7 +51,8 @@ def select(incidents: list[dict], since) -> tuple[list[dict], list[dict], list[d
         first = parse_dt(inc.get("first_seen"))
         changed = parse_dt(inc.get("status_changed_at"))
         event = parse_dt(inc.get("date_utc")) or first
-        if inc.get("published_in"):
+        # A re-run on the same day rebuilds the same brief, so today's own publication does not count.
+        if [d for d in inc.get("published_in") or [] if d != today]:
             if changed and changed >= since:
                 (corrections if inc["status"] == "rejected" else updated if inc["status"] in PUBLISHED_STATUSES else []).append(inc)
         elif inc["status"] in PUBLISHED_STATUSES and first and first >= since and event and event >= oldest_event:
