@@ -51,7 +51,8 @@ def km(a_lat, a_lon, b_lat, b_lon) -> float:
 
 
 def _when(x: dict):
-    return parse_dt(x.get("date_utc")) or parse_dt((x.get("source") or {}).get("published_at")) or parse_dt(x.get("first_seen"))
+    return (parse_dt(x.get("date_utc")) or parse_dt((x.get("source") or {}).get("published_at"))
+            or parse_dt(x.get("_published")) or parse_dt(x.get("first_seen")))
 
 
 def _close_in_time(a, b, window) -> bool:
@@ -59,8 +60,10 @@ def _close_in_time(a, b, window) -> bool:
     return bool(ta and tb and abs(ta - tb) <= window)
 
 
-def find_match(report: dict, incidents: list[dict]) -> dict | None:
-    """Rule-based matching first; ask the AI only when an unnamed report has several possible matches."""
+def find_match(report: dict, incidents: list[dict], model_checked: bool = False) -> dict | None:
+    """Strong identifiers first (IMO, vessel name), then the extraction model's own `same_as` answer.
+    Position and an extra AI call are used only when the model has not already compared the report
+    against the known incidents (`model_checked`)."""
     imo = (report.get("imo") or "").strip()
     name = norm_name(report.get("vessel_name"))
     live = incidents  # rejected ones included, so a false report is not re-added as new
@@ -75,6 +78,12 @@ def find_match(report: dict, incidents: list[dict]) -> dict | None:
             if other and (other == name or SequenceMatcher(None, other, name).ratio() >= 0.85) and _close_in_time(report, inc, NAME_WINDOW):
                 return inc
         # A named report can still be the first named account of an earlier unnamed incident.
+    hinted = next((i for i in live if i["id"] == report.get("same_as")), None)
+    if hinted and not (name and hinted.get("vessel_name") and norm_name(hinted["vessel_name"]) != name) \
+            and not (imo and hinted.get("imo") and hinted["imo"] != imo):
+        return hinted
+    if model_checked:
+        return None
     candidates = [
         inc for inc in live
         if inc.get("region") == report.get("region") and _close_in_time(report, inc, UNNAMED_WINDOW)
@@ -135,13 +144,17 @@ def _new_id(incidents: list[dict], when) -> str:
     return f"INC-{day}-{n:03d}"
 
 
-def merge(report: dict, incidents: list[dict]) -> tuple[dict, bool]:
+def merge(report: dict, incidents: list[dict], model_checked: bool = False) -> tuple[dict, bool]:
     """Add one extracted report to the store. Returns (incident, is_new)."""
     source = report.pop("source")
+    report["_published"] = source.get("published_at")
     stamp = iso(now_utc())
-    match = find_match(report, incidents)
+    match = find_match(report, incidents, model_checked)
     if match is None:
         inc = {k: report.get(k) for k in ("region", "date_utc", "summary", "official_source_cited", "conflicting", "confidence") + MERGE_FIELDS}
+        if not parse_dt(inc.get("date_utc")) and parse_dt(source.get("published_at")):
+            # No date in the text: use the article's publish time and say it is approximate.
+            inc["date_utc"], inc["date_approx"] = source["published_at"], True
         inc.update(id=_new_id(incidents, _when(report)), sources=[source], first_seen=stamp, last_updated=stamp,
                    verification_issue=None, verdict=None, published_in=[])
         inc["summary"] = no_em_dash(inc.get("summary") or "")

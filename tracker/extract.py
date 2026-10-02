@@ -3,8 +3,10 @@ from __future__ import annotations
 
 import json
 
-from . import llm
-from .common import env, load_yaml, log, now_utc
+from datetime import timedelta
+
+from . import incidents as store, llm
+from .common import env, load_yaml, log, now_utc, parse_dt
 
 FIELDS = """{
   "region": one of REGIONS,
@@ -24,7 +26,9 @@ FIELDS = """{
   "summary": "2 sentences in plain English, facts only, attributing claims (e.g. 'Russia's defence ministry said ...')",
   "is_recap": true if the item only mentions an older attack in passing, otherwise false,
   "conflicting": true if the item disputes or contradicts another account, otherwise false,
-  "confidence": 0.0 to 1.0, how sure you are that a real attack on this vessel is being reported
+  "confidence": 0.0 to 1.0, how sure you are that a real attack on this vessel is being reported,
+  "same_as": "id of a KNOWN incident that this is the same real-world attack as, or null if it is a new one",
+  "event_key": "short label for the real-world event, identical for every report of the same attack in this request (e.g. 'kazimah-hormuz-0929')"
 }"""
 
 
@@ -43,6 +47,10 @@ Out of scope: strikes on ports or land with no vessel affected, general war news
 statements without a specific vessel incident, piracy outside these regions.
 
 Rules:
+- Many outlets report the same attack. Compare every incident with the KNOWN incidents given to you
+  (same region, vessel, date, location, attack). If it is the same attack, set "same_as" to that id.
+  Several items in one request that describe the same attack must share one "event_key".
+- A roundup that lists several earlier attacks describes each of them; date each one correctly.
 - Use only facts in the item. Never invent names, IMO numbers, dates or positions; use null.
 - Translate everything into English. Give vessel names in Latin letters.
 - One item can describe several incidents (several vessels); list each separately.
@@ -56,45 +64,67 @@ Each incident has these fields:
 {FIELDS.replace("REGIONS", json.dumps(regions))}"""
 
 
-def extract(items: list[dict]) -> tuple[list[dict], set, int]:
-    """Return (incident reports, ids of items the AI read, number of failed batches).
+def _known(incidents: list[dict]) -> list[dict]:
+    """Compact list of recent open incidents the model can match new reports against."""
+    cutoff = now_utc() - timedelta(days=4)
+    recent = [i for i in incidents if i.get("status") != "rejected"
+              and (parse_dt(i.get("date_utc")) or parse_dt(i.get("first_seen")) or now_utc()) >= cutoff]
+    recent.sort(key=lambda i: i.get("last_updated") or "", reverse=True)
+    return [{"id": i["id"], "region": i.get("region"), "date": (i.get("date_utc") or "")[:10],
+             "vessel": i.get("vessel_name"), "type": i.get("vessel_type"), "attack": i.get("attack_type"),
+             "where": i.get("location_text"), "summary": (i.get("summary") or "")[:160]} for i in recent[:40]]
 
-    Each report has the item it came from attached as `source`. A failed batch is skipped so the
-    rest still count; its items stay unread and are retried on the next run.
+
+def extract(items: list[dict], incidents: list[dict]) -> tuple[int, int, set, int]:
+    """Read items with the AI and merge what it finds into `incidents`, one batch at a time,
+    so each batch is matched against everything found before it.
+
+    Returns (new incidents, merged reports, ids of items the AI read, failed batches).
+    A failed batch is skipped; its items stay unread and are retried on the next run.
     """
     # GitHub Models' free tier caps each request at about 8k input tokens, so send less per call there.
     batch_size, max_chars = (4, 1500) if llm.free_tier_only() else (8, 3000)
     batch_size = int(env("EXTRACT_BATCH_SIZE") or batch_size)
     system = _system_prompt()
     by_id = {it["id"]: it for it in items}
-    results, done, failed = [], set(), 0
+    new = merged = failed = 0
+    done: set = set()
+    events: dict = {}  # event_key -> incident id, for reports of one event within this run
+    total = (len(items) + batch_size - 1) // batch_size
     for i in range(0, len(items), batch_size):
         batch = items[i : i + batch_size]
-        payload = [
-            {"item_id": it["id"], "source": it["source"], "published_at": it["published_at"],
-             "title": it["title"], "text": it["text"][:max_chars]}
-            for it in batch
-        ]
+        payload = {
+            "known_incidents": _known(incidents),
+            "items": [{"item_id": it["id"], "source": it["source"], "published_at": it["published_at"],
+                       "title": it["title"], "text": it["text"][:max_chars]} for it in batch],
+        }
         try:
-            data = llm.chat_json(system, json.dumps({"items": payload}, ensure_ascii=False), max_tokens=8000)
+            data = llm.chat_json(system, json.dumps(payload, ensure_ascii=False), max_tokens=8000)
         except RuntimeError as exc:
             failed += 1
-            log.warning("Extract: batch %d skipped, will retry next run: %s", i // batch_size + 1, str(exc)[:300])
+            log.warning("Extract: batch %d/%d skipped, will retry next run: %s", i // batch_size + 1, total, str(exc)[:300])
             continue
         done.update(it["id"] for it in batch)
         for entry in data.get("items", []):
             src = by_id.get(entry.get("item_id"))
             if not src:
                 continue
-            for inc in entry.get("incidents") or []:
-                if inc.get("is_recap"):
+            for rep in entry.get("incidents") or []:
+                if rep.get("is_recap"):
                     continue
-                inc["source"] = {
+                rep["source"] = {
                     "url": src["url"], "source": src["source"], "source_type": src["source_type"],
                     "side": src["side"], "kind": src["kind"], "published_at": src["published_at"],
                     "title": src.get("title") or None,
                 }
-                results.append(inc)
-        log.info("Extract: batch %d/%d done", i // batch_size + 1, (len(items) + batch_size - 1) // batch_size)
-    log.info("Extract: %d incident reports from %d items read (%d batches failed)", len(results), len(done), failed)
-    return results, done, failed
+                key = (rep.get("event_key") or "").strip().lower()
+                if not rep.get("same_as") and key in events:
+                    rep["same_as"] = events[key]
+                inc, is_new = store.merge(rep, incidents, model_checked=True)
+                if key:
+                    events[key] = inc["id"]
+                new += is_new
+                merged += not is_new
+        log.info("Extract: batch %d/%d done", i // batch_size + 1, total)
+    log.info("Extract: %d new incidents, %d reports merged, %d items read, %d batches failed", new, merged, len(done), failed)
+    return new, merged, done, failed

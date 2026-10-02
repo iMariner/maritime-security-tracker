@@ -55,13 +55,8 @@ def main() -> None:
     ai_failed = False
     if candidates and candidates_ready and llm.available():
         batch = candidates[:max_items]
-        reports, processed, failed = extract(batch)
+        new, updated, processed, failed = extract(batch, incidents)
         ai_failed = failed > 0 and not processed  # every batch failed
-        new = updated = 0
-        for rep in reports:
-            _, is_new = store.merge(rep, incidents)
-            new += is_new
-            updated += not is_new
         log.info("Incidents: %d new, %d reports merged into existing", new, updated)
         # Non-candidates are marked seen right away; candidates only once the AI has read them.
         for it in fresh:

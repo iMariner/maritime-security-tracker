@@ -77,3 +77,20 @@ def test_brief_selection_and_html():
 
 def test_no_em_dash():
     assert no_em_dash("Tanker hit — crew safe") == "Tanker hit, crew safe"
+
+
+def test_model_same_as_hint_merges():
+    incs = []
+    a, _ = store.merge(report(region="Strait of Hormuz", vessel_type="tanker"), incs, model_checked=True)
+    b, new = store.merge(report(region="Strait of Hormuz", same_as=a["id"], source=src("https://n/2", side="neutral", kind="media", source="gCaptain")), incs, model_checked=True)
+    assert not new and b is a and len(incs) == 1
+    _, new = store.merge(report(region="Strait of Hormuz", source=src("https://n/3")), incs, model_checked=True)
+    assert new  # model said it is a different attack
+
+
+def test_undated_reports_match_by_publish_time():
+    incs = []
+    store.merge(report(date_utc=None, lat=26.5, lon=56.3, region="Strait of Hormuz"), incs)
+    assert incs[0]["date_utc"] == "2026-10-01T10:00:00Z" and incs[0]["date_approx"]
+    store.merge(report(date_utc=None, lat=26.55, lon=56.35, region="Strait of Hormuz", source=src("https://n/9", side="neutral", kind="media", source="ASTRA")), incs)
+    assert len(incs) == 1
