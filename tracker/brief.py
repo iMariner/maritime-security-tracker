@@ -375,7 +375,8 @@ def write_preview_page(brief: dict, image_url: str) -> str:
             + f"<h1>{html.escape(brief['title'])}</h1><p class=\"ex\">{html.escape(brief['excerpt'])}</p>{brief['html']}"
             f'<h2>Tweet</h2><div class="tw">{html.escape(brief["x_post"])} [link]</div></body></html>')
     (BRIEFS_DIR / f"{brief['date']}.html").write_text(page, encoding="utf-8")
-    return f"{PAGES_URL}/preview/{brief['date']}.html"
+    version = re.sub(r"\D", "", brief["generated_at"])[-6:]  # new link each rebuild, so no cached copy is shown
+    return f"{PAGES_URL}/preview/{brief['date']}.html?v={version}"
 
 
 def notify_n8n(record: dict) -> None:
