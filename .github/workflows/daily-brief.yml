@@ -16,6 +16,7 @@ on:
 
 permissions:
   contents: write
+  issues: write     # the fresh collection may open verification issues
   actions: write   # start the Pages deploy for the draft preview
   models: read
 
@@ -26,15 +27,45 @@ concurrency:
 jobs:
   brief:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: pip
+      - name: Skip if today's brief already exists
+        id: guard
+        # GitHub can start a scheduled run late or twice; a manual run always goes ahead.
+        run: |
+          f="data/briefs/$(date -u +%Y-%m-%d).json"
+          if [ "${{ github.event_name }}" = "schedule" ] && [ -f "$f" ]; then
+            echo "Today's brief already exists ($f); nothing to do."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
       - run: pip install -r requirements.txt
+        if: steps.guard.outputs.skip != 'true'
+      - name: Apply pending verdicts
+        # the scheduled collection can lag by hours, so the brief collects fresh data itself
+        if: steps.guard.outputs.skip != 'true' && !inputs.preview
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VERIFIERS: ${{ vars.VERIFIERS }}
+        run: python -m tracker.apply_verdict
+      - name: Collect, extract, match
+        if: steps.guard.outputs.skip != 'true' && !inputs.preview
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          LLM_MODEL_FAST: ${{ vars.LLM_MODEL_FAST }}
+          FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MAX_LLM_ITEMS_PER_RUN: ${{ vars.MAX_LLM_ITEMS_PER_RUN }}
+          EXTRACT_BATCH_SIZE: ${{ vars.EXTRACT_BATCH_SIZE }}
+          LLM_MIN_ITEMS: ${{ vars.LLM_MIN_ITEMS }}
+        run: python -m tracker.run_pipeline
       - name: Build and publish
+        if: steps.guard.outputs.skip != 'true'
         env:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
@@ -53,11 +84,12 @@ jobs:
           NOTIFY_LATER: "1"
         run: python -m tracker.brief ${{ inputs.preview && '--preview' || '' }}
       - uses: actions/upload-artifact@v4
+        if: steps.guard.outputs.skip != 'true'
         with:
           name: brief
           path: out/
       - name: Commit data
-        if: ${{ !inputs.preview }}
+        if: steps.guard.outputs.skip != 'true' && !inputs.preview
         run: |
           git config user.name "tracker-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -67,7 +99,7 @@ jobs:
           git pull --rebase
           git push
       - name: Put the draft preview online
-        if: ${{ !inputs.preview }}
+        if: steps.guard.outputs.skip != 'true' && !inputs.preview
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -81,7 +113,7 @@ jobs:
           done
           echo "Preview not online after 5 minutes; sending the approval message anyway"
       - name: Send to n8n for approval
-        if: ${{ !inputs.preview && inputs.notify != false }}
+        if: steps.guard.outputs.skip != 'true' && !inputs.preview && inputs.notify != false
         env:
           N8N_WEBHOOK_URL: ${{ secrets.N8N_WEBHOOK_URL }}
           N8N_WEBHOOK_TOKEN: ${{ secrets.N8N_WEBHOOK_TOKEN }}
