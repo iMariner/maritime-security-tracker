@@ -7,8 +7,8 @@
     "conflicting": false,
     "confidence": 0.5,
     "vessel_name": "GOLDEN LEO",
-    "imo": null,
-    "flag": null,
+    "imo": "9181833",
+    "flag": "Guinea-Bissau",
     "vessel_type": null,
     "vessel_category": "merchant",
     "lat": 43.4,
@@ -30,15 +30,58 @@
         "kind": "media",
         "published_at": "2026-10-02T04:59:04Z",
         "title": "EAM Jaishankar raises safety of Indian seafarers with Russian FM Lavrov after MV Golden Leo attack - DD News"
+      },
+      {
+        "url": "https://www.seatrade-maritime.com/security/golden-leo-sinks-after-deadly-russian-missile-strike",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-03T04:33:51Z",
+        "title": null
+      },
+      {
+        "url": "https://www.reuters.com/world/vessel-sinks-week-after-being-struck-by-russian-fire-ukrainian-officials-say-2026-07-26",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-03T04:33:51Z",
+        "title": null
+      },
+      {
+        "url": "https://ddnews.gov.in/en/eam-jaishankar-raises-safety-of-indian-seafarers-with-russian-fm-lavrov-after-mv-golden-leo-attack",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-03T04:33:51Z",
+        "title": null
+      },
+      {
+        "url": "https://www.vesselfinder.com/vessels/details/9181833",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-03T04:33:51Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-02T20:41:40Z",
-    "last_updated": "2026-10-02T20:41:40Z",
+    "last_updated": "2026-10-03T04:33:51Z",
     "verification_issue": 29,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-03T04:33:51Z",
+      "note": "The cited DD News item is from July 2026 about the 19 July missile attack on the Golden Leo near Odesa, which sank on 26 July, so this is the July Black Sea incident mis-dated to 2 October, not a new attack.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/29#issuecomment-5965559723"
+    },
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-10-03T04:33:51Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -582,7 +625,7 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.4,
-    "vessel_name": null,
+    "vessel_name": "NCC MASA",
     "imo": null,
     "flag": "Saudi Arabia",
     "vessel_type": null,
@@ -605,15 +648,40 @@
         "kind": "media",
         "published_at": "2026-10-02T08:08:22Z",
         "title": "عربية وعالمية - استهداف سفينة سعودية اثناء إبحارها في البحر الأحمر - صحيفة الوطن العدنية"
+      },
+      {
+        "url": "https://al-wattan.net/news/307218",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-03T04:33:53Z",
+        "title": null
+      },
+      {
+        "url": "https://www.spa.gov.sa/en/N2640930",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-03T04:33:53Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-02T20:41:40Z",
-    "last_updated": "2026-10-02T20:41:40Z",
+    "last_updated": "2026-10-03T04:33:53Z",
     "verification_issue": 28,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-03T04:33:53Z",
+      "note": "The cited Al-Watan article is dated 24 July 2026 and reports the attack on the Saudi vessel NCC MASA in the Red Sea that day, so this record is that July incident mis-dated to 2 October with no new attack.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/28#issuecomment-5965559600"
+    },
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-10-03T04:33:53Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -859,15 +927,40 @@
         "kind": "media",
         "published_at": "2026-10-02T08:47:55Z",
         "title": "BAE'ye ait üç tanker Hürmüz Boğazı'nda saldırıya uğradı - Batman Rehber Gazetesi"
+      },
+      {
+        "url": "https://batmanrehbergazetesi.com/baeye-ait-uc-tanker-hurmuz-bogazinda-saldiriya-ugradi",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-03T04:33:50Z",
+        "title": null
+      },
+      {
+        "url": "https://en.mehrnews.com/news/248240/3-UAE-owned-tankers-hit-after-breaching-Hormuz-rules",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-03T04:33:50Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-03T00:27:23Z",
-    "last_updated": "2026-10-03T00:27:23Z",
+    "last_updated": "2026-10-03T04:33:50Z",
     "verification_issue": 30,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-03T04:33:50Z",
+      "note": "The cited Turkish report restates Iran's PGSA statement about the 28-29 September attacks on the UAE-linked tankers Al Ruwais, Sinbad and Mersin Prosperity, which the tracker already records on those dates, so this is a mis-dated duplicate with no new attack on 2 October.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/30#issuecomment-5965559813"
+    },
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-10-03T04:33:50Z"
   },
   {
     "region": "Strait of Hormuz",
