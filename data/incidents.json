@@ -356,10 +356,28 @@
         "kind": "media",
         "published_at": "2026-10-01T05:30:00Z",
         "title": "Russia says it struck vessel used to transport military cargo at Ukraine's Chornomorsk port - Devdiscourse"
+      },
+      {
+        "url": "https://t.me/rian_ru/347312",
+        "source": "RIA Novosti",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-03T05:29:02+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/67891",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-03T05:27:58+00:00",
+        "title": null
       }
     ],
     "first_seen": "2026-10-02T14:00:03Z",
-    "last_updated": "2026-10-03T05:02:03Z",
+    "last_updated": "2026-10-03T05:43:35Z",
     "verification_issue": 24,
     "verdict": {
       "status": "claimed",
@@ -971,6 +989,47 @@
     "status": "rejected",
     "position_approx": true,
     "status_changed_at": "2026-10-03T04:33:50Z"
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-02",
+    "summary": "UKMTO reported that two crude oil tankers were struck near the Strait of Hormuz and off Oman. No vessel names, flags, damage or attacker details were given.",
+    "official_source_cited": "UKMTO",
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "near the Strait of Hormuz",
+    "attack_type": "explosion (cause unknown)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261002-016",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5PNVB2djB2RDE2Mjh1YXhGSW1NMkJCNldjWk5SalQ1MkZrWEtVcGMzUmoxZExaMlVBZHNwajItbnpQWFJYakV1a3hZVF9JZURwaXU0Tm9pdGg5Rl8yMWU5eTBQMF85ak04YnFaeTNUMWNFdw?oc=5",
+        "source": "businesstimes-bd.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T05:02:48Z",
+        "title": "Two Crude Oil Tankers Struck Near Strait of Hormuz and Oman, UKMTO Reports - businesstimes-bd.com"
+      }
+    ],
+    "first_seen": "2026-10-03T05:43:35Z",
+    "last_updated": "2026-10-03T05:43:38Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261002-001",
+    "position_approx": true
   },
   {
     "region": "Strait of Hormuz",
@@ -1615,10 +1674,64 @@
         "kind": "media",
         "published_at": "2026-10-02T16:52:11Z",
         "title": "Shafaq News..Unknown projectile strikes tanker in Hormuz - شفق نيوز"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8zTEppSk83WktWN2ZnMkVJTVY2ZUFzdW1oWGptaHpvZXhwZGpBZlhGajFoM1B0eGZDblNjS2N2UXNWTnFSQ21iOVBleWVhNmRITlNYanh2aC14dXdXandKNGNwZw?oc=5",
+        "source": "Rudaw",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T05:32:22Z",
+        "title": "Crude oil tanker struck by projectile off Oman amid heightened maritime threats - Rudaw"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOT3Z5aGpjNUJCMUlONkhlZjRfdDc5aFVOZVJPUGRZSjJjSmtwNFp5cS1Vc2xsM3BTVW1Kekk4bUFURk5nT1pPbFRMelhEUFlqV3dxdl8ya1VxV3ppRUhwWXpONXZEUGFEN3pxaVVkckZFbXlkRUpKYjJDTXBvbG5iMnZsQTVQakViM2lCS0tQOXFrOF9oZ2h1X3lJaEVZcEt3MV9VUFF2VlU3VDB0WlJXY0VOWmFzNDFLSmN3aU0wcWl1ZVh1UF9seWE0R1EzS0lp0gHWAUFVX3lxTE1vV0lkdWlvNzFLVGo0Q19rcDlSRUxjdTViR1BCUzgxckRwc2ZSeDMyVHRMZnBtSUxTbTdxWlMtSDVoOWQ2NkdqaGdQQmp1ZUt5Rk82QXotSHZUWWQ1enJIQm5XSzlBSzhzaUFBWlVLRWtOb21xXzdBVmFnRkJwWmJMdlc5NEhLVlVPUTZocWR2MC1YLW56dVVuejA3MVg3Ym42QnBpcy12N2MyMjZxWExmcHNIa3diTDdfNnpMS3BtMFRyLTl6emNjYjJqcFh0TUVOaENVTHc?oc=5",
+        "source": "Telegraph India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T05:22:12Z",
+        "title": "Five Indians rescued after Kuwait-flagged tanker hit by projectile in Strait of Hormuz - Telegraph India"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUE9XRFI5U3J1U25VQUlxSnFXeC1XOW8zNV8xX24zLTN3MjdYNFFUcXh0NTJBX2hfYmxndS1icFhLeHpRVEp1cmJOR05vcGNxUW1UUU9BNEZ6QWk0ckx0QjNBWFpDSjNkTVpiRUFrQURtREFNQnJfN29fY0JPMFVCbzh0Q0s0U05SazBRWGRwQjR1QdIBlwFBVV95cUxQTkplRkotSzNMZW8yaDY1OVpMWW9kMmtxMURhNlBmaWJHdEN0N3FqTmVGd3I0Z1doVTBBN2g5M2FBMHpXSmx3VDFKWWJmNElVUV9BNFlJVjF3M1BodGMxNERLZ2tIdzNXUC0zMnFrVTkyM0tBeGlOVlUzS0lCZ0RHZ2VfYnA1YWRGbUdDWURPVTV2Z2U4bzhR?oc=5",
+        "source": "The Siasat Daily",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T05:17:25Z",
+        "title": "Kuwait-flagged tanker hit in Hormuz, five Indians rescued - The Siasat Daily"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNU2RzcFlPczRlOVhYTzNBcmtRTVpPb1lJc3BwVGVVWk9nOHdjNG1WVVV2aW13UHJSQTR1RTlXR2FhRUoybU1uMXotRS11dG1mVDFtOHItNUw3T2R5TTR3VkhCcWx2V0V1a0ZHeFJldHE2dDBEQ0oxMXJUY3U2WUREUDNYLXJrUFlkWmNucUw0RDRob2RWN3pmQ3g2Z1JFTUFMZDViVTVMaUNmZkNJZVNrMDJhbkJKX2V6dE9LOFV4YXFnSFV5cG8zN3hsVTRjd9IB0wFBVV95cUxQWGVkZnZmM0ZmV3MwOTJKcmxaU05ZLUhUMnhUanRZSmJ3QmlRbUpISjNGR3VwNG9IbnVYcm1GeG9BMWdNYjM4eDlqa0RvWHN6ZEVJZGtTeElWWTNaWTlDX1N6dTVEWE1Rbmd6dDdCNjg3MEIyeF9UdXNWUlZRVUJpOHF2V3dPbmlBeFhIeGctbEtsS1BlWGhvLWJFdExOeUtjYVFlcUhYMXBDNmxSb1dCTkFBT2NRZ3pHZkNGTDZRZzFFTnlLMnZ6WU81UkdFLUxhWURZ?oc=5",
+        "source": "Mid-Day",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T04:24:00Z",
+        "title": "Crude oil tanker hit by unknown projectile off Oman, crew reported safe - Mid-Day"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxObVhHNjQwbDk5RE5BeFVkUThOMHVVeENUSmVyS3J5YXEtN0lGTEQzWmhhTWhyTUN4cWlPWDJNLWszcHpibGJuODNOUEpGTnRrblphQ2pwOWZycnlYaGVUZVJnWXV6bTRqMDF0TEowRmd6VWoyWDR5NEpRV0E1NmdtLW5MbzI5YXJXc0JhbmJkTE5WR0o2RFNBM2hNMU5hQXJ3WGlCYUN2Y2NHb1B1NEFyTDh3d19vaXBlMzZrS2VkeVFfU2RZenJIU0FwNXlhR09ONk4td2VNeDg5WE4yeTRMX1h3RWg5elQzcjE5X19NRmFiTWo0VlFCclR5dkI1NFNlTmMyellLRHlGeTBvd1p0VzIxOGl5TDdHY3RiTVZhRnhTNlprZUM0eGVRV3IwajlidHVVVEhFZFBiMHhhMkVVZNIBxgJBVV95cUxNSXEtTWRNU19fRXN6RDA2TC1RSE5UbTJvUmNuanotSDV2VFZnemZvR2hBb3VUUzlQZkIwM2FLY0FPUnd3VENkV05aNTZtTEFYUkx1SlFPdm9SdW5TQ2R4N3d5OVhTQVgtZlZpdUYyV1BCTUNTRDQyekI4RmVGY3N4ZXUyVXhYdUdqbGk2cHRLN2JQbEEwLU4xWE1yUUhMNGh2dmpEQkI5VWNqOHpFNjJLeUFnYXk4cURRdjhZUkgyTUx1cmFOY3Fud2M2Vmw2cXU1U0N4TkNXUjRwbUFQTnFRek5UamZuSF9yVktWdzhhR3dhSl83Mlg5RjI4WXMyUENBZFVyOFRDb1otRmxPaUZFZVhsTGlVcWtwbTkwMk5BTUQ2RUJMb0V3Q0FkSDgybVN2aXhxa1F0YWNtR1pMZGhOVk4zc3dSdw?oc=5",
+        "source": "ET Now",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T02:16:46Z",
+        "title": "Iran-US war news: 5 Indians rescued after Kuwait-flagged tanker hit by projectile in Hormuz; Trump warns Iran with fresh strikes if linked to Flydubai attack - 10 KEY updates - ET Now"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5PNVB2djB2RDE2Mjh1YXhGSW1NMkJCNldjWk5SalQ1MkZrWEtVcGMzUmoxZExaMlVBZHNwajItbnpQWFJYakV1a3hZVF9JZURwaXU0Tm9pdGg5Rl8yMWU5eTBQMF85ak04YnFaeTNUMWNFdw?oc=5",
+        "source": "businesstimes-bd.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T05:02:48Z",
+        "title": "Two Crude Oil Tankers Struck Near Strait of Hormuz and Oman, UKMTO Reports - businesstimes-bd.com"
       }
     ],
     "first_seen": "2026-10-02T13:59:47Z",
-    "last_updated": "2026-10-03T05:02:03Z",
+    "last_updated": "2026-10-03T05:43:38Z",
     "verification_issue": 26,
     "verdict": {
       "status": "confirmed",
