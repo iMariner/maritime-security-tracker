@@ -2,10 +2,10 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-10-03",
-    "summary": "Russia attacked a civilian vessel under the Liberian flag in the Odesa region, according to Espreso. One person was killed and others were injured.",
+    "summary": "Russian forces struck a Liberian-flagged civilian cargo vessel in a port in Odesa region on 3 October, according to the Ukrainian Sea Ports Administration. One motorman was killed, three crew were injured and 13 were evacuated; ZN.ua reported the strike was carried out by a kamikaze drone.",
     "official_source_cited": "АМПУ (Ukrainian Sea Ports Authority)",
     "conflicting": false,
-    "confidence": 0.85,
+    "confidence": 0.9,
     "vessel_name": null,
     "imo": null,
     "flag": "Liberia",
@@ -15,7 +15,7 @@
     "lon": 30.74,
     "location_text": "Odesa region, Ukraine",
     "attack_type": "other",
-    "damage": null,
+    "damage": "civilian cargo vessel struck",
     "casualties": "one killed and several injured",
     "attribution_claimed": "Russia",
     "independent_evidence": true,
@@ -146,10 +146,244 @@
         "kind": "local",
         "published_at": "2026-10-03T10:27:06+00:00",
         "title": null
+      },
+      {
+        "url": "https://t.me/astrapress/127041",
+        "source": "ASTRA",
+        "source_type": "telegram",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-03T15:12:01+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/67904",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-03T14:33:00+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVXlnYzk4ZGRpY0JFQ2J0TXpsWkgyU25qWFRSR3RpQ1RUb3A2THVfTVhuQXNiSzlmYWM4Ym5HSXkyd21ibmVlaUpnMFRCY0NGMUlWYWxtOTRrSGhEb2dVT3MwdE5YMldXNWN1NEc3M0RSd1RETkp6bHFJVktaZWxPX0lFZXlBdWJPeEswMU5LaElyZFRyaVJWd3EwcXdnNkZnR1k1QnVLRmlZUWtOb2pWY19nY3Mwb21G0gG-AUFVX3lxTFBGNFk2OWxJbVkyNDVPRzhFdVBHWS03NmhpY0p2UDNrdXNwSEdjNmczYTVJdWxlTHR6TE56RnhpUkxOUk4tNjhQYjUzTE5IdlEwOEV4UjVqZl9TcFUxemZycnQ4TjM3MTdlNDVJSzk5cFIwQ3RjM2NIcmxIV0Q0NC02Tk10MktadktfdnRoOUJQbFo2MDlVcDlhQVBFOHVGNzJoZmpCNnRSV09zS2FvX0h1b0J2bFU3b1Q1UWlJSkE?oc=5",
+        "source": "Одеське життя",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T13:18:34Z",
+        "title": "Росія знову вдарила по цивільному судну в порту Одеської області: загинув моряк - Одеське життя"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTVJtZDVQbUxFVmpOejdzTGp4ajZkQ0FNZ0NlaS1vTnZudS1OUWk5VU1fMmVvMXZZSkFpNGFvRjZTWFVLMVoxcFlVSHo0ekVQVmRwYVNUcGoxd3JXbjdrY0hlSWNYRXJzY2QwYm14aWdCTTdyYVhYdlNXS0tFQ1A5QlpISHlWcnl6eHFNaUZCNjZFRXNBdmN5TUxFVjFHcjdoWU02UkVqM040dWU4YzF4Z3lPal82UHMxXzlWcS1HNHV6dHJWbzltVUsyb25KcHI3el9Rc1NJREF1QzF6MzdDeDBFampNQQ?oc=5",
+        "source": "hotnews.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T13:08:36Z",
+        "title": "O navă comercială sub pavilion liberian, atacată de ruși într-un port din regiunea Odesa. Un membru al echipajului a fost ucis - hotnews.ro"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbGpqN0hKS2owaUpnVlREOWp6a2Z4VmJnY2ZRa1l6Zm1vX0RHNEIxWl93RmhWY2RlM2pIdTExTDNEdDF5QjVsNkZwOHdVREpDdHZSU2FvTmlQQllBQzJjSnZDT1U1azVZeFcyc3BMek45b3NLUzZwWmc5b282QmxjRQ?oc=5",
+        "source": "mezha.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T13:07:32Z",
+        "title": "Russian forces attack Liberian-flagged cargo ship in Odesa region, killing one sailor and wounding three - mezha.net"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTm52T3hrYlRFZUExOW9EMWFsNXkybHFPQWdvV1ZsUDFaME5BMnZxLWlTZm9FY2JHTDNzY2Q4eDhhYjRFNnYzOVMxY0JqcUFqNGl3bHVDbFRmTUxFVmtiT0l6emtxck83VXVjaXNGSUhQdUVzT3V0NmZZVzdNN1RWR1FfeVZJN00tVE5zNnlhZUxxT0ZfZkFIM2hyVmxzdnVHYUxOQUJDYllZdnNwaFdmZw?oc=5",
+        "source": "Anadolu Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T13:05:50Z",
+        "title": "1 dead in ship strike, another Kyiv bridge hit as Russia, Ukraine trade attacks - Anadolu Ajansı"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPem5uYURHNy1YLVlMUGZpZ3ZNb2M2aG1JUWRUT3c2LVBUVURFdjJSLVVjSWJJd3duQXhFYzJERkYzVkhUTlRNYmo4VDJRRUZMNDVia1J0U1FFbXpFZFFabUdZU3lOc0dVYlkwNmNqQUhOZ2daTjVTbnNQMV94VndkaEt5dWs3TWVPUTRoV3M3TklicVM0MEhWT0VqLV80OVR2M05BT1Jldy1OZU9SS1k4RHRIbHJieDg?oc=5",
+        "source": "Anadolu Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T13:05:10Z",
+        "title": "1 dead in ship strike, another Kyiv bridge hit as Russia, Ukraine trade attacks - Anadolu Ajansı"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcGFsZlJKeU9TMzlWT3RjNVZRTWVLVzUzdWpZUWtyOUdxWGlHYzkzUTQ2dkY4dzdBMnVpZ0hxeXF6NTRmMGhmckJ4OVdxTXdNbmtjWkdKblJWcFZZcUVOTmY2M1A4MXlvNHBvdGZtc1JBUWpxLW1PV2VzNUVmSmloMHRNQjNBNjlyc2FUNlJIMjEzVW9QaVdPbEE2Z2NmNDJyeDRna1VIVXhmR1pmRzRzbkZrUjRpVjNfeGtQeV9Sc0xyOTFWSGfSAcsBQVVfeXFMUGYxaWN5cXc4aDMxQWdFNjdXa2p6ZDdMdXpyU3c0eTF4RXZxSFFOMV9OTGdmVVkxNnBPMmdVWkltSDVTTFdlRk1ZOXNsNDNVYXE5VjhfQTZTd1RKTjliWUVMV0tBLXdFMFRmS3lEdndGZldUeWg4ZldXUTc4UjJxaUhtenBaNUNqRDJXWmNtUXNqR2F1bnVxMVlhSFdZc3B2ZjBNempZcjNBcnhnUXlnYmlRN1lxRGZwWmV6cHpoZE1MWjl5WXEwRURsaDg?oc=5",
+        "source": "inkorr.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T12:48:38Z",
+        "title": "Russian Forces Strike Liberian-Flagged Civilian Vessel in Odessa Region, Killing Sailor - inkorr.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaGQ5ekRxR0lWbjNpOUQ5NE1DTkhQdWJDUzdYeW5YUnJCYW5wSTZhaTVkMXk3V3JMTXhRbndCMmo0V1ZzV2E3dVBBQkh5bXNjOVNhQXl6QUg0MU1YaHo5X0JFd0RVR0RyY3pLV3B5akdXTXZIUjIwZWlVNUNWTVRUNENBVTJrQUdUUnBvVC1UdnBCeEEtR3Y0elhaeVdtVXhyaHd3bHBXeTh1bkdGMFhyUUZfS29Yc2tF0gG4AUFVX3lxTE9oZDl6RHFHSVZuM2k5RDk0TUNOSFB1YkNTN1h5blhSckJhbnBJNmFpNWQxeTdXckxNeFFud0IyajRXVnNXYTd1UEFCSHltc2M5U2FBeXpBSDQxTVhoejlfQkV3RFVHRHJjektXcHlqR1dNdkhSMjBlaVU1Q1ZNVFQ0Q0FVMmtBR1RScG9ULVR2cEJ4QS1HdjR6WFp5V21VeHJod3dscFd5OHVuR0YwWHJRRl9Lb1hza0U?oc=5",
+        "source": "Inshorts",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T12:45:17Z",
+        "title": "Russia attacks Liberian-flagged ship in Ukraine's Odesa port, 1 killed | Russia had attacked Somali-flagged boat in Sept | Inshorts - Inshorts"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZ3RnWk5oLVJ1ZHBKa0gyOXZWWFkzaTBEaXpvVUxmWWpFWFpHb2JJUkxNYjlPbWx5cUpBS2lvTUJGY0h5dE1CMXU2UEludkNsUkRsbGliR1ctbDhQSjZyNEZEX054OUEzcHdvQ01lYmZxc0xGUmV2Rm5SUlNnbDFQbWRqbFNEM2pzeDBob0JwWXhELUFOOFZTSDUwLU5IMFJpQ3dZTDhURE8wVm5lSW1KTk1uUUlJampLbGgzM2hqbTRaaUdhbzBQODgwaVVSb0Q5TTUwSjNqdXVPQ21KVzZr0gHkAUFVX3lxTE05YS14WVhCbU1rSGRzTGVVYzlqNDVKOEdOT21lNmh0UzlXVnBiN2RvdjVVVjA4MHREMlpHZkJzdFQ0aHBhSnNYOWZEQ1J6LXJLMkpiTEVzam1tdzVoZUZ4eFZuWXNrMmJnZ3JISmFZVjFoOFMySXNyYlFzdGh1Vl8wcmNwMDliNl9TNXNBNzM4b2E1LUpsaC0zQnczdmswbnZ0bVdoa3FmZWVYUlFPV3o5aHBfLUxCNnJIV2xZdjdtSFFMVFA1NjVxYWdvTkxjazVuNE9rSUZhSS14Rzh2NnZZOHZOVQ?oc=5",
+        "source": "ukrinform.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T12:43:00Z",
+        "title": "Russian forces attack civilian vessel in Odesa region port, killing one and injuring three others - ukrinform.net"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOamZfUTVJNlJhVzlOMDBxVUZHUlNhV3MxZEdFaEJuclAxNGE3X1lRN2xnM2dySnF0LXg1Mko4RjQ1QnBYclVaSFl2NVhKZFBkVEpCTjdKSXZiRW1vajhnMHg0eU9uTGs0SEctdEVlT1RCdC1Zb1JGVHpIc3lmcGZScDk2WnQxSmZBeDRMR09pS1JwbE5OWTI1Z0lRc0JWTlJhQ3FzVHhkbFVhUUU3ZW1Wck5PWDJ3ZHc?oc=5",
+        "source": "АНТИКОР",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T12:35:56Z",
+        "title": "Civilian vessel attacked in Odesa port: crew member killed, three injured • ANTIKOR portal - АНТИКОР"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQa21rLXRoemdjOEVxTDNvRXlmT2FLRFB4X2xCTmtwRDJvMjFBRE5aemNVU25SdUlwUDJ6clFValE1aDRlell6UlJTUWgyZFduLTE4ZDJIeXhrOU81V0VKVlBIUkVfTUUtaHFuY0NDMkxRVmtRU054V1ZBUFBDOWlCN1JfSThpYnlUZHZITUM0d1A2OFpTeGlVOEZpdEZWdEkxNlBPUDlXbWhMdWVZaEk3VUJxdWZaVWpTRWMweFpVY9IBvwFBVV95cUxQa21rLXRoemdjOEVxTDNvRXlmT2FLRFB4X2xCTmtwRDJvMjFBRE5aemNVU25SdUlwUDJ6clFValE1aDRlell6UlJTUWgyZFduLTE4ZDJIeXhrOU81V0VKVlBIUkVfTUUtaHFuY0NDMkxRVmtRU054V1ZBUFBDOWlCN1JfSThpYnlUZHZITUM0d1A2OFpTeGlVOEZpdEZWdEkxNlBPUDlXbWhMdWVZaEk3VUJxdWZaVWpTRWMweFpVYw?oc=5",
+        "source": "From-UA",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T12:25:08Z",
+        "title": "Один загиблий, троє поранених: Росія атакувала вантажне судно під прапором Ліберії - From-UA"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeGVRMUl5WC1XYkxqcFVJbTBBcWN4OXBYVlJOcTFtU0pZZHZSbnkwOE1jYldQcEw3cmZzXzF3aVdCbnBPSkFvRUVoVUU0R1NTSXlqT2ZTaWI2U1hZSENIZW54YlhNUGFBRFhpZF9tWWFOYUk3b0oybjg2MFk1Mnpub3dTTkk5OTM3Vnlzc1cyZm12LUpSaU5CTm1ZaTVYWlJyNUtCNlYyVzRCR2MzWGQwUmV0UTBPbEZHeU1NUV8xd9IBvwFBVV95cUxNeGVRMUl5WC1XYkxqcFVJbTBBcWN4OXBYVlJOcTFtU0pZZHZSbnkwOE1jYldQcEw3cmZzXzF3aVdCbnBPSkFvRUVoVUU0R1NTSXlqT2ZTaWI2U1hZSENIZW54YlhNUGFBRFhpZF9tWWFOYUk3b0oybjg2MFk1Mnpub3dTTkk5OTM3Vnlzc1cyZm12LUpSaU5CTm1ZaTVYWlJyNUtCNlYyVzRCR2MzWGQwUmV0UTBPbEZHeU1NUV8xdw?oc=5",
+        "source": "048.ua",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T12:22:00Z",
+        "title": "Атака по судну під прапором Ліберії в порту Одещини: російський удар забрав життя моряка - 048.ua"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQa1RlX1lESTkwWDFyaVBMN0Z0U3A2bEQ4N19OVzYwM3dQTTlodDZKYVZqcUp6UTJLZ01ZN3VfaDdfUGtvSWZWel8xcDNweVVNcFFKWnBBVmp5a2VyYVFudzBfN1lnRzA2bzFtcmtKdGFjdDd2NTdnZUtDSUdMNHNkS2IzNVJWa1pWSTJQYnM3TEJadUlRaElYc0dQeWhLR2hDSVhJVVRxOE50eGp1eUxpdUVxM1VxRkRYVnpEZHp3VDg0cGs?oc=5",
+        "source": "Апостроф",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T12:14:00Z",
+        "title": "Росія атакувала цивільне судно під прапором Ліберії на Одещині: загинув член екіпажу - Апостроф"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPeWtNWFNpUDhhcDNEUDFiVzRGREZJbkU5OWg4aUpQc3pzSkw4aWFoal9JWEhya3I4T2Z3T1RIX1FjMjFyN3VseDZxT2VJSmI2ZHA1d3o5cVFwakFyWGxoNjVNQlNidXctQUtfSkpOV1JnMktza1VsTFZ2bjJlaFB2dl9wNWVIUXpQdUd5c2k5eWxPSEoyWktnYkNDb1NCRHNZd3BHOEhCZmFCM3BRZG5ER3NTdVdMcHVucXl6VWo4R2hsV19uSDJMVVRhUFZVd1JLeXh0MTRtY2o3NEdfaW1VbWlxZ2nSAeoBQVVfeXFMUGtJbXJLbDlxRXVtcVFzYjBqRE1wRVlvWXhGRTA1ZExiU3FDak45NDRabUdCNmxCUzdybThfalZUdTBhdEg1MnRXY1RBZEs0aWt1MDhDWE56anhHdDdQQlM3QmRNNnNoM3ZCd0xWeTVrelpLUG0wVVozeUFsVk1CdGY3XzVqQU9PRlY1M3FNSzItUzZ2d2JCQXBxNjMwYTlXLUVuNVZ1NXJ6NXljZlVXZ05OWHdaV1p6bDAxZ0tydWVSd1dtMUJZMjZMM0tmS3hYclFfd21vcldqWkFTbUpHemt5R2VxQ3NoRHBR?oc=5",
+        "source": "Demócrata",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T12:12:36Z",
+        "title": "Ukraine accuses Russia of killing a sailor and injuring three in an attack on a civilian freighter in Odesa - Demócrata"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeXlLeEx6SzZhQmVLREFVcHUzb1UxRWNRUi1sX1JiaGJYSzdzTm4zbU1nMEpDM0VWaHFndktlbEx2dFJrc0pxaDdIY2x0T3VzRno5emRNUmlSbU1lV0RmdDhyeU81VnVKeTBxMDVCY3RsNFBmRlJTX1JFWnhFckRDUC0zOTdyWElRcmdha2hMYkV2SndhX0QtZ2lfWlZwc3BEQWtVQ092dFpyTlMzSDBz?oc=5",
+        "source": "Balkanweb.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T12:05:00Z",
+        "title": "VIDEO/ Russian attack on merchant ship in Odessa, one killed and three injured - Balkanweb.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5fZDgwUnJBN25tVldFNnJVenduUzQ0OUhaSlNUdWZ5a0g5dHNDTU8wbkhidHhGNXBKQnpPUnZQWEdvTWowbEZr?oc=5",
+        "source": "فيتو",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T12:01:00Z",
+        "title": "قتيل جراء هجوم روسي على سفينة في ميناء أوكراني - فيتو"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSjY4bEZBS3k3YlQyZG00eXIwTHJNYzRnUEprdDlZSXlRa3VYdEpRN3I1WFQ3UXU2Y2pJdVZFTHliTXBzdGM5Z01FeGltVnItNUpNWnlxbE9NbDU2V2ZBOVhkZVFhVjVDNXZUZ1pJQUVTZG53OE9nMW5NOEtTdnZiQ0lYeUlUcThGN2NGYXZpbjBQZ00?oc=5",
+        "source": "RBC-Ukraine",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T11:55:24Z",
+        "title": "Russia attacks civilian vessel at port in Odesa region: Sailor killed, others injured - RBC-Ukraine"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxON0lNMS02eUZDcHFkWTZrQ25uV2hzdlRYbVRvbVBTTGdMbFBkRVZZNzNrdFUtUS03QjhhOV9tdmhxNEtlUGMwOE1sWUJtZGhsdk1nWjlpSlVjUFVzUlpjb1U4SmU1aUFkTE1UZDRiS2Q3X180WGFRSVRmM1hSTE1rNUFGR1ZTaGdZR1lIanBkdFhwbFBiQTlSYnJTRmw0dw?oc=5",
+        "source": "breakingthenews.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T11:48:00Z",
+        "title": "Ukraine says Russian strike on cargo ship killed one - breakingthenews.net"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB6dVpXNHljVDRkamdnd2dxMDF5SUpMRHpuXzZIQnhkUUxyMlRPcmRDeDh2N3JrWXdHbnpBbW1IaXgzT3FGNWpVNG5veGZHUU5jZjV2R2NwT045T3JjVEpnOVlHNmNyQlBNTXc?oc=5",
+        "source": "mezha.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T11:44:16Z",
+        "title": "Russian Forces Strike Liberia-Flagged Cargo Ship in Odesa Region, Killing Sailor and Injuring Three - mezha.net"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1wcUg2LVdSLVdtTHBHNlBZc05McGJ2VmFZWXBQdm8wUm1FLTdzZ3JSZWJ6Mk1tMW5ib184M015VlJYdm5DalVjZjk3NXRBSWs?oc=5",
+        "source": "Kyiv Post",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T11:37:00Z",
+        "title": "Росія вдарила по цивільному судну в порту Одещини: загинув моряк, поранено членів екіпажу - Kyiv Post"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQ1haZFFCMVE2V0FvR0xXMzlTRFFWOTE2UTdmeE5MR1l0ZWlpbWhKSTNxMVN5Y1otYjQ2MkdqUmdYLVlkTkRNTG9TOTRVaExkQWhNSkZPQ1BsYm9RLTdMbk1raWxnMHA4MkFua1g2b002NzhaX3NXd2pBUF9JUWpLQkpzeG9FTHZqclpqVHk3QkxTemg4OU9EeVl4RGVhLVZNQmYzRjlhamJvZnVNdGRCTlg0ZDlRYXRMa0NWYjNrNWc?oc=5",
+        "source": "5.ua",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T11:30:23Z",
+        "title": "Окупанти вдарили по цивільному судну в порту Одещини: є загиблий і троє поранених - 5.ua"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZnZvOFUzb0k4Z29xVTdfVWxqU1pESGlTc3ZzQWdEbDE0QXJzM2FZb3cteWx6SllxOXJWMHpkWWpRVDU2cy1odEJXSkFJRElsbjM5SnRXdEhaV2lGUmlsREZaeXRaVU40cUpTeHdyLVdCSExKcU80T1RpcTVHc1NpVzZpbDVWbWFkVDAxc0NRLVVkMEdOY2J1LUZUVjRtYW1ESnFVT01CNEd0TlZDRXh3aEk2VkFVcXFTTVpJczBkQnZOUGpxcmtJc1c4dWI?oc=5",
+        "source": "Цензор.НЕТ",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T11:29:00Z",
+        "title": "Russia has once again attacked civilian vessel in Odesa region: one seafarer has been killed and three injured - Цензор.НЕТ"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxON1VUUnNCT3JyUDBVZ1VXSUdkSUFaTk1wTEc2ZXZMTjBUUzMwODk0eWUzbGFCck15LUFmZ25kWUFGaGZ2TktfX1d5OG41eUQwVzRVdkh0Mi1wcFNWSkhLb2VlWnVMRHlpbG95b3NPRGZ3Rm1reXJKS0Z3TnJUZjNNM3VKSjZiNlpnd3NoWndTQXFmTzdqQUpIYWo2T3dzMzg2Qk1aWjA3RVBaeElmbnJYMjBIMmxuQ1NIU0RBRnM2d9IBvwFBVV95cUxON1VUUnNCT3JyUDBVZ1VXSUdkSUFaTk1wTEc2ZXZMTjBUUzMwODk0eWUzbGFCck15LUFmZ25kWUFGaGZ2TktfX1d5OG41eUQwVzRVdkh0Mi1wcFNWSkhLb2VlWnVMRHlpbG95b3NPRGZ3Rm1reXJKS0Z3TnJUZjNNM3VKSjZiNlpnd3NoWndTQXFmTzdqQUpIYWo2T3dzMzg2Qk1aWjA3RVBaeElmbnJYMjBIMmxuQ1NIU0RBRnM2dw?oc=5",
+        "source": "Al Arabiya English",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T10:50:00Z",
+        "title": "Russia hits Liberian-flagged ship in Ukraine's Odesa port, kills one - Al Arabiya English"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcVA5LU5zamRERjhYRXg1NnVrSXZUZGlYX2pNT2lvWFhyeGhQUWo3RU5jb1FoQXlIRGNzU2N6OUx1ZUlMc1ZkTTdwekloQ2hQSVlqeVE4eDZxUy1DbmpjVUxMWURmSEJHQWpNQjVwMUw1NHhBQUtkaUY5MEFScHlybHZmZFdhYjVZTWxQTEFCTC1XYnUxUEhOZWJxSUZwWjlnN294UnJwdFZrWEdlSk5rbVd30gGyAUFVX3lxTE5xUDktTnNqZERGOFhFeDU2dWtJdlRkaVhfak1PaW9YWHJ4aFBRajdFTmNvUWhBeUhEY3NTY3o5THVlSUxzVmRNN3B6SWhDaFBJWWp5UTh4NnFTLUNuamNVTExZRGZIQkdBak1CNXAxTDU0eEFBS2RpRjkwQVJweXJsdmZkV2FiNVlNbFBMQUJMLVdidTFQSE5lYnFJRnBaOWc3b3hScnB0VmtYR2VKTmttV3c?oc=5",
+        "source": "Українські Національні Новини (УНН)",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T10:33:23Z",
+        "title": "Russia attacked a vessel in a port in Odesa region: a sailor was killed, others were injured - Українські Національні Новини (УНН)"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5PcTlFOThhTDBQUml1UG41RVZIajBmYTNhaU5IV1A5OWM2aXRKWEVDSE5iQ3V2YnZXaXF4MDFOUjNGZFF2eXkwaG5aZ3U1bjFCZ3JsRnlsZUZOcFhjdTdQVHAtelJsMGFudUJtbE1YZVlhR0h5RS1QZQ?oc=5",
+        "source": "7deniz Haber",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T06:00:00Z",
+        "title": "Rusya’dan Ukrayna’nın liman ve deniz lojistiğine saldırı - 7deniz Haber"
       }
     ],
     "first_seen": "2026-10-03T11:35:20Z",
-    "last_updated": "2026-10-03T11:35:36Z",
+    "last_updated": "2026-10-03T15:15:28Z",
     "verification_issue": 31,
     "verdict": null,
     "published_in": [],
@@ -363,16 +597,71 @@
         "kind": "media",
         "published_at": "2026-10-03T05:36:08Z",
         "title": "Fars Körfezi Yakınlarında Tankere Saldırı - تسنیم"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQM000UXlySktnVVVJb3dmTlM1bGJMU2RCdHk2V2RNV0xnd2lUUjdqeEpOU0NSMHMxdkp5cDg3aG9yLUJ5a0RLZWNFQW1OMmNhc0FueEVzYVRDOWtUNm9SbTRPdkhPbnk5YW5WX245anRLTjhjMVFzczJoVV91dWtuQmtCOWowZ204T1FJcnY4R0dvTzlhVlZwR3FXQk1oa045eVk4OU1lc1FiWVY0b1RyNlBwNllWT1dadDQw?oc=5",
+        "source": "thehawk.in",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T11:57:51Z",
+        "title": "Five Indian nationals rescued from Strait of Hormuz after vessel struck by projectile - thehawk.in"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOX2tQekI1MEg4VE9NYjFUUnZ3cnhSRjZRME12WmRuLXQxRnoyQzZXN1dxNHBxT3JFd3ppMXZkMkZxdU94X1cxeW1ldk5MNkI1VkVpUFRnSVViV1lRSy16eGJvdWJZSHRYMVA0S0lER1RfbFlQZXAtcXJVN1U3NHVwQmZpbDFJS1kxWXFqSlZJbGh3bmpkTlVGMGl3SW3SAaoBQVVfeXFMT1pUUWN4OS03THdwTGlUcGxJazlDMXUwS2gyM1dTZXdHRkZtR1N6R2tkbV90M2pMVjVRb2c1MDdISndOTjNGRzYyUGRodUZfTlNuTTJacnJnT3JGSGR4bkVvRHFaUzhzRHNlMWRzRUZHRGE3eFlBbUtYUlhsak04OWo2Ym0yX0NDYzB6X2lLVjZRdGQ0Q20wT1NlY3hfY0Q0MFVFMVFrdFR4b0E?oc=5",
+        "source": "The Bridge Chronicle",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T11:24:00Z",
+        "title": "5 Indian Nationals Rescued After Projectile Hits Tanker in Strait of Hormuz - The Bridge Chronicle"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPS1NxTUsweE9pcGQxTDlocURJa2RSYm9rWnVjMHBybmdEVUdOUVBnZXFpTmtleENmZ0JVZzdBQVBuekJGakxRUEF6QW9LNlRnZWJ5R09CMGlRY1RqY0NHNnlnalFkc0xlWk5tTk42dE05QXBNdWxrT0dBZDRPM0ZqdnN5TUZMcnhBQjFubjRya3NqQVBMNHl3R0dTSDR4MzBjSVNBYQ?oc=5",
+        "source": "Zamin.uz",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T11:12:00Z",
+        "title": "Tanker hit by a shell: Oil vessel attacked near the coast of Oman - Zamin.uz"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRGFidmxKTjRDNXdzNjhWd0wxdUFwTGYySWhzakIyMFk3TWg4aUVIVExrZ3JaeVpQa01tbW1jc2s5TmdXXzluZWlOb09CRk14bElla0Q4cnI4YkxBRDBJQ0VjZ05LNV9MV1RBcDJEVVNZTjFDdzNPTDZvREQtRTBDOGVubnp4dVR5R2dnb2lDbU9DWXpZQnJqQzJteVQ?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T06:24:47Z",
+        "title": "UKMTO сообщило об атаке на танкер к востоку от Омана - prospect.com.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNk94RzRsYzJMUmwtQ2ZIYlhuUlNQcHQxa2g1Q3RQeXh5Z24wNGdTSmhDdEl2MkpGdURiM0tkOG83Q0ZCY2VpQ3Y5MWdkTTE0b2dESExoSmNwclpvMWhBa2VlakxOOW91OE5wR3FpWXJMdi1zQ1lDeFRVWEFkRXg1VHlwTVJOai01ZVB1ZjlCaGg1ZjJERWfSAZIBQVVfeXFMTjdIZkRxV05xblVqaTB3ZjZCTFJNdUxOa29xWFAwSDV3TTRLUWFXVjNTNE5aQU5XSkJlTHpObXhZdEZhalJDeWdvZUZSR090MC1rZURtUUp5OXMzU3BfNnJ4RC11bUpEQkNZV3dpNUZVbTJ6ZFdjR1RkeE16SUZsWmFvYWZoNzFraEdoRk9CR2dWLUE?oc=5",
+        "source": "Yeni Akit Gazetesi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T02:58:25Z",
+        "title": "Hürmüz hattında gerilim: Umman açıklarında ham petrol tankerine saldırı - Yeni Akit Gazetesi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVFVWaTFVdUE4N2oySEhXLW56RDZYcFBrajBrQmVQXzVUZW5HLVVoZWlqa2IwWkRsaWNlMGxIYjlMblFqYTc1cXBJNDhjdXlhU1lCcWJLT2paQ1AzYVRzZ2xSM0JLSzk4Y0tlcXl6TTNnMUlCSkdlZ0FFNFBfNHMwdGFZQ1psSGx6QWVHSEdjYVFvdEhadEFESVVsTnNSbThtUXfSAbQBQVVfeXFMTV9LTUtEZXkycnIzcVhVVlI1ZE9mSjl2ZjVDQ1FDZXBNUFQ2M0Q2eXU4ZXN0Z3FrTlJjb3BxckRhTVdsa1NTSjJXcWRiMUtvOXFQNHAyUnRuLUZ3MjR4ZlZWTGg0WW9YbFhMN3ZIOUE5OFdkdGhfVGFyZnk1ekNyX05yVUJDdE5LZjFDU3NTc3dIZVhqV3R2MTFzSkNWZlhDMDk4S21wTDc3dW5EWkJnaTBPd3BD?oc=5",
+        "source": "Gulf News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T02:23:25Z",
+        "title": "Oil tankers attacked in Hormuz strait: UK maritime agency - Gulf News"
       }
     ],
     "first_seen": "2026-10-03T11:35:39Z",
-    "last_updated": "2026-10-03T11:35:51Z",
+    "last_updated": "2026-10-03T15:15:33Z",
     "verification_issue": 32,
     "verdict": null,
     "published_in": [],
-    "status": "confirmed",
+    "status": "merged",
     "date_approx": false,
-    "position_approx": true
+    "position_approx": true,
+    "merged_into": "INC-20261002-001"
   },
   {
     "region": "Persian Gulf",
@@ -413,6 +702,232 @@
     "published_in": [],
     "status": "merged",
     "merged_into": "INC-20261003-003",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-03",
+    "summary": "A headline report says Iran attacked another ship in the Strait of Hormuz. No vessel name, flag, damage or further details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.4,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Iran (headline says 'Iran Attacks Another Ship')",
+    "independent_evidence": false,
+    "id": "INC-20261003-005",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOcXBMUmxLU0xEc0ppUlkxN08zNDJkdE82OF9mMHRsWENpRXVnY21VMTdGcU1Zdm5EaXE4QlF2LWZ4LUdPLXF5SGVUbnBoS2cxalA1YmQwZWlfVndRT0hGd2hXTHhINVJZSV9idThEUHZTQ2ZlM0p1RkY2N0stSjBIZURxX0pUdnlFdTY3ZEFwOEFKSW5KRFAzR1lxREZIdm1zU2NDMlJLWGhnWEx0aS1RbTBVd0tUWm9aRk9jUWlHYS1ZcDczZmhGeWxHUlluRmUtdUVCQ0hOeS00dHFUV29fRWdCTk8wNXBxdzgzcEFlMHrSAfYBQVVfeXFMUE9QSkRjTW5pTDhBbGlDRElGWHBMZ252dlBuN3dScmFoRHZIN1R1WTJlMHZiOXFMWTB3RlBiV1lSUnVMQWtMT1psamtQaF9DWDF5UHBhOU9RQ0NfaV9rVlNRS0piUmtKOGxrdWFCU0FrblpQajN2LXZuRmlvc2NQUVpOZHdONVgyVEhGTVQtM3BTQWNDU1N2UW5ZdnNENl9UeWI1a2NzelJXai1ucEZZalRuOW5CR0JWT0ZpTVp0S1RDYl9TeGJrRU4tYjd3aXhuSHltcGU3MWdObGd0R0llbDdXMDVxbUloZnVqZkREaENJY0VTdlNn?oc=5",
+        "source": "timesofindia.indiatimes.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T14:42:33Z",
+        "title": "Iran Attacks Another Ship In Hormuz As Trump Rushes 3rd Aircraft Carrier | Watch - timesofindia.indiatimes.com"
+      }
+    ],
+    "first_seen": "2026-10-03T15:14:56Z",
+    "last_updated": "2026-10-03T15:15:33Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261002-001",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-03",
+    "summary": "A Turkish-language headline reports an attack on a dry cargo vessel in the Black Sea, with one person killed and three injured. No vessel name, flag, attacker or further details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": "Turkey",
+    "vessel_type": "bulk carrier",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": "1 dead, 3 injured",
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261003-006",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRHJ6ZmlmZThxNU5HeUQtSzMxMXBxeUUtOUZtZEZkVGh0c2pxNHpTMkgtU3lCLUI1QzRRUEVNV0dXWkU3SDJtRUFJVl9Sa0d2TGx5QUVDUlA0T2VpYklYWGduZnVhbjM2NHFXSzFlNGJjR0JkdUVpNnp3QjFzalJ3SUJMVUdqSVZwUC1aRE9vdHdMRU9vNlNaa0F1RzBOQdIBoAFBVV95cUxOdTFlQ0NKS0M5N0ZzMlJpQjJfLXMwcDBsOWNiekV0ZTJWbjEyOTdJajlMQjFQVmVabWM1VERqWjBpMi1yaGhKNGZHWllnUk5mUzBQZWRRQUtKMGRIbXR3amM0Nm5tTzFVcGpqOENlM2JoWF9XRjc3N1A2dW93N3NYVnBmdjdDRkZyc0libVlYelp1SVYzUFdkZFRfZU1LSmts?oc=5",
+        "source": "STAR - Haberler",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T13:26:00Z",
+        "title": "﻿Karadeniz'de kuru yük gemisine saldırı! 1 ölü 3 yaralı - STAR - Haberler"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZXBINDlXMXNpZHIzWUpNb0g3WTVVT0xsX2RRcm5YNVFLTWkwR05lb1RZcjVMM182bExseGRidVFDNlV2YnJqN1JlSU5ZZTV0cF9xc0xNcU0zQ0k5OHc3MEJoZE1UbkNnNUdGT2FrTTBYWDhZR2IzZGQ5OEl4dU5jR0hxa25GS2dVSS0tMDQyQTJOTWt1R2l1Z0dPOEZTZVpUMTFWYWhnZWZMaGUw?oc=5",
+        "source": "Periskopi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T10:12:40Z",
+        "title": "Albanian sailor disappears. Nica was on Turkish cargo ship that was attacked by fears in the Black Sea - Periskopi"
+      }
+    ],
+    "first_seen": "2026-10-03T15:14:59Z",
+    "last_updated": "2026-10-03T15:15:28Z",
+    "verification_issue": 33,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-03",
+    "summary": "A news headline reports a missile attack on an oil tanker in the Strait of Hormuz on 3 October 2026. No vessel name, flag, damage or attacker details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "missile",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261003-007",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA4cnh0RUdmRmJXcWtndVNlaUNJRXVsNWhVc1owS0U1NWFsWHBEWTM1U0lqZTkyWHZOSWlLZ3FsQTQ5RWlCczFoRWxyVW9uUEhjQVpqQ2dn?oc=5",
+        "source": "GNN | Latest News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T12:07:00Z",
+        "title": "Watch: Missile Attack on Oil Tanker in Hormuz | Trump's Announcement | News Headlines | 08 AM | 3 OCT 2026 - GNN | Latest News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNemJfeWpZUVFmTzBhZnB6ZzB5N01JTElWZTg3dkdLR0JBazFvQjd0UjlYTEJtcWg4MktMRk9NVjNhRmRrUzNyWk94OVZfUFV3MXhuLU94bVQ4VjBkN2hrbk11ZEpuV2JCRy1xNHlOdUxJQzlSaUJBUTdiR3haWDFZQnFmNDFWMk1fVVM3dQ?oc=5",
+        "source": "アラブニュース",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T10:33:34Z",
+        "title": "Tanker struck in the Strait of Hormuz - アラブニュース"
+      }
+    ],
+    "first_seen": "2026-10-03T15:15:16Z",
+    "last_updated": "2026-10-03T15:15:33Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261002-001",
+    "position_approx": true
+  },
+  {
+    "region": "Red Sea",
+    "date_utc": "2026-10-03",
+    "summary": "An unknown projectile hit Saudi Arabia's Yanbu port, causing a fire and halting tanker loading, according to a headline report. No vessel name, flag or attacker details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 24.0,
+    "lon": 38.0,
+    "location_text": "Yanbu port, Saudi Arabia",
+    "attack_type": "explosion (cause unknown)",
+    "damage": "fire, tanker loading halted",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261003-008",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSU1CeVFwc2dXdDBuM1U5cElua2xUdlhpYXBvT1I1OTZPSFJ4M21pWld3LTdvLVBjenNKT0FYTG8wWEZnWngzNTJiVF9QUXNpRkdpMTlfZFp6YU4zWXFNT3E4QXVoU1dVTUw4OWpYWEcxS2pLU0N0WjJjcTY4UUdMY2dJSkF3VFN6MjU5aEpLRW1zai1ydFNvRTBWYWdCVjhoWWpiTS1RMlZ5REZ5TXlyamNTR2hiZw?oc=5",
+        "source": "Marine Insight",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T11:13:35Z",
+        "title": "Unknown Projectile Hits Saudi Arabia’s Yanbu Port, Causing Fire & Halting Tanker Loading - Marine Insight"
+      }
+    ],
+    "first_seen": "2026-10-03T15:15:23Z",
+    "last_updated": "2026-10-03T15:15:33Z",
+    "verification_issue": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "review pass",
+      "at": "2026-10-03T15:15:33Z",
+      "note": "Out of scope: (a) strike on Yanbu port with no vessel hit"
+    },
+    "published_in": [],
+    "status": "rejected",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-03",
+    "summary": "An oil tanker was targeted off the Strait of Hormuz, raising fears for international navigation, according to Al-Waqae News. No vessel name, flag, damage or attacker details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "off the Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261003-009",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0wbm9iZzlVS3hSN09FNEU4aFo5amVnTWwyZEhRc3NJUVpRei1VSGVTV19CSk9JZWZzSlhoUjlBUUlJMW8wRUNvZ1ZWSQ?oc=5",
+        "source": "الوقائع الإخبارية",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T08:07:14Z",
+        "title": "استهداف ناقلة نفط قبالة مضيق هرمز ومخاوف من تهديد الملاحة الدولية - الوقائع الإخبارية"
+      }
+    ],
+    "first_seen": "2026-10-03T15:15:28Z",
+    "last_updated": "2026-10-03T15:15:33Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261002-001",
     "position_approx": true
   },
   {
@@ -835,10 +1350,28 @@
         "kind": "media",
         "published_at": "2026-10-03T05:44:00Z",
         "title": "Russia reports strike on Odessa-bound ship, logistics center near Kiev ᐉ News from Fakti.bg - World - fakti.bg"
+      },
+      {
+        "url": "https://t.me/astrapress/127030",
+        "source": "ASTRA",
+        "source_type": "telegram",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-03T12:17:47+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdVFMQzNwcThya0dhdFBQWm1kVTJvVDlYd0dUVVd2cUFLWTByM1dwWEltcExMLTdsek83QVl6czhUQzZpWVlXc3hBX0l6MUE0dmVIdEZqX1RtR2V4VjRiQ09vU29hdU4taXItUW50ZDFKc3Z0R3F1LWVYZzZvUTRZMTRnZUFtelFYN19sV2dGQ2QxdEJhbW8zVjlQUHByTG5vRGFZT2pGb1ZhTlBKWTRVRWFPc3BEckww?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T10:34:35Z",
+        "title": "Минобороны отчиталось об ударах по мосту в Киеве и сухогрузу в Черном море - prospect.com.ru"
       }
     ],
     "first_seen": "2026-10-02T14:00:03Z",
-    "last_updated": "2026-10-03T11:35:47Z",
+    "last_updated": "2026-10-03T15:15:23Z",
     "verification_issue": 24,
     "verdict": {
       "status": "claimed",
@@ -1494,6 +2027,46 @@
   },
   {
     "region": "Strait of Hormuz",
+    "date_utc": "2026-10-02",
+    "summary": "A Turkish-language headline reported that three UAE-owned tankers were attacked in the Strait of Hormuz. No vessel names, dates, damage or attacker details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": "United Arab Emirates",
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261002-017",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQ1NXSHZYT3ROUmNlQXBFeS1CQTBraTBYblpmWks2YWtmTWVZUERtYThYaWpIbVJWczd3MExnNXdOQ29tZE9ZUFhRVkctTUNZMmZldnJucXJTNXdHZFVjRFhQcXFUS3RGb1B5Si1OdjUxcDNhWkxhdHJuYjJzQWtTbXBEMjdiYWpQZXlYcmMzRU9kb2pXZlQ5NdIBngFBVV95cUxOMTJ0TW9yc3hxV1lrV0Z1LU9QeS0zWldUMzJVVW5aZ3d3eEVOMkplWTE4RVA5WkxBWHIzbG16RHVOcDkyb3ExcXJJdFR0QjM5cGM2U3pqampDOFZKYklXaG1NNmJQelJWMjFHSU9LZzRiczY2VzU5bnl3Umd5blpjRG53R2x6aXpxSjFYbW9ETjRvZ1J4aTFYcUhhZjRPdw?oc=5",
+        "source": "Malatya Güncel",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-02T08:47:55Z",
+        "title": "BAE'ye ait üç tanker Hürmüz Boğazı'nda saldırıya uğradı - Malatya Güncel"
+      }
+    ],
+    "first_seen": "2026-10-03T15:15:32Z",
+    "last_updated": "2026-10-03T15:15:32Z",
+    "verification_issue": 34,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
     "date_utc": "2026-10-01",
     "summary": "A Kuwait-flagged VLCC was struck by an unknown projectile in the Strait of Hormuz on 1 October, starting a fire, with the crew reported safe by UKMTO. Shipping media and security firm Vanguard Tech named the vessel as KAZIMAH III, and later reports also described a Panama-flagged tanker hit with fires on board in the same incident.",
     "official_source_cited": "Vanguard Tech",
@@ -1510,7 +2083,7 @@
     "attack_type": "explosion (cause unknown)",
     "damage": "fire started on the vessel ahead",
     "casualties": "crew reported safe",
-    "attribution_claimed": null,
+    "attribution_claimed": "Iran (headline says 'Iran Attacks Another Ship')",
     "independent_evidence": true,
     "date_approx": false,
     "id": "INC-20261002-001",
@@ -2225,10 +2798,244 @@
         "kind": "media",
         "published_at": "2026-10-03T09:45:00Z",
         "title": "Crude oil tanker struck by unknown projectile off Oman - Gulf Business"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSFBQdHpqQTdFUm92ZThPSmU0R2Jia09KRjFQbTlLckYwNXZ5OUNuTXhpeHBtczlKTWNSSjFoRm5sbzJ2Sjh3b1NxT1FzNzgycklES0M1bTRyaFBpb0NremdrenV6a2pnSlRzRjlCdTVvTXhFcVE4eEpFZV9ZbWJUZ1RoSTB6RWVtZExwS2JnZ0xoNzVxcUJnXw?oc=5",
+        "source": "fakti.bg",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T02:12:00Z",
+        "title": "UKMTO: Unknown projectile hits oil tanker off Oman ᐉ News from Fakti.bg - World - fakti.bg"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnLVVFUnh4TWNiTS0xNnBjYlBsUW9QZ2g5MVJNVzB0aTZZZlQtaDdGaHlwT1NSWmVQdUpaTkJlTXNrM1cybHMyZ3l3UDJyZTRDMktVaGsxX0p0bEd6OGdCcUZWTEF5MHVDMDlRVlln?oc=5",
+        "source": "news.cgtn.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-02T23:16:25Z",
+        "title": "UKMTO: UKMTO has received a report of an incident 4nm east of Oman.The Master of a crude oil tanker has reported being struck by an unknown projectileon the port side. All crew are reported assafe and no environmental impact reportedat present time.Aut - news.cgtn.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9iN3lfblRIbW9oS0dYbVg1aTBwVUdyc0FLZU9MTHFYWTl4Y0R5ZjlNUTUxTkRqSnFJTFZuaGRhQWN1TEhBcGdna05nWnpHbzRFeXdyNTR3?oc=5",
+        "source": "کوردستان 24",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-02T17:36:07Z",
+        "title": "Another Tanker Hit By Unknown Projectile In Strait Of Hormuz, UKMTO Says - کوردستان 24"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPX1ZRM3EyTmdiaGJOTDVmMG5iZGtUR3ZSY2Z4eVhVeTdGQ1V1TUllS0NkLUY1d1VTczYtM2gzMzZpZkkxU21CanMyd0FQT0w3RG5yYlhBMEtDenJRRUZtNGJrOEozeEF1a3RuWjl3QjRNUWpzYWgweUZWdzJqYWRSeEZYLUY2VDVfRjRDaVFJS3QwaTg0TmpzQlR2em5hU1lmMGI0cXBGMDE?oc=5",
+        "source": "Public TV English",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T09:11:17Z",
+        "title": "Crude oil tanker hit by unknown projectile off Oman, says UKMTO, all crew safe - Public TV English"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQU0FXaENGQlJmazFLRXNwcUdGbVpkWjBhSXFrWTM4aVFjcDMzUHFCb0NOaTNZbGl1V3hzajBNSkgwSVBwSHY2Q01PY2M0V1U5eWliWlZULWxMS3JETXZVY19XNUxkTW9DWWxFYXc2ZDZJYm43WEN2SE1yYXhla1E2YURJdU53NEhjdEZMcEVkd0xMcHE1d2ZIXzl6cUNhVnV4Zk5OcDFB?oc=5",
+        "source": "خبرگزاری صدای افغان(آوا)",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T07:18:52Z",
+        "title": "Oil Tanker Hit by Unidentified Projectile Near Strait of Hormuz - خبرگزاری صدای افغان(آوا)"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQX3AyVHB1QmlxSHVPQTRXUzY0dER1WkNreDZibVRQS0V2YUxENFMySVlXMXNRZWpQenk2NTBUY290OXpFTmtyZm1Eb1EzN0xIU3V0TTVTQmxuQjc2cURiUk5zeEYtUG5mT01ISndEb0pwWE9UU0tCcVpfX0JxSHRxdzVkcnE2MXpacWxVX2VzcUVvbjBT?oc=5",
+        "source": "Balkanweb.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T07:10:00Z",
+        "title": "Tensions continue, tanker hit by missile in Strait of Hormuz - Balkanweb.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObjZWU3RFLXl6TkVRT0lua2hVWUI1WW92aUxwSDNmUVVrcjV1X2YtT0dNaS1MNVd1SkxqcnNtQ0N0cGdhOWtxTnVjcEI2d05zaGt5UUVPT1pOTVE5U1FUXzU4Mjd0S290VjVYM1ctNlNTMTdDbVNoTG5FUzBpUl9XQg?oc=5",
+        "source": "8AM Media",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T06:41:36Z",
+        "title": "Oil Tanker Hit by Unknown Projectile Off Oman’s Coast - 8AM Media"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdUt3cERvSGxTbWJmZUZhV202R3A3V0laaUJQdG52elotcnNwbVA2QnlxbHJ5QzFTTlR1VHZrbDBOWThZclhOT2tXWGx0dWwwd2JnNEZlZFJ3bTdHdDNNUFNmN2RXWW13c2JVSThMel9iblFFMkNja1BjZExiNmw5V0hLbks5T0hta1JB0gGLAUFVX3lxTE11S3dwRG9IbFNtYmZlRmFXbTZHcDdXSVppQlB0bnZ6Wi1yc3BtUDZCeXFscnlDMVNOVHVUdmtsME5ZOFlyWE5Pa1dYbHR1bDB3Ymc0RmVkUndtN0d0M01QU2Y3ZFdZbXdzYlVJOEx6X2JuUUUyQ2NrUGNkTGI2bDlXSEtuSzlPSG1rUkE?oc=5",
+        "source": "Report.az",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T06:19:02Z",
+        "title": "UKMTO: Oil tanker attacked off Oman's coast - Report.az"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYk1HclN0a3BuWTE5X1J1enViQ0NHXzNzcjljaGxlOWJkVEkySUdoZHhjN3Q5c0l4R2VQaWdVMTJWSHI0ZjhBWFlNM0xRQWVNSEZZZUpneE9QRlNDV19ZbHBra3lMRWJsRVhONVBlVlhhV0pKalQ4bkswODMxazk2SGZhV3Y4RFUxTFNYMDlwRmFnMl8tUlIxY2o2VWZvNlla?oc=5",
+        "source": "muhalif.com.tr",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T05:20:39Z",
+        "title": "Umman Denizi'nde tanker alarmı: Gemiye saldırı düzenlendi - muhalif.com.tr"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA1QzFZWHpVR0Y4RWEteUpxQ1ozbWRpenF2SnJxY1JyZ3ZHLTJJdkhXbWNiNWhUMWRiamt1YXVlVVE2X1QxTE9jT2NKdnRMZkk2ZjVn?oc=5",
+        "source": "Aaj English TV",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T04:53:46Z",
+        "title": "Oil tanker struck by unknown projectile off Oman: UKMTO - Aaj English TV"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQ0w3SHREU3VILWFjdkxKSnA1bGFDSDhzUTdXbk8tUFkzSmFkTDVaVFl5VUljajlGSFhSeDFIOEpxU2V4UXpzQ29KY2l0Z01VUVNqTk5KSk0wRzNfMjgwY3Z0T3JPbktjVkhlb1F5UmJPRkxZcHVvLUVDMjdHMjhsWEUtTWlNaUhVZGc3Sm9xYnRQdVpUYmN6eEJxeUE2MWx2ODAwZV9JWWlOMkRsbjl2NkRJSEVZblItNnBMME5DNEpiZ3pzck1qSGlBQkZNcUtuSk1UQXB30gHWAUFVX3lxTFBDTDdIdERTdUgtYWN2TEpKcDVsYUNIOHNRN1duTy1QWTNKYWRMNVpUWXlVSWNqOUZIWFJ4MUg4SnFTZXhRenNDb0pjaXRnTVVRU2pOTkpKTTBHM18yODBjdnRPck9uS2NWSGVvUXlSYk9GTFlwdW8tRUMyN0cyOGxYRS1NaU1pSFVkZzdKb3FidFB1WlRiY3p4QnF5QTYxbHY4MDBlX0lZaU4yRGxuOXY2RElIRVluUi02cEwwTkM0SmJnenNyTWpIaUFCRk1xS25KTVRBcHc?oc=5",
+        "source": "Devdiscourse",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T04:21:35Z",
+        "title": "Crude oil tanker hit by unknown projectile off Oman, says UKMTO, all crew safe - Devdiscourse"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQXdSdl9Nb0FFdnZQYy1GcFRFRGlLX1lJS09XTVY3UUt0cnBOVko2V3drSGVSWnoxcC1QTlhXWHN5QjRiN0diLUZRdFdWaTJ5VXB3eW9Yc3pwRkNfcFY2WUtUc3FpcGY2TGpFU2ZHMl9jemhyT2RVZFNZbGh0RGcwZmpaLXhJYUJ3MGZSQ1dFUWhmajFza2oxUjZMcHJXVWFFS0dnamJUYlpUcGFoc1M3NmNRaW45NHBmeUgycEd3?oc=5",
+        "source": "IANS LIVE",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T10:52:00Z",
+        "title": "Five Indian nationals rescued from Strait of Hormuz after vessel struck by projectile - IANS LIVE"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZkZqc0d2WjA0cDlSNXhISkN1LXVkX3ZsRDNsSG9OeHpWTlFIOF90UDhlcGNLUXVhOEN6V254NmZzMk5KSUtKWXJ5ZUI3SDN4eU5fWWpCMHZUeGpONUwtbXAxNWJoV1V4WDdHb2NOOF9KUFJiRnhDYzNVclpGUVVvVjRta3B5TnVJNWNYdHpQX0pLZEU1eTFocXJZSHdpeUZnbzB4YVpvdG1uWEFhMTlqeV9YenBmaHNuZzVDM9IB0gFBVV95cUxPSUFlT1BsMWM3VHRIMGNXcWdTVjRmamw0b3cwRzVYTjRiVVNMYWlIMThKTTZJanVhTHg5R2FiM0duVF9GWmt6X05YTjUtbnlRY3RoeHo5Y256ZVA3OVdqbkNrY2ZiSFNTbFRPYWl2MG9UWlYwX2h3dkdETW53Tl9MWk02NG9YOUVQUHY3U29rNXZaUGVpS2NpS2Z5TEgzS25iVjNXN09YaVR4ckNLVkl3Tll0MURmSVk1V1loZ3pCX1NOY3FYUG9DZ2E3a1dXb1FlZEE?oc=5",
+        "source": "Gulf News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T09:38:40Z",
+        "title": "Five Indians rescued after tanker hit by projectile in Strait of Hormuz - Gulf News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRWcxRFZocWFhVnZqdzhMT2ZaU1RvLUpjNlh5UlB1eGQ5OWI5LWNmZXpVVGowX3Y2SnZxcE1HS0hLclEzLUpjNW5mSzVIcFB5X3VscTh2bTZWQTRuLWJKb1N3MEhmalRiek9ZQ296NzE0YWp6V3U5M1dIUXRoWlBpQUxmVlRmbGVhRkQxSEpITkpvc0tkOXI3djhHZG1NX3FJSm1pZElVWHJrallEbFlpbjNaaEF5T1BIamNWZdIBvAFBVV95cUxQRWcxRFZocWFhVnZqdzhMT2ZaU1RvLUpjNlh5UlB1eGQ5OWI5LWNmZXpVVGowX3Y2SnZxcE1HS0hLclEzLUpjNW5mSzVIcFB5X3VscTh2bTZWQTRuLWJKb1N3MEhmalRiek9ZQ296NzE0YWp6V3U5M1dIUXRoWlBpQUxmVlRmbGVhRkQxSEpITkpvc0tkOXI3djhHZG1NX3FJSm1pZElVWHJrallEbFlpbjNaaEF5T1BIamNWZQ?oc=5",
+        "source": "zoomnews.in",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T07:09:15Z",
+        "title": "Strait of Hormuz: 5 Indian Sailors Rescued After Attack on Kuwaiti Tanker - zoomnews.in"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNXBnaEdnbnI4UUM5dGZEVmtRcHBobE1JWkdMWlUtTEU2TDlqVEhUQzctUXBMTmdJbE5rSTM4bndyeFBLTldiNTRZOG1OQzNqVzZteTlZdEw3dXgzSmlmaHJXY1lSMXdCc0JtcE9GUm1WWm5zVTBnWmpEVnNVbXlvSEJPbnJEbGtxY0NLbFF4ZFFHcmRuWG4yZGFoVm9BcjJwcEFreUVib0ZzZ0NjMDRGazlWRUE3MS00b2xQN0RHc2NsMm04QVQ4ME1TcXV1Z2RrdnFWeUZn0gHbAUFVX3lxTE85Qk1sQ0hhNFF5RFRrVndWYVp4bld5djJsY0hfNmdfNGNKeVZNWTNkMl9oSHVzTXJXOWlYRkM4LThmd0U5dEprR0x6TkZxRGM2NmU5V3JOTjFmd215QXlFb0hnZll2M2VUWmlzNm0zT2N1dEV4RHFWSk1xdmJ1dFp3R2RRRzhlOEE2RjBNczVSVFIwOE4tX0x6b2E2c2RmWEc4UHMtb1otUUQ5dlYtN0lYOVR3NkdUNzlXTGl3WFBmTUF6TVFHZlVEVkdLZ1EzYV9mM2hXRTJjMUdTRQ?oc=5",
+        "source": "ETV Bharat",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T06:32:13Z",
+        "title": "5 Indian Nationals Rescued After Projectile Hits Tanker In Strait Of Hormuz - ETV Bharat"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORnBzQ1JtTW5GaTFLRnlXQ3M4TnU0RkZfMDJ6WG0xUkYwUGoxRzl4b1FYYk50bWoyZjFBcGJYSGpxeTFrS3dTR3pHTG9sWVB3VV83VDl1a2NLam9vUDRldjlkR0o4ZUl3X3E1M2RackFnMWFsbXdSUzNxV2cydURNampvUVlCVkRmck1OYUt4SFV2UF9hRjFWdEJGek5nSnhBdE5ScGJUS0lCOFpPVmhHRnAzZGlGdWx1Ulk5Zk9NMVfSAcABQVVfeXFMTkZwc0NSbU1uRmkxS0Z5V0NzOE51NEZGXzAyelhtMVJGMFBqMUc5eG9RWGJOdG1qMmYxQXBiWEhqcXkxa0t3U0d6R0xvbFlQd1VfN1Q5dWtjS2pvb1A0ZXY5ZEdKOGVJd19xNTNkWnJBZzFhbG13UlMzcVdnMnVETWpqb1FZQlZEZnJNTmFLeEhVdlBfYUYxVnRCRnpOZ0p4QXROUnBiVEtJQjhaT1ZoR0ZwM2RpRnVsdVJZOWZPTTFX?oc=5",
+        "source": "تسنیم",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T05:36:08Z",
+        "title": "Fars Körfezi Yakınlarında Tankere Saldırı - تسنیم"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQM000UXlySktnVVVJb3dmTlM1bGJMU2RCdHk2V2RNV0xnd2lUUjdqeEpOU0NSMHMxdkp5cDg3aG9yLUJ5a0RLZWNFQW1OMmNhc0FueEVzYVRDOWtUNm9SbTRPdkhPbnk5YW5WX245anRLTjhjMVFzczJoVV91dWtuQmtCOWowZ204T1FJcnY4R0dvTzlhVlZwR3FXQk1oa045eVk4OU1lc1FiWVY0b1RyNlBwNllWT1dadDQw?oc=5",
+        "source": "thehawk.in",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T11:57:51Z",
+        "title": "Five Indian nationals rescued from Strait of Hormuz after vessel struck by projectile - thehawk.in"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOX2tQekI1MEg4VE9NYjFUUnZ3cnhSRjZRME12WmRuLXQxRnoyQzZXN1dxNHBxT3JFd3ppMXZkMkZxdU94X1cxeW1ldk5MNkI1VkVpUFRnSVViV1lRSy16eGJvdWJZSHRYMVA0S0lER1RfbFlQZXAtcXJVN1U3NHVwQmZpbDFJS1kxWXFqSlZJbGh3bmpkTlVGMGl3SW3SAaoBQVVfeXFMT1pUUWN4OS03THdwTGlUcGxJazlDMXUwS2gyM1dTZXdHRkZtR1N6R2tkbV90M2pMVjVRb2c1MDdISndOTjNGRzYyUGRodUZfTlNuTTJacnJnT3JGSGR4bkVvRHFaUzhzRHNlMWRzRUZHRGE3eFlBbUtYUlhsak04OWo2Ym0yX0NDYzB6X2lLVjZRdGQ0Q20wT1NlY3hfY0Q0MFVFMVFrdFR4b0E?oc=5",
+        "source": "The Bridge Chronicle",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T11:24:00Z",
+        "title": "5 Indian Nationals Rescued After Projectile Hits Tanker in Strait of Hormuz - The Bridge Chronicle"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPS1NxTUsweE9pcGQxTDlocURJa2RSYm9rWnVjMHBybmdEVUdOUVBnZXFpTmtleENmZ0JVZzdBQVBuekJGakxRUEF6QW9LNlRnZWJ5R09CMGlRY1RqY0NHNnlnalFkc0xlWk5tTk42dE05QXBNdWxrT0dBZDRPM0ZqdnN5TUZMcnhBQjFubjRya3NqQVBMNHl3R0dTSDR4MzBjSVNBYQ?oc=5",
+        "source": "Zamin.uz",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T11:12:00Z",
+        "title": "Tanker hit by a shell: Oil vessel attacked near the coast of Oman - Zamin.uz"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRGFidmxKTjRDNXdzNjhWd0wxdUFwTGYySWhzakIyMFk3TWg4aUVIVExrZ3JaeVpQa01tbW1jc2s5TmdXXzluZWlOb09CRk14bElla0Q4cnI4YkxBRDBJQ0VjZ05LNV9MV1RBcDJEVVNZTjFDdzNPTDZvREQtRTBDOGVubnp4dVR5R2dnb2lDbU9DWXpZQnJqQzJteVQ?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T06:24:47Z",
+        "title": "UKMTO сообщило об атаке на танкер к востоку от Омана - prospect.com.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNk94RzRsYzJMUmwtQ2ZIYlhuUlNQcHQxa2g1Q3RQeXh5Z24wNGdTSmhDdEl2MkpGdURiM0tkOG83Q0ZCY2VpQ3Y5MWdkTTE0b2dESExoSmNwclpvMWhBa2VlakxOOW91OE5wR3FpWXJMdi1zQ1lDeFRVWEFkRXg1VHlwTVJOai01ZVB1ZjlCaGg1ZjJERWfSAZIBQVVfeXFMTjdIZkRxV05xblVqaTB3ZjZCTFJNdUxOa29xWFAwSDV3TTRLUWFXVjNTNE5aQU5XSkJlTHpObXhZdEZhalJDeWdvZUZSR090MC1rZURtUUp5OXMzU3BfNnJ4RC11bUpEQkNZV3dpNUZVbTJ6ZFdjR1RkeE16SUZsWmFvYWZoNzFraEdoRk9CR2dWLUE?oc=5",
+        "source": "Yeni Akit Gazetesi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T02:58:25Z",
+        "title": "Hürmüz hattında gerilim: Umman açıklarında ham petrol tankerine saldırı - Yeni Akit Gazetesi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVFVWaTFVdUE4N2oySEhXLW56RDZYcFBrajBrQmVQXzVUZW5HLVVoZWlqa2IwWkRsaWNlMGxIYjlMblFqYTc1cXBJNDhjdXlhU1lCcWJLT2paQ1AzYVRzZ2xSM0JLSzk4Y0tlcXl6TTNnMUlCSkdlZ0FFNFBfNHMwdGFZQ1psSGx6QWVHSEdjYVFvdEhadEFESVVsTnNSbThtUXfSAbQBQVVfeXFMTV9LTUtEZXkycnIzcVhVVlI1ZE9mSjl2ZjVDQ1FDZXBNUFQ2M0Q2eXU4ZXN0Z3FrTlJjb3BxckRhTVdsa1NTSjJXcWRiMUtvOXFQNHAyUnRuLUZ3MjR4ZlZWTGg0WW9YbFhMN3ZIOUE5OFdkdGhfVGFyZnk1ekNyX05yVUJDdE5LZjFDU3NTc3dIZVhqV3R2MTFzSkNWZlhDMDk4S21wTDc3dW5EWkJnaTBPd3BD?oc=5",
+        "source": "Gulf News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T02:23:25Z",
+        "title": "Oil tankers attacked in Hormuz strait: UK maritime agency - Gulf News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOcXBMUmxLU0xEc0ppUlkxN08zNDJkdE82OF9mMHRsWENpRXVnY21VMTdGcU1Zdm5EaXE4QlF2LWZ4LUdPLXF5SGVUbnBoS2cxalA1YmQwZWlfVndRT0hGd2hXTHhINVJZSV9idThEUHZTQ2ZlM0p1RkY2N0stSjBIZURxX0pUdnlFdTY3ZEFwOEFKSW5KRFAzR1lxREZIdm1zU2NDMlJLWGhnWEx0aS1RbTBVd0tUWm9aRk9jUWlHYS1ZcDczZmhGeWxHUlluRmUtdUVCQ0hOeS00dHFUV29fRWdCTk8wNXBxdzgzcEFlMHrSAfYBQVVfeXFMUE9QSkRjTW5pTDhBbGlDRElGWHBMZ252dlBuN3dScmFoRHZIN1R1WTJlMHZiOXFMWTB3RlBiV1lSUnVMQWtMT1psamtQaF9DWDF5UHBhOU9RQ0NfaV9rVlNRS0piUmtKOGxrdWFCU0FrblpQajN2LXZuRmlvc2NQUVpOZHdONVgyVEhGTVQtM3BTQWNDU1N2UW5ZdnNENl9UeWI1a2NzelJXai1ucEZZalRuOW5CR0JWT0ZpTVp0S1RDYl9TeGJrRU4tYjd3aXhuSHltcGU3MWdObGd0R0llbDdXMDVxbUloZnVqZkREaENJY0VTdlNn?oc=5",
+        "source": "timesofindia.indiatimes.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T14:42:33Z",
+        "title": "Iran Attacks Another Ship In Hormuz As Trump Rushes 3rd Aircraft Carrier | Watch - timesofindia.indiatimes.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA4cnh0RUdmRmJXcWtndVNlaUNJRXVsNWhVc1owS0U1NWFsWHBEWTM1U0lqZTkyWHZOSWlLZ3FsQTQ5RWlCczFoRWxyVW9uUEhjQVpqQ2dn?oc=5",
+        "source": "GNN | Latest News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T12:07:00Z",
+        "title": "Watch: Missile Attack on Oil Tanker in Hormuz | Trump's Announcement | News Headlines | 08 AM | 3 OCT 2026 - GNN | Latest News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNemJfeWpZUVFmTzBhZnB6ZzB5N01JTElWZTg3dkdLR0JBazFvQjd0UjlYTEJtcWg4MktMRk9NVjNhRmRrUzNyWk94OVZfUFV3MXhuLU94bVQ4VjBkN2hrbk11ZEpuV2JCRy1xNHlOdUxJQzlSaUJBUTdiR3haWDFZQnFmNDFWMk1fVVM3dQ?oc=5",
+        "source": "アラブニュース",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T10:33:34Z",
+        "title": "Tanker struck in the Strait of Hormuz - アラブニュース"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0wbm9iZzlVS3hSN09FNEU4aFo5amVnTWwyZEhRc3NJUVpRei1VSGVTV19CSk9JZWZzSlhoUjlBUUlJMW8wRUNvZ1ZWSQ?oc=5",
+        "source": "الوقائع الإخبارية",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T08:07:14Z",
+        "title": "استهداف ناقلة نفط قبالة مضيق هرمز ومخاوف من تهديد الملاحة الدولية - الوقائع الإخبارية"
       }
     ],
     "first_seen": "2026-10-02T13:59:47Z",
-    "last_updated": "2026-10-03T11:35:36Z",
+    "last_updated": "2026-10-03T15:15:33Z",
     "verification_issue": 26,
     "verdict": {
       "status": "confirmed",
