@@ -274,3 +274,11 @@ def test_image_label():
     assert label({"vessel_type": "general cargo", "flag": "Liberia", "location_text": "Odesa region, Ukraine"}) == \
         "General cargo ship (Liberia), Odesa region"
     assert label({"region": "Red Sea"}) == "Unnamed ship, Red Sea"
+
+
+def test_image_no_position_for_whole_sea():
+    from tracker.image import no_position
+    assert no_position({"location_text": "Black Sea", "lat": 43.4, "lon": 34.5, "position_approx": True})
+    assert not no_position({"location_text": "Odesa region, Ukraine", "lat": 46.49, "lon": 30.74, "position_approx": True})
+    assert not no_position({"location_text": "Strait of Hormuz", "lat": 26.55, "lon": 56.35, "position_approx": True})
+    assert not no_position({"location_text": "Black Sea", "lat": 44.1, "lon": 33.2})  # a reported position

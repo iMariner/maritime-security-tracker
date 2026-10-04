@@ -17,6 +17,9 @@ TILES = "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/M
 GULF = {"Strait of Hormuz", "Persian Gulf", "Gulf of Oman"}
 RED_SEA = {"Red Sea", "Gulf of Aden"}
 BLACK_SEA = {"Black Sea", "Sea of Azov"}
+# a report that names only a whole sea gives no usable position, so it gets no marker
+WHOLE_SEA = {"black sea", "sea of azov", "red sea", "gulf of aden", "persian gulf", "arabian gulf", "gulf of oman",
+             "arabian sea", "middle east", "gulf"}
 # extent (lon_min, lat_min, lon_max, lat_max) chosen by which areas have incidents that day
 EXTENT_BLACK_SEA = (27.5, 40.8, 42.0, 47.2)
 EXTENT_GULF = (47.5, 22.0, 60.5, 30.5)
@@ -45,6 +48,14 @@ def label(incident: dict) -> str:
             who += f" ({incident['flag']})"
     place = (incident.get("location_text") or incident.get("region") or "").split(",")[0].strip()
     return f"{who}, {place}" if place else who
+
+
+def no_position(incident: dict) -> bool:
+    """True when the only location given is a whole sea, so any dot would be a guess."""
+    if incident.get("lat") is not None and not incident.get("position_approx"):
+        return False
+    place = (incident.get("location_text") or "").split(",")[0].strip().lower()
+    return not place or place.removeprefix("the ") in WHOLE_SEA
 
 
 def _spread(points: list[tuple]) -> list[tuple]:
@@ -129,10 +140,10 @@ def render(day: datetime, incidents: list[dict], out: Path) -> Path:
                 continue
             number += 1
             colour = STATUS_COLOURS.get(i.get("status"), MUTED)
-            point = (i["lat"], i["lon"]) if i.get("lat") is not None else approximate(i)
+            point = None if no_position(i) else (i["lat"], i["lon"]) if i.get("lat") is not None else approximate(i)
             if point:
                 pts.append((point[1], point[0], number, colour))
-            lines.append((number, colour, label(i)))
+            lines.append((number, colour, label(i) + ("" if point else " (position not reported)")))
         img.paste(_map_panel(extent, pts, (panel_w, panel_h)), (x0, top + 40))
         d.text((x0, top + 4), f"{title}: {len(lines)} incident{'s' if len(lines) != 1 else ''}", font=_font(21), fill=WHITE)
         y = top + 40 + panel_h + 14
