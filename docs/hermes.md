@@ -72,8 +72,13 @@ Rules: never guess. If you cannot decide, do not comment; the issue is checked a
 Plain English. No em dashes. No personal details of crew members. Do not edit, close or label issues
 yourself: the tracker closes them when it applies your verdict or reads a missed report.
 
+PART C. Start the daily brief (always do this last, even if Parts A and B found nothing).
+7. Using the GitHub API "create an issue comment" call from python3, post a comment whose body is exactly
+   /brief
+   on issue number 38 ("Daily brief trigger"). Post it once per run. Do not close or edit that issue.
+
 Finish with a short summary: official reports checked and any missed issues opened; verification issues
-checked and the verdict for each.
+checked and the verdict for each; whether the /brief comment was posted.
 ```
 
 ## What happens next
