@@ -1,0 +1,21 @@
+name: Start daily brief (Hermes)
+
+# GitHub's own schedule ran the brief up to 6 hours late. Hermes runs on time on the VPS and,
+# at the end of its morning run, comments /brief on the pinned "Daily brief trigger" issue.
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  actions: write
+
+jobs:
+  start:
+    if: contains(github.event.issue.labels.*.name, 'brief-trigger') && startsWith(github.event.comment.body, '/brief') && github.event.comment.author_association == 'OWNER'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Let Hermes's verdict runs finish first
+        run: sleep 240
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run daily-brief.yml -R "$GITHUB_REPOSITORY" -f only_if_missing=true

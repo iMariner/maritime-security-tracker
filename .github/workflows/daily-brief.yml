@@ -18,6 +18,10 @@ on:
         description: "Send the Telegram approval message"
         type: boolean
         default: true
+      only_if_missing:
+        description: "Do nothing if today's brief already exists (used by the Hermes trigger)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -41,10 +45,10 @@ jobs:
           cache: pip
       - name: Skip if today's brief already exists
         id: guard
-        # GitHub can start a scheduled run late or twice; a manual run always goes ahead.
+        # A scheduled or Hermes-triggered run stops if today's brief exists; a plain manual run always goes ahead.
         run: |
           f="data/briefs/$(date -u +%Y-%m-%d).json"
-          if [ "${{ github.event_name }}" = "schedule" ] && [ -f "$f" ]; then
+          if { [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.only_if_missing }}" = "true" ]; } && [ -f "$f" ]; then
             echo "Today's brief already exists ($f); nothing to do."
             echo "skip=true" >> "$GITHUB_OUTPUT"
           fi
