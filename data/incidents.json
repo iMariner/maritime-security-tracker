@@ -1,6 +1,56 @@
 [
   {
     "region": "Black Sea",
+    "date_utc": "2026-10-04",
+    "summary": "Russia's defence ministry said its drones struck a general cargo vessel carrying military cargo for Ukrainian forces as it headed to Odesa port. TASS reported the claim; no vessel name, flag or damage details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 46.49,
+    "lon": 30.74,
+    "location_text": "at sea east of Odesa, en route to Odesa port, Ukraine",
+    "attack_type": "drone (UAV)",
+    "damage": "vessel struck",
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry claimed it",
+    "independent_evidence": false,
+    "id": "INC-20261004-001",
+    "sources": [
+      {
+        "url": "https://t.me/tass_agency/398690",
+        "source": "TASS",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-04T05:34:11+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/67916",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-04T05:32:10+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-10-04T06:22:52Z",
+    "last_updated": "2026-10-04T06:22:59Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261002-004",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
     "date_utc": "2026-10-03",
     "summary": "Russian forces struck a Liberian-flagged civilian cargo vessel in a port in Odesa region on 3 October, according to the Ukrainian Sea Ports Administration. One motorman was killed, three crew were injured and 13 were evacuated; ZN.ua reported the strike was carried out by a kamikaze drone.",
     "official_source_cited": "АМПУ (Ukrainian Sea Ports Authority)",
@@ -632,10 +682,28 @@
         "kind": "verification",
         "published_at": "2026-10-04T04:34:31Z",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNb0czZGp3c280bnowcElfRUVDMDNfTXJDWldLcFphMnJOMW00OTZpYXczRlhLWWVGbm1ZdXRBcVNOQV9pWXZLTnV6dE51ZXNYdmduWTNRanFIZkU2WFN1ZWJSakYtRFp6REhEMDd1NkhXM0lpQndmQTZ6a2ZkYkV1bl8tQ1lSal9HeHZsR3FKQTl3dEpGUzJVa0pQcDNnclJUTzJvaEF1SlFsNTF4aHNBUmsxeG01ZVN5bUE?oc=5",
+        "source": "АНТИКОР",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T12:43:55Z",
+        "title": "Civilian vessel attacked in Odesa port: crew member killed, three injured • ANTIKOR portal - АНТИКОР"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObk1EdmdOT3o1YnBMRWt4WmE4UmpTNExPU3E0ejR6TzNERmFyRktKUmIyaThveG9CTG9peEpBcHMybkt1b0NTVEhDbDZZbmpqc0hRazhmYlBXcnZqTURNR3JxRVByeHpVTTVWR3VPX0FhdUJnYnZwbldZLUpROGZPS1loWDJ1aU1LSXc4WHAyUmhzaTNQSkRUaEp6X2FKWXE3Y2I5X1dYWFFWNC1BNTJEdFl3bzZ4emROSnfSAb8BQVVfeXFMUGttay10aHpnYzhFcUwzb0V5Zk9hS0RQeF9sQk5rcEQybzIxQUROWnpjVVNuUnVJcFAyenJRVWpRNWg0ZXpZelJSU1FoMmRXbi0xOGQySHl4azlPNVdFSlZQSFJFX01FLWhxbmNDQzJMUVZrUVNOeFdWQVBQQzlpQjdSX0k4aWJ5VGR2SE1DNHdQNjhaU3hpVThGaXRGVnRJMTZQT1A5V21oTHVlWWhJN1VCcXVmWlVqU0VjMHhaVWM?oc=5",
+        "source": "From-UA",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T12:07:00Z",
+        "title": "Один загиблий, троє поранених: Росія атакувала вантажне судно під прапором Ліберії - From-UA"
       }
     ],
     "first_seen": "2026-10-03T11:35:20Z",
-    "last_updated": "2026-10-04T04:34:31Z",
+    "last_updated": "2026-10-04T06:22:58Z",
     "verification_issue": 31,
     "verdict": {
       "status": "confirmed",
@@ -1326,7 +1394,7 @@
     "summary": "A Turkish ship was attacked in the Black Sea, and an Albanian engineer aboard is reported missing. No vessel name, attacker or further details were given.",
     "official_source_cited": null,
     "conflicting": false,
-    "confidence": 0.6,
+    "confidence": 0.7,
     "vessel_name": null,
     "imo": null,
     "flag": "Turkey",
@@ -1350,10 +1418,19 @@
         "kind": "media",
         "published_at": "2026-10-02T19:34:40Z",
         "title": "Attack on Turkish ship in the Black Sea, Albanian engineer disappears (NAME) - Gazeta Sot"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNHdoWnVNb19mcWR4RllOSkVVOWhMa3lLcTdxM0R1dEJHTUtnbGtoTG02cE5LNmFleFZ4cUVIN1hoWXh5WF81d0FYSHozbVNwVTlock52dUxHdGRTbV9MV0tGUERudVB4OWpScDMzVU1pVzd2WmRfYWJWY3FnWU5kWXBoZWFiMGl6bnlqZlBacTBmSjN2b01mZDBncHlXOUFoV3k3ejlxMmZ6NmhrRjVUbHNvT3hvX2s?oc=5",
+        "source": "kosovarja-ks.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T12:09:27Z",
+        "title": "Albanian sailor disappears. Nica was on Turkish cargo ship that was attacked by fears in the Black Sea - kosovarja-ks.com"
       }
     ],
     "first_seen": "2026-10-03T22:07:25Z",
-    "last_updated": "2026-10-03T22:07:25Z",
+    "last_updated": "2026-10-04T06:22:58Z",
     "verification_issue": 37,
     "verdict": null,
     "published_in": [],
@@ -1582,7 +1659,7 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-10-02",
-    "summary": "Russia's defence ministry claimed its drones struck a general cargo vessel in the Black Sea carrying military and dual-use cargo toward Odesa, and separately said it hit a vessel used for military cargo at Chornomorsk port. A Turkish-language report described new Russian attacks on Ukraine that struck a data centre, a ship and the Southern Bridge, and the claims have not been independently confirmed.",
+    "summary": "Russia's defence ministry claimed its drones struck a general cargo vessel in the Black Sea carrying military and dual-use cargo toward Odesa, and separately said it hit a vessel used for military cargo at Chornomorsk port. A later TASS report repeated the claim that drones struck a general cargo vessel carrying military cargo for Ukrainian forces as it headed to Odesa port.",
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.7,
@@ -1825,10 +1902,28 @@
         "kind": "media",
         "published_at": "2026-10-03T16:44:28Z",
         "title": "الدفاع الروسية: استهداف سفينة شحن بميناء أوديسا تنقل معدات عسكرية إلى أوكرانيا - الهيئة الوطنية للإعلام"
+      },
+      {
+        "url": "https://t.me/tass_agency/398690",
+        "source": "TASS",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-04T05:34:11+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/67916",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-04T05:32:10+00:00",
+        "title": null
       }
     ],
     "first_seen": "2026-10-02T14:00:03Z",
-    "last_updated": "2026-10-03T18:50:11Z",
+    "last_updated": "2026-10-04T06:22:59Z",
     "verification_issue": 24,
     "verdict": {
       "status": "claimed",
@@ -2077,10 +2172,19 @@
         "kind": "media",
         "published_at": "2026-10-02T16:05:28Z",
         "title": "Tanker struck by unknown projectile in Strait of Hormuz: UK maritime agency - usmuslims.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRExzX0lIX2otMm1aTk93dVpKNlZELUpOblp3b25lbXprNGF5MWhqZFFjVXcxS3VzeVY2QW9HWWxOLXRqSjE5LTdTZGU5eUZkb25JNHoyQmdpN3RjbFNlU2NEYWtLN3U3a25qS2tzS3dYMmNIaFp5aFJvQWhGMnVLbnU5LWhOa0VmeUh6aFIzZG1YSkZrWDljemEyM1BFcWt1YUFwM1o5T0dMd1NPQTNnNVhpWUxMM0VSUkRHMmh3YlJpTjV6RWR3ZjA3TmhfaVQtV0YxUzAwMUZDaUZKcU92ag?oc=5",
+        "source": "rivieramm.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-02T15:40:39Z",
+        "title": "Kuwait-flagged VLCC, Panama-flagged tanker reported hit in Strait of Hormuz, with fires on board - rivieramm.com"
       }
     ],
     "first_seen": "2026-10-02T15:36:10Z",
-    "last_updated": "2026-10-02T20:41:37Z",
+    "last_updated": "2026-10-04T06:22:58Z",
     "verification_issue": 25,
     "verdict": {
       "status": "reported",
@@ -3633,10 +3737,46 @@
         "kind": "media",
         "published_at": "2026-10-03T12:50:00Z",
         "title": "Five Indian nationals rescued from Strait of Hormuz after vessel struck by projectile: MEA - The Statesman"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMGFKWWFJSVk2OGdhZnVhRWo3OHA1azdxMjhtY1BZdEhxT190M3hvNm1FSUhBblVjTlFNemRmUVcxeUMxNDktUThYTHdBQzVTdlhDaDVLNTY4RWQ3ejdJTjJCWmdzbXJIeUEzeThaRWJhSzAtNUE4MmllbTgwRGVJYm5JZXBMUGlidmdybEhaZEw1Nm5qV0xFV0xDMnEwME9PMWVELUFn?oc=5",
+        "source": "energynow.ca",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T15:50:04Z",
+        "title": "China Confirms Attack on Oil Tanker in Strait of Hormuz Earlier This Week - energynow.ca"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWUZQaVpXXzlJMzlpTW9XLTl0OGhmYmV1UzI4b3lqM2VpY3Y0OEMwYzY3RWx1OHBCQXZfSlVqdUNXTXk5cE9NQzhaaVdJeGRpYXhxVkNkOTNlRzFpd3hBSVZ3ZTZlcFZSNl9fcFE3VmdJQ1dURlNOX3R3Nk1hZC11b1AzWEdabjd4dXpHbkJya21pZmZtcmF2Tlc3OG91NEdjTnQ3ay1USHlIekNTQ0xVOFVyMNIBuwFBVV95cUxPOGl6N3NDSFlickFaYXZmSFdua2tuSnNJOVBDVTIyVW5BaVJBNnJ1TnhLU0IxbXhfMDJMSnAzRnFoTTNsbk5PaHdXRGlTLW0tR25jYnZoZnBjRmxrZ2hFTXVoQkExQWtwWHQ5cjF4QVBFcG5CWHRGRkNSNW9KNnhoaklZSkdCLTBTaHBlYmNnSS1FZjIxc0VOUjJaOHRhVEM4dnQwS0dPN3B1YUFWRWxCYlk3Rkx1Z291NDB3?oc=5",
+        "source": "NDTV",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T02:34:41Z",
+        "title": "5 Indians Rescued After Kuwait-Flagged Tanker Struck In Strait Of Hormuz - NDTV"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5ieHFJT0JaV3RpR2ppUEZDQ3ZOanZlMmRMUURCMjJYVTB4MUdOMVR6YlY1TTE4V0VYWHVGMEVHalFJdkhCTm9GNFRhSm4?oc=5",
+        "source": "iranintl.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-02T16:11:21Z",
+        "title": "Another tanker hit by projectile in Strait of Hormuz, UKMTO says - iranintl.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRExzX0lIX2otMm1aTk93dVpKNlZELUpOblp3b25lbXprNGF5MWhqZFFjVXcxS3VzeVY2QW9HWWxOLXRqSjE5LTdTZGU5eUZkb25JNHoyQmdpN3RjbFNlU2NEYWtLN3U3a25qS2tzS3dYMmNIaFp5aFJvQWhGMnVLbnU5LWhOa0VmeUh6aFIzZG1YSkZrWDljemEyM1BFcWt1YUFwM1o5T0dMd1NPQTNnNVhpWUxMM0VSUkRHMmh3YlJpTjV6RWR3ZjA3TmhfaVQtV0YxUzAwMUZDaUZKcU92ag?oc=5",
+        "source": "rivieramm.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-02T15:40:39Z",
+        "title": "Kuwait-flagged VLCC, Panama-flagged tanker reported hit in Strait of Hormuz, with fires on board - rivieramm.com"
       }
     ],
     "first_seen": "2026-10-02T13:59:47Z",
-    "last_updated": "2026-10-04T00:37:47Z",
+    "last_updated": "2026-10-04T06:22:58Z",
     "verification_issue": 26,
     "verdict": {
       "status": "confirmed",
