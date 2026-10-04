@@ -614,15 +614,39 @@
         "kind": "media",
         "published_at": "2026-10-03T18:34:46Z",
         "title": "Російські війська атакували цивільне судно під прапором Ліберії в порту Одеської області, загинув моряк - Ukr.net"
+      },
+      {
+        "url": "https://www.reuters.com/world/russia-hits-liberian-flagged-ship-ukraines-odesa-port-kills-one-2026-10-03/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-04T04:34:31Z",
+        "title": null
+      },
+      {
+        "url": "https://www.kyivpost.com/post/86032",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-04T04:34:31Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-03T11:35:20Z",
-    "last_updated": "2026-10-04T00:37:47Z",
+    "last_updated": "2026-10-04T04:34:31Z",
     "verification_issue": 31,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "iMariner",
+      "at": "2026-10-04T04:34:31Z",
+      "note": "Ukraine's Sea Ports Administration reported that a Russian strike hit a Liberian-flagged cargo ship at an Odesa region port on 3 October, killing one crew member and injuring three, and Reuters and other independent outlets corroborate the attack.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/31#issuecomment-5976605496"
+    },
     "published_in": [],
-    "status": "reported",
-    "status_changed_at": "2026-10-03T11:35:24Z",
+    "status": "confirmed",
+    "status_changed_at": "2026-10-04T04:34:31Z",
     "position_approx": true,
     "date_approx": false
   },
@@ -989,7 +1013,7 @@
     "confidence": 0.6,
     "vessel_name": null,
     "imo": null,
-    "flag": "Turkey",
+    "flag": "Liberia",
     "vessel_type": "bulk carrier",
     "vessel_category": "merchant",
     "lat": 43.4,
@@ -1019,15 +1043,40 @@
         "kind": "media",
         "published_at": "2026-10-03T10:12:40Z",
         "title": "Albanian sailor disappears. Nica was on Turkish cargo ship that was attacked by fears in the Black Sea - Periskopi"
+      },
+      {
+        "url": "https://www.reuters.com/world/russia-hits-liberian-flagged-ship-ukraines-odesa-port-kills-one-2026-10-03/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-04T04:34:29Z",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRHJ6ZmlmZThxNU5HeUQtSzMxMXBxeUUtOUZtZEZkVGh0c2pxNHpTMkgtU3lCLUI1QzRRUEVNV0dXWkU3SDJtRUFJVl9Sa0d2TGx5QUVDUlA0T2VpYklYWGduZnVhbjM2NHFXSzFlNGJjR0JkdUVpNnp3QjFzalJ3SUJMVUdqSVZwUC1aRE9vdHdMRU9vNlNaa0F1RzBOQQ?oc=5",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-04T04:34:29Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-03T15:14:59Z",
-    "last_updated": "2026-10-03T15:15:28Z",
+    "last_updated": "2026-10-04T04:34:29Z",
     "verification_issue": 33,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-04T04:34:29Z",
+      "note": "The cited Turkish headline from STAR Haberler describes the same 3 October strike on the Liberian-flagged cargo ship at an Odesa region port that is already recorded as INC-20261003-001, not a separate Turkish-flagged dry cargo vessel, so this record is a duplicate.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/33#issuecomment-5976605569"
+    },
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-10-04T04:34:29Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -1195,15 +1244,40 @@
         "kind": "media",
         "published_at": "2026-10-03T11:56:38Z",
         "title": "Iran targets Hormuz ships with 360 missile, drone strikes - Bankingnews"
+      },
+      {
+        "url": "https://www.bankingnews.gr/diethni/articles/903089/iran-targets-hormuz-ships-with-360-missile-drone-strikes",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-04T04:34:26Z",
+        "title": null
+      },
+      {
+        "url": "https://www.ukmto.org/-/media/ukmto/products/update-101-jmic-advisory-note-01-october.pdf?rev=806c994dad3f40068dca1cc3f081c07",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-04T04:34:26Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-03T18:50:22Z",
-    "last_updated": "2026-10-03T18:50:22Z",
+    "last_updated": "2026-10-04T04:34:26Z",
     "verification_issue": 35,
-    "verdict": null,
+    "verdict": {
+      "status": "reported",
+      "by": "iMariner",
+      "at": "2026-10-04T04:34:26Z",
+      "note": "The New York Times, cited by bankingnews, reports roughly 360 Iranian drone and missile attacks on shipping around the Strait of Hormuz since early August, a cumulative tally from an unnamed Western official rather than a single strike, although UKMTO and JMIC do confirm repeated Iranian attacks on vessels.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/35#issuecomment-5976605760"
+    },
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "reported",
+    "position_approx": true,
+    "status_changed_at": "2026-10-04T04:34:26Z"
   },
   {
     "region": "Black Sea",
@@ -2438,15 +2512,40 @@
         "kind": "media",
         "published_at": "2026-10-02T08:47:55Z",
         "title": "BAE'ye ait üç tanker Hürmüz Boğazı'nda saldırıya uğradı - Malatya Güncel"
+      },
+      {
+        "url": "https://www.dawn.com/news/2034220/uae-linked-tankers-hit-in-hormuz-were-on-pgsas-non-compliance-list",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-04T04:34:28Z",
+        "title": null
+      },
+      {
+        "url": "https://en.mehrnews.com/news/248240/3-UAE-owned-tankers-hit-after-breaching-Hormuz-rules",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-04T04:34:28Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-03T15:15:32Z",
-    "last_updated": "2026-10-03T15:15:32Z",
+    "last_updated": "2026-10-04T04:34:28Z",
     "verification_issue": 34,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-04T04:34:28Z",
+      "note": "The only sources restate Iran's PGSA statement about the 28-29 September attacks on the UAE-linked tankers Al Ruwais, Sinbad and Mersin Prosperity that UKMTO and JMIC already record, so this is a mis-dated duplicate with no new attack on 2 October.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/34#issuecomment-5976605671"
+    },
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-10-04T04:34:28Z"
   },
   {
     "region": "Black Sea",
@@ -2478,15 +2577,40 @@
         "kind": "media",
         "published_at": "2026-10-02T08:12:58Z",
         "title": "Ukrainian drone attack on Russia’s Tuapse port kills two, including teenage girl, hits oil tanker - ddnews.gov.in"
+      },
+      {
+        "url": "https://www.reuters.com/world/europe/two-children-dead-russias-tuapse-port-area-hit-ukrainian-drone-attacks-governor-2026-04-16/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-04T04:34:25Z",
+        "title": null
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/2026_Tuapse_oil_terminal_attack",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-04T04:34:25Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-03T18:50:25Z",
-    "last_updated": "2026-10-03T18:50:25Z",
+    "last_updated": "2026-10-04T04:34:25Z",
     "verification_issue": 36,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-04T04:34:25Z",
+      "note": "The cited item describes the 16 April 2026 Ukrainian drone attack on Tuapse that killed two people including a teenage girl and hit an oil tanker, not an event on 2 October, and the 2 October Tuapse drone strike caused only minor damage with no deaths, so this is a mis-dated duplicate.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/36#issuecomment-5976605832"
+    },
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-10-04T04:34:25Z"
   },
   {
     "region": "Strait of Hormuz",
