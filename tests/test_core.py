@@ -265,3 +265,12 @@ def test_quality_report_flags_gaps():
     q = quality_report(brief, incs)["checks"]
     assert q["official coverage"].endswith("MISSING") and "TOO LONG" in q["tweet"] and q["dashes"] == "1 found"
     assert "without a named source" in q["attribution"]
+
+
+def test_image_label():
+    from tracker.image import label
+    assert label({"vessel_name": "KAZIMAH III", "vessel_type": "tanker", "location_text": "Strait of Hormuz"}) == \
+        "KAZIMAH III (tanker), Strait of Hormuz"
+    assert label({"vessel_type": "general cargo", "flag": "Liberia", "location_text": "Odesa region, Ukraine"}) == \
+        "General cargo ship (Liberia), Odesa region"
+    assert label({"region": "Red Sea"}) == "Unnamed ship, Red Sea"

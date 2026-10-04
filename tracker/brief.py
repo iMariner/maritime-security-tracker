@@ -341,10 +341,8 @@ def publish(brief: dict, image: Path) -> dict:
     record_path = BRIEFS_DIR / f"{brief['date']}.json"
     record = read_json(record_path, {})
     mode = env("PUBLISH_MODE", "draft")
-    if record.get("media_id") and record.get("image_url"):
-        media_id, image_url = record["media_id"], record["image_url"]
-    else:
-        media_id, image_url = wp.upload_image(image, f"Map of {brief['title']}")
+    # a fresh upload every run: a same-day rerun can carry different incidents
+    media_id, image_url = wp.upload_image(image, f"Map of {brief['title']}")
     brief["html"] = with_map(brief["html"], image_url, brief["day_label"])
     post = wp.upsert_post(record.get("post_id"), {
         "title": brief["title"], "content": brief["html"], "excerpt": brief["excerpt"], "status": mode,
