@@ -429,11 +429,44 @@ def notify_n8n(record: dict) -> None:
     log.info("n8n webhook -> %s", resp.status_code)
 
 
+def refresh_image(day: str) -> None:
+    """Redraw the map for a brief already on WordPress and swap it into the post (inline and featured).
+    Text and status are left exactly as they are."""
+    from datetime import datetime, timezone
+
+    from .wordpress import WordPress
+
+    record_path = BRIEFS_DIR / f"{day}.json"
+    record = read_json(record_path, {})
+    if not record.get("post_id") or not record.get("image_url"):
+        raise SystemExit(f"No published brief with an image for {day}")
+    by_id = {i["id"]: i for i in store.load()}
+    chosen = [by_id[i] for i in record.get("incident_ids", []) if i in by_id]
+    image = render(datetime.fromisoformat(day).replace(tzinfo=timezone.utc), chosen, OUT / f"brief-{day}.png")
+    wp = WordPress()
+    post = wp._req("GET", f"/posts/{record['post_id']}", params={"context": "edit"})
+    content = post["content"]["raw"]
+    if record["image_url"] not in content:
+        raise SystemExit(f"The post does not contain the recorded image {record['image_url']}; nothing changed")
+    media_id, image_url = wp.upload_image(image, f"Map of {record.get('title', 'the brief')}")
+    # only fields that change: the post keeps its title, text and status
+    wp._req("POST", f"/posts/{record['post_id']}", json={
+        "content": content.replace(record["image_url"], image_url), "featured_media": media_id})
+    record.update(media_id=media_id, image_url=image_url)
+    write_json(record_path, record)
+    log.info("Post %s now uses %s", record["post_id"], image_url)
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--preview", action="store_true")
     ap.add_argument("--notify", action="store_true", help="only send today's saved brief to n8n")
+    ap.add_argument("--refresh-image", metavar="YYYY-MM-DD", help="redraw the map of a published brief and swap it in")
     args = ap.parse_args()
+
+    if args.refresh_image:
+        refresh_image(args.refresh_image)
+        return
 
     if args.notify:
         record = read_json(BRIEFS_DIR / f"{now_utc().date().isoformat()}.json", {})
