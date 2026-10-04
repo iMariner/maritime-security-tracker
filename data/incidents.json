@@ -195,6 +195,55 @@
   },
   {
     "region": "Black Sea",
+    "date_utc": "2026-10-04",
+    "summary": "Russia's defence ministry said its Geran-4 seeker UAVs struck general cargo vessels in the Bug estuary used to deliver military cargo for Ukraine's armed forces. No vessel names, flags, damage or casualties were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Bug estuary (Buzkyi Lyman), Ukraine",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry claimed it",
+    "independent_evidence": false,
+    "id": "INC-20261004-004",
+    "sources": [
+      {
+        "url": "https://t.me/mod_russia/67942",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-04T15:52:49+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/rian_ru/347396",
+        "source": "RIA Novosti",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-04T15:22:21+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-10-04T17:34:59Z",
+    "last_updated": "2026-10-04T17:35:03Z",
+    "verification_issue": 40,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
     "date_utc": "2026-10-03",
     "summary": "Russian forces struck a Liberian-flagged civilian cargo vessel in the Odesa region on 3 October, according to the Ukrainian Sea Ports Administration, killing one motorman and injuring three crew. A separate report described a Russian attack on a civilian vessel at Chornomorsk in the Odesa region that killed a sailor, which appears to be the same strike.",
     "official_source_cited": "АМПУ (Ukrainian Sea Ports Authority)",
@@ -862,10 +911,19 @@
         "kind": "media",
         "published_at": "2026-10-04T04:40:00Z",
         "title": "Росія атакувала цивільне судно в Чорноморську — загинув моряк - Одесса News"
+      },
+      {
+        "url": "https://t.me/mod_russia/67942",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-04T15:52:49+00:00",
+        "title": null
       }
     ],
     "first_seen": "2026-10-03T11:35:20Z",
-    "last_updated": "2026-10-04T12:51:12Z",
+    "last_updated": "2026-10-04T17:34:59Z",
     "verification_issue": 31,
     "verdict": {
       "status": "confirmed",
@@ -2106,10 +2164,46 @@
         "kind": "media",
         "published_at": "2026-10-04T07:01:01+00:00",
         "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/67942",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-04T15:52:49+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mash/78319",
+        "source": "Mash",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-04T14:12:05+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/67930",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-04T13:57:39+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/rian_ru/347391",
+        "source": "RIA Novosti",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-04T13:55:27+00:00",
+        "title": null
       }
     ],
     "first_seen": "2026-10-02T14:00:03Z",
-    "last_updated": "2026-10-04T12:51:10Z",
+    "last_updated": "2026-10-04T17:35:03Z",
     "verification_issue": 24,
     "verdict": {
       "status": "claimed",
