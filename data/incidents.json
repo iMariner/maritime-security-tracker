@@ -250,12 +250,36 @@
         "kind": "media",
         "published_at": "2026-10-04T15:12:12Z",
         "title": "Tanker in Strait of Hormuz struck by projectile but crew reportedly safe, British maritime agency says - The Times of Israel"
+      },
+      {
+        "url": "https://www.ukmto.org/-/media/ukmto/products/20261004-ukmto_warning-150-26.pdf?rev=43836604169a4c4496023c1c229e0701",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-05T04:34:38Z",
+        "title": null
+      },
+      {
+        "url": "https://ukmto.org/-/media/ukmto/products/update-102-jmic-advisory-note-04-october.pdf?rev=19ed7005d1134f6c8c811271824cf646",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-05T04:34:38Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-04T12:50:55Z",
-    "last_updated": "2026-10-04T23:35:44Z",
+    "last_updated": "2026-10-05T04:34:38Z",
     "verification_issue": 39,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "iMariner",
+      "at": "2026-10-05T04:34:38Z",
+      "note": "UKMTO warning 150-26 dated 04 October 2026 reports a tanker struck by an unknown projectile in the Strait of Hormuz with damage to the engine room.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/39#issuecomment-5988170217"
+    },
     "published_in": [],
     "status": "confirmed",
     "position_approx": true,
@@ -499,12 +523,36 @@
         "kind": "media",
         "published_at": "2026-10-04T07:36:25Z",
         "title": "هجوم يستهدف ناقلة نفط جنوب المخا - sahafatak.net"
+      },
+      {
+        "url": "https://www.ukmto.org/-/media/ukmto/products/20261004-ukmto_warning_151_26.pdf?rev=13fb9cf330f84ae694e403c92ac73f8b",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-05T04:34:36Z",
+        "title": null
+      },
+      {
+        "url": "https://www.aa.com.tr/en/middle-east/tanker-reports-multiple-explosions-near-vessel-off-yemen-uk-maritime-agency/4077905",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-05T04:34:36Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-04T20:25:18Z",
-    "last_updated": "2026-10-04T23:35:44Z",
+    "last_updated": "2026-10-05T04:34:36Z",
     "verification_issue": 41,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "iMariner",
+      "at": "2026-10-05T04:34:36Z",
+      "note": "UKMTO warning 151-26 dated 04 October 2026 reports multiple explosions close to a tanker 60NM south of Al Mukha, logged by UKMTO as suspicious activity with the crew safe and no damage.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/41#issuecomment-5988170375"
+    },
     "published_in": [],
     "status": "confirmed",
     "position_approx": true,
@@ -635,9 +683,9 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.6,
-    "vessel_name": null,
-    "imo": null,
-    "flag": null,
+    "vessel_name": "CAPE DAO",
+    "imo": "9219020",
+    "flag": "Antigua and Barbuda",
     "vessel_type": "general cargo",
     "vessel_category": "merchant",
     "lat": 26.55,
@@ -658,15 +706,40 @@
         "kind": "media",
         "published_at": "2026-10-04T11:57:58Z",
         "title": "مقتل بحار هندي في هجوم على سفينة تجارية في هرمز - الشرق الأوسط"
+      },
+      {
+        "url": "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/5321800-%D9%85%D9%82%D8%AA%D9%84-%D8%A8%D8%AD%D8%A7%D8%B1-%D9%87%D9%86%D8%AF%D9%8A-%D9%81%D9%8A-%D9%87%D8%AC%D9%88%D9%85-%D8%B9%D9%84%D9%89-%D8%B3%D9%81%D9%8A%D9%86%D8%A9-%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A%D8%A9-%D9%81%D9%8A-%D9%87%D8%B1%D9%85%D8%B2",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-05T04:34:34Z",
+        "title": null
+      },
+      {
+        "url": "https://www.worldports.org/1-seafarer-killed-fatal-attack-in-the-strait-of-hormuz-capesize-bulker-cape-dao-hit-by-unknown-projectile/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-05T04:34:34Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-04T20:25:33Z",
-    "last_updated": "2026-10-04T20:25:33Z",
+    "last_updated": "2026-10-05T04:34:34Z",
     "verification_issue": 43,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-05T04:34:34Z",
+      "note": "Mis-dated: the source is a 23 September article on the attack that killed a seafarer aboard the bulker CAPE DAO in the Strait of Hormuz, not an attack on 4 October.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/43#issuecomment-5988170504"
+    },
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-10-05T04:34:34Z"
   },
   {
     "region": "Black Sea",
@@ -2269,9 +2342,9 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.7,
-    "vessel_name": null,
-    "imo": null,
-    "flag": "Turkey",
+    "vessel_name": "AROYAT",
+    "imo": "9151395",
+    "flag": "Palau",
     "vessel_type": "general cargo",
     "vessel_category": "merchant",
     "lat": 43.4,
@@ -2301,17 +2374,42 @@
         "kind": "media",
         "published_at": "2026-10-03T12:09:27Z",
         "title": "Albanian sailor disappears. Nica was on Turkish cargo ship that was attacked by fears in the Black Sea - kosovarja-ks.com"
+      },
+      {
+        "url": "https://sot.com.al/english/sulmi-ndaj-anijes-turke-ne-detin-e-zi-zhduket-inxhinieri-shqiptar-emri-i5186732",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-05T04:34:40Z",
+        "title": null
+      },
+      {
+        "url": "https://caliber.az/en/post/what-remains-of-aroyat-after-ukrainian-strike",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-05T04:34:40Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-03T22:07:25Z",
-    "last_updated": "2026-10-04T06:22:58Z",
+    "last_updated": "2026-10-05T04:34:40Z",
     "verification_issue": 37,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-05T04:34:40Z",
+      "note": "Mis-dated: the described attack is the 27 September drone strike on the Palau-flagged bulker AROYAT near Novorossiysk, not an incident on 3 October.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/37#issuecomment-5988170065"
+    },
     "published_in": [
       "2026-10-04"
     ],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-10-05T04:34:40Z"
   },
   {
     "region": "Black Sea",
