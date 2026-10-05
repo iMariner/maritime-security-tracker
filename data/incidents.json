@@ -2,22 +2,22 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-10-05",
-    "summary": "A Turkish-flagged general cargo vessel with 13 crew caught fire after a reported drone attack near the Pescăruș platform off the Romanian coast on 5 October, with one dead and one missing according to Romanian media citing sources. The same incident was also reported near the Neptun Deep platform and as a cargo vessel abandoned near Odesa, with the vessel said to have departed Izmail.",
+    "summary": "A Turkish-flagged general cargo vessel was reportedly hit by a drone in the Black Sea near the Pescăruș platform off the Romanian coast on 5 October, prompting a rescue operation that recovered 11 seafarers and two deceased. Romanian officials condemned attacks on civilian ships, and Indian media reported that Indian crew members were among those killed or injured.",
     "official_source_cited": "ARSVOM (Romanian maritime rescue)",
     "conflicting": false,
-    "confidence": 0.7,
+    "confidence": 0.85,
     "vessel_name": "ROYAD MAMMADOV",
     "imo": null,
     "flag": "Turkey",
     "vessel_type": "general cargo",
     "vessel_category": "merchant",
-    "lat": 45.35,
-    "lon": 28.84,
+    "lat": 43.4,
+    "lon": 34.5,
     "location_text": "near Pescăruș platform, Black Sea",
     "attack_type": "drone (UAV)",
     "damage": "vessel on fire",
     "casualties": "13 sailors on board",
-    "attribution_claimed": null,
+    "attribution_claimed": "Russia (drone strike, per headline)",
     "independent_evidence": true,
     "id": "INC-20261005-001",
     "sources": [
@@ -146,10 +146,316 @@
         "kind": "media",
         "published_at": "2026-10-05T08:54:20Z",
         "title": "O navă a fost lovită de o dronă în Marea Neagră. Echipajul s-a autoevacuat, ambarcațiunea este în derivă - Adevărul"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSzQzZmxmSl9HelE0QUtrMUJjYkxIdFh4OGZDVUxrRFpEbk1QY3l1UnMwd3dUVHllTEZFNXVfT1JKVEVVT3RQQVozNC15YVhNZi1WajdWVFpQY1hNMnBYTld0NnRhbWpIeUNCSzY4UE1Tcm94anlrT0ZOaWdVV0J2QkVuWHAtbUdpU1dXTVhYb3FCVEdhUW1kaXU2N2djdHRpX3FDOTUzTGVaUXVqRG5sUF9yQ1F6WGREUmtjVHFfdWhZWFJnTDFrcGVvZHJSR21KLTNiZ2stSk9ZQmJnVmdNSdIB4AFBVV95cUxPSzQzZmxmSl9HelE0QUtrMUJjYkxIdFh4OGZDVUxrRFpEbk1QY3l1UnMwd3dUVHllTEZFNXVfT1JKVEVVT3RQQVozNC15YVhNZi1WajdWVFpQY1hNMnBYTld0NnRhbWpIeUNCSzY4UE1Tcm94anlrT0ZOaWdVV0J2QkVuWHAtbUdpU1dXTVhYb3FCVEdhUW1kaXU2N2djdHRpX3FDOTUzTGVaUXVqRG5sUF9yQ1F6WGREUmtjVHFfdWhZWFJnTDFrcGVvZHJSR21KLTNiZ2stSk9ZQmJnVmdNSQ?oc=5",
+        "source": "The Times of India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T19:35:00Z",
+        "title": "Two killed, Indian among injured after Russian drone hits Turkish cargo ship - The Times of India"
+      },
+      {
+        "url": "https://maritime-executive.com/article/romania-rescues-11-seafarers-and-2-deceased-from-turkish-vessel",
+        "source": "The Maritime Executive",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-05T19:29:47Z",
+        "title": "Romania Rescues 11 Seafarers and 2 Deceased from Turkish Vessel"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPb2VhN3k5dUlvcXY5RWF3MFkyTmM3UXRiR2FjN0VIYnFQbEFPeG9qTy01aEh1UXJMMk1MQ1pDM0UzSnV2ZE1hZHJ3VUxKVkNKMjNYVUZzVFB0Zll4em5CaVJkemJWYnhreEs3UFdaSW5pSG82bmNTazAyeTlSQ3dNbjBhbURsWlBPQVdPYW9ZaGFpZU5xN0p0bEpjMm1PYUN0YXdUdGZJZ1VWMEZVNzF1dHQzSWVuSG_SAboBQVVfeXFMTTd1bU9leUhxVGhkc0cyc3hCSmtQTTMxOV9tdWFQeHpVTEtQVWVUak96THlwOFJQVFNMZ3lTREEwVUl1Qll4bkJZMHlPQ2UyaFZWb1pEZHVaNnZ6Q1dGSkY0UHk2YmhIYXAwaWEyX1B4ZVZ3WXhTNmtkc1lkUmJvUUFRQmx2UXpDZFNPWTZsX3JUUXJRUWZUZ1Buel9IZ0hQeWRJcnNEMlJucFpWd2FTM2lsM2s4QjU0ZENB?oc=5",
+        "source": "Rediff",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T19:22:02Z",
+        "title": "Russian drone strike kills Turkish ship captain, Indians among those on board - Rediff"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUl9mZDBqY2pyd2I0ampiSW1EYmZfWV9Xb3ZOSFYzYVl5X2g3RXBhU3ROaW00ZllOZmV5TmRnd1ZEQmZyMDVJM2JEUk52M1kwWmVGSEN4bWp0NDgxLVVuMkFlMDVWLVlyMlItZzBWWEFMaTROX1NydUhrU0RUelFIeWUwU2IxSFBTR0xfTG9obWV3TkFFRWRwSTVaZUEwSHFYYXo2N2tLVk1aZWw3WDV2N28xcw?oc=5",
+        "source": "thehawk.in",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T19:12:58Z",
+        "title": "All three Indian nationals aboard vessel attacked in Black Sea are safe: Embassy - thehawk.in"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdUsyczJRekVuZWQ4TVdXQ0FMTjZwamtRSmVNclJSRkp5Q0dMV3VBLXo4czJ3dU5VSDVzUGlsMUhaSURQTkF3ZVFpbHZRNjQ5MlFRaWVoVENVZ3ZtQ3plTXBXVUpEbUlMdEF1UndQOGFnRVlFYk53YUhjSElBNXBZcGFfcS1Dck1SSjVlOS1BQWVacVly?oc=5",
+        "source": "Channels Television",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T18:39:34Z",
+        "title": "Two Dead After Ship Catches Fire, Sinks In Black Sea - Channels Television"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZFAxc3lDeVk2Qy1Sck13YmxNVUZEZmJDUUs0eTFSX0FUUk5VNDFnR1FEVmdZUEhzckEyXy1PV0dEemJzQ1p2OVBNYm5jNkRfVEdzdkdNMFJpQ1FGVjg4WUMwZHpYMGRqZ3ZmcXdjSnh2SFREM0FaZGFLZm0yQnI3WHpzdkgtRnc1M1gtMmRVRFVTTjhkODh3dTNVaVZsQlJtQXpwUm9KOTVHOTdncVZWREx0Vk1rbDF3TzJGTFBuU3RQOHVOd0xWYzNQenc?oc=5",
+        "source": "jurnaluldearges.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T18:28:37Z",
+        "title": "Atac în Marea Neagră, în apropierea României: o navă cu cereale s-a scufundat, doi marinari au murit - jurnaluldearges.ro"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVFNBU29EMzQwS2pvX2VIcWtfYkQ2cHRISUJYSm8tNkhyMUt0MVJEY0JDZjc1WXFxNlV0RHlXc3Y2TkJ1aXdXYnFwb2FvcjgtX1lONF9iRm5UVm50YmV3SlVoaTZRaUNfRVlqaEpVekpfeTVvX1lYSVNuUE0zRm1tSUNJd3hfMzRfekdjcV9XMHBwMWdmRmRPTDRjQk02dHRVYVdCbE01elA4U0HSAasBQVVfeXFMTlRTQVNvRDM0MEtqb19lSHFrX2JENnB0SElCWEpvLTZIcjFLdDFSRGNCQ2Y3NVlxcTZVdER5V3N2Nk5CdWl3V2JxcG9hb3I4LV9ZTjRfYkZuVFZudGJld0pVaGk2UWlDX0VZamhKVXpKX3k1b19ZWElTblBNM0ZtbUlDSXd4XzM0X3pHY3FfVzBwcDFnZkZkT0w0Y0JNNnR0VWFXQmxNNXpQOFNB?oc=5",
+        "source": "upi.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T18:16:00Z",
+        "title": "Drone strike sinks Turkish cargo ship in Black Sea - upi.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaWltZzlETjZHdjA3MXl3SWxEaDB4SlBkS3NmNUtlNXVNQmVONG1STUNWZWNXVnhhMl9HQVUxcE9seU5xRXN4a0lfMkRRekc1Qno1Z1NlY2IzbHNiT201Q2o0VWswWWRoczRkTkpMd1FmYVROalAxdkxXdG1WSVZoUjZlMGVxemdRZ0JPc2o5MFQ3Zy1URVhyZzZYUWpKUHgxRXhoc0tRUWZQcVdPS0MyWW15MWk1R3pkM0lVVWVPd2ZvQQ?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T18:08:56Z",
+        "title": "В Румынии сообщили о погибших членах экипажа затонувшего в Черном море судна - prospect.com.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQSlREWFkwNFRKdVVGS1pmelh4Qi1OVnl5RkhMTlJJdWNybkpwbFQ5enBWNWtEY1FhbTIwWmlsa3RJM3pFSG5SY1E4eVcxSXBCYklhU0ZyRFd0UDhaTW5YclJoRTJEcUZXdnNGSmllVVdWS29EaUpSUWdQOXJWQzNLbDlDMUVXT0pNZE1lemdSQVVfWDNXQmdTM1VaX01GcnZHX29EREJtdVg3ams2Rk1GTWRhOEMydjJjY2MzNFdMQTZfN1l3MmVVN2dBaW9sUkV5MWxmQ2FnSDBIbHdxbE1leVVlamljZEpDeFM3MmNuNTZ5MXF1OU1OLXJGSHBsbE1IUlQzNmRndzlOOWo0Tkw3Q0RMODVFRVdOZ3c2Y9IBogJBVV95cUxPeWlGX0V2OGQza2YyUFpYN2MzanJCRDVUa3JsRUNwbWVmSFo2ZDgxUU9HMDFZRkJOZzZRNklfaGFqQnR2ZVE2dHlla1p6elQtM0FCR0FGbjhUU2IteHBTNW16eVA1bk80UUJRclBDUzNrZVZJYWdvYl90SVJUcnViWFZEU2lxaS1BN0ZDMGN3Sk1Ec0NFcEc1UTFoMmZTWDB3UW9RenNkcjhtYUlCV2hBRXM0alNFQ2FGaEZjU0NOT2Z5a3p0aDZPY0VWVFMzdWRnRDBMOWxDUkxmVjdnTjlzSFVLdEtXdlhEVENlOUpvZmowbjRtSUVQNXpDa05mVjVLdWpmX2xDMHpVNzFfX2VZNWRkTTBoME8yS1ltcEhGaDl0Zw?oc=5",
+        "source": "Mediafax",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T18:05:36Z",
+        "title": "O navă lovită de o dronă plutește în derivă în Marea Neagră. Unul dintre marinari… - Mediafax"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcGJCNHJ4SzVYS0ItQnFaQkcwa2J4MUFTQURUMWp1WjRzOGRqY3U0WHNBT0ZHRVVURTZyb2cxY3BkbEI0endBRE84R2MwblVOSlk3WS1LcmdsTGxDeVYtVm5YbDVidTBQWTQ1RG5Va25HSkNuVUh3eGZhel9tR2pfeHpoNzdtN3kyQ2xjZWp6eWwyN2NHSDRNVzR0Z3ZRSHc?oc=5",
+        "source": "The Citizen",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T18:02:44Z",
+        "title": "Two dead after ship catches fire and sinks in Black Sea - The Citizen"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONkdtbjROUmZZeGxEZ24wYkFoSkxDWDRrak1ZeGlhYWpReDJuQnQ3aldrZzVnS3BoMU9WSDM0NlFvdDdFanlzV1B2dDlIcEV2YVU3ejBzOE8wTlNZMXh2V3Z4R3NvbUpPS1dIYjFOWTBMUDJSWDJzS3dRWkJ3ZWU2YmZfanZSbXI0X1Y5ZkxDYw?oc=5",
+        "source": "EUalive",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T17:45:35Z",
+        "title": "Grain ship sinks off Romania after drone strike near gas platform - EUalive"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9SMTNQbW5EQnpmVkEzUnIxUGJFcmEyRmtHaVlLTDVXeTAyYzlUcm1TTGw3NnFhWnVlLTYzby0tVjZpWE1hRmhaWWo2dw?oc=5",
+        "source": "theins.press",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T17:36:33Z",
+        "title": "Two dead as Turkish-operated cargo ship carrying Ukrainian grain sinks off the coast of Romania after drone attack - theins.press"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeDRLWlpPX2hWWXVCTFMyNk5nRUlrc1Eya2RoYWxRSTQ5X3NDbEdsS1l0eEUxUXVtNmFaejNJbWdaSlhSSmZxMVhrUlhmUjNQNFh5T05FQTlZUTdodXQxdmJFMkVwQWZNQ3lvTGJWQXg2Q1pxV1hzUFlEdWpUNzFfQzVOQ0NFLUdkMFNxYW1ySVVIelNqVTJTV0d4RFE5OEFfcFNsTWhleXRpV3UzUi1KU1hxazNxZw?oc=5",
+        "source": "Atac de Constanta",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T17:36:25Z",
+        "title": "Nava lovită de dronă în Marea Neagră va fi adusă în Portul Midia. Doi marinari au murit - Atac de Constanta"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPU3pFaGxETURlQkRGVG9IUUNaM0NkTWZjZWsyRHg0bFJnbTNQdDgzdkxlRTU3UzBrX3N1dlNWS1hldktabGJwaXlGMGdvQnIzSlZFNVJJc2Eydy02aTR4V0lZMVRPeE9SeW9QeVdOSnhocUNLQnVObHNmZi1qOVVxNVF3T1liay0zRzBrc0FCVklCZWptUnA2R0RONUVxMlhRMTEw?oc=5",
+        "source": "Katherine Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T17:32:39Z",
+        "title": "Ukraine blames Russia for attack on ship off Romania - Katherine Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNU5Pa2gxcTBNZlEtakhFdGt6a3dPN280Q2dxaUtXTnoxRzNjZUdxVV94cjdJNDRCb2psbS0yWktZYnJDMEJsSkM4dGdxV2hnd0lDUk5JejhCVUZ3dlBseWVuMTIwdXd4LWFjLVdodGNQUUdmT3FoUDY0eTVCZ0dFek5RN1dVWUdtZjBFR01QWWVrVHhnWW9ybzBLQzI0MVVpWGxrUlFUNTdyZw?oc=5",
+        "source": "merimbulanewsweekly.com.au",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T17:31:42Z",
+        "title": "Ukraine blames Russia for attack on ship off Romania - merimbulanewsweekly.com.au"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORTBxZmN1TkhrWkk2RnJoeXF0UXV6d0JNVFJ2MS0zUnNIOFNUbC14czJjbDdOOEF4RFpqVGhmaVJtSmhUVWlIMm9YbjBMM1dCakxQX1BDQkx3QVNCUzNOeEE5MG9mVkREZzFoajc5YXByUFZqd1d4UjlFX3ZWZmJHQk1pNmREa0VwS0tnd3FNRmk5Qm1OQ2ViaWdzaVRnMkEwSFdhTEhB?oc=5",
+        "source": "Illawarra Mercury",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T17:31:24Z",
+        "title": "Ukraine blames Russia for attack on ship off Romania - Illawarra Mercury"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxONHVZLVltM2dSVUVGdGI1V2xwNFEwS3BVSXo3Y1NUWnkwRjRQanVkd1FWVWt0SV9Wb1FKRVVFU1Z1Vmt3LVE1cXlyN1VEVmsxZi1pTzREd1VVTWVtdzl1ZlFKNlFTQlAxM2NCR05wRHByVUVsY3EyM0o1ZnVtU1dwSUx0c1dIbmd6LVN1VVBIbVR1YmhaRzk5c0xqdGxucTBheFFvRWMxZzVTQ1hLZFdZbzhaaVp6eXpwdXAzc3FuWDRxZHdHZWJZYjRaZUhPcUN2dFhneFFVN1BGY1pJM1B2TTFvdFDSAeQBQVVfeXFMTWRXWnpqQ2dQSE9TQURkSDNxd2swTE14aGxaOEpsZllESExZNVdqWlRpc1ZiSkVsZjhLTXI2V2ZBVTMxTDlBSUZLRElwU29SZGlOTVRHR3BEREozRFEydm1VcDBlNFYxRVBITG15TlNOTDAxS2lqN0FxV2pHYkN1YzEtakxCYnhYTzdITU9iZ0NTNXNCcjNYUXR4akJKTDRtUzA4UFlVUnRDdWtxMFcwMXdXcEoyQVJabWZZRlVfa211b284VkdpR1Q3a05oUjRkdUw3enZ5UWk0c0Fldk1ReElRRnU2?oc=5",
+        "source": "dw.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T17:26:20Z",
+        "title": "Karadeniz'de Türk gemisi Rusya'nın İHA saldırısı sonucunda mı battı? - dw.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbjdQRldaWE5RLVMwdGtocVFrZzZrX1lpVG5UUFhkTFpvVWpkdldaYmhPcmd6Z0lNVk1QdHgydXVDcHB4WXczQlVMY1RsRWxac25Sc25wcmozZXFVZmdURDJRV1Fmd3ROMG5saVkxRVNYNjE1cE9lenNFWEk1UHhOOE9mNnNhc3cwTTBLRg?oc=5",
+        "source": "aapnews.aap.com.au",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T17:22:26Z",
+        "title": "Ukraine blames Russia for attack on ship off Romania - aapnews.aap.com.au"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9DVFZ4ZkM0dUdDMHNCcE1rZVVxTFFZU19yOExFY1hTNFJfWDZ4VTJzZTEyRFpEN2EtWl9mbndVbS0zNG0zTEMwSEI2TXlNUkZfQXNqVDIzdmpyVkFsNkxnc1NR0gFnQVVfeXFMT2ZFRDBScW1HdlUyRlRBMFdUalRHUHp3azFsLVZ5XzVrVmduOWtZb3BhWmxjVzNqa19haEd5Qnk4UW9ib2JvalBvckVUam8yZDJlWngzd3ItMUdVR1FnRVdrZUIyeG81WQ?oc=5",
+        "source": "Interfax-Ukraine",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T17:21:51Z",
+        "title": "Sybiha calls Russian attack on Turkish vessel particularly cynical given Turkey's peace efforts - Interfax-Ukraine"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWkVYUGRxNWxMeG1ScmgxT2luemxkSzRMcWhFaW9oRzdTdERjeFdOUDBSLTdtZ2lhY2g2Nlhlbl85MDdsUWExUHREZHo3NVJqQjFRdXBKV0FLcVRiamFXdFJOdnpxRG9scnpqSGhVcWN5VzI1UkFjT3VNVUNBSV9vVnJKS2VBY3Rub090eDNBRkN6SjZiYzNxNEpqYVloZ1FMNUsyYXgxZXdNbU5USG5fZlhBU05HdEZ0MnlPMGlLSmxjYlVqLUVfdjI3SQ?oc=5",
+        "source": "CugetLiber.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T17:19:12Z",
+        "title": "Marinarii de pe nava lovită de o dronă, aduși de urgență la Spitalul Județean Constanța - CugetLiber.ro"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSDJGRnRzYUs5SmwtdkYzZ3NQQUhNS18telRtV3JQMnliRW5qdlE5VzdnVFVLeFRxTzVIRjk0cnU0LWNVdnNucUFPeXEtUmIwend1b255VTdjbWVtQlpUU0QwNFJyMm9MM2xWQko4UUVwbG9mS1N5bFZqX2hFM05NS0ZBNGQ3dFRQRGc?oc=5",
+        "source": "Greek City Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T17:03:45Z",
+        "title": "Turkish-Owned Cargo Ship Hit by Drone Off Romania in Black Sea - Greek City Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaUlNS2daM0Z4NjJsWVQ2TTNVR2czc3lGWVg3Y1Z5SW41T28yckJmc3lLQXNNU0xDRnhaQ0k2aGtIVGVYRW5EY1VzVl9nSHlsTmVReE1KcklWNWs3LURfNnJmS3ZqZ01xR3lKOXNVbklFbk5KV1AxNnJpUEV4U0pFa0xickF1VlJmbEFrY0Z0U0Z5STBEMXRkTk9Ra2JEZ2RpZC1HdG91dWFlLWp2ZW4yTjlhdlYtSGJCNnV6VWx3bEZLdw?oc=5",
+        "source": "Inbox.eu",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T17:00:22Z",
+        "title": "Turkish cargo ship sank in the Black Sea after drone strike. Zelensky blames Russia - Inbox.eu"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPa0JvbHdFS291ZDJhVUVueWhqU2lIS2J5NF9RQUczU0pUU1Y4TlI0SDZIaDQ0di1ZMUxVV3NvNUJVSnNhTjRYS3NLNHRBLU5iQlROOW1YVW9GT2FqUzVsZ1Z5UWJFMENnMnhqdnJ0ZXpyeXoxaUxvSF8yVVJwYW1xMGpQUXg0ZVA0N1A1MmJoT1VxNnlpRkpyUkw0T2NKM1JoR2p5M2p6bl9KX2hIdVZKb3pJSjQzY05IMDNHRtIBvAFBVV95cUxPa0JvbHdFS291ZDJhVUVueWhqU2lIS2J5NF9RQUczU0pUU1Y4TlI0SDZIaDQ0di1ZMUxVV3NvNUJVSnNhTjRYS3NLNHRBLU5iQlROOW1YVW9GT2FqUzVsZ1Z5UWJFMENnMnhqdnJ0ZXpyeXoxaUxvSF8yVVJwYW1xMGpQUXg0ZVA0N1A1MmJoT1VxNnlpRkpyUkw0T2NKM1JoR2p5M2p6bl9KX2hIdVZKb3pJSjQzY05IMDNHRg?oc=5",
+        "source": "The Hindu",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T16:57:53Z",
+        "title": "Two dead after ship catches fire, sinks in Black Sea - The Hindu"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVWI4VFVqTW9VR0FKeTFIczRaOWt3UzVHX093SHNIaTI2OHFfa3BzNHN6cUZfdHV4Qjg2YklWRmVmdi1KbWF6b1ZxQUQ4dVdVaHo0ejJMMWtmdGJOOHk4QW1qdmhjdFhQMzhLNW5ySXNlSkt2RW9KcXZuOHloYkxHNVV1clp3eVg2eHpoRUtSbWEwNXJfTHJQZUtoTGI5RGM2emxTemZaakVZQndsRENqREFMUkdWUQ?oc=5",
+        "source": "Stiri.md",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T16:52:30Z",
+        "title": "Atac cu dronă în Marea Neagră: O navă, lovită în apropierea coastelor României - Stiri.md"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLU1HLTZOMkV5MElzLTczd202WFlscDBWZGRBbDJrTVFJWV8zclNvYlZRcl9ybHZleHBHd1VOODE0T1lVNEUwbU1uSU44cGhlcDdmalVMRFlBUTJqZndKTEllTmZQbE90SVhTbVlrSklkVVhxQks4TXRLOHNLWXM5MlRPTmk1cnhjenFMc2gxRHJEWEVYeHAtQTVxY1lFaVJEMF9YVFg5dnV3S1Y1bUEza0VVMHd3ODJ6bHZzQXduTE5NRlRnR2NVZi0yNXHSAdIBQVVfeXFMT09CWV9Da2U3U0sxWUdhNE9QcVVlSWd4elhLRTBrS0pvdnJrN3hsUEJBV000ZjVOWVZFWldSblE2NG1Uc3R4WExkcUVZaHl2RC02X2RKY0RHV2RIWFlKenR3a2FiZElKUVJnY1ZNcG9EUEg1YVRBRUNQZkZxYXdibW5XSHU1bTBjY3lYWkJDRUFacVNUeTR1ZDE3Vl9qUUZMSDN6dVprd2N1QUtBMzk0Wmxld3Nid2JxWERjV3BfeEdncTdJdmdabVFMX1hDVjZkNkxB?oc=5",
+        "source": "Times Now",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T16:44:04Z",
+        "title": "Russian Drones Strike Turkish Ship Carrying Indians In Black Sea, Captain Killed - Times Now"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9BM1pnSDJFdF9iNXRQajFPU0RfTDY3QkI1NzA2aGNuUVUwUTZBakVYd1poUEszWDFjbkxSS21jc0xuaFJkbmRrVkRRem5vcUdXLXBMb3pQZTBqRWE2WDViZlFQT0pzWFR3MDFFRUdGLTJGTjA?oc=5",
+        "source": "Թերթ.am",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T16:30:33Z",
+        "title": "Turkish grain ship sinks in Black Sea after drone attack - Թերթ.am"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQejhCc3dkSmhXQkYxeUNVempYNEhHdkVMMFVyTXBKVWJfbXRuWV9rb3JyaHZ5Mkx0a0VZd0UwNDhkTGxPeFNrM0Z5RHJpd2tiOGs1R2hRWWNvTTlsbnJwS3FWOFJ2SkNGRFhpbEljQXZFWDJudTNOOXF3NGdydXE1Q253dGNFa01fMzh5RF95V0s4U2puUXJmNGJ0QjJUZllQRmQw?oc=5",
+        "source": "Odessa Journal",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T16:26:46Z",
+        "title": "Russian drones sink Turkish-owned civilian vessel in Black Sea - Oj - Odessa Journal"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQT3pYUTV4VXhwUWFpTjMteGJiUlMzeUtvWEt0XzZxTG9HVWdFcVZ1SFpyQV9EcURGRVVvT0JBOWhmX2VkM2lLbE5RTlBsa3RLNkhsWUwtWS02RHVFcHZnOW5pa2MzeVNOdThINnFWQ0EzTEdUTkdjMmVnSXNXN3Nvd1RZX1RDSEppQXNlNnJwRERCdUFIdGZ2YzBFQng3ckdrNlNDT05hZHhDRFNGbDZIRmtLMDVQVkpQUWNiaTd5cExmZw?oc=5",
+        "source": "UNITED24 Media",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T16:26:26Z",
+        "title": "Russian Drones Strike Civilian Cargo Ship Carrying Ukrainian Corn, Killing Two - UNITED24 Media"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNN1lJVEhxOW9XZ1pLZ3NUU2FrVTRTd1QzQnhZQUVUSzMzek82T1JOV0RxYmhvTHVTdEZGVWpmZlRKMFJMU1h2ZXBmRUNHcnd2Y19OeWFnczU2MWE5TXZjR08wMzJZd0pGSnB4b0tlNGFRdDlvOWJ3d0pZMS1tS1NrTWtfcDZYZWVXWURiLU1jVl9Ud9IBkgFBVV95cUxQWVVhbHFfRHJCMVdBbElDTVhkUTZJMDlRRU9xN0VMNTdOODVwN2RwalBuTF9BVXJ2anVtTms1WUhhc3B6ekpUbWNYb3hhMl9vdXo0TzVRS2JUQU5VOThxZy1yVVRjTUx0VE52aHNxMEd4dk1JMGdOdk02TWluZFR4ZDlSdWNTY1hKYnVoR3lHNlZXQQ?oc=5",
+        "source": "dw.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T16:24:34Z",
+        "title": "Ukraine says Russian drones behind Turkish ship sinking - dw.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOb3RJN0VpSG5SX1pEVDI3d3JFVjZNb3h0Sms2UXRsQnVoQ1p6V2p0QkV5blpZcS16MEY4VU1MWUhyXzdDeGNVUVhSQ3pRc1JSUlZYM09DdThTbkl3VF96TmVLR3M3NGFVUWNnMmw5QTROVjAyWUx5UHozR1ctTDRHZGtCWHBobkhKMzcxWWowU1ZNaHRwUVFJbjI0QVlpZTd6X1l0RVBlbHlnRWR4cVJiX3dNMXc5a0FVamJkMG96RF9uNGowRi00QVlzUXh2NDB0Sm1leE04dmREMTMtR19xZmQyZ3NGWGVyS3ZEY2I2a3JUZWlkNTR4aUtCNXVNR3ZJcmxlVtIBigJBVV95cUxNMkJiWWpTRFNiUUZDVDR5di1KMHd3NkF2Y291Y01MUXQ0Yk03VEFLUTk3a3BDT3FDRW5yRGp6ejdoX0R0SlBMZTg3b3BKYVZaTE51dFdPQi15VGVLTExVaWNvOFFmSzFRUDdiUEdZWlYwbWxabnJHWWFQU1gxeHZjSWdPQkJ5TV9vRHNWQnZ6NWJnM0JvV0k2TnQ5V3Z2QTBSaG4tNWVXMjZqTnZZQ1g1NzNRUjBkWXppVXozeWJhVFAteDhFRnkxMEN0ZC0wc0NVRlBFbUhyZ0UyS3RFOGNlNjRuQkl5S0FJY0l4SmlPWUY5aWg5VnktVWtQaUxIeEhGSFlieXhpZ1Z0dw?oc=5",
+        "source": "Moneycontrol.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T16:21:05Z",
+        "title": "Two killed after Turkish-owned ship carrying Indian, Azerbaijani crew catches fire in Black Sea; Zelensky... - Moneycontrol.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxOejVjR1pndmpjMUUxb0NnMGpkeEdKaG0zU3J0ZkVmbkZHWjVCaElpa0tXWVp3RF92Y2FFUjZ0a1RDMUI5Vjc4a29pajlid2Vad2dudy1XWk11Rm0xbjhCRGVMUFQ2QVZJRUJiLUpPcVB5bEdIMlFaYXYtZlBLeWpnalhSSmc3VkFBMm5oTHJoWHhmMnJZVF9KMXd2cVY5akNfS0dFOEV1ZXczRUEyWWdMQzlEUnZXbE9yM3NMTmMtdU1EdWkwOG9DYWtsaV80dzBOdXRacEM1UWc4UGJkSE5IdnUzdEFQVkFsbEJ0cm5BY0xKRzNaSjZRVmJ1NUJDa09xYTkxNXM0TlVITGU2YW9Sek5BbVM4enNSSjdWM0pZT09uU1FReG4wVTQydC16TWFtUVNHNW1VMXRTd242ZFVHTDhlVWZpNW94SEREYg?oc=5",
+        "source": "romaniatv.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T16:09:00Z",
+        "title": "Primele imagini cu nava distrusă de dronele rusești în Marea Neagră. Marinari salvați de români au ajuns la Constanța. Virgil Popescu: Este un nou avertisment pe care nu avem voie să-l ignorăm. Neptun Deep trebuie protejat ca infrastructură strategică a - romaniatv.net"
+      },
+      {
+        "url": "https://t.me/suspilneodesa/82103",
+        "source": "Suspilne Odesa",
+        "source_type": "telegram",
+        "side": "ua",
+        "kind": "local",
+        "published_at": "2026-10-05T19:02:11+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWHRzYjRHc1EwVkQ4ZzR3cS1PXzBwMFhBR0RYT3lyZDM4V0hxRDlUa21IT1JtVVY0Um10WVM1SnRaZjR0OVo4MjI5Q1JDanpjS3ZYekdfdUFrYThEc3ZLakdZdFVIUllSUTBNSTJMMDNwZ1NDYkJfY3hzOEZTUlpYbHowLW9jSUJjQ3EwbFJCS1VsVDI2VExWLTRYWmVzSUdlbllJ?oc=5",
+        "source": "IANS LIVE",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T18:53:00Z",
+        "title": "Three Indian nationals among crew of vessel attacked in Black Sea - IANS LIVE"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQk1ucTkwU2pQQzF1NUNUX2FOMkZ6eVg1TmFNN2syeEctazB5RkRUS09VTHFNRngwSUNDMklsdDBHbnZpTjIyeUxNZV9LTUtjTDVXY1BjNkVVY1FDVF9sRGJndm5semZGMUdBUmFkX21BNXdaYjQ5Z1NNdjRRcG5oMVNvUGkwS1dHMWNid2FBOFZsc2pOaDhaMVBTdHR6WERjRHpndVFJN0YzVjJYVjI3WkJyQldVTExwNXFZWGhmUmlTaHl4elNGVEx5SkFacDl20gHWAUFVX3lxTE9Vdl9TRy05Q2lHbFVRMGRmcDU2MElaQzg1QWNZM2JycVRkMXN3a1psa3luMDg5dHRkQzBVSFdjMzhGckwzZmh2R2YtSUlTWU5nODhlc3BteEc3NlJ3RmY2UW1RWTVLdW51YXNXa3BhbHVtS1VmbFNLd1pNbnNkLXpDUy1LNlVxYjRLbjJRNjl0OHhiQUoxX2d2V1pRd18zaUNfSURXOWtlN09JdHd1V2ZjY0RNYS10VldtLTJMcEc2YlNGc08zM0dwc29DbVczamtDYnVXQnc?oc=5",
+        "source": "India Today",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T18:52:43Z",
+        "title": "Black Sea drone strike kills two, injures Indian crew member on cargo ship - India Today"
       }
     ],
     "first_seen": "2026-10-05T09:36:06Z",
-    "last_updated": "2026-10-05T09:36:32Z",
+    "last_updated": "2026-10-05T19:45:30Z",
     "verification_issue": 45,
     "verdict": null,
     "published_in": [],
@@ -342,6 +648,205 @@
   },
   {
     "region": "Black Sea",
+    "date_utc": "2026-10-05",
+    "summary": "Suspilne Odesa reports that Russia attacked a civilian vessel in the Black Sea, killing the captain and prompting the rescue of 11 crew members. No vessel name, flag or further details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 46.49,
+    "lon": 30.74,
+    "location_text": "Black Sea",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": "captain killed, 11 crew rescued",
+    "attribution_claimed": "Russia",
+    "independent_evidence": false,
+    "id": "INC-20261005-006",
+    "sources": [
+      {
+        "url": "https://t.me/suspilneodesa/82103",
+        "source": "Suspilne Odesa",
+        "source_type": "telegram",
+        "side": "ua",
+        "kind": "local",
+        "published_at": "2026-10-05T19:02:11+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWHRzYjRHc1EwVkQ4ZzR3cS1PXzBwMFhBR0RYT3lyZDM4V0hxRDlUa21IT1JtVVY0Um10WVM1SnRaZjR0OVo4MjI5Q1JDanpjS3ZYekdfdUFrYThEc3ZLakdZdFVIUllSUTBNSTJMMDNwZ1NDYkJfY3hzOEZTUlpYbHowLW9jSUJjQ3EwbFJCS1VsVDI2VExWLTRYWmVzSUdlbllJ?oc=5",
+        "source": "IANS LIVE",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T18:53:00Z",
+        "title": "Three Indian nationals among crew of vessel attacked in Black Sea - IANS LIVE"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQk1ucTkwU2pQQzF1NUNUX2FOMkZ6eVg1TmFNN2syeEctazB5RkRUS09VTHFNRngwSUNDMklsdDBHbnZpTjIyeUxNZV9LTUtjTDVXY1BjNkVVY1FDVF9sRGJndm5semZGMUdBUmFkX21BNXdaYjQ5Z1NNdjRRcG5oMVNvUGkwS1dHMWNid2FBOFZsc2pOaDhaMVBTdHR6WERjRHpndVFJN0YzVjJYVjI3WkJyQldVTExwNXFZWGhmUmlTaHl4elNGVEx5SkFacDl20gHWAUFVX3lxTE9Vdl9TRy05Q2lHbFVRMGRmcDU2MElaQzg1QWNZM2JycVRkMXN3a1psa3luMDg5dHRkQzBVSFdjMzhGckwzZmh2R2YtSUlTWU5nODhlc3BteEc3NlJ3RmY2UW1RWTVLdW51YXNXa3BhbHVtS1VmbFNLd1pNbnNkLXpDUy1LNlVxYjRLbjJRNjl0OHhiQUoxX2d2V1pRd18zaUNfSURXOWtlN09JdHd1V2ZjY0RNYS10VldtLTJMcEc2YlNGc08zM0dwc29DbVczamtDYnVXQnc?oc=5",
+        "source": "India Today",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T18:52:43Z",
+        "title": "Black Sea drone strike kills two, injures Indian crew member on cargo ship - India Today"
+      }
+    ],
+    "first_seen": "2026-10-05T19:45:00Z",
+    "last_updated": "2026-10-05T19:45:30Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261005-001",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-05",
+    "summary": "UKMTO issued four attack warnings in four hours in the Strait of Hormuz on 5 October, and an advisory was issued after a ship performed a U-turn following an IRGC warning. No vessel name, flag or damage details were given.",
+    "official_source_cited": "UKMTO",
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "IRGC (warning)",
+    "independent_evidence": true,
+    "id": "INC-20261005-007",
+    "sources": [
+      {
+        "url": "https://www.seatrade-maritime.com/security/ukmto-issues-four-hormuz-attack-warnings-in-four-hours",
+        "source": "Seatrade Maritime",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-05T19:01:41Z",
+        "title": "UKMTO issues four Hormuz attack warnings in four hours"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVUR0amVUak5MLWFBVVpBbFByMVRhVVAxeXVYTUIyakMyR2liOWsyOTlBRFdkWTFtUW5mZXU3bXM4RmhiRTJad094dGtuQTJuclgtTndZVXFMb1k3M0U5ME1qT0l3Y0llZm5LZXBOdjN6WW5QOFJCeWRzMUd6TlZoMGRnbXNTRmdLWDRZUUY5enBfOFNfTHI0VGswRnFpT0JSbTJXSEhPNkhMNzhacnUzT0EzdUZDaWhseFlkYURwek10UdIBwgFBVV95cUxNVUR0amVUak5MLWFBVVpBbFByMVRhVVAxeXVYTUIyakMyR2liOWsyOTlBRFdkWTFtUW5mZXU3bXM4RmhiRTJad094dGtuQTJuclgtTndZVXFMb1k3M0U5ME1qT0l3Y0llZm5LZXBOdjN6WW5QOFJCeWRzMUd6TlZoMGRnbXNTRmdLWDRZUUY5enBfOFNfTHI0VGswRnFpT0JSbTJXSEhPNkhMNzhacnUzT0EzdUZDaWhseFlkYURwek10UQ?oc=5",
+        "source": "Demócrata",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T17:22:43Z",
+        "title": "The UKMTO reports three new attacks on merchant ships in the Strait of Hormuz - Demócrata"
+      }
+    ],
+    "first_seen": "2026-10-05T19:45:00Z",
+    "last_updated": "2026-10-05T19:45:28Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261004-002",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-05",
+    "summary": "The Times of India reports that a mystery projectile struck an LPG tanker in the Strait of Hormuz, raising fresh alarm over the energy route. No vessel name, flag, damage or attacker details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "LNG/LPG carrier",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "explosion (cause unknown)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261005-008",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNSE1wVW1sZHdRVkQ5VDJ1WVVkSHR1MWM3VTZSWk94eWdjdjJjc0lXdnRTUVRFSXRkeEpjQWJ5SURfM0cwTlI0bF82dVk4RFh2LVdzbUtNM2RnNXBvNXM3RDBVNGJLeFdUUkJIQ3dfNXB5MS14Y05wZml5cmxjTTlRMGcyalVJTlk1d2VCd1dtQmtxUklXdUxUUUxJdEp6eHU4akIxVmtQa0MycGVwc0E4QkRKT2lMZ0RNQnhVTzZpdHZ4ZU9ORTA4SVZieWNoWWpKUkVCaXpFcTljTTBQQ0ZMREh0al9UWnBMR2tzVW5HZ0t5aFM5aC1VYWNESXEtLXpTYlHSAYcCQVVfeXFMTlVyYVQ0c3NURkFGbmZHSlZCQm45dThIWURuQ04zX0FLS1lzT1dGRzljNFNQWFI3VnFzZFR6ejdmZ08yZXQ0ZGJpUHpzcEFJYm4tVWxHcG1VZ1NNTWVEdEhDTmhqSU1xTEJ0cjRxZXM5Wko1QTVuY2RRZFQwWGFQMENvazZxV21FWlNZblo4eU5NcUs1YWppVWpXQlNBczRFVWh2LWk4dmxlUjZlVUdJUEZtdTFLX3h0UW9MUlRqeDc5WnBXZG04LVJ5UEw3ZXExS0VBS0stYk5iNUt1RndGZC1MdTJGQmhUck5GNC1pSEtMQ3FQdFBRZS1Cb3RJdU03eGdibFJReEk?oc=5",
+        "source": "The Times of India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T18:57:28Z",
+        "title": "Mystery Projectile Strikes LPG Tanker In Strait Of Hormuz As Energy Route Faces Fresh Alarm - The Times of India"
+      }
+    ],
+    "first_seen": "2026-10-05T19:45:00Z",
+    "last_updated": "2026-10-05T19:45:28Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261004-002",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-05",
+    "summary": "TASS reported that Russian forces struck a general cargo vessel carrying cargo for Ukraine's armed forces in the port of Yuzhny (Pivdennyi). The claim comes from Russia's defence ministry; no vessel name, flag or damage details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 46.62,
+    "lon": 31.03,
+    "location_text": "Pivdennyi (Yuzhny) port, Ukraine",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Russia's armed forces (Russian Defence Ministry via TASS)",
+    "independent_evidence": false,
+    "id": "INC-20261005-009",
+    "sources": [
+      {
+        "url": "https://t.me/tass_agency/398900",
+        "source": "TASS",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-05T18:04:21+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFB4Zkt6eVlEekVRSU42N2JQT2dMNkg2ZU9yY2dfcUI5Y1k3c1dmRUFaTzlQeWtjcFF0WGhFYTd4dkh5QjMwdVo0?oc=5",
+        "source": "فيتو",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T17:36:00Z",
+        "title": "الجيش الروسي يعلن استهداف سفينة شحن تزود الجيش الأوكراني بالمؤن في ميناء بيفدينني - فيتو"
+      }
+    ],
+    "first_seen": "2026-10-05T19:45:08Z",
+    "last_updated": "2026-10-05T19:45:13Z",
+    "verification_issue": 47,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
     "date_utc": "2026-10-04",
     "summary": "Russia's defence ministry said its drones struck a general cargo vessel carrying military cargo for Ukrainian forces as it headed to Odesa port. TASS reported the claim; no vessel name, flag or damage details were given.",
     "official_source_cited": null,
@@ -396,7 +901,7 @@
     "summary": "A tanker was struck by an unknown projectile in the Strait of Hormuz, damaging the engine room, with the crew reported safe by UKMTO. Maritime security firm Vanguard Tech identified the vessel as LIPSI, a new LR2 tanker linked to a Greek operator and a Chinese owner; a later headline report of a tanker struck by an unknown projectile in the same area is the same event.",
     "official_source_cited": "UK maritime agency (UKMTO)",
     "conflicting": false,
-    "confidence": 0.8,
+    "confidence": 1.0,
     "vessel_name": "LIPSI",
     "imo": "1025033",
     "flag": "Liberia",
@@ -708,10 +1213,298 @@
         "kind": "media",
         "published_at": "2026-10-05T05:30:43Z",
         "title": "Tanker Struck by Unknown Projectile in Strait of Hormuz - India News Network"
+      },
+      {
+        "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#1025033-2026-10-04",
+        "source": "IMO (confirmed incidents list)",
+        "source_type": "official",
+        "side": "neutral",
+        "kind": "official",
+        "published_at": "2026-10-05T19:45:28Z",
+        "title": "IMO confirmed incident: LIPSI (IMO 1025033)"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcjdSZnNHRVU3dFFiMnpXNGkyazJ3cUl2Tkd2NzVoMjBBcU9WUTVrb2xOWVFXQUctcGxDSkFlMmRNVGo5Q3BKSngwUjJ5RV80MmtwT2NQSFBNRUJMaGdyWG1CZkdsQ1JmNmhqLWJCRk9rQUpuWkRnZUlfeXFJTEp0UmNCdjFacTNodUtISlV4ZXhIeE1NemRUZFBvSWk3UmFwSmZRalhTV2lmS3FEeHpYMWxleDhuVFd6QXdPNg?oc=5",
+        "source": "Anadolu Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-04T20:23:25Z",
+        "title": "Tanker reports multiple explosions near vessel off Yemen: UK maritime agency - Anadolu Ajansı"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUi10a08xeUlZRko3amc3ZGQ2MFFMdHhXeU9iYmx0My1nejhldWNDbkFhUDBzLWpWZkNITkM3b2sxMTRGWndGamVyb1BjenBOSnlDbGVCWktkODFqWlBzSkFrNG1NZTJCV2pYX3VGcGlzTWpKQjNkYmp4MUdrMWhCbWg3dkg1LW94a05BQTdwQXZ1LXlUd21lcjJ3YnZqY3lzazYwMDRoeWRlRFo4VlM3ZVJ4cnhET3FxTTk5b2R4TWV6M0hwSVJpdQ?oc=5",
+        "source": "Türkiye Today",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-04T20:02:21Z",
+        "title": "Tanker reports explosions off Yemen's coast as Saudi-led coalition reaffirms Yemen support - Türkiye Today"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOc2dFcXpwdTN2NHViY1pzdDhuWGtMMHd4RlpPZjgzd3ZBOS1SbEJ0bGIxcDhMTngtZDVxOVBGU2NRN3IydXFlbWtDb2xRdW1qYTNvbHFpYkJkVkZPMzV3U2NsTWt2cF96ZHNDMU4wNnNmUU15MV9iVWFGLWdmdkxNMTJvbXJhLVF3WDdxcXZTTFN3d0hKa1J1NnlMVG50QQ?oc=5",
+        "source": "صوت الإمارات",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-04T20:50:03Z",
+        "title": "UKMTO Reports Explosions Near Targeted Vessel - صوت الإمارات"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1aRlJ1M2NWbUlZVkZfSkJweEUyZkF2QXU4UnB5ejlLVVdOMWFiUWZEYXB3ZzhUN3NxdDE2MEk0aTJsNmIyR2ZPOWFnWXhOYkxYSDQyN2k2Q281Y1dhVG1pVXNjc3RpV1lfUHpFZi1zb3lMbGQ4b1E?oc=5",
+        "source": "يمن مونيتور",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-04T20:42:05Z",
+        "title": "UK Maritime Authority: Oil Tanker Reports Explosions 60 Nautical Miles South of Al-Mokha, Yemen - يمن مونيتور"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaUx1OTZfVXBBb0tHWVZKS0pCNzI4UkRxZm1EQzBmdkFvTmhSUGN1WXhZWGZqczZ4UXhZRDN2U2paMEo1RUZWazlkX2QwbjhKNHJtazI1M1ZYYUJUM0lrQkg1TnNqMmJCQVR0NHdoVmUtMGdmMTRMNWVCWE9BbnR4OXktQU1sZGZEdFN3ZUZxM1R0ckstd2xHemJuR0NybWJJQ3dUekJSMA?oc=5",
+        "source": "Operativ Məlumat Mərkəzi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-04T20:40:16Z",
+        "title": "Tanker reports multiple explosions off Yemen, UK maritime agency says - Operativ Məlumat Mərkəzi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNGljTXdUR2RPeUJLZGNLMXJnY0s2N0tOdml2bzhDSlBOWTBRZUcwOWlPeF8ycFZWVkZwSS1NTmFJdU5xaHlsNFlhY2Y5LXdQTmk4Y3A0amNreE8wTk96VG1Ob0FDYTJaT1g4MmJoTEp5Y2NZSENkZzUwcV9mV0pBRnVmbXRXVkpJMnRybFhES2ZaWkdNRE04?oc=5",
+        "source": "Mehr News Agency",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-04T20:36:00Z",
+        "title": "Multiple explosions reported near tanker off Yemen: UKMTO - Mehr News Agency"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbzhXVzM4MGNyNmZlSjB2VThqYXhRX2lBVGFHOXZEWGVhaF8yanltYW4yQkpmOWx6S2VXeElXS0ZLRUlqOWxtdUFYU255cmNGWDlvek9SVWU0RmdTaFRhcm81RGFXdmJtSWVJSmpzUEp3Sjl5VnVUMExqaExVN1YzVDBGU3NNSHZsV0hTY2tOSFpMRnJmRTNfakI2eDdpeXFVMENV?oc=5",
+        "source": "UA.NEWS",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-04T20:28:47Z",
+        "title": "Tanker reports series of explosions off Yemen coast — Anadolu Agency - UA.NEWS"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOejA0Mk1BR29DeUQ1U3lWV3B5aE85UjBwTlIxUmp0elBrM1pyZUVlTy1QTzRrV0pDVmR0c0QxOS1GTmJET20zTjMzdGplOTk3Zzg4amU1WHBHRjVlcE1pUTBvOEhsb3o4bnNIZFFDZTFodDNNdU54a09pTmFiVktkVGtiM2FlQlJ3NnNUSEZIQXVKdDVJOHBOQ0FENGR3T3FNT2lWT1dZYWJWZnhTQ0tqNlppbl83QXM?oc=5",
+        "source": "Anadolu Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-04T20:23:11Z",
+        "title": "Tanker reports multiple explosions near vessel off Yemen: UK maritime agency - Anadolu Ajansı"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWlEwWms1VjB3NTdBU0JkcEdCZS1vc3hlYTZ3TVZ0X3FFOWxUZWF6ZFpYZHZmVWl6LWczWGRqbEdWUlVYcjhfcG0xY04xTmR6c2JhenpFRVRidzY1TVV1TkhZVjBjQzl3UzVJQU9XbnNWeXQ0UHN6MHU0N3RrNjB6aUt0Y3V5cWvSAYwBQVVfeXFMT1Bsb0lzME15cXRTc0ZQeTZHcWRNOF9TY0VzSTEwUk1hVkxSQ2k2SFlINzBUQWF4OFdXZnJXTDk0QWdtSDQtSDVfRjd2YlBsTW0waW9yRWxtcGl0bFJiUmJJWGpaV1hGOWlPcG80NWphNTZYc3BTNmpzZlRCNnRCVmZYOUo4Z2o2ekd0NjU?oc=5",
+        "source": "Denizcilik Haberleri",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-04T21:58:48Z",
+        "title": "Babülmendep yakınında tankere saldırı girişimi - Denizcilik Haberleri"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNY3hSWTJsc3VMMnZYUmdBMFZpSE42YkliZ1pUZ1hyOHhOajctdzB6U2JwQmdldW9yeGwxVnY5RzNwSERzUGhINHZ4Y0RlTUlhY3lIUFE5eGsyWllxeXNLSUpsUnlFMzZ3eHJLWC1CMjRua2ZDYjdyX3plak55ZmU4bHhjS2JWUm1haFl1UERSNmJMNnFCbGhTNUx0a0lwcGRINmlibnplbG9JMGZ4QzRBLW56NDhtbVBUUEdhUU9HN2h6cnIwTlpTeDM1M2oyb2ZaYkg0Zm80eTY0NnQtNTAzUUlaZktZTUFYaFQzUGxSa0loT3g1TjBuOWZWTWQxaVBXOU5XeEZyTm9fX3liLWFJ0gGUAkFVX3lxTE1IbE5vVmg1SlhlU2ltRDhoN2ZyMUNTVi1KMlNWYmY4WUk1X3hiR05FNWpnLVVwMHpiTUVqV3RUVll3ZUxhOEVvTHh0MWU4b0dEbXUwRTVzM09lc0RvdE00aTVlU1RkQUVGMTMyaVZDLUUxSVpydUNjTlJpM0E1d2l6Yk9CUWU5N3VaNWl6ajZXUDlCMEhtRGNXYl9YVThHLVVxNTU2ZEdUZ1dpYUxrR0p1QkxMd0Z3SlNMbVh5bmZ0Q043elI1SHJVN1E1NTNXazRXMWZleVlDbmJjLW5ISGRPRmpPVmJlLU5FSzlJekN0bzE2dkZxWlBRSDRWTGdHcnFCNS1ibzF1cEt4U0V4QllMcG1tYw?oc=5",
+        "source": "The Sunday Guardian",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-04T21:15:14Z",
+        "title": "US-Israel-Iran War Latest News: Explosions Reported Near Tanker Off Yemen’s Red Sea Coast Amid Rising Regional Tensions; Check Latest Update - The Sunday Guardian"
+      },
+      {
+        "url": "https://maritime-executive.com/article/tanker-reports-attack-south-of-bab-el-mandeb",
+        "source": "The Maritime Executive",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-04T21:14:22Z",
+        "title": "Tanker Reports Attack South of Bab el-Mandeb"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaDdxZk9CREJ5dnV4RXh5Q2VtQk5IM1pVNVJkNmlIS29pdGdjbEI3amNpTWxNTXQ2QVQ3akNnTnRvTnJXN2VDQkFuR0NOemhVLVpDUlpPMXFEczhaRmU3UzJ4RGlmeDRiTlZFekFOTnMtTkxlRjA4cjBJaGNVUk9reWl4c053UjZDaEdz?oc=5",
+        "source": "The Maritime Executive",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-04T21:14:22Z",
+        "title": "Tanker Reports Attack South of Bab el-Mandeb - The Maritime Executive"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1lNW1paVo0Si10TjhUbnlFU2JBM2tPQXM3cERlWEI5c09BeWFZRUlBSTBQZ2FzYkF0OFVaTk56VGhUZmZLNWdhd0dZZk52Vnc?oc=5",
+        "source": "sahafatak.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-04T07:36:25Z",
+        "title": "هجوم يستهدف ناقلة نفط جنوب المخا - sahafatak.net"
+      },
+      {
+        "url": "https://www.ukmto.org/-/media/ukmto/products/20261004-ukmto_warning_151_26.pdf?rev=13fb9cf330f84ae694e403c92ac73f8b",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-05T04:34:36Z",
+        "title": null
+      },
+      {
+        "url": "https://www.aa.com.tr/en/middle-east/tanker-reports-multiple-explosions-near-vessel-off-yemen-uk-maritime-agency/4077905",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-05T04:34:36Z",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORG1CUzZIYU02OWtMYTVtUzk3ZzNBZVZnaTVKNFBfMnZGSFpTUXd0MElYc25scUpaRUZnRmNuTWRMdkdhZlNUaVZLZXNmYk90TktIRU1wa1ZoSzlvUzBMUVlSM20zV01NYXlka3BwUlJUUFV4WXNOcXV1a0pkQWpkN0p0QTd4VFFzbEVIVHZjN1ZEdVduSHlpbFNvVFpxc25BaWZfaTdkem0wUzA0RVE?oc=5",
+        "source": "FM Bharat",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T02:45:24Z",
+        "title": "Explosions Reported Near Oil Tanker Off Yemen’s Red Sea Coast; Warning Issued - FM Bharat"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE45NnFFOEs4VUhuQTdrTFU3QVVvNHJTWGg1eEh1UnVPeF8zMWNWdExiWHRvQUxlOTVTN3B1UGpyTklfcjZNT0FaeTRWQ2FHU2c?oc=5",
+        "source": "صحافتك",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-04T22:08:46Z",
+        "title": "بلاغ عن استهداف ناقلة نفط قبالة سواحل المخا . - صحافتك"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUGxvSXMwTXlxdFNzRlB5NkdxZE04X1NjRXNJMTBSTWFWTFJDaTZIWUg3MFRBYXg4V1dmcldMOTRBZ21INC1INV9GN3ZiUGxNbTBpb3JFbG1waXRsUmJSYklYalpXWEY5aU9wbzQ1amE1NlhzcFM2anNmVEI2dEJWZlg5SjhnajZ6R3Q2NdIBjAFBVV95cUxPUGxvSXMwTXlxdFNzRlB5NkdxZE04X1NjRXNJMTBSTWFWTFJDaTZIWUg3MFRBYXg4V1dmcldMOTRBZ21INC1INV9GN3ZiUGxNbTBpb3JFbG1waXRsUmJSYklYalpXWEY5aU9wbzQ1amE1NlhzcFM2anNmVEI2dEJWZlg5SjhnajZ6R3Q2NQ?oc=5",
+        "source": "Denizcilik Haberleri",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-04T21:58:48Z",
+        "title": "Babülmendep yakınında tankere saldırı girişimi - Denizcilik Haberleri"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTlZMS0hrTlF1OTVpZ2ZZQWs3TWlHVEQ1eFRHaWZsLXB0Ti1EZ0xpMERSd3ZYT1RGRVdURm0wTmFSTk1BcHk5LUtlR3BTUHctQnNtUzVBNFc4bVVxQ2tzX1VoNlR5NURaVU15QnB4a3BzQ3ZNVlFTb1V1RjVqMjY5VW5HV3ozOUZTUElYQlBzRQ?oc=5",
+        "source": "en.yenisafak.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-04T19:54:17Z",
+        "title": "Tanker reports explosions off Yemen coast: UKMTO - en.yenisafak.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBVbEhuaW1qRWFvRHg0VGZNaEFYLW1KSk0xTzhUNmxPaE1Kc19fWHo3aHJwRVNERWN1bm9xMlFWNkd0V2ZxT3VFWnM1VF9ydkZ0OUE?oc=5",
+        "source": "حياة عدن",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T02:52:27Z",
+        "title": "Maritime Authority: Explosions Near Tanker in the Gulf of Aden - حياة عدن"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPOVZoMm4wcUcweGxLTUMyXzRRcDc2bTFiMUR6dFpvMkNNUk0tRmRCbzV1QkVIREZBaVhhSDFUWEs2dzZTTXNFOUYtREw0V01JVm5pb25XZ1Q0bkZjNk1yWER3ZWZMSVZWZm5tV3NFWi1wTFp0blhDTFlQYng4aXRVbW94b0I5cW9ManU2VUlqXzUtdm9YbHpjNXhEQ1hzVGI5WXNCdFJhLWZZVWpINWM4bExDZjM3Y0JTU3dyUXhtMi1lSWFodW5nU2hLbV9MWFZoSWl5WlY5aHlZajVOUHBYTzQzdHp1dThOMUlsUmNtMHNwZHBsRVJZQtIB_gFBVV95cUxPeWI3a2MxTFNtQnNob0ZkQlJaR3NBOWJKdWMxNWRlcGJ1dS1ybHUyT1k5MmdSdnBsMmFzVTVGcjBTX2NlN194UFFPcUNNeHpEeGYxelNEXzB0Rm5hc291dkJVdzFweW5hUzlweUszbEtLaGxQUV82dVgwN2ozd3VibUc0bEE5eDVwbWRZY3pBVU9acVRhM1R0dmJ0MlhaNFR4TVFBdmg0cEZ1S0M5NTcyTmVzMGlOdE90YjdQZTlya0k3NHRGRElwOVU2M2RVaEhhNnVIRU5aVjYxRVVEZ1p2OWpwLTJ1alRTU2hDQWNKWnM1clN0WHpZOUNEU1dwUQ?oc=5",
+        "source": "The Times of India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T05:03:48Z",
+        "title": "Houthis Attack Ship In Red Sea? Multiple Explosions Aboard Vessel Trigger Fresh Alarm - The Times of India"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNSGxOb1ZoNUpYZVNpbUQ4aDdmcjFDU1YtSjJTVmJmOFlJNV94YkdORTVqZy1VcDB6Yk1Fald0VFZZd2VMYThFb0x4dDFlOG9HRG11MEU1czNPZXNEb3RNNGk1ZVNUZEFFRjEzMmlWQy1FMUlacnVDY05SaTNBNXdpemJPQlFlOTd1WjVpemo2V1A5QjBIbURjV2JfWFU4Ry1VcTU1NmRHVGdXaWFMa0dKdUJMTHdGd0pTTG1YeW5mdENON3pSNUhyVTdRNTUzV2s0VzFmZXlZQ25iYy1uSEhkT0ZqT1ZiZS1ORUs5SXpDdG8xNnZGcVpQUUg0VkxnR3JxQjUtYm8xdXBLeFNFeEJZTHBtbWPSAZQCQVVfeXFMTUhsTm9WaDVKWGVTaW1EOGg3ZnIxQ1NWLUoyU1ZiZjhZSTVfeGJHTkU1amctVXAwemJNRWpXdFRWWXdlTGE4RW9MeHQxZThvR0RtdTBFNXMzT2VzRG90TTRpNWVTVGRBRUYxMzJpVkMtRTFJWnJ1Q2NOUmkzQTV3aXpiT0JRZTk3dVo1aXpqNldQOUIwSG1EY1diX1hVOEctVXE1NTZkR1RnV2lhTGtHSnVCTEx3RndKU0xtWHluZnRDTjd6UjVIclU3UTU1M1drNFcxZmV5WUNuYmMtbkhIZE9Gak9WYmUtTkVLOUl6Q3RvMTZ2RnFaUFFINFZMZ0dycUI1LWJvMXVwS3hTRXhCWUxwbW1j?oc=5",
+        "source": "The Sunday Guardian",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-04T21:15:18Z",
+        "title": "US-Israel-Iran War Latest News: Explosions Reported Near Tanker Off Yemen’s Red Sea Coast Amid Rising Regional Tensions; Check Latest Update - The Sunday Guardian"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcHVXOTM1SE5CN2RvUnBXT3M1TXpiNGIxUHZGNTh0OWRueEZpYXBMVFdRcXBZcmNGTXY3TU5wRnVUQV9HaEkwclFhcXdyV2RxOGVYSkY5U05pMFd1T3dPdkRERDJkdVNIdFRIcjNwNTlNeGQ0ZnBqbVNwOUR4QlFVVExBSzZvdF8yUGsyenlQYWhzdk8tQl9BU25OVGJ2R3NqOEZXN2V3S0s?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T00:44:18Z",
+        "title": "В UKMTO сообщили о взрывах рядом с танкером у берегов Йемена - prospect.com.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOb0ZvdzlrcEJEek16NU96N0Z1UG15djlTNjJ2cm5abXdidUUyZjVlV2VRTlE3TDNIaHdUakpxbVBCRkR4YjUyRERZVDNUZjdZVU1Dd2Y0Si1VVU0zeUJwUWI3eGQ4UktWUlNURnJOYkpvTEZIYmVHaTJ0UXFTOWx3ZE1NQ0o5UGtLSm85aU1YdlJJdWdEcUI5NFBvbHlYLXo3bUxoNTJ6ZmI5TmozVU5ld0ZsRDRDVkJTTWRIdm1JblnSAcYBQVVfeXFMTVV3cmt6bFFzaTdRQjBTemJjYk52cmowWGZtTDJTOHdKUWpZYm1RMkJKNC1IR0NwZk5rMlZqQWRydTZxLTRnX0pyVmNQc3VuOHkzNW15U1FPdE5OejVrQWN3TTcxMUlTeWV6RmpVSVFjQ0ZhTE1DTnlYMlNPcDZzZEJBdl91VGFTaTNRcktSNVZQRW9yQWItXzZ3a1NIdWZmSGlGczI0djR0UEpZR3g3WXlQbFhEbGJnZVVBd3ZSZklLaUJFRUZB?oc=5",
+        "source": "anews.com.tr",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-04T19:40:00Z",
+        "title": "Tanker reports multiple explosions near vessel off Yemen: UK maritime agency - anews.com.tr"
+      },
+      {
+        "url": "https://www.seatrade-maritime.com/security/product-tanker-attacked-in-red-sea-as-hostilities-escalate",
+        "source": "Seatrade Maritime",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-05T07:11:00Z",
+        "title": "Product tanker attacked in Red Sea as hostilities escalate"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9BRkhDQVVKMFJZQVc3X3p3d1BBT3BzVEVGWEx2WFhVcjJOQ3JYbi1XLTN6ZEF4NW5tdGZJSm45QkhuRmVHaFlLSmx2MlRXVFJ4VjdzV0M1WGRUQQ?oc=5",
+        "source": "Bankingnews",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-03T11:56:38Z",
+        "title": "Iran targets Hormuz ships with 360 missile, drone strikes - Bankingnews"
+      },
+      {
+        "url": "https://www.bankingnews.gr/diethni/articles/903089/iran-targets-hormuz-ships-with-360-missile-drone-strikes",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-04T04:34:26Z",
+        "title": null
+      },
+      {
+        "url": "https://www.ukmto.org/-/media/ukmto/products/update-101-jmic-advisory-note-01-october.pdf?rev=806c994dad3f40068dca1cc3f081c07",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-04T04:34:26Z",
+        "title": null
+      },
+      {
+        "url": "https://www.seatrade-maritime.com/security/ukmto-issues-four-hormuz-attack-warnings-in-four-hours",
+        "source": "Seatrade Maritime",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-05T19:01:41Z",
+        "title": "UKMTO issues four Hormuz attack warnings in four hours"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVUR0amVUak5MLWFBVVpBbFByMVRhVVAxeXVYTUIyakMyR2liOWsyOTlBRFdkWTFtUW5mZXU3bXM4RmhiRTJad094dGtuQTJuclgtTndZVXFMb1k3M0U5ME1qT0l3Y0llZm5LZXBOdjN6WW5QOFJCeWRzMUd6TlZoMGRnbXNTRmdLWDRZUUY5enBfOFNfTHI0VGswRnFpT0JSbTJXSEhPNkhMNzhacnUzT0EzdUZDaWhseFlkYURwek10UdIBwgFBVV95cUxNVUR0amVUak5MLWFBVVpBbFByMVRhVVAxeXVYTUIyakMyR2liOWsyOTlBRFdkWTFtUW5mZXU3bXM4RmhiRTJad094dGtuQTJuclgtTndZVXFMb1k3M0U5ME1qT0l3Y0llZm5LZXBOdjN6WW5QOFJCeWRzMUd6TlZoMGRnbXNTRmdLWDRZUUY5enBfOFNfTHI0VGswRnFpT0JSbTJXSEhPNkhMNzhacnUzT0EzdUZDaWhseFlkYURwek10UQ?oc=5",
+        "source": "Demócrata",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T17:22:43Z",
+        "title": "The UKMTO reports three new attacks on merchant ships in the Strait of Hormuz - Demócrata"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNSE1wVW1sZHdRVkQ5VDJ1WVVkSHR1MWM3VTZSWk94eWdjdjJjc0lXdnRTUVRFSXRkeEpjQWJ5SURfM0cwTlI0bF82dVk4RFh2LVdzbUtNM2RnNXBvNXM3RDBVNGJLeFdUUkJIQ3dfNXB5MS14Y05wZml5cmxjTTlRMGcyalVJTlk1d2VCd1dtQmtxUklXdUxUUUxJdEp6eHU4akIxVmtQa0MycGVwc0E4QkRKT2lMZ0RNQnhVTzZpdHZ4ZU9ORTA4SVZieWNoWWpKUkVCaXpFcTljTTBQQ0ZMREh0al9UWnBMR2tzVW5HZ0t5aFM5aC1VYWNESXEtLXpTYlHSAYcCQVVfeXFMTlVyYVQ0c3NURkFGbmZHSlZCQm45dThIWURuQ04zX0FLS1lzT1dGRzljNFNQWFI3VnFzZFR6ejdmZ08yZXQ0ZGJpUHpzcEFJYm4tVWxHcG1VZ1NNTWVEdEhDTmhqSU1xTEJ0cjRxZXM5Wko1QTVuY2RRZFQwWGFQMENvazZxV21FWlNZblo4eU5NcUs1YWppVWpXQlNBczRFVWh2LWk4dmxlUjZlVUdJUEZtdTFLX3h0UW9MUlRqeDc5WnBXZG04LVJ5UEw3ZXExS0VBS0stYk5iNUt1RndGZC1MdTJGQmhUck5GNC1pSEtMQ3FQdFBRZS1Cb3RJdU03eGdibFJReEk?oc=5",
+        "source": "The Times of India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T18:57:28Z",
+        "title": "Mystery Projectile Strikes LPG Tanker In Strait Of Hormuz As Energy Route Faces Fresh Alarm - The Times of India"
       }
     ],
     "first_seen": "2026-10-04T12:50:55Z",
-    "last_updated": "2026-10-05T09:36:32Z",
+    "last_updated": "2026-10-05T19:45:28Z",
     "verification_issue": 39,
     "verdict": {
       "status": "confirmed",
@@ -721,6 +1514,7 @@
       "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/39#issuecomment-5988170217"
     },
     "published_in": [
+      "2026-10-04",
       "2026-10-05"
     ],
     "status": "confirmed",
@@ -1076,7 +1870,7 @@
       }
     ],
     "first_seen": "2026-10-04T20:25:18Z",
-    "last_updated": "2026-10-05T09:36:32Z",
+    "last_updated": "2026-10-05T19:45:28Z",
     "verification_issue": 41,
     "verdict": {
       "status": "confirmed",
@@ -1088,9 +1882,10 @@
     "published_in": [
       "2026-10-05"
     ],
-    "status": "confirmed",
+    "status": "merged",
     "position_approx": true,
-    "date_approx": false
+    "date_approx": false,
+    "merged_into": "INC-20261004-002"
   },
   {
     "region": "Black Sea",
@@ -3551,7 +4346,7 @@
       }
     ],
     "first_seen": "2026-10-03T18:50:22Z",
-    "last_updated": "2026-10-04T04:34:26Z",
+    "last_updated": "2026-10-05T19:45:28Z",
     "verification_issue": 35,
     "verdict": {
       "status": "reported",
@@ -3563,9 +4358,10 @@
     "published_in": [
       "2026-10-04"
     ],
-    "status": "reported",
+    "status": "merged",
     "position_approx": true,
-    "status_changed_at": "2026-10-04T04:34:26Z"
+    "status_changed_at": "2026-10-04T04:34:26Z",
+    "merged_into": "INC-20261004-002"
   },
   {
     "region": "Black Sea",
@@ -3767,6 +4563,46 @@
     "status": "rejected",
     "position_approx": true,
     "status_changed_at": "2026-10-03T04:33:51Z"
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-02T00:00:00Z",
+    "summary": "The IMO lists PROMISE (IMO 1038896) as hit at 4NM east of Oman on 2 October 2026. Damaged. No pollution.",
+    "official_source_cited": "IMO confirmed incidents list",
+    "conflicting": false,
+    "confidence": 1.0,
+    "vessel_name": "PROMISE",
+    "imo": "1038896",
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "4NM east of Oman",
+    "attack_type": "other",
+    "damage": "Damaged. No pollution.",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261002-019",
+    "sources": [
+      {
+        "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#1038896-2026-10-02",
+        "source": "IMO (confirmed incidents list)",
+        "source_type": "official",
+        "side": "neutral",
+        "kind": "official",
+        "published_at": "2026-10-05T19:45:28Z",
+        "title": "IMO confirmed incident: PROMISE (IMO 1038896)"
+      }
+    ],
+    "first_seen": "2026-10-05T19:45:28Z",
+    "last_updated": "2026-10-05T19:45:28Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "confirmed",
+    "position_approx": true
   },
   {
     "region": "Strait of Hormuz",
