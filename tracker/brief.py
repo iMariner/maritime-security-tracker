@@ -152,7 +152,7 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list,
         "- Name the ship as early as possible and describe it the way a news story does: 'the Liberia-flagged LR2 "
         "tanker Lipsi' (ship names in normal capitalisation, not ALL CAPS; keep IMO numbers out of the headline).\n"
         "- Vary attribution: say who said it once per paragraph at most ('UKMTO said', 'according to', 'the agency "
-        "added'). Do not start paragraphs with 'UKMTO warning 150-26, dated ...'; mention a warning number once, "
+        "added'). Never start a sentence or paragraph with a warning number ('UKMTO warning 150-26, dated ...'); mention a warning number once, "
         "inside a sentence, if at all.\n"
         "- Use tracker_context (counts from the iMariners incident tracker) for one sentence of context in the "
         "second paragraph, credited to 'the iMariners tracker' (e.g. 'It is the fifth merchant ship reported hit in "
@@ -178,9 +178,9 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list,
         "advisories and company security instructions. Mention specific guidance only if it appears word for word in "
         "the facts. 250 to 550 words. No sources list and no corrections section "
         "(both are added automatically).\n"
-        '"correction_notes": one plain sentence per item in corrections, in news style, e.g. "Our 4 October brief '
-        "reported an attack on a Turkish cargo ship in the Black Sea on 3 October; the report referred to the 27 "
-        "September drone strike on the Palau-flagged bulk carrier Aroyat near Novorossiysk.\" Empty list if none.\n"
+        '"correction_notes": one plain sentence per item in corrections, in news style, using '
+        "first_published_in_brief_of, what_we_reported and why_it_was_wrong: 'Our <date> brief reported <what we "
+        "reported>; <what the check found>.' Empty list if none.\n"
         '"x_post": the tweet: one or two short sentences, at most 200 characters, naming the ship and place; then '
         "3 or 4 hashtags chosen from #MaritimeSecurity #Shipping #Seafarers #BlackSea #StraitOfHormuz #RedSea #Tanker "
         "#UKMTO #MaritimeNews; no link (added automatically)."
