@@ -143,6 +143,9 @@ jobs:
           N8N_WEBHOOK_URL: ${{ secrets.N8N_WEBHOOK_URL }}
           N8N_WEBHOOK_TOKEN: ${{ secrets.N8N_WEBHOOK_TOKEN }}
           WP_URL: ${{ vars.WP_URL || 'https://imariners.com' }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}   # only to read the account balance for the message
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          LOW_BALANCE_USD: ${{ vars.LOW_BALANCE_USD || '3' }}
         run: |
           python -m tracker.brief ${{ steps.guard.outputs.notify_only == 'true' && '--notify-if-pending' || '--notify' }}
           git config user.name "tracker-bot"

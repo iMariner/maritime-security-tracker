@@ -53,6 +53,34 @@ def _providers(kind: str) -> list[tuple]:
     return providers
 
 
+def balance_usd() -> float | None:
+    """Remaining DeepSeek account balance in USD (GET /user/balance), or None if unknown. Read-only."""
+    import requests
+
+    base = (env("LLM_BASE_URL") or "https://api.deepseek.com").rstrip("/")
+    key = env("LLM_API_KEY")
+    if not key or "deepseek.com" not in base:
+        return None
+    try:
+        resp = requests.get(base.removesuffix("/v1") + "/user/balance",
+                            headers={"Authorization": f"Bearer {key}"}, timeout=20)
+        resp.raise_for_status()
+        infos = resp.json().get("balance_infos") or []
+        usd = [float(i["total_balance"]) for i in infos if i.get("currency") == "USD"]
+        return usd[0] if usd else None
+    except Exception as exc:  # the balance line is a convenience; never fail a run for it
+        log.warning("Could not read the DeepSeek balance: %s", exc)
+        return None
+
+
+def balance_line(balance: float | None, warn_below: float = 3.0) -> str:
+    if balance is None:
+        return ""
+    if balance < warn_below:
+        return f"⚠️ DeepSeek balance low: ${balance:.2f} left, please top up (everything keeps running until it reaches $0)."
+    return f"DeepSeek balance: ${balance:.2f}."
+
+
 def available() -> bool:
     return bool(_providers("fast"))
 

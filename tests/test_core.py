@@ -417,3 +417,11 @@ def test_review_position_line(tmp_path, monkeypatch):
     assert (incs[0]["lat"], incs[0]["lon"]) == (12.32, 43.25)
     rec = common.read_json(tmp_path / "2026-10-05.json", {})
     assert len(rec["review"]["refused"]) == 1
+
+
+def test_balance_line():
+    from tracker.llm import balance_line
+    assert balance_line(None) == ""
+    assert balance_line(19.0) == "DeepSeek balance: $19.00."
+    low = balance_line(2.5)
+    assert low.startswith("⚠️") and "$2.50" in low and "keeps running" in low

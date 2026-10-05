@@ -514,7 +514,8 @@ def notify_n8n(record: dict) -> None:
     from .review import summary_line
 
     payload = {**record, "needs_approval": record["status"] != "publish", "wp_url": env("WP_URL"),
-               "quality": f"{summary_line(record)} {record.get('quality', '')}".strip()}
+               "quality": " ".join(x for x in (llm.balance_line(llm.balance_usd(), float(env("LOW_BALANCE_USD", "3"))),
+                                               summary_line(record), record.get("quality", "")) if x)}
     headers = {"X-Tracker-Token": env("N8N_WEBHOOK_TOKEN", "")}
     resp = requests.post(url, json=payload, headers=headers, timeout=30)
     log.info("n8n webhook -> %s", resp.status_code)
