@@ -52,7 +52,7 @@
   {
     "region": "Strait of Hormuz",
     "date_utc": "2026-10-04",
-    "summary": "UKMTO reported a tanker struck by an unknown projectile in the Strait of Hormuz on 4 October, damaging the engine room; the crew were reported safe. Maritime security firm Vanguard Tech identified the ship as LIPSI, a new LR2 tanker linked to a Greek operator and a Chinese owner, according to The Maritime Executive.",
+    "summary": "A tanker was struck by an unknown projectile in the Strait of Hormuz on 4 October, damaging the engine room, with the crew reported safe by UKMTO. Maritime security firm Vanguard Tech identified the vessel as LIPSI, a new LR2 tanker linked to a Greek operator and a Chinese owner.",
     "official_source_cited": "UK maritime agency (UKMTO)",
     "conflicting": false,
     "confidence": 0.8,
@@ -331,10 +331,19 @@
         "kind": "media",
         "published_at": "2026-10-04T22:38:00Z",
         "title": "Unidentified strikes hit four Hormuz tankers as Iran outlet touts attacks - CHOSUNBIZ - Chosunbiz"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORVJ5TE1xSFhNVlluZ0xoTzdmUW04R2I5a3pmX2JqODVYNndvazhmWVBGcmZia3NtUi1ETGV6Y19ZUE9reWdSbUNreThKSGpYbUlrYUVmbmVEVTBKMlNZaU04NzhaY1BWSGZ0djFIX1F3MW5CaGxJWGFuWFB5amQ3ZExqWjZZZHpnYWIwSjhNT3hXTHgxbEZ0SA?oc=5",
+        "source": "Balkanweb.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-04T16:24:00Z",
+        "title": "Incident in the Strait of Hormuz, tanker hit by a shell - Balkanweb.com"
       }
     ],
     "first_seen": "2026-10-04T12:50:55Z",
-    "last_updated": "2026-10-05T05:24:20Z",
+    "last_updated": "2026-10-05T05:27:24Z",
     "verification_issue": 39,
     "verdict": {
       "status": "confirmed",
@@ -453,8 +462,8 @@
     "flag": null,
     "vessel_type": "tanker",
     "vessel_category": "merchant",
-    "lat": 12.32,
-    "lon": 43.25,
+    "lat": 13.3,
+    "lon": 43.2,
     "location_text": "about 60 nm south of Al-Mokha, Yemen",
     "attack_type": "explosion (cause unknown)",
     "damage": null,
@@ -1169,6 +1178,47 @@
     "status": "merged",
     "position_approx": true,
     "merged_into": "INC-20261004-005"
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-04",
+    "summary": "A tanker was hit by a shell in the Strait of Hormuz, according to a brief report. No vessel name, flag, damage or attacker details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "explosion (cause unknown)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261004-014",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORVJ5TE1xSFhNVlluZ0xoTzdmUW04R2I5a3pmX2JqODVYNndvazhmWVBGcmZia3NtUi1ETGV6Y19ZUE9reWdSbUNreThKSGpYbUlrYUVmbmVEVTBKMlNZaU04NzhaY1BWSGZ0djFIX1F3MW5CaGxJWGFuWFB5amQ3ZExqWjZZZHpnYWIwSjhNT3hXTHgxbEZ0SA?oc=5",
+        "source": "Balkanweb.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-04T16:24:00Z",
+        "title": "Incident in the Strait of Hormuz, tanker hit by a shell - Balkanweb.com"
+      }
+    ],
+    "first_seen": "2026-10-05T05:27:23Z",
+    "last_updated": "2026-10-05T05:27:24Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261004-002",
+    "position_approx": true
   },
   {
     "region": "Black Sea",
