@@ -10,6 +10,7 @@
        flag: INC-... = Liberia | <url>
        imo: INC-... = 1234567 | <url>
        date: INC-... = 2026-10-03 | <url>
+       position: INC-... = 12.32, 43.25 | <where it comes from, e.g. 60 nm south of Al-Mokha per UKMTO>
        status: INC-... = rejected | <reason>
        note: <anything the publisher should know, one sentence>
 
@@ -72,7 +73,7 @@ def parse(body: str) -> tuple[str, list[tuple], list[str]] | None:
         why = rest.partition("|")[2].strip()
         if key == "merge" and (mm := re.match(ID + r"\s+into\s+" + ID, rest, re.I)):
             changes.append(("merge", mm.group(1).upper(), mm.group(2).upper(), why))
-        elif key in ("name", "flag", "imo", "date", "status") and (mm := re.match(ID + r"\s*=\s*([^|]+)", rest, re.I)):
+        elif key in ("name", "flag", "imo", "date", "status", "position") and (mm := re.match(ID + r"\s*=\s*([^|]+)", rest, re.I)):
             changes.append((key, mm.group(1).upper(), mm.group(2).strip(), why))
         elif key == "lesson" and (mm := re.match(r"(writing|facts)\s*=\s*(.+)", rest, re.I)):
             changes.append(("lesson", mm.group(1).lower(), mm.group(2).strip(), ""))
@@ -126,6 +127,18 @@ def apply(body: str) -> str | None:
             inc["status"], inc["last_updated"] = "merged", stamp
             keep["status"], keep["last_updated"] = store.compute_status(keep), stamp
             done.append(f"merged {target} into {value}" + (f" ({why})" if why else ""))
+            continue
+        if kind == "position":
+            m = re.fullmatch(r"(-?\d{1,2}(?:\.\d+)?)\s*,\s*(-?\d{1,3}(?:\.\d+)?)", value)
+            lat, lon = (float(m.group(1)), float(m.group(2))) if m else (None, None)
+            # inside the areas we cover (Black Sea to the Gulf of Aden and the Gulf), never on another continent
+            if lat is None or not (8 <= lat <= 48 and 26 <= lon <= 62) or not why:
+                refused.append(f"position {target}: '{value}' is outside the covered areas or has no reason")
+                continue
+            inc["lat"], inc["lon"], inc["position_approx"] = lat, lon, True
+            inc["position_note"] = why[:200]
+            inc["last_updated"] = stamp
+            done.append(f"position of {target} set to {lat}, {lon} ({why[:80]})")
             continue
         src = _source(why, cited=kind != "status")
         if kind in ("name", "flag", "imo", "date"):

@@ -401,3 +401,19 @@ def test_review_lesson_line():
     from tracker import review
     _, changes, _ = review.parse("/review 2026-10-05\nlesson: writing = Do not call explosions near a ship an attack on it.\n")
     assert changes == [("lesson", "writing", "Do not call explosions near a ship an attack on it.", "")]
+
+
+def test_review_position_line(tmp_path, monkeypatch):
+    from tracker import common, review
+    incs = [{"id": "INC-20261004-005", "region": "Red Sea", "status": "confirmed", "lat": 12.6, "lon": 43.4,
+             "sources": [{"url": "b", "source": "UKMTO"}]}]
+    monkeypatch.setattr(review.store, "load", lambda: incs)
+    monkeypatch.setattr(review.store, "save", lambda x: None)
+    monkeypatch.setattr(review, "REVIEW_DIR", tmp_path)
+    monkeypatch.setattr(review, "BRIEFS_DIR", tmp_path)
+    common.write_json(tmp_path / "2026-10-05.json", {"incidents": [{"id": "INC-20261004-005"}]})
+    review.apply("/review 2026-10-05\nposition: INC-20261004-005 = 12.32, 43.25 | 60 nm south of Al-Mokha per UKMTO\n"
+                 "position: INC-20261004-005 = 51.5, -0.1 | London\n")
+    assert (incs[0]["lat"], incs[0]["lon"]) == (12.32, 43.25)
+    rec = common.read_json(tmp_path / "2026-10-05.json", {})
+    assert len(rec["review"]["refused"]) == 1
