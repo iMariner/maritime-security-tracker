@@ -205,7 +205,10 @@ keyless provider rotation (Exa, Parallel, Firecrawl, Keenable); no key is set.
 ## Telegram channel and the feedback skill
 
 Hermes has its own Telegram bot (manual BotFather setup, allowed user 5871106546). The pinned health message comes
-from `telegram_dashboard_probe` (settings: chat_id 5871106546, period 300 s, limits lines off, Asia/Kolkata).
+from `telegram_dashboard_probe` (settings: chat_id 5871106546, period 300 s, limits lines off, Asia/Kolkata). The plugin
+only picked the chat up from the custom key HERMES_DASHBOARD_PROBE_CHAT in Keys (.env), not from config.yaml settings.
+Restarting: the dashboard's Restart Gateway buttons did not restart the messaging gateway; ask Hermes in Chat to run
+`hermes gateway restart` (s6-supervised), then check the logs.
 Hermes skill `maritime-brief-feedback` (category maritime): when the publisher reacts or replies about a brief,
 Hermes checks the claim against the sources, then comments `/review <date>` on issue 38 with fix lines and/or
 `lesson:` lines. The tracker applies them, rebuilds the brief and sends a fresh approval message. A thumbs up is
