@@ -95,7 +95,7 @@ def _clean_html(text: str) -> str:
 
 
 def _facts(inc: dict) -> dict:
-    fact = {k: inc.get(k) for k in ("region", "vessel_name", "vessel_type", "flag", "date_utc", "location_text",
+    fact = {k: inc.get(k) for k in ("region", "vessel_name", "vessel_type", "flag", "imo", "date_utc", "location_text",
                                     "attack_type", "damage", "casualties", "attribution_claimed", "status",
                                     "official_source_cited", "summary")}
     fact["reported_by"] = sorted({s["source"] for s in inc["sources"] if s.get("source_type") != "satellite"})[:8]
@@ -104,55 +104,88 @@ def _facts(inc: dict) -> dict:
     return fact
 
 
-def write_copy(day_label: str, new: list, updated: list, corrections: list) -> dict:
+AREAS = {"Strait of Hormuz and the Gulf": {"Strait of Hormuz", "Persian Gulf", "Gulf of Oman"},
+         "Red Sea and Gulf of Aden": {"Red Sea", "Gulf of Aden"}, "Black Sea": {"Black Sea", "Sea of Azov"}}
+
+
+def tracker_context(incidents: list[dict], now) -> list[dict]:
+    """Counts from our own data for one sentence of context: merchant ships reported hit per area in 7 days."""
+    out = []
+    for area, regions in AREAS.items():
+        week = [i for i in incidents if i.get("region") in regions and i.get("status") in ("confirmed", "reported")
+                and not i.get("merged_into") and i.get("vessel_category") != "naval"
+                and (d := parse_dt(i.get("date_utc"))) and now - timedelta(days=7) <= d <= now]
+        if week:
+            out.append({"area": area, "merchant_ships_reported_hit_in_last_7_days": len(week),
+                        "named_ships": sorted({i["vessel_name"] for i in week if i.get("vessel_name")})})
+    return out
+
+
+def write_copy(day_label: str, new: list, updated: list, corrections: list,
+               incidents: list | None = None, now=None) -> dict:
     """AI writes the news article, headline, excerpt and tweet from the structured facts only."""
     system = (
-        "You are a news editor at iMariners, writing the daily maritime security brief: what happened to merchant "
-        "shipping in the war-risk areas (Black Sea, Red Sea and Gulf of Aden, Strait of Hormuz and the Gulf) in "
-        "the last 24 hours, for seafarers on board and ship managers ashore. Style: a straight news report, like "
-        "Reuters or Lloyd's List. Plain, calm British English. Use ONLY the facts given; never add vessels, numbers, "
-        "causes, quotes or context that is not in the facts.\n"
-        "Time rules: this is a 24-hour brief dated {date}. Give the date of every attack ('on 1 October'). When an "
-        "attack happened more than a day before {date} but was only reported now, say so plainly ('UKMTO released "
-        "late reports of attacks on 28 and 29 September'), never present it as new. For each area listed in "
-        "quiet_areas, say in one sentence that no new attacks on merchant ships were reported there in the last "
-        "24 hours.\n"
-        "Accuracy rules: attribute every claim in the text (e.g. 'UKMTO said', 'Russia's defence ministry claimed', "
-        "'according to Splash247'). Credit each detail to the source that gave it: when a ship's name comes from "
-        "media or a security firm and not from UKMTO, never write 'UKMTO reports tanker <name>'. An incident with status 'claimed' must read as a claim by that party, never as "
-        "fact. 'reported' means independent reporting without official confirmation. 'confirmed' means confirmed by "
-        "a neutral authority, the owner or our own check. Never use em dashes or en dashes; use commas, colons or "
-        "full stops. No hashtags in the article.\n"
+        "You are the senior news editor of the iMariners Security Desk, writing the daily maritime security brief "
+        "for seafarers on board and ship managers ashore: what happened to merchant shipping in the war-risk areas "
+        "(Black Sea, Red Sea and Gulf of Aden, Strait of Hormuz and the Gulf) in the last 24 hours. It must read "
+        "like a Reuters or Lloyd's List news story, not a report generator. Plain, calm British English. Use ONLY "
+        "the facts given (incidents, tracker_context, corrections); never add vessels, numbers, causes, quotes, "
+        "advice or background that is not in them.\n"
+        "Time rules: the brief is dated {date}. Give the date of every attack ('on 4 October'). An attack from more "
+        "than a day before {date} that was only reported now must say so plainly, never read as new. For each area "
+        "in quiet_areas, one sentence that no new attacks on merchant ships were reported there in the last 24 "
+        "hours.\n"
+        "Accuracy rules: attribute every claim, and credit each detail to the source that gave it (when a ship's "
+        "name comes from a security firm or the press, say so; never write that UKMTO named it). 'claimed' must read "
+        "as one party's claim, never as fact. 'reported' means independent reporting without official confirmation. "
+        "'confirmed' means a neutral authority, the owner or our own check confirms it. Never use em or en dashes.\n"
+        "Newsroom style rules:\n"
+        "- Never repeat a sentence or phrase between the headline, standfirst, key points and lede. Each layer adds "
+        "something new.\n"
+        "- Name the ship as early as possible and describe it the way a news story does: 'the Liberia-flagged LR2 "
+        "tanker Lipsi' (ship names in normal capitalisation, not ALL CAPS; keep IMO numbers out of the headline).\n"
+        "- Vary attribution: say who said it once per paragraph at most ('UKMTO said', 'according to', 'the agency "
+        "added'). Do not start paragraphs with 'UKMTO warning 150-26, dated ...'; mention a warning number once, "
+        "inside a sentence, if at all.\n"
+        "- Use tracker_context (counts from the iMariners incident tracker) for one sentence of context in the "
+        "second paragraph, credited to 'the iMariners tracker' (e.g. 'It is the fifth merchant ship reported hit in "
+        "the Strait of Hormuz in seven days, according to the iMariners tracker'). Do not invent trends.\n"
+        "- Order by news value, most serious first (damage or casualties before near misses).\n"
         "Return JSON with keys:\n"
-        '"title": a news headline, max 70 characters, about the most important incident of the day, no date, '
-        "sentence case.\n"
-        '"excerpt": meta description, max 155 characters.\n'
-        '"key_points": 3 to 5 bullet points (plain text, each one sentence of at most 20 words) summarising the '
-        "day for a reader who reads nothing else; the most important first; keep claim wording; always name the "
-        "vessel and its flag when the facts give them.\n"
-        '"article_html": the article body in HTML using only <p>, <h2>, <ul>, <li>, <strong>. Always name a vessel and its flag when the '
-        "facts give them, in the headline too. Readability rules: "
-        "every paragraph at most 3 sentences and about 60 words; one incident per paragraph and one ship per "
-        "incident (never describe another ship inside a paragraph about a different one); short sentences. "
-        "Structure: a lede paragraph of ONE sentence, at most 35 words, with the single most important news; a second short "
-        "paragraph with the overall picture; then one <h2> section per region (Strait of Hormuz area first if it has "
-        "incidents, then Black Sea), each incident in its own short paragraph with attribution; then "
-        "<h2>What this means for crews</h2> with 2 or 3 practical sentences (follow UKMTO/JMIC guidance, report to "
-        "UKMTO, company security procedures). 300 to 650 words. Do not repeat the key points word for word. "
-        "No sources list (it is added automatically).\n"
-        '"x_post": the tweet that shares the article: one or two short sentences, at most 200 characters, saying what '
-        "happened and where; then a space and 3 or 4 hashtags chosen from #MaritimeSecurity #Shipping #Seafarers "
-        "#BlackSea #StraitOfHormuz #RedSea #Tanker #UKMTO #MaritimeNews, picking those that fit; no link (added automatically)."
+        '"title": the headline, at most 80 characters, sentence case, active voice, present tense, naming the ship '
+        "when known; if a second incident is significant, cover both ('X hit in Hormuz as tanker reports blasts off "
+        "Yemen').\n"
+        '"excerpt": the standfirst, one sentence of at most 30 words that adds detail beyond the headline (where, '
+        "damage, crew); also used as the meta description.\n"
+        '"key_points": 3 to 5 bullets, each a different fact in at most 18 words, most important first: the main '
+        "attack with damage and crew status, the ship's identity, the second incident, the wider picture, quiet "
+        "areas. No bullet that only says details are missing.\n"
+        '"article_html": the story in HTML using only <p>, <h2>, <ul>, <li>, <strong>. Structure: (1) lede, one '
+        "sentence, at most 35 words, the five Ws of the main incident, worded differently from the headline; (2) a "
+        "second paragraph with the overall picture and one sentence from tracker_context; (3) one <h2> section per "
+        "area with incidents, most serious first, each incident in one or two short paragraphs (max 3 sentences, "
+        "about 60 words each) with ship identity, time if known, place, damage, crew, who said it, and what is not "
+        "yet known (attacker, cause) in one sentence; (4) <h2>What crews should know</h2>: two sentences built only "
+        "from guidance in the facts (for example UKMTO advising caution near Bab el-Mandeb) plus reporting incidents "
+        "to UKMTO; no invented drills or procedures. 250 to 550 words. No sources list and no corrections section "
+        "(both are added automatically).\n"
+        '"corrections": one plain sentence per item in corrections, in news style, e.g. "Our 4 October brief '
+        "reported an attack on a Turkish cargo ship in the Black Sea on 3 October; the report referred to the 27 "
+        "September drone strike on the Palau-flagged bulk carrier Aroyat near Novorossiysk.\" Empty list if none.\n"
+        '"x_post": the tweet: one or two short sentences, at most 200 characters, naming the ship and place; then '
+        "3 or 4 hashtags chosen from #MaritimeSecurity #Shipping #Seafarers #BlackSea #StraitOfHormuz #RedSea #Tanker "
+        "#UKMTO #MaritimeNews; no link (added automatically)."
     )
-    areas = {"Strait of Hormuz and the Gulf": {"Strait of Hormuz", "Persian Gulf", "Gulf of Oman"},
-             "Red Sea and Gulf of Aden": {"Red Sea", "Gulf of Aden"}, "Black Sea": {"Black Sea", "Sea of Azov"}}
     active = {i["region"] for i in new + updated}
-    quiet = [a for a, regs in areas.items() if not regs & active]
+    quiet = [a for a, regs in AREAS.items() if not regs & active]
     system = system.replace("{date}", day_label)
     user = json.dumps({"date": day_label, "quiet_areas": quiet, "new_incidents": [_facts(i) for i in new],
                        "updates_on_earlier_incidents": [_facts(i) for i in updated],
+                       "tracker_context": tracker_context(incidents or [], now or now_utc()),
                        "corrections": [{"region": i["region"], "vessel_name": i.get("vessel_name"),
-                                        "note": (i.get("verdict") or {}).get("note")} for i in corrections]},
+                                        "first_published_in_brief_of": (i.get("published_in") or [None])[0],
+                                        "what_we_reported": i.get("summary"),
+                                        "why_it_was_wrong": (i.get("verdict") or {}).get("note")} for i in corrections]},
                       ensure_ascii=False)
     try:
         copy = llm.chat_json(system, user, kind="brief", max_tokens=4000)
@@ -176,6 +209,8 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list) -> d
     points = copy.get("key_points") if isinstance(copy.get("key_points"), list) else []
     out = {k: no_em_dash(str(copy.get(k) or fallback[k])) for k in fallback if k != "key_points"}
     out["key_points"] = [no_em_dash(str(p)).strip() for p in points if str(p).strip()][:5]
+    fixes = copy.get("corrections") if isinstance(copy.get("corrections"), list) else []
+    out["corrections"] = [no_em_dash(str(c)).strip() for c in fixes if str(c).strip()]
     out["fact_check"] = copy.get("fact_check", "not run")
     out["title"] = out["title"][:90]
     out["x_post"] = fit_tweet(out["x_post"])
@@ -241,10 +276,12 @@ def fact_check(copy: dict, facts_json: str) -> dict:
         "the facts say shipping media named it), details merged from two different incidents, places or vessels "
         "not in the facts, or blame not stated in the facts. Keep everything that is supported, keep the style, "
         "keep the HTML tags, never add new facts, never use em or en dashes.\n"
-        'Return JSON: {"title": "...", "excerpt": "...", "key_points": ["..."], "article_html": "...", "x_post": "...", '
+        "Keep the news style: do not make sentences longer or add attribution to sentences that already have it in "
+        "the same paragraph. "
+        'Return JSON: {"title": "...", "excerpt": "...", "key_points": ["..."], "article_html": "...", "x_post": "...", "corrections": ["..."], '
         '"corrections": ["one short line per change you made"]}.'
     )
-    draft = {k: copy.get(k) for k in ("title", "excerpt", "key_points", "article_html", "x_post")}
+    draft = {k: copy.get(k) for k in ("title", "excerpt", "key_points", "article_html", "x_post", "corrections")}
     try:
         checked = llm.chat_json(system, json.dumps({"FACTS": json.loads(facts_json), "DRAFT": draft}, ensure_ascii=False),
                                 kind="brief", max_tokens=5000)
@@ -257,12 +294,32 @@ def fact_check(copy: dict, facts_json: str) -> dict:
     for k in ("title", "excerpt", "article_html", "x_post"):
         if isinstance(checked.get(k), str) and checked[k].strip():
             copy[k] = checked[k]
-    if isinstance(checked.get("key_points"), list) and checked["key_points"]:
-        copy["key_points"] = checked["key_points"]
+    for k in ("key_points", "corrections"):
+        if isinstance(checked.get(k), list) and checked[k]:
+            copy[k] = checked[k]
     copy["fact_check"] = f"{len(fixes)} correction(s)" if fixes else "no corrections needed"
     for f in fixes:
         log.info("Fact-check: %s", f[:200])
     return copy
+
+
+OFFICIAL_SITES = re.compile(r"https?://(www\.)?(ukmto\.org|jmic|maritime\.dot\.gov|imo\.org|centcom\.mil)", re.I)
+OUTLETS = {"ukmto.org": "UKMTO", "maritime.dot.gov": "MARAD", "imo.org": "IMO", "rivieramm.com": "Riviera Maritime Media",
+           "portnews.ru": "PortNews", "maritime-executive.com": "The Maritime Executive", "tradewinds": "TradeWinds",
+           "lloydslist": "Lloyd's List", "splash247.com": "Splash247", "seatrade-maritime.com": "Seatrade Maritime",
+           "gcaptain.com": "gCaptain", "aa.com.tr": "Anadolu Agency", "reuters.com": "Reuters"}
+
+
+def outlet_name(s: dict) -> str:
+    """'ABC News - Breaking...' -> 'ABC News'; a bare web address or a verification link -> the outlet's name."""
+    url = s.get("url", "")
+    for key, name in OUTLETS.items():
+        if key in url and "news.google.com" not in url:
+            return name
+    name = re.split(r"\s[-\u2013\u2014|:]\s", s.get("source") or "")[0].strip()
+    if re.fullmatch(r"[\w.-]+\.[a-z]{2,}", name):  # a domain such as 'example-news.com'
+        name = re.sub(r"^(www|en)\.", "", name).split(".")[0].replace("-", " ").title()
+    return name
 
 
 def sources_html(incidents: list[dict]) -> str:
@@ -273,11 +330,12 @@ def sources_html(incidents: list[dict]) -> str:
     """
     items = []
     for inc in incidents:
-        srcs = [s for s in inc["sources"] if s.get("source_type") not in ("satellite", "verification")]
+        srcs = [s for s in inc["sources"] if s.get("source_type") not in ("satellite", "verification")
+                or OFFICIAL_SITES.search(s.get("url", ""))]
         srcs.sort(key=lambda s: (SOURCE_RANK.get(s.get("kind"), 9), s.get("side") != "neutral"))
         names, seen = [], set()
         for s in srcs:
-            name = re.split(r"\s[-\u2013\u2014|:]\s", s["source"])[0].strip()  # "ABC News - Breaking..." -> "ABC News"
+            name = outlet_name(s)
             key = re.sub(r"[\W_]", "", name.lower().replace("24/7", "247"))  # "Splash 24/7" == "Splash247"; keeps Arabic names
             if not key or key in seen:
                 continue
@@ -288,7 +346,7 @@ def sources_html(incidents: list[dict]) -> str:
                 names.append(f'<a href="{html.escape(s["url"])}" rel="nofollow noopener" target="_blank">{html.escape(name)}</a>')
             if len(names) == 5:
                 break
-        label = inc.get("vessel_name") or (inc.get("vessel_type") or "vessel").capitalize()
+        label = (inc["vessel_name"].title() if inc.get("vessel_name") else (inc.get("vessel_type") or "vessel").capitalize())
         items.append(f"<li><strong>{html.escape(label)}, {html.escape(inc['region'])}</strong> "
                      f"({STATUS_LABEL[inc['status']].lower()}): {', '.join(names)}</li>")
     return "<h2>Sources</h2><ul>" + "".join(items) + "</ul>" if items else ""
@@ -300,10 +358,11 @@ def build(now=None) -> dict:
     day_label = now.strftime("%-d %B %Y")
     incidents = store.load()
     new, updated, corrections = select(incidents, since)
-    copy = write_copy(day_label, new, updated, corrections)
+    copy = write_copy(day_label, new, updated, corrections, incidents, now)
 
     if copy["article_html"]:
-        parts = []
+        parts = [f'<p style="font-size:14px;color:{MUTED}">Reporting period: the 24 hours to '
+                 f'{now.strftime("%H:%M")} UTC on {html.escape(day_label)}. By the iMariners Security Desk.</p>']
         if copy["key_points"]:
             parts.append(key_points_html(copy["key_points"]))
         parts.append(copy["article_html"])
@@ -312,9 +371,10 @@ def build(now=None) -> dict:
                  f"{html.escape(copy['excerpt'])}</p>"]
         parts += [incident_html(i) for i in new + updated]
     if corrections:
-        parts.append("<h2>Corrections</h2><ul>" + "".join(
-            f"<li>{html.escape(i.get('vessel_name') or i['id'])} ({html.escape(i['region'])}): an earlier report was "
-            f"checked and not confirmed. {html.escape((i.get('verdict') or {}).get('note') or '')}</li>" for i in corrections) + "</ul>")
+        lines = copy.get("corrections") if len(copy.get("corrections") or []) == len(corrections) else [
+            f"An earlier report on {i.get('vessel_name') or 'a vessel'} in the {i['region']} was checked and withdrawn. "
+            f"{(i.get('verdict') or {}).get('note') or ''}".strip() for i in corrections]
+        parts.append("<h2>Corrections</h2>" + "".join(f"<p>{html.escape(c)}</p>" for c in lines))
     if not (new or updated or corrections):
         parts.append("<p>No attacks on merchant vessels were reported in the Black Sea, the Red Sea or the Gulf area in the last 24 hours.</p>")
     if copy["article_html"]:

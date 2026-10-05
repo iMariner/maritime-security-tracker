@@ -358,3 +358,21 @@ def test_review_comment_parse_and_apply(tmp_path, monkeypatch):
     line = review.summary_line(rec)
     assert line.startswith("Editor check: 2 fix(es)") and "could not be applied" in line and "Editor notes" in line
     assert review.summary_line({}).startswith("⚠️ Editor check did not run")
+
+
+def test_outlet_names_and_context():
+    from datetime import datetime, timezone
+    from tracker.brief import outlet_name, tracker_context
+    assert outlet_name({"source": "rivieramm.com", "url": "https://www.rivieramm.com/news/x"}) == "Riviera Maritime Media"
+    assert outlet_name({"source": "Editor check", "url": "https://www.ukmto.org/-/media/x.pdf"}) == "UKMTO"
+    assert outlet_name({"source": "Gulf News - Latest", "url": "https://news.google.com/x"}) == "Gulf News"
+    assert outlet_name({"source": "example-news.com", "url": "https://example-news.com/a"}) == "Example News"
+    now = datetime(2026, 10, 5, 5, tzinfo=timezone.utc)
+    incs = [{"region": "Strait of Hormuz", "status": "confirmed", "date_utc": "2026-10-04", "vessel_name": "LIPSI"},
+            {"region": "Gulf of Oman", "status": "reported", "date_utc": "2026-10-01"},
+            {"region": "Strait of Hormuz", "status": "claimed", "date_utc": "2026-10-03"},
+            {"region": "Strait of Hormuz", "status": "merged", "merged_into": "X", "date_utc": "2026-10-03"},
+            {"region": "Black Sea", "status": "confirmed", "date_utc": "2026-09-20"}]
+    ctx = tracker_context(incs, now)
+    assert ctx == [{"area": "Strait of Hormuz and the Gulf", "merchant_ships_reported_hit_in_last_7_days": 2,
+                    "named_ships": ["LIPSI"]}]
