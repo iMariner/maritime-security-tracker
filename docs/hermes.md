@@ -46,6 +46,9 @@ PART B. Verification.
    - Check UKMTO, JMIC, MARAD and the IMO "Middle East: Highlighted (Confirmed) incidents" page for that date.
    - Look the vessel up on a public AIS site (VesselFinder, MyShipTracking, MarineTraffic) and Equasis.
    - Look for a statement by the owner, manager or flag state.
+   - If no ship name is known (UKMTO warnings rarely give one), search the maritime press (The Maritime
+     Executive, TradeWinds, Lloyd's List, Splash247, Seatrade, gCaptain) for the ship name. Only use a name a
+     source states for this exact incident, add it as vessel_name, and add a source line for the outlet that named it.
    - Check the date: if the only sources are older articles about an earlier attack, reject it as mis-dated.
    - Satellite-only leads (no vessel named): look for any vessel incident at that position and time.
      If nothing turns up 48 hours after the detection, reject it.
