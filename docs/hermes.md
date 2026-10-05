@@ -196,5 +196,8 @@ facts:
 - maritime-editor-check: maritime-editor-check (Hermes's own), grounded-citations, maps
 - maritime-weekly-learning: maritime-editor-check
 
-Plugin installed: hermes-cron (operating skill, no network). Web search and page reading use Hermes's built-in
+Plugins installed and enabled (Hermes catalog, pinned commits): hermes-cron (cron operating skill), reaction-feedback
+(Telegram 👍/👎 reach the agent), telegram_dashboard_probe (pinned health message, needs the Telegram channel) and
+tokenwatch (daily scope, warns at 80% and 95% of 3,000,000 tokens, freeze_on_limit false: it never stops a job).
+The money warning itself is the DeepSeek balance line in the daily Telegram message (below $3). Web search and page reading use Hermes's built-in
 keyless provider rotation (Exa, Parallel, Firecrawl, Keenable); no key is set.
