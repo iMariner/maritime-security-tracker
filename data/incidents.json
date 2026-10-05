@@ -57,8 +57,8 @@
     "conflicting": false,
     "confidence": 0.8,
     "vessel_name": "LIPSI",
-    "imo": null,
-    "flag": null,
+    "imo": "1025033",
+    "flag": "Liberia",
     "vessel_type": "LR2 tanker",
     "vessel_category": "merchant",
     "lat": 26.55,
@@ -340,10 +340,28 @@
         "kind": "media",
         "published_at": "2026-10-04T16:24:00Z",
         "title": "Incident in the Strait of Hormuz, tanker hit by a shell - Balkanweb.com"
+      },
+      {
+        "url": "https://www.rivieramm.com/news-content-hub/dynacom-aframax-tanker-hit-in-strait-of-hormuz-90183",
+        "source": "rivieramm.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-05T06:05:10Z",
+        "title": null
+      },
+      {
+        "url": "https://en.portnews.ru/news/397833/",
+        "source": "en.portnews.ru",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-05T06:05:10Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-04T12:50:55Z",
-    "last_updated": "2026-10-05T05:27:24Z",
+    "last_updated": "2026-10-05T06:05:10Z",
     "verification_issue": 39,
     "verdict": {
       "status": "confirmed",

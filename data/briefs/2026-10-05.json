@@ -22,5 +22,17 @@
   "notified": "2026-10-05T05:28:00Z",
   "correction_ids": [
     "INC-20261003-012"
-  ]
+  ],
+  "review": {
+    "status": "done",
+    "at": "2026-10-05T06:05:10Z",
+    "changes": [
+      "flag of INC-20261004-002 set to Liberia",
+      "imo of INC-20261004-002 set to 1025033"
+    ],
+    "refused": [],
+    "notes": [
+      "The record cites both UKMTO warning 150-26 and JMIC update 102, but JMIC update 102 lists UKMTO 150-26 as a 3 October incident losing propulsion while the UKMTO warning 150-26 PDF is dated 4 October and describes the engine room damage matching LIPSI, so the two official citations disagree on the da"
+    ]
+  }
 }
