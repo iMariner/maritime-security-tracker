@@ -74,6 +74,8 @@ def parse(body: str) -> tuple[str, list[tuple], list[str]] | None:
             changes.append(("merge", mm.group(1).upper(), mm.group(2).upper(), why))
         elif key in ("name", "flag", "imo", "date", "status") and (mm := re.match(ID + r"\s*=\s*([^|]+)", rest, re.I)):
             changes.append((key, mm.group(1).upper(), mm.group(2).strip(), why))
+        elif key == "lesson" and (mm := re.match(r"(writing|facts)\s*=\s*(.+)", rest, re.I)):
+            changes.append(("lesson", mm.group(1).lower(), mm.group(2).strip(), ""))
         elif key == "note" and rest:
             notes.append(rest if len(rest) <= 600 else rest[:600].rsplit(" ", 1)[0] + "...")
         elif line.lower() != "ok":
@@ -107,6 +109,10 @@ def apply(body: str) -> str | None:
     stamp = iso(now_utc())
     done, refused = [], []
     for kind, target, value, why in changes:
+        if kind == "lesson":
+            from . import lessons
+            (done if lessons.add(target, value) else refused).append(f"lesson ({target}): {value[:120]}")
+            continue
         inc = by_id.get(target)
         if target not in allowed or not inc:
             refused.append(f"{kind} {target}: not in today's draft")
@@ -180,7 +186,12 @@ def main() -> None:
     ap.add_argument("--apply", action="store_true", help="apply the /review comment in COMMENT_BODY")
     args = ap.parse_args()
     if args.apply:
-        day = apply(env("COMMENT_BODY", ""))
+        body = env("COMMENT_BODY", "")
+        if body.strip().startswith("/lessons"):
+            from . import lessons
+            lessons.replace_from_comment(body)
+            return
+        day = apply(body)
         if day:
             print(f"day={day}")
 

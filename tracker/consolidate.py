@@ -11,7 +11,7 @@ import json
 import re
 from datetime import timedelta
 
-from . import github_issues, llm
+from . import github_issues, lessons, llm
 from .common import iso, load_yaml, log, no_em_dash, now_utc, parse_dt
 from .incidents import MERGE_FIELDS, compute_status, different_flags, has_official, same_vessel
 
@@ -71,7 +71,7 @@ def _system(regions_on: list[str]) -> str:
         "Also return \"region_fixes\": [{\"id\": \"<id>\", \"region\": \"<correct region>\"}] (empty if none). "
         "Only list groups that merge at least one entry. 'keep' is the entry with the most specific details "
         "(a named vessel or an official confirmation). Never invent details."
-    )
+    ) + lessons.prompt_block("facts")
 
 
 IDENTITY = ("vessel_name", "imo", "flag", "vessel_type", "vessel_category", "lat", "lon", "location_text")

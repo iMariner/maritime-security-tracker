@@ -15,7 +15,7 @@ from pathlib import Path
 
 import requests
 
-from . import incidents as store, llm
+from . import incidents as store, lessons, llm
 from .common import BRIEFS_DIR, PUBLISHED_STATUSES, ROOT, env, iso, log, no_em_dash, now_utc, parse_dt, read_json, write_json
 from .image import render
 
@@ -187,7 +187,7 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list,
     )
     active = {i["region"] for i in new + updated}
     quiet = [a for a, regs in AREAS.items() if not regs & active]
-    system = system.replace("{date}", day_label)
+    system = system.replace("{date}", day_label) + lessons.prompt_block("writing")
     user = json.dumps({"date": day_label, "quiet_areas": quiet, "new_incidents": [_facts(i) for i in new],
                        "updates_on_earlier_incidents": [_facts(i) for i in updated],
                        "tracker_context": tracker_context(incidents or [], now or now_utc()),
@@ -221,6 +221,7 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list,
     notes = copy.get("correction_notes") if isinstance(copy.get("correction_notes"), list) else []
     out["correction_notes"] = [no_em_dash(str(c)).strip() for c in notes if str(c).strip()]
     out["fact_check"] = copy.get("fact_check", "not run")
+    out["fact_check_fixes"] = copy.get("fact_check_fixes") or []
     out["title"] = out["title"][:90]
     out["x_post"] = fit_tweet(out["x_post"])
     out["article_html"] = _clean_html(out["article_html"])
@@ -290,6 +291,7 @@ def fact_check(copy: dict, facts_json: str) -> dict:
         'Return JSON: {"title": "...", "excerpt": "...", "key_points": ["..."], "article_html": "...", "x_post": "...", "correction_notes": ["..."], '
         '"corrections": ["one short line per change you made"]}.'
     )
+    system += lessons.prompt_block("writing")
     draft = {k: copy.get(k) for k in ("title", "excerpt", "key_points", "article_html", "x_post", "correction_notes")}
     try:
         checked = llm.chat_json(system, json.dumps({"FACTS": json.loads(facts_json), "DRAFT": draft}, ensure_ascii=False),
@@ -307,6 +309,7 @@ def fact_check(copy: dict, facts_json: str) -> dict:
         if isinstance(checked.get(k), list) and checked[k]:
             copy[k] = checked[k]
     copy["fact_check"] = f"{len(fixes)} correction(s)" if fixes else "no corrections needed"
+    copy["fact_check_fixes"] = [f[:300] for f in fixes]  # the learning log: what the writer got wrong
     for f in fixes:
         log.info("Fact-check: %s", f[:200])
     return copy
@@ -402,7 +405,7 @@ def build(now=None) -> dict:
     body = no_em_dash("\n".join(parts))
     return {"date": now.date().isoformat(), "day_label": day_label, "generated_at": iso(now),
             **{k: copy[k] for k in ("title", "excerpt", "x_post")}, "html": body,
-            "fact_check": copy.get("fact_check", "not run"),
+            "fact_check": copy.get("fact_check", "not run"), "fact_check_fixes": copy.get("fact_check_fixes", []),
             "incident_ids": [i["id"] for i in new + updated], "correction_ids": [i["id"] for i in corrections],
             "counts": {"new": len(new), "updated": len(updated), "corrections": len(corrections)},
             "_incidents": new + updated}
@@ -434,7 +437,8 @@ def publish(brief: dict, image: Path) -> dict:
     preview_url = write_preview_page(brief, image_url)  # brief["html"] already carries the map
     record.update(post_id=post["id"], media_id=media_id, image_url=image_url, preview_url=preview_url,
                   link=post["link"], status=post["status"],
-                  **{k: brief[k] for k in ("title", "excerpt", "x_post", "incident_ids", "correction_ids", "counts", "fact_check")},
+                  **{k: brief[k] for k in ("title", "excerpt", "x_post", "incident_ids", "correction_ids", "counts", "fact_check",
+                                     "fact_check_fixes")},
                   quality=brief["quality"]["summary"])
     write_json(record_path, record)
     log.info("WordPress post %s (%s): %s", post["id"], post["status"], post["link"])

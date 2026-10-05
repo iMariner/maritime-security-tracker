@@ -377,3 +377,27 @@ def test_outlet_names_and_context():
     ctx = tracker_context(incs, now)
     assert ctx == [{"area": "Strait of Hormuz and the Gulf", "merchant_ships_reported_hit_in_last_7_days": 2,
                     "named_ships": ["LIPSI"]}]
+
+
+def test_lessons_add_and_replace(tmp_path, monkeypatch):
+    from tracker import lessons
+    monkeypatch.setattr(lessons, "PATH", tmp_path / "lessons.yaml")
+    assert lessons.add("writing", "Name the ship in the headline when it is known.")
+    assert not lessons.add("writing", "name the ship in the headline, when it is known")   # near-duplicate
+    assert not lessons.add("writing", "too short")
+    assert not lessons.add("style", "An unknown section is refused here.")
+    assert lessons.add("facts", "A report with no ship, flag or type is a statistic, not an incident.")
+    assert "Lessons from earlier mistakes" in lessons.prompt_block("writing")
+    body = ("/lessons\nwriting:\n- Keep headlines under 80 characters and name the ship.\n"
+            "- Credit ship names to whoever identified the ship.\nfacts:\n- One outlet retelling a UKMTO warning is the same attack.\n")
+    assert lessons.replace_from_comment(body)
+    data = lessons.load()
+    assert len(data["writing"]) == 2 and len(data["facts"]) == 1
+    assert not lessons.replace_from_comment("/lessons\nwriting:\n- Only writing rules here, facts would be emptied.\n")
+    assert lessons.load()["facts"]  # refused: kept
+
+
+def test_review_lesson_line():
+    from tracker import review
+    _, changes, _ = review.parse("/review 2026-10-05\nlesson: writing = Do not call explosions near a ship an attack on it.\n")
+    assert changes == [("lesson", "writing", "Do not call explosions near a ship an attack on it.", "")]
