@@ -312,3 +312,10 @@ def test_sources_list_keeps_arabic_outlet():
     out = sources_html([{"region": "Gulf of Aden", "status": "reported", "vessel_type": "tanker",
                          "sources": [{"source": "حياة عدن", "url": "https://news.google.com/x", "kind": "media"}]}])
     assert "حياة عدن" in out
+
+
+def test_image_label_ship_types():
+    from tracker.image import label
+    assert label({"vessel_type": "tanker", "location_text": "off Yemen"}) == "Tanker, off Yemen"
+    assert label({"vessel_name": "LIPSI", "vessel_type": "tanker (LR2)", "location_text": "Strait of Hormuz"}) == \
+        "LIPSI (tanker LR2), Strait of Hormuz"

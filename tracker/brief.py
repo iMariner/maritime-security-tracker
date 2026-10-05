@@ -118,7 +118,8 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list) -> d
         "quiet_areas, say in one sentence that no new attacks on merchant ships were reported there in the last "
         "24 hours.\n"
         "Accuracy rules: attribute every claim in the text (e.g. 'UKMTO said', 'Russia's defence ministry claimed', "
-        "'according to Splash247'). An incident with status 'claimed' must read as a claim by that party, never as "
+        "'according to Splash247'). Credit each detail to the source that gave it: when a ship's name comes from "
+        "media or a security firm and not from UKMTO, never write 'UKMTO reports tanker <name>'. An incident with status 'claimed' must read as a claim by that party, never as "
         "fact. 'reported' means independent reporting without official confirmation. 'confirmed' means confirmed by "
         "a neutral authority, the owner or our own check. Never use em dashes or en dashes; use commas, colons or "
         "full stops. No hashtags in the article.\n"
@@ -234,16 +235,16 @@ def fact_check(copy: dict, facts_json: str) -> dict:
     """Second pass: check every sentence of the draft against the facts and correct what they do not support."""
     system = (
         "You are the fact-checker of a maritime security news desk. You get the FACTS (structured incident records) "
-        "and a DRAFT (title, key points, article, tweet). Check every sentence of the draft against the facts. "
+        "and a DRAFT (title, excerpt, key points, article, tweet). Check every sentence of the draft against the facts. "
         "Correct anything not supported: wrong or missing dates, an attack presented as new when the facts show it "
         "happened earlier, a claim worded as fact, the wrong source credited (e.g. saying UKMTO named a ship when "
         "the facts say shipping media named it), details merged from two different incidents, places or vessels "
         "not in the facts, or blame not stated in the facts. Keep everything that is supported, keep the style, "
         "keep the HTML tags, never add new facts, never use em or en dashes.\n"
-        'Return JSON: {"title": "...", "key_points": ["..."], "article_html": "...", "x_post": "...", '
+        'Return JSON: {"title": "...", "excerpt": "...", "key_points": ["..."], "article_html": "...", "x_post": "...", '
         '"corrections": ["one short line per change you made"]}.'
     )
-    draft = {k: copy.get(k) for k in ("title", "key_points", "article_html", "x_post")}
+    draft = {k: copy.get(k) for k in ("title", "excerpt", "key_points", "article_html", "x_post")}
     try:
         checked = llm.chat_json(system, json.dumps({"FACTS": json.loads(facts_json), "DRAFT": draft}, ensure_ascii=False),
                                 kind="brief", max_tokens=5000)
@@ -253,7 +254,7 @@ def fact_check(copy: dict, facts_json: str) -> dict:
         return copy
     fixes = [str(c) for c in checked.get("corrections") or [] if str(c).strip()
              and not re.search(r"\bno (changes|corrections)\b|nothing (to|was) (change|correct)", str(c), re.I)]
-    for k in ("title", "article_html", "x_post"):
+    for k in ("title", "excerpt", "article_html", "x_post"):
         if isinstance(checked.get(k), str) and checked[k].strip():
             copy[k] = checked[k]
     if isinstance(checked.get("key_points"), list) and checked["key_points"]:

@@ -2,6 +2,7 @@
 as numbered markers, and under each panel a numbered list saying which ship and where."""
 from __future__ import annotations
 
+import re
 from datetime import datetime
 from pathlib import Path
 
@@ -40,10 +41,12 @@ def label(incident: dict) -> str:
     """'KAZIMAH III (tanker), Strait of Hormuz' or 'General cargo ship (Liberia), Odesa region'."""
     name = incident.get("vessel_name")
     kind = (incident.get("vessel_type") or "").strip()
+    kind = kind.replace("(", "").replace(")", "")
     if name:
         who = f"{name} ({kind})" if kind else name
     else:
-        who = (kind[:1].upper() + kind[1:] + " ship") if kind else "Unnamed ship"
+        noun = "" if re.search(r"(tanker|carrier|ship|vessel|boat|tug|ferry)$", kind, re.I) else " ship"
+        who = (kind[:1].upper() + kind[1:] + noun) if kind else "Unnamed ship"
         if incident.get("flag"):
             who += f" ({incident['flag']})"
     place = (incident.get("location_text") or incident.get("region") or "").split(",")[0].strip()
