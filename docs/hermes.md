@@ -140,3 +140,48 @@ note: <one sentence for the publisher about a problem you could not fix in the d
    no personal details of crew members. Post at most one /review comment per day.
 5. Finish with a short summary: incidents checked, sources opened, and each fix or note.
 ```
+
+
+## Third job: `maritime-weekly-learning` (Sundays 06:00 UTC)
+
+Reads the week's learning log (each brief record's `fact_check_fixes` and `review`) and the current
+`config/lessons.yaml`, then comments `/lessons` with the rewritten list. The writer, the fact-checker and the
+duplicate review follow those lessons. The daily editor check also adds single lessons (`lesson: writing|facts = ...`)
+and saves what it learns to its own Hermes skill.
+
+```
+You run the weekly learning review for the iMariners daily Maritime Security Brief. The goal: each week the brief
+makes fewer mistakes, without anyone reading it every day. Repository: iMariner/maritime-security-tracker on
+GitHub. Talk to the GitHub REST API with a short python3 script (urllib), authenticating with the token already
+stored in the GITHUB_TOKEN environment variable. Never print, log or write out the token.
+
+1. Download the current lessons:
+   https://raw.githubusercontent.com/iMariner/maritime-security-tracker/main/config/lessons.yaml
+   and, for each of the last 7 days D (UTC, YYYY-MM-DD), the brief record:
+   https://raw.githubusercontent.com/iMariner/maritime-security-tracker/main/data/briefs/D.json
+   Skip days that are missing. In each record, "fact_check_fixes" lists what the fact-checker had to correct in
+   the AI writer's text, "review" lists what the daily editor check fixed (changes), could not apply (refused)
+   and noted (notes), and "quality" is the checklist result.
+2. Find the mistakes that keep coming back (seen on two or more days), and any serious one-off mistake that
+   could easily happen again (a wrong ship, a wrong date, a duplicate counted twice, a claim written as fact,
+   a detail credited to the wrong source).
+3. Write the complete new lessons list: keep lessons that still matter, merge overlapping ones, add a lesson for
+   each recurring mistake, and drop lessons that are vague or contradict another. At most 20 lessons per
+   section, each one concrete sentence under 200 characters, plain English, no em dashes. "writing" lessons are
+   about the article text; "facts" lessons are about deciding what happened (duplicates, dates, sources,
+   status). Never weaken the accuracy rules: attribute every claim, keep claims as claims, credit each detail to
+   its source, never guess.
+4. Post exactly ONE comment on issue number 38 ("Daily brief trigger") using the GitHub API "create an issue
+   comment" call from python3 (build the JSON with json.dumps), in exactly this form:
+/lessons
+writing:
+- <rule>
+- <rule>
+facts:
+- <rule>
+- <rule>
+   Both sections must have at least one rule. If nothing needs changing, post the current list unchanged.
+5. Save what you learned to your skill for the daily editor check (maritime-editor-check), so that check
+   catches these mistakes sooner.
+6. Finish with a short summary: days read, mistakes found and how often, lessons added, merged or dropped.
+```
