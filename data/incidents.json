@@ -52,14 +52,14 @@
   {
     "region": "Strait of Hormuz",
     "date_utc": "2026-10-04",
-    "summary": "A tanker was struck by an unknown projectile in the Strait of Hormuz on 4 October, damaging the engine room, according to UK maritime authorities. A roundup by Seatrade Maritime reported at least four tankers attacked in Hormuz including a Dynacom newbuild, with Iran blamed for the attacks.",
+    "summary": "UKMTO reported a tanker struck by an unknown projectile in the Strait of Hormuz on 4 October, damaging the engine room; the crew were reported safe. Maritime security firm Vanguard Tech identified the ship as LIPSI, a new LR2 tanker linked to a Greek operator and a Chinese owner, according to The Maritime Executive.",
     "official_source_cited": "UK maritime agency (UKMTO)",
     "conflicting": false,
     "confidence": 0.8,
-    "vessel_name": null,
+    "vessel_name": "LIPSI",
     "imo": null,
     "flag": null,
-    "vessel_type": "tanker",
+    "vessel_type": "tanker (LR2)",
     "vessel_category": "merchant",
     "lat": 26.55,
     "lon": 56.35,
@@ -316,7 +316,7 @@
       }
     ],
     "first_seen": "2026-10-04T12:50:55Z",
-    "last_updated": "2026-10-05T04:39:44Z",
+    "last_updated": "2026-10-05T05:23:15Z",
     "verification_issue": 39,
     "verdict": {
       "status": "confirmed",
@@ -624,10 +624,19 @@
         "kind": "media",
         "published_at": "2026-10-04T19:54:17Z",
         "title": "Tanker reports explosions off Yemen coast: UKMTO - en.yenisafak.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBVbEhuaW1qRWFvRHg0VGZNaEFYLW1KSk0xTzhUNmxPaE1Kc19fWHo3aHJwRVNERWN1bm9xMlFWNkd0V2ZxT3VFWnM1VF9ydkZ0OUE?oc=5",
+        "source": "حياة عدن",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T02:52:27Z",
+        "title": "Maritime Authority: Explosions Near Tanker in the Gulf of Aden - حياة عدن"
       }
     ],
     "first_seen": "2026-10-04T20:25:18Z",
-    "last_updated": "2026-10-05T04:39:43Z",
+    "last_updated": "2026-10-05T05:23:13Z",
     "verification_issue": 41,
     "verdict": {
       "status": "confirmed",
@@ -1115,14 +1124,15 @@
       }
     ],
     "first_seen": "2026-10-05T04:39:33Z",
-    "last_updated": "2026-10-05T04:39:33Z",
+    "last_updated": "2026-10-05T05:23:13Z",
     "verification_issue": 44,
     "verdict": null,
     "published_in": [
       "2026-10-05"
     ],
-    "status": "confirmed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261004-005"
   },
   {
     "region": "Black Sea",
