@@ -119,6 +119,8 @@ in the GITHUB_TOKEN environment variable. Never print, log or write out the toke
      add it. Search the maritime press (The Maritime Executive, TradeWinds, Lloyd's List, Splash247, Seatrade,
      gCaptain) for the name when no source in the file gives one.
    - The date is right.
+   - The map position fits the place the sources give (use your maps skill to turn a place or a bearing and
+     distance into coordinates). Correct it with a position line only when the sources give a clearer place.
    - The status is right. confirmed: UKMTO, JMIC, MARAD, IMO, a coast guard, the owner or manager, or the flag
      state confirms it. reported: independent media with their own evidence. claimed: only one side of the
      conflict says it. rejected: it did not happen, it is mis-dated, it duplicates another, or no merchant ship
@@ -133,6 +135,7 @@ name: <id> = <SHIP NAME> | <link to the page that names it>
 flag: <id> = <flag state> | <link>
 imo: <id> = <7-digit IMO number> | <link>
 date: <id> = YYYY-MM-DD | <link>
+position: <id> = <latitude>, <longitude> | <what the position is based on, e.g. 60 nm south of Al-Mokha per UKMTO>
 status: <id> = confirmed, reported, claimed or rejected (one word) | <short reason naming the source>
 note: <one sentence for the publisher about a problem you could not fix in the data>
    If nothing needs fixing, the second line is just: ok
@@ -185,3 +188,13 @@ facts:
    catches these mistakes sooner.
 6. Finish with a short summary: days read, mistakes found and how often, lessons added, merged or dropped.
 ```
+
+
+## Skills attached to the jobs
+
+- maritime-security-tracking: maritime-verify-desk (Hermes's own), grounded-citations
+- maritime-editor-check: maritime-editor-check (Hermes's own), grounded-citations, maps
+- maritime-weekly-learning: maritime-editor-check
+
+Plugin installed: hermes-cron (operating skill, no network). Web search and page reading use Hermes's built-in
+keyless provider rotation (Exa, Parallel, Firecrawl, Keenable); no key is set.
