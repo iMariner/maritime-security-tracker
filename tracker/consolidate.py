@@ -45,7 +45,9 @@ def _system(regions_on: list[str]) -> str:
         "You get the recent incidents for one area. Several entries often describe the SAME real-world attack, "
         "because different outlets report it with different wording, counts or dates (e.g. 'three ships hit', "
         "'four tankers attacked in 24 hours', 'tanker catches fire', a named vessel). A roundup that reports "
-        "several attacks together is the same event as the individual entries it covers.\n"
+        "several attacks together is the same event as the individual entries it covers. A local outlet retelling an "
+        "official report hours later ('maritime authority: explosions near a tanker') is the same event, and an "
+        "attack near Bab el-Mandeb may be filed as Red Sea by one outlet and Gulf of Aden by another.\n"
         "Tasks:\n"
         "1. Group entries that are the same real-world attack (or the same cluster of attacks reported together). "
         "Merge only when the details clearly fit: same area, dates within about two days, compatible vessel and "
@@ -135,9 +137,45 @@ def absorb_into_official(incidents: list[dict]) -> int:
     return absorbed
 
 
+# Neighbouring areas: one attack near Bab el-Mandeb is often filed as Red Sea by one outlet and Gulf of Aden by another.
+NEIGHBOURS = [{"Red Sea", "Gulf of Aden"}, {"Strait of Hormuz", "Gulf of Oman", "Persian Gulf"}]
+
+
+def absorb_echoes(incidents: list[dict]) -> int:
+    """A thin, unchecked report (one outlet, no name, flag or IMO) on the same day, ship type and neighbouring
+    area as an attack already confirmed by Hermes from UKMTO or JMIC is that attack retold, usually by a local
+    outlet some hours later. It becomes a source of the confirmed record. Returns how many were absorbed."""
+    stamp = iso(now_utc())
+    absorbed = 0
+    for area in NEIGHBOURS:
+        anchors = [i for i in incidents if i.get("region") in area and (i.get("verdict") or {}).get("status") == "confirmed"
+                   and i.get("status") not in CLOSED and not i.get("merged_into") and _event_time(i)]
+        if not anchors:
+            continue
+        for inc in incidents:
+            outlets = {s.get("source") for s in inc.get("sources", []) if s.get("source_type") != "satellite"}
+            if (inc.get("region") not in area or inc in anchors or inc.get("verdict") or inc.get("vessel_name")
+                    or inc.get("flag") or inc.get("imo") or has_official(inc) or len(outlets) > 1
+                    or inc.get("status") in CLOSED or inc.get("merged_into") or not _event_time(inc)):
+                continue
+            near = [a for a in anchors if abs(_event_time(a) - _event_time(inc)) <= timedelta(days=1)
+                    and (not inc.get("vessel_type") or not a.get("vessel_type")
+                         or inc["vessel_type"].lower() == a["vessel_type"].lower())]
+            if not near:
+                continue
+            target = min(near, key=lambda a: abs(_event_time(a) - _event_time(inc)))
+            _merge_into(target, inc, sources_only=True)
+            inc["status"], inc["last_updated"] = "merged", stamp
+            target["status"], target["last_updated"] = compute_status(target), stamp
+            _close(inc, f"Closed: the same attack as the confirmed record {target['id']}.")
+            absorbed += 1
+            log.info("Absorbed single-source %s into confirmed %s", inc["id"], target["id"])
+    return absorbed
+
+
 def consolidate(incidents: list[dict]) -> int:
     """Merge duplicates and drop out-of-scope incidents in place. Returns how many entries were closed."""
-    closed = absorb_into_official(incidents)
+    closed = absorb_into_official(incidents) + absorb_echoes(incidents)
     if not llm.available():
         return closed
     regions_on = [r["name"] for r in load_yaml("regions.yaml").get("regions", []) if r.get("enabled")]

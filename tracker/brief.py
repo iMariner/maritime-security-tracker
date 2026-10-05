@@ -277,7 +277,7 @@ def sources_html(incidents: list[dict]) -> str:
         names, seen = [], set()
         for s in srcs:
             name = re.split(r"\s[-\u2013\u2014|:]\s", s["source"])[0].strip()  # "ABC News - Breaking..." -> "ABC News"
-            key = re.sub(r"[^a-z0-9]", "", name.lower().replace("24/7", "247"))  # "Splash 24/7" == "Splash247"
+            key = re.sub(r"[\W_]", "", name.lower().replace("24/7", "247"))  # "Splash 24/7" == "Splash247"; keeps Arabic names
             if not key or key in seen:
                 continue
             seen.add(key)
@@ -399,6 +399,9 @@ def quality_report(brief: dict, incidents: list[dict]) -> dict:
     single = [i for i in used if len({s["source"] for s in i["sources"] if s.get("source_type") != "satellite"}) < 2
               and not has_official(i)]
     verified = [i for i in used if i.get("verdict") or has_official(i)]
+    # "confirmed" must rest on Hermes's check or an official list, never on wording alone
+    shaky = [i for i in used if i["status"] == "confirmed" and not i.get("verdict") and not has_official(i)]
+    unchecked_single = [i for i in single if not i.get("verdict")]
     text = brief["html"] + brief["title"] + brief["x_post"]
     dashes = len(re.findall("[\u2014\u2013]", text))
     tweet_len = len(brief["x_post"]) + 24
@@ -407,7 +410,8 @@ def quality_report(brief: dict, incidents: list[dict]) -> dict:
         "attribution": "ok" if not unattributed else f"{len(unattributed)} claims without a named source",
         "official coverage": f"{len(covered)}/{len(official_recent)}" + (" ok" if len(covered) == len(official_recent) else " MISSING"),
         "verified": f"{len(verified)}/{len(used)}",
-        "single-source items": str(len(single)),
+        "single-source items": str(len(single)) + (f", {len(unchecked_single)} without verification" if unchecked_single else ""),
+        "confirmed": "ok" if not shaky else f"{len(shaky)} marked confirmed without proof",
         "fact-check": brief.get("fact_check", "not run"),
         "tweet": f"{tweet_len}/280" + (" ok" if tweet_len <= 280 else " TOO LONG"),
         "dashes": "ok" if not dashes else f"{dashes} found",

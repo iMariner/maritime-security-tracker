@@ -282,3 +282,33 @@ def test_image_no_position_for_whole_sea():
     assert not no_position({"location_text": "Odesa region, Ukraine", "lat": 46.49, "lon": 30.74, "position_approx": True})
     assert not no_position({"location_text": "Strait of Hormuz", "lat": 26.55, "lon": 56.35, "position_approx": True})
     assert not no_position({"location_text": "Black Sea", "lat": 44.1, "lon": 33.2})  # a reported position
+
+
+def test_generic_authority_is_not_neutral():
+    assert store.neutral_confirmation("UK maritime agency (UKMTO)")
+    assert not store.neutral_confirmation("Maritime Authority")
+    assert not store.neutral_confirmation("shipping sources")
+    assert not store.neutral_confirmation("tanker tracking data")
+
+
+def test_echo_of_confirmed_attack_is_absorbed():
+    from tracker.consolidate import absorb_echoes
+    anchor = {"id": "A", "region": "Red Sea", "date_utc": "2026-10-04", "vessel_type": "tanker", "status": "confirmed",
+              "verdict": {"status": "confirmed"}, "sources": [{"source": "UKMTO", "url": "u1"}]}
+    echo = {"id": "B", "region": "Gulf of Aden", "date_utc": "2026-10-04", "vessel_type": "tanker", "status": "reported",
+            "sources": [{"source": "Hayat Aden", "url": "u2"}]}
+    other_day = {"id": "C", "region": "Gulf of Aden", "date_utc": "2026-10-08", "vessel_type": "tanker",
+                 "status": "reported", "sources": [{"source": "X", "url": "u3"}]}
+    named = {"id": "D", "region": "Gulf of Aden", "date_utc": "2026-10-04", "vessel_name": "SOME SHIP",
+             "vessel_type": "tanker", "status": "reported", "sources": [{"source": "Y", "url": "u4"}]}
+    items = [anchor, echo, other_day, named]
+    assert absorb_echoes(items) == 1
+    assert echo["status"] == "merged" and other_day["status"] == "reported" and named["status"] == "reported"
+    assert any(s["url"] == "u2" for s in anchor["sources"])
+
+
+def test_sources_list_keeps_arabic_outlet():
+    from tracker.brief import sources_html
+    out = sources_html([{"region": "Gulf of Aden", "status": "reported", "vessel_type": "tanker",
+                         "sources": [{"source": "حياة عدن", "url": "https://news.google.com/x", "kind": "media"}]}])
+    assert "حياة عدن" in out
