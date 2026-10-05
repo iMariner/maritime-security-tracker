@@ -369,7 +369,8 @@ def test_outlet_names_and_context():
     assert outlet_name({"source": "example-news.com", "url": "https://example-news.com/a"}) == "Example News"
     now = datetime(2026, 10, 5, 5, tzinfo=timezone.utc)
     incs = [{"region": "Strait of Hormuz", "status": "confirmed", "date_utc": "2026-10-04", "vessel_name": "LIPSI"},
-            {"region": "Gulf of Oman", "status": "reported", "date_utc": "2026-10-01"},
+            {"region": "Gulf of Oman", "status": "reported", "date_utc": "2026-10-01", "vessel_type": "tanker"},
+            {"region": "Strait of Hormuz", "status": "reported", "date_utc": "2026-10-03"},  # a statistic, no ship
             {"region": "Strait of Hormuz", "status": "claimed", "date_utc": "2026-10-03"},
             {"region": "Strait of Hormuz", "status": "merged", "merged_into": "X", "date_utc": "2026-10-03"},
             {"region": "Black Sea", "status": "confirmed", "date_utc": "2026-09-20"}]

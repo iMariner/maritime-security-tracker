@@ -108,12 +108,19 @@ AREAS = {"Strait of Hormuz and the Gulf": {"Strait of Hormuz", "Persian Gulf", "
          "Red Sea and Gulf of Aden": {"Red Sea", "Gulf of Aden"}, "Black Sea": {"Black Sea", "Sea of Azov"}}
 
 
+def _day(iso_date: str) -> str:
+    d = parse_dt(iso_date)
+    return d.strftime("%-d %B") if d else "earlier"
+
+
 def tracker_context(incidents: list[dict], now) -> list[dict]:
     """Counts from our own data for one sentence of context: merchant ships reported hit per area in 7 days."""
     out = []
     for area, regions in AREAS.items():
         week = [i for i in incidents if i.get("region") in regions and i.get("status") in ("confirmed", "reported")
                 and not i.get("merged_into") and i.get("vessel_category") != "naval"
+                # a specific ship, not a statistic such as "Iran fired 360 missiles at shipping"
+                and any(i.get(k) for k in ("vessel_name", "imo", "flag", "vessel_type"))
                 and (d := parse_dt(i.get("date_utc"))) and now - timedelta(days=7) <= d <= now]
         if week:
             out.append({"area": area, "merchant_ships_reported_hit_in_last_7_days": len(week),
@@ -165,11 +172,13 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list,
         "second paragraph with the overall picture and one sentence from tracker_context; (3) one <h2> section per "
         "area with incidents, most serious first, each incident in one or two short paragraphs (max 3 sentences, "
         "about 60 words each) with ship identity, time if known, place, damage, crew, who said it, and what is not "
-        "yet known (attacker, cause) in one sentence; (4) <h2>What crews should know</h2>: two sentences built only "
-        "from guidance in the facts (for example UKMTO advising caution near Bab el-Mandeb) plus reporting incidents "
-        "to UKMTO; no invented drills or procedures. 250 to 550 words. No sources list and no corrections section "
+        "yet known (attacker, cause) in one sentence. The section must add what the lede did not say (ship details, "
+        "owner or manager, attribution, what is unknown) instead of restating it; (4) <h2>What crews should know</h2>: "
+        "at most two sentences: report any attack or suspicious approach to UKMTO, and follow UKMTO and JMIC "
+        "advisories and company security instructions. Mention specific guidance only if it appears word for word in "
+        "the facts. 250 to 550 words. No sources list and no corrections section "
         "(both are added automatically).\n"
-        '"corrections": one plain sentence per item in corrections, in news style, e.g. "Our 4 October brief '
+        '"correction_notes": one plain sentence per item in corrections, in news style, e.g. "Our 4 October brief '
         "reported an attack on a Turkish cargo ship in the Black Sea on 3 October; the report referred to the 27 "
         "September drone strike on the Palau-flagged bulk carrier Aroyat near Novorossiysk.\" Empty list if none.\n"
         '"x_post": the tweet: one or two short sentences, at most 200 characters, naming the ship and place; then '
@@ -209,8 +218,8 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list,
     points = copy.get("key_points") if isinstance(copy.get("key_points"), list) else []
     out = {k: no_em_dash(str(copy.get(k) or fallback[k])) for k in fallback if k != "key_points"}
     out["key_points"] = [no_em_dash(str(p)).strip() for p in points if str(p).strip()][:5]
-    fixes = copy.get("corrections") if isinstance(copy.get("corrections"), list) else []
-    out["corrections"] = [no_em_dash(str(c)).strip() for c in fixes if str(c).strip()]
+    notes = copy.get("correction_notes") if isinstance(copy.get("correction_notes"), list) else []
+    out["correction_notes"] = [no_em_dash(str(c)).strip() for c in notes if str(c).strip()]
     out["fact_check"] = copy.get("fact_check", "not run")
     out["title"] = out["title"][:90]
     out["x_post"] = fit_tweet(out["x_post"])
@@ -278,10 +287,10 @@ def fact_check(copy: dict, facts_json: str) -> dict:
         "keep the HTML tags, never add new facts, never use em or en dashes.\n"
         "Keep the news style: do not make sentences longer or add attribution to sentences that already have it in "
         "the same paragraph. "
-        'Return JSON: {"title": "...", "excerpt": "...", "key_points": ["..."], "article_html": "...", "x_post": "...", "corrections": ["..."], '
+        'Return JSON: {"title": "...", "excerpt": "...", "key_points": ["..."], "article_html": "...", "x_post": "...", "correction_notes": ["..."], '
         '"corrections": ["one short line per change you made"]}.'
     )
-    draft = {k: copy.get(k) for k in ("title", "excerpt", "key_points", "article_html", "x_post", "corrections")}
+    draft = {k: copy.get(k) for k in ("title", "excerpt", "key_points", "article_html", "x_post", "correction_notes")}
     try:
         checked = llm.chat_json(system, json.dumps({"FACTS": json.loads(facts_json), "DRAFT": draft}, ensure_ascii=False),
                                 kind="brief", max_tokens=5000)
@@ -294,7 +303,7 @@ def fact_check(copy: dict, facts_json: str) -> dict:
     for k in ("title", "excerpt", "article_html", "x_post"):
         if isinstance(checked.get(k), str) and checked[k].strip():
             copy[k] = checked[k]
-    for k in ("key_points", "corrections"):
+    for k in ("key_points", "correction_notes"):
         if isinstance(checked.get(k), list) and checked[k]:
             copy[k] = checked[k]
     copy["fact_check"] = f"{len(fixes)} correction(s)" if fixes else "no corrections needed"
@@ -371,9 +380,13 @@ def build(now=None) -> dict:
                  f"{html.escape(copy['excerpt'])}</p>"]
         parts += [incident_html(i) for i in new + updated]
     if corrections:
-        lines = copy.get("corrections") if len(copy.get("corrections") or []) == len(corrections) else [
-            f"An earlier report on {i.get('vessel_name') or 'a vessel'} in the {i['region']} was checked and withdrawn. "
-            f"{(i.get('verdict') or {}).get('note') or ''}".strip() for i in corrections]
+        written = copy.get("correction_notes") or []
+        if len(written) != len(corrections):
+            log.warning("Corrections: %d written for %d items, using the plain wording", len(written), len(corrections))
+        lines = written if len(written) == len(corrections) else [
+            f"Correction to our {_day((i.get('published_in') or [''])[0])} brief: "
+            f"{((i.get('verdict') or {}).get('note') or 'the report could not be confirmed and has been withdrawn.').rstrip('.')}."
+            for i in corrections]
         parts.append("<h2>Corrections</h2>" + "".join(f"<p>{html.escape(c)}</p>" for c in lines))
     if not (new or updated or corrections):
         parts.append("<p>No attacks on merchant vessels were reported in the Black Sea, the Red Sea or the Gulf area in the last 24 hours.</p>")
