@@ -213,3 +213,11 @@ Hermes skill `maritime-brief-feedback` (category maritime): when the publisher r
 Hermes checks the claim against the sources, then comments `/review <date>` on issue 38 with fix lines and/or
 `lesson:` lines. The tracker applies them, rebuilds the brief and sends a fresh approval message. A thumbs up is
 noted; a bare thumbs down gets one question back. Hermes never publishes or posts anywhere itself.
+
+## DeepSeek balance alert in the Hermes chat
+
+Hermes job `deepseek-balance-alert` (no_agent, script `/opt/data/scripts/deepseek_balance.py`, daily 05:20 UTC,
+delivered to Telegram). Silent while the balance is at or above BALANCE_WARN_USD (default 3); below it, one
+warning line to top up. Hermes strips provider keys from cron script environments, so the script reads
+DEEPSEEK_API_KEY from the environment first, then from $HERMES_HOME/.env. Read-only balance call; costs nothing.
+The daily approval message (n8n bot) also shows the balance on its first line.
