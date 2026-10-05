@@ -2,14 +2,21 @@
 # Hermes adds lessons during the daily editor check ("lesson:" lines) and rewrites this list in its weekly
 # learning review (at most 25 per section). Keep each rule one concrete sentence.
 writing:
-  - Never write that UKMTO named a ship unless UKMTO's own warning names it; credit the firm or outlet that did.
-  - Never repeat a sentence between the headline, standfirst, key points and lede.
-  - Name the ship in the headline and lede when known, in normal capitalisation (Lipsi, not LIPSI).
-  - Never start a sentence with a warning number such as "UKMTO warning 150-26, dated".
-  - Crew advice is only to report to UKMTO and follow UKMTO, JMIC and company instructions, unless the facts give specific guidance.
-  - Context counts come only from tracker_context and are credited to the iMariners tracker.
+- Never attribute a ship name to UKMTO unless UKMTO's own warning names it; credit the firm or outlet that named the ship.
+- Never repeat a sentence between the headline, standfirst, key points and lede; each later section must add to the lede.
+- Name the ship in the headline and lede when known, in normal capitalisation (Lipsi, not LIPSI).
+- Never start a sentence with a warning number such as "UKMTO warning 150-26, dated".
+- Attribute every figure and claim to the outlet or body that gave it, never to "a report" or "shipping sources" alone.
+- When official sources disagree on a detail such as the date, give each source and what it says rather than one version as settled.
+- Crew advice is only to report to UKMTO and follow UKMTO, JMIC and company instructions, unless the facts give specific guidance.
+- Context counts come only from tracker_context and are credited to the iMariners tracker.
 facts:
-  - A single local outlet reporting explosions near a tanker hours after a UKMTO warning in a neighbouring area is the same attack, not a new one.
-  - '"Maritime authority" or "shipping sources" is not a neutral confirmation; only a named authority such as UKMTO or JMIC, the owner or the flag state is.'
-  - A report that names no ship, flag or type (for example "Iran fired 360 missiles at shipping") is a statistic, not an incident.
-  - A Black Sea report with no date in its text is often an older attack reported again; check the date before treating it as new.
+- A report that gives no date, especially a Black Sea one, is often an older attack reported again; check the source article's own date before treating it as new.
+- A single local outlet reporting explosions near a tanker hours after a UKMTO warning in a neighbouring area is the same attack, not a new one.
+- '"Maritime authority" or "shipping sources" is not a neutral confirmation; only a named authority such as UKMTO or JMIC, the owner or the flag state is.'
+- A report that names no ship, flag or type (for example "Iran fired 360 missiles at shipping") is a statistic, not an incident.
+- Two incidents on the same day in the same or neighbouring waters (Red Sea and Bab el-Mandeb, or Hormuz and the Gulf of Oman) are one attack if the details match; merge the thinner one.
+- Record only a ship name, flag or IMO that a source states for this exact incident; leave the flag or IMO blank if no source gives it rather than guessing.
+- When two official sources give the same incident different dates, treat the disagreement as unresolved and say so; do not pick one silently.
+- A one-sided claim (Iran's PGSA, Russia's defence ministry, a single foreign outlet) stays "claimed" unless a neutral source or AIS corroborates the attack.
+- Never count the same incident twice in a context tally; a reposted report is one ship, not two.
