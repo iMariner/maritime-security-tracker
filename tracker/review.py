@@ -75,7 +75,7 @@ def parse(body: str) -> tuple[str, list[tuple], list[str]] | None:
         elif key in ("name", "flag", "imo", "date", "status") and (mm := re.match(ID + r"\s*=\s*([^|]+)", rest, re.I)):
             changes.append((key, mm.group(1).upper(), mm.group(2).strip(), why))
         elif key == "note" and rest:
-            notes.append(rest[:300])
+            notes.append(rest if len(rest) <= 600 else rest[:600].rsplit(" ", 1)[0] + "...")
         elif line.lower() != "ok":
             log.warning("Editor check: ignored line %r", line[:120])
     return m.group(1), changes, notes
@@ -171,7 +171,7 @@ def summary_line(record: dict) -> str:
     if review.get("refused"):
         parts.append(f"⚠️ {len(review['refused'])} suggested fix(es) could not be applied")
     if review.get("notes"):
-        parts.append("⚠️ Editor notes: " + " ".join(review["notes"])[:500])
+        parts.append("⚠️ Editor notes: " + " ".join(review["notes"]))
     return ". ".join(parts) + "."
 
 
