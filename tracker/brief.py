@@ -342,6 +342,12 @@ def publish(brief: dict, image: Path) -> dict:
     record_path = BRIEFS_DIR / f"{brief['date']}.json"
     record = read_json(record_path, {})
     mode = env("PUBLISH_MODE", "draft")
+    if record.get("post_id"):
+        try:  # a rebuild after the post went live must not take it offline
+            if wp._req("GET", f"/posts/{record['post_id']}", params={"context": "edit"}).get("status") == "publish":
+                mode = "publish"
+        except RuntimeError as exc:
+            log.warning("Could not read the current post status: %s", exc)
     # a fresh upload every run: a same-day rerun can carry different incidents
     media_id, image_url = wp.upload_image(image, f"Map of {brief['title']}")
     brief["html"] = with_map(brief["html"], image_url, brief["day_label"])
@@ -355,7 +361,7 @@ def publish(brief: dict, image: Path) -> dict:
     preview_url = write_preview_page(brief, image_url)  # brief["html"] already carries the map
     record.update(post_id=post["id"], media_id=media_id, image_url=image_url, preview_url=preview_url,
                   link=post["link"], status=post["status"],
-                  **{k: brief[k] for k in ("title", "excerpt", "x_post", "incident_ids", "counts", "fact_check")},
+                  **{k: brief[k] for k in ("title", "excerpt", "x_post", "incident_ids", "correction_ids", "counts", "fact_check")},
                   quality=brief["quality"]["summary"])
     write_json(record_path, record)
     log.info("WordPress post %s (%s): %s", post["id"], post["status"], post["link"])
@@ -428,7 +434,10 @@ def notify_n8n(record: dict) -> None:
     if not url:
         log.info("No N8N_WEBHOOK_URL; skipping social posting")
         return
-    payload = {**record, "needs_approval": record["status"] != "publish", "wp_url": env("WP_URL")}
+    from .review import summary_line
+
+    payload = {**record, "needs_approval": record["status"] != "publish", "wp_url": env("WP_URL"),
+               "quality": f"{summary_line(record)} {record.get('quality', '')}".strip()}
     headers = {"X-Tracker-Token": env("N8N_WEBHOOK_TOKEN", "")}
     resp = requests.post(url, json=payload, headers=headers, timeout=30)
     log.info("n8n webhook -> %s", resp.status_code)
@@ -466,6 +475,7 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--preview", action="store_true")
     ap.add_argument("--notify", action="store_true", help="only send today's saved brief to n8n")
+    ap.add_argument("--notify-if-pending", action="store_true", help="send today's brief only if not yet sent")
     ap.add_argument("--refresh-image", metavar="YYYY-MM-DD", help="redraw the map of a published brief and swap it in")
     args = ap.parse_args()
 
@@ -473,12 +483,17 @@ def main() -> None:
         refresh_image(args.refresh_image)
         return
 
-    if args.notify:
-        record = read_json(BRIEFS_DIR / f"{now_utc().date().isoformat()}.json", {})
-        if record.get("post_id"):
-            notify_n8n(record)
-        else:
+    if args.notify or args.notify_if_pending:
+        path = BRIEFS_DIR / f"{now_utc().date().isoformat()}.json"
+        record = read_json(path, {})
+        if not record.get("post_id"):
             log.info("No brief published today; nothing to send to n8n")
+        elif args.notify_if_pending and record.get("notified"):
+            log.info("Today's brief was already sent for approval")
+        else:
+            notify_n8n(record)
+            record["notified"] = iso(now_utc())
+            write_json(path, record)
         return
 
     brief = build()
@@ -497,6 +512,9 @@ def main() -> None:
         return
 
     record = publish(brief, image)
+    from .review import write_request
+
+    write_request(brief["date"], record)
     incidents = store.load()
     for inc in incidents:
         if inc["id"] in brief["incident_ids"] and brief["date"] not in inc.get("published_in", []):

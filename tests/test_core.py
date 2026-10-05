@@ -319,3 +319,42 @@ def test_image_label_ship_types():
     assert label({"vessel_type": "tanker", "location_text": "off Yemen"}) == "Tanker, off Yemen"
     assert label({"vessel_name": "LIPSI", "vessel_type": "tanker (LR2)", "location_text": "Strait of Hormuz"}) == \
         "LIPSI (tanker LR2), Strait of Hormuz"
+
+
+def test_review_comment_parse_and_apply(tmp_path, monkeypatch):
+    from tracker import review
+    from tracker import common
+    body = ("/review 2026-10-05\n"
+            "merge: INC-20261004-013 into INC-20261004-005 | same UKMTO 151-26 attack\n"
+            "name: INC-20261004-002 = Lipsi | https://maritime-executive.com/article/x\n"
+            "imo: INC-20261004-002 = 12345 | https://example.com\n"
+            "status: INC-20261001-001 = rejected | not in today's draft\n"
+            "note: Hormuz count in one source looks inflated.\n")
+    day, changes, notes = review.parse(body)
+    assert day == "2026-10-05" and len(changes) == 4 and notes
+    assert review.parse("hello") is None
+
+    incs = [
+        {"id": "INC-20261004-002", "region": "Strait of Hormuz", "status": "confirmed", "sources": [{"url": "a", "source": "UKMTO"}]},
+        {"id": "INC-20261004-005", "region": "Red Sea", "status": "confirmed", "sources": [{"url": "b", "source": "UKMTO"}]},
+        {"id": "INC-20261004-013", "region": "Gulf of Aden", "status": "reported", "sources": [{"url": "c", "source": "Aden"}]},
+        {"id": "INC-20261001-001", "region": "Black Sea", "status": "claimed", "sources": [{"url": "d", "source": "X"}]},
+    ]
+    saved = {}
+    monkeypatch.setattr(review.store, "load", lambda: incs)
+    monkeypatch.setattr(review.store, "save", lambda x: saved.setdefault("incs", x))
+    monkeypatch.setattr(review, "REVIEW_DIR", tmp_path)
+    monkeypatch.setattr(review, "BRIEFS_DIR", tmp_path)
+    common.write_json(tmp_path / "2026-10-05.json",
+                      {"date": "2026-10-05", "incidents": [{"id": i["id"]} for i in incs[:3]]})
+    assert review.apply(body) == "2026-10-05"
+    by = {i["id"]: i for i in incs}
+    assert by["INC-20261004-013"]["merged_into"] == "INC-20261004-005"
+    assert by["INC-20261004-002"]["vessel_name"] == "LIPSI"
+    assert "imo" not in by["INC-20261004-002"]                 # bad IMO refused
+    assert by["INC-20261001-001"]["status"] == "claimed"       # not in the draft: refused
+    rec = common.read_json(tmp_path / "2026-10-05.json", {})
+    assert len(rec["review"]["changes"]) == 2 and len(rec["review"]["refused"]) == 2
+    line = review.summary_line(rec)
+    assert line.startswith("Editor check: 2 fix(es)") and "could not be applied" in line and "Editor notes" in line
+    assert review.summary_line({}).startswith("⚠️ Editor check did not run")

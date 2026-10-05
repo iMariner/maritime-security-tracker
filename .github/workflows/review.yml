@@ -1,0 +1,48 @@
+name: Apply editor check
+
+# Hermes reads the held draft against the sources and comments "/review <date>" with fixes on the pinned
+# "Daily brief trigger" issue. The fixes go into the data, then the brief is rebuilt and sent for approval.
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: data-writer
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    if: contains(github.event.issue.labels.*.name, 'brief-trigger') && startsWith(github.event.comment.body, '/review') && github.event.comment.author_association == 'OWNER'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Apply the fixes
+        id: review
+        env:
+          COMMENT_BODY: ${{ github.event.comment.body }}
+        run: python -m tracker.review --apply | tee -a "$GITHUB_OUTPUT"
+      - name: Commit data
+        run: |
+          git config user.name "tracker-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet && exit 0
+          git commit -m "editor check: ${{ steps.review.outputs.day }}"
+          git pull --rebase
+          git push
+      - name: Rebuild and send for approval
+        # only for today's draft; a late check of an older brief just updates the data
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [ "${{ steps.review.outputs.day }}" = "$(date -u +%Y-%m-%d)" ] || { echo "Not today's brief; no rebuild."; exit 0; }
+          gh workflow run daily-brief.yml -R "$GITHUB_REPOSITORY" -f reviewed=true

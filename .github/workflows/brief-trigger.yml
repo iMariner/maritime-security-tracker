@@ -1,7 +1,8 @@
 name: Start daily brief (Hermes)
 
 # GitHub's own schedule ran the brief up to 6 hours late. Hermes runs on time on the VPS and,
-# at the end of its morning run, comments /brief on the pinned "Daily brief trigger" issue.
+# at the end of its morning run, comments /brief on the pinned "Daily brief trigger" issue. The draft is
+# held until Hermes's editor check (/review, see review.yml) has run.
 on:
   issue_comment:
     types: [created]
@@ -18,4 +19,4 @@ jobs:
         run: sleep 240
       - env:
           GH_TOKEN: ${{ github.token }}
-        run: gh workflow run daily-brief.yml -R "$GITHUB_REPOSITORY" -f only_if_missing=true
+        run: gh workflow run daily-brief.yml -R "$GITHUB_REPOSITORY" -f only_if_missing=true -f hold=true
