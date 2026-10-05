@@ -10,7 +10,7 @@ roughly 1 to 2 USD a month at this volume. Without AI credit the tracker still c
 and no incidents are extracted.
 
 ```
-Every 30 min (GitHub Actions: collect.yml)
+Every hour (GitHub Actions: collect.yml)
   Telegram (t.me/s) + RSS + Google News (en/uk/ru/tr/ro) + NASA FIRMS
   -> keyword pre-filter -> DeepSeek extracts incidents -> match/merge into data/incidents.json
   -> doubtful ones open a GitHub issue labelled "verify" -> Hermes (or you) answers /verdict

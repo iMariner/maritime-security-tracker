@@ -16,7 +16,7 @@ published on imariners.com and shared on X and LinkedIn.
 
 | Part | Runs on | Job |
 |---|---|---|
-| GitHub Actions (public repo) | GitHub, free | every 30 min: read Telegram channels, news, NASA fire data; DeepSeek extracts incidents; stores `data/incidents.json`; opens `verify` issues for doubtful ones. Daily at about 06:00 UTC: writes the brief and creates the WordPress post |
+| GitHub Actions (public repo) | GitHub, free | hourly: read Telegram channels, news, NASA fire data; DeepSeek extracts incidents; stores `data/incidents.json`; opens `verify` issues for doubtful ones. Daily after Hermes's 04:30 UTC check (backup schedule from 06:10): collects fresh news, writes the brief and creates the WordPress draft |
 | **n8n** | **test server** | receives the brief from GitHub, asks Ajit on Telegram (Publish / Skip), publishes the WordPress post, posts to X and LinkedIn, reports back |
 | **Hermes** | **test server** | every 2 to 3 hours: works the `verify` issues on GitHub and answers each with a `/verdict` comment |
 | imariners.com | WordPress | the published brief, in category `maritime-security` |
