@@ -201,3 +201,12 @@ Plugins installed and enabled (Hermes catalog, pinned commits): hermes-cron (cro
 tokenwatch (daily scope, warns at 80% and 95% of 3,000,000 tokens, freeze_on_limit false: it never stops a job).
 The money warning itself is the DeepSeek balance line in the daily Telegram message (below $3). Web search and page reading use Hermes's built-in
 keyless provider rotation (Exa, Parallel, Firecrawl, Keenable); no key is set.
+
+## Telegram channel and the feedback skill
+
+Hermes has its own Telegram bot (manual BotFather setup, allowed user 5871106546). The pinned health message comes
+from `telegram_dashboard_probe` (settings: chat_id 5871106546, period 300 s, limits lines off, Asia/Kolkata).
+Hermes skill `maritime-brief-feedback` (category maritime): when the publisher reacts or replies about a brief,
+Hermes checks the claim against the sources, then comments `/review <date>` on issue 38 with fix lines and/or
+`lesson:` lines. The tracker applies them, rebuilds the brief and sends a fresh approval message. A thumbs up is
+noted; a bare thumbs down gets one question back. Hermes never publishes or posts anywhere itself.
