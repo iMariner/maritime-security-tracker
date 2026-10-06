@@ -23,5 +23,21 @@
   },
   "fact_check": "no corrections needed",
   "fact_check_fixes": [],
-  "quality": "2 check(s) need attention: dates ok; attribution 2 claims without a named source; official coverage 0/0 ok; verified 1/5; single-source items 2, 2 without verification; confirmed ok; fact-check no corrections needed; tweet 215/280 ok; dashes ok"
+  "quality": "2 check(s) need attention: dates ok; attribution 2 claims without a named source; official coverage 0/0 ok; verified 1/5; single-source items 2, 2 without verification; confirmed ok; fact-check no corrections needed; tweet 215/280 ok; dashes ok",
+  "review": {
+    "status": "done",
+    "at": "2026-10-06T05:09:55Z",
+    "changes": [
+      "merged INC-20261005-014 into INC-20261005-001 (same 5 October drone attack on the Turkish-owned grain ship Royad Mammadov off Romania, same two dead and 11 rescued)",
+      "merged INC-20261005-017 into INC-20261005-001 (same 5 October Black Sea drone attack on the grain ship Royad Mammadov, same two dead and 11 rescued)",
+      "merged INC-20261005-019 into INC-20261005-001 (same 5 October attack on a Turkish-linked ship, no separate vessel or details given)",
+      "merged INC-20261005-020 into INC-20261005-001 (same 5 October attack on a Turkish ship off Romania in which two sailors died)",
+      "position of INC-20261005-001 set to 44.42, 29.45 (about 9 nm from the Pescăruș platform and about 20 nm off the Romanian coast, pe)",
+      "lesson (facts): A ship's flag is its state of registry, not the owner's country; when media call a Turkish-owned vessel Turkish flagged,"
+    ],
+    "refused": [],
+    "notes": [
+      "The incident summary still calls Royad Mammadov Turkish flagged, but ARSVOM and ship databases give its flag as Saint Kitts and Nevis, so the summary should read Turkish owned, Saint Kitts and Nevis flagged."
+    ]
+  }
 }
