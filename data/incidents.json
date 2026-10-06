@@ -7,8 +7,8 @@
     "conflicting": true,
     "confidence": 0.9,
     "vessel_name": "ROYAD MAMMADOV",
-    "imo": null,
-    "flag": "Turkey",
+    "imo": "9356969",
+    "flag": "Saint Kitts and Nevis",
     "vessel_type": "general cargo",
     "vessel_category": "merchant",
     "lat": 43.4,
@@ -713,12 +713,54 @@
         "kind": "media",
         "published_at": "2026-10-05T15:45:35Z",
         "title": "Navă lovită de dronă în apele României: Un om a murit, altul dat dispărut - Radio Moldova"
+      },
+      {
+        "url": "https://www.reuters.com/world/two-dead-11-rescued-serious-maritime-incident-black-sea-romania-says-2026-10-05/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-06T04:33:47Z",
+        "title": null
+      },
+      {
+        "url": "https://www.euronews.com/2026/10/05/drone-reportedly-hits-ship-in-black-sea-killing-two-and-injuring-11",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-06T04:33:47Z",
+        "title": null
+      },
+      {
+        "url": "https://www.kyivpost.com/post/86161",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-06T04:33:47Z",
+        "title": null
+      },
+      {
+        "url": "https://www.vesselfinder.com/vessels/details/9356969",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-06T04:33:47Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-05T09:36:06Z",
-    "last_updated": "2026-10-06T01:26:30Z",
+    "last_updated": "2026-10-06T04:33:47Z",
     "verification_issue": 45,
-    "verdict": null,
+    "verdict": {
+      "status": "reported",
+      "by": "iMariner",
+      "at": "2026-10-06T04:33:47Z",
+      "note": "The Turkish-owned Saint Kitts and Nevis flagged cargo ship Royad Mammadov caught fire and sank about 20 nm off Romania near the Pescarsus platform on 5 October with two dead and 11 rescued, but Romanian authorities have not confirmed the drone cause or any attribution.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/45#issuecomment-6009391479"
+    },
     "published_in": [],
     "status": "reported",
     "status_changed_at": "2026-10-05T09:36:11Z",
@@ -1096,12 +1138,27 @@
         "kind": "media",
         "published_at": "2026-10-05T17:36:00Z",
         "title": "الجيش الروسي يعلن استهداف سفينة شحن تزود الجيش الأوكراني بالمؤن في ميناء بيفدينني - فيتو"
+      },
+      {
+        "url": "https://www.reuters.com/world/europe/russia-says-it-struck-two-ukrainian-cargo-vessels-black-sea-2026-10-05",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-06T04:33:44Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-05T19:45:08Z",
-    "last_updated": "2026-10-05T19:45:13Z",
+    "last_updated": "2026-10-06T04:33:44Z",
     "verification_issue": 47,
-    "verdict": null,
+    "verdict": {
+      "status": "claimed",
+      "by": "iMariner",
+      "at": "2026-10-06T04:33:44Z",
+      "note": "The report that Russian forces struck a general cargo vessel carrying cargo for Ukraine's armed forces at Pivdennyi (Yuzhny) port on 5 October comes only from Russia's defence ministry via TASS with no independent confirmation.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/47#issuecomment-6009391785"
+    },
     "published_in": [],
     "status": "claimed",
     "position_approx": true
@@ -3005,12 +3062,36 @@
         "kind": "media",
         "published_at": "2026-10-05T07:32:37Z",
         "title": "Rusya'dan Karadeniz'de iki kargo gemisine saldırı - Notbir"
+      },
+      {
+        "url": "https://www.reuters.com/world/russia-says-it-hit-kyiv-bridge-two-vessels-black-sea-2026-10-04",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-06T04:33:45Z",
+        "title": null
+      },
+      {
+        "url": "https://www.themoscowtimes.com/2026/10/04/russia-says-it-hit-kyiv-bridge-2-vessels-in-black-sea-a93868",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-06T04:33:45Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-05T09:36:30Z",
-    "last_updated": "2026-10-05T09:36:32Z",
+    "last_updated": "2026-10-06T04:33:45Z",
     "verification_issue": 46,
-    "verdict": null,
+    "verdict": {
+      "status": "claimed",
+      "by": "iMariner",
+      "at": "2026-10-06T04:33:45Z",
+      "note": "The claim that two dry cargo vessels carrying military equipment were hit heading to Odesa on 4 October comes only from Russia's defence ministry and no independent source confirms the vessels or their cargo.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/46#issuecomment-6009391625"
+    },
     "published_in": [],
     "status": "claimed",
     "date_approx": false,
