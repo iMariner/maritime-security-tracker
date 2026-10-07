@@ -441,3 +441,42 @@ def test_brief_watchdog_decide():
     from tracker import review
     day, changes, notes = review.parse(wd.decide({"post_id": 1}, "2026-10-07")[0])
     assert day == "2026-10-07" and changes == [] and notes
+
+
+def test_editor_notes_reach_the_writer(tmp_path, monkeypatch):
+    """A /review note (wrong credit, conflicting dates) must be given to the writer and the fact-checker on the rebuild."""
+    import json as _json
+    from tracker import brief
+    from tracker.common import write_json
+    monkeypatch.setattr(brief, "BRIEFS_DIR", tmp_path)
+    note = "The 12 injured came from India's foreign ministry, not from UKMTO."
+    write_json(tmp_path / "2026-10-07.json", {"review": {"status": "done", "notes": [note]}})
+    assert brief.editor_notes("2026-10-07") == [note]
+    assert brief.editor_notes("2026-10-08") == []
+    write_json(tmp_path / "2026-10-09.json", {"review": {"status": "pending", "notes": [note]}})
+    assert brief.editor_notes("2026-10-09") == []
+
+    seen = []
+    def fake_chat(system, user, **kw):
+        seen.append((system, _json.loads(user)))
+        return {"title": "t", "excerpt": "e", "key_points": ["k"], "article_html": "<p>a</p>", "x_post": "x"}
+    monkeypatch.setattr(brief.llm, "chat_json", fake_chat)
+    brief.write_copy("7 October 2026", [], [], [], [], None, [note])
+    writer_system, writer_user = seen[0]
+    assert writer_user["editor_notes"] == [note] and "notes win" in writer_system
+    checker_system, checker_user = seen[1]
+    assert checker_user["FACTS"]["editor_notes"] == [note] and "editor_notes" in checker_system
+
+
+def test_second_review_keeps_first_notes(tmp_path, monkeypatch):
+    from tracker import brief, review
+    from tracker.common import write_json
+    monkeypatch.setattr(review.store, "load", lambda: [])
+    monkeypatch.setattr(review.store, "save", lambda x: None)
+    monkeypatch.setattr(review, "REVIEW_DIR", tmp_path)
+    monkeypatch.setattr(review, "BRIEFS_DIR", tmp_path)
+    monkeypatch.setattr(brief, "BRIEFS_DIR", tmp_path)
+    write_json(tmp_path / "2026-10-07.json", {})
+    review.apply("/review 2026-10-07\nnote: Credit the 12 injured to India, not UKMTO.")
+    review.apply("/review 2026-10-07\nnote: Automatic resend at 06:00 UTC: the approval message had not been sent.")
+    assert brief.editor_notes("2026-10-07") == ["Credit the 12 injured to India, not UKMTO."]

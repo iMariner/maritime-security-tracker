@@ -170,7 +170,11 @@ def apply(body: str) -> str | None:
     store.save(incidents)
     record_path = BRIEFS_DIR / f"{day}.json"
     record = read_json(record_path, {})
-    record["review"] = {"status": "done", "at": stamp, "changes": done, "refused": refused, "notes": notes}
+    # A later /review the same day (a resend, a second check) adds to the first one instead of wiping its notes
+    prev = record.get("review") or {}
+    keep = lambda k, new: [x for x in prev.get(k) or [] if x not in new] + new if prev.get("status") == "done" else new
+    record["review"] = {"status": "done", "at": stamp, "changes": keep("changes", done),
+                        "refused": keep("refused", refused), "notes": keep("notes", notes)}
     write_json(record_path, record)
     log.info("Editor check for %s: %d change(s), %d refused, %d note(s)", day, len(done), len(refused), len(notes))
     for line in done + refused + notes:
@@ -190,7 +194,7 @@ def summary_line(record: dict) -> str:
     if review.get("refused"):
         parts.append(f"⚠️ {len(review['refused'])} suggested fix(es) could not be applied")
     if review.get("notes"):
-        parts.append("⚠️ Editor notes: " + " ".join(review["notes"]))
+        parts.append("⚠️ Editor notes (given to the writer, check the draft follows them): " + " ".join(review["notes"]))
     return ". ".join(parts) + "."
 
 

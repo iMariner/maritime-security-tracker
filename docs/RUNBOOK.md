@@ -102,7 +102,7 @@ and the tweet text. Lines starting with ⚠️ mean "read the draft before publi
 | Start today's brief if nothing exists | Comment `/brief now` on #38, or run "Daily brief" in GitHub Actions |
 | Build without sending (test) | Run "Daily brief" with `notify` off, or `preview` on (no WordPress) |
 | Fix a published post's map | Run "Refresh brief map" with the date |
-| Correct a fact | `/review <date>` lines: `merge:`, `name:`, `flag:`, `imo:`, `date:`, `position:`, `status:`, `note:`, `lesson:` (format in `tracker/review.py`) |
+| Correct a fact | `/review <date>` lines: `merge:`, `name:`, `flag:`, `imo:`, `date:`, `position:`, `status:`, `note:`, `lesson:` (format in `tracker/review.py`). `note:` lines go to the writer and fact-checker on the rebuild and overrule the data (use them for a wrong credit, a detail in the wrong paragraph, conflicting dates); a second `/review` the same day adds to the first |
 | Change the lessons | Edit `config/lessons.yaml`, or comment `/lessons` with `writing:` and `facts:` sections |
 | Check the DeepSeek balance | GitHub Actions "Check DeepSeek balance", or the first line of the approval message |
 | Change a Hermes prompt | Hermes, Cron, Edit job; keep `docs/hermes.md` in step |

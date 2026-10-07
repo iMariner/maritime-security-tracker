@@ -137,7 +137,7 @@ imo: <id> = <7-digit IMO number> | <link>
 date: <id> = YYYY-MM-DD | <link>
 position: <id> = <latitude>, <longitude> | <what the position is based on, e.g. 60 nm south of Al-Mokha per UKMTO>
 status: <id> = confirmed, reported, claimed or rejected (one word) | <short reason naming the source>
-note: <one sentence for the publisher about a problem you could not fix in the data>
+note: <one sentence the writer must follow on the rebuild, for a problem the data cannot hold (wrong credit, detail in the wrong paragraph, sources giving different dates); say exactly what the text should say>
    If nothing needs fixing, the second line is just: ok
    Use only ids from the file. Never guess: if you are not sure, leave it as it is. Plain English, no em dashes,
    no personal details of crew members. Post at most one /review comment per day.

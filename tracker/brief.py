@@ -129,7 +129,7 @@ def tracker_context(incidents: list[dict], now) -> list[dict]:
 
 
 def write_copy(day_label: str, new: list, updated: list, corrections: list,
-               incidents: list | None = None, now=None) -> dict:
+               incidents: list | None = None, now=None, editor_notes: list | None = None) -> dict:
     """AI writes the news article, headline, excerpt and tweet from the structured facts only."""
     system = (
         "You are the senior news editor of the iMariners Security Desk, writing the daily maritime security brief "
@@ -146,6 +146,11 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list,
         "name comes from a security firm or the press, say so; never write that UKMTO named it). 'claimed' must read "
         "as one party's claim, never as fact. 'reported' means independent reporting without official confirmation. "
         "'confirmed' means a neutral authority, the owner or our own check confirms it. Never use em or en dashes.\n"
+        "Editor notes: editor_notes come from the editor who opened the original sources. Where they conflict with "
+        "the incident facts, the notes win. Follow every note in every layer (headline, standfirst, key points, "
+        "article, tweet): fix the date, the credited source or the paragraph a detail belongs to, exactly as the "
+        "note says. When a note says sources give different dates, give each source and its date. Never mention the "
+        "notes themselves.\n"
         "Newsroom style rules:\n"
         "- Never repeat a sentence or phrase between the headline, standfirst, key points and lede. Each layer adds "
         "something new.\n"
@@ -188,7 +193,8 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list,
     active = {i["region"] for i in new + updated}
     quiet = [a for a, regs in AREAS.items() if not regs & active]
     system = system.replace("{date}", day_label) + lessons.prompt_block("writing")
-    user = json.dumps({"date": day_label, "quiet_areas": quiet, "new_incidents": [_facts(i) for i in new],
+    user = json.dumps({"date": day_label, "quiet_areas": quiet, "editor_notes": list(editor_notes or []),
+                       "new_incidents": [_facts(i) for i in new],
                        "updates_on_earlier_incidents": [_facts(i) for i in updated],
                        "tracker_context": tracker_context(incidents or [], now or now_utc()),
                        "corrections": [{"region": i["region"], "vessel_name": i.get("vessel_name"),
@@ -284,7 +290,8 @@ def fact_check(copy: dict, facts_json: str) -> dict:
         "Correct anything not supported: wrong or missing dates, an attack presented as new when the facts show it "
         "happened earlier, a claim worded as fact, the wrong source credited (e.g. saying UKMTO named a ship when "
         "the facts say shipping media named it), details merged from two different incidents, places or vessels "
-        "not in the facts, or blame not stated in the facts. Keep everything that is supported, keep the style, "
+        "not in the facts, or blame not stated in the facts. FACTS.editor_notes come from the editor who checked the "
+        "original sources: they overrule the incident records, and the draft must follow every one of them. Keep everything that is supported, keep the style, "
         "keep the HTML tags, never add new facts, never use em or en dashes.\n"
         "Keep the news style: do not make sentences longer or add attribution to sentences that already have it in "
         "the same paragraph. "
@@ -364,13 +371,24 @@ def sources_html(incidents: list[dict]) -> str:
     return "<h2>Sources</h2><ul>" + "".join(items) + "</ul>" if items else ""
 
 
+def editor_notes(day: str) -> list[str]:
+    """Notes from today's editor check (/review note: lines). They describe what the data cannot hold (a wrong
+    credit, a detail in the wrong paragraph, conflicting dates), so the writer must follow them on the rebuild."""
+    review = read_json(BRIEFS_DIR / f"{day}.json", {}).get("review") or {}
+    if review.get("status") != "done":
+        return []
+    # "resend" lines are housekeeping for the workflow, not editorial notes
+    return [str(n) for n in review.get("notes") or [] if str(n).strip()
+            and not re.match(r"(automatic )?resend\b", str(n).strip(), re.I)]
+
+
 def build(now=None) -> dict:
     now = now or now_utc()
     since = now - timedelta(hours=int(env("BRIEF_WINDOW_HOURS", "24")))
     day_label = now.strftime("%-d %B %Y")
     incidents = store.load()
     new, updated, corrections = select(incidents, since)
-    copy = write_copy(day_label, new, updated, corrections, incidents, now)
+    copy = write_copy(day_label, new, updated, corrections, incidents, now, editor_notes(now.date().isoformat()))
 
     if copy["article_html"]:
         parts = [f'<p style="font-size:14px;color:{MUTED}">Reporting period: the 24 hours to '
