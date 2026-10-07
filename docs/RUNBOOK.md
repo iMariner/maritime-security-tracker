@@ -112,7 +112,7 @@ and the tweet text. Lines starting with ⚠️ mean "read the draft before publi
 | Correct a fact | `/review <date>` lines: `merge:`, `name:`, `flag:`, `imo:`, `date:`, `position:`, `status:`, `note:`, `lesson:` (format in `tracker/review.py`). `note:` lines go to the writer and fact-checker on the rebuild and overrule the data (use them for a wrong credit, a detail in the wrong paragraph, conflicting dates); a second `/review` the same day adds to the first |
 | Change the lessons | Edit `config/lessons.yaml`, or comment `/lessons` with `writing:` and `facts:` sections |
 | Check the DeepSeek balance | GitHub Actions "Check DeepSeek balance", or the first line of the approval message |
-| Change a Hermes prompt | Hermes, Cron, Edit job; keep `docs/hermes.md` in step |
+| Change a Hermes prompt | Hermes, Cron, Edit job; keep `docs/hermes.md` and `docs/hermes/` (skills, memory, profiles) in step |
 | Update the watchdog script | Edit `scripts/hermes/brief_watchdog.py`, push, ask Hermes to re-download it to `/opt/data/scripts/` |
 | Restart Hermes's Telegram side | Ask Hermes in its Chat page to run `hermes gateway restart` (the dashboard Restart buttons did not restart it) |
 | Hermes page says "Access ended" | Open app.splicerun.com, Hermes Agent instance, "Open Hermes Agent" again |
