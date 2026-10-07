@@ -1,7 +1,7 @@
 {
   "date": "2026-10-07",
-  "title": "Bulgaria says drones sank Alfa Watan as tanker On Peace hit in Hormuz",
-  "preview_url": "https://imariner.github.io/maritime-security-tracker/preview/2026-10-07.html?v=044126",
+  "title": "Tanker On Peace hit in Hormuz as drone sinks Alfa Watan off Bulgaria",
+  "preview_url": "https://imariner.github.io/maritime-security-tracker/preview/2026-10-07.html?v=060139",
   "incidents": [
     {
       "id": "INC-20261006-001",
@@ -76,7 +76,7 @@
       "region": "Strait of Hormuz",
       "date_utc": "2026-10-06",
       "vessel_name": "ON PEACE",
-      "imo": null,
+      "imo": "9893204",
       "flag": "Panama",
       "vessel_type": "tanker",
       "location": "Strait of Hormuz",
@@ -98,6 +98,12 @@
           "title": "12 Seafarers Injured in Attack on LR2 Tanker in Strait of Hormuz",
           "url": "https://maritime-executive.com/article/12-seafarers-injured-in-attack-on-lr2-tanker-in-strait-of-hormuz",
           "published": "2026-10-06T18:27:03Z"
+        },
+        {
+          "outlet": "gcaptain.com",
+          "title": null,
+          "url": "https://gcaptain.com/a-dozen-seafarers-injured-in-strait-of-hormuz-tanker-attack-india-says",
+          "published": "2026-10-07T05:15:36Z"
         },
         {
           "outlet": "عاجل",
@@ -128,12 +134,6 @@
           "title": "11 Indian Sailors Injured in Strait of Hormuz Strike: India Demands Immediate End to Shipping Attacks - India Weekly",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWE9WYXFJZDFTdHdtREJ2aXROY3ZjU0J2NXVPRFFHS3hzclN1N2RPQ3RyRmhmcUxtY016SVJJSDFVRDFqbDZsQkszYVlFYnJlYlV6TGNqQmI1YXpTTENaejV4cXNEVWlKXy1kd256TmFKbERDcVlzX1FVaDhCSFNDQ1ZmV2xZQlRVdHlMUGVqdjRkUFRC?oc=5",
           "published": "2026-10-06T13:56:03Z"
-        },
-        {
-          "outlet": "Seatrade Maritime News",
-          "title": "At least 12 seafarers injured in Hormuz tanker attack - Seatrade Maritime News",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNzBWMGN6bjIwc1RWTzFpZVpJcGduckpBMFVLTDlRNW1oWUpCclZObW5oRl9IYmhpU05OMGY0WURQdkZwZVVHYnUwUmc5TVZRWFp4dlFIamlCd2RkTjZxdUdsUmZSaWZhY1BDN2ZLSEVJZE80endpdFdjS0RickdhMDdtTVJNSjNGbVNqX25Db1hibXVoVXlBcGx3S2M?oc=5",
-          "published": "2026-10-06T13:40:13Z"
         }
       ]
     },
@@ -206,12 +206,12 @@
     },
     {
       "id": "INC-20261006-011",
-      "status": "reported",
+      "status": "confirmed",
       "region": "Black Sea",
       "date_utc": "2026-10-06",
       "vessel_name": "ABLE",
-      "imo": null,
-      "flag": "Türkiye",
+      "imo": "9001136",
+      "flag": "Palau",
       "vessel_type": "general cargo",
       "location": "off Bulgaria, Black Sea",
       "attack": "drone (UAV)",
@@ -219,7 +219,7 @@
       "casualties": "crew rescued",
       "attribution": "Russia (per Zelensky)",
       "summary": "The vessel Able was damaged in a drone attack off Bulgaria in the Black Sea, and its crew was rescued. The attack also sank the vessel Alfa Watan.",
-      "checked_by_hermes": false,
+      "checked_by_hermes": true,
       "sources": [
         {
           "outlet": "Operatyvnyi ZSU",
@@ -232,6 +232,18 @@
           "title": null,
           "url": "https://t.me/UkraineNow/84519",
           "published": "2026-10-06T17:43:13+00:00"
+        },
+        {
+          "outlet": "bbc.com",
+          "title": null,
+          "url": "https://www.bbc.com/news/articles/c8ly0v5r602eo",
+          "published": "2026-10-07T05:15:36Z"
+        },
+        {
+          "outlet": "vesselfinder.com",
+          "title": null,
+          "url": "https://www.vesselfinder.com/vessels/details/9001136",
+          "published": "2026-10-07T05:15:36Z"
         },
         {
           "outlet": "newscord.org",
@@ -256,18 +268,6 @@
           "title": "Sailors missing after drone attack on Black Sea merchant ships - wng.org",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBaV2U3ZHgxaXBpSGRsb3Fxc1hDSEgxU2h0Y0lZMmR3ZTFNSWx5a3dmck9na2lBWDVoNzN1WkVheF95Y2FXclFWRlBHOE5KWGNXOFZ3R2dPV01obzdqOTFJTUdraw?oc=5",
           "published": "2026-10-06T23:24:00Z"
-        },
-        {
-          "outlet": "Riviera Maritime Media",
-          "title": "News Content Hub - Crew missing from sunken ship as drone strikes on merchant ships in Black Sea intensify - Riviera Maritime Media",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQU2kxZlRLVzJMR3dBTVpXdTdEdEU1TG9XT1EteVF0UkFsc0RZX0tkcjhycnpVcUZEcktSWUVCRnUtQ0VuSnBIeVRhQ3NaOG1wcl9BYzZhUThNcmpReGdvdkdXczhwUmF6RFYwdUV1VVIwdEZ2MXc4ZVJ4NnVFNXRJc1AzZWJBN25mcVZfRUtWZnBPYTAzR1d0T3B6QmY1dm1WYzduMmtZVjF2LU9vcUt2eHA3S3dyaDBybkFpZ0NzOFkwZjVOOHp4VlJfX0Jpa1dLb2c?oc=5",
-          "published": "2026-10-06T22:52:30Z"
-        },
-        {
-          "outlet": "CityNews Vancouver",
-          "title": "Drone Attack Sinks Ship in Black Sea - CityNews Vancouver",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNM2k0QXR6a2JWTmoyNnBzQUdmd2U4QU9HdXhpWlBXWGpCeFRqSHdvOGF0MFpUWWdfVldnaWI4d1pvYzhBWXNlVDJCNUY0SDJSMGthamxSdkI5dlozUTVublRKZHRDSC1ZNklGYjU0TEJYMFJJV1NEajE0SXU0Y0xtOVhSclJQN21xTnJiZQ?oc=5",
-          "published": "2026-10-06T22:39:11Z"
         }
       ]
     },
@@ -277,7 +277,7 @@
       "region": "Black Sea",
       "date_utc": "2026-10-06",
       "vessel_name": "AFRAMAX RIO",
-      "imo": null,
+      "imo": "9273844",
       "flag": "Liberia",
       "vessel_type": "tanker",
       "location": "off the Black Sea coast",
@@ -339,38 +339,13 @@
       ]
     },
     {
-      "id": "INC-20261006-018",
-      "status": "claimed",
-      "region": "Black Sea",
-      "date_utc": "2026-10-06",
-      "vessel_name": null,
-      "imo": null,
-      "flag": "Greece",
-      "vessel_type": "tanker",
-      "location": "off Russia, Black Sea",
-      "attack": "sea drone (USV)",
-      "damage": "ablaze",
-      "casualties": null,
-      "attribution": "presumed Ukrainian sea drone strike",
-      "summary": "A Greek tanker was ablaze off Russia in what was described as a presumed Ukrainian sea drone strike. No vessel name, position or casualty details were given.",
-      "checked_by_hermes": false,
-      "sources": [
-        {
-          "outlet": "TradeWinds News",
-          "title": "Greek tanker ablaze off Russia in presumed Ukrainian sea drone strike - TradeWinds News",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSk51cHljZXFoZUFPOTJNOWpnMEZlNmlOdlFWejluZTBQUE9GVExndUZwVldWSnhWMkRaOWQxVVdqM1FaUUVXQlRBWnBpQVZtMXczZ3VXRGFwUld5dlUtTXNrZUdQYmZ5bFhzR1h2SVVmeHdsek5jdUgxYmItMlB0ZmNNd1FaYVQzblM1LThtbTNrQUFQenFyY1p2RkZZTndzZk5zdWFzRXJqZXNmOXRfNnJ2S1FwMk9BRnNlZjhXY3k?oc=5",
-          "published": "2026-10-06T21:15:35Z"
-        }
-      ]
-    },
-    {
       "id": "INC-20261005-022",
       "status": "claimed",
       "region": "Black Sea",
       "date_utc": "2026-10-05",
-      "vessel_name": null,
-      "imo": null,
-      "flag": "Türkiye",
+      "vessel_name": "ROYAD MAMMADOV",
+      "imo": "9356969",
+      "flag": "Saint Kitts and Nevis",
       "vessel_type": "general cargo",
       "location": "Black Sea",
       "attack": "drone (UAV)",
@@ -380,6 +355,24 @@
       "summary": "Ukraine's President claimed that a Russian drone attack sank a Turkish ship in the Black Sea. No vessel name, exact position, damage details or casualty figures were given.",
       "checked_by_hermes": false,
       "sources": [
+        {
+          "outlet": "en.h.ua",
+          "title": null,
+          "url": "https://en.h.ua/2026/10/05/cargo-vessel-royad-mammadov-black-sea-fire",
+          "published": "2026-10-07T05:15:36Z"
+        },
+        {
+          "outlet": "en.h.ua",
+          "title": null,
+          "url": "https://en.h.ua/2026/10/05/cargo-vessel-royad-mammadov-black-sea-fire",
+          "published": "2026-10-07T05:15:36Z"
+        },
+        {
+          "outlet": "vesselfinder.com",
+          "title": null,
+          "url": "https://www.vesselfinder.com/vessels/details/9356969",
+          "published": "2026-10-07T05:15:36Z"
+        },
         {
           "outlet": "vietnam.vn",
           "title": "Ukrayna Cumhurbaşkanı, Karadeniz'de Türk gemisini batıran insansız hava aracı saldırısının Rusya tarafından gerçekleştirildiğini iddia etti. - vietnam.vn",
@@ -403,26 +396,7 @@
           "title": "Volodimir Zelenski: Două drone rusești au atacat nava care s-a scufundat în Marea Neagră - Ziarul Amprenta",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcUw4RVJ0cEhWSklNSXR2aTlPcTVWNThIcDljLTMzTExFOVBCandCamUwT000MFFmNlByWXFaU1MwTEJBQ3RZcWVlZlh0MUZtTEIwdUxtYjh2eVJudFlMaF9Ua3I0c2JBcHc5b0MzWTlSbjRwcnVsSmFTS2NoVDZjM2drRHA3UTJHclRBZGhTbWpkRV8yeUM1R3YxdWFKYlFPV2NOQU5MeS1SN2JWT1ZSQWVQZmRuN3Y5NFZVZ0dWUUg3RlNqUk5iSg?oc=5",
           "published": "2026-10-05T13:41:26Z"
-        }
-      ]
-    },
-    {
-      "id": "INC-20261005-023",
-      "status": "claimed",
-      "region": "Black Sea",
-      "date_utc": "2026-10-05",
-      "vessel_name": null,
-      "imo": null,
-      "flag": "Türkiye",
-      "vessel_type": "general cargo",
-      "location": "Black Sea",
-      "attack": "drone (UAV)",
-      "damage": null,
-      "casualties": "two killed",
-      "attribution": "Russia (drones described as Russian)",
-      "summary": "Russian drones struck a Turkish-owned civilian vessel in the Black Sea, killing two people, according to Pioneer Daily. No vessel name or exact position was given.",
-      "checked_by_hermes": false,
-      "sources": [
+        },
         {
           "outlet": "Pioneer Daily",
           "title": "Two killed after Russian drones strike Turkish-owned civilian vessel in Black Sea - Pioneer Daily",
@@ -432,112 +406,12 @@
       ]
     },
     {
-      "id": "INC-20261005-024",
-      "status": "claimed",
-      "region": "Black Sea",
-      "date_utc": "2026-10-05",
-      "vessel_name": null,
-      "imo": null,
-      "flag": "Turkey",
-      "vessel_type": "general cargo",
-      "location": "Black Sea",
-      "attack": "drone (UAV)",
-      "damage": null,
-      "casualties": "2 killed, one Indian among injured",
-      "attribution": "Russia (Russian drone, per report)",
-      "summary": "A Russian drone hit a Turkish cargo ship in the Black Sea, killing two people and injuring several including an Indian national, according to The Times of India. No vessel name or exact position was given.",
-      "checked_by_hermes": false,
-      "sources": [
-        {
-          "outlet": "The Times of India",
-          "title": "Two killed, Indian among injured after Russian drone hits Turkish cargo ship - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdlBGbjlXcG4wcmhOdkY5NWhRRkdnekdJd19PTkEyajlOVy1sTkl6WHhJVXVJVkZsMnJEek5YSkdTWUduRUxfVDhFTUFnSlR6Z3JySWxaeFM5SUc3cWFGcFpaUzN2NXN0VUhFLU1HMVFzVThYWmtlM3VUZlp2VHJ3a2NnVDVrMkw0S0lqSzY1M1gxamNLU1FtbFVBWFVDSVBOeDl6ZUx3S3dqWENpMUllS0VVRXVLdy1jX0J0N0t0azZac1ZYZ055WEtCWTIwSmhXWWVhY0VhQ2dzYlXSAeABQVVfeXFMT0s0M2ZsZkpfR3pRNEFLazFCY2JMSHRYeDhmQ1VMa0RaRG5NUGN5dVJzMHd3VFR5ZUxGRTV1X09SSlRFVU90UEFaMzQteWFYTWYtVmo3VlRaUGNYTTJwWE5XdDZ0YW1qSHlDQks2OFBNU3JveGp5a09GTmlnVVdCdkJFblhwLW1HaVNXV01YWG9xQlRHYVFtZGl1NjdnY3R0aV9xQzk1M0xlWlF1akRubFBfckNRelhkRFJrY1RxX3VoWVhSZ0wxa3Blb2RyUkdtSi0zYmdrLUpPWUJiZ1ZnTUk?oc=5",
-          "published": "2026-10-05T19:35:00Z"
-        }
-      ]
-    },
-    {
-      "id": "INC-20261005-025",
-      "status": "claimed",
-      "region": "Black Sea",
-      "date_utc": "2026-10-05",
-      "vessel_name": null,
-      "imo": null,
-      "flag": "Turkey",
-      "vessel_type": "general cargo",
-      "location": "off the coast of Romania, Black Sea",
-      "attack": "drone (UAV)",
-      "damage": null,
-      "casualties": "captain killed",
-      "attribution": null,
-      "summary": "Drones attacked a Turkish general cargo vessel carrying grain off the coast of Romania, killing the captain, according to nv.ua. No vessel name or exact position was given.",
-      "checked_by_hermes": false,
-      "sources": [
-        {
-          "outlet": "nv.ua",
-          "title": "Дрони атакували турецький суховантаж із зерном біля берегів Румунії: загинув капітан - nv.ua",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTVA5WjhNaGpxc1NBWUgzTkRkQlFUc2x6aVBDTlFTUnY2RHNRM0ZHQUFSRXZ4TDFFdlFybEFDMVhQalJ5R2pwUEV1UXdHSEotQWxzZTU3VVowaVNuZFZFTmZLYzlCVkFZcGNFY0tiVlFRU0lxMmdPN0xwckUwcnhuY1o5TUh2dWZTcjNLVm9IMEg4Y0V5UXAweDBHSmFWVVlKTjl1YVhvcVZ1TVdteHhaWGVIVEtlYy16T01zcHVaZm45Nm43bzd0ZdIBtgFBVV95cUxPa1VZMVNNRHpFY0V4dVBlNC1CWktBVnJrcThDTTBJN0JKX19peGdRWEltTXZOeGF3ejFZQjZKYjRqR3hYc2Vuemo1el9HV1RFSXpsZWhTbHpDbnA4TXZUSlR2QVg0T18zUURBTmxPXzZ3Ny1UUFQteE9ob0JnaGpHZjh0SHpGR2J4SW5vcmtUc1FyUGo4OF8yZDBOdWoyUnhta0Z1Q1k3SjNrOEVIalJlb3czWFQtZw?oc=5",
-          "published": "2026-10-05T16:12:49Z"
-        }
-      ]
-    },
-    {
-      "id": "INC-20261005-027",
-      "status": "claimed",
-      "region": "Black Sea",
-      "date_utc": "2026-10-05",
-      "vessel_name": null,
-      "imo": null,
-      "flag": "Turkey",
-      "vessel_type": "general cargo",
-      "location": "Black Sea",
-      "attack": "drone (UAV)",
-      "damage": null,
-      "casualties": "captain killed",
-      "attribution": "Russia",
-      "summary": "Russia struck a Turkish ship in the Black Sea, killing the captain, according to shelter.in.ua. No vessel name or exact position was given.",
-      "checked_by_hermes": false,
-      "sources": [
-        {
-          "outlet": "shelter.in.ua",
-          "title": "Russia struck a Turkish ship in the Black Sea: the captain was killed - shelter.in.ua",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVUNjdVpVakRYcllma2RpQUZzRlNzUndyd0pvdlBGamRjdG5SR05rMUMtWGM5aFdBcDhtbE10ZU5QMmlIVzJGSFhOSGJBU1pjc1ZJeU9RWDZxd1RiSXlZSFBfb1VlSGZsbE03TDFGbHFWRHlYS3Y3UnpkbGxsNjJkQWxZVk82V1VHZHo1MVc2NmZJdGRyb3Q2N3JJTnpKdw?oc=5",
-          "published": "2026-10-05T13:57:44Z"
-        }
-      ]
-    },
-    {
-      "id": "INC-20261005-028",
-      "status": "claimed",
-      "region": "Black Sea",
-      "date_utc": "2026-10-05",
-      "vessel_name": null,
-      "imo": null,
-      "flag": "Turkey",
-      "vessel_type": "general cargo",
-      "location": "a few miles from the Pescăruș platform, Black Sea",
-      "attack": "drone (UAV)",
-      "damage": null,
-      "casualties": null,
-      "attribution": null,
-      "summary": "A Turkish vessel loaded with grain was hit by a drone in the Black Sea a few miles from the Pescăruș platform. The report gives no vessel name, damage or casualty details.",
-      "checked_by_hermes": false,
-      "sources": [
-        {
-          "outlet": "ReporterIS",
-          "title": "Navă turcească încărcată cu cereale, lovită de o dronă în Marea Neagră. Atacul a avut loc la câteva mile de platforma Pescăruș - ReporterIS",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPOUNLOUI3dDUyejhwUTBETTZpa0lESmdROVI1SnQyRzhiWlhGbEZTdWNIYk9xMWRld24waklMSElKOEd1Sng4NEJMOUhuU2dDNDd5dTB1MDd0dy14S0hOUHVsbzdTTUVHdFJtZ2NIT3owdGZybzlEXzVodUVHM0puZmpBMUZweXJRd0xXVjB2WWhJd2lvcDNDWmxpWEZmQjF4NXBtNVZsT0Y2TnB4Y240Q2dfbDUxN3FtNW94OHM1RnllMTkzSEN6Smp3ODhkMnVaS2lTbms5WEFYMXRCa0xuOE1falJDNWdiTWxRMTNTX29fdFZWbG4tWA?oc=5",
-          "published": "2026-10-06T21:32:17Z"
-        }
-      ]
-    },
-    {
       "id": "INC-20261004-017",
       "status": "reported",
       "region": "Strait of Hormuz",
       "date_utc": "2026-10-04",
       "vessel_name": "MARAN GAS MYSTRAS",
-      "imo": null,
+      "imo": "9658238",
       "flag": "Greece",
       "vessel_type": "LNG/LPG carrier",
       "location": "Strait of Hormuz",
@@ -553,6 +427,12 @@
           "title": "Second Greek-linked ship hit in Hormuz within days",
           "url": "https://www.hellenicshippingnews.com/second-greek-linked-ship-hit-in-hormuz-within-days/",
           "published": "2026-10-06T21:00:53Z"
+        },
+        {
+          "outlet": "vesselfinder.com",
+          "title": null,
+          "url": "https://www.vesselfinder.com/vessels/details/9658238",
+          "published": "2026-10-07T05:15:36Z"
         }
       ]
     },
