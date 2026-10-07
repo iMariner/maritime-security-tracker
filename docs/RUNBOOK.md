@@ -80,7 +80,7 @@ and the tweet text. Lines starting with ⚠️ mean "read the draft before publi
 | `LLM_API_KEY` | GitHub secret | DeepSeek for collection and writing | No, but the balance must stay above $0 |
 | `WP_USER`, `WP_APP_PASSWORD` | GitHub secrets | WordPress draft and image upload (user `security-desk`) | Only if revoked |
 | `N8N_WEBHOOK_URL`, `N8N_WEBHOOK_TOKEN` | GitHub secrets | Calling the n8n approval workflow (header `X-Tracker-Token`) | No |
-| `GITHUB_TOKEN` (fine-grained PAT) | Hermes Keys (`/opt/data/.env`) | Hermes comments on issues and reads the repo | **Yes: check its expiry date in GitHub before long trips** |
+| `GITHUB_TOKEN` (fine-grained PAT) | Hermes Keys in **both** profiles: `default` (`/opt/data/.env`) and `maritime` (`/opt/data/profiles/maritime/.env`) | Hermes comments on issues and reads the repo | **Yes: check its expiry date in GitHub before long trips** |
 | `DEEPSEEK_API_KEY` | Hermes Keys | Hermes's own model and the balance alert | No |
 | `TELEGRAM_BOT_TOKEN`, `TELEGRAM_ALLOWED_USERS` (5871106546) | Hermes Channels | @SpliceRun_Hermes_bot | Only if revoked |
 | `HERMES_DASHBOARD_PROBE_CHAT` | Hermes Keys (custom key) | Pinned health message chat | No |
@@ -116,7 +116,7 @@ and the tweet text. Lines starting with ⚠️ mean "read the draft before publi
 | Update the watchdog script | Edit `scripts/hermes/brief_watchdog.py`, push, ask Hermes to re-download it to `/opt/data/scripts/` |
 | Restart Hermes's Telegram side | Ask Hermes in its Chat page to run `hermes gateway restart` (the dashboard Restart buttons did not restart it) |
 | Hermes page says "Access ended" | Open app.splicerun.com, Hermes Agent instance, "Open Hermes Agent" again |
-| Pause everything | Disable the GitHub workflows "Collect and process" and "Daily brief", and pause the four maritime Hermes jobs |
+| Pause everything | Disable the GitHub workflows "Collect and process" and "Daily brief", pause the three jobs in Hermes profile `maritime` and `maritime-brief-watchdog` in `default` |
 
 ## 8. Troubleshooting
 
@@ -124,7 +124,7 @@ and the tweet text. Lines starting with ⚠️ mean "read the draft before publi
 |---|---|---|
 | No approval message by 11:30 IST | Hermes job failed or a run was cancelled | The 06:00 watchdog repairs it; otherwise comment `/brief now` or `/review <date>` on #38 |
 | "⚠️ Editor check did not run" | Hermes editor job failed or was late | Read the draft carefully; check Hermes Cron and Logs |
-| Hermes stopped posting to GitHub | `GITHUB_TOKEN` expired or lost access | Create a new fine-grained token (repo iMariner/maritime-security-tracker: issues read/write, contents read) and paste it in Hermes Keys |
+| Hermes stopped posting to GitHub | `GITHUB_TOKEN` expired or lost access | Create a new fine-grained token (repo iMariner/maritime-security-tracker: issues read/write, contents read) and paste it in Hermes Keys of **both** profiles (`default` and `maritime`) |
 | Brief text wrong, map wrong | Thin sources or a missing rule | Reply to the Hermes bot; it fixes via `/review` and adds a lesson |
 | DeepSeek errors, runs failing | Balance at $0 | Top up at platform.deepseek.com |
 | Telegram buttons do nothing | n8n workflow inactive or "Approve within chat" turned on (needs a Telegram trigger) | Keep it off; check n8n Executions |
@@ -158,6 +158,9 @@ and the tweet text. Lines starting with ⚠️ mean "read the draft before publi
 - **7 Oct**: queue race fixed (job-level concurrency, collection's own queue and quiet window, commits win races),
   skipped backup runs no longer fail, `/brief now`, 06:00 watchdog. Editor `note:` lines now reach the writer and
   survive a later `/review`; article shape rules and the trusted public source list (after the On Peace mis-credit).
+  Hermes split into profiles: `maritime` runs the three AI jobs with its own memory and skills, `default` keeps
+  Telegram, the watchdog, the balance alert, SIRE and sea areas (see `docs/hermes/README.md`).
+  `blocked-page-recovery` skill disabled.
 
 ## 11. Costs (October 2026)
 

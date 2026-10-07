@@ -30,6 +30,13 @@ profile carries only maritime-verify-desk, maritime-editor-check, grounded-citat
 **GITHUB_TOKEN lives in both profiles' Keys.** Renew it in both (`default` for the watchdog and feedback,
 `maritime` for the jobs).
 
+## Status (7 Oct 2026)
+
+Applied: skills, editor-check prompt, memory in both profiles, profile `maritime` (config and keys cloned from
+`default`, Telegram plugins disabled there), the three jobs moved, old copies paused in `default` (delete them
+after a week of good mornings). Not done: switching off the ~57 general skills `maritime` inherited (the jobs only
+load their attached skills, so this is tidiness and prompt size, not correctness).
+
 ## Applying a move safely
 
 1. Create profile `maritime`, cloning config from `default` (copies config and keys on the server).

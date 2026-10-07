@@ -1,6 +1,7 @@
 # Hermes agent: verification desk
 
-Runs on the iMariners Hermes (`hermes7.splicerun.net`, on the Webyne VPS), as the cron job `maritime-security-tracking`, daily at 04:30 UTC, before the 05:40 UTC brief. Part A checks
+Runs on the iMariners Hermes (`hermes7.splicerun.net`, on the Webyne VPS), in profile **`maritime`** (since 7 Oct 2026; see
+`docs/hermes/README.md` for profiles, skills and memory), as the cron job `maritime-security-tracking`, daily at 04:30 UTC, before the 05:40 UTC brief. Part A checks
 UKMTO/JMIC coverage and files `missed` issues; Part B verifies up to 5 `verify` issues.
 
 Needs:
