@@ -43,6 +43,7 @@ Owner's requirements that shaped everything:
 | 05:00 | Hermes `maritime-editor-check` | Opens the sources, checks ship names, dates, duplicates, status, positions; comments `/review <date>` with fix lines and lessons on #38 |
 | ~05:10 | GitHub `review.yml` then `daily-brief.yml` (reviewed) | Apply fixes, rebuild the same draft, **send the approval message** via n8n |
 | 05:20 | Hermes `deepseek-balance-alert` | Silent unless the DeepSeek balance is below $3 |
+| 05:40 | Hermes `github-token-watch` (profile default, script `scripts/hermes/token_watch.py`) | Silent unless the GitHub token in either profile expires within 14 days (warns at 14, 7, 3, 2, 1, 0), is rejected, or the two profiles differ |
 | 06:00 | Hermes `maritime-brief-watchdog` | Silent unless no approval message went out; then it repairs (see section 6) and tells the owner |
 | 06:10, 06:40, 07:25, 07:55 | GitHub `daily-brief.yml` schedule | Backups only: build and send if nothing exists, or send a built-but-unsent draft with a warning |
 | owner's tap | n8n | Publish: post goes live, done message with the X helper link. Skip: nothing. No answer in 6 h: approval cancelled, post stays a draft |
