@@ -6,6 +6,7 @@ The approval message normally goes out at about 05:10 UTC. If by 06:00 it has no
   - built but never sent          -> comment "/review <date>" with a note (rebuilds and sends it).
 It prints one line for Telegram when it acted or could not check, and nothing on a normal day.
 Acts at most once per day. Standard library only. Never prints the token.
+Test with WATCHDOG_DRY_RUN=1: prints the decision and posts nothing.
 """
 from __future__ import annotations
 
@@ -82,6 +83,9 @@ def main() -> int:
         return 0
     try:
         comment, message = decide(brief_record(day, tok), day)
+        if os.environ.get("WATCHDOG_DRY_RUN"):  # test mode: report the decision, post nothing
+            print(f"dry run for {day}: would post {comment!r}" if comment else f"dry run for {day}: all fine, would stay silent")
+            return 0
         if comment:
             api("POST", f"/repos/{REPO}/issues/{ISSUE}/comments", tok, {"body": comment})
             marker.write_text(now.isoformat(), encoding="utf-8")
