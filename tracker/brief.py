@@ -97,7 +97,7 @@ def _clean_html(text: str) -> str:
 def _facts(inc: dict) -> dict:
     fact = {k: inc.get(k) for k in ("region", "vessel_name", "vessel_type", "flag", "imo", "date_utc", "location_text",
                                     "attack_type", "damage", "casualties", "attribution_claimed", "status",
-                                    "official_source_cited", "summary")}
+                                    "official_source_cited", "summary", "position_note")}
     fact["reported_by"] = sorted({s["source"] for s in inc["sources"] if s.get("source_type") != "satellite"})[:8]
     if inc.get("verdict"):
         fact["checked_by_iMariners"] = inc["verdict"].get("note")
@@ -108,22 +108,32 @@ AREAS = {"Strait of Hormuz and the Gulf": {"Strait of Hormuz", "Persian Gulf", "
          "Red Sea and Gulf of Aden": {"Red Sea", "Gulf of Aden"}, "Black Sea": {"Black Sea", "Sea of Azov"}}
 
 
+def _hurt(inc: dict) -> bool:
+    """Someone killed, injured or missing, so the attack is news even when it is a few days old."""
+    return bool(re.search(r"kill|dead|died|injur|wound|missing|casualt", str(inc.get("casualties") or ""), re.I)
+                and not re.search(r"\bno (injur|casualt)", str(inc.get("casualties") or ""), re.I))
+
+
 def _day(iso_date: str) -> str:
     d = parse_dt(iso_date)
     return d.strftime("%-d %B") if d else "earlier"
 
 
 def tracker_context(incidents: list[dict], now) -> list[dict]:
-    """Counts from our own data for one sentence of context: merchant ships reported hit per area in 7 days."""
+    """Counts from our own data for context and the crew section: merchant ships reported hit per area in the
+    last 7 days and in the 7 days before that."""
     out = []
     for area, regions in AREAS.items():
-        week = [i for i in incidents if i.get("region") in regions and i.get("status") in ("confirmed", "reported")
+        hits = [(i, d) for i in incidents if i.get("region") in regions and i.get("status") in ("confirmed", "reported")
                 and not i.get("merged_into") and i.get("vessel_category") != "naval"
                 # a specific ship, not a statistic such as "Iran fired 360 missiles at shipping"
                 and any(i.get(k) for k in ("vessel_name", "imo", "flag", "vessel_type"))
-                and (d := parse_dt(i.get("date_utc"))) and now - timedelta(days=7) <= d <= now]
-        if week:
+                and (d := parse_dt(i.get("date_utc")))]
+        week = [i for i, d in hits if now - timedelta(days=7) <= d <= now]
+        before = [i for i, d in hits if now - timedelta(days=14) <= d < now - timedelta(days=7)]
+        if week or before:
             out.append({"area": area, "merchant_ships_reported_hit_in_last_7_days": len(week),
+                        "merchant_ships_reported_hit_in_the_7_days_before": len(before),
                         "named_ships": sorted({i["vessel_name"] for i in week if i.get("vessel_name")})})
     return out
 
@@ -154,6 +164,13 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list,
         "Newsroom style rules:\n"
         "- Never repeat a sentence or phrase between the headline, standfirst, key points and lede. Each layer adds "
         "something new.\n"
+        "- No fact twice: each detail (a date, a casualty figure, who confirmed it) appears once in the article body. "
+        "The key points are the summary; the lede and area sections must not restate a key point in other words, they "
+        "add what the key points leave out (where exactly, ship type and owner, what is still unknown). Credit a "
+        "source once per incident, not in every sentence.\n"
+        "- earlier_this_week holds older attacks first reported now in which no one was hurt: give them one sentence "
+        "each, in one short paragraph starting 'Earlier in the week,' at the end of their area section. Never put "
+        "them in the headline, standfirst or key points.\n"
         "- Name the ship as early as possible and describe it the way a news story does: 'the Liberia-flagged LR2 "
         "tanker Lipsi' (ship names in normal capitalisation, not ALL CAPS; keep IMO numbers out of the headline).\n"
         "- Vary attribution: say who said it once per paragraph at most ('UKMTO said', 'according to', 'the agency "
@@ -164,9 +181,9 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list,
         "the Strait of Hormuz in seven days, according to the iMariners tracker'). Do not invent trends.\n"
         "- Order by news value, most serious first (damage or casualties before near misses).\n"
         "Return JSON with keys:\n"
-        '"title": the headline, at most 80 characters, sentence case, active voice, present tense, naming the ship '
-        "when known; if a second incident is significant, cover both ('X hit in Hormuz as tanker reports blasts off "
-        "Yemen').\n"
+        '"title": the headline, at most 80 characters, sentence case, active voice, present tense, about ONE story: '
+        "the most serious incident, naming the ship when known. Never join two incidents with 'as' or 'while'; the "
+        "standfirst and key points carry the rest.\n"
         '"excerpt": the standfirst, one sentence of at most 30 words that adds detail beyond the headline (where, '
         "damage, crew); also used as the meta description.\n"
         '"key_points": 3 to 5 bullets, each a different fact in at most 18 words, most important first: the main '
@@ -179,9 +196,13 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list,
         "about 60 words each) with ship identity, time if known, place, damage, crew, who said it, and what is not "
         "yet known (attacker, cause) in one sentence. The section must add what the lede did not say (ship details, "
         "owner or manager, attribution, what is unknown) instead of restating it; (4) <h2>What crews should know</h2>: "
-        "at most two sentences: report any attack or suspicious approach to UKMTO, and follow UKMTO and JMIC "
-        "advisories and company security instructions. Mention specific guidance only if it appears word for word in "
-        "the facts. 250 to 550 words. No sources list and no corrections section "
+        "two or three sentences built only from the facts: first the trend for each area with attacks, comparing "
+        "merchant_ships_reported_hit_in_last_7_days with merchant_ships_reported_hit_in_the_7_days_before from "
+        "tracker_context in plain words (credited to the iMariners tracker); then where today's attacks happened "
+        "(the places and distances in the incidents, for example 'inside Bulgaria's exclusive economic zone, about 70 "
+        "nautical miles off Byala'); then: report any attack or suspicious approach to UKMTO, and follow UKMTO and "
+        "JMIC advisories and company security instructions. Never invent advice, routes, ports, distances or "
+        "measures; specific guidance only if it appears word for word in the facts. 250 to 550 words. No sources list and no corrections section "
         "(both are added automatically).\n"
         '"correction_notes": one plain sentence per item in corrections, in news style, using '
         "first_published_in_brief_of, what_we_reported and why_it_was_wrong: 'Our <date> brief reported <what we "
@@ -190,12 +211,17 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list,
         "3 or 4 hashtags chosen from #MaritimeSecurity #Shipping #Seafarers #BlackSea #StraitOfHormuz #RedSea #Tanker "
         "#UKMTO #MaritimeNews; no link (added automatically)."
     )
-    active = {i["region"] for i in new + updated}
+    # Older attacks first reported now, with no one hurt, get one line each instead of a full paragraph
+    cut = (now or now_utc()) - timedelta(hours=48)
+    earlier = [i for i in new if (d := parse_dt(i.get("date_utc"))) and d < cut and not _hurt(i)]
+    new = [i for i in new if i not in earlier]
+    active = {i["region"] for i in new + updated + earlier}
     quiet = [a for a, regs in AREAS.items() if not regs & active]
     system = system.replace("{date}", day_label) + lessons.prompt_block("writing")
     user = json.dumps({"date": day_label, "quiet_areas": quiet, "editor_notes": list(editor_notes or []),
                        "new_incidents": [_facts(i) for i in new],
                        "updates_on_earlier_incidents": [_facts(i) for i in updated],
+                       "earlier_this_week": [_facts(i) for i in earlier],
                        "tracker_context": tracker_context(incidents or [], now or now_utc()),
                        "corrections": [{"region": i["region"], "vessel_name": i.get("vessel_name"),
                                         "first_published_in_brief_of": (i.get("published_in") or [None])[0],
@@ -341,8 +367,35 @@ def outlet_name(s: dict) -> str:
     return name
 
 
+_TRUSTED = None
+
+
+def trusted_outlet(s: dict) -> str | None:
+    """The outlet's public name if it is on config/trusted_outlets.yaml (or an official source), else None.
+    Keys with a dot match the web address; other keys match the collected outlet name exactly."""
+    global _TRUSTED
+    if _TRUSTED is None:
+        from .common import load_yaml
+        _TRUSTED = load_yaml("trusted_outlets.yaml").get("trusted") or []
+    url = s.get("url") or ""
+    host = "" if "news.google.com" in url else re.sub(r"^https?://([^/]+).*$", r"\1", url).lower()
+    raw = re.split(r"\s[-\u2013\u2014|:]\s", s.get("source") or "")[0].strip().lower()
+    norm = lambda x: re.sub(r"[\W_]", "", re.sub(r"^(www\.|the )", "", x))
+    name = norm(raw)
+    for t in _TRUSTED:
+        for key in t.get("match") or []:
+            key = str(key).lower()
+            if (host and key in host) or (name and name == norm(key)):
+                return t["name"]
+    if s.get("kind") == "official":
+        return outlet_name(s)
+    return None
+
+
 def sources_html(incidents: list[dict]) -> str:
-    """Compact source list: one line per incident, official first, at most 5 outlets.
+    """Compact source list: one line per incident, official first, at most 4 outlets, only trusted outlets
+    (config/trusted_outlets.yaml). Local, partisan and aggregator sources stay internal; when an incident has
+    no trusted outlet the line says so instead of listing them.
 
     Outlets link to the article (nofollow) when the URL is the outlet's own page; Google News redirect URLs
     are shown as the outlet name only, so the article never carries long redirect links.
@@ -354,7 +407,9 @@ def sources_html(incidents: list[dict]) -> str:
         srcs.sort(key=lambda s: (SOURCE_RANK.get(s.get("kind"), 9), s.get("side") != "neutral"))
         names, seen = [], set()
         for s in srcs:
-            name = outlet_name(s)
+            name = trusted_outlet(s)
+            if not name:
+                continue
             key = re.sub(r"[\W_]", "", name.lower().replace("24/7", "247"))  # "Splash 24/7" == "Splash247"; keeps Arabic names
             if not key or key in seen:
                 continue
@@ -363,8 +418,10 @@ def sources_html(incidents: list[dict]) -> str:
                 names.append(html.escape(name))
             else:
                 names.append(f'<a href="{html.escape(s["url"])}" rel="nofollow noopener" target="_blank">{html.escape(name)}</a>')
-            if len(names) == 5:
+            if len(names) == 4:
                 break
+        if not names:
+            names = ["local and social media reports, not yet confirmed by a major outlet"]
         label = (inc["vessel_name"].title() if inc.get("vessel_name") else (inc.get("vessel_type") or "vessel").capitalize())
         items.append(f"<li><strong>{html.escape(label)}, {html.escape(inc['region'])}</strong> "
                      f"({STATUS_LABEL[inc['status']].lower()}): {', '.join(names)}</li>")

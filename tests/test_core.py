@@ -137,12 +137,12 @@ def test_article_helpers():
     from tracker.brief import _clean_html, sources_html
     assert _clean_html('<p>Hi <script>x</script><img src=x><strong>b</strong></p>') == "<p>Hi x<strong>b</strong></p>"
     incs = []
-    inc, _ = store.merge(report(vessel_name="Kazimah", region="Strait of Hormuz", source=src("https://a/1", side="unknown", kind="media", source="Outlet")), incs)
+    inc, _ = store.merge(report(vessel_name="Kazimah", region="Strait of Hormuz", source=src("https://a/1", side="unknown", kind="media", source="Reuters")), incs)
     store.merge(report(vessel_name="Kazimah", region="Strait of Hormuz", source=src("https://u/2", side="neutral", kind="official", source="UKMTO")), incs)
-    store.merge(report(vessel_name="Kazimah", region="Strait of Hormuz", source=src("https://news.google.com/rss/articles/x", side="unknown", kind="media", source="Wire")), incs)
+    store.merge(report(vessel_name="Kazimah", region="Strait of Hormuz", source=src("https://news.google.com/rss/articles/x", side="unknown", kind="media", source="Al Jazeera")), incs)
     out = sources_html(incs)
-    assert "news.google.com" not in out and "Wire" in out
-    assert out.index("UKMTO") < out.index("Outlet") and "Kazimah, Strait of Hormuz" in out and 'rel="nofollow' in out
+    assert "news.google.com" not in out and "Al Jazeera" in out
+    assert out.index("UKMTO") < out.index("Reuters") and "Kazimah, Strait of Hormuz" in out and 'rel="nofollow' in out
 
 
 def test_key_points_card_and_map():
@@ -307,11 +307,12 @@ def test_echo_of_confirmed_attack_is_absorbed():
     assert any(s["url"] == "u2" for s in anchor["sources"])
 
 
-def test_sources_list_keeps_arabic_outlet():
+def test_sources_list_hides_unlisted_outlet():
+    """Local outlets not on config/trusted_outlets.yaml stay internal; readers see that the item is unconfirmed."""
     from tracker.brief import sources_html
     out = sources_html([{"region": "Gulf of Aden", "status": "reported", "vessel_type": "tanker",
                          "sources": [{"source": "حياة عدن", "url": "https://news.google.com/x", "kind": "media"}]}])
-    assert "حياة عدن" in out
+    assert "حياة عدن" not in out and "not yet confirmed by a major outlet" in out
 
 
 def test_image_label_ship_types():
@@ -376,7 +377,7 @@ def test_outlet_names_and_context():
             {"region": "Black Sea", "status": "confirmed", "date_utc": "2026-09-20"}]
     ctx = tracker_context(incs, now)
     assert ctx == [{"area": "Strait of Hormuz and the Gulf", "merchant_ships_reported_hit_in_last_7_days": 2,
-                    "named_ships": ["LIPSI"]}]
+                    "merchant_ships_reported_hit_in_the_7_days_before": 0, "named_ships": ["LIPSI"]}]
 
 
 def test_lessons_add_and_replace(tmp_path, monkeypatch):
@@ -480,3 +481,35 @@ def test_second_review_keeps_first_notes(tmp_path, monkeypatch):
     review.apply("/review 2026-10-07\nnote: Credit the 12 injured to India, not UKMTO.")
     review.apply("/review 2026-10-07\nnote: Automatic resend at 06:00 UTC: the approval message had not been sent.")
     assert brief.editor_notes("2026-10-07") == ["Credit the 12 injured to India, not UKMTO."]
+
+
+def test_public_sources_only_trusted():
+    from tracker import brief
+    inc = {"vessel_name": "ALFA WATAN", "region": "Black Sea", "status": "confirmed", "sources": [
+        {"source": "opindia.com", "url": "https://news.google.com/rss/x", "kind": "media", "source_type": "news"},
+        {"source": "Rybar", "url": "https://t.me/rybar/1", "kind": "osint", "source_type": "telegram"},
+        {"source": "bbc.com", "url": "https://www.bbc.com/news/articles/x", "kind": "media", "source_type": "news"},
+        {"source": "Euronews - Son Dakika", "url": "https://news.google.com/rss/y", "kind": "media", "source_type": "news"},
+        {"source": "vesselfinder.com", "url": "https://www.vesselfinder.com/vessels/details/1", "kind": "media", "source_type": "news"},
+        {"source": "Odesa Regional Military Administration", "url": "https://t.me/odeskaODA/1", "kind": "official", "source_type": "telegram"}]}
+    out = brief.sources_html([inc])
+    assert "BBC" in out and "Euronews" in out and "Odesa Regional Military Administration" in out
+    assert "opindia" not in out.lower() and "Rybar" not in out and "inder" not in out
+    only_local = {**inc, "sources": inc["sources"][:2]}
+    assert "not yet confirmed by a major outlet" in brief.sources_html([only_local])
+
+
+def test_older_unhurt_attacks_become_one_liners(monkeypatch):
+    import json as _json
+    from tracker import brief
+    now = datetime(2026, 10, 7, 7, tzinfo=timezone.utc)
+    base = {"region": "Strait of Hormuz", "status": "reported", "sources": []}
+    old_quiet = {**base, "id": "A", "vessel_name": "MARAN GAS MYSTRAS", "date_utc": "2026-10-04", "casualties": None}
+    old_hurt = {**base, "id": "B", "vessel_name": "ON PEACE", "date_utc": "2026-10-05", "casualties": "12 crew injured"}
+    fresh = {**base, "id": "C", "vessel_name": "X", "date_utc": "2026-10-06", "casualties": "no injuries reported"}
+    seen = []
+    monkeypatch.setattr(brief.llm, "chat_json", lambda system, user, **kw: seen.append(_json.loads(user)) or {})
+    brief.write_copy("7 October 2026", [old_quiet, old_hurt, fresh], [], [], [], now)
+    sent = seen[0]
+    assert [i["vessel_name"] for i in sent["earlier_this_week"]] == ["MARAN GAS MYSTRAS"]
+    assert [i["vessel_name"] for i in sent["new_incidents"]] == ["ON PEACE", "X"]

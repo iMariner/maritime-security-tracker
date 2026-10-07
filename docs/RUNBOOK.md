@@ -63,6 +63,13 @@ and the tweet text. Lines starting with ⚠️ mean "read the draft before publi
   neighbouring area (Red Sea / Gulf of Aden, Hormuz / Gulf of Oman / Gulf) are folded in as sources.
 - **Map**: numbered markers with a ship list; no dot when a report names only a whole sea ("position not reported").
 - **Context**: "Nth merchant ship in seven days" counts only incidents that name a ship, flag, IMO or type.
+- **Article shape**: one story per headline; no fact told twice (key points summarise, sections add detail); attacks
+  older than 48 hours with no one hurt get one "Earlier in the week" line; "What crews should know" gives the
+  week-on-week trend per area (this 7 days vs the 7 before) and where today's attacks happened, never invented advice.
+- **Public sources**: the article's Sources list shows only official bodies and outlets on
+  `config/trusted_outlets.yaml` (max 4 per incident); partisan, local and aggregator sources are read but not shown.
+  An incident with no trusted outlet says "local and social media reports, not yet confirmed by a major outlet".
+  Add an outlet to that file when it has earned it.
 - **Lessons** (`config/lessons.yaml`): rules every writer, fact-check and duplicate review must follow. Hermes adds
   lessons when it finds a repeatable mistake and rewrites the list weekly (max 25 per section).
 
@@ -149,7 +156,8 @@ and the tweet text. Lines starting with ⚠️ mean "read the draft before publi
   DeepSeek balance line and alert; collection hourly; homepage "New guides" excludes briefs.
 - **6 Oct**: first fully automatic morning (sent 05:10 UTC).
 - **7 Oct**: queue race fixed (job-level concurrency, collection's own queue and quiet window, commits win races),
-  skipped backup runs no longer fail, `/brief now`, 06:00 watchdog.
+  skipped backup runs no longer fail, `/brief now`, 06:00 watchdog. Editor `note:` lines now reach the writer and
+  survive a later `/review`; article shape rules and the trusted public source list (after the On Peace mis-credit).
 
 ## 11. Costs (October 2026)
 

@@ -1,0 +1,60 @@
+# Outlets shown in the public "Sources" list of the brief. The tracker still reads every source internally;
+# this list only decides what readers see. Official bodies (kind: official) are always shown.
+# match: lower-case pieces of the web address or of the outlet name as collected.
+trusted:
+  # Official and neutral bodies
+  - {name: UKMTO, match: [ukmto.org, ukmto]}
+  - {name: JMIC, match: [jmic]}
+  - {name: MARAD, match: [maritime.dot.gov, marad]}
+  - {name: IMO, match: [imo.org, "imo (confirmed incidents list)", imo]}
+  - {name: EUNAVFOR Aspides, match: [aspides]}
+  - {name: CENTCOM, match: [centcom.mil, centcom]}
+  # Maritime press
+  - {name: gCaptain, match: [gcaptain]}
+  - {name: The Maritime Executive, match: [maritime-executive.com, the maritime executive, maritime executive]}
+  - {name: Lloyd's List, match: [lloydslist, lloyd's list]}
+  - {name: TradeWinds, match: [tradewinds]}
+  - {name: Splash247, match: [splash247, splash 24/7]}
+  - {name: Seatrade Maritime, match: [seatrade-maritime.com, seatrade maritime]}
+  - {name: Hellenic Shipping News, match: [hellenicshippingnews, hellenic shipping news]}
+  - {name: Safety4Sea, match: [safety4sea]}
+  - {name: Marine Insight, match: [marineinsight, marine insight]}
+  - {name: Riviera Maritime Media, match: [rivieramm]}
+  - {name: Windward, match: [windward.ai]}
+  - {name: Ambrey, match: [ambrey]}
+  # Wires and major news organisations
+  - {name: Reuters, match: [reuters]}
+  - {name: AP, match: [apnews.com, associated press]}
+  - {name: AFP, match: [afp.com, afp]}
+  - {name: BBC, match: [bbc.com, bbc.co.uk, bbc]}
+  - {name: Bloomberg, match: [bloomberg]}
+  - {name: Financial Times, match: [ft.com, financial times]}
+  - {name: The Guardian, match: [theguardian.com, the guardian]}
+  - {name: Al Jazeera, match: [aljazeera]}
+  - {name: Euronews, match: [euronews]}
+  - {name: CNN, match: [cnn.com, cnn]}
+  - {name: ABC News (Australia), match: [abc.net.au]}
+  - {name: DW, match: [dw.com, deutsche welle]}
+  - {name: France 24, match: [france24]}
+  - {name: Anadolu Agency, match: [aa.com.tr, anadolu]}
+  - {name: Arab News, match: [arabnews]}
+  - {name: The National, match: [thenationalnews]}
+  - {name: Radio Free Europe, match: [rferl, radio free europe]}
+  # Regional outlets of record
+  - {name: Sofia Globe, match: [sofiaglobe]}
+  - {name: Novinite, match: [novinite]}
+  - {name: BTA, match: [bta.bg]}
+  - {name: Kyiv Independent, match: [kyivindependent, kyiv independent]}
+  - {name: Ukrinform, match: [ukrinform]}
+  - {name: Ukrainska Pravda, match: [pravda.com.ua, ukrainska pravda]}
+  - {name: TASS, match: [tass]}
+  - {name: Interfax, match: [interfax]}
+  - {name: ASTRA, match: [astrapress, astra]}
+  - {name: The Times of India, match: [timesofindia, the times of india]}
+  - {name: The Hindu, match: [thehindu, the hindu]}
+  - {name: Hindustan Times, match: [hindustantimes, hindustan times]}
+  - {name: The Tribune, match: [tribuneindia, the tribune]}
+  - {name: Daily Sabah, match: [dailysabah, daily sabah]}
+  - {name: Hurriyet Daily News, match: [hurriyetdailynews]}
+  - {name: Gulf News, match: [gulfnews, gulf news]}
+  - {name: Khaleej Times, match: [khaleejtimes, khaleej times]}
