@@ -1,5 +1,7 @@
 # Maritime Security Tracker
 
+**Start here: [docs/RUNBOOK.md](docs/RUNBOOK.md)** explains the whole system, how to operate and repair it, and its history.
+
 Tracks attacks on vessels in the **Black Sea**, the **Red Sea / Gulf of Aden** and the **Strait of Hormuz / Gulf / Gulf of Oman**,
 from news, official advisories, public Telegram channels (both sides of the conflict, five languages)
 and NASA satellite fire detections. Every morning it writes the **Maritime Security Brief**, publishes
