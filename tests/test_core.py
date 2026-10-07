@@ -513,3 +513,20 @@ def test_older_unhurt_attacks_become_one_liners(monkeypatch):
     sent = seen[0]
     assert [i["vessel_name"] for i in sent["earlier_this_week"]] == ["MARAN GAS MYSTRAS"]
     assert [i["vessel_name"] for i in sent["new_incidents"]] == ["ON PEACE", "X"]
+
+
+def test_token_watch_decide():
+    import importlib.util
+    from datetime import date
+    spec = importlib.util.spec_from_file_location("token_watch", "scripts/hermes/token_watch.py")
+    tw = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(tw)
+    today = date(2026, 10, 7)
+    same = date(2026, 10, 14)
+    assert tw.decide({"default": date(2026, 11, 30), "maritime": date(2026, 11, 30)}, today) == ""
+    both = tw.decide({"default": same, "maritime": same}, today)
+    assert both.count("expires in 7 days") == 1 and "in Hermes expires" in both and "BOTH profiles" in both
+    assert "rejected" in tw.decide({"default": "rejected", "maritime": same}, today)
+    mixed = tw.decide({"default": date(2027, 1, 1), "maritime": same}, today)
+    assert "profile maritime expires in 7 days" in mixed and "different expiry dates" in mixed
+    assert tw.decide({"default": None, "maritime": None}, today) == ""
