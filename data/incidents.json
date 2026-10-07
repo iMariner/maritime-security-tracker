@@ -1,6 +1,132 @@
 [
   {
     "region": "Black Sea",
+    "date_utc": "2026-10-07",
+    "summary": "NationalTurk reported that a Turkish vessel was attacked by a drone off Bulgaria in the Black Sea, with 10 crew members killed. The report gives no vessel name, exact position or attacker.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": "Turkey",
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "off Bulgaria, Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": "10 crew killed, according to the report",
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261007-001",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA4eFplNkZiX2wzY3JUNTMzQ1ZxZnZUeXVSb3ppM3BsY1pyMWZYS05aRmNuQjFkdE1ndno0ZjQ0SVRXdjlyVmRDRHpaaHJBTmNkY2VEQnRQVUtQenlCcDI0ZkpzeTNJNXdEZXFSak5PbzI?oc=5",
+        "source": "NationalTurk",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T12:15:33Z",
+        "title": "Bulgaristan’da Türk gemisine İHA saldırısı! 10 mürettebat hayatını kaybetti - NationalTurk"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOTF1bEk2Ykw5VVBqU3M2b3ZXRXpEXzYtQ3FWemJvQTIzTkc5MFIyODVDLUltd2hGcVpSYm8wbnNrZHF2Y25mUEFrTnVzWWx6NWQxcS1tdklyNXhrU0g3MmpOR0wxbm5fQkhnUUtORF9oQ3VRX1JTTXBXbDlMZGpmZFVTRWdqV0oycXZkMjhIYlh2ZnJYR2hxNjVJY3RLem5scnhOSGFxQjd3T1VtS1NWSHJPTk4?oc=5",
+        "source": "İzmir’de Son Dakika",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T10:57:00Z",
+        "title": "Karadeniz'de Türk sahipli gemiye saldırı: 10 kişilik mürettebatın tamamı hayatını kaybetti - İzmir’de Son Dakika"
+      }
+    ],
+    "first_seen": "2026-10-07T13:49:15Z",
+    "last_updated": "2026-10-07T13:49:26Z",
+    "verification_issue": 70,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-07",
+    "summary": "A Cyprus-linked tanker is ablaze off Sochi after a Black Sea drone attack, according to Cyprus Mail. No vessel name or casualty details were given.",
+    "official_source_cited": "Rosprirodnadzor (Russian environmental watchdog)",
+    "conflicting": false,
+    "confidence": 0.8,
+    "vessel_name": null,
+    "imo": null,
+    "flag": "Cyprus",
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "off Sochi, Black Sea",
+    "attack_type": "sea drone (USV)",
+    "damage": "tanker ablaze",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261007-002",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTjJnYmsxZnhOLWREUlR3LTJOOGJLVTh3MUg0S1hWZmYteDZjTXV5RndfQjBuSXpCZmhIUmd2VWk2MU41OUpuSEZDTHFjMnRmS3dVRVJ1WWdpOG01bXVOd2FoTUhoLXNmcHktT1AyMmFNQ3ozWmxKMC1XTTBYbWV6Y1lfMFhvSHY2S285dFVEcUNleWVJZ0VMbDVpNVJGbzFEbTFR?oc=5",
+        "source": "Cyprus Mail",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T10:39:32Z",
+        "title": "Cyprus-linked tanker ablaze off Sochi after Black Sea drone attack - Cyprus Mail"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMFFlWVFCVzUzN3VITUNSckpjM3hLdllHV3ZwQWtHd1VFUWFZaXNRM240WU9OUXNoNHdYU1ZVNWdSNVRrQXFLWHlaVEEwbkU3N2h5X1BYakJ3aGtJbEpsUjhjWjA5STdiSWxXTUF6NkFlc1B2Zm8yMF9xZURFblV1V0NHbm16eHpzUk1ndUhUbW9yWDc4WnJvQm1MLTdrcmVvY0HSAacBQVVfeXFMUHJBZjhFTkM3MDQzRDljQnZTWGpaNmEyRnVpRWJjSnJMTng2bXpRWmVPYjRHbHF3aTFyWV9aWnZ2dkxjaHZHUFo1dndqYW5XSFJjOFplSUZSY3pKUU5NcUZPSmhHS3pGVFA0R0E4bi1EN3ljVkNSTDlQMXEydDJkNVU0RnUtWXBnV3JVaWFFblBSeFhNUi1DeUN6anBGWUhEcXduU3BGWTQ?oc=5",
+        "source": "Рамблер",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T09:50:59Z",
+        "title": "В Черном море ликвидируют последствия атаки на танкер - Рамблер"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE90d3R1YWN3aG1Wd3hEMmVacDczcGVwdklUM1p1cFFOeDhsYTkxeVBUQXJMU2RyaFpzMnp0MGxodzI4eFczdEVvNzRBcGjSAUxBVV95cUxPdHd0dWFjd2htVnd4RDJlWnA3M3BlcHZJVDNadXBRTng4bGE5MXlQVEFyTFNkcmhaczJ6dDBsaHcyOHhXM3RFbzc0QXBo?oc=5",
+        "source": "Юга.ру",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T09:50:00Z",
+        "title": "Росприроднадзор не нашел загрязнений после пожара на танкере у берегов Сочи - Юга.ру"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYTJwU0x5NExKS1hwaFdBcDhSeXdYZDNUNUIwTmxXeklScjAyQk8taFpzZGNXNTUyWF9HanFHS1Z2STZUeTY1YUFQeXE5N0hxSmk1M3pnaVlmUmJhYnlnZGxOY3VOXzEtdmZnbjROU2pQOHUzNVFsM3UwWXVKMFM3WmhER2R0U1oyQmtKT091ejl4X1M1bWZGV3BUeER4d1F4TktSNzJONk1QVmc?oc=5",
+        "source": "ВТамбове",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T09:45:19Z",
+        "title": "Загрязнение Черного моря после атаки на танкер у Сочи не обнаружено - ВТамбове"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBiUFNYUDNaS3hVc3Yyak14UUxoY0tRQThKRkhxZVNHS1l3Y2lZN1J1VE1qLTM3bVVsd2tHd01IaVh2ZGcwa0Nkb0NR?oc=5",
+        "source": "47 новостей из Ленинградской области",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T09:45:00Z",
+        "title": "Минтранс о последствиях атаки на танкер в Черном море: пожар потушен, загрязнения нет - 47 новостей из Ленинградской области"
+      }
+    ],
+    "first_seen": "2026-10-07T13:49:31Z",
+    "last_updated": "2026-10-07T13:49:40Z",
+    "verification_issue": 72,
+    "verdict": null,
+    "published_in": [],
+    "status": "reported",
+    "status_changed_at": "2026-10-07T13:49:40Z",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
     "date_utc": "2026-10-06",
     "summary": "Drones hit two Turkish-owned ships off Bulgaria; one of the vessels sank and its crew is missing, according to Türkiye Today. No vessel names or further details were given.",
     "official_source_cited": "Bulgarian Navy",
@@ -11,8 +137,8 @@
     "flag": "Togo",
     "vessel_type": "general cargo",
     "vessel_category": "merchant",
-    "lat": 42.87,
-    "lon": 29.48,
+    "lat": 43.4,
+    "lon": 34.5,
     "location_text": "off Bulgaria, Black Sea",
     "attack_type": "drone (UAV)",
     "damage": "one of the two ships sank",
@@ -479,10 +605,19 @@
         "kind": "media",
         "published_at": "2026-10-06T17:33:35Z",
         "title": "В акватории Сочи загорелся танкер, еще два судна атакованы у берегов Болгарии - BFM.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUklrc3RHc2JHTExqb1hMWWUwUzFRTkVzV2QyczNFOGpOVl9tSXlSY25XNWRCdEs1SWx4VzBtZ0JuQURVOUVTTFBrc1hBRkR6S1ZjNzgxZURZSE92UjMwQmR1LXJrTm1nVzN4N0tSdDcwN2d5UDVkdkdPSFZZWlJjV2tVRVlxeFV1eFhzcWtyVG85MlNSa3JNZVdhb29PTWRBdFc4T3Fpb29NdU43bHdzWHZPeGPSAboBQVVfeXFMTVhaalBrTGRmOWpuMjhubVI5MVlkbEIyQnVRdW5LZWdBUHVKVDBBd2M1M1BIUlRMSEFpYzVZeTMxZ1JURGZWaGZBTU5wVVpjcnBqM2c1TUNweHJHOHZfTGo1TmI2MzNGSk9Ub0l4NlZuYVhfS1p4VFBXbUhkQ0RtQng3Y1I3YlcwTUs0WHJ1T2tyMGhYdUJuYktRR3lCdWNsdEtFMG02ei1TcWpkM2FXTHRhTlpWekJJMzdn?oc=5",
+        "source": "Al Jazeera",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T10:24:37Z",
+        "title": "Bulgaria ends search for missing crew after drone strike sinks cargo ship - Al Jazeera"
       }
     ],
     "first_seen": "2026-10-06T08:05:50Z",
-    "last_updated": "2026-10-07T05:15:36Z",
+    "last_updated": "2026-10-07T13:49:31Z",
     "verification_issue": 52,
     "verdict": {
       "status": "confirmed",
@@ -753,7 +888,7 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-10-06",
-    "summary": "Odesa regional authorities said a Russian drone struck a Marshall Islands-flagged commercial vessel loaded with rapeseed oil in the Black Sea on 6 October, setting the superstructure on fire and killing one person and injuring seven. Other reports gave differing casualty figures.",
+    "summary": "Odesa regional authorities said a Russian drone struck a Marshall Islands-flagged commercial vessel loaded with rapeseed oil in the Black Sea on 6 October, setting the superstructure on fire and killing one person and injuring seven. Other reports gave differing casualty figures, including three Indians rescued and three sailors hospitalised.",
     "official_source_cited": "Odesa Regional Military Administration (Oleh Kiper)",
     "conflicting": true,
     "confidence": 0.8,
@@ -843,10 +978,37 @@
         "kind": "media",
         "published_at": "2026-10-06T17:35:25Z",
         "title": "India condemns attack on commercial vessel in Black Sea which injured 3 nationals, reiterates call for “dialogue and diplomacy” - The Indian EYE"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNcG5qRXV1em5OS01pVE0xeHB5ZWRpM3dkeEl0cW1wRVV4N1lTZWEtSUNRVkZDTk9Xb0wxVUYyRGhlbGktWVdNbGpubjNjS0RfMFFtRTU5X1N2cExGUGFQSlZoU3BFdm9fNHo2ZE8xcHB2UFluY1NPRnRHSFNIOTEtMTJ6QkNSZkw0U3lwR2Y3UWpKNnhFV1FyM3JGUG1LMVVRVFFVSUI5X2UtWFBPQm1WMkFHMEE5c2VCVFVZM3E4dkdXUWE2Rll3N25IWkdnLThwTWFzZ1gySFE4Tl9xS09lV3dVMHg1VTTSAewBQVVfeXFMTlltVTZEdk5RaHQzTWZXWW5HTGFNd0JIa2lSVVVWQTZCLWI1a3R2RkYzelRXR2U0a2VJdnhvc2JHS2g0eU5UWDZjQ2YyR1A2QW51Qkg1VFBnTndXZUtPeXhGU0c1dFZ2c05FYVNNblpoTzM5TzE2d3RJcWhpU2FHSkV5S2Y2SHdHcXIycTcwVEF3X2IzU3BDaHhBQUt0UXF4REdDVDI2TFVUV1JmeEwzeDNkcTZZWXd4ZG43c1l3YTRuc3FQVHlFREJGZVZkX1BxR2VpSzk0Z3lfY2FGX1NXLUxHNGZRNUE2VUN5aTE?oc=5",
+        "source": "ETV Bharat",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T13:33:35Z",
+        "title": "3 Indians Rescued After Russian Drone Strike On Black Sea Ship In 'Stable Condition' - ETV Bharat"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeGkyZy0xcTdobkU3QzVMQ3BENEYxQkdzOVBCUnBNbXc0b0VxbVI5TUtYdThRcFVsZFJ5cnp4NWNxTjc5YUF3S1g4WlFEeEE5cEpjajM2TF9PYmV1dkc1aFl4TXhkb0lnNFhwbU9mcDg2U1JWc1AzOW9TcV9qeTVCdzBjSFBsNnBPUWlDenY1QlRYaDhzZHoyR3RyVnIwcHlsSy1rU2R4T1V5aDdsSFIxQjlaWDNkd9IBwwFBVV95cUxNN1BtaHQ1cWpObVBtNlAzNWt2ZTVvdGF0WWtYdkUyWVhyaUNWbHU4YjRUOTB2NEZtWGFsSVpNRzYwREozLXBucmNwTmF4Ymk5elJId2I2MWNKUjFTT1lUWEw1ZmN2QnNHMDVjZWJRVlE0VXF5MGxZaEJOOHAyUEVZR2FBTURVNEhNbWdqbm9iRm9RVGFaaTdzNWZwWDRuZE9VWmU5bGJtWUItNGhkTVlQTURzOHRqUFZjbFFGcXF5MEFUUEE?oc=5",
+        "source": "DT Next",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T13:22:23Z",
+        "title": "3 Indians rescued after Russian drone strike on Black Sea ship in ‘stable condition’ - DT Next"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOVU5jQzVJWVJqaWZPanpMOWFKUGFxTjI4VHk0YkJpTmRxam9EUTVpMVF4RVBaa21UQVNpU3J4ODNqeVA0ZWtDTkEtS1FaM00za250QUFTaDR5T0EydjVCd3dGYjhSbTljamNYd2NidzRfdGhZckxYWXVpaVVCck1SNTMxMjhPZW1VU1Rici1zSXdxNV93cWpJODN5cGdoNWJjTjc5akNILWxhejMxQnpWdDZUS0Jjci16NDY2YkNNZ1B1UDI3UTA3YWliSldEQ3dHNVVraU0wN1hVc0RZNEx4RU01N3p3TDVGREd4Ulp1bHZxZl9qS0FvcnIydVdpR01xMzhRNzhwU3lEY0HSAYsCQVVfeXFMTlVOY0M1SVlSamlmT2p6TDlhSlBhcU4yOFR5NGJCaU5kcWpvRFE1aTFReEVQWmttVEFTaVNyeDgzanlQNGVrQ05BLUtRWjNNM2tudEFBU2g0eU9BMnY1Qnd3RmI4Um05Y2pjWHdjYnc0X3RoWXJMWFl1aWlVQnJNUjUzMTI4T2VtVVNUYnItc0l3cTVfd3FqSTgzeXBnaDViY043OWpDSC1sYXozMUJ6VnQ2VEtCY3ItejQ2NmJDTWdQdVAyN1EwN2FpYkpXREN3RzVVa2lNMDdYVXNEWTRMeEVNNTd6d0w1RkRHeFJadWx2cWZfaktBb3JyMnVXaUdNcTM4UTc4cFN5RGNB?oc=5",
+        "source": "Digi24",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T10:02:46Z",
+        "title": "Primele imagini cu nava lovită de drone în Marea Neagră. Trei marinari sunt în continuare spitalizați, iar... - Digi24"
       }
     ],
     "first_seen": "2026-10-06T15:26:37Z",
-    "last_updated": "2026-10-07T04:41:19Z",
+    "last_updated": "2026-10-07T13:49:41Z",
     "verification_issue": 63,
     "verdict": null,
     "published_in": [
@@ -1000,8 +1162,8 @@
     "flag": "Palau",
     "vessel_type": "general cargo",
     "vessel_category": "merchant",
-    "lat": 42.87,
-    "lon": 29.48,
+    "lat": 43.4,
+    "lon": 34.5,
     "location_text": "off Bulgaria, Black Sea",
     "attack_type": "drone (UAV)",
     "damage": "damaged",
@@ -1277,8 +1439,8 @@
     "flag": "Liberia",
     "vessel_type": "tanker",
     "vessel_category": "merchant",
-    "lat": 43.35,
-    "lon": 39.78,
+    "lat": 43.4,
+    "lon": 34.5,
     "location_text": "off the Black Sea coast",
     "attack_type": "sea drone (USV)",
     "damage": "oil burning on the water after the attack",
@@ -2258,10 +2420,217 @@
         "kind": "media",
         "published_at": "2026-10-07T05:15:36Z",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeGMwaWpoWnBhR3RCZzB2YzNEM0VoX3E1MV9DRzFZc0Qxajd2VjFiWUxyQkQwNDJidEZIYVZpaVNUTFFsY0lhZWkzbkxQUm01ZWduekkyajZCa1NBWUdzaEZ2REIyS2U4X3JreGVEUFBQWVN1d25zdlprQXI1bEhja2dvMnFXNS1vUnRoalpfcEx5QlZfaUNBVmxPRTg0dkU2N2VBcnEwN1FObGZ0QXNmN3ZEMmF5QkU?oc=5",
+        "source": "TV8.md",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T13:29:09Z",
+        "title": "/ВИДЕО/ У побережья Сочи после атаки морских дронов загорелся нефтяной танкер - TV8.md"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBaMlplUV9TeTVianZ4VjNQNTRKX0lVMHJQTTdfYU5WOE9nSlI5WkllRlNxTVJ0VEk2NzcwODB5VGlWRkF4eU5SdnlaZnoxclZm?oc=5",
+        "source": "KrasnodarMedia",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T13:08:00Z",
+        "title": "В Сочи создан штаб по ликвидации последствий атаки на танкер - KrasnodarMedia"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdUtHeGR2SHlFNjgzNlVHNkZkUEJwRXpJWUpVejU5emlSNGwydGt5ZEJKc2xGRElXTGJEY1Z5YjBtYmJfYzBWUUg1ZkdMMVZoUjB6Y1R5ZEstcnphNTBTRUktWVFNZ29weWtpUzV3NFZWOEpnMUpoRk9uclk4TmdqUm8xTDRnUzBadGxhdnB1QnM0MEdsN2lIVW04bTE4djR3eGp6cTAyZWJpbkZHRXpvdW92UEtiQQ?oc=5",
+        "source": "ВК Пресс",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T13:01:58Z",
+        "title": "Пожар на танкере в Черном море потушен: загрязнений моря нефтью пока нет - ВК Пресс"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxObnFDYlBBQXVYbllNaWxZTTlJSV84NmpvTERacDVYSkFVV3ljUWlacHcwR3ozSlIzR2lPWXVvTDRmc0VScTA3U2trd3F6cEZIUXFXcVlRbm5nbk1LZmJKaVNmLXR3Y09xVldQSGw2YUpqVjBES1VkczBraE44UFkyX2s5TDVlME1uVjlfa3dqSm5zemtqWkZhNmtTNWNnQQ?oc=5",
+        "source": "Кубань 24",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T12:44:00Z",
+        "title": "Экипаж атакованного в Черном море танкера отказался от госпитализации - Кубань 24"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYjJFY2N6UjdOMzBlV2lFbExxcnd0NGZIQkNCS2Z2M1pmcG9pQ3Qxd05QX1pWVkhxaW44eURiaDBCQlhVQnViVXNmbFNsVTJreWEycVFmWmIzZFRiTElBWlJFazZIRko3X1NyUC0taDR3ZUk2bTZVZjc5THNadDRvbEw0MURJVVcwTllWZ01ON0FPR01XMW5fTlVOTmtibWRTMWFNMVJBRURsMWxZVHcyd2ZXekJqTHNCbTYtaHI3TUtRbGZNUHZBStIBzgFBVV95cUxQV3FnVUVOemFOQUdVM0UzVDE1UGdKZlNSYTBRaFV6Qi1aV1FKdFdZclV2NnRuTGxtNnNLYWg2SXFFWEk4dExZQVdlNE9mWUNXcGowMFpjaXJ1OE9xSVBWbDZUNkd5Zkx4bHkwWE0yaUxpTnhac09aSHJXcWFyV1BhUzl5ZDU2ZlNadFVyUi1fUlZpdEN6ajZ4TEljMGVwOWJXTlVHaWxoWDNrQVlIWi1veDBpNVdyN3lrZ0pSWDU4SVAtSWRCR0FjN1RKMFVHUQ?oc=5",
+        "source": "Free Press Kashmir",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T12:11:15Z",
+        "title": "23 Indians rescued after oil tanker attacked by drone boats off Russia’s Black Sea coast - Free Press Kashmir"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWjhSLThTLXVJTzlPMUk0OGxwbWVkdXVJNDJDTkhnbC1hcmh2bVVEV2ViTjZzTDNqaEpOVmV1bHVOcnlFeU94QUdQOHJrRnp5ZFZSNFo3bzVpRDFDR0UxWGprallKdmtxd2N1TkF0X0hHS0xoQzd1UTVJN0MzdEcyRmJtejA1SmM?oc=5",
+        "source": "Life.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T12:09:21Z",
+        "title": "Экипаж «Афрамакс Рио» отказался от госпитализации после атаки - Life.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNNXJGbDR1QUxOQTBZYjNKbDYyaDBNeklqcTBnMTRkSzR3V2dQem8zcUp5ZTRiaUJpNWZVWTIxeHNYVmhBakc0R0pMUW9xUjc0MzFKcnBtbS1jRllhNjF5WE5CZXNBNTZlLW5LWi1DempXTVM0b2lXaHhsVlhWOGh0dWRhcnVyWHp3TVFhU3l6bmFYbGxlX3M0ZC0zWEsxXy1BMFU4cTNGbXNZTkYzTHVrX1duMC12S2RPWHlWQXhzUnItOW5TOWZnNGxEeER4V01GemI3YzhOQ0pyY01ucG9La3RVUHlSeG1rMDZ3Q3dzU0l5UERKejZ0MDNzX3JSNFE?oc=5",
+        "source": "The Australian",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T12:08:20Z",
+        "title": "Liberian-flagged Russian shadow fleet oil tanker engulfed in flames, following Black Sea attack - The Australian"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQlpJYm5VNkpFYnlVelRpNGJJUURvbEFsYll1TlZIbU1qSzhORUhwZkszdlJaOEF5R1JfdHJzTnR5NkxldUJVeUdublYtTnFxSXVIT200VnFldnpLSVExN1pQRFZzWElhakJtckU4NDhvZmJsVTFPSDZ5U29ZN1k4TU84blcwRG1kY1ByQVRIWF9qcG84emVZZVB0cEE1c05jb21TUzVnY1prY2V2WnRpbWhOVUpoNElraG5uWG9EUEhNUkNUeVlIVVdmQkp2RWlWeUlfUVZ30gHWAUFVX3lxTE1CWkliblU2SkVieVV6VGk0YklRRG9sQWxiWXVOVkhtTWpLOE5FSHBmSzN2Ulo4QXlHUl90cnNOdHk2TGV1QlV5R25uVi1OcXFJdUhPbTRWcWV2ektJUTE3WlBEVnNYSWFqQm1yRTg0OG9mYmxVMU9INnlTb1k3WThNTzhuVzBEbWRjUHJBVEhYX2pwbzh6ZVllUHRwQTVzTmNvbVNTNWdjWmtjZXZadGltaE5VSmg0SWtobm5Yb0RQSE1SQ1R5WUhVV2ZCSnZFaVZ5SV9RVnc?oc=5",
+        "source": "Новости Краснодара и Краснодарского края",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T12:03:01Z",
+        "title": "Члены экипажа атакованного в акватории Черного моря танкера отказались от госпитализации - Новости Краснодара и Краснодарского края"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1wWXl5d1FWRFRNYjNYaVp2Ny1POTVuNFN1MUh3eWRYSWp5Ty1nNkdUOE51dlpIbEJybFR2RUpTS00wOUU4R0NF?oc=5",
+        "source": "URA.RU",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T11:53:00Z",
+        "title": "Атакованный танкер около Сочи стал дрейфовать по течению - URA.RU"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSDFieHB4d3lNVjhUbUxZdUkxQUg1QlAzSHFUaGl3d0IwYmFhV0FIYW5Ka3l2RlhORldVeUlNeUp2bmJwN29ES3dSb1ZiQWF3eHNmS0s5LVptRTNhby10cklYVmJIeHA0cXhIOXdpeTBSZjREN1Y4amNoRHVvanlTOWplNEctQ3lqdDI2aUZkTW1aekJt?oc=5",
+        "source": "Life.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T11:50:08Z",
+        "title": "Танкер после атаки БЭК понесло вдоль Сочи: Что происходит с «Афрамакс Рио» - Life.ru"
+      },
+      {
+        "url": "https://t.me/astrapress/127377",
+        "source": "ASTRA",
+        "source_type": "telegram",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-07T11:50:04+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSUhfWWpDdHBjclBOR1daT2NZa0ZKcEVrLW9GeE9jMjBjMXpQYVlQbTdoWlZYQkVtQzF5QkJqSTJWdEQwWUVpY2o2NWZxM21ZU2p1NzRQbVFLaGlPRGwteGRKWnFqZU5fQzNyOTJVOHlINmNrRWgxdDV5aFFjME9SRW9yb2tzVlVsY0xaNzFtWGdCLURUTzBRWmZnbXprcDVXXzdxUW0xTHE4VU5xVmlYcFF0bm5EbjNiYXl1LVJZeWJQZw?oc=5",
+        "source": "Новые Известия",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T11:33:11Z",
+        "title": "Росприроднадзор не обнаружил загрязнения в Черном море после пожара на танкере - Новые Известия"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZWlFSEg4bnZ4ODlrM25ENzRQZ1JJamhyVXhQaElDUERQU0RJMUVsRklJUWQ5TGpYVzFVQ2Q5WUhyamdTTDVyd2UwWkJqbW1YQ3NHZXNJMXpZTTVJRVVTSjdPS0MzeVJsNmQxRVMwSDV1bUJnWFlMQ3YzNVJDMkxXbXZYSDJCWHpVTkliMlVhdnFQMjdEcDZvZGdxVnVRSE13WUMwQ2J4NEZYOTNEaWMxbXZMZHlndloxdEU4VWN3?oc=5",
+        "source": "Marine Insight",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T11:16:44Z",
+        "title": "Oil Tanker Carrying 23 Indians Catches Fire After Drone Attack Off Russia’s Black Sea Coast - Marine Insight"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5IYnhaSGVLTnBuN2xvQ2twbnRhbEdjeTc4VVNYemRjS1NKSlJzTkkzVHFheF8tYlowWGxWLVkwMzd2d2ROZHBpVlpJQzV3bExOdUpyMnRHa0k3TVg0SkE?oc=5",
+        "source": "Администрация города Сочи -",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T11:03:59Z",
+        "title": "В Сочи организована работа городского оперативного штаба по ликвидации последствий атаки на танкер в акватории Черного моря - Администрация города Сочи -"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSm9PU2ZXZlF4SXFQbXhiVUhxb3czYUpVZE03eVZzUEh1MmVYNkVaZmdsS011OGFTbDVjX2JpNWFzZHc5ZFM1ZUowdXBiM1poRkJoSnVESkJmLVFzOW1iM2QxcHJ6UDJMTDFmcExyd2VtM3RQWWQtRnBHMnRYN19hQVhxaHJIWU9zY0xSQWlmbjlSQndSbzkyaU1iU0gxSjZ4QmtxWlAtSXJDcGR4NGNWS1Iwaw?oc=5",
+        "source": "ВФокусе Mail",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T11:02:10Z",
+        "title": "Загрязнение в Черном море не выявили после пожара на нефтяном танкере - ВФокусе Mail"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONGdzYl9nbUZOV1BGQjlpeU1zV2FFMWxOdzBKMVRrSmdDVlpqUmtnR1JPR0RmRWJYQ3hsVDFFcjdWWXFwMzA0YjlrZTFZczFSeV9zWXhSelZMXy1jOWM2VDhHbWRIZXV6eUtxTENPX3FUTHM2b2FlOWNUeEZ0Q25PSTdCVXVYVkd3dGZaeU5QUlpDamhMblVUVW0xV0FjbHgyTDRZaTJKTjQ?oc=5",
+        "source": "Quantum Commodity Intelligence",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T10:49:53Z",
+        "title": "Crude tanker on fire near Sochi as Black Sea attacks intensify - Quantum Commodity Intelligence"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOHNXMjhmYUJJSW9fVS03ZTJjY3B0OUtPcVFENmxLdlh3UlFoSUlOXzhiNlZ6c1ZGd1MtM1F3T3hPaHZFQkljeGpEcTVSYU4zYzNjLUk4SEpBNksxVVJYd2ZqLUp0R2hwVXlLSFhoUUc5SmhReHZVS3NTY2hNeGJGaGZKTVRJbzBsV3d4S0M3R05qUWZBalVVcVY5NldhZzFxRU12d0Vhd1pDWFpINlJGYkFlcFFHTDB2?oc=5",
+        "source": "The Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T10:49:23Z",
+        "title": "Black Sea oil tanker burns after suspected Ukrainian drone strike - The Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWkpWSmZ1am9ielN5UEJJdlBHOGFxYVVMWDYzSVFKUFduYlNZMUgzU29JcmtVVXFQazFzb0Y4YjFqOThjMVFpeE1lZ2JMazBXa2N4Tm5lbTdmU0NCRnhNajN2d1dsMDNKeDNZUjFqM19iOUREcnRScU5XNDgtcGs1aGRnZTZ2YU1TdzliMVdzSV9sWGNfeFl5MXJid3Rmalp2T1Nyd25R?oc=5",
+        "source": "The Irish Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T10:39:41Z",
+        "title": "Oil tanker burns in the Black Sea after drone strike - The Irish Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdEpWaHVjWUVyemZLeENkU2ZqTjJucThWODZUVlpUMS1zMUdvWlRyNWJfRmNhT29TNlVvSmRZcTVtM2hHejgweVNtR0FqVVdTaERhRlJEMXpHaXZ3M1dCektFb3FMYXNNcG12dENoRnhuVUs3UWhkVGNZd2F4aWpjeEV4NHNTQmhuVzBxNXFTcEU1ZE1rQ3R1ZTg0SDNsZ21oVlZJWGd3SjBrc1U5X2F4MlQ1b9IBtgFBVV95cUxQalpqTi1nRXBsMjRNVEV6VzZqOG1FeXRrRVkwZHJzOUgtQWpoT1VXQVcwVUw3aGhwZ3l5cU1zTXh0a0oxNi1lZ0RyMFlzX19WVjh2WUFsMWdSWmQ1cE9hOWJHc21TMlBkc185aFN2b1Y2YUw3TC1FN0xuTWlFLWJ0dmZwcVFDMWlIVnBjZUIyb256Zk43QnFQb0Y5MjJpM3ZUaVUzb3lPV3NtSGxRUzhkMFNtMG5qZw?oc=5",
+        "source": "Radio Free Europe/Radio Liberty",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T10:32:24Z",
+        "title": "Oil Tanker Hit By Naval Drones Near Sochi, Sparking Massive Fire On Black Sea - Radio Free Europe/Radio Liberty"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQY3RCcE5Gakg3QVdCOEpDX18teFdpc1FrNDZGY2dTaW8waUYzaFJBVWdvX2wtcUU1SVZRNF9DS3lWM0hpcERRQUtURi1BOS1FSFdOSEg4QzcyOUZWZUJrb0hUQXdWalNZeE5XOFNLWndzVXhPcFJCblg4Vk9DSHBEQ0NTZ1RvNThHamxyWDJoRy1WV1Jtcmd4YlhnQXU1cnlZa0FKd3lFUjFnMDFU0gGsAUFVX3lxTFBjdEJwTkZqSDdBV0I4SkNfXy14V2lzUWs0NkZjZ1NpbzBpRjNoUkFVZ29fbC1xRTVJVlE0X0NLeVYzSGlwRFFBS1RGLUE5LUVIV05ISDhDNzI5RlZlQmtvSFRBd1ZqU1l4Tlc4U0tad3NVeE9wUkJuWDhWT0NIcERDQ1NnVG81OEdqbHJYMmhHLVZXUm1yZ3hiWGdBdTVyeVlrQUp3eUVSMWcwMVQ?oc=5",
+        "source": "INFOX.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T10:21:16Z",
+        "title": "В Черном море потушили пожар на танкере «Афрамакс Рио» у берегов Сочи - INFOX.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbHVxY29XWDl2bHBtdXJuUDJ3X3k1aTBUMVdib2hfSEZ2MVFhMHZ0allGcXV2ejlmMDBUdnFPazl5dC1jZmhsd0VnTHpWT1lTaGtWZzJ4REh0cGZOaTlPcHRPTkRpM1p4UEU2TXFPMkx2UzBMeDdjUXlpUFY5SEVENElHQ21pYzBSWlBNOGJJWms5R0k0Z255bU1rcTlVTTljS3dGdXJtcUhTNlVITUE?oc=5",
+        "source": "The Irish Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T10:16:56Z",
+        "title": "Huge blaze in Black Sea after naval drone hits oil tanker - The Irish Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxONHNhX0UtUWNJNFdUSXlpQzgyWG0wcmdVaE1VQzBSNERTYVNDN1JJUHd2UzNSaHZZcU91Q3BhdWNLZnRQUjhwS3I1ald0aXRZNVo2eHVWYkFUazNJblcxNS0tTWdlYTZSNUNrV3B2Q1dLR0htUWNLdXVWZGVIXzhrUW5CVGJvdGVUbTZyOElya05yOEpqS292ZlRHZ1dmNHR0Q1lWc2p1R1FNdkhOS09IMERDN1o3d3BfMVdFRnpha185VnlXODR0cFVLaWo3Zm9kSnNaTGxGU2UzOGllQ3NLdFhTVVVCMmpEYmRVbGx2aHlkaUpYMmx6OHRlX3dpSGtQM1FwNTVpRmViNEZ3S1NxZNIBlgJBVV95cUxPLWFtYS1SNDZ3ZDV4aUZrcWZrX2RTSjB6SlYtTFpwLXJoQ3NjMkR5U01qenJodTBMd2hlSm9NZGdRS1BHT1RjZmhNV1duVjRrUko2NzBINURaQ25abGhfcnBNanBjaDdrYUNTd3lYczdpeWdCamZkRkpCXzdyTGtwUGJWOEhaVVpmVllNOEVkaVJ0S21VQ1VuNGRtWXdxaU5sLVBVOWNkeG9JMjU3NThyaFVWLVVUcFloNEF3elgxMFd4OGFpellEOVlrdjNDVjJ3ZEJQOTlLZzR1REZNckQ3OWlZQnhSZlR6c0pGWTY3UDJ5ZVowSlBLdkphR2lHMEFSRTZ6a21PRmVUU3NBLXV6SDNSMDFUUQ?oc=5",
+        "source": "Meduza",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T10:08:00Z",
+        "title": "«Кажется, что-то горит». У побережья Сочи после удара дронов загорелся нефтяной танкер. Столб дыма был виден за много километров. Пляжи закрыты - Meduza"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSTl4bzNfT3pTbWYzdjltWEh6SmYxUEtYSlg2Nk1MVW96TzcyMVRVa1hYeGhrMmU2MUZLcUQxYVR1cloybjlqTF9pS2VyR1BkcW1uakhuVVo3QzVsMVFUV3FsaUpobENlU3FZa1NhdHg1V3h5Vnp0SWFSU29YQ1JoUTliTkRpSnM?oc=5",
+        "source": "EA WorldView",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T09:58:57Z",
+        "title": "Ukraine War, Day 1,686: Kyiv Strikes Russian Oil Tanker In Black Sea Near Russia’s Sochi - EA WorldView"
       }
     ],
     "first_seen": "2026-10-06T20:33:03Z",
-    "last_updated": "2026-10-07T05:15:36Z",
+    "last_updated": "2026-10-07T13:49:36Z",
     "verification_issue": 65,
     "verdict": null,
     "published_in": [
@@ -2540,6 +2909,137 @@
     ],
     "first_seen": "2026-10-07T04:41:15Z",
     "last_updated": "2026-10-07T04:41:19Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261006-007",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-06",
+    "summary": "Three Indian nationals were rescued in stable condition after a Russian drone strike on a ship in the Black Sea. The report gives no vessel name, flag or exact position.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Russia (Russian drone strike, per headline)",
+    "independent_evidence": false,
+    "id": "INC-20261006-020",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNcG5qRXV1em5OS01pVE0xeHB5ZWRpM3dkeEl0cW1wRVV4N1lTZWEtSUNRVkZDTk9Xb0wxVUYyRGhlbGktWVdNbGpubjNjS0RfMFFtRTU5X1N2cExGUGFQSlZoU3BFdm9fNHo2ZE8xcHB2UFluY1NPRnRHSFNIOTEtMTJ6QkNSZkw0U3lwR2Y3UWpKNnhFV1FyM3JGUG1LMVVRVFFVSUI5X2UtWFBPQm1WMkFHMEE5c2VCVFVZM3E4dkdXUWE2Rll3N25IWkdnLThwTWFzZ1gySFE4Tl9xS09lV3dVMHg1VTTSAewBQVVfeXFMTlltVTZEdk5RaHQzTWZXWW5HTGFNd0JIa2lSVVVWQTZCLWI1a3R2RkYzelRXR2U0a2VJdnhvc2JHS2g0eU5UWDZjQ2YyR1A2QW51Qkg1VFBnTndXZUtPeXhGU0c1dFZ2c05FYVNNblpoTzM5TzE2d3RJcWhpU2FHSkV5S2Y2SHdHcXIycTcwVEF3X2IzU3BDaHhBQUt0UXF4REdDVDI2TFVUV1JmeEwzeDNkcTZZWXd4ZG43c1l3YTRuc3FQVHlFREJGZVZkX1BxR2VpSzk0Z3lfY2FGX1NXLUxHNGZRNUE2VUN5aTE?oc=5",
+        "source": "ETV Bharat",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T13:33:35Z",
+        "title": "3 Indians Rescued After Russian Drone Strike On Black Sea Ship In 'Stable Condition' - ETV Bharat"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeGkyZy0xcTdobkU3QzVMQ3BENEYxQkdzOVBCUnBNbXc0b0VxbVI5TUtYdThRcFVsZFJ5cnp4NWNxTjc5YUF3S1g4WlFEeEE5cEpjajM2TF9PYmV1dkc1aFl4TXhkb0lnNFhwbU9mcDg2U1JWc1AzOW9TcV9qeTVCdzBjSFBsNnBPUWlDenY1QlRYaDhzZHoyR3RyVnIwcHlsSy1rU2R4T1V5aDdsSFIxQjlaWDNkd9IBwwFBVV95cUxNN1BtaHQ1cWpObVBtNlAzNWt2ZTVvdGF0WWtYdkUyWVhyaUNWbHU4YjRUOTB2NEZtWGFsSVpNRzYwREozLXBucmNwTmF4Ymk5elJId2I2MWNKUjFTT1lUWEw1ZmN2QnNHMDVjZWJRVlE0VXF5MGxZaEJOOHAyUEVZR2FBTURVNEhNbWdqbm9iRm9RVGFaaTdzNWZwWDRuZE9VWmU5bGJtWUItNGhkTVlQTURzOHRqUFZjbFFGcXF5MEFUUEE?oc=5",
+        "source": "DT Next",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T13:22:23Z",
+        "title": "3 Indians rescued after Russian drone strike on Black Sea ship in ‘stable condition’ - DT Next"
+      }
+    ],
+    "first_seen": "2026-10-07T13:49:07Z",
+    "last_updated": "2026-10-07T13:49:41Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261006-007",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-06",
+    "summary": "Bulgaria stopped the search for missing seafarers after Russian strikes on four Turkish ships, according to TradeWinds. No individual vessel names were given.",
+    "official_source_cited": "Bulgarian authorities (search operation)",
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": null,
+    "imo": null,
+    "flag": "Türkiye",
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "off Bulgaria, Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": "four Turkish ships struck; one sank, others damaged",
+    "casualties": "seafarers missing; search stopped by Bulgaria",
+    "attribution_claimed": "Russia (per headline)",
+    "independent_evidence": true,
+    "id": "INC-20261006-021",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb3RxaXFWek5vNG1sc1dUSVVRdW53cUZqQkdPZ2RHYmRGQ1BPb3d0eF9zMkRZbzR0QUdyMVdJU2N1Mmx4emNFSHhMUFNKVmQ5eDJtakEwNXVISlJUX05TNmJIY0FpTWsyR1o1QlZCdHBTWkRlWHRrTXNScjRUbzdMUjJfVlVzQUt2N3RnaGY4Ujh6MGdnSGVlM0hUYU1jOHVrMHlTOGJoOVBQek1kSUh0WUI2UFROX0NQX3JFV2JIRTctX2Z5VTF6RnNFXzBhQVItNUlZ?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T11:46:57Z",
+        "title": "Bulgaria stops search for missing seafarers after Russia strikes four Turkish ships - TradeWinds News"
+      }
+    ],
+    "first_seen": "2026-10-07T13:49:21Z",
+    "last_updated": "2026-10-07T13:49:21Z",
+    "verification_issue": 71,
+    "verdict": null,
+    "published_in": [],
+    "status": "reported",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-06",
+    "summary": "Digi24 publishes the first images of the vessel struck by drones in the Black Sea, reporting that three sailors remain hospitalised. No vessel name or exact position was given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": "three sailors still hospitalised",
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261006-022",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOVU5jQzVJWVJqaWZPanpMOWFKUGFxTjI4VHk0YkJpTmRxam9EUTVpMVF4RVBaa21UQVNpU3J4ODNqeVA0ZWtDTkEtS1FaM00za250QUFTaDR5T0EydjVCd3dGYjhSbTljamNYd2NidzRfdGhZckxYWXVpaVVCck1SNTMxMjhPZW1VU1Rici1zSXdxNV93cWpJODN5cGdoNWJjTjc5akNILWxhejMxQnpWdDZUS0Jjci16NDY2YkNNZ1B1UDI3UTA3YWliSldEQ3dHNVVraU0wN1hVc0RZNEx4RU01N3p3TDVGREd4Ulp1bHZxZl9qS0FvcnIydVdpR01xMzhRNzhwU3lEY0HSAYsCQVVfeXFMTlVOY0M1SVlSamlmT2p6TDlhSlBhcU4yOFR5NGJCaU5kcWpvRFE1aTFReEVQWmttVEFTaVNyeDgzanlQNGVrQ05BLUtRWjNNM2tudEFBU2g0eU9BMnY1Qnd3RmI4Um05Y2pjWHdjYnc0X3RoWXJMWFl1aWlVQnJNUjUzMTI4T2VtVVNUYnItc0l3cTVfd3FqSTgzeXBnaDViY043OWpDSC1sYXozMUJ6VnQ2VEtCY3ItejQ2NmJDTWdQdVAyN1EwN2FpYkpXREN3RzVVa2lNMDdYVXNEWTRMeEVNNTd6d0w1RkRHeFJadWx2cWZfaktBb3JyMnVXaUdNcTM4UTc4cFN5RGNB?oc=5",
+        "source": "Digi24",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T10:02:46Z",
+        "title": "Primele imagini cu nava lovită de drone în Marea Neagră. Trei marinari sunt în continuare spitalizați, iar... - Digi24"
+      }
+    ],
+    "first_seen": "2026-10-07T13:49:36Z",
+    "last_updated": "2026-10-07T13:49:41Z",
     "verification_issue": null,
     "verdict": null,
     "published_in": [],
@@ -2901,10 +3401,19 @@
         "kind": "media",
         "published_at": "2026-10-07T07:00:29Z",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTVptdmh5aVpfa0pOT01UZXBTLVVRV0JtdHpNQldtYkVRTUhxRE9nRm4zTEFISVlldHg0WFVONV9mUVFQSW1mZ2pZaERIM3I2OXU2TGY5UXl5dDVDUVJGRHZaYl9YeVZKSVdZRlVoRE1KSzlsU1E0VzlqcWNUaDBxdHlpa2IzOGxZSl9VNVZBN3A2dmstTG5BcGFiWVRuNDIxWnV4ZUhpRXYzVlFCRW9jTTMyM2w4bjNo?oc=5",
+        "source": "Marine Insight",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T11:25:24Z",
+        "title": "Video: Oman Evacuates Injured Crew Members From Oil Tanker Attacked In Strait Of Hormuz - Marine Insight"
       }
     ],
     "first_seen": "2026-10-06T15:26:37Z",
-    "last_updated": "2026-10-07T07:00:29Z",
+    "last_updated": "2026-10-07T13:49:21Z",
     "verification_issue": 62,
     "verdict": {
       "status": "confirmed",
@@ -5348,8 +5857,8 @@
     "flag": "Saint Kitts and Nevis",
     "vessel_type": "general cargo",
     "vessel_category": "merchant",
-    "lat": 44.37,
-    "lon": 29.79,
+    "lat": 43.4,
+    "lon": 34.5,
     "location_text": "Black Sea",
     "attack_type": "drone (UAV)",
     "damage": "vessel sunk",
