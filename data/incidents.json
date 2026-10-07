@@ -7,8 +7,8 @@
     "conflicting": true,
     "confidence": 0.9,
     "vessel_name": "ALFA WATAN",
-    "imo": null,
-    "flag": "Turkey",
+    "imo": "7510884",
+    "flag": "Togo",
     "vessel_type": "general cargo",
     "vessel_category": "merchant",
     "lat": 43.4,
@@ -335,15 +335,48 @@
         "kind": "media",
         "published_at": "2026-10-06T18:15:13+00:00",
         "title": null
+      },
+      {
+        "url": "https://sofiaglobe.com/2026/10/06/pm-radev-calls-emergency-meeting-after-drone-attacks-on-two-ships-in-bulgarian-eez-with-one-sunk/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-07T04:35:38Z",
+        "title": null
+      },
+      {
+        "url": "https://www.abc.net.au/news/2026-10-07/crew-missing-after-drone-sinks-ship-in-black-sea/107235430",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-07T04:35:38Z",
+        "title": null
+      },
+      {
+        "url": "https://www.novinite.com/articles/240898/Drone+Attack+Rocks+Bulgaria%E2%80%99s+Black+Sea+Waters%2C+Ship+Sinks",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-07T04:35:38Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-06T08:05:50Z",
-    "last_updated": "2026-10-07T00:05:51Z",
+    "last_updated": "2026-10-07T04:35:38Z",
     "verification_issue": 52,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "iMariner",
+      "at": "2026-10-07T04:35:38Z",
+      "note": "Bulgaria's prime minister and government confirmed that drones struck two merchant vessels in Bulgaria's exclusive economic zone on 6 October, the Togo-flagged Alfa Watan sinking and the Palau-flagged Able catching fire, with no state confirmed as responsible.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/52#issuecomment-6031007187"
+    },
     "published_in": [],
-    "status": "reported",
-    "status_changed_at": "2026-10-06T08:05:50Z",
+    "status": "confirmed",
+    "status_changed_at": "2026-10-07T04:35:38Z",
     "position_approx": true
   },
   {
@@ -4172,18 +4205,43 @@
         "kind": "media",
         "published_at": "2026-10-05T14:55:00Z",
         "title": "Karadeniz'de Türk sahipli gemiye saldırı: 2 denizci hayatını kaybetti - 7deniz Haber"
+      },
+      {
+        "url": "https://www.euronews.com/2026/10/05/drone-reportedly-hits-ship-in-black-sea-killing-two-and-injuring-11",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-07T04:35:45Z",
+        "title": null
+      },
+      {
+        "url": "https://theins.press/en/news/297922",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-07T04:35:45Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-06T04:38:40Z",
-    "last_updated": "2026-10-06T05:09:55Z",
+    "last_updated": "2026-10-07T04:35:45Z",
     "verification_issue": 48,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-07T04:35:45Z",
+      "note": "This is the same 5 October drone attack on the Turkish-owned grain ship Royad Mammadov off Romania that the tracker already records as INC-20261005-001, so it is a duplicate of that incident.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/48#issuecomment-6031006510"
+    },
     "published_in": [
       "2026-10-06"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261005-001"
+    "merged_into": "INC-20261005-001",
+    "status_changed_at": "2026-10-07T04:35:45Z"
   },
   {
     "region": "Black Sea",
@@ -4333,18 +4391,43 @@
         "kind": "media",
         "published_at": "2026-10-05T14:23:53Z",
         "title": "2 killed, 11 rescued after drone strike sinks Turkish grain ship in Black Sea, Ukraine blames Russia - Firstpost"
+      },
+      {
+        "url": "https://www.euronews.com/2026/10/05/drone-reportedly-hits-ship-in-black-sea-killing-two-and-injuring-11",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-07T04:35:43Z",
+        "title": null
+      },
+      {
+        "url": "https://www.afp.com/en/ukraine-blames-russia-deadly-sinking-turkish-ship-black-sea",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-07T04:35:43Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-06T04:39:11Z",
-    "last_updated": "2026-10-06T05:09:55Z",
+    "last_updated": "2026-10-07T04:35:43Z",
     "verification_issue": 49,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-07T04:35:43Z",
+      "note": "The Ukrainian account of civilians killed on a ship in the Black Sea on 5 October refers to the drone attack that sank the Turkish-owned Royad Mammadov off Romania, already recorded as INC-20261005-001, so this record duplicates it.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/49#issuecomment-6031006700"
+    },
     "published_in": [
       "2026-10-06"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261005-001"
+    "merged_into": "INC-20261005-001",
+    "status_changed_at": "2026-10-07T04:35:43Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -4417,18 +4500,43 @@
         "kind": "media",
         "published_at": "2026-10-05T14:13:00Z",
         "title": "Türkiye bağlantılı gemiye saldırı iddiası: Karadeniz'de facia - Türkinform"
+      },
+      {
+        "url": "https://www.euronews.com/2026/10/05/drone-reportedly-hits-ship-in-black-sea-killing-two-and-injuring-11",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-07T04:35:42Z",
+        "title": null
+      },
+      {
+        "url": "https://turkeyunfolding.com/turkish-owned-cargo-ship-sinks-after-suspected-drone-attack-in-black-sea-two-killed/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-07T04:35:42Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-06T04:39:15Z",
-    "last_updated": "2026-10-06T05:09:55Z",
+    "last_updated": "2026-10-07T04:35:42Z",
     "verification_issue": 50,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-07T04:35:42Z",
+      "note": "The Turkish-linked ship attacked in the Black Sea on 5 October is the Royad Mammadov, already recorded as INC-20261005-001, so this record is a duplicate of that incident.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/50#issuecomment-6031006869"
+    },
     "published_in": [
       "2026-10-06"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261005-001"
+    "merged_into": "INC-20261005-001",
+    "status_changed_at": "2026-10-07T04:35:42Z"
   },
   {
     "region": "Black Sea",
@@ -4460,18 +4568,43 @@
         "kind": "media",
         "published_at": "2026-10-05T14:10:08Z",
         "title": "Romanya’da Türk gemisine saldırı! İki denizci hayatını kaybetti! - NationalTurk"
+      },
+      {
+        "url": "https://www.euronews.com/2026/10/05/drone-reportedly-hits-ship-in-black-sea-killing-two-and-injuring-11",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-07T04:35:40Z",
+        "title": null
+      },
+      {
+        "url": "https://timesofindia.indiatimes.com/india/two-killed-indian-among-injured-after-russian-drone-hits-turkish-cargo-ship/articleshow/134716525.cms",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-07T04:35:40Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-06T04:39:15Z",
-    "last_updated": "2026-10-06T05:09:55Z",
+    "last_updated": "2026-10-07T04:35:40Z",
     "verification_issue": 51,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-07T04:35:40Z",
+      "note": "The Turkish ship attacked off Romania on 5 October with two sailors killed is the Royad Mammadov, already recorded as INC-20261005-001, so this record duplicates it.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/51#issuecomment-6031007029"
+    },
     "published_in": [
       "2026-10-06"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261005-001"
+    "merged_into": "INC-20261005-001",
+    "status_changed_at": "2026-10-07T04:35:40Z"
   },
   {
     "region": "Black Sea",
