@@ -221,3 +221,18 @@ delivered to Telegram). Silent while the balance is at or above BALANCE_WARN_USD
 warning line to top up. Hermes strips provider keys from cron script environments, so the script reads
 DEEPSEEK_API_KEY from the environment first, then from $HERMES_HOME/.env. Read-only balance call; costs nothing.
 The daily approval message (n8n bot) also shows the balance on its first line.
+
+## Morning watchdog (Hermes job `maritime-brief-watchdog`, 06:00 UTC)
+
+no_agent script `/opt/data/scripts/brief_watchdog.py` (source: `scripts/hermes/brief_watchdog.py` in this repo;
+Hermes copies it unchanged). If today's brief record does not exist by 06:00 UTC it comments `/brief now` on #38
+(brief-trigger dispatches the brief without waiting for the editor check); if it exists but was never sent, it
+comments `/review <date>` with a note, which rebuilds and sends it. It tells the owner on Telegram when it acts or
+cannot check, acts at most once a day (marker file), and is silent on a normal day. Test with WATCHDOG_DRY_RUN=1.
+To update the script: change it here, then ask Hermes to re-download it to /opt/data/scripts/.
+
+## Queue rules (GitHub Actions)
+
+verdict, review and refresh-image hold the `data-writer` slot at job level, so runs started by unrelated comments
+do not take or cancel it. Collection has its own queue, skips 04:00-05:59 UTC, and gives way on a data race; the
+brief, review, verdict and refresh commits win a race (`git pull --rebase -X theirs`).
