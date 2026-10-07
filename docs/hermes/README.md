@@ -25,7 +25,7 @@ own `.env` keys, memory (2200 chars), skills and cron jobs. Each Telegram bot to
 
 Why: the 2200-char memory and the skill list were shared by the brief, SIRE and sea-areas jobs, so lessons from
 one could crowd out or leak into another, and every brief job carried 68 skills in its prompt. The maritime
-profile carries only maritime-verify-desk, maritime-editor-check, grounded-citations, maps and maritime-brief-system.
+profile needs only maritime-verify-desk, maritime-editor-check, grounded-citations, maps, maritime-brief-system and github (the rest are still on there; see Status).
 
 **GITHUB_TOKEN lives in both profiles' Keys.** Renew it in both (`default` for the watchdog and feedback,
 `maritime` for the jobs).
