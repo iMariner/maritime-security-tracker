@@ -11,8 +11,8 @@
     "flag": "Togo",
     "vessel_type": "general cargo",
     "vessel_category": "merchant",
-    "lat": 43.4,
-    "lon": 34.5,
+    "lat": 42.87,
+    "lon": 29.48,
     "location_text": "off Bulgaria, Black Sea",
     "attack_type": "drone (UAV)",
     "damage": "one of the two ships sank",
@@ -482,7 +482,7 @@
       }
     ],
     "first_seen": "2026-10-06T08:05:50Z",
-    "last_updated": "2026-10-07T04:41:15Z",
+    "last_updated": "2026-10-07T05:15:36Z",
     "verification_issue": 52,
     "verdict": {
       "status": "confirmed",
@@ -496,7 +496,8 @@
     ],
     "status": "confirmed",
     "status_changed_at": "2026-10-07T04:35:38Z",
-    "position_approx": true
+    "position_approx": true,
+    "position_note": "about 70 nautical miles east of Byala, Bulgaria, per Prime Minister Radev and about 80 nautical miles off the coast in Bulgarian reports"
   },
   {
     "region": "Black Sea",
@@ -757,7 +758,7 @@
     "conflicting": false,
     "confidence": 0.9,
     "vessel_name": "ON PEACE",
-    "imo": null,
+    "imo": "9893204",
     "flag": "Panama",
     "vessel_type": "tanker",
     "vessel_category": "merchant",
@@ -1085,10 +1086,19 @@
         "kind": "media",
         "published_at": "2026-10-06T17:30:36Z",
         "title": "11 Indians Injured as Panama-Flagged Vessel Attacked in Hormuz - News Arena India"
+      },
+      {
+        "url": "https://gcaptain.com/a-dozen-seafarers-injured-in-strait-of-hormuz-tanker-attack-india-says",
+        "source": "gcaptain.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-07T05:15:36Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-06T15:26:37Z",
-    "last_updated": "2026-10-07T04:41:15Z",
+    "last_updated": "2026-10-07T05:15:36Z",
     "verification_issue": 62,
     "verdict": null,
     "published_in": [
@@ -1344,12 +1354,12 @@
     "conflicting": true,
     "confidence": 0.8,
     "vessel_name": "ABLE",
-    "imo": null,
-    "flag": "Türkiye",
+    "imo": "9001136",
+    "flag": "Palau",
     "vessel_type": "general cargo",
     "vessel_category": "merchant",
-    "lat": 43.4,
-    "lon": 34.5,
+    "lat": 42.87,
+    "lon": 29.48,
     "location_text": "off Bulgaria, Black Sea",
     "attack_type": "drone (UAV)",
     "damage": "damaged",
@@ -1447,19 +1457,43 @@
         "kind": "media",
         "published_at": "2026-10-06T17:43:13+00:00",
         "title": null
+      },
+      {
+        "url": "https://www.bbc.com/news/articles/c8ly0v5r602eo",
+        "source": "bbc.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-07T05:15:36Z",
+        "title": null
+      },
+      {
+        "url": "https://www.vesselfinder.com/vessels/details/9001136",
+        "source": "vesselfinder.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-07T05:15:36Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-06T15:27:12Z",
-    "last_updated": "2026-10-07T04:41:15Z",
+    "last_updated": "2026-10-07T05:15:36Z",
     "verification_issue": 64,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "editor-check",
+      "at": "2026-10-07T05:15:36Z",
+      "note": "Bulgaria's prime minister and government confirmed drones struck the Able and the Alfa Watan in Bulgaria's exclusive economic zone"
+    },
     "published_in": [
       "2026-10-07"
     ],
-    "status": "reported",
+    "status": "confirmed",
     "date_approx": false,
     "position_approx": true,
-    "status_changed_at": "2026-10-07T00:05:54Z"
+    "status_changed_at": "2026-10-07T05:15:36Z",
+    "position_note": "same Bulgarian EEZ attack as the Alfa Watan, about 70 nautical miles east of Byala per Prime Minister Radev, the two ships about 5 nautical miles apart"
   },
   {
     "region": "Black Sea",
@@ -1597,12 +1631,12 @@
     "conflicting": true,
     "confidence": 0.95,
     "vessel_name": "AFRAMAX RIO",
-    "imo": null,
+    "imo": "9273844",
     "flag": "Liberia",
     "vessel_type": "tanker",
     "vessel_category": "merchant",
-    "lat": 43.4,
-    "lon": 34.5,
+    "lat": 43.35,
+    "lon": 39.78,
     "location_text": "off the Black Sea coast",
     "attack_type": "sea drone (USV)",
     "damage": "oil burning on the water after the attack",
@@ -2564,10 +2598,28 @@
         "kind": "media",
         "published_at": "2026-10-06T17:26:28+00:00",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSk51cHljZXFoZUFPOTJNOWpnMEZlNmlOdlFWejluZTBQUE9GVExndUZwVldWSnhWMkRaOWQxVVdqM1FaUUVXQlRBWnBpQVZtMXczZ3VXRGFwUld5dlUtTXNrZUdQYmZ5bFhzR1h2SVVmeHdsek5jdUgxYmItMlB0ZmNNd1FaYVQzblM1LThtbTNrQUFQenFyY1p2RkZZTndzZk5zdWFzRXJqZXNmOXRfNnJ2S1FwMk9BRnNlZjhXY3k?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-06T21:15:35Z",
+        "title": "Greek tanker ablaze off Russia in presumed Ukrainian sea drone strike - TradeWinds News"
+      },
+      {
+        "url": "https://ukrinform.net/rubric-ato/4171722-russian-shadow-fleet-tanker-under-ukrainian-sanctions-catches-fire-near-sochi.html",
+        "source": "ukrinform.net",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-07T05:15:36Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-06T20:33:03Z",
-    "last_updated": "2026-10-07T04:41:17Z",
+    "last_updated": "2026-10-07T05:15:36Z",
     "verification_issue": 65,
     "verdict": null,
     "published_in": [
@@ -2576,7 +2628,8 @@
     "status": "reported",
     "status_changed_at": "2026-10-06T20:33:09Z",
     "date_approx": false,
-    "position_approx": true
+    "position_approx": true,
+    "position_note": "about 9 nautical miles off the coast near Sirius, southeast of Sochi, per the MarineTraffic reading reported by SOFX"
   },
   {
     "region": "Black Sea",
@@ -2801,14 +2854,15 @@
       }
     ],
     "first_seen": "2026-10-07T00:05:24Z",
-    "last_updated": "2026-10-07T00:05:24Z",
+    "last_updated": "2026-10-07T05:15:36Z",
     "verification_issue": 68,
     "verdict": null,
     "published_in": [
       "2026-10-07"
     ],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261006-014"
   },
   {
     "region": "Black Sea",
@@ -5184,13 +5238,13 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.7,
-    "vessel_name": null,
-    "imo": null,
-    "flag": "Türkiye",
+    "vessel_name": "ROYAD MAMMADOV",
+    "imo": "9356969",
+    "flag": "Saint Kitts and Nevis",
     "vessel_type": "general cargo",
     "vessel_category": "merchant",
-    "lat": 43.4,
-    "lon": 34.5,
+    "lat": 44.37,
+    "lon": 29.79,
     "location_text": "Black Sea",
     "attack_type": "drone (UAV)",
     "damage": "vessel sunk",
@@ -5234,17 +5288,90 @@
         "kind": "media",
         "published_at": "2026-10-05T13:41:26Z",
         "title": "Volodimir Zelenski: Două drone rusești au atacat nava care s-a scufundat în Marea Neagră - Ziarul Amprenta"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSFR3OWJZdU42RmFkV19ZeHRDaERrR0hNU0EySzBJMlJaYUZ2SUhPOFAwMUFMTEpmeWUza0lPWHVrNE5UNlVwN3RsNkE2TWNxN2VVRlBPVnNvUFBNRDVCRjNwSWs5UmZRbnM3RDhkLUw3aVpLR3JJbzZFMDVaV25RUXdXM0pWdEcyWmVoNHhDTkdCQlpRSktGSnNaNkN3SHJPMHVRWktLdVA5a2ZfS3J3Y2swNnVOSzFLLWV4MHdn?oc=5",
+        "source": "Pioneer Daily",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-06T03:44:01Z",
+        "title": "Two killed after Russian drones strike Turkish-owned civilian vessel in Black Sea - Pioneer Daily"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdlBGbjlXcG4wcmhOdkY5NWhRRkdnekdJd19PTkEyajlOVy1sTkl6WHhJVXVJVkZsMnJEek5YSkdTWUduRUxfVDhFTUFnSlR6Z3JySWxaeFM5SUc3cWFGcFpaUzN2NXN0VUhFLU1HMVFzVThYWmtlM3VUZlp2VHJ3a2NnVDVrMkw0S0lqSzY1M1gxamNLU1FtbFVBWFVDSVBOeDl6ZUx3S3dqWENpMUllS0VVRXVLdy1jX0J0N0t0azZac1ZYZ055WEtCWTIwSmhXWWVhY0VhQ2dzYlXSAeABQVVfeXFMT0s0M2ZsZkpfR3pRNEFLazFCY2JMSHRYeDhmQ1VMa0RaRG5NUGN5dVJzMHd3VFR5ZUxGRTV1X09SSlRFVU90UEFaMzQteWFYTWYtVmo3VlRaUGNYTTJwWE5XdDZ0YW1qSHlDQks2OFBNU3JveGp5a09GTmlnVVdCdkJFblhwLW1HaVNXV01YWG9xQlRHYVFtZGl1NjdnY3R0aV9xQzk1M0xlWlF1akRubFBfckNRelhkRFJrY1RxX3VoWVhSZ0wxa3Blb2RyUkdtSi0zYmdrLUpPWUJiZ1ZnTUk?oc=5",
+        "source": "The Times of India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T19:35:00Z",
+        "title": "Two killed, Indian among injured after Russian drone hits Turkish cargo ship - The Times of India"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTVA5WjhNaGpxc1NBWUgzTkRkQlFUc2x6aVBDTlFTUnY2RHNRM0ZHQUFSRXZ4TDFFdlFybEFDMVhQalJ5R2pwUEV1UXdHSEotQWxzZTU3VVowaVNuZFZFTmZLYzlCVkFZcGNFY0tiVlFRU0lxMmdPN0xwckUwcnhuY1o5TUh2dWZTcjNLVm9IMEg4Y0V5UXAweDBHSmFWVVlKTjl1YVhvcVZ1TVdteHhaWGVIVEtlYy16T01zcHVaZm45Nm43bzd0ZdIBtgFBVV95cUxPa1VZMVNNRHpFY0V4dVBlNC1CWktBVnJrcThDTTBJN0JKX19peGdRWEltTXZOeGF3ejFZQjZKYjRqR3hYc2Vuemo1el9HV1RFSXpsZWhTbHpDbnA4TXZUSlR2QVg0T18zUURBTmxPXzZ3Ny1UUFQteE9ob0JnaGpHZjh0SHpGR2J4SW5vcmtUc1FyUGo4OF8yZDBOdWoyUnhta0Z1Q1k3SjNrOEVIalJlb3czWFQtZw?oc=5",
+        "source": "nv.ua",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T16:12:49Z",
+        "title": "Дрони атакували турецький суховантаж із зерном біля берегів Румунії: загинув капітан - nv.ua"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVUNjdVpVakRYcllma2RpQUZzRlNzUndyd0pvdlBGamRjdG5SR05rMUMtWGM5aFdBcDhtbE10ZU5QMmlIVzJGSFhOSGJBU1pjc1ZJeU9RWDZxd1RiSXlZSFBfb1VlSGZsbE03TDFGbHFWRHlYS3Y3UnpkbGxsNjJkQWxZVk82V1VHZHo1MVc2NmZJdGRyb3Q2N3JJTnpKdw?oc=5",
+        "source": "shelter.in.ua",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-05T13:57:44Z",
+        "title": "Russia struck a Turkish ship in the Black Sea: the captain was killed - shelter.in.ua"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPOUNLOUI3dDUyejhwUTBETTZpa0lESmdROVI1SnQyRzhiWlhGbEZTdWNIYk9xMWRld24waklMSElKOEd1Sng4NEJMOUhuU2dDNDd5dTB1MDd0dy14S0hOUHVsbzdTTUVHdFJtZ2NIT3owdGZybzlEXzVodUVHM0puZmpBMUZweXJRd0xXVjB2WWhJd2lvcDNDWmxpWEZmQjF4NXBtNVZsT0Y2TnB4Y240Q2dfbDUxN3FtNW94OHM1RnllMTkzSEN6Smp3ODhkMnVaS2lTbms5WEFYMXRCa0xuOE1falJDNWdiTWxRMTNTX29fdFZWbG4tWA?oc=5",
+        "source": "ReporterIS",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-06T21:32:17Z",
+        "title": "Navă turcească încărcată cu cereale, lovită de o dronă în Marea Neagră. Atacul a avut loc la câteva mile de platforma Pescăruș - ReporterIS"
+      },
+      {
+        "url": "https://en.h.ua/2026/10/05/cargo-vessel-royad-mammadov-black-sea-fire",
+        "source": "en.h.ua",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-07T05:15:36Z",
+        "title": null
+      },
+      {
+        "url": "https://en.h.ua/2026/10/05/cargo-vessel-royad-mammadov-black-sea-fire",
+        "source": "en.h.ua",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-07T05:15:36Z",
+        "title": null
+      },
+      {
+        "url": "https://www.vesselfinder.com/vessels/details/9356969",
+        "source": "vesselfinder.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-07T05:15:36Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-06T08:06:10Z",
-    "last_updated": "2026-10-06T08:06:20Z",
+    "last_updated": "2026-10-07T05:15:36Z",
     "verification_issue": 57,
     "verdict": null,
     "published_in": [
       "2026-10-07"
     ],
     "status": "claimed",
-    "position_approx": true
+    "position_approx": true,
+    "position_note": "about 9 nautical miles southeast of the Pescăruș platform off Romania per the Romanian Coast Guard, which is about 30 nautical miles south of Sfântu Gheorghe per the Interior Ministry"
   },
   {
     "region": "Black Sea",
@@ -5279,14 +5406,15 @@
       }
     ],
     "first_seen": "2026-10-06T08:06:10Z",
-    "last_updated": "2026-10-06T08:06:10Z",
+    "last_updated": "2026-10-07T05:15:36Z",
     "verification_issue": 58,
     "verdict": null,
     "published_in": [
       "2026-10-07"
     ],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261005-022"
   },
   {
     "region": "Black Sea",
@@ -5321,14 +5449,15 @@
       }
     ],
     "first_seen": "2026-10-06T08:06:16Z",
-    "last_updated": "2026-10-06T08:06:16Z",
+    "last_updated": "2026-10-07T05:15:36Z",
     "verification_issue": 59,
     "verdict": null,
     "published_in": [
       "2026-10-07"
     ],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261005-022"
   },
   {
     "region": "Black Sea",
@@ -5363,14 +5492,15 @@
       }
     ],
     "first_seen": "2026-10-06T08:06:16Z",
-    "last_updated": "2026-10-06T08:06:16Z",
+    "last_updated": "2026-10-07T05:15:36Z",
     "verification_issue": 60,
     "verdict": null,
     "published_in": [
       "2026-10-07"
     ],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261005-022"
   },
   {
     "region": "Black Sea",
@@ -5450,14 +5580,15 @@
       }
     ],
     "first_seen": "2026-10-06T08:06:16Z",
-    "last_updated": "2026-10-06T08:06:16Z",
+    "last_updated": "2026-10-07T05:15:36Z",
     "verification_issue": 61,
     "verdict": null,
     "published_in": [
       "2026-10-07"
     ],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261005-022"
   },
   {
     "region": "Black Sea",
@@ -5492,14 +5623,15 @@
       }
     ],
     "first_seen": "2026-10-07T00:05:24Z",
-    "last_updated": "2026-10-07T00:05:24Z",
+    "last_updated": "2026-10-07T05:15:36Z",
     "verification_issue": 67,
     "verdict": null,
     "published_in": [
       "2026-10-07"
     ],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261005-022"
   },
   {
     "region": "Black Sea",
@@ -7343,7 +7475,7 @@
     "conflicting": false,
     "confidence": 0.8,
     "vessel_name": "MARAN GAS MYSTRAS",
-    "imo": null,
+    "imo": "9658238",
     "flag": "Greece",
     "vessel_type": "LNG/LPG carrier",
     "vessel_category": "merchant",
@@ -7365,10 +7497,19 @@
         "kind": "media",
         "published_at": "2026-10-06T21:00:53Z",
         "title": "Second Greek-linked ship hit in Hormuz within days"
+      },
+      {
+        "url": "https://www.vesselfinder.com/vessels/details/9658238",
+        "source": "vesselfinder.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-07T05:15:36Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-07T00:05:24Z",
-    "last_updated": "2026-10-07T00:05:24Z",
+    "last_updated": "2026-10-07T05:15:36Z",
     "verification_issue": 69,
     "verdict": null,
     "published_in": [
