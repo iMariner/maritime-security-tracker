@@ -19,4 +19,10 @@ jobs:
         run: sleep 240
       - env:
           GH_TOKEN: ${{ github.token }}
-        run: gh workflow run daily-brief.yml -R "$GITHUB_REPOSITORY" -f only_if_missing=true -f hold=true
+          BODY: ${{ github.event.comment.body }}
+        # "/brief now" (the 06:00 watchdog, when the morning run never started) sends without waiting
+        # for the editor check, which has already passed by then
+        run: |
+          hold=true
+          case "$BODY" in "/brief now"*) hold=false ;; esac
+          gh workflow run daily-brief.yml -R "$GITHUB_REPOSITORY" -f only_if_missing=true -f hold=$hold

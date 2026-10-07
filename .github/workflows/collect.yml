@@ -2,7 +2,8 @@ name: Collect and process
 
 on:
   schedule:
-    - cron: "37 * * * *"   # hourly, off the hour (GitHub may delay or drop runs; the brief collects fresh news itself)
+    # hourly, off the hour, except 04:00-05:59 UTC when the morning brief collects and writes itself
+    - cron: "37 0-3,6-23 * * *"
   workflow_dispatch:
 
 permissions:
@@ -11,7 +12,7 @@ permissions:
   models: read      # GitHub Models fallback
 
 concurrency:
-  group: data-writer
+  group: collect          # its own queue: a collection run can never cancel a waiting brief
   cancel-in-progress: false
 
 jobs:
@@ -49,5 +50,11 @@ jobs:
           git add data/
           git diff --cached --quiet && exit 0
           git commit -m "data: update $(date -u +%Y-%m-%dT%H:%MZ)"
-          git pull --rebase
-          git push
+          # If the brief or a verdict wrote data meanwhile, keep theirs and drop this run's update:
+          # the next hourly run collects again, so nothing is lost for good.
+          if ! git pull --rebase; then
+            git rebase --abort || true
+            echo "Data changed while collecting; skipping this update"
+            exit 0
+          fi
+          git push || { echo "Push raced with another writer; skipping this update"; exit 0; }

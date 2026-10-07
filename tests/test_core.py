@@ -425,3 +425,19 @@ def test_balance_line():
     assert balance_line(19.0) == "DeepSeek balance: $19.00."
     low = balance_line(2.5)
     assert low.startswith("⚠️") and "$2.50" in low and "keeps running" in low
+
+
+def test_brief_watchdog_decide():
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("wd", "scripts/hermes/brief_watchdog.py")
+    wd = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(wd)
+    comment, msg = wd.decide(None, "2026-10-07")
+    assert comment == "/brief now" and msg.startswith("⚠️")
+    comment, msg = wd.decide({"post_id": 1}, "2026-10-07")
+    assert comment.startswith("/review 2026-10-07\nnote:") and "not been sent" in msg
+    assert wd.decide({"post_id": 1, "notified": "2026-10-07T05:10:00Z"}, "2026-10-07") == (None, "")
+    # the note line must be accepted by the tracker's /review parser
+    from tracker import review
+    day, changes, notes = review.parse(wd.decide({"post_id": 1}, "2026-10-07")[0])
+    assert day == "2026-10-07" and changes == [] and notes

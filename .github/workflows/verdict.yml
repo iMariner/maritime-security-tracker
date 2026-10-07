@@ -8,12 +8,12 @@ permissions:
   contents: write
   issues: write
 
-concurrency:
-  group: data-writer
-  cancel-in-progress: false
-
 jobs:
   apply:
+    # job-level: runs started by other comments are skipped and never take (or cancel) a queue slot
+    concurrency:
+      group: data-writer
+      cancel-in-progress: false
     # Only verification issues, only comments that start with /verdict. The script sweeps all open
     # verification issues (several verdicts at once cancel each other's queued runs) and checks who wrote each.
     if: contains(github.event.issue.labels.*.name, 'verify') && startsWith(github.event.comment.body, '/verdict')
@@ -35,5 +35,5 @@ jobs:
           git add data/
           git diff --cached --quiet && exit 0
           git commit -m "verdict: issue #${{ github.event.issue.number }}"
-          git pull --rebase
+          git pull --rebase -X theirs   # a race with hourly collection: this run's data wins
           git push

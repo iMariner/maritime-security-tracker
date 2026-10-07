@@ -11,12 +11,11 @@ on:
 permissions:
   contents: write
 
-concurrency:
-  group: data-writer
-  cancel-in-progress: false
-
 jobs:
   refresh:
+    concurrency:
+      group: data-writer
+      cancel-in-progress: false
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -38,5 +37,5 @@ jobs:
           git add data/
           git diff --cached --quiet && exit 0
           git commit -m "brief: new map for ${{ inputs.date }}"
-          git pull --rebase
+          git pull --rebase -X theirs   # a race with hourly collection: this run's data wins
           git push

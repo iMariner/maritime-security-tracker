@@ -48,10 +48,6 @@ jobs:
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-          cache: pip
       - name: Decide what this run does
         id: guard
         # skip=true: nothing to do. notify_only=true: today's draft exists but was never sent (the editor
@@ -67,6 +63,11 @@ jobs:
             fi
             echo "skip=true" >> "$GITHUB_OUTPUT"
           fi
+      - uses: actions/setup-python@v5
+        if: steps.guard.outputs.skip != 'true' || steps.guard.outputs.notify_only == 'true'
+        with:
+          python-version: "3.12"
+          cache: pip
       - run: pip install -r requirements.txt
         if: steps.guard.outputs.skip != 'true' || steps.guard.outputs.notify_only == 'true'
       - name: Apply pending verdicts
@@ -120,7 +121,7 @@ jobs:
           git add data/
           git diff --cached --quiet && exit 0
           git commit -m "brief: $(date -u +%Y-%m-%d)"
-          git pull --rebase
+          git pull --rebase -X theirs   # on a race with collection, this brief's data wins
           git push
       - name: Put the draft preview online
         if: steps.guard.outputs.skip != 'true' && !inputs.preview
@@ -153,5 +154,5 @@ jobs:
           git add data/
           git diff --cached --quiet && exit 0
           git commit -m "brief: sent for approval $(date -u +%Y-%m-%d)"
-          git pull --rebase
+          git pull --rebase -X theirs   # on a race with collection, this brief's data wins
           git push

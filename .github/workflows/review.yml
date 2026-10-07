@@ -11,12 +11,12 @@ permissions:
   contents: write
   actions: write
 
-concurrency:
-  group: data-writer
-  cancel-in-progress: false
-
 jobs:
   apply:
+    # job-level: runs started by other comments are skipped and never take (or cancel) a queue slot
+    concurrency:
+      group: data-writer
+      cancel-in-progress: false
     if: contains(github.event.issue.labels.*.name, 'brief-trigger') && (startsWith(github.event.comment.body, '/review') || startsWith(github.event.comment.body, '/lessons')) && github.event.comment.author_association == 'OWNER'
     runs-on: ubuntu-latest
     steps:
@@ -38,7 +38,7 @@ jobs:
           git add data/ config/lessons.yaml
           git diff --cached --quiet && exit 0
           git commit -m "editor check: ${{ steps.review.outputs.day || 'lessons updated' }}"
-          git pull --rebase
+          git pull --rebase -X theirs   # a race with hourly collection: this run's data wins
           git push
       - name: Rebuild and send for approval
         # only for today's draft; a late check of an older brief just updates the data
