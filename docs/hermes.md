@@ -236,3 +236,9 @@ To update the script: change it here, then ask Hermes to re-download it to /opt/
 verdict, review and refresh-image hold the `data-writer` slot at job level, so runs started by unrelated comments
 do not take or cancel it. Collection has its own queue, skips 04:00-05:59 UTC, and gives way on a data race; the
 brief, review, verdict and refresh commits win a race (`git pull --rebase -X theirs`).
+
+## Hermes knowledge skill
+
+Hermes skill `maritime-brief-system` (category maritime, created 7 Oct 2026) summarises this system and tells Hermes to read
+`docs/RUNBOOK.md` and this file from GitHub before answering questions about it. Update the skill when the runbook
+changes in a way Hermes must know (schedules, commands, rules).
