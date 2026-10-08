@@ -561,3 +561,20 @@ def test_trusted_outlet_news_suffix():
     assert trusted_outlet({"source": "TradeWinds News", "url": "https://news.google.com/x"}) == "TradeWinds"
     assert trusted_outlet({"source": "Seatrade Maritime News", "url": "https://news.google.com/x"}) == "Seatrade Maritime"
     assert trusted_outlet({"source": "Some Blog News", "url": "https://news.google.com/x"}) is None
+
+
+def test_notify_fails_loudly_when_n8n_refuses(monkeypatch):
+    import pytest
+    from tracker import brief, llm
+    monkeypatch.setenv("N8N_WEBHOOK_URL", "https://n8n.example/webhook/x")
+    monkeypatch.setattr(llm, "balance_usd", lambda: None)
+    monkeypatch.setattr(brief.time, "sleep", lambda s: None)
+    calls = []
+
+    class R:
+        status_code, text = 500, '{"message":"could not open file"}'
+
+    monkeypatch.setattr(brief.requests, "post", lambda *a, **k: calls.append(1) or R())
+    with pytest.raises(RuntimeError):
+        brief.notify_n8n({"status": "draft", "title": "t"})
+    assert len(calls) == 3

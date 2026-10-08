@@ -10,6 +10,7 @@ import argparse
 import html
 import json
 import re
+import time
 from datetime import timedelta
 from pathlib import Path
 
@@ -593,8 +594,20 @@ def notify_n8n(record: dict) -> None:
                "quality": " ".join(x for x in (llm.balance_line(llm.balance_usd(), float(env("LOW_BALANCE_USD", "3"))),
                                                summary_line(record), record.get("quality", "")) if x)}
     headers = {"X-Tracker-Token": env("N8N_WEBHOOK_TOKEN", "")}
-    resp = requests.post(url, json=payload, headers=headers, timeout=30)
-    log.info("n8n webhook -> %s", resp.status_code)
+    # Retry a few times; if n8n still refuses, fail loudly so the brief is NOT marked as sent and the
+    # watchdog or a backup run can send it once n8n is back (8 Oct 2026: n8n's database failed with a 500).
+    last = ""
+    for attempt in range(3):
+        try:
+            resp = requests.post(url, json=payload, headers=headers, timeout=30)
+            log.info("n8n webhook -> %s", resp.status_code)
+            if resp.status_code < 300:
+                return
+            last = f"HTTP {resp.status_code}: {resp.text[:200]}"
+        except requests.RequestException as exc:
+            last = f"{type(exc).__name__}"
+        time.sleep(20 * (attempt + 1))
+    raise RuntimeError(f"n8n did not accept the approval message ({last}); the brief was not sent")
 
 
 def refresh_image(day: str) -> None:
