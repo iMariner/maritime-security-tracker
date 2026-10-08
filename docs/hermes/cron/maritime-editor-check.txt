@@ -38,6 +38,7 @@ in the GITHUB_TOKEN environment variable. Never print, log or write out the toke
    comment" call from python3 (build the JSON with json.dumps). The first line is /review followed by D. Then one
    line per fix, in exactly these forms:
 merge: <id of the duplicate> into <id to keep> | <short reason>
+unmerge: <id of a record that was wrongly merged into another> | <why it is a different attack> (use this when a separate attack is hidden inside another record; it becomes its own incident again)
 name: <id> = <SHIP NAME> | <link to the page that names it>
 flag: <id> = <flag state> | <link>
 imo: <id> = <7-digit IMO number> | <link>

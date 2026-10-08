@@ -6,6 +6,7 @@
 
        /review 2026-10-05
        merge: INC-20261004-013 into INC-20261004-005 | same UKMTO 151-26 attack retold by a local outlet
+       unmerge: INC-20261007-003 | a different attack wrongly merged into another record; it becomes its own incident
        name: INC-20261004-002 = LIPSI | https://maritime-executive.com/article/...
        flag: INC-... = Liberia | <url>
        imo: INC-... = 1234567 | <url>
@@ -22,9 +23,10 @@ from __future__ import annotations
 
 import argparse
 import re
+from datetime import timedelta
 
 from . import incidents as store
-from .common import BRIEFS_DIR, ROOT, env, iso, log, now_utc, read_json, write_json
+from .common import BRIEFS_DIR, ROOT, env, iso, log, now_utc, parse_dt, read_json, write_json
 
 REVIEW_DIR = ROOT / "data" / "review"
 STATUSES = ("confirmed", "reported", "claimed", "rejected")
@@ -73,6 +75,8 @@ def parse(body: str) -> tuple[str, list[tuple], list[str]] | None:
         why = rest.partition("|")[2].strip()
         if key == "merge" and (mm := re.match(ID + r"\s+into\s+" + ID, rest, re.I)):
             changes.append(("merge", mm.group(1).upper(), mm.group(2).upper(), why))
+        elif key in ("unmerge", "restore") and (mm := re.match(ID, rest, re.I)):
+            changes.append(("unmerge", mm.group(1).upper(), "", why))
         elif key in ("name", "flag", "imo", "date", "status", "position") and (mm := re.match(ID + r"\s*=\s*([^|]+)", rest, re.I)):
             changes.append((key, mm.group(1).upper(), mm.group(2).strip(), why))
         elif key == "lesson" and (mm := re.match(r"(writing|facts)\s*=\s*(.+)", rest, re.I)):
@@ -115,6 +119,26 @@ def apply(body: str) -> str | None:
             (done if lessons.add(target, value) else refused).append(f"lesson ({target}): {value[:120]}")
             continue
         inc = by_id.get(target)
+        if kind == "unmerge":
+            # the record is merged, so it is not in today's request; allow recent ones only
+            recent = inc and (parse_dt(inc.get("date_utc")) or parse_dt(inc.get("first_seen")))
+            if not inc or not inc.get("merged_into") or not recent or \
+                    abs(recent.date() - parse_dt(day).date()) > timedelta(days=3):
+                refused.append(f"unmerge {target}: not a recently merged record")
+                continue
+            keep = by_id.get(inc["merged_into"])
+            own = {s.get("url") for s in inc.get("sources", [])}
+            if keep:
+                keep["sources"] = [s for s in keep["sources"] if s.get("url") not in own] or keep["sources"]
+                keep.setdefault("keep_apart", [])
+                keep["keep_apart"] = sorted(set(keep["keep_apart"]) | {target})
+                keep["status"], keep["last_updated"] = store.compute_status(keep), stamp
+            inc.pop("merged_into", None)
+            inc["keep_apart"] = sorted(set(inc.get("keep_apart") or []) | ({keep["id"]} if keep else set()))
+            inc["status"] = store.compute_status(inc)
+            inc["status_changed_at"] = inc["last_updated"] = stamp
+            done.append(f"{target} separated from {keep['id'] if keep else 'its merge'}" + (f" ({why})" if why else ""))
+            continue
         if target not in allowed or not inc:
             refused.append(f"{kind} {target}: not in today's draft")
             continue

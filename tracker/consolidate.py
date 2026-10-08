@@ -121,7 +121,8 @@ def absorb_into_official(incidents: list[dict]) -> int:
             # Only generic reports: a report naming a flag or IMO number describes a specific ship.
             if (inc.get("region") not in group or inc.get("vessel_name") or inc.get("flag") or inc.get("imo")
                     or has_official(inc)
-                    or inc.get("status") in CLOSED or inc.get("merged_into") or not _event_time(inc)):
+                    or inc.get("status") in CLOSED or inc.get("merged_into") or not _event_time(inc)
+                    or inc.get("keep_apart")):
                 continue
             near = [o for o in official if abs(_event_time(o) - _event_time(inc)) <= timedelta(days=1)
                     and not different_flags(o, inc)]
@@ -156,7 +157,8 @@ def absorb_echoes(incidents: list[dict]) -> int:
             outlets = {s.get("source") for s in inc.get("sources", []) if s.get("source_type") != "satellite"}
             if (inc.get("region") not in area or inc in anchors or inc.get("verdict") or inc.get("vessel_name")
                     or inc.get("flag") or inc.get("imo") or has_official(inc) or len(outlets) > 1
-                    or inc.get("status") in CLOSED or inc.get("merged_into") or not _event_time(inc)):
+                    or inc.get("status") in CLOSED or inc.get("merged_into") or not _event_time(inc)
+                    or inc.get("keep_apart")):
                 continue
             near = [a for a in anchors if abs(_event_time(a) - _event_time(inc)) <= timedelta(days=1)
                     and (not inc.get("vessel_type") or not a.get("vessel_type")
@@ -210,6 +212,9 @@ def consolidate(incidents: list[dict]) -> int:
                 if not (keep_day and day) or abs(keep_day - day) > timedelta(days=2):
                     log.info("Review: not merging %s into %s (attack dates %s / %s)", mid, keep["id"],
                              g.get("keep_attack_date"), m.get("attack_date") if isinstance(m, dict) else None)
+                    continue
+                if other["id"] in (keep.get("keep_apart") or []) or keep["id"] in (other.get("keep_apart") or []):
+                    log.info("Review: not merging %s into %s (the editor check separated them)", mid, keep["id"])
                     continue
                 if different_flags(keep, other):
                     log.info("Review: not merging %s into %s (different flags)", mid, keep["id"])

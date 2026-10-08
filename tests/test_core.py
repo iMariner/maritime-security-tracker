@@ -530,3 +530,34 @@ def test_token_watch_decide():
     mixed = tw.decide({"default": date(2027, 1, 1), "maritime": same}, today)
     assert "profile maritime expires in 7 days" in mixed and "different expiry dates" in mixed
     assert tw.decide({"default": None, "maritime": None}, today) == ""
+
+
+def test_review_unmerge(tmp_path, monkeypatch):
+    from tracker import common, review
+    keep = {"id": "INC-20261006-006", "region": "Strait of Hormuz", "status": "confirmed", "date_utc": "2026-10-05",
+            "sources": [{"url": "a", "source": "UKMTO", "kind": "official"}, {"url": "q1", "source": "MarEx"}]}
+    gone = {"id": "INC-20261007-003", "region": "Persian Gulf", "status": "merged", "merged_into": "INC-20261006-006",
+            "date_utc": "2026-10-07", "official_source_cited": "UKMTO", "sources": [{"url": "q1", "source": "MarEx"}]}
+    old = {"id": "INC-20260901-001", "region": "Persian Gulf", "status": "merged", "merged_into": "INC-20261006-006",
+           "date_utc": "2026-09-01", "sources": []}
+    incs = [keep, gone, old]
+    monkeypatch.setattr(review.store, "load", lambda: incs)
+    monkeypatch.setattr(review.store, "save", lambda x: None)
+    monkeypatch.setattr(review, "REVIEW_DIR", tmp_path)
+    monkeypatch.setattr(review, "BRIEFS_DIR", tmp_path)
+    common.write_json(tmp_path / "2026-10-08.json", {"incidents": []})
+    review.apply("/review 2026-10-08\nunmerge: INC-20261007-003 | Qatar strike is a separate attack\n"
+                 "unmerge: INC-20260901-001 | too old\n")
+    assert "merged_into" not in gone and gone["status"] == "confirmed"
+    assert [s["url"] for s in keep["sources"]] == ["a"]           # the separated record's sources leave
+    assert keep["keep_apart"] == ["INC-20261007-003"] and gone["keep_apart"] == ["INC-20261006-006"]
+    assert old["merged_into"] == "INC-20261006-006"               # too old: refused
+    rec = common.read_json(tmp_path / "2026-10-08.json", {})
+    assert len(rec["review"]["changes"]) == 1 and len(rec["review"]["refused"]) == 1
+
+
+def test_trusted_outlet_news_suffix():
+    from tracker.brief import trusted_outlet
+    assert trusted_outlet({"source": "TradeWinds News", "url": "https://news.google.com/x"}) == "TradeWinds"
+    assert trusted_outlet({"source": "Seatrade Maritime News", "url": "https://news.google.com/x"}) == "Seatrade Maritime"
+    assert trusted_outlet({"source": "Some Blog News", "url": "https://news.google.com/x"}) is None

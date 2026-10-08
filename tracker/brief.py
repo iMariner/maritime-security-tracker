@@ -382,10 +382,11 @@ def trusted_outlet(s: dict) -> str | None:
     raw = re.split(r"\s[-\u2013\u2014|:]\s", s.get("source") or "")[0].strip().lower()
     norm = lambda x: re.sub(r"[\W_]", "", re.sub(r"^(www\.|the )", "", x))
     name = norm(raw)
+    bare = norm(re.sub(r"\s+news$", "", raw))  # "TradeWinds News" / "Seatrade Maritime News" -> the outlet
     for t in _TRUSTED:
         for key in t.get("match") or []:
             key = str(key).lower()
-            if (host and key in host) or (name and name == norm(key)):
+            if (host and key in host) or (name and name == norm(key)) or (bare and bare == norm(key)):
                 return t["name"]
     if s.get("kind") == "official":
         return outlet_name(s)
