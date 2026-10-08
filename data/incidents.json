@@ -7042,19 +7042,44 @@
         "kind": "media",
         "published_at": "2026-10-07T05:15:36Z",
         "title": null
+      },
+      {
+        "url": "https://www.kyivpost.com/post/86161",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-08T04:33:16Z",
+        "title": null
+      },
+      {
+        "url": "https://intellinews.com/turkish-ship-carrying-ukrainian-grain-hit-in-romania-s-black-sea-exclusive-economic-zone-473775",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-08T04:33:16Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-06T08:06:10Z",
-    "last_updated": "2026-10-07T07:00:29Z",
+    "last_updated": "2026-10-08T04:33:16Z",
     "verification_issue": 57,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-08T04:33:16Z",
+      "note": "The Turkish ship Ukraine's president said a Russian drone sank is the Royad Mammadov, sunk off Romania on 5 October and already recorded as INC-20261005-001, so this record duplicates that incident.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/57#issuecomment-6052296907"
+    },
     "published_in": [
       "2026-10-07"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
     "position_note": "about 9 nautical miles southeast of the Pescăruș platform off Romania per the Romanian Coast Guard, which is about 30 nautical miles south of Sfântu Gheorghe per the Interior Ministry",
-    "merged_into": "INC-20261005-001"
+    "merged_into": "INC-20261005-001",
+    "status_changed_at": "2026-10-08T04:33:16Z"
   },
   {
     "region": "Black Sea",
@@ -7063,9 +7088,9 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.65,
-    "vessel_name": null,
-    "imo": null,
-    "flag": "Türkiye",
+    "vessel_name": "ROYAD MAMMADOV",
+    "imo": "9356969",
+    "flag": "Saint Kitts and Nevis",
     "vessel_type": "general cargo",
     "vessel_category": "merchant",
     "lat": 43.4,
@@ -7086,18 +7111,43 @@
         "kind": "media",
         "published_at": "2026-10-06T03:44:01Z",
         "title": "Two killed after Russian drones strike Turkish-owned civilian vessel in Black Sea - Pioneer Daily"
+      },
+      {
+        "url": "https://ekathimerini.com/news/1317268/zelenskyy-says-russian-drones-hit-ship-carrying-corn-in-black-sea-2-dead",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-08T04:33:15Z",
+        "title": null
+      },
+      {
+        "url": "https://www.kyivpost.com/post/86161",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-08T04:33:15Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-06T08:06:10Z",
-    "last_updated": "2026-10-07T05:15:36Z",
+    "last_updated": "2026-10-08T04:33:15Z",
     "verification_issue": 58,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-08T04:33:15Z",
+      "note": "The two people killed were aboard the Turkish-owned grain ship Royad Mammadov, sunk off Romania on 5 October and already recorded as INC-20261005-001, so this record duplicates that incident.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/58#issuecomment-6052297149"
+    },
     "published_in": [
       "2026-10-07"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261005-022"
+    "merged_into": "INC-20261005-022",
+    "status_changed_at": "2026-10-08T04:33:15Z"
   },
   {
     "region": "Black Sea",
@@ -7106,9 +7156,9 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.7,
-    "vessel_name": null,
-    "imo": null,
-    "flag": "Turkey",
+    "vessel_name": "ROYAD MAMMADOV",
+    "imo": "9356969",
+    "flag": "Saint Kitts and Nevis",
     "vessel_type": "general cargo",
     "vessel_category": "merchant",
     "lat": 43.4,
@@ -7129,18 +7179,43 @@
         "kind": "media",
         "published_at": "2026-10-05T19:35:00Z",
         "title": "Two killed, Indian among injured after Russian drone hits Turkish cargo ship - The Times of India"
+      },
+      {
+        "url": "https://www.bgnes.com/politics/two-killed-after-turkish-owned-ship-hit-by-drone-in-black-sea",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-08T04:33:13Z",
+        "title": null
+      },
+      {
+        "url": "https://www.kyivpost.com/post/86161",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-08T04:33:13Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-06T08:06:16Z",
-    "last_updated": "2026-10-07T05:15:36Z",
+    "last_updated": "2026-10-08T04:33:13Z",
     "verification_issue": 59,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-08T04:33:13Z",
+      "note": "The Turkish cargo ship hit in the Black Sea, with an Indian national among those aboard, is the Royad Mammadov, sunk off Romania on 5 October and already recorded as INC-20261005-001, so this record duplicates it.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/59#issuecomment-6052297351"
+    },
     "published_in": [
       "2026-10-07"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261005-022"
+    "merged_into": "INC-20261005-022",
+    "status_changed_at": "2026-10-08T04:33:13Z"
   },
   {
     "region": "Black Sea",
@@ -7149,9 +7224,9 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.7,
-    "vessel_name": null,
-    "imo": null,
-    "flag": "Turkey",
+    "vessel_name": "ROYAD MAMMADOV",
+    "imo": "9356969",
+    "flag": "Saint Kitts and Nevis",
     "vessel_type": "general cargo",
     "vessel_category": "merchant",
     "lat": 43.4,
@@ -7172,18 +7247,43 @@
         "kind": "media",
         "published_at": "2026-10-05T16:12:49Z",
         "title": "Дрони атакували турецький суховантаж із зерном біля берегів Румунії: загинув капітан - nv.ua"
+      },
+      {
+        "url": "https://www.kyivpost.com/post/86161",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-08T04:33:11Z",
+        "title": null
+      },
+      {
+        "url": "https://intellinews.com/turkish-ship-carrying-ukrainian-grain-hit-in-romania-s-black-sea-exclusive-economic-zone-473775",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-08T04:33:11Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-06T08:06:16Z",
-    "last_updated": "2026-10-07T05:15:36Z",
+    "last_updated": "2026-10-08T04:33:11Z",
     "verification_issue": 60,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-08T04:33:11Z",
+      "note": "The grain ship hit off Romania with its captain killed is the Royad Mammadov, already recorded as INC-20261005-001, so this record duplicates that incident.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/60#issuecomment-6052297611"
+    },
     "published_in": [
       "2026-10-07"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261005-022"
+    "merged_into": "INC-20261005-022",
+    "status_changed_at": "2026-10-08T04:33:11Z"
   },
   {
     "region": "Black Sea",
@@ -7237,9 +7337,9 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.7,
-    "vessel_name": null,
-    "imo": null,
-    "flag": "Turkey",
+    "vessel_name": "ROYAD MAMMADOV",
+    "imo": "9356969",
+    "flag": "Saint Kitts and Nevis",
     "vessel_type": "general cargo",
     "vessel_category": "merchant",
     "lat": 43.4,
@@ -7260,18 +7360,43 @@
         "kind": "media",
         "published_at": "2026-10-05T13:57:44Z",
         "title": "Russia struck a Turkish ship in the Black Sea: the captain was killed - shelter.in.ua"
+      },
+      {
+        "url": "https://intellinews.com/turkish-ship-carrying-ukrainian-grain-hit-in-romania-s-black-sea-exclusive-economic-zone-473775",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-08T04:33:09Z",
+        "title": null
+      },
+      {
+        "url": "https://ekathimerini.com/news/1317268/zelenskyy-says-russian-drones-hit-ship-carrying-corn-in-black-sea-2-dead",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-08T04:33:09Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-06T08:06:16Z",
-    "last_updated": "2026-10-07T05:15:36Z",
+    "last_updated": "2026-10-08T04:33:09Z",
     "verification_issue": 61,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-08T04:33:09Z",
+      "note": "The Turkish ship struck in the Black Sea on 5 October with its captain killed is the Royad Mammadov, already recorded as INC-20261005-001, so this record duplicates that incident.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/61#issuecomment-6052297860"
+    },
     "published_in": [
       "2026-10-07"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261005-022"
+    "merged_into": "INC-20261005-022",
+    "status_changed_at": "2026-10-08T04:33:09Z"
   },
   {
     "region": "Black Sea",
