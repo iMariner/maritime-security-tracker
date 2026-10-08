@@ -501,13 +501,16 @@
       }
     ],
     "first_seen": "2026-10-07T20:07:48Z",
-    "last_updated": "2026-10-08T00:23:12Z",
+    "last_updated": "2026-10-08T07:42:39Z",
     "verification_issue": 73,
     "verdict": null,
     "published_in": [],
-    "status": "merged",
+    "status": "confirmed",
     "position_approx": true,
-    "merged_into": "INC-20261006-006"
+    "keep_apart": [
+      "INC-20261006-006"
+    ],
+    "status_changed_at": "2026-10-08T07:42:39Z"
   },
   {
     "region": "Black Sea",
@@ -5621,132 +5624,6 @@
         "title": "11 Indian Seafarers Injured After Attack On Commercial Tanker In Strait of Hormuz - Marine Insight"
       },
       {
-        "url": "https://maritime-executive.com/article/tanker-hit-multiple-times-in-arabian-gulf-hundreds-of-miles-from-hormuz",
-        "source": "The Maritime Executive",
-        "source_type": "news",
-        "side": "neutral",
-        "kind": "media",
-        "published_at": "2026-10-07T19:52:28Z",
-        "title": "Tanker Hit Multiple Times in Arabian Gulf, Casualties Reported"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOY1p3UUZ2emxTMzVIc3F0NnRVaUFubVVLLTRVSDdMV2pFYk81d284VldaVTk3S3hIZ1VkR2thTUdIVFc2cy1SeVdRUVBuOUZua011cUl0ZWF5Y2stbE1ucmRrSVpDTVNsdnRfM1JPb3U5bnBQYnNwZDJzemtyZkp6UXc0RnJuRlFWSzd3?oc=5",
-        "source": "Quantum Commodity Intelligence",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-07T22:05:22Z",
-        "title": "UKMTO reports attack on tanker off Qatar - Quantum Commodity Intelligence"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQ29PbDJieUI4X2FyU0k1ZHhCR0ZxSW1mR0VhYTFiTjZlbEI5V0tsbFJSWGotaUpRNDh3dHkzdTZ6UmJkWWhqVS1CNjVCUldFaFJOVVpjWWlWUmVrcFVqYWZ6QnBtZ0JOWERsUlpSWjV3c25ydVNabEhXZFdlVWVoTkhGb19iWnJwNzRqS1JRaHJHMDRZ?oc=5",
-        "source": "Latest news from Azerbaijan",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-07T21:15:29Z",
-        "title": "Tanker hit by multiple projectiles north of Qatar; casualties reported - Latest news from Azerbaijan"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOek1RTFREV19CbTJGWnNtSW83SVk3b0JxSDl6VS1iS0FKQnNxTEZXdzNtWnZNWHd4aDY3OVYzS2dPQXdSQnNJS0xuVkp1N3A0MG02azVCVWRYWDRjTVM0cllucHYwLVNqTk9jR2dSeHhKUkZRdFZ3eGxvWGZNcFQ1SGNuZE10ME1peVdZUzZuVWJzWWN2aklPWTA0TWl1T0hBU3V5Y3BPXzlFMXVqcFZlMkkyajTSAboBQVVfeXFMTzNyR2cwdkhYbXNYalhjLVNTNWl3ZUZCMjBpZ3ZXMHFCdXlPTjM1TGRGWC1EcWpKWXJqQ3V3TDVjRldJOWVaNUZkbDFWMldwaGhSVDFEQjRNdGRnd3FfcS1aWlN5ZVFIZW8wMDlJREZUQzd2VVg0amhuX3BKakk2QnRrdFM2dWxaMHhINVJ0dHZxazVhVHM5dFJ2Z1c1aF9HQ3ZjWWN6UmM0cDRXVS1Fd0ROTmNvNl9IdG5n?oc=5",
-        "source": "Demócrata",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-07T21:06:41Z",
-        "title": "Attack against a tanker off Qatar leaves \"victims\" amid tension in Hormuz - Demócrata"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVXVOY1BQYnlFdEJyZFk4U0wtaHlERGY1RUZUcGVhYnltT0lsLXV1Qm1Pb0toLWdBSUVCc2xIYmZqVENXZHI3Z0ctMmNHdnhWTnN6MjVZVlVCajhnbnU2cTFOZW5wSEVSQ0Q1YXgzb21GdUhIX2FtQjJ6eGlHaHlVbU1fYw?oc=5",
-        "source": "شفق نيوز",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-07T21:00:30Z",
-        "title": "Shafaq News..Tanker attack off Qatar coast leaves crew injured - شفق نيوز"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQV1hRY2Fwa1dvZGt6bHRMdkhSSnVMRzQxME5nZ29lSnJZbkFHVzBHMFRrRUlIYTF1TnJCUkhWRHVBR1kzUEF0WnRZd2lOYi1UR2FsMW9VMDdrdEt5M3FkdGtGdFJ2UDhuNUI0WWZMQnBuVkM0bVNqaVlDeTRjZ2dqRFY5N0ZkUEhWS3JheVhtNmNuV1VVdmQtcEpsUjhBeXpETXNuU29DQkt2empaMFQwcXRIWVVMMlk3SVE4WW9OTE9LNHlVTHE4dG92dHp1OVNFZ1E?oc=5",
-        "source": "investingLive",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-07T20:34:59Z",
-        "title": "War escalation: Tanker hit by multiple projectiles 51 nautical miles off Qatar, casualties reported - investingLive"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcWtOSlJ3V1gyTjZ0Y0c3R01LTGkxbEtEVUFoZTZoQjZPUUMzSmpIT3FLYl8xVkM0RmlJOEJnaGxBSF9zeWZfZTFHMnJPd3lXWjlrSm92S2VrY0F5M1dZOEFGVUs5Y1owci1XRlNfUHB1OHIwNXh1cmliR2podVJEZ05DNDI4dk9BR1R0R0NGNDBUU3ZFYTc2Wm1XcU8yLUJGbTBtQmFMTTEyYkdr?oc=5",
-        "source": "UA.NEWS",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-07T20:25:09Z",
-        "title": "Tanker struck by projectiles north of Qatar, casualties reported — Anadolu Agency - UA.NEWS"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMDZGVmh0dENDMnFJdS1TR0JBZVJDTXNLa1RvZXl1R1N6VU1rUGZYVDd1TU5sQUQ3dDJMMEY2VjRQU2U2dDdCYWd5TE9aUXZoYU95YjZyWHhYckJKbmplQlVjVXZVRmdtOVhBdURobWkxOEpEVkQ5cm1GRHpkTUtWaWJzSHZBYndHSlU1TWVpTV95dGFQV1NudmpVT1VNY3lWQ1BuTjNZVjROWGhHbGlV?oc=5",
-        "source": "Middle East Eye",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-07T20:22:00Z",
-        "title": "UKMTO reports casualties as projectiles hit tanker off Qatar - Middle East Eye"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOGxEUXJoOThEYXJNNG0zcERIeGliUXFZVVlMZWR5U0cydU80YWM4cFA5bEh3WnAtRHpOSjNPLUpicTByZDdmb0VFWkpKOTc0VDBSbEFmcy14V0tUM0ppSVFiNDk1cTNYTmsyNWROUGlXUWhaLVh2SWNXVDFQandGaGxYZ0RWNFdieHUybDJRbElLOVNicHZuV3NPSkpkdFc1czhFTg?oc=5",
-        "source": "Arab Times Kuwait News",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-07T20:12:24Z",
-        "title": "Tanker Hit by Multiple Projectiles Off Qatar, Casualties Reported - Arab Times Kuwait News"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTEZIUVp6MUwzRjF2dEhPd09rQ0d4eXVhd3o4SUtKZlNQd0VfSUZaZ0pUcC1ZdGlTbl9WTkdiUHUySjlFTk5KdUVHcmhGdWFubkV4U280WExNTXhiUFh0ZzJwOXR6czhXZEJKNXVxYlRva3NpUzZWWS1kcm9QcUlzV3N6OWtUN2diZjFZSVRLUVl3NWxSSUZYTVJ4a1JwckxSWlZSMFg5dzktMTdnUm9tX3NzR0JZUkQxNTkxOUd5endSd19fZXVHYlA3OFdKUFR4YUE?oc=5",
-        "source": "Anadolu Ajansı",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-07T20:12:15Z",
-        "title": "Tanker struck by multiple projectiles north of Qatar, casualties reported: UK maritime agency - Anadolu Ajansı"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUEdfYlltcDNOaXcxWmVaTE83NjB0d2NiY1dLclE5LXBwR3lHNzcyTDFxbzdVN29kNG85Zm5HeHVFY054RnpXMmZLQXlmallLWTl1U2tTTlFjN0V2ZnJFY280VEZ1ZHBCSDhpUlFfQnY0ZWdrMVF1SV9QaU9XYzE3SEExRFU3SzY5TTJZamJHd29pSWVyaXd0am5QX3ljR2ZzeHgwNUJQN3FpWXRwTmZnM3pFOGJaZkU?oc=5",
-        "source": "Arab News",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-07T20:05:38Z",
-        "title": "Tanker off Qatar reports hits from multiple projectiles: maritime agency - Arab News"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxONkdacFA4T3J0NElNX3IxLXJycUlpMUZ5NElrTWQzRm12OFFwbWxCYmlHUlVsUVBVY3lneVZZWmNWYzVONXp2cGFzQTdCTXdMczVOOHdld3FFM20wVWhMaURCM2xnYWlHcVVaNmZoUE94eTZ3ZW5kVFpILXBFXzV3dXhGMVpmS1U5ZnM1Nl8taTRsbTB2UTZvSjFDLXJPMlVUOE9JaXd6U3V6QkpQS0prc2YyOGdvWjhtaTEyLVNhcFZRdXlYVDdxeUVFMFU5VGFGUUpfOG9GOW5Kd2xzMHlxc2Q1M2h2eTRxSHVpYWNKVjhHOFdq0gH6AUFVX3lxTE1ndy1LWTB2X3czQUZSXzRCTXNsSDhULTRyS0xaM3Z6Q1Q0TWpaU3FGWURnWGxEOTZSV1lQa29lOXkxOFVlWXdBWkN5WW1wV3pPOEZocGs0aU9IcE50clFWUTY2N2Jlb1dacVM4ZmxiZlB2REhlUDR2QTZhVnpMV21INkZOYkY4d0hZd3hNQ2s1SnNEQkFYaldISHR2MjFBamlxVFZoaEtNQ2dkaThxVE80bmdrX1J4TjFLUlR4MVhwQU5hMkxHT241Q3E3bWh1ZEp6RUItX2w2WWJmc3luLWdnWF82eUNJZ2pKYzNQTGFYbzB5TWI3NzU2bFE?oc=5",
-        "source": "Devdiscourse",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-07T19:49:22Z",
-        "title": "UKMTO says tanker struck by multiple projectiles north of Qatar's Madinat ash Shamal, casualties reported - Devdiscourse"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZnYwM01mWEV4eW83MXlSYmRfbnl1RHRub3JLc0ZHTUdnd3RkZGsyR0Z3RHhWVnVfd19fRzQzYWJvR0hmd3dsM2RWYzFabXcxQmk3ZXFzdjdPZG9ZU3ExUDJ1V25WMkdDNUVtVm5RN1ZsUUVzeHBhWUFtVXpMNkJLVDh2Qlhyb0dQaEVtbE5JME0xRzJWZzVGeDNib192Z1lDeGE1ZFJabkZCQUtTb0xtWVVpa2ZOcExxMWxsU3FkdVRfckczZnVHOW9TNGhLc3oxalVYcEJB0gHWAUFVX3lxTFBmdjAzTWZYRXh5bzcxeVJiZF9ueXVEdG5vcktzRkdNR2d3dGRkazJHRndEeFZWdV93X19HNDNhYm9HSGZ3d2wzZFZjMVptdzFCaTdlcXN2N09kb1lTcTFQMnVXblYyR0M1RW1WblE3VmxRRXN4cGFZQW1Vekw2QktUOHZCWHJvR1BoRW1sTkkwTTFHMlZnNUZ4M2JvX3ZnWUN4YTVkUlpuRkJBS1NvTG1ZVWlrZk5wTHExbGxTcWR1VF9yRzNmdUc5b1M0aEtzejFqVVhwQkE?oc=5",
-        "source": "Al Arabiya English",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-07T19:10:00Z",
-        "title": "UKMTO says tanker struck by multiple projectiles north of Qatar’s Madinat ash Shamal - Al Arabiya English"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRmRrSWp0M1V4dGpYTmIyNThOZFZ5OXBiNjZfQ0M5ODdLSEJRTnJ6cTdxRmFIN0pJZGJxMG1Va0Z4SE9OX1pOTzg4ZjAzLVBKaGh4OTdaX3p0R0NhVzJfTU1hcmZadEVqMGxpSXE3c1B1QXE4dGFMcFZ5TFNsNHRuQlUxNXJ0aWx2Mk84T3JhRHFLQ0hKVnlYOVh3UFVSRXVZdlRha0pKdF9KS1FBa3c?oc=5",
-        "source": "GDNOnline",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-07T09:00:17Z",
-        "title": "Oman evacuates crew after oil tanker hit in Strait of Hormuz attack - GDNOnline"
-      },
-      {
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWGpBZ3dHeE0yV0pvMTR0VTBMdHpZQUZoWjdneXNyV0d3RWVoZm1TWFJ5cS16Y0lCRk5PM2dEdVp1dlp2ZEJwTkQ5SlR4dVVoYzVwa0pEdjd5OUJCUTZmaVdRTUk4alo5TTJFRlVVV2lkSzl3MU5PMER5WkR1T2tlYVdNNU15cGQxMVViendna1NZRjBxdnUxb2dMZHFua2ZzVFZ4YTJ4cUg?oc=5",
         "source": "The Guardian",
         "source_type": "news",
@@ -5937,7 +5814,7 @@
       }
     ],
     "first_seen": "2026-10-06T15:26:37Z",
-    "last_updated": "2026-10-08T06:35:29Z",
+    "last_updated": "2026-10-08T07:42:39Z",
     "verification_issue": 62,
     "verdict": {
       "status": "confirmed",
@@ -5950,7 +5827,10 @@
     ],
     "status": "confirmed",
     "date_approx": false,
-    "position_approx": true
+    "position_approx": true,
+    "keep_apart": [
+      "INC-20261007-003"
+    ]
   },
   {
     "region": "Black Sea",
