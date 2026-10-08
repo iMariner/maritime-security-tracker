@@ -27,20 +27,26 @@ published until the owner taps Publish in the n8n bot's message.
 ## Daily chain (UTC; IST is UTC+5:30)
 - Hourly :37 (not 04:00-05:59): GitHub collects news, Telegram channels, the IMO list; DeepSeek extracts incidents.
 - 04:30 maritime-security-tracking: UKMTO/JMIC check, `missed` issues, up to 5 `/verdict`s, then `/brief` on issue 38.
-- 05:00 maritime-editor-check: opens sources, comments `/review DATE` on issue 38. GitHub applies it, rebuilds
-  and sends the approval message (about 05:10 UTC, 10:40 IST).
+- 05:00 maritime-editor-check: opens sources, comments `/review DATE` on issue 38. GitHub applies it and rebuilds
+  with ONLY the incidents the editor saw (later news waits for tomorrow), runs code consistency checks, and holds.
+- 05:25 maritime-final-read: reads the rebuilt draft; comments `/send DATE` (with optional `warning:` lines) or one
+  last `/review DATE ... send: yes`. The approval message goes out about 05:30 UTC (11:00 IST).
 - 05:20 deepseek-balance-alert (silent above $3). 06:00 maritime-brief-watchdog (silent unless nothing was sent).
 - 06:10-07:55 GitHub backup schedule. Sunday 06:00 maritime-weekly-learning rewrites config/lessons.yaml.
 
 ## Commands (comment on issue 38 of iMariner/maritime-security-tracker as the owner account)
 - `/brief` build today's held draft. `/brief now` build and send at once (skips the editor check).
-- `/review DATE` + fix lines: apply fixes, rebuild, send a fresh approval message. Lines:
+- `/send DATE` (+ `warning: one sentence` lines): send today's draft for approval as it is.
+- `/publish DATE`: publish that day's draft on WordPress directly (the fallback when n8n is down). Only when the
+  owner asks for it in so many words.
+- `/review DATE` + fix lines: apply fixes and rebuild. It is held for the final read unless the last line is
+  `send: yes` (use `send: yes` for the owner's feedback during the day). Lines:
   `merge: ID into ID | why`, `unmerge: ID | why` (separates a wrongly merged attack), `name|flag|imo|date: ID = value | URL`, `position: ID = lat, lon | where`,
   `status: ID = confirmed|reported|claimed|rejected | why`, `note: what the text must say`,
   `lesson: writing|facts = rule`. A note goes to the writer and overrules the data; say exactly what the
   article must say. A second `/review` the same day adds to the first, it does not replace it.
 - `/lessons` with `writing:` and `facts:` sections replaces the lessons list.
-- Every `/brief` or `/review` sends the owner a new Telegram message, so never post one casually.
+- Every `/send`, `/brief now` or `/review ... send: yes` sends the owner a new Telegram message, so never post one casually.
 
 ## Article rules (the writer follows them; check them when you review)
 - One story per headline: the most serious attack in the 24-hour window (deaths, missing crew, sinking first).
@@ -57,8 +63,10 @@ published until the owner taps Publish in the n8n bot's message.
   https://raw.githubusercontent.com/iMariner/maritime-security-tracker/main/data/briefs/DATE.json
   (`notified` set = sent; `review` = what the editor check did; `quality` = checklist; `preview_url`).
   Reply: sent at HH:MM IST, headline, any warning. If no file exists yet before 06:00 UTC, say it is not built yet.
-- "no message today": if `notified` is missing, post `/review DATE` with `note: resend` (or `/brief now` if
-  there is no record at all), then confirm in one line.
+- "no message today": if `notified` is missing, post `/send DATE` with `warning: sent on request` (or `/brief now`
+  if there is no record at all), then confirm in one line.
+- "publish today's brief" / "Publish button not working": n8n may be down. Post `/publish DATE`, wait two minutes,
+  read data/briefs/DATE.json (`status` publish, `link`) and send the owner the link.
 - "fact X is wrong": follow the maritime-brief-feedback skill (check the sources first, then `/review`).
 - "skip today": nothing to do; an unanswered approval expires after 6 hours and the post stays a draft.
 - "pause" or "stop the brief": pause the maritime cron jobs and tell them GitHub's own schedule still runs

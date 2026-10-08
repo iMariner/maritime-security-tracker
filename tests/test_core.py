@@ -436,12 +436,14 @@ def test_brief_watchdog_decide():
     comment, msg = wd.decide(None, "2026-10-07")
     assert comment == "/brief now" and msg.startswith("⚠️")
     comment, msg = wd.decide({"post_id": 1}, "2026-10-07")
-    assert comment.startswith("/review 2026-10-07\nnote:") and "not been sent" in msg
+    assert comment.startswith("/send 2026-10-07\nwarning:") and "not been sent" in msg
     assert wd.decide({"post_id": 1, "notified": "2026-10-07T05:10:00Z"}, "2026-10-07") == (None, "")
-    # the note line must be accepted by the tracker's /review parser
     from tracker import review
-    day, changes, notes = review.parse(wd.decide({"post_id": 1}, "2026-10-07")[0])
-    assert day == "2026-10-07" and changes == [] and notes
+    day, warnings = review.parse_send(wd.decide({"post_id": 1}, "2026-10-07")[0])
+    assert day == "2026-10-07" and warnings
+    # the old watchdog line (still deployed until Hermes re-downloads the script) also means "send now"
+    _, changes, _ = review.parse("/review 2026-10-07\nnote: Automatic resend at 06:00 UTC: not sent.")
+    assert ("send", "", "", "") in changes
 
 
 def test_editor_notes_reach_the_writer(tmp_path, monkeypatch):
@@ -578,3 +580,38 @@ def test_notify_fails_loudly_when_n8n_refuses(monkeypatch):
     with pytest.raises(RuntimeError):
         brief.notify_n8n({"status": "draft", "title": "t"})
     assert len(calls) == 3
+
+
+def test_consistency_removes_quiet_contradiction():
+    from tracker.brief import enforce_consistency
+    copy = {
+        "title": "Tanker hit by projectiles off Qatar, casualties reported", "excerpt": "", "x_post": "",
+        "quiet_areas": ["Black Sea"],
+        "key_points": ["A tanker was hit off Qatar on 7 October, UKMTO said.",
+                       "No new attacks on merchant ships were reported in the Strait of Hormuz and the Gulf in the last 24 hours.",
+                       "No new attacks were reported in the Black Sea."],
+        "article_html": "<p>UKMTO reported the tanker hit. No new attacks on merchant ships were reported in the Strait of "
+                        "Hormuz and the Gulf in the last 24 hours.</p><p>Shots were fired at the CUL Klang in the Red Sea.</p>"
+                        "<p>The Gulf of Aden saw no new attacks.</p>",
+    }
+    inc = [{"vessel_name": "CUL KLANG"}, {"vessel_name": "LIPSI"}]
+    fixed, problems = enforce_consistency(copy, inc)
+    assert len(copy["key_points"]) == 2 and "Black Sea" in copy["key_points"][1]      # quiet Black Sea line stays
+    assert "Hormuz" not in copy["article_html"] and "UKMTO reported the tanker hit." in copy["article_html"]
+    assert "Gulf of Aden saw no new attacks" not in copy["article_html"]               # Red Sea area is active
+    assert len(fixed) == 3
+    assert problems == ["Lipsi is in the data but not named in the article"]
+
+
+def test_review_send_modes(tmp_path, monkeypatch):
+    from tracker import common, review
+    monkeypatch.setattr(review, "BRIEFS_DIR", tmp_path)
+    common.write_json(tmp_path / "2026-10-08.json", {"post_id": 5})
+    assert review.apply_send("/send 2026-10-08\nwarning: The Houthi claim rests on one outlet.") == "2026-10-08"
+    rec = common.read_json(tmp_path / "2026-10-08.json", {})
+    assert rec["final_read"]["status"] == "warnings"
+    rec["review"] = {"status": "done", "changes": [], "notes": ["n1"]}
+    assert "Final read" in review.summary_line(rec) and "Editor notes: 1 given" in review.summary_line(rec)
+    _, changes, _ = review.parse("/review 2026-10-08\nmerge: INC-20261008-001 into INC-20261007-003 | dup\nsend: yes")
+    assert ("send", "", "", "") in changes
+    assert review.parse_send("/review 2026-10-08") is None

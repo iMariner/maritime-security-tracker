@@ -3,6 +3,7 @@ name: Apply editor check
 # Hermes reads the held draft against the sources and comments "/review <date>" with fixes on the pinned
 # "Daily brief trigger" issue. The fixes go into the data, then the brief is rebuilt and sent for approval.
 # Its weekly learning review comments "/lessons" with the rewritten lessons list (config/lessons.yaml).
+# The 05:25 final read comments "/send <date>" (optionally with warning: lines) or a last "/review ... send: yes".
 on:
   issue_comment:
     types: [created]
@@ -17,7 +18,7 @@ jobs:
     concurrency:
       group: data-writer
       cancel-in-progress: false
-    if: contains(github.event.issue.labels.*.name, 'brief-trigger') && (startsWith(github.event.comment.body, '/review') || startsWith(github.event.comment.body, '/lessons')) && github.event.comment.author_association == 'OWNER'
+    if: contains(github.event.issue.labels.*.name, 'brief-trigger') && (startsWith(github.event.comment.body, '/review') || startsWith(github.event.comment.body, '/lessons') || startsWith(github.event.comment.body, '/send')) && github.event.comment.author_association == 'OWNER'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -40,10 +41,17 @@ jobs:
           git commit -m "editor check: ${{ steps.review.outputs.day || 'lessons updated' }}"
           git pull --rebase -X theirs   # a race with hourly collection: this run's data wins
           git push
-      - name: Rebuild and send for approval
-        # only for today's draft; a late check of an older brief just updates the data
+      - name: Rebuild, hold for the final read, or send
+        # only for today's draft; a late check of an older brief just updates the data.
+        #   /review (editor check, 05:00)          -> rebuild with the checked incidents, hold for the final read
+        #   /review ... send: yes (feedback, final read with fixes, watchdog) -> rebuild and send
+        #   /send (final read 05:25, watchdog)     -> send the draft as it is
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          [ "${{ steps.review.outputs.day }}" = "$(date -u +%Y-%m-%d)" ] || { echo "Not today's brief; no rebuild."; exit 0; }
-          gh workflow run daily-brief.yml -R "$GITHUB_REPOSITORY" -f reviewed=true
+          [ "${{ steps.review.outputs.day }}" = "$(date -u +%Y-%m-%d)" ] || { echo "Not today's brief; nothing to send."; exit 0; }
+          case "${{ steps.review.outputs.mode }}" in
+            send)           gh workflow run daily-brief.yml -R "$GITHUB_REPOSITORY" -f send=true ;;
+            rebuild-send)   gh workflow run daily-brief.yml -R "$GITHUB_REPOSITORY" -f reviewed=true ;;
+            *)              gh workflow run daily-brief.yml -R "$GITHUB_REPOSITORY" -f reviewed=true -f hold=true ;;
+          esac

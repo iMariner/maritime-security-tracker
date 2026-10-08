@@ -69,6 +69,7 @@ def parse(body: str) -> tuple[str, list[tuple], list[str]] | None:
     if not m:
         return None
     changes, notes = [], []
+    send = False
     for line in lines[1:]:
         key, _, rest = line.partition(":")
         key, rest = key.strip().lower(), rest.strip()
@@ -81,11 +82,44 @@ def parse(body: str) -> tuple[str, list[tuple], list[str]] | None:
             changes.append((key, mm.group(1).upper(), mm.group(2).strip(), why))
         elif key == "lesson" and (mm := re.match(r"(writing|facts)\s*=\s*(.+)", rest, re.I)):
             changes.append(("lesson", mm.group(1).lower(), mm.group(2).strip(), ""))
+        elif key == "send" and rest.lower().startswith("yes"):
+            send = True
         elif key == "note" and rest:
             notes.append(rest if len(rest) <= 600 else rest[:600].rsplit(" ", 1)[0] + "...")
+            if re.match(r"automatic resend\b", rest, re.I):  # the 06:00 watchdog: send now
+                send = True
         elif line.lower() != "ok":
             log.warning("Editor check: ignored line %r", line[:120])
+    if send:
+        changes.append(("send", "", "", ""))
     return m.group(1), changes, notes
+
+
+def parse_send(body: str) -> tuple[str, list[str]] | None:
+    """'/send YYYY-MM-DD' from the final read (or the watchdog): send the draft as it is, with optional
+    'warning: ...' lines that go into the approval message. Returns (date, warnings)."""
+    lines = [l.strip() for l in (body or "").strip().splitlines() if l.strip()]
+    m = re.match(r"/send\s+(\d{4}-\d{2}-\d{2})\b", lines[0]) if lines else None
+    if not m:
+        return None
+    warnings = [l.partition(":")[2].strip()[:400] for l in lines[1:] if l.lower().startswith("warning:")]
+    return m.group(1), [w for w in warnings if w]
+
+
+def apply_send(body: str) -> str | None:
+    parsed = parse_send(body)
+    if not parsed:
+        return None
+    day, warnings = parsed
+    record_path = BRIEFS_DIR / f"{day}.json"
+    record = read_json(record_path, {})
+    if not record.get("post_id"):
+        log.warning("/send %s: no brief record for that day", day)
+        return None
+    record["final_read"] = {"status": "warnings" if warnings else "ok", "at": iso(now_utc()), "warnings": warnings}
+    write_json(record_path, record)
+    log.info("Final read for %s: %s", day, "; ".join(warnings) or "no problems")
+    return day
 
 
 def _source(url: str, cited: bool) -> dict | None:
@@ -112,8 +146,11 @@ def apply(body: str) -> str | None:
     incidents = store.load()
     by_id = {i["id"]: i for i in incidents}
     stamp = iso(now_utc())
-    done, refused = [], []
+    done, refused, restored = [], [], []
+    send = any(c[0] == "send" for c in changes)
     for kind, target, value, why in changes:
+        if kind == "send":
+            continue
         if kind == "lesson":
             from . import lessons
             (done if lessons.add(target, value) else refused).append(f"lesson ({target}): {value[:120]}")
@@ -137,6 +174,7 @@ def apply(body: str) -> str | None:
             inc["keep_apart"] = sorted(set(inc.get("keep_apart") or []) | ({keep["id"]} if keep else set()))
             inc["status"] = store.compute_status(inc)
             inc["status_changed_at"] = inc["last_updated"] = stamp
+            restored.append(target)
             done.append(f"{target} separated from {keep['id'] if keep else 'its merge'}" + (f" ({why})" if why else ""))
             continue
         if target not in allowed or not inc:
@@ -198,7 +236,8 @@ def apply(body: str) -> str | None:
     prev = record.get("review") or {}
     keep = lambda k, new: [x for x in prev.get(k) or [] if x not in new] + new if prev.get("status") == "done" else new
     record["review"] = {"status": "done", "at": stamp, "changes": keep("changes", done),
-                        "refused": keep("refused", refused), "notes": keep("notes", notes)}
+                        "refused": keep("refused", refused), "notes": keep("notes", notes),
+                        "restored": keep("restored", restored), "send_after": send}
     write_json(record_path, record)
     log.info("Editor check for %s: %d change(s), %d refused, %d note(s)", day, len(done), len(refused), len(notes))
     for line in done + refused + notes:
@@ -213,12 +252,22 @@ def summary_line(record: dict) -> str:
         return "⚠️ Editor check did not run: read the draft carefully before publishing."
     parts = []
     changes = review.get("changes") or []
-    parts.append(f"Editor check: {len(changes)} fix(es) made ({'; '.join(changes)[:400]})" if changes
+    parts.append(f"Editor check: {len(changes)} fix(es) made ({'; '.join(changes)[:250]})" if changes
                  else "Editor check: no problems found")
     if review.get("refused"):
         parts.append(f"⚠️ {len(review['refused'])} suggested fix(es) could not be applied")
+    final = record.get("final_read") or {}
+    if final.get("status") == "ok":
+        parts.append("Final read: no problems found")
+    elif final.get("status") == "warnings":
+        parts.append("⚠️ Final read: " + " ".join(final.get("warnings") or []))
+    elif review.get("status") == "done":
+        parts.append("⚠️ The final read of this draft did not run")
     if review.get("notes"):
-        parts.append("⚠️ Editor notes (given to the writer, check the draft follows them): " + " ".join(review["notes"]))
+        if final.get("status"):  # the final read already checked the draft follows them: keep the message short
+            parts.append(f"Editor notes: {len(review['notes'])} given to the writer")
+        else:
+            parts.append("⚠️ Editor notes (given to the writer, check the draft follows them): " + " ".join(review["notes"]))
     return ". ".join(parts) + "."
 
 
@@ -232,9 +281,18 @@ def main() -> None:
             from . import lessons
             lessons.replace_from_comment(body)
             return
+        if body.strip().startswith("/send"):
+            day = apply_send(body)
+            if day:
+                print(f"day={day}")
+                print("mode=send")  # send the draft as it is
+            return
         day = apply(body)
         if day:
+            review = read_json(BRIEFS_DIR / f"{day}.json", {}).get("review") or {}
             print(f"day={day}")
+            # rebuild; hold it for the final read unless this review says to send straight away
+            print("mode=rebuild-send" if review.get("send_after") else "mode=rebuild-hold")
 
 
 if __name__ == "__main__":

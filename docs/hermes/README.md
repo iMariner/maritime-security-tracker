@@ -8,6 +8,7 @@ The live Hermes (hermes7.splicerun.net, v0.21.5) should match these files. Chang
 | `skills/maritime-brief-feedback/SKILL.md` | skill `maritime-brief-feedback` (owner feedback to `/review`) |
 | `skills/maritime-editor-check/ADDENDUM.md` | appended to skill `maritime-editor-check` (the job also writes to this skill itself) |
 | `cron/maritime-editor-check.txt` | prompt of cron job `maritime-editor-check` |
+| `cron/maritime-final-read.txt` | prompt of cron job `maritime-final-read` (profile `maritime`, daily 05:25 UTC, deliver local, skills maritime-editor-check, maritime-brief-system) |
 | `MEMORY.maritime.md` | `memories/MEMORY.md` of the profile that runs the maritime jobs (limit 2200 chars, entries split by `§`) |
 | `USER.maritime.md` | `memories/USER.md` of that profile (limit 1375 chars) |
 
@@ -20,7 +21,7 @@ own `.env` keys, memory (2200 chars), skills and cron jobs. Each Telegram bot to
 
 | Profile | Runs | Telegram |
 |---|---|---|
-| `maritime` | maritime-security-tracking, maritime-editor-check, maritime-weekly-learning (all deliver `local`) | none |
+| `maritime` | maritime-security-tracking, maritime-editor-check, maritime-final-read, maritime-weekly-learning (all deliver `local`) | none |
 | `default` | Telegram chat (feedback skill, manual skill), maritime-brief-watchdog, deepseek-balance-alert (scripts that report to Telegram), sire-card-improvement, sea-areas-watch, sea-areas-advisories | @SpliceRun_Hermes_bot |
 
 Why: the 2200-char memory and the skill list were shared by the brief, SIRE and sea-areas jobs, so lessons from

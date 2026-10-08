@@ -27,6 +27,10 @@ on:
         description: "Build the draft but wait for Hermes's editor check before sending it for approval"
         type: boolean
         default: false
+      send:
+        description: "Only send today's draft for approval (after the final read); no rebuild"
+        type: boolean
+        default: false
       reviewed:
         description: "Rebuild after the editor check (no new collection), then send for approval"
         type: boolean
@@ -54,6 +58,13 @@ jobs:
         # check or the rebuild after it failed), so only send it, with a warning.
         run: |
           f="data/briefs/$(date -u +%Y-%m-%d).json"
+          if [ "${{ inputs.send }}" = "true" ]; then
+            echo "Sending today's draft as it is."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "notify_only=true" >> "$GITHUB_OUTPUT"
+            echo "force=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
           if [ -f "$f" ] && { [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.only_if_missing }}" = "true" ]; }; then
             if [ "${{ github.event_name }}" = "schedule" ] && ! grep -q '"notified"' "$f"; then
               echo "Today's brief exists but was not sent; sending it now."
@@ -107,7 +118,7 @@ jobs:
           N8N_WEBHOOK_URL: ${{ secrets.N8N_WEBHOOK_URL }}
           N8N_WEBHOOK_TOKEN: ${{ secrets.N8N_WEBHOOK_TOKEN }}
           NOTIFY_LATER: "1"
-        run: python -m tracker.brief ${{ inputs.preview && '--preview' || '' }}
+        run: python -m tracker.brief ${{ inputs.preview && '--preview' || '' }} ${{ inputs.reviewed && '--reviewed' || '' }}
       - uses: actions/upload-artifact@v4
         if: steps.guard.outputs.skip != 'true'
         with:
@@ -148,7 +159,7 @@ jobs:
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           LOW_BALANCE_USD: ${{ vars.LOW_BALANCE_USD || '3' }}
         run: |
-          python -m tracker.brief ${{ steps.guard.outputs.notify_only == 'true' && '--notify-if-pending' || '--notify' }}
+          python -m tracker.brief ${{ (steps.guard.outputs.notify_only == 'true' && steps.guard.outputs.force != 'true') && '--notify-if-pending' || '--notify' }}
           git config user.name "tracker-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/

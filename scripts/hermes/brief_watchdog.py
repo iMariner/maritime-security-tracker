@@ -3,7 +3,7 @@
 
 The approval message normally goes out at about 05:10 UTC. If by 06:00 it has not:
   - no brief was built today      -> comment "/brief now" on issue 38 (builds and sends it, unchecked);
-  - built but never sent          -> comment "/review <date>" with a note (rebuilds and sends it).
+  - built but never sent          -> comment "/send <date>" with a warning (sends the draft as it is).
 It prints one line for Telegram when it acted or could not check, and nothing on a normal day.
 Acts at most once per day. Standard library only. Never prints the token.
 Test with WATCHDOG_DRY_RUN=1: prints the decision and posts nothing.
@@ -65,7 +65,7 @@ def decide(record: dict | None, day: str) -> tuple[str | None, str]:
                 "⚠️ No brief had been built by 06:00 UTC today. I have started it again; the approval message "
                 "should arrive in about 10 minutes, without the editor check, so read it before publishing.")
     if not record.get("notified"):
-        return (f"/review {day}\nnote: Automatic resend at 06:00 UTC: the approval message had not been sent.",
+        return (f"/send {day}\nwarning: Sent by the 06:00 watchdog: the morning checks did not finish, so read the draft carefully.",
                 "⚠️ Today's brief was built but the approval message had not been sent by 06:00 UTC. "
                 "I have asked the tracker to send it again; it should arrive in about 10 minutes.")
     return (None, "")

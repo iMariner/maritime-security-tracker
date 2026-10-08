@@ -258,6 +258,7 @@ def write_copy(day_label: str, new: list, updated: list, corrections: list,
     out["title"] = out["title"][:90]
     out["x_post"] = fit_tweet(out["x_post"])
     out["article_html"] = _clean_html(out["article_html"])
+    out["quiet_areas"] = quiet
     return out
 
 
@@ -430,6 +431,61 @@ def sources_html(incidents: list[dict]) -> str:
     return "<h2>Sources</h2><ul>" + "".join(items) + "</ul>" if items else ""
 
 
+# Ways each area is named in an article. "the Gulf" must not catch "the Gulf of Aden" or "the Gulf of Oman".
+AREA_WORDS = {
+    "Strait of Hormuz and the Gulf": r"hormuz|persian gulf|arabian gulf|gulf of oman|\bthe gulf\b(?! of)",
+    "Red Sea and Gulf of Aden": r"red sea|gulf of aden|bab el-?mandeb",
+    "Black Sea": r"black sea|sea of azov",
+}
+QUIET_CLAIM = re.compile(r"\bno (?:new )?(?:attacks?|incidents?)\b|\bwas quiet\b|\bremained quiet\b", re.I)
+
+
+def _contradicts(sentence: str, active: list[str]) -> bool:
+    """A sentence saying an area had no attacks while the brief has an incident there."""
+    return bool(QUIET_CLAIM.search(sentence)) and any(re.search(AREA_WORDS[a], sentence, re.I) for a in active)
+
+
+def enforce_consistency(copy: dict, included: list[dict]) -> tuple[list[str], list[str]]:
+    """Checks the written brief against the data, in code (no AI). Sentences that call an area quiet while the
+    brief reports an incident there are removed. Returns (fixed, problems): problems are left for the owner."""
+    quiet = set(copy.get("quiet_areas") or [])
+    active = [a for a in AREA_WORDS if a not in quiet]
+    fixed, problems = [], []
+    keep = []
+    for p in copy.get("key_points") or []:
+        if _contradicts(p, active):
+            fixed.append(f"removed key point '{p[:70]}'")
+        else:
+            keep.append(p)
+    copy["key_points"] = keep
+
+    def clean_block(m):
+        inner = m.group(2)
+        parts = re.split(r"(?<=[.!?])\s+", inner)
+        good = [s for s in parts if not _contradicts(re.sub(r"<[^>]+>", "", s), active)]
+        for s in parts:
+            if s not in good:
+                fixed.append(f"removed '{re.sub(r'<[^>]+>', '', s)[:70]}'")
+        return f"{m.group(1)}{' '.join(good)}{m.group(3)}" if good else ""
+
+    copy["article_html"] = re.sub(r"(<(?:p|li)[^>]*>)(.*?)(</(?:p|li)>)", clean_block, copy.get("article_html") or "",
+                                  flags=re.S)
+    for field in ("title", "excerpt", "x_post"):
+        if _contradicts(copy.get(field) or "", active):
+            problems.append(f"the {field.replace('x_post', 'tweet')} calls an area quiet that has an incident")
+    text = " ".join([copy.get("title", ""), copy.get("excerpt", ""), " ".join(copy.get("key_points") or []),
+                     re.sub(r"<[^>]+>", " ", copy.get("article_html") or "")]).lower()
+    for inc in included:
+        name = (inc.get("vessel_name") or "").strip()
+        if name and name.lower() not in text:
+            problems.append(f"{name.title()} is in the data but not named in the article")
+    for f in fixed:
+        log.info("Consistency: %s", f)
+    for pr in problems:
+        log.warning("Consistency: %s", pr)
+    return fixed, problems
+
+
 def editor_notes(day: str) -> list[str]:
     """Notes from today's editor check (/review note: lines). They describe what the data cannot hold (a wrong
     credit, a detail in the wrong paragraph, conflicting dates), so the writer must follow them on the rebuild."""
@@ -441,13 +497,21 @@ def editor_notes(day: str) -> list[str]:
             and not re.match(r"(automatic )?resend\b", str(n).strip(), re.I)]
 
 
-def build(now=None) -> dict:
+def build(now=None, only_ids: set | None = None) -> dict:
+    """only_ids: the rebuild after the editor check uses only the incidents the editor saw (plus any it
+    separated), so nothing collected after the check slips in unchecked."""
     now = now or now_utc()
     since = now - timedelta(hours=int(env("BRIEF_WINDOW_HOURS", "24")))
     day_label = now.strftime("%-d %B %Y")
     incidents = store.load()
     new, updated, corrections = select(incidents, since)
+    if only_ids is not None:
+        dropped = [i["id"] for i in new + updated + corrections if i["id"] not in only_ids]
+        if dropped:
+            log.info("Frozen to the editor-checked incidents; left for tomorrow: %s", ", ".join(dropped))
+        new, updated, corrections = ([i for i in x if i["id"] in only_ids] for x in (new, updated, corrections))
     copy = write_copy(day_label, new, updated, corrections, incidents, now, editor_notes(now.date().isoformat()))
+    fixed, problems = enforce_consistency(copy, new + updated) if copy["article_html"] else ([], [])
 
     if copy["article_html"]:
         parts = [f'<p style="font-size:14px;color:{MUTED}">Reporting period: the 24 hours to '
@@ -483,6 +547,7 @@ def build(now=None) -> dict:
     return {"date": now.date().isoformat(), "day_label": day_label, "generated_at": iso(now),
             **{k: copy[k] for k in ("title", "excerpt", "x_post")}, "html": body,
             "fact_check": copy.get("fact_check", "not run"), "fact_check_fixes": copy.get("fact_check_fixes", []),
+            "consistency_fixed": fixed, "consistency_problems": problems,
             "incident_ids": [i["id"] for i in new + updated], "correction_ids": [i["id"] for i in corrections],
             "counts": {"new": len(new), "updated": len(updated), "corrections": len(corrections)},
             "_incidents": new + updated}
@@ -515,7 +580,7 @@ def publish(brief: dict, image: Path) -> dict:
     record.update(post_id=post["id"], media_id=media_id, image_url=image_url, preview_url=preview_url,
                   link=post["link"], status=post["status"],
                   **{k: brief[k] for k in ("title", "excerpt", "x_post", "incident_ids", "correction_ids", "counts", "fact_check",
-                                     "fact_check_fixes")},
+                                     "fact_check_fixes", "generated_at", "consistency_fixed", "consistency_problems")},
                   quality=brief["quality"]["summary"])
     write_json(record_path, record)
     log.info("WordPress post %s (%s): %s", post["id"], post["status"], post["link"])
@@ -576,6 +641,8 @@ def quality_report(brief: dict, incidents: list[dict]) -> dict:
         "fact-check": brief.get("fact_check", "not run"),
         "tweet": f"{tweet_len}/280" + (" ok" if tweet_len <= 280 else " TOO LONG"),
         "dashes": "ok" if not dashes else f"{dashes} found",
+        "consistency": ("; ".join(brief.get("consistency_problems") or []) + " found") if brief.get("consistency_problems")
+        else (f"ok ({len(brief['consistency_fixed'])} contradiction(s) removed)" if brief.get("consistency_fixed") else "ok"),
     }
     flags = sum(1 for k, v in checks.items() if "MISSING" in v or "TOO LONG" in v or "found" in v or "without" in v)
     summary = ("all checks passed" if not flags else f"{flags} check(s) need attention") + ": " + \
@@ -608,6 +675,21 @@ def notify_n8n(record: dict) -> None:
             last = f"{type(exc).__name__}"
         time.sleep(20 * (attempt + 1))
     raise RuntimeError(f"n8n did not accept the approval message ({last}); the brief was not sent")
+
+
+def publish_now(day: str) -> None:
+    """Publish a day's draft directly on WordPress: the fallback when n8n is down (owner asks Hermes on
+    Telegram; Hermes comments '/publish <date>' on issue 38)."""
+    from .wordpress import WordPress
+
+    path = BRIEFS_DIR / f"{day}.json"
+    record = read_json(path, {})
+    if not record.get("post_id"):
+        raise SystemExit(f"No brief record with a WordPress post for {day}")
+    post = WordPress()._req("POST", f"/posts/{record['post_id']}", json={"status": "publish"})
+    record.update(status=post.get("status"), link=post.get("link"), published_via="github", published_at=iso(now_utc()))
+    write_json(path, record)
+    log.info("Published post %s: %s", record["post_id"], post.get("link"))
 
 
 def refresh_image(day: str) -> None:
@@ -644,7 +726,14 @@ def main() -> None:
     ap.add_argument("--notify", action="store_true", help="only send today's saved brief to n8n")
     ap.add_argument("--notify-if-pending", action="store_true", help="send today's brief only if not yet sent")
     ap.add_argument("--refresh-image", metavar="YYYY-MM-DD", help="redraw the map of a published brief and swap it in")
+    ap.add_argument("--reviewed", action="store_true",
+                    help="rebuild after the editor check: same reporting time, only the incidents the editor saw")
+    ap.add_argument("--publish-now", metavar="YYYY-MM-DD", help="publish that day's draft on WordPress (no n8n needed)")
     args = ap.parse_args()
+
+    if args.publish_now:
+        publish_now(args.publish_now)
+        return
 
     if args.refresh_image:
         refresh_image(args.refresh_image)
@@ -663,7 +752,17 @@ def main() -> None:
             write_json(path, record)
         return
 
-    brief = build()
+    now, only = None, None
+    if args.reviewed:
+        from .review import REVIEW_DIR
+
+        day = now_utc().date().isoformat()
+        record = read_json(BRIEFS_DIR / f"{day}.json", {})
+        request = read_json(REVIEW_DIR / f"{day}.json", {})
+        if request.get("incidents"):
+            only = {i["id"] for i in request["incidents"]} | set((record.get("review") or {}).get("restored") or [])
+        now = parse_dt(record.get("generated_at")) or None
+    brief = build(now, only)
     image = render(parse_dt(brief["generated_at"]), brief.pop("_incidents"), OUT / f"brief-{brief['date']}.png")
     OUT.mkdir(exist_ok=True)
     (OUT / "brief.html").write_text(f"<h1>{html.escape(brief['title'])}</h1>\n{brief['html']}", encoding="utf-8")

@@ -41,7 +41,9 @@ Owner's requirements that shaped everything:
 | 04:30 | Hermes `maritime-security-tracking` | Read UKMTO/JMIC, open `missed` issues for official reports we lack, decide up to 5 `verify` issues with `/verdict` comments, then comment `/brief` on pinned issue **#38** |
 | ~04:35 | GitHub `brief-trigger.yml` then `daily-brief.yml` (hold) | Fresh collection, select the last 24 h, DeepSeek writes the article, a second DeepSeek pass fact-checks it, map image, WordPress **draft**, preview page; writes `data/review/<date>.json`; **does not notify yet** |
 | 05:00 | Hermes `maritime-editor-check` | Opens the sources, checks ship names, dates, duplicates, status, positions; comments `/review <date>` with fix lines and lessons on #38 |
-| ~05:10 | GitHub `review.yml` then `daily-brief.yml` (reviewed) | Apply fixes, rebuild the same draft, **send the approval message** via n8n |
+| ~05:10 | GitHub `review.yml` then `daily-brief.yml` (reviewed, held) | Apply fixes, rebuild the same draft with **only the incidents the editor saw** (news collected later waits for tomorrow), code consistency checks (an area called quiet that has an incident is removed; a ship in the data missing from the text is flagged), hold |
+| 05:25 | Hermes `maritime-final-read` | Reads the rebuilt draft; comments `/send <date>` (with optional `warning:` lines) or one last `/review ... send: yes` |
+| ~05:30 | GitHub `daily-brief.yml` (send) | **Send the approval message** via n8n (11:00 IST) |
 | 05:20 | Hermes `deepseek-balance-alert` | Silent unless the DeepSeek balance is below $3 |
 | 05:40 | Hermes `github-token-watch` (profile default, script `scripts/hermes/token_watch.py`) | Silent unless the GitHub token in either profile expires within 14 days (warns at 14, 7, 3, 2, 1, 0), is rejected, or the two profiles differ |
 | 06:00 | Hermes `maritime-brief-watchdog` | Silent unless no approval message went out; then it repairs (see section 6) and tells the owner |
@@ -93,7 +95,14 @@ and the tweet text. Lines starting with ⚠️ mean "read the draft before publi
 - **Queue rules**: only real work holds the GitHub `data-writer` queue (job-level concurrency); collection has its own
   queue, pauses 04:00-05:59 UTC and gives way on a data race; brief/review/verdict commits win races.
 - **Watchdog** (06:00 UTC, Hermes, no AI cost): no brief built -> comments `/brief now` (built and sent without the
-  editor check); built but not sent -> comments `/review <date>` with a note (rebuilt and sent). Tells the owner.
+  editor check); built but not sent -> comments `/send <date>` with a warning (sent as it is). Tells the owner.
+- **Frozen snapshot and consistency checks**: the rebuild after the editor check uses only the incidents it checked;
+  code removes sentences that call an area quiet when it has an incident and flags ships missing from the text.
+- **Final read** (05:25, Hermes): reads the draft that will actually be sent.
+- **n8n failures**: the approval message is retried three times; if n8n still refuses, the run fails and the brief
+  is not marked as sent, so the watchdog or a backup run sends it later.
+- **Publish without n8n**: ask the Hermes bot "publish today's brief"; it comments `/publish <date>` and GitHub
+  publishes the draft directly (`publish.yml`).
 - **Backup schedule** on GitHub (06:10 to 07:55 UTC, often hours late): builds or sends with a warning.
 - **Quality checklist and ⚠️ lines** in the approval message; nothing publishes without the owner's tap.
 - **Balance**: shown daily in the approval message; Hermes warns below $3; nothing stops before $0.
@@ -106,7 +115,9 @@ and the tweet text. Lines starting with ⚠️ mean "read the draft before publi
 
 | Task | How |
 |---|---|
-| Rebuild and resend today's brief | Comment `/review YYYY-MM-DD` (with `note: resend`) on issue #38 as the owner, or ask Hermes on Telegram |
+| Resend today's approval message | Comment `/send YYYY-MM-DD` on issue #38 as the owner, or ask Hermes on Telegram |
+| Rebuild with fixes and send | `/review YYYY-MM-DD`, fix lines, last line `send: yes` (without it the rebuild waits for the final read) |
+| Publish when n8n is down | Ask the Hermes bot "publish today's brief", or comment `/publish YYYY-MM-DD` on #38 |
 | Start today's brief if nothing exists | Comment `/brief now` on #38, or run "Daily brief" in GitHub Actions |
 | Build without sending (test) | Run "Daily brief" with `notify` off, or `preview` on (no WordPress) |
 | Fix a published post's map | Run "Refresh brief map" with the date |
@@ -123,7 +134,8 @@ and the tweet text. Lines starting with ⚠️ mean "read the draft before publi
 
 | Symptom | Likely cause | Fix |
 |---|---|---|
-| No approval message by 11:30 IST | Hermes job failed or a run was cancelled | The 06:00 watchdog repairs it; otherwise comment `/brief now` or `/review <date>` on #38 |
+| No approval message by 11:30 IST | Hermes job failed, a run was cancelled, or n8n is down | The 06:00 watchdog repairs it; otherwise comment `/brief now` or `/send <date>` on #38; if n8n is down, publish with `/publish <date>` |
+| Daily brief run failed at "Send to n8n" with HTTP 500 | n8n (task7) or its database is down (8 Oct: "could not open file ... I/O error") | Fix n8n on the server (SpliceRun), then `/send <date>`; meanwhile `/publish <date>` |
 | "⚠️ Editor check did not run" | Hermes editor job failed or was late | Read the draft carefully; check Hermes Cron and Logs |
 | Hermes stopped posting to GitHub | `GITHUB_TOKEN` expired or lost access | Create a new fine-grained token (repo iMariner/maritime-security-tracker: issues read/write, contents read) and paste it in Hermes Keys of **both** profiles (`default` and `maritime`) |
 | Brief text wrong, map wrong | Thin sources or a missing rule | Reply to the Hermes bot; it fixes via `/review` and adds a lesson |
@@ -162,6 +174,10 @@ and the tweet text. Lines starting with ⚠️ mean "read the draft before publi
   Hermes split into profiles: `maritime` runs the three AI jobs with its own memory and skills, `default` keeps
   Telegram, the watchdog, the balance alert, SIRE and sea areas (see `docs/hermes/README.md`).
   `blocked-page-recovery` skill disabled.
+- **8 Oct**: the Qatar tanker strike (UKMTO, casualties) was hidden inside the older On Peace record and the rebuilt
+  draft called the Gulf quiet; n8n's database failed (HTTP 500). Added `unmerge:`, frozen rebuild snapshot, code
+  consistency checks, the 05:25 Hermes final read (`/send`), n8n retries without a false "sent" mark, and the
+  `/publish` fallback that does not need n8n.
 
 ## 11. Costs (October 2026)
 
