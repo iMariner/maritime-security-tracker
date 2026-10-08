@@ -27,5 +27,30 @@
   },
   "fact_check": "no corrections needed",
   "fact_check_fixes": [],
-  "quality": "2 check(s) need attention: dates ok; attribution 3 claims without a named source; official coverage 0/0 ok; verified 1/9; single-source items 6, 6 without verification; confirmed ok; fact-check no corrections needed; tweet 161/280 ok; dashes ok"
+  "quality": "2 check(s) need attention: dates ok; attribution 3 claims without a named source; official coverage 0/0 ok; verified 1/9; single-source items 6, 6 without verification; confirmed ok; fact-check no corrections needed; tweet 161/280 ok; dashes ok",
+  "review": {
+    "status": "done",
+    "at": "2026-10-08T05:08:25Z",
+    "changes": [
+      "merged INC-20261007-001 into INC-20261006-001 (the same 6 October drone attack that sank the Turkish-owned Alfa Watan off Bulgaria, already tracked as INC-20261006-001 (Togo, IMO 7510884); the Turkish outlets reported it a day late and name no other ship)",
+      "merged INC-20261007-002 into INC-20261006-014 (the same Aframax Rio drone attack off Sochi on 6 October, already tracked as INC-20261006-014 (Liberia, IMO 9273844); the Cyprus Mail page is dated 6 October)",
+      "merged INC-20261007-009 into INC-20261004-017 (the same Maran Gas Mystras strike near the Strait of Hormuz, already tracked as INC-20261004-017; the TradeWinds page is dated 6 October and names the Maran Gas Mystras)",
+      "merged INC-20261007-011 into INC-20261006-001 (the Fox News drone expert's Geran-4 assessment is about the same 6 October attack that sank the Alfa Watan)",
+      "INC-20261007-007 marked rejected (the EnergyNow item is a republished March 2026 report about the IRGC claim on the Honduran-flagged Athe Nova, not an attack on 7 October)",
+      "INC-20261007-010 marked rejected (it names no ship, flag or position and repeats the 5 and 6 October Black Sea attacks already tracked)",
+      "name of INC-20261007-008 set to CUL KLANG",
+      "flag of INC-20261007-008 set to Singapore",
+      "imo of INC-20261007-008 set to 9958535",
+      "INC-20261007-008 marked reported (MSCIO received the report and Lloyd's List and The Maritime Executive both carried the attack on the Singapore-flagged CUL Klang, crew unharmed)",
+      "lesson (writing): Never lead the brief with an attack already reported on an earlier day: the headline and lede go to the most serious att",
+      "lesson (facts): A record can absorb a different incident through its source list: check that a record's date and place match its own sou"
+    ],
+    "refused": [],
+    "notes": [
+      "The brief is missing the biggest incident of the last 24 hours: UKMTO reported a tanker struck by multiple projectiles about 51 nautical miles north of Madinat ash Shamal, Qatar, at about 1900 UTC on 7 October, with casualties. It is held as INC-20261007-003 but was wrongly merged into the 5 October On Peace record, so restore it as its own Gulf item and keep Oman's On Peace evacuation in a separate paragraph.",
+      "The Alfa Watan's crew are missing, not killed: Bulgaria called off the search on 7 October with no trace of the sailors, and the number aboard is disputed (Maritime.bg said ten, Bulgaria's rescue chief said twelve, all Syrian). Say ten or twelve crew missing and feared dead, never ten killed.",
+      "The headline, standfirst and lede treat the Alfa Watan as a 7 October attack; it sank on 6 October and was covered yesterday, so rebuild the lead around the 7 October Qatar tanker strike. What crews should know must not list Sochi and the Strait of Hormuz once those duplicated items are removed; say the day's incidents were the tanker hit off Qatar and the shots at the CUL Klang in the southern Red Sea.",
+      "The containership fired on in the southern Red Sea is the Singapore-flagged CUL Klang, operated by Chinese CUL Lines, so say Singapore-flagged and name the ship, not a Chinese containership."
+    ]
+  }
 }
