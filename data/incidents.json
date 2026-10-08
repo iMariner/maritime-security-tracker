@@ -97,6 +97,126 @@
     "merged_into": "INC-20261007-003"
   },
   {
+    "region": "Gulf of Oman",
+    "date_utc": "2026-10-08",
+    "summary": "A fire was reported on a vessel near Fujairah, according to Riviera Maritime Media. No vessel name, flag or further details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 25.15,
+    "lon": 56.45,
+    "location_text": "near Fujairah",
+    "attack_type": "other",
+    "damage": "fire reported on vessel",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261008-002",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWDVZSVRmdVZtZUJoRTZVUzNzbFV4X1NQcUYxWFo1TDVZMmdNZUpyZnpRZjZjeWRBY3lKc1FDZ2ZuTnBObEhXZlpqTWFsZnd0MUxXRGdmVkJiUkI0U0xSdUFEQlR3Ujh3dDNYMFBhZEgtNk9zaFdhTVU5clR4LW5WMndwbFZZZkVTYXA2WHZ6WVVocXI2bDZCcE5BNzlrV0xuLTR6NTJuVEUtRXdlMGltU2ZpVm5VQXpmOEZsNzdNTQ?oc=5",
+        "source": "Riviera Maritime Media",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T11:02:29Z",
+        "title": "News Content Hub - Casualties reported in tanker attack off Qatar; fire reported on vessel near Fujairah - Riviera Maritime Media"
+      }
+    ],
+    "first_seen": "2026-10-08T13:58:07Z",
+    "last_updated": "2026-10-08T13:58:07Z",
+    "verification_issue": 82,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-08",
+    "summary": "A Russian Geran-4 Sicker jet drone struck the Turkish tanker Aviva in the port of Izmail, Odesa region, according to the Telegram channel Dva Mayora. No damage or casualty details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": "AVIVA",
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 45.35,
+    "lon": 28.84,
+    "location_text": "Izmail port, Odesa region, Ukraine",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261008-003",
+    "sources": [
+      {
+        "url": "https://t.me/dva_majors/100162",
+        "source": "Dva Mayora",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "osint",
+        "published_at": "2026-10-08T10:56:22+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-10-08T13:58:07Z",
+    "last_updated": "2026-10-08T13:58:07Z",
+    "verification_issue": 83,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Red Sea",
+    "date_utc": "2026-10-08",
+    "summary": "A containership came under fire in the Red Sea. No further details were provided.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "container",
+    "vessel_category": "merchant",
+    "lat": 17.5,
+    "lon": 40.5,
+    "location_text": "Red Sea",
+    "attack_type": "gunfire",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261008-004",
+    "sources": [
+      {
+        "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
+        "source": "Splash247",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-08T08:45:29Z",
+        "title": "Tanker attack off Qatar widens Gulf shipping conflict"
+      }
+    ],
+    "first_seen": "2026-10-08T13:58:20Z",
+    "last_updated": "2026-10-08T13:58:20Z",
+    "verification_issue": 84,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
     "region": "Black Sea",
     "date_utc": "2026-10-07",
     "summary": "NationalTurk reported that a Turkish vessel was attacked by a drone off Bulgaria in the Black Sea, with 10 crew members killed. The report gives no vessel name, exact position or attacker.",
@@ -361,9 +481,9 @@
     "official_source_cited": "UKMTO",
     "conflicting": false,
     "confidence": 0.8,
-    "vessel_name": null,
-    "imo": null,
-    "flag": null,
+    "vessel_name": "ACERS",
+    "imo": "9301902",
+    "flag": "Antigua and Barbuda",
     "vessel_type": "tanker",
     "vessel_category": "merchant",
     "lat": 26.8,
@@ -564,10 +684,91 @@
         "kind": "media",
         "published_at": "2026-10-08T02:24:20Z",
         "title": "Multiple Casualties As Tanker Comes Under Intense Attack Near Qatar Amid Naval Escalation In Gulf - The Times of India"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE10WGg3QldYS3NuMDhGUnZlVTduUlJYdVJNZ2xtUjN3QllDR2F6UEJuWjlmUXphYTlzdFhlX2R4ODJnTWVkckxfWHd5NHhIT2J0anEyZ1RUVlR0dUxub2VleW9NM0hMWE5vWWc?oc=5",
+        "source": "Daijiworld",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T12:10:10Z",
+        "title": "Tanker hit by multiple projectiles north of Qatar, casualties reported - Daijiworld"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWDVZSVRmdVZtZUJoRTZVUzNzbFV4X1NQcUYxWFo1TDVZMmdNZUpyZnpRZjZjeWRBY3lKc1FDZ2ZuTnBObEhXZlpqTWFsZnd0MUxXRGdmVkJiUkI0U0xSdUFEQlR3Ujh3dDNYMFBhZEgtNk9zaFdhTVU5clR4LW5WMndwbFZZZkVTYXA2WHZ6WVVocXI2bDZCcE5BNzlrV0xuLTR6NTJuVEUtRXdlMGltU2ZpVm5VQXpmOEZsNzdNTQ?oc=5",
+        "source": "Riviera Maritime Media",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T11:02:29Z",
+        "title": "News Content Hub - Casualties reported in tanker attack off Qatar; fire reported on vessel near Fujairah - Riviera Maritime Media"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUW9aYlBmRjRPRkhpLTAwMUd4bjhzQlBMRVZYT3NjU1hGRDQ4RDhmZjhBRmNxdkNXSE1pNy1TMVFieWR4LUtxU1dHMFNWS19FUF9qU1FkTFFBYkl0TlVVelhGMzVhbFBQLVViOWFKTUJZaThFaDNGSlJYNW8yUUJoZllvR3lBb29vR1Vac3NjTTFsb0ROc3R1WlZUdjhCNEpobmhXQk1hLUViTGl5Z0xFS2J6NEVONV9ubU1hcVdFUdIBvwFBVV95cUxOUW9aYlBmRjRPRkhpLTAwMUd4bjhzQlBMRVZYT3NjU1hGRDQ4RDhmZjhBRmNxdkNXSE1pNy1TMVFieWR4LUtxU1dHMFNWS19FUF9qU1FkTFFBYkl0TlVVelhGMzVhbFBQLVViOWFKTUJZaThFaDNGSlJYNW8yUUJoZllvR3lBb29vR1Vac3NjTTFsb0ROc3R1WlZUdjhCNEpobmhXQk1hLUViTGl5Z0xFS2J6NEVONV9ubU1hcVdFUQ?oc=5",
+        "source": "NDTV Profit",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T10:52:30Z",
+        "title": "Tanker Attacked Near Qatar, Casualties Reported As Gulf Shipping Risks Rise - NDTV Profit"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9yeUNIZ1VnQzNXSmFuRDIySi1OOHczekFJUHM4Vl9BeTVFTHloWHp5anM2dHJUVHpPd2o3Y1ZjSVdxaDVONGhQVGpRM3VLMTcta3BXYVJqTnVXcFVhZkNfV3hBV1FsOEtWQnJyTlhB?oc=5",
+        "source": "JFeed",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T10:19:14Z",
+        "title": "Tanker Hit by Projectiles off Qatar, Casualties Reported - JFeed"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9SMmlxdmxNUWZ2c2JaZXZtOUZnekdIT1NKdWN5TWdrLTVuZUVSVDViaGNtdUhUSXpQZVRvUjJzTDJRR3k1WngtNi1UN0lSQUpzdVhvcVZYcEZ3WThtVXc?oc=5",
+        "source": "BBC",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T10:07:58Z",
+        "title": "Tanker hit by multiple projectiles in Gulf off Qatar, maritime agency says - BBC"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeUZwb0JxZ3dmcVk0aTNSZnV6UHhzQ3ZEbkRoT3BHY0dId2dPUkhIRTh0a2ZVcVRWdU9XUEpZb014aTlSRnJIaldPYnl5TTd5SlVva1NTb21VdUJvMGdoWnFZcFBKVGx4c0V3eno2eTRPNVFwM3owdU1rRnQwSG5QaXExVHR2X0xiYUFMYjAxS2Q3cDRjS0NSUVYwWmx1WGx1UXpiNDl5eDhvTGNpYmhwY1Q5OVdfcWhXLXUzdE9yVFk2YTTSAcgBQVVfeXFMTkR3RFV0NFhwVjZVeW5zMlk1dDJhUWxRMmpFelpJdDRyNTVtNnVuNUZxaU5tbGs4bEtkeG8zRm1CSUtza2FETWMzZGlPQnBRdVFneWRXVF9pUjRIcGpfX3JaRWxabXVjdGRqUDlpOGZiRjc1TF9jbGFRa3J3MTRCQXFUaDNEeW40bnhfaTJFVklxcDUxZGc2WjAzd01lOUhIWlhZT1ZfVnJjcjA2cHo1OHdIT3dIQ2FwRV83cGh4R2RwRDdFZm40STQ?oc=5",
+        "source": "Crude Oil Prices Today | OilPrice.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T09:00:00Z",
+        "title": "First Deep-Gulf Tanker Attack in Nearly a Month Hits Vessel off Qatar - Crude Oil Prices Today | OilPrice.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORHdEVXQ0WHBWNlV5bnMyWTV0MmFRbFEyakV6Wkl0NHI1NW02dW41RnFpTm1sazhsS2R4bzNGbUJJS3NrYURNYzNkaU9CcFF1UWd5ZFdUX2lSNEhwal9fclpFbFptdWN0ZGpQOWk4ZmJGNzVMX2NsYVFrcncxNEJBcVRoM0R5bjRueF9pMkVWSXFwNTFkZzZaMDN3TWU5SEhaWFlPVl9WcmNyMDZwejU4d0hPd0hDYXBFXzdwaHhHZHBEN0VmbjRJNNIByAFBVV95cUxORHdEVXQ0WHBWNlV5bnMyWTV0MmFRbFEyakV6Wkl0NHI1NW02dW41RnFpTm1sazhsS2R4bzNGbUJJS3NrYURNYzNkaU9CcFF1UWd5ZFdUX2lSNEhwal9fclpFbFptdWN0ZGpQOWk4ZmJGNzVMX2NsYVFrcncxNEJBcVRoM0R5bjRueF9pMkVWSXFwNTFkZzZaMDN3TWU5SEhaWFlPVl9WcmNyMDZwejU4d0hPd0hDYXBFXzdwaHhHZHBEN0VmbjRJNA?oc=5",
+        "source": "Crude Oil Prices Today | OilPrice.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T09:00:00Z",
+        "title": "First Deep-Gulf Tanker Attack in Nearly a Month Hits Vessel off Qatar - Crude Oil Prices Today | OilPrice.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVmViVzhVTjV1VHpBdDVPZWl1am9XMmp5NlY0VVFJQ2QzTUs0a1NidllJWS1LajFJekRIVTVWc24zcUpGelJmUmVhT3p6bzNrNG1xdm80b1ZMSXhTcVVBcFJGWnh5ZWJ1WkMtMHd0bjNBeURLa3Y4VkVvaXlKeWJzQVZiU1F6RG9rVmV3UnRQZEFvWFFDMi1UU2ZLcmhqUDZ1SmxWZmFoWXZHdWU4OTA5eG1UaW03R005U2NPSGd3NDVRaWU4dGp6ZGxTZVY2d2dmc0l4dlVGMDRPSG9jdG5wZTZ30gHnAUFVX3lxTE5IWkpORHJ0WXJZOXpDWmJlWDRiSllVeUxXSnF5YkIzWDRpdEtMY1owWmt1ZHpkQnR5UEthSG1SZGNiZ1l4WTNhM080bUhqWUVCVC13ekFTWkttWHdxYm1acWFNZlJTWDhUdnUteGZSdGdRNjl0ckwtdzYtSi1MblcwbkRsLTVueUJ4c1A2LVdoWXhsWHNEaHh5WUN4T21mV0c2NU9KQ2h0bHA3ei10d05XNjVmQkdndEJ2ZDJCVk8zSDVYRzR2T1U4bExJSDdDN2F1d3h0UlRJSGFNaTFja01fSGtySzEwTQ?oc=5",
+        "source": "Diari ARA",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T08:47:50Z",
+        "title": "Attack against an oil tanker in Qatar after Iran threatens to close crude oil transit through Hormuz - Diari ARA"
+      },
+      {
+        "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
+        "source": "Splash247",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-08T08:45:29Z",
+        "title": "Tanker attack off Qatar widens Gulf shipping conflict"
       }
     ],
     "first_seen": "2026-10-07T20:07:48Z",
-    "last_updated": "2026-10-08T07:47:17Z",
+    "last_updated": "2026-10-08T13:58:20Z",
     "verification_issue": 73,
     "verdict": null,
     "published_in": [
@@ -1660,10 +1861,37 @@
         "kind": "media",
         "published_at": "2026-10-06T20:25:00Z",
         "title": "Drone sinks ship off Bulgaria, as fears grow about hybrid attacks by Russia - Japan Today"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeUNzeEVxN3B5UmhaSnZWR21JZ0JUc0laUHRnVGRNcG5ZMU1uSDA0QnVSTWphcElUYzJreW9pQkltLTJhaVoyLUNINmJHOGFuZlFMcEcxRkRPTjFiU0dxdWEtVWhsN2hLOWVDRFVCYW13QjFoa2tQUTVRbnltTC00STRaQUx4NnNCaEJWenU5Qkp0enBFRW13TU0xU3dmaEhNcGpUZjRaM0NDVE9XRHZMeNIBwAFBVV95cUxQbEM3Z0FlM1VyVEdtRjQyY3AxcVh6NmtEQklTbUhVeGRvcTNlLW1NNjFXUWw5NjdIeHFKamlNUFlJTlBnYzhac0ZpYVpDUFB3WnpIdzNyNnJQeVN1Z3FENGF6amVVZ3lWWWdMeVlVUkNBUkFfUWZGRVJNYkhsb0otLXdabHU1M09jX3VHMW9PdlEyYUdYbS1JQjRxbFhGTm93cVppX3BRNWhyZlEwT1JwWUN4c0FiQ3dzbEY3WUVrWHk?oc=5",
+        "source": "Vira Haber",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T11:52:00Z",
+        "title": "Karadeniz’de Türk Sahipli Gemiye Saldırı: 10 Mürettebat İçin Arama Sona Erdi - Vira Haber"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaUVEbEw5N3h6bG9lZFBGNmlhS216M1FmdVVfWVpqdTI2T1VuNzhDTGtvdTRqVldsdzZabkJmZWxaYmk5RFFGRDJlbDEwTGRfaGFfQlAzQUtxWW1ZUmF2WkI0TlA4b0RqTHZUMzFfclI2Z09sczFNUTk3eDZZN0xwQ3RRT2RDVVJwcVVTZmVpSThHY3lQZFZiZnZ6Wm9heWZzOVBaX3RyalZUdVFRbGhfMkROTdIBuAFBVV95cUxPeEJGWHI1RjZtS3pKb2RqRlFJdDZmT2pmU2NpQU9NV1VUVHM4RUlqMWg1Tl9DMlNCOXNvZkI4M3FHMlhUMmc2d2pSdU5VdUN6QXdiLUJHMkdaME1YWnpyVnZHMkpzbWRsVlI1U1hfWHFTMVFleFJRUmpBNEVsVjd5VXJmOEk3TFZ1OElHZnA3VERhWUtKcHF6ZnNVY0hOeGhzTkhWY2N5Qzl5LUlGcXNDbEFmdWUzaTN5?oc=5",
+        "source": "Turkish Minute",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T09:44:33Z",
+        "title": "9 Syrian sailors missing after drone strike sinks Turkish-operated ship - Turkish Minute"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWDRVWkVUWkZxZTF5ZThrNjdLQkJtcTBodTRkNW8yWFV2SG1aMkZ3XzVDUU1abEJpMzhxQUt5VE5kMmZ2cmVTZXJMWTlDcUhzRW9NMUQ0NkItb3Z6Z2xpNUhETlNBUjdiRlhOWmFiRnlZVjVCeUNDd1RSYnlja2w5LUN6NWliOWtSZWs1bGxuSlZyUVdnYjd0MGxGSkdtMFI2STJUVUFnb1hqN3dXSjdkVkEzMU3SAbgBQVVfeXFMTjVmd1p2TUd0MEZZcWd3WTVxZ2Ezc1BaaTRsbUFVd2YwUzBiaTlacV9TTHh5ME5sQmgwQ0xiZDJnek5fSV9mWEFINU1ISEZxTTdxSTNCOHlLMG0yUlBad2NQSm85SXYzeVQ0LVN6aGJ5Vi1QdzRKOUNrSGdPaVN1OFpvVmRQX054LThJenpQTUhWcGxrVzJtY0tXSGdwbnhkRUxhbGIxSWhNTnZ1MWJwaVJRSFd1QW1MaQ?oc=5",
+        "source": "Kuwait Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T09:30:21Z",
+        "title": "Syria says nine nationals missing after drone sinks ship in Black Sea - Kuwait Times"
       }
     ],
     "first_seen": "2026-10-06T08:05:50Z",
-    "last_updated": "2026-10-08T06:35:18Z",
+    "last_updated": "2026-10-08T13:58:14Z",
     "verification_issue": 52,
     "verdict": {
       "status": "confirmed",
@@ -2502,10 +2730,46 @@
         "kind": "media",
         "published_at": "2026-10-06T17:17:54Z",
         "title": "Filmul atacului cu drone din Marea Neagră. Cum au fost salvați cei 18 marinari de pe nava care a luat foc - BZI.ro"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi3wRBVV95cUxPbzRoUXM3eTg4clhZN1owZy0yUWdzMDJWOXVqVk1UTm9qTEE5VDVHTlFLWWdZTEZxMC1qNHMtWFlYTlE3REJPdkVGS1Jua3dQODE1YkJrMGJnTW5jaGdWRlpzcmZwWFVSbGJ2VTAzdld4bGlNdjVEOTRLYWR0MU9TNXp5bWxwb1U4TzhvRlJYaHg1OW00QnRVN2dEMGJ1QjB6UFltcGliS2V3YTV4aE1XNnpwdGRkV0dXdWxmNmtNOGxkQ3VJS21HdnNoYTNtOEQ1ZUZPVEFfM29OSE0yNWR0SEt5a1J5TzNEWGx5UlE5ZE9OcmJUeUFBME1jWng3ZEpURVBlcXlYSWlBV2pPVUUzTlRXSUk1cUQwSWZuRnBOcEt2emY4MTR6U2p6bWhyU0RVY212SHczN1RqQU5QYUpEUVptWjExa3A4TWg1LTlORzAyTDJDNW8tUW9QRThocjc2YVBNdnF5YVg5QWQ5aUV1aHV3RXYyODdtLUpJXzNhYjVYOWttN2NMOE9RVUdINVdSRzZ5a2dDT2hUYzlEY2VTR2RSR1BMdmVrQ05WRXhPdm50VkhYWlB1X1VjTnN4MFRPQWJMTVE2d0JZNlJFQ1BuU1F6bUdISVBURVhWUGtvZ1MtMGtBNGhvNE1SQVR0akRmSVFUcnp5UEFFblFnX1VGOERzYTd2d3BhTkRaeUpqSnFqaW5POG90WEZUZVNIMUx3LXhTTTh2dl9yQTdMaDBZTW01VFE4OGFrVTk1ZEw3all6MlE0TlBEQ05pSGZhT1BQZ1VheHJ4MkEzWHQ2WE9j?oc=5",
+        "source": "SWI swissinfo.ch",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T12:43:01Z",
+        "title": "سوريا تطالب بتحقيق مستقل لكشف ملابسات استهداف وغرق سفينة شحن في البحر الأسود - SWI swissinfo.ch"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOU1MVGxNSjduT2xkMFIySjduZUNydTVPcnZQZzFZcDBNNXE1VGJrRXBUQjlNX3YtLS1NTzRrM3Y3ZUlJcE0zTXdnQ29jYWtQeURoR2E0NHZRTUlTY2xYNlZQblBTaktSX1NqRFE1VVE2c0xDdFRGZzFnRXIyV3pDOUlWd0tRS3lMY2hLRFI2ZWpDZlhZbEZJeERiMGczc0ZMQmRzT0U1M2hyYmxnRkE?oc=5",
+        "source": "Naharnet",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T12:16:00Z",
+        "title": "Syria says nine nationals missing after drone sinks Black Sea ship - Naharnet"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPTzJUZ0gtb2dOVWpDMThhRlR1QmZEZElyN3lZNVBRX19yeWFuVk1nWmxQbVBFeEU4YXJESUpGX1FzZG5FejR6aGxKZWVwYkJmSlNZRzlELW5YN1ZJSllDelRnZllaeHhEWE1LaXNWVDVpb0JlTGFFMGRSSkQzS2ZkZElxQ3JfNjJLbHFIZXdJR1JFVW9tSl9pS2NNR3N2QWk3Q18xS1VYNGdXcU5EZzh5eGVGWDE5b2RWQWd5d3hObkVFR29TLUQ4TmNFemFOSXZHbXpjTlVqMnF5al9DY3R5bHJmekdCaG_SAewBQVVfeXFMT0hPSE0yV2o5N3JtWUptWDUybUx4MkJNNk1telhuZm02Y0I2NC0yVXR3SnhTandWQW8zcTJ4NDFyNkFVdHFJOEN2THU5b2dfUTJwS1M5LUxFTWFzcTl2NFBMeHZDREZYZlFwbWlFeEJlME43MUhHcHlMczJqajVqMWEzSWJyWk1mZGZJWjNTNy1vT3BWcEZ3YndiV0VYdjg4TU1zZEtPeFphSnNwUVBXNlRBX3hjMHRzNm81ZTFPRm5BUkV2VkE1Ullieml0NE1wV3Y0c2xpZWhiTzBacWtOMy1wRHdFelFrbEZxU1A?oc=5",
+        "source": "News18",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T10:41:00Z",
+        "title": "Black Sea Drone Attack: Cargo Ship Sinks Off Bulgaria As Russia-Ukraine War Spills Into NATO Waters - News18"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVktLdTdEdERCOGhqaW5EMFBxUGN0aHZ0X013OGFnTEZSdWVYNEdBTkRJSGE1VWtLSmk2bzZjN21yWk9lY1NNTGxhdU41VVJmazlQX2dMWEhqZ2pOc2V6eEtZSnVrX3RESVdNR0p2Q3pPWlVqVEp4dHRMWVEtQlNEYkpXcDgzN0JNNk8wcFdUNmV2c0lMak41eG9CdHY2UQ?oc=5",
+        "source": "Ahmedabad Mirror",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T11:36:30Z",
+        "title": "23 Indian crew safe after Russian drone hits vessel - Ahmedabad Mirror"
       }
     ],
     "first_seen": "2026-10-06T15:27:12Z",
-    "last_updated": "2026-10-08T06:35:29Z",
+    "last_updated": "2026-10-08T13:58:20Z",
     "verification_issue": 64,
     "verdict": {
       "status": "confirmed",
@@ -4544,10 +4808,55 @@
         "kind": "media",
         "published_at": "2026-10-06T17:19:41Z",
         "title": "У побережья Сочи возник крупный пожар на борту танкера - Радио Свобода"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcV9SNGE0VWNvdHRBbW5TR3VuQjRDLUhtWUtmV1lUQW5VV0FDWGRsZW9ncENIS29vTnRYUmEwV0hDWFJFSnBaLVRoUnZYSjEyR2FRMnFScFh0N1hya2laZ196dVNDaGZDb2c5a3JicWdWMkpKdVlyOU9oTEJCMnU4MC1VUGNHMURjSXJ6aWsxNDhyNlpZOEdVZVJ3aGgwSS1SREEtSE5od1BFQnJzOHZ4cmRoUU0zZ1V4dllpN2xKOXFscl9MSS1nOA?oc=5",
+        "source": "Главный Региональный",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T11:09:17Z",
+        "title": "Эксперт Жаров снял вопрос рисков после пожара на танкере Aframax Rio у берегов Сочи - Главный Региональный"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTEpXN1Q5c09xeFBoZlZtSWNDeXVDVjUwVXNYMDdMaE5CQWpVbmFxWEtZOUloT3M2cFFaOXlkNW5sQ0RMWHVJV3prSFhtOUgzUFliRWhJb09sQkVwOFRHUEVmNllBU3E0SXNKd1dZSGhjU1FJSlU5NWNZZ1FNbURoaGJwb2xKQWYzbEZzTWo0elpoZmhVbFBGaGRsYVp0Z2Vnc21SSVFqbFpSUQ?oc=5",
+        "source": "safety4sea",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T11:02:45Z",
+        "title": "Tanker attack off Sochi raises pollution concerns as Black Sea shipping risks grow - safety4sea"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9salZuYmk1c2lFSVN3b1JnUE9fdjdrOGd6RTY2NkNjZDZWUU91MWxKcE1NdlRURmsyZTlRYXhIdmxIVThISDFFb2luTQ?oc=5",
+        "source": "Kyiv Post",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T10:39:29Z",
+        "title": "Shadow Tanker Hit by Ukrainian Drones Threatens Spill Off Russia's Black Sea Coast - Kyiv Post"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1tNFFnQnA4V2lOaGp4OWVRbDhaQ2tnNTBFNDlMYmhxV045T1VrV205SFJocDhyMWFSY3NxeFl6R2xuMkxQNDdsWVFn0gFKQVVfeXFMTW00UWdCcDhXaU5oang5ZVFsOFpDa2c1MEU0OUxiaHFXTjlPVWtXbTlIUmhwOHIxYVJjc3F4WXpHbG4yTFA0N2xZUWc?oc=5",
+        "source": "BFM.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T09:17:31Z",
+        "title": "Пляжи Сириуса открыли после их закрытия из-за атаки на танкер в Черном море - BFM.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPZWpCWUNDRzBlaC1ZdW96cTh3RzI3Ukc4LWtxMEtfMVNSOXVmR1hZRWlRVTlOVkNFSlZqWlBMY3RkbUVwdFVyb3JjMEwzN2lYQkZtclRMenRzcTY4X1V3UW5KcmI2emdNZVhYNzVGa3hiNmtrRndQelM0elNCZDcxQlFDVkllVk5vTzRXSVI4TWd6YTZ1TWpyejV0MVUxNS1DNmR0SHR4TjhGYlZjX1c1YzVtdXZ0TkNZWVJRS180VXFFTWFlcHVzWl9vWGVPcVFYU2RKc1hqM2F2Z090SFl4cjlWb0N6SkNicUtadXhlNXotdVQwVWhRMWNKeU51dE04UWJHeGE4RjZyQQ?oc=5",
+        "source": "https://www.shipmanagementinternational.com/",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T09:16:55Z",
+        "title": "Drone strikes ignite tanker in Black Sea, while Gulf attacks widen — SMI DIGITAL - https://www.shipmanagementinternational.com/"
       }
     ],
     "first_seen": "2026-10-06T20:33:03Z",
-    "last_updated": "2026-10-08T06:35:29Z",
+    "last_updated": "2026-10-08T13:58:14Z",
     "verification_issue": 65,
     "verdict": {
       "status": "rejected",
@@ -5321,7 +5630,48 @@
     "position_approx": true
   },
   {
-    "region": "Strait of Hormuz",
+    "region": "Black Sea",
+    "date_utc": "2026-10-06",
+    "summary": "Ahmedabad Mirror reported that 23 Indian crew members were safe after a Russian drone hit their vessel. The report gives no vessel name, flag or exact position.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": "none reported; 23 Indian crew safe",
+    "attribution_claimed": "Russia (drone described as Russian)",
+    "independent_evidence": false,
+    "id": "INC-20261006-031",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVktLdTdEdERCOGhqaW5EMFBxUGN0aHZ0X013OGFnTEZSdWVYNEdBTkRJSGE1VWtLSmk2bzZjN21yWk9lY1NNTGxhdU41VVJmazlQX2dMWEhqZ2pOc2V6eEtZSnVrX3RESVdNR0p2Q3pPWlVqVEp4dHRMWVEtQlNEYkpXcDgzN0JNNk8wcFdUNmV2c0lMak41eG9CdHY2UQ?oc=5",
+        "source": "Ahmedabad Mirror",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T11:36:30Z",
+        "title": "23 Indian crew safe after Russian drone hits vessel - Ahmedabad Mirror"
+      }
+    ],
+    "first_seen": "2026-10-08T13:58:00Z",
+    "last_updated": "2026-10-08T13:58:20Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261006-011",
+    "position_approx": true
+  },
+  {
+    "region": "Persian Gulf",
     "date_utc": "2026-10-05",
     "summary": "A Panama-flagged tanker was struck by an unidentified projectile in the Strait of Hormuz, injuring at least 12 seafarers including 11 Indian nationals, according to UKMTO and the Indian government. A later UKMTO report described a tanker hit by multiple projectiles off Qatar with casualties, which appears to be the same attack reported with a different location and date.",
     "official_source_cited": "British maritime authority (UKMTO)",
@@ -5884,7 +6234,7 @@
       }
     ],
     "first_seen": "2026-10-06T15:26:37Z",
-    "last_updated": "2026-10-08T07:42:39Z",
+    "last_updated": "2026-10-08T13:58:20Z",
     "verification_issue": 62,
     "verdict": {
       "status": "confirmed",
@@ -7219,10 +7569,19 @@
         "kind": "media",
         "published_at": "2026-10-08T01:01:00Z",
         "title": "28 killed in Russian strikes in Ukraine, Russia reports ship hit ᐉ News from Fakti.bg - World - Fakti.bg"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORmFvX1JoWS11eFVlZlVCemYzZ0RHVFR3SU94dVdub2cyRmd0cEJ4aHlnU3AweU55SDJwbERmR21RdUFMR281Sk5FSjRzYm9VckU0emNrakNFMjVwWG9jeDBCbnpiakZ3bUw1d0xDRkQ4VFBJNWVOZ0QtcWpjOThyblJVNzB0aHdWY2ZyR3pxRDJORjRvZ29WVEpwOHhwTjFJUXBVeVJ6RHlzNlktM0lvdDV1UDBYVk5SVzdmT1ljVTFGbEFtVERr?oc=5",
+        "source": "FocusPress",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T13:07:27Z",
+        "title": "VIDEO. MOMENTUL în care DRONELE au LOVIT NAVA Oyad Mammadov, în Marea Neagră, aproape de CONSTANȚA - FocusPress"
       }
     ],
     "first_seen": "2026-10-05T09:36:06Z",
-    "last_updated": "2026-10-08T06:35:29Z",
+    "last_updated": "2026-10-08T13:57:52Z",
     "verification_issue": 45,
     "verdict": {
       "status": "reported",
