@@ -42,7 +42,7 @@ Owner's requirements that shaped everything:
 | ~04:35 | GitHub `brief-trigger.yml` then `daily-brief.yml` (hold) | Fresh collection, select the last 24 h, DeepSeek writes the article, a second DeepSeek pass fact-checks it, map image, WordPress **draft**, preview page; writes `data/review/<date>.json`; **does not notify yet** |
 | 05:00 | Hermes `maritime-editor-check` | Opens the sources, checks ship names, dates, duplicates, status, positions; comments `/review <date>` with fix lines and lessons on #38 |
 | ~05:10 | GitHub `review.yml` then `daily-brief.yml` (reviewed, held) | Apply fixes, rebuild the same draft with **only the incidents the editor saw** (news collected later waits for tomorrow), code consistency checks (an area called quiet that has an incident is removed; a ship in the data missing from the text is flagged), hold |
-| 05:25 | Hermes `maritime-final-read` | Reads the rebuilt draft; comments `/send <date>` (with optional `warning:` lines) or one last `/review ... send: yes` |
+| 05:25 | Hermes `maritime-final-read` (active when the GitHub variable `FINAL_READ=on`; otherwise the editor-check rebuild is sent straight away) | Reads the rebuilt draft; comments `/send <date>` (with optional `warning:` lines) or one last `/review ... send: yes` |
 | ~05:30 | GitHub `daily-brief.yml` (send) | **Send the approval message** via n8n (11:00 IST) |
 | 05:20 | Hermes `deepseek-balance-alert` | Silent unless the DeepSeek balance is below $3 |
 | 05:40 | Hermes `github-token-watch` (profile default, script `scripts/hermes/token_watch.py`) | Silent unless the GitHub token in either profile expires within 14 days (warns at 14, 7, 3, 2, 1, 0), is rejected, or the two profiles differ |

@@ -53,5 +53,10 @@ jobs:
           case "${{ steps.review.outputs.mode }}" in
             send)           gh workflow run daily-brief.yml -R "$GITHUB_REPOSITORY" -f send=true ;;
             rebuild-send)   gh workflow run daily-brief.yml -R "$GITHUB_REPOSITORY" -f reviewed=true ;;
-            *)              gh workflow run daily-brief.yml -R "$GITHUB_REPOSITORY" -f reviewed=true -f hold=true ;;
+            *)  # hold for the final read only once that Hermes job exists (repo variable FINAL_READ=on)
+                if [ "${{ vars.FINAL_READ }}" = "on" ]; then
+                  gh workflow run daily-brief.yml -R "$GITHUB_REPOSITORY" -f reviewed=true -f hold=true
+                else
+                  gh workflow run daily-brief.yml -R "$GITHUB_REPOSITORY" -f reviewed=true
+                fi ;;
           esac
