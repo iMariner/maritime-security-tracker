@@ -615,3 +615,64 @@ def test_review_send_modes(tmp_path, monkeypatch):
     _, changes, _ = review.parse("/review 2026-10-08\nmerge: INC-20261008-001 into INC-20261007-003 | dup\nsend: yes")
     assert ("send", "", "", "") in changes
     assert review.parse_send("/review 2026-10-08") is None
+
+
+def _inc(id, region, date, status="confirmed", name=None, casualties=None, damage=None, published_in=None):
+    return {"id": id, "region": region, "date_utc": date, "status": status, "vessel_name": name,
+            "casualties": casualties, "damage": damage, "summary": f"{name or 'A ship'} was hit.",
+            "sources": [{"source": "UKMTO", "url": "u"}], "published_in": published_in or []}
+
+
+def test_writer_plan_lead_sections_and_kinds():
+    from datetime import datetime, timezone
+    from tracker.writer import plan
+    now = datetime(2026, 10, 9, 4, 39, tzinfo=timezone.utc)
+    ever = _inc("E", "Gulf of Oman", "2026-10-08", damage="struck by a projectile, fire on board", name="EVER LOVELY")
+    claim = _inc("C", "Black Sea", "2026-10-08", status="claimed")
+    aviva = _inc("A", "Black Sea", "2026-10-06", name="AVIVA")                 # older, no one hurt -> earlier
+    sunk = _inc("S", "Black Sea", "2026-10-06", casualties="ten crew missing")  # older but people hurt -> new
+    mystras = _inc("M", "Strait of Hormuz", "2026-10-04", name="MARAN GAS MYSTRAS")
+    p = plan([ever, claim, aviva, sunk], [mystras], [], [ever, claim, aviva, sunk, mystras], now)
+    assert p["lead"] is sunk and p["lead_kind"] == "new"                        # missing crew outranks a fire
+    assert [s["area"] for s in p["sections"]][0] == "Black Sea"                  # the lead's area comes first
+    kinds = {i["id"]: k for s in p["sections"] for k, i in s["items"]}
+    assert kinds == {"S": "new", "C": "new", "A": "earlier", "E": "new", "M": "update"}
+    assert p["quiet"] == ["Red Sea and Gulf of Aden"]
+    assert "A" not in p["point_ids"] and p["point_ids"][0] == "S" and len(p["point_ids"]) <= 4
+    assert p["context"].startswith("Merchant ships reported hit in the last seven days")
+
+
+def test_writer_assembles_and_guards_headline(monkeypatch):
+    from datetime import datetime, timezone
+    from tracker import writer
+    now = datetime(2026, 10, 9, 4, 39, tzinfo=timezone.utc)
+    ever = _inc("E", "Gulf of Oman", "2026-10-08", damage="fire on board", name="EVER LOVELY")
+    klang = _inc("K", "Red Sea", "2026-10-07", status="reported", name="CUL KLANG")  # earlier, not hurt
+    slots = {"title": "Tanker Acers hit off Qatar", "standfirst": "s", "lede": "The Ever Lovely was struck on 8 October.",
+             "paragraphs": {"E": "Para E.", "K": "Shots were fired at the CUL Klang on 7 October."},
+             "key_points": {"E": "Point E."}, "tweet": "Ever Lovely hit. #MaritimeSecurity", "correction_lines": []}
+    monkeypatch.setattr(writer, "_ask", lambda payload: slots)
+    monkeypatch.setattr(writer, "_fact_check", lambda s, payload: (s, []))
+    out = writer.write("9 October 2026", [ever, klang], [], [], [ever, klang], now)
+    assert "Ever" in out["title"] and "Acers" not in out["title"]             # headline must cover the lead
+    html = out["article_html"]
+    assert html.index("Strait of Hormuz and the Gulf") < html.index("Red Sea and Gulf of Aden")
+    assert "Earlier in the week, shots were fired at the CUL Klang" in html
+    assert "No new attacks on merchant ships were reported in the Black Sea" in html
+    assert html.count("seven days") == 1                                       # context once
+    assert out["quiet_areas"] == ["Black Sea"] and out["plan"]["lead_id"] == "E"
+
+
+def test_select_update_must_follow_last_sent_brief(tmp_path, monkeypatch):
+    from datetime import timedelta
+    from tracker import brief, common
+    monkeypatch.setattr(brief, "BRIEFS_DIR", tmp_path)
+    brief._SENT.clear()
+    common.write_json(tmp_path / "2026-10-08.json", {"notified": "2026-10-08T11:06:00Z"})
+    now = common.parse_dt("2026-10-09T04:39:00Z")
+    before = _inc("B", "Red Sea", "2026-10-07", published_in=["2026-10-08"]); before["status_changed_at"] = "2026-10-08T05:07:00Z"
+    after = _inc("F", "Red Sea", "2026-10-07", published_in=["2026-10-08"]); after["status_changed_at"] = "2026-10-09T04:33:00Z"
+    named = _inc("N", "Red Sea", "2026-10-07", published_in=["2026-10-08"]); named["news_changed_at"] = "2026-10-09T05:07:00Z"
+    monkeypatch.setattr(brief, "now_utc", lambda: now)
+    _, updated, _ = brief.select([before, after, named], now - timedelta(hours=24))
+    assert [i["id"] for i in updated] == ["F", "N"]

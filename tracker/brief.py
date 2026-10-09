@@ -50,15 +50,30 @@ def select(incidents: list[dict], since) -> tuple[list[dict], list[dict], list[d
                 inc.get("vessel_category") == "naval" and not include_naval):
             continue
         first = parse_dt(inc.get("first_seen"))
-        changed = parse_dt(inc.get("status_changed_at"))
+        changed = max(filter(None, (parse_dt(inc.get("status_changed_at")), parse_dt(inc.get("news_changed_at")))),
+                      default=None)
         event = parse_dt(inc.get("date_utc")) or first
         # A re-run on the same day rebuilds the same brief, so today's own publication does not count.
-        if [d for d in inc.get("published_in") or [] if d != today]:
-            if changed and changed >= since:
+        earlier_briefs = [d for d in inc.get("published_in") or [] if d != today]
+        if earlier_briefs:
+            # An update must be newer than the brief that last carried it. A change made while that brief was
+            # being prepared (its morning editor check) is already in it, so it is not news the next day.
+            if changed and changed >= max(since, _sent_at(max(earlier_briefs)) or since):
                 (corrections if inc["status"] == "rejected" else updated if inc["status"] in PUBLISHED_STATUSES else []).append(inc)
         elif inc["status"] in PUBLISHED_STATUSES and first and first >= since and event and event >= oldest_event:
             new.append(inc)
     return new, updated, corrections
+
+
+_SENT: dict = {}
+
+
+def _sent_at(day: str):
+    """When that day's brief went out for approval (or was last built), from its record."""
+    if day not in _SENT:
+        rec = read_json(BRIEFS_DIR / f"{day}.json", {})
+        _SENT[day] = parse_dt(rec.get("notified")) or parse_dt(rec.get("generated_at"))
+    return _SENT[day]
 
 
 def _e(x) -> str:
@@ -510,7 +525,13 @@ def build(now=None, only_ids: set | None = None) -> dict:
         if dropped:
             log.info("Frozen to the editor-checked incidents; left for tomorrow: %s", ", ".join(dropped))
         new, updated, corrections = ([i for i in x if i["id"] in only_ids] for x in (new, updated, corrections))
-    copy = write_copy(day_label, new, updated, corrections, incidents, now, editor_notes(now.date().isoformat()))
+    from .writer import write
+
+    # code plans the brief (lead, sections, context), the model writes the sentences (tracker/writer.py)
+    copy = write(day_label, new, updated, corrections, incidents, now, editor_notes(now.date().isoformat()))
+    copy["x_post"] = fit_tweet(copy["x_post"])
+    copy["article_html"] = _clean_html(copy["article_html"])
+    log.info("Plan: %s", copy.get("plan"))
     fixed, problems = enforce_consistency(copy, new + updated) if copy["article_html"] else ([], [])
 
     if copy["article_html"]:

@@ -214,7 +214,10 @@ def apply(body: str) -> str | None:
                 refused.append(f"{kind} {target}: no source link given")
                 continue
             field = {"name": "vessel_name", "flag": "flag", "imo": "imo", "date": "date_utc"}[kind]
-            inc[field] = value.upper() if kind == "name" else value
+            new_value = value.upper() if kind == "name" else value
+            if inc.get(field) != new_value and kind in ("name", "flag"):
+                inc["news_changed_at"] = stamp  # a ship newly identified is news for the next brief
+            inc[field] = new_value
             done.append(f"{kind} of {target} set to {inc[field]}")
         elif kind == "status":
             status = value.lower()
@@ -238,6 +241,9 @@ def apply(body: str) -> str | None:
     record["review"] = {"status": "done", "at": stamp, "changes": keep("changes", done),
                         "refused": keep("refused", refused), "notes": keep("notes", notes),
                         "restored": keep("restored", restored), "send_after": send}
+    if send and not record.get("final_read"):
+        # '/review ... send: yes' is the final read (or the owner's feedback) fixing the draft before it goes out
+        record["final_read"] = {"status": "fixed", "at": stamp, "warnings": []}
     write_json(record_path, record)
     log.info("Editor check for %s: %d change(s), %d refused, %d note(s)", day, len(done), len(refused), len(notes))
     for line in done + refused + notes:
@@ -259,6 +265,8 @@ def summary_line(record: dict) -> str:
     final = record.get("final_read") or {}
     if final.get("status") == "ok":
         parts.append("Final read: no problems found")
+    elif final.get("status") == "fixed":
+        parts.append("Final read: fixes made before sending")
     elif final.get("status") == "warnings":
         parts.append("⚠️ Final read: " + " ".join(final.get("warnings") or []))
     elif review.get("status") == "done":
