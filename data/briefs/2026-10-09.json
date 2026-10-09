@@ -45,7 +45,7 @@
   "quality": "2 check(s) need attention: dates ok; attribution 2 claims without a named source; official coverage 0/0 ok; verified 3/7; single-source items 0; confirmed ok; fact-check 3 correction(s); tweet 175/280 ok; dashes ok; consistency Arina A is in the data but not named in the article; Cul Klang is in the data but not named in the article; Maran Gas Mystras is in the data but not named in the article found",
   "review": {
     "status": "done",
-    "at": "2026-10-09T05:08:10Z",
+    "at": "2026-10-09T05:31:08Z",
     "changes": [
       "date of INC-20261008-003 set to 2026-10-06",
       "flag of INC-20261008-003 set to Marshall Islands",
@@ -54,7 +54,8 @@
       "merged INC-20261008-006 into INC-20261006-001 (the ship that sank with nine Syrians and one Egyptian missing is the Togo-flagged Alfa Watan, sunk by drones in Bulgaria's exclusive economic zone on 6 October and already tracked; Syria's call for an investigation on 8 October is about that same sinking)",
       "merged INC-20261008-011 into INC-20261006-014 (the same 6 October sea drone attack on the Liberian-flagged Aframax Rio off Sochi, already covered on 7 October; the Russian officials' remarks and the oil slick are follow-up on that fire)",
       "INC-20261007-003 marked confirmed (UKMTO confirmed the strike about 51 nautical miles north of Madinat ash Shamal at about 1900 UTC on 7 October with casualties, and Vanguard, Splash247 and gCaptain name the Antigua and Barbuda-flagged tanker Acers)",
-      "lesson (facts): A record the tracker has already rejected can be re-created from fresh articles as a brand new incident: when a new entr"
+      "lesson (facts): A record the tracker has already rejected can be re-created from fresh articles as a brand new incident: when a new entr",
+      "lesson (writing): Name every attack still in the day's facts, older ones in an Earlier in the week line with their dates, and never leave "
     ],
     "refused": [
       "lesson (facts): Never date an attack from a Telegram channel post or a video release: date it from the outlet that reported the strike, "
@@ -62,9 +63,11 @@
     "notes": [
       "The Aviva is not a new attack: Turkey's Haber Denizde reported the Marshall Islands-flagged tanker Aviva, owned by Garanti Denizcilik and managed by Bilka Denizcilik, hit in the Black Sea on 6 October with one seafarer killed and the fire put out, matching the Odesa administration's 6 October report of a Marshall Islands vessel loaded with rapeseed oil hit with one killed and seven injured. Do not lead today's brief with it, do not date it 8 October, and do not say no damage or casualty details were given.",
       "The Strait of Hormuz paragraph mixes three events and must be rebuilt. The Panama flag and the 11 Indian crew injured belong to the 5 October strike on On Peace, already reported. UKMTO's delayed warning of 8 October was a time-late report of a crude oil tanker struck on 6 October with no casualties. The paused escort followed the 8 October attack on the Singapore-flagged Evergreen containership Ever Lovely near Oman, whose crew were safe. Say those two events and drop the Panama tanker and the injured figure.",
-      "The 7 October Qatar strike on the Acers, with casualties, is inside the 48 hour window and in the facts but the article never names it: give it one line, credited to UKMTO. The 8 October fire on a tanker off Fujairah, the Marshall Islands-flagged Dhalkut in Euronews reporting, is a separate attack and not part of the Acers incident."
+      "The 7 October Qatar strike on the Acers, with casualties, is inside the 48 hour window and in the facts but the article never names it: give it one line, credited to UKMTO. The 8 October fire on a tanker off Fujairah, the Marshall Islands-flagged Dhalkut in Euronews reporting, is a separate attack and not part of the Acers incident.",
+      "The Red Sea and Gulf of Aden section is empty. Name the 7 October attack on the Singapore-flagged containership CUL Klang in the southern Red Sea, shots fired with the crew unharmed and no claim of responsibility, reported by The Maritime Executive, with its own date.",
+      "Two attacks in the facts are still missing from the text. The Greek-flagged LNG carrier Maran Gas Mystras, confirmed hit by an unidentified projectile in the Strait of Hormuz on 4 October with the crew safe, and the Arina A, claimed hit by a drone off Trabzon on 5 October with its captain killed, belong in an Earlier in the week line with their own dates, not in the lede."
     ],
     "restored": [],
-    "send_after": false
+    "send_after": true
   }
 }
