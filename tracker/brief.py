@@ -321,8 +321,15 @@ def fit_tweet(text: str, limit: int = 280 - 24) -> str:
     sentences = re.split(r"(?<=[.;])\s+", body)
     while len(sentences) > 1 and len(" ".join(sentences) + " " + tags) > limit:
         sentences.pop()
-    out = (" ".join(sentences) + " " + tags).strip()
-    return out if len(out) <= limit else out[: limit - 1].rstrip() + "…"
+    tag_list = tags.split()
+    body = " ".join(sentences)
+    while tag_list and len(body + " " + " ".join(tag_list)) > limit and len(tag_list) > 1:
+        tag_list.pop()  # fewer hashtags before cutting any words
+    tags = " ".join(tag_list)
+    room = limit - (len(tags) + 1 if tags else 0)
+    if len(body) > room:  # still too long: cut the sentence at a word boundary, never inside a hashtag
+        body = body[: max(room - 1, 0)].rsplit(" ", 1)[0].rstrip(" ,;:") + "…"
+    return (body + " " + tags).strip()
 
 
 def fact_check(copy: dict, facts_json: str) -> dict:

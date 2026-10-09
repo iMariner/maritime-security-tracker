@@ -676,3 +676,29 @@ def test_select_update_must_follow_last_sent_brief(tmp_path, monkeypatch):
     monkeypatch.setattr(brief, "now_utc", lambda: now)
     _, updated, _ = brief.select([before, after, named], now - timedelta(hours=24))
     assert [i["id"] for i in updated] == ["F", "N"]
+
+
+def test_fit_tweet_never_cuts_a_hashtag():
+    from tracker.brief import fit_tweet
+    long = ("A crude oil tanker was struck by an unknown projectile in the Strait of Hormuz on 6 October, a UK maritime "
+            "agency reported, and the UN paused its Hormuz escort after the 8 October attack on the Ever Lovely near "
+            "Oman. #MaritimeSecurity #Shipping #StraitOfHormuz #UKMTO")
+    out = fit_tweet(long)
+    assert len(out) <= 256 and out.endswith("#MaritimeSecurity") or out.split()[-1].startswith("#")
+    assert not out.endswith("…") or "#" not in out.split("…")[-1][:-1]
+    assert all(w.startswith("#") and "…" not in w for w in out.split() if w.startswith("#"))
+
+
+def test_claim_key_point_gets_attribution(monkeypatch):
+    from datetime import datetime, timezone
+    from tracker import writer
+    now = datetime(2026, 10, 9, 4, 39, tzinfo=timezone.utc)
+    arina = _inc("R", "Black Sea", "2026-10-08", status="claimed", name="ARINA A", casualties="captain killed")
+    slots = {"title": "Arina A hit off Trabzon", "standfirst": "s", "lede": "l",
+             "paragraphs": {"R": "Turkish outlets said the Arina A was hit by a drone off Trabzon on 8 October. More."},
+             "key_points": {"R": "The Arina A was hit by a drone off Trabzon, its captain killed."},
+             "tweet": "t #MaritimeSecurity", "correction_lines": []}
+    monkeypatch.setattr(writer, "_ask", lambda payload: slots)
+    monkeypatch.setattr(writer, "_fact_check", lambda s, payload: (s, []))
+    out = writer.write("9 October 2026", [arina], [], [], [arina], now)
+    assert out["key_points"][0].startswith("Turkish outlets said")

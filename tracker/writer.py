@@ -134,7 +134,9 @@ The structure is already decided; you only fill these slots and return them as J
   not say instead of repeating it. kind "update": 1 or 2 sentences saying what is new since our last brief and when
   the attack happened. kind "earlier": ONE sentence starting "Earlier in the week," with its date.
 "key_points": an object with one entry per id in point_ids: one sentence of at most 18 words each, each a
-  different fact, worded differently from the headline and lede.
+  different fact about what happened, worded differently from the headline and lede. Never a bullet that only
+  says what is unknown or missing. For a "claimed" incident the bullet names who claims it ("Russia's defence
+  ministry said it struck...", "Turkish outlets said...").
 "tweet": one or two sentences, at most 200 characters, about the lead incident, then 3 or 4 hashtags from
   #MaritimeSecurity #Shipping #Seafarers #BlackSea #StraitOfHormuz #RedSea #Tanker #UKMTO #MaritimeNews.
 "correction_lines": one sentence per item in corrections: "Our <date> brief reported <what>; <what the check found>."
@@ -251,7 +253,18 @@ def write(day_label: str, new: list, updated: list, corrections: list, incidents
         body.append(f"<p>No new attacks on merchant ships were reported in {joined} in the last 24 hours.</p>")
     body.append(f"<h2>What crews should know</h2><p>{html.escape(CREW_LINE)}</p>")
 
-    key_points = [clean(points.get(i)) for i in p["point_ids"] if clean(points.get(i))]
+    by_id = {i["id"]: i for s in p["sections"] for _, i in s["items"]}
+    key_points = []
+    for i in p["point_ids"]:
+        kp = clean(points.get(i))
+        inc = by_id.get(i, {})
+        attributed = re.search(r"\b(said|says|claim|claimed|claims|according|reported|reports|told)\b", kp, re.I)
+        if inc.get("status") == "claimed" and kp and not attributed:
+            first = re.split(r"(?<=[.!?])\s+", clean(paragraphs.get(i)) or _fallback_sentence(inc, "new"))[0]
+            log.warning("Key point for claim %s had no attribution; using: %s", i, first)
+            kp = first
+        if kp and not re.match(r"^(the )?\S+( \S+)? (gave|did not give|has not|have not) ", kp, re.I):
+            key_points.append(kp)
     if p["quiet"]:
         names = [AREA_IN_TEXT[a] for a in p["quiet"]]
         key_points.append("No new attacks on merchant ships were reported in "
