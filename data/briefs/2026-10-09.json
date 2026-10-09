@@ -1,20 +1,17 @@
 {
   "post_id": 16086,
-  "media_id": 16085,
-  "image_url": "https://imariners.com/wp-content/uploads/brief-2026-10-09.png",
+  "media_id": 16087,
+  "image_url": "https://imariners.com/wp-content/uploads/brief-2026-10-09-1.png",
   "preview_url": "https://imariner.github.io/maritime-security-tracker/preview/2026-10-09.html?v=043906",
   "link": "https://imariners.com/?p=16086",
   "status": "draft",
-  "title": "Tanker Aviva hit by drone in Izmail port, Odesa region",
-  "excerpt": "A Russian Geran-4 jet drone struck the Turkish tanker Aviva in Izmail, according to the Telegram channel Dva Mayora, with no damage or casualty details given.",
-  "x_post": "Turkish tanker Aviva struck by a drone in Izmail port, Odesa region, on 8 October, according to Dva Mayora. #MaritimeSecurity #BlackSea #Tanker #Seafarers",
+  "title": "Tanker Acers hit off Qatar with casualties, UKMTO says",
+  "excerpt": "The Antigua and Barbuda-flagged tanker was struck by multiple projectiles about 51 nautical miles off Qatar on 7 October.",
+  "x_post": "Tanker Acers hit by multiple projectiles off Qatar on 7 October, UKMTO says, with casualties reported. #MaritimeSecurity #StraitOfHormuz #Tanker #UKMTO",
   "incident_ids": [
-    "INC-20261008-003",
     "INC-20261008-005",
-    "INC-20261008-006",
-    "INC-20261008-011",
     "INC-20261008-014",
-    "INC-20261007-015",
+    "INC-20261008-003",
     "INC-20261005-029",
     "INC-20261007-003",
     "INC-20261007-008",
@@ -25,21 +22,27 @@
     "INC-20261007-010"
   ],
   "counts": {
-    "new": 7,
+    "new": 4,
     "updated": 3,
     "corrections": 2
   },
-  "fact_check": "no corrections needed",
-  "fact_check_fixes": [],
+  "fact_check": "3 correction(s)",
+  "fact_check_fixes": [
+    "Rebuilt the Strait of Hormuz section: removed the Panama-flagged tanker and the 11 Indian crew injured, which belong to the 5 October strike on On Peace, and kept only UKMTO's 8 October time-late warning of a crude oil tanker struck on 6 October with no casualties and the 8 October attack on the Sin",
+    "Added a line on the 7 October Qatar strike on the Acers, credited to UKMTO, which the draft had left out.",
+    "Kept the Aviva as background with its 6 October date and the Haber Denizde and Odesa administration accounts, and did not lead the brief with it."
+  ],
   "generated_at": "2026-10-09T04:39:06Z",
-  "consistency_fixed": [],
+  "consistency_fixed": [
+    "removed key point 'No new attacks on merchant ships were reported in the Red Sea and Gulf'",
+    "removed 'No new attacks on merchant ships were reported in the Red Sea and Gulf'"
+  ],
   "consistency_problems": [
     "Arina A is in the data but not named in the article",
-    "Acers is in the data but not named in the article",
     "Cul Klang is in the data but not named in the article",
     "Maran Gas Mystras is in the data but not named in the article"
   ],
-  "quality": "4 check(s) need attention: dates ok; attribution 4 claims without a named source; official coverage 0/0 ok; verified 2/10; single-source items 2, 2 without verification; confirmed 1 marked confirmed without proof; fact-check no corrections needed; tweet 178/280 ok; dashes ok; consistency Arina A is in the data but not named in the article; Acers is in the data but not named in the article; Cul Klang is in the data but not named in the article; Maran Gas Mystras is in the data but not named in the article found",
+  "quality": "2 check(s) need attention: dates ok; attribution 2 claims without a named source; official coverage 0/0 ok; verified 3/7; single-source items 0; confirmed ok; fact-check 3 correction(s); tweet 175/280 ok; dashes ok; consistency Arina A is in the data but not named in the article; Cul Klang is in the data but not named in the article; Maran Gas Mystras is in the data but not named in the article found",
   "review": {
     "status": "done",
     "at": "2026-10-09T05:08:10Z",
