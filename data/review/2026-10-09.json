@@ -1,0 +1,487 @@
+{
+  "date": "2026-10-09",
+  "title": "Tanker Aviva hit by drone in Izmail port, Odesa region",
+  "preview_url": "https://imariner.github.io/maritime-security-tracker/preview/2026-10-09.html?v=043906",
+  "incidents": [
+    {
+      "id": "INC-20261008-003",
+      "status": "claimed",
+      "region": "Black Sea",
+      "date_utc": "2026-10-08",
+      "vessel_name": "AVIVA",
+      "imo": null,
+      "flag": null,
+      "vessel_type": "tanker",
+      "location": "Izmail port, Odesa region, Ukraine",
+      "attack": "drone (UAV)",
+      "damage": null,
+      "casualties": null,
+      "attribution": null,
+      "summary": "A Russian Geran-4 Sicker jet drone struck the Turkish tanker Aviva in the port of Izmail, Odesa region, according to the Telegram channel Dva Mayora. No damage or casualty details were given.",
+      "checked_by_hermes": false,
+      "sources": [
+        {
+          "outlet": "Dva Mayora",
+          "title": null,
+          "url": "https://t.me/dva_majors/100162",
+          "published": "2026-10-08T10:56:22+00:00"
+        }
+      ]
+    },
+    {
+      "id": "INC-20261008-005",
+      "status": "claimed",
+      "region": "Black Sea",
+      "date_utc": "2026-10-08",
+      "vessel_name": null,
+      "imo": null,
+      "flag": null,
+      "vessel_type": "general cargo",
+      "location": "at sea, bound for Chornomorsk port, Ukraine",
+      "attack": "other",
+      "damage": null,
+      "casualties": null,
+      "attribution": "Russian armed forces (Russian MoD via TASS)",
+      "summary": "TASS reported that Russian forces struck a cargo ship at sea that was delivering supplies to the Ukrainian port of Chornomorsk. The report gives no vessel name, flag, position or damage details, and the claim comes from the Russian side.",
+      "checked_by_hermes": false,
+      "sources": [
+        {
+          "outlet": "TASS",
+          "title": null,
+          "url": "https://t.me/tass_agency/399389",
+          "published": "2026-10-08T18:02:22+00:00"
+        },
+        {
+          "outlet": "Russian Ministry of Defence",
+          "title": null,
+          "url": "https://t.me/mod_russia/68046",
+          "published": "2026-10-08T17:01:07+00:00"
+        }
+      ]
+    },
+    {
+      "id": "INC-20261008-006",
+      "status": "reported",
+      "region": "Black Sea",
+      "date_utc": "2026-10-08",
+      "vessel_name": null,
+      "imo": null,
+      "flag": null,
+      "vessel_type": null,
+      "location": "Black Sea",
+      "attack": "drone (UAV)",
+      "damage": "ship sank",
+      "casualties": "nine Syrian nationals missing",
+      "attribution": null,
+      "summary": "Syria said nine of its nationals are missing after a drone attack sank a ship in the Black Sea. The report gives no vessel name, flag or exact position.",
+      "checked_by_hermes": false,
+      "sources": [
+        {
+          "outlet": "ETV Bharat",
+          "title": "Syria Says Nine Nationals Missing After Drone Sinks Black Sea Ship - ETV Bharat",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcFhDeUhGRWFycTg3RDNFcWFVNmRDU005Qzc2WVBpc1hnV0syR1pkcE1MLVh4d296dTBVUDRsemd0ajZ3bmdkaFZlc0xqS3k4UVFUc3E2QU1xZ0M2aUtYdElTMVdvdFlkTUU5NGhuTVRHRmd6WUFPTXc4Wld6dUpqdDZPeHN5Sk1LaWVjdk11emo5MHRZdTNsekJHaHZITG11cW9RbnFyR0ZPeUF5TXJtR1Y3UEJYaDVLUkN2eUFNOEdmODlVS2M40gHHAUFVX3lxTFBwWEN5SEZFYXJxODdEM0VxYVU2ZENTTTlDNzZZUGlzWGdXSzJHWmRwTUwtWHh3b3p1MFVQNGx6Z3RqNnduZ2RoVmVzTGpLeThRUVRzcTZBTXFnQzZpS1h0SVMxV290WWRNRTk0aG5NVEdGZ3pZQU9NdzhaV3p1Smp0Nk94c3lKTUtpZWN2TXV6ajkwdFl1M2x6QkdodkhMbXVxb1FucXJHRk95QXlNcm1HVjdQQlhoNUtSQ3Z5QU04R2Y4OVVLYzg?oc=5",
+          "published": "2026-10-08T11:34:42Z"
+        },
+        {
+          "outlet": "Elnashra",
+          "title": "هيئة المنافذ السورية: فقدان الاتصال بـ9 بحارة سوريين بعد استهداف سفينة بالبحر الأسود - Elnashra",
+          "url": "https://news.google.com/rss/articles/CBMisANBVV95cUxNa1Ftcjl0d1l4OGRnVmpaLVQxN0RVSmM0ZXhLdU1DVmNVMnNkUDJTQjduUmlaZkFQTjZfODhtenFhLWlzQ2Z2MjkyLVpFTU1IVDFPRjRqSnpCdC12Yk9mYzM1d1JZTVZqU2ZDRE1DTENWQWl1Q1otOURsbHRLUk1xRW5LVkdtTHBybV84YzgwUklFeTM2TVdkOXlIOWlCS1UzTk9WME42YVJIUnRreHFUenJTV1RTc2MwckJxZENpOVZfVElHSk05ZkR4RFdXay0zTmRZLUE2YlVqcG5vSVVWRzE1U0pfaWJvUXEtNU9teFF6ZmttdGdhY3hYdG45bzZPQUp4VExfa3JGWm1maUxmUllZeU9HbUx2Rl9IcTMwbVA4WVFPcHlJaDk1VGdJTDB5QXVndDgtdWNiNVQybHBydGtyWGc3RGtjT1lDdlpyM1JBdGs1OF9Id2tXR0FEWUJEZkh6NzRFbXdZMEpjNjFXQzcyNGRWSlB5Q3Y4Q0NWUXJkdENvNXZpaGM3aFlTN2lXay1IOG1Kczc0R0pIY3g1RmI2THpDQW8yWmRIQ180T3c?oc=5",
+          "published": "2026-10-08T14:55:22Z"
+        }
+      ]
+    },
+    {
+      "id": "INC-20261008-011",
+      "status": "claimed",
+      "region": "Black Sea",
+      "date_utc": "2026-10-08",
+      "vessel_name": "RIO",
+      "imo": null,
+      "flag": null,
+      "vessel_type": "tanker",
+      "location": "Black Sea",
+      "attack": "other",
+      "damage": "vessel ablaze",
+      "casualties": "crew uninjured",
+      "attribution": null,
+      "summary": "The Aframax tanker Rio was attacked in the Black Sea and left ablaze, with an oil slick reported off the Russian coast. Russian officials said the crew was unharmed and that consequences were limited.",
+      "checked_by_hermes": false,
+      "sources": [
+        {
+          "outlet": "ИФЗ РАН",
+          "title": "Inside The Black Sea Tanker Attack That Left The Aframax Rio Ablaze - ИФЗ РАН",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUk5QYWtqME1sZl9PS1Naci1HSzFwVEdvaVczazUweHc0Y3hMbk02VjNZckVZdnl6TFFsQWZXOEV1eTBSLW5ta2xoejJvOFhCczVURTZkNUppcU9SUm96SUUwa0Zwd05sWUNvUlotT3dESW5NR0NiQUZBdnBxMGI4MkxvMWdIZw?oc=5",
+          "published": "2026-10-08T20:07:33Z"
+        },
+        {
+          "outlet": "47 новостей из Ленинградской области",
+          "title": "\"Отделались малой кровью\". Песков рассказал о последствиях пожара на танкере в Черном море - 47 новостей из Ленинградской области",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5vcHRFWkFadGVYOUR1NC1QLVBSMUpEZ1Y3eDU0YkFidnk3RmpSVVAxX2Y0dm5kdmtWWXNzQ055WFlQV0VQczJxekUxR1pqTHc?oc=5",
+          "published": "2026-10-08T08:41:00Z"
+        },
+        {
+          "outlet": "Рамблер",
+          "title": "Песков: меры после атаки на танкер в Чёрном море приняты оперативно и эффективно - Рамблер",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORXdxelBkNkw5cGVUQWx5ZTlIZnI0bjlualc0MXpXcUh4bUJ6VW5FOF9DUkt4QnR3bXd0ZElSYWtQeW9DdFdJQ3VyZXR5RjF5WF9vcTlnUlg2OWR4YmVwTVNrTGwxVXlIS1piT1JzQUtLcE93RDdtakRIcHo5SEswUXFROUFMdFZKU1ZXbHpyOF9Na1Z6c3BDd3AxTlJBc1RCVmFuWkJmRVVKbU9fQmFTY1hMNEg4U1g1akoxY3MyQmE0QdIBxwFBVV95cUxOUGo2RlV6VU53a2l0U1N5Mmo0X01IdXlZSVVJVlFJcVlRYndvOEtjZWtTVkk5N1B2N3pOQUt3bUY1c3lKcVlYSU1jaXJweUQ4bXBqa2pPSk1BX3d3YUg5YVI5ZlNCdHNkSlNmczRraHFvcldOOXVfUEpLQTFoeGhHcmJmZmstMURLRnE5Y2RqelpoZUZJbHJxdkljUlhiaG0yeXZ4NENSbVliZEZKSWpDMkQyZ2N0eEttRGRMbW85S3p0aWFkSDdB?oc=5",
+          "published": "2026-10-08T08:17:30Z"
+        },
+        {
+          "outlet": "TourDom.ru",
+          "title": "Песков: Путин в курсе о ситуации в Сочи после атаки на танкер - TourDom.ru",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOLVpfRC1YYlhhWUpYX3ZkdkF2WnplU0dSbkdFVk8xVEpYM1JIQjZkS3ZvanNXRF93ZG5Qd2t1MWxGMDg1emY2X05iZUM2Z3luT2N4OFpwb0lZQUpzRjRlOGhpUERocHdfUncweUtjR1pSOHY1OE93WVFpVi10VndicHFMTHEyUngzeHppaFVCajliTWptSkhBM0F6SQ?oc=5",
+          "published": "2026-10-08T08:12:03Z"
+        },
+        {
+          "outlet": "Українські Національні Новини (УНН)",
+          "title": "An oil slick formed off the coast of russia after the attack on the tanker — the Russians claimed there were no consequences - Українські Національні Новини (УНН)",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNa21SX0ZCdGxGMUFWeUctX015NjYzQkZ6SGl6QjVPZTJNZVB5enllZ0hSTWduY0NXOEdrdXRnNVdaRGJpOUNYb2NYQ1ZwdF9LRUhMQ1VMYmZrSDlqSnQxQXh0Sm1idXFiM083NUxPUExFMjlDVGRRaWFDNzgySE43RUc0dG8zVXdHWUxpcmFPUzFtV1FNMGJjcktNajlCR1p3YVE1WWVUUUN6eFdFU044ZkEwelN6X21QNXJDRWcwZElJQzItT25CVTM4NUlMN0plWnhuUF9LdXMtVHQzR2fSAdwBQVVfeXFMTm15WlU4UUtEU1RWY0QzVUU4RzQxdU83c3FBRGZoeUFJRkRzNUZGYWp3QW1aM2hyaFI0OTdJTEVuT3JjbU1Yek1hU09CTlNmdWdXRVJ6cTVfWjFaWmVuRGhqd3FMQ2xZN0dfMHYxN0R2STBEWURjV0tEcFMzc3BTdUhXUkdLLTdUekg4WldUM2FLQmp2VnZ1N2VQQkhxdEZicDdlU0RBZmdCaDNObWhPVXhhejlTZURaUkFLMExsd1Btbk1sMkRQM0o2OXFZbXlyZ0swVjBnc3NpMTRxNg?oc=5",
+          "published": "2026-10-08T22:56:08Z"
+        },
+        {
+          "outlet": "РИА Твои Новости",
+          "title": "Путину доложили об атаке на танкер в Черном море, экипаж не пострадал - РИА Твои Новости",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9uUkxmRzdfZ0pZSkFKdjR2V3UxODI5b2JlMVlQLV9pdkhWa1A4Y09UWkxCeXl2eGRqdTFzZk9ydmdfdnI1WnY0UXJjeFU?oc=5",
+          "published": "2026-10-08T05:47:54Z"
+        },
+        {
+          "outlet": "https://www.engine.online/",
+          "title": "Tanker set ablaze in Black Sea after unmanned boat attack - https://www.engine.online/",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMW93bV90RlAwTHpzQlNmZmwyLW5xRkE4Z0tzV1VUMkYtZHgwN0hueUFIOFFOSkc0Y1VXWVFnbTMxSFZGYmh1M1N6bjJoa2tTLTNHTlptV28zTE9hc0tSNDdqVGVUZUNNaF9PeGJiNFdOUzlNQVFNZE41UHd1M0x1VmFJdzl0ZkM3OERyNGJhUDVWSFU?oc=5",
+          "published": "2026-10-08T16:31:54Z"
+        },
+        {
+          "outlet": "prospect.com.ru",
+          "title": "Утечки нефти после пожара на танкере в Чёрном море не обнаружено - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTTVtOFdxRUl4LTJ6bEttMmpleEpKb2VBLW4xdjZiWkRkR2wxNW5WTUxlM0JUaDEwcUoyQUZfRGMtY181ZEdHWmpSdTRrRkVvUmtmZEh1VUxqNkJrQVdCWDlXVWNuQ21mYVo3Zzg3Y0F0eTNFay13VlhjOE5oZm9JNGVvWkZ2b25wTkx5ay13T0NiRlA3a0EtalAydUFzMmNMb2NtREpqaGY2UmdV?oc=5",
+          "published": "2026-10-08T10:06:46Z"
+        }
+      ]
+    },
+    {
+      "id": "INC-20261008-014",
+      "status": "reported",
+      "region": "Strait of Hormuz",
+      "date_utc": "2026-10-08",
+      "vessel_name": null,
+      "imo": null,
+      "flag": "Panama",
+      "vessel_type": "tanker",
+      "location": "Strait of Hormuz",
+      "attack": "other",
+      "damage": null,
+      "casualties": "11 Indian crew injured",
+      "attribution": "Iran (per headline claim)",
+      "summary": "A crude oil tanker was struck by an unknown projectile in the Strait of Hormuz on 8 October, according to a UK maritime agency, with reports of Indian crew among the injured. The UN halted its escort of ships through Hormuz after the vessel came under attack, and a Times of India headline separately said Iran attacked a ship in UAE waters.",
+      "checked_by_hermes": false,
+      "sources": [
+        {
+          "outlet": "Middle East Monitor",
+          "title": "Crude oil tanker struck by unknown projectile in Strait of Hormuz: UK maritime agency - Middle East Monitor",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZTBHS3FBMHZYVm9YRXZaQXhucmZiTzBWZmtybFdmdU5wZ2J0bTFyVjd2N3hXem5NNndTd19qZmE0MlJGY055TE9LdFE0M01OS2VFazBWcWxpREQ0VFlpT1FBQXQ2TGZkMEVPWTJMV01XMm5wVnhFaVZ5eVlMcTJxZ01nQ0hac3NtQ0l1LVhhYVVmcmZ0X1o3WkVybkxvSU5WRGEzc2QxWC0yVTdna3ZWdmFNUmM1cThzMWV0MkU4VllmZUkyXzZv0gHMAUFVX3lxTE1seWtUeEJXSDlkUERVYmNHeXp2MnBidXJTYk5tTFptWWtWNk10YWZrXzk0ZmhHbzdhTy1QMnlMbU91NnVCZGQtcm5NNnBOckpiRUFHZUptQV9HU0IyeHF6Z0NlLURJN0luTU1jOC1fc1lSTmVPeWR4T2swVGlDdzY1eDdOdmdwTXluZUlrUTN4TmdSUHRpR0ttd3dvcHlNcEUyM05peElPWkd3QldoSUt4WkpOQjJzQTdLZEEyeHk3MXluQWUyWTRUTV9rQg?oc=5",
+          "published": "2026-10-08T18:10:00Z"
+        },
+        {
+          "outlet": "ThePrint",
+          "title": "11 Indian crew injured in strike on Panama-flagged ship in Strait of Hormuz, New Delhi condemns attack - ThePrint",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTzhvUExwQktnbjZWS3lhLXFzUzdVU2FROTA2R1lHUHRsRGpyXzN2amV6Y2tJMllpWGUwaTVyWHJ0cFI0TDY0NVdxSGVUMmJXYlUyVHNXbGROeVVzU2hHdXJta180SV9kYkp4S1VwWkRONVUzb01RcVZUM3VUSERvVjVwbTM4WVctRzJBZGZuN0FaMWhKTE1rVHpWTEpmVDEwd3FKYVFrV3gwUV9LckgzNGtVWmQxeUlvUWloaExRN3ptZjNfaGY4SXd5WXFCaUJrREHSAdcBQVVfeXFMTjFfOS13N3ZGWkpqclBRRE1SVG9JNWRXWDMwVURVdm5OUkpQTno3eUpCTXlHN2dCWXRMYm56YWpPaGlXUVNYejdNM0lmSFZ1NWZCc0dtWHlUcEZFbXUydFJwUW9kV1dhdHhXcEIzZFI5dWJqWXhLbl9GdzloaGU1aEtwaWFoekhERU5CZERjUE1vU2FseS1QSF9xQklkUkI2dW0wMUREY19uQllsZ0xuNm50SHcyTmREN3Q4bEh5Wl82dTdrS3dqU25wc3pCZzdNMW9Ndk11aU0?oc=5",
+          "published": "2026-10-07T06:18:06Z"
+        },
+        {
+          "outlet": "Riviera Maritime Media",
+          "title": "News Content Hub - 12 injured in Hormuz attack; Angelicoussis LNG carrier among several vessels hit - Riviera Maritime Media",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPajRPMDhxTUFSYnpwWlYyWTZFRzNMZTNJRXduc3poWHBRQmtlQlBTczg1ZFZMSXMwM2lVOE9POXJ3MFRDVVc4UlVGbGZMZHAzdWVkT3ZVX0p6Z0laTUVQeHV4NnRaM0F1R29TekpqVW9pWVZteGNYZUI5eWZWLVY4NTRkUTdjRFdJNW9rdWt1WlJHTjhyOHpkajNTcmZ3clFMMGZ1Wlh5d2tFQjJTNlJXY3ZHOTVwVk13TVUyS25QWWYtU3d2S1h1V0tYaHRaY2h4ejZiTVRsVzFIeHBu?oc=5",
+          "published": "2026-10-07T04:50:57Z"
+        },
+        {
+          "outlet": "DD News",
+          "title": "UN halts escort of ships through Hormuz after vessel comes under attack - DD News",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNEY5SmQxTXFDU2ZRR3ppRUo5THl6R2hFakNYYXMzUGtDeGtra0ttZFlSc3lmamo2Z3BlbHhJaU9MNF9lRGhtRC1jcVJBY2FZNkpFNVlhWHVXaUNJNVoyaXM3QktaTFVVeWtYV2E0bHJLeXdtOUdmWWtjTzZNMTJkaHIyRHFqY0l2aDJEZzJpV0RsX0tIVGI2WDdUSWFsZw?oc=5",
+          "published": "2026-10-08T18:54:40Z"
+        },
+        {
+          "outlet": "The Times of India",
+          "title": "IRAN ATTACKS SHIP IN UAE-New - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOajFKSVgtSVJDZzJzYjlZa0tSZlRVVkNUcHQ0aVBheDFoU0Q5SUhoVGVxa1lBMDBGQWMtTFZrNjZpTjdkMlpDTWxHdUg2SVJ0Yml3bFdrUWhOZkJzQXNkblN3ZjFjQ2YzN2xlbWFXdlVLS2ZvaHQzWmhTV0NGS3FrYTgxQWpyNG9XOGpDUjRiaWcybzBraFpram9VVW5aS1dUUlVzUmQtMERxTU1ZNmVZd2JGdGxoeFpGalZFWWx0QVhTTTZlOVBnaEoxeVI1THZCYUZaTnVOZ0FLMFMzcWt2eFA0S0dSQ3dLTU1FWUk1V3JzNFNXOWNNQkJaalZYX3d5ekQyZjYwY9IBjAJBVV95cUxObTIwcllEX3pWVXMweTBQYlBhMEVTY1lxNTFCQ1NEZ1dNTUlOaG56SDU0aGJxelhOdWlkRl90Q3NXOS1ra2Nsc2EzbmlXU0hnN05pSXREMXVDWWx0eFBPVEM4MEF2MUUwdmlFLWN3cVcxcTA5a0c5QkZ2NFhQTVcyV2FxSzNqeU5GY1B6bVFJTTVmbm81a3pPYU14dWE3WXEwX1l4ekNtQzZjcm96WGxoZ1ROcm1Edmx6MFQwdXdGbi1wSzA4LWFFV3BzOGtzaFpIeUZUdlZ0MEUtM2M2M3JJSnF2Y1g3NFhNdXZiU2FTSlMwd0IycXBBSGtZZzRaeHBFR3p6WXUtOW5DOFdq?oc=5",
+          "published": "2026-10-08T09:53:06Z"
+        }
+      ]
+    },
+    {
+      "id": "INC-20261007-015",
+      "status": "claimed",
+      "region": "Black Sea",
+      "date_utc": "2026-10-07",
+      "vessel_name": null,
+      "imo": null,
+      "flag": "Turkey",
+      "vessel_type": null,
+      "location": "Romania's exclusive economic zone, Black Sea",
+      "attack": "drone (UAV)",
+      "damage": "vessel sank completely",
+      "casualties": null,
+      "attribution": null,
+      "summary": "A Turkish vessel was hit by drones in Romania's exclusive economic zone and sank completely, according to a Romanian news report. No vessel name or casualty details were given.",
+      "checked_by_hermes": false,
+      "sources": [
+        {
+          "outlet": "Adevărul",
+          "title": "Momentul în care nava turcească este lovită de drone în zona economică a României. Vasul s-a scufundat complet - Adevărul",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSmhCTmdPMFJnOXRfclhlZV82ckgzUF93YV94YmRoRkVMb29YbWFCWUt4ZngyZmsteGlkQlZZQVJRX0hESVlDOHBMZVFUZl9kYkQ4TnNEemJmbjB3QVBYVzhoMFExRE40ZUU0V0ZSdjNWR2JCWjVKcXlpMTJVeHkyNklhVkRmVkljbThOeWtvYVNYeXZvdWJ2VkRLV2dQYWstcl9pTTJQaw?oc=5",
+          "published": "2026-10-07T15:31:43Z"
+        }
+      ]
+    },
+    {
+      "id": "INC-20261005-029",
+      "status": "claimed",
+      "region": "Black Sea",
+      "date_utc": "2026-10-05",
+      "vessel_name": "ARINA A",
+      "imo": null,
+      "flag": null,
+      "vessel_type": "general cargo",
+      "location": "off Trabzon, Black Sea",
+      "attack": "drone (UAV)",
+      "damage": null,
+      "casualties": "captain killed",
+      "attribution": null,
+      "summary": "The vessel Arina A, whose captain was killed in a drone attack, is off Trabzon. The report gives no further details on the attack, damage or other casualties.",
+      "checked_by_hermes": false,
+      "sources": [
+        {
+          "outlet": "Gümüşkoza Gazetesi",
+          "title": "Kaptanı Dron Saldırısında Hayatını Kaybeden ARINA A Adlı Gemi Trabzon Açıklarında - Gümüşkoza Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPT3NUN1FLbm5EQUJuS281MG9nd2tENl81bTN5Q0tnc1MwdXN2WmFZMS1HM2N5eHVoWVFodFVsZkJCUnJoeTYwZm13LVB5LWlQRWthT0dTZGxGUmJCY20zU2tiaV9DQlNzNnlyT2MwMFFndHczRmp0V1pldFdwX253dzl1cUZSVF9YdHRkU0R5TGdSM0RzWkhmbDBnd1p6dFpkQjMycnRlUkVqVTd4Q0tla016S0k3MVVvVm9qN003TnpnbjNlaklHNdIByAFBVV95cUxPT3NUN1FLbm5EQUJuS281MG9nd2tENl81bTN5Q0tnc1MwdXN2WmFZMS1HM2N5eHVoWVFodFVsZkJCUnJoeTYwZm13LVB5LWlQRWthT0dTZGxGUmJCY20zU2tiaV9DQlNzNnlyT2MwMFFndHczRmp0V1pldFdwX253dzl1cUZSVF9YdHRkU0R5TGdSM0RzWkhmbDBnd1p6dFpkQjMycnRlUkVqVTd4Q0tla016S0k3MVVvVm9qN003TnpnbjNlaklHNQ?oc=5",
+          "published": "2026-10-08T13:29:00Z"
+        },
+        {
+          "outlet": "Mersin Haber",
+          "title": "Trabzon Açıklarında Dron Saldırısında Kaptanını Kaybeden ARINA A Gemisi Yer Aldı - Mersin Haber",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9zWGs2b0trQ05sODViYXVxWFVuMXlDWEsyUzF4SHBSSXpoRnFwZGg1bEw4MU4tN1dXak1XUXdfazBjQTItN0wxZkhnRnNJUzVXa0RUVHF1NNIBV0FVX3lxTE9zWGs2b0trQ05sODViYXVxWFVuMXlDWEsyUzF4SHBSSXpoRnFwZGg1bEw4MU4tN1dXak1XUXdfazBjQTItN0wxZkhnRnNJUzVXa0RUVHF1NA?oc=5",
+          "published": "2026-10-08T06:19:28Z"
+        }
+      ]
+    },
+    {
+      "id": "INC-20261007-003",
+      "status": "confirmed",
+      "region": "Persian Gulf",
+      "date_utc": "2026-10-07",
+      "vessel_name": "ACERS",
+      "imo": "9301902",
+      "flag": "Antigua and Barbuda",
+      "vessel_type": "tanker",
+      "location": "Arabian Gulf",
+      "attack": "other",
+      "damage": "fire reported on vessel",
+      "casualties": "casualties reported",
+      "attribution": null,
+      "summary": "UKMTO reported a tanker hit by multiple projectiles about 51 nautical miles off Qatar in the Arabian Gulf on 7 October, with casualties reported. A fire was later reported on a vessel near Fujairah, and a containership was reported under fire in the Red Sea, both consistent with the same attack cluster.",
+      "checked_by_hermes": false,
+      "sources": [
+        {
+          "outlet": "The Maritime Executive",
+          "title": "Tanker Hit Multiple Times in Arabian Gulf, Casualties Reported",
+          "url": "https://maritime-executive.com/article/tanker-hit-multiple-times-in-arabian-gulf-hundreds-of-miles-from-hormuz",
+          "published": "2026-10-07T19:52:28Z"
+        },
+        {
+          "outlet": "Splash247",
+          "title": "Tanker attack off Qatar widens Gulf shipping conflict",
+          "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
+          "published": "2026-10-08T08:45:29Z"
+        },
+        {
+          "outlet": "gCaptain",
+          "title": "Tanker Attack Off Qatar Signals Wider Threat Beyond Hormuz",
+          "url": "https://gcaptain.com/tanker-attack-off-qatar-signals-wider-threat-beyond-hormuz/",
+          "published": "2026-10-08T14:25:15Z"
+        },
+        {
+          "outlet": "Quantum Commodity Intelligence",
+          "title": "UKMTO reports attack on tanker off Qatar - Quantum Commodity Intelligence",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOY1p3UUZ2emxTMzVIc3F0NnRVaUFubVVLLTRVSDdMV2pFYk81d284VldaVTk3S3hIZ1VkR2thTUdIVFc2cy1SeVdRUVBuOUZua011cUl0ZWF5Y2stbE1ucmRrSVpDTVNsdnRfM1JPb3U5bnBQYnNwZDJzemtyZkp6UXc0RnJuRlFWSzd3?oc=5",
+          "published": "2026-10-07T22:05:22Z"
+        },
+        {
+          "outlet": "Latest news from Azerbaijan",
+          "title": "Tanker hit by multiple projectiles north of Qatar; casualties reported - Latest news from Azerbaijan",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQ29PbDJieUI4X2FyU0k1ZHhCR0ZxSW1mR0VhYTFiTjZlbEI5V0tsbFJSWGotaUpRNDh3dHkzdTZ6UmJkWWhqVS1CNjVCUldFaFJOVVpjWWlWUmVrcFVqYWZ6QnBtZ0JOWERsUlpSWjV3c25ydVNabEhXZFdlVWVoTkhGb19iWnJwNzRqS1JRaHJHMDRZ?oc=5",
+          "published": "2026-10-07T21:15:29Z"
+        },
+        {
+          "outlet": "Demócrata",
+          "title": "Attack against a tanker off Qatar leaves \"victims\" amid tension in Hormuz - Demócrata",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOek1RTFREV19CbTJGWnNtSW83SVk3b0JxSDl6VS1iS0FKQnNxTEZXdzNtWnZNWHd4aDY3OVYzS2dPQXdSQnNJS0xuVkp1N3A0MG02azVCVWRYWDRjTVM0cllucHYwLVNqTk9jR2dSeHhKUkZRdFZ3eGxvWGZNcFQ1SGNuZE10ME1peVdZUzZuVWJzWWN2aklPWTA0TWl1T0hBU3V5Y3BPXzlFMXVqcFZlMkkyajTSAboBQVVfeXFMTzNyR2cwdkhYbXNYalhjLVNTNWl3ZUZCMjBpZ3ZXMHFCdXlPTjM1TGRGWC1EcWpKWXJqQ3V3TDVjRldJOWVaNUZkbDFWMldwaGhSVDFEQjRNdGRnd3FfcS1aWlN5ZVFIZW8wMDlJREZUQzd2VVg0amhuX3BKakk2QnRrdFM2dWxaMHhINVJ0dHZxazVhVHM5dFJ2Z1c1aF9HQ3ZjWWN6UmM0cDRXVS1Fd0ROTmNvNl9IdG5n?oc=5",
+          "published": "2026-10-07T21:06:41Z"
+        },
+        {
+          "outlet": "شفق نيوز",
+          "title": "Shafaq News..Tanker attack off Qatar coast leaves crew injured - شفق نيوز",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVXVOY1BQYnlFdEJyZFk4U0wtaHlERGY1RUZUcGVhYnltT0lsLXV1Qm1Pb0toLWdBSUVCc2xIYmZqVENXZHI3Z0ctMmNHdnhWTnN6MjVZVlVCajhnbnU2cTFOZW5wSEVSQ0Q1YXgzb21GdUhIX2FtQjJ6eGlHaHlVbU1fYw?oc=5",
+          "published": "2026-10-07T21:00:30Z"
+        },
+        {
+          "outlet": "investingLive",
+          "title": "War escalation: Tanker hit by multiple projectiles 51 nautical miles off Qatar, casualties reported - investingLive",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQV1hRY2Fwa1dvZGt6bHRMdkhSSnVMRzQxME5nZ29lSnJZbkFHVzBHMFRrRUlIYTF1TnJCUkhWRHVBR1kzUEF0WnRZd2lOYi1UR2FsMW9VMDdrdEt5M3FkdGtGdFJ2UDhuNUI0WWZMQnBuVkM0bVNqaVlDeTRjZ2dqRFY5N0ZkUEhWS3JheVhtNmNuV1VVdmQtcEpsUjhBeXpETXNuU29DQkt2empaMFQwcXRIWVVMMlk3SVE4WW9OTE9LNHlVTHE4dG92dHp1OVNFZ1E?oc=5",
+          "published": "2026-10-07T20:34:59Z"
+        }
+      ]
+    },
+    {
+      "id": "INC-20261007-008",
+      "status": "reported",
+      "region": "Red Sea",
+      "date_utc": "2026-10-07",
+      "vessel_name": "CUL KLANG",
+      "imo": "9958535",
+      "flag": "Singapore",
+      "vessel_type": "container",
+      "location": "southern Red Sea",
+      "attack": "gunfire",
+      "damage": null,
+      "casualties": null,
+      "attribution": null,
+      "summary": "Shots were fired at a Chinese containership in the southern Red Sea early on Wednesday, October 7. Details are unclear and there were no claims of responsibility.",
+      "checked_by_hermes": true,
+      "sources": [
+        {
+          "outlet": "The Maritime Executive",
+          "title": "Shots Fired at Chinese Containership in the Red Sea",
+          "url": "https://maritime-executive.com/article/shots-fired-at-chinese-containership-in-the-red-sea",
+          "published": "2026-10-07T20:03:32Z"
+        },
+        {
+          "outlet": "maritime-executive.com",
+          "title": null,
+          "url": "https://maritime-executive.com/article/shots-fired-at-chinese-containership-in-the-red-sea",
+          "published": "2026-10-08T05:08:25Z"
+        },
+        {
+          "outlet": "maritime-executive.com",
+          "title": null,
+          "url": "https://maritime-executive.com/article/shots-fired-at-chinese-containership-in-the-red-sea",
+          "published": "2026-10-08T05:08:25Z"
+        },
+        {
+          "outlet": "vesselfinder.com",
+          "title": null,
+          "url": "https://www.vesselfinder.com/vessels/details/9958535",
+          "published": "2026-10-08T05:08:25Z"
+        },
+        {
+          "outlet": "Kuehne+Nagel",
+          "title": "Chinese-operated containership fired upon off Yemen as Red Sea security concerns intensify - Kuehne+Nagel",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVzRSczJBQ05HYmF4ZzctX1JYXzJqUHptLXI4T2FRcjRsOTB1cERETnA2OVBRd0dpYi0yOTQxUXZOVXdhRGpla0V3STI4UEFEV3FLUmNDQ1hlWGFMaGZLMXlvM2kxSkJ0OXZPWWQwTE1wd1pUZ1laRHNTSU1VODVrSGdueXo5Snp6bEpoaXYweFdPZw?oc=5",
+          "published": "2026-10-08T08:27:00Z"
+        },
+        {
+          "outlet": "The Maritime Executive",
+          "title": "Shots Fired at Chinese Containership in the Red Sea - The Maritime Executive",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQb2dqSkxPV0dyZW9PZHN5Ui1EOEdoMXBxSFNtU2x4RXdjdjNWb01uZXl6VThSVEh6WU1sLUpxV1ZHVXE4UUJMU2xBNWtoSVZVaXVrVWtiZkcyWDFFMHU3azNOMzQwQXhvV2p4NXptOWNKLVFrYlQwdjh1QlZmZkRJYjNfV3FlYzdNazBuRnBmWmU0aHhl?oc=5",
+          "published": "2026-10-07T20:03:32Z"
+        }
+      ]
+    },
+    {
+      "id": "INC-20261004-017",
+      "status": "confirmed",
+      "region": "Strait of Hormuz",
+      "date_utc": "2026-10-04",
+      "vessel_name": "MARAN GAS MYSTRAS",
+      "imo": "9658238",
+      "flag": "Greece",
+      "vessel_type": "LNG/LPG carrier",
+      "location": "Strait of Hormuz",
+      "attack": "explosion (cause unknown)",
+      "damage": "hit around the waterline",
+      "casualties": null,
+      "attribution": "Iran (implied by headline 'as Iran piles up attacks')",
+      "summary": "The Greek-flagged LNG carrier Maran Gas Mystras, operated by Maran Gas Maritime, was struck by an unidentified projectile while leaving the Strait of Hormuz. The vessel was hit around the waterline on Sunday.",
+      "checked_by_hermes": true,
+      "sources": [
+        {
+          "outlet": "Hellenic Shipping News",
+          "title": "Second Greek-linked ship hit in Hormuz within days",
+          "url": "https://www.hellenicshippingnews.com/second-greek-linked-ship-hit-in-hormuz-within-days/",
+          "published": "2026-10-06T21:00:53Z"
+        },
+        {
+          "outlet": "vesselfinder.com",
+          "title": null,
+          "url": "https://www.vesselfinder.com/vessels/details/9658238",
+          "published": "2026-10-07T05:15:36Z"
+        },
+        {
+          "outlet": "Verifier evidence",
+          "title": null,
+          "url": "https://www.ekathimerini.com/economy/1317331/greek-lng-carrier-hit-in-strait-of-hormuz-crew-safe/",
+          "published": "2026-10-09T04:33:30Z"
+        },
+        {
+          "outlet": "Verifier evidence",
+          "title": null,
+          "url": "https://www.seatrade-maritime.com/tankers/sinokor-maran-gas-and-sinogas-ships-hit-in-spate-of-hormuz-attacks",
+          "published": "2026-10-09T04:33:30Z"
+        },
+        {
+          "outlet": "TradeWinds News",
+          "title": "Maran Gas LNG carrier hit near Strait of Hormuz as Iran piles up attacks - TradeWinds News",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcksxWFNHcDRYcG1yYlNLb2xnQkV4TENzZXRNUkRlMkdYNFBUYkdGbFFJdDY0NG1iYjY4RGhFVDZpN2RFemlXQW5lamhqcUpsTUpsdERQQV9TYUo4MUVkaEU3a3JleXV5Ty1lTjRwb1NqQVl6UU1jZ3p4c01xSGpUdTU4Yk9kTmpHYnRDR2R1NFVjcWgyV2JwSXZkLXIwYmEzVExWUGk4WHhTMlNKRnl1WlJhOHNfWDBaWmk3WTRNQzd5TEZv?oc=5",
+          "published": "2026-10-07T14:24:18Z"
+        }
+      ]
+    },
+    {
+      "id": "INC-20261007-007",
+      "status": "rejected",
+      "region": "Strait of Hormuz",
+      "date_utc": "2026-10-07",
+      "vessel_name": null,
+      "imo": null,
+      "flag": null,
+      "vessel_type": "tanker",
+      "location": "Strait of Hormuz",
+      "attack": "drone (UAV)",
+      "damage": "ablaze",
+      "casualties": null,
+      "attribution": "Iran Revolutionary Guards said it was a drone strike",
+      "summary": "A fuel tanker is ablaze in the Strait of Hormuz after a drone strike, according to Iran's Revolutionary Guards. No vessel name, flag or casualty details were given.",
+      "checked_by_hermes": true,
+      "sources": [
+        {
+          "outlet": "EnergyNow",
+          "title": "Fuel Tanker Ablaze in Strait of Hormuz After Drone Strike, Iran Revolutionary Guards Say - EnergyNow",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdFpMRXhSZ09VUGxxTUtFWklJX0gzTlpBeUVFTUZTb01TU29mYi16WktycHc2eVVnRUp4Q0NhdjB4QmtjNVVkYzBELW96Rlp0X1NMNVVraC16V0k2dnh3d1M3WW03eVRvREVDVmsxNVpTNTdhcEhHamt6dnVDTC1Ga3ZJUTNqSFJVbjUzME02WVlTRS12NFhnaTB3VF9aaE1Ta0o2RGhwZ25uQ0djTEp3NzRFanMwVFlp?oc=5",
+          "published": "2026-10-07T20:32:55Z"
+        }
+      ]
+    },
+    {
+      "id": "INC-20261007-010",
+      "status": "rejected",
+      "region": "Black Sea",
+      "date_utc": "2026-10-07",
+      "vessel_name": null,
+      "imo": null,
+      "flag": null,
+      "vessel_type": "general cargo",
+      "location": "Black Sea",
+      "attack": "other",
+      "damage": null,
+      "casualties": null,
+      "attribution": null,
+      "summary": "An agricultural news outlet reported that ships carrying rapeseed oil and grain in the Black Sea were targeted. No vessel names, flags, positions or casualty details were given.",
+      "checked_by_hermes": true,
+      "sources": [
+        {
+          "outlet": "Новини аграрного бізнесу",
+          "title": "Ukrainian agri-goods under attack: ships carrying rapeseed oil and grain in the Black Sea targeted - Новини аграрного бізнесу",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQXBJQm15ZHZWTG1iOFlNLXg2UzFJRmpYUlJmVnUwY1BhY1R5UlJ3dnZWU3hadXdWc2k1bndranpCd3ZZRXFwU0plYy14dk42Wm1FUkg4LXNGRTg4TmZLWlZUb2hDNzBMWS1ob3BvbUw0UHlaVXdSbm9vTWp6dVIyQll1UTlKeGJ1d1F3TFNRTHFvaDBtSzQxLWRjWENZVENyMlg5YndVVnV4NU03LVBtcHgtWHBmQm96TmRVNE4wSTY0RWxz?oc=5",
+          "published": "2026-10-07T08:38:00Z"
+        }
+      ]
+    }
+  ]
+}
