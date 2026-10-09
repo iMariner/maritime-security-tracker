@@ -1,5 +1,94 @@
 [
   {
+    "region": "Black Sea",
+    "date_utc": "2026-10-09",
+    "summary": "Russia's defence ministry said Russian forces struck a cargo ship that had delivered military cargo in the port of Mykolaiv. No vessel name, flag or damage details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 46.97,
+    "lon": 31.99,
+    "location_text": "Mykolaiv port, Ukraine",
+    "attack_type": "missile",
+    "damage": "cargo ship struck, according to Russia's defence ministry",
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry claimed it struck the vessel",
+    "independent_evidence": false,
+    "id": "INC-20261009-001",
+    "sources": [
+      {
+        "url": "https://t.me/tass_agency/399444",
+        "source": "TASS",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-09T06:32:11+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/68057",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-09T06:30:38+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-10-09T06:39:06Z",
+    "last_updated": "2026-10-09T06:39:06Z",
+    "verification_issue": 95,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-09",
+    "summary": "Russia's defence ministry said Russian forces struck Ukrainian port infrastructure and vessels used by Ukraine's armed forces overnight. No vessel name, flag, position or damage details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Ukrainian ports",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry claimed the strikes",
+    "independent_evidence": false,
+    "id": "INC-20261009-002",
+    "sources": [
+      {
+        "url": "https://t.me/tass_agency/399442",
+        "source": "TASS",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-09T06:26:51+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-10-09T06:39:06Z",
+    "last_updated": "2026-10-09T06:39:06Z",
+    "verification_issue": 96,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
     "region": "Persian Gulf",
     "date_utc": "2026-10-08",
     "summary": "UKMTO reported that a tanker was struck by multiple projectiles off the coast of Qatar, with casualties reported. No vessel name, flag or further details were given.",
@@ -932,6 +1021,88 @@
     "position_approx": true
   },
   {
+    "region": "Red Sea",
+    "date_utc": "2026-10-08",
+    "summary": "A security firm said a small boat fired on a Chinese-operated container ship off Mokha in the Red Sea. Yemeni government forces separately claimed the heights above Bab el-Mandeb.",
+    "official_source_cited": "security firm",
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "container",
+    "vessel_category": "merchant",
+    "lat": 13.3,
+    "lon": 43.2,
+    "location_text": "off Mokha, Red Sea",
+    "attack_type": "gunfire",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261008-019",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9LRGFId1JKSmNfMTdkS3BUclZHX2VlVG1zSUNKYTEyN0oxTmQ4RzRkdzdMV3Z3YW5YWlpjRDZwZE5zUmU1clE?oc=5",
+        "source": "Mereja",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-09T01:40:00Z",
+        "title": "Small boat fired on Chinese-operated container ship off Mokha, security firm says, as Yemeni Gov’t forces claim the heights above Bab el-Mandeb - Mereja"
+      }
+    ],
+    "first_seen": "2026-10-09T06:39:10Z",
+    "last_updated": "2026-10-09T06:39:19Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261007-008",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-08",
+    "summary": "The UAE condemned an Iranian drone attack on an ADNOC tanker in the Strait of Hormuz. No vessel name, flag or damage details were given.",
+    "official_source_cited": "UAE",
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Iran (per UAE condemnation)",
+    "independent_evidence": false,
+    "id": "INC-20261008-020",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1KWTdQRlRBSDZVMmNnQUE5a1V0WkNSblNyVjNaU29EbEFncjNZV1dlSTVOeGdQaC16Z1RhcWJGR0xDdnZDb2owNW9fSDRaQ2V5dHc?oc=5",
+        "source": "Yemen Online",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T17:45:49Z",
+        "title": "UAE Condemns Iranian Drone Attack on ADNOC Tanker in Strait of Hormuz - Yemen Online"
+      }
+    ],
+    "first_seen": "2026-10-09T06:39:10Z",
+    "last_updated": "2026-10-09T06:39:19Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261007-003",
+    "position_approx": true
+  },
+  {
     "region": "Black Sea",
     "date_utc": "2026-10-07",
     "summary": "NationalTurk reported that a Turkish vessel was attacked by a drone off Bulgaria in the Black Sea, with 10 crew members killed. The report gives no vessel name, exact position or attacker.",
@@ -1207,7 +1378,7 @@
     "attack_type": "other",
     "damage": "fire reported on vessel",
     "casualties": "casualties reported",
-    "attribution_claimed": null,
+    "attribution_claimed": "Iran (per UAE condemnation)",
     "independent_evidence": true,
     "id": "INC-20261007-003",
     "sources": [
@@ -1651,10 +1822,37 @@
         "kind": "media",
         "published_at": "2026-10-07T19:10:00Z",
         "title": "UKMTO says tanker struck by multiple projectiles north of Qatar’s Madinat ash Shamal - Al Arabiya English"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxORWVZR29tb2hBMUdTLVMxSzZ3al9tRXN2UWxVYk01bVdxVzBwWk5BV05NRE5TcnVZLXU0aVBleHRMbER0V3pyak93eVdYeXN4M0ZSQUg0OTI0OVI5cEpZbmQtWEotQzRiOXQyS1JZdWtULS1RU3VoQTRUS1d5YThzR1dIcTU0alIyYTBnano4T09OMU9qYkJUa2hqLUctODl1dDRGVUdXbWEtY1VDV2tRQnR0TG45Ty1VcU1qZ3pEZ0lOSXI0OFBzOE1vNWpWa29vR2Iwbl84V2w2NndJUU9xQmk4QWo3eHFhbWJQUF9RS0g2VWdpVnFkOUFXTDNUX1dMME92LVZiQTBnclVuaExoTXJLWXZaN01JUnI0SGdiRjJNMnFJelNCQVB1WWRhN3MwbDJJZVNSRHV5Z3dxRWc2YW9Kc2xQbnFKa082cnlidGZndVh4cmgzT1ZiZGhmSERFRzZ6TlRGMA?oc=5",
+        "source": "Mid-Day",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T08:31:00Z",
+        "title": "Tanker POUNDED Off Qatar: Projectiles Strike Vessel Amid Hormuz Tensions - Mid-Day"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1KWTdQRlRBSDZVMmNnQUE5a1V0WkNSblNyVjNaU29EbEFncjNZV1dlSTVOeGdQaC16Z1RhcWJGR0xDdnZDb2owNW9fSDRaQ2V5dHc?oc=5",
+        "source": "Yemen Online",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T17:45:49Z",
+        "title": "UAE Condemns Iranian Drone Attack on ADNOC Tanker in Strait of Hormuz - Yemen Online"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYlZXeURJaUl5S2stcXY4QksyVVhydDFtOUtwMGZqVkwwV056VnlGWWZhekVxU09qaElFN1l5U08wQ1lwNXhrOUVRN1QyNXZOd1VBT2k0dlBTbW5wMDBONUJJcFdNNTZiczBfOHBjY29aVElzbmpNWkVSWEk0Q21NLWdTbWttbnM4SjZtY1U4SGtpUdIBkgFBVV95cUxNYlZXeURJaUl5S2stcXY4QksyVVhydDFtOUtwMGZqVkwwV056VnlGWWZhekVxU09qaElFN1l5U08wQ1lwNXhrOUVRN1QyNXZOd1VBT2k0dlBTbW5wMDBONUJJcFdNNTZiczBfOHBjY29aVElzbmpNWkVSWEk0Q21NLWdTbWttbnM4SjZtY1U4SGtpUQ?oc=5",
+        "source": "Baird Maritime",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T06:39:26Z",
+        "title": "12 injured in attack on tanker in Strait of Hormuz - Baird Maritime"
       }
     ],
     "first_seen": "2026-10-07T20:07:48Z",
-    "last_updated": "2026-10-09T05:08:10Z",
+    "last_updated": "2026-10-09T06:39:19Z",
     "verification_issue": 73,
     "verdict": {
       "status": "confirmed",
@@ -1874,8 +2072,8 @@
   {
     "region": "Red Sea",
     "date_utc": "2026-10-07",
-    "summary": "Shots were fired at a Chinese containership in the southern Red Sea early on Wednesday, October 7. Details are unclear and there were no claims of responsibility.",
-    "official_source_cited": null,
+    "summary": "Shots were fired at a Chinese containership in the southern Red Sea early on Wednesday, 7 October, with details unclear and no claim of responsibility. A security firm separately reported a small boat firing on a Chinese-operated container ship off Mokha in the Red Sea on 8 October, as Yemeni government forces claimed the heights above Bab el-Mandeb.",
+    "official_source_cited": "security firm",
     "conflicting": false,
     "confidence": 0.7,
     "vessel_name": "CUL KLANG",
@@ -1890,7 +2088,7 @@
     "damage": null,
     "casualties": null,
     "attribution_claimed": null,
-    "independent_evidence": false,
+    "independent_evidence": true,
     "id": "INC-20261007-008",
     "sources": [
       {
@@ -1946,10 +2144,19 @@
         "kind": "media",
         "published_at": "2026-10-07T20:03:32Z",
         "title": "Shots Fired at Chinese Containership in the Red Sea - The Maritime Executive"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9LRGFId1JKSmNfMTdkS3BUclZHX2VlVG1zSUNKYTEyN0oxTmQ4RzRkdzdMV3Z3YW5YWlpjRDZwZE5zUmU1clE?oc=5",
+        "source": "Mereja",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-09T01:40:00Z",
+        "title": "Small boat fired on Chinese-operated container ship off Mokha, security firm says, as Yemeni Gov’t forces claim the heights above Bab el-Mandeb - Mereja"
       }
     ],
     "first_seen": "2026-10-08T00:22:43Z",
-    "last_updated": "2026-10-09T00:37:00Z",
+    "last_updated": "2026-10-09T06:39:19Z",
     "verification_issue": 76,
     "verdict": {
       "status": "reported",
@@ -1963,7 +2170,8 @@
     ],
     "status": "reported",
     "position_approx": true,
-    "status_changed_at": "2026-10-08T05:08:25Z"
+    "status_changed_at": "2026-10-08T05:08:25Z",
+    "date_approx": false
   },
   {
     "region": "Strait of Hormuz",
@@ -2268,6 +2476,47 @@
     "status": "merged",
     "position_approx": true,
     "merged_into": "INC-20261005-001"
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-07",
+    "summary": "A tanker was attacked in the Strait of Hormuz, leaving 12 people injured, according to Baird Maritime. No vessel name, flag, attacker or further details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": "12 injured",
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261007-016",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYlZXeURJaUl5S2stcXY4QksyVVhydDFtOUtwMGZqVkwwV056VnlGWWZhekVxU09qaElFN1l5U08wQ1lwNXhrOUVRN1QyNXZOd1VBT2k0dlBTbW5wMDBONUJJcFdNNTZiczBfOHBjY29aVElzbmpNWkVSWEk0Q21NLWdTbWttbnM4SjZtY1U4SGtpUdIBkgFBVV95cUxNYlZXeURJaUl5S2stcXY4QksyVVhydDFtOUtwMGZqVkwwV056VnlGWWZhekVxU09qaElFN1l5U08wQ1lwNXhrOUVRN1QyNXZOd1VBT2k0dlBTbW5wMDBONUJJcFdNNTZiczBfOHBjY29aVElzbmpNWkVSWEk0Q21NLWdTbWttbnM4SjZtY1U4SGtpUQ?oc=5",
+        "source": "Baird Maritime",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T06:39:26Z",
+        "title": "12 injured in attack on tanker in Strait of Hormuz - Baird Maritime"
+      }
+    ],
+    "first_seen": "2026-10-09T06:39:18Z",
+    "last_updated": "2026-10-09T06:39:19Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261007-003",
+    "position_approx": true
   },
   {
     "region": "Black Sea",
@@ -3052,10 +3301,28 @@
         "kind": "media",
         "published_at": "2026-10-08T14:55:22Z",
         "title": "هيئة المنافذ السورية: فقدان الاتصال بـ9 بحارة سوريين بعد استهداف سفينة بالبحر الأسود - Elnashra"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwRBVV95cUxQSUVqN2t3Qm5qLU9MODNhMVpKMXJjclNNWGx2UFBZZ1RtbjcwN0dvcjJ6NU92ZWctOUFrMEZ5ekJvS2pjMnVTVTZncTdlNFFyTkdWVFNGZHdlaG02eUNrcnFjWlhxN21jcnVXdzhJTFNNTXJXVHRMVngzN3ptQ2xUQ3JvNUN1MVJ4S2hYQzhWY3hlMmFETWpCaFZXdXJDN294cllQRVpLZ0ZQcGpoQjEtaWtwVHJEUDhIREd0THlBZTl3eVByVHJNSjAxY202Ym9ISHFkdmw5NU1qTV9INEstb0lQSzRVamVpd1VHcGh0UGlfSGs0RE0wZmdsY0R2NURZdnYwd2N6YUJXVU1lcU8tVk5qSHBNNkZQakxfWFo5RDhOZ2hCMTNGWVhFTzExM0cyMXVwU0V5cnY0VGJEMkcxZjJfM2dMWVJqY3ZFenZQZnFwa0RwZHZYV2xXaWV6TElCTzM2OGZzbzZrTE1Hd1lnalljYWdKZzhhZXV3YWVnY2NLdG1seDR4V01tdUFkeVd1Q0d1OUY5VDZQb3RaLWJ2SG5rQmNqWWlkalVYSENyMTA5cDhvYWQ5NnJlVkp6d1NTOVRxUnluamVCdm1EU2JFdWtXdWZYeWVJZ1VrelBiMFdDeVVpdFhKMFVDWkF0LUtVaTJtak9KUXpXeEFBS3Z1LUZoUS1nMS1ZTjdVWllmMFRxVXI1dFRleXdQWlFCemRMaXFHVFFkU25POGt5YnBJeHB1T2xCcXc?oc=5",
+        "source": "SYRIA.NEWS أخبار",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T15:19:00Z",
+        "title": "فقدان بحارة سوريين بعد هجوم بمسيرات استهدف سفينة شحن تجارية بالبحر الأسود - SYRIA.NEWS أخبار"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcmFXWXduSEF4U2ttZGlpSHlUNGF6TTRacFBPalZqOF9CaDNhUW5nYUhfZGlFZ2sybEl0b24zbEdtcksxc2RvSkU5dFF0RkxrTlNhWTE3X1ZGNjBzX3gxSWE0OEVLeENxSENINm13VEdSTGFkQUlhWWUzX0VzMUJGVmw1YjNOOE1sTWt4MGNwWl9fNFZweUQyeGNBc2VUM293dExj?oc=5",
+        "source": "SeeNews",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T11:58:40Z",
+        "title": "Bulgaria halts search for survivors from ship sunken by drone - report - SeeNews"
       }
     ],
     "first_seen": "2026-10-06T08:05:50Z",
-    "last_updated": "2026-10-09T05:08:10Z",
+    "last_updated": "2026-10-09T06:39:17Z",
     "verification_issue": 52,
     "verdict": {
       "status": "confirmed",
@@ -6307,10 +6574,55 @@
         "kind": "media",
         "published_at": "2026-10-07T05:52:48Z",
         "title": "Black Sea Tanker Fire: 23 Indians Rescued - Dainik Jagran MP CG"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUnNTQ1VodUpIekRva2I5WEsxVDdjd2R1c1EzdkJFcDg5eHEzeXdMSmVjYV85d09hYjNoZHlsVTc3ejlqaUNpQWUzSDJGWDQwNWZSSzh6XzM1NzRsRDBBY2RScDU4THVsbFhoS1dON1FKY3BrMWtEXzJPblpYZHBaQ09fQk5zNXFpazNQQWxtUEd6QW5rY0hOWkNvSmpaQ2VTSjdTaGVzb3RaakVOZkRtWXpuQmhGQjlaQ0dzQkd3?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T10:06:46Z",
+        "title": "Минтранс: в Черном море потушили пожар на танкере «Афрамакс Рио» у берегов Сочи - prospect.com.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQREpZS2tRRmp2SUxhWEREM1IxRk5HNzFobDRXTXN5Uk1Ra1FtdjJOVWw3VnNnSHVxTFFzLTY4VVA1ZjJUU2pZdUJDb1JMS0NHNFdlM0U3ZFlKMVdpM2JCTV84UkVHNWg3R2ZJbU5obXpyVW5ZZjRvMVJmWVV2VmdWWVJXdl9oUmpsTkJ4Z05NanFjV0xiTC1Id29CdDItYWVVaDY5WGNnM2NibU5EZlc4LVZLOVk?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T18:05:46Z",
+        "title": "Экипаж атакованного в Черном море танкера отказался от госпитализации - prospect.com.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPb1NiOGpEeTNXYjlJOTE2RGdMNDF0bGtoZUFtejFkTGNSUGRzMFlJNXhyaFJJaTJvaHNBZnBaZFdBUDN3R0Z5MXVhM3FuQzFBSTlkQXlKZXVqSFhNVFF0Z0F0dFJ4cjlmLWJkcmR2SkxTVkZ3OElyWEpNem1CaTRUTDBYWWZETTE5YXJfdzhDeG1GamU1VmRGVmdsbFlTbjhBb2gwSld0ZWtyaUJBZTV3SU5kM1k0Y2dycjlCQVpTWFQ?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T10:20:05Z",
+        "title": "Страшнее Анапы в 10 раз: Экологи о последствиях пожара на танкере в Черном море - prospect.com.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUEZmd3JOdS1iSWxjVWFkZUtpWlNzS2Q4VG5DUGpRZlNNa3o5WVF0bmNzZzFMbS01RmdUVFdjdUM3MkczbTZZUXZGSUdzT1ZYQi0wb2RaTG4xUk81UFZPcXhMbkRLUWxSUy1WZlJxWU5tRWFyRzFpVW50ZHZkd09jNEI3LTlNWVlZb2NodHRBdGxXXzBxazlOYlp1SDhXYW1pYnNEWlRNbjYyMzVpUnZlUnNJb1Y1UQ?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T10:06:57Z",
+        "title": "Новая трагедия? Что известно о пожаре на танкере в Черном море у Сочи - prospect.com.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxON2Uwb1Zjb3JobnJXTHc4RmxqWWhjdVMxd20xSXRwcEhicGtFZ1lNbkZzendhd25EUmRmZ3BEaDBLc0xTTmVVbnVGV3ZxUmJrc0o1dXN4N2o2MWhTdEF2bllTZGxUZUNGbHhzdVFfSlF0UGY4T2FNUUFNNzBjOERjX0ZjX3FvczVMRnkwU2J5ZlpuNmhLdFNJdXBUTFNFRGZYWlpPS1E0QWJwcnYxQUd1ZFpOVnBSY2tTTVJ2b1RoVzJHZDNhd0JWV0ZNNDUxOTZJTkRXRw?oc=5",
+        "source": "Deccan Herald",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T07:06:20Z",
+        "title": "23 Indians rescued after Liberia-flagged oil tanker attacked off Russia's Black Sea coast - Deccan Herald"
       }
     ],
     "first_seen": "2026-10-06T20:33:03Z",
-    "last_updated": "2026-10-09T05:08:10Z",
+    "last_updated": "2026-10-09T06:39:17Z",
     "verification_issue": 65,
     "verdict": {
       "status": "rejected",
