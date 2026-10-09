@@ -674,8 +674,21 @@ def test_select_update_must_follow_last_sent_brief(tmp_path, monkeypatch):
     after = _inc("F", "Red Sea", "2026-10-07", published_in=["2026-10-08"]); after["status_changed_at"] = "2026-10-09T04:33:00Z"
     named = _inc("N", "Red Sea", "2026-10-07", published_in=["2026-10-08"]); named["news_changed_at"] = "2026-10-09T05:07:00Z"
     monkeypatch.setattr(brief, "now_utc", lambda: now)
+    monkeypatch.setattr(brief, "_live", lambda day: True)
     _, updated, _ = brief.select([before, after, named], now - timedelta(hours=24))
     assert [i["id"] for i in updated] == ["F", "N"]
+
+
+def test_select_carries_over_a_skipped_brief(monkeypatch):
+    from datetime import timedelta
+    from tracker import brief, common
+    now = common.parse_dt("2026-10-10T04:39:00Z")
+    monkeypatch.setattr(brief, "now_utc", lambda: now)
+    monkeypatch.setattr(brief, "_live", lambda day: day != "2026-10-09")       # the owner skipped 9 Oct
+    ever = _inc("E", "Gulf of Oman", "2026-10-08", published_in=["2026-10-09"]); ever["first_seen"] = "2026-10-08T20:00:00Z"
+    old = _inc("O", "Red Sea", "2026-10-07", published_in=["2026-10-08"]); old["first_seen"] = "2026-10-07T20:00:00Z"
+    new, updated, _ = brief.select([ever, old], now - timedelta(hours=24))
+    assert [i["id"] for i in new] == ["E"] and updated == []
 
 
 def test_fit_tweet_never_cuts_a_hashtag():

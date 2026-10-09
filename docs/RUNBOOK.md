@@ -101,6 +101,8 @@ and the tweet text. Lines starting with ⚠️ mean "read the draft before publi
 - **Final read** (05:25, Hermes): reads the draft that will actually be sent.
 - **n8n failures**: the approval message is retried three times; if n8n still refuses, the run fails and the brief
   is not marked as sent, so the watchdog or a backup run sends it later.
+- **Skipped briefs**: if a day's post never went live (Skip or no answer), its incidents are carried into the next
+  brief instead of being treated as already reported (the tracker checks WordPress).
 - **Publish without n8n**: ask the Hermes bot "publish today's brief"; it comments `/publish <date>` and GitHub
   publishes the draft directly (`publish.yml`).
 - **Backup schedule** on GitHub (06:10 to 07:55 UTC, often hours late): builds or sends with a warning.

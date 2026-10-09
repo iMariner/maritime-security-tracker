@@ -53,19 +53,44 @@ def select(incidents: list[dict], since) -> tuple[list[dict], list[dict], list[d
         changed = max(filter(None, (parse_dt(inc.get("status_changed_at")), parse_dt(inc.get("news_changed_at")))),
                       default=None)
         event = parse_dt(inc.get("date_utc")) or first
-        # A re-run on the same day rebuilds the same brief, so today's own publication does not count.
-        earlier_briefs = [d for d in inc.get("published_in") or [] if d != today]
+        # A re-run on the same day rebuilds the same brief, so today's own publication does not count. A brief the
+        # owner skipped never went live, so its incidents are carried over instead of being treated as old news.
+        earlier = [d for d in inc.get("published_in") or [] if d != today]
+        earlier_briefs = [d for d in earlier if _live(d)]
+        skipped = len(earlier) - len(earlier_briefs)
         if earlier_briefs:
             # An update must be newer than the brief that last carried it. A change made while that brief was
             # being prepared (its morning editor check) is already in it, so it is not news the next day.
             if changed and changed >= max(since, _sent_at(max(earlier_briefs)) or since):
                 (corrections if inc["status"] == "rejected" else updated if inc["status"] in PUBLISHED_STATUSES else []).append(inc)
-        elif inc["status"] in PUBLISHED_STATUSES and first and first >= since and event and event >= oldest_event:
+        elif inc["status"] in PUBLISHED_STATUSES and first and event and event >= oldest_event \
+                and first >= since - timedelta(hours=24 * min(skipped, 3)):
             new.append(inc)
     return new, updated, corrections
 
 
 _SENT: dict = {}
+_LIVE: dict = {}
+
+
+def _live(day: str) -> bool:
+    """Did that day's brief go live? A skipped (or expired) approval leaves the post a draft. WordPress answers an
+    anonymous request only for published posts. When unsure (network error), assume it went live, so nothing is
+    repeated."""
+    if day not in _LIVE:
+        rec = read_json(BRIEFS_DIR / f"{day}.json", {})
+        if not rec.get("post_id") or rec.get("status") == "publish" or rec.get("published_via"):
+            _LIVE[day] = True
+        else:
+            try:
+                r = requests.get(f"{env('WP_URL', 'https://imariners.com').rstrip('/')}/wp-json/wp/v2/posts/"
+                                 f"{rec['post_id']}", params={"_fields": "status"}, timeout=20)
+                _LIVE[day] = r.status_code == 200
+            except requests.RequestException:
+                _LIVE[day] = True
+            if not _LIVE[day]:
+                log.info("The %s brief was not published; its incidents are carried over", day)
+    return _LIVE[day]
 
 
 def _sent_at(day: str):
