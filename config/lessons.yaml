@@ -28,3 +28,5 @@ facts:
 - Set each incident's position from the place its own report gives rather than the shared Black Sea fallback 43.4, 34.5 that several records still carry.
 - 'A record can absorb a different incident through its source list: check that a record''s date and place match its own sources, as the 7 October Qatar tanker strike was merged into the 5 October On Peace
   record.'
+- 'A record the tracker has already rejected can be re-created from fresh articles as a brand new incident: when a new entry matches a rejected record on ship, date and place, merge or reject it rather
+  than reporting the same attack twice.'

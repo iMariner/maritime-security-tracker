@@ -147,48 +147,6 @@
     "merged_into": "INC-20261007-003"
   },
   {
-    "region": "Black Sea",
-    "date_utc": "2026-10-08",
-    "summary": "A Russian Geran-4 Sicker jet drone struck the Turkish tanker Aviva in the port of Izmail, Odesa region, according to the Telegram channel Dva Mayora. No damage or casualty details were given.",
-    "official_source_cited": null,
-    "conflicting": false,
-    "confidence": 0.6,
-    "vessel_name": "AVIVA",
-    "imo": null,
-    "flag": null,
-    "vessel_type": "tanker",
-    "vessel_category": "merchant",
-    "lat": 45.35,
-    "lon": 28.84,
-    "location_text": "Izmail port, Odesa region, Ukraine",
-    "attack_type": "drone (UAV)",
-    "damage": null,
-    "casualties": null,
-    "attribution_claimed": null,
-    "independent_evidence": false,
-    "id": "INC-20261008-003",
-    "sources": [
-      {
-        "url": "https://t.me/dva_majors/100162",
-        "source": "Dva Mayora",
-        "source_type": "telegram",
-        "side": "ru",
-        "kind": "osint",
-        "published_at": "2026-10-08T10:56:22+00:00",
-        "title": null
-      }
-    ],
-    "first_seen": "2026-10-08T13:58:07Z",
-    "last_updated": "2026-10-08T13:58:07Z",
-    "verification_issue": 83,
-    "verdict": null,
-    "published_in": [
-      "2026-10-09"
-    ],
-    "status": "claimed",
-    "position_approx": true
-  },
-  {
     "region": "Red Sea",
     "date_utc": "2026-10-08",
     "summary": "A containership came under fire in the Red Sea. No further details were provided.",
@@ -322,15 +280,16 @@
       }
     ],
     "first_seen": "2026-10-08T20:05:21Z",
-    "last_updated": "2026-10-09T00:36:42Z",
+    "last_updated": "2026-10-09T05:08:10Z",
     "verification_issue": 87,
     "verdict": null,
     "published_in": [
       "2026-10-09"
     ],
-    "status": "reported",
+    "status": "merged",
     "position_approx": true,
-    "status_changed_at": "2026-10-09T00:36:42Z"
+    "status_changed_at": "2026-10-09T00:36:42Z",
+    "merged_into": "INC-20261006-001"
   },
   {
     "region": "Persian Gulf",
@@ -637,14 +596,15 @@
       }
     ],
     "first_seen": "2026-10-09T00:36:33Z",
-    "last_updated": "2026-10-09T04:38:52Z",
+    "last_updated": "2026-10-09T05:08:10Z",
     "verification_issue": 90,
     "verdict": null,
     "published_in": [
       "2026-10-09"
     ],
-    "status": "claimed",
-    "date_approx": false
+    "status": "merged",
+    "date_approx": false,
+    "merged_into": "INC-20261006-014"
   },
   {
     "region": "Strait of Hormuz",
@@ -1694,9 +1654,14 @@
       }
     ],
     "first_seen": "2026-10-07T20:07:48Z",
-    "last_updated": "2026-10-09T00:37:06Z",
+    "last_updated": "2026-10-09T05:08:10Z",
     "verification_issue": 73,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "editor-check",
+      "at": "2026-10-09T05:08:10Z",
+      "note": "UKMTO confirmed the strike about 51 nautical miles north of Madinat ash Shamal at about 1900 UTC on 7 October with casualties, and Vanguard, Splash247 and gCaptain name the Antigua and Barbuda-flagged tanker Acers"
+    },
     "published_in": [
       "2026-10-08",
       "2026-10-09"
@@ -2294,8 +2259,78 @@
       }
     ],
     "first_seen": "2026-10-09T00:37:06Z",
-    "last_updated": "2026-10-09T00:37:06Z",
+    "last_updated": "2026-10-09T05:08:10Z",
     "verification_issue": 94,
+    "verdict": null,
+    "published_in": [
+      "2026-10-09"
+    ],
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261005-001"
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-06",
+    "summary": "A Russian Geran-4 Sicker jet drone struck the Turkish tanker Aviva in the port of Izmail, Odesa region, according to the Telegram channel Dva Mayora. No damage or casualty details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": "AVIVA",
+    "imo": "9410131",
+    "flag": "Marshall Islands",
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 45.35,
+    "lon": 28.84,
+    "location_text": "Izmail port, Odesa region, Ukraine",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261008-003",
+    "sources": [
+      {
+        "url": "https://t.me/dva_majors/100162",
+        "source": "Dva Mayora",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "osint",
+        "published_at": "2026-10-08T10:56:22+00:00",
+        "title": null
+      },
+      {
+        "url": "https://www.haberdenizde.com/denizde-gundem/avivaya-saldiri-bir-denizci-oldu",
+        "source": "haberdenizde.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-09T05:08:10Z",
+        "title": null
+      },
+      {
+        "url": "https://www.marinetraffic.com/en/ais/details/ships/shipid:716144/mmsi:538090448/imo:9410131/vessel:AVIVA",
+        "source": "marinetraffic.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-09T05:08:10Z",
+        "title": null
+      },
+      {
+        "url": "https://www.marinetraffic.com/en/ais/details/ships/shipid:716144/mmsi:538090448/imo:9410131/vessel:AVIVA",
+        "source": "marinetraffic.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-09T05:08:10Z",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-10-08T13:58:07Z",
+    "last_updated": "2026-10-09T05:08:10Z",
+    "verification_issue": 83,
     "verdict": null,
     "published_in": [
       "2026-10-09"
@@ -2999,10 +3034,28 @@
         "kind": "media",
         "published_at": "2026-10-07T06:11:54Z",
         "title": "Ship sinks after drone attack in Bulgaria's Black Sea zone, crew missing - IntelliNews"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcFhDeUhGRWFycTg3RDNFcWFVNmRDU005Qzc2WVBpc1hnV0syR1pkcE1MLVh4d296dTBVUDRsemd0ajZ3bmdkaFZlc0xqS3k4UVFUc3E2QU1xZ0M2aUtYdElTMVdvdFlkTUU5NGhuTVRHRmd6WUFPTXc4Wld6dUpqdDZPeHN5Sk1LaWVjdk11emo5MHRZdTNsekJHaHZITG11cW9RbnFyR0ZPeUF5TXJtR1Y3UEJYaDVLUkN2eUFNOEdmODlVS2M40gHHAUFVX3lxTFBwWEN5SEZFYXJxODdEM0VxYVU2ZENTTTlDNzZZUGlzWGdXSzJHWmRwTUwtWHh3b3p1MFVQNGx6Z3RqNnduZ2RoVmVzTGpLeThRUVRzcTZBTXFnQzZpS1h0SVMxV290WWRNRTk0aG5NVEdGZ3pZQU9NdzhaV3p1Smp0Nk94c3lKTUtpZWN2TXV6ajkwdFl1M2x6QkdodkhMbXVxb1FucXJHRk95QXlNcm1HVjdQQlhoNUtSQ3Z5QU04R2Y4OVVLYzg?oc=5",
+        "source": "ETV Bharat",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T11:34:42Z",
+        "title": "Syria Says Nine Nationals Missing After Drone Sinks Black Sea Ship - ETV Bharat"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisANBVV95cUxNa1Ftcjl0d1l4OGRnVmpaLVQxN0RVSmM0ZXhLdU1DVmNVMnNkUDJTQjduUmlaZkFQTjZfODhtenFhLWlzQ2Z2MjkyLVpFTU1IVDFPRjRqSnpCdC12Yk9mYzM1d1JZTVZqU2ZDRE1DTENWQWl1Q1otOURsbHRLUk1xRW5LVkdtTHBybV84YzgwUklFeTM2TVdkOXlIOWlCS1UzTk9WME42YVJIUnRreHFUenJTV1RTc2MwckJxZENpOVZfVElHSk05ZkR4RFdXay0zTmRZLUE2YlVqcG5vSVVWRzE1U0pfaWJvUXEtNU9teFF6ZmttdGdhY3hYdG45bzZPQUp4VExfa3JGWm1maUxmUllZeU9HbUx2Rl9IcTMwbVA4WVFPcHlJaDk1VGdJTDB5QXVndDgtdWNiNVQybHBydGtyWGc3RGtjT1lDdlpyM1JBdGs1OF9Id2tXR0FEWUJEZkh6NzRFbXdZMEpjNjFXQzcyNGRWSlB5Q3Y4Q0NWUXJkdENvNXZpaGM3aFlTN2lXay1IOG1Kczc0R0pIY3g1RmI2THpDQW8yWmRIQ180T3c?oc=5",
+        "source": "Elnashra",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T14:55:22Z",
+        "title": "هيئة المنافذ السورية: فقدان الاتصال بـ9 بحارة سوريين بعد استهداف سفينة بالبحر الأسود - Elnashra"
       }
     ],
     "first_seen": "2026-10-06T08:05:50Z",
-    "last_updated": "2026-10-09T04:38:52Z",
+    "last_updated": "2026-10-09T05:08:10Z",
     "verification_issue": 52,
     "verdict": {
       "status": "confirmed",
@@ -3013,7 +3066,8 @@
     },
     "published_in": [
       "2026-10-07",
-      "2026-10-08"
+      "2026-10-08",
+      "2026-10-09"
     ],
     "status": "confirmed",
     "status_changed_at": "2026-10-07T04:35:38Z",
@@ -6154,10 +6208,109 @@
         "kind": "media",
         "published_at": "2026-10-07T08:16:00Z",
         "title": "Petrolier atacat de o dronă navală în Marea Neagră. Nava a luat foc: ce s-a întâmplat cu cei 23 de marinari de la bord - Realitatea.NET"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUk5QYWtqME1sZl9PS1Naci1HSzFwVEdvaVczazUweHc0Y3hMbk02VjNZckVZdnl6TFFsQWZXOEV1eTBSLW5ta2xoejJvOFhCczVURTZkNUppcU9SUm96SUUwa0Zwd05sWUNvUlotT3dESW5NR0NiQUZBdnBxMGI4MkxvMWdIZw?oc=5",
+        "source": "ИФЗ РАН",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T20:07:33Z",
+        "title": "Inside The Black Sea Tanker Attack That Left The Aframax Rio Ablaze - ИФЗ РАН"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5vcHRFWkFadGVYOUR1NC1QLVBSMUpEZ1Y3eDU0YkFidnk3RmpSVVAxX2Y0dm5kdmtWWXNzQ055WFlQV0VQczJxekUxR1pqTHc?oc=5",
+        "source": "47 новостей из Ленинградской области",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T08:41:00Z",
+        "title": "\"Отделались малой кровью\". Песков рассказал о последствиях пожара на танкере в Черном море - 47 новостей из Ленинградской области"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORXdxelBkNkw5cGVUQWx5ZTlIZnI0bjlualc0MXpXcUh4bUJ6VW5FOF9DUkt4QnR3bXd0ZElSYWtQeW9DdFdJQ3VyZXR5RjF5WF9vcTlnUlg2OWR4YmVwTVNrTGwxVXlIS1piT1JzQUtLcE93RDdtakRIcHo5SEswUXFROUFMdFZKU1ZXbHpyOF9Na1Z6c3BDd3AxTlJBc1RCVmFuWkJmRVVKbU9fQmFTY1hMNEg4U1g1akoxY3MyQmE0QdIBxwFBVV95cUxOUGo2RlV6VU53a2l0U1N5Mmo0X01IdXlZSVVJVlFJcVlRYndvOEtjZWtTVkk5N1B2N3pOQUt3bUY1c3lKcVlYSU1jaXJweUQ4bXBqa2pPSk1BX3d3YUg5YVI5ZlNCdHNkSlNmczRraHFvcldOOXVfUEpLQTFoeGhHcmJmZmstMURLRnE5Y2RqelpoZUZJbHJxdkljUlhiaG0yeXZ4NENSbVliZEZKSWpDMkQyZ2N0eEttRGRMbW85S3p0aWFkSDdB?oc=5",
+        "source": "Рамблер",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T08:17:30Z",
+        "title": "Песков: меры после атаки на танкер в Чёрном море приняты оперативно и эффективно - Рамблер"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOLVpfRC1YYlhhWUpYX3ZkdkF2WnplU0dSbkdFVk8xVEpYM1JIQjZkS3ZvanNXRF93ZG5Qd2t1MWxGMDg1emY2X05iZUM2Z3luT2N4OFpwb0lZQUpzRjRlOGhpUERocHdfUncweUtjR1pSOHY1OE93WVFpVi10VndicHFMTHEyUngzeHppaFVCajliTWptSkhBM0F6SQ?oc=5",
+        "source": "TourDom.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T08:12:03Z",
+        "title": "Песков: Путин в курсе о ситуации в Сочи после атаки на танкер - TourDom.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNa21SX0ZCdGxGMUFWeUctX015NjYzQkZ6SGl6QjVPZTJNZVB5enllZ0hSTWduY0NXOEdrdXRnNVdaRGJpOUNYb2NYQ1ZwdF9LRUhMQ1VMYmZrSDlqSnQxQXh0Sm1idXFiM083NUxPUExFMjlDVGRRaWFDNzgySE43RUc0dG8zVXdHWUxpcmFPUzFtV1FNMGJjcktNajlCR1p3YVE1WWVUUUN6eFdFU044ZkEwelN6X21QNXJDRWcwZElJQzItT25CVTM4NUlMN0plWnhuUF9LdXMtVHQzR2fSAdwBQVVfeXFMTm15WlU4UUtEU1RWY0QzVUU4RzQxdU83c3FBRGZoeUFJRkRzNUZGYWp3QW1aM2hyaFI0OTdJTEVuT3JjbU1Yek1hU09CTlNmdWdXRVJ6cTVfWjFaWmVuRGhqd3FMQ2xZN0dfMHYxN0R2STBEWURjV0tEcFMzc3BTdUhXUkdLLTdUekg4WldUM2FLQmp2VnZ1N2VQQkhxdEZicDdlU0RBZmdCaDNObWhPVXhhejlTZURaUkFLMExsd1Btbk1sMkRQM0o2OXFZbXlyZ0swVjBnc3NpMTRxNg?oc=5",
+        "source": "Українські Національні Новини (УНН)",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T22:56:08Z",
+        "title": "An oil slick formed off the coast of russia after the attack on the tanker — the Russians claimed there were no consequences - Українські Національні Новини (УНН)"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9uUkxmRzdfZ0pZSkFKdjR2V3UxODI5b2JlMVlQLV9pdkhWa1A4Y09UWkxCeXl2eGRqdTFzZk9ydmdfdnI1WnY0UXJjeFU?oc=5",
+        "source": "РИА Твои Новости",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T05:47:54Z",
+        "title": "Путину доложили об атаке на танкер в Черном море, экипаж не пострадал - РИА Твои Новости"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMW93bV90RlAwTHpzQlNmZmwyLW5xRkE4Z0tzV1VUMkYtZHgwN0hueUFIOFFOSkc0Y1VXWVFnbTMxSFZGYmh1M1N6bjJoa2tTLTNHTlptV28zTE9hc0tSNDdqVGVUZUNNaF9PeGJiNFdOUzlNQVFNZE41UHd1M0x1VmFJdzl0ZkM3OERyNGJhUDVWSFU?oc=5",
+        "source": "https://www.engine.online/",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T16:31:54Z",
+        "title": "Tanker set ablaze in Black Sea after unmanned boat attack - https://www.engine.online/"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTTVtOFdxRUl4LTJ6bEttMmpleEpKb2VBLW4xdjZiWkRkR2wxNW5WTUxlM0JUaDEwcUoyQUZfRGMtY181ZEdHWmpSdTRrRkVvUmtmZEh1VUxqNkJrQVdCWDlXVWNuQ21mYVo3Zzg3Y0F0eTNFay13VlhjOE5oZm9JNGVvWkZ2b25wTkx5ay13T0NiRlA3a0EtalAydUFzMmNMb2NtREpqaGY2UmdV?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T10:06:46Z",
+        "title": "Утечки нефти после пожара на танкере в Чёрном море не обнаружено - prospect.com.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQY2pTb2FDNVJZaHo5UlBSalpBOVp0S2NWWXFMLXZGaFdidE1jbVRNNFc4V25ybW0yUmM1NElmZ0RPWkktbkJDZHFxTERqYmlTajNyQ2ZFczBjM0FhOGJkLUVRTVdVM2JWN3Brck5XWkZCNUxSVkxsRjR6SDUwTmF4RnR3TzBpQ1NnaU1JQlFKY3BJUlpkaWduTmxISEFpaVNQd1Zubkh0YWhiYWFhQ09z?oc=5",
+        "source": "https://yugrf.ru/",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T06:38:06Z",
+        "title": "В Краснодарском крае устраняют последствия удара по нефтяному танкеру - https://yugrf.ru/"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOFZDcGdOYzRsODZtcUFYWXZPLTNxeVNyVXBMLVNZbmk1enNEalZ6UE91TVpZMU9vYUJoTUg1LVNtWFlCQUFUMXd1LVAteUxBbW1TVnV2YWFEU0o1YmJYVzkwVlFVSTJYZC05dFN5a05idzdOcU53Y0hWckM3OVBCREN4a1AzWG9lUm1sa2RiYUNtSzlnUXZ2NGdSN3htS2NINkg5UHhtVWstdDFYU1Q5UWliZm1scDJnN2c?oc=5",
+        "source": "The Business Standard",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T06:01:27Z",
+        "title": "Russia says tanker crew rescued in Black Sea after attack set ship ablaze - The Business Standard"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORXFhRF9raHRLei1jV3NONGlfMTBDN2hELTc1Sl93czJpblJxZmliY2gyUkJSeVpIc3NrQUhzNVFoZGI5b0lZNlJ6WnFIQldlZ2lIMzlxekV6T0RTOURkaXdmYWh2dGVNTWdualQ3YzFwejNUdnJPYTdKTTBiUGdBZzlhQVVMSGxBQ25kU0hYZTkxZXBKYWNYaGRCVHRTaG1xeE1hMXpn?oc=5",
+        "source": "Dainik Jagran MP CG",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T05:52:48Z",
+        "title": "Black Sea Tanker Fire: 23 Indians Rescued - Dainik Jagran MP CG"
       }
     ],
     "first_seen": "2026-10-06T20:33:03Z",
-    "last_updated": "2026-10-09T04:38:52Z",
+    "last_updated": "2026-10-09T05:08:10Z",
     "verification_issue": 65,
     "verdict": {
       "status": "rejected",
@@ -6167,7 +6320,8 @@
     },
     "published_in": [
       "2026-10-07",
-      "2026-10-08"
+      "2026-10-08",
+      "2026-10-09"
     ],
     "status": "rejected",
     "status_changed_at": "2026-10-06T20:33:09Z",
@@ -8968,10 +9122,19 @@
         "kind": "media",
         "published_at": "2026-10-08T18:34:42Z",
         "title": "Navă atacată în Marea Neagră: 2 marinari morți și 11 salvați - radioromania.ro"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSmhCTmdPMFJnOXRfclhlZV82ckgzUF93YV94YmRoRkVMb29YbWFCWUt4ZngyZmsteGlkQlZZQVJRX0hESVlDOHBMZVFUZl9kYkQ4TnNEemJmbjB3QVBYVzhoMFExRE40ZUU0V0ZSdjNWR2JCWjVKcXlpMTJVeHkyNklhVkRmVkljbThOeWtvYVNYeXZvdWJ2VkRLV2dQYWstcl9pTTJQaw?oc=5",
+        "source": "Adevărul",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T15:31:43Z",
+        "title": "Momentul în care nava turcească este lovită de drone în zona economică a României. Vasul s-a scufundat complet - Adevărul"
       }
     ],
     "first_seen": "2026-10-05T09:36:06Z",
-    "last_updated": "2026-10-09T04:38:56Z",
+    "last_updated": "2026-10-09T05:08:10Z",
     "verification_issue": 45,
     "verdict": {
       "status": "reported",
@@ -8982,7 +9145,8 @@
     },
     "published_in": [
       "2026-10-06",
-      "2026-10-07"
+      "2026-10-07",
+      "2026-10-09"
     ],
     "status": "reported",
     "status_changed_at": "2026-10-05T09:36:11Z",
