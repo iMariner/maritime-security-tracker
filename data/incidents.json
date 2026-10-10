@@ -50,14 +50,15 @@
       }
     ],
     "first_seen": "2026-10-10T04:38:58Z",
-    "last_updated": "2026-10-10T04:39:00Z",
+    "last_updated": "2026-10-10T05:08:27Z",
     "verification_issue": 105,
     "verdict": null,
     "published_in": [
       "2026-10-10"
     ],
-    "status": "reported",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261009-003"
   },
   {
     "region": "Black Sea",
@@ -218,17 +219,17 @@
     "official_source_cited": "UKMTO",
     "conflicting": false,
     "confidence": 0.9,
-    "vessel_name": null,
-    "imo": null,
-    "flag": null,
+    "vessel_name": "GEM NO. 2",
+    "imo": "9735373",
+    "flag": "Panama",
     "vessel_type": "tanker",
     "vessel_category": "merchant",
-    "lat": 24.8,
-    "lon": 58.2,
+    "lat": 25.71,
+    "lon": 55.56,
     "location_text": "off the UAE coast",
     "attack_type": "other",
     "damage": "fire broke out and was extinguished",
-    "casualties": null,
+    "casualties": "all 22 Indian crew reported safe",
     "attribution_claimed": "Iran",
     "independent_evidence": true,
     "id": "INC-20261009-003",
@@ -385,18 +386,79 @@
         "kind": "media",
         "published_at": "2026-10-09T23:47:00Z",
         "title": "Fire extinguished on vessel hit off UAE coast, UKMTO says - Middle East Eye"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMWtWNEVYOXB1MGQtSFR3WDZJbVE5ajh5ZVg5UmZMVGRfcW15Q2RPNk5pWXNYVjNQMHRIWVdQdHpLUWo5bk1LdTlnalNYTXdSeW5FNjN1aVZHOEFvb1I5VnYtMkdESm5BWE5pUW85YjJjMEZOTHBUSFNNNkNKdVU0TURaekJOYmlCUUp5ZE93eTJwMldLNFA2WllMVkc2T3BrR3JDT2poakVTVnVaWlZzV0FpOVJqeGdhQl9hUHkwU1NlUngxNjFSc0laRDBFTXVNTFJN0gHYAUFVX3lxTE5kOTc1S2czbmtOcklLLWxOTWs5STNfTFNlRTRsWGRHejVnczlHa2FHVExMcDVkMjlydWJtbHg1RzdzOGxuSWFBYVc4VnFLb1RtMFA2UDhaam9FOGFtMC0zVkoyM3FCTW5oM1ZMM2toT0dFLWcyZWt4UEkxbDJiUkRsUldFMkZjeVR2S3FaTTZOaUhTeGlxZjVMSDhvc2Nod2JjcTZ1SDNLZFVFSE96WXlfTFktQkVvLV9LQUw4bDZqekZxcTFxNFJTaDFtYWFnZEEydE1haVhhbg?oc=5",
+        "source": "ETV Bharat",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-10T03:35:24Z",
+        "title": "Oil Tanker With 22 Indian Crew Members Attacked at Sharjah Anchorage; All Reported Safe: Sonowal - ETV Bharat"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPakdkUzdFOUVKSFJ3SGdsZHhrWkVWWlhydEtOMjRlclFkcE5hSGp1WHBsMVVURlk1ai0tRnFkcjZYeERQa1YzTWJGR3ZmNTMtb2sxaWs4RjFRUzZkdEZnXzBwM1JpZzNhWmZDQ1FUME54UnhVY1ZLMTFXczY2ZTgwQWptZnRnRWpZaVVHWnlCR0RZU3RFOWVWVmxYTDVoRXVkNlVqa3p3SGozbFBDLVlWVXZNX1RDU1gtYWJnZV9GU2NieEJxcFRBa3BUMGx3NlcyUnUwWkd2WHBJWFNSaklOQk5UUVRod9IB6wFBVV95cUxQX0ZHVVA2eEpUdG1NdVB1OV9aNHNieVZtUnoyWURWcnlqLWpPb3FGWDBGVDJBeTI1TzJia2otRW1nMFcydGxtY2xVdTFQN0prbGN6WV9TR1NqLVBaUzVwelZKcmJGMFRWaFBtOG5uUUplU045TVh5TDVLY25MUmhmemZiYWV5VzFrYlp1SUNvd2ZybjFMOWg2Ul9vVlFRTXZMaDhENEkxeUlpLVFpMVFkT3BQcGE2dXI3TUI2Z0tGY3h4Z2JIYnlYVjByc2RJZTc2ZlE3b2pOQnBqY0pFeG44MnNlUDYwSmR4a3lN?oc=5",
+        "source": "Republic World",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-10T02:31:59Z",
+        "title": "22 Indian Seafarers Safe After Drone Attack On Crude Oil Tanker At Sharjah Anchorage: Sonowal - Republic World"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ3dmTnJ0RW8xR0xFQlF6aW5FZVg1OGJ3VVEzUHZlRjE0cjZWUkxlQktkZWZzOHlfN0M2RkZZb2o5SDRON05mbzgwYjA4dU16MHhsaXJmWVVqVUpfb3JOTDNRZGZlR1p6T3VUQU40QldOd0t3dW9Cdko1ZlJYdkFXTjFCaWNfT1RyOVpka0tXLUd3UU1FUG0zbHV2NHFNakN3SHlz0gGoAUFVX3lxTE1VZXlfMHVLSjVEVUlZR19EdVl0dkxHdnlVcW1WdGdhWm1yY3dPR0pEYy1RcDNYTjg4SV9EQ1J5Umk0aWdoVUZiSENhTTM5TEZVdldrS1dBamQ0OVg4X1hfNWVVVmxYcm52WXhjYTdhZl9KSUttLWVDQll4RENMV3Jfb25UcS1DRC1ZMExZdFJycThoeldHX3pRNUJmX002RFRCdVVLaDZ0bA?oc=5",
+        "source": "Mathrubhumi English",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-10T00:58:50Z",
+        "title": "Panama-flagged oil tanker hit in drone attack off Sharjah; all 22 Indian crew safe - Mathrubhumi English"
+      },
+      {
+        "url": "https://gcaptain.com/vessel-struck-by-unknown-projectile-off-uae-coast-amid-surge-in-attacks-ukmto-says/",
+        "source": "gcaptain.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-10T05:08:27Z",
+        "title": null
+      },
+      {
+        "url": "https://gcaptain.com/vessel-struck-by-unknown-projectile-off-uae-coast-amid-surge-in-attacks-ukmto-says/",
+        "source": "gcaptain.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-10T05:08:27Z",
+        "title": null
+      },
+      {
+        "url": "https://www.vesselfinder.com/vessels/details/9735373",
+        "source": "vesselfinder.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-10T05:08:27Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-09T14:36:17Z",
-    "last_updated": "2026-10-10T04:39:03Z",
+    "last_updated": "2026-10-10T05:08:27Z",
     "verification_issue": 97,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "editor-check",
+      "at": "2026-10-10T05:08:27Z",
+      "note": "UKMTO warning 160-26 reported the strike and the fire that was extinguished, and shipping sources named the vessel"
+    },
     "published_in": [
       "2026-10-10"
     ],
     "status": "confirmed",
     "position_approx": true,
-    "date_approx": false
+    "date_approx": false,
+    "news_changed_at": "2026-10-10T05:08:27Z",
+    "position_note": "13 nm west of Al Jazeera Al Hamra, UAE, inside the Persian Gulf, per UKMTO warning 160-26 as reported by Reuters"
   },
   {
     "region": "Strait of Hormuz",
@@ -405,8 +467,8 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.7,
-    "vessel_name": null,
-    "imo": null,
+    "vessel_name": "NV SUNSHINE",
+    "imo": "9350288",
     "flag": "Vietnam",
     "vessel_type": "LNG/LPG carrier",
     "vessel_category": "merchant",
@@ -482,10 +544,28 @@
         "kind": "media",
         "published_at": "2026-10-09T12:57:50Z",
         "title": "بحرية الحرس الثوري الإيراني: استهداف سفينة لنقل الغاز المسال في مضيق هرمز - Iran International"
+      },
+      {
+        "url": "https://www.vesselfinder.com/vessels/details/9350288",
+        "source": "vesselfinder.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-10T05:08:27Z",
+        "title": null
+      },
+      {
+        "url": "https://www.vesselfinder.com/vessels/details/9350288",
+        "source": "vesselfinder.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-10T05:08:27Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-09T14:36:17Z",
-    "last_updated": "2026-10-10T00:18:07Z",
+    "last_updated": "2026-10-10T05:08:27Z",
     "verification_issue": 98,
     "verdict": null,
     "published_in": [
@@ -493,7 +573,8 @@
     ],
     "status": "claimed",
     "position_approx": true,
-    "date_approx": false
+    "date_approx": false,
+    "news_changed_at": "2026-10-10T05:08:27Z"
   },
   {
     "region": "Persian Gulf",
@@ -764,15 +845,16 @@
       }
     ],
     "first_seen": "2026-10-09T19:42:52Z",
-    "last_updated": "2026-10-10T04:39:04Z",
+    "last_updated": "2026-10-10T05:08:27Z",
     "verification_issue": 101,
     "verdict": null,
     "published_in": [
       "2026-10-10"
     ],
-    "status": "reported",
+    "status": "merged",
     "position_approx": true,
-    "date_approx": false
+    "date_approx": false,
+    "merged_into": "INC-20261006-014"
   },
   {
     "region": "Strait of Hormuz",
@@ -1627,95 +1709,6 @@
     "status": "merged",
     "position_approx": true,
     "merged_into": "INC-20261005-001"
-  },
-  {
-    "region": "Strait of Hormuz",
-    "date_utc": "2026-10-08",
-    "summary": "A crude oil tanker was struck by an unknown projectile in the Strait of Hormuz on 8 October, according to a UK maritime agency, with reports of Indian crew among the injured. The UN halted its escort of ships through Hormuz after the vessel came under attack, and a Times of India headline separately said Iran attacked a ship in UAE waters.",
-    "official_source_cited": "UK maritime agency",
-    "conflicting": false,
-    "confidence": 0.7,
-    "vessel_name": null,
-    "imo": null,
-    "flag": "Panama",
-    "vessel_type": "tanker",
-    "vessel_category": "merchant",
-    "lat": 26.55,
-    "lon": 56.35,
-    "location_text": "Strait of Hormuz",
-    "attack_type": "other",
-    "damage": null,
-    "casualties": "11 Indian crew injured",
-    "attribution_claimed": "Iran (per headline claim)",
-    "independent_evidence": true,
-    "id": "INC-20261008-014",
-    "sources": [
-      {
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZTBHS3FBMHZYVm9YRXZaQXhucmZiTzBWZmtybFdmdU5wZ2J0bTFyVjd2N3hXem5NNndTd19qZmE0MlJGY055TE9LdFE0M01OS2VFazBWcWxpREQ0VFlpT1FBQXQ2TGZkMEVPWTJMV01XMm5wVnhFaVZ5eVlMcTJxZ01nQ0hac3NtQ0l1LVhhYVVmcmZ0X1o3WkVybkxvSU5WRGEzc2QxWC0yVTdna3ZWdmFNUmM1cThzMWV0MkU4VllmZUkyXzZv0gHMAUFVX3lxTE1seWtUeEJXSDlkUERVYmNHeXp2MnBidXJTYk5tTFptWWtWNk10YWZrXzk0ZmhHbzdhTy1QMnlMbU91NnVCZGQtcm5NNnBOckpiRUFHZUptQV9HU0IyeHF6Z0NlLURJN0luTU1jOC1fc1lSTmVPeWR4T2swVGlDdzY1eDdOdmdwTXluZUlrUTN4TmdSUHRpR0ttd3dvcHlNcEUyM05peElPWkd3QldoSUt4WkpOQjJzQTdLZEEyeHk3MXluQWUyWTRUTV9rQg?oc=5",
-        "source": "Middle East Monitor",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-08T18:10:00Z",
-        "title": "Crude oil tanker struck by unknown projectile in Strait of Hormuz: UK maritime agency - Middle East Monitor"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTzhvUExwQktnbjZWS3lhLXFzUzdVU2FROTA2R1lHUHRsRGpyXzN2amV6Y2tJMllpWGUwaTVyWHJ0cFI0TDY0NVdxSGVUMmJXYlUyVHNXbGROeVVzU2hHdXJta180SV9kYkp4S1VwWkRONVUzb01RcVZUM3VUSERvVjVwbTM4WVctRzJBZGZuN0FaMWhKTE1rVHpWTEpmVDEwd3FKYVFrV3gwUV9LckgzNGtVWmQxeUlvUWloaExRN3ptZjNfaGY4SXd5WXFCaUJrREHSAdcBQVVfeXFMTjFfOS13N3ZGWkpqclBRRE1SVG9JNWRXWDMwVURVdm5OUkpQTno3eUpCTXlHN2dCWXRMYm56YWpPaGlXUVNYejdNM0lmSFZ1NWZCc0dtWHlUcEZFbXUydFJwUW9kV1dhdHhXcEIzZFI5dWJqWXhLbl9GdzloaGU1aEtwaWFoekhERU5CZERjUE1vU2FseS1QSF9xQklkUkI2dW0wMUREY19uQllsZ0xuNm50SHcyTmREN3Q4bEh5Wl82dTdrS3dqU25wc3pCZzdNMW9Ndk11aU0?oc=5",
-        "source": "ThePrint",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-07T06:18:06Z",
-        "title": "11 Indian crew injured in strike on Panama-flagged ship in Strait of Hormuz, New Delhi condemns attack - ThePrint"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPajRPMDhxTUFSYnpwWlYyWTZFRzNMZTNJRXduc3poWHBRQmtlQlBTczg1ZFZMSXMwM2lVOE9POXJ3MFRDVVc4UlVGbGZMZHAzdWVkT3ZVX0p6Z0laTUVQeHV4NnRaM0F1R29TekpqVW9pWVZteGNYZUI5eWZWLVY4NTRkUTdjRFdJNW9rdWt1WlJHTjhyOHpkajNTcmZ3clFMMGZ1Wlh5d2tFQjJTNlJXY3ZHOTVwVk13TVUyS25QWWYtU3d2S1h1V0tYaHRaY2h4ejZiTVRsVzFIeHBu?oc=5",
-        "source": "Riviera Maritime Media",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-07T04:50:57Z",
-        "title": "News Content Hub - 12 injured in Hormuz attack; Angelicoussis LNG carrier among several vessels hit - Riviera Maritime Media"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNEY5SmQxTXFDU2ZRR3ppRUo5THl6R2hFakNYYXMzUGtDeGtra0ttZFlSc3lmamo2Z3BlbHhJaU9MNF9lRGhtRC1jcVJBY2FZNkpFNVlhWHVXaUNJNVoyaXM3QktaTFVVeWtYV2E0bHJLeXdtOUdmWWtjTzZNMTJkaHIyRHFqY0l2aDJEZzJpV0RsX0tIVGI2WDdUSWFsZw?oc=5",
-        "source": "DD News",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-08T18:54:40Z",
-        "title": "UN halts escort of ships through Hormuz after vessel comes under attack - DD News"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOajFKSVgtSVJDZzJzYjlZa0tSZlRVVkNUcHQ0aVBheDFoU0Q5SUhoVGVxa1lBMDBGQWMtTFZrNjZpTjdkMlpDTWxHdUg2SVJ0Yml3bFdrUWhOZkJzQXNkblN3ZjFjQ2YzN2xlbWFXdlVLS2ZvaHQzWmhTV0NGS3FrYTgxQWpyNG9XOGpDUjRiaWcybzBraFpram9VVW5aS1dUUlVzUmQtMERxTU1ZNmVZd2JGdGxoeFpGalZFWWx0QVhTTTZlOVBnaEoxeVI1THZCYUZaTnVOZ0FLMFMzcWt2eFA0S0dSQ3dLTU1FWUk1V3JzNFNXOWNNQkJaalZYX3d5ekQyZjYwY9IBjAJBVV95cUxObTIwcllEX3pWVXMweTBQYlBhMEVTY1lxNTFCQ1NEZ1dNTUlOaG56SDU0aGJxelhOdWlkRl90Q3NXOS1ra2Nsc2EzbmlXU0hnN05pSXREMXVDWWx0eFBPVEM4MEF2MUUwdmlFLWN3cVcxcTA5a0c5QkZ2NFhQTVcyV2FxSzNqeU5GY1B6bVFJTTVmbm81a3pPYU14dWE3WXEwX1l4ekNtQzZjcm96WGxoZ1ROcm1Edmx6MFQwdXdGbi1wSzA4LWFFV3BzOGtzaFpIeUZUdlZ0MEUtM2M2M3JJSnF2Y1g3NFhNdXZiU2FTSlMwd0IycXBBSGtZZzRaeHBFR3p6WXUtOW5DOFdq?oc=5",
-        "source": "The Times of India",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-08T09:53:06Z",
-        "title": "IRAN ATTACKS SHIP IN UAE-New - The Times of India"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNU9SZF9Ma3pGNEV3VkJUX1ZqeElva0JZamhWRTVKOFpadklCOHZ2dTM3bjR0eWFna2JBM3QtTnQ2cXZteFRzUzB5TFNfZHlrR0pBR3FTbFZaWlVSQ01tU2oyc0xVZFhFMlE3cVQ4OFg2ZTRDRWlWTnljd0RhMDZCVG1GNl9wOXJkVEhDN1I2VkUwcGZoQnJHQVltVVMwWHhSWVRJb05sTlgxcEg2YlVVdUs5cTFBdnYyc1ZxSjk2RTVUNlpIWXBXODBlNWcxVklBS2ducTNpS19iQQ?oc=5",
-        "source": "TradeWinds News",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-08T20:07:16Z",
-        "title": "US military tells shipping that Hormuz is open for business as new attack details emerge - TradeWinds News"
-      }
-    ],
-    "first_seen": "2026-10-09T00:36:33Z",
-    "last_updated": "2026-10-09T14:36:42Z",
-    "verification_issue": 93,
-    "verdict": null,
-    "published_in": [
-      "2026-10-09",
-      "2026-10-10"
-    ],
-    "status": "reported",
-    "position_approx": true,
-    "date_approx": false
   },
   {
     "region": "Black Sea",
@@ -3791,14 +3784,117 @@
       }
     ],
     "first_seen": "2026-10-09T14:36:47Z",
-    "last_updated": "2026-10-09T14:36:47Z",
+    "last_updated": "2026-10-10T05:08:27Z",
     "verification_issue": null,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "editor-check",
+      "at": "2026-10-10T05:08:27Z",
+      "note": "the IMO Middle East highlighted incidents list has ST1 hit 2 nm off Oman on 6 October"
+    },
     "published_in": [
       "2026-10-10"
     ],
     "status": "confirmed",
     "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-06",
+    "summary": "A crude oil tanker was struck by an unknown projectile in the Strait of Hormuz on 8 October, according to a UK maritime agency, with reports of Indian crew among the injured. The UN halted its escort of ships through Hormuz after the vessel came under attack, and a Times of India headline separately said Iran attacked a ship in UAE waters.",
+    "official_source_cited": "UK maritime agency",
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": null,
+    "imo": null,
+    "flag": "Panama",
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": "11 Indian crew injured",
+    "attribution_claimed": "Iran (per headline claim)",
+    "independent_evidence": true,
+    "id": "INC-20261008-014",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZTBHS3FBMHZYVm9YRXZaQXhucmZiTzBWZmtybFdmdU5wZ2J0bTFyVjd2N3hXem5NNndTd19qZmE0MlJGY055TE9LdFE0M01OS2VFazBWcWxpREQ0VFlpT1FBQXQ2TGZkMEVPWTJMV01XMm5wVnhFaVZ5eVlMcTJxZ01nQ0hac3NtQ0l1LVhhYVVmcmZ0X1o3WkVybkxvSU5WRGEzc2QxWC0yVTdna3ZWdmFNUmM1cThzMWV0MkU4VllmZUkyXzZv0gHMAUFVX3lxTE1seWtUeEJXSDlkUERVYmNHeXp2MnBidXJTYk5tTFptWWtWNk10YWZrXzk0ZmhHbzdhTy1QMnlMbU91NnVCZGQtcm5NNnBOckpiRUFHZUptQV9HU0IyeHF6Z0NlLURJN0luTU1jOC1fc1lSTmVPeWR4T2swVGlDdzY1eDdOdmdwTXluZUlrUTN4TmdSUHRpR0ttd3dvcHlNcEUyM05peElPWkd3QldoSUt4WkpOQjJzQTdLZEEyeHk3MXluQWUyWTRUTV9rQg?oc=5",
+        "source": "Middle East Monitor",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T18:10:00Z",
+        "title": "Crude oil tanker struck by unknown projectile in Strait of Hormuz: UK maritime agency - Middle East Monitor"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTzhvUExwQktnbjZWS3lhLXFzUzdVU2FROTA2R1lHUHRsRGpyXzN2amV6Y2tJMllpWGUwaTVyWHJ0cFI0TDY0NVdxSGVUMmJXYlUyVHNXbGROeVVzU2hHdXJta180SV9kYkp4S1VwWkRONVUzb01RcVZUM3VUSERvVjVwbTM4WVctRzJBZGZuN0FaMWhKTE1rVHpWTEpmVDEwd3FKYVFrV3gwUV9LckgzNGtVWmQxeUlvUWloaExRN3ptZjNfaGY4SXd5WXFCaUJrREHSAdcBQVVfeXFMTjFfOS13N3ZGWkpqclBRRE1SVG9JNWRXWDMwVURVdm5OUkpQTno3eUpCTXlHN2dCWXRMYm56YWpPaGlXUVNYejdNM0lmSFZ1NWZCc0dtWHlUcEZFbXUydFJwUW9kV1dhdHhXcEIzZFI5dWJqWXhLbl9GdzloaGU1aEtwaWFoekhERU5CZERjUE1vU2FseS1QSF9xQklkUkI2dW0wMUREY19uQllsZ0xuNm50SHcyTmREN3Q4bEh5Wl82dTdrS3dqU25wc3pCZzdNMW9Ndk11aU0?oc=5",
+        "source": "ThePrint",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T06:18:06Z",
+        "title": "11 Indian crew injured in strike on Panama-flagged ship in Strait of Hormuz, New Delhi condemns attack - ThePrint"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPajRPMDhxTUFSYnpwWlYyWTZFRzNMZTNJRXduc3poWHBRQmtlQlBTczg1ZFZMSXMwM2lVOE9POXJ3MFRDVVc4UlVGbGZMZHAzdWVkT3ZVX0p6Z0laTUVQeHV4NnRaM0F1R29TekpqVW9pWVZteGNYZUI5eWZWLVY4NTRkUTdjRFdJNW9rdWt1WlJHTjhyOHpkajNTcmZ3clFMMGZ1Wlh5d2tFQjJTNlJXY3ZHOTVwVk13TVUyS25QWWYtU3d2S1h1V0tYaHRaY2h4ejZiTVRsVzFIeHBu?oc=5",
+        "source": "Riviera Maritime Media",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-07T04:50:57Z",
+        "title": "News Content Hub - 12 injured in Hormuz attack; Angelicoussis LNG carrier among several vessels hit - Riviera Maritime Media"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNEY5SmQxTXFDU2ZRR3ppRUo5THl6R2hFakNYYXMzUGtDeGtra0ttZFlSc3lmamo2Z3BlbHhJaU9MNF9lRGhtRC1jcVJBY2FZNkpFNVlhWHVXaUNJNVoyaXM3QktaTFVVeWtYV2E0bHJLeXdtOUdmWWtjTzZNMTJkaHIyRHFqY0l2aDJEZzJpV0RsX0tIVGI2WDdUSWFsZw?oc=5",
+        "source": "DD News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T18:54:40Z",
+        "title": "UN halts escort of ships through Hormuz after vessel comes under attack - DD News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOajFKSVgtSVJDZzJzYjlZa0tSZlRVVkNUcHQ0aVBheDFoU0Q5SUhoVGVxa1lBMDBGQWMtTFZrNjZpTjdkMlpDTWxHdUg2SVJ0Yml3bFdrUWhOZkJzQXNkblN3ZjFjQ2YzN2xlbWFXdlVLS2ZvaHQzWmhTV0NGS3FrYTgxQWpyNG9XOGpDUjRiaWcybzBraFpram9VVW5aS1dUUlVzUmQtMERxTU1ZNmVZd2JGdGxoeFpGalZFWWx0QVhTTTZlOVBnaEoxeVI1THZCYUZaTnVOZ0FLMFMzcWt2eFA0S0dSQ3dLTU1FWUk1V3JzNFNXOWNNQkJaalZYX3d5ekQyZjYwY9IBjAJBVV95cUxObTIwcllEX3pWVXMweTBQYlBhMEVTY1lxNTFCQ1NEZ1dNTUlOaG56SDU0aGJxelhOdWlkRl90Q3NXOS1ra2Nsc2EzbmlXU0hnN05pSXREMXVDWWx0eFBPVEM4MEF2MUUwdmlFLWN3cVcxcTA5a0c5QkZ2NFhQTVcyV2FxSzNqeU5GY1B6bVFJTTVmbm81a3pPYU14dWE3WXEwX1l4ekNtQzZjcm96WGxoZ1ROcm1Edmx6MFQwdXdGbi1wSzA4LWFFV3BzOGtzaFpIeUZUdlZ0MEUtM2M2M3JJSnF2Y1g3NFhNdXZiU2FTSlMwd0IycXBBSGtZZzRaeHBFR3p6WXUtOW5DOFdq?oc=5",
+        "source": "The Times of India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T09:53:06Z",
+        "title": "IRAN ATTACKS SHIP IN UAE-New - The Times of India"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNU9SZF9Ma3pGNEV3VkJUX1ZqeElva0JZamhWRTVKOFpadklCOHZ2dTM3bjR0eWFna2JBM3QtTnQ2cXZteFRzUzB5TFNfZHlrR0pBR3FTbFZaWlVSQ01tU2oyc0xVZFhFMlE3cVQ4OFg2ZTRDRWlWTnljd0RhMDZCVG1GNl9wOXJkVEhDN1I2VkUwcGZoQnJHQVltVVMwWHhSWVRJb05sTlgxcEg2YlVVdUs5cTFBdnYyc1ZxSjk2RTVUNlpIWXBXODBlNWcxVklBS2ducTNpS19iQQ?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T20:07:16Z",
+        "title": "US military tells shipping that Hormuz is open for business as new attack details emerge - TradeWinds News"
+      },
+      {
+        "url": "https://www.middleeastmonitor.com/20261008-crude-oil-tanker-struck-by-unknown-projectile-in-strait-of-hormuz-uk-maritime-agency/",
+        "source": "middleeastmonitor.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-10T05:08:27Z",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-10-09T00:36:33Z",
+    "last_updated": "2026-10-10T05:08:27Z",
+    "verification_issue": 93,
+    "verdict": null,
+    "published_in": [
+      "2026-10-09",
+      "2026-10-10"
+    ],
+    "status": "reported",
+    "position_approx": true,
+    "date_approx": false
   },
   {
     "region": "Black Sea",
@@ -8149,10 +8245,73 @@
         "kind": "media",
         "published_at": "2026-10-08T05:47:55Z",
         "title": "Путину доложили об атаке на танкер в Черном море, экипаж не пострадал - РИА Твои Новости"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOHljZXVrN2xNTmVJNC1jcWpCcHZmR0F5SHN4N2Q5dkVhV2hQZHc0UE1QM1ZUYS1KTGJpZHJveHRqSjZmZ0dkQmlLNXNpZlVLaHVEVkVyRTFheUJOVFpQaXVuSVl5clh5T2o3c0taOXY0dFZMcTBMTEgwcjZlM0hJOWRmaVBucnpJSjRTVjZjdTYyMjl3b1FhSlpZSmo2amVz?oc=5",
+        "source": "Pragativadi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-09T15:26:20Z",
+        "title": "23 Indian crew rescued after sea-drone attack sets tanker ablaze off Sochi - Pragativadi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVXNhMENoUjE5M3djR2k5TTdGMGtqblU2dnY1Nlp2eWFiZE41cU03QU04ZTNSanJ1U2JIMnU3UTBQMzFCeWlVd3puYlFzNVNtN2h1OWtQZHhpX0VJQllyRkdwalc4S1NaaXFsckR1NlZZM0w3Q0NQRi03elVCbklFWTAzM2tIX2RiZnZMOHQyRHcyT2p4SjVTR29VTjRyeVN0ZGxaU3EtaGxZTWMtbUhXcFVmOWpiY19WMlc3cTctR2laU0dWS2F3?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-09T17:03:38Z",
+        "title": "Горящий из-за атаки БЭК танкер дрейфует вдоль берега Сочи под воздействием течения - prospect.com.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa0VwQjNvWlRZRVBpeTdNZmdHLXYydzRIMzBpcU5yNy1DTXl4UlRwR2I5a3dKODVZZG9rWFEzYjQwdGdxODBKVnNLWDJSN0kyOG9UUFliUENUMXpRWE5zNzF4WVRtNkRJMzlXT29LZmd6WW1mRzN3QV85ckxhS1lRSHp3NHhIWGNfbDZUaE1GQ0ozcHU5bVptTkpEWUpraFdsYkdsNDlZNUlVZw?oc=5",
+        "source": "Bugün Kıbrıs",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T04:57:45Z",
+        "title": "Kıbrıs bağlantılı petrol tankerine Karadeniz’de saldırı I 23 mürettebat kurtarıldı - Bugün Kıbrıs"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5nVjcyNWJyN3VvbFZxMmx2MDRBRllhYXlHV3E1ZERUcVdpLVdZV08xM0ZPbHZ3ejZQblIycFpBbU5TNmZJLXFNeDQxMXRydl9rV05IdXdEcHhvaHVPcUJ0RXMxWXVNa0k4bExTQ3hmWlRQN1J6UjN4eFV3?oc=5",
+        "source": "AOL.ca",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T03:20:00Z",
+        "title": "Naval drone hits oil tanker off Russian resort city Sochi, triggering massive blaze - AOL.ca"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQb01qQVRiUHBJM05TaHZvVDRyczdENW9KWGlhMGFYT2xKYzl0azFzekpNQ2REVE5IZ2VZWnBWd01jRmZwVzFuQ0pnX190QkVUdzlrbHJhc0xSRnhnQWJtZWxqV2lQa0M5VjN4M1VkSEIteXA0eVBfTWZydF9IUVdlV1lZcGJnbjh3aTZRTDFFeG1aMnNUTjBzNnB3?oc=5",
+        "source": "7NEWS",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T07:00:00Z",
+        "title": "Oil tanker explodes in Black Sea drone strike - 7NEWS"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbG5hRDBfRDhkSHpBbHlmNHR5cnJCbU1LSXVsMHptSm80OHRuYnFOb0wzdE5CX3V3QXZXc04zeHhtdGQ5Wmo3Yk1uMFdqRDl4aWh5XzhIYnU0d0wwbEc4aDJ2YUtyMGJqVE9IWnZRWFRtdEYyQ0wxa1Z5blBVWXRrdlhWa2Fkb05Ub01EUmVIelMwYUdBRHVySUM3a19VZUZrNDZoMXpRc1drNDhwM1lGVzZxb09hS0ptZ3RaUHlnaw?oc=5",
+        "source": "Akçakoca TV",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T07:53:58Z",
+        "title": "Karadeniz'de Türk gemisine İHA saldırısı: 10 mürettebat hayatını kaybetti - Akçakoca TV"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOS2FYLWdaeldzY3RNdTEtLWFfUG9SREw3VnBSMVR6LUVMUklZZFNsTXhDUkNFUGNUNXdSaHFKSk5XZkRWcUI5UVFIdDBzZVhlXzk3ZVVpdmlmcWFNcWVLMm1DY19lN0l4M01IVEQzbGpBTk9Ma01tWTY3a00wMjZGUFpYcEJwckNnN2gzMTluSlRUMmhwT0FtOGhSRklqMlBJRjh0c2FFc3dqZHZJLThhU1hFS2FTQ2Q0OWN6VFZoVF9RbXVpZVl5NjdGZG9zaWhxT2dwQ2FBYmp4N1ZzOExXVlBiZWZ6ZlZzV3BoU0FaWXlweTI0UTFjczN30gH6AUFVX3lxTE5LYVgtZ1p6V3NjdE11MS0tYV9Qb1JETDdWcFIxVHotRUxSSVlkU2xNeENSQ0VQY1Q1d1JocUpKTldmRFZxQjlRUUh0MHNlWGVfOTdlVWl2aWZxYU1xZUsybUNjX2U3SXgzTUhURDNsakFOT0xrTW1ZNjdrTTAyNkZQWlhwQnByQ2c3aDMxOW5KVFQyaHBPQW04aFJGSWoyUElGOHRzYUVzd2pkdkktOGFTWEVLYVNDZDQ5Y3pUVmhUX1FtdWllWXk2N0Zkb3NpaHFPZ3BDYUFiang3VnM4TFdWUGJlZnpmVnNXcGhTQVpZeXB5MjRRMWNzM3c?oc=5",
+        "source": "India.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T02:13:50Z",
+        "title": "India issues stern condemnation after Black Sea vessel strikes leave national sailor injured, says ‘targeting - India.com"
       }
     ],
     "first_seen": "2026-10-06T20:33:03Z",
-    "last_updated": "2026-10-10T00:18:11Z",
+    "last_updated": "2026-10-10T05:08:27Z",
     "verification_issue": 65,
     "verdict": {
       "status": "rejected",
@@ -8163,7 +8322,8 @@
     "published_in": [
       "2026-10-07",
       "2026-10-08",
-      "2026-10-09"
+      "2026-10-09",
+      "2026-10-10"
     ],
     "status": "rejected",
     "status_changed_at": "2026-10-06T20:33:09Z",
@@ -12758,9 +12918,14 @@
       }
     ],
     "first_seen": "2026-10-09T14:36:47Z",
-    "last_updated": "2026-10-09T14:36:47Z",
+    "last_updated": "2026-10-10T05:08:27Z",
     "verification_issue": null,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "editor-check",
+      "at": "2026-10-10T05:08:27Z",
+      "note": "the IMO Middle East highlighted incidents list has GAS VELA hit in the Strait of Hormuz on 4 October"
+    },
     "published_in": [
       "2026-10-10"
     ],

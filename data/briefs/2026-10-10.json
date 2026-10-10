@@ -32,5 +32,33 @@
   "generated_at": "2026-10-10T04:39:21Z",
   "consistency_fixed": [],
   "consistency_problems": [],
-  "quality": "1 check(s) need attention: dates ok; attribution ok; official coverage 0/0 ok; verified 2/7; single-source items 0; confirmed 1 marked confirmed without proof; fact-check 1 correction(s); tweet 236/280 ok; dashes ok; consistency ok"
+  "quality": "1 check(s) need attention: dates ok; attribution ok; official coverage 0/0 ok; verified 2/7; single-source items 0; confirmed 1 marked confirmed without proof; fact-check 1 correction(s); tweet 236/280 ok; dashes ok; consistency ok",
+  "review": {
+    "status": "done",
+    "at": "2026-10-10T05:08:27Z",
+    "changes": [
+      "merged INC-20261010-001 into INC-20261009-003 (the same attack: UKMTO warning 160-26 reports the strike 13 nm west of Al Jazeera, UAE on 9 October, shipping sources name the Panama-flagged crude oil tanker GEM NO. 2, and India's shipping minister places it at Sharjah anchorage the same day)",
+      "name of INC-20261009-003 set to GEM NO. 2",
+      "flag of INC-20261009-003 set to Panama",
+      "imo of INC-20261009-003 set to 9735373",
+      "position of INC-20261009-003 set to 25.71, 55.56 (13 nm west of Al Jazeera Al Hamra, UAE, inside the Persian Gulf, per UKMTO warni)",
+      "INC-20261009-003 marked confirmed (UKMTO warning 160-26 reported the strike and the fire that was extinguished, and shipping sources named the vessel)",
+      "date of INC-20261008-014 set to 2026-10-06",
+      "INC-20261006-032 marked confirmed (the IMO Middle East highlighted incidents list has ST1 hit 2 nm off Oman on 6 October)",
+      "INC-20261004-018 marked confirmed (the IMO Middle East highlighted incidents list has GAS VELA hit in the Strait of Hormuz on 4 October)",
+      "merged INC-20261009-009 into INC-20261006-014 (the tanker ablaze off Sochi with 23 Indian crew rescued is the 6 October Aframax Rio strike, named by Russia's transport ministry and reported by Reuters and India Today, not an 8 to 9 October attack)",
+      "name of INC-20261009-004 set to NV SUNSHINE",
+      "imo of INC-20261009-004 set to 9350288",
+      "lesson (facts): Take the event date from inside the source, never the date the page or warning was published: the 8 October entry was UK",
+      "lesson (writing): Give every borrowed casualty figure the ship and date its own source names: the 12 injured belong to the 5 October On Pe"
+    ],
+    "refused": [],
+    "notes": [
+      "The headline, lede and key points must go to the 9 October strike on the GEM NO. 2, the only attack on a merchant ship inside the 24 hour window, hit 13 nm west of Al Jazeera Al Hamra in the Persian Gulf with the fire extinguished and all 22 crew safe. The 11 Indian crew injured are the 5 October On Peace attack off Oman, per India's Ministry of External Affairs, and the UN escort pause is the June 2026 Ever Lovely incident, so that sentence must go.",
+      "The 8 October Hormuz record is UKMTO's delayed report of a crude oil tanker struck at 1709 GMT on 6 October with no casualties: give it that date, and do not call it Panama-flagged or report 11 injured, because both of those details are the 5 October On Peace's.",
+      "The Black Sea item is the 6 October Aframax Rio strike, Liberia-flagged, 23 Indian crew rescued, nobody hurt: give it one Earlier in the week line with its 6 October date, not 8 to 9 October. The 10 crew killed in that entry belong to the 6 October sinking of the Alfa Watan, and India's injured-sailor condemnation to the 5 October Royad Mammadov strike."
+    ],
+    "restored": [],
+    "send_after": false
+  }
 }
