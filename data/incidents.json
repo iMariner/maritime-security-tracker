@@ -2133,9 +2133,9 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.6,
-    "vessel_name": null,
-    "imo": null,
-    "flag": "Turkey",
+    "vessel_name": "Alfa Watan",
+    "imo": "7510884",
+    "flag": "Togo",
     "vessel_type": "general cargo",
     "vessel_category": "merchant",
     "lat": 43.4,
@@ -2183,18 +2183,43 @@
         "kind": "media",
         "published_at": "2026-10-07T15:42:00Z",
         "title": "Türk gemisine İHA saldırısı! 10 mürettebattan haber yok - ede TV"
+      },
+      {
+        "url": "https://www.euronews.com/2026/10/06/drones-hit-two-ships-off-coast-of-bulgaria-as-government-calls-emergency-meeting",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-10T04:34:14Z",
+        "title": null
+      },
+      {
+        "url": "https://sofiaglobe.com/2026/10/07/bulgaria-calls-off-search-for-crew-of-ship-sunk-in-drone-attack-in-black-sea/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-10T04:34:14Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-07T13:49:15Z",
-    "last_updated": "2026-10-08T05:08:25Z",
+    "last_updated": "2026-10-10T04:34:14Z",
     "verification_issue": 70,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-10T04:34:14Z",
+      "note": "The same 6 October drone attack off Bulgaria already tracked as INC-20261006-001, the Togo-flagged Alfa Watan that sank about 70 nautical miles east of Byala, and its crew are missing rather than ten killed, with the number aboard put at ten to twelve.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/70#issuecomment-6093805977"
+    },
     "published_in": [
       "2026-10-08"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261006-001"
+    "merged_into": "INC-20261006-001",
+    "status_changed_at": "2026-10-10T04:34:14Z"
   },
   {
     "region": "Black Sea",
@@ -2203,9 +2228,9 @@
     "official_source_cited": "Rosprirodnadzor (Russian environmental watchdog)",
     "conflicting": false,
     "confidence": 0.8,
-    "vessel_name": null,
-    "imo": null,
-    "flag": "Cyprus",
+    "vessel_name": "Aframax Rio",
+    "imo": "9273844",
+    "flag": "Liberia",
     "vessel_type": "tanker",
     "vessel_category": "merchant",
     "lat": 43.4,
@@ -2370,17 +2395,41 @@
         "kind": "media",
         "published_at": "2026-10-07T07:08:52Z",
         "title": "В Черном море после атаки морских дронов загорелся нефтяной танкер: оперштаб закрыл пляжи в Сочи - Т—Ж"
+      },
+      {
+        "url": "https://cyprus-mail.com/2026/10/07/cyprus-linked-tanker-ablaze-off-sochi-after-black-sea-drone-attack",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-10T04:34:11Z",
+        "title": null
+      },
+      {
+        "url": "https://www.kyivpost.com/post/86454",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-10T04:34:11Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-07T13:49:31Z",
-    "last_updated": "2026-10-08T05:08:25Z",
+    "last_updated": "2026-10-10T04:34:11Z",
     "verification_issue": 72,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-10T04:34:11Z",
+      "note": "The same 6 October unmanned vessel attack off Sochi already tracked as INC-20261006-014, the Liberia-flagged Aframax Rio, which is the Cyprus-linked tanker the Cyprus Mail report of 6 October describes.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/72#issuecomment-6093806133"
+    },
     "published_in": [
       "2026-10-08"
     ],
-    "status": "merged",
-    "status_changed_at": "2026-10-07T13:49:40Z",
+    "status": "rejected",
+    "status_changed_at": "2026-10-10T04:34:11Z",
     "position_approx": true,
     "merged_into": "INC-20261006-014"
   },
@@ -3093,16 +3142,35 @@
         "kind": "media",
         "published_at": "2026-10-07T20:32:55Z",
         "title": "Fuel Tanker Ablaze in Strait of Hormuz After Drone Strike, Iran Revolutionary Guards Say - EnergyNow"
+      },
+      {
+        "url": "https://www.reuters.com/business/energy/fuel-tanker-ablaze-strait-hormuz-after-drone-strike-iran-revolutionary-guards-2026-03-02/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-10T04:34:09Z",
+        "title": null
+      },
+      {
+        "url": "https://www.bairdmaritime.com/shipping/tankers/fuel-tanker-ablaze-in-strait-of-hormuz-after-drone-strike-iran-revolutionary-guards-say",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-10T04:34:09Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-08T00:22:43Z",
-    "last_updated": "2026-10-08T05:08:25Z",
+    "last_updated": "2026-10-10T04:34:09Z",
     "verification_issue": 75,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-08T05:08:25Z",
-      "note": "the EnergyNow item is a republished March 2026 report about the IRGC claim on the Honduran-flagged Athe Nova, not an attack on 7 October"
+      "by": "iMariner",
+      "at": "2026-10-10T04:34:09Z",
+      "note": "The EnergyNow item is a republished report of the IRGC claim against the Honduran-flagged Athe Nova of 2 March 2026, not an attack on 7 October.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/75#issuecomment-6093806364"
     },
     "published_in": [
       "2026-10-08"
@@ -3222,9 +3290,9 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.7,
-    "vessel_name": null,
-    "imo": null,
-    "flag": null,
+    "vessel_name": "Maran Gas Mystras",
+    "imo": "9658238",
+    "flag": "Greece",
     "vessel_type": "LNG/LPG carrier",
     "vessel_category": "merchant",
     "lat": 26.55,
@@ -3245,18 +3313,43 @@
         "kind": "media",
         "published_at": "2026-10-07T14:24:18Z",
         "title": "Maran Gas LNG carrier hit near Strait of Hormuz as Iran piles up attacks - TradeWinds News"
+      },
+      {
+        "url": "https://www.hellenicshippingnews.com/second-greek-linked-ship-hit-in-hormuz-within-days/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-10T04:34:07Z",
+        "title": null
+      },
+      {
+        "url": "https://www.ekathimerini.com/economy/1317331/greek-lng-carrier-hit-in-strait-of-hormuz-crew-safe/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-10T04:34:07Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-08T00:22:49Z",
-    "last_updated": "2026-10-08T05:08:25Z",
+    "last_updated": "2026-10-10T04:34:07Z",
     "verification_issue": 77,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-10T04:34:07Z",
+      "note": "The same LNG carrier strike near the Strait of Hormuz already tracked as INC-20261004-017, the Greek-flagged Maran Gas Mystras, which Greece's shipping ministry confirmed.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/77#issuecomment-6093806488"
+    },
     "published_in": [
       "2026-10-08"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261004-017"
+    "merged_into": "INC-20261004-017",
+    "status_changed_at": "2026-10-10T04:34:07Z"
   },
   {
     "region": "Black Sea",
@@ -8336,17 +8429,42 @@
         "kind": "media",
         "published_at": "2026-10-07T11:46:57Z",
         "title": "Bulgaria stops search for missing seafarers after Russia strikes four Turkish ships - TradeWinds News"
+      },
+      {
+        "url": "https://www.tradewindsnews.com/casualties/bulgaria-stops-search-for-missing-seafarers-after-russia-strikes-four-turkish-ships/2-1-2055075",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-10T04:34:13Z",
+        "title": null
+      },
+      {
+        "url": "https://sofiaglobe.com/2026/10/07/bulgaria-calls-off-search-for-crew-of-ship-sunk-in-drone-attack-in-black-sea/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-10T04:34:13Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-07T13:49:21Z",
-    "last_updated": "2026-10-07T13:49:21Z",
+    "last_updated": "2026-10-10T04:34:13Z",
     "verification_issue": 71,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-10T04:34:13Z",
+      "note": "Bulgaria calling off the search belongs to the 6 October drone strike already tracked as INC-20261006-001 (Alfa Watan) and INC-20261006-011 (Able), with the 5 October Royad Mammadov strike in INC-20261005-001, so it names no new attack.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/71#issuecomment-6093806260"
+    },
     "published_in": [
       "2026-10-08"
     ],
-    "status": "reported",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-10-10T04:34:13Z"
   },
   {
     "region": "Black Sea",
