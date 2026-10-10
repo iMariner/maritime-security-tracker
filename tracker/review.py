@@ -12,6 +12,11 @@
        imo: INC-... = 1234567 | <url>
        date: INC-... = 2026-10-03 | <url>
        position: INC-... = 12.32, 43.25 | <where it comes from, e.g. 60 nm south of Al-Mokha per UKMTO>
+       casualties: INC-... = <what the sources say, or none> | <link or reason>
+       damage: INC-... = <what the sources say, or none> | <link or reason>
+       region: INC-... = Persian Gulf | <why>
+       flag: INC-... = none | <why a wrong flag is cleared>
+       lead: INC-... | <why this attack leads today's brief>
        status: INC-... = rejected | <reason>
        note: <anything the publisher should know, one sentence>
 
@@ -78,7 +83,10 @@ def parse(body: str) -> tuple[str, list[tuple], list[str]] | None:
             changes.append(("merge", mm.group(1).upper(), mm.group(2).upper(), why))
         elif key in ("unmerge", "restore") and (mm := re.match(ID, rest, re.I)):
             changes.append(("unmerge", mm.group(1).upper(), "", why))
-        elif key in ("name", "flag", "imo", "date", "status", "position") and (mm := re.match(ID + r"\s*=\s*([^|]+)", rest, re.I)):
+        elif key == "lead" and (mm := re.match(ID, rest, re.I)):
+            changes.append(("lead", mm.group(1).upper(), "", why))
+        elif key in ("name", "flag", "imo", "date", "status", "position", "casualties", "damage", "region") \
+                and (mm := re.match(ID + r"\s*=\s*([^|]+)", rest, re.I)):
             changes.append((key, mm.group(1).upper(), mm.group(2).strip(), why))
         elif key == "lesson" and (mm := re.match(r"(writing|facts)\s*=\s*(.+)", rest, re.I)):
             changes.append(("lesson", mm.group(1).lower(), mm.group(2).strip(), ""))
@@ -147,6 +155,7 @@ def apply(body: str) -> str | None:
     by_id = {i["id"]: i for i in incidents}
     stamp = iso(now_utc())
     done, refused, restored = [], [], []
+    lead = None
     send = any(c[0] == "send" for c in changes)
     for kind, target, value, why in changes:
         if kind == "send":
@@ -202,6 +211,39 @@ def apply(body: str) -> str | None:
             inc["last_updated"] = stamp
             done.append(f"position of {target} set to {lat}, {lon} ({why[:80]})")
             continue
+        if kind == "lead":
+            lead = target
+            done.append(f"lead story set to {target}" + (f" ({why[:80]})" if why else ""))
+            continue
+        if kind in ("casualties", "damage"):
+            text = value.strip()[:300]
+            if not why:
+                refused.append(f"{kind} {target}: no source or reason given")
+                continue
+            inc[kind] = None if text.lower() in ("none", "none reported", "unknown", "clear") else text
+            inc["last_updated"] = stamp
+            src = _source(why, cited=True)
+            if src:
+                inc["sources"].append(src)
+            done.append(f"{kind} of {target} set to {inc[kind] or 'none'}")
+            continue
+        if kind == "region":
+            from .consolidate import ALL_REGIONS
+            region = next((r for r in ALL_REGIONS if r.lower() == value.strip().lower()), None)
+            if not region:
+                refused.append(f"region {target}: '{value}' is not one of {', '.join(ALL_REGIONS)}")
+                continue
+            inc["region"], inc["last_updated"] = region, stamp
+            done.append(f"region of {target} set to {region}")
+            continue
+        if kind == "flag" and value.strip().lower() in ("none", "unknown", "clear"):
+            if not why:
+                refused.append(f"flag {target}: clearing needs a reason")
+                continue
+            inc.pop("flag", None)
+            inc["last_updated"] = stamp
+            done.append(f"flag of {target} cleared ({why[:80]})")
+            continue
         src = _source(why, cited=kind != "status")
         if kind in ("name", "flag", "imo", "date"):
             if kind == "imo" and not re.fullmatch(r"\d{7}", value):
@@ -240,7 +282,8 @@ def apply(body: str) -> str | None:
     keep = lambda k, new: [x for x in prev.get(k) or [] if x not in new] + new if prev.get("status") == "done" else new
     record["review"] = {"status": "done", "at": stamp, "changes": keep("changes", done),
                         "refused": keep("refused", refused), "notes": keep("notes", notes),
-                        "restored": keep("restored", restored), "send_after": send}
+                        "restored": keep("restored", restored), "send_after": send,
+                        "lead": lead or prev.get("lead")}
     if send and not record.get("final_read"):
         # '/review ... send: yes' is the final read (or the owner's feedback) fixing the draft before it goes out
         record["final_read"] = {"status": "fixed", "at": stamp, "warnings": []}

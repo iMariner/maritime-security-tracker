@@ -62,15 +62,24 @@ def severity(inc: dict) -> float:
     return score
 
 
-def plan(new: list, updated: list, corrections: list, incidents: list, now) -> dict:
-    """The structure of the brief, decided in code."""
+def plan(new: list, updated: list, corrections: list, incidents: list, now, lead_id: str | None = None) -> dict:
+    """The structure of the brief, decided in code. lead_id: the editor check's choice of lead story, which wins
+    over the severity ranking (it has read the sources)."""
     cut48 = now - timedelta(hours=48)
     fresh = [i for i in new if (d := parse_dt(i.get("date_utc"))) is None or d >= cut48 or hurt(i)]
     earlier = [i for i in new if i not in fresh]
     by_score = lambda xs: sorted(xs, key=lambda i: (-severity(i), -(parse_dt(i.get("date_utc")) or now).timestamp()))
     fresh, updated, earlier = by_score(fresh), by_score(updated), by_score(earlier)
-    lead = fresh[0] if fresh else (updated[0] if updated else None)
-    lead_kind = "new" if fresh else ("update" if updated else None)
+    chosen = next((i for i in fresh + updated + earlier if i["id"] == lead_id), None) if lead_id else None
+    if chosen is not None and chosen in earlier:  # the editor says an older attack leads: treat it as news
+        earlier.remove(chosen)
+        fresh.insert(0, chosen)
+    if chosen is not None:
+        lead, lead_kind = chosen, ("update" if chosen in updated else "new")
+        fresh = [chosen] + [i for i in fresh if i is not chosen] if lead_kind == "new" else fresh
+    else:
+        lead = fresh[0] if fresh else (updated[0] if updated else None)
+        lead_kind = "new" if fresh else ("update" if updated else None)
 
     sections = []
     for area in AREAS:
@@ -129,7 +138,7 @@ The structure is already decided; you only fill these slots and return them as J
   confirmed), not that the attack happened today.
 "standfirst": one sentence, at most 30 words, adding detail beyond the headline (place, damage, crew).
 "lede": one sentence, at most 35 words: who, what, where, when, and who said it, for the lead incident.
-"paragraphs": an object with one entry per incident id given. kind "new": 2 or 3 short sentences (ship, flag and
+"paragraphs": an object with one entry for EVERY incident id given (never skip one). kind "new": 2 or 3 short sentences (ship, flag and
   type, time and place, damage and crew, who said it, what is still unknown). For the lead, add what the lede did
   not say instead of repeating it. kind "update": 1 or 2 sentences saying what is new since our last brief and when
   the attack happened. kind "earlier": ONE sentence starting "Earlier in the week," with its date.
@@ -181,6 +190,11 @@ def _fact_check(slots: dict, payload: dict) -> tuple[dict, list[str]]:
 
 def _fallback_sentence(inc: dict, kind: str) -> str:
     s = no_em_dash(str(inc.get("summary") or "")).strip()
+    name = inc.get("vessel_name") or ""
+    if name:  # ship names in normal capitals, no IMO numbers in running text
+        s = re.sub(re.escape(name), name.title(), s, flags=re.I)
+    s = re.sub(r"\s*\(IMO\s*\d{7}\)", "", s)
+    s = re.sub(r"^The IMO lists (.+?) as hit at (.+?) on (\d{1,2} \w+)(?: \d{4})?\.?", r"The IMO lists the \1 as hit near \2 on \3.", s)
     s = re.split(r"(?<=[.!?])\s+", s)[0] if s else f"A {inc.get('vessel_type') or 'ship'} was reported attacked."
     return ("Earlier in the week, " + s[0].lower() + s[1:]) if kind == "earlier" and not s.lower().startswith("earlier") else s
 
@@ -197,11 +211,11 @@ def _title_ok(title: str, lead: dict | None) -> bool:
 
 
 def write(day_label: str, new: list, updated: list, corrections: list, incidents: list, now,
-          editor_notes: list | None = None) -> dict:
+          editor_notes: list | None = None, lead_id: str | None = None) -> dict:
     """Returns the same fields build() used from the old writer: title, excerpt, key_points, article_html,
     x_post, correction_notes, fact_check, fact_check_fixes, quiet_areas, plus the plan."""
     now = now or now_utc()
-    p = plan(new, updated, corrections, incidents, now)
+    p = plan(new, updated, corrections, incidents, now, lead_id)
     kinds = {i["id"]: k for s in p["sections"] for k, i in s["items"]}
     payload = {
         "date": day_label,

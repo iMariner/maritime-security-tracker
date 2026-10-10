@@ -41,7 +41,7 @@ published until the owner taps Publish in the n8n bot's message.
   owner asks for it in so many words.
 - `/review DATE` + fix lines: apply fixes and rebuild. It is held for the final read unless the last line is
   `send: yes` (use `send: yes` for the owner's feedback during the day). Lines:
-  `merge: ID into ID | why`, `unmerge: ID | why` (separates a wrongly merged attack), `name|flag|imo|date: ID = value | URL`, `position: ID = lat, lon | where`,
+  `merge: ID into ID | why`, `unmerge: ID | why` (separates a wrongly merged attack), `lead: ID | why` (which attack leads), `casualties|damage: ID = text | why`, `region: ID = area | why`, `flag: ID = none | why`, `name|flag|imo|date: ID = value | URL`, `position: ID = lat, lon | where`,
   `status: ID = confirmed|reported|claimed|rejected | why`, `note: what the text must say`,
   `lesson: writing|facts = rule`. A note goes to the writer and overrules the data; say exactly what the
   article must say. A second `/review` the same day adds to the first, it does not replace it.

@@ -39,6 +39,11 @@ in the GITHUB_TOKEN environment variable. Never print, log or write out the toke
    line per fix, in exactly these forms:
 merge: <id of the duplicate> into <id to keep> | <short reason>
 unmerge: <id of a record that was wrongly merged into another> | <why it is a different attack> (use this when a separate attack is hidden inside another record; it becomes its own incident again)
+casualties: <id> = <what the sources say about killed, injured or missing crew, or none> | <link or reason> (fix it when the record carries another incident's casualties)
+damage: <id> = <what the sources say, or none> | <link or reason>
+region: <id> = <Black Sea, Sea of Azov, Strait of Hormuz, Persian Gulf, Gulf of Oman, Red Sea or Gulf of Aden> | <why>
+flag: <id> = none | <why> (clears a flag that belongs to another ship)
+lead: <id> | <why> (the most important NEW attack of the last 24 hours: deaths or missing crew first, then injuries, then damage; never an attack already in an earlier brief, never a one-sided claim if a confirmed attack exists). Always give exactly one lead line.
 name: <id> = <SHIP NAME> | <link to the page that names it>
 flag: <id> = <flag state> | <link>
 imo: <id> = <7-digit IMO number> | <link>

@@ -715,3 +715,37 @@ def test_claim_key_point_gets_attribution(monkeypatch):
     monkeypatch.setattr(writer, "_fact_check", lambda s, payload: (s, []))
     out = writer.write("9 October 2026", [arina], [], [], [arina], now)
     assert out["key_points"][0].startswith("Turkish outlets said")
+
+
+def test_editor_lead_and_field_fixes(tmp_path, monkeypatch):
+    from datetime import datetime, timezone
+    from tracker import common, review
+    from tracker.writer import plan, _fallback_sentence
+    incs = [{"id": "INC-20261009-003", "region": "Gulf of Oman", "status": "confirmed", "sources": []},
+            {"id": "INC-20261008-014", "region": "Strait of Hormuz", "status": "reported", "flag": "Panama",
+             "casualties": "11 Indian crew injured", "sources": []}]
+    monkeypatch.setattr(review.store, "load", lambda: incs)
+    monkeypatch.setattr(review.store, "save", lambda x: None)
+    monkeypatch.setattr(review, "REVIEW_DIR", tmp_path)
+    monkeypatch.setattr(review, "BRIEFS_DIR", tmp_path)
+    common.write_json(tmp_path / "2026-10-10.json", {"incidents": [{"id": i["id"]} for i in incs]})
+    review.apply("/review 2026-10-10\nlead: INC-20261009-003 | the only new attack with UKMTO detail\n"
+                 "casualties: INC-20261008-014 = none | UKMTO's time-late warning gives no casualties\n"
+                 "flag: INC-20261008-014 = none | Panama belongs to On Peace\n"
+                 "region: INC-20261009-003 = Persian Gulf | Al Jazeera Al Hamra is inside the Gulf\n")
+    assert incs[1]["casualties"] is None and "flag" not in incs[1] and incs[0]["region"] == "Persian Gulf"
+    assert common.read_json(tmp_path / "2026-10-10.json", {})["review"]["lead"] == "INC-20261009-003"
+    now = datetime(2026, 10, 10, 4, 39, tzinfo=timezone.utc)
+    a = _inc("A", "Strait of Hormuz", "2026-10-09", casualties="11 injured")
+    b = _inc("B", "Persian Gulf", "2026-10-09", damage="fire")
+    assert plan([a, b], [], [], [a, b], now)["lead"] is a
+    assert plan([a, b], [], [], [a, b], now, lead_id="B")["lead"] is b
+    s = _fallback_sentence({"vessel_name": "GAS VELA", "summary": "The IMO lists GAS VELA (IMO 9969845) as hit at "
+                            "Strait of Hormuz on 4 October 2026. Damaged."}, "earlier")
+    assert s == "Earlier in the week, the IMO lists the Gas Vela as hit near Strait of Hormuz on 4 October."
+
+
+def test_no_correction_for_duplicates():
+    from tracker.brief import _only_duplicate
+    assert _only_duplicate({"verdict": {"note": "the story covered attacks our earlier briefs had already reported"}})
+    assert not _only_duplicate({"verdict": {"note": "mis-dated: the attack was on 27 September"}})

@@ -62,6 +62,8 @@ def select(incidents: list[dict], since) -> tuple[list[dict], list[dict], list[d
             # An update must be newer than the brief that last carried it. A change made while that brief was
             # being prepared (its morning editor check) is already in it, so it is not news the next day.
             if changed and changed >= max(since, _sent_at(max(earlier_briefs)) or since):
+                if inc["status"] == "rejected" and _only_duplicate(inc):
+                    continue  # not wrong, just reported twice: nothing to correct publicly
                 (corrections if inc["status"] == "rejected" else updated if inc["status"] in PUBLISHED_STATUSES else []).append(inc)
         elif inc["status"] in PUBLISHED_STATUSES and first and event and event >= oldest_event \
                 and first >= since - timedelta(hours=24 * min(skipped, 3)):
@@ -70,6 +72,14 @@ def select(incidents: list[dict], since) -> tuple[list[dict], list[dict], list[d
 
 
 _SENT: dict = {}
+
+
+def _only_duplicate(inc: dict) -> bool:
+    """A rejection because the item repeats an attack already covered, not because it was false or mis-dated."""
+    note = str((inc.get("verdict") or {}).get("note") or "")
+    return bool(re.search(r"duplicat|already (covered|tracked|reported)|repeats|same (attack|incident)|follow-?up|"
+                          r"covered (attacks|by)|our earlier briefs", note, re.I)
+                and not re.search(r"mis-?dated|did not happen|false|fabricat|no attack", note, re.I))
 _LIVE: dict = {}
 
 
@@ -560,7 +570,8 @@ def build(now=None, only_ids: set | None = None) -> dict:
     from .writer import write
 
     # code plans the brief (lead, sections, context), the model writes the sentences (tracker/writer.py)
-    copy = write(day_label, new, updated, corrections, incidents, now, editor_notes(now.date().isoformat()))
+    lead_id = (read_json(BRIEFS_DIR / f"{now.date().isoformat()}.json", {}).get("review") or {}).get("lead")
+    copy = write(day_label, new, updated, corrections, incidents, now, editor_notes(now.date().isoformat()), lead_id)
     copy["x_post"] = fit_tweet(copy["x_post"])
     copy["article_html"] = _clean_html(copy["article_html"])
     log.info("Plan: %s", copy.get("plan"))

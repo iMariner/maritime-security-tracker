@@ -25,7 +25,7 @@ slow Telegram. Feedback can be a reaction or a reply such as "ship name wrong", 
    take it on trust and never guess. When it is right, post ONE comment on issue 38 of
    iMariner/maritime-security-tracker with the GitHub API "create an issue comment" call from python3
    (urllib, json.dumps, token from GITHUB_TOKEN or /opt/data/.env, never printed):
-   `/review DATE` then one line per fix: merge:, unmerge:, name:, flag:, imo:, date:, position:, status:, note:,
+   `/review DATE` then one line per fix: merge:, unmerge:, lead:, name:, flag:, imo:, date:, position:, status:, casualties:, damage:, region:, note:,
    and ALWAYS a last line `send: yes` (otherwise the rebuild waits for a final read that only runs at 05:25).
    Fix the data line first (date:, status:, name:); use `note:` for what the data cannot hold (a wrong credit,
    a detail in the wrong paragraph, the wrong lead story) and say exactly what the article must say. The writer

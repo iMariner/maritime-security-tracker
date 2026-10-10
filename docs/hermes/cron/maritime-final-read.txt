@@ -21,6 +21,10 @@ environment variable. Never print, log or write out the token.
    - Every editor note was followed. Nothing in the draft that is not in the facts or the notes.
    - No attack from an earlier day presented as new; the headline and lede lead with the most serious attack in
      the last 24 hours.
+   - The headline and lede are about the most important NEW attack of the last 24 hours (not an attack already in an
+     earlier brief), and name the ship when it is known. If not, give a lead: line with the right id.
+   - A record that carries another incident's details (casualties, flag, damage) is fixed with casualties:, damage:
+     or flag: = none lines, not only with a note.
    - The tweet matches the article.
    Do not open the original sources again unless a sentence looks wrong; the editor check already did that.
 4. Post exactly ONE comment on issue number 38 with the GitHub API "create an issue comment" call from python3
@@ -29,7 +33,8 @@ environment variable. Never print, log or write out the token.
      for things the publisher should know before tapping Publish (for example a claim resting on one outlet, or
      clumsy wording). Style alone is not a warning.
    - If there is a factual error that the data can fix: first line "/review D", then the fix lines in the same
-     forms as the editor check (merge:, unmerge:, name:, flag:, imo:, date:, position:, status:, note:, lesson:),
+     forms as the editor check (merge:, unmerge:, name:, flag:, imo:, date:, position:, status:, casualties:,
+     damage:, region:, lead:, note:, lesson:),
      and a last line exactly "send: yes". This rebuilds once and sends without another final read, so only use
      it when the error is real; put anything uncertain in a note.
    Use only ids from the file (unmerge may name a recently merged id). Plain English, no em dashes, no personal
