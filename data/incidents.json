@@ -95,13 +95,18 @@
       }
     ],
     "first_seen": "2026-10-09T06:39:06Z",
-    "last_updated": "2026-10-09T19:43:10Z",
+    "last_updated": "2026-10-10T00:18:12Z",
     "verification_issue": 95,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "review pass",
+      "at": "2026-10-10T00:18:12Z",
+      "note": "Out of scope: (a) strike on port infrastructure and a cargo ship in port, no vessel attacked at sea"
+    },
     "published_in": [
       "2026-10-09"
     ],
-    "status": "claimed",
+    "status": "rejected",
     "position_approx": true,
     "date_approx": false
   },
@@ -302,10 +307,19 @@
         "kind": "media",
         "published_at": "2026-10-09T14:11:03Z",
         "title": "Iran threatens wider tanker attacks as VLCC struck in Gulf"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWkQ1UGhTZlZuRThGZV9PeUoyQmlHSDZFOEdYRHBwOXZaSExmajdjd250YXJEbUJPVzBia1FwSkJqVDBLcVFfT2N1TjI4bU1vS0RvYjZmTjBXc1BFQUUxdjBlSnZSUF9IY3MtZ1ZFV0FwTWVGMUtVa05jVEl4NkFQRDFLV1VVMnIzbHJxM0lhU3BzVFhvdk1lQlF5OGxvQlpZMmkw?oc=5",
+        "source": "Seatrade Maritime News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-09T15:04:44Z",
+        "title": "Iran threatens wider tanker attacks as VLCC struck in Gulf - Seatrade Maritime News"
       }
     ],
     "first_seen": "2026-10-09T14:36:17Z",
-    "last_updated": "2026-10-09T19:43:10Z",
+    "last_updated": "2026-10-10T00:18:07Z",
     "verification_issue": 97,
     "verdict": null,
     "published_in": [],
@@ -388,10 +402,19 @@
         "kind": "media",
         "published_at": "2026-10-09T14:52:50Z",
         "title": "Iran attacks Vietnamese ship in Strait of Hormuz - The New Region"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5XemJSVEl3Z3hsM2plRjlIVl9BMVBPNFpmNHRNaHZZRm14dG5iVlJaSlZwbFdiZlNOQkE2Wm9SSGpkeUF3Q0NId25tblUwdTZIRXc?oc=5",
+        "source": "Iran International",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-09T12:57:50Z",
+        "title": "بحرية الحرس الثوري الإيراني: استهداف سفينة لنقل الغاز المسال في مضيق هرمز - Iran International"
       }
     ],
     "first_seen": "2026-10-09T14:36:17Z",
-    "last_updated": "2026-10-09T19:43:10Z",
+    "last_updated": "2026-10-10T00:18:07Z",
     "verification_issue": 98,
     "verdict": null,
     "published_in": [],
@@ -584,10 +607,10 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-10-09",
-    "summary": "A sea-drone attack set a tanker ablaze off Sochi, and 23 Indian crew members were rescued, according to a news report. No vessel name or flag was given.",
+    "summary": "A sea-drone attack set a tanker ablaze off Sochi in the Black Sea, and 23 Indian crew members were rescued, according to news reports. A separate headline said an oil tanker exploded in the Black Sea in a drone strike, with no vessel name, flag or position given.",
     "official_source_cited": null,
     "conflicting": false,
-    "confidence": 0.6,
+    "confidence": 0.7,
     "vessel_name": null,
     "imo": null,
     "flag": null,
@@ -611,15 +634,52 @@
         "kind": "media",
         "published_at": "2026-10-09T15:26:20Z",
         "title": "23 Indian crew rescued after sea-drone attack sets tanker ablaze off Sochi - Pragativadi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVXNhMENoUjE5M3djR2k5TTdGMGtqblU2dnY1Nlp2eWFiZE41cU03QU04ZTNSanJ1U2JIMnU3UTBQMzFCeWlVd3puYlFzNVNtN2h1OWtQZHhpX0VJQllyRkdwalc4S1NaaXFsckR1NlZZM0w3Q0NQRi03elVCbklFWTAzM2tIX2RiZnZMOHQyRHcyT2p4SjVTR29VTjRyeVN0ZGxaU3EtaGxZTWMtbUhXcFVmOWpiY19WMlc3cTctR2laU0dWS2F3?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-09T17:03:38Z",
+        "title": "Горящий из-за атаки БЭК танкер дрейфует вдоль берега Сочи под воздействием течения - prospect.com.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa0VwQjNvWlRZRVBpeTdNZmdHLXYydzRIMzBpcU5yNy1DTXl4UlRwR2I5a3dKODVZZG9rWFEzYjQwdGdxODBKVnNLWDJSN0kyOG9UUFliUENUMXpRWE5zNzF4WVRtNkRJMzlXT29LZmd6WW1mRzN3QV85ckxhS1lRSHp3NHhIWGNfbDZUaE1GQ0ozcHU5bVptTkpEWUpraFdsYkdsNDlZNUlVZw?oc=5",
+        "source": "Bugün Kıbrıs",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T04:57:45Z",
+        "title": "Kıbrıs bağlantılı petrol tankerine Karadeniz’de saldırı I 23 mürettebat kurtarıldı - Bugün Kıbrıs"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5nVjcyNWJyN3VvbFZxMmx2MDRBRllhYXlHV3E1ZERUcVdpLVdZV08xM0ZPbHZ3ejZQblIycFpBbU5TNmZJLXFNeDQxMXRydl9rV05IdXdEcHhvaHVPcUJ0RXMxWXVNa0k4bExTQ3hmWlRQN1J6UjN4eFV3?oc=5",
+        "source": "AOL.ca",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T03:20:00Z",
+        "title": "Naval drone hits oil tanker off Russian resort city Sochi, triggering massive blaze - AOL.ca"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQb01qQVRiUHBJM05TaHZvVDRyczdENW9KWGlhMGFYT2xKYzl0azFzekpNQ2REVE5IZ2VZWnBWd01jRmZwVzFuQ0pnX190QkVUdzlrbHJhc0xSRnhnQWJtZWxqV2lQa0M5VjN4M1VkSEIteXA0eVBfTWZydF9IUVdlV1lZcGJnbjh3aTZRTDFFeG1aMnNUTjBzNnB3?oc=5",
+        "source": "7NEWS",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T07:00:00Z",
+        "title": "Oil tanker explodes in Black Sea drone strike - 7NEWS"
       }
     ],
     "first_seen": "2026-10-09T19:42:52Z",
-    "last_updated": "2026-10-09T19:42:52Z",
+    "last_updated": "2026-10-10T00:18:12Z",
     "verification_issue": 101,
     "verdict": null,
     "published_in": [],
     "status": "reported",
-    "position_approx": true
+    "position_approx": true,
+    "date_approx": false
   },
   {
     "region": "Strait of Hormuz",
@@ -1933,11 +1993,16 @@
       }
     ],
     "first_seen": "2026-10-09T14:36:46Z",
-    "last_updated": "2026-10-09T14:36:46Z",
+    "last_updated": "2026-10-10T00:18:12Z",
     "verification_issue": 100,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "review pass",
+      "at": "2026-10-10T00:18:12Z",
+      "note": "Out of scope: (a) no vessel attacked, casualties among Syrians in an attack on Odesa"
+    },
     "published_in": [],
-    "status": "claimed",
+    "status": "rejected",
     "position_approx": true
   },
   {
@@ -2013,8 +2078,49 @@
       }
     ],
     "first_seen": "2026-10-09T19:43:09Z",
-    "last_updated": "2026-10-09T19:43:09Z",
+    "last_updated": "2026-10-10T00:18:12Z",
     "verification_issue": 103,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261009-009"
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-08",
+    "summary": "India condemned strikes on vessels in the Black Sea that left an Indian sailor injured. The report gives no vessel name, flag or position.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": "one Indian sailor injured",
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261008-026",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOS2FYLWdaeldzY3RNdTEtLWFfUG9SREw3VnBSMVR6LUVMUklZZFNsTXhDUkNFUGNUNXdSaHFKSk5XZkRWcUI5UVFIdDBzZVhlXzk3ZVVpdmlmcWFNcWVLMm1DY19lN0l4M01IVEQzbGpBTk9Ma01tWTY3a00wMjZGUFpYcEJwckNnN2gzMTluSlRUMmhwT0FtOGhSRklqMlBJRjh0c2FFc3dqZHZJLThhU1hFS2FTQ2Q0OWN6VFZoVF9RbXVpZVl5NjdGZG9zaWhxT2dwQ2FBYmp4N1ZzOExXVlBiZWZ6ZlZzV3BoU0FaWXlweTI0UTFjczN30gH6AUFVX3lxTE5LYVgtZ1p6V3NjdE11MS0tYV9Qb1JETDdWcFIxVHotRUxSSVlkU2xNeENSQ0VQY1Q1d1JocUpKTldmRFZxQjlRUUh0MHNlWGVfOTdlVWl2aWZxYU1xZUsybUNjX2U3SXgzTUhURDNsakFOT0xrTW1ZNjdrTTAyNkZQWlhwQnByQ2c3aDMxOW5KVFQyaHBPQW04aFJGSWoyUElGOHRzYUVzd2pkdkktOGFTWEVLYVNDZDQ5Y3pUVmhUX1FtdWllWXk2N0Zkb3NpaHFPZ3BDYUFiang3VnM4TFdWUGJlZnpmVnNXcGhTQVpZeXB5MjRRMWNzM3c?oc=5",
+        "source": "India.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T02:13:50Z",
+        "title": "India issues stern condemnation after Black Sea vessel strikes leave national sailor injured, says ‘targeting - India.com"
+      }
+    ],
+    "first_seen": "2026-10-10T00:18:11Z",
+    "last_updated": "2026-10-10T00:18:11Z",
+    "verification_issue": 104,
     "verdict": null,
     "published_in": [],
     "status": "claimed",
@@ -7793,10 +7899,55 @@
         "kind": "media",
         "published_at": "2026-10-09T16:38:57Z",
         "title": "23 Indian seafarers reported safe after Ukrainian drone attack sets fire to oil tanker off Russian coast - DD India"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1sWUI1Nl83VEZ2bFVVak9FQ2FDVm41QnV5eVRrUEo5a09jaEpxMGNKTkg3dHJzS0ZuZU9rWWFoNy00M0l3ZGU3SFZVcVF6ZU9Od2taWXIyMmFtYlBQU2lRR1NmaFFNd3pteFROVDF3c0F1Z9IBckFVX3lxTE1sWUI1Nl83VEZ2bFVVak9FQ2FDVm41QnV5eVRrUEo5a09jaEpxMGNKTkg3dHJzS0ZuZU9rWWFoNy00M0l3ZGU3SFZVcVF6ZU9Od2taWXIyMmFtYlBQU2lRR1NmaFFNd3pteFROVDF3c0F1Zw?oc=5",
+        "source": "Газета",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-09T11:59:53Z",
+        "title": "Атакованный в Черном море танкер отбуксировали - Газета"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBTZHdJZVhGa2dzR0hJSzk3NWpOdzhWMWJmSGlIQ3hxZTNEb1d0Ymo0QjNRWU1OZ1E5QmdGRjg2SmtQRDliaWJBT1NtZ193czJSQWJZMks4cWhUdDhneHA0MHBIUW9DMUkxclRvbG1ZR0h1cV9VY291WlpiVW0?oc=5",
+        "source": "БИЗНЕС ЖУРНАЛ. ЦЕНТР",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-09T09:30:21Z",
+        "title": "Танкер «Афрамакс Рио» отбуксировали в безопасное место после атаки БЭК в Черном море - БИЗНЕС ЖУРНАЛ. ЦЕНТР"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcW9meWEycWE2X2xsVldXN29qZ2x5QWgwRGE2cDRxVnJNbnpoMExXdTFLWVpyZE1hcVNibzNMejF4Y3I0eVhORGtKTXFsdDRmeTJ5YnF4aHhaOTBKTzctQ2NpZ1FyWGp2aEhSZXJJcXlmRTVFX3NnbkV2MXVQWl84QXVjMU96NXhtOHBJcGNqSFRxMTB0U1VLVHlMVXZOQndO?oc=5",
+        "source": "Gosrf.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-09T09:01:13Z",
+        "title": "Танкер \"Афрамакс Рио\" отбуксирован в безопасное место после атаки в Черном море - Gosrf.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE84T1hkZk9oNm5xai1ycVFaSHpheXJzZGdDbGJUcmNlWXlNcktCTmdOX3ZON2xFTkY3N1JST1hEX0FKLVdWcVBHSHR2SGMtSHlFUnAtZlVNVQ?oc=5",
+        "source": "ФОНТАНКА.ру",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T09:58:00Z",
+        "title": "Пляжи «Сириуса» вновь откроют после пожара на танкере в Черном море - ФОНТАНКА.ру"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1jU2FUWjZoZkpvWC1kUGktRjJBS0ZrNktYc0JzdVRmU2xLbTVTZ0VRNkg2OUYzd2lEbEtwNDg5VVMxTWpMSEE?oc=5",
+        "source": "РИА Твои Новости",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T05:47:55Z",
+        "title": "Путину доложили об атаке на танкер в Черном море, экипаж не пострадал - РИА Твои Новости"
       }
     ],
     "first_seen": "2026-10-06T20:33:03Z",
-    "last_updated": "2026-10-09T19:42:47Z",
+    "last_updated": "2026-10-10T00:18:11Z",
     "verification_issue": 65,
     "verdict": {
       "status": "rejected",
