@@ -1,38 +1,42 @@
 {
   "post_id": 16091,
-  "media_id": 16090,
-  "image_url": "https://imariners.com/wp-content/uploads/brief-2026-10-10.png",
-  "preview_url": "https://imariner.github.io/maritime-security-tracker/preview/2026-10-10.html?v=043940",
+  "media_id": 16092,
+  "image_url": "https://imariners.com/wp-content/uploads/brief-2026-10-10-1.png",
+  "preview_url": "https://imariner.github.io/maritime-security-tracker/preview/2026-10-10.html?v=050915",
   "link": "https://imariners.com/?p=16091",
   "status": "draft",
-  "title": "Tanker hit by projectile in Strait of Hormuz, 11 Indian crew injured",
-  "excerpt": "A UK maritime agency reported the strike on 8 October, after which the UN halted its escort of ships through Hormuz.",
-  "x_post": "A crude oil tanker was struck by an unknown projectile in the Strait of Hormuz on 8 October, a UK maritime agency said, with 11 Indian crew reported injured. #MaritimeSecurity #Shipping #Seafarers #StraitOfHormuz",
+  "title": "Tanker hit in the Strait of Hormuz and the Gulf",
+  "excerpt": "UKMTO said the vessel was hit by an unknown projectile 13 nautical miles west of Al Jazeera Al Hamra on 9 October, with all 22 Indian crew reported safe.",
+  "x_post": "UKMTO said a tanker was struck by an unknown projectile 13 nm west of Al Jazeera Al Hamra on 9 October, causing a fire that was extinguished. All 22 Indian crew were reported safe. #MaritimeSecurity #Shipping #Seafarers #StraitOfHormuz #UKMTO",
   "incident_ids": [
-    "INC-20261010-001",
     "INC-20261009-003",
     "INC-20261009-004",
-    "INC-20261009-009",
-    "INC-20261008-014",
     "INC-20261006-032",
+    "INC-20261008-014",
     "INC-20261004-018"
   ],
   "correction_ids": [
     "INC-20261006-021"
   ],
   "counts": {
-    "new": 7,
+    "new": 5,
     "updated": 0,
     "corrections": 1
   },
-  "fact_check": "1 correction(s)",
+  "fact_check": "4 correction(s)",
   "fact_check_fixes": [
-    "INC-20261009-009 paragraph: removed the Turkey flag for the tanker off Sochi, since the facts give no flag for that vessel."
+    "INC-20261009-003 paragraph: removed the vessel name Gem No. 2 and the Panama flag, which are not in the facts for this record.",
+    "INC-20261009-003 paragraph: removed the claim that UKMTO named the vessel and said all 22 crew were safe, since the facts credit the 22 safe crew to shipping sources and the name to shipping sources, not UKMTO.",
+    "INC-20261009-003 key point: removed the vessel name Gem No. 2, which the facts do not confirm.",
+    "Tweet: removed the vessel name Gem No. 2, which the facts do not confirm."
   ],
   "generated_at": "2026-10-10T04:39:21Z",
   "consistency_fixed": [],
-  "consistency_problems": [],
-  "quality": "1 check(s) need attention: dates ok; attribution ok; official coverage 0/0 ok; verified 2/7; single-source items 0; confirmed 1 marked confirmed without proof; fact-check 1 correction(s); tweet 236/280 ok; dashes ok; consistency ok",
+  "consistency_problems": [
+    "Gem No. 2 is in the data but not named in the article",
+    "Nv Sunshine is in the data but not named in the article"
+  ],
+  "quality": "1 check(s) need attention: dates ok; attribution ok; official coverage 0/0 ok; verified 3/5; single-source items 0; confirmed ok; fact-check 4 correction(s); tweet 266/280 ok; dashes ok; consistency Gem No. 2 is in the data but not named in the article; Nv Sunshine is in the data but not named in the article found",
   "review": {
     "status": "done",
     "at": "2026-10-10T05:08:27Z",
