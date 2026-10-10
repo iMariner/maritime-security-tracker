@@ -61,6 +61,122 @@
     "merged_into": "INC-20261009-003"
   },
   {
+    "region": "Sea of Azov",
+    "date_utc": "2026-10-10",
+    "summary": "The governor of Rostov region said two vessels were damaged in Azov during a night attack by Ukrainian drones. No casualties were reported aboard the vessels.",
+    "official_source_cited": "Rostov region governor",
+    "conflicting": false,
+    "confidence": 0.9,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "other",
+    "lat": 46.1,
+    "lon": 36.8,
+    "location_text": "Azov, Rostov region, Russia",
+    "attack_type": "drone (UAV)",
+    "damage": "two vessels damaged",
+    "casualties": "no casualties reported aboard",
+    "attribution_claimed": "Ukraine's forces (implied by 'ВСУ' attack)",
+    "independent_evidence": true,
+    "id": "INC-20261010-002",
+    "sources": [
+      {
+        "url": "https://t.me/shot_shot/100928",
+        "source": "SHOT",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-10T05:41:55+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/dva_majors/100257",
+        "source": "Dva Mayora",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "osint",
+        "published_at": "2026-10-10T05:39:16+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/tass_agency/399638",
+        "source": "TASS",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-10T05:39:12+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-10-10T06:19:54Z",
+    "last_updated": "2026-10-10T06:19:54Z",
+    "verification_issue": 106,
+    "verdict": null,
+    "published_in": [],
+    "status": "reported",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-10",
+    "summary": "Russia's defence ministry said Russian forces struck a cargo ship at sea that was delivering military goods to the port of Odesa. No vessel name, flag or position was given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 46.49,
+    "lon": 30.74,
+    "location_text": "at sea, en route to Odesa port, Ukraine",
+    "attack_type": "drone (UAV)",
+    "damage": "struck at sea",
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry claimed it",
+    "independent_evidence": false,
+    "id": "INC-20261010-003",
+    "sources": [
+      {
+        "url": "https://t.me/tass_agency/399635",
+        "source": "TASS",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-10T05:12:54+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/68078",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-10T05:08:33+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/rian_ru/347730",
+        "source": "RIA Novosti",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-10T05:07:37+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-10-10T06:19:59Z",
+    "last_updated": "2026-10-10T06:19:59Z",
+    "verification_issue": 107,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
     "region": "Black Sea",
     "date_utc": "2026-10-09",
     "summary": "Russia's defence ministry claimed its forces struck a cargo ship that had delivered military cargo in the port of Mykolaiv, and also struck Ukrainian port infrastructure and vessels used by Ukraine's armed forces overnight. A separate TASS report said Russian forces struck a cargo ship at sea bound for Odesa.",
@@ -224,8 +340,8 @@
     "flag": "Panama",
     "vessel_type": "tanker",
     "vessel_category": "merchant",
-    "lat": 25.71,
-    "lon": 55.56,
+    "lat": 24.8,
+    "lon": 58.2,
     "location_text": "off the UAE coast",
     "attack_type": "other",
     "damage": "fire broke out and was extinguished",
@@ -449,10 +565,37 @@
         "kind": "media",
         "published_at": "2026-10-10T05:40:20Z",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdFhESE8zTDduYzZWNzZPX1RBU2ZSMlNMdDUzam1mUHJXNWlnVUIwRlROQjZZZ2dlaFZZNGJpNmdWTXhnUWNJSURlVkhMWFJUcElQMUUxT0ZaS2dZZTJnU0c5eXNJRkgtV21wQXREek5LbzA0OTRRbVVGWVg1Yk5WRGIzUjJfQ2k4aDR3bjRUWjZ6aUQ2SmFzd2lpTnF6aFkzVDNEWDNFc0Z2blM4VnRTR0ZwNDE3d9IBtgFBVV95cUxPdFhESE8zTDduYzZWNzZPX1RBU2ZSMlNMdDUzam1mUHJXNWlnVUIwRlROQjZZZ2dlaFZZNGJpNmdWTXhnUWNJSURlVkhMWFJUcElQMUUxT0ZaS2dZZTJnU0c5eXNJRkgtV21wQXREek5LbzA0OTRRbVVGWVg1Yk5WRGIzUjJfQ2k4aDR3bjRUWjZ6aUQ2SmFzd2lpTnF6aFkzVDNEWDNFc0Z2blM4VnRTR0ZwNDE3dw?oc=5",
+        "source": "Rediff",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-10T03:26:01Z",
+        "title": "Tanker with 22 Indian crew attacked at Sharjah Anchorage, all safe - Rediff"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcG1yUi1LV3JZOXE4bWppdDdrZ2IyQ3RibVJqN0FHcktNdjBOQXpoQW5XeXVZYmpDOW1BcGpjOWI4ay1mUC1mNFc3STJzaTg2dlBzc09lbl94NDZqbkxRdXdPVjRVUWNyanJIMjYxaXNZNV9jR3M3MjdJZ01ySFVqVzVKTG9ndllJMTIySXA5ZVlQYy1MT0w0bWZrNjc5bVBlQnRlNHp2YzI2aERKZm9LRmxB?oc=5",
+        "source": "Arab News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-09T16:07:39Z",
+        "title": "Oil tanker struck by projectile off UAE coast amid surge in attacks - Arab News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBiLVM0Q3ZtcVo0ZkVSVkRncXlfOUpGOVVVZHJOMmRyV3JiMnYyTTMtdDFtVHhwV3JvcERUVm9LVHBQUlZveVhiTTV2QkVVaHMzbVE?oc=5",
+        "source": "Iran International",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-09T13:06:01Z",
+        "title": "Vessel hit by unknown projectile off UAE - UKMTO - Iran International"
       }
     ],
     "first_seen": "2026-10-09T14:36:17Z",
-    "last_updated": "2026-10-10T05:40:20Z",
+    "last_updated": "2026-10-10T06:20:03Z",
     "verification_issue": 97,
     "verdict": {
       "status": "confirmed",
@@ -580,10 +723,19 @@
         "kind": "media",
         "published_at": "2026-10-10T05:40:20Z",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObkRFZWl2S2IyNE5oV2g2UkhGVG4xdmR6ei0tbzNWS3RQUkpULWdDOHR3eERtbkhkZ2VEanVrMHlCNnVVMTY2ZlBSREJXX2J4emxOX1RlM2VVQk53XzhTdmJwWkNLVlRhamk2anZJSnl5WHpNY1I0ZWZYZlpVV1VFS0hFV2otNUFIVW5OZlVfYV92MFlXOFlPZW5wZVRhVndPQnI4NVc1Vm9lbmU1UFotdGRoZGxuZTA0NmtuVU4ybkVrY09CM1prczhBd9IB0wFBVV95cUxOQk9QR1MyWEl0N1dIMGVYVHdjbnoySmN4ZXZodWdQdlF0emU0SDVCNnBoVUk0azI3VmoxOUJyeWNEdHBFcUpnc3lEcWVxYUVsTnFTd2dqcmxIQk9YMHZpV2FrRDlpUTRtR0tILXBTbnIwUTBfZldmakJfT1ZJWVVuTVFOLUE1b1VFLTVacnNNbjFoSDR3Yk5XZnlxN1E4OFhxQk9Sand2cjFRaEM3MmNIRldVNGlPTXY3TFBXY2oyVUh0Y1FKTkkxZjIwVmR3U2xVdWNj?oc=5",
+        "source": "NDTV",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-09T15:17:33Z",
+        "title": "LPG Tanker Struck In Hormuz, Iran Guards Say Was Taking 'Illegal Route' - NDTV"
       }
     ],
     "first_seen": "2026-10-09T14:36:17Z",
-    "last_updated": "2026-10-10T05:40:20Z",
+    "last_updated": "2026-10-10T06:19:59Z",
     "verification_issue": 98,
     "verdict": null,
     "published_in": [
@@ -2235,6 +2387,46 @@
   },
   {
     "region": "Black Sea",
+    "date_utc": "2026-10-08",
+    "summary": "A ship whose captain was killed in a drone attack arrived at Trabzon, according to Saray Medya. No vessel name, flag or position is given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea, arrived at Trabzon, Turkey",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": "captain killed",
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261008-027",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMVc1SmcydG00c3FKUDlqam1NM1pOMU94ckk0aTdDRnlFRkVrSTRDblNRc2N2RXhQQUdxVW9RWlcySlBZbXlXVW9keDdiMVdlUXhQT2liOHd2WGR0SUs4QjFRWUc1X05JWENOVkFfQ3ZzdDBrWFMwbUlIRzlBOXZldDBaLU9lQllUVEE5Tzk3V1ZaN0lqM2FR?oc=5",
+        "source": "Saray Medya",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T06:26:00Z",
+        "title": "Dron saldırısında kaptanı ölen gemi Trabzon'a geldi - Saray Medya"
+      }
+    ],
+    "first_seen": "2026-10-10T06:20:03Z",
+    "last_updated": "2026-10-10T06:20:03Z",
+    "verification_issue": 108,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
     "date_utc": "2026-10-07",
     "summary": "NationalTurk reported that a Turkish vessel was attacked by a drone off Bulgaria in the Black Sea, with 10 crew members killed. The report gives no vessel name, exact position or attacker.",
     "official_source_cited": null,
@@ -3056,10 +3248,19 @@
         "kind": "media",
         "published_at": "2026-10-08T08:25:00Z",
         "title": "هيئة بحرية: إصابات إثر استهداف سفينة قبالة سواحل قطر - زاد الاردن"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRHozNzhVaXZVYm41WF9TNTBQTWNwRE1YS1QzMS15LVp6bmhEME1YSDZPRUJ6MTdMR0JSTEdkejNPYWxXUDVkUUxsMGV0Mm1vVHlhVExSOEpQY0lqcWNONVp0WkxMOWRJT3ZnT3BweFJOcWZVZ0dCUldiMWtpMUtEOEFpWkstb3laVTZzVWhnbjdyeUQtXzR3?oc=5",
+        "source": "News Mobile",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T09:56:27Z",
+        "title": "Tanker Struck By Multiple Projectiles Off Qatar Coast: UKMTO - News Mobile"
       }
     ],
     "first_seen": "2026-10-07T20:07:48Z",
-    "last_updated": "2026-10-10T04:39:03Z",
+    "last_updated": "2026-10-10T06:20:03Z",
     "verification_issue": 73,
     "verdict": {
       "status": "confirmed",
@@ -5797,10 +5998,19 @@
         "kind": "media",
         "published_at": "2026-10-08T10:17:31Z",
         "title": "Zece marinari sunt în continuare dați dispăruți, după ce nava lor a fost lovită de drone în zona economică... - Digi24"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWFpJTGlMaTQyNFk5Ynp3ektxME1UbHk5dTVmRHNHQzVwc2s0RlJqYTRsQlhYNUE5NXpaME01eFlUQUdfOXNJQlZRall6aUROang5TV9CMTRNR1BhU0pxSllQSmx6LWpCai1vWDEwM0lKM3BXYThPX2xRc196YXI0ejhCX3d1Q3FfY1pZc1JYdVJlaVY2SnJoRjZhSDhrSWV2Qm1wUVNtcFA5TUc2SWQ3dVZhV0g?oc=5",
+        "source": "БТА",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-09T12:30:00Z",
+        "title": "No Drone Debris Found near Sunken Black Sea Ship, Defence Minister Says - БТА"
       }
     ],
     "first_seen": "2026-10-06T15:27:12Z",
-    "last_updated": "2026-10-09T19:43:06Z",
+    "last_updated": "2026-10-10T06:20:03Z",
     "verification_issue": 64,
     "verdict": {
       "status": "confirmed",
