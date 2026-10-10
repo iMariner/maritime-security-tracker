@@ -42,7 +42,7 @@
   "quality": "all checks passed: dates ok; attribution ok; official coverage 0/0 ok; verified 3/5; single-source items 0; confirmed ok; fact-check 10 correction(s); tweet 259/280 ok; dashes ok; consistency ok",
   "review": {
     "status": "done",
-    "at": "2026-10-10T05:40:20Z",
+    "at": "2026-10-10T06:30:15Z",
     "changes": [
       "merged INC-20261010-001 into INC-20261009-003 (the same attack: UKMTO warning 160-26 reports the strike 13 nm west of Al Jazeera, UAE on 9 October, shipping sources name the Panama-flagged crude oil tanker GEM NO. 2, and India's shipping minister places it at Sharjah anchorage the same day)",
       "flag of INC-20261009-003 set to Panama",
@@ -58,7 +58,11 @@
       "lesson (writing): Give every borrowed casualty figure the ship and date its own source names: the 12 injured belong to the 5 October On Pe",
       "name of INC-20261009-003 set to GEM NO. 2",
       "name of INC-20261009-004 set to NV SUNSHINE",
-      "lesson (writing): Keep the ship name the facts give and credit it to the outlet or ship database that gave it; never drop the name to avoi"
+      "lesson (writing): Keep the ship name the facts give and credit it to the outlet or ship database that gave it; never drop the name to avoi",
+      "lead story set to INC-20261009-003 (the Gem No. 2 strike off the UAE on 9 October is the only new attack confirmed b)",
+      "casualties of INC-20261008-014 set to none",
+      "flag of INC-20261008-014 cleared (the Panama flag belongs to the On Peace; UKMTO did not give this tanker's flag)",
+      "region of INC-20261009-003 set to Persian Gulf"
     ],
     "refused": [],
     "notes": [
@@ -69,7 +73,8 @@
       "In the Corrections section write the correction for readers and keep every internal incident number out of the article. Keep that our 8 October brief reported, from TradeWinds, that Bulgaria stopped the search for missing seafarers, and that the check found the story covered attacks on ships our earlier briefs had already reported on 5 and 6 October, so it named no new attack."
     ],
     "restored": [],
-    "send_after": true
+    "send_after": true,
+    "lead": "INC-20261009-003"
   },
   "final_read": {
     "status": "fixed",
