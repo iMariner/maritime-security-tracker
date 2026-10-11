@@ -29,5 +29,37 @@
   "generated_at": "2026-10-11T04:38:52Z",
   "consistency_fixed": [],
   "consistency_problems": [],
-  "quality": "2 check(s) need attention: dates ok; attribution 2 claims without a named source; official coverage 1/1 ok; verified 1/6; single-source items 3, 3 without verification; confirmed ok; fact-check no corrections needed; tweet 212/280 ok; dashes ok; consistency ok"
+  "quality": "2 check(s) need attention: dates ok; attribution 2 claims without a named source; official coverage 1/1 ok; verified 1/6; single-source items 3, 3 without verification; confirmed ok; fact-check no corrections needed; tweet 212/280 ok; dashes ok; consistency ok",
+  "review": {
+    "status": "done",
+    "at": "2026-10-11T05:10:41Z",
+    "changes": [
+      "merged INC-20261010-015 into INC-20261010-016 (the same attack: UKMTO advisory 163-26 reports an incident involving a tanker and military forces in the Gulf of Oman on 10 October, and CENTCOM says a US fighter jet struck a cargo vessel there the same day)",
+      "INC-20261010-003 separated from INC-20261010-008 (Russia's defence ministry claim of 10 October that it struck a general cargo ship carrying military goods toward Odesa is its own incident, wrongly merged into a record that mixes two September strikes)",
+      "INC-20261010-008 marked rejected (the record joins the Aroyat, the Palau-flagged bulk carrier struck off Novorossiysk on 27 to 29 September and since drifted to off Giresun with its second engineer missing, to the Arina A, whose captain was killed and which has reached Trabzon: both are already recorded and rejected, and neither is a 10 October attack)",
+      "name of INC-20261010-016 set to OCEAN MOLICA",
+      "flag of INC-20261010-016 set to Panama",
+      "imo of INC-20261010-016 set to 9139270",
+      "damage of INC-20261010-016 set to propulsion disabled",
+      "casualties of INC-20261010-016 set to CENTCOM said no crew were harmed",
+      "INC-20261010-016 marked confirmed (CENTCOM said its fighter jet disabled the vessel, and UKMTO advisory 163-26 reports the tanker and military forces incident in the Gulf of Oman the same day)",
+      "INC-20261010-012 marked rejected (the EnergyNow page is dated June 2026 and is the 25 June 2026 projectile strike on the Singapore-flagged container ship Ever Lovely near Dahit in Oman, re-crawled by Google News, not a 10 October attack)",
+      "INC-20261010-014 marked rejected (the EnergyNow page is dated 5 August 2026 and is the Houthi claim of a missile attack on a Saudi oil tanker off Yanbu, the same event already recorded and rejected on the tracker)",
+      "INC-20261009-014 marked rejected (the KATU page is dated 26 June 2026 and describes the US strikes on Iran after an Iranian drone attack on a cargo ship in the Strait of Hormuz in June 2026, re-crawled by Google News, not a 9 October attack)",
+      "lead story set to INC-20261010-016 (the only new attack confirmed in the last 24 hours: CENTCOM says a US fighter je)",
+      "lesson (facts): A record can join a fresh claim to an older strike's follow-up: give each detail the date its own source reports, so a m",
+      "lesson (writing): Credit each outlet only for what its own page reports: the outlets that carried Russia's defence ministry claim did not "
+    ],
+    "refused": [],
+    "notes": [
+      "Name the vessel in the headline, lede, key points and tweet as the Panama-flagged bulk carrier Ocean Molica, also known as the Arika Sun, which CENTCOM names for this incident in the statement carried by Reuters, Dawn and The Statesman. CENTCOM says a US fighter jet struck its stern with a precision munition, disabling its propulsion without harming the crew, after it had left an Iranian port. UKMTO advisory 163-26 reports the same tanker and military forces incident in the Gulf of Oman and names no vessel, so the name is CENTCOM's, not UKMTO's.",
+      "The Black Sea item is Russia's defence ministry claim of 10 October that it struck a general cargo ship in the north-western Black Sea carrying military goods toward Odesa, with a second vessel claimed hit in Ilyichevsk port, carried by RIA Novosti, TASS and CGTN. No ship was named and there is no independent confirmation, so credit it to Russia's defence ministry and write it as a claim, never as a fact.",
+      "Write the correction in plain words for readers, with ships and dates and no internal numbering: our 8 October brief reported a Houthi claim about a Saudi oil tanker off Yanbu, and the check found the claim belongs to the 5 August 2026 attack on the Wafa, so no such attack happened off Yanbu on 6 October."
+    ],
+    "restored": [
+      "INC-20261010-003"
+    ],
+    "send_after": false,
+    "lead": "INC-20261010-016"
+  }
 }

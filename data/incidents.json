@@ -255,14 +255,17 @@
       }
     ],
     "first_seen": "2026-10-10T06:19:59Z",
-    "last_updated": "2026-10-10T21:57:49Z",
+    "last_updated": "2026-10-11T05:10:41Z",
     "verification_issue": 107,
     "verdict": null,
     "published_in": [],
-    "status": "merged",
+    "status": "claimed",
     "position_approx": true,
     "date_approx": false,
-    "merged_into": "INC-20261010-008"
+    "keep_apart": [
+      "INC-20261010-008"
+    ],
+    "status_changed_at": "2026-10-11T05:10:41Z"
   },
   {
     "region": "Black Sea",
@@ -469,96 +472,6 @@
         "title": "Karadeniz'de İHA Saldırısıyla Vurulan Gemi Giresun Açıklarına Sürüklendi! Saldırıda Kaybolan Türk Mühendis Aranıyor! - Yeni Giresun Gazetesi"
       },
       {
-        "url": "https://t.me/tass_agency/399635",
-        "source": "TASS",
-        "source_type": "telegram",
-        "side": "ru",
-        "kind": "media",
-        "published_at": "2026-10-10T05:12:54+00:00",
-        "title": null
-      },
-      {
-        "url": "https://t.me/mod_russia/68078",
-        "source": "Russian Ministry of Defence",
-        "source_type": "telegram",
-        "side": "ru",
-        "kind": "official",
-        "published_at": "2026-10-10T05:08:33+00:00",
-        "title": null
-      },
-      {
-        "url": "https://t.me/rian_ru/347730",
-        "source": "RIA Novosti",
-        "source_type": "telegram",
-        "side": "ru",
-        "kind": "media",
-        "published_at": "2026-10-10T05:07:37+00:00",
-        "title": null
-      },
-      {
-        "url": "https://t.me/tass_agency/399645",
-        "source": "TASS",
-        "source_type": "telegram",
-        "side": "ru",
-        "kind": "media",
-        "published_at": "2026-10-10T07:02:34+00:00",
-        "title": null
-      },
-      {
-        "url": "https://t.me/dva_majors/100294",
-        "source": "Dva Mayora",
-        "source_type": "telegram",
-        "side": "ru",
-        "kind": "osint",
-        "published_at": "2026-10-10T15:57:08+00:00",
-        "title": null
-      },
-      {
-        "url": "https://t.me/mod_russia/68090",
-        "source": "Russian Ministry of Defence",
-        "source_type": "telegram",
-        "side": "ru",
-        "kind": "official",
-        "published_at": "2026-10-10T15:51:01+00:00",
-        "title": null
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9oQXUxRmZGMGF4clNmWGdqdE9IdC1ySDFGSWpWR19HaXhpTUtnQUFFbnlYcmd6TWI2ZzliQTVzMU5ZLUtyWE90TEItb0JGTjA?oc=5",
-        "source": "وكالة سبأ",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-10T07:02:54Z",
-        "title": "روسيا تعلن استهداف سفينة شحن تنقل عتادًا عسكريًا إلى ميناء أوديسا - وكالة سبأ"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMiygRBVV95cUxOakRFX1V0MjBrUE4yVV9wV0x3a3g4OXd4YXRzZHktUEwyMUVXbE15bmMwcjQwdHhrcUw1VkRrd19aLWtlVUUzdnJCWHBHckdZYkZfWGRvNkJkZ1g3cVdtbDN6ZUszOEVSbGdtaFJjSDh0a2luRU5nbThRWFZGZU81SzNrM3hQc0lWNFpqcF9WbkMwYUZpUWN5b1pqTmdfdVZ6bEpSSzB4b0xBUl9mVGxvWERVRFJ3Y1h2cC1VdFY0akVZdC00ZEc1eVA1YmFncWttRVRyTTB5Tll3UzNUSUg4RHFYWUdNSVdNZ2lBVGQ4amNRZVNHaWI0aVpqTGF3bkU3X0pkWnhIY1hIVXJJTGd6a0l6N1J3MHgyemRGTUxIN0N2Yko1ZWlEX0tWOThQWWYydFRUd0tlSzNfZTVLbUhVU2NENWJxSnhzUjQ5bTJ2bDQ3Tk5nTEUtZzhvQk1vVGFudjFRY2JfQXJLclZqc2xPTTBOR2NGZVFMRWdRQmc5UEdqOXZudkpGRHVuMHQ2c0RGSzk2SnotVmlfUnhnYldYcy1TX2tfQTdod0xtcVNiV0w4aHVXUmhKYk10UGdISjA1TXFWdHpJTXRza3hVRjVHOTZPTVVaUkVqLUxCQ016emphYXlTR1h6b0hfN1ZLMmkyVHNUZk10UzIzbUlaM09qb1hpOEZxcFdsYldVT0EtbkNEY0RaeTJTd1oyRU5LVHpRMnNPUnAzeUI0ajJMZHllcERXX182eTRubzZBS3RXekwwYmwxYk1oNXFn?oc=5",
-        "source": "Lebanon 24",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-10T05:31:38Z",
-        "title": "الدفاع الروسية: استهداف سفينة شحن أوكرانية تنقل معدات عسكرية كانت في طريقها إلى ميناء أوديسا - Lebanon 24"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMDBISWFTTXNZcHBuMWJqV3NTQ1ZOM0xneHMxaF9SUnFZR1B3R290OUd3aWZ6dnNtWURvVl8yTHBIbktVR2FjS01WaUJWUl9wVmNaRkpCRTZ6YV9KR2hvVXRnenpydkc2a0tERlZ3X1MwaGZPYWV6MUIyRmc5M0hrNNIBhgFBVV95cUxQQW1kN0hGZ3VKM0pDWV9nXzhRcUduVmJJbE5EYnFSczd5SlhrSE9iSEtNOWJtWFJKMnRVYVhlT29oeVkxWDVoWnJMUEMyNmNvb1B0SS02WlczdXY1VUlZTjlxd0U3YmZheWp3OFFkV3RabDlrQ3c4b0RIenplR05RT0MweDE3Zw?oc=5",
-        "source": "Topuz Gazetesi",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-10T08:14:00Z",
-        "title": "Karadeniz’de Gerilim: Kuru Yük Gemisine Saldırı - Topuz Gazetesi"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE03TnUyV2xsZ0lsZEozYWpVUVh3M3pyUmpUQ1cxOS1VUVIxRTVDMms3Z3Ytd1Y0Z191OEZsUWtVTzVXUTNUQmV6bXl2cnZ0UUpPdXdTNllQNHZKa2kwVFBKM0Q2SDgzODl1Q00xRE5n?oc=5",
-        "source": "CGTN",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-10T05:09:08Z",
-        "title": "Russian troops hit a ship carrying military cargo to the port of Odesa at night, the Ministry of Defense said. - Russian media - CGTN"
-      },
-      {
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcG1nSFd0ejB6NmxEMjdubTFBZDVaRGZsUmgxVUdWejhCaXJReUZLNkg2LTYxdFhvRjZraHNPVnJWR3lKSndaRk1hYXdyaEdKc3RUQlVsVnZwUWxFMk9kQk9KcVl3NHBwdzVUTFNFcnlwS2NoeGdtd1BkQzhfeWd5cXBtYkI5U2taYVdwcldwTHhjWldBRHQ3MFM5QW8yX1NvQVdwSUxiNnI?oc=5",
         "source": "Fakti.bg",
         "source_type": "news",
@@ -587,15 +500,24 @@
       }
     ],
     "first_seen": "2026-10-10T17:58:10Z",
-    "last_updated": "2026-10-11T04:38:43Z",
+    "last_updated": "2026-10-11T05:10:41Z",
     "verification_issue": 112,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "editor-check",
+      "at": "2026-10-11T05:10:41Z",
+      "note": "the record joins the Aroyat, the Palau-flagged bulk carrier struck off Novorossiysk on 27 to 29 September and since drifted to off Giresun with its second engineer missing, to the Arina A, whose captain was killed and which has reached Trabzon: both are already recorded and rejected, and neither is a 10 October attack"
+    },
     "published_in": [
       "2026-10-11"
     ],
-    "status": "claimed",
+    "status": "rejected",
     "position_approx": true,
-    "date_approx": false
+    "date_approx": false,
+    "keep_apart": [
+      "INC-20261010-003"
+    ],
+    "status_changed_at": "2026-10-11T05:10:41Z"
   },
   {
     "region": "Persian Gulf",
@@ -757,14 +679,20 @@
       }
     ],
     "first_seen": "2026-10-10T21:57:48Z",
-    "last_updated": "2026-10-10T21:57:48Z",
+    "last_updated": "2026-10-11T05:10:41Z",
     "verification_issue": 113,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "editor-check",
+      "at": "2026-10-11T05:10:41Z",
+      "note": "the EnergyNow page is dated June 2026 and is the 25 June 2026 projectile strike on the Singapore-flagged container ship Ever Lovely near Dahit in Oman, re-crawled by Google News, not a 10 October attack"
+    },
     "published_in": [
       "2026-10-11"
     ],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-10-11T05:10:41Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -840,14 +768,20 @@
       }
     ],
     "first_seen": "2026-10-11T01:12:32Z",
-    "last_updated": "2026-10-11T01:12:32Z",
+    "last_updated": "2026-10-11T05:10:41Z",
     "verification_issue": 114,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "editor-check",
+      "at": "2026-10-11T05:10:41Z",
+      "note": "the EnergyNow page is dated 5 August 2026 and is the Houthi claim of a missile attack on a Saudi oil tanker off Yanbu, the same event already recorded and rejected on the tracker"
+    },
     "published_in": [
       "2026-10-11"
     ],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-10-11T05:10:41Z"
   },
   {
     "region": "Gulf of Oman",
@@ -882,14 +816,15 @@
       }
     ],
     "first_seen": "2026-10-11T04:38:32Z",
-    "last_updated": "2026-10-11T04:38:32Z",
+    "last_updated": "2026-10-11T05:10:41Z",
     "verification_issue": null,
     "verdict": null,
     "published_in": [
       "2026-10-11"
     ],
-    "status": "confirmed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261010-016"
   },
   {
     "region": "Gulf of Oman",
@@ -898,19 +833,19 @@
     "official_source_cited": "CENTCOM",
     "conflicting": false,
     "confidence": 0.8,
-    "vessel_name": null,
-    "imo": null,
-    "flag": null,
+    "vessel_name": "OCEAN MOLICA",
+    "imo": "9139270",
+    "flag": "Panama",
     "vessel_type": "general cargo",
     "vessel_category": "merchant",
     "lat": 24.8,
     "lon": 58.2,
     "location_text": "Gulf of Oman",
     "attack_type": "missile",
-    "damage": null,
-    "casualties": null,
+    "damage": "propulsion disabled",
+    "casualties": "CENTCOM said no crew were harmed",
     "attribution_claimed": "US",
-    "independent_evidence": false,
+    "independent_evidence": true,
     "id": "INC-20261010-016",
     "sources": [
       {
@@ -948,17 +883,78 @@
         "kind": "media",
         "published_at": "2026-10-11T02:45:26Z",
         "title": "US hits commercial tanker in Gulf of Oman as tensions flare - Financial Times"
+      },
+      {
+        "url": "https://www.ukmto.org/recent-incidents",
+        "source": "UKMTO",
+        "source_type": "official",
+        "side": "neutral",
+        "kind": "official",
+        "published_at": "2026-10-11T04:33:18Z",
+        "title": "Missed: UKMTO #163 2026-10-10"
+      },
+      {
+        "url": "https://www.vesselfinder.com/vessels/details/9139270",
+        "source": "vesselfinder.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-11T05:10:41Z",
+        "title": null
+      },
+      {
+        "url": "https://www.vesselfinder.com/vessels/details/9139270",
+        "source": "vesselfinder.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-11T05:10:41Z",
+        "title": null
+      },
+      {
+        "url": "https://www.vesselfinder.com/vessels/details/9139270",
+        "source": "vesselfinder.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-11T05:10:41Z",
+        "title": null
+      },
+      {
+        "url": "https://www.dawn.com/news/2036307/us-military-says-it-disabled-cargo-vessel-trying-to-run-naval-blockade",
+        "source": "dawn.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-11T05:10:41Z",
+        "title": null
+      },
+      {
+        "url": "https://www.dawn.com/news/2036307/us-military-says-it-disabled-cargo-vessel-trying-to-run-naval-blockade",
+        "source": "dawn.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-11T05:10:41Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-11T04:38:32Z",
-    "last_updated": "2026-10-11T04:38:36Z",
+    "last_updated": "2026-10-11T05:10:41Z",
     "verification_issue": 116,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "editor-check",
+      "at": "2026-10-11T05:10:41Z",
+      "note": "CENTCOM said its fighter jet disabled the vessel, and UKMTO advisory 163-26 reports the tanker and military forces incident in the Gulf of Oman the same day"
+    },
     "published_in": [
       "2026-10-11"
     ],
-    "status": "claimed",
-    "position_approx": true
+    "status": "confirmed",
+    "position_approx": true,
+    "news_changed_at": "2026-10-11T05:10:41Z",
+    "status_changed_at": "2026-10-11T05:10:41Z"
   },
   {
     "region": "Black Sea",
@@ -2259,14 +2255,20 @@
       }
     ],
     "first_seen": "2026-10-10T12:59:52Z",
-    "last_updated": "2026-10-10T12:59:52Z",
+    "last_updated": "2026-10-11T05:10:41Z",
     "verification_issue": 110,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "editor-check",
+      "at": "2026-10-11T05:10:41Z",
+      "note": "the KATU page is dated 26 June 2026 and describes the US strikes on Iran after an Iranian drone attack on a cargo ship in the Strait of Hormuz in June 2026, re-crawled by Google News, not a 9 October attack"
+    },
     "published_in": [
       "2026-10-11"
     ],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-10-11T05:10:41Z"
   },
   {
     "region": "Strait of Hormuz",
