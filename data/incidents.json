@@ -65,11 +65,287 @@
         "kind": "media",
         "published_at": "2026-10-11T05:13:08+00:00",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZDlmU3NlTWpvUmNTSE9sb2NKOVdEUk8yVG8zU2JoNkw4X3V6cDlfYVR3aG95MklZOU02czB0RDBRbXdRNFlhcDV4MEZHTERBc3E4T0VaNXhMSnl5UkpJOU9CSk1WRVlIVFVaVHRhUWMxa1VQRkxQR3VCR3A1aU55NURUM0NSWVJJUG1DMEliZDEtYjBqd3E3UkptTEpKeVBRdkEwcmNDb0IyTzZJOERHZG5rUVU4dXB1cURjOEJ6eDU?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T10:08:46Z",
+        "title": "Минобороны отчиталось об ударе по дата-центру в Одессе и сухогрузу в Черном море - prospect.com.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOb2ZocUsxYUkyWTJ3WnJPQXAzTVk5WFo4c2JNS24wSzExMmJjX2VET3JOaU1SeW5Rc09tZ1VFMEpmXzFBSEliTDhiVFhGQzU0OUE4UUpTY01yZjhqbFhYYmxlajBuMmZKamFJeU5zaGZkbi1FQ2licjE0QmRpRHN3YjBsZmFTbTBnZTREWmYtUlBBRlY4Sm40LXJlM1FiaXVxWEZwM0l1eEFDT0o4OUE?oc=5",
+        "source": "Türkiye Today",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T09:12:08Z",
+        "title": "Russia claims strikes on Odesa data center, military cargo ship - Türkiye Today"
       }
     ],
     "first_seen": "2026-10-11T07:47:27Z",
-    "last_updated": "2026-10-11T07:47:39Z",
+    "last_updated": "2026-10-11T15:04:06Z",
     "verification_issue": 117,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261010-003"
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-11",
+    "summary": "Two more tankers were struck in the Strait of Hormuz, according to gCaptain, extending an escalation in attacks on commercial shipping. No vessel names, flags, positions or attackers were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261011-002",
+    "sources": [
+      {
+        "url": "https://gcaptain.com/more-tankers-hit-in-hormuz-as-u-s-strikes-cargo-ship/",
+        "source": "gCaptain",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-11T14:28:20Z",
+        "title": "More Tankers Hit in Hormuz as U.S. Strikes Cargo Ship"
+      }
+    ],
+    "first_seen": "2026-10-11T15:03:32Z",
+    "last_updated": "2026-10-11T15:04:06Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261010-016",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-11",
+    "summary": "The UK reported damage to a tanker in an attack in the Strait of Hormuz, according to Breakingthenews.net. No vessel name, flag, position or attacker was given.",
+    "official_source_cited": "UK (British authorities)",
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": "damage reported",
+    "casualties": "no crew injuries reported",
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261011-003",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTk1rX0dUdGxsbm1vU2MwekpaV0NJbXI5TG16bko0bVl2eFdUY2QxU215VlJBYjBCQ2pSLWt3S3pkOGJxdjZld21YZFBhU3FYQVJ1Y1djRm5NMmJyWjFmRFJUNW16d05fRXdqTmZxVUhEeUNPMWlpenZCYkhYSk5JM1ZuZllfbHlXUkxrTkFOTDBNX2c?oc=5",
+        "source": "Breakingthenews.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T14:14:00Z",
+        "title": "UK reports damage to tanker in Hormuz attack - Breakingthenews.net"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10bVJrMTNGMkx3SHdBaDdlRVpxa1YzSUp1OVBPemFDUmVuYjB6TzdBTHpiMHk4S1NSMUs0ZndLN2RqSXlWb09haFdGbHg1cjhfT3c?oc=5",
+        "source": "Yemen Online",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T14:02:57Z",
+        "title": "UKMTO: Fire on Ship Struck by Projectile in Strait of Hormuz - Yemen Online"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYlAzVnREMUZ0aTlwMklpMHJBTU5DY3YxamIyQmhhRUdzOF9xZHhMUlJUeHJDZHN6bzQtUmg2WTRSbTdGekwyVWE2dy1vcG1YbVFIZHlydFdKak9mNnZZeUE3NWE0NnMzVlItT1VYU0k0UXh4VWFYYjFObGxfVkdlbWxXVUFEZ0dydGRIdHJQV2YxYlV2c2ZiMTlHZlAyR2VpTTBCNFBuajVyb2kwVzFhekpBbjNCWXNvazBWSm16NVRFejg?oc=5",
+        "source": "Anadolu Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T13:58:47Z",
+        "title": "Tanker damaged by 'unidentified' projectile in Strait of Hormuz: UK maritime agency - Anadolu Ajansı"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRkZ0cDRKeEo2Nko5SGlRQ2dRS3R4bzIyaHZpbHp6c01hMXl4NU5BZWpPWWZ1N3F2OWcwSzV6c1dETFJHaU9NdnJTZWk2aHRVczZwUU1PZkZiX0VMYWhCbGpVbnhrQ2FMbTlXMEI2UzlJRzE3NmFUWk16STVmUzFiVHA4QUNTcXJ5d2dwNnZaQVBPaGd5UzY4NEFWM3pjNjFScGVVTFpfZlVtdw?oc=5",
+        "source": "Seoul Economic Daily",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T13:38:05Z",
+        "title": "Tanker Hit by Projectile in Strait of Hormuz, No Crew Injuries Reported - Seoul Economic Daily"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1wakNvM3ZlbHJqUGNKeTV0dUFtbXllUHVIbndiTDBUVnlMMXp3cXh1U0wxVUxuS3c0YXRDeGxJbzFWOXJtZlBnRHhKb3I1aWtyLU5WME5QLXpzSzJkQzhHWGhyV1F6bnRSejdONEpn?oc=5",
+        "source": "CGTN",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T13:06:54Z",
+        "title": "UKMTO: VESSEL WAS DAMAGED IN INCIDENT - CGTN"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVTNTcEtBc1hvZEotZmJ6dURKUHk0cGNtRjUzZ0M1R2kwdjJVTmpLTkZhWHVPUHZSdXc5a3NQMV9jRUoxLXZIdHVwQmx5Q1VxNVJ0TUxya1VJTkRHVmtlQm16OUVTVGpLWXFzWmkxejdxMTJ0aTBSNlhKbDYwYUQwZ1Z1Z2VQZm5hRENORw?oc=5",
+        "source": "Latest news from Azerbaijan",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T05:23:38Z",
+        "title": "Tanker catches fire after projectile strike in Strait of Hormuz - Latest news from Azerbaijan"
+      }
+    ],
+    "first_seen": "2026-10-11T15:03:32Z",
+    "last_updated": "2026-10-11T15:04:06Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261010-016",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-11",
+    "summary": "A tanker was hit and caught fire in the Strait of Hormuz, according to 아시아경제. No vessel name, flag, position or attacker was given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": "caught fire",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261011-004",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1IRjhMZzZlTEwtemswV2c4RF9BQ0huWEJtWlhjVmlzaEI4ZGlwNmtSeE92OXIxTnpEUnVORTQ2cjBfX0s4OFZaVlpHREVPUGg0RkZFWkEtRjI5S0gwWmlLUnNqY0t0cDRqOF91MzM4YU5tcTVrMDI0?oc=5",
+        "source": "아시아경제",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T14:06:24Z",
+        "title": "Tanker Hit and Catches Fire in Strait of Hormuz... Riyadh Airport Attack Kills 12 - 아시아경제"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORXRfbkQtNWNlN2tCSmp3V3lGYUwzR1RneE1Sdkpsc3MwTHhjcl93dkg3YndySS11XzNmU3pnSzE5X29qemFhRnIxRGlucUdiM19ZVW1NZFBtSVRWMmttSm4wQmxpLXZXMkdiajlxUkxFZER3NWwyNllHWTI3bmpzWExEMjZxQ3JOYkhFNGtXcjhBckFoblR3SzJMbU9OVUNlNEd6YXRxSkhCZ2tFNE9vNGtYaTU5Y1NYTjNtNzB1X0pXR1k?oc=5",
+        "source": "Palestine Chronicle",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T13:44:59Z",
+        "title": "Today's Headlines: Four Homes Destroyed in Gaza | Hormuz Tanker Explosion | 'Move, Freeze, Survive' - Palestine Chronicle"
+      }
+    ],
+    "first_seen": "2026-10-11T15:03:32Z",
+    "last_updated": "2026-10-11T15:04:06Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261010-016",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-11",
+    "summary": "A Romanian news outlet reported that a vessel was reportedly hit by a drone in the Black Sea near a platform. No vessel name, flag, position or attacker is given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.4,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea, near a platform",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261011-005",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQU3JWcFB0VUNDYlFyYmlxRXpWVmtWaEVXZExRc2VMNXBxRXlvQ2ZTWlFBRGktM1NHNnNtQTBKdUpEYnNEMExWWERDa2xaVmRtOTJ1WjFaSGptcENxLUJSSnRBa3J6SlFndVJfLW1sNGxaemRpd3M2dUpaQURLR0J0aWFRdjJqUmlON1M4ajBxaW9xOTFjaWQyR2lyZ1owZFltZE5lVVpmYmFZbGhVdnplSi0zUnp2TG9NVVV2TEMwQXFEZzRHTEN6Z3R6b2dCbzJ5eE9KOEpiQllVazV6R185RlROZ3JwVi1tT1hGVGpxMjNSb0NjRGpB0gH8AUFVX3lxTE8yUzIxREptT3F0TTNwTDBNeVI2a2l3ejV1dVh5N05YaXZLQ0JYeUtYVElNeFRTMXZRbFk1ZW5iUU5iZEdqRHZ5dGRSODliRkhnbjZLLXJwSXBrUjJlMW8xMC1vNXZwMlI0ZmhUZ2hOaklrQXREb2VyX1h3ZWI2VGE5UEZzZ2w4RzF3eTRKeEZWaFhibDJjV205eFlmdUdQTzlsUkg1c3JIQlVsOGw3OTVPWDhwOXBkTWRnWDI5Vmp4RWVOelY5WEpPTVNTQXc4QUYtVnNHRVVpSUoyajJtMlhLUGNsdXJnTUNVZldwV1Y5Zm91QjZRRXdkOUhUVw?oc=5",
+        "source": "Kanal D Romania",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T10:43:00Z",
+        "title": "BREAKING NEWS O navă ar fi fost lovită de o dronă în Marea Neagră, în apropierea platformei... - Kanal D Romania"
+      }
+    ],
+    "first_seen": "2026-10-11T15:03:40Z",
+    "last_updated": "2026-10-11T15:03:40Z",
+    "verification_issue": 118,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-11",
+    "summary": "Russia hit another Ukraine ship in the Black Sea, according to a headline. No vessel name, flag, position, or damage details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Russia",
+    "independent_evidence": false,
+    "id": "INC-20261011-006",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQblBwcmFVRXU0bUZ5X0QwSUxGVHpITmFMNVNZazVXSTNiZUU1X1Rzc3EyUllsdXVJUG9LTFNhZE9XLVo5NXRKcDZvalo0UXZEUHBkdHA0YU9mdXpNRFg2NTJCcTMyQ2tHdG9RX29XSzZTNV9FdEVCOUdiSjB2WFlJd1FST2c3Vmt2bTRHYjFMQVR4WFM3?oc=5",
+        "source": "Breakingthenews.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T06:27:00Z",
+        "title": "Russia hits another Ukraine ship in Black Sea - Breakingthenews.net"
+      }
+    ],
+    "first_seen": "2026-10-11T15:03:56Z",
+    "last_updated": "2026-10-11T15:03:56Z",
+    "verification_issue": 119,
     "verdict": null,
     "published_in": [],
     "status": "claimed",
@@ -220,7 +496,7 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-10-10",
-    "summary": "Russia's defence ministry claimed on 10 October 2026 that Russian forces struck a general cargo ship at sea as it delivered military goods toward Odesa, with no vessel name, flag or position given. A Turkish outlet separately reported an attack on a dry cargo ship in the Black Sea the same day, matching the same claimed strike.",
+    "summary": "Russia's defence ministry claimed on 10 October 2026 that its drones struck a general cargo ship at sea as it delivered military goods toward Odesa, with no vessel name, flag or position given. A related claim said a dry cargo ship was hit in Chornomorsk port after delivering military cargo, and a Turkish outlet reported an attack on a dry cargo ship in the Black Sea the same day.",
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.7,
@@ -328,10 +604,73 @@
         "kind": "media",
         "published_at": "2026-10-10T05:09:08Z",
         "title": "Russian troops hit a ship carrying military cargo to the port of Odesa at night, the Ministry of Defense said. - Russian media - CGTN"
+      },
+      {
+        "url": "https://t.me/astrapress/127792",
+        "source": "ASTRA",
+        "source_type": "telegram",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-11T07:19:11+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1SU2IyeUk2ZUU4aHIwSDMyc3ZRQWxYdnR3RFczMVNkOHREUWNBQTRJelg2RXJLREVyWmE4VUlFTVJ6RkVpV0JoYVNtNkxxV18wRTM4ai1wWW50V21qSE1FNm1DaGFwdXRWQjhRN2VR?oc=5",
+        "source": "CGTN",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T05:15:21Z",
+        "title": "Russian media: 'The Russian Armed Forces hit a dry cargo ship in the port of Chornomorsk, which delivered military cargo, the Ministry of Defense reported.' - CGTN"
+      },
+      {
+        "url": "https://t.me/tass_agency/399750",
+        "source": "TASS",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-11T05:14:24+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/68097",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-11T05:13:13+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/rian_ru/347789",
+        "source": "RIA Novosti",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-11T05:13:08+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZDlmU3NlTWpvUmNTSE9sb2NKOVdEUk8yVG8zU2JoNkw4X3V6cDlfYVR3aG95MklZOU02czB0RDBRbXdRNFlhcDV4MEZHTERBc3E4T0VaNXhMSnl5UkpJOU9CSk1WRVlIVFVaVHRhUWMxa1VQRkxQR3VCR3A1aU55NURUM0NSWVJJUG1DMEliZDEtYjBqd3E3UkptTEpKeVBRdkEwcmNDb0IyTzZJOERHZG5rUVU4dXB1cURjOEJ6eDU?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T10:08:46Z",
+        "title": "Минобороны отчиталось об ударе по дата-центру в Одессе и сухогрузу в Черном море - prospect.com.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOb2ZocUsxYUkyWTJ3WnJPQXAzTVk5WFo4c2JNS24wSzExMmJjX2VET3JOaU1SeW5Rc09tZ1VFMEpmXzFBSEliTDhiVFhGQzU0OUE4UUpTY01yZjhqbFhYYmxlajBuMmZKamFJeU5zaGZkbi1FQ2licjE0QmRpRHN3YjBsZmFTbTBnZTREWmYtUlBBRlY4Sm40LXJlM1FiaXVxWEZwM0l1eEFDT0o4OUE?oc=5",
+        "source": "Türkiye Today",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T09:12:08Z",
+        "title": "Russia claims strikes on Odesa data center, military cargo ship - Türkiye Today"
       }
     ],
     "first_seen": "2026-10-10T06:19:59Z",
-    "last_updated": "2026-10-11T05:10:41Z",
+    "last_updated": "2026-10-11T15:04:06Z",
     "verification_issue": 107,
     "verdict": null,
     "published_in": [
@@ -1042,10 +1381,163 @@
         "kind": "media",
         "published_at": "2026-10-11T04:54:31Z",
         "title": "SUA neutralizează o navă comercială în Golful Oman, iar Iranul ripostează cu atacuri în Strâmtoarea… - Mediafax"
+      },
+      {
+        "url": "https://gcaptain.com/more-tankers-hit-in-hormuz-as-u-s-strikes-cargo-ship/",
+        "source": "gCaptain",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-11T14:28:20Z",
+        "title": "More Tankers Hit in Hormuz as U.S. Strikes Cargo Ship"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNmZLVDhRdmhnVXlleUw2QjhnQXc0a0ZQb2JaS0hzSjJycUh6ejJscHMyTmt2WUJqcXZEOTRWM21EQkhraUg3VkpveGx3WTI1aENpdDUzeC1Cc1dNNWs0NmZNUVdBQU52YU0zRW5aV1JEQVhsRHBRT1o4M2FsMENiMGVmd0tsQ0ROU0xSSGl3?oc=5",
+        "source": "iPress.ua",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T09:10:00Z",
+        "title": "США атакували торговельне судно в Оманській затоці - iPress.ua"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE11cklFa1RsMXg3MENoWlJEX0xUT1RmX0JiSU9Gc09nSF9MVzhsa3lCZ0xpbFN0QV9VSC1hU1BzOVZMY3BHODhQd0RFU09MNUhqZXVCSDFvQXRIZWxTS2lHS1p4NmYyMHgyVXg2aHdUQlBLODlRS2gzcWdwOA?oc=5",
+        "source": "LB.ua",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T08:46:00Z",
+        "title": "FT: США атакували торговельне судно в Оманській затоці - LB.ua"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5mMVlvSldyLVVZQTJyRGZMQ0R0RC1ENldtbWx4MUF4ZkFIeVdyek5GMmliaHBCVjBycHEya3YteXE0WnZZVHBDcDdRRGZRSnYwMkpkNDhPbkxQQQ?oc=5",
+        "source": "www.tokenpost.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T08:05:46Z",
+        "title": "Riyadh Airport Attack Kills 12 as U.S. Strikes Cargo Ship in Gulf of Oman - www.tokenpost.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMnAtWkVQQ2hORXNFdXJhMEZZMjY1eW41azNiV1pHaW42TW9JYkY2TlJyNG5HMWpRZDNCemg0WjVIOWxObVFQblFvYTlZN2lLMlgyUnBFT0ItN2c2cHoxYmMzYVJZQTJlNHhiZDRNeE1DLWQzQ2dHOV9YZTNlTzBvZWdXMjBTY2ZxS25OdGI1bC1sNVhTQ2xlUjQ1aG8tNHZzYk1nZU03VnNrTEFSQUE?oc=5",
+        "source": "Informat.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T06:40:06Z",
+        "title": "U.S. forces struck a cargo ship in the Gulf of Oman after its crew allegedly ignored warnings about violating the naval blockade imposed by the U.S. on Iranian ports - Informat.ro"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOOUlvTTBQMmpkZVRMTUFLMlZFaWNNcDJBRVI4OEJyZTlWZTNJUVBMUklGQjM3dUd3LTZSSU9aVnR1U2lseUtpcHhYM2pIZnJ0bHVtYmEtWGw2ZkVUbzBoT2VzLXJ2Z1pYZl8tblM5MG83dXVfWHhNSnJPQmxGcVJxQWtlemJ0a1B3Y2pkZDNvOVhxdUU?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T04:23:42Z",
+        "title": "CENTCOM: Удар нанесен по судну в Оманском заливе - prospect.com.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQakRXbG1sWEkxeHgwWjBjSFBZSndfZ2xNMU9LMWlhcHlEc0xFd05EZnF1VWJEN1cwc0JqUEJ1SWw3NjJtTTdLT3Bpa2l1bV9HbFo0ZVZSRHhQYVdjZk9QRmJlek9Gbk1MR094UEpFYjc1NTdNWFhBUWRfU2JMOGYtbTFWWXhCdDdWbk8tLVFBeGc5MjFTV0x4QXZvekwzY3Bpc2NSaFJ3Z3JEbFk?oc=5",
+        "source": "Arab Times Kuwait News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T00:59:28Z",
+        "title": "Tanker Hit by Unknown Projectile off Oman Coast, Fire Reported Onboard - Arab Times Kuwait News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTk1rX0dUdGxsbm1vU2MwekpaV0NJbXI5TG16bko0bVl2eFdUY2QxU215VlJBYjBCQ2pSLWt3S3pkOGJxdjZld21YZFBhU3FYQVJ1Y1djRm5NMmJyWjFmRFJUNW16d05fRXdqTmZxVUhEeUNPMWlpenZCYkhYSk5JM1ZuZllfbHlXUkxrTkFOTDBNX2c?oc=5",
+        "source": "Breakingthenews.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T14:14:00Z",
+        "title": "UK reports damage to tanker in Hormuz attack - Breakingthenews.net"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10bVJrMTNGMkx3SHdBaDdlRVpxa1YzSUp1OVBPemFDUmVuYjB6TzdBTHpiMHk4S1NSMUs0ZndLN2RqSXlWb09haFdGbHg1cjhfT3c?oc=5",
+        "source": "Yemen Online",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T14:02:57Z",
+        "title": "UKMTO: Fire on Ship Struck by Projectile in Strait of Hormuz - Yemen Online"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYlAzVnREMUZ0aTlwMklpMHJBTU5DY3YxamIyQmhhRUdzOF9xZHhMUlJUeHJDZHN6bzQtUmg2WTRSbTdGekwyVWE2dy1vcG1YbVFIZHlydFdKak9mNnZZeUE3NWE0NnMzVlItT1VYU0k0UXh4VWFYYjFObGxfVkdlbWxXVUFEZ0dydGRIdHJQV2YxYlV2c2ZiMTlHZlAyR2VpTTBCNFBuajVyb2kwVzFhekpBbjNCWXNvazBWSm16NVRFejg?oc=5",
+        "source": "Anadolu Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T13:58:47Z",
+        "title": "Tanker damaged by 'unidentified' projectile in Strait of Hormuz: UK maritime agency - Anadolu Ajansı"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRkZ0cDRKeEo2Nko5SGlRQ2dRS3R4bzIyaHZpbHp6c01hMXl4NU5BZWpPWWZ1N3F2OWcwSzV6c1dETFJHaU9NdnJTZWk2aHRVczZwUU1PZkZiX0VMYWhCbGpVbnhrQ2FMbTlXMEI2UzlJRzE3NmFUWk16STVmUzFiVHA4QUNTcXJ5d2dwNnZaQVBPaGd5UzY4NEFWM3pjNjFScGVVTFpfZlVtdw?oc=5",
+        "source": "Seoul Economic Daily",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T13:38:05Z",
+        "title": "Tanker Hit by Projectile in Strait of Hormuz, No Crew Injuries Reported - Seoul Economic Daily"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1wakNvM3ZlbHJqUGNKeTV0dUFtbXllUHVIbndiTDBUVnlMMXp3cXh1U0wxVUxuS3c0YXRDeGxJbzFWOXJtZlBnRHhKb3I1aWtyLU5WME5QLXpzSzJkQzhHWGhyV1F6bnRSejdONEpn?oc=5",
+        "source": "CGTN",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T13:06:54Z",
+        "title": "UKMTO: VESSEL WAS DAMAGED IN INCIDENT - CGTN"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVTNTcEtBc1hvZEotZmJ6dURKUHk0cGNtRjUzZ0M1R2kwdjJVTmpLTkZhWHVPUHZSdXc5a3NQMV9jRUoxLXZIdHVwQmx5Q1VxNVJ0TUxya1VJTkRHVmtlQm16OUVTVGpLWXFzWmkxejdxMTJ0aTBSNlhKbDYwYUQwZ1Z1Z2VQZm5hRENORw?oc=5",
+        "source": "Latest news from Azerbaijan",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T05:23:38Z",
+        "title": "Tanker catches fire after projectile strike in Strait of Hormuz - Latest news from Azerbaijan"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1IRjhMZzZlTEwtemswV2c4RF9BQ0huWEJtWlhjVmlzaEI4ZGlwNmtSeE92OXIxTnpEUnVORTQ2cjBfX0s4OFZaVlpHREVPUGg0RkZFWkEtRjI5S0gwWmlLUnNqY0t0cDRqOF91MzM4YU5tcTVrMDI0?oc=5",
+        "source": "아시아경제",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T14:06:24Z",
+        "title": "Tanker Hit and Catches Fire in Strait of Hormuz... Riyadh Airport Attack Kills 12 - 아시아경제"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORXRfbkQtNWNlN2tCSmp3V3lGYUwzR1RneE1Sdkpsc3MwTHhjcl93dkg3YndySS11XzNmU3pnSzE5X29qemFhRnIxRGlucUdiM19ZVW1NZFBtSVRWMmttSm4wQmxpLXZXMkdiajlxUkxFZER3NWwyNllHWTI3bmpzWExEMjZxQ3JOYkhFNGtXcjhBckFoblR3SzJMbU9OVUNlNEd6YXRxSkhCZ2tFNE9vNGtYaTU5Y1NYTjNtNzB1X0pXR1k?oc=5",
+        "source": "Palestine Chronicle",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T13:44:59Z",
+        "title": "Today's Headlines: Four Homes Destroyed in Gaza | Hormuz Tanker Explosion | 'Move, Freeze, Survive' - Palestine Chronicle"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYnpsZVhndmJtRmdwMUJTU0RMR0xNRzJidlhBa1FQRXdWWXNPSVBZaDktM1cxWnRXWUpUcjlpdmg5MHNSY2YySzU3S0stSEt6VlZhM2psaFVuX1AzZ1JmWVhIYW40UkxPbl9JN2hMUWlFME1kcmJ3bDdkOHp0UVV0anhCVWlRT09zemp6SW5iWGt4cEpFMUxjX1FjZzJ2bFg5MENLR1VLSjRUTmcyUzNJ?oc=5",
+        "source": "Insajderi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-10T21:15:43Z",
+        "title": "Iran's Revolutionary Guards attack tanker, threaten ships outside Strait of Hormuz - Insajderi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOU0ZNbHdUdkdoaHRpRXUtaExhMTgxLTRIOVFRd0dydXB1NzJ1MVpzd2t1S3lxaENpM3B5M1VLWDBFck16bjNLWGhjOEdjWUhtcG1qaDlfSU16U0lZQURjdndyZkcxaS1Bamh2aXY2MGFnM3dsb0hiX1NLRlByMmhwRERET2dOTXFUMTJ4dk91NVpOOUY4dXREOTg3SVZNUTRhS3cxMlFiNVlmemlTTWFDc1h3?oc=5",
+        "source": "Para Analiz",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-10T00:33:21Z",
+        "title": "İran Hürmüz'de tanker saldırılarını artırdı: Petrol sevkiyatında savaşın en tehlikeli dönemi - Para Analiz"
       }
     ],
     "first_seen": "2026-10-11T04:38:32Z",
-    "last_updated": "2026-10-11T07:47:39Z",
+    "last_updated": "2026-10-11T15:04:06Z",
     "verification_issue": 116,
     "verdict": {
       "status": "confirmed",
@@ -1060,6 +1552,56 @@
     "position_approx": true,
     "news_changed_at": "2026-10-11T05:10:41Z",
     "status_changed_at": "2026-10-11T05:10:41Z"
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-10",
+    "summary": "Iran's Revolutionary Guards attacked a tanker and threatened ships outside the Strait of Hormuz, according to a headline report. No vessel name, flag, position or damage details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Iran's Revolutionary Guards",
+    "independent_evidence": false,
+    "id": "INC-20261010-017",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYnpsZVhndmJtRmdwMUJTU0RMR0xNRzJidlhBa1FQRXdWWXNPSVBZaDktM1cxWnRXWUpUcjlpdmg5MHNSY2YySzU3S0stSEt6VlZhM2psaFVuX1AzZ1JmWVhIYW40UkxPbl9JN2hMUWlFME1kcmJ3bDdkOHp0UVV0anhCVWlRT09zemp6SW5iWGt4cEpFMUxjX1FjZzJ2bFg5MENLR1VLSjRUTmcyUzNJ?oc=5",
+        "source": "Insajderi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-10T21:15:43Z",
+        "title": "Iran's Revolutionary Guards attack tanker, threaten ships outside Strait of Hormuz - Insajderi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOU0ZNbHdUdkdoaHRpRXUtaExhMTgxLTRIOVFRd0dydXB1NzJ1MVpzd2t1S3lxaENpM3B5M1VLWDBFck16bjNLWGhjOEdjWUhtcG1qaDlfSU16U0lZQURjdndyZkcxaS1Bamh2aXY2MGFnM3dsb0hiX1NLRlByMmhwRERET2dOTXFUMTJ4dk91NVpOOUY4dXREOTg3SVZNUTRhS3cxMlFiNVlmemlTTWFDc1h3?oc=5",
+        "source": "Para Analiz",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-10T00:33:21Z",
+        "title": "İran Hürmüz'de tanker saldırılarını artırdı: Petrol sevkiyatında savaşın en tehlikeli dönemi - Para Analiz"
+      }
+    ],
+    "first_seen": "2026-10-11T15:04:00Z",
+    "last_updated": "2026-10-11T15:04:06Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261010-016",
+    "position_approx": true
   },
   {
     "region": "Black Sea",
@@ -1711,10 +2253,37 @@
         "kind": "media",
         "published_at": "2026-10-10T23:19:41Z",
         "title": "Hormuz strike count nears 20 vessels as Iran tightens grip hitting another tanker - TradeWinds News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUHZYanhrS2Y0RkJ0cUtMNm5abnk5Y2taUVBkNE51VFdacVljZUVtS2ZPMmVhSlRSR3pQcldKZ2xkcFVIWERmZDVMNnltVUtLeHR3Uk96SVRsQWZRdm1icmZ6S2YxQjVqVmdaWklnaHUtdmpHSDdmZ3BCQjdJUVFkaXp0RnJoa2prZmtvcVFLcnplYlplS0E?oc=5",
+        "source": "Roya News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-10T23:41:11Z",
+        "title": "Tanker struck in Hormuz, sparking onboard fire: UKMTO - Roya News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYVFfMTR4VGhfNzZkS1pubDYzR0pnOWxvMV9UTFE4bVBqZS1RMEFJRm44VkxKVmJjVWp6ZGxoQ3BhWUxQWm9nZHlld0dlSWpuejAxbExUNDFjeG96SWM0Zkhsd0RVUHZmQUN3ekY5RzRZNXR6c3pRMDdSdTExYWswX0FWNDI0VkNXME9pemJjRzZOWU9WeXNELWdxaElndWZyMVotYkVPSzlnVVhXbU5Zb2x4eS1Nam8?oc=5",
+        "source": "cedarnews.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-10T22:13:09Z",
+        "title": "Strait of Hormuz tanker struck by unknown projectile, fire reported on board - cedarnews.net"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMWE0RTRhU2VGaFV4NzlNTGdIbU1lUWEwT2dLN2Nya0hrTjgyZlFRdnRudkpMUW9yVk56LVZQa0EyTWVJMGZlWDZoRndiV2hpbXE2RW9xM0RQMUQ3bDZfSVI1WnRYNWd5cFFnVFI0QzNvNGdLSGpGYkVxSTRZVmJIRnlna01ucGFUMUNoeWFjb1ExTnV5QnBqSmVaR2I0NGR1Z3ZRc1RiUDBiVUFXdDEtLWxhVGFHRm00V0E?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-09T15:13:35Z",
+        "title": "В UKMTO заявили о пожаре на судне после попадания боеприпаса у берегов ОАЭ - prospect.com.ru"
       }
     ],
     "first_seen": "2026-10-09T14:36:17Z",
-    "last_updated": "2026-10-11T07:47:44Z",
+    "last_updated": "2026-10-11T15:04:00Z",
     "verification_issue": 97,
     "verdict": {
       "status": "confirmed",
@@ -10118,10 +10687,19 @@
         "kind": "media",
         "published_at": "2026-10-09T00:44:16Z",
         "title": "Возле Сочи атакован танкер: в море горит нефть, пляжи в городе закрыты (ВИДЕО) - TOPNews.RU"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQVQyZlEwNHFhOTVueG5VZkl3anA4ZUhTTENSUFh5X0xLMm1QN2o2OHRDSVRoQWlocmR2bjJVdFFkODNVZTRlcFVob3dycmpNTlNVRGVsT1hNRXd0cGJxck5Vak13Q1VxR3pkX1NsWmU4MWFFenRPZ1F1SHIxMGdUU08xVmlZdE92dzNvM1F4dHdFWG02RUp1R3RtZWNtdlpKODlpc1dwT3JsTVBHT1RPVmtDcWJiQ01lVURqMDhPVTNqUQ?oc=5",
+        "source": "Живая Кубань",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T08:49:13Z",
+        "title": "Из-за атаки БЭК на танкер у берегов Сочи закрыли пляжи. Город затянуло дымом - Живая Кубань"
       }
     ],
     "first_seen": "2026-10-06T20:33:03Z",
-    "last_updated": "2026-10-10T13:00:03Z",
+    "last_updated": "2026-10-11T15:03:49Z",
     "verification_issue": 65,
     "verdict": {
       "status": "rejected",
