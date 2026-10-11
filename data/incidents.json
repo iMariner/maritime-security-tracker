@@ -1,5 +1,81 @@
 [
   {
+    "region": "Black Sea",
+    "date_utc": "2026-10-11",
+    "summary": "Russia's defence ministry claimed that its drones struck a data centre in Odesa and also attacked a vessel in Chornomorsk port that had delivered military cargo. The claim gives no vessel name, flag or damage details.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 46.3,
+    "lon": 30.66,
+    "location_text": "Chornomorsk port, Ukraine",
+    "attack_type": "drone (UAV)",
+    "damage": "vessel struck",
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry claimed it",
+    "independent_evidence": false,
+    "id": "INC-20261011-001",
+    "sources": [
+      {
+        "url": "https://t.me/astrapress/127792",
+        "source": "ASTRA",
+        "source_type": "telegram",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-11T07:19:11+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1SU2IyeUk2ZUU4aHIwSDMyc3ZRQWxYdnR3RFczMVNkOHREUWNBQTRJelg2RXJLREVyWmE4VUlFTVJ6RkVpV0JoYVNtNkxxV18wRTM4ai1wWW50V21qSE1FNm1DaGFwdXRWQjhRN2VR?oc=5",
+        "source": "CGTN",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T05:15:21Z",
+        "title": "Russian media: 'The Russian Armed Forces hit a dry cargo ship in the port of Chornomorsk, which delivered military cargo, the Ministry of Defense reported.' - CGTN"
+      },
+      {
+        "url": "https://t.me/tass_agency/399750",
+        "source": "TASS",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-11T05:14:24+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/68097",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-11T05:13:13+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/rian_ru/347789",
+        "source": "RIA Novosti",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-11T05:13:08+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-10-11T07:47:27Z",
+    "last_updated": "2026-10-11T07:47:39Z",
+    "verification_issue": 117,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
     "region": "Persian Gulf",
     "date_utc": "2026-10-10",
     "summary": "An oil tanker with 22 Indian crew members was attacked at Sharjah anchorage, according to Indian minister Sonowal. All crew were reported safe.",
@@ -939,10 +1015,37 @@
         "kind": "media",
         "published_at": "2026-10-11T05:10:41Z",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA1ZXViYVNFYjgxZGFvV0F1SktIYnR6RVExa2ZsRExDdjBCU2FKd2dDTnJLSXFqUHhhMFZqOEhMTmtZLTBfTVZaT2Q3ZFRrV1pPYXg3VFJsN09lcDJmN0FCWGV3cVo?oc=5",
+        "source": "아시아경제",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T05:52:42Z",
+        "title": "U.S. Enforces Naval Blockade Against Iran in Gulf of Oman, Precision Strike on Merchant Ship Escalates Middle East Tensions - 아시아경제"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWDc4ZHFWUGpiQkRETDFUYmVoVGlXUVh4NkJlWWxLcmxVaTNoUUdxcHBuWHFuNDEyd2hYbndFZzI3aGtPYnFTNVg5cHZGbmJKTlcybHltSTNfRHB2d2Q5NUlKZjVyTHZhdGZFTFBGRzRORncyaFQ1Mk1rYlBBbFRlc01MLVJjYnBRZ3Y3UVBlb0ZaQQ?oc=5",
+        "source": "Gossip Lanka News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T05:00:00Z",
+        "title": "Middle East heats up again - 12 killed in Riyadh attack, American attack on a ship in the Gulf of Oman - Gossip Lanka News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQZEowRV9UUjlVRTd1WTAxeFhiMzZLMVFoUFZSV3dPTjBfdi1fS1UtMmkyQWowelRhVE1VWFRZMmVGWHFKQ2l5Zjg2V3AzU1BSSjk0b3YzQjZGLWN0YnhkSHFVWDJQektPbnUtTGVVU25iZXhVM0FQTHkwZDhBWEx5ZFBWQnVMWnVLQmhNdFhYdmk2OEttOEZydkxYLWw4aWsxLXNfNVVURXd4Ymo3alk3Y3RvRnh0dnVCZFVLS3pBd0ZnYktibFRlb3JGd2d4Q2lHeEREZGNKMWpJV19xVmd5Z2tUdG13QdIB6wFBVV95cUxQU0VrWnd2MWk2ZXg5bG9FbWxwNF9ZWnFsU3BGUVVicmxLdmt6MW13MVVmUTdZWW1RekIyTkpGc3JCMk1QdGpfaE9JdDhhbEI3bHZHVG9SVjkzMHMtel9sMGxUeUlJcXJKM3c0NjF6ZEZXanNtRVh5NEdqMTdkS1hNVm1qZEdLMEVZLXdDU0JTZVBKSl9tSGI3aGF1dEd4UF96VVVhMVVUZ2xhc1BrbzJYbzRlVjNqV2s4Qy1uSnFOZ2t0S0hENExWRnBYal96YS1UVjIwelVSX1NKcVlSLXFEdFFLTHFMYnlIaTlB?oc=5",
+        "source": "Mediafax",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T04:54:31Z",
+        "title": "SUA neutralizează o navă comercială în Golful Oman, iar Iranul ripostează cu atacuri în Strâmtoarea… - Mediafax"
       }
     ],
     "first_seen": "2026-10-11T04:38:32Z",
-    "last_updated": "2026-10-11T05:10:41Z",
+    "last_updated": "2026-10-11T07:47:39Z",
     "verification_issue": 116,
     "verdict": {
       "status": "confirmed",
@@ -1572,10 +1675,46 @@
         "kind": "media",
         "published_at": "2026-10-09T13:06:37Z",
         "title": "UKMTO has received a report of an incident 13NM west of Al Jazeera, UAE. Incident was 9th October, 10:00UTC. Vessel has been struck by a projectile causing a fire that has since been extinguished - Newsquawk"
+      },
+      {
+        "url": "https://splash247.com/tanker-war-spreads-across-gulf/",
+        "source": "Splash247",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-11T05:40:15Z",
+        "title": "Tanker war spreads across Gulf"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObUZ5TmtGcG0xc3hqTU82ZTBGazZLeFVsSkU5My0xR3dKWTVZaV84S1lPam1PaklIMEtEVWczZlpTRXpJMkM2TU5pNzIxVU1ETEMyYWxMbDIyTnFnWHRSM1JFQWp0aFZmbWU3bmFtekh3djJJaFpyWGs4MVctaXlZY3I4NmJIenBIeUl6cUpkY2R6R1ZHcmpOZFJFUWZZVFBMVzktSA?oc=5",
+        "source": "Borsanın Gündemi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T05:18:26Z",
+        "title": "Hürmüz Boğazı’nda tankere saldırı düzenlendi: Yangın çıktı haberi - Borsanın Gündemi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNE9nUXkzT1E2ZWRSbUt1UWNmeEJpTUFpVElNT3lVTFRwZFo2TDdPLUZLeVZrOHA4UnptYU1FTWdfTElLa0hEQUpsbTduU0hYNENuWmpqcXJEbHU0anVtNFdxT2xYTXdUNGRxc3k5VW55aU5vWm1SN2lnVFFBbXpVT3M3eG5UQWM?oc=5",
+        "source": "24 Saat Gazetesi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T05:00:00Z",
+        "title": "UKMTO: Hürmüz Boğazı'nda tankere saldırı düzenlendi - 24 Saat Gazetesi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdTFrM0hxYU5rSHNucTZ2RE4ybXYyRF9WTmVnVFBicHFHaUlMYzdrcWxWUTFrdHkxdFlOejBFU1V4d25DSk5TSVU4MHNxcnd2TGZpSEhSVHdTOG1aemxoNXU4MmNybFh6TkhkbGxEVEViZ1hPTHJxNG1ZRXZ4SnlHUDZUY0J4blZJa2ZjaHFONVFYRkZWWGpHelJaVFBIRk0xMnpNQlk2em16VXFwbEdhcTlTNFpuTnkzYWdWY21FcnV5YXl5ajZ5R2ZxM19SbHhp?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-10T23:19:41Z",
+        "title": "Hormuz strike count nears 20 vessels as Iran tightens grip hitting another tanker - TradeWinds News"
       }
     ],
     "first_seen": "2026-10-09T14:36:17Z",
-    "last_updated": "2026-10-11T04:38:41Z",
+    "last_updated": "2026-10-11T07:47:44Z",
     "verification_issue": 97,
     "verdict": {
       "status": "confirmed",
@@ -1766,10 +1905,19 @@
         "kind": "media",
         "published_at": "2026-10-09T13:06:26Z",
         "title": "بحرية الحرس الثوري الإيراني: استهداف سفينة محملة بالغاز جنوب مضيق هرمز - رؤيا الإخباري"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxQT3BfNUllY0hxZHhVZzVISXZNMEVhbEVsa3VLdlJvNGZHLWtUWkF6a0pIczZSSnluME8xMHduenJaN2JMNjFNeFRMbHppLXpZWWJXazNGNFhNX3UwWVA1YS0tbUNORlhrY2dlOUlRY25BbjFmUm5UQ0dmYWpoMmNUTGlBbTFhNWlRSGMzT0w5YnM4SVpUVkN2a0hwcGVqOUFhZkk1R2E1cFR4NkJvZ1BVREVYREpZTEFRV2hUTVRoQ1NQTDdkQ3ZGTWhlSVlpNkJXQVNqRGRKM2gtb2Iwb29LZHNhbmxXNHlSaWxQVHc0ekVocWZpRE03S1J0d282MkJ4LWR6MWp4SzYzdDkxdUxISUtqUnZRakVhellJRk9NYTUwM2FPQTdKajBnMUtIUEl6UTJOazk3RTcyRjAta2tHT2NpejVYWkpMLVNnSU1KQmc?oc=5",
+        "source": "أخبار حياة",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-09T20:22:27Z",
+        "title": "الحرس الثوري يهاجم ناقلة غاز في مضيق هرمز ويتوعد بتوسيع نطاق استهدافه - أخبار حياة"
       }
     ],
     "first_seen": "2026-10-09T14:36:17Z",
-    "last_updated": "2026-10-11T04:38:41Z",
+    "last_updated": "2026-10-11T07:47:47Z",
     "verification_issue": 98,
     "verdict": null,
     "published_in": [
