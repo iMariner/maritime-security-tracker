@@ -566,10 +566,19 @@
         "kind": "media",
         "published_at": "2026-10-10T16:01:00Z",
         "title": "Russia reports strike on Kiev data center and ship in Chelny Sea ᐉ News from Fakti.bg - World - Fakti.bg"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSmZhX01CTzhUczQzUE02c0ItR3dxdU1OS083TU02SWlCSE9ENWVNVE0yV05sZFlUZkxtd1NGUGVpWHQtNmlKVTFEd1lzTHBHRUFWdEhyMGlVb2lyNjdZZTdpMHNqaFU2YkVXalM0NlFpc0stSTVLQWJhMWduZl84elI2YXRaV19uTy1EM0xZMmxVY0Z2Q1p6c3JKMjR2NVRBa1V3?oc=5",
+        "source": "Fakti.bg",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-10T16:01:00Z",
+        "title": "Russia reports strike on Kiev data center and ship in Chelny Sea ᐉ News from Fakti.bg - World - Fakti.bg"
       }
     ],
     "first_seen": "2026-10-10T17:58:10Z",
-    "last_updated": "2026-10-10T21:57:49Z",
+    "last_updated": "2026-10-11T01:12:32Z",
     "verification_issue": 112,
     "verdict": null,
     "published_in": [],
@@ -739,6 +748,87 @@
     "first_seen": "2026-10-10T21:57:48Z",
     "last_updated": "2026-10-10T21:57:48Z",
     "verification_issue": 113,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-10",
+    "summary": "UKMTO reported that a tanker was struck in the Strait of Hormuz, sparking a fire on board. No vessel name, flag, position or attacker was given.",
+    "official_source_cited": "UKMTO",
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": "onboard fire",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261010-013",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE0wd2ZwYURpM0k3d2w2ekhISm03VmVUc2RxS3VpY1B1WFh6dGhWcmR1UnF1Y1NKZ21vTm9GTzdSRW9ITmFrWjRVQQ?oc=5",
+        "source": "Roya News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-10T23:12:55Z",
+        "title": "Tanker struck in Hormuz, sparking onboard fire: UKMTO - Roya News"
+      }
+    ],
+    "first_seen": "2026-10-11T01:12:28Z",
+    "last_updated": "2026-10-11T01:12:33Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261009-003",
+    "position_approx": true
+  },
+  {
+    "region": "Red Sea",
+    "date_utc": "2026-10-10",
+    "summary": "The Houthis said they attacked a Saudi tanker, according to a headline report. No vessel name, position or damage details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": "Saudi Arabia",
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 17.5,
+    "lon": 40.5,
+    "location_text": "Red Sea",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Houthis claimed the attack",
+    "independent_evidence": false,
+    "id": "INC-20261010-014",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVkRmX20wdm8zRGNiQ0R3OFZVT3JGWlQzbVYyVjdkYmxxZ2tXTXZtWHBHZEswejdkRTk1V2lZc3dGRVZmZU8xYXpPNVhDZC1Ra3d6RVg4WUM1MXk3VHhEYnYycWtUb0FjQWg4SmloSnlLM1JkY1pYVUdtTGFHQ0tRV0JTM3ZlQ1ZRdEg0MTh1SV9aSHJLYzhjQnBB?oc=5",
+        "source": "EnergyNow.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-10T09:41:11Z",
+        "title": "Oil Prices Rebound After Houthis Say They Attacked Saudi Tanker - EnergyNow.com"
+      }
+    ],
+    "first_seen": "2026-10-11T01:12:32Z",
+    "last_updated": "2026-10-11T01:12:32Z",
+    "verification_issue": 114,
     "verdict": null,
     "published_in": [],
     "status": "claimed",
@@ -1295,10 +1385,28 @@
         "kind": "media",
         "published_at": "2026-10-09T14:31:36Z",
         "title": "Iran Denies Attack on a Tanker - bluewin.ch"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQk9TQ0lXdlVGdHh2aXh1dGFoV3ljUzVXN3Z0bnI1QUZRWDJFQjNvMDNpMjZ2YTk2RXU1WFoyTldQZkdZUWtnMmszUFlxUTNhTnZFcllJYTFmUmc3LURjWXJWVFZ6TllmdFV1VklpNHhDS05nREJaelN5bkpwWEx0bXBneWNnQVFpQldGb0xVMjJfcTdXSGNnYnJ4cUpFeE5Mb3VwWFdNaDBkcWptUGtHeDF3?oc=5",
+        "source": "The Times of Israel",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-10T17:24:38Z",
+        "title": "Iran’s Guards says oil tanker exploded after hitting mine in Hormuz - The Times of Israel"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE0wd2ZwYURpM0k3d2w2ekhISm03VmVUc2RxS3VpY1B1WFh6dGhWcmR1UnF1Y1NKZ21vTm9GTzdSRW9ITmFrWjRVQQ?oc=5",
+        "source": "Roya News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-10T23:12:55Z",
+        "title": "Tanker struck in Hormuz, sparking onboard fire: UKMTO - Roya News"
       }
     ],
     "first_seen": "2026-10-09T14:36:17Z",
-    "last_updated": "2026-10-10T21:57:49Z",
+    "last_updated": "2026-10-11T01:12:33Z",
     "verification_issue": 97,
     "verdict": {
       "status": "confirmed",
@@ -7031,10 +7139,19 @@
         "kind": "media",
         "published_at": "2026-10-08T18:59:46Z",
         "title": "Zece marinari sunt dați dispăruți în Marea Neagră după ce nava lor a fost lovită de drone - Radio Constanța"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9CTWpWam83MnlHLWUtVk04dGVDSmZKSUNTR2RwcDdOektjOXg4N0QySTJEbmsta3JHQWpDVlczX0hmM0xpYmEzTmpqR09Jcno0?oc=5",
+        "source": "The Edge Malaysia",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-10T12:52:45Z",
+        "title": "Drone sinks ship off Bulgaria as fears grow about hybrid attacks by Russia - The Edge Malaysia"
       }
     ],
     "first_seen": "2026-10-06T15:27:12Z",
-    "last_updated": "2026-10-10T13:00:03Z",
+    "last_updated": "2026-10-11T01:12:32Z",
     "verification_issue": 64,
     "verdict": {
       "status": "confirmed",
