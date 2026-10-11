@@ -2306,18 +2306,34 @@
         "kind": "media",
         "published_at": "2026-10-08T02:24:20Z",
         "title": "Multiple Casualties As Tanker Comes Under Intense Attack Near Qatar Amid Naval Escalation In Gulf - The Times of India"
+      },
+      {
+        "url": "https://aninews.in/news/world/middle-east/tanker-struck-by-multiple-projectiles-off-qatar-coast-casualties-reported-ukmto20261008113211",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-11T04:33:49Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-08T06:34:51Z",
-    "last_updated": "2026-10-08T07:47:17Z",
+    "last_updated": "2026-10-11T04:33:49Z",
     "verification_issue": 80,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-11T04:33:49Z",
+      "note": "duplicate: UKMTO reported the same tanker struck by multiple projectiles 51 nm north of Madinat ash Shamal, Qatar at 1900 UTC on 7 October, already tracked as INC-20261007-003, and this record was created from a later collection of the same report.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/80#issuecomment-6105468482"
+    },
     "published_in": [
       "2026-10-08"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261007-003"
+    "merged_into": "INC-20261007-003",
+    "status_changed_at": "2026-10-11T04:33:49Z"
   },
   {
     "region": "Gulf of Oman",
@@ -4630,16 +4646,26 @@
         "kind": "media",
         "published_at": "2026-10-09T01:40:00Z",
         "title": "Small boat fired on Chinese-operated container ship off Mokha, security firm says, as Yemeni Gov’t forces claim the heights above Bab el-Mandeb - Mereja"
+      },
+      {
+        "url": "https://www.seanews.com.tr/article/chinese-container-ship-in-the-red-sea-muz6syce",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-11T04:33:54Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-08T00:22:43Z",
-    "last_updated": "2026-10-09T06:39:19Z",
+    "last_updated": "2026-10-11T04:33:54Z",
     "verification_issue": 76,
     "verdict": {
       "status": "reported",
-      "by": "editor-check",
-      "at": "2026-10-08T05:08:25Z",
-      "note": "MSCIO received the report and Lloyd's List and The Maritime Executive both carried the attack on the Singapore-flagged CUL Klang, crew unharmed"
+      "by": "iMariner",
+      "at": "2026-10-11T04:33:54Z",
+      "note": "MSCIO received the report of a small boat firing at the ship north of the Bab el-Mandeb strait early on 7 October, and Lloyd's List and The Maritime Executive name the Singapore-flagged containership CUL Klang with the crew unharmed and no claim of responsibility.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/76#issuecomment-6105468089"
     },
     "published_in": [
       "2026-10-08",
@@ -4748,16 +4774,26 @@
         "kind": "media",
         "published_at": "2026-10-07T08:38:00Z",
         "title": "Ukrainian agri-goods under attack: ships carrying rapeseed oil and grain in the Black Sea targeted - Новини аграрного бізнесу"
+      },
+      {
+        "url": "https://newsukraine.rbc.ua/news/russian-drone-hits-commercial-vessel-in-black-1791277365.html",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-11T04:33:53Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-08T04:38:17Z",
-    "last_updated": "2026-10-08T05:08:25Z",
+    "last_updated": "2026-10-11T04:33:53Z",
     "verification_issue": 78,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-08T05:08:25Z",
-      "note": "it names no ship, flag or position and repeats the 5 and 6 October Black Sea attacks already tracked"
+      "by": "iMariner",
+      "at": "2026-10-11T04:33:53Z",
+      "note": "duplicate: the item names no ship, flag or position and repeats the 5 and 6 October Black Sea attacks already tracked, namely the grain ship Royad Mammadov (INC-20261005-001) and the Marshall Islands rapeseed oil vessel hit near Odesa on 6 October (INC-20261006-007).",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/78#issuecomment-6105468285"
     },
     "published_in": [
       "2026-10-08"
@@ -4796,18 +4832,34 @@
         "kind": "media",
         "published_at": "2026-10-07T08:34:30Z",
         "title": "Expert on Fox News: Russian Geran-4 Drone Likely Used in Black Sea Ship Attack - Novinite.com"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-11T04:33:51Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-08T04:38:17Z",
-    "last_updated": "2026-10-08T05:08:25Z",
+    "last_updated": "2026-10-11T04:33:51Z",
     "verification_issue": 79,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-11T04:33:51Z",
+      "note": "duplicate: the Fox News drone expert's Geran-4 remark is about the 6 October Black Sea drone attack that sank the Togo-flagged Alfa Watan, already tracked as INC-20261006-001, and names no separate vessel.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/79#issuecomment-6105468181"
+    },
     "published_in": [
       "2026-10-08"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261006-001"
+    "merged_into": "INC-20261006-001",
+    "status_changed_at": "2026-10-11T04:33:51Z"
   },
   {
     "region": "Black Sea",
@@ -10360,17 +10412,33 @@
         "kind": "media",
         "published_at": "2026-10-06T19:46:06Z",
         "title": "الحوثيون يعلنون استهداف سفينة نفط سعودية قبالة سواحل ينبع - المهرية نت"
+      },
+      {
+        "url": "https://www.nytimes.com/2026/08/05/world/middleeast/houthis-claim-attack-saudi-arabia-tanker.html",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-11T04:33:47Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-08T06:35:18Z",
-    "last_updated": "2026-10-08T06:35:18Z",
+    "last_updated": "2026-10-11T04:33:47Z",
     "verification_issue": 81,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-11T04:33:47Z",
+      "note": "mis-dated: the only source is Al Mahriah's report of the Houthi claim on 5 August 2026 about the Saudi tanker Wafa off Yanbu, and no attack on a Saudi oil vessel off Yanbu was reported on 6 October.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/81#issuecomment-6105468388"
+    },
     "published_in": [
       "2026-10-08"
     ],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-10-11T04:33:47Z"
   },
   {
     "region": "Gulf of Oman",
