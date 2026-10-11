@@ -28,7 +28,7 @@
   "quality": "all checks passed: dates ok; attribution ok; official coverage 1/1 ok; verified 1/2; single-source items 0; confirmed ok; fact-check no corrections needed; tweet 252/280 ok; dashes ok; consistency ok",
   "review": {
     "status": "done",
-    "at": "2026-10-11T05:10:41Z",
+    "at": "2026-10-11T05:29:10Z",
     "changes": [
       "merged INC-20261010-015 into INC-20261010-016 (the same attack: UKMTO advisory 163-26 reports an incident involving a tanker and military forces in the Gulf of Oman on 10 October, and CENTCOM says a US fighter jet struck a cargo vessel there the same day)",
       "INC-20261010-003 separated from INC-20261010-008 (Russia's defence ministry claim of 10 October that it struck a general cargo ship carrying military goods toward Odesa is its own incident, wrongly merged into a record that mixes two September strikes)",
@@ -50,12 +50,18 @@
     "notes": [
       "Name the vessel in the headline, lede, key points and tweet as the Panama-flagged bulk carrier Ocean Molica, also known as the Arika Sun, which CENTCOM names for this incident in the statement carried by Reuters, Dawn and The Statesman. CENTCOM says a US fighter jet struck its stern with a precision munition, disabling its propulsion without harming the crew, after it had left an Iranian port. UKMTO advisory 163-26 reports the same tanker and military forces incident in the Gulf of Oman and names no vessel, so the name is CENTCOM's, not UKMTO's.",
       "The Black Sea item is Russia's defence ministry claim of 10 October that it struck a general cargo ship in the north-western Black Sea carrying military goods toward Odesa, with a second vessel claimed hit in Ilyichevsk port, carried by RIA Novosti, TASS and CGTN. No ship was named and there is no independent confirmation, so credit it to Russia's defence ministry and write it as a claim, never as a fact.",
-      "Write the correction in plain words for readers, with ships and dates and no internal numbering: our 8 October brief reported a Houthi claim about a Saudi oil tanker off Yanbu, and the check found the claim belongs to the 5 August 2026 attack on the Wafa, so no such attack happened off Yanbu on 6 October."
+      "Write the correction in plain words for readers, with ships and dates and no internal numbering: our 8 October brief reported a Houthi claim about a Saudi oil tanker off Yanbu, and the check found the claim belongs to the 5 August 2026 attack on the Wafa, so no such attack happened off Yanbu on 6 October.",
+      "Do not call Ocean Molica a general cargo ship: the record's vessel type is wrong. CENTCOM's statement calls it a cargo vessel, and VesselFinder and Reuters, carried by Dawn, give the Panama-flagged, 1996-built, 70,296 dwt ship as a bulk carrier (IMO 9139270). Write \"the Panama-flagged bulk carrier Ocean Molica\" in the standfirst, the lede, its Gulf of Oman paragraph and the tweet, and credit the type to CENTCOM, Reuters and VesselFinder, never to UKMTO. As the earlier note asked, also name the ship in one key point."
     ],
     "restored": [
       "INC-20261010-003"
     ],
-    "send_after": false,
+    "send_after": true,
     "lead": "INC-20261010-016"
+  },
+  "final_read": {
+    "status": "fixed",
+    "at": "2026-10-11T05:29:10Z",
+    "warnings": []
   }
 }
