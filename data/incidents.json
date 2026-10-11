@@ -431,7 +431,7 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-10-10",
-    "summary": "On 10 October 2026 a general cargo ship was struck by a drone in the Black Sea and drifted to waters off Giresun, Turkey, with a Turkish engineer reported missing. Russia's defence ministry separately claimed it struck a general cargo ship delivering military goods toward Odesa the same day, and a Turkish outlet reported the same attack on a dry cargo ship.",
+    "summary": "A general cargo ship was struck by a drone in the Black Sea and drifted to waters off Giresun, Turkey, with a Turkish engineer reported missing; Russia's defence ministry separately claimed it struck a general cargo ship delivering military goods toward Odesa. A ship whose captain was killed in a drone attack arrived at Trabzon, according to Saray Medya, with no vessel name, flag or position given.",
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.7,
@@ -575,13 +575,24 @@
         "kind": "media",
         "published_at": "2026-10-10T16:01:00Z",
         "title": "Russia reports strike on Kiev data center and ship in Chelny Sea ᐉ News from Fakti.bg - World - Fakti.bg"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMVc1SmcydG00c3FKUDlqam1NM1pOMU94ckk0aTdDRnlFRkVrSTRDblNRc2N2RXhQQUdxVW9RWlcySlBZbXlXVW9keDdiMVdlUXhQT2liOHd2WGR0SUs4QjFRWUc1X05JWENOVkFfQ3ZzdDBrWFMwbUlIRzlBOXZldDBaLU9lQllUVEE5Tzk3V1ZaN0lqM2FR?oc=5",
+        "source": "Saray Medya",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-08T06:26:00Z",
+        "title": "Dron saldırısında kaptanı ölen gemi Trabzon'a geldi - Saray Medya"
       }
     ],
     "first_seen": "2026-10-10T17:58:10Z",
-    "last_updated": "2026-10-11T01:12:32Z",
+    "last_updated": "2026-10-11T04:38:43Z",
     "verification_issue": 112,
     "verdict": null,
-    "published_in": [],
+    "published_in": [
+      "2026-10-11"
+    ],
     "status": "claimed",
     "position_approx": true,
     "date_approx": false
@@ -749,7 +760,9 @@
     "last_updated": "2026-10-10T21:57:48Z",
     "verification_issue": 113,
     "verdict": null,
-    "published_in": [],
+    "published_in": [
+      "2026-10-11"
+    ],
     "status": "claimed",
     "position_approx": true
   },
@@ -830,7 +843,120 @@
     "last_updated": "2026-10-11T01:12:32Z",
     "verification_issue": 114,
     "verdict": null,
-    "published_in": [],
+    "published_in": [
+      "2026-10-11"
+    ],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Gulf of Oman",
+    "date_utc": "2026-10-10",
+    "summary": "UKMTO received a report of an incident involving a tanker and military forces in the Gulf of Oman on 10 October 2026. Authorities are aware and investigations are ongoing.",
+    "official_source_cited": "UKMTO",
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 24.8,
+    "lon": 58.2,
+    "location_text": "Gulf of Oman",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261010-015",
+    "sources": [
+      {
+        "url": "https://www.ukmto.org/recent-incidents",
+        "source": "UKMTO",
+        "source_type": "official",
+        "side": "neutral",
+        "kind": "official",
+        "published_at": "2026-10-11T04:33:18Z",
+        "title": "Missed: UKMTO #163 2026-10-10"
+      }
+    ],
+    "first_seen": "2026-10-11T04:38:32Z",
+    "last_updated": "2026-10-11T04:38:32Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [
+      "2026-10-11"
+    ],
+    "status": "confirmed",
+    "position_approx": true
+  },
+  {
+    "region": "Gulf of Oman",
+    "date_utc": "2026-10-10",
+    "summary": "The US said a fighter jet struck a cargo ship in the Gulf of Oman that was trying to break an Iran blockade. No vessel name, flag, or damage details were given.",
+    "official_source_cited": "CENTCOM",
+    "conflicting": false,
+    "confidence": 0.8,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 24.8,
+    "lon": 58.2,
+    "location_text": "Gulf of Oman",
+    "attack_type": "missile",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "US",
+    "independent_evidence": false,
+    "id": "INC-20261010-016",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9IWjBOeEFhSHFEWWFlMWRxZThXSUk1MHVPN25mcXpTV00tbFJQUmZYaVA1YmFKNUdTbUM3Q3lHSG5nU2JRU2FnVElTRWFDNUUxOF9sZVZ3?oc=5",
+        "source": "Ynetnews",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T04:20:57Z",
+        "title": "US says fighter jet struck cargo ship trying to break Iran blockade in Gulf of Oman - Ynetnews"
+      },
+      {
+        "url": "https://t.me/tass_agency/399746",
+        "source": "TASS",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-11T04:19:01+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQM2VwMWZTWFFWWWRZdU1ORFExeldSOUtSclJPRGRoU05JMFZRN1hWaHlCU0ttWGtCWGJ0b0FvU2I0andEbVZseXdBUTJEQzEtSjc5OEZiakJlLW9oUGFCY2NUUXVHRlZBR0lycHExd19QUDZPZUU2R01nZWI2UVF4eXQ1R3dramlOWjF3VTVhSUljZXZOUUMwTk1icUJvM1gxMFF1WU9fc2xQMlVKcjNWV2U5dDFWWDZYT3RTWVRDMjBWSXc2a0VuNVhUVk5XQnBRX0JraFp4OWY4X2tQdGlfaFVRbmlzd2JTSWJ6VF9SekZoeVhWeDJjWVFKa0F3X0FkRXFV0gGIAkFVX3lxTE5RakxkVnR2aEt3SzF5ODJHYkVpai1yT0d3NkxvWDdhcmcxNDhUVmVhdGpjajJGVkpKZGd6RF92VUtUcHFCdENCejBDQU01RVAzMC1YS1FibklKckt2R2s4T0hubF9xdFJOMTctQlJ3enFnN3JzNmxGWllncElZcUdhRzV1eUlPRG1LVFV6QXVNZFpGci1BcE5jUE1nYTBsRnVIaUNfU0pVVEl5WUtCVUt6WHJtdURtenNvYTFtQ2RSX05mbWl6UGZ6bkpqalczS2ZLd1FLaERNbDUyUkhDOU5hRXFHN2pOXzQyQ0E1bDBuSDh3YjhCMjNRdnE4T3ZfUEIxVlBGODY4RQ?oc=5",
+        "source": "The Times of India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T04:15:31Z",
+        "title": "Trump's Strike On Iran Begins? Ship Coming From Iranian Port Bombed By US Jets In Gulf Of Oman - The Times of India"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZF9DS1hBWldLa0lJMWU3YkJTdkNKZGpCRlhlSnFPMFlMWmRLWUhZYW1ydmJSUGVvOU9NUTA3YWI5SDFKRy1mZ3ZWemRURF9XZVRhUmhBdXRGMnJSVGFYcmdoNHJHYlpveXl2djJFTmhzWjJ1ZU84VzJZc2Q5enVSdm1QTmU?oc=5",
+        "source": "Financial Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T02:45:26Z",
+        "title": "US hits commercial tanker in Gulf of Oman as tensions flare - Financial Times"
+      }
+    ],
+    "first_seen": "2026-10-11T04:38:32Z",
+    "last_updated": "2026-10-11T04:38:36Z",
+    "verification_issue": 116,
+    "verdict": null,
+    "published_in": [
+      "2026-10-11"
+    ],
     "status": "claimed",
     "position_approx": true
   },
@@ -1403,10 +1529,55 @@
         "kind": "media",
         "published_at": "2026-10-10T23:12:55Z",
         "title": "Tanker struck in Hormuz, sparking onboard fire: UKMTO - Roya News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTHNiMjBDVHNKOVM0R21iMXprMU9aa3BDMWtmTWtPdU1kRkxjYmU0Ukg2dmxESHB0VnkxS0xFMlNGVFY5cmZhX3lncVlFdVdPdEN5TV9VWGNSNm1QNHFmdUxLTHRVN1dLUFdEODhoYTFiRHoxT01HYlN3bXVzZkVGSUpneW5taFpsSWc0SHppMmFLOHcwVHlDdE5hWXJjbjBfc0g0eGJZdUZkWG1Mb3ZKNU1YS3jSAboBQVVfeXFMTlFQd0tnQWppWTg2UVM5ZFJLSXhabTJzejlYTTlUalpUU3R2N181RFdGbEswR2VKWllubFI1akxwYm5VUjMtVFFIblZjWWlOM0xJanVjTWhSRTlvUlJ1ZHE4MjVnTkp1VnRnaUl2WGRSQWJ3dWppb28wR0gzc1JLVWo5eHV3SnZmV19CMDJZRkdBMm12RURrbjVoQTdsNXU5VmhRa0ZCeFpJOFA5TnRUdGxjZlRzQ2haWThR?oc=5",
+        "source": "Bhaskar English",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T01:05:43Z",
+        "title": "Oil tanker hits sea mine in Strait of Hormuz: Explosion sparks fire; 13 incidents reported in 10 days - Bhaskar English"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbkc0N3phdG5nMHR0bW01SFczaDZxdGZVaGZQTXJfdzBleDlrbElNNHU5UmpVM3piRC1PN3I0MHJGNEJRSTB0Z3Q5NUNrLUNLNnNUUjRwMFE2cFhLMVBNM3RHOEdXcW9kdEFvbFlTTDFYTFppMHdUMm9jaTBxQWxyZkNlaGZVMEVtb3RvQkgxLWZGOXdxWkpGM2xwX0gxYmF6OFFyTjI5VUNWdVI4S1psTVAwcFZhb3Z0aXVXU3VkZS1RU1lPSkJkVGNyVXVpdWs3TzR3elpWcWQ5a1Jw0gHXAUFVX3lxTE5fWHhQRGk2WXpnUVgzUTJOcE81TFZzNGZjWlhQRjZCbzZXczFTQTN3dVh2anNCdk1kRVM0UGhia09sVkRSV1dBS3hLTTRjbENGcjcxMnZGbWM2Z0x0VzFHNkpHZHdqSWdVTGo0QzAxQ1BuNVV2aUtpX3FnLUJVN2pFMGpBQllURklCVmQyN2VRTlQwSG8tdXRPcHgxaXhNeTl1T01QWXZXLURGVGlFbmFIYjA3LVBKRVAtLVN0cjBVUzZJd29Zb002UUJKcHB1NjRsQ0lGLW9v?oc=5",
+        "source": "GMA Network",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T00:21:26Z",
+        "title": "Tanker struck by projectile in Strait of Hormuz, fire reported, UKMTO says - GMA Network"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTHlnQkRmbkdJZVl3WVd6Y0RHeUJVc0h5SDlEc0dzTDIxQUg0UGJhb29sYWYweGt2Tk1TMFBud1ZObnZTUW0wM1E5bm1RUUpvRGRpV2k4ZDdIY2lBVERld0M0ZGt5ZDU4cTc0cXlyVzVsakx3THd2MlBBVmU4ZzB5YXFXbGIxU3dYdUFSWGo0SzVTSkZzUXBhV203WGhISUliWWEtOUhyRlFFNmxGMTZUdXpxcmNMS2ZwLWs3dnh1SzliSHlZMm5Ea0JiXzJyWS03emfSAdcBQVVfeXFMTl9YeFBEaTZZemdRWDNRMk5wTzVMVnM0ZmNaWFBGNkJvNldzMVNBM3d1WHZqc0J2TWRFUzRQaGJrT2xWRFJXV0FLeEtNNGNsQ0ZyNzEydkZtYzZnTHRXMUc2Skdkd2pJZ1VMajRDMDFDUG41VXZpS2lfcWctQlU3akUwakFCWVRGSUJWZDI3ZVFOVDBIby11dE9weDFpeE15OXVPTVBZdlctREZUaUVuYUhiMDctUEpFUC0tU3RyMFVTNkl3b1lvTTZRQkpwcHU2NGxDSUYtb28?oc=5",
+        "source": "GMA Network",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T00:21:26Z",
+        "title": "Tanker struck by projectile in Strait of Hormuz, fire reported, UKMTO says - GMA Network"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNa2tfZDR5Zmk4ZUtFRWlrTzVkOGdFMlh3UFlhLXBZTm43SXI5UVpXNkxWLUNWTWgzQlFJUmRjSFJRRU93a0tQTmtJclFJZl9kSWxORG9ub0pKN01mc1dWSG9aRGlraXFqMVlFZjdZNEQtRVpGQlZyWVZyR2ZLQWxJbktZcHhiV2FGTi1obVJ5d3R0YVhRcWtQNHpB0gGaAUFVX3lxTE1ra19kNHlmaThlS0VFaWtPNWQ4Z0UyWHdQWWEtcFlObjdJcjlRWlc2TFYtQ1ZNaDNCUUlSZGNIUlFFT3drS1BOa0lyUUlmX2RJbE5Eb25vSko3TWZzV1ZIb1pEaWtpcWoxWUVmN1k0RC1FWkZCVnJZVnJHZktBbEluS1lweGJXYUZOLWhtUnl3dHRhWFFxa1A0ekE?oc=5",
+        "source": "Yeni Akit Gazetesi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T00:03:00Z",
+        "title": "Hürmüz’den çıkan tanker vuruldu: Gemide yangın çıktı - Yeni Akit Gazetesi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMk5lSWp2dnppekUtOXJ2cTE0bVBDNE5TSVFDYkJya1AtaWw1dnlCMDVWZ0ppRnhrSTZieGg5Tkl5N1BaUTdHNThLMkVLanI2ZnpOVUlyR1FxQVNsNnpwV05GTUdjUFptbEhRUThxbWpVQVdZaVpuUUJueFJKVHpyN1NINzNFZ1d4TXhkZWNSMUJwaWVGNzJ1QU52ZzI0WHFaWXp3bElCSTJNUQ?oc=5",
+        "source": "Newsquawk",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-09T13:06:37Z",
+        "title": "UKMTO has received a report of an incident 13NM west of Al Jazeera, UAE. Incident was 9th October, 10:00UTC. Vessel has been struck by a projectile causing a fire that has since been extinguished - Newsquawk"
       }
     ],
     "first_seen": "2026-10-09T14:36:17Z",
-    "last_updated": "2026-10-11T01:12:33Z",
+    "last_updated": "2026-10-11T04:38:41Z",
     "verification_issue": 97,
     "verdict": {
       "status": "confirmed",
@@ -1588,10 +1759,19 @@
         "kind": "media",
         "published_at": "2026-10-09T13:07:12Z",
         "title": "بحرية الحرس الثوري الإيراني: استهداف سفينة محملة بالغاز جنوب مضيق هرمز - رؤيا الإخباري"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisARBVV95cUxPbVVOd2Y5WXJjSUY4YWVNTXItdnd4VUYxTTFhT2hYVGMtUEF1NjlKYUE2aVlhcVZoTlppYURMMmxQMWx3bXdCbGFBdW50bktFMHRIOEFCTU5JZ2dqMG9PajlRRnhLNWhZTlRqN2dHdzNOclAzM2N1MEpTbU54eF9PbkltcWZ1OHhiTXhpM0lMMnllU3YwTHRQaDV6VjlOUV80dHM5eU5fUThpR3IyZXdIaFpGZGJ2eGxKS0JQd29ISHlKNUNQVzl6N1ZiWTYtaXVfS2tKN01rY09wVk1HRVltSkJHMnNLekZnQjBNTG1YSnFJWEhHa0RMa0s5X08zYjR3T2NKWlNIdXlDR2JOeE1VYW5yTGxJU1RXR2lCNkZpT3htanZiU0pTODdILWRqbVhZMUt3Q2lfOHBUWllJaFotVkpBVXltYVhhd1J2eGJ6cmlXUWlzR09XVjdDTEpUb3p3Vnpod21Ld2ViMzlWYzhlR3FoWU9PTnYxOWk3YlVVREYxSWd5SjJaUU5RSXdqdl9nV0JpVUxzaXZub2hTb0oyaTBrd2txcU92UXg4Y2FKa1ZSWFZFTEVnTUNzNWhKdnRLdGlHVXlqMnBUcEdidEl4TEFob2JBLUdCN3N2aFFnbEl4bnhISlZySXRqR0JEcGgtaVlzWnhUcGhLamI1MTQ1NkhkcC0xN0ZZNzBGRFlPdTAtaUpDcUNNNXZaN0NtRlJndGZRNEF3SkZ6aDRtUFRDag?oc=5",
+        "source": "رؤيا الإخباري",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-09T13:06:26Z",
+        "title": "بحرية الحرس الثوري الإيراني: استهداف سفينة محملة بالغاز جنوب مضيق هرمز - رؤيا الإخباري"
       }
     ],
     "first_seen": "2026-10-09T14:36:17Z",
-    "last_updated": "2026-10-10T17:58:23Z",
+    "last_updated": "2026-10-11T04:38:41Z",
     "verification_issue": 98,
     "verdict": null,
     "published_in": [
@@ -2082,7 +2262,9 @@
     "last_updated": "2026-10-10T12:59:52Z",
     "verification_issue": 110,
     "verdict": null,
-    "published_in": [],
+    "published_in": [
+      "2026-10-11"
+    ],
     "status": "claimed",
     "position_approx": true
   },
@@ -2223,6 +2405,51 @@
     "position_approx": true
   },
   {
+    "region": "Black Sea",
+    "date_utc": "2026-10-09",
+    "summary": "Russia's defence ministry said Russian forces struck a dry cargo ship in the port of Nikolaev (Mykolaiv) that was delivering military cargo. No vessel name, flag or damage details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 46.97,
+    "lon": 31.99,
+    "location_text": "port of Nikolaev (Mykolaiv), Ukraine",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry claimed it",
+    "independent_evidence": false,
+    "id": "INC-20261009-018",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02VWFEZE9LUzF0Vk1KdVRMVHNRNWwtRWNhTnR4eTk1LUFlSmdKeWRLSnBRX25WUC1OSjh5a2pGMUgzdHpyeE5CV2tUZkdzcGxBRTY2eWJwMEExMVpiZWRCWEg1OUFYbUQtOThRbnhB?oc=5",
+        "source": "CGTN",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-09T07:40:11Z",
+        "title": "As a result of the strike, the Russian military hit a dry cargo ship in the port of Nikolaev, which delivered military cargo, the Russian Defense Ministry said. - CGTN"
+      }
+    ],
+    "first_seen": "2026-10-11T04:38:41Z",
+    "last_updated": "2026-10-11T04:38:43Z",
+    "verification_issue": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "review pass",
+      "at": "2026-10-11T04:38:43Z",
+      "note": "Out of scope: (a) no vessel was attacked at all; the strike was on a port with no ship hit"
+    },
+    "published_in": [],
+    "status": "rejected",
+    "position_approx": true
+  },
+  {
     "region": "Persian Gulf",
     "date_utc": "2026-10-08",
     "summary": "UKMTO reported that a tanker was struck by multiple projectiles off the coast of Qatar, with casualties reported. No vessel name, flag or further details were given.",
@@ -2330,10 +2557,10 @@
     "published_in": [
       "2026-10-08"
     ],
-    "status": "rejected",
+    "status": "merged",
     "position_approx": true,
     "merged_into": "INC-20261007-003",
-    "status_changed_at": "2026-10-11T04:33:49Z"
+    "status_changed_at": "2026-10-11T04:38:26Z"
   },
   {
     "region": "Gulf of Oman",
@@ -3466,12 +3693,13 @@
       }
     ],
     "first_seen": "2026-10-10T06:20:03Z",
-    "last_updated": "2026-10-10T06:20:03Z",
+    "last_updated": "2026-10-11T04:38:43Z",
     "verification_issue": 108,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261010-008"
   },
   {
     "region": "Black Sea",
@@ -4856,10 +5084,10 @@
     "published_in": [
       "2026-10-08"
     ],
-    "status": "rejected",
+    "status": "merged",
     "position_approx": true,
     "merged_into": "INC-20261006-001",
-    "status_changed_at": "2026-10-11T04:33:51Z"
+    "status_changed_at": "2026-10-11T04:38:26Z"
   },
   {
     "region": "Black Sea",
