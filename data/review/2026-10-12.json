@@ -1,111 +1,109 @@
 {
   "date": "2026-10-12",
-  "title": "CENTCOM reports strike on Panama-flagged vessel in Gulf of Oman",
-  "preview_url": "https://imariner.github.io/maritime-security-tracker/preview/2026-10-12.html?v=043941",
+  "title": "Tanker hit in the Strait of Hormuz and the Gulf",
+  "preview_url": "https://imariner.github.io/maritime-security-tracker/preview/2026-10-12.html?v=051609",
   "incidents": [
     {
-      "id": "INC-20261011-005",
-      "status": "claimed",
-      "region": "Black Sea",
-      "date_utc": "2026-10-11",
-      "vessel_name": null,
-      "imo": null,
-      "flag": null,
-      "vessel_type": null,
-      "location": "Black Sea, near a platform",
-      "attack": "drone (UAV)",
-      "damage": null,
-      "casualties": null,
-      "attribution": null,
-      "summary": "A Romanian news outlet reported that a vessel was reportedly hit by a drone in the Black Sea near a platform. No vessel name, flag, position or attacker is given.",
-      "checked_by_hermes": false,
-      "sources": [
-        {
-          "outlet": "Kanal D Romania",
-          "title": "BREAKING NEWS O navă ar fi fost lovită de o dronă în Marea Neagră, în apropierea platformei... - Kanal D Romania",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQU3JWcFB0VUNDYlFyYmlxRXpWVmtWaEVXZExRc2VMNXBxRXlvQ2ZTWlFBRGktM1NHNnNtQTBKdUpEYnNEMExWWERDa2xaVmRtOTJ1WjFaSGptcENxLUJSSnRBa3J6SlFndVJfLW1sNGxaemRpd3M2dUpaQURLR0J0aWFRdjJqUmlON1M4ajBxaW9xOTFjaWQyR2lyZ1owZFltZE5lVVpmYmFZbGhVdnplSi0zUnp2TG9NVVV2TEMwQXFEZzRHTEN6Z3R6b2dCbzJ5eE9KOEpiQllVazV6R185RlROZ3JwVi1tT1hGVGpxMjNSb0NjRGpB0gH8AUFVX3lxTE8yUzIxREptT3F0TTNwTDBNeVI2a2l3ejV1dVh5N05YaXZLQ0JYeUtYVElNeFRTMXZRbFk1ZW5iUU5iZEdqRHZ5dGRSODliRkhnbjZLLXJwSXBrUjJlMW8xMC1vNXZwMlI0ZmhUZ2hOaklrQXREb2VyX1h3ZWI2VGE5UEZzZ2w4RzF3eTRKeEZWaFhibDJjV205eFlmdUdQTzlsUkg1c3JIQlVsOGw3OTVPWDhwOXBkTWRnWDI5Vmp4RWVOelY5WEpPTVNTQXc4QUYtVnNHRVVpSUoyajJtMlhLUGNsdXJnTUNVZldwV1Y5Zm91QjZRRXdkOUhUVw?oc=5",
-          "published": "2026-10-11T10:43:00Z"
-        }
-      ]
-    },
-    {
-      "id": "INC-20261011-006",
-      "status": "claimed",
-      "region": "Black Sea",
-      "date_utc": "2026-10-11",
-      "vessel_name": null,
-      "imo": null,
-      "flag": null,
-      "vessel_type": null,
-      "location": "Black Sea",
-      "attack": "other",
-      "damage": null,
-      "casualties": null,
-      "attribution": "Russia",
-      "summary": "Russia hit another Ukraine ship in the Black Sea, according to a headline. No vessel name, flag, position, or damage details were given.",
-      "checked_by_hermes": false,
-      "sources": [
-        {
-          "outlet": "Breakingthenews.net",
-          "title": "Russia hits another Ukraine ship in Black Sea - Breakingthenews.net",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQblBwcmFVRXU0bUZ5X0QwSUxGVHpITmFMNVNZazVXSTNiZUU1X1Rzc3EyUllsdXVJUG9LTFNhZE9XLVo5NXRKcDZvalo0UXZEUHBkdHA0YU9mdXpNRFg2NTJCcTMyQ2tHdG9RX29XSzZTNV9FdEVCOUdiSjB2WFlJd1FST2c3Vmt2bTRHYjFMQVR4WFM3?oc=5",
-          "published": "2026-10-11T06:27:00Z"
-        }
-      ]
-    },
-    {
-      "id": "INC-20261011-011",
-      "status": "claimed",
+      "id": "INC-20261011-003",
+      "status": "reported",
       "region": "Strait of Hormuz",
       "date_utc": "2026-10-11",
       "vessel_name": null,
       "imo": null,
-      "flag": "Liberia",
-      "vessel_type": null,
-      "location": "Middle East (Strait of Hormuz area)",
+      "flag": null,
+      "vessel_type": "tanker",
+      "location": "Strait of Hormuz",
       "attack": "other",
-      "damage": null,
-      "casualties": "crew reported safe",
+      "damage": "damage reported",
+      "casualties": "no crew injuries reported",
       "attribution": null,
-      "summary": "A Liberian-flagged ship was attacked in the Middle East and its crew were reported safe, according to a Daily Tribune headline. No vessel name, exact position or attacker was given.",
+      "summary": "The UK reported damage to a tanker in an attack in the Strait of Hormuz, according to Breakingthenews.net. No vessel name, flag, position or attacker was given.",
       "checked_by_hermes": false,
       "sources": [
         {
-          "outlet": "Daily Tribune",
-          "title": "Liberian ship’s crew okay after ME attack - Daily Tribune",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2d1FlMkNmU1V0aEFjUUd2N0FwTTJyRXVjV0N0Mm5kZDVfWl9ucl9rU1RoLWJKeTllVTNKTloyb1ptdUExRlV6aktBVDVzWUhVV2lTOWx1NFk2dmZLcU5VeFBNUmVJMUJhTWFIUTNnNVA1UjJ6RF9ZLWF4RG54a0U?oc=5",
-          "published": "2026-10-11T15:46:05Z"
+          "outlet": "Breakingthenews.net",
+          "title": "UK reports damage to tanker in Hormuz attack - Breakingthenews.net",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTk1rX0dUdGxsbm1vU2MwekpaV0NJbXI5TG16bko0bVl2eFdUY2QxU215VlJBYjBCQ2pSLWt3S3pkOGJxdjZld21YZFBhU3FYQVJ1Y1djRm5NMmJyWjFmRFJUNW16d05fRXdqTmZxVUhEeUNPMWlpenZCYkhYSk5JM1ZuZllfbHlXUkxrTkFOTDBNX2c?oc=5",
+          "published": "2026-10-11T14:14:00Z"
+        },
+        {
+          "outlet": "Yemen Online",
+          "title": "UKMTO: Fire on Ship Struck by Projectile in Strait of Hormuz - Yemen Online",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10bVJrMTNGMkx3SHdBaDdlRVpxa1YzSUp1OVBPemFDUmVuYjB6TzdBTHpiMHk4S1NSMUs0ZndLN2RqSXlWb09haFdGbHg1cjhfT3c?oc=5",
+          "published": "2026-10-11T14:02:57Z"
+        },
+        {
+          "outlet": "Anadolu Ajansı",
+          "title": "Tanker damaged by 'unidentified' projectile in Strait of Hormuz: UK maritime agency - Anadolu Ajansı",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYlAzVnREMUZ0aTlwMklpMHJBTU5DY3YxamIyQmhhRUdzOF9xZHhMUlJUeHJDZHN6bzQtUmg2WTRSbTdGekwyVWE2dy1vcG1YbVFIZHlydFdKak9mNnZZeUE3NWE0NnMzVlItT1VYU0k0UXh4VWFYYjFObGxfVkdlbWxXVUFEZ0dydGRIdHJQV2YxYlV2c2ZiMTlHZlAyR2VpTTBCNFBuajVyb2kwVzFhekpBbjNCWXNvazBWSm16NVRFejg?oc=5",
+          "published": "2026-10-11T13:58:47Z"
+        },
+        {
+          "outlet": "Seoul Economic Daily",
+          "title": "Tanker Hit by Projectile in Strait of Hormuz, No Crew Injuries Reported - Seoul Economic Daily",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRkZ0cDRKeEo2Nko5SGlRQ2dRS3R4bzIyaHZpbHp6c01hMXl4NU5BZWpPWWZ1N3F2OWcwSzV6c1dETFJHaU9NdnJTZWk2aHRVczZwUU1PZkZiX0VMYWhCbGpVbnhrQ2FMbTlXMEI2UzlJRzE3NmFUWk16STVmUzFiVHA4QUNTcXJ5d2dwNnZaQVBPaGd5UzY4NEFWM3pjNjFScGVVTFpfZlVtdw?oc=5",
+          "published": "2026-10-11T13:38:05Z"
+        },
+        {
+          "outlet": "CGTN",
+          "title": "UKMTO: VESSEL WAS DAMAGED IN INCIDENT - CGTN",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1wakNvM3ZlbHJqUGNKeTV0dUFtbXllUHVIbndiTDBUVnlMMXp3cXh1U0wxVUxuS3c0YXRDeGxJbzFWOXJtZlBnRHhKb3I1aWtyLU5WME5QLXpzSzJkQzhHWGhyV1F6bnRSejdONEpn?oc=5",
+          "published": "2026-10-11T13:06:54Z"
+        },
+        {
+          "outlet": "Latest news from Azerbaijan",
+          "title": "Tanker catches fire after projectile strike in Strait of Hormuz - Latest news from Azerbaijan",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVTNTcEtBc1hvZEotZmJ6dURKUHk0cGNtRjUzZ0M1R2kwdjJVTmpLTkZhWHVPUHZSdXc5a3NQMV9jRUoxLXZIdHVwQmx5Q1VxNVJ0TUxya1VJTkRHVmtlQm16OUVTVGpLWXFzWmkxejdxMTJ0aTBSNlhKbDYwYUQwZ1Z1Z2VQZm5hRENORw?oc=5",
+          "published": "2026-10-11T05:23:38Z"
         }
       ]
     },
     {
-      "id": "INC-20261011-012",
-      "status": "reported",
+      "id": "INC-20261011-008",
+      "status": "claimed",
       "region": "Gulf of Oman",
       "date_utc": "2026-10-11",
       "vessel_name": null,
       "imo": null,
-      "flag": "Panama",
-      "vessel_type": null,
-      "location": "Gulf of Oman",
-      "attack": "other",
+      "flag": null,
+      "vessel_type": "tanker",
+      "location": "off Oman coast",
+      "attack": "drone (UAV)",
       "damage": null,
-      "casualties": null,
-      "attribution": "US military",
-      "summary": "CENTCOM reported a strike on a Panama-flagged vessel in the Gulf of Oman. No vessel name, position, damage details or attacker was given.",
+      "casualties": "2 Indian seafarers missing, 9 rescued",
+      "attribution": null,
+      "summary": "A tanker was hit by a drone off the Oman coast, with two Indian seafarers missing and nine rescued. No vessel name, flag or exact position was given.",
       "checked_by_hermes": false,
       "sources": [
         {
-          "outlet": "prospect.com.ru",
-          "title": "В CENTCOM сообщили об ударе по судну под флагом Панамы в Оманском заливе - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTHUxT3pHbmNUS1FWQ2FvZmRhSjRaQ3p0THJwdzdXY2hubC1iZGVjbzB2bDNnYUNfaWZvbUh6bGtHaUs1d29IOGhDRXNjWGRoc2xMeHMzMEZzYTI1UmdLeFVuZThxZFIwa2ttSl9WLXJfMlZYWHh5SEVIOHVkakJlN0V3Q3RTNDZteWtuam5PYXdKd0tqd0FPV3NVc3ZBMjRuTUROS2I3dHFMbWZ6bEFCMkZvTnMya0k?oc=5",
-          "published": "2026-10-11T08:13:44Z"
+          "outlet": "The Daily Jagran",
+          "title": "Two Indian Seafarers Missing, 9 Rescued After Drone Attack On Tanker Off Oman Coast | Video - The Daily Jagran",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNzZEZHJpcE1qUU1nOHZFUUxiWFFNa2tCa0tSZ0NyZTRaWXJPREFXNndrR1kxSnNtYXdTbnVVU3E2ZTJ1YmpWbFU0SV9MeEh5MERxbXRNNUQ5UXIxNllSOFVuYU5zMXRzNkU5VU5YMUx1STZCUWxkWFJvYmIwZnpILUxsb1REb2ZqVmtnTW5xemxFaTlCS2twQ0pnNzRubi1rN3V0SkhiS1NkRE5udDJBVkxKcWMtQ3N2VDJ0MWM4RnlQeUZfaWd3aFFTY0lwUdIB1AFBVV95cUxPdWgyQU90c2RiV3pfak42ellMLS1STmY1OFZLNlRoVGhwbUYyWkp5b0xNNVAwN3NUczdxZG5mRmV3WVJvZkdTZkRSa1NDMmhoYS10T012cXg4aFJ2OVkyNXFSRVpQcTYwZ3laSVNXY2dnejdkTFlyVXdwdFpxQ1FPUzV0QXJiYjVaWmJLc2RSekRkb1luNXhfcGpySDMzWEhzX2NjODRUZlZXS1lTSGlpZU44V1lNUTJCQVp5M0Jpd3EyVkpIekw5VmIzeUxQRkJ2ZnNLbQ?oc=5",
+          "published": "2026-10-11T18:37:00Z"
         },
         {
-          "outlet": "Latest news from Azerbaijan",
-          "title": "US military strikes Panama-flagged vessel near Strait of Hormuz - Latest news from Azerbaijan",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdlc4NjRpcjh3eEtHbWdiTnFZMldGWW1YWG1DZHZ6azExYUF2U0Vzd2txUkplOHZyUk9nTDc2ckhXZnBwNnZmbTlWNlYwR3o4Q0tXWXJuNkNvUG9DV3pCajkwM1VwTGptZm9uTUM0Vm9NbzlaOGthZlc0b0VZUFQ0SzVIYWJBUzhONlZzZg?oc=5",
-          "published": "2026-10-11T06:50:54Z"
+          "outlet": "Times Now",
+          "title": "Oil Tanker Carrying 11 Indians Hit by Drone Off Oman, 2 Missing - Times Now",
+          "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOZm9DZVlJbWlFb3E1LTdralhSR3JkVTVfR3FiVGh0QlQwaHliRDZQdFdmR0FkYVE4SEtxdEpWdFUwaS1UU0VLdnpYUUpYUERTUklYcXBQdHROOHNXWDBsTFFtUHZzN3RNUGp4VEkyZmhNLUFabEF2N1BkM2lNalR2ZVp3OXJCVlpjZWpDOTI0d1VHYWtiQ0NoQk9RZ3ZuQ2NZQ1ZGX0d6Q25ld3ZucU4tZnp0ci04MGRJeXd3TllpOHVEN3JlTHBCRUdZa3pLQ3FOeEZUMHVLenBaTVBZVk9aVlVxYXZXaG5CeW01UjlwMnlmQ29zR0hzRzlwOEpwUGMwVVlrcjlod1QzNlhNWGUwZTNDeG8tWEJFMndv0gGgAkFVX3lxTE82bFJUZVhLa0pRZko4aXJBZGttc19QQXd6UERUbHIxTlkxSENGOEN6bUk3NFlIeGV2NzVRWTdXODk0TjNpaGRDYXRNdkVtMHlVSU9LS1IzR1FpMGh5eWhWNXh6Sm10eWdveGFtVlhRdjZwRjlJZGhfZ1V4QlBGR3hiZDctdnNkbWJCU1Axay1UaF91TEpGRFIzd2JiTjhxSFdJeUtDbGhKVXkwUXk5dGx1UmxxWmQzNEVFNEpWZ29tQWlxZEt6OUtfR2VWTWxVZG8tSWNYWGYxelNaQ0JObkxKQlc0OWpYempFWVFXdlN0b3ZHdlMxNmFySEpNSnVWeldNeW0tUTh2a0N2WnRLN3BqRU1rM0o2eExUaGd5M1UwZA?oc=5",
+          "published": "2026-10-11T18:28:15Z"
+        },
+        {
+          "outlet": "ET Now",
+          "title": "Drone attack on tanker near Oman: 2 Indian seafarers missing, 9 rescued; another vessel hit in Hormuz - ET Now",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPOHFmcnYzenpNQ05QellISk95M0xvdHM5NjlKVjQ5V0hRNXUxYWZLaFBIWFRFdXZXQnkybGU4WmlaSjQ5UUE4YmhjV0FpMDU5dW00Sm5Ocm1lVmFmanVqWDN2UXRvd2FsSkUyNldSdnVoUE9TaFRLb1RXUVRzWk94WWF5QUtQZDN2bmh2YmVwRVdYSVFCemNQaTk0YWVidklfUEs0eUg3a0JtTVo0NW5VWmEzRW9nckI1YnVMcDJKRkVySUlJcEZlekhXQ3RYel9naEVNcWc5YlMxRFd6aGNHU9IB5gFBVV95cUxQcU52Mm5CcGlvXzNidmtNNTBNZjhHRU1hZE9tMkxBMTF6V2R1eTNkdHBKNzRDaVJNSlREQ09VLTJzWVdBLUhuTmRGZUlEOVdxdWhjQUtoakhXQnFwQ2M2N05ESi11OFowZ1Fad3NWWjNqQWZoSU5NV0diQm5SZDlSandlSGZXU0xPQVd3OXNpdXVsVVpXS2NYX1htY1NNU3lLM3RfeUhETHJCb0xEa3gzdFpLbk42RTNXeWd2X2Z0MFBaZFVHU194bEk0MmlIUjdTWkNxaW9MNm1OWEhiclpud1k1OURvdw?oc=5",
+          "published": "2026-10-11T18:06:44Z"
+        },
+        {
+          "outlet": "The Siasat Daily",
+          "title": "Two Indians missing after drone attack on tanker off Oman - The Siasat Daily",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWWJFVl82TlNUNEZKeVZoWGE2T0h4X3dyZWtzLUZlWjNJT1FNYmwwOGxjdjQ4NkVvWmxRYWNPZ1U5cUR6UVZJSW9mR1RiZjZ3Uk5nUHBhYm02Um8zbVNMRm1fVk9QMmJRSlBWSzJ4SHJ0X0VZN3Bpd0VLb3JIOV9xZjYySWFMMGVJcjBLRFExUUwtTVnSAZgBQVVfeXFMUFZmeExUV3FCWU1UXzRPT0dobnhMVGRycUgyQXRsQkZtU3BVSkNnb09GZGc1aC1MaWRVak1rY2NPdEdQc2tRc2h1QXU1RjBnbEI4SVdsNTFwUDE2cktKU2VZSFgwNVpaM3BTY2s4M3F4X09QQVI0dUZHdXdZRGE5WENoVFF0cWNGOEJDUE1fSTFpVGVLNnZUWTI?oc=5",
+          "published": "2026-10-11T17:55:46Z"
+        },
+        {
+          "outlet": "Arab Times Kuwait News",
+          "title": "One More Tanker Struck by Unidentified Projectile off the Coast of Oman - Arab Times Kuwait News",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNY2VGd2RTeUt2dFd2VnJIVm8wNUZTTVktTmdueGJ5aHpLZms5aERPTnI2WW5KUkdUaTJhNHhxdkhqVjAwNUgzQkRSRmdaUE5VVlk1YXBhUzVwZFNXUlJLUTZqUEJkbEVxd3dUYW8wUGdNazFacXpSbDRrRndXTjdlc2I5ekY3ZUdhSEdpOTJPNWJEcVJBYXdGa2ZqMHNFOXEwY1lOamlmN3AyUDBwSXc?oc=5",
+          "published": "2026-10-11T16:43:22Z"
         }
       ]
     }
