@@ -34,7 +34,7 @@
   "quality": "1 check(s) need attention: dates ok; attribution 1 claims without a named source; official coverage 0/0 ok; verified 0/2; single-source items 0; confirmed ok; fact-check 7 correction(s); tweet 181/280 ok; dashes ok; consistency ok",
   "review": {
     "status": "done",
-    "at": "2026-10-12T05:15:17Z",
+    "at": "2026-10-12T05:30:06Z",
     "changes": [
       "INC-20261011-008 separated from INC-20261010-016 (a drone strike on a tanker at Sohar anchorage, Oman, on 11 October with two seafarers missing and nine rescued is a different attack from the US strike on the Ocean Molica on 10 October, which hurt nobody)",
       "INC-20261011-003 separated from INC-20261010-016 (the tanker struck on its port side by an unidentified projectile in the Strait of Hormuz on 11 October (UKMTO warning 164-26) is a different attack from the US strike on the Ocean Molica)",
@@ -43,7 +43,14 @@
       "merged INC-20261011-006 into INC-20261010-003 (the Breakingthenews item is Russia's defence ministry claim of 11 October about Chornomorsk and the Odesa data centre, already merged there)",
       "INC-20261011-011 marked rejected (mis-dated: the Daily Tribune page is the repatriation of the Yamilah III's crew after an earlier attack, so no new attack happened on 11 October)",
       "lesson (facts): A day's copies can belong to two different attacks, so check every copy's casualties and place against the record it was",
-      "lesson (writing): A repatriation or aftermath report about a ship attacked earlier is not an attack of the day: give it the attack's own d"
+      "lesson (writing): A repatriation or aftermath report about a ship attacked earlier is not an attack of the day: give it the attack's own d",
+      "name of INC-20261011-008 set to PETRO DOLPHIN",
+      "flag of INC-20261011-008 set to Nicaragua",
+      "imo of INC-20261011-008 set to 1072294",
+      "position of INC-20261011-008 set to 24.49, 56.61 (Sohar anchorage, Oman, where India's Ministry of External Affairs and Shipping M)",
+      "INC-20261011-008 marked reported (India's Ministry of External Affairs and Shipping Minister Sarbananda Sonowal named the Nicaragua-flagged tanker Petro Dolphin, its two Indian seafarers missing and the nine rescued after the 11 October drone strike at Sohar anchorage; Gulf News, The Hindu, India Today and The Tribune carried it, and UKMTO did not name that ship)",
+      "INC-20261011-003 marked confirmed (UKMTO, the UK maritime agency, reported a tanker transiting outbound in the Strait of Hormuz struck on its port side by an unidentified projectile on 11 October 2026, with damage reported and all crew safe)",
+      "lead story set to INC-20261011-008 (two Indian seafarers are missing after the 11 October drone strike on the tanker)"
     ],
     "refused": [
       "name INC-20261011-008: not in today's draft",
@@ -55,13 +62,20 @@
     ],
     "notes": [
       "In the headline, standfirst, lede, paragraph, key points and tweet, name the ship as MT Petro Dolphin, the Nicaragua-flagged tanker hit by a drone at Sohar anchorage in Oman on 11 October, and credit the ship, its flag and the two Indian seafarers missing and nine rescued to India's Ministry of External Affairs and Shipping Minister Sarbananda Sonowal.",
-      "For the desk, not for the article: the data still folds two more 11 October attacks into the Ocean Molica record, so they have to be separated by hand, the Valthera, a Marshall Islands-flagged Suezmax struck on its port side with a fire onboard (UKMTO warning 162-26 dates it 10 October, India's ministry says 11 October, all crew safe), and the unnamed tanker of UKMTO warning 164-26."
+      "For the desk, not for the article: the data still folds two more 11 October attacks into the Ocean Molica record, so they have to be separated by hand, the Valthera, a Marshall Islands-flagged Suezmax struck on its port side with a fire onboard (UKMTO warning 162-26 dates it 10 October, India's ministry says 11 October, all crew safe), and the unnamed tanker of UKMTO warning 164-26.",
+      "In the headline, standfirst, lede, paragraph, key points and tweet, name the ship as the tanker Petro Dolphin, the Nicaragua-flagged tanker hit by a drone at Sohar anchorage in Oman on 11 October, and credit the ship, its flag and the two Indian seafarers missing with the nine rescued to India's Ministry of External Affairs and Shipping Minister Sarbananda Sonowal. That name and that flag are India's, not UKMTO's.",
+      "In the paragraph and the key point about the tanker struck in the Strait of Hormuz on 11 October, credit UKMTO, the UK maritime agency, not Breakingthenews.net, and say UKMTO reported the tanker was struck on its port side by an unidentified projectile, with damage reported and all crew safe, and no vessel name, flag or position given."
     ],
     "restored": [
       "INC-20261011-008",
       "INC-20261011-003"
     ],
-    "send_after": false,
-    "lead": null
+    "send_after": true,
+    "lead": "INC-20261011-008"
+  },
+  "final_read": {
+    "status": "fixed",
+    "at": "2026-10-12T05:30:06Z",
+    "warnings": []
   }
 }

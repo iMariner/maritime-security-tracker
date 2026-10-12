@@ -213,18 +213,23 @@
       }
     ],
     "first_seen": "2026-10-11T15:03:32Z",
-    "last_updated": "2026-10-12T05:15:17Z",
+    "last_updated": "2026-10-12T05:30:06Z",
     "verification_issue": null,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "editor-check",
+      "at": "2026-10-12T05:30:06Z",
+      "note": "UKMTO, the UK maritime agency, reported a tanker transiting outbound in the Strait of Hormuz struck on its port side by an unidentified projectile on 11 October 2026, with damage reported and all crew safe"
+    },
     "published_in": [
       "2026-10-12"
     ],
-    "status": "reported",
+    "status": "confirmed",
     "position_approx": true,
     "keep_apart": [
       "INC-20261010-016"
     ],
-    "status_changed_at": "2026-10-12T05:15:17Z"
+    "status_changed_at": "2026-10-12T05:30:06Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -410,13 +415,13 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.7,
-    "vessel_name": null,
-    "imo": null,
-    "flag": null,
+    "vessel_name": "PETRO DOLPHIN",
+    "imo": "1072294",
+    "flag": "Nicaragua",
     "vessel_type": "tanker",
     "vessel_category": "merchant",
-    "lat": 24.8,
-    "lon": 58.2,
+    "lat": 24.49,
+    "lon": 56.61,
     "location_text": "off Oman coast",
     "attack_type": "drone (UAV)",
     "damage": null,
@@ -469,21 +474,55 @@
         "kind": "media",
         "published_at": "2026-10-11T16:43:22Z",
         "title": "One More Tanker Struck by Unidentified Projectile off the Coast of Oman - Arab Times Kuwait News"
+      },
+      {
+        "url": "https://www.thehindu.com/news/national/two-indian-seafarers-missing-nine-rescued-after-drone-attack-on-tanker-at-sohar-anchorage-says-sonowal/article71573679.ece",
+        "source": "thehindu.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-12T05:30:06Z",
+        "title": null
+      },
+      {
+        "url": "https://gulfnews.com/world/asia/india/india-condemns-attacks-on-two-vessels-in-hormuz-region-calls-for-de-escalation-1.500706860",
+        "source": "gulfnews.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-12T05:30:06Z",
+        "title": null
+      },
+      {
+        "url": "https://www.vesselfinder.com/vessels/details/1072294",
+        "source": "vesselfinder.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-12T05:30:06Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-11T19:41:00Z",
-    "last_updated": "2026-10-12T05:15:17Z",
+    "last_updated": "2026-10-12T05:30:06Z",
     "verification_issue": null,
-    "verdict": null,
+    "verdict": {
+      "status": "reported",
+      "by": "editor-check",
+      "at": "2026-10-12T05:30:06Z",
+      "note": "India's Ministry of External Affairs and Shipping Minister Sarbananda Sonowal named the Nicaragua-flagged tanker Petro Dolphin, its two Indian seafarers missing and the nine rescued after the 11 October drone strike at Sohar anchorage; Gulf News, The Hindu, India Today and The Tribune carried it, and UKMTO did not name that ship"
+    },
     "published_in": [
       "2026-10-12"
     ],
-    "status": "claimed",
+    "status": "reported",
     "position_approx": true,
     "keep_apart": [
       "INC-20261010-016"
     ],
-    "status_changed_at": "2026-10-12T05:15:17Z"
+    "status_changed_at": "2026-10-12T05:30:06Z",
+    "news_changed_at": "2026-10-12T05:30:06Z",
+    "position_note": "Sohar anchorage, Oman, where India's Ministry of External Affairs and Shipping Minister Sarbananda Sonowal place the 11 October drone strike"
   },
   {
     "region": "Strait of Hormuz",
