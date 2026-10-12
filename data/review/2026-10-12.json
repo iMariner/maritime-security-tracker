@@ -1,11 +1,11 @@
 {
   "date": "2026-10-12",
-  "title": "Tanker hit in the Strait of Hormuz and the Gulf",
-  "preview_url": "https://imariner.github.io/maritime-security-tracker/preview/2026-10-12.html?v=051609",
+  "title": "Tanker Petro Dolphin hit by drone off Oman, two Indian seafarers missing",
+  "preview_url": "https://imariner.github.io/maritime-security-tracker/preview/2026-10-12.html?v=053051",
   "incidents": [
     {
       "id": "INC-20261011-003",
-      "status": "reported",
+      "status": "confirmed",
       "region": "Strait of Hormuz",
       "date_utc": "2026-10-11",
       "vessel_name": null,
@@ -18,7 +18,7 @@
       "casualties": "no crew injuries reported",
       "attribution": null,
       "summary": "The UK reported damage to a tanker in an attack in the Strait of Hormuz, according to Breakingthenews.net. No vessel name, flag, position or attacker was given.",
-      "checked_by_hermes": false,
+      "checked_by_hermes": true,
       "sources": [
         {
           "outlet": "Breakingthenews.net",
@@ -60,12 +60,12 @@
     },
     {
       "id": "INC-20261011-008",
-      "status": "claimed",
+      "status": "reported",
       "region": "Gulf of Oman",
       "date_utc": "2026-10-11",
-      "vessel_name": null,
-      "imo": null,
-      "flag": null,
+      "vessel_name": "PETRO DOLPHIN",
+      "imo": "1072294",
+      "flag": "Nicaragua",
       "vessel_type": "tanker",
       "location": "off Oman coast",
       "attack": "drone (UAV)",
@@ -73,8 +73,26 @@
       "casualties": "2 Indian seafarers missing, 9 rescued",
       "attribution": null,
       "summary": "A tanker was hit by a drone off the Oman coast, with two Indian seafarers missing and nine rescued. No vessel name, flag or exact position was given.",
-      "checked_by_hermes": false,
+      "checked_by_hermes": true,
       "sources": [
+        {
+          "outlet": "thehindu.com",
+          "title": null,
+          "url": "https://www.thehindu.com/news/national/two-indian-seafarers-missing-nine-rescued-after-drone-attack-on-tanker-at-sohar-anchorage-says-sonowal/article71573679.ece",
+          "published": "2026-10-12T05:30:06Z"
+        },
+        {
+          "outlet": "gulfnews.com",
+          "title": null,
+          "url": "https://gulfnews.com/world/asia/india/india-condemns-attacks-on-two-vessels-in-hormuz-region-calls-for-de-escalation-1.500706860",
+          "published": "2026-10-12T05:30:06Z"
+        },
+        {
+          "outlet": "vesselfinder.com",
+          "title": null,
+          "url": "https://www.vesselfinder.com/vessels/details/1072294",
+          "published": "2026-10-12T05:30:06Z"
+        },
         {
           "outlet": "The Daily Jagran",
           "title": "Two Indian Seafarers Missing, 9 Rescued After Drone Attack On Tanker Off Oman Coast | Video - The Daily Jagran",
