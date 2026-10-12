@@ -3388,16 +3388,35 @@
         "kind": "media",
         "published_at": "2026-10-11T19:42:39Z",
         "title": "US touts Iran’s ‘absolute isolation” as IRGC reports fresh Hormuz tanker blast - Rudaw"
+      },
+      {
+        "url": "https://www.ukmto.org/-/media/ukmto/products/20261009-ukmto_warning_160_26.pdf",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-12T04:33:51Z",
+        "title": null
+      },
+      {
+        "url": "https://www.thehindu.com/news/national/all-indian-crew-members-safe-after-oil-tanker-attacked-at-sharjah-anchorage-sarbananda-sonowal/article71567057.ece",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-12T04:33:51Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-09T14:36:17Z",
-    "last_updated": "2026-10-11T23:54:40Z",
+    "last_updated": "2026-10-12T04:33:51Z",
     "verification_issue": 97,
     "verdict": {
       "status": "confirmed",
-      "by": "editor-check",
-      "at": "2026-10-10T05:08:27Z",
-      "note": "UKMTO warning 160-26 reported the strike and the fire that was extinguished, and shipping sources named the vessel"
+      "by": "iMariner",
+      "at": "2026-10-12T04:33:51Z",
+      "note": "UKMTO warning 160-26 reports the strike 13 nautical miles west of Al Jazeera, UAE on 9 October and the fire that was then extinguished, and shipping sources and India's shipping minister name the hull as the Panama-flagged crude tanker GEM NO. 2.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/97#issuecomment-6117803844"
     },
     "published_in": [
       "2026-10-10"
@@ -3415,7 +3434,7 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.7,
-    "vessel_name": "NV SUNSHINE",
+    "vessel_name": "NV Sunshine",
     "imo": "9350288",
     "flag": "Vietnam",
     "vessel_type": "LNG/LPG carrier",
@@ -3591,12 +3610,36 @@
         "kind": "media",
         "published_at": "2026-10-09T20:22:27Z",
         "title": "الحرس الثوري يهاجم ناقلة غاز في مضيق هرمز ويتوعد بتوسيع نطاق استهدافه - أخبار حياة"
+      },
+      {
+        "url": "https://middleeastmonitor.com/20261009-iran-says-lpg-carrier-struck-catches-fire-while-crossing-strait-of-hormuz-via-illegal-route",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-12T04:33:49Z",
+        "title": null
+      },
+      {
+        "url": "https://en.mehrnews.com/news/248442/Massive-LPG-tanker-targeted-in-Hormuz-IRGC",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-12T04:33:49Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-09T14:36:17Z",
-    "last_updated": "2026-10-11T07:47:47Z",
+    "last_updated": "2026-10-12T04:33:49Z",
     "verification_issue": 98,
-    "verdict": null,
+    "verdict": {
+      "status": "claimed",
+      "by": "iMariner",
+      "at": "2026-10-12T04:33:49Z",
+      "note": "the strike on the LPG carrier NV Sunshine is asserted by Iran's IRGC alone, with no UKMTO warning, AIS track or independent report confirming it.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/98#issuecomment-6117803990"
+    },
     "published_in": [
       "2026-10-10"
     ],
@@ -4541,9 +4584,9 @@
     "official_source_cited": "Syrian Ports Authority",
     "conflicting": false,
     "confidence": 0.6,
-    "vessel_name": null,
+    "vessel_name": "Alfa Watan",
     "imo": null,
-    "flag": null,
+    "flag": "Togo",
     "vessel_type": null,
     "vessel_category": "merchant",
     "lat": 43.4,
@@ -4573,18 +4616,42 @@
         "kind": "media",
         "published_at": "2026-10-08T14:55:22Z",
         "title": "هيئة المنافذ السورية: فقدان الاتصال بـ9 بحارة سوريين بعد استهداف سفينة بالبحر الأسود - Elnashra"
+      },
+      {
+        "url": "https://english.alarabiya.net/News/middle-east/2026/10/08/syria-says-nine-nationals-missing-after-drone-sinks-black-sea-ship",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-12T04:33:55Z",
+        "title": null
+      },
+      {
+        "url": "https://www.turkishminute.com/2026/10/08/9-syrian-sailors-missing-after-drone-strike-sinks-turkish-operated-ship/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-12T04:33:55Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-08T20:05:21Z",
-    "last_updated": "2026-10-09T05:08:10Z",
+    "last_updated": "2026-10-12T04:33:55Z",
     "verification_issue": 87,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-12T04:33:55Z",
+      "note": "duplicate: the nine missing Syrians are the crew of the Togo-flagged Alfa Watan, sunk by drones off Bulgaria on 6 October and already tracked as INC-20261006-001.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/87#issuecomment-6117803339"
+    },
     "published_in": [
       "2026-10-09"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "status_changed_at": "2026-10-09T00:36:42Z",
+    "status_changed_at": "2026-10-12T04:33:55Z",
     "merged_into": "INC-20261006-001"
   },
   {
@@ -4776,9 +4843,9 @@
     "official_source_cited": "Kremlin spokesman Dmitry Peskov",
     "conflicting": false,
     "confidence": 0.7,
-    "vessel_name": "RIO",
+    "vessel_name": "Aframax Rio",
     "imo": null,
-    "flag": null,
+    "flag": "Liberia",
     "vessel_type": "tanker",
     "vessel_category": "merchant",
     "lat": 43.4,
@@ -4889,18 +4956,52 @@
         "kind": "media",
         "published_at": "2026-10-07T05:52:48Z",
         "title": "Black Sea Tanker Fire: 23 Indians Rescued - Dainik Jagran MP CG"
+      },
+      {
+        "url": "https://www.themoscowtimes.com/2026/10/07/sochi-closes-beaches-after-drone-attack-sets-oil-tanker-ablaze-a93900",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-12T04:33:54Z",
+        "title": null
+      },
+      {
+        "url": "https://www.engine.online/news/tanker-set-ablaze-in-black-sea-after-unmanned-boat-attack-827a",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-12T04:33:54Z",
+        "title": null
+      },
+      {
+        "url": "https://www.shipfinder.com/maritime-news/maritime-security/attack-aframax-rio-sochi",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-12T04:33:54Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-09T00:36:33Z",
-    "last_updated": "2026-10-09T05:08:10Z",
+    "last_updated": "2026-10-12T04:33:54Z",
     "verification_issue": 90,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-12T04:33:54Z",
+      "note": "duplicate and mis-dated: the Liberian-flagged Aframax Rio was attacked by uncrewed boats off Sochi on 6 October, not 8 October, and that attack is already tracked as INC-20261006-014.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/90#issuecomment-6117803514"
+    },
     "published_in": [
       "2026-10-09"
     ],
-    "status": "merged",
+    "status": "rejected",
     "date_approx": false,
-    "merged_into": "INC-20261006-014"
+    "merged_into": "INC-20261006-014",
+    "status_changed_at": "2026-10-12T04:33:54Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -7075,18 +7176,43 @@
         "kind": "media",
         "published_at": "2026-10-07T15:31:43Z",
         "title": "Momentul în care nava turcească este lovită de drone în zona economică a României. Vasul s-a scufundat complet - Adevărul"
+      },
+      {
+        "url": "https://adevarul.ro/stiri-interne/evenimente/momentul-in-care-nava-turceasca-este-lovita-de-2562491.html",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-12T04:33:52Z",
+        "title": null
+      },
+      {
+        "url": "https://www.digi24.ro/stiri/actualitate/o-nava-ar-fi-fost-lovita-de-o-drona-in-apropierea-neptun-deep-vasul-ar-fi-plecat-din-portul-ismail-3978043",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-12T04:33:52Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-09T00:37:06Z",
-    "last_updated": "2026-10-09T05:08:10Z",
+    "last_updated": "2026-10-12T04:33:52Z",
     "verification_issue": 94,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-12T04:33:52Z",
+      "note": "duplicate: the Romanian reports describe the 5 October drone attack on the Turkish-owned grain ship Royad Mammadov near the Pescăruș platform in Romania's exclusive economic zone, already tracked as INC-20261005-001.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/94#issuecomment-6117803690"
+    },
     "published_in": [
       "2026-10-09"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261005-001"
+    "merged_into": "INC-20261005-001",
+    "status_changed_at": "2026-10-12T04:33:52Z"
   },
   {
     "region": "Strait of Hormuz",
