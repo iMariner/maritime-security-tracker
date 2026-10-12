@@ -307,7 +307,9 @@
     "last_updated": "2026-10-11T15:03:40Z",
     "verification_issue": 118,
     "verdict": null,
-    "published_in": [],
+    "published_in": [
+      "2026-10-12"
+    ],
     "status": "claimed",
     "position_approx": true
   },
@@ -347,7 +349,9 @@
     "last_updated": "2026-10-11T15:03:56Z",
     "verification_issue": 119,
     "verdict": null,
-    "published_in": [],
+    "published_in": [
+      "2026-10-12"
+    ],
     "status": "claimed",
     "position_approx": true
   },
@@ -678,7 +682,9 @@
     "last_updated": "2026-10-11T19:41:15Z",
     "verification_issue": 120,
     "verdict": null,
-    "published_in": [],
+    "published_in": [
+      "2026-10-12"
+    ],
     "status": "claimed",
     "position_approx": true
   },
@@ -727,7 +733,9 @@
     "last_updated": "2026-10-11T19:41:28Z",
     "verification_issue": 121,
     "verdict": null,
-    "published_in": [],
+    "published_in": [
+      "2026-10-12"
+    ],
     "status": "reported",
     "position_approx": true
   },
@@ -979,6 +987,220 @@
     ],
     "first_seen": "2026-10-11T23:54:40Z",
     "last_updated": "2026-10-11T23:54:44Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261010-016",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-11",
+    "summary": "A Turkish outlet reported that a tanker in the Strait of Hormuz was struck by an unidentified object. No vessel name, flag, position or damage details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261011-019",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSzFwU3dWX1I0ZFRaeEFramVwcjh0SEJUWkJWOXNlbmxET01tRXdCRjJrejBKa2FWSWtwclFnTDYzTnJfcVVod3pDeVNfUWZMWFhBMzA3clc1ZV9Tcy1PT1VRU2xXSThpRTJVbHYwdDZEQktuU1hQaDBGOERSSjcxNHIxWGJWVEJqdWp5bFR4Um5FX3dXVWM5Yy1KbENwN1ljSk1KY0hfZDE1UQ?oc=5",
+        "source": "HABER ANKARA",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T03:03:00Z",
+        "title": "Hürmüz Boğazı’nda tankere saldırı: Kimliği belirsiz cisimle vuruldu! - HABER ANKARA"
+      }
+    ],
+    "first_seen": "2026-10-12T04:38:59Z",
+    "last_updated": "2026-10-12T04:39:10Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261010-016",
+    "position_approx": true
+  },
+  {
+    "region": "Gulf of Oman",
+    "date_utc": "2026-10-11",
+    "summary": "The report says the Iranian threat to shipping widened beyond the Strait of Hormuz, with a tanker struck in Sohar and vessels warned of Ras Al Khaimah. No vessel name, flag, position or damage details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 24.45,
+    "lon": 56.7,
+    "location_text": "Sohar, Oman",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Iran",
+    "independent_evidence": false,
+    "id": "INC-20261011-020",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNU255S0ZwRHJ6dTY1RHlYLVdxNDI5SlZ5cU5sVUV4RWtjTXp6NG5JZnlzazhDT24xWHVTTC1TSnItX2tKZEVGa3VnbWp0MG9PUERvQm5BUGUzWTFMNmR6cnBoQ1gwQ2pzWE44cUtlVmRWdFYzOVdLV2NER3ZXdlZiVlRDWE1GMkJkdWFXaFY2LWNUZlRoTXhfSGhYZkQ5SGFReGZLbUEzVXE?oc=5",
+        "source": "Seatrade Maritime News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T02:29:21Z",
+        "title": "Iran hits tanker in Sohar and two in Hormuz, US disables bulker - Seatrade Maritime News"
+      },
+      {
+        "url": "https://www.seatrade-maritime.com/security/iran-hits-tanker-in-sohar-and-two-in-hormuz-us-disables-bulker",
+        "source": "Seatrade Maritime",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-12T02:21:58Z",
+        "title": "Iran hits tanker in Sohar and two in Hormuz, US disables bulker"
+      }
+    ],
+    "first_seen": "2026-10-12T04:39:04Z",
+    "last_updated": "2026-10-12T04:39:10Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261010-016",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-11",
+    "summary": "The same headline says Iran hit two tankers in the Strait of Hormuz. No vessel names, flags, positions or damage details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Iran",
+    "independent_evidence": false,
+    "id": "INC-20261011-021",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNU255S0ZwRHJ6dTY1RHlYLVdxNDI5SlZ5cU5sVUV4RWtjTXp6NG5JZnlzazhDT24xWHVTTC1TSnItX2tKZEVGa3VnbWp0MG9PUERvQm5BUGUzWTFMNmR6cnBoQ1gwQ2pzWE44cUtlVmRWdFYzOVdLV2NER3ZXdlZiVlRDWE1GMkJkdWFXaFY2LWNUZlRoTXhfSGhYZkQ5SGFReGZLbUEzVXE?oc=5",
+        "source": "Seatrade Maritime News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T02:29:21Z",
+        "title": "Iran hits tanker in Sohar and two in Hormuz, US disables bulker - Seatrade Maritime News"
+      }
+    ],
+    "first_seen": "2026-10-12T04:39:04Z",
+    "last_updated": "2026-10-12T04:39:10Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261010-016",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-11",
+    "summary": "The same headline says Iran hit two tankers in the Strait of Hormuz. No vessel names, flags, positions or damage details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Iran",
+    "independent_evidence": false,
+    "id": "INC-20261011-022",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNU255S0ZwRHJ6dTY1RHlYLVdxNDI5SlZ5cU5sVUV4RWtjTXp6NG5JZnlzazhDT24xWHVTTC1TSnItX2tKZEVGa3VnbWp0MG9PUERvQm5BUGUzWTFMNmR6cnBoQ1gwQ2pzWE44cUtlVmRWdFYzOVdLV2NER3ZXdlZiVlRDWE1GMkJkdWFXaFY2LWNUZlRoTXhfSGhYZkQ5SGFReGZLbUEzVXE?oc=5",
+        "source": "Seatrade Maritime News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T02:29:21Z",
+        "title": "Iran hits tanker in Sohar and two in Hormuz, US disables bulker - Seatrade Maritime News"
+      }
+    ],
+    "first_seen": "2026-10-12T04:39:04Z",
+    "last_updated": "2026-10-12T04:39:10Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261010-016",
+    "position_approx": true
+  },
+  {
+    "region": "Gulf of Oman",
+    "date_utc": "2026-10-11",
+    "summary": "The headline says the US disabled a bulk carrier. No vessel name, flag, position or further details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "bulk carrier",
+    "vessel_category": "merchant",
+    "lat": 24.8,
+    "lon": 58.2,
+    "location_text": "Gulf of Oman",
+    "attack_type": "other",
+    "damage": "disabled",
+    "casualties": null,
+    "attribution_claimed": "US",
+    "independent_evidence": false,
+    "id": "INC-20261011-023",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNU255S0ZwRHJ6dTY1RHlYLVdxNDI5SlZ5cU5sVUV4RWtjTXp6NG5JZnlzazhDT24xWHVTTC1TSnItX2tKZEVGa3VnbWp0MG9PUERvQm5BUGUzWTFMNmR6cnBoQ1gwQ2pzWE44cUtlVmRWdFYzOVdLV2NER3ZXdlZiVlRDWE1GMkJkdWFXaFY2LWNUZlRoTXhfSGhYZkQ5SGFReGZLbUEzVXE?oc=5",
+        "source": "Seatrade Maritime News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T02:29:21Z",
+        "title": "Iran hits tanker in Sohar and two in Hormuz, US disables bulker - Seatrade Maritime News"
+      }
+    ],
+    "first_seen": "2026-10-12T04:39:04Z",
+    "last_updated": "2026-10-12T04:39:10Z",
     "verification_issue": null,
     "verdict": null,
     "published_in": [],
@@ -1356,10 +1578,19 @@
         "kind": "media",
         "published_at": "2026-10-11T17:40:00Z",
         "title": "Trump’ın ateşkes açıklamasının ardından Rusya’dan Ukrayna’ya saldırı: Kuru yük gemisi ve lojistik merkezi vuruldu - T24"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxPWUZ5M29xQ2ppWERFNXdidnFlU0h6Y3FYeXlxY3RvTUhoTzRSQmJydUxXWDBGVFFVYmFwTU1jMDZuN2hUR2dfNTZybkVJa1l5ZE5xOWpZbjNBZ1kzS1dtSGYydHUtWnE0UGNjWG85Q3BydGU1TnlINHl3TkcxYVgwNmYzMUc3U20tR3prOFoyYVRiYzBoRk5zRkRFTlZIUFZDQUpCVmpDWmRXUk4yQUh5dlNPNWZKUTZJSnhuWDNFb2ctMEdUczhBY1hlSTVaeUVxOHdJbUxkUWtGUGk3bllkVmc0MVlXU0VpTWNYcTVheldWa2dHR0ZYVWtsaG5hd1llVWhoSEhJdm1zV1EtUjBEcloxc203bGZLYm5JSGhxWXF0UHlmdmVWOVNOREZ5dWlPNzduME9PMElhejQ5bllLRWE3MGlxMGpvYVBTMEpFWHFIZjlkZTFyLQ?oc=5",
+        "source": "صوت بيروت إنترناشونال",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T18:16:21Z",
+        "title": "الجيش الروسي يعلن استهداف سفينة شحن ومركز لوجستي بأوكرانيا - صوت بيروت إنترناشونال"
       }
     ],
     "first_seen": "2026-10-10T06:19:59Z",
-    "last_updated": "2026-10-11T23:54:44Z",
+    "last_updated": "2026-10-12T04:39:10Z",
     "verification_issue": 107,
     "verdict": null,
     "published_in": [
@@ -1938,7 +2169,7 @@
     "summary": "The US said a fighter jet struck a cargo ship in the Gulf of Oman that was trying to break an Iran blockade. No vessel name, flag, or damage details were given.",
     "official_source_cited": "CENTCOM",
     "conflicting": false,
-    "confidence": 0.8,
+    "confidence": 0.85,
     "vessel_name": "OCEAN MOLICA",
     "imo": "9139270",
     "flag": "Panama",
@@ -2556,10 +2787,136 @@
         "kind": "media",
         "published_at": "2026-10-11T14:28:56Z",
         "title": "Hürmüz Boğazı’nda tankere saldırı - 12punto"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQU2hETVdoSVI2TGFsbXEyYXdCUzB2SUNFRHFoM2p4SHhGWmVxSG5YSzFlSDV1ZHZuSGFSNE5NcEFiTmhEMnh4OVVzd2s2U3hjVlpfVDZ4NHdFMUN1MDdmbWlOUVhfd053ejUyYlBwbExyOUtmakVNMkhlTmZuYXBxay04UkNxUEtqY1ZCLUh5MzRwbzRvNDFMaU5oQjJ0MC1FMDFfNjVYMHhMU3plOFE?oc=5",
+        "source": "Dainik Jagran MP CG",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T04:33:54Z",
+        "title": "Hormuz Ship Attacks: 2 Indian Seafarers Missing - Dainik Jagran MP CG"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTVZidTAxVWVQeFlULUgzOWFhMHY0aDhsSG9DdngtTUFkYmh2TEV2STRpajk3clVFc3Bsdk9uZFlrWWU2M3A4QXRrLS1GZ3dUVmUxTHhVUHNDVXI4T1Q3UEJoekJTQmxQek51b2pQQWdoa2RLTzFkQ3U1cGpqRmNfckxMOEh2Y0ZCOVVFVnlnRTNPX3NaWlVMOUpHaw?oc=5",
+        "source": "Pragativadi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T04:30:34Z",
+        "title": "India Condemns Hormuz Ship Attacks After 2 Indian Seafarers Go Missing - Pragativadi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWWZKVEJNNjJEY3NISmY2bVFObmtpampFSGhZcUtDdDZ5TmlZN0hfeUtTY0pRTEtKSWlLQmVDdFFIU1UxamZOOHdsUHNyekJVMWxXWDNEUVBpN0pCWGJ5cFV6TzBLUHpXaExpc2hTM2MxM1ladHpaVkVWbVJuM1pDaDZuOTBsY1RwMVpQa1VGc0tkbWZ3Z1JnT1VQdFJzcjYtNTV4Ulk5dDJyZ9IBsgFBVV95cUxQS1hqV3VQMWQyV29yU2hqeDJJY3JHMk4weHM1ajlzWVNHcjgyUUFPa2g3eFc2bm4zcnVLcTc2c0dsVHBDMFU5V3dHckJlX2Z5V09SYWxGV05xNGdwbWVIa1UwUVRxSXpnWDZFLUE4T3JVY2hkZ3BfeGIyVGpWZllvck0yMUQ0QTl3b3NKWnpTYVlZSjY0RjhQZFVLTjhnZ2kxcU1IRXhiMThMSElvLU9SZm1B?oc=5",
+        "source": "NDTV",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T03:45:36Z",
+        "title": "'Concerning': India As 2 Indians Go Missing After Attack On Tanker Near Hormuz - NDTV"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNTGlRd1Z6dHlJTFpzeE40XzFVVzhOUC1EaE9QSkdBa3hEWEx2T1dXQ04zWEZiNkZicml2WXpkU2hqZWNiT25zYlFKRHAwaEk3WUpjR2cyc2tzS3YxWXVXM0M2cFNlQjNaSFBCOUdBVEY5djIzMXRNQ3RkQ0pNQ250ekRzT1VBSV84YkFCMlFvbkxsbmYyNmhIM05zNkI5UmV5X3ppMzFxNnFhSDMtMzMxTFQ0M1VGRGhhcGM0MFRLLVA4UXB2cHROZ0w1RTRLXzBZVzdqYUZiWGtmX0pfNXlab0lpVTNMZEtUdzhuYXBOcFJtLTN2R0tTSW5TY3I3M21a?oc=5",
+        "source": "ANI News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T03:15:00Z",
+        "title": "Seafarers Union seeks \"urgent status update\" on two Indian seafarers missing after attack on commercial vessel in Hormuz - ANI News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOXzQxU19hVFFaQm11T3M4OTdnemc4a3dqVTdSU0JwZmxoUzdLTmVwSDBkNUxXZGI0aXFyaFNkU1ZyNGpVMWVUVkVma081US1nT3JxWDZqaUJyUW5vdmZXOHlLZUVIVWlhYzNTV1I5X09JMjItby1DT2ozT19ycm9BR0FTNjZ3RnF3MmRaWmFaOGlZQQ?oc=5",
+        "source": "NewsBytes",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T03:04:36Z",
+        "title": "India condemns Hormuz vessel attacks after two seafarers go missing - NewsBytes"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbndVRjZUZHJRUTNfaktpOFhCS1ZOamQ0N0M2X0szVHY0TUxXVnkzLTVOd1ZpWlBaX3JtbG95UlotMGZDZUozZnREQWlnd2x5cndVOUJBU1pLUWhnUklJUFMtSU5Kc0FoQzczSGtlOUdMM2NTV2NjOEU5cFRLQy1yeUxHSHZrdjhfM2c?oc=5",
+        "source": "جريدة القدس",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T00:02:20Z",
+        "title": "هجوم بمسيرة يستهدف ناقلة نفط قبالة عُمان وفقدان بحارة هنود - جريدة القدس"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWXh2UGFFcUNkZmYyX09fZWZaQ2RTcmZ4SmFidThrMjA2ZFFKQjNPLVhBWnlMN1hxSWVMUk9HYmJPVEN2Rk5pV3JhRDVDaF91djZQaUx6VWt0OUNHMWtndTVYVlJUSUZscmZwNlRtTjdVUEgwVG9YY3RWM2FMSl9DTGIzNnRvaGZpUkdoTERBcTZlQzlndzJNYU1YQWVNaUs3SXZjX3BLa0Rwa3NlMEY5NU1vSHN5Tmc4ZDNac1RvOC0?oc=5",
+        "source": "The Insight International",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T22:24:40Z",
+        "title": "A tanker is struck by a drone off Oman's Sohar port and two Indian crew members are missing, UKMTO and India say - The Insight International"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOVFyYW0yVzB3SHBEQVc3dW5oR1dXOU9vUUwtY3JqNVpwZ2QxRzE5eFdFZ1dVNFgyeUZJN3g5TWVVNjQ4MXRlRU15WlcyWUZZOWRDWFhMbUxXS2V0bmZtTFRHdkZ5MTA3ZklqbjQxbGNhcG1yUTk3VWNmUWxmUnc1Mnh3ZXFvdw?oc=5",
+        "source": "Yahoo Finance UK",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T22:08:45Z",
+        "title": "Oil Rises as Saudi Airport and Tanker Attacks Stoke Supply Fears - Yahoo Finance UK"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdl9RVVJIWk9qRnlVRDhDQTZZZGFXcjBtUlVfVnNfeV9MM0l4TXBHYUNjdWxMQzlZR1c0Z05PV3FERkJiQlN5bVVxRjlTYmhJWDBuODhjcTRuT0dZektncVh3YTRTU0lOVk54dFd5Zk5jTU5kZFZQXzM1bmZTbU9RV2NuTU83bmVNa0FCR2xvRUtfa04zUzZ1cHZ3?oc=5",
+        "source": "Roya News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T21:35:43Z",
+        "title": "Tanker struck by drone near Sohar anchorage in Oman: UKMTO - Roya News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNXzlGdFQxSW1XWk1ybkVtWkpUbEl0ei1IQ0hDZjRvaHpEX05vUmRMTi1ZX0k0cER2ME1iUHRQRDRIZG1JUzE3cHhaZzhFV251MHk2cGhHQ0pmdEhjOHo1N1FINTJxQ3BaelE0Ui1VU0JBZjU2a1BlUUNPbWJHUzc4eDRsU0hySHlnVnhxc1ltNFo5dzlsV2JRdXVzZTJZMHlOcWNlWHNKaWdLS1UxWEE?oc=5",
+        "source": "The Times of Israel",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T21:29:44Z",
+        "title": "Maritime agency confirms tanker near Oman was struck by a drone - The Times of Israel"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONVZvdjV3enk5NjVSOS0weGVsdldRckhsTElFQjRvaEVYNjBDNGsyUHI0ai1INkVLdXdNQUlfVUpLdExpTHFSR0FXZ0dOQ1RnVExRWFpRR0ZwVU9tanNhbk9hS3piQ1d1aGtQM0xVT0V0emVYamppZmZxSW1VUzVhbTBSMHNScXpIRVFFdzU4TDF4LU5NUkl5Y2xhYm9kMUhDWWMzRU5HMDBTaWRhRlA1bUZ0bkw1Nl9WSDN5bC1zRExrNEU?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-10T23:17:52Z",
+        "title": "Hormuz strike count nears 20 vessels as Iran tightens grip hitting another tanker - TradeWinds News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSzFwU3dWX1I0ZFRaeEFramVwcjh0SEJUWkJWOXNlbmxET01tRXdCRjJrejBKa2FWSWtwclFnTDYzTnJfcVVod3pDeVNfUWZMWFhBMzA3clc1ZV9Tcy1PT1VRU2xXSThpRTJVbHYwdDZEQktuU1hQaDBGOERSSjcxNHIxWGJWVEJqdWp5bFR4Um5FX3dXVWM5Yy1KbENwN1ljSk1KY0hfZDE1UQ?oc=5",
+        "source": "HABER ANKARA",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T03:03:00Z",
+        "title": "Hürmüz Boğazı’nda tankere saldırı: Kimliği belirsiz cisimle vuruldu! - HABER ANKARA"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNU255S0ZwRHJ6dTY1RHlYLVdxNDI5SlZ5cU5sVUV4RWtjTXp6NG5JZnlzazhDT24xWHVTTC1TSnItX2tKZEVGa3VnbWp0MG9PUERvQm5BUGUzWTFMNmR6cnBoQ1gwQ2pzWE44cUtlVmRWdFYzOVdLV2NER3ZXdlZiVlRDWE1GMkJkdWFXaFY2LWNUZlRoTXhfSGhYZkQ5SGFReGZLbUEzVXE?oc=5",
+        "source": "Seatrade Maritime News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T02:29:21Z",
+        "title": "Iran hits tanker in Sohar and two in Hormuz, US disables bulker - Seatrade Maritime News"
+      },
+      {
+        "url": "https://www.seatrade-maritime.com/security/iran-hits-tanker-in-sohar-and-two-in-hormuz-us-disables-bulker",
+        "source": "Seatrade Maritime",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-12T02:21:58Z",
+        "title": "Iran hits tanker in Sohar and two in Hormuz, US disables bulker"
       }
     ],
     "first_seen": "2026-10-11T04:38:32Z",
-    "last_updated": "2026-10-11T23:54:44Z",
+    "last_updated": "2026-10-12T04:39:10Z",
     "verification_issue": 116,
     "verdict": {
       "status": "confirmed",
@@ -3406,10 +3763,28 @@
         "kind": "verification",
         "published_at": "2026-10-12T04:33:51Z",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9naFU3MmpSZ19FajdoVDRnb2VWcVZSck4yVktoSTZMQXZLWTl4WFFYR1VPcXVrd29XbE5iRFVVRlpkTUthTmVZS1JtdGdOZE1pb0xzWEppZVV2STVOaFdYV0dyeTFSMTRLWGNVRlpR?oc=5",
+        "source": "news.sbs.co.kr",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T02:57:52Z",
+        "title": "Iran's Revolutionary Guard Claims Tanker Collided with Mine in Strait of Hormuz - news.sbs.co.kr"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5PYTlzdUdzakE3RDBac3Z2OTJZWVdic1VQY0ZHaGViRnF2d2UtNmpCS016LWJhNXEzcUU2ZnY0cl9NX1V3ZE9JYzhEWVZjWkNNcHJLYzJLZkFLSzFRMjlVcTY5eWI3dw?oc=5",
+        "source": "news.sbs.co.kr",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T02:57:00Z",
+        "title": "Iran's Revolutionary Guard Claims Tanker Collided with Mine in Strait of Hormuz - news.sbs.co.kr"
       }
     ],
     "first_seen": "2026-10-09T14:36:17Z",
-    "last_updated": "2026-10-12T04:33:51Z",
+    "last_updated": "2026-10-12T04:38:59Z",
     "verification_issue": 97,
     "verdict": {
       "status": "confirmed",
@@ -4649,9 +5024,9 @@
     "published_in": [
       "2026-10-09"
     ],
-    "status": "rejected",
+    "status": "merged",
     "position_approx": true,
-    "status_changed_at": "2026-10-12T04:33:55Z",
+    "status_changed_at": "2026-10-12T04:38:51Z",
     "merged_into": "INC-20261006-001"
   },
   {
@@ -4998,10 +5373,10 @@
     "published_in": [
       "2026-10-09"
     ],
-    "status": "rejected",
+    "status": "merged",
     "date_approx": false,
     "merged_into": "INC-20261006-014",
-    "status_changed_at": "2026-10-12T04:33:54Z"
+    "status_changed_at": "2026-10-12T04:38:51Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -7209,10 +7584,10 @@
     "published_in": [
       "2026-10-09"
     ],
-    "status": "rejected",
+    "status": "merged",
     "position_approx": true,
     "merged_into": "INC-20261005-001",
-    "status_changed_at": "2026-10-12T04:33:52Z"
+    "status_changed_at": "2026-10-12T04:38:51Z"
   },
   {
     "region": "Strait of Hormuz",
