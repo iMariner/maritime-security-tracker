@@ -1,6 +1,55 @@
 [
   {
     "region": "Black Sea",
+    "date_utc": "2026-10-12",
+    "summary": "Moscow announced that a military cargo ship was struck near Odesa port. Russia's defence ministry claimed its drones targeted the vessel.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 46.49,
+    "lon": 30.74,
+    "location_text": "near Odesa port, Ukraine",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry claimed it",
+    "independent_evidence": false,
+    "id": "INC-20261012-001",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQMHNFemU5OUhkMU1lbHIzdndyMG5YY2pxMGZ5R2xoaWR4OFBSYV9XWUt1R2ljeXEwRTlaTUpBQUZiU1JoOG50OURxTDlfYU1mNGQ3SUpXNU1Ta0d1MEIzbklCTWxnYUtmSjh5UVdkdjJKR0V0dGJuZ1RhU2Q1Z085akZUb2dGemdsYU9BTVhWXzBKTm5Ecks0NE0xTS1Td1B5NUcta3ZXUnlIdnkwMEkya3ZleUZiaUlTcUpjb2ZCa3dhZGJ4RGZZazdBQlhFMHhQdEgzUU1LdEhDSnJfS3RiN1FscXBXWUQ5OVhCTElyNTZ5OVRZVjlNc1NVcTVOM2I3VTdETlFuYjhVWlp1dVVTRzNXdHFKZ2lKemp4VFl5YU8tb1FuR2JqNWdqSS1FbHRyQldrend2QXg3ejgzQWkyYjlBZGFuR0ZkWXN0THhfX2JsNTRKNWxnZQ?oc=5",
+        "source": "صوت بيروت إنترناشونال",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T06:23:28Z",
+        "title": "موسكو تعلن استهداف سفينة شحن عسكرية قرب ميناء أوديسا - صوت بيروت إنترناشونال"
+      },
+      {
+        "url": "https://t.me/mod_russia/68121",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-12T05:31:13+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-10-12T06:26:05Z",
+    "last_updated": "2026-10-12T06:26:05Z",
+    "verification_issue": 122,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
     "date_utc": "2026-10-11",
     "summary": "Russia's defence ministry claimed that its drones struck a data centre in Odesa and also attacked a vessel in Chornomorsk port that had delivered military cargo. The claim gives no vessel name, flag or damage details.",
     "official_source_cited": null,
@@ -412,22 +461,22 @@
     "region": "Gulf of Oman",
     "date_utc": "2026-10-11",
     "summary": "A tanker was hit by a drone off the Oman coast, with two Indian seafarers missing and nine rescued. No vessel name, flag or exact position was given.",
-    "official_source_cited": null,
+    "official_source_cited": "UKMTO",
     "conflicting": false,
-    "confidence": 0.7,
+    "confidence": 0.9,
     "vessel_name": "PETRO DOLPHIN",
     "imo": "1072294",
     "flag": "Nicaragua",
     "vessel_type": "tanker",
     "vessel_category": "merchant",
-    "lat": 24.49,
-    "lon": 56.61,
+    "lat": 24.8,
+    "lon": 58.2,
     "location_text": "off Oman coast",
     "attack_type": "drone (UAV)",
     "damage": null,
     "casualties": "2 Indian seafarers missing, 9 rescued",
     "attribution_claimed": null,
-    "independent_evidence": false,
+    "independent_evidence": true,
     "id": "INC-20261011-008",
     "sources": [
       {
@@ -501,10 +550,100 @@
         "kind": "media",
         "published_at": "2026-10-12T05:30:06Z",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5QTEFyeTZmNkVwZ3dnSUZ6M0FoMjlBRXZMVkJpNGpvZ0VyRkNhOU1NQXdMUG9FcDBhY3ZKcVJaRERUV0RRSkhJOE9pa0dkazk5OFE?oc=5",
+        "source": "Yemen Online",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T06:02:12Z",
+        "title": "UKMTO: Drone Attack Targets Oil Tanker Near Oman - Yemen Online"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5UT1JLd0d2VWVPaHpCZWFGRlhoSU9rb01zaUNJY1NIQUZxUDZpYmpnQzAzYWVHLVVlVHhuTkc5djF5UXlGaGhjMkR1eF85azhXUjV4c1k5V29vcnktU0FMX0IwR2x0SmJ4N2k1T2gyd1g3OUZMVFdrTzFjbGxqQQ?oc=5",
+        "source": "شفق نيوز",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T05:47:55Z",
+        "title": "Shafaq News..Drone strikes oil tanker off Oman coast - شفق نيوز"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbXBfM0llVnJpek5EaC01NWNKMDVTTlBjQUFPNldKSFVaSjN3clN2MHV5UlFyUWItWnJPTTcyRUxpaTlvODJ4QVcwTWpQNHk0U3VTQ2Eycno5dFVhUFZEa1J1ZmFMQlBVVG81Z09IcnQ2X2RrUHNmcVg1YTNDdnRRWWNxS2l5UFkyR1lIc01Vd3dJT2N1U0xMcm5rZVlUTmk5LVNiN0JwRE9aSmFGcnE5LUc4cUZTNDJJM1HSAccBQVVfeXFMTldDQVFESkl2N2REVUI3NXUxWm5QRFJrSVI5TlJGUTA0M3hhcTE4TWRGYzFfSVJ5NXdxSkpxdlJHZWV6RHJRZWhXYjRHNGxkVEZJa0dUU0pKaTJFNldGaDR1NG10cHU3d3FSV0gtWG8tbHlhdF90alJQTlc3SkpPUkpFaGlnSVllUGlYUlIwaExCNUV3M3lFengyOVFpbU1sUmFPSkt5alhHVVVCSV9aZmdGdjlZdDktSC13ekowbG03bHBObl9Bbw?oc=5",
+        "source": "Outlook India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T05:06:06Z",
+        "title": "Two Indian Seafarers Missing After Drone Attack On Oman Tanker, Nine Rescued - Outlook India"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBXd0F6bmtIQlFRd2NnQlYxdldpc2xObU1HSEE2NlBrYkVBcEQtOGdyTTFOUVZwX3Nfc3N3RGhQM0xzc0J5QUlwRDF6MmdYMnFWZ2R5Vi1VMnVJMUZUZVAtdEQ0N01FZw?oc=5",
+        "source": "Rudaw",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T04:53:51Z",
+        "title": "Tanker struck by drone off Oman amid ongoing US-Iran tensions - Rudaw"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeVVOelVkM1hham1zcDJDX2xoVmtZVUp4UXh6X2NoVmdTZE9URXJhU1RFVnF1azlpcTNYVnJCWF9qN3JudnRqS2RybDFEU3BaWUhRelNvNEtfX2M0RVZNTVJEOEVCdXM1X1lqUkd4T0hoYm82RkdwdW9LMWxjOW9aVGpNTEVpd2h3WkVWeTIxbk1IRDQ?oc=5",
+        "source": "streamlinefeed.co.ke",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T04:47:40Z",
+        "title": "Drone Hits Tanker Off Oman; Two Indian Seafarers Missing - streamlinefeed.co.ke"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPNUVTaW5zd2d1a09GNFJoR3ZWSlZ0Rm5HbUJrOFBiNWRFUW5UTll3bUlfcUpKR0VORmQ5TWZYYW9SOGZjUVdBVEZvRUp4dGpqWTlRWmtacHJiMnN4WmtXVVB5Z0tvenJzWW1KT3pKWEVqRWhSX0VBUGVUTnJkRmpEemxZWVBKMDV5RUM5aWlXa1NvYVlsOTBjbTVmME1XQzVMLTNGYlZ1akRpOWg2amJ3aWpRT1ZJMEVkOUlxNjVWQy1kYm5fS1FXYkgzUGFJVGduTXdhSkpzMzZzY0dlX0F5c2NaUVFyQXI0VkpkdS1wWDdyemNxVi1nZDYwU2JoQVVW0gGAAkFVX3lxTE81RVNpbnN3Z3VrT0Y0UmhHdlZKVnRGbkdtQms4UGI1ZEVRblROWXdtSV9xSkpHRU5GZDlNZlhhb1I4ZmNRV0FURm9FSnh0ampZOVFaa1pwcmIyc3haa1dVUHlnS296cnNZbUpPekpYRWpFaFJfRUFQZVROcmRGakR6bFlZUEowNXlFQzlpaVdrU29hWWw5MGNtNWYwTVdDNUwtM0ZiVnVqRGk5aDZqYndpalFPVkkwRWQ5SXE2NVZDLWRibl9LUVdiSDNQYUlUZ25Nd2FKSnMzNnNjR2VfQXlzY1pRUXJBcjRWSmR1LXBYN3J6Y3FWLWdkNjBTYmhBVVY?oc=5",
+        "source": "The Economic Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T03:48:00Z",
+        "title": "Oman tanker attack: Union seeks 'urgent status update' on two Indian seafarers missing after drone strike - The Economic Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPXzNHNGxKenFIS2RMaElLSGNUS1FXM2VqblpSdXVwVldXdUFsbW4yNWVtaTV4SnJyVFR1REVValp6dDNOTjJrLVRTVWNlek5xS21UZnJoQnZjUDVJY0ZLTzRWMVpzYWFZSW1wLUxDdWdZejJ0bXVrUElkX3FOdDVxcF9SSVVmNWVKTm00RklsRmVDWU5ydDk4T0l5S1FyaTlya2c5OGszeHgzdnctbHNudThWUkZuLXh2cTI5bjBzM2lDcVBQcnFNa3ZrOUIxSnlQQ0pzY0F3ajdqN1pDWHBPSDNqMTJPaEJ1V0tYb3o5c2VBR2VL0gH0AUFVX3lxTE9fM0c0bEp6cUhLZExoSUtIY1RLUVczZWpuWlJ1dXBWV1d1QWxtbjI1ZW1pNXhKcnJUVHVERVVqWnp0M05OMmstVFNVY2V6TnFLbVRmcmhCdmNQNUljRktPNFYxWnNhYVlJbXAtTEN1Z1l6MnRtdWtQSWRfcU50NXFwX1JJVWY1ZUpObTRGSWxGZUNZTnJ0OThPSXlLUXJpOXJrZzk4azN4eDN2dy1sc251OFZSRm4teHZxMjluMHMzaUNxUFBycU1rdms5QjFKeVBDSnNjQXdqN2o3WkNYcE9IM2oxMk9oQnVXS1hvejlzZUFHZUs?oc=5",
+        "source": "The Tribune",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T03:16:21Z",
+        "title": "Seafarers Union seeks urgent status update on two Indian seafarers missing after attack on commercial vessel in Hormuz - The Tribune"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNR1ptR3JfNllmREh3c3NMbWhOZGloS2VZbW1iYkFmbDJvT0tiVlZON1d6NlY1MlIyWUxad0V1SzRIQkI0MmItbzRTM2prU2VCMnZvZUllVjFQQjJ5aExPbkpnUkxXXzRobFV6UVcwVkliSmkxOEY4WmhLTEVVSkNUNFExRmdSdEprTU9XaWdmdllCN1h4Yi1wSG1Tbjd0LTU1dTRNMlFR?oc=5",
+        "source": "The Maritime Executive",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T00:47:29Z",
+        "title": "Two Seafarers Missing in Drone Attack on Product Tanker off Oman - The Maritime Executive"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVlNMR3JCbkNsRWdmSHMxZWNVNmFOUFRoaTZ4TWh1cWpld3o3dVJiT1cxeWtSZi16RnJVVVlnYmllSDFDd2xua2Z3aE5wMk5iY3k5OVpubGNyZUd1amFUbTNiWVJRcHVENG1NZWR1R0VuRmx1MTJGeTY0N0FhTzJYSHZ5Mmtjd3BJZU1uVldrTkxhNExFRENHbHk2aENqMFdMOHkwLVBOaXdIdUk1V2ZRUTlEWQ?oc=5",
+        "source": "Anadolu Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T23:58:25Z",
+        "title": "2 Indian nationals missing after tanker hit by drone off Oman’s coast - Anadolu Ajansı"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5GRUhJNG5KZE0tYjhXdnBJaFhxenFzTExNbDJUdmVMd2tGTXlsbG9fWlhtaTMwZ0tjT3BHX3QzT0NEYUMxQktuVWtVa3oxczhjNGtydGVLa1V0VDZFVUhTdmFJeFJJZ2Ff?oc=5",
+        "source": "Sada Elbalad English",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T23:53:21Z",
+        "title": "Drone Strike Targets Oil Tanker off Oman - Sada Elbalad English"
       }
     ],
     "first_seen": "2026-10-11T19:41:00Z",
-    "last_updated": "2026-10-12T05:30:06Z",
+    "last_updated": "2026-10-12T06:26:19Z",
     "verification_issue": null,
     "verdict": {
       "status": "reported",
@@ -1267,6 +1406,47 @@
     "position_approx": true
   },
   {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-11",
+    "summary": "India condemned attacks on two vessels in the Hormuz region and called for de-escalation. No details on the vessels or attacks were provided.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Hormuz region",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261011-024",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOXN6dzVqNW4tRUtBaWp3c24zLTdmeDZYYnp5MkxNUWZkeEo5aFhWdDRSWW1Mb3hmT1VrSC1uakZrWjQta0hzdlkzOXFVNkVQdkdfSklSUDJKZnVoVXNqaGFqSEJFX0Z5Uy1BSVFTb0FFUTJoOGZoTVpsLTJvbmxIcGxXR2JmejFyQ09JUGpxenkxZmc0a0FXeDJ2Q1hGVThUbmRBNEhIWjZwUFFFMGZZR0dOQ3phUUhpUGl5VkpxQVR1a21MczBad3QxR0RZMmtwSDZMSHNB0gHbAUFVX3lxTE4xajFVQlVESmFqOVhERnRKR1k1Ti0zVDZsLW51WC03X1pxY0NFTHlCQU50dXJFVEl1T0tnOWZiY3g5WGsxOGhhSkRXbUJZZ1BISGlmaUZxc2lqcWc5bll5TTZDZjNQZkJZSWxDREx2bjJ4U08xMlRYMWlLNGF0NDctQ0N0ZzVrMThiX3VmQTBXS3BSQlhhWHhkNDVfcmFMdjFQSkJkOUY0R1hLcnh3bE1PcDgtRDZxOHVMR3I1SlVMM1g1WjZ6UWZIYTIybGpMWTJ0cVdINnZLYjYtSQ?oc=5",
+        "source": "LatestLY",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T00:10:16Z",
+        "title": "World News | India Condemns Attacks on Two Vessels in Hormuz Region, Calls for De-escalation - LatestLY"
+      }
+    ],
+    "first_seen": "2026-10-12T06:26:19Z",
+    "last_updated": "2026-10-12T06:26:20Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261010-016",
+    "position_approx": true
+  },
+  {
     "region": "Persian Gulf",
     "date_utc": "2026-10-10",
     "summary": "An oil tanker with 22 Indian crew members was attacked at Sharjah anchorage, according to Indian minister Sonowal. All crew were reported safe.",
@@ -1414,7 +1594,7 @@
     "summary": "Russia's defence ministry claimed on 10 October 2026 that its drones struck a general cargo ship at sea as it carried military goods toward Odesa, with a related claim of a dry cargo ship hit in Chornomorsk port. A later headline reported a Russian attack on a dry cargo ship and a logistics centre in Ukraine, matching the same claimed strike.",
     "official_source_cited": null,
     "conflicting": false,
-    "confidence": 0.7,
+    "confidence": 0.8,
     "vessel_name": null,
     "imo": null,
     "flag": null,
@@ -1654,10 +1834,28 @@
         "kind": "media",
         "published_at": "2026-10-11T06:27:00Z",
         "title": "Russia hits another Ukraine ship in Black Sea - Breakingthenews.net"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWENYV2h2dUNBcGQteV9Kd3Bpb3NTNnhiTnBZU0RNQl9yZnRIeU5IdkxMWWw0V1ROZGMzcmVmWVdybGtjdDh3a3Q4MkNkdGY4Tnh2dTh4VkNwS2hYQlAyczBQRXRDYzNXSDczRVhuaHFaWFQ0VFpxdWZRREczMnBTNVlvYy1zRk1SdlFleXBzaFZmSW0xRWxPd1RjMFJ3NW8w?oc=5",
+        "source": "Sada Elbalad English",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T22:03:39Z",
+        "title": "Russia Claims Strike on Cargo Ship Bound for Chornomorsk, Logistics Hub in Mykolaiv - Sada Elbalad English"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBhNG1BYmt4bXd0emhBcFRnT0tueU5UeVdBZTg3NmhnNTI5MUZpWk1yNWpqRmlTVVhBeHJvZ2ZEd2ZIMkMtT2NQS3lfQW4yMlk2ODkyMG53?oc=5",
+        "source": "إرم نيوز",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T16:59:30Z",
+        "title": "الجيش الروسي: استهداف سفينة شحن ومركز لوجستي بأوكرانيا - إرم نيوز"
       }
     ],
     "first_seen": "2026-10-10T06:19:59Z",
-    "last_updated": "2026-10-12T05:15:17Z",
+    "last_updated": "2026-10-12T06:26:19Z",
     "verification_issue": 107,
     "verdict": null,
     "published_in": [
@@ -2900,10 +3098,64 @@
         "kind": "media",
         "published_at": "2026-10-11T06:50:54Z",
         "title": "US military strikes Panama-flagged vessel near Strait of Hormuz - Latest news from Azerbaijan"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipAVBVV95cUxPc3BZNzZ2VEdiUzFfbHZjN2xRaDVpb2p6dmFTVkNQU2pDeE9aZzlvbG5GSVJkVTFkTUhvN00zUlA2U0xhRXQ0Mzh3Nk8ycUxUdDgtQ3RNa0ZBeHJGb2JGZmJKZENzY3pCQVg5M3QzUUt3T1IzSWg4NG05NTQwNVVaTFYtWnNTR2F0RGRnakNmWkpOdG9pVzBpSHdEQXpVYWZKdnRoVFY1bzI3enJYdS1GMGVrdnd0RjVSOFhMS3NlS1lZQWRmWlMtWDN0QnppSEZnYVJ4eHV5RFNCektZSDNvTTlRbGpNMDRLUEJnaVFHeWFTN25rSmpVUWcyTUZkaXF5WWlNNHJhMk5keTVENzZFTHR3alVnZHNKZUo3VnVzZnFsMTc4eTBZVG9paWlTX3dIaHdIMmZzd0pkMHhWSGFGVGZldlNPQWRYTUxpN191a0dibVpnTXFXZ2Zta1JxSG1aQVpmQVlHYVFMcVdBWUlodkVXM2M3bGwxZUJOZHpZY1BCekpsQWtsMDBhYklkd0RTeWJBTmRyTTg4Vm1hclZEVVlqdU1TRm4xTE0wc0pSZElzbkIxWS1iNEdRQnJkXzE0SHo4U0NzSGotNUZ0SFgtTmRQOV8zR2R2NW1MOS10YnVOMlZtby10V3FLSVZ4OWN0Y09qekxiTERsbWI2Q1Bnc0tDX2dYbkpKY2dsYTdfWTBnUWVFUHZpaWQ3Z2VDMlk3MDZqU1VmRFM1VmpqZWgwNS1rS1JEQjJuOFp3bGFVTF9ERVJNMnR4eVM5VWQ2enBNckQ1bUtsazRmSTBZbDBnVF9wbFUwb2xRUUFvWl9aX0JyWjZXazE1aTZYX0YzWjhZUGplTEFWbGpYYVhSMTN0c2FpWTNOYlV3MEZyVnctWGVOc3hG?oc=5",
+        "source": "Masrawy",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T05:45:56Z",
+        "title": "ترفع علم نيكاراجوا.. فقدان 2 من أفراد طاقم ناقلة نفطية استهدفتها مسيرة في مضيق هرمز - Masrawy"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVElvcU5NT0FJV2dmRHZfQ1VucnNDelNJWTRmeG1OLWYxX0RaenVPUTU5WTdiZXFmdDVRa2tBS0pPaTdPQUhzamFwdXhEa0thVXBkMVczYnpnYUduMjU5T0Mxc1pBcGtnaWxKQ1g1VWk2eXpwdTRra2RYUXNaSmdLRFVHa2pIendWTExnQ18tTERac2xubjBRc3oxaEh1cVFxa2p0QWNhMXVieWgtNXF3?oc=5",
+        "source": "Punjab Newsline",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T05:31:41Z",
+        "title": "Two sailors missing after drone attack on Indian-crewed tanker near Hormuz - Punjab Newsline"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVFA4bXRYeG9mbnJkd1FmOTU4ZUdnRW8weWNRdy1SVXFoZHdIVlJORXhLeDBGU2RkMjN4ekJFNHZvXzhVYUNmeFBodGZHb3pwZG50TEwxazRsMkx4bklGXzBZS2lVS01EdGNmck1LQzMxUDRrcENQbEZXc0gwTnowLUxaOHNrWEpXV00xVGxNMVJaRHgteEd2YUQ1WW1Lai1qbTRZ?oc=5",
+        "source": "Ships & Ports",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T05:24:49Z",
+        "title": "Tanker Attacks Escalate as US Forces Disable Cargo Ship in Gulf of Oman - Ships & Ports"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMi0zODFLeGVDSVZ4WlRsWU1YbXJnX2tjYkhVa3BIV3FJWWJlNDZNLVhTNW5uV2NSV0RSenU5ZVRhaDBhaC14Zl9sZjBmbDY1b25qRUloUnpXVm9iSnR4OG5QeF9fVzV1TE1VUGpoTW1fOGI1MUs5QU92UWhNYTdjRHctSUozaThzNEdSRGFoUEdWLVQxcC1lMEYxX3p3M2N2V2F4NTJfQ2MzS2VTUUVVVnprWkZueVJsaUpEbElBeFR1Q0pOZ3JJ0gHMAUFVX3lxTE94Ukg3ak1ULXk4RFA5b2llRTU4WXQ2cEtqZmYzeW43bVY4ZzhzZ1VxYWFLUlNNRTNJN0xLSGlHQllkU3IxQmkxcjFmRUtxbG1GV3FUM0pxdEx1Sl9QM3FnQWotMEJFckhqVl9Hc29VeGRqZ25ObWpURC02d3htbEFHTWtfVEpGODV2b1JCQW1ma2tTTU84cFVhX3pLck1BYnZHbDVOZXgzclRTOU0xQnBqQ3pzNDlmenZTQTloZ0VfbmJpS3pBSDBvQjVobA?oc=5",
+        "source": "Bhaskar English",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T05:10:13Z",
+        "title": "Drone attack on ship near Hormuz, 2 Indians missing: India urges to resolve contention; 3 vessels targeted ... - Bhaskar English"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaldGSEo1S3NpcmFwMVhGaWg3RW1USDh4MHVNQ3JCMWRiZmJTelVjZkVIaHd3SnFZTFNnTXd4bFNBblBqQ3h5OWZSQnpmSWQ4NXdhZkthRHZDY2hyamM4ZENYSk9nU2thRHU5cjNaX29GSHdXa3FWRnJaV3VNYmd2Y25xdjJiMk9aQ2I2SU1MUWt5a1dVVGtIVmEyQWRXUXp3TGFVRGdXZTJlWGRXbjRDZXJRZ2JQTTZEWHRueC16ZmxvMGZlbkpDWTBjZ3FrM1Iw0gHgAUFVX3lxTFBUU0VTZ0xLY3lzQkRPbkJUR2lFVkR0NjFKZDNidW1ZN2Q4cGQwbjlfYmprNW9HT2VMQ2g5MGVuU29sdUUta3NCZU1ka19GTkJSQ1VmVF9vM2o0eUtvbWx5NGxUVUg4M0t5OTVlQmdESVVSakJDOFd2cjNWdGVFanRMc0ZPYm9LYnd0Sm92clRfdWVEd2hTbXVoVG14Q1ZpRGkzX0RfcVhfQncwdUJZMXFHUExxcy1GRll6dkFGaEV1b2c4ZHJ0dkl3aDRQSXhPcmg0aVJkcXZsOW1PRGNQUm1Q?oc=5",
+        "source": "Swarajya",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T04:41:17Z",
+        "title": "India Condemns Hormuz Vessel Attacks Leaving Two Seafarers Missing, Calls For End To Strikes On Ships - Swarajya"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOXN6dzVqNW4tRUtBaWp3c24zLTdmeDZYYnp5MkxNUWZkeEo5aFhWdDRSWW1Mb3hmT1VrSC1uakZrWjQta0hzdlkzOXFVNkVQdkdfSklSUDJKZnVoVXNqaGFqSEJFX0Z5Uy1BSVFTb0FFUTJoOGZoTVpsLTJvbmxIcGxXR2JmejFyQ09JUGpxenkxZmc0a0FXeDJ2Q1hGVThUbmRBNEhIWjZwUFFFMGZZR0dOQ3phUUhpUGl5VkpxQVR1a21MczBad3QxR0RZMmtwSDZMSHNB0gHbAUFVX3lxTE4xajFVQlVESmFqOVhERnRKR1k1Ti0zVDZsLW51WC03X1pxY0NFTHlCQU50dXJFVEl1T0tnOWZiY3g5WGsxOGhhSkRXbUJZZ1BISGlmaUZxc2lqcWc5bll5TTZDZjNQZkJZSWxDREx2bjJ4U08xMlRYMWlLNGF0NDctQ0N0ZzVrMThiX3VmQTBXS3BSQlhhWHhkNDVfcmFMdjFQSkJkOUY0R1hLcnh3bE1PcDgtRDZxOHVMR3I1SlVMM1g1WjZ6UWZIYTIybGpMWTJ0cVdINnZLYjYtSQ?oc=5",
+        "source": "LatestLY",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T00:10:16Z",
+        "title": "World News | India Condemns Attacks on Two Vessels in Hormuz Region, Calls for De-escalation - LatestLY"
       }
     ],
     "first_seen": "2026-10-11T04:38:32Z",
-    "last_updated": "2026-10-12T05:15:17Z",
+    "last_updated": "2026-10-12T06:26:20Z",
     "verification_issue": 116,
     "verdict": {
       "status": "confirmed",
