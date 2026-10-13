@@ -53,7 +53,8 @@ def _system(regions_on: list[str]) -> str:
         "Merge only when the details clearly fit: same area, dates within about two days, compatible vessel and "
         "attack details, overlapping headlines. When unsure, do not merge.\n"
         "2. Mark an entry out of scope ONLY for one of these reasons: (a) no vessel was attacked at all (a strike "
-        "on a port, terminal or land with no ship hit); (b) the target was a warship or military vessel; (c) it "
+        "on a port, terminal or land with no ship hit); (b) the target was a warship or military vessel (a merchant ship such as a tanker, bulk carrier or cargo ship is never a "
+        "military vessel, even if one side says it carried military cargo or was running a blockade); (c) it "
         "describes no specific incident at all (general commentary, statistics, policy news). These are NOT "
         "reasons to drop an entry: the vessel is not named, there is only one source, it is an unconfirmed claim "
         "by one side (claims are published as claims), or details are thin. "
@@ -258,6 +259,12 @@ def consolidate(incidents: list[dict]) -> int:
             # (c) "no specific incident" is only believable for an entry with no vessel type and no location.
             if not re.match(r"\s*\(?[ab]\)", note) and (inc.get("vessel_type") or inc.get("location_text")):
                 log.info("Review: keeping %s (model said out of scope, but it names a vessel type or place: %s)", inc["id"], note)
+                continue
+            # A merchant ship stays in scope whatever one side says it carried or did (military cargo, running a
+            # blockade). An attack an earlier brief already carried is left to the editor check, which can correct it.
+            if (re.match(r"\s*\(?b\)", note) and inc.get("vessel_category") == "merchant") or inc.get("published_in"):
+                log.info("Review: keeping %s (model said out of scope, but it is a merchant ship or already published: %s)",
+                         inc["id"], note)
                 continue
             inc["verdict"] = {"status": "rejected", "by": "review pass", "at": stamp, "note": f"Out of scope: {note}"}
             inc["status"], inc["last_updated"] = "rejected", stamp

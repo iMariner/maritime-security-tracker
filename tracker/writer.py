@@ -140,8 +140,8 @@ The structure is already decided; you only fill these slots and return them as J
 "lede": one sentence, at most 35 words: who, what, where, when, and who said it, for the lead incident.
 "paragraphs": an object with one entry for EVERY incident id given (never skip one). kind "new": 2 or 3 short sentences (ship, flag and
   type, time and place, damage and crew, who said it, what is still unknown). For the lead, add what the lede did
-  not say instead of repeating it. kind "update": 1 or 2 sentences saying what is new since our last brief and when
-  the attack happened. kind "earlier": ONE sentence starting "Earlier in the week," with its date.
+  not say instead of repeating it. kind "update": 1 or 2 sentences saying what is new since our last brief (its
+  latest_news, when given, is that news: a denial, casualties, a name) and when the attack happened. kind "earlier": ONE sentence starting "Earlier in the week," with its date.
 "key_points": an object with one entry per id in point_ids: one sentence of at most 18 words each, each a
   different fact about what happened, worded differently from the headline and lede. Never a bullet that only
   says what is unknown or missing. For a "claimed" incident the bullet names who claims it ("Russia's defence

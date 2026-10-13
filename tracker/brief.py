@@ -148,7 +148,7 @@ def _clean_html(text: str) -> str:
 def _facts(inc: dict) -> dict:
     fact = {k: inc.get(k) for k in ("region", "vessel_name", "vessel_type", "flag", "imo", "date_utc", "location_text",
                                     "attack_type", "damage", "casualties", "attribution_claimed", "status",
-                                    "official_source_cited", "summary", "position_note")}
+                                    "official_source_cited", "summary", "position_note", "latest_news")}
     fact["reported_by"] = sorted({s["source"] for s in inc["sources"] if s.get("source_type") != "satellite"})[:8]
     if inc.get("verdict"):
         fact["checked_by_iMariners"] = inc["verdict"].get("note")

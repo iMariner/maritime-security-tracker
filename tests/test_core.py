@@ -12,6 +12,9 @@ def src(url, side="ua", kind="official", source="Ukrainian Navy"):
             "published_at": "2026-10-01T10:00:00Z", "title": None}
 
 
+from tracker.common import parse_dt
+
+
 def report(**kw):
     base = {"region": "Black Sea", "vessel_name": None, "imo": None, "date_utc": "2026-10-01T08:00:00Z",
             "summary": "Ukraine's navy said a drone hit a bulk carrier.", "confidence": 0.8, "source": src("https://t.me/a/1")}
@@ -161,6 +164,7 @@ def test_review_pass_merges_and_drops(monkeypatch):
     b, _ = store.merge(report(region="Strait of Hormuz", source=src("https://n/b")), incs, model_checked=True)
     d, _ = store.merge(report(region="Persian Gulf", source=src("https://n/d")), incs, model_checked=True)
     f, _ = store.merge(report(region="Strait of Hormuz", source=src("https://n/f")), incs, model_checked=True)
+    monkeypatch.setattr(c, "now_utc", lambda: parse_dt("2026-10-02T06:00:00Z"))  # the test data's week
     monkeypatch.setattr(c.llm, "available", lambda: True)
     monkeypatch.setattr(c.llm, "chat_json", lambda *args, **kw: {
         "groups": [{"keep": a["id"], "keep_attack_date": "2026-10-01",
@@ -749,3 +753,46 @@ def test_no_correction_for_duplicates():
     from tracker.brief import _only_duplicate
     assert _only_duplicate({"verdict": {"note": "the story covered attacks our earlier briefs had already reported"}})
     assert not _only_duplicate({"verdict": {"note": "mis-dated: the attack was on 27 September"}})
+
+
+def test_review_update_and_clear_name(tmp_path, monkeypatch):
+    from tracker import common, review
+    claim = {"id": "INC-20261009-004", "region": "Strait of Hormuz", "status": "claimed", "vessel_name": "NV SUNSHINE",
+             "published_in": ["2026-10-10"], "sources": []}
+    ukmto = {"id": "INC-20261012-031", "region": "Strait of Hormuz", "status": "confirmed", "vessel_name": "AL MAQAM",
+             "flag": "Liberia", "sources": []}
+    fresh = {"id": "INC-20261013-001", "region": "Black Sea", "status": "reported", "sources": []}
+    incs = [claim, ukmto, fresh]
+    monkeypatch.setattr(review.store, "load", lambda: incs)
+    monkeypatch.setattr(review.store, "save", lambda x: None)
+    monkeypatch.setattr(review, "REVIEW_DIR", tmp_path)
+    monkeypatch.setattr(review, "BRIEFS_DIR", tmp_path)
+    common.write_json(tmp_path / "2026-10-13.json", {"incidents": [{"id": "INC-20261012-031"}, {"id": "INC-20261013-001"}]})
+    review.apply("/review 2026-10-13\n"
+                 "name: INC-20261012-031 = none | Al Maqam is the VLCC in Iran's claim, not UKMTO's product tanker\n"
+                 "flag: INC-20261012-031 = none | Liberia is the Al Maqam's flag\n"
+                 "update: INC-20261009-004 = Vietnam's maritime authority and the owner deny the ship was hit | https://vov.vn/x\n"
+                 "update: INC-20261013-001 = something | https://x.y/z\n")
+    assert "vessel_name" not in ukmto and "flag" not in ukmto
+    assert claim["latest_news"].startswith("Vietnam's") and claim["news_changed_at"]
+    assert claim["sources"][-1]["url"] == "https://vov.vn/x"
+    rec = common.read_json(tmp_path / "2026-10-13.json", {})["review"]
+    assert rec["restored"] == ["INC-20261009-004"]       # the frozen rebuild takes the update in
+    assert len(rec["refused"]) == 1                       # an update needs a record an earlier brief carried
+
+
+def test_review_pass_keeps_merchant_ships(monkeypatch):
+    from tracker import consolidate as c
+    incs = []
+    a, _ = store.merge(report(region="Black Sea", vessel_name="Ocean Molica", source=src("https://n/a")), incs, model_checked=True)
+    b, _ = store.merge(report(region="Black Sea", source=src("https://n/b")), incs, model_checked=True)
+    a["vessel_category"] = "merchant"
+    b["published_in"] = ["2026-10-01"]
+    monkeypatch.setattr(c, "now_utc", lambda: parse_dt("2026-10-02T06:00:00Z"))
+    monkeypatch.setattr(c.llm, "available", lambda: True)
+    monkeypatch.setattr(c.llm, "chat_json", lambda *args, **kw: {"groups": [], "out_of_scope": [
+        {"id": a["id"], "reason": "(b) a cargo ship running a blockade"},
+        {"id": b["id"], "reason": "(a) port strike"}]})
+    monkeypatch.setattr(c.github_issues, "close_issue", lambda *args, **kw: None)
+    c.consolidate(incs)
+    assert a["status"] != "rejected" and b["status"] != "rejected"

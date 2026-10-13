@@ -17,7 +17,10 @@ in the GITHUB_TOKEN environment variable. Never print, log or write out the toke
      and Gulf of Aden near Bab el-Mandeb, or Hormuz and the Gulf of Oman, matching details). If they are, merge
      the thinner one into the better sourced one.
    - Ship name, flag and IMO: if a source names the ship for this exact incident and the data does not have it,
-     add it. Search the maritime press (The Maritime Executive, TradeWinds, Lloyd's List, Splash247, Seatrade,
+     add it. Never give a record the name or flag of a ship from a different report: one side's claim about a
+     named ship is not the same event as an unnamed UKMTO warning unless a source links the two (a VLCC is not
+     a product tanker). If a record already carries another ship's name, flag or IMO, clear it with
+     name: <id> = none, flag: <id> = none or imo: <id> = none. Search the maritime press (The Maritime Executive, TradeWinds, Lloyd's List, Splash247, Seatrade,
      gCaptain) for the name when no source in the file gives one.
    - The date is right. When sources disagree, set date: to the official warning's date (UKMTO, JMIC, IMO) and
      add a note that gives each source and its date.
@@ -31,6 +34,10 @@ in the GITHUB_TOKEN environment variable. Never print, log or write out the toke
      or casualty figure is UKMTO's only if UKMTO's own warning says it; a government's reaction belongs to the
      ship its statement names). You cannot edit the text; fix the data underneath it, or say in a note
      exactly what the article must say instead.
+   - News on an attack an EARLIER brief carried (a flag state or owner denying a claimed strike, casualties,
+     a name, a confirmation): give an update: line for that earlier record, so today's brief tells readers.
+     Find those records in the merges you make and in the sources you open; earlier briefs are listed in
+     https://imariner.github.io/maritime-security-tracker/
    - The article shape: the headline and lede are about the most serious attack in the last 24 hours (deaths,
      missing crew, sinking first), one story per headline, no fact repeated between key points, lede and
      sections, and "What crews should know" says nothing the data does not support. Note anything wrong.
@@ -42,7 +49,8 @@ unmerge: <id of a record that was wrongly merged into another> | <why it is a di
 casualties: <id> = <what the sources say about killed, injured or missing crew, or none> | <link or reason> (fix it when the record carries another incident's casualties)
 damage: <id> = <what the sources say, or none> | <link or reason>
 region: <id> = <Black Sea, Sea of Azov, Strait of Hormuz, Persian Gulf, Gulf of Oman, Red Sea or Gulf of Aden> | <why>
-flag: <id> = none | <why> (clears a flag that belongs to another ship)
+flag: <id> = none | <why> (clears a flag that belongs to another ship; name: <id> = none and imo: <id> = none work the same way)
+update: <id of a record an earlier brief carried> = <what is new, one sentence> | <link> (a denial, casualties, a name or a confirmation since that brief; it goes into today's brief as an update)
 lead: <id> | <why> (the most important NEW attack of the last 24 hours: deaths or missing crew first, then injuries, then damage; never an attack already in an earlier brief, never a one-sided claim if a confirmed attack exists). Always give exactly one lead line.
 name: <id> = <SHIP NAME> | <link to the page that names it>
 flag: <id> = <flag state> | <link>

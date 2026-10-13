@@ -15,7 +15,9 @@
        casualties: INC-... = <what the sources say, or none> | <link or reason>
        damage: INC-... = <what the sources say, or none> | <link or reason>
        region: INC-... = Persian Gulf | <why>
-       flag: INC-... = none | <why a wrong flag is cleared>
+       flag: INC-... = none | <why a wrong flag is cleared>   (name: and imo: = none work the same way)
+       update: INC-... = <what is new, one sentence> | <link>   (news on an attack an earlier brief carried,
+               such as a denial, casualties or a confirmation; it goes into today's brief as an update)
        lead: INC-... | <why this attack leads today's brief>
        status: INC-... = rejected | <reason>
        note: <anything the publisher should know, one sentence>
@@ -83,6 +85,8 @@ def parse(body: str) -> tuple[str, list[tuple], list[str]] | None:
             changes.append(("merge", mm.group(1).upper(), mm.group(2).upper(), why))
         elif key in ("unmerge", "restore") and (mm := re.match(ID, rest, re.I)):
             changes.append(("unmerge", mm.group(1).upper(), "", why))
+        elif key == "update" and (mm := re.match(ID + r"\s*=\s*([^|]+)", rest, re.I)):
+            changes.append(("update", mm.group(1).upper(), mm.group(2).strip(), why))
         elif key == "lead" and (mm := re.match(ID, rest, re.I)):
             changes.append(("lead", mm.group(1).upper(), "", why))
         elif key in ("name", "flag", "imo", "date", "status", "position", "casualties", "damage", "region") \
@@ -186,6 +190,20 @@ def apply(body: str) -> str | None:
             restored.append(target)
             done.append(f"{target} separated from {keep['id'] if keep else 'its merge'}" + (f" ({why})" if why else ""))
             continue
+        if kind == "update":
+            # news on an attack an earlier brief carried: the record is not in today's request, so it is checked here
+            earlier = [d for d in (inc or {}).get("published_in") or [] if d != day]
+            if not inc or inc.get("merged_into") or not earlier or not why:
+                refused.append(f"update {target}: not a record an earlier brief carried, or no source given")
+                continue
+            inc["latest_news"] = value[:400]
+            inc["news_changed_at"] = inc["last_updated"] = stamp
+            src = _source(why, cited=True)
+            if src:
+                inc["sources"].append(src)
+            restored.append(target)
+            done.append(f"update on {target}: {value[:120]}")
+            continue
         if target not in allowed or not inc:
             refused.append(f"{kind} {target}: not in today's draft")
             continue
@@ -236,13 +254,14 @@ def apply(body: str) -> str | None:
             inc["region"], inc["last_updated"] = region, stamp
             done.append(f"region of {target} set to {region}")
             continue
-        if kind == "flag" and value.strip().lower() in ("none", "unknown", "clear"):
+        if kind in ("flag", "name", "imo") and value.strip().lower() in ("none", "unknown", "clear"):
+            # a name, flag or IMO that belongs to another ship or another incident
             if not why:
-                refused.append(f"flag {target}: clearing needs a reason")
+                refused.append(f"{kind} {target}: clearing needs a reason")
                 continue
-            inc.pop("flag", None)
+            inc.pop({"name": "vessel_name"}.get(kind, kind), None)
             inc["last_updated"] = stamp
-            done.append(f"flag of {target} cleared ({why[:80]})")
+            done.append(f"{kind} of {target} cleared ({why[:80]})")
             continue
         src = _source(why, cited=kind != "status")
         if kind in ("name", "flag", "imo", "date"):

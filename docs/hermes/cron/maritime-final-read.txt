@@ -25,6 +25,12 @@ environment variable. Never print, log or write out the token.
      earlier brief), and name the ship when it is known. If not, give a lead: line with the right id.
    - A record that carries another incident's details (casualties, flag, damage) is fixed with casualties:, damage:
      or flag: = none lines, not only with a note.
+   - The Sources list and the map image labels (ship name and the colour for confirmed, reported, claimed)
+     match the article: a one-sided claim about a named ship must never show as confirmed. A wrong label is a
+     factual error: fix the data with name:, flag: or status: lines, not a warning.
+   - The standfirst and tweet say nothing the article body does not explain (for example a number of ships).
+   - News on an attack an earlier brief carried (a denial, casualties, a confirmation) is in the draft; if the
+     editor only noted it, give an update: line.
    - The tweet matches the article.
    Do not open the original sources again unless a sentence looks wrong; the editor check already did that.
 4. Post exactly ONE comment on issue number 38 with the GitHub API "create an issue comment" call from python3
@@ -34,7 +40,7 @@ environment variable. Never print, log or write out the token.
      clumsy wording). Style alone is not a warning.
    - If there is a factual error that the data can fix: first line "/review D", then the fix lines in the same
      forms as the editor check (merge:, unmerge:, name:, flag:, imo:, date:, position:, status:, casualties:,
-     damage:, region:, lead:, note:, lesson:),
+     damage:, region:, lead:, update:, note:, lesson:),
      and a last line exactly "send: yes". This rebuilds once and sends without another final read, so only use
      it when the error is real; put anything uncertain in a note.
    Use only ids from the file (unmerge may name a recently merged id). Plain English, no em dashes, no personal

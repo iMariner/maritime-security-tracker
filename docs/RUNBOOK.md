@@ -180,6 +180,14 @@ and the tweet text. Lines starting with ⚠️ mean "read the draft before publi
   draft called the Gulf quiet; n8n's database failed (HTTP 500). Added `unmerge:`, frozen rebuild snapshot, code
   consistency checks, the 05:25 Hermes final read (`/send`), n8n retries without a false "sent" mark, and the
   `/publish` fallback that does not need n8n.
+- **10 Oct**: code-planned writer (code picks the lead and sections, the AI fills sentences); editor lines
+  `lead:`, `casualties:`, `damage:`, `region:`, `flag: = none`.
+- **13 Oct**: the editor put Iran's claimed VLCC Al Maqam on UKMTO's unnamed product tanker, so the Sources list
+  and map showed a claim as confirmed; Vietnam's denial of the NV Sunshine strike (carried 10 Oct) had no way into
+  the brief; the hourly review pass rejected the Ocean Molica (a bulk carrier) as a "military vessel" after two
+  briefs had carried it. Added `name:`/`imo: = none`, `update: ID = what is new | link` (puts news on an earlier
+  brief's attack into today's brief), and a review-pass guard: merchant ships and already-published attacks are
+  never rejected automatically.
 
 ## 11. Costs (October 2026)
 
