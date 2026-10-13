@@ -1,7 +1,7 @@
 {
   "date": "2026-10-13",
-  "title": "UKMTO confirms tanker hit by projectile in Strait of Hormuz",
-  "preview_url": "https://imariner.github.io/maritime-security-tracker/preview/2026-10-13.html?v=051024",
+  "title": "UKMTO reports product tanker struck in Strait of Hormuz",
+  "preview_url": "https://imariner.github.io/maritime-security-tracker/preview/2026-10-13.html?v=062328",
   "incidents": [
     {
       "id": "INC-20261012-003",
@@ -63,9 +63,9 @@
       "status": "confirmed",
       "region": "Strait of Hormuz",
       "date_utc": "2026-10-12",
-      "vessel_name": "AL MAQAM",
+      "vessel_name": null,
       "imo": null,
-      "flag": "Liberia",
+      "flag": null,
       "vessel_type": "tanker",
       "location": "Strait of Hormuz",
       "attack": "other",
@@ -147,6 +147,73 @@
           "title": null,
           "url": "https://www.vesselfinder.com/vessels/details/9296389",
           "published": "2026-10-13T05:09:36Z"
+        }
+      ]
+    },
+    {
+      "id": "INC-20261009-004",
+      "status": "claimed",
+      "region": "Strait of Hormuz",
+      "date_utc": "2026-10-09",
+      "vessel_name": "NV Sunshine",
+      "imo": "9350288",
+      "flag": "Vietnam",
+      "vessel_type": "LNG/LPG carrier",
+      "location": "Strait of Hormuz",
+      "attack": "other",
+      "damage": null,
+      "casualties": null,
+      "attribution": "Iran claimed the attack",
+      "summary": "Iran's IRGC claimed a strike on an LPG tanker in the Strait of Hormuz on 9 October and threatened to punish vessels trying to cross. A later headline repeated the claim of a gas tanker struck in the Strait of Hormuz with no new details.",
+      "checked_by_hermes": true,
+      "sources": [
+        {
+          "outlet": "RIA Novosti",
+          "title": null,
+          "url": "https://t.me/rian_ru/347688",
+          "published": "2026-10-09T12:47:14+00:00"
+        },
+        {
+          "outlet": "vesselfinder.com",
+          "title": null,
+          "url": "https://www.vesselfinder.com/vessels/details/9350288",
+          "published": "2026-10-10T05:08:27Z"
+        },
+        {
+          "outlet": "vesselfinder.com",
+          "title": null,
+          "url": "https://www.vesselfinder.com/vessels/details/9350288",
+          "published": "2026-10-10T05:08:27Z"
+        },
+        {
+          "outlet": "vesselfinder.com",
+          "title": null,
+          "url": "https://www.vesselfinder.com/vessels/details/9350288",
+          "published": "2026-10-10T05:40:20Z"
+        },
+        {
+          "outlet": "Verifier evidence",
+          "title": null,
+          "url": "https://middleeastmonitor.com/20261009-iran-says-lpg-carrier-struck-catches-fire-while-crossing-strait-of-hormuz-via-illegal-route",
+          "published": "2026-10-12T04:33:49Z"
+        },
+        {
+          "outlet": "Verifier evidence",
+          "title": null,
+          "url": "https://en.mehrnews.com/news/248442/Massive-LPG-tanker-targeted-in-Hormuz-IRGC",
+          "published": "2026-10-12T04:33:49Z"
+        },
+        {
+          "outlet": "canberratimes.com.au",
+          "title": null,
+          "url": "https://www.canberratimes.com.au/story/9365979/iran-claims-it-struck-gas-tanker-in-strait-of-hormuz/",
+          "published": "2026-10-13T06:22:43Z"
+        },
+        {
+          "outlet": "SuaraGarut.ID",
+          "title": "Iran Reports LPG Tanker Strike as Hormuz Shipping Attacks Escalate - SuaraGarut.ID",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1aVWR2M01kdGcyNkk0dkNuQ0I5MG8xMVFYSjlscF9QaUhOb2dxNlhMYl9faWtiRDBpNjdkTjJzUnFqSmxxVlFxYnZHdlRZU2l6c053YjJaNEJneXlmVWRyOUJoN1J2MUxoVFlJVw?oc=5",
+          "published": "2026-10-09T13:52:50Z"
         }
       ]
     }
