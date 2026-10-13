@@ -32,5 +32,34 @@
   "consistency_problems": [
     "Rio is in the data but not named in the article"
   ],
-  "quality": "3 check(s) need attention: dates ok; attribution ok; official coverage 0/0 ok; verified 1/5; single-source items 1, 1 without verification; confirmed 1 marked confirmed without proof; fact-check 3 correction(s); tweet 194/280 ok; dashes ok; consistency Rio is in the data but not named in the article found"
+  "quality": "3 check(s) need attention: dates ok; attribution ok; official coverage 0/0 ok; verified 1/5; single-source items 1, 1 without verification; confirmed 1 marked confirmed without proof; fact-check 3 correction(s); tweet 194/280 ok; dashes ok; consistency Rio is in the data but not named in the article found",
+  "review": {
+    "status": "done",
+    "at": "2026-10-13T05:09:36Z",
+    "changes": [
+      "merged INC-20261012-012 into INC-20261006-014 (the Mid-Day page names the tanker as the Rio with 23 Indians rescued and the Russian pages are the oil trail aftermath of the 6 October Aframax Rio strike off Sochi, so this is that attack reported again)",
+      "merged INC-20261012-007 into INC-20261009-004 (the Tuoi Tre page is Vietnam's maritime authority and the shipowner denying the 9 October IRGC claim about the Vietnam-flagged NV Sunshine, the same non-event and not a new attack)",
+      "name of INC-20261012-003 set to FORTIS",
+      "imo of INC-20261012-003 set to 8935407",
+      "position of INC-20261012-003 set to 40.93, 38.36 (the anchorage off Giresun port, where the Turkish coast guard towed and anchored)",
+      "name of INC-20261012-031 set to AL MAQAM",
+      "flag of INC-20261012-031 set to Liberia",
+      "date of INC-20261012-031 set to 2026-10-12",
+      "INC-20261012-031 marked confirmed (UKMTO issued time-late reports from verified sources of a product tanker struck by an unknown projectile on an outbound transit on 12 October (warning 168-26) and a crude oil tanker struck outbound on 11 October (warning 169-26) in the Strait of Hormuz, while Iran's claim to have hit an ADNOC tanker is one-sided)",
+      "flag of INC-20261010-019 set to Marshall Islands",
+      "INC-20261010-019 marked confirmed (the IMO's confirmed incidents list records VALTHERA, IMO 9296389, hit at Strait of Hormuz, Oman TTW on 10 October, damaged with no pollution, and UKMTO warning 162-26 records the same outbound tanker struck on its port side with a fire on board and all crew safe)",
+      "lead story set to INC-20261012-031 (UKMTO's time-late reports from verified sources record a product tanker struck o)",
+      "lesson (writing): Keep the headline and lede to one story: never join a confirmed attack to a one-sided claim or to a second incident with",
+      "lesson (facts): A flag state's denial or an owner's rebuttal is not an attack on a merchant ship: merge it into the record of the claim "
+    ],
+    "refused": [],
+    "notes": [
+      "In the standfirst, paragraph, key points and tweet, name the ship as the Russian-flagged dry cargo ship Fortis, carrying 3,300 tonnes of chickpeas from Novorossiysk to Mersin: a drone strike at sea forced its 10 crew to abandon it, and the unmanned ship was found off Keşap in Giresun province and towed to the anchorage off Giresun port on 12 October, per Turkey's DHA carried by Milliyet and Hürriyet. The reports give no attack date, position, attacker or casualty, so do not write that the strike happened on 12 October or off Giresun, and do not call the ship unnamed.",
+      "In the headline, standfirst, lede, key points and tweet, lead with UKMTO's confirmed reports, kept to one story: a product tanker struck by an unknown projectile on an outbound transit of the Strait of Hormuz on 12 October and three more vessels struck on 11 October, credited to UKMTO, not joined to Iran's claim with the word as. Give Iran's claim its own sentence: the IRGC-affiliated Tasnim published video of the Liberian-registered VLCC Al Maqam on fire, owned by ADNOC Logistics and Services per Seatrade Maritime, with no comment from ADNOC and no confirmation the tanker was struck.",
+      "For the desk, not for the article: Vietnam's Maritime and Waterway Administration and the shipowner NVTrans deny that the Vietnam-flagged LPG carrier NV Sunshine was struck in the Strait of Hormuz at all (VOV and PetroTimes, 10 to 12 October), so the 9 October record that the 10 October brief carried as a claimed strike needs a verdict and a correction in plain words, with the ship and the dates."
+    ],
+    "restored": [],
+    "send_after": false,
+    "lead": "INC-20261012-031"
+  }
 }

@@ -114,13 +114,13 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.6,
-    "vessel_name": null,
-    "imo": null,
+    "vessel_name": "FORTIS",
+    "imo": "8935407",
     "flag": "Russia",
     "vessel_type": "other",
     "vessel_category": "merchant",
-    "lat": 43.4,
-    "lon": 34.5,
+    "lat": 40.93,
+    "lon": 38.36,
     "location_text": "off Giresun, Turkey (Black Sea)",
     "attack_type": "drone (UAV)",
     "damage": "vessel drifted and was towed to Giresun",
@@ -164,17 +164,37 @@
         "kind": "media",
         "published_at": "2026-10-12T14:01:40Z",
         "title": "Karadeniz’de saldırıya uğrayan gemi Giresun açıklarına sürüklendi - Yeni Şafak"
+      },
+      {
+        "url": "https://www.milliyet.com.tr/gundem/dron-saldirisina-ugrayan-rus-gemisi-giresun-aciklarina-suruklendi-3-bin-300-ton-nohut-yuklu-ambarda-duman-panigi-7678014",
+        "source": "milliyet.com.tr",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-13T05:09:36Z",
+        "title": null
+      },
+      {
+        "url": "https://www.vesselfinder.com/vessels/details/8935407",
+        "source": "vesselfinder.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-13T05:09:36Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-12T16:00:33Z",
-    "last_updated": "2026-10-12T23:11:05Z",
+    "last_updated": "2026-10-13T05:09:36Z",
     "verification_issue": 123,
     "verdict": null,
     "published_in": [
       "2026-10-13"
     ],
     "status": "reported",
-    "position_approx": true
+    "position_approx": true,
+    "news_changed_at": "2026-10-13T05:09:36Z",
+    "position_note": "the anchorage off Giresun port, where the Turkish coast guard towed and anchored the unmanned Fortis after it was found drifting off Keşap (Keşap 40.92, 38.51; Port of Giresun 40.92, 38.38); the repor"
   },
   {
     "region": "Gulf of Oman",
@@ -341,14 +361,15 @@
       }
     ],
     "first_seen": "2026-10-12T16:00:48Z",
-    "last_updated": "2026-10-12T16:00:48Z",
+    "last_updated": "2026-10-13T05:09:36Z",
     "verification_issue": 124,
     "verdict": null,
     "published_in": [
       "2026-10-13"
     ],
-    "status": "reported",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261009-004"
   },
   {
     "region": "Strait of Hormuz",
@@ -592,14 +613,15 @@
       }
     ],
     "first_seen": "2026-10-12T16:00:57Z",
-    "last_updated": "2026-10-13T03:48:17Z",
+    "last_updated": "2026-10-13T05:09:36Z",
     "verification_issue": 126,
     "verdict": null,
     "published_in": [
       "2026-10-13"
     ],
-    "status": "reported",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261006-014"
   },
   {
     "region": "Gulf of Oman",
@@ -1563,9 +1585,9 @@
     "official_source_cited": "UKMTO",
     "conflicting": false,
     "confidence": 0.7,
-    "vessel_name": null,
+    "vessel_name": "AL MAQAM",
     "imo": null,
-    "flag": null,
+    "flag": "Liberia",
     "vessel_type": "tanker",
     "vessel_category": "merchant",
     "lat": 26.55,
@@ -1613,17 +1635,50 @@
         "kind": "media",
         "published_at": "2026-10-13T01:30:20Z",
         "title": "Hürmüz Boğazı’nda 4 ticari gemiye şüpheli saldırı - Haber.com"
+      },
+      {
+        "url": "https://www.seatrade-maritime.com/security/ukmto-issues-four-hormuz-attack-reports-iran-claims-adnoc-tanker-strike",
+        "source": "seatrade-maritime.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-13T05:09:36Z",
+        "title": null
+      },
+      {
+        "url": "https://www.seatrade-maritime.com/security/ukmto-issues-four-hormuz-attack-reports-iran-claims-adnoc-tanker-strike",
+        "source": "seatrade-maritime.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-13T05:09:36Z",
+        "title": null
+      },
+      {
+        "url": "https://www.ukmto.org/-/media/ukmto/products/20261012-ukmto_warning_168-26.pdf",
+        "source": "ukmto.org",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-13T05:09:36Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-13T03:47:29Z",
-    "last_updated": "2026-10-13T03:47:29Z",
+    "last_updated": "2026-10-13T05:09:36Z",
     "verification_issue": 132,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "editor-check",
+      "at": "2026-10-13T05:09:36Z",
+      "note": "UKMTO issued time-late reports from verified sources of a product tanker struck by an unknown projectile on an outbound transit on 12 October (warning 168-26) and a crude oil tanker struck outbound on 11 October (warning 169-26) in the Strait of Hormuz, while Iran's claim to have hit an ADNOC tanker is one-sided"
+    },
     "published_in": [
       "2026-10-13"
     ],
     "status": "confirmed",
-    "position_approx": true
+    "position_approx": true,
+    "news_changed_at": "2026-10-13T05:09:36Z"
   },
   {
     "region": "Black Sea",
@@ -4401,7 +4456,7 @@
     "confidence": 1.0,
     "vessel_name": "VALTHERA",
     "imo": "9296389",
-    "flag": null,
+    "flag": "Marshall Islands",
     "vessel_type": null,
     "vessel_category": "merchant",
     "lat": 26.55,
@@ -4422,17 +4477,32 @@
         "kind": "official",
         "published_at": "2026-10-12T16:00:57Z",
         "title": "IMO confirmed incident: VALTHERA (IMO 9296389)"
+      },
+      {
+        "url": "https://www.vesselfinder.com/vessels/details/9296389",
+        "source": "vesselfinder.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-13T05:09:36Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-12T16:00:57Z",
-    "last_updated": "2026-10-12T16:00:57Z",
+    "last_updated": "2026-10-13T05:09:36Z",
     "verification_issue": null,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "editor-check",
+      "at": "2026-10-13T05:09:36Z",
+      "note": "the IMO's confirmed incidents list records VALTHERA, IMO 9296389, hit at Strait of Hormuz, Oman TTW on 10 October, damaged with no pollution, and UKMTO warning 162-26 records the same outbound tanker struck on its port side with a fire on board and all crew safe"
+    },
     "published_in": [
       "2026-10-13"
     ],
     "status": "confirmed",
-    "position_approx": true
+    "position_approx": true,
+    "news_changed_at": "2026-10-13T05:09:36Z"
   },
   {
     "region": "Persian Gulf",
@@ -7223,7 +7293,7 @@
     "region": "Strait of Hormuz",
     "date_utc": "2026-10-09",
     "summary": "Iran's IRGC claimed a strike on an LPG tanker in the Strait of Hormuz on 9 October and threatened to punish vessels trying to cross. A later headline repeated the claim of a gas tanker struck in the Strait of Hormuz with no new details.",
-    "official_source_cited": null,
+    "official_source_cited": "Vietnam's maritime authority",
     "conflicting": false,
     "confidence": 0.7,
     "vessel_name": "NV Sunshine",
@@ -7238,7 +7308,7 @@
     "damage": null,
     "casualties": null,
     "attribution_claimed": "Iran claimed the attack",
-    "independent_evidence": false,
+    "independent_evidence": true,
     "id": "INC-20261009-004",
     "sources": [
       {
@@ -7420,10 +7490,19 @@
         "kind": "verification",
         "published_at": "2026-10-12T04:33:49Z",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPNnVkRkpKZ2FRMGtYVVFrSjRRbHEwS2VMN0xmbnBUdm1oc3VGWU0wLWRybGZod1lwMS1TbHoxbVUtd3hDMjF4UDFIbTIyUFROMXpRZ0Nnb2hCcVVEYU1FVVA0aHh0QXhsTTB2M1hSQ2tMd0xPMl9kWGhSakxMVDdqLW9sVkg5ZEdFdGs3cWJLNlFuUkRzTFFhTGo1QzVieVpvelBENHdGdVNlNEtyWWlJMXZRRXFZTDdGZzFiMDdVeXNWcW9BbHVCNF8zQVV3THBqRERSRlpYWlU4M2hYWDV4Rw?oc=5",
+        "source": "Tuoi Tre News | The News Gateway to Vietnam",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T10:13:00Z",
+        "title": "Vietnam's maritime authority rejects reports of attack on Vietnamese-flagged ship in Strait of Hormuz - Tuoi Tre News | The News Gateway to Vietnam"
       }
     ],
     "first_seen": "2026-10-09T14:36:17Z",
-    "last_updated": "2026-10-12T04:33:49Z",
+    "last_updated": "2026-10-13T05:09:36Z",
     "verification_issue": 98,
     "verdict": {
       "status": "claimed",
@@ -7433,7 +7512,8 @@
       "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/98#issuecomment-6117803990"
     },
     "published_in": [
-      "2026-10-10"
+      "2026-10-10",
+      "2026-10-13"
     ],
     "status": "claimed",
     "position_approx": true,
@@ -15829,10 +15909,55 @@
         "kind": "media",
         "published_at": "2026-10-11T08:49:13Z",
         "title": "Из-за атаки БЭК на танкер у берегов Сочи закрыли пляжи. Город затянуло дымом - Живая Кубань"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSks2ME5NMFlDS1U4WnZFSV9yTVlrSGVGSVdMTkZhajRPRmgzMFMxNmFFVl95QVEwb1JMT0FRVklnN3I5ZTJ0Y3dkYnpuUVBYaVY4Y3JPMHRBMEE0SFg4VlBhZ21hQk83RjFuUjIxa0tQeE1la0NXTjJzTmo4Z1p3N3F1dTl4ckRsMzNibkdNbFUydnE5LVZKNnZIdHhNUVVmb05mS01KVHdybE5OMkU0Y2FwdFlhOUNET0pRQQ?oc=5",
+        "source": "Алтапресс — новости Барнаула и Алтайского края",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T08:50:00Z",
+        "title": "Спутник зафиксировал 20-километровый нефтяной след за танкером, который атаковали у Сочи - Алтапресс — новости Барнаула и Алтайского края"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxNR1RzaVhYOWdndllSbEJBc2VOaW55aWxlcjh5R2RGLS1RN2szdzRseGh4cXFBLTZIcEk3bUxsYk5Tbkt0UncwMUsxamV1LTdybFlyb0VtWUN3elFldmt1RlBTb0w4QjZSS0Q3dGNvQ3ZiME00X2pCOTVvOERkdlp6b3F4cFRGTWp5VV81aW9FR0s3cTM3V2NQMzVHNHliWUFuMmNvRWxuSGExT3h6Y1RTWVU4MTd5T3FDNDJTMUppR0Z6azNZOVI3eUIwY19pM2NCTGtlMzBrTFlGbDJ2TkxrWTg0N3l4RDVUMDJUMnJGbkNhdFd5dGFhclZfWkgwcWtqamxpOUdrMEVON2t6WGxpX1NMaHFCQ0dXU193QmRINFEzYXF2b3ZtMElnMFRYYm5nVU1peXB1b29qd1ZHMVdWNlVVWE51T1E3ak43RHdQd3FHSTlCQ0hsdDl6NTN6TVRWRnhuLU4tVVFmTU8yWG1R?oc=5",
+        "source": "Mid-Day",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T17:24:00Z",
+        "title": "Sochi Tanker Inferno: Ukrainian Drone Attack Sets Rio Ablaze, 23 Indians Rescued - Mid-Day"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9PZlI2dVBTdHpUTXp6U3I5OW1zdVRINDZYRDRFcVJpa01MYkpBWGp0VDF4eWRGMllsTEhzV3BVZDVXYWlnYTBqbjA0dW5NNmRCRTJyNVdMaUNCcVNmSDU3QWpzV1ZNeDdsNDZiaFZ4LUZZRzdX0gF0QVVfeXFMT09mUjZ1UFN0elRNenpTcjk5bXN1VEg0NlhENEVxUmlrTUxiSkFYanRUMXh5ZEYyWWxMSHNXcFVkNVdhaWdhMGpuMDR1bk02ZEJFMnI1V0xpQ0JxU2ZINTdBanNXVk14N2w0NmJoVngtRllHN1c?oc=5",
+        "source": "Газета",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T16:09:55Z",
+        "title": "В Сочи оценили последствия пожара после атаки ВСУ на танкер - Газета"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSWxpY1JhTmhQODdwMThjY0ZKSW1xeW1lTEJqZVh3S3JMOC1VMWlQYlB5b2l3Vk9od0RyVl82SXg2YkU0dS1TTTZUQWlaOXJCLS02cDc2VFdCX1R0cEJDSEtaSTl1Z1hkUE94UGE1VldJZ3V6S2Z4T0ZpUjJla3o0a3JHc0ZOaFZEQ3VwX1pRUU45cUtfMTNvTU9Wc0hxdVdXeVc4MkNrVTFPRGxy0gGyAUFVX3lxTFB2YmR6MXFBcjN2ZDVDYkM5U3NiV2QxZ2dXNGxlZXJyRzkzMHB2d1hDLUc4d18wYWtnb21yaTZDQlZHZDVqQzBzSFU4eUZjVVUya0RKZ3lNUTZ5bkJRLUx3SVRzSnB4Zlk5ZnZqSERlc0kzQVk5WFRla2tqUldUMkM3YlJObDNXeERjY21HUUpETkhnYkFITThSYTVUMWNDTkhTQ19vOE1aa0UyVk1XdFFIdXc?oc=5",
+        "source": "Новости Краснодара и Краснодарского края",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T10:57:05Z",
+        "title": "В Сочи не обнаружили последствий пожара на атакованном танкере - Новости Краснодара и Краснодарского края"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBzRzNZcFdUa3dtRnFWcW4xdUcwYU43Q3pKNzJ2VXNjSF8wWjVmamxpdFZ2RjQtZXNXRkw5bEtHNENYOUEwZ3ZBZ3hEc1F6bnMtbkl2OQ?oc=5",
+        "source": "Кавказский Узел",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T14:00:00Z",
+        "title": "Птица в нефтепродуктах найдена в Сочи после пожара на танкере - Кавказский Узел"
       }
     ],
     "first_seen": "2026-10-06T20:33:03Z",
-    "last_updated": "2026-10-11T15:03:49Z",
+    "last_updated": "2026-10-13T05:09:36Z",
     "verification_issue": 65,
     "verdict": {
       "status": "rejected",
@@ -15844,7 +15969,8 @@
       "2026-10-07",
       "2026-10-08",
       "2026-10-09",
-      "2026-10-10"
+      "2026-10-10",
+      "2026-10-13"
     ],
     "status": "rejected",
     "status_changed_at": "2026-10-06T20:33:09Z",
