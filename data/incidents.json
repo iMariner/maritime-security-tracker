@@ -1,6 +1,773 @@
 [
   {
     "region": "Black Sea",
+    "date_utc": "2026-10-13",
+    "summary": "A vessel that was due to reach Brăila port in Romania was sunk by drones in the Black Sea, according to a Romanian outlet. No vessel name, flag, position or attacker was given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea, en route to Brăila port, Romania",
+    "attack_type": "drone (UAV)",
+    "damage": "vessel sunk",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261013-001",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUjBDdUFLbGtaYVdWS0Ezejk3UEhHamg4WGx2YVZONkpvcXd2VmhDZzJraUdZY3Z1dTdiUzZsVmpnVXp2RHktLWpZY2Y4b2pHSklUWmc0b1B2QWM0WUxkQmNIQjFKUk81RWRnczFyMGpWbklUQW9nTm1BMkx4Ml9oZGx3RmFNVzZhN2ZPZVZNelNjaXNMNlZxOXYtT00xZUdHcFVidGJldHYxTGFHX3o0MG1kZjQyMDdpa0N0NA?oc=5",
+        "source": "Romania Libera",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T14:17:07Z",
+        "title": "VIDEO. O navă care trebuia să ajungă în portul Brăila, scufundată de drone în Marea Neagră - Romania Libera"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQT0U3MEk1MFlYT0locFJHT19jNjd6X1I0TEJub202ZExsOTl4aXlqUWFlaVhEU3RSLWtmMzlIbG1BNFVXV0xLT25OWkJ4enoxcXVTdFUwNVdpYi1yeXJkYVJWd3JiVF9jaXRmTnhzUjFweWEzUnNnZ3lqcnZqTzFfQmhIWUp4TDdEZXdkRmFBNlppMEY5MzdrZV96Wm4yaFI3YjJrdA?oc=5",
+        "source": "cotidianul.md",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T11:09:28Z",
+        "title": "A ship heading to Moldova was allegedly hit by drones in the Black Sea - cotidianul.md"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNb0k1TXVDVUs3bkhOUFNWVHZCdEpneG9uTnNZVWdEbzVuQ0NTZ09aQmhCX2E2cDlRYmRaQTdKcjhTZ0VieVJXWEJRV3FyeDBLQ0t3OFh0Nzc5V0xYZHJKQWlUUF9qNXBrQ1I2WEIyaEdfNm1WSEdzQzJQaW5BWm1ZYXA2WFN5VFR1aFllMlNiUDk5MjZsRWR2bUhEeEdUb3RkTjJjYno4NXoxQm5j?oc=5",
+        "source": "cotidianul.md",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T11:09:28Z",
+        "title": "O navă care se îndrepta spre Moldova ar fi fost lovită de drone în Marea Neagră - cotidianul.md"
+      }
+    ],
+    "first_seen": "2026-10-13T14:32:05Z",
+    "last_updated": "2026-10-13T14:32:53Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261013-002",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-13",
+    "summary": "On 13 October 2026 two ships were struck by drones off Bulgaria's Black Sea coast, one of them sinking, with 11 crew reported missing and Azerbaijan confirming eight of its citizens were rescued. Bulgaria summoned Russia's ambassador over the attack, which was reported by many outlets without naming the vessels.",
+    "official_source_cited": "Bulgaria's Prime Minister",
+    "conflicting": false,
+    "confidence": 0.9,
+    "vessel_name": "AZOV CONCORD",
+    "imo": null,
+    "flag": "Ukraine",
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "off Bulgaria's Black Sea coast",
+    "attack_type": "drone (UAV)",
+    "damage": "vessel sunk",
+    "casualties": "11 missing",
+    "attribution_claimed": "Bulgaria suggested Russia was behind the attack",
+    "independent_evidence": true,
+    "id": "INC-20261013-002",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaEwxZktQOXVmXzgzX24wQ0F2dVVpQXdDS3RUWVBOYTA0aXV1MkJWaWo5RktXeVhSZVdPWGVoNklwUF9WbDdjYXJUTkNMUnpiUmEtNG9qM1lqUi12VktFVTkzeEZCS0Nzb25vNlhHTTl4amx3cV92bTdnQ2hnUTdJZzMzaWlkX0xwUWlKT2JwRXZmeTRDcllDSnpmcXotdUZPc2sxRFF30gGrAUFVX3lxTE1GQ3RSS0pUXzgwNkRDYVZjTkNHbldMbjRVTnBYWmQ1YUx3MlY5V0VBcFVCQTk2bTQ1dTVaTVdEdUM5dWJsYWVsR1ZFYzNGZHF3akRLT3l4OS0yZDFnUHJlQ1NVOEdGcDQyTmM1NGdyUW9aZTZRai0wZEYzQWdMTWVXeWR3SjlUQlhWaEw4X0RGMU9PdmhvQmhTUEtIZW1nTkRLWVhtb3VkaTQ3MA?oc=5",
+        "source": "Al Jazeera",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T14:02:04Z",
+        "title": "Drone attack sinks ship off Bulgaria’s Black Sea coast, PM says - Al Jazeera"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTlJIVTVZZ1lOaFVzQmNidWswcHk2eUhsT3lFSnVXcGhIcXpINFc2andoRVpMM0hvdDNjbkZTVFh3OVZ3UUEwZksyemtPNUxfTk1tUUJoa2x6b1c3Smh1emdYLUVOUUpWdDZTdnB4d3JtbTFjaVcxTGNSVFdtLUFaS0NGM1poMUxlellhVmhVTHVlWkVvQndaTy0xVDhhbHJoUFJmMEZjMlNCMTk2a25BWVVR?oc=5",
+        "source": "RTL Today",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T13:58:51Z",
+        "title": "11 missing after ships struck off Bulgaria in latest Black Sea attack - RTL Today"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQk9BaFJBeWV3emwyZTVEOG1NNTJpajl4ajhmQzZhSkE5dEFYQlB2SHY4WnlaUzB0UFpnUnlvc1diSW9zcVZVQW1DdzFndjJWTWduYXVlcEpaMGVOVk9HUm15VGVxaS1HX05fdWRtNGZSeFZjRTlLM0Q4ajBZeE5XRXlGd1VxVFd6aHN5cnhqZE00clJQZC04SlRneXVKU2lNVmNJNDVDdHBTVW1Hc25YelpkQVNnbHkzSVJF?oc=5",
+        "source": "RFI",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T13:57:51Z",
+        "title": "11 missing after ships struck off Bulgaria in latest Black Sea attack - RFI"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOGRTOU5uZ2xhREdZcDFIdmh6NThKenZac0RRVk1saGp2Mm9Cb0YtQTRGYUZjVFVORkNpcVkzVk1mWWV6czNITlo0SGNrTTc2cVNwTG80UWFrOXVhTTgxcnBKa1Z6cUdOWWdldHA3NWt3SXkzU19Rd2JvbUNHa20xMVdyaEdQS2xINl9qTm5LcnFmOV9HeHlqOW1KZ9IBjAFBVV95cUxPM1czOWkzVDQxRVJsSzhzeWtFeVRLZHplanFhOERtX3c4dHBaZlFUb1h4RkZFRjlYWlhUX0ZSTUFjcDR4NUNCcHRyeGxOZE9BVG9xWTJWT09tS3ZjNUZhNV92ZHpsMHYwWDlRMG5hR1JOZ2tGT25KR1RoeGVYb204UVJDMG9HWFkwSHVkYQ?oc=5",
+        "source": "vijesti.me",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T13:41:23Z",
+        "title": "Drones attack ships off Bulgaria, 11 sailors sought - vijesti.me"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVElFSUZOQjBYM2JfZkdCRlBaR3d3NE9wejJYbHJFMWNaclk4ZUpCUFNkUS1wdEFIVWlQaUFLa0xiVnNTR0R4V3N3YzBjZ016cF9YVDc5WWhoT0lUenlZdUp4OERHTzZMUDB0ZXJCbHBlU1k4eVV6NzVTZVFvM0M4MTRudHZKUFJYZnJYeV9QYTVEUHJfTzJj?oc=5",
+        "source": "Milli Gazete",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T13:40:00Z",
+        "title": "Karadeniz'de İHA saldırısı! Gemiler vuruldu, biri sulara gömüldü - Milli Gazete"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUEZLMzI5aENhN2xxdzBwTHROS0l4RHBacTR3RzJLV1dxT3A4bDhFcHJTZ2pKZFFhMEpDVk9QaExsY0UxVG5ZZG1HTkhCa0xvMGZ2N1oxdlJpTEpFMUNQdmRXYUNVVnVvdnVKMmJOQzUxZGIzTDMwZkNaWlJ4a0xVMWhfSHR5UW5wMjhjblUxM3ZIXzRhQXFZWGhfaHl5T0ZmM2J4cm1MSUpYdmE0RUVSQWRMeDdwZU9ZdkZMWg?oc=5",
+        "source": "Sahara Reporters",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T13:17:22Z",
+        "title": "Ship Sinks After Drone Attacks Off Bulgaria As Prime Minister Summons Russian Ambassador - Sahara Reporters"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUU1xX1ZFaTROMnVJRzVYX0h4c3VHWExIMVQ1V09YZE9xZGY1RW5VRGFXamduQkt6Wjdfbko3M1IyMlkzeGRTRlhkdnBwUGx3Q1F0cy1vUjFmOUZjQWxQbmhsWmZud0ZvdXJmcUQyVmR3WVVjcTJOZldKVGhrbG5vTWlHNVNmQ1NBYm82TXFnV2Z3YlBkSUhxc1hVcE5ncllNM3pyTzVMTFlWQl8yMDZ2Wm1UNXdlLURaNmhtTEM3ZjBQVFdCaU81RjVVSnpHQQ?oc=5",
+        "source": "The Moscow Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T13:09:48Z",
+        "title": "Bulgaria Summons Russian Ambassador After Drone Attack Sinks Ship, Leaving 11 Missing - The Moscow Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPelZQaWw3X2g1M3ZSLXFYMDFCV0w4Sm8yc1hkSElVS2VUU1RSaDdDRFRRMnktdFVXRF91QXdpM3lUM1hwUHJJbGUwZUJzMXNaMmszTWprcEcteW12SEdVeENMX1NqQjBkWGZFbUN3RXZ1Q01ocWY4ZHpieHRjYnFNZldnVWJja3E3YVpUVk8xREczOExNWXdEelBMQzhMSi1yZmI5QjAwcmNqcFXSAbABQVVfeXFMTWk4cUlvSVRuSVpaRTVPeV9DSUt1YVdhVU5sdnlkUTAyY0NIaGVGRHZ1cGhWcmVZSWNTd1J6b0JzVURIZWk5NlItc0xKUWo0MFJYRFg0OVVnOEljeUw1c09sdk9LLVRDRmM3NjFmcGw4T3FaaXdEYUc3c1RBYm03R3lDQVVkQXhhN2FhcWV6c2JEQlUzR0ZyRTVKU3RLb3NnNHhTQVZrb2JERzZFT0VmVGY?oc=5",
+        "source": "تسنیم",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T13:08:45Z",
+        "title": "Drone Attacks Sink Ship Off Bulgaria’s Black Sea Coast - تسنیم"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1GcWRRUDZjRlBtZXZOaHpDSU5XRnNSNEFfYmdhbUpBNGc2aHpHR2pTNTVHaDdGUHFGakF0Q0RZbmQ2S3VOdkEyX3BB?oc=5",
+        "source": "Daily Observer",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T13:03:39Z",
+        "title": "Cargo ship sinks in drone attack off Bulgaria, 11 missing - Daily Observer"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUHFTXzd0NFlGdWlFZDlUaHVFU2ZISlcyc2xPSW56NFpEU3J4bloyUmFod0ktNXFrWUV3N213ckJYdmlLR0t6b2JGbXFQQV9lazJMb1VOOFVxR09oSnJrbGJxNnN6eGRpQmlFQ3l0akpKVTlEZG9zZDVldndYUVJHQm1ybVJqZjNfc2tlMnFfZEc2M0hxQ2J5eWljeExfZ0hWODNIQUZaSnlqRHFkdnNKS3RxdHdTeUtvSXdF?oc=5",
+        "source": "Radio Constanța",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T12:53:12Z",
+        "title": "BULGARIA: Încă o navă comercială lovită de drone s-a scufundat în Marea Neagră - Radio Constanța"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNLV9hNzhLU1hVMWlaOTZZZXZOVHl0ekxEVWVCTGdLeXY1TGZ2MmhnNmw4dE9PYlF1b19oNHhpY2lFNUY2ZEd0b0p6aDI3TVBpdy1vQ21tRHRDT3p5MUJCWVRYOXFnODB2eE1BMktmM3lYM2dzczlzLTB0WWxUbnUtYkpvYjc?oc=5",
+        "source": "Financial Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T12:21:30Z",
+        "title": "Bulgaria suggests Russia behind ship attack that left 11 sailors missing - Financial Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOX0VUd0VZYzkzX3FjM2VsdEpudUI5eThWTWxyWmpBVDZKUkx0ZVU5YU41c3ptN0xVRGNOSkRNUHR2eWg1SGltYU5PczFKcXIzRFc0YlVSMEczREZHb3pMUndnazFvdjBRbGw0WHZzck9vamhQOGg2Wl9KSTlmX2d4MXhzcmVpUDlsM2hBWUluV09Dd3NtcmtQWWJ0bExjSzVQYW9YZ0tWV1AyUGxCU3M5S1FuY3ZGMkFUOVdibXlhQWY3ZmZDd1pIX1FlN3VMLXE5eHRpNmZvVld6Q29iVHRabDlvQXlJS1N4TExfbNIB8wFBVV95cUxQeDdxNmFtc2hWOGktLTNsbzlUSU1RNHZnRGIxM1JwY2JKa1lKSXlja2FkZVV1RzhWc3hpN1JUQlV0cU5BbFpGTE1hS2dSVU85UXpnZ3FlUG9TeTJJdXAzQ2RXU3pzMkhJTGVkbDJ1Y1pUMURreHA4N3FGTzhOZDVQQ3cxcjIxWWY3eExNY05wRVdXdGRUMllDVFlSbHM2aWlmUExTS0piSXZybGVoRlZEdkF4dG42a1ZNOWhNWm1TNm1JWl9NOW5Va0pNQzRUQklyMHZwb1I0ZW1idTZXWmVTWlpmNjczNEw3U1RpS3pJTkVNeTg?oc=5",
+        "source": "The Hindu",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T11:57:11Z",
+        "title": "Drone sinks Ukrainian-owned ship off Bulgaria’s Black Sea coast, Bulgarian Prime Minister says - The Hindu"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPa2pMUlhEOXFyY3RLX0p6R0xfVVVPWDFkZXZyUmhaOW1Ha2hBZnRhT2hpNHgwZHRnc1ZEMUQ1blV4cVJPRVZKN09EYjh5dlR6STZ3eElIQVpFY3MxQ3VjNVEySldoaTJ4QjdrOVBFTzZoYzdlZnppazZNVGVNU2tuT195SUQyRmpkTWNRdDN1VmlHYTREOTdLZ1RMS2g5RDJMNE1GVXJhVQ?oc=5",
+        "source": "EU Perspectives",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T11:56:38Z",
+        "title": "Von der Leyen condemns Black Sea attacks as drone strikes sink merchant ship off Bulgaria - EU Perspectives"
+      },
+      {
+        "url": "https://gcaptain.com/bulgaria-points-to-russia-as-drones-hit-more-cargo-ships/",
+        "source": "gCaptain",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-13T11:56:00Z",
+        "title": "Bulgaria Points to Russia as Drones Hit More Cargo Ships"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTnItQ3JSTnN2cHhiMEc2QVpvbHFRc0RQVURIRmgwY05RN3RYLXpXZWZMcktfUFJGTkE5UVhtX2JncXJiNlJVZkQ0MkFsbHlxeW1oY1FKdG9VdmNMb1pBM1Z4NEFlc1VrVkNpTHZrWm5XWlU2RUdycWJEZGwxazR5NWg2V3Q2V1hnM2hjQ2h5QXZnRVBEQnVIbFZuUEwzOTNYbk9mMnpLSW9TMTk0VnBR0gG0AUFVX3lxTE5HLWZjSmkwMEF5TkJ3WmY3N1I4T1IxX1JWbEVKbEI0UTJsc2dTdXlTS0h3UV9lY0l2UTRkRTNnaHpzZmJBWDVVOFBOSFEyTXN6aUhMQTBjM3dhLTNRcGRYTDlQNXhTQzZBLWRwT254aVZPek5lTTY5WnNjblZ4NTlBNlpDaXhSd0Y2MG51ckdtRVRCaUl1SHlUQXlucHU3cHgwbnk0dVZMSk5xVjFsUml3WTJnXw?oc=5",
+        "source": "Inquirer.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T11:54:00Z",
+        "title": "11 missing after ships struck off Bulgaria in latest Black Sea attack - Inquirer.net"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNWduWnFiZEF6eHBhcTNqZ3Z0MWk4WVhTVnlCYzdDVDczb0lQb1h5emJ4RHBNSUZoQ3ZuaUM3YUEwMlYxdE14d0pGY1hZR2FGOGJQcTF1OTZITXRHRWlKWk9nai1UYXcwM1dicklLa3ZFbzN4TFdnWmpoZE0zX0ZSWjBnWHVLM1d6UkwtTklkcGViaUFTTE8yRjFYeTREODZZLUMzaEQ1TXVsYjZPR1HSAa4BQVVfeXFMTzVnblpxYmRBenhwYXEzamd2dDFpOFlYU1Z5QmM3Q1Q3M29JUG9YeXpieERwTUlGaEN2bmlDN2FBMDJWMXRNeHdKRmNYWUdhRjhiUHExdTk2SE10R0VpSlpPZ2otVGF3MDNXYnJJS2t2RW8zeExXZ1pqaGRNM19GUlowZ1h1SzNXelJMLU5JZHBlYmlBU0xPMkYxWHk0RDg2WS1DM2hENU11bGI2T0dR?oc=5",
+        "source": "The Romania Journal",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T11:52:26Z",
+        "title": "11 Missing After Drone Attack Sinks Ship Off Bulgaria Coast - The Romania Journal"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVDZ5akZNdlItdTRrb1dVRXctR0ZYMDM5N2Zfc3NiV01ITldGTWdrUU15a1hHM0hvUkx6MjU2T1BLclhISFNYNEhjYUJwMjluX2RJc3BiVkFlVFRkc3RTX2tGNGpZV3dLeV9IcW9IMUlGU2lnMVJJS2ZkeVQ5aHJPX055RTFhWUNfZlBla3R5SG1TUWl5dzdmX2NlQ2xtZW1SVVlwWTc0c0ZaYVBTd2p6WHRR?oc=5",
+        "source": "Цензор.НЕТ",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T11:48:00Z",
+        "title": "After drone attack on ship near Bulgaria, 11 sailors went missing; five were rescued - Цензор.НЕТ"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeXlFa3BZT0lQUkxpY0F6T3h3VGNsb1hjcl9CZ0M3SDhFSHpYTFhNNGZhTS1mNllqcFdSYXRGblBxM1REY3phdHlya0Y4S3NPMWl3aVE3UU4xUlBYWnZLUUtJZndDUGtPdmZGeC1IZkw1Unh4dnlVUjB4cEtmWW9NZWxCMTkzcWlmLUl0SVVZLWdqUDVaaWE4QzdveVhjYUZoQ055a21LTDlEVzZaM0RMVXNhSTFjOVVMcWlhbEVTLXU5X0ctVFZfcEc1eEpoSlc5eEprem9B?oc=5",
+        "source": "UNITED24 Media",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T11:43:46Z",
+        "title": "Rutte Says NATO Will Adjust Black Sea Defense Posture After Russian Drone Attacks on Commercial Ships - UNITED24 Media"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRll3NHZvQXVkQlhsUnFKQmtjQ1hiTHFVU2xuZGJiNEcxT1VfaWROeVZsTzktVUpSbVVFTDMwZV9BanRtbkUtRWFONG1reEdrVmRwdDdhV0J5SG1VT01PNUR3WWE3ZVVtTjJGYVl3MWt1Q2t1U2t0SDJUOEJPU2JHcHNKQVFVUTF2UVFSbXpmbl9tZ2FmbU5aMjNIdXcyYzBmcmpUejBYVFhnWnp2MXdOQWRsZzZQY0QzeFBpUU9SLXlhQQ?oc=5",
+        "source": "radioromania.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T11:38:57Z",
+        "title": "Navă plecată din România spre Turcia, lovită de o dronă în Marea Neagră - radioromania.ro"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdHZhZy0tM2FsWU9ZYWFmclAxSm9XZTBIVS1PYlVwenhPWG5rYnFYM3kxMEM3Y2ExRVZuZU9KM1pXcnl6TlAwZDRJWVZoM29jNkFMZnBwNWpWYkk2NlF1WTNoNTFkYXFLUWZFLTdpWmFxR0VTYkxPR09rNGJmNmk3RFN4RUk3Q1pJVGFSWjZjbkNwOU95MU8tUG00TUZQcS16dHVMbTBMLUJzdnlQQXA0bm1MeG1ZcDdVa25xUDl30gHDAUFVX3lxTE56azNWNUJTaU1QUjNXRkExRmNONlFuQnFzaFNBdjFXYl9ud3BPeUhXcDFUelBxSm9wcXB4bVZnRHdsOUUtNmEzbXN1VkxadzFZdm03c0Y4ai1mZUY2eE10WHFQcnB6aGdocmJIT2M2TmQ2U0lFa2VEcE00REg5YnBUUUsxbkNVd1lqQlZFaEM5ZWFjUjZYMHhhUDV5b2s0all6aElnZFpERzRQaW9uWXVCakVhbi1GeHlfX1VzSmEwX3gwaw?oc=5",
+        "source": "A News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T11:30:38Z",
+        "title": "EU chief condemns drone attacks on merchant ships near Bulgaria's coast - A News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFA2QTNkWlprUlVILVBaR1NaWmxNbjJJLW5ybjBrZnhXUmNSU2s0R1g1N3MyRWY3Z3ZBY0otLTA0bmhIZXBmeHJPTEtn?oc=5",
+        "source": "Daily Observer",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T11:16:23Z",
+        "title": "11 missing after drone attack on cargo ship off Bulgaria - Daily Observer"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBvUjBhVTZpMjFya3hvMVl3ZmJHYTFqc01xRnJpTmg4QkpFVTY5YmVuRjJXU2ZWWmY3NDFzMlQyZjZCX2NtTGozNnVWUTlOZw?oc=5",
+        "source": "bdnews24.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T11:15:00Z",
+        "title": "Cargo ship sinks in drone attack off Bulgaria, leaving 11 sailors missing, 5 rescued - bdnews24.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbmM5Rnp4YkJ2WmhtZnJXN1J5bzZ2YXh3RW5PVDd0cWF1bnZSVFZYa0dZSVhSYjF5VkRmVVl0bTBqYzlPT3hjcVQ3RWVPTUJ1b0cyRi1YZ0xQLUI0enkyQVNHMm85OFpqcUpfa015OVpITnNGUEVpRkZfRDJRR20ydThPWXYyZmZPSkJ6ZmhVOHVpYUw4RGJDQllQM1BvZUEyN19F?oc=5",
+        "source": "News24",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T11:13:59Z",
+        "title": "Eleven sailors missing after drone sinks ship off Bulgaria - News24"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE92aV9GYTRaX2xjS3JOYVE0V2tXSFcwcGw2cl9fY0hXcmpEb1d5VllLLVc1aEczWEpsd2FVYVZjRGdjUFhkV05SOUVCS09tY3Bjb2ZHZEwtUHJ3YTZmbFMwSThBM3ZacWVKNnJVaXR1LW1nYkE?oc=5",
+        "source": "Ukr.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T11:09:41Z",
+        "title": "Болгарія нарешті викликала посла рф через нову атаку судна з українськими моряками - Ukr.net"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVTJsREVkM0N6R0lkdWxQOXJiU2Q0RkZLRFNVdDZfQ04tNG9yZ2VXenVKZzdKandEbzBCd1Y1SW1uV09GZEtKN0VFQjNXUVVzclJDRU13RHJtYUpKN19peVNieTdFcC1YcWx6SUtsdGE1Z3Z1YmlmR05qMklXNmlKeXo1TkREejh5V0V6WXgzUW9Qczl5MVBjTnVhUGFEcWduQ3J6VG9oRVA1a2RMRUl3Yjc0QzZHbWhad0xF?oc=5",
+        "source": "Notbir",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T11:07:29Z",
+        "title": "Karadeniz'de İHA saldırısıyla batırılan Azov Concord gemisi Türk şirketi Sarfo'ya ait çıktı - Notbir"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilgRBVV95cUxOUWdXdXRrLXZHVzJ0Z3diVERlRVNKbXYycXZIZU9zeEEwT3hSV3BCRlRCak55N1hGbWlZVFFMTm9XelVVTFVUMW1fcnF4SGRnbGhoQUZPdnRKYm12NlFIYkpQcTFSdmZzSm4tQkpoQ1BUNlgtVlU0UENLd1hFaGJqalpzX19HNUtMdkVMV1FiSExQb0NkMlVzTmhKaFFvX21kVWRUNzhrbzVNbHh6S3lhZWpWM1FiSzdoUXNIMTF1b3hTRUFlSWJIdVdPVGZ1VDVxVnRkajd5X3FrdjROYTVoTWM2eDV1Si1aRlFiTEFpNUdxMlFNaWhLeUVuVUI5SmpPNFowcHo1blNZUmh1RlBNSmtfVW5OZXp4bkhuLWkyUWpJRGFfemxJWDdzcEU3el9ia1NmQzFSaDI1blIyNDU5bXN4Q29PWG1VSVZtdFdMYTVqdGZaSEZCMVhyTWJENmd6SjFXNnV0TmViVVV5TnJFaDBIZThsZmFqTEQxNHQzbWQzbnFEUWpPZUUyX183WWU4X25UUGR2bXMzYnFGSjgwSXpDWU1QNV9aTGQ5QnFMLV9YeDBzT2h6VEJnc1FnTmx6U2lJYlY5c0ZkQ0FXQXMyRDZzMDY1cmNIRTJBNmtKUHlNQmdsaGpFaXVRV21mbHI4SVRzbVBMdkxOVHZzZ1JCMVhYM2pING9lcUtRMWNWbkNSNDhpd2c?oc=5",
+        "source": "صحيفة الخليج",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T11:04:33Z",
+        "title": "فقدان 11 بحاراً في استهداف سفينة قبالة سواحل بلغاريا - صحيفة الخليج"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQM1hITDd0SkZHMUs2Z180LVNCY05Xbm9sQ1F6YXpjSF9WdWE4aVZxM3FnemNfMEZGTkdpYTlSLWttdVhaWV9XUlQxVVhKdjBoME5WdjN5NXNzYjJsZl80N0pQZ2M5UlJoZzktRU9iX1hYX2xiM2tXdFZ0Ujdic0FlU1ZGSHBNRDJZSTJLR05ZY0dLdnhBLVIzUW02VWwwYVAzZFZwV3Z2RERVdzJXNXl4Y2hmcmk4Z0hjNzk0V2toYWw?oc=5",
+        "source": "Hexham Courant",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T11:02:15Z",
+        "title": "Drones hit ships in Black Sea sinking one and prompting rescue operations - Hexham Courant"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBtOXhiczM5QnZQbVJGRVpuZm5UOXBfaFpVRFhOV2M1bk1YOGFoMVdKMjN1dm4zMEpqeE9ZUXFFU0Z1VkNwRTBpaE9JdXBjanBDUVA0dDlwS0tNT2c?oc=5",
+        "source": "BBC",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T10:57:17Z",
+        "title": "Bulgarian PM summons Russian ambassador after ship sinks in Black Sea drone attack - BBC"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9sV2pzVlJhNTNFblRUbjZTSzJCbWFKOFc0cDhHRWowc3NSYUxvX2VScjZVZmtYNEs3djl2YTUxMmFXVmRTOHgtUl9Yb2xJVmpRVEgxYVJXWnJFOG5xWFhWNnlhTG5mV2JJcG9Tdm5ORFB6OWxxWVJzOQ?oc=5",
+        "source": "GreekReporter.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T10:51:42Z",
+        "title": "Eleven Missing After Drone Attack Sinks Ship Off Bulgaria - GreekReporter.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAzTVEwNUQ2c0RGc0RhWi16Q0ItOXJDeFNwUDFoU2E2bVB5cDRlRDVOSjVxRVN0dkxYTFVMTm1jcEVCRkItWmJITVFGQ1k5Y2R0ckNnMWVaZjNGb0RUa1RFWW1lYm9HZVBNM2RuSVBn?oc=5",
+        "source": "news.sbs.co.kr",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T10:43:47Z",
+        "title": "Another Vessel Sinks in Black Sea off Bulgaria Following Drone Attack; 11 Missing - news.sbs.co.kr"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMTJPTHc4YkdLRVc4S2RXZG1kVEFYRTNDR1pzdHk1anYybkY3ZFd1c0xaWS1kZ256M2hGM1dMMU84alVTbUQwVTBwUktsUWVzaXIzUnl0cnBWV3Y0aHFGQnhZZzllSjFfdjI0TjdyVGJxNXdwOFp5Y0liU3VoVE5pYXNTVjVTQTg1cUtvcE8tNzZvbzhjSUE?oc=5",
+        "source": "AP News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T10:38:00Z",
+        "title": "Drones hit ships in Black Sea, sinking 1 and prompting rescue operations, Bulgaria says - AP News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUjBDdUFLbGtaYVdWS0Ezejk3UEhHamg4WGx2YVZONkpvcXd2VmhDZzJraUdZY3Z1dTdiUzZsVmpnVXp2RHktLWpZY2Y4b2pHSklUWmc0b1B2QWM0WUxkQmNIQjFKUk81RWRnczFyMGpWbklUQW9nTm1BMkx4Ml9oZGx3RmFNVzZhN2ZPZVZNelNjaXNMNlZxOXYtT00xZUdHcFVidGJldHYxTGFHX3o0MG1kZjQyMDdpa0N0NA?oc=5",
+        "source": "Romania Libera",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T14:17:07Z",
+        "title": "VIDEO. O navă care trebuia să ajungă în portul Brăila, scufundată de drone în Marea Neagră - Romania Libera"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQT0U3MEk1MFlYT0locFJHT19jNjd6X1I0TEJub202ZExsOTl4aXlqUWFlaVhEU3RSLWtmMzlIbG1BNFVXV0xLT25OWkJ4enoxcXVTdFUwNVdpYi1yeXJkYVJWd3JiVF9jaXRmTnhzUjFweWEzUnNnZ3lqcnZqTzFfQmhIWUp4TDdEZXdkRmFBNlppMEY5MzdrZV96Wm4yaFI3YjJrdA?oc=5",
+        "source": "cotidianul.md",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T11:09:28Z",
+        "title": "A ship heading to Moldova was allegedly hit by drones in the Black Sea - cotidianul.md"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNb0k1TXVDVUs3bkhOUFNWVHZCdEpneG9uTnNZVWdEbzVuQ0NTZ09aQmhCX2E2cDlRYmRaQTdKcjhTZ0VieVJXWEJRV3FyeDBLQ0t3OFh0Nzc5V0xYZHJKQWlUUF9qNXBrQ1I2WEIyaEdfNm1WSEdzQzJQaW5BWm1ZYXA2WFN5VFR1aFllMlNiUDk5MjZsRWR2bUhEeEdUb3RkTjJjYno4NXoxQm5j?oc=5",
+        "source": "cotidianul.md",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T11:09:28Z",
+        "title": "O navă care se îndrepta spre Moldova ar fi fost lovită de drone în Marea Neagră - cotidianul.md"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA3N0RRWHA1SWZuYzJzcjFDNjZEMFRRMHQ5d05kYnZGb3JUNVJjbFRLc3ZBLUZQNktuRjZYQTViV29sWkx6UTB1TnlQVGJ6YUxFLXlLTw?oc=5",
+        "source": "AzerNews",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T13:29:59Z",
+        "title": "Azerbaijan confirms rescue of eight citizens after Black Sea ship attack - AzerNews"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORHhlZTQ1c2o2Q2NHWVAyRlMzUEdlMHVvc0tjZ3A0enk1Q3BuUjZmdzU3dEN1VlhCWjlOd0k2em9oQ1NkMFFrQUIteHN0T1VBSElBZWtyVnQxTHh2alpvbXp2X1g1aWZkRWhOVEJkY2VENVNTbFl1a19GNjRWOGctSVI1OEVGZHRyVFdPQ1ZXTjFFNW1TUERLN1NzSnJSMjJ2M2dqdWlaZzdTVFBYY1FVdA?oc=5",
+        "source": "Report.az",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T13:26:33Z",
+        "title": "Baku urges citizens to avoid dangerous Black Sea routes after ship attack - Report.az"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVE5zYXJOT2FfS3JpZnJhU0g3WVJOZFJGX0ZTODZXeHU3cFNwXzd0cTBpREdYRlBsdXZZZVFKN1QxZXpER2d4WmxueWtHM0hXaWYyMXJJNUZqTkU3ZzIxQlo4ZlptYlRldk51Z1prY1FmZzVDREVUWVZpX1dIaDk2aHRnU0JFTGh5VnRvYm1aTEN2SlJ2UEhaUg?oc=5",
+        "source": "Latest news from Azerbaijan",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T13:26:09Z",
+        "title": "MFA: All Azerbaijani nationals aboard drone-hit ship in Black Sea rescued - Latest news from Azerbaijan"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRmtobEowTFB6eVN5THVMQ2dtREMyanFpdF9oYjgzV05UeV90ajl2MTdaYUJPR3kza3RIUHFaOC1VSGpQbTRieUJUVE5xeEdvbS1fUFJSWk15alhQQ3NTZ3VrU21CaU1jSXRCZTd6aVBnM1hLenAzeVY3aldObGtuOXhVOHVlTHZBT3VodWd4dmxGTTBhNUE?oc=5",
+        "source": "Afyon Türkeli Gazetesi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T13:13:29Z",
+        "title": "Karadeniz’de İki Gemiye İHA Saldırısı: Biri Battı - Afyon Türkeli Gazetesi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOYXRYeldienpWMFJHTDNlOWhxVUNtM1UzSTctdmVBa2JFNFQ2T3l4eXpINDBYdVpVNGFWc2g2Tklyd0V6emZkSlk3LUc1Y3l6aXg5UTJfVEJ4bXoxLXpkOUxaN1prWW1BSEFaSzBBc2xmTVd2aTFfdXB2UGxHLXdLNWdjNWM1ZUNJRXJIeExHTDJxTVlKWXoxSWk2Z2dCbW9oVVAza0lhblJ5dG5xc0o5dHpTRE80a0JSYkprN1Z1dk1iaE1jYmc3RGxaWXhzYTJ1RC1BZXJtYmg5RFhLc3RtVjVmS0JIRlnSAecBQVVfeXFMTmF0WHpXYnp6VjBSR0wzZTlocVVDbTNVM0k3LXZlQWtiRTRUNk95eHl6SDQwWHVaVTRhVnNoNk5JcndFenpmZEpZNy1HNWN5eml4OVEyX1RCeG16MS16ZDlMWjdaa1ltQUhBWkswQXNsZk1XdmkxX3VwdlBsRy13SzVnYzVjNWVDSUVySHhMR0wycU1ZSll6MUlpNmdnQm1vaFVQM2tJYW5SeXRucXNKOXR6U0RPNGtCUmJKazdWdXZNYmhNY2JnN0RsWll4c2EydUQtQWVybWJoOURYS3N0bVY1ZktCSEZZ?oc=5",
+        "source": "dw.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T12:57:26Z",
+        "title": "Karadeniz'de yine İHA saldırısı: Bulgaristan açıklarında iki ticarî gemi vuruldu - dw.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTGc2UGxadFlSZ2RhS05KdE1sM3kyanRjaDA4UmdUbkNXVHpJckNzeDhaRVRscEdxUVRFSkFGVy1OelVraHBkOEtvRVYzS0tqYnZzTk9sZnZNbjRiOE9ra0d1Nk9HeFJ2T2NfeEpCM244X1JucVFyQTA1UTlhUjM4SXdYYkpuY2dIQUtJOS16WEk1R2RYQXdVNVJCUWRaWWpERi02bQ?oc=5",
+        "source": "Helsinki Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T12:28:05Z",
+        "title": "Two ships struck by drones in Black Sea off Bulgaria - Helsinki Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOc3ExaXU3aDgwOWtBREhHczk0SWh5SmNCQWtkV0JzM1c5dXhYRlZ5bG5MQnp4cHh2M1ZKY004MFlzWlVnS1BkeDBHSGRtUW1ZRGdjVzZFaTA4ZHRaWDRGYzRnRGs5dm5Sb0pSSnJKMGlfNUhqSGhEOXprdkswU0NYZGNWdmNUcGVVQ2J3NFZJUFk2WE9IbG9ab1ZNWktyVkpmNV9GSTJYaGNxS2ZKQnJSSzRKQ0xXc1dEa3BNNTB5ejAtRmVqbVQxRUdnTVIzWDNobVVR?oc=5",
+        "source": "The Sofia Globe",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T12:00:19Z",
+        "title": "Drone strikes on vessels in Bulgaria’s EEZ: Crew of one ship rescued, some from second ship still missing - The Sofia Globe"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNS2lPcENFV3Ziek5FTWhvQzdzUVVRaW9kMVZ5bTNSZDJLaVJSMHQyY1NmS3h0VWNTYkVOMFQzcjEwa09MVm42QkI3Y2hwRlo4VXA2cWdUdjl0YS1RYW1LNWZHYUhnZVhaUEI5ZXZuQ3FMd1F2UnM3SElzdHNCZm1DYXlrVjFLV2hsMUcyb1hvSGR0UUU5YzY2Q1lBVExnSmVyaFk2c3dubGR3Z2ZCZzhsX3B2bEY?oc=5",
+        "source": "Bold Medya",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T11:14:16Z",
+        "title": "Karadeniz’de iki gemiye İHA saldırısı: Türk sahipli gemi battı, 11 mürettebat kayıp - Bold Medya"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMkZIbUtvOWpkakgzX0pjQ1puMTlYVkFKRmR2dDctLUh3eldScWNPVGhtc1NMNzBwR1ctNzdNU21Bd1VEVW1NdWtxc21vVHAxU1hnSHpRNWpuODBfeEpWMFdUR21leHpMa2FGUllXOTJYVUpSTDRySFNyOV91SjZ3X3BPRmZKNE9HckU3b0hYREoxTVpl0gGcAUFVX3lxTE54dEpha29JZm03cllKZnBxODVjSV8yNFRUQjExWmV0NzdzT0RlSktrZmMwTUd1ZGJKWm8wUVRLNmw1R3Vsc1I3SEJrMHQtV1RIOXFtM25uNzJBN29hcm4yTXVtdHo5Y1EtUFBha3VxLWNtMV8wdDlfTEl6MTJfYjRubWI3RnYwLTU5Z2hLSVliaVY0UXVBRVhtelhsaA?oc=5",
+        "source": "Olay Gazetesi Bursa",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T10:43:21Z",
+        "title": "Karadeniz açıklarında İHA saldırısı: İki gemiden biri battı - Olay Gazetesi Bursa - Olay Gazetesi Bursa"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRXY0WjBsdjlKS1hGWVRLOGJWMW5kazRWamt1ZnlEeUlmMHZra2dWM2htN25ITEFWa0RpOG5sTFJaQXVMWTdlOWE2ZHByM0dMZC1PZFB6YXMwNWJfWFlNQXBKMFktTE5TQUw3QnV1alJ5YmpBeGpXYnNnSDZTaWRLaGVJbXE2SzVGaWpKVEZYVEJ1TXJUUXBkMVlsNzlKYWhCeE5TVTNTTTR2bjlQc2tBQzJsY2xURlV1TG53?oc=5",
+        "source": "East Renfrewshire News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T10:23:23Z",
+        "title": "Drones hit ships in Black Sea sinking one and prompting rescue operations - East Renfrewshire News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYlMwVVg5UU56aUFMUkJzbEdRWUl4dmoxWG9KWUhEVDI2V0FNekRRRVRyUUFidnlmTGhvR3NpSmhtT21SZVljSkxmSHEtQUlwRjhOT3lsRUplRDZuRmRURHNrS0dXVDE1aW9zbWtCZGhuX0xBUXNzWmxpN1JCdFJMV1RTd3VudFQwaXR6Zk5QNno3SHk4NFB0VHZVU1Y3cld4U0U4M3BJM0xzMHJpTXlmei03SmpMeEtlVkZLbWlMdXhNVTlm?oc=5",
+        "source": "London Now",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T10:22:15Z",
+        "title": "Drones hit ships in Black Sea sinking one and prompting rescue operations - London Now"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQ1BMbzEtWWF1XzdFR2JvNUpmNzhwS3NRUUEtR2NGZmlBMUdsVVRRREp1NmhOc2h1MW1aRWFOUWVJQVBRanpMcjNuRE5aQlQzSy04SzQxSG1rOWswZVJQdzVOX1MyU09ZYTRCeVdqU2Riazh3YXZJQWxKVHJoYVh2aGI2aUI1clo5Rm04c3B0WU44MFB5aXI0UWhYcHhsUGMtNmU1MTFUaFlZanNxbHdIVU53anFmeWZPLUpV?oc=5",
+        "source": "London Now",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T10:22:15Z",
+        "title": "Drones hit ships in Black Sea sinking one and prompting rescue operations - London Now"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQU0RpZ3h6ZTBuWkJ3bzR1eTlSR1FOVWtSYjdUZ0xOMGFNMWxPWGpnUHZ3c19lLVY0NFg4ZGVQX3ZacGZoN1pKVVBPc3FkWVZob2dUQ2N6SUktYVFFTmg5aVgzQS1RSzdkbWxxc0YxS0xBUFBmZUZmX0FHTVB5M0s5VTgwZG5BX1FadWx3RUNSdy1OZGk3amtqOS1wNlNHTlVDcjFETmJHVUV4LXhqb0xHTWhsYTNBbExMQjhFMzN2OGp5QjhiN1FwZDR5RGlxdnFzeHVTenRLUnljQWtkdEJtbXRzLU5hME9wZUdQM2Nib3pDQQ?oc=5",
+        "source": "The Lufkin Daily News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T12:31:32Z",
+        "title": "A view shows a vessel that was hit by a drone in the Black Sea - The Lufkin Daily News"
+      }
+    ],
+    "first_seen": "2026-10-13T14:32:05Z",
+    "last_updated": "2026-10-13T14:32:53Z",
+    "verification_issue": 135,
+    "verdict": null,
+    "published_in": [],
+    "status": "reported",
+    "date_approx": false,
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-13",
+    "summary": "Azerbaijan's Foreign Ministry confirmed that eight Azerbaijani citizens were rescued after a drone attack on a ship in the Black Sea. No vessel name, flag, position or attacker was given.",
+    "official_source_cited": "Azerbaijan's Foreign Ministry",
+    "conflicting": false,
+    "confidence": 0.8,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261013-003",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA3N0RRWHA1SWZuYzJzcjFDNjZEMFRRMHQ5d05kYnZGb3JUNVJjbFRLc3ZBLUZQNktuRjZYQTViV29sWkx6UTB1TnlQVGJ6YUxFLXlLTw?oc=5",
+        "source": "AzerNews",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T13:29:59Z",
+        "title": "Azerbaijan confirms rescue of eight citizens after Black Sea ship attack - AzerNews"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORHhlZTQ1c2o2Q2NHWVAyRlMzUEdlMHVvc0tjZ3A0enk1Q3BuUjZmdzU3dEN1VlhCWjlOd0k2em9oQ1NkMFFrQUIteHN0T1VBSElBZWtyVnQxTHh2alpvbXp2X1g1aWZkRWhOVEJkY2VENVNTbFl1a19GNjRWOGctSVI1OEVGZHRyVFdPQ1ZXTjFFNW1TUERLN1NzSnJSMjJ2M2dqdWlaZzdTVFBYY1FVdA?oc=5",
+        "source": "Report.az",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T13:26:33Z",
+        "title": "Baku urges citizens to avoid dangerous Black Sea routes after ship attack - Report.az"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVE5zYXJOT2FfS3JpZnJhU0g3WVJOZFJGX0ZTODZXeHU3cFNwXzd0cTBpREdYRlBsdXZZZVFKN1QxZXpER2d4WmxueWtHM0hXaWYyMXJJNUZqTkU3ZzIxQlo4ZlptYlRldk51Z1prY1FmZzVDREVUWVZpX1dIaDk2aHRnU0JFTGh5VnRvYm1aTEN2SlJ2UEhaUg?oc=5",
+        "source": "Latest news from Azerbaijan",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T13:26:09Z",
+        "title": "MFA: All Azerbaijani nationals aboard drone-hit ship in Black Sea rescued - Latest news from Azerbaijan"
+      }
+    ],
+    "first_seen": "2026-10-13T14:32:13Z",
+    "last_updated": "2026-10-13T14:32:53Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261013-002",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-13",
+    "summary": "A Turkish newspaper reported that two ships were attacked by drones in the Black Sea, and one sank. No vessel names, flags, positions or attacker were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.9,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": "one ship sank",
+    "casualties": "crew of one ship rescued; some from second ship still missing",
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261013-004",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRmtobEowTFB6eVN5THVMQ2dtREMyanFpdF9oYjgzV05UeV90ajl2MTdaYUJPR3kza3RIUHFaOC1VSGpQbTRieUJUVE5xeEdvbS1fUFJSWk15alhQQ3NTZ3VrU21CaU1jSXRCZTd6aVBnM1hLenAzeVY3aldObGtuOXhVOHVlTHZBT3VodWd4dmxGTTBhNUE?oc=5",
+        "source": "Afyon Türkeli Gazetesi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T13:13:29Z",
+        "title": "Karadeniz’de İki Gemiye İHA Saldırısı: Biri Battı - Afyon Türkeli Gazetesi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOYXRYeldienpWMFJHTDNlOWhxVUNtM1UzSTctdmVBa2JFNFQ2T3l4eXpINDBYdVpVNGFWc2g2Tklyd0V6emZkSlk3LUc1Y3l6aXg5UTJfVEJ4bXoxLXpkOUxaN1prWW1BSEFaSzBBc2xmTVd2aTFfdXB2UGxHLXdLNWdjNWM1ZUNJRXJIeExHTDJxTVlKWXoxSWk2Z2dCbW9oVVAza0lhblJ5dG5xc0o5dHpTRE80a0JSYkprN1Z1dk1iaE1jYmc3RGxaWXhzYTJ1RC1BZXJtYmg5RFhLc3RtVjVmS0JIRlnSAecBQVVfeXFMTmF0WHpXYnp6VjBSR0wzZTlocVVDbTNVM0k3LXZlQWtiRTRUNk95eHl6SDQwWHVaVTRhVnNoNk5JcndFenpmZEpZNy1HNWN5eml4OVEyX1RCeG16MS16ZDlMWjdaa1ltQUhBWkswQXNsZk1XdmkxX3VwdlBsRy13SzVnYzVjNWVDSUVySHhMR0wycU1ZSll6MUlpNmdnQm1vaFVQM2tJYW5SeXRucXNKOXR6U0RPNGtCUmJKazdWdXZNYmhNY2JnN0RsWll4c2EydUQtQWVybWJoOURYS3N0bVY1ZktCSEZZ?oc=5",
+        "source": "dw.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T12:57:26Z",
+        "title": "Karadeniz'de yine İHA saldırısı: Bulgaristan açıklarında iki ticarî gemi vuruldu - dw.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTGc2UGxadFlSZ2RhS05KdE1sM3kyanRjaDA4UmdUbkNXVHpJckNzeDhaRVRscEdxUVRFSkFGVy1OelVraHBkOEtvRVYzS0tqYnZzTk9sZnZNbjRiOE9ra0d1Nk9HeFJ2T2NfeEpCM244X1JucVFyQTA1UTlhUjM4SXdYYkpuY2dIQUtJOS16WEk1R2RYQXdVNVJCUWRaWWpERi02bQ?oc=5",
+        "source": "Helsinki Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T12:28:05Z",
+        "title": "Two ships struck by drones in Black Sea off Bulgaria - Helsinki Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOc3ExaXU3aDgwOWtBREhHczk0SWh5SmNCQWtkV0JzM1c5dXhYRlZ5bG5MQnp4cHh2M1ZKY004MFlzWlVnS1BkeDBHSGRtUW1ZRGdjVzZFaTA4ZHRaWDRGYzRnRGs5dm5Sb0pSSnJKMGlfNUhqSGhEOXprdkswU0NYZGNWdmNUcGVVQ2J3NFZJUFk2WE9IbG9ab1ZNWktyVkpmNV9GSTJYaGNxS2ZKQnJSSzRKQ0xXc1dEa3BNNTB5ejAtRmVqbVQxRUdnTVIzWDNobVVR?oc=5",
+        "source": "The Sofia Globe",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T12:00:19Z",
+        "title": "Drone strikes on vessels in Bulgaria’s EEZ: Crew of one ship rescued, some from second ship still missing - The Sofia Globe"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNS2lPcENFV3Ziek5FTWhvQzdzUVVRaW9kMVZ5bTNSZDJLaVJSMHQyY1NmS3h0VWNTYkVOMFQzcjEwa09MVm42QkI3Y2hwRlo4VXA2cWdUdjl0YS1RYW1LNWZHYUhnZVhaUEI5ZXZuQ3FMd1F2UnM3SElzdHNCZm1DYXlrVjFLV2hsMUcyb1hvSGR0UUU5YzY2Q1lBVExnSmVyaFk2c3dubGR3Z2ZCZzhsX3B2bEY?oc=5",
+        "source": "Bold Medya",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T11:14:16Z",
+        "title": "Karadeniz’de iki gemiye İHA saldırısı: Türk sahipli gemi battı, 11 mürettebat kayıp - Bold Medya"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMkZIbUtvOWpkakgzX0pjQ1puMTlYVkFKRmR2dDctLUh3eldScWNPVGhtc1NMNzBwR1ctNzdNU21Bd1VEVW1NdWtxc21vVHAxU1hnSHpRNWpuODBfeEpWMFdUR21leHpMa2FGUllXOTJYVUpSTDRySFNyOV91SjZ3X3BPRmZKNE9HckU3b0hYREoxTVpl0gGcAUFVX3lxTE54dEpha29JZm03cllKZnBxODVjSV8yNFRUQjExWmV0NzdzT0RlSktrZmMwTUd1ZGJKWm8wUVRLNmw1R3Vsc1I3SEJrMHQtV1RIOXFtM25uNzJBN29hcm4yTXVtdHo5Y1EtUFBha3VxLWNtMV8wdDlfTEl6MTJfYjRubWI3RnYwLTU5Z2hLSVliaVY0UXVBRVhtelhsaA?oc=5",
+        "source": "Olay Gazetesi Bursa",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T10:43:21Z",
+        "title": "Karadeniz açıklarında İHA saldırısı: İki gemiden biri battı - Olay Gazetesi Bursa - Olay Gazetesi Bursa"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRXY0WjBsdjlKS1hGWVRLOGJWMW5kazRWamt1ZnlEeUlmMHZra2dWM2htN25ITEFWa0RpOG5sTFJaQXVMWTdlOWE2ZHByM0dMZC1PZFB6YXMwNWJfWFlNQXBKMFktTE5TQUw3QnV1alJ5YmpBeGpXYnNnSDZTaWRLaGVJbXE2SzVGaWpKVEZYVEJ1TXJUUXBkMVlsNzlKYWhCeE5TVTNTTTR2bjlQc2tBQzJsY2xURlV1TG53?oc=5",
+        "source": "East Renfrewshire News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T10:23:23Z",
+        "title": "Drones hit ships in Black Sea sinking one and prompting rescue operations - East Renfrewshire News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYlMwVVg5UU56aUFMUkJzbEdRWUl4dmoxWG9KWUhEVDI2V0FNekRRRVRyUUFidnlmTGhvR3NpSmhtT21SZVljSkxmSHEtQUlwRjhOT3lsRUplRDZuRmRURHNrS0dXVDE1aW9zbWtCZGhuX0xBUXNzWmxpN1JCdFJMV1RTd3VudFQwaXR6Zk5QNno3SHk4NFB0VHZVU1Y3cld4U0U4M3BJM0xzMHJpTXlmei03SmpMeEtlVkZLbWlMdXhNVTlm?oc=5",
+        "source": "London Now",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T10:22:15Z",
+        "title": "Drones hit ships in Black Sea sinking one and prompting rescue operations - London Now"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQ1BMbzEtWWF1XzdFR2JvNUpmNzhwS3NRUUEtR2NGZmlBMUdsVVRRREp1NmhOc2h1MW1aRWFOUWVJQVBRanpMcjNuRE5aQlQzSy04SzQxSG1rOWswZVJQdzVOX1MyU09ZYTRCeVdqU2Riazh3YXZJQWxKVHJoYVh2aGI2aUI1clo5Rm04c3B0WU44MFB5aXI0UWhYcHhsUGMtNmU1MTFUaFlZanNxbHdIVU53anFmeWZPLUpV?oc=5",
+        "source": "London Now",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T10:22:15Z",
+        "title": "Drones hit ships in Black Sea sinking one and prompting rescue operations - London Now"
+      }
+    ],
+    "first_seen": "2026-10-13T14:32:13Z",
+    "last_updated": "2026-10-13T14:32:53Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261013-002",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-13",
+    "summary": "A photo caption reports a vessel that was hit by a drone in the Black Sea. No vessel name, flag, position, damage or attacker is given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261013-005",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQU0RpZ3h6ZTBuWkJ3bzR1eTlSR1FOVWtSYjdUZ0xOMGFNMWxPWGpnUHZ3c19lLVY0NFg4ZGVQX3ZacGZoN1pKVVBPc3FkWVZob2dUQ2N6SUktYVFFTmg5aVgzQS1RSzdkbWxxc0YxS0xBUFBmZUZmX0FHTVB5M0s5VTgwZG5BX1FadWx3RUNSdy1OZGk3amtqOS1wNlNHTlVDcjFETmJHVUV4LXhqb0xHTWhsYTNBbExMQjhFMzN2OGp5QjhiN1FwZDR5RGlxdnFzeHVTenRLUnljQWtkdEJtbXRzLU5hME9wZUdQM2Nib3pDQQ?oc=5",
+        "source": "The Lufkin Daily News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T12:31:32Z",
+        "title": "A view shows a vessel that was hit by a drone in the Black Sea - The Lufkin Daily News"
+      }
+    ],
+    "first_seen": "2026-10-13T14:32:24Z",
+    "last_updated": "2026-10-13T14:32:53Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261013-002",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-13",
+    "summary": "After an attack on a tanker in the Black Sea off the coast of Kuban, no oil product spill was reported. No vessel name, flag, position or attacker is given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea off the coast of Kuban",
+    "attack_type": "other",
+    "damage": "no oil product spill reported",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261013-006",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcDVNOUNIY0tnV3U1TUZFZHVHdWNNYnctYlQzSnFTdGNFS3YtS3NIbWZYLUc0T1ZuWHp3Z2NmeS1XWVFSVHRnTUZkZ2JxcHA2c2lXdklWNWlHOGNxdWN3NHJoUmQ1MnFCamlsc2dLMnd6YVZFam5lZlozNEl0VnhJbnZBZGtxS0k2U0ZmUm5xRHJHYTZfR2hwa1I4aXJ1b1JHQUZNcWh0YXJheEdjSjgweG82cmptdi16S2F0MnNLalrSAcABQVVfeXFMUHA1TTlDSGNLZ1d1NU1GRWR1R3VjTWJ3LWJUM0pxU3RjRUt2LUtzSG1mWC1HNE9Wblh6d2djZnktV1lRUlR0Z01GZGdicXBwNnNpV3ZJVjVpRzhjcXVjdzRyaFJkNTJxQmppbHNnSzJ3emFWRWpuZWZaMzRJdFZ4SW52QWRrcUtJNlNGZlJucURyR2E2X0docGtSOGlydW9SR0FGTXFodGFyYXhHY0o4MHhvNnJqbXYtekthdDJzS2pa?oc=5",
+        "source": "Рамблер",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T11:57:11Z",
+        "title": "После атаки на танкер разлива нефтепродуктов в Черном море у берегов Кубани нет - Рамблер"
+      }
+    ],
+    "first_seen": "2026-10-13T14:32:24Z",
+    "last_updated": "2026-10-13T14:32:24Z",
+    "verification_issue": 136,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
     "date_utc": "2026-10-12",
     "summary": "Moscow announced that a military cargo ship was struck near Odesa port. Russia's defence ministry claimed its drones targeted the vessel.",
     "official_source_cited": null,
@@ -119,8 +886,8 @@
     "flag": "Russia",
     "vessel_type": "other",
     "vessel_category": "merchant",
-    "lat": 40.93,
-    "lon": 38.36,
+    "lat": 43.4,
+    "lon": 34.5,
     "location_text": "off Giresun, Turkey (Black Sea)",
     "attack_type": "drone (UAV)",
     "damage": "vessel drifted and was towed to Giresun",
@@ -1663,7 +2430,7 @@
       }
     ],
     "first_seen": "2026-10-13T03:47:29Z",
-    "last_updated": "2026-10-13T06:22:43Z",
+    "last_updated": "2026-10-13T14:32:51Z",
     "verification_issue": 132,
     "verdict": {
       "status": "confirmed",
@@ -1674,9 +2441,10 @@
     "published_in": [
       "2026-10-13"
     ],
-    "status": "confirmed",
+    "status": "merged",
     "position_approx": true,
-    "news_changed_at": "2026-10-13T05:09:36Z"
+    "news_changed_at": "2026-10-13T05:09:36Z",
+    "merged_into": "INC-20261011-008"
   },
   {
     "region": "Black Sea",
@@ -1808,6 +2576,46 @@
     "published_in": [],
     "status": "merged",
     "merged_into": "INC-20261011-008",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-11T00:00:00Z",
+    "summary": "The IMO lists ANGOLA PROSPERITY (IMO 9896414) as hit at 8NM from the coast of Oman on 11 October 2026. Damaged. No pollution.",
+    "official_source_cited": "IMO confirmed incidents list",
+    "conflicting": false,
+    "confidence": 1.0,
+    "vessel_name": "ANGOLA PROSPERITY",
+    "imo": "9896414",
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "8NM from the coast of Oman",
+    "attack_type": "other",
+    "damage": "Damaged. No pollution.",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261011-027",
+    "sources": [
+      {
+        "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9896414-2026-10-11",
+        "source": "IMO (confirmed incidents list)",
+        "source_type": "official",
+        "side": "neutral",
+        "kind": "official",
+        "published_at": "2026-10-13T14:32:51Z",
+        "title": "IMO confirmed incident: ANGOLA PROSPERITY (IMO 9896414)"
+      }
+    ],
+    "first_seen": "2026-10-13T14:32:51Z",
+    "last_updated": "2026-10-13T14:32:51Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "confirmed",
     "position_approx": true
   },
   {
@@ -2704,7 +3512,7 @@
     "summary": "A tanker was hit by a drone off the Oman coast on 11 October, with two Indian seafarers missing and nine rescued. UKMTO also reported a tanker struck by an unidentified projectile in the Strait of Hormuz the same day, causing a fire and damage, and these reports describe the same attack.",
     "official_source_cited": "UKMTO",
     "conflicting": false,
-    "confidence": 0.9,
+    "confidence": 1.0,
     "vessel_name": "PETRO DOLPHIN",
     "imo": "1072294",
     "flag": "Nicaragua",
@@ -3556,10 +4364,64 @@
         "kind": "media",
         "published_at": "2026-10-12T07:19:00Z",
         "title": "Airstrikes on Yemen's capital, drone hits vessel in Strait of Hormuz, and other Mideast developments - WUSA9"
+      },
+      {
+        "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#1072294-2026-10-11",
+        "source": "IMO (confirmed incidents list)",
+        "source_type": "official",
+        "side": "neutral",
+        "kind": "official",
+        "published_at": "2026-10-13T14:32:51Z",
+        "title": "IMO confirmed incident: PETRO DOLPHIN (IMO 1072294)"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSWxrMUtuUWJ1a082emVEMjF4QnpETjF0RG9Nb01XSjZzY2FfNEVtS0x0OGxUNE5ISThuanFKX0V2ZkctRDJnaHY3WVdTWnQ1SHFSWUhWeFZXN3ZWRzdDR1BYV3NXYXpkX29HVU5iWnM1WjZrRkFDWURHSElEd0F6eWNyMU1ENGY4?oc=5",
+        "source": "Türkinform",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T03:18:00Z",
+        "title": "Hürmüz Boğazı’nda 4 ticari gemiye saldırı: UKMTO açıkladı - Türkinform"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcE9tRlhQVUh1WWJWbkhDeDdOeWF6NVhqYlBoRUdORHQ1c0hBemNQQlJ3VVk4RDZIemJKLUZDTDVNc0JNWXhMNzNHem4tRldHaGFPdGsxdk5kakVhYlZON0FuZjVRUl9aVVlUOGdxUUlDNkJ3V0xVc2YtRndpTnBLZThOWEtkS19iYlVJcGZ1VlNYbWlnSlE2WDNMN1hUUGplZndOQ0FxWGZ1cVk3TVRHdGFkVEg?oc=5",
+        "source": "Seatrade Maritime News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T02:51:08Z",
+        "title": "UKMTO issues four Hormuz attack alerts, Iran claims ADNOC tanker strike - Seatrade Maritime News"
+      },
+      {
+        "url": "https://www.seatrade-maritime.com/security/ukmto-issues-four-hormuz-attack-reports-iran-claims-adnoc-tanker-strike",
+        "source": "Seatrade Maritime",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-13T02:41:28Z",
+        "title": "UKMTO issues four Hormuz attack alerts, Iran claims ADNOC tanker strike"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbE9OV213djBzeEhqN3ZRRkpvVTZPTnZsLUdDRlZCSzJVXzhHVWdBN3JKNXExRUZXV2FRX2JUSFNRM3ZxUjVVXzQ0RGVZWF9yU3dqWE5BbDlGOElHQVlzaWFLLVNtR2RkeDQ5U2JkeGJfY3VNRVhYSlJ2M1ZjRGxSNnZXS3g1OFN2OTk4?oc=5",
+        "source": "Haber.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T01:30:20Z",
+        "title": "Hürmüz Boğazı’nda 4 ticari gemiye şüpheli saldırı - Haber.com"
+      },
+      {
+        "url": "https://www.ukmto.org/-/media/ukmto/products/20261012-ukmto_warning_168-26.pdf",
+        "source": "ukmto.org",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-13T05:09:36Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-11T19:41:00Z",
-    "last_updated": "2026-10-13T04:40:09Z",
+    "last_updated": "2026-10-13T14:32:51Z",
     "verification_issue": null,
     "verdict": {
       "status": "reported",
@@ -3568,7 +4430,8 @@
       "note": "India's Ministry of External Affairs and Shipping Minister Sarbananda Sonowal named the Nicaragua-flagged tanker Petro Dolphin, its two Indian seafarers missing and the nine rescued after the 11 October drone strike at Sohar anchorage; Gulf News, The Hindu, India Today and The Tribune carried it, and UKMTO did not name that ship"
     },
     "published_in": [
-      "2026-10-12"
+      "2026-10-12",
+      "2026-10-13"
     ],
     "status": "reported",
     "position_approx": true,
