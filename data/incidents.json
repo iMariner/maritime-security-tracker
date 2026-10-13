@@ -3876,7 +3876,7 @@
     "official_source_cited": "Indian minister Sonowal",
     "conflicting": false,
     "confidence": 0.8,
-    "vessel_name": null,
+    "vessel_name": "GEM NO. 2",
     "imo": null,
     "flag": "Panama",
     "vessel_type": "tanker",
@@ -3917,18 +3917,43 @@
         "kind": "media",
         "published_at": "2026-10-10T00:58:50Z",
         "title": "Panama-flagged oil tanker hit in drone attack off Sharjah; all 22 Indian crew safe - Mathrubhumi English"
+      },
+      {
+        "url": "https://ukmto.org/-/media/ukmto/products/update-104-jmic-advisory-note-11-october-1.pdf",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-13T04:35:14Z",
+        "title": null
+      },
+      {
+        "url": "https://gcaptain.com/vessel-struck-by-unknown-projectile-off-uae-coast-amid-surge-in-attacks-ukmto-says",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-13T04:35:14Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-10T04:38:58Z",
-    "last_updated": "2026-10-10T05:08:27Z",
+    "last_updated": "2026-10-13T04:35:14Z",
     "verification_issue": 105,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-13T04:35:14Z",
+      "note": "The tanker was struck on 9 October 2026, UKMTO warning 160-26 and JMIC update 104 record the strike on the Panama-flagged crude tanker GEM NO. 2 about 13 nautical miles off the UAE coast, so this 10 October record is the same attack reported a day late.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/105#issuecomment-6138309446"
+    },
     "published_in": [
       "2026-10-10"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261009-003"
+    "merged_into": "INC-20261009-003",
+    "status_changed_at": "2026-10-13T04:35:14Z"
   },
   {
     "region": "Sea of Azov",
@@ -4478,9 +4503,9 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.7,
-    "vessel_name": null,
+    "vessel_name": "AROYAT",
     "imo": null,
-    "flag": null,
+    "flag": "Palau",
     "vessel_type": "general cargo",
     "vessel_category": "merchant",
     "lat": 46.49,
@@ -4537,16 +4562,44 @@
         "kind": "media",
         "published_at": "2026-10-08T06:26:00Z",
         "title": "Dron saldırısında kaptanı ölen gemi Trabzon'a geldi - Saray Medya"
+      },
+      {
+        "url": "https://denizde.com.tr/en/haberler/aroyat-gemisine-karadeniz-de-saldiri-turk-muhendis-hala-kayi",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-13T04:35:11Z",
+        "title": null
+      },
+      {
+        "url": "https://www.yenigiresun.net/haber/28970318/ukrayna-ihalarinin-vurdugu-bir-gemi-daha-giresunda-nohut-yuklu-murettebatsiz-gemi-liman-aciklarinda-cayir-cayir-yandi",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-13T04:35:11Z",
+        "title": null
+      },
+      {
+        "url": "https://maritime-executive.com/article/ukraine-accused-of-attack-on-turkish-bulker-with-one-seafarer-missing",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-13T04:35:11Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-10T17:58:10Z",
-    "last_updated": "2026-10-11T05:10:41Z",
+    "last_updated": "2026-10-13T04:35:11Z",
     "verification_issue": 112,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-11T05:10:41Z",
-      "note": "the record joins the Aroyat, the Palau-flagged bulk carrier struck off Novorossiysk on 27 to 29 September and since drifted to off Giresun with its second engineer missing, to the Arina A, whose captain was killed and which has reached Trabzon: both are already recorded and rejected, and neither is a 10 October attack"
+      "by": "iMariner",
+      "at": "2026-10-13T04:35:11Z",
+      "note": "The ship brought off Giresun with a Turkish engineer missing is the Palau-flagged bulk carrier Aroyat, struck by drones off Novorossiysk on 27 September 2026, so this is an aftermath report and not a drone attack on 10 October.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/112#issuecomment-6138309781"
     },
     "published_in": [
       "2026-10-11"
@@ -4693,9 +4746,9 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.4,
-    "vessel_name": null,
+    "vessel_name": "EVER LOVELY",
     "imo": null,
-    "flag": null,
+    "flag": "Singapore",
     "vessel_type": "general cargo",
     "vessel_category": "merchant",
     "lat": 26.55,
@@ -4716,16 +4769,35 @@
         "kind": "media",
         "published_at": "2026-10-10T13:13:31Z",
         "title": "Cargo Ship Reports Suspected Attack While Crossing Hormuz - EnergyNow"
+      },
+      {
+        "url": "https://www.mpa.gov.sg/media-centre/details/minor-damage-to-bridge-of-singapore-registered-vessel-ever-lovely",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-13T04:35:09Z",
+        "title": null
+      },
+      {
+        "url": "https://www.thehindu.com/news/international/container-ship-ever-lovely-attacked-near-oman-strait-of-hormuz/article71147560.ece",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-13T04:35:09Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-10T21:57:48Z",
-    "last_updated": "2026-10-11T05:10:41Z",
+    "last_updated": "2026-10-13T04:35:09Z",
     "verification_issue": 113,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-11T05:10:41Z",
-      "note": "the EnergyNow page is dated June 2026 and is the 25 June 2026 projectile strike on the Singapore-flagged container ship Ever Lovely near Dahit in Oman, re-crawled by Google News, not a 10 October attack"
+      "by": "iMariner",
+      "at": "2026-10-13T04:35:09Z",
+      "note": "The EnergyNow page is the June 2026 report of the 25 June 2026 projectile strike on the Singapore-flagged container ship Ever Lovely off Oman, re-served by an aggregator, so no cargo ship was attacked on 10 October 2026.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/113#issuecomment-6138309992"
     },
     "published_in": [
       "2026-10-11"
@@ -6983,9 +7055,9 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.7,
-    "vessel_name": null,
+    "vessel_name": "AFRAMAX RIO",
     "imo": null,
-    "flag": "Turkey",
+    "flag": "Liberia",
     "vessel_type": "tanker",
     "vessel_category": "merchant",
     "lat": 43.4,
@@ -7060,19 +7132,44 @@
         "kind": "media",
         "published_at": "2026-10-08T02:13:50Z",
         "title": "India issues stern condemnation after Black Sea vessel strikes leave national sailor injured, says ‘targeting - India.com"
+      },
+      {
+        "url": "https://indiatoday.in/amp/world/story/black-sea-tanker-attack-23-indian-crew-rescued-after-aframax-rio-hit-off-sochi-ptag-3011385-2026-10-07",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-13T04:35:16Z",
+        "title": null
+      },
+      {
+        "url": "https://infra.economictimes.indiatimes.com/news/ports-shipping/ukrainian-drone-attack-sets-fire-to-oil-tanker-carrying-23-indians-off-russias-black-sea-coast-crew-rescued/134780979",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-13T04:35:16Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-09T19:42:52Z",
-    "last_updated": "2026-10-10T05:08:27Z",
+    "last_updated": "2026-10-13T04:35:16Z",
     "verification_issue": 101,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-13T04:35:16Z",
+      "note": "This is the 6 October 2026 attack, when sea drones struck the Liberian-flagged tanker Aframax Rio off Sochi and all 23 Indian crew were rescued, so the 9 October record duplicates it and carries no new attack.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/101#issuecomment-6138309249"
+    },
     "published_in": [
       "2026-10-10"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
     "date_approx": false,
-    "merged_into": "INC-20261006-014"
+    "merged_into": "INC-20261006-014",
+    "status_changed_at": "2026-10-13T04:35:16Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -7268,16 +7365,35 @@
         "kind": "media",
         "published_at": "2026-10-09T22:07:14Z",
         "title": "US strikes Iran after drone attack on cargo ship in Strait of Hormuz - KATU"
+      },
+      {
+        "url": "https://apnews.com/article/iran-us-israel-war-hormuz-strait-june-26-2026-8c1a77eb82d25f00de814958114c7296",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-13T04:35:13Z",
+        "title": null
+      },
+      {
+        "url": "https://www.reuters.com/world/middle-east/iran-insists-right-control-shipping-strait-hormuz-after-ship-hit-near-oman-2026-06-26/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-13T04:35:13Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-10T12:59:52Z",
-    "last_updated": "2026-10-11T05:10:41Z",
+    "last_updated": "2026-10-13T04:35:13Z",
     "verification_issue": 110,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-11T05:10:41Z",
-      "note": "the KATU page is dated 26 June 2026 and describes the US strikes on Iran after an Iranian drone attack on a cargo ship in the Strait of Hormuz in June 2026, re-crawled by Google News, not a 9 October attack"
+      "by": "iMariner",
+      "at": "2026-10-13T04:35:13Z",
+      "note": "The KATU page is the 26 June 2026 story of US strikes on Iran after the 25 June 2026 Iranian drone attack on the container ship Ever Lovely in the Strait of Hormuz, so nothing happened on 9 October 2026.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/110#issuecomment-6138309636"
     },
     "published_in": [
       "2026-10-11"
