@@ -303,8 +303,9 @@ def apply(body: str) -> str | None:
                         "refused": keep("refused", refused), "notes": keep("notes", notes),
                         "restored": keep("restored", restored), "send_after": send,
                         "lead": lead or prev.get("lead")}
-    if send and not record.get("final_read"):
-        # '/review ... send: yes' is the final read (or the owner's feedback) fixing the draft before it goes out
+    if send:
+        # '/review ... send: yes' is the final read (or the owner's feedback) fixing the draft before it goes out.
+        # Warnings from an earlier final read described the draft before these fixes, so they no longer apply.
         record["final_read"] = {"status": "fixed", "at": stamp, "warnings": []}
     write_json(record_path, record)
     log.info("Editor check for %s: %d change(s), %d refused, %d note(s)", day, len(done), len(refused), len(notes))

@@ -821,3 +821,16 @@ def test_hermes_job_files_load_safely():
         assert f"docs/hermes/skills/{skill}/SKILL.md" in text and f"name: {skill}" in text
         assert text.rstrip().splitlines()[-1] == f"END OF SKILL ({skill})"
         assert "\u2014" not in text
+
+
+def test_review_send_replaces_old_final_read_warnings(tmp_path, monkeypatch):
+    from tracker import common, review
+    monkeypatch.setattr(review.store, "load", lambda: [])
+    monkeypatch.setattr(review.store, "save", lambda x: None)
+    monkeypatch.setattr(review, "REVIEW_DIR", tmp_path)
+    monkeypatch.setattr(review, "BRIEFS_DIR", tmp_path)
+    common.write_json(tmp_path / "2026-10-13.json", {"incidents": [], "final_read": {"status": "warnings",
+                                                                                    "warnings": ["old"]}})
+    review.apply("/review 2026-10-13\nnote: fixed wording\nsend: yes")
+    rec = common.read_json(tmp_path / "2026-10-13.json", {})
+    assert rec["final_read"]["status"] == "fixed" and rec["final_read"]["warnings"] == []
