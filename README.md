@@ -17,7 +17,7 @@ Every hour (GitHub Actions: collect.yml)
   -> keyword pre-filter -> DeepSeek extracts incidents -> match/merge into data/incidents.json
   -> doubtful ones open a GitHub issue labelled "verify" -> Hermes (or you) answers /verdict
 
-Daily 05:40 UTC (daily-brief.yml)
+Daily, started by Hermes (04:30 /brief, 05:00 editor check, 05:25 final read; backups 06:00 to 07:55)
   last 24h incidents -> DeepSeek writes headline, overview, X text
   -> map image -> WordPress post on imariners.com (draft or publish)
   -> n8n webhook -> Telegram approval on your phone -> publish -> Telegram gives a one-tap X share link

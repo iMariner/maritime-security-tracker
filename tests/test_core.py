@@ -448,6 +448,9 @@ def test_brief_watchdog_decide():
     # the old watchdog line (still deployed until Hermes re-downloads the script) also means "send now"
     _, changes, _ = review.parse("/review 2026-10-07\nnote: Automatic resend at 06:00 UTC: not sent.")
     assert ("send", "", "", "") in changes
+    assert wd.job_file_ok("step 1\n\nEND OF INSTRUCTIONS (maritime-final-read)\n", "maritime-final-read")
+    assert not wd.job_file_ok("step 1\nEND OF INSTRUCTIONS (maritime-editor-check)", "maritime-final-read")
+    assert not wd.job_file_ok("HTTP 404", "maritime-final-read")
 
 
 def test_editor_notes_reach_the_writer(tmp_path, monkeypatch):
@@ -796,3 +799,25 @@ def test_review_pass_keeps_merchant_ships(monkeypatch):
     monkeypatch.setattr(c.github_issues, "close_issue", lambda *args, **kw: None)
     c.consolidate(incs)
     assert a["status"] != "rejected" and b["status"] != "rejected"
+
+
+def test_hermes_job_files_load_safely():
+    """The Hermes jobs download docs/hermes/cron/<job>.txt at every run and refuse a file without its END line."""
+    import re
+    from pathlib import Path
+    cron = Path(__file__).resolve().parent.parent / "docs" / "hermes" / "cron"
+    stub = (cron / "job-prompt-stub.txt").read_text()
+    jobs = ["maritime-security-tracking", "maritime-editor-check", "maritime-final-read", "maritime-weekly-learning"]
+    assert "NAME.txt" in stub and "END OF INSTRUCTIONS (NAME)" in stub
+    for job in jobs:
+        text = (cron / f"{job}.txt").read_text()
+        assert text.rstrip().splitlines()[-1] == f"END OF INSTRUCTIONS ({job})"
+        assert "—" not in text and "–" not in text                      # no em or en dashes
+        assert not re.search(r"curl\b.*Authorization", text, re.I)               # Hermes blocks this in prompts
+        assert "GITHUB_TOKEN" in text and "Never print" in text
+    assert "curl" not in stub and "contents/docs/hermes/cron/NAME.txt" in stub
+    for skill in ("maritime-brief-system", "maritime-brief-feedback"):
+        text = (cron.parent / "skills" / skill / "SKILL.md").read_text()
+        assert f"docs/hermes/skills/{skill}/SKILL.md" in text and f"name: {skill}" in text
+        assert text.rstrip().splitlines()[-1] == f"END OF SKILL ({skill})"
+        assert "\u2014" not in text

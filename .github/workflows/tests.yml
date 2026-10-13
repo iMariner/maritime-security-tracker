@@ -1,0 +1,25 @@
+name: Tests
+
+# Runs the test suite when code, config or the Hermes job instructions change. The Hermes jobs load
+# docs/hermes/cron/<job>.txt at every run, so a broken file there must show up as a failed check at once.
+on:
+  push:
+    branches: [main]
+    paths: ["tracker/**", "tests/**", "config/**", "scripts/**", "docs/hermes/**", "requirements.txt"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python -m pytest -q tests

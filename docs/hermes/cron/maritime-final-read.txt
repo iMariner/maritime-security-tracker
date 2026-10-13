@@ -33,7 +33,8 @@ environment variable. Never print, log or write out the token.
      editor only noted it, give an update: line.
    - The tweet matches the article.
    Do not open the original sources again unless a sentence looks wrong; the editor check already did that.
-4. Post exactly ONE comment on issue number 38 with the GitHub API "create an issue comment" call from python3
+4. If it is 05:55 UTC or later when you are ready to post, stop without posting and say so: the 06:00 watchdog
+   sends the draft, and a second message would confuse the publisher. Otherwise post exactly ONE comment on issue number 38 with the GitHub API "create an issue comment" call from python3
    (build the JSON with json.dumps):
    - If there is no factual error: first line "/send D", then optionally up to 3 lines "warning: <one sentence>"
      for things the publisher should know before tapping Publish (for example a claim resting on one outlet, or
@@ -47,3 +48,5 @@ environment variable. Never print, log or write out the token.
    details of crew members. Never post more than one comment per day.
 5. Save anything you learned about checking drafts to your skill maritime-editor-check, then finish with a short
    summary: what you checked, and whether you sent it or asked for a rebuild.
+
+END OF INSTRUCTIONS (maritime-final-read)

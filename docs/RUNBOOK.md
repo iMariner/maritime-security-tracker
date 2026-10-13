@@ -2,7 +2,8 @@
 
 The one document to read first, months from now. It says what this system is, why it was built this way, how
 every part works, how to operate and repair it, and what was decided along the way. Last full update: 7 October 2026.
-Detailed prompts for the Hermes jobs are in [hermes.md](hermes.md); server setup history is in
+Each Hermes job's instructions are in [hermes/cron/](hermes/cron/) (loaded at every run; see
+[hermes/README.md](hermes/README.md)), the Hermes setup in [hermes.md](hermes.md); server setup history is in
 [DEPLOY-ON-TEST-SERVER.md](DEPLOY-ON-TEST-SERVER.md).
 
 ## 1. What it is and why
@@ -123,10 +124,10 @@ and the tweet text. Lines starting with ⚠️ mean "read the draft before publi
 | Start today's brief if nothing exists | Comment `/brief now` on #38, or run "Daily brief" in GitHub Actions |
 | Build without sending (test) | Run "Daily brief" with `notify` off, or `preview` on (no WordPress) |
 | Fix a published post's map | Run "Refresh brief map" with the date |
-| Correct a fact | `/review <date>` lines: `merge:`, `name:`, `flag:`, `imo:`, `date:`, `position:`, `status:`, `note:`, `lesson:` (format in `tracker/review.py`). `note:` lines go to the writer and fact-checker on the rebuild and overrule the data (use them for a wrong credit, a detail in the wrong paragraph, conflicting dates); a second `/review` the same day adds to the first |
+| Correct a fact | `/review <date>` lines: `merge:`, `unmerge:`, `name:`, `flag:`, `imo:` (each also `= none`), `date:`, `position:`, `status:`, `casualties:`, `damage:`, `region:`, `lead:`, `update:`, `note:`, `lesson:` (format in `tracker/review.py`). `note:` lines go to the writer and fact-checker on the rebuild and overrule the data (use them for a wrong credit, a detail in the wrong paragraph, conflicting dates); a second `/review` the same day adds to the first |
 | Change the lessons | Edit `config/lessons.yaml`, or comment `/lessons` with `writing:` and `facts:` sections |
 | Check the DeepSeek balance | GitHub Actions "Check DeepSeek balance", or the first line of the approval message |
-| Change a Hermes prompt | Hermes, Cron, Edit job; keep `docs/hermes.md` and `docs/hermes/` (skills, memory, profiles) in step |
+| Change what a Hermes job does | Edit `docs/hermes/cron/<job>.txt` (keep its last line `END OF INSTRUCTIONS (<job>)`), run the tests, push: the next run uses it. Never edit the job's stored prompt in Hermes: it is only the loader. The two shared skills update the same way (keep `END OF SKILL (<name>)`). Schedules, attached skills, memory and new jobs still need a message to Hermes |
 | Update the watchdog script | Edit `scripts/hermes/brief_watchdog.py`, push, ask Hermes to re-download it to `/opt/data/scripts/` |
 | Restart Hermes's Telegram side | Ask Hermes in its Chat page to run `hermes gateway restart` (the dashboard Restart buttons did not restart it) |
 | Hermes page says "Access ended" | Open app.splicerun.com, Hermes Agent instance, "Open Hermes Agent" again |
@@ -187,7 +188,8 @@ and the tweet text. Lines starting with ⚠️ mean "read the draft before publi
   the brief; the hourly review pass rejected the Ocean Molica (a bulk carrier) as a "military vessel" after two
   briefs had carried it. Added `name:`/`imo: = none`, `update: ID = what is new | link` (puts news on an earlier
   brief's attack into today's brief), and a review-pass guard: merchant ships and already-published attacks are
-  never rejected automatically.
+  never rejected automatically. The four Hermes jobs now load their instructions from `docs/hermes/cron/` at every
+  run (a loader prompt in Hermes), so prompt changes no longer need a message to Hermes.
 
 ## 11. Costs (October 2026)
 
