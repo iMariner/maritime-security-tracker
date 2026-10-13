@@ -4949,17 +4949,12 @@
     "first_seen": "2026-10-10T06:19:59Z",
     "last_updated": "2026-10-12T16:00:57Z",
     "verification_issue": 107,
-    "verdict": {
-      "status": "rejected",
-      "by": "review pass",
-      "at": "2026-10-12T16:00:57Z",
-      "note": "Out of scope: (b) target was a military cargo ship claimed by Russia's defence ministry, a military vessel"
-    },
+    "verdict": null,
     "published_in": [
       "2026-10-11",
       "2026-10-12"
     ],
-    "status": "rejected",
+    "status": "claimed",
     "position_approx": true,
     "date_approx": false,
     "keep_apart": [
@@ -6383,16 +6378,16 @@
     "last_updated": "2026-10-13T04:40:05Z",
     "verification_issue": 116,
     "verdict": {
-      "status": "rejected",
-      "by": "review pass",
-      "at": "2026-10-13T03:48:18Z",
-      "note": "Out of scope: (b) target was a military vessel"
+      "status": "confirmed",
+      "by": "editor-check",
+      "at": "2026-10-11T05:10:41Z",
+      "note": "CENTCOM said its fighter jet disabled the vessel, and UKMTO advisory 163-26 reports the incident in the Gulf of Oman the same day (restored 13 Oct: the review pass wrongly called this bulk carrier a military vessel)"
     },
     "published_in": [
       "2026-10-11",
       "2026-10-12"
     ],
-    "status": "rejected",
+    "status": "confirmed",
     "position_approx": true,
     "news_changed_at": "2026-10-11T05:10:41Z",
     "status_changed_at": "2026-10-11T05:10:41Z",
