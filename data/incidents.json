@@ -170,7 +170,9 @@
     "last_updated": "2026-10-12T23:11:05Z",
     "verification_issue": 123,
     "verdict": null,
-    "published_in": [],
+    "published_in": [
+      "2026-10-13"
+    ],
     "status": "reported",
     "position_approx": true
   },
@@ -342,7 +344,9 @@
     "last_updated": "2026-10-12T16:00:48Z",
     "verification_issue": 124,
     "verdict": null,
-    "published_in": [],
+    "published_in": [
+      "2026-10-13"
+    ],
     "status": "reported",
     "position_approx": true
   },
@@ -591,7 +595,9 @@
     "last_updated": "2026-10-13T03:48:17Z",
     "verification_issue": 126,
     "verdict": null,
-    "published_in": [],
+    "published_in": [
+      "2026-10-13"
+    ],
     "status": "reported",
     "position_approx": true
   },
@@ -634,14 +640,28 @@
         "kind": "media",
         "published_at": "2026-10-12T19:50:06Z",
         "title": "Oman evacuates injured sailor after fire on merchant ship - Latest news from Azerbaijan"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTG50RGJVMVNWMjRudVF2U0xDRGhqQmxZU2tRZnA5LUxhSGNzNG1EYWtMTmI4V2dteEFUc2w2cVlXX3BIaThqcXl4aEVWTzdPMWZnX3E2SUdsSmM1bmdMOVFaZXVVNnh4UVl4TEZOZERwbHd2LTllZlBORDV3UmxIODBQTlk3bXN0R3dNczlhZGFGNldqckoybnhnejRJZDVSREtabGNXWjBKUGfSAbsBQVVfeXFMTkdlTWZMRERoZXNsVHMwLTh6Tk4zWnJ1ODRqTGlHdkxCX3RZZGRfc2ljTEZsWGVCR2tQdWpsX0Q4aktaQ1JpM05ZS0dwX1dMRm9rSDFFcnoxcW1iQXJ0YXp0U19Hd2EzVVdZaWdxQzAwWlhWaExSTl96X05aZVJZbFpBUC1FYTBGOEp5ck1CbGZVSTZLU040QmtqZ2dLd0xhRzNBdndFcUdOV3FsaC0yaFlvOVh5UTBwekU2Zw?oc=5",
+        "source": "US Muslims",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T21:49:48Z",
+        "title": "UPDATE - Oman evacuates injured crew member after fire on merchant ship - US Muslims"
       }
     ],
     "first_seen": "2026-10-12T23:10:45Z",
-    "last_updated": "2026-10-12T23:10:51Z",
+    "last_updated": "2026-10-13T04:40:09Z",
     "verification_issue": 127,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "review pass",
+      "at": "2026-10-13T04:40:09Z",
+      "note": "Out of scope: (a) no vessel was attacked, only a fire with an injured crew member"
+    },
     "published_in": [],
-    "status": "reported",
+    "status": "rejected",
     "position_approx": true
   },
   {
@@ -737,10 +757,19 @@
         "kind": "media",
         "published_at": "2026-10-12T05:37:41Z",
         "title": "Russia says it struck vessel carrying military cargo to Ukraine's port of Odesa - Devdiscourse"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWi1HVmM5c3ZpR2l5aGZSWEhUMFJjcC1YLUR0YWlMdWVnWFROX3BoUjNJaWpKTnNxYVJlR0VpbHZWS0tnMkVIenFxSmQzbXYxX3FUZDBVaDBreUV3LUdwOVF0dVR3ZkU3NFhMM2FYXzBJekZCMUlhV2pWcFdtNHdWaGlIYUx0aWVVV3VaTDV6SmpWcGtWYXBJLVpyNjh6SkFWUXhGZXFrS1Y?oc=5",
+        "source": "خبرگزاری اطلس",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T15:04:20Z",
+        "title": "Russia claims strike on ship carrying military supplies to Ukraine - خبرگزاری اطلس"
       }
     ],
     "first_seen": "2026-10-12T23:10:45Z",
-    "last_updated": "2026-10-13T03:48:18Z",
+    "last_updated": "2026-10-13T04:40:05Z",
     "verification_issue": 128,
     "verdict": {
       "status": "rejected",
@@ -1590,7 +1619,9 @@
     "last_updated": "2026-10-13T03:47:29Z",
     "verification_issue": 132,
     "verdict": null,
-    "published_in": [],
+    "published_in": [
+      "2026-10-13"
+    ],
     "status": "confirmed",
     "position_approx": true
   },
@@ -2417,7 +2448,7 @@
       }
     ],
     "first_seen": "2026-10-11T15:03:32Z",
-    "last_updated": "2026-10-13T03:48:18Z",
+    "last_updated": "2026-10-13T04:40:09Z",
     "verification_issue": null,
     "verdict": {
       "status": "confirmed",
@@ -2428,13 +2459,14 @@
     "published_in": [
       "2026-10-12"
     ],
-    "status": "confirmed",
+    "status": "merged",
     "position_approx": true,
     "keep_apart": [
       "INC-20261010-016"
     ],
     "status_changed_at": "2026-10-12T05:30:06Z",
-    "date_approx": false
+    "date_approx": false,
+    "merged_into": "INC-20261011-008"
   },
   {
     "region": "Strait of Hormuz",
@@ -2616,7 +2648,7 @@
   {
     "region": "Gulf of Oman",
     "date_utc": "2026-10-11",
-    "summary": "A tanker was hit by a drone off the Oman coast on 11 October, with two Indian seafarers missing and nine rescued. Later reports on 12 October described the same event as a drone strike on a Nicaraguan-flagged oil tanker in the Strait of Hormuz with two crew missing, and India condemned the attacks.",
+    "summary": "A tanker was hit by a drone off the Oman coast on 11 October, with two Indian seafarers missing and nine rescued. UKMTO also reported a tanker struck by an unidentified projectile in the Strait of Hormuz the same day, causing a fire and damage, and these reports describe the same attack.",
     "official_source_cited": "UKMTO",
     "conflicting": false,
     "confidence": 0.9,
@@ -2629,9 +2661,9 @@
     "lon": 56.35,
     "location_text": "off Oman coast",
     "attack_type": "drone (UAV)",
-    "damage": null,
+    "damage": "damage reported",
     "casualties": "2 Indian seafarers missing, 9 rescued",
-    "attribution_claimed": null,
+    "attribution_claimed": "Iran's IRGC published video of the mining; Iran's coast guard said the vessel tried to leave the strait on an unauthorized route after navigation systems were switched off",
     "independent_evidence": true,
     "id": "INC-20261011-008",
     "sources": [
@@ -2940,10 +2972,541 @@
         "kind": "media",
         "published_at": "2026-10-12T02:36:08Z",
         "title": "Two Indian Seafarers Missing After Drone Strike On Vessel In Strait Of Hormuz, India Condemns Attacks - ABP Live English"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTk1rX0dUdGxsbm1vU2MwekpaV0NJbXI5TG16bko0bVl2eFdUY2QxU215VlJBYjBCQ2pSLWt3S3pkOGJxdjZld21YZFBhU3FYQVJ1Y1djRm5NMmJyWjFmRFJUNW16d05fRXdqTmZxVUhEeUNPMWlpenZCYkhYSk5JM1ZuZllfbHlXUkxrTkFOTDBNX2c?oc=5",
+        "source": "Breakingthenews.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T14:14:00Z",
+        "title": "UK reports damage to tanker in Hormuz attack - Breakingthenews.net"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10bVJrMTNGMkx3SHdBaDdlRVpxa1YzSUp1OVBPemFDUmVuYjB6TzdBTHpiMHk4S1NSMUs0ZndLN2RqSXlWb09haFdGbHg1cjhfT3c?oc=5",
+        "source": "Yemen Online",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T14:02:57Z",
+        "title": "UKMTO: Fire on Ship Struck by Projectile in Strait of Hormuz - Yemen Online"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYlAzVnREMUZ0aTlwMklpMHJBTU5DY3YxamIyQmhhRUdzOF9xZHhMUlJUeHJDZHN6bzQtUmg2WTRSbTdGekwyVWE2dy1vcG1YbVFIZHlydFdKak9mNnZZeUE3NWE0NnMzVlItT1VYU0k0UXh4VWFYYjFObGxfVkdlbWxXVUFEZ0dydGRIdHJQV2YxYlV2c2ZiMTlHZlAyR2VpTTBCNFBuajVyb2kwVzFhekpBbjNCWXNvazBWSm16NVRFejg?oc=5",
+        "source": "Anadolu Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T13:58:47Z",
+        "title": "Tanker damaged by 'unidentified' projectile in Strait of Hormuz: UK maritime agency - Anadolu Ajansı"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRkZ0cDRKeEo2Nko5SGlRQ2dRS3R4bzIyaHZpbHp6c01hMXl4NU5BZWpPWWZ1N3F2OWcwSzV6c1dETFJHaU9NdnJTZWk2aHRVczZwUU1PZkZiX0VMYWhCbGpVbnhrQ2FMbTlXMEI2UzlJRzE3NmFUWk16STVmUzFiVHA4QUNTcXJ5d2dwNnZaQVBPaGd5UzY4NEFWM3pjNjFScGVVTFpfZlVtdw?oc=5",
+        "source": "Seoul Economic Daily",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T13:38:05Z",
+        "title": "Tanker Hit by Projectile in Strait of Hormuz, No Crew Injuries Reported - Seoul Economic Daily"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1wakNvM3ZlbHJqUGNKeTV0dUFtbXllUHVIbndiTDBUVnlMMXp3cXh1U0wxVUxuS3c0YXRDeGxJbzFWOXJtZlBnRHhKb3I1aWtyLU5WME5QLXpzSzJkQzhHWGhyV1F6bnRSejdONEpn?oc=5",
+        "source": "CGTN",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T13:06:54Z",
+        "title": "UKMTO: VESSEL WAS DAMAGED IN INCIDENT - CGTN"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVTNTcEtBc1hvZEotZmJ6dURKUHk0cGNtRjUzZ0M1R2kwdjJVTmpLTkZhWHVPUHZSdXc5a3NQMV9jRUoxLXZIdHVwQmx5Q1VxNVJ0TUxya1VJTkRHVmtlQm16OUVTVGpLWXFzWmkxejdxMTJ0aTBSNlhKbDYwYUQwZ1Z1Z2VQZm5hRENORw?oc=5",
+        "source": "Latest news from Azerbaijan",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T05:23:38Z",
+        "title": "Tanker catches fire after projectile strike in Strait of Hormuz - Latest news from Azerbaijan"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQV3NQLUxsTDhYdkI2dDAzUEVOUEJ0cHRSM0xka0pxdXo5QVFubngxN1N4RmNBdVRWNjBXMk1kZld2bXRDTnhQeUloZUp2Y2tQUEVuUFhyQ2NTdldFUmpFZzBhdDNkZUM0Y2hzS1RaSEFpV0Q5QUdad1hQd1lNMFJEUnBGZ2hlcVlDamVtTTdqZk9lYXRFbHg0Si1Dd1lhd1NrdmJYYzhtT2RKRm8?oc=5",
+        "source": "thenationalnews.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T11:36:00Z",
+        "title": "Drone attack on tanker in Gulf of Oman - thenationalnews.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiARBVV95cUxOZ2xSUUhmcm5Zc0dLWWdXOWh2TEJ6MUZGMFJwM1Bpdm5KN0xCNlVxeF93bUFIdTUzcEZMWFpuQU5MZ3RWVnFQalZ5WEYwRFdTbWdzUlhnX3VUMFNpN1hQUER5SmtkeGlUZW9ac1dzRV90SHVkdWtrZk1JdnB4eFVSdXBIU3lwVGQyQWNEME9FckkybzdzUXE4c0w3WmFVYmVPbWF3eURJNXFyMmJmT3lPZk1BcjVRcTl1WkJ2ZE1ERVVVLW13M0NzcDR4WTFVOWdKdllKa3pIQVZSbnNvY2xnX2JRYk5rVmtIU3U4bmNpTG9ia0NYd08tanVkanFwNTJJMmJkbG5GajdPelNMVkZxTkgtdlVTbk8wd3NYRFd4REFfbmxBbDZLbFltXzJfUG5Hakg3VkZjMUxfWVJOMkx2NFFUT18zalB5Y2hsQXVMQmJRYk5odkx5cHBMRzFUdkc3WmpISE9lbjdoZGY3NV8xV3o0U2VTc1V3RDY0ekt6RnFmOEIwdFVGVWg1M0dDZmNMY2pTU3JGeW5vU0FBNmZZdFNpSG1uem9GVlE0Z0puWEZkVlI0UTl1Und4d2FISGFfZTRtYUpqZ2ZEaVBnRDBWSm5OZjEzT0JJVVdsUVhoY1NmT0FVZzQzd01Qa2RHWlBGUWRSWXMtUEZkSXFtSjhQME1zOS1fbUdW?oc=5",
+        "source": "https://www.akhbaralyawm.com/",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T11:02:53Z",
+        "title": "الهند تعلن فقدان بحَّارَين إثر هجوم على سفينة قبالة سواحل عُمان - https://www.akhbaralyawm.com/"
+      },
+      {
+        "url": "https://t.me/uniannet/203825",
+        "source": "UNIAN",
+        "source_type": "telegram",
+        "side": "ua",
+        "kind": "media",
+        "published_at": "2026-10-12T09:50:24+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR2p2UGZ3ME9BSERLaHk2LXlaV2dEem00V1FMUnp1S3BhekZjYkpjeGdEbnpvNWloMlJSMzVpM00tZGxtRk1aQzZGaW10QldyMWhrSUVrcXRTdEdXdk9EelJmRzAwd0lPSzBvbGRoM19URG1Fa2JvMTBNTG01SXYtQlpvUUJsWEVjZDRaYnhXV280Mk8t?oc=5",
+        "source": "Türk Deniz Medya",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T09:08:42Z",
+        "title": "Hürmüz Boğazı ve Umman Körfezi’nde ticari gemilere yönelik saldırılar! - Türk Deniz Medya"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVldYZVBjVkQ2VTN0TGpVZmRwZDJEZkhzbzNxUlJqWFlkWWVLSnA3dW9qaTZrZUxiNjFnbUU4Z1JLS3ZuWDBlRDFyTWd3TURTbTlTQ2ZPTU5qZHB0amlkcHdZTDBJMXo4aGlwMFhDNUt6LW1uUlNUamFOQnc1M1B5QnFjTlhNOXlCbmhSVUhRcXVvZjNFRXhEUVdvZ0RMd0VyT1lB0gGjAUFVX3lxTFBWV1hlUGNWRDZVM3RMalVmZHBkMkRmSHNvM3FSUmpYWWRZZUtKcDd1b2ppNmtlTGI2MWdtRThnUktLdm5YMGVEMXJNZ3dNRFNtOVNDZk9NTmpkcHRqaWRwd1lMMEkxejhoaXAwWEM1S3otbW5SU1RqYU5CdzUzUHlCcWNOWE05eUJuaFJVSFFxdW9mM0VFeERRV29nREx3RXJPWUE?oc=5",
+        "source": "OrissaPOST",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T11:11:33Z",
+        "title": "Yemen airstrikes, drone attack on Hormuz vessel among Mideast developments - OrissaPOST"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSlJRMjR4dDlPUFlDeVE5TTB1ZkVqdnhZU281MUhFeEo0SVZGakdiUzdnWllPZUVBd2NHSVAyZmVpVzBQVW9mRENoM0RPai1WN1BNYmdLN1BESUtlRnpETEtWY1lRZkxSbTBLejNrODVBTzAwalRPMlhYdHpZZVFpSTJBQXl6UXp2YlAyRnU3YUZLVldDek1QbjIwQWxSTHRWY19JQmFhOXVPNWNVTEHSAa4BQVVfeXFMTUpSUTI0eHQ5T1BZQ3lROU0wdWZFanZ4WVNvNTFIRXhKNElWRmpHYlM3Z1pZT2VFQXdjR0lQMmZlaVcwUFVvZkRDaDNET2otVjdQTWJnSzdQRElLZUZ6RExLVmNZUWZMUm0wS3ozazg1QU8wMGpUTzJYWHR6WWVRaUkyQUF5elF6dmJQMkZ1N2FGS1ZXQ3pNUG4yMEFsUkx0VmNfSUJhYTl1TzVjVUxB?oc=5",
+        "source": "DT Next",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T10:35:00Z",
+        "title": "Airstrikes on Yemen's capital, drone hits vessel in Strait of Hormuz - DT Next"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRktYQlE0aGpmY3VNc0lPM2o5U3RXenRnT1I5elNqWlBVRE9XWEc5RklPWUozNGc5dGdiRHpMMFBFbXhGTGlNQjVWbVJuZXFHb2pqNWJqa0RwTi1JU1k0bGZ5QzV6dlRYVE1KQW90YUZmeVdXVlR1T3FtTmNYWkpXOW84bTM3cFpmQ0diZjlXWXVieHJDWFBBTWJYNDBvNmdhZ1c1QXB0TW9QdDZXa012a21YUHpOVU4xXzM3Z3c5NGI?oc=5",
+        "source": "United News of Bangladesh",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T09:54:48Z",
+        "title": "Airstrikes hit Yemen’s capital as drone attack targets tanker near Strait of Hormuz - United News of Bangladesh"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPeWs2NVpiZ2VaeC1KckdiR0ZFNVpmVVo4clhmTy1INmR4YUR0bHF4bk1IUG1CeHZ0aDBTZ0RvUkQ3ZU8wekJ4R0k0NF8wNGZ0TklHOWhMaTZmbDZWNndieE9ndHItN1dMZTV5eHFKS1pnaEVJcmdRY09Da0l3bERxbmRoWXJ3S3BHLVFRelk3SHVnNkdfeVBVMDZDWW9teW5SSm9NS3hubE1ZcmNTX3RmZmdXbUU4OVMzMTRTc09pX1VIckZodGtjMkMyWkFGVWRrVjJuQzBYTjJpZjhwMzVGdFdacWxnNTFN?oc=5",
+        "source": "5 EYEWITNESS NEWS",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T09:51:51Z",
+        "title": "Airstrikes on Yemen's capital, drone hits vessel in Strait of Hormuz, and other Mideast developments - 5 EYEWITNESS NEWS"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNbTVvdm5jQl8zaG9xSTBZVERQSUpLLW5MQkhxd3NjT3BjNFZjeXJKRE9zQUtiM2hWZGx5QjVFbU40b2N2QWxaa0ZUcmxrWVRudHF0eVNndC0zaGtRNjIyTWJjeXFBQ2RNWHJXdjIxNjh4cldQMl92c0p3dUZlajFGUm8xWWo2NldyOUZzWGt5SGFUczhfRjA2S21hZ1A2QTdrbWFVY3pWc0FoQV9MSmItdFh2VzVCek1uX1dWQWF6UXZXSTBFVi02MHF2SkNnYVJSM0M3NVRJZHI4OEtFYzg2QzhYeHg1bmZ4cmNKMUZzV0pYZk1yamZnLWd5OWRiVmhnb0RWZDhMeEQ2OW05Vmc?oc=5",
+        "source": "Star Beacon",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T09:42:06Z",
+        "title": "Airstrikes on Yemen's capital, drone hits vessel in Strait of Hormuz, and other Mideast developments - Star Beacon"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPeDVQMHNxcDJlWlYwbXE4TS1fTTJQM05aVjQ5WDhsMFJoMVluYy1vR21nVFNPUVIwLUJJaFg5MWFxRTFCT3BjcElCTmR1V1ZFVnpSXzhvMG8zcHQzeUhFbURFdzhSWndwNkJGamFURTBjNzVHUWJrZk9xMzhXU0Nzd3BGRG1QTlYyNmYtcjYtVmdkdTFMalhZdzJiQU9LNlg3YndBUVBfeUdxMU5QZGh6SF9aYzB3dXlSeTBuYy1RZUFkejJoUzlrWGVnSk5kWXFiVmQ5WHNfWkhDU1ZFeUJFdFl1dFNKNjNLWlhPa29XdTJudHhzaFhwbk1BQldYMjNrMDROOVVHQTVJVkM0STVPTlBNaXRScVVhS2pnLW1kYkdFdHdGZ2VxZWozbFNLd9IBswJBVV95cUxNVVc5dW9fd0NwTUYzdmlqcGNCTlhWNG9xX1JBN1BZc0pTQ01JR0d1aTZqTUpRRzJZUV82TTlUdXF2LTRJbFNPdVVKZnlLaFZzam5rem5JUXNZQURRRDZVOG5UUjktNTlEX0ZOTVJDdXlUbU9qOFFKbl9lWmQ3X1p1VFhzOVpOSFQ1dk5zSlNJX0FrSmt4UENpRy1sWWVMRUpueVoyeXlXRmpraGV2emI1RW5LbWFUdkZ5QVBzZXlyUTh6SGFKeXhnejNlMEdNcjdzRU5ndmx0QXFOSklFZDU0aGZUWGNOTk9UNkFsYnBrVTdHZnZZV3VZeFZZMl9RVUFmYmdLSE1yNmVldklqWFhWamM2QzAwMmNTZEtXLWNUZG01Tnd5RmdNb2JvYWJWQmRrYVpz?oc=5",
+        "source": "Yakima Herald-Republic",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T08:41:48Z",
+        "title": "Airstrikes on Yemen's capital, drone hits vessel in Strait of Hormuz, and other Mideast developments - Yakima Herald-Republic"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOaC14WUN5YUswYVFuZGVkdWJ0X2ZPSVh0dDNaaXBMdlA3ZFhFSGVZNVlmcDRlaUxLVHZvYzM1NVRBWmVEMDUtUjQ2bEE2Wlhfbi1RZExTa1lKb2J0a1dKaC1KOWJsOGthcS1qdW0xZkVhcHM1RVRiQl9KbGNvLU5OcmNtMk1aZDVwYWEtUGpvWS1kOWNya1MyWDdlUWZkc3c1dDZoTUVhM1poV0pfazVrQkJjNmhGY290Mk1RRThpSi1rM2VoZXhrQlR6d0N0VkUxRWFUZmhHYVNqY1lVV2JkUHZnS2FKcDdIOEQ1ejFSc3lnWU5jNWYzS0FSdVlRX1NSS18xdkRhc3Iwbl9TNWhF?oc=5",
+        "source": "WV News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T08:41:48Z",
+        "title": "Airstrikes on Yemen's capital, drone hits vessel in Strait of Hormuz, and other Mideast developments - WV News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQY3R3NnFDaHJDNzhGd2c5T1dyM003TTl2Q3JuUm8yTWZxQ0FsZEc5aWU4VUFqTENGa2s5TllQV0RENG00NDEtSUpObUtndE94UHBPamNXZU8tSldYaGdNX2N6STVJdlE2U1hUNTBKdWJmeEMzbERXQzU4bkhFR1ZpdjQ0MUFrX2VPTmU5WEFXTzVmMnVMa1FUX0Y4MDRzN0VGc2FVQzRFay1hNE5EcktCcHBLWlNPbzVxa2R6N3NpZE9KV245aFpweV9MdEs3MzdpNTd5TGhMY2RNRmpIMGdWRFpvdWFhdU92dndiZk9pNjV6LWlEMVl4ckZ3c1ZGMzBOMGlTVnlaSDN5M0ZueVB2cWFXb0t3eUdWNFJ2SXRYZk0?oc=5",
+        "source": "Leader-Telegram",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T08:41:48Z",
+        "title": "Airstrikes on Yemen's capital, drone hits vessel in Strait of Hormuz, and other Mideast developments - Leader-Telegram"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiyARBVV95cUxPRGZsWmwxTzFHVVNneUdiLTBEeTlyWHhFS2ZFTTlmay1HUEhQUERXSVBhOUJhbVBENzlyWUJrR0VDcTdWSUc2ZWpLQjI3R1NuSU5DZUhFTlhxaHNScldsazZEZTA4dS1ZY0xWclVSNFZGWHE4VXhLRWpzb3ZHSE12WTgzVzhFR3oycUxrUnFzN09LWEdhb3JmZDJqMlg5TXp2aTJQNnNTRlVKXzVJUmtFU3BlQTRINDVnVktSTFpZQ0QyN3V6VGp2eUZ1bWVtVVcyR29Tb0c3VnpZWUh5T2gzRFdCNFhsODZQT29mSzRZYUF4YUlKSFFOU29LSmVYVUlSNWNFZTFtWHVPQm5RYm9qYkVDUjZYX0M3Q1podEFuRkEzRVR1S3MtVDJNN2s0SG9rVUNLV082eUwyYnpwV1ZLcno2ZXpnd2tRcWhnM1U5bXAwWWRwME9ULVRIOExSVWNvUkl4SHl2TnY3SXQwOF9Qa0pWWFRSUHhJYWZCZjFTdlhSRWRudGtnbVZfdGpYLW56amZneFlXZi1fa0pPTkd0YmJCQThkMUdMWkV0SEZELXEtQjZOMC1udk9vYXVodlFYdnh1dVphY0ctXzE4TFZvOEdnQnQ1UTNhVXJxTXlkTFR4aUZJeEdWLVBQM0NmRF9PcG8zR0NfOUg3V1czT0FOYlBkcGU1YjNkZVh6NFFHU0ZfYlItQ24xTk1zZWNUVFl3OE4ydlAyRHQzOXpScWNRS29SWkxuUzdsajBTRnUyYXZjZEJicW92SQ?oc=5",
+        "source": "الشرق الأوسط",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T08:39:40Z",
+        "title": "الهند تعلن فقدان بحَّارَين إثر هجوم على سفينة قبالة سواحل عُمان - الشرق الأوسط"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYXhlLTI2TXhLN2ltanpHWkJvOWo0QVlrNGlFNElqN1BLTmxDMGhaZk1kZHRqQjZXS191WGxKZXpnVG9ENkphQ1phYks4MU5veWlQOWJLVjhRaEVoSXdzaDBwWjMzbDNkOHhyVjl3TFlZTmlRb0dlY2tKUXdrOTg3RGRDbUhDRXI0Sk1aS0c5bnl4U2ZHU0ZHNndGSTBQY0plSkRzQnU1WVg?oc=5",
+        "source": "Uzalendo News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T08:16:57Z",
+        "title": "Drone airstrike hits vessel in Strait of Hormuz, and other Mideast developments - Uzalendo News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOYjRjZXN4NkhhT3ktc2o1NXZPcXRGNEpNSzY5T29EcHdVOEhMX0pLdVp4RGx1TnBqUFIteWtFZHhmOGx6dEdzdjI5b3FLbWNGMDRHUGJ0VUJxSWNFaEV0Z0NGS014dVlBNVd6TGUzMGdJYWFKMXdmWnpDVEpOMXZ4LWxoX0xDOHVVX2wtRVN2a0U0Y3ZrWkVwLXV5dVJVMzZUYjZ6VnA4MXNkdWNDaUFyakh4MHJJVTNHTDhUTlpuTjJ6R1lodHhfUGgxcTBVeHFrbXBBUDN0aVU0TXRuNC1ZdzJCUmtzVDRzX1g1S0dNLU8za2JDemlEQ2dlaVMxNmliMWU3RGlmN0LSAYgCQVVfeXFMTmI0Y2VzeDZIYU95LXNqNTV2T3F0RjRKTUs2OU9vRHB3VThITF9KS3VaeERsdU5walBSLXlrRWR4ZjhsenRHc3YyOW9xS21jRjA0R1BidFVCcUljRWhFdGdDRktNeHVZQTVXekxlMzBnSWFhSjF3Zlp6Q1RKTjF2eC1saF9MQzh1VV9sLUVTdmtFNGN2a1pFcC11eXVSVTM2VGI2elZwODFzZHVjQ2lBcmpIeDBySVUzR0w4VE5abk4yekdZaHR4X1BoMXEwVXhxa21wQVAzdGlVNE10bjQtWXcyQlJrc1Q0c19YNUtHTS1PM2tiQ3ppRENnZWlTMTZpYjFlN0RpZjdC?oc=5",
+        "source": "Moneycontrol.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T19:26:00Z",
+        "title": "Crude oil tanker, container ship hit in Strait of Hormuz as Iran warns ships cooperating with US of... - Moneycontrol.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPZzc2Rl9SSDRQWTlqNmthWmZKSzA4TnVObzFETXdUVFJtMFFYOHNYZmRBdTh3bGg0OTN5N0dLbXYtbVVVbUNmNUxybjhHQ1pmQnRaMkRPYWV6QTVpRTk0RWJaRDhINFQ1ZFdPckhuaS1DeFpqOWlTeHNtbnBNajluS3lmOHVMX0tOT0tQQ1NWNTJVV3Z5WE5ObUQyUFRwVmcxMkNCUjRVWUpXckpEcks0M2ljbnI4WDB6RTFPeGFibXBRM0t4Q0d1aDdpZ0szbWhnX1l2dHI3M1c5VDBLRlIzVnpDVkRuQUduWEdObFNxYlJzZm5tVE9DR2gxY05QX1F4MGVv0gGIAkFVX3lxTE5iNGNlc3g2SGFPeS1zajU1dk9xdEY0Sk1LNjlPb0Rwd1U4SExfSkt1WnhEbHVOcGpQUi15a0VkeGY4bHp0R3N2MjlvcUttY0YwNEdQYnRVQnFJY0VoRXRnQ0ZLTXh1WUE1V3pMZTMwZ0lhYUoxd2ZaekNUSk4xdngtbGhfTEM4dVVfbC1FU3ZrRTRjdmtaRXAtdXl1UlUzNlRiNnpWcDgxc2R1Y0NpQXJqSHgwcklVM0dMOFROWm5OMnpHWWh0eF9QaDFxMFV4cWttcEFQM3RpVTRNdG40LVl3MkJSa3NUNHNfWDVLR00tTzNrYkN6aURDZ2VpUzE2aWIxZTdEaWY3Qg?oc=5",
+        "source": "Moneycontrol.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T19:26:00Z",
+        "title": "Crude oil tanker, container ship hit in Strait of Hormuz as Iran warns ships cooperating with US of... - Moneycontrol.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONHNPZF9RMFpkajhpbFN5QVp6b01HZEtkbl8zNWVfZFhHcjNndlBlSWFPRHpSTTJvbUF2S1FLWWY5alNCUXNJeHg3VnBmZVFKMEE3aG5TRk9GR045ZEdwSjljMlJuSmFiUEl3Qm0zQ01DcHVPNFNvUzgtbjVEeTRyUzAtbGZ0SzIxenVrTGM4VDVycHJ4aDNWZXNiWXFlSHJzbWNpeDBxczV0WUxTbWdSekthSGRaSEVjcEgyMkxZMk04VVFzNlkzMU1ySWdZd9IB4AFBVV95cUxQZ09ocW4xVHYxOThXZUZJNEZUaDVzeDBEc1RfeHhmanhxRm52eWNzYzFmWFdyZEtTMGtRbm5PcDBReGJuVVJOTjJSWVJla0FTRGZNUGlNSXBjbkgzMEF1Q01UMWVhS1BLLUpRMXNpSEdwWDdGbnBLMW5uaG5td1UzdUV4d2YzRktkcTQ3eERIbEE1M2x4Wk15VVBNSzhvd1JyWG9GamNZT2VrNE9LNFNDOUFvUXNqb2V3bi1uRnIyVGduNnVwOFRYOXdOejVLWU9jVXZMVkQ1YlIydHNZeS12Vg?oc=5",
+        "source": "Gulf News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T19:12:11Z",
+        "title": "Shipping alert: Strait of Hormuz crisis deepens as 3 vessels struck by unknown projectiles - Gulf News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOb0V1ZVNaQS1ZNWhoSW1HTC1lV0thdW5seGpnNnAxUDM0LUFnckJsY3Z3UFk3aDJsQWRJNk45bW9xWFlxMThwelV1aHFIei1hcWR2dmR5N3dIQlYtX1dManhfYlVaT3pNOG90NHVPSk12emczMTcxQ2xrOUVBTkJMc2xkSlMwRlNVNG5sNDdtdjZpVXZRNFE?oc=5",
+        "source": "Yeni Şafak English",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T18:57:47Z",
+        "title": "Iran's IRGC hits third 'offending' tanker in Strait of Hormuz - Yeni Şafak English"
+      },
+      {
+        "url": "https://maritime-executive.com/article/ukmto-reports-third-strike-in-a-day-on-a-tanker-in-the-mideast",
+        "source": "The Maritime Executive",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-12T18:41:34Z",
+        "title": "UKMTO Reports Four Strikes in One Day on Tankers in the Mideast"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQOGpGdWFnVi1DWkVjUS1DZktVTjljalpiNUdKclFSQ2lxVEw1Z09QMlg3X3lzRkwxQnlqMTktWGZoNEhpMEtFSlNoc3FxTnRwVEZSM1BYWlJ5bDRkQVdMZ2VwNUMzLWhDVzV0RXdmM1E1OEFSdU5NTm1BQ0VTZGZXcXktYVh1ZUo2Qi1uamVER0NCSjFnV0JjMWhWeGlqdUlNTEpHZlA1TzkxaU93RWxXSmRsajNGUFB4cHJTRi10T09QQnpuUGNVaHRYUW0wVnJWOEhYcTZ0Qk5ESW9iRHg4Z1VQaExVVHlnN2tCdVh1dEM5QzJEMVE?oc=5",
+        "source": "The Daily Telegraph",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T18:26:51Z",
+        "title": "Iran Guards strike vessel in Strait of Hormuz as oil soars - The Daily Telegraph"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPanZNRURjRk9raVBOWVI3ekpOYlNWd2s3dzl5MFdwRzlMcGdOaG92ckE4cjZFd1RIU1ZtajlvN192UWxTWThUQlRXdXl3QWZEVTZyQ3pNeVdIa1I0dF9DYTVxX2hqb2FHMEdVMFFic2R3b0tlWnFrUlJiek81U0lxT2lLU0dDNWlYOG1HNUU4dlpYa09JdXZXYVRkbGdkZ1hVaEx5OFNUYmlIM3dydjBkNWRXUC1jei1q?oc=5",
+        "source": "Türkgün",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T16:51:25Z",
+        "title": "Hürmüz Boğazı'nda tanker saldırısı: İran'dan deniz trafiğine güvenlik uyarısı geldi - Türkgün"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVllRdUlpU3A2OVZoZ2FVbjhLUlpacjNTRVotaXg1d3ZMN05LUkU1MTJrbTFqYXZHd0xpMWVqcDBjN0YwZnB5VlRJTGVoUUEwUWQ5RVk3dEc4NmRFcVBybFR4RkJ0ZWlZUWYySlhVOWNnOEQ4TXBoZmwwWGQzYmJKN29n?oc=5",
+        "source": "شفق نيوز",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T16:12:05Z",
+        "title": "Shafaq News..IRGC struck oil tanker in Strait of Hormuz - شفق نيوز"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNGVaRk5WbmxCUnEzc1BmM0pXVjF2MWNIWnY4b0JmSllUWVlqajJHclE4MzJxNndHak82TEt3T1pmdWdxWVZVQlJTRXprWnRTdGtKTlN4MF82MHR6clpsZ2dYQV9QaWF2RkZycTVMdlZvb0dqeDNkRGZMTEFEcXYzcUpBUUh5UGZRNzhnYzVYc1Z3TldaSEZrdWxrbVJ4N3E3QXZR?oc=5",
+        "source": "Balkanweb.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T07:54:00Z",
+        "title": "VIDEO/ Leaving the Persian Gulf, attack on an oil tanker in the Strait of Hormuz - Balkanweb.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZkNCSTZmY1dscEFnb09vY2NsLUZwYVN5UHR5WnhkSnZNSzg5dFBUd1MzTXhtb01oemFVQjNfOF8xT0tLREFNLWNZSUJxSFVKRWJ6enJjT2c1Rm5Vb2trMW1OQk5rWjFPa3Q4S3EyZFhJY05WZWc3QjlQN3l6MVM0NHpMbzhldUdtTk1UUw?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T07:24:07Z",
+        "title": "UKMTO: Дрон атаковал танкер у берегов Омана - prospect.com.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeFZGcFFxR3hYc3RZMFJPUnhDeHNhREJmZkJDOGtmTkJueWN6Z0dINGdUbnlINnI4alBTRWZGMWpHSjd6N3NlZ0lWWjIxcUV2MzlIVThONXNSM2Q4WUF4ZGIxR3VMdzJXMXFHaTJGODVBWWE3NTVYbVFlamNBbFFaV3N3QVBLamJJeVZrSXJuZFRCWUhNWkVsNTNZazhmY2RFN0paTmhiQ0lWVUxTVTVIUlhJMkJ0UmM?oc=5",
+        "source": "cedarnews.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T16:26:17Z",
+        "title": "Strait of Hormuz: Outbound tanker struck by unknown projectile, UKMTO reports - cedarnews.net"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRnFrY0JGWlg5azBkWjdEeHVZQUxtbmhMY0dLRUpHWWRLMXlReGk4TzlETzc4bTc2ZUl0djZfX0dFQmx0OWhlV1EwSHBQcHg0NGJSM3hkWlQxX2ktbkJXNVQxUFBKZXhfN0d4ZFViZkpzRHdtOEM4b2tBLXFzU2JPZFJhU21xM1RGZ2hOQXJrYnMyZnBEMVN4dnJjMEhsMXBETlJsWHdaS2hVcnhqbmfSAbMBQVVfeXFMTUYyQmc1alRQOTdFaWdoSFpBd1c1ZTMxQm41bndua2gxbFBpQ1E5WW02N0ttNGJjZUtMaGdNSFJZcmg2VUtxMUt6UDYtVTdfQTl1amhCTEt4a00yVndkT2JwVTlMMWVJQWNsTEsxZVlxOElvSDBPU1gwMnpIbFhBZzhURGU5bmxPR1VZMzd3RzJMYkRFblh1NzRIZFUwdDR2RXhTeEtxZU5WSzlWeDBQMFZjV28?oc=5",
+        "source": "Al Jazeera",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T15:19:37Z",
+        "title": "Oil tanker reportedly attacked in Strait of Hormuz region - Al Jazeera"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObFhrbVk4NFpyNy1yQ0E4R1BpMk4zRHh0RmN1ZHo3Y2lxSUtPUy1Ta0JlQTRpcnNFMkdzY3MyNUdlcThRQzVIbXB2My1jZnJXZ2VCRnVKRElXR29CVUlVeXd0ZmpvR2taTHhFTGxqb2NydzZOT1ZrV2Z0aU1HX0FGTkNFeDc1WHlvUnQtOHJJQVh3RkJhSE1kRkNzR2xtYVVGdWR3UTNGT1k2aW4wZi1JRnI5cExXQ0U?oc=5",
+        "source": "Arab Times Kuwait News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T18:37:28Z",
+        "title": "One More Tanker Struck by Unknown Projectile in Strait of Hormuz, UKMTO Reports - Arab Times Kuwait News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNEtZcUY4WU8xMElVZHpwV2o3OVQzMkl6dFY4YkFJQTQzMXJkY3dOMGxKa2dpZ3YzMkgxc2pMZ2VrdFk1MGxrNklIWE5sVjdURWRFaHB3Ry1XUWpySXdndnJmSFBwRHUxQ0FfczNUQjJQQmRpeWtzQjZnZG1uQnR2akI4aXRZYzE3TFVWRkNnbm5rQkhnZ3VBdzJlbElBejRkbDhTU0JDeUczanBWdVJsMTVwaUdtYVZBSjJ4VnBsUHhLdVJSVmszVWhn?oc=5",
+        "source": "Yeni Akit Gazetesi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T01:00:54Z",
+        "title": "Hürmüz’de dört gemiye şüpheli saldırı: Üç tanker ve bir konteyner gemisi vuruldu - Yeni Akit Gazetesi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRklnUG5rQ3VobmYzMTl0XzMtZTVwZnVtUjVjTFVzR0RFUC1UM01zQ1hETkhSYXVxaFgxbUpIZ0lHcXR4UERiMmQ3VHFXSEg0MDRES0ZvZXlEdE5vQjBoRF9IMWRWemZIcTl6Zko2N0Q2ZHNwdHpOWGxrdGV0ZWRCMEhTbGM0MTJaT0t6QkpDRllrUmducW9iMnRhSXBqa2U0blBNRmdCdlhUY0NzZzdoYTZLRjRNa09xbHFYb3c2VFNpZmvSAb8BQVVfeXFMTlNybEs0OTNkU0pZbDRhWlppZFdDTlpwa2VlT2YwLXVMYlR6Qmowb2otLU45aF9RTXdVdzJpOVNvWDNKZlZKTk5ObmY4MzFidVY5VXBJWndvOHBEM3JubUVXQ3FZb1JGbHE4X292azBZeE1zc3R5S0NTb213b29BUEdQczFjcU4xUVd4NjBTT2hOcGlhMHgwRnZGUFVfUHZ4NEpRU3ozQTluNWlwczloTDVyUjl1c052Q19nVkQzNnc?oc=5",
+        "source": "Yeni Akit Gazetesi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T00:56:31Z",
+        "title": "Hürmüz’de dört gemiye şüpheli saldırı: Üç tanker ve bir konteyner gemisi vuruldu - Yeni Akit Gazetesi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5yZzNuUmFudHlWY2diZktvdl9iOXZzZ3pjVF9GNDlBa3RoMWJ6dXphczNZYTYtNDdnX3Q5Yjh0V3hXOGNHSHc5cWlBVDZNbXVIbnNWNTJxcEFnUG0tQjMtMjlIRmRlZEF0MVFkZ3V4VkNwOHc2Mjkxdkc1Q0g?oc=5",
+        "source": "Nefes Gazetesi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T00:40:59Z",
+        "title": "Hürmüz Boğazı’nda 4 ticari gemiye saldırı - Nefes Gazetesi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQk1IOUdMZ2lyUC1XbnZtLUZycVhkYXRzRndMUW9UeFJEcXFyX1EwNXFaeGlKbGhlMkxHbEM1S3IwV3AwS0c4T1MyN0JzdzAtT2E3dmxwem8xVUYyV1oyeTJLMzh6WkRZZnJHdFlQaGdHWkk2cGV3NFpfcG1FMG1mU1loa0tMcnUwemtz?oc=5",
+        "source": "Hürriyet",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T00:35:27Z",
+        "title": "Hürmüz Boğazı’nda 4 ticari gemiye saldırı - Hürriyet"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wUW80NllSRlIyNTJZWER4Zk4zeFZtVXhlRnJGTjRFM0l2M0wzT0VGWjBhdnkwQkFFQ3QxWmIyYTJ4RzI1N0NRcVU5bGg5TmVhVXhOTTF3?oc=5",
+        "source": "Fox News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T00:09:59Z",
+        "title": "Smoke billows from tanker after reported attack near Strait of Hormuz - Fox News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxPaFE2ZDBMYno3RWR1cndaRkM1SWlZRDU4eUYxdE5pNjJfdXRHMXAyaEQtM3JPYkVEVEhsTUNBcmV3YnJsVGtWN19faU8wSVNJNzNVdlpreFhacXBXVjZPOHdFWG0xa0ZJM0s4Qkpvblo2STQ2akZ3WEU1VUJUTERubk0xV3ZVZW81WDZKYi0wRm5IeVgxb2tmeVdTT01jdmdNR0ZCdUVJWnpzVVdZZU5OUE43aFZqbVFYSHpOQzQtT19vV0lDM0xFVGpxd29sZ21yZmhwaDNrN0hoMXFyWTB4akFXMEVBQ3l6OEk0QW1aWXBQLWtsOUN5WWVfWWVORW1tRmc3MC1rZFptVTdWcmFJWFd2ZFRIUmIycXphaTJaRUZwZ1ZDeXpaYjFLSGdsd1BaaWppb0h1YXY1UUQtbjRKaGJUeHc0RkdieE9pUXhoMEtHUQ?oc=5",
+        "source": "elwatanelyoum.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T23:57:05Z",
+        "title": "الحرس الثوري الإيراني يعلن استهداف ناقلة نفط واندلاع النيران بمضيق هرمز - elwatanelyoum.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0tbTRDOUZZbUZuNWh6dDdNYXp6LWdmUG5IRURvalc5TGhyUkFZd2xJSE5tRkk5cXdYN2E4U3BFbG1UQ2x3RUttRXhvMVdLVS1PRUJnd3ZVN1lfUUt3cWh6dUFsZlRVYmU4cThJRHdFZG9nVExk?oc=5",
+        "source": "صحيفة اخبارنا",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T21:42:50Z",
+        "title": "الحرس الثوري الإيراني يعلن استهداف ناقلة نفط في مضيق هرمز - صحيفة اخبارنا"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbHBwRWhOZS1xeW5RczFRdEJNbnNCdEJDbGV3OWdkYUxjbXBfNGVwaVVZMFRRTmJnd1NWQUtHRHlwNHJiQnJWb2JGWnpwenB6YlBoRkVhdXRnWlY3NTVCT1BMd3Q1SFhiRTlHelpjWFktODJfY3dzZkFDRnNCRFZ4OTFmV3J4Ry00NVFjQ2hTd0tvLXNXV2U1X2pVLUtHV3pOQXUzX3ZCVGtfSktOWDA3WkdNb9IBswFBVV95cUxNbHBwRWhOZS1xeW5RczFRdEJNbnNCdEJDbGV3OWdkYUxjbXBfNGVwaVVZMFRRTmJnd1NWQUtHRHlwNHJiQnJWb2JGWnpwenB6YlBoRkVhdXRnWlY3NTVCT1BMd3Q1SFhiRTlHelpjWFktODJfY3dzZkFDRnNCRFZ4OTFmV3J4Ry00NVFjQ2hTd0tvLXNXV2U1X2pVLUtHV3pOQXUzX3ZCVGtfSktOWDA3WkdNbw?oc=5",
+        "source": "TAG24 NEWS USA INC",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T21:26:00Z",
+        "title": "Iran guards strike ship in Hormuz Strait after \"severe\" warning - TAG24 NEWS USA INC"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTnJGLWtxQ2czRXAtMHZyYkswRlF3TVcwSnFHMGJsakNELUtDUF9XYUNncTgyRlVqTV9wY3F3cThVQ1NlNUwyZExKN3FyY1prMlVGOUVLYk1fOU85d3kybWhIaUk2RkZuYURvYklRWFBmVklwblNsRE1kUURmWnY3UmotaDRhZ3VKS1V1bms1MmVNQzlucl9BQUZGRURPd1pabkpJ?oc=5",
+        "source": "The Maritime Executive",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T18:41:34Z",
+        "title": "UKMTO Reports Six Strikes in One Day on Tankers in the Mideast - The Maritime Executive"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1sOVJSekgtVkRYSVZFUjVISkp5QU1tY2w2OXE3cFVfMkZHOXNWZlZ4eUJzMk9MeTZISU9pSktpbjNkRDZ4X1FuX1haYnNaNHA2RUE?oc=5",
+        "source": "Iran International",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T16:30:06Z",
+        "title": "Tanker struck by projectile in Strait of Hormuz - UKMTO - Iran International"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbkxzdWotSHVFT2dsd21RdHRiM0R6VVRabDl6V2R2Q2xRbUdEYmZoZzlGMERqSmZ4bTdpQ0NfY3k0NUZ6NHd1ZlREY0tIckd5Z2QzRWFYM3lhbjJwbWsxWjFLN1ZtLVFudTNwZDN4R1V1RDNLeUhwcWtpQy1jTk9jZElxbmNfN2J0?oc=5",
+        "source": "CNN",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T12:54:00Z",
+        "title": "Tanker hit in the Strait of Hormuz area - CNN"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNemhWd3Q1eGhnUW1Vai1HZEwyNkxyU2RNcUZJUHRqTzlLTG5UcnE5YTNrWTFBdzdfbHhXa0stMEJhaGhTOF9QRVowOGYzcng3R2NHa291VVF3TlFVZXVOa2dIMWRqVkUta2YwRHF0LXNjZ2ZCanpMSFBCUE1IOER1WW9Ra3BKc2tObDNLcWhyWkdLR1F6RWhYTzlnM0VKZkRKQnhoUVBn?oc=5",
+        "source": "巴士的報",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T06:47:15Z",
+        "title": "Two tankers struck near Strait of Hormuz, UKMTO says - 巴士的報"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYXJFZGp6SzNKa0EzZEoxZ2xtWW41am05emRqVFBmUnNKUkVDOHRpN0Yzd0l2UzUzWjdBcDd6ejJXeXdoZHFJNW5sd0VmekpvWlM5R2tvdHVnTVBaMFVhZW5GMFl3NXBXQ2hkMXF2QWh4aEtHUjAtdzRWcFBIc05QcE9yQ3pHX05VYk9VSm8wNG1pMUpuak00S0hn?oc=5",
+        "source": "Aaj English TV",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T06:03:36Z",
+        "title": "Oil tanker hits naval mine in Strait of Hormuz, Iran says - Aaj English TV"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcmhIVXpZUU5PdXhGcHBoVHRpTlVRbEtyMTNXSl9SZzdVVFVVLUppUVQwR1ZsNUp5MjhkMHR3YXdVYmtZRlZoZmkwVHBHMlp1bTZDYzJKZ2dQdEE1Z0dMT1F4SzktNUdvUG9SWjhhTERXT2hmSjQtU3R5bVpIXzBNQzkxeWx1anJjLWNMM051UFM5ZEFGVmV2eThjNzRDODZSVnlGMg?oc=5",
+        "source": "Türkgün",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T04:47:58Z",
+        "title": "Umman açıklarında tankere İHA saldırısı: Mürettebat tahliye edildi - Türkgün"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRDhqelFLTG1uLS0xaWxRRVdTYVhPcFMzR0lVT2QzUklpRVYyUGd3clFvVVQwUjZrWjVGUWMySUs0TnoySktOZ3REVjRrU0tWU0ZkSlRkTE03eFlGS0JpOTd2a3dRV1NSSmJscE9nSnIxZ0xCRE40Y2VoS2NzLV9FdHQzck03V0RxQWtTVlNUWUdaQVB4WTdZeTB3eW51bWZmdDY3QnV0OHJDbHVqTGo5UzRtUW1JQTFyYllTOUJNbU1WZw?oc=5",
+        "source": "Anadolu Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T02:47:21Z",
+        "title": "Iran’s Revolutionary Guard Navy says oil tanker struck mine in Strait of Hormuz - Anadolu Ajansı"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZXk2WXA2QWJZeXAwVG9qRW5jeHluXzRKRmJKdTQyTkh2aGhzcGhfX2RzSXVsazNIZHBCYUJENWFmcmFWN01MM2dJbEtZZDl2QldhY2NGRW1ybUk1R2FCdnJzaTdXTlJ4SkxLT1VJQVlrdGptaG9uelM5QU4wY0JsTVVTdzlRaWZZbDBXdUhmTQ?oc=5",
+        "source": "gdh dijital",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T07:44:56Z",
+        "title": "Hürmüz Boğazı'nda bir tanker saldırıya uğradı - gdh dijital"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdTV6cDM4Y196Y0xLYXpRWUd4Vl9hWE5NZWxsd3dpNGc0a095aWk2VlBEbXZ0amMxTTRDdFphQVhBcFVmRlFRalpoTFRrTjZIR1V1bU82NmVyZjhoaEJWSGNMTC1EVnV3YURDUnNpRnBIa1RMbXBKZldHN2NoWjFpN0czblZhbmVYTUJ4TDJ6NGZQa3pPX054UVBBM01BRnlPTGdZZVlNRm0?oc=5",
+        "source": "Gulf Today",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T08:12:27Z",
+        "title": "Airstrikes on Yemen's Sanaa, drone hits vessel in Strait of Hormuz - Gulf Today"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOb2ltOE1fdmZpOFJEQ2xBb0RVbTRaRmtBczJDd2trdDdnMzhTX0NqZnlQd2lfNDhTbmF5MHYzOWNaN0lFUGN4Yk5PVFp6bHRuVGZPN0RBX3V6YUtfT3V5VHoxNVNldHV0LVlYY3BNanNnWHRCWVdRck1uM0psX1I3SHFPci1pZGszNk5rX2pjQ1Y2V2kxYnpQNF9FUy16MnFBRHI4OExVR2hQSlZteC1fS0lwaWppWnRsRThRa0drWDl6emdqa1FrSWo2cWtvZE1PNlJhaXJFX0k?oc=5",
+        "source": "The Washington Post",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T08:03:26Z",
+        "title": "Airstrikes on Yemen's capital, drone hits vessel in Strait of Hormuz, and other Mideast developments - The Washington Post"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPLWh3blI1UlMzaDBRaXZKNDlwdG1wVkVZMlQwQnIzVVp5OE1zZk5sVm02b2NZTDdfS0FUakNHUHNaQ3YyU0Nwc3pFcFBhaFpHYnRZcGNYQTBCQ2Jsci1iY3pLVDAya1dzeFA1aEdaMTZ5cENzX0VGTm44dk90LU51Wnl5ZTBndE5QcWo2RElhVHhVeVE2eDVLQndrS3RGMXVyWnZ1QlBFNFJkcmZYczlPT1ZtY2tCb093dXgzR0tfeVVlcWdHZU1Da3UyRQ?oc=5",
+        "source": "iNFOnews.ca",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T07:24:32Z",
+        "title": "Airstrikes on Yemen's capital, drone hits vessel in Strait of Hormuz, and other Mideast developments - iNFOnews.ca"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPUEpSZkkwQjhFSnA1cUdSeXBEMU9Sa1hWMWxSdDBTQ0VJNy00b0ZVMFY1V0d2SDI3djZadVJaZ213cTFpVWtSeFBnejQ5Q3prYzh3bWd2dUJoWndnako2dzl5ejNRS3hlUzNQSFpfZ0xtUERDd0syU1ZPNFNsQlFfQ3h1NU5fZkpLN2VIeWtRdVN2N3hwVk04S3o1LURMN2xwZTdTOUNqZXdLMTU2bmplNm9xa3hnd0hrdm92Nko2ZkRBZElHZFFhbGZGVUlMd1RNb1pQWnAyaG5wM1Fqa2ladk4tWlJIVWRkRE1sSFFZdGJhdGpKQ3BuaFlkTWoxcFluR0hLRWtFdG9sb2hZR3FR?oc=5",
+        "source": "CoastTV",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T07:19:49Z",
+        "title": "Airstrikes on Yemen's capital, drone hits vessel in Strait of Hormuz, and other Mideast developments - CoastTV"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcEZ0OVIzQkJ5QWdWTWtkU1pwNXlOdS1YWVItcDBpdUxvNkZyblF4cndNZTliRk45bUpZXzlCY3c2aFlXdkpGckctUmtOTUJGay1rRmI3UDR4b3YybjRPM1FEeXpfTUNXWVZoYUdhWjBKNVJ4UTZtUkwyclVNTGxxMWdBWFN5c3EwNlZ2bzhSWThGaVQ5bnc?oc=5",
+        "source": "Temple Daily Telegram",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T07:19:49Z",
+        "title": "Airstrikes on Yemen's capital, drone hits vessel in Strait of Hormuz, and other Mideast developments - Temple Daily Telegram"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPbEE1d3BnV3FKRW1UVWJ5NVdaRVhUMzVSeXJMcXBmNWdOekJTdHhjNW1zalRPODllVkhTQThFRl82Y29fbU4yT1RCN0tFSFBuZl94TUY3dWtES09OQXlxdTJiZzNCQWFmeC12VnhueElJa3JSM2FyU2FKWWlWRDdHTDllYW8yYUY3RWVyRVV1ay1UR3ZTX0tDOVVTQm85X0t3T2xNZ1cyc09aMW1SRXlNUUdYOFdTeUE2Nk1rSlVTVXphbDlGbTloUy12T1VxUjNBaVMzWGxmOGUyV280eHVBU3R6QVVfQU5hSDcwU0l6YkpFZU8wbEtrSlFEM0pucVZ2c2dHNWM5bTVNbmc?oc=5",
+        "source": "Enidnews.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T07:19:49Z",
+        "title": "Airstrikes on Yemen's capital, drone hits vessel in Strait of Hormuz, and other Mideast developments - Enidnews.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQZ3hXMnVJVURvMzNISnR4VTJuZnhBcTc0RHNYVVJuazFRbFQwZ3lIQkpKeEc5TmZhZi02czBYVk5hek5LVVR2N0xyLUJMeHdNLUNCSE1aMG56bXFZVHYzdHFqZ0N0b21LZ3FnV1ZaNk5uMU9DYkJwVGFBbEc5UFZBWXM2cU43NzY3ckVDNUM0UUNGcHVWN3g2NUppMTc1TUVFclRqUHpCSGJRRmIycHRHVmd6akdmczJTaFVURGdtZWY4YkkyUXpubkpvQXFWamtfSzFmY1N3a3hWVDNYTnVwMWtsNmItay01UkN5NEhjQTB2UWNIaHgwVTZNYVhEdlV6d1FsNDBQRFlfYUNsT3RzTlA5dUxCSGQ2QmJ5UktXXzh2VG5ZVkZhcQ?oc=5",
+        "source": "The Daily Gazette",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T07:19:49Z",
+        "title": "Airstrikes on Yemen's capital, drone hits vessel in Strait of Hormuz, and other Mideast developments - The Daily Gazette"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNNTRzaXY3OU5kSUphUkdSaHpKTGFldFFwNy1qUlVfVnBkcHoybkVzOVBZTnNkazBYMkJFbm4xQkVRZF9DYzYxNjBvbVdvbjR2aUM4dU93TmMzeW5kZkhsLXQ0R2NKelZlczNGOWJuSHNHUlh5Z3JHTVZ3MllFaUFfQ3QxNW1JYk51dWpibWtGV2czQnlqejVuTEptZkJxaUgwYkEyUFRIMGFvZGg1dHNzZGtxZF84YWVsbmtLcVdLQlVic1VSRFVtcmpnWnJuVTlZbW9tMFUwNHhLY29TamVkZVpkS0RjdkNOamduRHc0Z1hRUDZmZXhlNjlJLUVCdFVhbVl3ZG5aWjY1Ni1aR0JYM2xBNnNjRjJuTHFPQ3FIN28?oc=5",
+        "source": "Bozeman Daily Chronicle",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T07:19:49Z",
+        "title": "Airstrikes on Yemen's capital, drone hits vessel in Strait of Hormuz, and other Mideast developments - Bozeman Daily Chronicle"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQWjlueUhmTm1tbUhsVU5KRUc0NmY0b0k5RzRPY3Q5QUd1X3hXdk5WbXpDYmdKNUdfZENjOHd3T0pROGJDWUh6N09jVVVGaldGUUpLR0lpSnFJMzVLeUY3UF9wU19qV2YtWVVtU0dvY2FCeHFncjc1c1diTVJfZUhlYWgwcklzbnl6cjBISEwzZGktcFdEdUpQNmRKbUJwWm5DVDNOb2dKeENiajVZRU1ESGZrYXRDbTNYbFA4Y0xuZ2Vrc2JXbEN6VmhOck5MaXdMeVZDWURYS3hha1lP?oc=5",
+        "source": "WPLG Local 10",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T07:19:48Z",
+        "title": "Airstrikes on Yemen's capital, drone hits vessel in Strait of Hormuz, and other Mideast developments - WPLG Local 10"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNTnUwNzRta2lZQWQ3aGkzeTlIcU4wbnVzS3FhMmVVX3EtdEs3WFRBYkVxSHVqUXJjbGtpOGZYU0ZEdG92UUpqcFJjbTUzb3h0T1ZwZm8xRm10UFNqN1l0UDlzRnNLcmpQUFJvZ01NZkFZclBTZXJqMi0tdUJNSjZvYUJ0TlpCQ1NuMXNlQVd3Q0xiSnBkbTlaaHBDRjh2ck9hd1llMFllcWJNaVpjdDFyN1A1OTRtcGFZWnhhMHNIZXFPNlEyclowWFo2bGZaVzRUNF9pVzlkaTczZGczNXlmQkVSa3BtZmVKOHZ5cm52dFhwbHk0SGRHTEU4dnd3UmlMZ2tBSlJHUlc5b1RKMUpKdkVseXhuUTFrb1NXb3FyM3Y0UQ?oc=5",
+        "source": "WUSA9",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T07:19:00Z",
+        "title": "Airstrikes on Yemen's capital, drone hits vessel in Strait of Hormuz, and other Mideast developments - WUSA9"
       }
     ],
     "first_seen": "2026-10-11T19:41:00Z",
-    "last_updated": "2026-10-13T03:48:18Z",
+    "last_updated": "2026-10-13T04:40:09Z",
     "verification_issue": null,
     "verdict": {
       "status": "reported",
@@ -3865,7 +4428,9 @@
     "last_updated": "2026-10-12T16:00:57Z",
     "verification_issue": null,
     "verdict": null,
-    "published_in": [],
+    "published_in": [
+      "2026-10-13"
+    ],
     "status": "confirmed",
     "position_approx": true
   },
@@ -3950,10 +4515,10 @@
     "published_in": [
       "2026-10-10"
     ],
-    "status": "rejected",
+    "status": "merged",
     "position_approx": true,
     "merged_into": "INC-20261009-003",
-    "status_changed_at": "2026-10-13T04:35:14Z"
+    "status_changed_at": "2026-10-13T04:40:02Z"
   },
   {
     "region": "Sea of Azov",
@@ -5733,10 +6298,19 @@
         "kind": "media",
         "published_at": "2026-10-12T04:18:29Z",
         "title": "2 Indian seafarers missing after Hormuz attack: Union seeks 'urgent status update' - Gulf News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTndqaFlVYVZnLTZHbHE2OE5ZdjEwTlhuQ094a0lVMFlzcWxpR1ZYdXhLQ2FsVGFVVHVhNWh4amY5QTU4LXFRYjVocHRxOEYtekRXZnptS1NRWnh0UnkwaDFCc2dNRmZyWC0wc0pOZkJXdTBCUGpaVVdaeUlOUmVUR2VqeHl6WmhuVVRTVDhKR1V6SS1nMS1HU01WVXY4ckZKcjFRMHJ5LU5OY01DWlhKeFhLLTNWNkFNaWZtTTUyUDRiSGNGd3ZILURDeHhBdmdBWGRnZkcwdnhETGhzNkHSAeMBQVVfeXFMTnRZcnZycWVWb25SWS1xbjhBR3ZiU29uQmhJUk1sLUpEZ1NmTGQ5a29QWXUxUEM0X2RvT3VCNlVLVUl2S1lhR2ZEazFFVm1FQmw1LW1BUzRpN2tyXzdCNG5Qcll2am42ZWE5NjVfTzBmVlhnV0lMRG5DQjlGUVZhQmJ4LUUzT0gyWFcwdlhGWS1lUk9ZNmQ4V2FveDZqSVliUTUySGZaVDU0SkxRYlo0Tk16ckNoQlNZdGtfVGVhZk9QMUVmWWZfWS1BaThzRmozR25zblJXZTJ4ZE1qOFJlTkZxQVE?oc=5",
+        "source": "Moneycontrol.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-12T02:17:03Z",
+        "title": "India condemns attacks on two tankers in Hormuz region, says two Indian seafarers missing - Moneycontrol.com"
       }
     ],
     "first_seen": "2026-10-11T04:38:32Z",
-    "last_updated": "2026-10-13T03:48:18Z",
+    "last_updated": "2026-10-13T04:40:05Z",
     "verification_issue": 116,
     "verdict": {
       "status": "rejected",
@@ -7165,11 +7739,11 @@
     "published_in": [
       "2026-10-10"
     ],
-    "status": "rejected",
+    "status": "merged",
     "position_approx": true,
     "date_approx": false,
     "merged_into": "INC-20261006-014",
-    "status_changed_at": "2026-10-13T04:35:16Z"
+    "status_changed_at": "2026-10-13T04:40:02Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -12690,10 +13264,28 @@
         "kind": "media",
         "published_at": "2026-10-12T16:59:56Z",
         "title": "Radev asks EU for deep-sea survey of ship sunk by drones in Black Sea - BurgasMedia"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMm0xOENVRWUtbkxzdURqY3p4LUs0NVFSRWlhRWttMmxhQ3pyZWZZZ09qdjNnb25LazdHc3lzT1R2VkVnWGhhTmhMRTlGOWJpV1ZfanlFVDdZdlRuVUwtdDRka3hxdVVGS1lGMklkTUVtRGlZZ3prWTN4dkJKdFM2aHZMU19YSFpfSDRydDBoVzRLSnRJY2M3bVg2cXdHRGhOSnlmQnU5dHN5MGk1MWFDNmZ5T0ttMWPSAbwBQVVfeXFMT1FYcmY0YWJCaVpZYzdlWktVTkNlYlpTbUZKVUw2WWI4Ulo5SUpOUHF2VEdNajN4OHc1ZER1X1JTNXdFamtUTTdERVdWRVRxdXJUX0NmdmdSMGFtVy01RVZyRmN5WTFRbWRUSV9udXAwQVJZOUk2TU9yMlRZTU9pbVREUVJ2QmMtMkt1bGNoRGdYejB0U1dlaVNPS2YzQlVBTnA4Nmw2UGpheUJPSHlzazhwTTNRVmV4cTJQb2I?oc=5",
+        "source": "Telegraph India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T07:06:46Z",
+        "title": "Russian drone strike: Three Indian nationals rescued from Black Sea ship attack head home - Telegraph India"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbkdwcS1TcVphUjFXb3F3WEtzT2dqT3hHSGxFaXpZQWJxamRrZEFOaVdodzNMZ0dmSTlVQnFpNGxsLVJIcnZxNUdmeVZ4Xzlxc05WSW1WcENDZmJJaENOU25TdFNpZDJCdHhSQ213blRfQUJ0cTJrTmlOMWpxQlFxS3FOTE1Cc0tPYW5OUlJncU5ha1ZxeExTaHZ5eGh4M0o2RndYZ21Idkd6bF9Md1V3eE1XQXhsUUxY?oc=5",
+        "source": "India's News.Net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-11T07:00:00Z",
+        "title": "Three Indians rescued from Black Sea vessel attack depart Romania for India - India's News.Net"
       }
     ],
     "first_seen": "2026-10-06T15:27:12Z",
-    "last_updated": "2026-10-13T03:48:18Z",
+    "last_updated": "2026-10-13T04:40:08Z",
     "verification_issue": 64,
     "verdict": {
       "status": "confirmed",
