@@ -61,11 +61,11 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-10-13",
-    "summary": "On 13 October 2026 drones struck ships off Bulgaria's Black Sea coast, sinking one vessel and leaving 11 crew missing, with Azerbaijan confirming eight of its citizens were rescued. Bulgaria summoned Russia's ambassador over the attack, which many outlets reported without naming the ships.",
+    "summary": "Bulgaria's Prime Minister said a general cargo ship sank after a drone attack about 17 nautical miles east of Krapets on 13 October; Bulgarian officials said five crew were rescued and 11 were missing. Bulgaria's President identified it as the Guinea-Bissau-flagged HS Dignity; early reports naming the Azov Concord were wrong, as that ship took part in the rescue.",
     "official_source_cited": "Bulgaria's Prime Minister",
     "conflicting": true,
     "confidence": 0.9,
-    "vessel_name": "AZOV CONCORD",
+    "vessel_name": "HS DIGNITY",
     "imo": null,
     "vessel_type": "general cargo",
     "vessel_category": "merchant",
@@ -74,7 +74,7 @@
     "location_text": "off Bulgaria's Black Sea coast",
     "attack_type": "drone (UAV)",
     "damage": "vessel sunk",
-    "casualties": "11 missing",
+    "casualties": "5 crew rescued and 11 missing (Bulgarian officials, preliminary); crew mainly Syrian with three Egyptians (Interior Ministry)",
     "attribution_claimed": "Bulgaria suggested Russia was behind the attack",
     "independent_evidence": true,
     "id": "INC-20261013-002",
@@ -1446,10 +1446,37 @@
         "kind": "osint",
         "published_at": "2026-10-13T05:37:06+00:00",
         "title": null
+      },
+      {
+        "url": "https://www.aljazeera.com/news/2026/10/13/drone-attack-sinks-ship-off-bulgarias-black-sea-coast-pm-says",
+        "source": "Al Jazeera",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-13T12:00:00Z",
+        "title": "Drone attack sinks ship off Bulgaria's Black Sea coast, PM says"
+      },
+      {
+        "url": "https://gvwire.com/2026/10/13/eleven-sailors-missing-after-drone-sinks-ship-off-bulgaria/",
+        "source": "Reuters",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-13T15:00:00Z",
+        "title": "Eleven sailors missing after drone sinks ship off Bulgaria"
+      },
+      {
+        "url": "https://paragraf.bg/jotova-nazova-hs-dignity-kato-potanaliya-korab-kraj-krapets/",
+        "source": "Paragraf",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-13T12:49:00Z",
+        "title": "Iotova names HS Dignity as the ship sunk off Krapets"
       }
     ],
     "first_seen": "2026-10-13T14:32:05Z",
-    "last_updated": "2026-10-14T05:18:42Z",
+    "last_updated": "2026-10-14T06:00:49Z",
     "verification_issue": 135,
     "verdict": null,
     "published_in": [
@@ -1458,7 +1485,8 @@
     "status": "reported",
     "date_approx": false,
     "position_approx": true,
-    "position_note": "17 nautical miles east of Krapets, Bulgaria, where Bulgarian officials place the sinking"
+    "position_note": "17 nautical miles east of Krapets, Bulgaria, where Bulgarian officials place the sinking",
+    "flag": "Guinea-Bissau"
   },
   {
     "region": "Black Sea",
@@ -1747,7 +1775,7 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-10-13",
-    "summary": "A Russian Telegram channel says the general cargo ship CHELSEA-7, Maltese-flagged but owned by an Odesa-based Ukrainian company, was attacked east of Varna. It says the vessel regularly calls at Ukrainian Danube ports and that the circumstances of the incident are not yet established.",
+    "summary": "Bulgaria's Prime Minister said the Maltese-flagged, Ukrainian-owned general cargo ship Chelsea 3 was hit by three drones about 18 nautical miles east of Byala early on 13 October; all 15 crew, seven Ukrainians and eight Azerbaijanis, were rescued and five were treated for light injuries. The ship stayed afloat.",
     "official_source_cited": "Bulgarian government",
     "conflicting": false,
     "confidence": 0.8,
@@ -2173,7 +2201,7 @@
       }
     ],
     "first_seen": "2026-10-13T20:20:58Z",
-    "last_updated": "2026-10-14T05:18:43Z",
+    "last_updated": "2026-10-14T06:00:49Z",
     "verification_issue": 137,
     "verdict": null,
     "published_in": [
