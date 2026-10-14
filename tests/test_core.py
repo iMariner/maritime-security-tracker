@@ -834,3 +834,21 @@ def test_review_send_replaces_old_final_read_warnings(tmp_path, monkeypatch):
     review.apply("/review 2026-10-13\nnote: fixed wording\nsend: yes")
     rec = common.read_json(tmp_path / "2026-10-13.json", {})
     assert rec["final_read"]["status"] == "fixed" and rec["final_read"]["warnings"] == []
+
+
+def test_editor_position_survives_collection():
+    """14 Oct: the hourly run replaced the editor's position off Bulgaria with a guess (Odesa, mid-sea)."""
+    from tracker import geo
+    inc = {"region": "Black Sea", "lat": 42.87, "lon": 28.29, "position_approx": True,
+           "position_note": "18 nm east of Byala per Bulgaria's Prime Minister",
+           "location_text": "east of Varna", "summary": "owned by an Odesa-based company", "sources": []}
+    assert not geo.fill_position(inc) and (inc["lat"], inc["lon"]) == (42.87, 28.29)
+    incs = [dict(inc, id="INC-20261013-007", date_utc="2026-10-13", first_seen="2026-10-13T10:00:00Z",
+                 vessel_name="CHELSEA 3", status="reported")]
+    store.merge(report(region="Black Sea", vessel_name="CHELSEA 3", date_utc="2026-10-13T08:00:00Z",
+                       lat=46.49, lon=30.74, same_as="INC-20261013-007", source=src("https://n/c3")), incs,
+                model_checked=True)
+    assert (incs[0]["lat"], incs[0]["lon"]) == (42.87, 28.29)
+    # places the guesser now knows
+    assert geo.approximate({"location_text": "east of Varna, Black Sea", "summary": "Odesa-based owner"}) == (43.20, 28.10)
+    assert geo.approximate({"location_text": "Arabian Gulf", "summary": "a containership under fire in the Red Sea"}) == (26.80, 52.50)

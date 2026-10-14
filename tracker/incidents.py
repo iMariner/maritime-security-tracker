@@ -240,7 +240,8 @@ def merge(report: dict, incidents: list[dict], model_checked: bool = False) -> t
     if source["url"] not in {s["url"] for s in inc["sources"]}:
         inc["sources"].append(source)
         changed = True
-    if inc.get("position_approx") and report.get("lat") is not None and report.get("lon") is not None:
+    if inc.get("position_approx") and not inc.get("position_note") \
+            and report.get("lat") is not None and report.get("lon") is not None:
         inc["lat"], inc["lon"], inc["position_approx"] = report["lat"], report["lon"], False  # real position beats the guess
         changed = True
     for field in MERGE_FIELDS:

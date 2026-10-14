@@ -23,6 +23,11 @@ PLACES = [
     (r"sevastopol|севастопол", 44.62, 33.53),
     (r"feodosi|феодос", 45.04, 35.39),
     (r"constan[tț]a|констан", 44.17, 28.66),
+    (r"krapets|shabla|kaliakra|крапец|шабла|калиакра", 43.62, 28.75),
+    (r"varna|варна", 43.20, 28.10),
+    (r"byala|бяла", 42.87, 28.10),
+    (r"burgas|бургас", 42.48, 27.70),
+    (r"bulgaria|българ|болгар", 43.00, 28.30),
     (r"bosphorus|bosporus|istanbul|босфор|стамбул", 41.20, 29.12),
     (r"sea of azov|азовськ|азовск", 46.10, 36.80),
     (r"danube|дунай", 45.30, 29.20),
@@ -39,6 +44,9 @@ PLACES = [
     (r"eilat|aqaba", 29.40, 34.95),
     (r"gulf of aden", 12.80, 47.50),
     (r"red sea|البحر الأحمر", 17.50, 40.50),
+    # The Gulf, before the generic matches below
+    (r"ras laffan|qatar|doha|катар", 26.00, 51.90),
+    (r"arabian gulf|persian gulf|the gulf\b", 26.80, 52.50),
     # Strait of Hormuz, Gulf, Gulf of Oman
     (r"fujairah|фуджейр", 25.15, 56.45),
     (r"khor fakkan", 25.35, 56.40),
@@ -75,7 +83,10 @@ def approximate(inc: dict) -> tuple[float, float] | None:
 
 
 def fill_position(inc: dict) -> bool:
-    """Give an incident without coordinates an approximate position. Returns True if it changed."""
+    """Give an incident without coordinates an approximate position. Returns True if it changed.
+    A position the editor check set from the sources (it has a position_note) is never replaced by a guess."""
+    if inc.get("position_note"):
+        return False
     if inc.get("lat") is not None and inc.get("lon") is not None and not inc.get("position_approx"):
         return False
     point = approximate(inc)
