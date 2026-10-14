@@ -43,22 +43,22 @@
   {
     "region": "Strait of Hormuz",
     "date_utc": "2026-10-14",
-    "summary": "UKMTO reported that another container ship was struck by an unknown projectile in the Strait of Hormuz on 14 October 2026, with no vessel name, flag, position or damage details given. Iran separately reported a drone strike on a fishing vessel near the Strait of Hormuz the same day, in which three people were injured, with no vessel name, flag or precise position.",
+    "summary": "On 14 October 2026, container and cargo ships were struck and sank in the Strait of Hormuz amid a surge of attacks on merchant shipping. UKMTO and maritime security sources reported the sinkings, while Iran's IRGC Navy claimed a containership sank after hitting a naval mine; no vessel names, flags or positions were given.",
     "official_source_cited": "UKMTO",
     "conflicting": false,
     "confidence": 0.7,
     "vessel_name": null,
     "imo": null,
-    "flag": null,
+    "flag": "Singapore",
     "vessel_type": "container",
     "vessel_category": "merchant",
     "lat": 26.55,
     "lon": 56.35,
     "location_text": "Strait of Hormuz",
     "attack_type": "other",
-    "damage": null,
+    "damage": "container ship sank",
     "casualties": "three injured",
-    "attribution_claimed": null,
+    "attribution_claimed": "Iran (per headline, 'Iranian attack')",
     "independent_evidence": true,
     "id": "INC-20261014-002",
     "sources": [
@@ -97,10 +97,217 @@
         "kind": "media",
         "published_at": "2026-10-14T12:03:23Z",
         "title": "Iran Reports Drone Strike on Fishing Vessel Near Strait of Hormuz, Three Injured Amid Rising Regional Tensions - Business Upturn"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNVg0eWh4OTZ1NG5IR1M1ZWJJejUxUncyYVVWeHB3QTdHaHYzUnRDOHBpaFpEZldsb0RNZG5SNVZDMWJIVUV6U0JZRVhLSmdtWEZfSnpGSDlXWVU1UlRRSF9wT0JSbktPRTRWT2dkazNCSmJoWDBaUl9wZEI3bjVpLUNZS2ZDWW9IQk9oUndRNU1qYUpHclhnUzhVYVU1RE0?oc=5",
+        "source": "The Washington Post",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T17:30:55Z",
+        "title": "Iranian attack sinks container ship in Strait of Hormuz - The Washington Post"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVlQtcHJibXBpYWEwWTQ4dFdfWUFJbTVteGY0WThGcTFybEdUTERvVG9DcGdoY09vUjh0TG1QeG5zMWx0LTFvV09teVNXY1NLdXZVNlpuMVBIV3pndWJKWVBRdENjLVd0dnVwdUxPTHFPU002S0ZqR0lkcjgyNVl2ZFFXc05MdTJHenM3LVNUSlBUb1RyeDVxY3VTdUxEamxrbS1OXzJJR3o3SlltandncHAwVXFNSTFYcmJXblh2U25vN2xMMW1ibQ?oc=5",
+        "source": "Reuters",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T17:22:06Z",
+        "title": "Two ships sink near Hormuz after being hit by projectiles amid surge in attacks - Reuters"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVmpJVi12QTgtZHFscVl3UC1nZFg2OEpSMmtJQld1RWdENkVTRktMSVJMT05iQTY4b2tlZVVPbHFFVUw4cjZpN1l4QUUtUmlVekJiTVJCcDc4Y1BrTmVkaHRTa2drMjdPdkVoZF94UkFvWm1TMG02SzFxdURfeEhpTzV1SjZpZ3N1ZzRiSGhDR2VxR0U?oc=5",
+        "source": "Journal of Commerce",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T16:24:00Z",
+        "title": "Container ship sinks in Strait of Hormuz after attack - Journal of Commerce"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeVJzcVMzeW15SzZXQ09EZHdZNzdXY0lmbWVJNjRDLVlodjE0SVBTeFBES1VudmJROGNiQ3RlYU1NM2FlLWs0eVhadlR1Q3luYnoxTDBkRjBwcFdoN052cUxSOVBkQTFBSkdVYTd0elBuX3F0X19feXBuRGgtTVZfZmVvY21yU0F0RkdKX01DMHZDZE5ITUtMTzFZTnBJX1VnSWpwRW4xQQ?oc=5",
+        "source": "WSJ",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T15:49:00Z",
+        "title": "Two Cargo Ships Sink Near Strait of Hormuz, as Iranian Attacks Increase - WSJ"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMWFKMzFFcmxqYVdxcTVUYmZBZTZHejZpWTJmZ3o3Z3lFbnA0NTV4MkFlb1ZEMmRGQmw3MjJkc2RnTFgtX19YRkZOUDR4WXhNeWg5Zy1qV3FpeVpTVUo5QVBOVmJxcXVhc0NqandfT2ltQ3BseThmbG5oQTJhYUJ4MV9nM240c3I3ZG5wai1fY3ZIYWdpbGfSAZsBQVVfeXFMUHl0VWNMbEpIOXhweHBSVTdYdHNjd1V5a2NfNkJSdFk5UUV0R2lDSUtZV1BpMEM3aWxZOXlWRTBRRTNtVkxRcDZtYVFDdnA5X3RPLW4zTm42M0hzVFJYNGtoMWJHcjVGVlJ1a2Jja1F5SnFDUHVTYVFkYXRYTFFnbDd1REZsc0haTlNibWhxdTU0aHZCcjVYQ0x1Vm8?oc=5",
+        "source": "CNBC",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T15:47:29Z",
+        "title": "Container ship sinks in Strait of Hormuz as Iran steps up attacks - CNBC"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNXVpZFJuVnAtMTdnTVBsNk5tM2RZUEVBMHh6OG1XMlhadGI3M0c1U0NudXNPY1Q3dFRYcWg3YnpZZkNjazVGMXRCZGlXQkFtV3RiUV83aXRESjhPcGlzdTdlR29IaldYb2hlTUlINUlGbGpaM0sxcTI2VnByOXBFcGtPdFc2ZHZLaF9FeEh2WnZodmI4blI3S0lNQm1HMEwza24tZUtTMXFYTWpLby1GX09mWllGMFRTRy1fRnFJWTNwdGptU0h0MlI2UQ?oc=5",
+        "source": "The Guardian",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T15:35:00Z",
+        "title": "Container ship sinks near strait of Hormuz amid surge in Iranian attacks - The Guardian"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9oTnhhM2x4Yk5MWHVjNXA0RTRsSzBHWEE3OXI1SjQ4Q21CSkh5WXlFSHUwc3NpaFNoU2FQYUlCck1CWVRVX1RLVTRPaTdSeHQ0dGJfS21oWjZOd3JKckE?oc=5",
+        "source": "BBC",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T15:34:19Z",
+        "title": "Container ship hit by projectile sinks in Strait of Hormuz, Singapore says - BBC"
+      },
+      {
+        "url": "https://gcaptain.com/containership-sinks-as-hormuz-attacks-spiral-out-of-control/",
+        "source": "gCaptain",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-14T14:44:55Z",
+        "title": "Containership Sinks as Hormuz Attacks Spiral Out of Control"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZURxek5sWjBzdHFsRnVvQW1kWUpnd0R0YzczRFVCak1SclJJengxeGJaS2dYUFg4Zk90LWQ2OUU0UzUtSWJOcURJX2ttcUZ6c1p5YWVzRGp3bHJFR2hyM2s1c040TU54MENlOFRLdWpndFlaTEhnUXNuQlEtV2FJYTdwSHI5ZUlJ?oc=5",
+        "source": "gCaptain",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T14:44:55Z",
+        "title": "Containership Sinks as Hormuz Attacks Spiral Out of Control - gCaptain"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSDdxWGJfVXp0eWgxWWc1a2R3aF9JM0tsdnVLSzVNQjB3TWppVDlVSzMwYUl1Z3FZd09tQWZ1dFB5R1VGelk3c2VzM3ViZlp6QnlvZnZhbzVQRmRXTlN2X3lJZWNTbFRRSDJZQ2hKaVpvQXItRzBDeG8wdWxPSDlfT1pMQk0yX3pQY0Z0M1ZZNHJtcmUySHRRTUdKQmg4ZXlKRmh5MGVaR2JYeVNCdEE4Q0hDaTA4aUhmeVpRc1pIUFgzbnk3ODAxVG1CRGVQQjEwUWhlM2RpOEcwS0QyTmRBbtIB5gFBVV95cUxNaXJHUWxtbFVmdEZvNDJjZkZvQlVHX0xzdFFNeUJNZG9aRUtaY29yaGU2aXo2YzBKVFh3RGFaQnlhOEpkVFdEaXdKNWUtWTF3QXZ3V1FlZmdCczllVGFSTGVkTDUxLXF3VTZOc3E0Vi1CcG9GQUxuV0I5UHNYVkVfd3oxc0F5S00weWo5blExZU1XdUVYS0lsUENGRU43Sm9oT3U1ZkktY2JBV1BGdGJtSGZNSkFhWDBGelhlVk80bDRtTE11WkRUbE14QVVBQkFFRGVHTVBrR21oLUU3b0NLV1JGV2RrZw?oc=5",
+        "source": "The Economic Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T14:35:28Z",
+        "title": "Two Singapore-registered ships hit by projectiles in Strait of Hormuz, one sinks - The Economic Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRmc4LVd6a0JGNWxYMTNpSUJxZ3JZeDd5Z0tKMUYxR3U3UUF3QklRZWFMQWVaYWh4RF9pSmN2NFp5MVZ5Nm9xaW5fVzN1NDRjMG14RmxTWGRkUHY3UDNhd1F6a2tCaW5DUDB6OGtNWWd1S2p6QUNKU0p4dG5rN1oyNkRKZ29TSVlZRVJyazZnMjl1T2wxeHc1VDZmekIwOGQ2cmctbDlXOHdBaHJOY2xBcldCQTVJOTRJNXlZYnZQekxDTm95ZHVmZmNZZDXSAdQBQVVfeXFMT0tWTHlJdTZvajFZYzBSNmwyZkVqVFFfOHZLSl95X1dHQ19kMkdlR1N4YWJuWUhkcEU3cGFRMTFVY2tYVGZMV1EyajNPaFY3b1J5T2JxM195RmNIbFJzUG5GWlM3ekF1dGlRc3JZbWIyQkVrcGd0ZGtNT0NseENOZFJhWGJzUWduQ1BCSENZb0FKYUJEd1RjUzQxT21jck1FcjItUjczQlo0TFlTUUltQTBIWkNKUUNwb3ZHUkpmelA2emVyV1BuS0NHMTR6N1RmWVNIQ0E?oc=5",
+        "source": "NDTV",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T14:00:04Z",
+        "title": "Container Ship Sinks Near Hormuz After Being Hit By Projectile: Report - NDTV"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSmpNVWtuNUx3MEtZbFc1dHNubGRHVHJEM2JUV0tBSWhCZkxHTWl6Z1JicDE2aVlPTEstQlZJZzNqZjNudkpwQm5KaHlJYkt0YW9feGJZbkEtS0dueDRRTTRKUTdjYnZ2dHVfVFEzQkpoX3Rad2VxWEFIODlZZHVVY3lVR1RMMjJweldmYnhKcW9RSzIyT25rM3NPRzUtNTIzTG44LXNwb05WUGlTQ3dsaWFEUHFUeVE0eUJPZUhOWQ?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T13:20:32Z",
+        "title": "Container ship sinks as AD Ports vessels come under attack from Iran - TradeWinds News"
+      },
+      {
+        "url": "https://gcaptain.com/container-ship-sinks-near-hormuz-after-being-hit-by-projectile-sources-say/",
+        "source": "gCaptain",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-14T12:45:47Z",
+        "title": "Container Ship Sinks Near Hormuz After Being Hit by Projectile, Sources Say"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWEFYanBkVlpzZ0tZcFFtVUd0dlVBZzI2TEdNUEJscVZTWHZub2RFdTFyd0FMWHpCMHhoXzl3d3FMMHZLT0NCTXRyNUhUYzNkYkNqbTNYMFBCZDV0TWY4Z3U4b3VUcVdTcXZ3TGRGT3FvU1RoeHYtSXJhYW5QN25zY28wMDF0aGNsQURQcHFxRUlBZDdvc1M5RF9Lb3Y?oc=5",
+        "source": "gCaptain",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T12:45:47Z",
+        "title": "Container Ship Sinks Near Hormuz After Being Hit by Projectile, Sources Say - gCaptain"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQXFTc21mQVpHLVJ3ZjBwYVNTTXhkVERkYmtXMXFSZmc3M2dwRUN5aWtWMmMyMldkT1ZVZWVWLVhDcUdUOWVxM1BLal9xUFlaNlR1YXFtcTlVQUFlRnBjMVppV2EwWGxLRGtoYkdfUVZjYjZ4Vm9iRVVrWXBibzBLdXZxTjM2UEY3aWtxMFhQalRIRjF4OUJxR0ZsUnNJbXRtQmhxNlZCUXRGTXVjRFhPWV9MTGJBenJpeS1hNXh0VjFFVGZ4ank0Mm9FcHrSAdIBQVVfeXFMTWNpTm1LQVBEV2UzcDBfTnAzMU14U0JOWlA5aDBOU3ZmTXIyUXpEZlYyRXVleUJsRmd2dWVIMGV2NDBzeWxlTHY1YzFTMlVabFFielFwZnVqRldEMUtxQWNzcm8ycEg1THZ6czFaUDFKcWpwWlJrZEpPNk5fMzZRVHFmaVhjbV9wTzZuY0p0clJ4RXdsb3JrNG5wS05TaFAtcXp3QkVGWG5XWFNLSmEtVzJNUlMtdExvNjY2LWRHWUJfcGF1RnRYR1VIdmszdzgtX01n?oc=5",
+        "source": "Al Arabiya English",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T12:32:00Z",
+        "title": "Container ship sinks near Hormuz after being hit by projectile - Al Arabiya English"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPY3FRUFJzaVprM1cxWnJwaWk5NE1VRnlJUzRZelFJZjhTZ2tJX2tsNGFPNTkxYzBJelJVenhVQmNxTDg0eFp4NUNPQTZ2WWhCeHZjeWF2RTliVXp5WDFtSDctcFNienVONFIzNzlKNkszRkk4R1R4NjhucEd3ZWpIY044alpSbDVzdVVHWVN0RGx3c2NkbERPQ2RTRjNJVGhqdk13THgxNFZNTzlPc3V0VnkzVTAzX0l4WHRlb2Nfck1uRGk3dFNZRVE2R0dpVFhReUlHQ2RyOGtmbHpvMHdiMDQ0SnN5T19nRGIzb09XbXRPemNlTHfSAfYBQVVfeXFMT2NxUVBSc2laazNXMVpycGlpOTRNVUZ5SVM0WXpRSWY4U2drSV9rbDRhTzU5MWMwSXpSVXp4VUJjcUw4NHhaeDVDT0E2dlloQnh2Y3lhdkU5YlV6eVgxbUg3LXBTYnp1TjRSMzc5SjZLM0ZJOEdUeDY4bnBHd2VqSGNOOGpaUmw1c3VVR1lTdERsd3NjZGxET0NkU0YzSVRoanZNd0x4MTRWTU85T3N1dFZ5M1UwM19JeFh0ZW9jX3JNbkRpN3RTWUVRNkdHaVRYUXlJR0NkcjhrZmx6bzB3YjA0NEpzeU9fZ0RiM29PV210T3pjZUx3?oc=5",
+        "source": "The Economic Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T12:32:00Z",
+        "title": "Two ships hit by projectiles in Strait of Hormuz, maritime agency says - The Economic Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNY2lObUtBUERXZTNwMF9OcDMxTXhTQk5aUDloME5TdmZNcjJRekRmVjJFdWV5QmxGZ3Z1ZUgwZXY0MHN5bGVMdjVjMVMyVVpsUWJ6UXBmdWpGV0QxS3FBY3NybzJwSDVMdnpzMVpQMUpxanBaUmtkSk82Tl8zNlFUcWZpWGNtX3BPNm5jSnRyUnhFd2xvcms0bnBLTlNoUC1xendCRUZYbldYU0tKYS1XMk1SUy10TG82NjYtZEdZQl9wYXVGdFhHVUh2azN3OC1fTWfSAdIBQVVfeXFMTWNpTm1LQVBEV2UzcDBfTnAzMU14U0JOWlA5aDBOU3ZmTXIyUXpEZlYyRXVleUJsRmd2dWVIMGV2NDBzeWxlTHY1YzFTMlVabFFielFwZnVqRldEMUtxQWNzcm8ycEg1THZ6czFaUDFKcWpwWlJrZEpPNk5fMzZRVHFmaVhjbV9wTzZuY0p0clJ4RXdsb3JrNG5wS05TaFAtcXp3QkVGWG5XWFNLSmEtVzJNUlMtdExvNjY2LWRHWUJfcGF1RnRYR1VIdmszdzgtX01n?oc=5",
+        "source": "Al Arabiya English",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T12:32:00Z",
+        "title": "Container ship sinks near Hormuz after being hit by projectile, sources say - Al Arabiya English"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPckliQ2w3ZUpvYnpoU09UcmkwZE5vNmJ5MEhEbGZPV1FzVXhnenRvUWtCZXpIcnl0eXgwcGhqUWRCNWFhTXFJbGplNE90WGFOa1pBYjFWQVh3Zl9EWm9fMjNwX3hVWUVTNnd3NUVTUTVmaThWeE1vLUh6MXpOTEJQMjN0M2NzWkhoRG5aR0xrMGRLcFdidm4xRzljWW5hUGlWT1BrUGQ5eVoxQS1rWDRHZmdRT0RZRVhjckxKMDlkVQ?oc=5",
+        "source": "Middle East Eye",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T11:53:00Z",
+        "title": "Container ship struck by unknown projectile in Strait of Hormuz, UKMTO says - Middle East Eye"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPc19uMXpKMzFRSVhwa3VSZC1fUldtaFNfRi1fQ1A1SFBRMXhPYlB2TEdYMTNzZ3d5d29fMTVrYmpzNDM2Q3NPaGR4TEpjckoxN0k3MVVxejRHTTl4U1Bpa3hrYWZETUhnd3VwTDhwQnViTWcyOExZMjVJYnlYRHJIRlZqbFBuS3lPNklSYU5qaUpqU3FLZzZNaWo2djk2VGxEOGppLXZjQTFHS2R1R3NTWkxrSmtRVXhuNG85akh1VHQ3MGlPV292RFhtMWNhQdIB0wFBVV95cUxNVWJVbWl0dFRLOUQzb1lqbTFaY0M3aXJIckxKQnhHTV9mNllsaHo4VDRnclJmSEk0aEpPc19ncWxvXzBpQ0ppOHVFR253UFZ3MEowS0dueFBjeDdzVjFtYmVaSTJOS1E4MFpldXFsMG1hOUJGdVctdW9XVXh4LTA3a0M2a0txSHI2UnFTblZWQWNNV0xhcmVDN25fY2FlWU5BLUJDd292Z0xXQTA3eE9xam5JeG1KelZHZ3lKVFBhNVJ1a0oyR3kxRHN5U0kwR3RVT3hr?oc=5",
+        "source": "Devdiscourse",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T10:29:27Z",
+        "title": "Container ship struck by unknown projectile in Strait of Hormuz, UKMTO says - Devdiscourse"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZDRTaGdNSVQwU1hROTlLR0pzaDZOenJYSjZ4ZmhvOEFZTm1aRHRXMzJkUXVCUHpvamY5YThLLV9rQzB3NG9nUzJSQ3RCZ3dibUR1aHBPb094Qk9iTWFpVkRxVUd3dno0c0t5eGlLSXFSRGpsUV9SLTNtWU01MmwtYnY5NFpFbXF3SzJjb3RQbw?oc=5",
+        "source": "Drop Site News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T15:13:13Z",
+        "title": "Iranian mine sinks ship in Hormuz; Trump pardons two at Alaska rally; Congo Ebola cases top 9,000 - Drop Site News"
+      },
+      {
+        "url": "https://maritime-executive.com/article/iran-claims-containership-hit-mine-and-sank-in-strait-of-hormuz",
+        "source": "The Maritime Executive",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-14T14:47:48Z",
+        "title": "Iran Claims Containership Hit Mine and Sank in Strait of Hormuz"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxNLV85elN6TGpfTXdQZ1YwME1WcVlvYzFCWl9KaE10QXVGZkdLczJCNDFRMmR6d194TzZLRnlOLUNTaGVCOTdUUFVzZV94eW50SUlVUm9IVmJlUHo3dUN4ZHNEQmczRE9JNG81em1ZWFluckF4ZERwNm5UZFEwUVZfT3JPMUgzVEwyeTBFd2h3d25aQi03NUt0WnZyZEl0RzFMa1FmSjJDVUd5cXhKM090SkItNHBCS0FHVk9Pd1JZTTdBdTJxRER2b21TZ2tNZjNNN0NZOGJpcUFHd19ha0ZpQnB5dDMydDlfbE96eHlkVmpzU1RLTkZsSUtNdUszNmdDRVlWbVM3VHJURmNQTlBXLTBYejMyN3JPRFZ3SDFLNWY5UW81eHJqWXozWWpyLWFzTkFKcVB4YkhTWExRYUhGS1QycWFPUllyU0d2NV9nM0dPNEhJ0gHUAkFVX3lxTE0tXzl6U3pMal9Nd1BnVjAwTVZxWW9jMUJaX0poTXRBdUZmR0tzMkI0MVEyZHp3X3hPNktGeU4tQ1NoZUI5N1RQVXNlX3h5bnRJSVVSb0hWYmVQejd1Q3hkc0RCZzNET0k0bzV6bVlYWW5yQXhkRHA2blRkUTBRVl9Pck8xSDNUTDJ5MEV3aHd3blpCLTc1S3RadnJkSXRHMUxrUWZKMkNVR3lxeEozT3RKQi00cEJLQUdWT093UllNN0F1MnFERHZvbVNna01mM003Q1k4YmlxQUd3X2FrRmlCcHl0MzJ0OV9sT3p4eWRWanNTVEtORmxJS011SzM2Z0NFWVZtUzdUclRGY1BOUFctMFh6MzI3ck9EVndIMUs1ZjlRbzV4cmpZejNZanItYXNOQUpxUHhiSFNYTFFhSEZLVDJxYU9SWXJTR3Y1X2czR080SEk?oc=5",
+        "source": "The Sunday Guardian",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T10:35:19Z",
+        "title": "US-Israel-Iran War Latest News: IRGC Says Container Ship Carrying 2,500 Containers Sank After Naval Mine Blast in Strait of Hormuz While Taking ‘Unauthorised’ Route Amid Rising Ship Attacks - The Sunday Guardian"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Vd1dTVEZ0NnVIeGZsM0hpQWpDVU1kMnhvV1AwZU16aWdpLUgtNUtnbDdOcmVHbVdqS1RyMmxLemhhdFBUczRnOGh1UHd5c0NON3VVRzh6MlNhTE1rVjRpVm9fUW1tS0NEdEg4TFdxdnE1aFk?oc=5",
+        "source": "JFeed",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T10:32:07Z",
+        "title": "Hormuz Mine: IRGC Says Container Ship Sank South of Strait - JFeed"
       }
     ],
     "first_seen": "2026-10-14T12:18:27Z",
-    "last_updated": "2026-10-14T12:18:45Z",
+    "last_updated": "2026-10-14T17:34:10Z",
     "verification_issue": 150,
     "verdict": null,
     "published_in": [],
@@ -160,6 +367,246 @@
     ],
     "first_seen": "2026-10-14T12:18:35Z",
     "last_updated": "2026-10-14T12:18:45Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261013-002",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-14",
+    "summary": "Russia's defence ministry said its forces struck a dry cargo ship at sea that was delivering military and dual-use cargo to Odesa port. No vessel name, flag or position was given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 46.49,
+    "lon": 30.74,
+    "location_text": "en route by sea to Odesa port, Ukraine",
+    "attack_type": "drone (UAV)",
+    "damage": "dry cargo ship struck",
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry claimed it struck the ship",
+    "independent_evidence": false,
+    "id": "INC-20261014-004",
+    "sources": [
+      {
+        "url": "https://t.me/mod_russia/68201",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-14T17:05:47+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-10-14T17:33:35Z",
+    "last_updated": "2026-10-14T17:33:35Z",
+    "verification_issue": 151,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-14",
+    "summary": "The same WSJ report says two cargo ships sank near the Strait of Hormuz on 14 October 2026 amid an increase in Iranian attacks. No vessel names, flags or positions are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": "sank",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261014-005",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeVJzcVMzeW15SzZXQ09EZHdZNzdXY0lmbWVJNjRDLVlodjE0SVBTeFBES1VudmJROGNiQ3RlYU1NM2FlLWs0eVhadlR1Q3luYnoxTDBkRjBwcFdoN052cUxSOVBkQTFBSkdVYTd0elBuX3F0X19feXBuRGgtTVZfZmVvY21yU0F0RkdKX01DMHZDZE5ITUtMTzFZTnBJX1VnSWpwRW4xQQ?oc=5",
+        "source": "WSJ",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T15:49:00Z",
+        "title": "Two Cargo Ships Sink Near Strait of Hormuz, as Iranian Attacks Increase - WSJ"
+      }
+    ],
+    "first_seen": "2026-10-14T17:33:40Z",
+    "last_updated": "2026-10-14T17:34:10Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261014-002",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-14",
+    "summary": "Iran's Islamic Revolutionary Guard Corps Navy released images on 14 October claiming a containership struck a mine in the Strait of Hormuz and sank. The claim was made by the IRGC Navy; no vessel name, flag or position was given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "container",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "mine",
+    "damage": "ship sank",
+    "casualties": null,
+    "attribution_claimed": "Iran (Iranian mine)",
+    "independent_evidence": false,
+    "id": "INC-20261014-006",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZDRTaGdNSVQwU1hROTlLR0pzaDZOenJYSjZ4ZmhvOEFZTm1aRHRXMzJkUXVCUHpvamY5YThLLV9rQzB3NG9nUzJSQ3RCZ3dibUR1aHBPb094Qk9iTWFpVkRxVUd3dno0c0t5eGlLSXFSRGpsUV9SLTNtWU01MmwtYnY5NFpFbXF3SzJjb3RQbw?oc=5",
+        "source": "Drop Site News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T15:13:13Z",
+        "title": "Iranian mine sinks ship in Hormuz; Trump pardons two at Alaska rally; Congo Ebola cases top 9,000 - Drop Site News"
+      },
+      {
+        "url": "https://maritime-executive.com/article/iran-claims-containership-hit-mine-and-sank-in-strait-of-hormuz",
+        "source": "The Maritime Executive",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-14T14:47:48Z",
+        "title": "Iran Claims Containership Hit Mine and Sank in Strait of Hormuz"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxNLV85elN6TGpfTXdQZ1YwME1WcVlvYzFCWl9KaE10QXVGZkdLczJCNDFRMmR6d194TzZLRnlOLUNTaGVCOTdUUFVzZV94eW50SUlVUm9IVmJlUHo3dUN4ZHNEQmczRE9JNG81em1ZWFluckF4ZERwNm5UZFEwUVZfT3JPMUgzVEwyeTBFd2h3d25aQi03NUt0WnZyZEl0RzFMa1FmSjJDVUd5cXhKM090SkItNHBCS0FHVk9Pd1JZTTdBdTJxRER2b21TZ2tNZjNNN0NZOGJpcUFHd19ha0ZpQnB5dDMydDlfbE96eHlkVmpzU1RLTkZsSUtNdUszNmdDRVlWbVM3VHJURmNQTlBXLTBYejMyN3JPRFZ3SDFLNWY5UW81eHJqWXozWWpyLWFzTkFKcVB4YkhTWExRYUhGS1QycWFPUllyU0d2NV9nM0dPNEhJ0gHUAkFVX3lxTE0tXzl6U3pMal9Nd1BnVjAwTVZxWW9jMUJaX0poTXRBdUZmR0tzMkI0MVEyZHp3X3hPNktGeU4tQ1NoZUI5N1RQVXNlX3h5bnRJSVVSb0hWYmVQejd1Q3hkc0RCZzNET0k0bzV6bVlYWW5yQXhkRHA2blRkUTBRVl9Pck8xSDNUTDJ5MEV3aHd3blpCLTc1S3RadnJkSXRHMUxrUWZKMkNVR3lxeEozT3RKQi00cEJLQUdWT093UllNN0F1MnFERHZvbVNna01mM003Q1k4YmlxQUd3X2FrRmlCcHl0MzJ0OV9sT3p4eWRWanNTVEtORmxJS011SzM2Z0NFWVZtUzdUclRGY1BOUFctMFh6MzI3ck9EVndIMUs1ZjlRbzV4cmpZejNZanItYXNOQUpxUHhiSFNYTFFhSEZLVDJxYU9SWXJTR3Y1X2czR080SEk?oc=5",
+        "source": "The Sunday Guardian",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T10:35:19Z",
+        "title": "US-Israel-Iran War Latest News: IRGC Says Container Ship Carrying 2,500 Containers Sank After Naval Mine Blast in Strait of Hormuz While Taking ‘Unauthorised’ Route Amid Rising Ship Attacks - The Sunday Guardian"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Vd1dTVEZ0NnVIeGZsM0hpQWpDVU1kMnhvV1AwZU16aWdpLUgtNUtnbDdOcmVHbVdqS1RyMmxLemhhdFBUczRnOGh1UHd5c0NON3VVRzh6MlNhTE1rVjRpVm9fUW1tS0NEdEg4TFdxdnE1aFk?oc=5",
+        "source": "JFeed",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T10:32:07Z",
+        "title": "Hormuz Mine: IRGC Says Container Ship Sank South of Strait - JFeed"
+      }
+    ],
+    "first_seen": "2026-10-14T17:33:46Z",
+    "last_updated": "2026-10-14T17:34:10Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261014-002",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-14",
+    "summary": "Maritime security sources said a dry bulk vessel was sinking in a separate incident near the Strait of Hormuz on 14 October. No vessel name, flag or position was given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "bulk carrier",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "near the Strait of Hormuz",
+    "attack_type": "other",
+    "damage": "sinking",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261014-007",
+    "sources": [
+      {
+        "url": "https://gcaptain.com/container-ship-sinks-near-hormuz-after-being-hit-by-projectile-sources-say/",
+        "source": "gCaptain",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-14T12:45:47Z",
+        "title": "Container Ship Sinks Near Hormuz After Being Hit by Projectile, Sources Say"
+      }
+    ],
+    "first_seen": "2026-10-14T17:34:00Z",
+    "last_updated": "2026-10-14T17:34:10Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261014-002",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-14",
+    "summary": "A Turkish outlet reported that two ships were targeted by UAV attacks in the Black Sea and one of them sank. No vessel names, flags, positions or attacker were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": "one of the two ships sank",
+    "casualties": "11 sailors missing",
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261014-008",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSWlLTk0yWURQMmlDWmx6RXlHdXl4MmV6QmtMRWhvUXFEV19lZHMxM0VDcDZEUnp1MHpkQWJoVXFfWGc2SXZGa2JETFhmX2FOaUNtY2NoQllVQ0ljTnZoeHZYWDUwbnJMcXNYUFc0cUI2RE5zM01CTnp2VjZmbXdyWTRUTkJORlRPQzNWZ2Z0U3NJaElkbXM1Z2hYUHZlZXZJdnhtUTljNWRvSnRVSUlsZ0prNDF1cmPSAbcBQVVfeXFMTUlpS05NMllEUDJpQ1psekV5R3V5eDJlekJrTEVob1FxRFdfZWRzMTNFQ3A2RFJ6dTB6ZEFiaFVxX1hnNkl2RmtiRExYZl9hTmlDbWNjaEJZVUNJY052aHh2WFg1MG5yTHFzWFBXNHFCNkROczNNQk56dlY2Zm13clk0VE5CTkZUT0MzVmdmdFNzSWhJZG1zNWdoWFB2ZWV2SXZ4bVE5YzVkb0p0VUlJbGdKazQxdXJj?oc=5",
+        "source": "Vira Haber",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T11:04:00Z",
+        "title": "Karadeniz’de Gemilere İHA Saldırısı: İki Gemi Hedef Alındı, Biri Battı - Vira Haber"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbnF3aUJkQVg4NUdUREZRMXFZRWFGWU5xUkQ1anQxWTFwNE9SekowRnVnZ0NTTWkya0dSNnp6ZVlnZ2tCVHhMQ0tRTzJIcERVLUxVbG1QS08yV1laUTFOQW1zSnBwNmtnTmFpVEVLMmo0MW9ZRXNjVTlXcnNjblZ2d0ZtQ0hfSXhHV2VjQVJOUnQ0QnB0WTZGMDhn0gGfAUFVX3lxTE4ybVkyRzdmRktraTJpcE41Zm9FZjA2bDk3dWRiNEhZZWROQlFOU0J5U1lvd29abmVZVXJfOGM0dmhCYlFYQTRwRVlkckI0bzIwaDFPd3hNalF3eHhaWmg2WU1meU94WlBpRzY3ZXh6SmVJTFpVS2p6VHJaTTMzaE5NSm9lc0h4Tl9CdXNyTUhlWEdLQzZLVDF3ODR4b0w0WQ?oc=5",
+        "source": "Aydınlık",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T10:40:00Z",
+        "title": "Karadeniz’de iki gemiye İHA saldırısı: 11 denizci kayıp - Aydınlık"
+      }
+    ],
+    "first_seen": "2026-10-14T17:34:06Z",
+    "last_updated": "2026-10-14T17:34:10Z",
     "verification_issue": null,
     "verdict": null,
     "published_in": [],
@@ -1695,10 +2142,64 @@
         "kind": "media",
         "published_at": "2026-10-14T05:09:09Z",
         "title": "Karadeniz'de ticari gemilere İHA saldırısı! Bir gemi battı - Haber61"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTkh3Y2dKR19HS29zR1pFYWFfek1tZnowelRqek1OdkdnVFMtWmhUV2dqcHh1S21NZi05M2FZcWZsaks1aDRzVWRoZE9Jd1psS18yUWl6Vk14S1FuNUhsRkI4bG9fQUExOE92SXZyNmFsbzk3M2x3REVGcUZlVnozaXpyZnhGZ3c2WkJ2ZlRWUGhLV0dMNUE?oc=5",
+        "source": "Latest news from Azerbaijan",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T15:24:56Z",
+        "title": "LIVE : Search continues for 11 missing crew after Black Sea ship attacks - Latest news from Azerbaijan"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOb0JBUDU3Um1POTJZeWVWa19aXzFPQlJQOF9kYk92ZWZHQWY2aEtMcHJlYmdENHVFY2Z5TF9Dd2Y0bDNUXy1BODllU2FnV3A0TWNPVVdvbGlvbURTaGdGN3NnaGpzdDIxajVNTnBHeUdVTDlHdDZzQzFHUlFJU1FYM1hWV2tTYkdkTTJfVnI5ZGI?oc=5",
+        "source": "The New Arab",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T15:02:36Z",
+        "title": "Fears over 14 Syrian sailors on ship sunk by drone near Bulgaria - The New Arab"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSUdlajkzdEt3LUpBUHBtOEQ1cEhfZGZwd19taUxDTDN4eWRqV3kwSlZLMEx3ZHpQdmpwZF82REpYWk5FdkFHNEVNRmw0OGh6SkNMTC1ieEdUdC03eGYyRWZPc2JndXdwQ2xESWZBcTliX3AyV0pKbWJuN0JJWVZ6M1E1TVdWeEdvc2tKdVl0SWRiUQ?oc=5",
+        "source": "The Loadstar",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T15:13:32Z",
+        "title": "News GFS ship sinks after missile attack, second ship sustains damage - The Loadstar"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSWlLTk0yWURQMmlDWmx6RXlHdXl4MmV6QmtMRWhvUXFEV19lZHMxM0VDcDZEUnp1MHpkQWJoVXFfWGc2SXZGa2JETFhmX2FOaUNtY2NoQllVQ0ljTnZoeHZYWDUwbnJMcXNYUFc0cUI2RE5zM01CTnp2VjZmbXdyWTRUTkJORlRPQzNWZ2Z0U3NJaElkbXM1Z2hYUHZlZXZJdnhtUTljNWRvSnRVSUlsZ0prNDF1cmPSAbcBQVVfeXFMTUlpS05NMllEUDJpQ1psekV5R3V5eDJlekJrTEVob1FxRFdfZWRzMTNFQ3A2RFJ6dTB6ZEFiaFVxX1hnNkl2RmtiRExYZl9hTmlDbWNjaEJZVUNJY052aHh2WFg1MG5yTHFzWFBXNHFCNkROczNNQk56dlY2Zm13clk0VE5CTkZUT0MzVmdmdFNzSWhJZG1zNWdoWFB2ZWV2SXZ4bVE5YzVkb0p0VUlJbGdKazQxdXJj?oc=5",
+        "source": "Vira Haber",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T11:04:00Z",
+        "title": "Karadeniz’de Gemilere İHA Saldırısı: İki Gemi Hedef Alındı, Biri Battı - Vira Haber"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbnF3aUJkQVg4NUdUREZRMXFZRWFGWU5xUkQ1anQxWTFwNE9SekowRnVnZ0NTTWkya0dSNnp6ZVlnZ2tCVHhMQ0tRTzJIcERVLUxVbG1QS08yV1laUTFOQW1zSnBwNmtnTmFpVEVLMmo0MW9ZRXNjVTlXcnNjblZ2d0ZtQ0hfSXhHV2VjQVJOUnQ0QnB0WTZGMDhn0gGfAUFVX3lxTE4ybVkyRzdmRktraTJpcE41Zm9FZjA2bDk3dWRiNEhZZWROQlFOU0J5U1lvd29abmVZVXJfOGM0dmhCYlFYQTRwRVlkckI0bzIwaDFPd3hNalF3eHhaWmg2WU1meU94WlBpRzY3ZXh6SmVJTFpVS2p6VHJaTTMzaE5NSm9lc0h4Tl9CdXNyTUhlWEdLQzZLVDF3ODR4b0w0WQ?oc=5",
+        "source": "Aydınlık",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T10:40:00Z",
+        "title": "Karadeniz’de iki gemiye İHA saldırısı: 11 denizci kayıp - Aydınlık"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9WTWlteWlsUEYwNFk4d2V5M01LMW1tcS1KenRlaldYSEtlcGRaVXR4bjVXYmFJS1JhbkhvbFRIVll1RUJNS1dwdERlcw?oc=5",
+        "source": "https://theins.press/en",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T08:48:23Z",
+        "title": "Bulgaria summons Russian ambassador after fourth attack on merchant ships in the country’s waters - https://theins.press/en"
       }
     ],
     "first_seen": "2026-10-13T14:32:05Z",
-    "last_updated": "2026-10-14T12:18:45Z",
+    "last_updated": "2026-10-14T17:34:10Z",
     "verification_issue": 135,
     "verdict": null,
     "published_in": [
@@ -2456,10 +2957,19 @@
         "kind": "media",
         "published_at": "2026-10-13T08:37:41Z",
         "title": "Two Commercial Ships Hit by Drones Near Bulgaria - Oj - Odessa Journal"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPQUtqQ3puaFFRaWNudlFyREZpS0dyU2d3cDJSenNSUWVXTUFvN2FsNk9kSzhIZTRqcDh6YTE4emk2ZzE5NTRodmJmXzF1TmJVME5zMTN6ZlJsZHlEaVVxZTVob0xpbGloejVyR3JZT25wOGFsbDNLY2dGSkphVWhVUkJPdDZaNDZpdGpRVTI5bm83bU4xanZqMmttdjk0ZXI5cUYwN1ZubmJkLXRySmc2UHkzOWR6cUxLS2Fqd1lfSS1qZkFKbnphUjhFRXJUb2I1ajc3RktKZGc4Tlg2bExoTXpzSEJPNktRcU1LbnRFYlnSAfYBQVVfeXFMTVRBTW1IUzlrYU1aUUNQME03TVBQWVByS2JORXp1Z1FDX3N3SktqUUJlb2NfXzBZdFVBaDlCbEV3NlJldkc1Nnl5WGJsbjctX3E2N1UyblI4SGs3cWlja0tKcWJIS0dFdkJISkNIS094cDRvaWkwd09lcUZkLUM3bERiaGc2SVNzaEdONXJ4em40WGNLNzg2M0JBODVhekxoLUNGTE9TTTVDcUpXTHBVU3JJcHhVcWlhYWJiYUlsMFY2T2MyZkJYbS1uVDZtVHBpQ3RHMDQxMFdYRmJJRkJQUjNQT0tEN3BFajM1SkoxOWtEUnc0VWFB?oc=5",
+        "source": "The Times of India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T14:54:00Z",
+        "title": "Black Sea in crossfire: Bulgaria says Russia behind drone strikes that sank two ships - The Times of India"
       }
     ],
     "first_seen": "2026-10-13T20:20:58Z",
-    "last_updated": "2026-10-14T12:18:44Z",
+    "last_updated": "2026-10-14T17:33:46Z",
     "verification_issue": 137,
     "verdict": null,
     "published_in": [
@@ -2878,10 +3388,19 @@
         "kind": "media",
         "published_at": "2026-10-13T15:18:32Z",
         "title": "Iran says oil tanker caught fire east of Strait of Hormuz: IRNA reports - Business Upturn"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQbTZzendGMUVxTDd4blFCcGVCa2tRZldIT21WWm9iTmdVVUtXU29YYlRodXFvdzQyVFZJdkprazdXeG5MWUpqaVJQbTlJblYyTl9nemF6STRHLS16Z19kWFZKek0wZkJxcTVJRjZxR2pEcDlObDJyVHN0SEVDa0FhUnY1YWM4am9iWmxJYkxsZ0phZTQ0LUpqektNTjY1M1RIN2NNcmdyRmVsbGpSb2VCN2NnaXRVMjk2WmtBQVBwMVA4TVJDcHNnemloV0tDX2ktd2pkWmthaTYtX2w2ODhRallId284OFhRQlVMTURWR1fSAfYBQVVfeXFMT2NxUVBSc2laazNXMVpycGlpOTRNVUZ5SVM0WXpRSWY4U2drSV9rbDRhTzU5MWMwSXpSVXp4VUJjcUw4NHhaeDVDT0E2dlloQnh2Y3lhdkU5YlV6eVgxbUg3LXBTYnp1TjRSMzc5SjZLM0ZJOEdUeDY4bnBHd2VqSGNOOGpaUmw1c3VVR1lTdERsd3NjZGxET0NkU0YzSVRoanZNd0x4MTRWTU85T3N1dFZ5M1UwM19JeFh0ZW9jX3JNbkRpN3RTWUVRNkdHaVRYUXlJR0NkcjhrZmx6bzB3YjA0NEpzeU9fZ0RiM29PV210T3pjZUx3?oc=5",
+        "source": "The Economic Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-13T20:19:45Z",
+        "title": "Two ships hit by projectiles in Strait of Hormuz, maritime agency says - The Economic Times"
       }
     ],
     "first_seen": "2026-10-13T23:50:53Z",
-    "last_updated": "2026-10-14T12:18:45Z",
+    "last_updated": "2026-10-14T17:34:09Z",
     "verification_issue": 143,
     "verdict": null,
     "published_in": [
@@ -3706,6 +4225,88 @@
   },
   {
     "region": "Black Sea",
+    "date_utc": "2026-10-13",
+    "summary": "A headline reports that a GFS ship sank after a missile attack and a second ship was damaged. No vessel name, flag or position is given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "missile",
+    "damage": "one ship sank, a second ship damaged",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261013-026",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSUdlajkzdEt3LUpBUHBtOEQ1cEhfZGZwd19taUxDTDN4eWRqV3kwSlZLMEx3ZHpQdmpwZF82REpYWk5FdkFHNEVNRmw0OGh6SkNMTC1ieEdUdC03eGYyRWZPc2JndXdwQ2xESWZBcTliX3AyV0pKbWJuN0JJWVZ6M1E1TVdWeEdvc2tKdVl0SWRiUQ?oc=5",
+        "source": "The Loadstar",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T15:13:32Z",
+        "title": "News GFS ship sinks after missile attack, second ship sustains damage - The Loadstar"
+      }
+    ],
+    "first_seen": "2026-10-14T17:33:46Z",
+    "last_updated": "2026-10-14T17:34:10Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261013-002",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-13",
+    "summary": "Bulgaria summoned Russia's ambassador after a fourth attack on merchant ships in its Black Sea waters. The item gives no vessel name, flag, position or damage details.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.0,
+    "lon": 28.3,
+    "location_text": "Bulgarian waters, Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261013-027",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9WTWlteWlsUEYwNFk4d2V5M01LMW1tcS1KenRlaldYSEtlcGRaVXR4bjVXYmFJS1JhbkhvbFRIVll1RUJNS1dwdERlcw?oc=5",
+        "source": "https://theins.press/en",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T08:48:23Z",
+        "title": "Bulgaria summons Russian ambassador after fourth attack on merchant ships in the country’s waters - https://theins.press/en"
+      }
+    ],
+    "first_seen": "2026-10-14T17:34:09Z",
+    "last_updated": "2026-10-14T17:34:10Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261013-002",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
     "date_utc": "2026-10-12",
     "summary": "Moscow announced that a military cargo ship was struck near Odesa port. Russia's defence ministry claimed its drones targeted the vessel.",
     "official_source_cited": null,
@@ -3830,7 +4431,7 @@
     "attack_type": "drone (UAV)",
     "damage": "vessel drifted and was towed to Giresun",
     "casualties": null,
-    "attribution_claimed": null,
+    "attribution_claimed": "Ukraine (Ukrainian drone)",
     "independent_evidence": true,
     "id": "INC-20261012-003",
     "sources": [
@@ -3887,10 +4488,19 @@
         "kind": "media",
         "published_at": "2026-10-13T05:09:36Z",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQ0dCZ1U3cUV1eTNXcVZVQ1RxTnVIT0dNRjFZQ3JqYThXMGUtQU16N1k5bDFJdmplZXVwb19uanZSenpHSmlWNDdVTFZBTmZxbld3VnU1RnBmX0p0OVFBQmRnWEJWRmN3Z0NfbUhfclRTaDJxZjlteHNZVHh5dVRDcURWSVRPZ05QSkV2b0xsakRfUXRYYVhOanBPaEpJZHZQWWpDblZDY2FVMkZ4VEplVnRZTkFSQ182S0dNNXRKaw?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T15:00:55Z",
+        "title": "Tanker struck by Ukrainian drone runs aground in Turkish nature park - TradeWinds News"
       }
     ],
     "first_seen": "2026-10-12T16:00:33Z",
-    "last_updated": "2026-10-13T05:09:36Z",
+    "last_updated": "2026-10-14T17:33:46Z",
     "verification_issue": 123,
     "verdict": null,
     "published_in": [
@@ -5517,7 +6127,7 @@
     "position_approx": true
   },
   {
-    "region": "Strait of Hormuz",
+    "region": "Gulf of Oman",
     "date_utc": "2026-10-11T00:00:00Z",
     "summary": "The IMO lists ANGOLA PROSPERITY (IMO 9896414) as hit at 8NM from the coast of Oman on 11 October 2026. Damaged. No pollution.",
     "official_source_cited": "IMO confirmed incidents list",
@@ -5528,8 +6138,8 @@
     "flag": null,
     "vessel_type": null,
     "vessel_category": "merchant",
-    "lat": 26.55,
-    "lon": 56.35,
+    "lat": 24.8,
+    "lon": 58.2,
     "location_text": "8NM from the coast of Oman",
     "attack_type": "other",
     "damage": "Damaged. No pollution.",
@@ -5549,7 +6159,7 @@
       }
     ],
     "first_seen": "2026-10-13T14:32:51Z",
-    "last_updated": "2026-10-14T05:10:48Z",
+    "last_updated": "2026-10-14T17:34:10Z",
     "verification_issue": null,
     "verdict": {
       "status": "confirmed",
@@ -8348,7 +8958,7 @@
     "position_approx": true
   },
   {
-    "region": "Strait of Hormuz",
+    "region": "Gulf of Oman",
     "date_utc": "2026-10-10T00:00:00Z",
     "summary": "The IMO lists VALTHERA (IMO 9296389) as hit at Strait of Hormuz, Oman TTW on 10 October 2026. Damaged. No pollution.",
     "official_source_cited": "IMO confirmed incidents list",
@@ -8389,7 +8999,7 @@
       }
     ],
     "first_seen": "2026-10-12T16:00:57Z",
-    "last_updated": "2026-10-13T05:09:36Z",
+    "last_updated": "2026-10-14T17:34:10Z",
     "verification_issue": null,
     "verdict": {
       "status": "confirmed",
@@ -15145,7 +15755,7 @@
     "position_approx": true
   },
   {
-    "region": "Strait of Hormuz",
+    "region": "Gulf of Oman",
     "date_utc": "2026-10-06T00:00:00Z",
     "summary": "The IMO lists ST1 (IMO 9256999) as hit at 2NM off the coast of Oman, near Jazirat on 6 October 2026. Damaged. No pollution.",
     "official_source_cited": "IMO confirmed incidents list",
@@ -15156,8 +15766,8 @@
     "flag": null,
     "vessel_type": null,
     "vessel_category": "merchant",
-    "lat": 26.55,
-    "lon": 56.35,
+    "lat": 24.8,
+    "lon": 58.2,
     "location_text": "2NM off the coast of Oman, near Jazirat",
     "attack_type": "other",
     "damage": "Damaged. No pollution.",
@@ -15240,7 +15850,7 @@
       }
     ],
     "first_seen": "2026-10-09T14:36:47Z",
-    "last_updated": "2026-10-10T13:00:05Z",
+    "last_updated": "2026-10-14T17:34:10Z",
     "verification_issue": null,
     "verdict": {
       "status": "confirmed",
@@ -19963,10 +20573,19 @@
         "kind": "media",
         "published_at": "2026-10-13T18:39:00Z",
         "title": "Режим повышенной готовности введен на Кубани после пожара на танкере - Кавказский Узел"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOX2JJekEzTENJVDVhVUJOMXV0NC0zQkhpOXh0NTZZNUpLTEJCbjNzUElzY19kdFl3cUt3a29ORnM3LTUtTElxQzFucTloWVYzaTczZWloNFlhcjFGQzB4VzBJZmVjWEpzMmRFTV9Calo1MGNSV0YtS0VPOUx3OUJ0NHNsRWVLVFJrYkhGRFl1czIzNndWTXQ1c09sN3ZfcFZ0S0JwWEJEd0p1TFdIdElkbk1fSXZKOHI4VG5Yc2t2RnAwU1FoN0pUMFkxZHNNMnI4ZVU3NlRCb0xrMS12ZjEzQjcyZFYzNmk3LW9uOVYxRUdKM0VzR1MzUtIB_gFBVV95cUxPcjlKX0YxMHJPMzZXemh0aklrS0ZnUmlLOTIxQm9JRDhUdFowNXg2ekZaaEt2LUllQ2VETk1uLXgzNUpNcnRrd0RIVWdxLVEtaHgtVXlnbHlySU1zSWdZY1RkY2FYZGE1b3VsM2RoSjBNSVYzLVFOWHFBMy1wMnVuek0zeHZxTE5NZjV0QjhQc1JBV1Q5Y1ltVFBRWXk2cWRKSFlwdTZ2dTRnX1ZFLVkzUHlobnlSdVdxS083Mkg0RldiSEZsWlRWVENGTnRlc2oyVktpeUpIQ1lHOEh4VE1naGs4bGdsV1hObjdBZHBHTEpTNnNLZHV1V0xVeFJTQQ?oc=5",
+        "source": "Meduza",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T13:40:00Z",
+        "title": "В Черном море — опять огромное нефтяное пятно на десятки километров. Оно появилось после атаки дронов на танкер у берегов Сочи - Meduza"
       }
     ],
     "first_seen": "2026-10-06T20:33:03Z",
-    "last_updated": "2026-10-14T05:10:48Z",
+    "last_updated": "2026-10-14T17:33:55Z",
     "verification_issue": 65,
     "verdict": {
       "status": "rejected",
