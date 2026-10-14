@@ -4569,18 +4569,43 @@
         "kind": "media",
         "published_at": "2026-10-11T10:43:00Z",
         "title": "BREAKING NEWS O navă ar fi fost lovită de o dronă în Marea Neagră, în apropierea platformei... - Kanal D Romania"
+      },
+      {
+        "url": "https://www.ziuaconstanta.ro/stiri/eveniment/nava-turceasca-incarcata-cu-cereale-lovita-de-o-drona-in-marea-neagra-incidentul-in-zona-platformei-pescarus-955538.html",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-14T04:34:42Z",
+        "title": null
+      },
+      {
+        "url": "https://hotnews.ro/nava-turceasca-lovita-de-drona-in-marea-neagra-langa-platforma-petroliera-pescarus-2367095",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-14T04:34:42Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-11T15:03:40Z",
-    "last_updated": "2026-10-12T05:15:17Z",
+    "last_updated": "2026-10-14T04:34:42Z",
     "verification_issue": 118,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-14T04:34:42Z",
+      "note": "duplicate: the Romanian report is the 5 October drone attack on the Turkish general cargo ship Royad Mammadov near the Pescarus platform, already recorded as INC-20261005-001.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/118#issuecomment-6160967374"
+    },
     "published_in": [
       "2026-10-12"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261005-001"
+    "merged_into": "INC-20261005-001",
+    "status_changed_at": "2026-10-14T04:34:42Z"
   },
   {
     "region": "Black Sea",
@@ -4612,18 +4637,34 @@
         "kind": "media",
         "published_at": "2026-10-11T06:27:00Z",
         "title": "Russia hits another Ukraine ship in Black Sea - Breakingthenews.net"
+      },
+      {
+        "url": "https://vz.ru/news/2026/10/10/1461273.html",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-14T04:34:41Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-11T15:03:56Z",
-    "last_updated": "2026-10-12T05:15:17Z",
+    "last_updated": "2026-10-14T04:34:41Z",
     "verification_issue": 119,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-14T04:34:41Z",
+      "note": "duplicate: the headline repeats the Russian defence ministry claim of 10 October that drones struck a cargo ship carrying military cargo toward Odesa, already recorded as INC-20261010-003, and it names no vessel of its own.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/119#issuecomment-6160967575"
+    },
     "published_in": [
       "2026-10-12"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261010-003"
+    "merged_into": "INC-20261010-003",
+    "status_changed_at": "2026-10-14T04:34:41Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -5815,16 +5856,26 @@
         "kind": "media",
         "published_at": "2026-10-11T15:46:05Z",
         "title": "Liberian ship’s crew okay after ME attack - Daily Tribune"
+      },
+      {
+        "url": "https://tribune.net.ph/2026/10/11/liberian-ships-crew-okay-after-me-attack",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-14T04:34:39Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-11T19:41:15Z",
-    "last_updated": "2026-10-12T05:15:17Z",
+    "last_updated": "2026-10-14T04:34:39Z",
     "verification_issue": 120,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-12T05:15:17Z",
-      "note": "mis-dated: the Daily Tribune page is the repatriation of the Yamilah III's crew after an earlier attack, so no new attack happened on 11 October"
+      "by": "iMariner",
+      "at": "2026-10-14T04:34:39Z",
+      "note": "mis-dated: the Daily Tribune page is the return home of ten Filipino seafarers from the Liberian-flagged tanker Yamilah III after an earlier attack, not a new attack on 11 October.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/120#issuecomment-6160967782"
     },
     "published_in": [
       "2026-10-12"
@@ -5872,18 +5923,34 @@
         "kind": "media",
         "published_at": "2026-10-11T06:50:54Z",
         "title": "US military strikes Panama-flagged vessel near Strait of Hormuz - Latest news from Azerbaijan"
+      },
+      {
+        "url": "https://www.ukmto.org/-/media/ukmto/products/update-104-jmic-advisory-note-11-october-1.pdf?rev=ff03f3af21364e44a4e9413136d44456",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-14T04:34:37Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-11T19:41:24Z",
-    "last_updated": "2026-10-12T05:15:17Z",
+    "last_updated": "2026-10-14T04:34:37Z",
     "verification_issue": 121,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-14T04:34:37Z",
+      "note": "duplicate: the CENTCOM strike on the Panama-flagged vessel in the Gulf of Oman is the disablement of M/V Ocean Molica, listed by JMIC as UKMTO advisory 163-26 and already recorded as INC-20261010-016.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/121#issuecomment-6160967945"
+    },
     "published_in": [
       "2026-10-12"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261010-016"
+    "merged_into": "INC-20261010-016",
+    "status_changed_at": "2026-10-14T04:34:37Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -7537,16 +7604,26 @@
         "kind": "media",
         "published_at": "2026-10-10T09:41:11Z",
         "title": "Oil Prices Rebound After Houthis Say They Attacked Saudi Tanker - EnergyNow.com"
+      },
+      {
+        "url": "https://www.reuters.com/world/middle-east/yemens-houthis-say-they-attacked-saudi-oil-tanker-red-sea-2026-08-05/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-14T04:34:44Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-11T01:12:32Z",
-    "last_updated": "2026-10-11T05:10:41Z",
+    "last_updated": "2026-10-14T04:34:44Z",
     "verification_issue": 114,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-11T05:10:41Z",
-      "note": "the EnergyNow page is dated 5 August 2026 and is the Houthi claim of a missile attack on a Saudi oil tanker off Yanbu, the same event already recorded and rejected on the tracker"
+      "by": "iMariner",
+      "at": "2026-10-14T04:34:44Z",
+      "note": "mis-dated: the declared source is the 5 August 2026 Houthi claim of a missile attack on a Saudi oil tanker off Yanbu, so no new attack on a Saudi tanker happened on 10 October.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/114#issuecomment-6160967175"
     },
     "published_in": [
       "2026-10-11"
