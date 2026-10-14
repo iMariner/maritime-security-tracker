@@ -34,14 +34,13 @@
   "quality": "1 check(s) need attention: dates ok; attribution ok; official coverage 0/0 ok; verified 2/6; single-source items 0; confirmed ok; fact-check 1 correction(s); tweet 225/280 ok; dashes ok; consistency Acers is in the data but not named in the article found",
   "review": {
     "status": "done",
-    "at": "2026-10-14T05:10:48Z",
+    "at": "2026-10-14T05:30:15Z",
     "changes": [
       "lead story set to INC-20261013-002 (the day's most serious new attack, a cargo ship sunk off Bulgaria with 11 crew m)",
       "merged INC-20261013-023 into INC-20261013-002 (the Ukrainian outlets report the same 13 October strike off Bulgaria on a vessel from Odesa, an unnamed copy of the record that names the sunken ship)",
       "merged INC-20261013-015 into INC-20261010-008 (the Balkanweb report is the family of the Aroyat's second engineer, missing since the 27 September drone strike at Novorossiysk, not an attack on 13 October)",
       "merged INC-20261013-006 into INC-20261006-014 (the Kuban items are the oil spill and high alert aftermath of the Aframax Rio fire off Sochi, not a new strike on 13 October)",
       "merged INC-20261013-018 into INC-20261007-003 (the Inquirer report is the DMW's aid to the seafarer injured in the 7 October strike on the tanker Acers, already tracked and briefed)",
-      "update on INC-20261007-003: the Philippines' Department of Migrant Workers said the seafarer injured in the 7 October drone strike on the tanker Ace",
       "name of INC-20261013-007 set to CHELSEA 3",
       "damage of INC-20261013-007 set to hit by three drones and left listing and drifting without her crew, not sunk",
       "casualties of INC-20261013-007 set to 5 crew injured, all 15 rescued",
@@ -51,18 +50,26 @@
       "INC-20261013-016 marked rejected (the Firstpost Live item reports the six attacks on Sunday 11 October, already tracked, and names no vessel, date or damage of its own)",
       "INC-20261011-027 marked confirmed (the IMO confirmed incidents list records Angola Prosperity, IMO 9896414, hit 8NM off the coast of Oman on 11 October, damaged with no pollution)",
       "lesson (facts): An oil spill, high alert or environmental follow-up about a tanker is the aftermath of an attack already tracked, so fin",
-      "lesson (writing): Credit a ship's name to the outlet or firm that gave it, never to a minister or authority that reported the attack witho"
+      "lesson (writing): Credit a ship's name to the outlet or firm that gave it, never to a minister or authority that reported the attack witho",
+      "update on INC-20261007-003: the Philippines' Department of Migrant Workers said the seafarer injured in the 7 October drone strike on the tanker Ace"
     ],
     "refused": [],
     "notes": [
       "Credit the sunken ship's name to Bulgarian media, not to Bulgaria's Prime Minister: in the standfirst, lede, Black Sea section and key points say Bulgarian media identified the sunken general cargo ship as the Azov Concord, that a maritime source said the vessel was in the search and rescue rather than hit, and that the President's office named the hull HS Dignity, Guinea-Bissau flagged, so its identity and flag are not settled.",
       "Keep the eight Azerbaijani crew Azerbaijan confirmed rescued with the Chelsea 3, not the Azov Concord: Bulgaria's Interior Ministry said the sunken ship's crew were mainly Syrians with three Egyptians, while the Chelsea 3's 15 crew were seven Ukrainians and eight Azerbaijanis.",
-      "In the Black Sea section and the key points, report the second ship as the Maltese-flagged, Ukrainian-owned general cargo ship Chelsea 3, hit by three drones 18 nautical miles east of Byala with all 15 crew rescued and five injured and left drifting without her crew: credit Bulgaria's Prime Minister and Vanguard Tech, per Seatrade, and drop the Russian channel's Chelsea-7 and any line saying she sank."
+      "In the Black Sea section and the key points, report the second ship as the Maltese-flagged, Ukrainian-owned general cargo ship Chelsea 3, hit by three drones 18 nautical miles east of Byala with all 15 crew rescued and five injured and left drifting without her crew: credit Bulgaria's Prime Minister and Vanguard Tech, per Seatrade, and drop the Russian channel's Chelsea-7 and any line saying she sank.",
+      "In the Strait of Hormuz and the Gulf section, name the 7 October tanker as the Acers: the IMO's confirmed incidents list gives that hull the name Acers (IMO 9301902). Report that UKMTO logged a tanker hit by multiple projectiles about 51 nautical miles off Qatar on 7 October, with casualties reported, and give the ship as the Acers. Then add what is new in one sentence: the Philippines' Department of Migrant Workers said the injured seafarer is being treated in Doha and the other 24 Filipino crew are safe. That paragraph must carry the name, not only the Sources heading.",
+      "In the headline, standfirst and lede keep the sinking and the missing crew with the identification of the lead story: say Bulgarian media identified the sunken general cargo ship Azov Concord, hit by drones off Bulgaria's Black Sea coast on 13 October, with 11 crew missing. Credit the identification to Bulgarian media once, not twice, and do not let the 11 crew missing fall out of the headline and lede into the key points only."
     ],
     "restored": [
       "INC-20261007-003"
     ],
-    "send_after": false,
+    "send_after": true,
     "lead": "INC-20261013-002"
+  },
+  "final_read": {
+    "status": "fixed",
+    "at": "2026-10-14T05:30:15Z",
+    "warnings": []
   }
 }
