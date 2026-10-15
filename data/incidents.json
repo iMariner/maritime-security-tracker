@@ -2,22 +2,22 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-10-15",
-    "summary": "The vessel Wine Trader was reportedly hit by two drones in the Black Sea, and rescued sailors were brought to Constanța. The report attributes the attack to drones but names no attacker.",
-    "official_source_cited": null,
+    "summary": "The San Marino-flagged chemical tanker Wine Trader sent a distress signal on the morning of 15 October after a fire broke out about 13 nautical miles southeast of Sulina. Five of the 12 crew were rescued and seven remain missing; Romanian President Nicușor Dan confirmed both tankers were hit by drones.",
+    "official_source_cited": "Romanian authorities",
     "conflicting": false,
-    "confidence": 0.7,
+    "confidence": 0.95,
     "vessel_name": "WINE TRADER",
     "imo": null,
-    "flag": null,
+    "flag": "San Marino",
     "vessel_type": "general cargo",
     "vessel_category": "merchant",
-    "lat": 44.17,
-    "lon": 28.66,
+    "lat": 43.4,
+    "lon": 34.5,
     "location_text": "Black Sea, off Romania",
     "attack_type": "drone (UAV)",
     "damage": "vessel on fire",
     "casualties": "seven sailors missing",
-    "attribution_claimed": null,
+    "attribution_claimed": "Romanian President confirmed both tankers were hit by drones",
     "independent_evidence": true,
     "id": "INC-20261015-001",
     "sources": [
@@ -56,17 +56,234 @@
         "kind": "media",
         "published_at": "2026-10-15T05:05:56Z",
         "title": "UPDATE. Șapte persoane dispărute după un nou atac cu drone în apropiere de Sulina. A fost lovită nava Wide Trader - Euronews România"
+      },
+      {
+        "url": "https://t.me/astrapress/128185",
+        "source": "ASTRA",
+        "source_type": "telegram",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-15T12:45:49+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWkdNQjd2MzZNTHAwRjh3VWZxZHFlbzFoaHp1Rm1jcUU4T3I1MWpJeHBHRWZvVHZCMFdnNEdqZURYTWtEZUlHdE53c3JkenJNLURVRlpQVGhJNmVOVElYTzZsV2k2YVNVaGcxN255ekdsM05TRF83Y2lwWVUxbzFIeXZMbHFkQXVZWG1OMlM5TkROT0Nx?oc=5",
+        "source": "The Independent",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T10:25:00Z",
+        "title": "Seven sailors missing after tanker fire off Romania's coast amid Russian drone fears - The Independent"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOU2RFeFVhZkYxc3NNcXBOcDNOT284VVlXT3d5d2lTRThOTzJHXzVCdWhONzlBNE9ZSjhybEdUdjlNSmdEalJIZDRIN3pSVFBQY2M4U1hKenhNRGpqS3M0OTBpVjdlTnFvanRCTUdWZEZjalpJeXVaYTJ4YW1TLXV1QkRRRlVwRTc1cldsWC00ejRiWTJkd29uNlJORGJUWnlhYVlDNnlELXJpTllzWE9YdWpMTGtLbWhRanc?oc=5",
+        "source": "Euronews.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T09:53:14Z",
+        "title": "Romania says seven people missing after fire on tanker in Black Sea - Euronews.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQeEFtMnpaMWRCTHJkeHpnN1p3eE15RXRUM1QzNmhHb0RpQU1XNWI5SEttYzl3T25QUUZ4V0lUblZPalFtdHNvQk96a3VmblFCbWxTWUNGcmluM0VvbmdKN1FrMlgwcFZ0MTM2THNiRGJQT3Y2bGxZMjY4UEpiN21yV2s1Q05QVEI5eE5XWllqRWlTTF9rOElPeUw0VUxCaW1XZTZmYlFadEVlMmR2eEgyMjZVVldfV0N4Tjh3UVJEVHVTMkhQV0NWVXRJVDUwQ0Y1dVE?oc=5",
+        "source": "Udayavani",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T09:50:04Z",
+        "title": "Romanian authorities launch rescue after another Black Sea ship fire leaves 8 missing - Udayavani"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMWdxazZjSEdINUNQckRENDllYU82ZlFzRk9xdkpvamRBMEN6OHVBRmtwOFZMNXpPSUFHM2tFNDZQVWtkZTdqcGFOZF8zWmtqN3BwUWtrQnhYNWZlV2FLNVJhZ0tad3dOWWlHMTF4NGNrdWpyUzZobjllMFlVOG5NazNZMk5yTEhlVkNuTDRIbktNY0R0djJ2VFpYWG1ma2oxbGVrdnJEaGMwVVpoU1BkT1JnN2dxSGdlMmR4ZHVB?oc=5",
+        "source": "United News of Bangladesh",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T09:45:17Z",
+        "title": "Romania launches rescue operation after Black Sea ship fire leaves eight missing - United News of Bangladesh"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQT0hvYy1jWEV6anFyZHE5MUthNzFwdnRjWVJzV2lsY3dYdUltZThnRWFPZG5jMXlUc2NUclZSQWcwTzJ0UkNOZmplMHIzdzVNeWdtMWtJNHZVMFYwY2ZWS2JyZ1Zsb3NrZDhCVTlXWkE1VzZ4Wi1PQmNBTXJ3aDdvWWtYNHJKY3M?oc=5",
+        "source": "ECR",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T09:43:00Z",
+        "title": "Seven missing after fire on vessel in Black Sea off Romania - ECR"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNUTJqLVJCcGZZclpBdW1jdGhMbVFfNFV4YkFIcjZIY1p1ZnZ1RFBBd1ktc3dTV3Juai14SkVvbzFILWtXN1FneTUxclVfUjFyU0M4LXNnNi1BSmdDckI5NHczTTMxb2o5OWxzWW1hb0w3VlJmTDBDeXhNSmRZenoxeDlySnpQei04cUxKTzNYZzh2NnA3dXQ1LWE2bGlEQXoxWnZPUXdWeVdJX1VWRlBQZ0doLTh4TWpxVjFlQTJZYlE3Tl9haHlUcnJjYjdfMmRqUHh4U2tsaG5zajFNR0N3VS13Q2hIancyaGRKbUlJc05jeVBGVFFrQnNRdVRtTTZlWGpySUh5eHY4ckgy?oc=5",
+        "source": "Oskaloosa Herald",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T09:24:58Z",
+        "title": "Romanian authorities launch rescue after another Black Sea ship fire leaves 8 missing - Oskaloosa Herald"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQS2xIcWRrbDRMdlh3OEJnY0tEdGJJMTFuQU5HQ0JHWU5ZSlRhV2Q5dlFER2ZmOEhuTndhRmJXSzg2M3hYV2I5bnVVRFJmT1JlRzluZUtfZFliaVVIS2xERjhSeG9WeTNjUGU1WnM5ZnBHQlhlYWZwNFNpWFZxU2pPaXlsR09zWFdtdVByN3JOdkRUTTFtWU03TWJseGlpa2lqZnRNb2o3bVkzbHJpX0p6UmlUTTRHWmZVY2hhLTg2Vk1rWXBBNENsdktyb01GUmN0cENXbXE5YjF4cHRVQXhVZVZOdEdPQXNMaTUzdzlra0JCNUtrVHBj0gH8AUFVX3lxTE9pM3ZIWnp5N1Ztcm9uZnRoUVBqa1pOUEhoUkppOVdHRy1SeHhIdHhleW1MQ19Wb0huWVVSY0RvVXNONGZ5UGhWd09HdC1DUFBvRmVTR05neTBSYnkwN3ZZZUdaTmNmdF9VTTVOck9iVmxUV0o2ZDBlX0ZhQzY3YzBMYTB1Q2VtcDdwREczY1lMUU5SLTZnbU1HMjNVdm95T3lrSEZTYmxPc0VienRqaDRrZ0Y5OUpwNXJIcWY1U2doX3M0QmM5dURUbDlfejdiT29FSGxCQW1ibkc4dzJYUVVOaXF1M3dJemVPUVdTVFM2Tm83UV9oZzVWdVhFWA?oc=5",
+        "source": "The Times of India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T09:21:25Z",
+        "title": "Fresh Black Sea Ship Fire Sparks Alarm As Eight Go Missing Near NATO’s Eastern Flank - The Times of India"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VM3FGSXpaZlJicHEybHQ0NVlNYThUdk5KNEF6UUswRVdSUWUwUjVXOXo5cXlVOEVmcUlKM0J4WWdIVzJfcmx1S0NhV1p1OXVkVmRlTGhVcUtDZ2E4bHlJcGdWdXFsN0FocHYwRGlXT2ZzWU5oWFpPSXBudjB3TWM?oc=5",
+        "source": "The Globe and Mail",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T09:18:31Z",
+        "title": "Romania launches rescue after another Black Sea ship fire leaves eight missing - The Globe and Mail"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZXBtYWJiakJGbDhmN09xWDBYVEFjZG1MaDJqTnFzcXJRZEdpRVFqZUI2MENTdEg4TTB0Zmc1dTRheVJMb00tLVloQlhZZUdhRVFXU0hPWkZfYThyNGo2MUlxbUdtLWI5MTY0bnNFc2F5ZXF1ZkZUNnVCLWtZeXFJald2YWFtcEFiNTBQd3FKVnF1cVVOTTJ2WUF4dVdYdmdiSWlzb19vbUFERDUtcXc?oc=5",
+        "source": "Novinite.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T09:08:05Z",
+        "title": "Eight Missing After San Marino-Flagged Ship Reports Fire off Romania - Novinite.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQc1VGYWhERDZqTWh5WUdpVmxsdl9zZlhsSHFRV0NROE5GY0JFQjlkakF6Q0I5TmFnS0x4UVB3RGZsUVZoQWo3OXVTbmttWkV3d0FRQWlRbU05bWQwdzJJODlPYWQ2Z04tRHJnWFZORjdtRFVORTl0MFNKOFpoMU80bG9tM0QwSjdhMFdRX2VGeW9uOFp1MkpfZzA1LWxUV09VendacWQ5ZVRfSU5HSmZyUTQxaFhLdHB6WjhZ?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T08:56:40Z",
+        "title": "Eight missing after tanker attacked in new Black Sea drone strike - TradeWinds News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeU1ybE1nWEhYX1NGZlpGTE9qdVhIa2RMUXdJZ2hlVkRCb1pjYkRRbUZaNmVBd19DQ2dIRkJVM0tnR1hBcURqZkw5RXNHTF9LQXdqV2c0REw2MFdXdXl4UzIwSHUyWk14X0t2RFVpZkJabFA2di1UbHVsaExqblEyQVo4YzhuM1pjSTlsUjdYVW8?oc=5",
+        "source": "Yahoo",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T08:56:09Z",
+        "title": "Eight crew missing in tanker fire off Romania's coast - Yahoo"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNM1hhMnZJNGI4OUJ1eVFBVzZ1SVp4cGtVckh0dUc5bVhiZndFU29DRUVfeUhORHNGU1VUbzBzSVdjZWtBQnZZVUJTMXN1OVpTMk4zalR5WC1uNDlwXzlucXBCWTFuaFliNktLU3FlTDNEWTBfUUNGN3hwSTg1SjNNbkpsakFMOHpaOUtQWW1sbDU1Ung2aTZ2QzVMOFZfdzBlc2pIZXk2REZJbHAzNkIzSFVPenpLNG9IU2FOX0hxTV8tMFdJMDJiN1Z2T1VpMnQ3UVFWRnE5eV9nOTdwSkZ3aklEdHZpZ3l0UVRaekZvMWlXQy1UcWRfY1ZEY2NrU0FTLUJKTm1uMXcxeVBMelFz?oc=5",
+        "source": "Spotmedia.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T08:48:23Z",
+        "title": "Navă plină cu substanțe chimice, în flăcări lângă Sulina, după incursiuni ale dronelor în România. Opt membri ai echipajului sunt dispăruți. Imagini cu nava care a luat foc (Video) - Spotmedia.ro"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5idHd6VldKWHFvZGN3Y25DTkZzRzFTWlNQdnRObDBkamlLbGxvcTdFV0tDXzhfcXJVLThZZmhNNGFmWEhZY2Q2bUF5MS1XVjNZcHdaUHFxM0xRcUw5a2cwdzBzQ0h6MHY3SU5mRzY5eGI0aFB5NFFB?oc=5",
+        "source": "Ukr.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T08:35:41Z",
+        "title": "Біля Румунії загорілося два судна: одне міг уразити дрон, на іншому 8 зниклих - Ukr.net"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0OXJ4RE9wV0VmeUZhMlRkczVwcXB1UGl3aENvbm5TeERrVWNCQnc4cGFVZWRZWEQ1d0pfbURXa21uanFDdUlld01rOTJBYkYtN3ZDZFg4RlpIeUU?oc=5",
+        "source": "BBC",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T08:22:47Z",
+        "title": "Eight crew missing in tanker fire off Romania's coast - BBC"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNS0pPbmNQdW42cUNLRS1RZXlWTlBrU3I1S1I5OVdENlVCUlZEbTZjd1VoX2hFazU5eDh2TGxaSzV4QTZwWWhoVWluVTJrY2EwZDhkcENMdWdHOGJsZHJzUTVqTnJfN0VMNzN2LVg2Z0kwSDQwcFl5QnhPajlwRmNxc0dSa3Y2U2I3SzdqdDJ4dEZocm1lNk1WRnhpSVF2dm9ybGxFRkQ1WlZ6U1NONTZDdkFoaWFPV19KRmRwa05WdENLbW01RWZFMEJxVXhOZkk5ZVhHWGEzaFB0d0k0STQ5RE1rYS1sN1c4blY3Z01DV0M4R1d4bVdxRU05OTNWVENVVTZaaWd3SU5La2dUbXfSAZICQVVfeXFMTWduWlpuMExXWF9BRW9PYUo4NTNZdHBBSmI1UmhHaUNUaThRbGpuUnVHZE5hd0h1MjlEUHlTZkplZm1DNk14UFJpQmxxMU40c1JRVFRXTEhiRTFRTF82bDRwVnFJLUJYLURXU05FLS1WZWlrTC1VdnlZTldVZkljLVlVWVd5SUxRUWNJbUZCRWdpWEZWa21VNzJxckhoTnFWZmxneEpJY3daZ2dUQlRiQTZyWmd2dzQ3WjNubWxoV2VQNlc5d0RCSUpnTl9nZloxZEdBSHBHNE5jRlZHZGkyQVJESFpwYzJXR1hpN19RaXA0Wk5KaFpKNUNQNkdxNTlwT0UwaWd3My1SZWZ3d2V5dkZEUQ?oc=5",
+        "source": "OBOZ.UA",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T07:35:00Z",
+        "title": "Дрон вперше атакував нафтовий танкер у водах Румунії, сталася пожежа: з’явилися дані про долю екіпажу - OBOZ.UA"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5CUUhRWGtDTG5Cdk5CRVBsU0xKUVlXZHJjUWFCRUNZY3F6NDhPRFMzenVYMmVvYm8tS0NjTEN2RGllNndTY2Q4b1B1T1ZTOHlqT1g0THNrNjRjYU1NZmc?oc=5",
+        "source": "BBC",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T08:22:47Z",
+        "title": "Eight crew missing after drone attack leaves tanker ablaze off Romania's coast - BBC"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYTJNNU1weTVzV202SEo1MWk0NDdvY2w0dTkybmFwcUZoclRpNHliUk1LRXl3TnBhSS1rTWstY25VRUNJTTBvYUQ4UXA5WWR5UXMwZU1RNXNENUtkZy1VQk9uZEdzVTItTGJfODJjVXpmTE9aWHlPUHgySWlkcjc4dUJwTW5vSWFQRTcyVjNyeE56dGpyQjQyMWN1V3VGUDhrOVpZ?oc=5",
+        "source": "КИЇВ24",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T06:56:03Z",
+        "title": "Біля берегів Румунії дрон атакував танкер: на судні спалахнула пожежа - КИЇВ24 - КИЇВ24"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVXRMWUxUZnRac0M0b1ZmQlE2RmdhdG5ncW1QLTZzZmdKbDk3cl8wb0Nxb1RtTzh2dzZDSngxcUp6djhMa1lWOFJUMFJIS0czZFNXeXU2ZXBEbGdoZ1pHRHVkbjJOcGpzU0VkMGk4YzFKT2FWM1RXaXl6ZzhlaDR0OFRXcw?oc=5",
+        "source": "Yahoo News Canada",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T06:43:00Z",
+        "title": "Romania says eight people missing after fire on tanker in its territorial Black Sea waters - Yahoo News Canada"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPX1labjBSN2ozVjBlbG10N3VFVjVRRnJySlo1SlZwZzhBRmM1NkNidUEyNm9sNEd5V2hyTmhLZUdSazhObnlMc0M1X1hWbC1yckZ5ZS1GblNJNGRjTUFCb01jblhGaWY2OFM4RkE4UGhpaE92WFhBRUQ5WUN4VkRPa3lWaG1hOGZPQlZsSkpISkhZNVN0Snlz?oc=5",
+        "source": "Gulf News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T01:40:37Z",
+        "title": "Romania probes possible drone attack on tanker - Gulf News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQemtmZUNFYjRUb2F5T3U0dWtTMHpPNmVEM28wN3I3VWpKT2g2MFExMzdPaXAxaGl5eTV3enVUUnI3U3k0OUlRNVdGYlIzMkFfZnZhZFdISlo2SkYtd0pCSTUtVG1YTWJmdlhiN25USElqc2ZULVZKcTBCTzhBVExlUEdGOHIwbHpnZ3JYSTN1TnNxb08zRFVpRFplZ0M1cVVfTnhTaGhVa3B2ck8zOTBPdmVqOURtQdIBuwFBVV95cUxNZlhwTmJId2Zzd3piSDY0WmdSeU9WcFB0MG9NV3BGUHNLZERFVnVfMkFHaHRWV0ZWV09ZMy1KQmVMajM5XzlyeXNTcDctMHNkdWI2anB6UUtWeW4tbmFBOEVUMzJkcEg5QTc5SzlHUG5DRERHdUFyZzVVS0Y3eEp1QWw5WDRzVFoyMGQxTHJ6Ty02RXFYSU93Q1AwaWFKaWM1Mmo5X21OUHAzNzFIYU1POWduYUF3WnV5dnh3?oc=5",
+        "source": "Al Jazeera",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T01:28:14Z",
+        "title": "Ship catches fire in Romania’s waters amid rising attacks in the Black Sea - Al Jazeera"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTnh3QXR0WWFJeVpqNE0xRjVTXzVpblJUZVVRY3Y4eGVGNFFHRGFoaVFGRERVaVFWOHlrNzRPSzE3aFdxM1V4NEJKQmJqdFVCN3N1UGl1ZDUyZS02SEJFZ1MwXzhnXzRBVjNHRVVxZGh1Y3hqQXBqMmdWajlhWWhvdl9LN2RIalpneHRNMGRZVGozUndWRVROcmxaaW10UklRRGdTMHRRN09sdXZMV0ZsczdTaE91SWMtOG1vNzI4M0VReHpleGs3LXRma0ktRENrQVJXYTB3WdIB3gFBVV95cUxPMGl0TC1UZU54U21xVjYzS1BmU3JyN1ZRd19NWG9jTmVIMTJ0ZDRIRkFMU0dXbFFrUjd4cmV6VkRRRnZzS2xMQk9odmtrR2M2S1lJdGcwTWN1UU9tSXpyQVV2U1JmcnVfdDg1Vlo1WjlKbGt2YldvQWJQVGlzaDVJaThrX1lpLTAyTkY0VWpNYWpland5cURrVjA1eFBWYkFDV1cxdDFVcDZnNEFBYm54NTdVSmxvMmRoWnJ2dzNMejlxaUdaSXF2ZHBGSlczdFRtSDhmVzhDSUNUanZYN3c?oc=5",
+        "source": "The Hindu",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T01:15:55Z",
+        "title": "Commercial ship catches fire in Romanian waters in latest Black Sea incident - The Hindu"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMkJGSkd3LWQ3OTcxS0VLN0RPUW1lR0Q2dzJWS2F1X01VTVVtZWVMbTZ3WktHZE5CN1pBNXRHUkt1NWozVEFLWF82SER4RXc2Y0RHZU9oUi11SWtETnhPc3BFdDBHVEFOOG1vS29MQkJFV2xkV3lEREx2dENyRHhTNmFCdWhsUmpNMXNrLVp5dE1tTUZLd2JYSHl5UUJ0YUxQbWNYWnY5UGQ4Qjl0ZUFsS3B4dWFYcWQzLUVPV3lJUmFYeXFyNll5UFFrWWFyOTF2ckFFMV9hSEdBMmxlb0E?oc=5",
+        "source": "www.goldring.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T06:09:04Z",
+        "title": "Nouă alerte în Marea Neagră: incendiu pe o navă sub pavilion San Marino și atac asupra unui petrolier lângă Sulina - www.goldring.ro"
+      },
+      {
+        "url": "https://gcaptain.com/two-ships-ablaze-off-romanian-black-sea-coast-7-sailors-missing/",
+        "source": "gCaptain",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-15T13:31:19Z",
+        "title": "Two Ships Ablaze Off Romanian Black Sea Coast, 7 Sailors Missing"
       }
     ],
     "first_seen": "2026-10-15T11:21:24Z",
-    "last_updated": "2026-10-15T12:00:27Z",
+    "last_updated": "2026-10-15T17:20:20Z",
     "verification_issue": 152,
     "verdict": null,
     "published_in": [
       "2026-10-15"
     ],
     "status": "reported",
-    "position_approx": true
+    "position_approx": true,
+    "date_approx": false
   },
   {
     "region": "Black Sea",
@@ -322,15 +539,16 @@
       }
     ],
     "first_seen": "2026-10-15T11:21:24Z",
-    "last_updated": "2026-10-15T12:00:43Z",
+    "last_updated": "2026-10-15T17:20:20Z",
     "verification_issue": 153,
     "verdict": null,
     "published_in": [
       "2026-10-15"
     ],
-    "status": "reported",
+    "status": "merged",
     "status_changed_at": "2026-10-15T11:21:28Z",
-    "position_approx": true
+    "position_approx": true,
+    "merged_into": "INC-20261015-001"
   },
   {
     "region": "Black Sea",
@@ -448,7 +666,7 @@
     "summary": "The Comoros-flagged chemical tanker Yara J was anchored about 10 nautical miles southeast of Sulina on Wednesday evening when its crew reported an explosion and fire onboard, a suspected drone strike inside Romanian territorial waters. The vessel was in ballast and preparing to enter the Danube; the fire was extinguished.",
     "official_source_cited": "Romania",
     "conflicting": false,
-    "confidence": 0.9,
+    "confidence": 0.95,
     "vessel_name": "YARA J",
     "imo": null,
     "flag": "Comoros",
@@ -832,10 +1050,19 @@
         "kind": "media",
         "published_at": "2026-10-15T04:04:25Z",
         "title": "Navă de marfă suspectată de atac cu drone în Marea Neagră; statul membru NATO ia măsuri urgente. - Vietnam.vn"
+      },
+      {
+        "url": "https://t.me/astrapress/128185",
+        "source": "ASTRA",
+        "source_type": "telegram",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-15T12:45:49+00:00",
+        "title": null
       }
     ],
     "first_seen": "2026-10-15T11:21:40Z",
-    "last_updated": "2026-10-15T12:00:48Z",
+    "last_updated": "2026-10-15T17:20:18Z",
     "verification_issue": 155,
     "verdict": null,
     "published_in": [
@@ -1200,12 +1427,13 @@
       }
     ],
     "first_seen": "2026-10-15T12:00:11Z",
-    "last_updated": "2026-10-15T12:00:11Z",
+    "last_updated": "2026-10-15T17:20:20Z",
     "verification_issue": 158,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261015-001"
   },
   {
     "region": "Strait of Hormuz",
@@ -1246,6 +1474,47 @@
     "published_in": [],
     "status": "merged",
     "merged_into": "INC-20261014-002",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-15",
+    "summary": "Two chemical tankers caught fire overnight just outside Romanian territorial waters in the Black Sea, Romanian officials said. Rescuers were searching for seven missing crew from one of the vessels after Russian drones strayed into national airspace.",
+    "official_source_cited": "Romanian officials",
+    "conflicting": false,
+    "confidence": 0.9,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "just outside Romanian territorial waters, Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": "fire on board",
+    "casualties": "7 sailors missing",
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261015-016",
+    "sources": [
+      {
+        "url": "https://gcaptain.com/two-ships-ablaze-off-romanian-black-sea-coast-7-sailors-missing/",
+        "source": "gCaptain",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-15T13:31:19Z",
+        "title": "Two Ships Ablaze Off Romanian Black Sea Coast, 7 Sailors Missing"
+      }
+    ],
+    "first_seen": "2026-10-15T17:20:18Z",
+    "last_updated": "2026-10-15T17:20:20Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261015-001",
     "position_approx": true
   },
   {
@@ -1799,10 +2068,19 @@
         "kind": "official",
         "published_at": "2026-10-15T04:37:23+00:00",
         "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/68233",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-15T15:18:32+00:00",
+        "title": null
       }
     ],
     "first_seen": "2026-10-14T17:33:35Z",
-    "last_updated": "2026-10-15T12:00:27Z",
+    "last_updated": "2026-10-15T17:20:14Z",
     "verification_issue": 151,
     "verdict": null,
     "published_in": [
