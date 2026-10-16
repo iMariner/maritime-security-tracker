@@ -41,7 +41,7 @@
   "quality": "1 check(s) need attention: dates ok; attribution ok; official coverage 0/0 ok; verified 11/15; single-source items 1, 1 without verification; confirmed ok; fact-check 1 correction(s); tweet 228/280 ok; dashes ok; consistency ok",
   "review": {
     "status": "done",
-    "at": "2026-10-16T05:10:58Z",
+    "at": "2026-10-16T05:36:49Z",
     "changes": [
       "lead story set to INC-20261015-001 (the Wine Trader, struck by drones about 13 nautical miles southeast of Sulina on)",
       "casualties of INC-20261015-006 set to none, all crew safe",
@@ -60,7 +60,8 @@
       "INC-20261011-031 marked confirmed (the IMO confirmed incidents list records Ever Vict, IMO 9266774, hit in the Strait of Hormuz on 11 October with two seafarers injured)",
       "merged INC-20261014-013 into INC-20261006-014 (the Greenpeace slick off Sochi is the aftermath of the 6 October fire on the Aframax Rio, already tracked, not a new attack on 14 October)",
       "INC-20261015-022 marked rejected (a storm drove a tanker ashore near Istanbul on 15 October; the sources name her as the Banda, damaged by a Ukrainian strike on 14 July, so no merchant ship was attacked that day (https://maritime-executive.com/article/storm-drives-another-war-damaged-tanker-ashore-in-turkey))",
-      "lesson (facts): A casualty figure with no source of its own is not usable: check the flag state's or the manager's statement before inju"
+      "lesson (facts): A casualty figure with no source of its own is not usable: check the flag state's or the manager's statement before inju",
+      "date of INC-20261014-002 set to 2026-10-13"
     ],
     "refused": [
       "date INC-20261015-006: no source link given",
@@ -69,10 +70,17 @@
     "notes": [
       "Lead the headline, standfirst, lede and tweet with the Wine Trader: the San Marino-flagged chemical tanker was struck by drones about 13 nautical miles southeast of Sulina on 15 October, seven of her 12 crew are missing and five were rescued, with the search continuing, per Reuters, gCaptain and The Maritime Executive. Call her a chemical or product tanker, not a general cargo ship, and keep the seven missing in the headline and lede.",
       "Keep the two tankers apart: the Yara J is the second one, struck inside Romanian waters late on Wednesday 14 October, and her crew put the fire out themselves with no one hurt before she headed to Constanta, per Splash247 and The Maritime Executive, so give her no casualties and leave the seven missing crew to the Wine Trader.",
-      "For the GFS Pride, report that the Singapore-flagged container ship sank after being struck by a projectile on 13 October with all 21 crew safely evacuated and no injuries, per Singapore's Maritime and Port Authority, and drop the three injured."
+      "For the GFS Pride, report that the Singapore-flagged container ship sank after being struck by a projectile on 13 October with all 21 crew safely evacuated and no injuries, per Singapore's Maritime and Port Authority, and drop the three injured.",
+      "The GFS Pride was struck and sank on 13 October, the date in the IMO confirmed incidents list (IMO 9349045) and in the flag state's statement; news reports of the sinking ran on 14 October. Say 13 October in her paragraph and keep all 21 crew safely evacuated and no injuries there.",
+      "In the HS Dignity paragraph credit the ship's name to Bulgaria's President, not the Prime Minister: the Prime Minister said only that a general cargo ship had sunk, and the President named her HS Dignity. Keep the sinking, the five rescued and the 11 missing, and the position about 17 nautical miles east of Krapets, in that paragraph."
     ],
     "restored": [],
-    "send_after": false,
+    "send_after": true,
     "lead": "INC-20261015-001"
+  },
+  "final_read": {
+    "status": "fixed",
+    "at": "2026-10-16T05:36:49Z",
+    "warnings": []
   }
 }
