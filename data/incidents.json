@@ -6686,21 +6686,46 @@
         "kind": "media",
         "published_at": "2026-10-15T00:53:29Z",
         "title": "Four ships hit in Hormuz, off Bulgaria - Daily Tribune"
+      },
+      {
+        "url": "https://aljazeera.com/amp/news/2026/10/13/drone-attack-sinks-ship-off-bulgarias-black-sea-coast-pm-says",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-16T04:33:22Z",
+        "title": null
+      },
+      {
+        "url": "https://thehindu.com/news/international/drone-sinks-ukrainian-owned-ship-off-bulgarias-black-sea-coast-bulgarian-prime-minister-says/article71578213.ece",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-16T04:33:22Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-13T20:20:58Z",
-    "last_updated": "2026-10-15T12:00:43Z",
+    "last_updated": "2026-10-16T04:33:22Z",
     "verification_issue": 137,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "iMariner",
+      "at": "2026-10-16T04:33:22Z",
+      "note": "Bulgaria's prime minister and interior ministry say the Maltese-flagged, Ukrainian-owned Chelsea 3 was hit by three drones 16 to 18 nautical miles east of Byala early on 13 October and all 15 crew were rescued, so the attack is confirmed but the Russian channel's name CHELSEA-7 is not corroborated.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/137#issuecomment-6208139311"
+    },
     "published_in": [
       "2026-10-14",
       "2026-10-15"
     ],
-    "status": "reported",
+    "status": "confirmed",
     "position_approx": true,
     "date_approx": false,
     "news_changed_at": "2026-10-14T05:10:48Z",
-    "position_note": "18 nautical miles east of Byala, Bulgaria, where Bulgaria's Prime Minister places the drone attack"
+    "position_note": "18 nautical miles east of Byala, Bulgaria, where Bulgaria's Prime Minister places the drone attack",
+    "status_changed_at": "2026-10-16T04:33:22Z"
   },
   {
     "region": "Black Sea",
@@ -6918,12 +6943,27 @@
         "kind": "media",
         "published_at": "2026-10-13T13:06:46Z",
         "title": "Russia says it struck cargo ship carrying military supplies to Ukraine - PM News Nigeria"
+      },
+      {
+        "url": "https://www.usnews.com/news/world/articles/2026-10-13/russia-says-it-hit-ship-delivering-military-cargo-to-ukraines-mykolaiv",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-16T04:33:20Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-13T20:21:13Z",
-    "last_updated": "2026-10-13T20:21:20Z",
+    "last_updated": "2026-10-16T04:33:20Z",
     "verification_issue": 141,
-    "verdict": null,
+    "verdict": {
+      "status": "claimed",
+      "by": "iMariner",
+      "at": "2026-10-16T04:33:20Z",
+      "note": "only Russia's defence ministry says a dry cargo ship was struck in the Bug estuary en route to Mykolaiv, and no independent or Ukrainian report of a vessel hit there has appeared, so the claim stands unconfirmed.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/141#issuecomment-6208139483"
+    },
     "published_in": [
       "2026-10-14",
       "2026-10-15"
@@ -7204,18 +7244,43 @@
         "kind": "media",
         "published_at": "2026-10-13T12:20:00Z",
         "title": "Albanian engineer disappears after drone attack on Turkish ship in Russian port, family appeals to government: We want to know the fate of the boy! - Balkanweb.com"
+      },
+      {
+        "url": "https://safety4sea.com/seafarer-reportedly-missing-after-drone-strike-on-bulk-carrier-near-novorossiysk",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-16T04:33:18Z",
+        "title": null
+      },
+      {
+        "url": "https://newsatsea.com/turkish-maritime-news/aroyat-struck-engineer-missing",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-16T04:33:18Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-13T23:51:00Z",
-    "last_updated": "2026-10-14T05:10:48Z",
+    "last_updated": "2026-10-16T04:33:18Z",
     "verification_issue": 144,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-16T04:33:18Z",
+      "note": "the missing engineer on a Turkish-linked ship in a Russian port is the Aroyat's second engineer, unaccounted for since that Palau-flagged bulk carrier was struck by drones off Novorossiysk on 27 September, so this is the aftermath of an earlier attack and duplicates INC-20261010-008.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/144#issuecomment-6208139661"
+    },
     "published_in": [
       "2026-10-14"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261010-008"
+    "merged_into": "INC-20261010-008",
+    "status_changed_at": "2026-10-16T04:33:18Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -7247,16 +7312,44 @@
         "kind": "media",
         "published_at": "2026-10-13T10:08:30Z",
         "title": "'Not 1, But 6': Iran’s 'Biggest' Hormuz Attack as Anti-Ship Missiles Unleashed | Firstpost Live - Firstpost"
+      },
+      {
+        "url": "https://www.telegraph.co.uk/world-news/2026/10/13/iran-hits-six-oil-tankers-day-hormuz-war-america-trump",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-16T04:33:17Z",
+        "title": null
+      },
+      {
+        "url": "https://gcaptain.com/?p=258956",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-16T04:33:17Z",
+        "title": null
+      },
+      {
+        "url": "https://ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf?rev=ae23f6713bc24322b5f58190a6923b58",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-16T04:33:17Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-13T23:51:07Z",
-    "last_updated": "2026-10-14T05:10:48Z",
+    "last_updated": "2026-10-16T04:33:17Z",
     "verification_issue": 145,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-14T05:10:48Z",
-      "note": "the Firstpost Live item reports the six attacks on Sunday 11 October, already tracked, and names no vessel, date or damage of its own"
+      "by": "iMariner",
+      "at": "2026-10-16T04:33:17Z",
+      "note": "the six vessels hit were struck in the Strait of Hormuz on Sunday 11 October and are already tracked, and JMIC counts four projectile strikes on 11 October and four on 13 October, so this live round-up is mis-dated and names no vessel, date or damage of its own.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/145#issuecomment-6208139839"
     },
     "published_in": [
       "2026-10-14"
@@ -7336,18 +7429,43 @@
         "kind": "media",
         "published_at": "2026-10-13T09:44:00Z",
         "title": "Filipino seafarer injured in Persian Gulf tanker attack gets DMW aid - Inquirer.net"
+      },
+      {
+        "url": "https://globalnation.inquirer.net/341877/fwd-filipino-seafarer-injured-in-drone-attack-on-persian-gulf-tanker-gets-dmw-aid",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-16T04:33:15Z",
+        "title": null
+      },
+      {
+        "url": "https://filipinotimes.net/latest-news/2026/10/13/filipino-seafarer-injured-in-drone-attack-on-oil-tanker-in-persian-gulf/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-16T04:33:15Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-13T23:51:15Z",
-    "last_updated": "2026-10-14T05:10:48Z",
+    "last_updated": "2026-10-16T04:33:15Z",
     "verification_issue": 147,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-16T04:33:15Z",
+      "note": "the Department of Migrant Workers says the injured seafarer was rescued from the oil tanker Acer after three drones hit it on 7 October, which is the Gulf attack already tracked as the confirmed Acers record INC-20261007-003, so this is an aftermath report and not a new attack.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/147#issuecomment-6208140026"
+    },
     "published_in": [
       "2026-10-14"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261007-003"
+    "merged_into": "INC-20261007-003",
+    "status_changed_at": "2026-10-16T04:33:15Z"
   },
   {
     "region": "Strait of Hormuz",
