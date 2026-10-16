@@ -1,6 +1,87 @@
 [
   {
     "region": "Black Sea",
+    "date_utc": "2026-10-16T05:38:59Z",
+    "summary": "Russia's defence ministry said a ship carrying a military cargo was struck in the Black Sea. No vessel name, flag, date or position was given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry said it targeted the vessel",
+    "independent_evidence": false,
+    "date_approx": true,
+    "id": "INC-20261016-001",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMihANBVV95cUxQOWgxcXpJUU9MZS1uQ3owMlpKY1c2NHdzWHJLV045ck9nTF9tenYyYzc0TTJybHB4M0VhbGtMRFIyd1p2alhVMVhySF91Zm1iRTNsUWwyR211RE1xV1dxWmNZQldiZGRURFFJRkhlU1pySE9LcjNqcWxPYkVkcGJZUDM2ZWdRMldiZVRPY3JYUXRZbGhGX2ZOaU1jR1NXMEEyYWtHZUxQalAxWWU4RmhncWpSQXpTYzdmVm9QeTlKU3RwOWotel9ucVhyZnR4dGs1ZW5MVnJWQjlOeGtSVU9GT2ZubEQ3UjZDczMwNFprdE10UDJhcWlwd2Zrb2VpN2luNnR6Rl9EbUhLMFZUWEZtV2lkRUdFOWhnVHdWYktjUGx4bzRGSFBhbjhEOEdlOHMxM0EzdDM3QkUxd2RYVFF0azYyT0VHcGtZSmZmNXNuOURFMlhPNGFIR21URnc1dWlLajNWY0ItRG5RS19ZQURRd2RSWVR4aVlGTGc1a0xSLVU4S1ZI?oc=5",
+        "source": "البوابة",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-16T05:38:59Z",
+        "title": "الدفاع الروسية: استهداف سفينة تحمل شحنة عسكرية بالبحر الأسود - البوابة"
+      }
+    ],
+    "first_seen": "2026-10-16T06:20:09Z",
+    "last_updated": "2026-10-16T06:20:09Z",
+    "verification_issue": 161,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-16",
+    "summary": "Russia's defence ministry said its forces struck a dry cargo ship at sea that was delivering military cargo to Odesa port. No vessel name, flag or damage details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 46.49,
+    "lon": 30.74,
+    "location_text": "at sea, en route to Odesa port, Ukraine",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry claimed it struck the ship",
+    "independent_evidence": false,
+    "id": "INC-20261016-002",
+    "sources": [
+      {
+        "url": "https://t.me/mod_russia/68242",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-16T04:55:55+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-10-16T06:20:12Z",
+    "last_updated": "2026-10-16T06:20:12Z",
+    "verification_issue": 162,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
     "date_utc": "2026-10-15",
     "summary": "The San Marino-flagged chemical tanker Wine Trader sent a distress signal on the morning of 15 October after a fire broke out about 13 nautical miles southeast of Sulina. Five of the 12 crew were rescued and seven remain missing; Romanian President Nicușor Dan confirmed both tankers were hit by drones.",
     "official_source_cited": "Romanian authorities",
@@ -623,10 +704,19 @@
         "kind": "media",
         "published_at": "2026-10-15T13:44:30Z",
         "title": "Romanian authorities continue rescue mission after another Black Sea ship fire leaves 7 missing - Traverse City Record-Eagle"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOa1R6blFXc2diblhmdlVkblVnOUJJckx2elRjazE4dzh2YmR6VkRiM0o2Tk5qVWxBNlVnQ3ZFUC1Vc3FQdjA4czl0T2toTlJhNnFkUFlEQXFIS2VrWEo1MHYySG14X0hQVW15UkFKU1I3bkRTa0hER081ZEV2b3F3RDJHa3FJTnNvLWVGaUNvRDlQZlNscEIwQmE0bzdsMTVfY05iRks5NjlnUExIR2NyMVRwQ2p2aGZKUU1Tcy1Nb1BLenpUUEU3T3pXTmRyMldEY2thS2dXZFk0OU0weG0tNENidEpwR3p1WDhRdG1RZjB4NURGR2dJTTI2NTJ6YUJHY1daTDJxQ2sxWUlQUllqLXp4RQ?oc=5",
+        "source": "Ottumwa Courier",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T11:14:10Z",
+        "title": "Romanian authorities continue rescue mission after another Black Sea ship fire leaves 7 missing - Ottumwa Courier"
       }
     ],
     "first_seen": "2026-10-15T11:21:24Z",
-    "last_updated": "2026-10-16T05:10:58Z",
+    "last_updated": "2026-10-16T06:20:16Z",
     "verification_issue": 152,
     "verdict": null,
     "published_in": [
@@ -2868,6 +2958,47 @@
     "position_approx": true
   },
   {
+    "region": "Black Sea",
+    "date_utc": "2026-10-15",
+    "summary": "A headline reports that drone attacks struck two ships near NATO waters in the Black Sea, leaving 11 people missing. No vessel names, flags or positions were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "near NATO waters, Black Sea (off Romania)",
+    "attack_type": "drone (UAV)",
+    "damage": "two ships struck",
+    "casualties": "11 missing",
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261015-027",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQb3pfdlVlak5SejkyT2lvUVVSOGZIQy04LUZmYzh3Qlh3UTVoTjBMVkpqMzNMZnpON2o2VUdJbzA2LWgyek9HNE4yaDlKUzhzOXY2cW9Pb1h1VC1vdDMzYk9WRk9Ta2Z2UEZUeWJ5aDZhWHZSczVnUm1raTNlek5IYWF0eVg2LU14U0ZJ?oc=5",
+        "source": "gCaptain",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T16:07:16Z",
+        "title": "11 Missing as Drone Attacks Strike Two Ships Near NATO Waters - gCaptain"
+      }
+    ],
+    "first_seen": "2026-10-16T06:20:12Z",
+    "last_updated": "2026-10-16T06:20:16Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261013-002",
+    "position_approx": true
+  },
+  {
     "region": "Strait of Hormuz",
     "date_utc": "2026-10-14",
     "summary": "Iran reported a drone strike on a fishing vessel near the Strait of Hormuz, in which three people were injured. The report gives no vessel name, flag or precise position, and no attacker was named.",
@@ -4469,10 +4600,19 @@
         "kind": "media",
         "published_at": "2026-10-16T05:36:49Z",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOHlwVlQ4TWphLVF3bHd4Z0xCbUtNZFhoTXAyb2FkTUN1enJLbjExSGEtSnN0V0o0NHZpNnJqTTN4ZlZRcGJfUDFiOElvVHd2UTYtc2h6NmhGaldDTVNnS0RwR1lLS3A2WTlYQWd2Wlhsd0pqRmlHak9Gc3dYTDBzcW9haEg4UkZqVE84SHIzVFNHbzgzMVdxbVhuMWdrZw?oc=5",
+        "source": "Spectrum News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T13:28:00Z",
+        "title": "Iran says cargo ship sank after hitting mine in Strait of Hormuz - Spectrum News"
       }
     ],
     "first_seen": "2026-10-14T12:18:27Z",
-    "last_updated": "2026-10-16T05:36:49Z",
+    "last_updated": "2026-10-16T06:20:16Z",
     "verification_issue": 150,
     "verdict": {
       "status": "confirmed",
@@ -6133,10 +6273,28 @@
         "kind": "media",
         "published_at": "2026-10-16T04:31:17Z",
         "title": "Drone Attacks Sink Cargo Ship Near Bulgaria - SuaraGarut.ID"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVGxOMW92RHBJcFc2WlVaTTQtVTdTdmpqZHBQbXhnaDRpRUlXZFV3bm5nOUFHY1lBUXVQVEZzM0lfOTdEU1BvMnZtYTZfOHQxdUswSXA1anBpdHY1UkZDQjlFcFBBbWFQQ2NacXp5SkNPV1R2a1lXRU42MjVtdmtWNTE3Mk9HQmlIVWVfMUxNaHRpOXJOMmxkUW5xX0hYXzQwa1JV?oc=5",
+        "source": "www.indiagazette.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T22:38:00Z",
+        "title": "Cargo ship sinks off Bulgarian coast after being hit by drone - www.indiagazette.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQb3pfdlVlak5SejkyT2lvUVVSOGZIQy04LUZmYzh3Qlh3UTVoTjBMVkpqMzNMZnpON2o2VUdJbzA2LWgyek9HNE4yaDlKUzhzOXY2cW9Pb1h1VC1vdDMzYk9WRk9Ta2Z2UEZUeWJ5aDZhWHZSczVnUm1raTNlek5IYWF0eVg2LU14U0ZJ?oc=5",
+        "source": "gCaptain",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T16:07:16Z",
+        "title": "11 Missing as Drone Attacks Strike Two Ships Near NATO Waters - gCaptain"
       }
     ],
     "first_seen": "2026-10-13T14:32:05Z",
-    "last_updated": "2026-10-16T04:38:05Z",
+    "last_updated": "2026-10-16T06:20:16Z",
     "verification_issue": 135,
     "verdict": {
       "status": "confirmed",
