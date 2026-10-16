@@ -39,5 +39,41 @@
   "generated_at": "2026-10-16T04:38:25Z",
   "consistency_fixed": [],
   "consistency_problems": [],
-  "quality": "2 check(s) need attention: dates ok; attribution 2 claims without a named source; official coverage 0/0 ok; verified 11/18; single-source items 3, 3 without verification; confirmed ok; fact-check no corrections needed; tweet 204/280 ok; dashes ok; consistency ok"
+  "quality": "2 check(s) need attention: dates ok; attribution 2 claims without a named source; official coverage 0/0 ok; verified 11/18; single-source items 3, 3 without verification; confirmed ok; fact-check no corrections needed; tweet 204/280 ok; dashes ok; consistency ok",
+  "review": {
+    "status": "done",
+    "at": "2026-10-16T05:10:58Z",
+    "changes": [
+      "lead story set to INC-20261015-001 (the Wine Trader, struck by drones about 13 nautical miles southeast of Sulina on)",
+      "casualties of INC-20261015-006 set to none, all crew safe",
+      "merged INC-20261015-013 into INC-20261015-006 (the Türkiye Today page is that outlet's own report on the Yara J fire off Sulina late on Wednesday, not a separate attack)",
+      "position of INC-20261015-001 set to 45.0, 29.87 (about 13 nautical miles southeast of Sulina, one mile outside Romanian territori)",
+      "position of INC-20261015-006 set to 45.05, 29.81 (about 8 to 10 nautical miles southeast of Sulina, inside Romanian territorial wa)",
+      "casualties of INC-20261014-002 set to none, all 21 crew safely evacuated",
+      "INC-20261014-002 marked confirmed (Singapore's Maritime and Port Authority, the flag state, confirmed the attack and the sinking with all 21 crew safe)",
+      "flag of INC-20261013-028 set to Singapore",
+      "flag of INC-20261013-029 set to Marshall Islands",
+      "INC-20261013-028 marked confirmed (the IMO confirmed incidents list records GFS Giselle, IMO 9704661, hit 6NM off the coast of Oman on 13 October, damaged with no pollution)",
+      "INC-20261013-029 marked confirmed (the IMO confirmed incidents list records Al Saadiyat, IMO 9760598, hit 1 NM off the coast of Oman on 13 October, damaged with no pollution)",
+      "INC-20261011-028 marked confirmed (the IMO confirmed incidents list records Al Maqam, IMO 9732577, hit in the Strait of Hormuz on 11 October, damaged with no pollution)",
+      "INC-20261011-029 marked confirmed (the IMO confirmed incidents list records DP World Kaveri, IMO 9363429, hit in the Strait of Hormuz on 11 October with one seafarer injured)",
+      "INC-20261011-030 marked confirmed (the IMO confirmed incidents list records Kition M, IMO 9321160, hit in the Strait of Hormuz on 11 October, damaged with limited pollution reported)",
+      "INC-20261011-031 marked confirmed (the IMO confirmed incidents list records Ever Vict, IMO 9266774, hit in the Strait of Hormuz on 11 October with two seafarers injured)",
+      "merged INC-20261014-013 into INC-20261006-014 (the Greenpeace slick off Sochi is the aftermath of the 6 October fire on the Aframax Rio, already tracked, not a new attack on 14 October)",
+      "INC-20261015-022 marked rejected (a storm drove a tanker ashore near Istanbul on 15 October; the sources name her as the Banda, damaged by a Ukrainian strike on 14 July, so no merchant ship was attacked that day (https://maritime-executive.com/article/storm-drives-another-war-damaged-tanker-ashore-in-turkey))",
+      "lesson (facts): A casualty figure with no source of its own is not usable: check the flag state's or the manager's statement before inju"
+    ],
+    "refused": [
+      "date INC-20261015-006: no source link given",
+      "date INC-20261014-002: no source link given"
+    ],
+    "notes": [
+      "Lead the headline, standfirst, lede and tweet with the Wine Trader: the San Marino-flagged chemical tanker was struck by drones about 13 nautical miles southeast of Sulina on 15 October, seven of her 12 crew are missing and five were rescued, with the search continuing, per Reuters, gCaptain and The Maritime Executive. Call her a chemical or product tanker, not a general cargo ship, and keep the seven missing in the headline and lede.",
+      "Keep the two tankers apart: the Yara J is the second one, struck inside Romanian waters late on Wednesday 14 October, and her crew put the fire out themselves with no one hurt before she headed to Constanta, per Splash247 and The Maritime Executive, so give her no casualties and leave the seven missing crew to the Wine Trader.",
+      "For the GFS Pride, report that the Singapore-flagged container ship sank after being struck by a projectile on 13 October with all 21 crew safely evacuated and no injuries, per Singapore's Maritime and Port Authority, and drop the three injured."
+    ],
+    "restored": [],
+    "send_after": false,
+    "lead": "INC-20261015-001"
+  }
 }

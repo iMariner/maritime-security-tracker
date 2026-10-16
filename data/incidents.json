@@ -11,8 +11,8 @@
     "flag": "San Marino",
     "vessel_type": "general cargo",
     "vessel_category": "merchant",
-    "lat": 43.4,
-    "lon": 34.5,
+    "lat": 45.0,
+    "lon": 29.87,
     "location_text": "Black Sea, off Romania",
     "attack_type": "drone (UAV)",
     "damage": "vessel on fire",
@@ -626,7 +626,7 @@
       }
     ],
     "first_seen": "2026-10-15T11:21:24Z",
-    "last_updated": "2026-10-16T04:38:16Z",
+    "last_updated": "2026-10-16T05:10:58Z",
     "verification_issue": 152,
     "verdict": null,
     "published_in": [
@@ -635,7 +635,8 @@
     ],
     "status": "reported",
     "position_approx": true,
-    "date_approx": false
+    "date_approx": false,
+    "position_note": "about 13 nautical miles southeast of Sulina, one mile outside Romanian territorial waters, per gCaptain and Al Jazeera"
   },
   {
     "region": "Black Sea",
@@ -1034,12 +1035,12 @@
     "flag": "Comoros",
     "vessel_type": "tanker",
     "vessel_category": "merchant",
-    "lat": 45.3,
-    "lon": 29.2,
+    "lat": 45.05,
+    "lon": 29.81,
     "location_text": "off the coast of Romania",
     "attack_type": "drone (UAV)",
     "damage": "explosion and fire onboard, extinguished",
-    "casualties": "8 sailors missing",
+    "casualties": "none, all crew safe",
     "attribution_claimed": "Russian drones",
     "independent_evidence": true,
     "id": "INC-20261015-006",
@@ -1781,10 +1782,19 @@
         "kind": "media",
         "published_at": "2026-10-14T18:55:00Z",
         "title": "UPDATE. Alertă în Marea Neagră! Nava Yara J ar fi lovită de o dronă în apropiere de Sulina - ZIUA de Constanta"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcGRDNjE2SThqcGJaV2FJV2hoeGZPY08xSFVMUWY0Y0RVQnpocktCSTRBTGlUdVV6WFRzRFlqcXg4NmlSMGpZNkR2dHlnZHpwX0NMVEJmS0lDTW1Bc3hrZk1qcUdjQnhPRUNTY1QzWERaSUFEN3N4RFRTMy0wSmk4S2lhOERBV3pmZUN4cUxuTXM2Sl9aYlhYcV9rWlEteW5hNW84SEloU2pqUHUtVENWbjctMUl1RnlEc21rTw?oc=5",
+        "source": "Türkiye Today",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T06:23:56Z",
+        "title": "Tanker from Türkiye catches fire off Romania as Black Sea ship attacks spread - Türkiye Today"
       }
     ],
     "first_seen": "2026-10-15T11:21:40Z",
-    "last_updated": "2026-10-16T01:37:43Z",
+    "last_updated": "2026-10-16T05:10:58Z",
     "verification_issue": 155,
     "verdict": null,
     "published_in": [
@@ -1794,7 +1804,8 @@
     "status": "reported",
     "status_changed_at": "2026-10-15T11:21:54Z",
     "date_approx": false,
-    "position_approx": true
+    "position_approx": true,
+    "position_note": "about 8 to 10 nautical miles southeast of Sulina, inside Romanian territorial waters, per gCaptain and The Maritime Executive"
   },
   {
     "region": "Black Sea",
@@ -2115,14 +2126,15 @@
       }
     ],
     "first_seen": "2026-10-15T12:00:11Z",
-    "last_updated": "2026-10-15T12:00:11Z",
+    "last_updated": "2026-10-16T05:10:58Z",
     "verification_issue": 157,
     "verdict": null,
     "published_in": [
       "2026-10-16"
     ],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261015-006"
   },
   {
     "region": "Black Sea",
@@ -2648,14 +2660,20 @@
       }
     ],
     "first_seen": "2026-10-15T23:14:39Z",
-    "last_updated": "2026-10-16T01:37:23Z",
+    "last_updated": "2026-10-16T05:10:58Z",
     "verification_issue": 159,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "editor-check",
+      "at": "2026-10-16T05:10:58Z",
+      "note": "a storm drove a tanker ashore near Istanbul on 15 October; the sources name her as the Banda, damaged by a Ukrainian strike on 14 July, so no merchant ship was attacked that day (https://maritime-executive.com/article/storm-drives-another-war-damaged-tanker-ashore-in-turkey)"
+    },
     "published_in": [
       "2026-10-16"
     ],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-10-16T05:10:58Z"
   },
   {
     "region": "Black Sea",
@@ -2907,7 +2925,7 @@
     "location_text": "Strait of Hormuz",
     "attack_type": "other",
     "damage": "container ship sank",
-    "casualties": "three injured",
+    "casualties": "none, all 21 crew safely evacuated",
     "attribution_claimed": "Iran (per headline, 'Iranian attack')",
     "independent_evidence": true,
     "id": "INC-20261014-002",
@@ -3580,9 +3598,14 @@
       }
     ],
     "first_seen": "2026-10-14T12:18:27Z",
-    "last_updated": "2026-10-16T04:38:16Z",
+    "last_updated": "2026-10-16T05:10:58Z",
     "verification_issue": 150,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "editor-check",
+      "at": "2026-10-16T05:10:58Z",
+      "note": "Singapore's Maritime and Port Authority, the flag state, confirmed the attack and the sinking with all 21 crew safe"
+    },
     "published_in": [
       "2026-10-15",
       "2026-10-16"
@@ -4126,14 +4149,15 @@
       }
     ],
     "first_seen": "2026-10-16T01:37:35Z",
-    "last_updated": "2026-10-16T01:37:35Z",
+    "last_updated": "2026-10-16T05:10:58Z",
     "verification_issue": 160,
     "verdict": null,
     "published_in": [
       "2026-10-16"
     ],
-    "status": "reported",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261006-014"
   },
   {
     "region": "Strait of Hormuz",
@@ -4185,7 +4209,7 @@
     "confidence": 1.0,
     "vessel_name": "GFS GISELLE",
     "imo": "9704661",
-    "flag": null,
+    "flag": "Singapore",
     "vessel_type": "container",
     "vessel_category": "merchant",
     "lat": 24.8,
@@ -4368,19 +4392,34 @@
         "kind": "media",
         "published_at": "2026-10-14T07:05:10Z",
         "title": "هيئة بحرية بريطانية: استهداف سفينة حاويات بمقذوف مجهول في مضيق هرمز - الوطن"
+      },
+      {
+        "url": "https://gcaptain.com/containership-sinks-as-hormuz-attacks-spiral-out-of-control/",
+        "source": "gcaptain.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-16T05:10:58Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-15T11:22:06Z",
-    "last_updated": "2026-10-16T01:38:04Z",
+    "last_updated": "2026-10-16T05:10:58Z",
     "verification_issue": null,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "editor-check",
+      "at": "2026-10-16T05:10:58Z",
+      "note": "the IMO confirmed incidents list records GFS Giselle, IMO 9704661, hit 6NM off the coast of Oman on 13 October, damaged with no pollution"
+    },
     "published_in": [
       "2026-10-14",
       "2026-10-15",
       "2026-10-16"
     ],
     "status": "confirmed",
-    "position_approx": true
+    "position_approx": true,
+    "news_changed_at": "2026-10-16T05:10:58Z"
   },
   {
     "region": "Gulf of Oman",
@@ -4391,7 +4430,7 @@
     "confidence": 1.0,
     "vessel_name": "AL SAADIYAT",
     "imo": "9760598",
-    "flag": null,
+    "flag": "Marshall Islands",
     "vessel_type": null,
     "vessel_category": "merchant",
     "lat": 24.8,
@@ -4412,18 +4451,33 @@
         "kind": "official",
         "published_at": "2026-10-15T11:22:06Z",
         "title": "IMO confirmed incident: AL SAADIYAT (IMO 9760598)"
+      },
+      {
+        "url": "https://splash247.com/hormuz-claims-two-more-ships-in-fresh-wave-of-strikes/",
+        "source": "splash247.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-16T05:10:58Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-15T11:22:06Z",
-    "last_updated": "2026-10-15T23:15:17Z",
+    "last_updated": "2026-10-16T05:10:58Z",
     "verification_issue": null,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "editor-check",
+      "at": "2026-10-16T05:10:58Z",
+      "note": "the IMO confirmed incidents list records Al Saadiyat, IMO 9760598, hit 1 NM off the coast of Oman on 13 October, damaged with no pollution"
+    },
     "published_in": [
       "2026-10-15",
       "2026-10-16"
     ],
     "status": "confirmed",
-    "position_approx": true
+    "position_approx": true,
+    "news_changed_at": "2026-10-16T05:10:58Z"
   },
   {
     "region": "Black Sea",
@@ -10321,9 +10375,14 @@
       }
     ],
     "first_seen": "2026-10-15T11:22:06Z",
-    "last_updated": "2026-10-16T01:38:06Z",
+    "last_updated": "2026-10-16T05:10:58Z",
     "verification_issue": null,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "editor-check",
+      "at": "2026-10-16T05:10:58Z",
+      "note": "the IMO confirmed incidents list records Al Maqam, IMO 9732577, hit in the Strait of Hormuz on 11 October, damaged with no pollution"
+    },
     "published_in": [
       "2026-10-15",
       "2026-10-16"
@@ -10364,9 +10423,14 @@
       }
     ],
     "first_seen": "2026-10-15T11:22:06Z",
-    "last_updated": "2026-10-16T01:38:06Z",
+    "last_updated": "2026-10-16T05:10:58Z",
     "verification_issue": null,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "editor-check",
+      "at": "2026-10-16T05:10:58Z",
+      "note": "the IMO confirmed incidents list records DP World Kaveri, IMO 9363429, hit in the Strait of Hormuz on 11 October with one seafarer injured"
+    },
     "published_in": [
       "2026-10-15",
       "2026-10-16"
@@ -10407,9 +10471,14 @@
       }
     ],
     "first_seen": "2026-10-15T11:22:06Z",
-    "last_updated": "2026-10-16T01:38:06Z",
+    "last_updated": "2026-10-16T05:10:58Z",
     "verification_issue": null,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "editor-check",
+      "at": "2026-10-16T05:10:58Z",
+      "note": "the IMO confirmed incidents list records Kition M, IMO 9321160, hit in the Strait of Hormuz on 11 October, damaged with limited pollution reported"
+    },
     "published_in": [
       "2026-10-15",
       "2026-10-16"
@@ -10450,9 +10519,14 @@
       }
     ],
     "first_seen": "2026-10-15T11:22:06Z",
-    "last_updated": "2026-10-16T01:38:06Z",
+    "last_updated": "2026-10-16T05:10:58Z",
     "verification_issue": null,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "editor-check",
+      "at": "2026-10-16T05:10:58Z",
+      "note": "the IMO confirmed incidents list records Ever Vict, IMO 9266774, hit in the Strait of Hormuz on 11 October with two seafarers injured"
+    },
     "published_in": [
       "2026-10-15",
       "2026-10-16"
@@ -24887,10 +24961,19 @@
         "kind": "media",
         "published_at": "2026-10-15T21:56:21Z",
         "title": "The damaged Aframax tanker Rio was brought to Novorossiysk after a fire in the Black Sea - Українські Національні Новини (УНН)"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQWXN1cm8wU1c3d1ZEZXRsWGIyYkdmNE5pd0RwTkFBR2RuUUI5cUx4Tm9UODhhbWJfMXdoUGRYMV96WUhMSkFqY3ZGS2x6RzB4Y0JKWWdOanBWb3ZaOVU1ZWlOT05sSHVxOHhfWHRFa2NBaHJtU3VSczJqSjMxMW93cUhpUEc1aE9zbkwtaVBkUXl0MTRvdHlvSDd3am82YnFzT2pBQ2ZqRVludF80VUVuRUp6ekVKMGNBLS0yWDJZczlJWHF5VGNJb3QtU2ttR210Sko5Ylo3RjBuZHllRWRiNTB4cUN1U0lVamtCU1V0NUFrb0lDcnlTTHZXS1p1Tk5Cc21OdVBhU1VEUkVpazZELVpJWWNMSVhyNXgwYmVfVDE2NTBNN1RxaUpidmhwbjVa0gG2AkFVX3lxTE5YZWZrNXE3VllzYnBpU0pqRGh1Y0dyNXlUMmpfcHVVMmFqT0duVXNLQmk5bGszNVdoaXpYbnVlZnJXUjM4TGo4aXRUVzhkWVRRelV1XzdnOEk5OU1wOWZVUnVVZTA2SzBSLTJRWHdZR1FRZHNQT0xYUW91cjZJMXFJSVRPVTRKNFlodXpvOTY1Y1RRUEJ4N2hMOGtNZ1pjQ3lCZ3NOVGE1Y0FnemdyZWZHZjdTWko3cTdXNmFway1weDBzT2xSSEJUY3pOd2pYa3FtTFZ1LUtiY0pkLVo3OUMza21nNGhfYmdqS1M0XzdONmxMNmtGT0JzT1NzbVZoODJnVy1rR2Mtb1lwQjMwLTJLdDNRVV9QNjhrd1lGakpxeGFHVWxUbW5FbldDUDljRjdKS3c2X1E?oc=5",
+        "source": "Meduza",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-14T21:00:00Z",
+        "title": "Greenpeace reports another huge oil slick in the Black Sea following an attack on a tanker off Sochi’s coastline. Russia denies any pollution but has declared a h alert. - Meduza"
       }
     ],
     "first_seen": "2026-10-06T20:33:03Z",
-    "last_updated": "2026-10-15T23:14:32Z",
+    "last_updated": "2026-10-16T05:10:58Z",
     "verification_issue": 65,
     "verdict": {
       "status": "rejected",
@@ -24904,7 +24987,8 @@
       "2026-10-09",
       "2026-10-10",
       "2026-10-13",
-      "2026-10-14"
+      "2026-10-14",
+      "2026-10-16"
     ],
     "status": "rejected",
     "status_changed_at": "2026-10-06T20:33:09Z",
