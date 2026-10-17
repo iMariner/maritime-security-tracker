@@ -42,5 +42,28 @@
   "consistency_problems": [
     "Aframax Rio is in the data but not named in the article"
   ],
-  "quality": "3 check(s) need attention: dates 1 approximate; attribution 4 claims without a named source; official coverage 0/0 ok; verified 13/19; single-source items 5, 5 without verification; confirmed ok; fact-check no corrections needed; tweet 229/280 ok; dashes ok; consistency Aframax Rio is in the data but not named in the article found"
+  "quality": "3 check(s) need attention: dates 1 approximate; attribution 4 claims without a named source; official coverage 0/0 ok; verified 13/19; single-source items 5, 5 without verification; confirmed ok; fact-check no corrections needed; tweet 229/280 ok; dashes ok; consistency Aframax Rio is in the data but not named in the article found",
+  "review": {
+    "status": "done",
+    "at": "2026-10-17T05:03:58Z",
+    "changes": [
+      "lead story set to INC-20261015-001 (the Wine Trader, struck by drones about 13 nautical miles southeast of Sulina on)",
+      "merged INC-20261016-004 into INC-20261006-014 (the Krasnodar item is the aftermath of the 6 October Aframax Rio attack, its own headline naming the burned tanker and the order to provide safe mooring in Novorossiysk, not a new attack on 16 October)",
+      "merged INC-20261016-009 into INC-20261007-003 (the same 7 October UKMTO 158-26 attack on the Acers about 51 nautical miles north of Madinat ash Shamal, Qatar; the Hindu page carries a 17 October update stamp but reports the 7 October strike)",
+      "merged INC-20261016-007 into INC-20261016-003 (the same Daily Express US story on a Ukrainian drone boat strike on the Russian naval supply ship Nefrit near Sochi in early September, not a merchant ship attack on 16 October)",
+      "INC-20261015-028 marked rejected (Medyascope reports a round-up of drone attacks on seven Black Sea ships already tracked, the Wine Trader, Yara J, Chelsea 3, HS Dignity and others, and names no separate vessel, position or date)",
+      "INC-20261015-040 marked rejected (the UA.NEWS page reprints a PBS NewsHour round-up of the same seven Black Sea attacks already tracked, naming no vessel, flag, position or date)",
+      "date of INC-20261015-006 set to 2026-10-14",
+      "date of INC-20261014-002 set to 2026-10-13",
+      "lesson (facts): A strike on a warship or naval supply vessel is not an attack on a merchant ship: give it no incident record, even when "
+    ],
+    "refused": [],
+    "notes": [
+      "Keep the two Romanian tankers' dates apart: the Wine Trader was struck on the morning of 15 October and the Yara J late on 14 October. Do not say the second tanker was set on fire on 15 October.",
+      "In the Russian defence ministry paragraph, drop the sentence saying Reuters could not verify the claim, because no cited source says that. Keep the strike as the ministry's claim, with no vessel names or damage details."
+    ],
+    "restored": [],
+    "send_after": false,
+    "lead": "INC-20261015-001"
+  }
 }
