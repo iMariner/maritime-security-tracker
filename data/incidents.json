@@ -1,6 +1,96 @@
 [
   {
     "region": "Strait of Hormuz",
+    "date_utc": "2026-10-17",
+    "summary": "A headline citing Iran reports that a supertanker struck a mine in the Strait of Hormuz. No vessel name, flag, position or damage details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "mine",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261017-001",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYU1ZMW9vMzVKNVhVQ0V4eVE5czZxWFp5S1R3WEpLTkxyMXRFT0Y2YWNkZjhlcWtMdVRjaUxnQk1wSHYwS3BkWWgydTZKUVNkVzI4WGE0US1zLUpDTzNqeWtaYzZ4ZG12MnlxVWkwMlVFYWhXRmd0NU5td3dhejhhT3RWTkFEMWdCVkJrUldLWUV6SExWWm5UU09na3FqRTVRbGtjeHdCUERkMWhnbmxtdk5zV2NGUEN4WERyTlJFQ2lUNUphTTFMcjAxRUY1NVk?oc=5",
+        "source": "Foreks.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T05:22:47Z",
+        "title": "İran: Hürmüz Boğazı'nda bir süper tanker mayına çarptı - Foreks.com"
+      }
+    ],
+    "first_seen": "2026-10-17T06:04:38Z",
+    "last_updated": "2026-10-17T06:04:38Z",
+    "verification_issue": 170,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-17",
+    "summary": "A headline reports a drone attack on a cargo ship in Romanian territorial waters and asks how NATO responded. No vessel name, flag, position or damage details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Romanian territorial waters, Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261017-002",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbkM3V3NqdU9UQ0MyYjFyZExTMGtaMzROdFZLZkEzZTVFRjlCNWhmbVJxWk1ReXE3R2d5SUpacEVqc0g2bXYyUnZwS2FfTlg1U2ZBS3phQmpyUXcyRnhpTU9CeGJGajZHZ1h0anlkUFFEVkRkTHNNZWNCSU9zUl9NLVdWeXd4Z1lpUzJiTTg4bWN6VUFvX2E5YkVB?oc=5",
+        "source": "Vietnam.vn",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T04:55:53Z",
+        "title": "Romanya karasularında kargo gemisine insansız hava aracı saldırısı düzenlendi: NATO nasıl karşılık verdi? - Vietnam.vn"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOak5uYmlFSGRaWTBEMFFZODFoem9aZF9TeTBXbzdxb0xhVXRFT1VqaWZ3TV9NTFNoQmNNNVl5cTZiTUlEd1ZOWi13NzdNQjBrYTByVC1zd25DU2ViWVNLYV8wXy1ld0dSZFlxWWZJbWc3allUR0JBc3IxbnE0WUpXQWFEaXNUdzVGaGF3dmJNSWtlVTJOa0J0S1ln?oc=5",
+        "source": "Vietnam.vn",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T04:55:53Z",
+        "title": "Navă de marfă atacată de un dron în apele teritoriale românești: Cum a reacționat NATO? - Vietnam.vn"
+      }
+    ],
+    "first_seen": "2026-10-17T06:04:38Z",
+    "last_updated": "2026-10-17T06:04:44Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261015-001",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
     "date_utc": "2026-10-16T18:12:01Z",
     "summary": "India's government confirmed that all 24 Indian seafarers aboard a tanker hit in the Strait of Hormuz are safe. The item gives no vessel name, flag, date or details of the attack.",
     "official_source_cited": "Indian government",
@@ -1389,10 +1479,55 @@
         "kind": "verification",
         "published_at": "2026-10-17T04:33:08Z",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMW81X1M0cFNJWUdLNHY1VTZrcjJLZjlxeTl4OVY2Sk5DVE5iTGQyOXNkQzlEQ2JqNFM3MFY2WVF0cHRuVGlpQTcyNHFjSnBONXNzRjd4S281akh5Vl93N2hsTlJJTnJ4UDdqNUlGTXdpb1FXZ0J5cG1ZM20zWnFFc3owX09yX05Ybm9vVnBLSzJHdTlyOU03Zk5WaDJrR1ZoZWpYN2Y3WGdka2xxbUsxRUVsRHdodkdRQTRKckFLZWRFcHktQVl6VjdGVQ?oc=5",
+        "source": "The Straits Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-16T09:25:00Z",
+        "title": "Romania resumes search for seven missing sailors from drone-hit ship - The Straits Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPSTloeFBSdThwZ3dPT0xpWkl6V3NySDVKZ0R4dFVRMmVySUhJWm14S0pDRVFWTWpsUy1iOG54a24wSzU1T1g3enZHX2ZUeXJ4eFM0VThPZVM3S3RLUVgzTEJCOHRZMzY3VkxBZ2FTak1hSjBkb1hBU2xQbWN2ZUZhcnREMW5aejcwRjFjU1hhckk0eWM5SE1GMEU5UnBKenFrb19lcHlyNmwteVV4a20zeWF3VDR4a2FsdmVaSTVmUE9jZ0Fabkl3NEhwM09PRUJoTFY2UDdDSnc2WFRqRkI0eUZn?oc=5",
+        "source": "noi.md",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T16:06:51Z",
+        "title": "Navă incendiată lîngă Sulina după un atac cu drone în spațiul aerian al României. Marinari de pe „Wine Trader”, dați dispăruți - noi.md"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQWFZKTHpWRVVVbnFnRHpaT2NRZHk4VG82OE9Tc0REMjdYN0JLdm90QkhXVVJHWlFKQzFzOWdIOEFIdFdkMTdGSFJoQmxoVFlFcHRzVFJxYkpidmlfUVNWOEFjVG4wTlBnTXBqSnpzdVROOTN2Nm5SMzRyWk9pMHRTU0JEZkdfTzcwUTdfeHludDhKQ2hoZE5rMUZDUG8weWFONXFTNGVqejBQRXBaNU1pQXI5X3F0anlnaTVkVlR1aUVlOTZ3Nlp4NDV5eFRDNXBXUldLY1FqTXJGUkQyQW5xOXRuMTk2YzhnZTZDYW5yVFoteHNpSjF0dVlyZGZNSDlBOXFxVURORDk1anM?oc=5",
+        "source": "Romania TV",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T10:33:00Z",
+        "title": "Nicuşor Dan, anunţ de ultimă oră după ce o nouă navă a fost lovită de drone în Marea Neagră: \"Evident că o să existe o reacţie a statului român\" - Romania TV"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbkM3V3NqdU9UQ0MyYjFyZExTMGtaMzROdFZLZkEzZTVFRjlCNWhmbVJxWk1ReXE3R2d5SUpacEVqc0g2bXYyUnZwS2FfTlg1U2ZBS3phQmpyUXcyRnhpTU9CeGJGajZHZ1h0anlkUFFEVkRkTHNNZWNCSU9zUl9NLVdWeXd4Z1lpUzJiTTg4bWN6VUFvX2E5YkVB?oc=5",
+        "source": "Vietnam.vn",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T04:55:53Z",
+        "title": "Romanya karasularında kargo gemisine insansız hava aracı saldırısı düzenlendi: NATO nasıl karşılık verdi? - Vietnam.vn"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOak5uYmlFSGRaWTBEMFFZODFoem9aZF9TeTBXbzdxb0xhVXRFT1VqaWZ3TV9NTFNoQmNNNVl5cTZiTUlEd1ZOWi13NzdNQjBrYTByVC1zd25DU2ViWVNLYV8wXy1ld0dSZFlxWWZJbWc3allUR0JBc3IxbnE0WUpXQWFEaXNUdzVGaGF3dmJNSWtlVTJOa0J0S1ln?oc=5",
+        "source": "Vietnam.vn",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T04:55:53Z",
+        "title": "Navă de marfă atacată de un dron în apele teritoriale românești: Cum a reacționat NATO? - Vietnam.vn"
       }
     ],
     "first_seen": "2026-10-15T11:21:24Z",
-    "last_updated": "2026-10-17T04:33:08Z",
+    "last_updated": "2026-10-17T06:04:44Z",
     "verification_issue": 152,
     "verdict": {
       "status": "confirmed",
@@ -1815,10 +1950,28 @@
         "kind": "verification",
         "published_at": "2026-10-17T04:33:06Z",
         "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/68294",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-17T05:22:48+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/rian_ru/348111",
+        "source": "RIA Novosti",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-17T05:20:28+00:00",
+        "title": null
       }
     ],
     "first_seen": "2026-10-15T11:21:35Z",
-    "last_updated": "2026-10-17T04:33:06Z",
+    "last_updated": "2026-10-17T06:04:38Z",
     "verification_issue": 154,
     "verdict": {
       "status": "claimed",
@@ -4502,10 +4655,19 @@
         "kind": "media",
         "published_at": "2026-10-17T05:03:58Z",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWjJYZ0FObnlRSWdOdXN6U29iN0x5b1g5ZklkbWZKZXE4Z09ZTUxpd2RNY3NFZVc3ejhLRlRKWG01Sms5VlZsYnkwZlh3RWZJYnBPZFdvSXFYNkNjeTJ0MXZ4dnE2SXlPVjlCbEtrWDdwUzdIUXRUb3EybGdHaE1yZmZPcHN0LS1oSkYtdmJEc3YwM1gyOEoyTkpsWFVTT2JPUFZROUhOZUVFWU9DZV9YRmlZZTg?oc=5",
+        "source": "PRO TV Chisinau",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T06:11:00Z",
+        "title": "Incident naval în apele României: o navă comercială, lovită de o dronă - VIDEO - PRO TV Chisinau"
       }
     ],
     "first_seen": "2026-10-15T11:21:40Z",
-    "last_updated": "2026-10-17T05:03:58Z",
+    "last_updated": "2026-10-17T06:04:43Z",
     "verification_issue": 155,
     "verdict": {
       "status": "confirmed",
