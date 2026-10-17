@@ -211,7 +211,9 @@
     "last_updated": "2026-10-16T11:51:08Z",
     "verification_issue": 163,
     "verdict": null,
-    "published_in": [],
+    "published_in": [
+      "2026-10-17"
+    ],
     "status": "claimed",
     "position_approx": true
   },
@@ -353,7 +355,9 @@
     "last_updated": "2026-10-16T20:03:17Z",
     "verification_issue": 166,
     "verdict": null,
-    "published_in": [],
+    "published_in": [
+      "2026-10-17"
+    ],
     "status": "claimed",
     "position_approx": true
   },
@@ -393,7 +397,9 @@
     "last_updated": "2026-10-16T20:03:17Z",
     "verification_issue": 167,
     "verdict": null,
-    "published_in": [],
+    "published_in": [
+      "2026-10-17"
+    ],
     "status": "claimed",
     "position_approx": true
   },
@@ -433,7 +439,9 @@
     "last_updated": "2026-10-17T01:29:23Z",
     "verification_issue": 168,
     "verdict": null,
-    "published_in": [],
+    "published_in": [
+      "2026-10-17"
+    ],
     "status": "claimed",
     "position_approx": true
   },
@@ -1381,7 +1389,8 @@
     },
     "published_in": [
       "2026-10-15",
-      "2026-10-16"
+      "2026-10-16",
+      "2026-10-17"
     ],
     "status": "confirmed",
     "position_approx": true,
@@ -1807,7 +1816,8 @@
     "published_in": [
       "2026-10-14",
       "2026-10-15",
-      "2026-10-16"
+      "2026-10-16",
+      "2026-10-17"
     ],
     "status": "claimed",
     "position_approx": true,
@@ -2717,7 +2727,8 @@
     },
     "published_in": [
       "2026-10-15",
-      "2026-10-16"
+      "2026-10-16",
+      "2026-10-17"
     ],
     "status": "confirmed",
     "status_changed_at": "2026-10-17T04:33:04Z",
@@ -3862,7 +3873,9 @@
     "last_updated": "2026-10-16T11:51:03Z",
     "verification_issue": 164,
     "verdict": null,
-    "published_in": [],
+    "published_in": [
+      "2026-10-17"
+    ],
     "status": "claimed",
     "position_approx": true
   },
@@ -4433,6 +4446,48 @@
     "published_in": [],
     "status": "merged",
     "merged_into": "INC-20261015-001",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-15",
+    "summary": "A headline reports that drones attacked at least seven cargo ships in the Black Sea. No vessel names, flags, positions or dates are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.4,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261015-040",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeE80U1k5QnBhVHE1Z3hfS3RRUU10THJTSGZsbVNCOVhlZFlnM3p5Z0ZmamUtM21fOEJLNEhMczM3Vnl0RDd1bDV6Y2xGcUdTUU5UcWZyOUg5UE1qbC1IZmpabnNIVWpUZmhuUlhEczFxbUJGd2NjbUR0UWxYUUF2eHNIZVJNellvd1JLZHk2ZDVRSUFWVDBIcmQ0c01YSWFyTGpBT1hUcnN1Zw?oc=5",
+        "source": "UA.NEWS",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T04:11:02Z",
+        "title": "Drones attacked at least seven cargo ships in the Black Sea — PBS NewsHour - UA.NEWS"
+      }
+    ],
+    "first_seen": "2026-10-17T04:37:59Z",
+    "last_updated": "2026-10-17T04:37:59Z",
+    "verification_issue": 169,
+    "verdict": null,
+    "published_in": [
+      "2026-10-17"
+    ],
+    "status": "claimed",
     "position_approx": true
   },
   {
@@ -5989,7 +6044,8 @@
     },
     "published_in": [
       "2026-10-15",
-      "2026-10-16"
+      "2026-10-16",
+      "2026-10-17"
     ],
     "status": "confirmed",
     "date_approx": false,
@@ -6251,7 +6307,8 @@
     "published_in": [
       "2026-10-14",
       "2026-10-15",
-      "2026-10-16"
+      "2026-10-16",
+      "2026-10-17"
     ],
     "status": "confirmed",
     "position_approx": true,
@@ -6309,7 +6366,8 @@
     },
     "published_in": [
       "2026-10-15",
-      "2026-10-16"
+      "2026-10-16",
+      "2026-10-17"
     ],
     "status": "confirmed",
     "position_approx": true,
@@ -8002,7 +8060,8 @@
     "published_in": [
       "2026-10-14",
       "2026-10-15",
-      "2026-10-16"
+      "2026-10-16",
+      "2026-10-17"
     ],
     "status": "confirmed",
     "date_approx": false,
@@ -8826,10 +8885,19 @@
         "kind": "media",
         "published_at": "2026-10-16T16:23:42Z",
         "title": "Military prosecutors probe attack on ship CHELSEA 3 in Black Sea (updated) - BurgasMedia"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc3luaDN3ZUpFd3dlWmx2b3Q0WFVrc3pKbTVyM1gycWs5ZFZRZ1lRa0lTWnNzQ0Jaa0VsR2xBLXpMSUt1ZUROWThQa2E2SDV1MmlCZEpNUTlCZlZGRk9md25lVWhCYWRyeDJjYVZJRGFOa1AzaHVOU1ljZU5NY0RiZ3VseGNiYS03TDl4Y19vNTNZNEdhVWp5dmhxYjVWejR6cHN0RFhYZnhSMDdfcXN6QWpRa9IBuAFBVV95cUxPbW9qR29wdUZPOHVsMU4xNjVZV0w3WWwwYXhRRlY3djVUY2tFWFNETm5XRkFXNTA4b2tOMDhLXzAzV2pzejl2SXpYRlY1aTJ5d19qa3ZMeGd1QU9ZNTF0TElqb3c1SkRJbVVlRjQ0aUhvSTNzSkdnQkZTY2g2NFkzYzFtS1FsZ0Q2WlZBYVZtaGtLRWFMTHlUdWthRVZXaGZLUHpMZHFoY0JyUGdpTWwtSHJYOGtkVkVU?oc=5",
+        "source": "BurgasMedia",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-16T16:23:42Z",
+        "title": "Military prosecutors probe attack on ship CHELSEA 3 in Black Sea (updated) - BurgasMedia"
       }
     ],
     "first_seen": "2026-10-13T20:20:58Z",
-    "last_updated": "2026-10-17T01:29:23Z",
+    "last_updated": "2026-10-17T04:38:01Z",
     "verification_issue": 137,
     "verdict": {
       "status": "confirmed",
@@ -8841,7 +8909,8 @@
     "published_in": [
       "2026-10-14",
       "2026-10-15",
-      "2026-10-16"
+      "2026-10-16",
+      "2026-10-17"
     ],
     "status": "confirmed",
     "position_approx": true,
@@ -9891,8 +9960,8 @@
     "published_in": [
       "2026-10-14"
     ],
-    "status": "rejected",
-    "status_changed_at": "2026-10-17T04:33:11Z",
+    "status": "merged",
+    "status_changed_at": "2026-10-17T04:37:57Z",
     "position_approx": true,
     "merged_into": "INC-20261013-002"
   },
@@ -12234,7 +12303,8 @@
     "published_in": [
       "2026-10-14",
       "2026-10-15",
-      "2026-10-16"
+      "2026-10-16",
+      "2026-10-17"
     ],
     "status": "confirmed",
     "position_approx": true
@@ -12282,7 +12352,8 @@
     },
     "published_in": [
       "2026-10-15",
-      "2026-10-16"
+      "2026-10-16",
+      "2026-10-17"
     ],
     "status": "confirmed",
     "position_approx": true
@@ -12330,7 +12401,8 @@
     },
     "published_in": [
       "2026-10-15",
-      "2026-10-16"
+      "2026-10-16",
+      "2026-10-17"
     ],
     "status": "confirmed",
     "position_approx": true
@@ -12378,7 +12450,8 @@
     },
     "published_in": [
       "2026-10-15",
-      "2026-10-16"
+      "2026-10-16",
+      "2026-10-17"
     ],
     "status": "confirmed",
     "position_approx": true
@@ -12426,7 +12499,8 @@
     },
     "published_in": [
       "2026-10-15",
-      "2026-10-16"
+      "2026-10-16",
+      "2026-10-17"
     ],
     "status": "confirmed",
     "position_approx": true
