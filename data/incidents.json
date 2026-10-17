@@ -398,6 +398,46 @@
     "position_approx": true
   },
   {
+    "region": "Persian Gulf",
+    "date_utc": "2026-10-16",
+    "summary": "A tanker near Qatar reported being hit by several projectiles. No vessel name, flag, or further details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.0,
+    "lon": 51.9,
+    "location_text": "near Qatar",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261016-009",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPN05YNnhpRUpzRFo4Uzd4V2RBVi1Qajg1X2haaGRxR1ZlcWo0STJrdzlxWjN2VXh2d3hHSmFuY0ZCY2NpeElHNDJ6QndhLXBOQVFzRnc0MGU2VkdvNFVBOEhXNDA5YVc1ejRabzNYT193YVVpV2R1YTU3amE4QXNfdGFOY2lha25iVzQyMkl4QlBfel9KSElodFJwWS01dw?oc=5",
+        "source": "UA.NEWS",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-16T23:33:52Z",
+        "title": "Tanker near Qatar reports being hit by several projectiles — The Hindu - UA.NEWS"
+      }
+    ],
+    "first_seen": "2026-10-17T01:29:23Z",
+    "last_updated": "2026-10-17T01:29:23Z",
+    "verification_issue": 168,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
     "region": "Black Sea",
     "date_utc": "2026-10-15",
     "summary": "The San Marino-flagged chemical tanker Wine Trader caught fire after a drone strike about 13 nautical miles southeast of Sulina, Romania, on 15 October. Five of the 12 crew were rescued and seven remain missing, and Romanian officials said a second tanker was also set on fire in the same area.",
@@ -1291,10 +1331,28 @@
         "kind": "media",
         "published_at": "2026-10-15T08:34:10Z",
         "title": "Eight missing and huge rescue operation after fire breaks out on tanker in Black Sea - The Mirror"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9IVldFUldfZkNZTkluTjl4dE9XV1JnQXFqbkxUeGR0eEFJQVhiTUJMM040d1lmU2NJSXQ3TENnbXd3RVhDUFRJZkpia2pxdzdaX21mOE55NWdkY3JFODF1Z0otZXp1c2RyT29oZDN6aGl0NVk?oc=5",
+        "source": "Ukr.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T08:04:06Z",
+        "title": "Біля Румунії загорілося два судна: одне міг уразити дрон, на іншому 8 зниклих - Ukr.net"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYUI3WWMzckJkSGxiaXVSLUtTaS03RjRSaXRFVmwwM3cxelprZ3psdDJoUldiQ2p0Slh4ZEF0dVRKMnVubm9CT1VDRmxnZ2VjUF9obGMtcENGTVRYOXdLdDcwcnU5QXNoMTZWblE5Q3djaHZoOTVyMldpdkFNcFcxV0lQMHEwSmxfcGxwRWtGRjR3QlVvN04wcQ?oc=5",
+        "source": "BGNES",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T06:47:58Z",
+        "title": "Romania Reports Eight Missing After Ship Fire in the Black Sea - BGNES"
       }
     ],
     "first_seen": "2026-10-15T11:21:24Z",
-    "last_updated": "2026-10-16T22:59:19Z",
+    "last_updated": "2026-10-17T01:29:27Z",
     "verification_issue": 152,
     "verdict": null,
     "published_in": [
@@ -4229,6 +4287,88 @@
     "published_in": [],
     "status": "merged",
     "merged_into": "INC-20261014-002",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-15",
+    "summary": "Two vessels caught fire near Romania; one may have been hit by a drone. No vessel names or further details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "near Romania",
+    "attack_type": "drone (UAV)",
+    "damage": "fire",
+    "casualties": "8 missing",
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261015-038",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9IVldFUldfZkNZTkluTjl4dE9XV1JnQXFqbkxUeGR0eEFJQVhiTUJMM040d1lmU2NJSXQ3TENnbXd3RVhDUFRJZkpia2pxdzdaX21mOE55NWdkY3JFODF1Z0otZXp1c2RyT29oZDN6aGl0NVk?oc=5",
+        "source": "Ukr.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T08:04:06Z",
+        "title": "Біля Румунії загорілося два судна: одне міг уразити дрон, на іншому 8 зниклих - Ukr.net"
+      }
+    ],
+    "first_seen": "2026-10-17T01:29:23Z",
+    "last_updated": "2026-10-17T01:29:27Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261015-001",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-15",
+    "summary": "Romania reported eight people missing after a ship fire in the Black Sea. No vessel name or further details were given.",
+    "official_source_cited": "Romania",
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "explosion (cause unknown)",
+    "damage": "fire",
+    "casualties": "8 missing",
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261015-039",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYUI3WWMzckJkSGxiaXVSLUtTaS03RjRSaXRFVmwwM3cxelprZ3psdDJoUldiQ2p0Slh4ZEF0dVRKMnVubm9CT1VDRmxnZ2VjUF9obGMtcENGTVRYOXdLdDcwcnU5QXNoMTZWblE5Q3djaHZoOTVyMldpdkFNcFcxV0lQMHEwSmxfcGxwRWtGRjR3QlVvN04wcQ?oc=5",
+        "source": "BGNES",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T06:47:58Z",
+        "title": "Romania Reports Eight Missing After Ship Fire in the Black Sea - BGNES"
+      }
+    ],
+    "first_seen": "2026-10-17T01:29:23Z",
+    "last_updated": "2026-10-17T01:29:27Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261015-001",
     "position_approx": true
   },
   {
@@ -8594,10 +8734,19 @@
         "kind": "verification",
         "published_at": "2026-10-16T04:33:22Z",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbW9qR29wdUZPOHVsMU4xNjVZV0w3WWwwYXhRRlY3djVUY2tFWFNETm5XRkFXNTA4b2tOMDhLXzAzV2pzejl2SXpYRlY1aTJ5d19qa3ZMeGd1QU9ZNTF0TElqb3c1SkRJbVVlRjQ0aUhvSTNzSkdnQkZTY2g2NFkzYzFtS1FsZ0Q2WlZBYVZtaGtLRWFMTHlUdWthRVZXaGZLUHpMZHFoY0JyUGdpTWwtSHJYOGtkVkVU0gG4AUFVX3lxTE9tb2pHb3B1Rk84dWwxTjE2NVlXTDdZbDBheFFGVjd2NVRja0VYU0RObldGQVc1MDhva04wOEtfMDNXanN6OXZJelhGVjVpMnl3X2prdkx4Z3VBT1k1MXRMSWpvdzVKREltVWVGNDRpSG9JM3NKR2dCRlNjaDY0WTNjMW1LUWxnRDZaVkFhVm1oa0tFYUxMeVR1a2FFVldoZktQekxkcWhjQnJQZ2lNbC1Iclg4a2RWRVQ?oc=5",
+        "source": "BurgasMedia",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-16T16:23:42Z",
+        "title": "Military prosecutors probe attack on ship CHELSEA 3 in Black Sea (updated) - BurgasMedia"
       }
     ],
     "first_seen": "2026-10-13T20:20:58Z",
-    "last_updated": "2026-10-16T04:33:22Z",
+    "last_updated": "2026-10-17T01:29:23Z",
     "verification_issue": 137,
     "verdict": {
       "status": "confirmed",
