@@ -1,11 +1,52 @@
 [
   {
+    "region": "Black Sea",
+    "date_utc": "2026-10-17T07:53:45Z",
+    "summary": "Two vessels that had been damaged by drones ran aground off Istanbul amid severe weather, according to a headline report. No vessel names, flags, dates or further details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 41.2,
+    "lon": 29.12,
+    "location_text": "off Istanbul, Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": "two vessels ran aground amid severe weather",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "date_approx": true,
+    "id": "INC-20261017-006",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcDRpQWtueWxhX3lCYm0ydHpLRWEzVGZkdlNHVC1tQU9ndmhaOXJIVE4tWmo2ODRicnR4RFlyV3NocTRidnZZNjFnekdERlZuSFFJOTNjcVBRWWUydnJLNHVtdE1pcmRUSmozNHVKMWl3aU5QN2JXMGxRQXFkb0dmRVZHOUhfTEtER09UYkM3RFNFRWxKZE5yakhBak1adGV2OHd3?oc=5",
+        "source": "Marine Insight",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T07:53:45Z",
+        "title": "Two Drone-Damaged Vessels Run Aground Off Istanbul Amid Severe Weather - Marine Insight"
+      }
+    ],
+    "first_seen": "2026-10-17T11:07:58Z",
+    "last_updated": "2026-10-17T11:07:58Z",
+    "verification_issue": 172,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
     "region": "Strait of Hormuz",
     "date_utc": "2026-10-17",
     "summary": "A headline citing Iran reports that a supertanker struck a mine in the Strait of Hormuz. No vessel name, flag, position or damage details were given.",
     "official_source_cited": null,
     "conflicting": false,
-    "confidence": 0.5,
+    "confidence": 0.6,
     "vessel_name": null,
     "imo": null,
     "flag": null,
@@ -15,7 +56,7 @@
     "lon": 56.35,
     "location_text": "Strait of Hormuz",
     "attack_type": "mine",
-    "damage": null,
+    "damage": "caught fire after hitting a mine",
     "casualties": null,
     "attribution_claimed": null,
     "independent_evidence": false,
@@ -29,10 +70,19 @@
         "kind": "media",
         "published_at": "2026-10-17T05:22:47Z",
         "title": "İran: Hürmüz Boğazı'nda bir süper tanker mayına çarptı - Foreks.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE45X2JCSGtJaHJHWEkyeWZnQnpKYXpFYVp6WnNxZkpIdEhHY2xjU20tV1BxSzJkTVc5OWFsandnTjUyM0hmRlRZQVNraEZuYmxuRy05WHY2OHU?oc=5",
+        "source": "TRT World",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T09:03:20Z",
+        "title": "Iran says oil tanker catches fire after hitting mine in Strait of Hormuz - TRT World"
       }
     ],
     "first_seen": "2026-10-17T06:04:38Z",
-    "last_updated": "2026-10-17T06:04:38Z",
+    "last_updated": "2026-10-17T11:07:53Z",
     "verification_issue": 170,
     "verdict": null,
     "published_in": [],
@@ -87,6 +137,228 @@
     "published_in": [],
     "status": "merged",
     "merged_into": "INC-20261015-001",
+    "position_approx": true
+  },
+  {
+    "region": "Persian Gulf",
+    "date_utc": "2026-10-17",
+    "summary": "A Turkish headline reports a rocket attack on a tanker in the Persian Gulf. No vessel name, flag, position, date or damage details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.4,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.8,
+    "lon": 52.5,
+    "location_text": "Persian Gulf",
+    "attack_type": "missile",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261017-003",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNFplMlRRVkdJbkM3NHJXNXVsdjNoQW5EX2FnV0FpOUlWVERFdEliZmFZLXhGNG5VTHhZWnBhRVdJVHYyLTZIbl9FVUt1THA5Wkt1WHlOQWExeXV5eS1GZTFTTzRSa3VUamlWNTdEcDAxX25qbmIzUmJ5bTdIcW5ValJ0YS03b21MWnhxRjln0gGQAUFVX3lxTE5Qemc2dnJWRXRCSnBtak1Hc3J2SWNrTE5DVlgxM09LV1FvangycDYyaE1PRXZua3BVVTBvWS1kN1YxU2ZWZHBBYWtNblE1dlNDY1ZrSDhVamk0d1JTVWE3bGRPb3JpMDBpODdOSDlnSGg5SS1sNTU3d1c4UkEtMjM4Q2hlQjhydWRqTXFlcFh2OQ?oc=5",
+        "source": "AKŞAM",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T10:20:00Z",
+        "title": "Basra Körfezi'nde tankere roketli saldırı - AKŞAM"
+      }
+    ],
+    "first_seen": "2026-10-17T11:07:50Z",
+    "last_updated": "2026-10-17T11:08:17Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261017-004",
+    "position_approx": true
+  },
+  {
+    "region": "Persian Gulf",
+    "date_utc": "2026-10-17",
+    "summary": "UKMTO reported that a tanker was struck by an unknown projectile near Al Jubail in Saudi Arabia's Persian Gulf waters on 17 October. A second tanker attack was reported in the same area the same day, and a Turkish outlet reported a rocket attack on a tanker in the Persian Gulf without naming a vessel.",
+    "official_source_cited": "UKMTO",
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.8,
+    "lon": 52.5,
+    "location_text": "near Al Jubail, Saudi Arabia, Persian Gulf",
+    "attack_type": "missile",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261017-004",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON00yYVNvaTdLRFo5Y3JSYkpBaWZRa0ZKaC1CZzFuNUhOdXFVSWlwdnIxaXAxb19OaU1MUzA3ODhySE45ZkNCREM1VkhPZzR4ODdoWnFNeE1JY2lxX1hMMlVvVkdacUE2ZkIxbk9QdS1rcFpfVnJmM2pnUFItQ0hDLUdJVmQyc0FlTE1EOXB1OXBRcGR4aUF1aGRNNUZ5aExiOVFKcExB?oc=5",
+        "source": "News Mobile",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T09:46:56Z",
+        "title": "UKMTO Reports Projectile Strike On Tanker Near Saudi Arabia’s Al Jubail - News Mobile"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWnl5QVY4N0J1VnIyalZNRVVxMFVoVjloZE1mc3BxdzB4bVB0RHRBMVdsdklUb3BKTHVhMVVYM3dWSl92Vk9TWDBzSG42TnBQZnctLUNCVm9LTmpwcE1LcE1aNHZzVElLWjg2U3BtVkV0OGVGcUoxZmR2Y3BjTEFQQlBucy1CRDZ1Um04OURLX2k2ZXhzeE40YXRUOTZKbWc?oc=5",
+        "source": "Arab Times Kuwait News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T08:44:25Z",
+        "title": "Second Tanker Attacked Off Saudi Arabia’s Jubail in Same Area - Arab Times Kuwait News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNd1FkNkxVWUl4U3hlbGh6ZlB3YjZ2MkRoNGZIUF9ZRkVXOGRKN0Z3QjFIbThEejNLMXVlc2w5bFlzWG8tTjl4TlRvbGlRMUgxZUdPUENtekFDNE9tNGxDMkFkSEdnel9KUVQ0TnJXLW0wcGItdDlERzRkaDE1WGdqZUVuZ05YTUR4Ujk3M05MM1hTQ2dTNVhRR3I5TXRyUFd1azByNWNRcUpsQQ?oc=5",
+        "source": "FTL Somalia",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T08:22:20Z",
+        "title": "Red Sea Shipping Under Threat: Tanker Hit by Unknown Projectile Off Saudi Coast - FTL Somalia"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORVFDcWd0a2htNHg1dXFaWGxyUHRhX0s3NXZpS2l3Tkhyc1pmWUNTMUFBVEh5OUd2TVBacTlmbXhkb1dlcU9nbG9uaVFBSWxteC0wa2xsdzcyYm9hNEF3eHdPSmdkZlVaMU5DR2tCY01pZVA2T0FmbTFsRlp2ZERuNXBISzdmZi1JNjdsRENvX2k5ZGF5cW5RTjNabFRkbHZlQ1pYYlk4ei1MT09xMW1GV2hsdnhybkg1SFFv?oc=5",
+        "source": "Arab News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T08:20:14Z",
+        "title": "Tanker struck by unknown projectile off Saudi Arabia on Friday, UKMTO says - Arab News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPV0pEQTJGeU1oTjRqSGF2QkdPOXlvU09uelVqOHh1UzNSSGZPSkhlRlFtWU5Dd2NfNkwzc3dGWkp6MEV2Z1NCZzJuVUhnbUtwMjhLVWpoRTBtRmotZGZZMHZLcHgtdm5PMmlhd2M3SDBmYTJvWXpfcFYyZEs1S3oyejZuQUJkUzdod3pzRtIBkgFBVV95cUxPV1ltZWdLdXFrdnVxaUh4X1pjLW5TTHNTREMxa0hUYnB0YnFwRGFhRHdNdGtYSjA3N0k1QnoxX3BPdUhzMXpjemdPNzVKTWdUQTVXMHpOd0U2Skw4LVRROGctaVpkenhpU2pqU0Y2MWI0clRIU0pOeFNQaWZOSzlCal9JdXZnZVg0SVZUQUVReEVWZw?oc=5",
+        "source": "The Siasat Daily",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T07:51:33Z",
+        "title": "Tanker struck by unknown projectile off Saudi Arabia - The Siasat Daily"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPV1ltZWdLdXFrdnVxaUh4X1pjLW5TTHNTREMxa0hUYnB0YnFwRGFhRHdNdGtYSjA3N0k1QnoxX3BPdUhzMXpjemdPNzVKTWdUQTVXMHpOd0U2Skw4LVRROGctaVpkenhpU2pqU0Y2MWI0clRIU0pOeFNQaWZOSzlCal9JdXZnZVg0SVZUQUVReEVWZ9IBkgFBVV95cUxPV1ltZWdLdXFrdnVxaUh4X1pjLW5TTHNTREMxa0hUYnB0YnFwRGFhRHdNdGtYSjA3N0k1QnoxX3BPdUhzMXpjemdPNzVKTWdUQTVXMHpOd0U2Skw4LVRROGctaVpkenhpU2pqU0Y2MWI0clRIU0pOeFNQaWZOSzlCal9JdXZnZVg0SVZUQUVReEVWZw?oc=5",
+        "source": "The Siasat Daily",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T07:51:00Z",
+        "title": "Tanker struck by unknown projectile off Saudi Arabia - The Siasat Daily"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYVh4VVZwZnc1SDc4blBvYjJuQnk3RkEzU0F5Zmo2RnNHSmVQRE03Zy0zYnV0VU1IMDVFV3YtTHd0WDV6c3U5TjZPb1ZNVjdlcWlwWHgzMkZtdEJVZGFfeEpaem5Sa2ZDV1gwM04tXzNwNmpWMWxNY0JNOWpWbGlyV3JPRTNBQ0NYc1hnNjNudkp6ZllKLVUyR3dILXdIdw?oc=5",
+        "source": "UA.NEWS",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T07:29:24Z",
+        "title": "Unknown projectile hits tanker off Saudi Arabia — Anadolu Agency - UA.NEWS"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTzY1N0xES2tmdlg5Q3VxZzFKdGN3eWxmRk1ZVTB6V2ZxN3N2VDdidmxaV0pfUTBEM2xoeEwwY1ZQM3pMSGpKb3FGWl8xeW9RWkFGdkRDelEtTzA1VDZ5aE50ejFfVUUzdFhQQnVPUFo5aXNtT0JBRDJpbERCd0pNZXdfZWpPSmpXYmxHcldmajZSZTE0dFBhQWNvdG0ybW5hUjhsX3l4cUE2eFhodkZRWlBqV1hMUFQw?oc=5",
+        "source": "Middle East Eye",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T06:51:00Z",
+        "title": "UKMTO says unknown projectile hit tanker off Saudi Arabia's coast - Middle East Eye"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNFplMlRRVkdJbkM3NHJXNXVsdjNoQW5EX2FnV0FpOUlWVERFdEliZmFZLXhGNG5VTHhZWnBhRVdJVHYyLTZIbl9FVUt1THA5Wkt1WHlOQWExeXV5eS1GZTFTTzRSa3VUamlWNTdEcDAxX25qbmIzUmJ5bTdIcW5ValJ0YS03b21MWnhxRjln0gGQAUFVX3lxTE5Qemc2dnJWRXRCSnBtak1Hc3J2SWNrTE5DVlgxM09LV1FvangycDYyaE1PRXZua3BVVTBvWS1kN1YxU2ZWZHBBYWtNblE1dlNDY1ZrSDhVamk0d1JTVWE3bGRPb3JpMDBpODdOSDlnSGg5SS1sNTU3d1c4UkEtMjM4Q2hlQjhydWRqTXFlcFh2OQ?oc=5",
+        "source": "AKŞAM",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T10:20:00Z",
+        "title": "Basra Körfezi'nde tankere roketli saldırı - AKŞAM"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV2NNMUl1X3hlVWdPbkdnNEpmWEM5dGthNk5MZU1xdjFPUW5uVGx5YnFkbENnLWZPRkczaDdqVGY2QmliVGhTVms4ZVhzNnVyRG1lb1FPaGFOVWt2c2hUd0Y0b2YwMDNjejNfQ0Jsd1llUHh1a2lKRjNBekt1MmdnbTF1YWZRVW1NRU9kcFhrQmVXeGV3b0tXZw?oc=5",
+        "source": "Operativ Məlumat Mərkəzi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T08:16:12Z",
+        "title": "Second tanker attack reported off Saudi Arabia, UKMTO says - Operativ Məlumat Mərkəzi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQODhHOUdHQkxPLUk4azR4Ym8wSGVqalJjaDNvaENKakMzZzEzRHBiS3liUE1IbjZmVG9ERzlnREhOV2RoMUZacTNhaWRXX0J1WU1fcFFzM2FmVWsyRFJFODEtbTd2MG9PYmhlWk13SEpUOURBOHdHanhsN0Z1a3Rzb1FzdzlxajRzenBQYUJhM3hFd0I1NEJkR2NxZ0tvRDVWeFJobi1KZm9mZFk?oc=5",
+        "source": "Anadolu Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T08:12:05Z",
+        "title": "2nd tanker attack reported in same area off Saudi Arabia: UKMTO - Anadolu Ajansı"
+      }
+    ],
+    "first_seen": "2026-10-17T11:07:50Z",
+    "last_updated": "2026-10-17T11:08:17Z",
+    "verification_issue": 171,
+    "verdict": null,
+    "published_in": [],
+    "status": "confirmed",
+    "date_approx": false,
+    "position_approx": true
+  },
+  {
+    "region": "Persian Gulf",
+    "date_utc": "2026-10-17",
+    "summary": "UKMTO reported a second tanker attack in the same area off Saudi Arabia. No vessel name, flag, position or damage details were given.",
+    "official_source_cited": "UKMTO",
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.8,
+    "lon": 52.5,
+    "location_text": "off Saudi Arabia",
+    "attack_type": "missile",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261017-005",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV2NNMUl1X3hlVWdPbkdnNEpmWEM5dGthNk5MZU1xdjFPUW5uVGx5YnFkbENnLWZPRkczaDdqVGY2QmliVGhTVms4ZVhzNnVyRG1lb1FPaGFOVWt2c2hUd0Y0b2YwMDNjejNfQ0Jsd1llUHh1a2lKRjNBekt1MmdnbTF1YWZRVW1NRU9kcFhrQmVXeGV3b0tXZw?oc=5",
+        "source": "Operativ Məlumat Mərkəzi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T08:16:12Z",
+        "title": "Second tanker attack reported off Saudi Arabia, UKMTO says - Operativ Məlumat Mərkəzi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQODhHOUdHQkxPLUk4azR4Ym8wSGVqalJjaDNvaENKakMzZzEzRHBiS3liUE1IbjZmVG9ERzlnREhOV2RoMUZacTNhaWRXX0J1WU1fcFFzM2FmVWsyRFJFODEtbTd2MG9PYmhlWk13SEpUOURBOHdHanhsN0Z1a3Rzb1FzdzlxajRzenBQYUJhM3hFd0I1NEJkR2NxZ0tvRDVWeFJobi1KZm9mZFk?oc=5",
+        "source": "Anadolu Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T08:12:05Z",
+        "title": "2nd tanker attack reported in same area off Saudi Arabia: UKMTO - Anadolu Ajansı"
+      }
+    ],
+    "first_seen": "2026-10-17T11:07:58Z",
+    "last_updated": "2026-10-17T11:08:17Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261017-004",
     "position_approx": true
   },
   {
@@ -1524,10 +1796,136 @@
         "kind": "media",
         "published_at": "2026-10-17T04:55:53Z",
         "title": "Navă de marfă atacată de un dron în apele teritoriale românești: Cum a reacționat NATO? - Vietnam.vn"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeGxiTEc1cl82QmdtS3U5Qy1uWFlKMVdaSldzb0hoT3BzcjQ4N2J5dmx6clYxdzAwYlN2eFhYdUpVV2pCc19MdmJ1Q29rSDJIZFQtZUxfMnY3VGJ0R1lLaWRqRnJMcFRHclc3ZkRuU2JqMVhQRGY2dFQzZ2FMamwyUFdXek8yQk1FYzU5V09QNU9JSjAzQXFfU0Z30gGaAUFVX3lxTFB4bGJMRzVyXzZCZ21LdTlDLW5YWUoxV1pKV3NvSGhPcHNyNDg3Ynl2bHpyVjF3MDBiU3Z4WFh1SlVXakJzX0x2YnVDb2tIMkhkVC1lTF8ydjdUYnRHWUtpZGpGckxwVEdyVzdmRG5TYmoxWFBEZjZ0VDNnYUxqbDJQV1d6TzJCTUVjNTlXT1A1T0lKMDNBcV9TRnc?oc=5",
+        "source": "The Siasat Daily",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T04:42:13Z",
+        "title": "24 Indian sailors safe after tankers hit in Hormuz, Romania - The Siasat Daily"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONUxUSHEtZ1ZlQXd5UlExQ19qb05mVnBmTC1NaUJGTWJLVXpGX0RWejY2dW1JSlcxUldDZUx1dTFwa2lreG9ZMklJcGJjeU80RGp0Y1BGZHVsT3NnU1ptQlpDYTc4Y1kwb1FEb1kzbDVyUU5JY2k3UHJCY25TVWpualA4cEI1Y1JXc3hKWm04c3dJRVhHeGFIeWtRUmZWeWRPam95enN30gGrAUFVX3lxTE1UQl8xMy1KV2xDRE9zVWg5UV9mUjIyUVNRYUVnRmJjNGdfT3pEYjZlMDJIdnA3Y0lndC1fbFBBY3dqa0RybE92N2k5NXRhSTNsOHQwOHBzYUFtQk9ueWtCRnExV3pnRTV6UVBaNGN2Wk5fN1JDR2RCME1BaXZrZ1FPczlNMHZBZmRTMmNsbmlwb3ZkTWNwZVl5aWlVa0FyYVN3bG1kZ2t4TXB0WQ?oc=5",
+        "source": "OdishaBytes",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T03:09:16Z",
+        "title": "Projectile, Drone Strikes Hit Two Vessels With 24 Indian Seafarers In Hormuz, Romania - OdishaBytes"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HTnFKYnQtUlJ3YmRXUkZRZVJMWDFTVGR2LWgyUkpmMGFNOVdVSUpIbkJIenYybVFFV1R6ZVBXcnhsRmlGdmY0Z0VBMnkyV0liQm10LUVybWxXUE1ZTVVncWRVYW1qUjFjN2ViOUx1LXpmN2o5RVBXRWxJOTQyQms?oc=5",
+        "source": "Vietnam.vn",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T02:17:30Z",
+        "title": "Romanya yakınlarında iki gemide yangın çıktı, 7 denizci kayıp. - Vietnam.vn"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaW1RWnJMN0l2N3ZaZkRodDlJSFdqc1M1R09WNGFmeVpqYzlnOW51UVJaTnU2LWN1ZDRxU2RHaVFTcko5VHNqUjc2TkQxS1UwNXp1UFE2Tm1Ick1TT0Jpd0VISVQ5NXF0U3A3dUdqalN2VVZWdDVxaENwd1FaV3VFb0VzSkVuV1lfbjZkVUpUZjdHc1M3?oc=5",
+        "source": "Zamin.uz",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-16T14:44:00Z",
+        "title": "Tanker damaged near Romanian coast — 7 sailors missing - Zamin.uz"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOMHZJb0Y5VHhLRW5kR2tROEN0SS1zVlpzTGNYUm9MWWlFOF9adG42Zlp2N01mZlFabWtvS2xwd0J6RmV3Uk1yR05WX1dWMWZkM3ZKblNVTmF0ZzhVbkxCUWxLdTRPZHppU1JmcGhtTFhMbkxZNWFtS2p4QlRJYkRCMm5NSmFuTVZ0QngtZWxHM3B2U0RJVTFaYTJoMlE2NkVrZ2x0aEFqWWFKS2s4M2FrQlcxajJaeUVlTUVPV0x4V0RHS3Nrek95N19jTm04dVppRVpvZGFtN0VoWnZpM1F0S0tZMGJtcXI4ZWs4VExBdGxxTWtUTWVpbUItZw?oc=5",
+        "source": "Prima News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-16T11:57:16Z",
+        "title": "Căutările celor 7 membri ai echipajului de pe nava lovită de dronă continuă. Autorităţile intervin cu un elicopter şi o ambarcaţiune - Prima News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNV0o0VWVLMHNra3E4cW1ZSFNlTUs2MmNqQ0hZQThCcF9GTGx4cjdQcHFkLVRZbFpvYjBOWXRqRWdNckFBVTRseU1KUVV0TG10QllpN0pPRWt5TmF6OVhsNFA5bE9CcldHREZ0YUw4WHhwUVBHSE1SZDBiNXNzRG5hTmgxdkhfZ1NZN2JuSkFsaFcwUFBoX1JIV1pzZ1YtaC1tMjg5cE5vdG5QY0g1elhfWFNudm94T25PeWxNeWlTMnVDTzFualHSAcsBQVVfeXFMTXFCYWhlSHprRDU4bXRyVDl5RVcwQVprYjNWRVdkQ0dYM0ZXR3RwRS1WNXByTGo5eGpGZkJzM1QzYVhuRTRDUWtEajlId1NWVFRxZEMxamMwR2NpRXZXNG50RThOMjZwSmpRSFJLX1JlQ2ZTUlpqaXB0S2dlWEwtSHE0dkdxbld0cjFmMXdoejJyQllZNlBna2NhcklNeUNld0xOR0VVQlhrS2lNblpZWTZ0RGEtakdKd1M0eTN6dG5QT08ta0tVejFpa28?oc=5",
+        "source": "Devdiscourse",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-16T11:19:56Z",
+        "title": "Romania resumes search for seven missing sailors from drone-hit ship - Devdiscourse"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSVZDVVVqWkxTSU1CV1g4RjBiclRaamNIZWhnemVQbWhQb1JvV3lNMGs2b01qSl9qU09Vd21CWEMxR1NQdksxVDVxM1pwWjNKVURpYjdEMXpCbHR5YjRtOXFIa0xyV05nWkE0eU5VbUJneFlHS0NEZXVJd0sxTHUydDdwQjhPdw?oc=5",
+        "source": "AOL.ca",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-16T11:19:35Z",
+        "title": "Romania resumes search for seven missing sailors from drone-hit ship - AOL.ca"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcFA4SDRDTGtkaHRhc18wOXg5NjZxTnRQdmljSEpfWlF5c25aeV9NTFJGUHR3d3c0b3JjSTdkNE1Rdl9EUzJtRjdTX21LR01Yc01SbWc1RXhsTzk4QWNBdENQVnc5cmVVUXNjVGxQSU45eGdwZU1abDBtSDBFaGZvbTMtU3otQQ?oc=5",
+        "source": "Charlotte Observer",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-16T09:51:06Z",
+        "title": "Romania resumes search for seven missing sailors from drone-hit ship - Charlotte Observer"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB6NW15NlZUcFpDZ2x0d0RQWldWVmVqd2pyRXdyMWFkOEdMTTVIaGRBYlJPd0steGlZWWwwbEdDcUlFamd4T3AybzFMVER6eVZBeFo1QnljLTR4cTFpVGdyY3VIOWNmRHZ6WDVhYUJ4OFZpSmx3TnBUY1RnS0RSZ3M?oc=5",
+        "source": "Raleigh News & Observer",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-16T09:51:06Z",
+        "title": "Romania resumes search for seven missing sailors from drone-hit ship - Raleigh News & Observer"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRE5mVVNMaHE0TkhDRmZGaFF5bmFZMURCXzhmNHdUU21jeDdNQmFkZlVocnNzd2tYQmxHekI3TFZ5SWd3cFdLME9aaUc0UndhNDR3akF5QXBabjN5b0VhLUtaM0VuSjZ6Y0NCWnZtZGp2LUV2RG5EWXRrTDRES2hwczhfVFc3bTVkLUh1TlIyaUhBdDNLb1MtSjRDZzdxaGhQcG1ZQUF5dmdsTUFDMWI3V1BSTlJZd1hFd19OT3FEWURqTXMxTFHSAcsBQVVfeXFMTi16SHhxMF9yMENuRmI4LU5TLXI5azNPYmhGSjBtcHdKX3FEak45dGtoVmVmY19TNkFvNmRjX2tScU56UDRMN1U4UTJqeE83Vk1IZnBGc3B4YWUyeG9OX081cWVEQnFOLVo4VHYzVTFoeTBDTFV1SXN1QkNvNVZOSWJ1bEdSVFpsWTdOMFVOOHRjdGgwVlMwTFdVcnpYcnZfeUJLajhzaUxIekNpOEV0NlVSN05RWjVmQzlyS2lTVUNHR01aSVhNYV9nNjQ?oc=5",
+        "source": "Devdiscourse",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-16T09:22:06Z",
+        "title": "Romania resumes search for seven missing sailors from drone-hit ship - Devdiscourse"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTW5yX1hDUUp6b25xOFlVdFUyVnNMTzRhMzNLSkR3eXlxNDJITGhwM291ZktYMjhrbVNqaG15QzdnODJTeFZqOVZYQmt0OER2QmtsWG5qOTRxX29rcWVOTXdGRWw0WV8xQ3UzY1BjLTRmcW1fTmxILU5kZmpjQ21FdVNaYUVQdWlPcEh6Yk5qcy1TU2Vub3UzVjhncUZRTFlvRXJyWVdHMGhHTmRVZnZob09KQmJSQ0ZFS2ZHWTFQQ1c0UGRnMU14VllhamxNSXhxSHNCTA?oc=5",
+        "source": "Observator News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T17:12:00Z",
+        "title": "Porturile noastre din Marea Neagră ar putea ajunge izolate, după atacurile ruseşti cu drone - Observator News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeEZwbE43aDBoTFlLTE1rak1ob3pzbmwwMGdGckd1WlB4UXBTNm9tTFNjWklCdkVYcEdWYXJBMF9xdXdqWEFwZmx5Z1R0c2o3VEM2Y2o3Z1FTbUNvZU82MGtpdGZkM2hRU3hwbzdfRWtpaXBhMWJMMmNnRXQwUjhDTnF2RTBLajU5Qm0yRUZGX3pZbEhKZzcxOTBBZk94Nm5tMEF4Tk1PemN3Q3NUcDNUcVlhNEljaUwyTnd1T3JYeG0xOVhMUXc?oc=5",
+        "source": "Stirile ProTV",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T16:25:00Z",
+        "title": "Video - „Prima navă atacată în apele României”. Bilanțul loviturilor asupra navelor din Marea Neagră - Stirile ProTV"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNm4yTXAxY2pkUDc1OGZuRXFVcUtLaVN5MDg2M0dtZmh5MlhESmptWXNadFM5VTJwclNZTl9OUDhMWHRhRE4wYWtsNmx0LU9GMlV6dzVncEV5WkVmX0w4Vmg5M25VOC1ESVpYZmdRRUZMd3cxcFBUMDBfNEt1aEpyZW13NkZBbDJlVGo2V25pcDVaTThkYloxdGRn?oc=5",
+        "source": "chas.news",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T13:20:00Z",
+        "title": "Танкер загорівся у водах Румунії: влада перевіряє можливий удар дрона - chas.news"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNSkxSOWNsdzlOQmNKSm14M01PazNFdkdPVVd2TWUyZnVYUG5XS0xRX2JyaHdUQ3E3elcxMDJDN1pRUDhmUGE1TWFLUDVxcGFIY3dVXzJqaG5VRUZ6OW9UeGdMdi1FbFNnVFFnTE9RR2YxWWtVOGx3VTVVY1VweFRHcl92SnhrYXYzMEg3bTlpZ0JmUXhYTXhCZFgtMG5vbnFBM2V1dkpuNjFzeGtTa0dNX1JxVnAtX0pUemtxam5FSUhfUFpSRjNBaDc2aXJMY3BN0gHWAUFVX3lxTE5Ba3BwUGFYQnpZMmNTVDhtOHZqNWFlOEVnaENOakkzQzJ3VVE5dDgwbTdLeW5FdG9Kd285TDdpeHpVVUJLVUIyM3hocE0wdHJiV2lRNi1qbVRycWd4alREU0pkbHdFemZ6elRBMmo4VFlXeFQxSVRVa1NFYWhSV1hFdktfUEphcTNxMHFzcTJWOENFTzJ0LVZrdlV1WGZBdnVYb18xU056bUxpSkpkbnVHWkFVVTBYamlob2lSUDdhYUlPdTVWeDh2cGt6Zkt4VTB4Tk9nUWc?oc=5",
+        "source": "myMotherLode.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-15T11:11:31Z",
+        "title": "Romanian authorities launch rescue after another Black Sea ship fire leaves 8 missing - myMotherLode.com"
       }
     ],
     "first_seen": "2026-10-15T11:21:24Z",
-    "last_updated": "2026-10-17T06:04:44Z",
+    "last_updated": "2026-10-17T11:08:16Z",
     "verification_issue": 152,
     "verdict": {
       "status": "confirmed",
@@ -1968,10 +2366,28 @@
         "kind": "media",
         "published_at": "2026-10-17T05:20:28+00:00",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVkdoT2I4MVJ1OEpUR1Y3cmljTEZtVXNoWkg5TU5FYmsyZ21uQWU5QnVSSjdCc2NWQ1pSa01lc1BvT1JWaUFLQkJUeDZJYmZEY2JLaDhMR2Q0NjVSbjI3V2N3Y3BKbkJBTHp2UFhmNThKMmJza0hyZFlFc29WY3J2ZFU0ZTY1SUtjS0RHajM2aWl3NzBqMDFYRlp4VkMyR3dWaUVBeHZrcDY4MldoS3dVQ1VR?oc=5",
+        "source": "Fakti.bg",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T07:07:00Z",
+        "title": "New attack in the Black Sea: Russia claims to have hit a ship heading to Odessa ᐉ News from Fakti.bg - World - Fakti.bg"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSGJZRmp1RktwY3owYWVWM3BRTzVMS0U1ajRnU0Zyb0xDNkhOYmo0aENKR3k3YUZITTRVUl9sRFg4YnJDS29NMEhIM1Nud3lQMmRrQ1BkVTZ5LXFFSDloczg1QlAyVmpMMFZYODlJcUM4alBPSGJ2eWZmbzc4c1RjRndBejNBZVVUajhvLTllSlQ1TkNy?oc=5",
+        "source": "Ukrainian Shipping Magazine",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-16T11:40:00Z",
+        "title": "Росія заявила про удар по торговельному судну, яке прямувало до Одеси - Ukrainian Shipping Magazine"
       }
     ],
     "first_seen": "2026-10-15T11:21:35Z",
-    "last_updated": "2026-10-17T06:04:38Z",
+    "last_updated": "2026-10-17T11:08:08Z",
     "verification_issue": 154,
     "verdict": {
       "status": "claimed",
@@ -6558,10 +6974,37 @@
         "kind": "media",
         "published_at": "2026-10-17T05:03:58Z",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNak5WbDhfVkxPblVXQ29tN29QSEEwNkwtS3BWdXNSRDZTOW5pLTZTWm8weWZYdDBFU0YtdFl5MXpVcTZGcTR4UjBDdHhySFJoTkM1VVhtd2tEMmdmLV8za0N6Y3p1ZE82dl9yTURUN1ExQmo3TUh4U3JLbTBIaWpMOFNza3oySE9Pd2x5emZqXzdQMENvUmRHb2VRNk5VU0xldjlSUg?oc=5",
+        "source": "Marine Insight",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T08:02:50Z",
+        "title": "French Navy Shoots Down Drone Near CMA CGM Ship In Bab el-Mandeb Strait - Marine Insight"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeGxiTEc1cl82QmdtS3U5Qy1uWFlKMVdaSldzb0hoT3BzcjQ4N2J5dmx6clYxdzAwYlN2eFhYdUpVV2pCc19MdmJ1Q29rSDJIZFQtZUxfMnY3VGJ0R1lLaWRqRnJMcFRHclc3ZkRuU2JqMVhQRGY2dFQzZ2FMamwyUFdXek8yQk1FYzU5V09QNU9JSjAzQXFfU0Z30gGaAUFVX3lxTFB4bGJMRzVyXzZCZ21LdTlDLW5YWUoxV1pKV3NvSGhPcHNyNDg3Ynl2bHpyVjF3MDBiU3Z4WFh1SlVXakJzX0x2YnVDb2tIMkhkVC1lTF8ydjdUYnRHWUtpZGpGckxwVEdyVzdmRG5TYmoxWFBEZjZ0VDNnYUxqbDJQV1d6TzJCTUVjNTlXT1A1T0lKMDNBcV9TRnc?oc=5",
+        "source": "The Siasat Daily",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T04:42:13Z",
+        "title": "24 Indian sailors safe after tankers hit in Hormuz, Romania - The Siasat Daily"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONUxUSHEtZ1ZlQXd5UlExQ19qb05mVnBmTC1NaUJGTWJLVXpGX0RWejY2dW1JSlcxUldDZUx1dTFwa2lreG9ZMklJcGJjeU80RGp0Y1BGZHVsT3NnU1ptQlpDYTc4Y1kwb1FEb1kzbDVyUU5JY2k3UHJCY25TVWpualA4cEI1Y1JXc3hKWm04c3dJRVhHeGFIeWtRUmZWeWRPam95enN30gGrAUFVX3lxTE1UQl8xMy1KV2xDRE9zVWg5UV9mUjIyUVNRYUVnRmJjNGdfT3pEYjZlMDJIdnA3Y0lndC1fbFBBY3dqa0RybE92N2k5NXRhSTNsOHQwOHBzYUFtQk9ueWtCRnExV3pnRTV6UVBaNGN2Wk5fN1JDR2RCME1BaXZrZ1FPczlNMHZBZmRTMmNsbmlwb3ZkTWNwZVl5aWlVa0FyYVN3bG1kZ2t4TXB0WQ?oc=5",
+        "source": "OdishaBytes",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T03:09:16Z",
+        "title": "Projectile, Drone Strikes Hit Two Vessels With 24 Indian Seafarers In Hormuz, Romania - OdishaBytes"
       }
     ],
     "first_seen": "2026-10-14T12:18:27Z",
-    "last_updated": "2026-10-17T05:03:58Z",
+    "last_updated": "2026-10-17T11:08:08Z",
     "verification_issue": 150,
     "verdict": {
       "status": "confirmed",
