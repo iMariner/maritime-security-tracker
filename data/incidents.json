@@ -1349,20 +1349,45 @@
         "kind": "media",
         "published_at": "2026-10-15T06:47:58Z",
         "title": "Romania Reports Eight Missing After Ship Fire in the Black Sea - BGNES"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-17T04:33:08Z",
+        "title": null
+      },
+      {
+        "url": "https://www.reuters.com/world/romania-resumes-search-seven-missing-sailors-drone-hit-ship-2026-10-16",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-17T04:33:08Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-15T11:21:24Z",
-    "last_updated": "2026-10-17T01:29:27Z",
+    "last_updated": "2026-10-17T04:33:08Z",
     "verification_issue": 152,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "iMariner",
+      "at": "2026-10-17T04:33:08Z",
+      "note": "Romania's president said drones struck the San Marino-flagged chemical tanker Wine Trader off Sulina on 15 October, and the Romanian naval authority reported the fire and seven of her 12 crew missing.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/152#issuecomment-6229672092"
+    },
     "published_in": [
       "2026-10-15",
       "2026-10-16"
     ],
-    "status": "reported",
+    "status": "confirmed",
     "position_approx": true,
     "date_approx": false,
-    "position_note": "about 13 nautical miles southeast of Sulina, one mile outside Romanian territorial waters, per gCaptain and Al Jazeera"
+    "position_note": "about 13 nautical miles southeast of Sulina, one mile outside Romanian territorial waters, per gCaptain and Al Jazeera",
+    "status_changed_at": "2026-10-17T04:33:08Z"
   },
   {
     "region": "Black Sea",
@@ -1758,12 +1783,27 @@
         "kind": "official",
         "published_at": "2026-10-16T14:16:49+00:00",
         "title": null
+      },
+      {
+        "url": "https://squawknews.com/news/494339-update-1-russia-says-it-hits-ukraine-s-izmail-port-cargo-vessels",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-17T04:33:06Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-15T11:21:35Z",
-    "last_updated": "2026-10-16T16:54:45Z",
+    "last_updated": "2026-10-17T04:33:06Z",
     "verification_issue": 154,
-    "verdict": null,
+    "verdict": {
+      "status": "claimed",
+      "by": "iMariner",
+      "at": "2026-10-17T04:33:06Z",
+      "note": "Only Russia's defence ministry reports the strikes on the two dry cargo ships in the Bug estuary and at Chornomorsk, Reuters said it could not verify the claim, and no Ukrainian or neutral source confirms a ship was hit.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/154#issuecomment-6229672201"
+    },
     "published_in": [
       "2026-10-14",
       "2026-10-15",
@@ -2645,18 +2685,42 @@
         "kind": "media",
         "published_at": "2026-10-15T04:51:57Z",
         "title": "Radu Miruță, după incendiul de la bordul navei din largul portului Sulina: „Nu a fost văzută pe radare o dronă venind spre această navă” - Libertatea"
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-17T04:33:04Z",
+        "title": null
+      },
+      {
+        "url": "https://www.reuters.com/world/romania-resumes-search-seven-missing-sailors-drone-hit-ship-2026-10-16",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-17T04:33:04Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-15T11:21:40Z",
-    "last_updated": "2026-10-16T20:03:20Z",
+    "last_updated": "2026-10-17T04:33:04Z",
     "verification_issue": 155,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "iMariner",
+      "at": "2026-10-17T04:33:04Z",
+      "note": "Romania's president confirmed that drones struck the Comoros-flagged chemical tanker Yara J inside Romanian waters near Sulina late on 14 October, and her crew were unharmed.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/155#issuecomment-6229672332"
+    },
     "published_in": [
       "2026-10-15",
       "2026-10-16"
     ],
-    "status": "reported",
-    "status_changed_at": "2026-10-15T11:21:54Z",
+    "status": "confirmed",
+    "status_changed_at": "2026-10-17T04:33:04Z",
     "date_approx": false,
     "position_approx": true,
     "position_note": "about 8 to 10 nautical miles southeast of Sulina, inside Romanian territorial waters, per gCaptain and The Maritime Executive"
@@ -5893,16 +5957,35 @@
         "kind": "media",
         "published_at": "2026-10-16T18:11:00Z",
         "title": "All 24 Indians safe after attack on two ships in Mideast and Romania: Indian minister - Al Arabiya English"
+      },
+      {
+        "url": "https://ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf?rev=ae23f6713bc24322b5f58190a6923b58",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-17T04:33:09Z",
+        "title": null
+      },
+      {
+        "url": "https://theprint.in/world/two-ships-sink-near-hormuz-after-being-hit-by-projectiles-amid-surge-in-attacks-2/3073796/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-17T04:33:09Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-14T12:18:27Z",
-    "last_updated": "2026-10-16T22:59:19Z",
+    "last_updated": "2026-10-17T04:33:09Z",
     "verification_issue": 150,
     "verdict": {
       "status": "confirmed",
-      "by": "editor-check",
-      "at": "2026-10-16T05:10:58Z",
-      "note": "Singapore's Maritime and Port Authority, the flag state, confirmed the attack and the sinking with all 21 crew safe"
+      "by": "iMariner",
+      "at": "2026-10-17T04:33:09Z",
+      "note": "JMIC lists GFS PRIDE as struck by an unknown projectile in the Strait of Hormuz on 13 October and sinking, and Singapore's Maritime and Port Authority, the flag state, confirmed the sinking with all 21 crew safely evacuated.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/150#issuecomment-6229671931"
     },
     "published_in": [
       "2026-10-15",
@@ -9775,17 +9858,41 @@
         "kind": "media",
         "published_at": "2026-10-13T08:18:25Z",
         "title": "Off the coast of Bulgaria, drones attacked two civilian vessels. The country's authorities will summon the Russian ambassador - LIGA.net"
+      },
+      {
+        "url": "https://www.reuters.com/world/europe/drone-sinks-ship-off-bulgaria-coast-prime-minister-says-2026-10-13/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-17T04:33:11Z",
+        "title": null
+      },
+      {
+        "url": "https://helsinkitimes.fi/world-int/29384-two-ships-struck-by-drones-in-black-sea-off-bulgaria.html",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-17T04:33:11Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-14T04:40:00Z",
-    "last_updated": "2026-10-14T05:10:48Z",
+    "last_updated": "2026-10-17T04:33:11Z",
     "verification_issue": 148,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-17T04:33:11Z",
+      "note": "This is the Maltese-flagged Chelsea 3, owned in Odesa, which was hit by three drones 18 nautical miles off Byala early on 13 October with all 15 crew rescued, and it is already recorded as INC-20261013-007, so this record repeats that attack.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/148#issuecomment-6229671765"
+    },
     "published_in": [
       "2026-10-14"
     ],
-    "status": "merged",
-    "status_changed_at": "2026-10-14T04:40:00Z",
+    "status": "rejected",
+    "status_changed_at": "2026-10-17T04:33:11Z",
     "position_approx": true,
     "merged_into": "INC-20261013-002"
   },
