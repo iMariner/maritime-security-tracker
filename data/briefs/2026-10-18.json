@@ -47,5 +47,44 @@
   "generated_at": "2026-10-18T04:38:36Z",
   "consistency_fixed": [],
   "consistency_problems": [],
-  "quality": "3 check(s) need attention: dates 4 approximate; attribution 9 claims without a named source; official coverage 0/0 ok; verified 6/20; single-source items 10, 10 without verification; confirmed 2 marked confirmed without proof; fact-check 5 correction(s); tweet 229/280 ok; dashes ok; consistency ok"
+  "quality": "3 check(s) need attention: dates 4 approximate; attribution 9 claims without a named source; official coverage 0/0 ok; verified 6/20; single-source items 10, 10 without verification; confirmed 2 marked confirmed without proof; fact-check 5 correction(s); tweet 229/280 ok; dashes ok; consistency ok",
+  "review": {
+    "status": "done",
+    "at": "2026-10-18T05:06:07Z",
+    "changes": [
+      "lead story set to INC-20261015-001 (seven of 12 crew missing after the 15 October drone strike, the gravest attack o)",
+      "merged INC-20261017-017 into INC-20261013-002 (the same 13 October sinking off Bulgaria with 11 crew missing, carried five days late by DD News and a Romanian farm outlet)",
+      "merged INC-20261017-015 into INC-20261006-006 (the same 6 October statement by India's external affairs ministry on the On Peace, 12 injured including 11 Indian nationals)",
+      "merged INC-20261017-008 into INC-20261013-007 (prospect.com.ru reports the Chelsea 3 towed to Burgas after the 13 October drone attack)",
+      "date of INC-20261017-004 set to 2026-10-16",
+      "INC-20261017-004 marked confirmed (UKMTO warning 174-26 records a tanker struck by an unknown projectile 68 nautical miles north-east of Al Jubail on 16 October, and 175-26 an RPG fired from a small boat at a tanker 78 nautical miles north-east the same day, both crews safe)",
+      "INC-20261017-007 marked confirmed (UKMTO warning 176-26 records a skiff firing two shots at an LNG tanker 140 nautical miles south-west of Al Mukalla on 17 October, her armed team firing warning shots, no damage and no injuries)",
+      "date of INC-20261017-007 set to 2026-10-17",
+      "region of INC-20261017-007 set to Gulf of Aden",
+      "position of INC-20261017-007 set to 12.9, 46.7 (140 nautical miles south-west of Al Mukalla per UKMTO warning 176-26)",
+      "name of INC-20261016-010 set to ST 3",
+      "INC-20261016-010 marked confirmed (India's shipping minister Sarbananda Sonowal named the crude oil tanker MT ST 3, 15 Indian seafarers aboard, struck by a projectile in the Strait of Hormuz on 16 October, all safe)",
+      "imo of INC-20261015-006 set to 9221803",
+      "update on INC-20261015-006: India's embassy in Bucharest said all nine Indian seafarers aboard the Yara J were safe after she reached the port of Co",
+      "INC-20261017-006 marked rejected (no vessel was attacked that day: Marine Insight reports two tankers damaged in earlier drone attacks, Banda and Grace Romavictor, ran aground off Istanbul in bad weather)",
+      "INC-20261017-010 marked rejected (no vessel attacked and no incident of its own; Al Jazeera reported a dispute over control of the strait)",
+      "INC-20261017-018 marked rejected (no vessel named and no attack of its own; Times Now repeated the day's Hormuz claims and an Iranian warning)",
+      "INC-20261018-001 marked rejected (an unnamed Turkish-language recap of Hormuz tanker attacks, with no vessel, date, damage or attribution)",
+      "INC-20261015-041 marked rejected (no incident of its own: a round-up that names no vessel and reports oil flows rising)",
+      "INC-20261015-042 marked rejected (no vessel was attacked; the item is about NATO discussing Black Sea attacks)",
+      "INC-20261016-008 marked rejected (Iran's navy reported a tanker fire of unknown cause in a restricted area, naming no vessel, and no attack)",
+      "lesson (facts): A government or embassy statement about a named ship belongs to that ship's record: check which vessel the statement nam"
+    ],
+    "refused": [],
+    "notes": [
+      "Keep the Indian embassy statement out of the Wine Trader paragraph: the nine Indian seafarers who reached Constanta were aboard the Yara J, so that news belongs only in the Yara J update and must not be credited to the Wine Trader.",
+      "Write the LNG tanker paragraph from UKMTO warning 176-26: on 17 October a skiff with seven people fired two shots at an LNG tanker 140 nautical miles south-west of Al Mukalla, her armed security team fired warning shots and the skiff withdrew, with no damage and no injuries, so do not call it an unconfirmed headline report.",
+      "Give the ST 3 attack its own paragraph in the Hormuz section, separate from the Al Jubail tanker: India's shipping minister named the crude oil tanker MT ST 3, 15 Indian seafarers, struck by a projectile on 16 October, all safe."
+    ],
+    "restored": [
+      "INC-20261015-006"
+    ],
+    "send_after": false,
+    "lead": "INC-20261015-001"
+  }
 }
