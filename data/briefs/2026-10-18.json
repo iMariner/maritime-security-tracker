@@ -70,5 +70,13 @@
     ],
     "send_after": false,
     "lead": "INC-20261015-001"
+  },
+  "final_read": {
+    "status": "warnings",
+    "at": "2026-10-18T05:29:02Z",
+    "warnings": [
+      "The Sources list marks the ST 3 item confirmed and then says it is not confirmed by a major outlet, because the confirmation rests on India's shipping minister's statement, carried by NDTV, Firstpost and the New Indian Express, none of which is on our trusted outlet list, so the list contradicts the article.",
+      "Five sentences in the earlier items begin with a lower-case word (romania's president, russia's defence ministry, jMIC, uKMTO, india's shipping minister) because of a fault in the writer code that lowercases the first letter of every earlier-item paragraph, not because of our wording."
+    ]
   }
 }
