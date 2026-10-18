@@ -1423,18 +1423,34 @@
         "kind": "media",
         "published_at": "2026-10-16T05:50:46Z",
         "title": "Владельца сгоревшего после атаки ВСУ танкера «Афрамакс Рио» обязали обеспечить безопасную стоянку в Новороссийске - Новости Краснодара и Краснодарского края"
+      },
+      {
+        "url": "https://unn.ua/en/news/the-damaged-aframax-tanker-rio-was-brought-to-novorossiysk-after-a-fire-in-the-black-sea",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-18T04:33:26Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-16T11:51:03Z",
-    "last_updated": "2026-10-17T05:03:58Z",
+    "last_updated": "2026-10-18T04:33:26Z",
     "verification_issue": 163,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-18T04:33:26Z",
+      "note": "the Krasnodar item reports the aftermath of the 6 October attack on the Aframax Rio, which was towed into Novorossiysk on 15 October, tracked as INC-20261006-014.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/163#issuecomment-6245686270"
+    },
     "published_in": [
       "2026-10-17"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261006-014"
+    "merged_into": "INC-20261006-014",
+    "status_changed_at": "2026-10-18T04:33:26Z"
   },
   {
     "region": "Black Sea",
@@ -3924,18 +3940,43 @@
         "kind": "media",
         "published_at": "2026-10-15T06:23:56Z",
         "title": "Tanker from Türkiye catches fire off Romania as Black Sea ship attacks spread - Türkiye Today"
+      },
+      {
+        "url": "https://www.bbc.com/news/articles/c60qkgpp592yo",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-18T04:33:30Z",
+        "title": null
+      },
+      {
+        "url": "https://www.cwdynamics.com/alerts/alert/33432",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-18T04:33:30Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-15T12:00:11Z",
-    "last_updated": "2026-10-16T05:10:58Z",
+    "last_updated": "2026-10-18T04:33:30Z",
     "verification_issue": 157,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-18T04:33:30Z",
+      "note": "the Türkiye Today item is that outlet's own report on the Yara J fire off Sulina late on 14 October, already tracked as INC-20261015-006, so this record is a duplicate.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/157#issuecomment-6245685921"
+    },
     "published_in": [
       "2026-10-16"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261015-006"
+    "merged_into": "INC-20261015-006",
+    "status_changed_at": "2026-10-18T04:33:30Z"
   },
   {
     "region": "Black Sea",
@@ -4426,9 +4467,9 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.5,
-    "vessel_name": null,
+    "vessel_name": "BANDA",
     "imo": null,
-    "flag": null,
+    "flag": "Liberia",
     "vessel_type": "tanker",
     "vessel_category": "merchant",
     "lat": 43.4,
@@ -4458,16 +4499,26 @@
         "kind": "media",
         "published_at": "2026-10-16T01:03:01Z",
         "title": "Another tanker damaged by drone runs aground off coast of Turkey - Shipping Telegraph"
+      },
+      {
+        "url": "https://maritime-executive.com/article/storm-drives-another-war-damaged-tanker-ashore-in-turkey",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-18T04:33:29Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-15T23:14:39Z",
-    "last_updated": "2026-10-16T05:10:58Z",
+    "last_updated": "2026-10-18T04:33:29Z",
     "verification_issue": 159,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-16T05:10:58Z",
-      "note": "a storm drove a tanker ashore near Istanbul on 15 October; the sources name her as the Banda, damaged by a Ukrainian strike on 14 July, so no merchant ship was attacked that day (https://maritime-executive.com/article/storm-drives-another-war-damaged-tanker-ashore-in-turkey)"
+      "by": "iMariner",
+      "at": "2026-10-18T04:33:29Z",
+      "note": "the Liberian-flagged Banda was driven ashore near Sariyer in Istanbul by a storm on 15 October and had been damaged by a Ukrainian strike on 14 July, so no merchant ship was attacked that day.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/159#issuecomment-6245686045"
     },
     "published_in": [
       "2026-10-16"
@@ -4739,16 +4790,26 @@
         "kind": "media",
         "published_at": "2026-10-16T09:03:11Z",
         "title": "Karadeniz’de yedi gemiye İHA saldırısı: NATO’nun 5. maddesi devreye girer mi? - Medyascope"
+      },
+      {
+        "url": "https://medyascope.tv/2026/10/16/karadenizde-gemilere-iha-saldirilari-nato-besinci-madde-turkiye/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-18T04:33:24Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-16T11:51:03Z",
-    "last_updated": "2026-10-17T05:03:58Z",
+    "last_updated": "2026-10-18T04:33:24Z",
     "verification_issue": 164,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-17T05:03:58Z",
-      "note": "Medyascope reports a round-up of drone attacks on seven Black Sea ships already tracked, the Wine Trader, Yara J, Chelsea 3, HS Dignity and others, and names no separate vessel, position or date"
+      "by": "iMariner",
+      "at": "2026-10-18T04:33:24Z",
+      "note": "the Medyascope article is a round-up of at least seven Black Sea attacks already tracked, including the Wine Trader and Yara J, and names no separate vessel, position or date.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/164#issuecomment-6245686423"
     },
     "published_in": [
       "2026-10-17"
@@ -6856,18 +6917,43 @@
         "kind": "media",
         "published_at": "2026-10-14T21:00:00Z",
         "title": "Greenpeace reports another huge oil slick in the Black Sea following an attack on a tanker off Sochi’s coastline. Russia denies any pollution but has declared a h alert. - Meduza"
+      },
+      {
+        "url": "https://ua.news/en/world/bilia-rosiiskogo-uzberezhzhia-sochi-viiavili-naftovii-shleif-pislia-pozhezhi-na-tankeri",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-18T04:33:27Z",
+        "title": null
+      },
+      {
+        "url": "https://www.abc.net.au/news/2026-10-07/oil-tanker-attack-in-black-sea-off-sochi-sparks-giant-fire/107238536",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-18T04:33:27Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-16T01:37:35Z",
-    "last_updated": "2026-10-16T05:10:58Z",
+    "last_updated": "2026-10-18T04:33:27Z",
     "verification_issue": 160,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-18T04:33:27Z",
+      "note": "the Greenpeace slick off Sochi is the aftermath of the 6 October attack on the Aframax Rio, tracked as INC-20261006-014, not a new attack on 14 October.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/160#issuecomment-6245686165"
+    },
     "published_in": [
       "2026-10-16"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261006-014"
+    "merged_into": "INC-20261006-014",
+    "status_changed_at": "2026-10-18T04:33:27Z"
   },
   {
     "region": "Strait of Hormuz",
