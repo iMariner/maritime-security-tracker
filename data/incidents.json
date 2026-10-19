@@ -2404,16 +2404,26 @@
         "kind": "media",
         "published_at": "2026-10-17T19:31:38Z",
         "title": "Iran’s IRGC says 2nd supertanker hits naval mine in Strait of Hormuz - Sada Elbalad English"
+      },
+      {
+        "url": "https://www.ukmto.org/recent-incidents",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-19T04:34:57Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-17T11:07:50Z",
-    "last_updated": "2026-10-19T01:37:34Z",
+    "last_updated": "2026-10-19T04:34:57Z",
     "verification_issue": 171,
     "verdict": {
       "status": "confirmed",
-      "by": "editor-check",
-      "at": "2026-10-18T05:06:07Z",
-      "note": "UKMTO warning 174-26 records a tanker struck by an unknown projectile 68 nautical miles north-east of Al Jubail on 16 October, and 175-26 an RPG fired from a small boat at a tanker 78 nautical miles north-east the same day, both crews safe"
+      "by": "iMariner",
+      "at": "2026-10-19T04:34:57Z",
+      "note": "UKMTO warnings 174-26 and 175-26 record a tanker struck by an unknown projectile 68 nautical miles north-east of Al Jubayl and a second hit by an RPG from a small boat 78 nautical miles north-east, both on 16 October with all crew safe.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/171#issuecomment-6259735994"
     },
     "published_in": [
       "2026-10-18"
@@ -2963,18 +2973,43 @@
         "kind": "media",
         "published_at": "2026-10-16T17:00:00Z",
         "title": "Ukraine hits Russian vessel with sea drone in spectacular Black Sea strike - Daily Express US"
+      },
+      {
+        "url": "https://hromadske.ua/en/war/270443-ukrainian-navy-says-sea-drone-struck-russian-support-vessel-in-sochi-port",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-19T04:35:06Z",
+        "title": null
+      },
+      {
+        "url": "https://militarnyi.com/en/news/ukrainian-naval-drone-strikes-nefrit-supply-vessel-in-sochi",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-19T04:35:06Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-16T20:03:17Z",
-    "last_updated": "2026-10-17T05:03:58Z",
+    "last_updated": "2026-10-19T04:35:06Z",
     "verification_issue": 166,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-19T04:35:06Z",
+      "note": "The Daily Express US story is the 3 September sea drone strike on the Russian navy supply ship Nefrit in Sochi port, a naval support vessel and not a merchant ship, so it is mis-dated and duplicates INC-20261016-003.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/166#issuecomment-6259735195"
+    },
     "published_in": [
       "2026-10-17"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261016-003"
+    "merged_into": "INC-20261016-003",
+    "status_changed_at": "2026-10-19T04:35:06Z"
   },
   {
     "region": "Gulf of Oman",
@@ -3006,16 +3041,26 @@
         "kind": "media",
         "published_at": "2026-10-16T15:57:00Z",
         "title": "Iran’s navy reports oil tanker fire in Gulf of Oman - Middle East Monitor"
+      },
+      {
+        "url": "https://www.middleeastmonitor.com/20261016-irans-navy-reports-oil-tanker-fire-in-gulf-of-oman/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-19T04:35:04Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-16T20:03:17Z",
-    "last_updated": "2026-10-18T05:06:07Z",
+    "last_updated": "2026-10-19T04:35:04Z",
     "verification_issue": 167,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-18T05:06:07Z",
-      "note": "Iran's navy reported a tanker fire of unknown cause in a restricted area, naming no vessel, and no attack"
+      "by": "iMariner",
+      "at": "2026-10-19T04:35:04Z",
+      "note": "Iran's navy statement names no tanker, gives no cause for the fire and describes no attack, and no official or independent source reports an attack on a tanker in the Gulf of Oman that day.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/167#issuecomment-6259735388"
     },
     "published_in": [
       "2026-10-17",
@@ -3055,18 +3100,34 @@
         "kind": "media",
         "published_at": "2026-10-16T23:33:52Z",
         "title": "Tanker near Qatar reports being hit by several projectiles — The Hindu - UA.NEWS"
+      },
+      {
+        "url": "https://maritime-executive.com/article/tanker-hit-multiple-times-in-arabian-gulf-hundreds-of-miles-from-hormuz",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-19T04:35:00Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-17T01:29:23Z",
-    "last_updated": "2026-10-17T05:03:58Z",
+    "last_updated": "2026-10-19T04:35:00Z",
     "verification_issue": 168,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-19T04:35:00Z",
+      "note": "The report describes the 7 October UKMTO 158-26 strike on the tanker Acers about 51 nautical miles north of Madinat ash Shamal, Qatar, so it is mis-dated and duplicates INC-20261007-003.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/168#issuecomment-6259735592"
+    },
     "published_in": [
       "2026-10-17"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261007-003"
+    "merged_into": "INC-20261007-003",
+    "status_changed_at": "2026-10-19T04:35:00Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -6916,16 +6977,26 @@
         "kind": "media",
         "published_at": "2026-10-17T04:11:02Z",
         "title": "Drones attacked at least seven cargo ships in the Black Sea — PBS NewsHour - UA.NEWS"
+      },
+      {
+        "url": "https://www.pbs.org/newshour/world/drone-strikes-in-the-black-sea-raise-fears-of-russian-escalation-to-test-natos-response",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-19T04:34:59Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-17T04:37:59Z",
-    "last_updated": "2026-10-17T05:03:58Z",
+    "last_updated": "2026-10-19T04:34:59Z",
     "verification_issue": 169,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-17T05:03:58Z",
-      "note": "the UA.NEWS page reprints a PBS NewsHour round-up of the same seven Black Sea attacks already tracked, naming no vessel, flag, position or date"
+      "by": "iMariner",
+      "at": "2026-10-19T04:34:59Z",
+      "note": "The UA.NEWS page reprints an Associated Press round-up of at least seven Black Sea drone attacks this month that the tracker already holds as separate records, naming no vessel, date or position of its own.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/169#issuecomment-6259735805"
     },
     "published_in": [
       "2026-10-17"
