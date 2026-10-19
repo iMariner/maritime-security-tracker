@@ -1,6 +1,47 @@
 [
   {
     "region": "Strait of Hormuz",
+    "date_utc": "2026-10-19T12:17:05Z",
+    "summary": "A Turkish headline reports that a huge oil tanker that had been attacked by a UAV passed through the strait. No vessel name, flag, date, position, damage or attribution details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.4,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz (transited the strait)",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "date_approx": true,
+    "id": "INC-20261019-005",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdkRDbHJBM25SaUV4V194aFVSbkRGUWcycFJydTdUeHlVY1NwOVVOem14c1BIbmNuN0tmUzVRWkloNEhzZG9ZRFNFS01QQkxiU2dKOGpfSG1Ia1ktSmM0Sjg3c0UzUllRZ0FDdXJtZHljR0FzcS1sNXpOZHIyRUdRbFViZmdnS0VHT3JwUVpQWXNOUHZlLXVsZnV5dWxhRHNmTnc?oc=5",
+        "source": "İşçi Haber",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T12:17:05Z",
+        "title": "İHA Saldırısına Uğrayan Devasa Petrol Tankeri Boğaz'dan Geçti - İşçi Haber"
+      }
+    ],
+    "first_seen": "2026-10-19T14:56:21Z",
+    "last_updated": "2026-10-19T14:56:21Z",
+    "verification_issue": 197,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
     "date_utc": "2026-10-19",
     "summary": "Iran's Revolutionary Guards said an oil tanker caught fire after hitting a mine in the Strait of Hormuz. The claim comes from the Iranian side only; no vessel name, flag or position was given.",
     "official_source_cited": "Iran's Revolutionary Guards (IRGC)",
@@ -117,10 +158,37 @@
         "kind": "official",
         "published_at": "2026-10-19T06:27:46+00:00",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikwRBVV95cUxPTHhSeVBxd2tqTkFoZVRyR2dTMWI3QlQ2cDYwT1paek5DYjA2ZmIyWFY3YTU5STAzS2VFekoweEF1d0g4TzhWeUdhVnp3b3BPcDVybF95Wjlxa0pBUXZWUGZNaVBfZG1ibk9abGFqSmlpZVc4clo5SHdKZGRPWEZpWG55M2pzekg2NGV3Nm41clp6RjdYWWozRDNsYkNoVkFIRVJwdU9ubGhFTkI2VHZyTkRkNFBocVRDSlJINWtDZElaMDI4d0YzTlNBRFZEUWNZQ1VkelBlbFlyMmFpQ3FvZnFDSnNIamp0aVQyVDFJdHBuUFpUWnpMTUpRR1dLNGV6OTlpNkFMZE1yM3BUVHlJSW1wZGthRmdlR0ViaG1kbVpwWVBqdVJXRkU5WjhWUDdKYk1saFRhM21yMUF6bVFzclBIWTNYNkxqM0pfb2N4eWVOQVJibkxmS0dlcGZqR0FXTS00ZXpRa3Y0Sm1lZUlhVldOT3ZuVEdIVHU5d1BqVm45Zy0yaDY4cVdlVm9BWWFyeXFQYjRwbm9qWjJlWjBXRUgxdDNmejc4TEVaVzhVS2o3aEh6MFVYZGttZVN4QjBjVURBV3NIR1dSRlZNRWZhZFpmVV9nRkFXc09hY3J6aE9hN2FydmxnLVpGTkFFRVVROVlKb2tldVl6Y2VUTmkyakpVV2pSc3VJVUxjTmdNR1hHRTg?oc=5",
+        "source": "France 24",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T08:49:02Z",
+        "title": "روسيا تعلن شن \"هجوم واسع النطاق\" في كييف ومحيطها واستهداف سفينة شحن في البحر الأسود - France 24"
+      },
+      {
+        "url": "https://t.me/shot_shot/101196",
+        "source": "SHOT",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-19T08:05:40+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOR0RZUDRzeTA2RGdOQ01VTlpqOXpKQVdwYTRKOVR0LTh1NW56dFctcDdKaFMyeElrOHpxWGdpcmVlQVVfWkJ4Ynp6aWU4cjd2NTdCN1hPb1lFUG5KWVdqdU1PWjM2U1ZkVFc1MzF0TEZBeTh2N2VxZmFrZ0U1dnlleFYzaHlhR0VQVmYyVFpBTWs5SkpGcG9YU21uSlJ0Zw?oc=5",
+        "source": "Военное дело",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T05:22:28Z",
+        "title": "Russia Reports Strikes on Kiev Arms Sites and Cargo Ship - Военное дело"
       }
     ],
     "first_seen": "2026-10-19T06:46:06Z",
-    "last_updated": "2026-10-19T06:46:06Z",
+    "last_updated": "2026-10-19T14:56:32Z",
     "verification_issue": 194,
     "verdict": null,
     "published_in": [],
@@ -160,11 +228,173 @@
       }
     ],
     "first_seen": "2026-10-19T06:46:06Z",
-    "last_updated": "2026-10-19T06:46:06Z",
+    "last_updated": "2026-10-19T14:56:46Z",
     "verification_issue": 195,
     "verdict": null,
     "published_in": [],
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261015-001"
+  },
+  {
+    "region": "Red Sea",
+    "date_utc": "2026-10-19",
+    "summary": "UKMTO reported fresh attacks and that an LNG tanker was hit near Yemen. No vessel name, flag, position, damage or attribution details were given.",
+    "official_source_cited": "UKMTO",
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "LNG/LPG carrier",
+    "vessel_category": "merchant",
+    "lat": 19.5,
+    "lon": 39.5,
+    "location_text": "near Yemen",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261019-004",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNak5Wbjd1Rmt0Um5IVHg1UUNDb245eURIQzYwV3BmaDZBeW9QbUphenpjZGdnaXlsOGMteHFyT1FoZHBxekpBSUdodW0zV3hBYnVwdGQ0TW1PZ2x3NVkwV1VLaWpOS2RoV2pvVXhldjVJdGhGRnBNdXktQlFCT2s2RmZhTHhKM2hBYi1TSU9ydW1sT0NLVjlRUlQ1Sm0?oc=5",
+        "source": "Quantum Commodity Intelligence",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T13:07:21Z",
+        "title": "UKMTO reports fresh attacks, LNG tanker hit near Yemen - Quantum Commodity Intelligence"
+      }
+    ],
+    "first_seen": "2026-10-19T14:56:21Z",
+    "last_updated": "2026-10-19T14:56:21Z",
+    "verification_issue": 196,
+    "verdict": null,
+    "published_in": [],
+    "status": "confirmed",
+    "position_approx": true
+  },
+  {
+    "region": "Persian Gulf",
+    "date_utc": "2026-10-19",
+    "summary": "UKMTO reported that a tanker was attacked with a rocket-propelled grenade off Saudi Arabia. No vessel name, flag, position, damage or attribution details were given.",
+    "official_source_cited": "UKMTO",
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.8,
+    "lon": 52.5,
+    "location_text": "off Saudi Arabia",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261019-006",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVUN1UHVpT3JnZ1U2djZvRmJxZk5sLUI5b1dmV0FubGhDSVhZY2NfTXhxU1F2V0F0TVhoVXFXRTVQSFJldFdIanM0bWlXUFJaYm0tY0lpb2Q4eFNsNXNMN0d6elE0YVpuNEpFb3pOSUpLM3UwOG1tQ1J2Mmk0Y1FkSkQzeHIzSWdWOFV2cWYtYklsVHNDbGl5NXVhZmFkUk5rMTRCWWxWbw?oc=5",
+        "source": "Marine Insight",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T12:15:14Z",
+        "title": "Tanker Attacked With Rocket-Propelled Grenade Off Saudi Arabia, UKMTO Says - Marine Insight"
+      }
+    ],
+    "first_seen": "2026-10-19T14:56:23Z",
+    "last_updated": "2026-10-19T14:56:23Z",
+    "verification_issue": 198,
+    "verdict": null,
+    "published_in": [],
+    "status": "confirmed",
+    "position_approx": true
+  },
+  {
+    "region": "Persian Gulf",
+    "date_utc": "2026-10-19",
+    "summary": "A headline reports that three tankers were damaged in the Gulf as the US-Iran conflict escalates. No vessel names, flags, positions, dates or attribution details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.4,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.8,
+    "lon": 52.5,
+    "location_text": "Persian Gulf",
+    "attack_type": "other",
+    "damage": "three tankers damaged",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261019-007",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQVRBMEZTU1ZkSU45YVJobzBpREJWc1E1bEV3Q2hkY2piREhRQkhCWlN2Z3NNRW80TDZwWGZkZ1RBYnVocEVuaDF1cElrZjctVmVCWFdZbnc0XzZoS0xRSjhpcGs1Um0wX2xBWmVHNGpuQjdub2FXbjFDcC1ibDVocEV4UFc3MzYybHFsTnZMYlJ1cFd5?oc=5",
+        "source": "EnergyNow.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T05:44:33Z",
+        "title": "Three Tankers Damaged in Gulf as US-Iran Conflict Escalates - EnergyNow.com"
+      }
+    ],
+    "first_seen": "2026-10-19T14:56:32Z",
+    "last_updated": "2026-10-19T14:56:32Z",
+    "verification_issue": 199,
+    "verdict": null,
+    "published_in": [],
     "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-19",
+    "summary": "A headline reports a new report of an attack on shipping in the Strait of Hormuz, raising fears for oil supplies. No vessel name, flag, position, damage or attribution details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.4,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261019-008",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVzRLRi1zMVhKaWpLdDZLOTlMN3pvWXF0Z0p5ZnVEWkdNOUs0NXZseHE0UXNxcVFEM0Z4RU1DOG51a2diRmdyX3pSYU13MWpVVUtwdng0RVh4OFZ2NnZZRm8zb04wS1hWTFRxMm03UFdpV0RnTnZTUFU2djVzM3FjajVJSUt4SmlLYTdJUVhCTmFXMEJjcGFoWXl5b1dnTFhzdWFCeE5uRmIwS0dST2wzNEtLZExDbVMwNVE?oc=5",
+        "source": "EnergyNow.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T05:32:30Z",
+        "title": "New Report of Attack on Strait of Hormuz Shipping Fans fears of Threats to Oil Supplies - EnergyNow.com"
+      }
+    ],
+    "first_seen": "2026-10-19T14:56:32Z",
+    "last_updated": "2026-10-19T14:56:45Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261018-003",
     "position_approx": true
   },
   {
@@ -359,10 +589,19 @@
         "kind": "media",
         "published_at": "2026-10-19T05:07:29Z",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVzRLRi1zMVhKaWpLdDZLOTlMN3pvWXF0Z0p5ZnVEWkdNOUs0NXZseHE0UXNxcVFEM0Z4RU1DOG51a2diRmdyX3pSYU13MWpVVUtwdng0RVh4OFZ2NnZZRm8zb04wS1hWTFRxMm03UFdpV0RnTnZTUFU2djVzM3FjajVJSUt4SmlLYTdJUVhCTmFXMEJjcGFoWXl5b1dnTFhzdWFCeE5uRmIwS0dST2wzNEtLZExDbVMwNVE?oc=5",
+        "source": "EnergyNow.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T05:32:30Z",
+        "title": "New Report of Attack on Strait of Hormuz Shipping Fans fears of Threats to Oil Supplies - EnergyNow.com"
       }
     ],
     "first_seen": "2026-10-18T11:38:03Z",
-    "last_updated": "2026-10-19T05:07:29Z",
+    "last_updated": "2026-10-19T14:56:45Z",
     "verification_issue": 186,
     "verdict": {
       "status": "confirmed",
@@ -637,10 +876,19 @@
         "kind": "media",
         "published_at": "2026-10-18T10:17:00Z",
         "title": "«Раскатали по волнам». Россия нанесла групповые удары по объектам ВСУ. Поражены логистический центр, сухогруз и ПВД - Lenta News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE82VGRWN3ZGbGRIS1pwZ3IxWUxrRWVKNkM4LS1nNTJLdUdkeGZlYjFUYWItR2NiSDJYdkpQdTdJVlZwVDhz0gFKQVVfeXFMT2FFRG1Ub0hZcXV1ZjE3UzJEaDNyTTRCOGhhaUZUdnZmRHpDbDhVMThKX1Q3ZC0yaXdZeGxSVGQwTE5qNzRQd1Y3RFE?oc=5",
+        "source": "BFM.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-18T08:45:45Z",
+        "title": "Минобороны: ВС РФ поразили в Черном море судно с грузом для ВСУ и БЭК - BFM.ru"
       }
     ],
     "first_seen": "2026-10-18T11:38:15Z",
-    "last_updated": "2026-10-18T18:16:23Z",
+    "last_updated": "2026-10-19T14:56:36Z",
     "verification_issue": 189,
     "verdict": null,
     "published_in": [
@@ -1325,10 +1573,19 @@
         "kind": "media",
         "published_at": "2026-10-18T18:32:08Z",
         "title": "Laden Qatari LNG carrier makes rare Red Sea transit as unnamed vessel fired on - TradeWinds News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOWNOa1dWOHdHT1poMFN1VEVhUklOU1hvNDc1VUNCa0xXWVJzcDBZeGlna0w4b0VwRUdmY043UjJMVV9zM0N5ZXBxeF9UT3V0WnI2SHUwaGVGWnlySW45OWlTUzNEd1hsY1ZHTzJpY2g3ZmlWc3RhQ3dMa3h4OWNPSzYxT3hzSGlZR3ptNA?oc=5",
+        "source": "Breakingthenews.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T15:03:00Z",
+        "title": "UK: LNG tanker attacked off Yemen coast - Breakingthenews.net"
       }
     ],
     "first_seen": "2026-10-17T14:22:51Z",
-    "last_updated": "2026-10-19T04:39:52Z",
+    "last_updated": "2026-10-19T14:56:42Z",
     "verification_issue": 173,
     "verdict": {
       "status": "confirmed",
@@ -1340,11 +1597,12 @@
       "2026-10-18",
       "2026-10-19"
     ],
-    "status": "confirmed",
+    "status": "merged",
     "position_approx": true,
     "status_changed_at": "2026-10-17T17:30:55Z",
     "position_note": "140 nautical miles south-west of Al Mukalla per UKMTO warning 176-26",
-    "date_approx": false
+    "date_approx": false,
+    "merged_into": "INC-20261016-010"
   },
   {
     "region": "Black Sea",
@@ -2210,6 +2468,88 @@
     "published_in": [],
     "status": "merged",
     "merged_into": "INC-20261017-004",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-17",
+    "summary": "All rescued sailors from a drone-attacked merchant ship arrived in Varna, Bulgaria, according to BTA. No vessel name, flag, position or date of the attack was given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "other",
+    "vessel_category": "merchant",
+    "lat": 43.2,
+    "lon": 28.1,
+    "location_text": "Black Sea (rescued sailors arrived in Varna, Bulgaria)",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261017-026",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBSMDdZY0lLZ0Z5V09FM292X2gyVG5Tdl9OaTNtWmVzTXpPT3BIbl9ieDhDWV9LN2J4TGx0QUJvTTRTYkdXUmd6N3o3Qk9lQUNRTmRlOWJLeEMxVURPX2p4emlqMkc?oc=5",
+        "source": "БТА",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T16:51:12Z",
+        "title": "BTA :: All Rescued Sailors from Drone-Attacked Merchant Ship Arrive in Varna - БТА"
+      }
+    ],
+    "first_seen": "2026-10-19T14:56:40Z",
+    "last_updated": "2026-10-19T14:56:46Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261013-007",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-17",
+    "summary": "A headline says Iran set a UAE oil port ablaze and struck vessels in the Strait of Hormuz, sending oil prices up 6%. No vessel names, flags, positions or damage details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.4,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Iran",
+    "independent_evidence": false,
+    "id": "INC-20261017-027",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMDkwVmRyeVVoMDB2N3dYVFFmeERKajZmVWJLWWRaM2ZKMV8zODdGSGFEOHpqWEpHSG1wM1JpOW5CMUV3angxLUtSNzRTMGFwSmJPQUNuUzFnZWUwTlIwRFNpcWk4OE9nZ1l0N2ZvamxZVl9zSE1lVWpyNWthdmJEUXlpeDQtaWd0R0lTbXZ5OWhzbTBNbVd5bC1sTVk2T3dvazFMWTZvUzlybTNOTmRGYWlTM280Ynl5?oc=5",
+        "source": "EnergyNow.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T15:57:20Z",
+        "title": "Oil Prices Jump 6% as Iran Sets UAE Oil Port Ablaze, Strikes Vessels in Strait of Hormuz - EnergyNow.com"
+      }
+    ],
+    "first_seen": "2026-10-19T14:56:40Z",
+    "last_updated": "2026-10-19T14:56:42Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261016-010",
     "position_approx": true
   },
   {
@@ -3115,10 +3455,55 @@
         "kind": "media",
         "published_at": "2026-10-19T05:07:29Z",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbnFWZ3l3MmEweko3ZFo2LWdSbzNaTDlQbzVpbG84Q3VzZklTeXBLNGxjRDNseEZ4RGMwdnp1VThYWm9uT2VpTVpveFA0Q2VUX3lwMlZQcGVtd3BGb1dDVG91eDdzNzhkaUFhNklsNERjN1BHNVRvS2ZWdVR2U3d2dmhzWXJ6UXBlT18xblFKSlJhMThpQ1gyZW9RNHV3dw?oc=5",
+        "source": "Yeni Şafak English",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T07:48:01Z",
+        "title": "Iran's IRGC says oil tanker struck mine in Strait of Hormuz - Yeni Şafak English"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSTBsaTJjVFo3R1JiOTJ3c0JTVnMtcE9mMnh2eW5mbmJwREhIbXJQaWRZanZ3VXlzelRDWVlKdERMTHRnNS1LYnRSSENtVGlFTk1nWDhoM0IzV3h4VFZWandGQk1EWFRPUnRZRG5xZmRCYWFGUHV0NE5fQlBSMnR5MFhTUHRneldxUGlxWlRVWU1wMXpUOFB4RmFJOGVENkEyZW9FT0FKVnJHd1AxalZEaXhpejdXcEwyVHpn?oc=5",
+        "source": "myRepublica",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T06:45:00Z",
+        "title": "Oil tanker on fire after hitting mine in Hormuz: Iran's Guards - myRepublica"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc0lVZVVSZE14QjhMd2pfRjJCX1k1WEtKNnFNODFPVEtDTXJNMFMyZFA5Z29zb3hvSVEyYV85a1JLbkh6dkhQWnJ3d1ZuYmpNeXMyX3RkeVphM1ZVTkphZEhoT3hRbWJVN2NHNjBKV1dZMkUzUmpyNmp6MmVCclY3MmR1cGtEbTJhSHdqdFN5NGNCOHNJaExjRzZ1MnlGTFhPQUxRSUZxUEVINm1RZ2dicE15MNIBswFBVV95cUxPc0lVZVVSZE14QjhMd2pfRjJCX1k1WEtKNnFNODFPVEtDTXJNMFMyZFA5Z29zb3hvSVEyYV85a1JLbkh6dkhQWnJ3d1ZuYmpNeXMyX3RkeVphM1ZVTkphZEhoT3hRbWJVN2NHNjBKV1dZMkUzUmpyNmp6MmVCclY3MmR1cGtEbTJhSHdqdFN5NGNCOHNJaExjRzZ1MnlGTFhPQUxRSUZxUEVINm1RZ2dicE15MA?oc=5",
+        "source": "Firstpost",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T02:06:45Z",
+        "title": "Iran says oil tanker hits mine in Strait of Hormuz, catches fire - Firstpost"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5FU3RxRVB3UVdHZFI5eVE2djJTcGNXdTh5RnFWZV9rRUxPeThudVhET1dTUnd6LUlhVzR0WTQ3aTFuaEE3Y29BS2F3R0RPS202MEhIZzVfN0Z1dlFJU0ZvM3EtTjdjaXRXYnVpTDg1OTJhc2gybEE?oc=5",
+        "source": "يمن مونيتور",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T22:40:31Z",
+        "title": "Tanker Struck by Unknown Projectile off Saudi Coast; Crew Evacuated - يمن مونيتور"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSDR0NXhsT1RnRWFUZTdyUmJuTzU1SmJBdUxwZmNxV0w3aUdKVFM2cVJnUzgzcVZGUl9lM1hyeXNBblcyWDM1R1N1VXZUaUxfS0hjNndtUU1ueUVDODIzV3VnMDJ0OEVMdWZab2VYeFU3Ml9Za2RuYXlrVUcxMUpaSXFMUG9XU29NRnpjd3h6VWlOdmJVcjJqOUhUeF9rVzg?oc=5",
+        "source": "Naharnet",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T17:06:45Z",
+        "title": "Iran says oil tanker on fire after hitting mine in Hormuz - Naharnet"
       }
     ],
     "first_seen": "2026-10-17T11:07:50Z",
-    "last_updated": "2026-10-19T05:07:29Z",
+    "last_updated": "2026-10-19T14:56:42Z",
     "verification_issue": 171,
     "verdict": {
       "status": "confirmed",
@@ -3131,9 +3516,10 @@
       "2026-10-18",
       "2026-10-19"
     ],
-    "status": "confirmed",
+    "status": "merged",
     "date_approx": false,
-    "position_approx": true
+    "position_approx": true,
+    "merged_into": "INC-20261016-010"
   },
   {
     "region": "Black Sea",
@@ -3387,9 +3773,9 @@
     "summary": "An Indian shipping official said a crude oil tanker was targeted by a missile in the Strait of Hormuz. The official also noted the Romania incident of 14 October.",
     "official_source_cited": "Indian shipping official",
     "conflicting": false,
-    "confidence": 0.6,
+    "confidence": 1.0,
     "vessel_name": "ST 3",
-    "imo": null,
+    "imo": "9220964",
     "flag": null,
     "vessel_type": "tanker",
     "vessel_category": "merchant",
@@ -3397,9 +3783,9 @@
     "lon": 56.35,
     "location_text": "Strait of Hormuz",
     "attack_type": "missile",
-    "damage": null,
-    "casualties": null,
-    "attribution_claimed": null,
+    "damage": "Damaged. No pollution.",
+    "casualties": "crew safe",
+    "attribution_claimed": "Iran said",
     "independent_evidence": true,
     "id": "INC-20261016-010",
     "sources": [
@@ -3420,10 +3806,793 @@
         "kind": "media",
         "published_at": "2026-10-18T05:06:07Z",
         "title": null
+      },
+      {
+        "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9220964-2026-10-16",
+        "source": "IMO (confirmed incidents list)",
+        "source_type": "official",
+        "side": "neutral",
+        "kind": "official",
+        "published_at": "2026-10-19T14:56:42Z",
+        "title": "IMO confirmed incident: ST3 (IMO 9220964)"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxOamw0VWJlQjluUVRoZ1pMRklWSklpTENwX2RHZHBpb3gwNGM3RDhTWmhFN0U0bldlaGZ4WEFEcWstOUR4WmQ1djFjS1lnOFpoQnBPVlBrVUlpN3l4UnJOWVNpaUpsV2pUenhwQ21sS0ZmMlk1MDJDNXN2eFdEbTA0bGZLaTJUY0MwOHFjWmx1eS1MaTJYX1gwYnpNcktsbzhEdzJyVWxoLWtWRGw4RUprX0RiYVlKd09LSUN2ZVgxMnNBUVpaNlhVYUpTLW9aWWZFYTJIdWpuVTg4VExGUTFrNml4by1xOERKdVoybkVqcTk0aG83OE1SWUI1ckh5T2JvM05DRU5MUFAyVnM5cnVCaG11bDBtWjI3UUtZaHo3eDVNOW13WG8ycy1XZm53Qno3YU45U3BkdjRYaXNrSmJGaG5SSHdLMGx5Q2ZCbUF0X1MxbXM?oc=5",
+        "source": "موقع المنشر الاخبارى",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T14:10:44Z",
+        "title": "أنباء عن استهداف ناقلة غاز طبيعي مسال قبالة سواحل اليمن.. وإجراءات لمتابعة الحادث - موقع المنشر الاخبارى"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRGFaTUMxVnc2a2pCS3RTTUl5RzZjWDd5cTFnVFNQckpod2h4dEVFNnVTSTJPSXRsNjJaRE9LSjFmNlh6VmlEQkJUOVd4QWwtbmQ1ajFZa3hPbzE3S3U3azVkaDFwTmZTV3lCMUZrZmtxOWxwaHZwT1VtYUFtdUE4Q3pwbXNHUQ?oc=5",
+        "source": "شفق نيوز",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T15:38:23Z",
+        "title": "Shafaq News..Armed boat fires on LNG tanker near Yemen - شفق نيوز"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQem92VW4zTTlKd2pjNWM1QlpYVjJBOVVtUnhXckZzcXZuM2xRZ3pVc1o2UWVNMjZLdlpoNXZES2I1TC1qM3lYQmloV2ZIdGRqU3NOZzFoRlZRRTJ6dnVwV0J6SjNmMGVyNVFLTHpmQ2dqbmczR1I0Zzdua2pKWnpxdjVWR0lZWnBkY1ZHeWYzTXVVeVFIY1F2R2tmcGFOMEExWjdSWVdRVThBZEFITi1VeGtpTkttVFJmdEZlZk9waU9XeldjS0puSFY2SmFwcEEycVVNdjdVRzZQN0gtNy15TTZR0gHnAUFVX3lxTE9seW8yRkpVOFB0SlVubGZqamt5OWpCSUpUQUJMVDJSN1dTel83SVZETlZxZzJnLUxtRF94dVRFSmI4RGMxT3hWRENaTUttTS1FTFdxeG9ITDM5aWdOcElOS1VSdDl5TTRNc1Z0SjV0ampWOE5kSXVTR01ZQVQtYnZqdzJ4ckRvTzlKVlZNejJET0xrV3ZyMDIxMzhkbER6c0FFSzQ0YzlRSVA0RVlhc3RGbnAxT1I5QmM2RXVEWkRmT3B3OVJlckZ1Tk16ZWtYRFhCUWZrU3d2Ym1WRUF6WnVmNE8zNW5yMA?oc=5",
+        "source": "LatestLY",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T15:12:18Z",
+        "title": "World News | Small Boat Approaches, Opens Fire on LNG Tanker off Yemen’s Coast, Says UK Maritime Agency - LatestLY"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNaU0zOURfenBVLS1BcGgtLUtZLWpqT1ZKR3JrYm1RQktGc0dyeHpDd081WEdBVS1hdlliMGFRS3Y0cF80WUtKZWZ1X0R5eEdjZnFJdUxCWEdiTzFJMjJqR3FpVElnNkZCWFZZVmhJVnRtckFMV0RwRERCMnRVcnl4Zy1JYV9jX0NRc0RkQjBwbVdiUXdocUNRZWpDMk5WdjBlOHIxa3NYblc2WWYxa09PWGQ3UWk3VFRjN0VVZXdsOHVVZjQ5c2twdXhRZWduRGNGRy04TVpOa21ZdWhCTkxmNkhRakxOMGlqcjhySEk0UHVldlI5bW90N2VLMjFRd2NIVjVIajB3ZTZHT0p1a0dMSTFzSXZxRGtMTWpsMmxTUERjSXRYc0Nzd9IBrgJBVV95cUxOTkpUYnJLUFUwYzhpdGVTYUhzQ0VPd0VBcDZUMTZ2aTd3V3FMYngzM2RpaWhVQ1QzMGZmWVlfWlVNSS05VW9kVWhuTlJXT3Zob1dFbDY2R1FsMlNDVU94c2VEdGFBaEFEUW1wZ0JjVTNJc0dKcGhTNDBLYjNUdnlQdjdfcnhxd1VJRkNwX1RSbHBZLUsydmhDQjFGc2RHR1hYUkdYTURJVm1SUGNidHF2a2Q0OWtYR21ZdjQyUlltNXNRa19iVnNFRmgwR0NJM0lQZXhxUWRSR1N6ZnQwV2JoTE5ya3h3QXRFVExUT3B6cDMwcGEtYUFQbHdqMHBBckxSN1N5VlAzeHluYVc5aXp3c3hiNy1Zc0dZYWRGSTcwdWpoTWJWUW5CaUxrb3hMdw?oc=5",
+        "source": "The Sunday Guardian",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-18T04:45:44Z",
+        "title": "US-Israel-Iran War Latest Live News: UKMTO Reports Attack on LNG Tanker Off Yemen Coast as 4-6 Million Barrels a Day Oil Supply Shortfall Raises Global Alarm - The Sunday Guardian"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ZTk1yVnV0Tkc1S0plQm9HV3pxUDVjRXU1czZZYkNweVVUU0RDZXNWcDdlLWtEM0x5MEY3Wkh2LXoyeW83dktGTkNVNTh2LTBBQ2c?oc=5",
+        "source": "Iran International",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T13:23:58Z",
+        "title": "LNG tanker reports shots fired by skiff off Yemen - UKMTO - Iran International"
+      },
+      {
+        "url": "https://www.ukmto.org/-/media/ukmto/products/20261017-ukmto_warning-176-26.pdf",
+        "source": "ukmto.org",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-18T05:06:07Z",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vcHRpMHJuNUZRMEU5Ynk1WktjXzZoS0tYV0FCakZQdTZPZkpxQkFPeXRCNkJuVGVGdlR2OWZObDVYeE14dldFdjhWNTdvdUViejBz?oc=5",
+        "source": "Aaj English TV",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-18T08:54:58Z",
+        "title": "Tugboat hit by projectiles off UAE, LNG tanker fired on near Yemen - Aaj English TV"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPS3VwNGxkOXV4S3hHaXFZLWM4RkVKY2pjdmVDQ2VYcjRjZ2lxSU1XeW1ZQWI4OFU5R3ZPRmNlc1RqNkFQV2NOU1V3NlV0aVF1M1dSMUIwWGJWYm96SGtHZF92S0tSNXJNLXg3LS1qQ2ZGUlFIZkRZa1hUT1Y0NUlHMGh2YU5SbnJpSHpLcTkxU1NLaUdqdHlhb3lieFF1S0tZdFhNZWhqcjdtRHF2WFF5aFBJSVluOFNY?oc=5",
+        "source": "Türkiye Today",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-18T08:14:22Z",
+        "title": "Tugboat hit by projectiles off UAE, LNG tanker comes under fire near Yemen - Türkiye Today"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUlQtVUxRc1U5UlV0UDk1Yk1PN0dGT3FiY1NyNVJrdTh2Zk1Kai1Melo4MVJwUHc2RkVEQXZVb04wSnhoUndPeG1pNkd0QlZ4X3hOOHczMjNSdWRFR1BQa3VjdmJHb2ZGVm1wdndudWQ1RWNBcFBmb0t0OE9SY2hrRA?oc=5",
+        "source": "Mehr News Agency",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-18T05:34:00Z",
+        "title": "Tanker attacked off Yemen’s coast: UKMTO - Mehr News Agency"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSXpwQ1cySUxpOTYwV3J0RmZYNGtSejV3OFpMX3hraElTYzBvdTJXbzEwRFZpQXpTNTRMaGJmdC1pTnAycHZ3aFRzd0VPSXNwS05RVjhMdnh1bEpjWk5jYnIyS0p2UVVtOS1FYTNWZ2tQUTczQVlsOUdOV0c4cHY2enlFNzZfWHdEQWJsYndqSG9vQ2JIN1BOYXpaQWdXOXNLZTZJQ1F3?oc=5",
+        "source": "Aaj English TV",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-18T08:54:58Z",
+        "title": "Tugboat hit by projectiles off UAE, LNG tanker fired on near Yemen - Aaj English TV"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3S2hHQjV0TThickpucFRhMFZOd0RycDllZjhXdVF5bmlSbW12UzJPUjFkMndGREFLN0FKcmI0SVhwSmlyMElBSE5ITXpRcHM?oc=5",
+        "source": "صحافتك",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T07:16:44Z",
+        "title": "هجوم مسلح يستهدف ناقلة للغاز المسال قبالة سواحل اليمن - صحافتك"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQk1ha2txRHdVdmlhQndla1p5WWg1UTA1Mkxwbk02T3V1UWlESHNFdzFoZ1pFTVNXSENuUktMaFRoeDFYUm1UMlJ3dDNDdXhiaFJVU194NjZtOFJ6T1RaUXFGSXRCV21ENGp5aGpaU00tQTVkbWhwbUZ1SnBRUF9tb2NHS1lkck42VUlqZHRNWmNxMEQydkZnMGdaaTNkQkE0TThQWA?oc=5",
+        "source": "Aaj English TV",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-18T08:54:58Z",
+        "title": "Tugboat hit by projectiles off UAE, LNG tanker fired on off Yemen - Aaj English TV"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN0RPamsycFRMeHBIMlpwUks2T1FKYlU2NkhtQVNrM1FMN1NkeXNJWUctVnJWSk5CNXNOenZHS3dZNGVYc3VLUW81Y3NuMWNpSWhLNnBoSHNPSzBtRFF2dnYxRVlZS3dabkttUUQzX2dJaEtLRnFwWWNDYjhWTmRMai1NMnlScEFvaUI4MmVXcUxQMmtaLU4weFFlUXBTMDF0dm5vbHVGM2MwQWt3WVF0VHdyOVoxY1FqdjZfd3JBUXIzZEU?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-18T18:32:08Z",
+        "title": "Laden Qatari LNG carrier makes rare Red Sea transit as unnamed vessel fired on - TradeWinds News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOWNOa1dWOHdHT1poMFN1VEVhUklOU1hvNDc1VUNCa0xXWVJzcDBZeGlna0w4b0VwRUdmY043UjJMVV9zM0N5ZXBxeF9UT3V0WnI2SHUwaGVGWnlySW45OWlTUzNEd1hsY1ZHTzJpY2g3ZmlWc3RhQ3dMa3h4OWNPSzYxT3hzSGlZR3ptNA?oc=5",
+        "source": "Breakingthenews.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T15:03:00Z",
+        "title": "UK: LNG tanker attacked off Yemen coast - Breakingthenews.net"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON00yYVNvaTdLRFo5Y3JSYkpBaWZRa0ZKaC1CZzFuNUhOdXFVSWlwdnIxaXAxb19OaU1MUzA3ODhySE45ZkNCREM1VkhPZzR4ODdoWnFNeE1JY2lxX1hMMlVvVkdacUE2ZkIxbk9QdS1rcFpfVnJmM2pnUFItQ0hDLUdJVmQyc0FlTE1EOXB1OXBRcGR4aUF1aGRNNUZ5aExiOVFKcExB?oc=5",
+        "source": "News Mobile",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T09:46:56Z",
+        "title": "UKMTO Reports Projectile Strike On Tanker Near Saudi Arabia’s Al Jubail - News Mobile"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWnl5QVY4N0J1VnIyalZNRVVxMFVoVjloZE1mc3BxdzB4bVB0RHRBMVdsdklUb3BKTHVhMVVYM3dWSl92Vk9TWDBzSG42TnBQZnctLUNCVm9LTmpwcE1LcE1aNHZzVElLWjg2U3BtVkV0OGVGcUoxZmR2Y3BjTEFQQlBucy1CRDZ1Um04OURLX2k2ZXhzeE40YXRUOTZKbWc?oc=5",
+        "source": "Arab Times Kuwait News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T08:44:25Z",
+        "title": "Second Tanker Attacked Off Saudi Arabia’s Jubail in Same Area - Arab Times Kuwait News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNd1FkNkxVWUl4U3hlbGh6ZlB3YjZ2MkRoNGZIUF9ZRkVXOGRKN0Z3QjFIbThEejNLMXVlc2w5bFlzWG8tTjl4TlRvbGlRMUgxZUdPUENtekFDNE9tNGxDMkFkSEdnel9KUVQ0TnJXLW0wcGItdDlERzRkaDE1WGdqZUVuZ05YTUR4Ujk3M05MM1hTQ2dTNVhRR3I5TXRyUFd1azByNWNRcUpsQQ?oc=5",
+        "source": "FTL Somalia",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T08:22:20Z",
+        "title": "Red Sea Shipping Under Threat: Tanker Hit by Unknown Projectile Off Saudi Coast - FTL Somalia"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORVFDcWd0a2htNHg1dXFaWGxyUHRhX0s3NXZpS2l3Tkhyc1pmWUNTMUFBVEh5OUd2TVBacTlmbXhkb1dlcU9nbG9uaVFBSWxteC0wa2xsdzcyYm9hNEF3eHdPSmdkZlVaMU5DR2tCY01pZVA2T0FmbTFsRlp2ZERuNXBISzdmZi1JNjdsRENvX2k5ZGF5cW5RTjNabFRkbHZlQ1pYYlk4ei1MT09xMW1GV2hsdnhybkg1SFFv?oc=5",
+        "source": "Arab News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T08:20:14Z",
+        "title": "Tanker struck by unknown projectile off Saudi Arabia on Friday, UKMTO says - Arab News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPV0pEQTJGeU1oTjRqSGF2QkdPOXlvU09uelVqOHh1UzNSSGZPSkhlRlFtWU5Dd2NfNkwzc3dGWkp6MEV2Z1NCZzJuVUhnbUtwMjhLVWpoRTBtRmotZGZZMHZLcHgtdm5PMmlhd2M3SDBmYTJvWXpfcFYyZEs1S3oyejZuQUJkUzdod3pzRtIBkgFBVV95cUxPV1ltZWdLdXFrdnVxaUh4X1pjLW5TTHNTREMxa0hUYnB0YnFwRGFhRHdNdGtYSjA3N0k1QnoxX3BPdUhzMXpjemdPNzVKTWdUQTVXMHpOd0U2Skw4LVRROGctaVpkenhpU2pqU0Y2MWI0clRIU0pOeFNQaWZOSzlCal9JdXZnZVg0SVZUQUVReEVWZw?oc=5",
+        "source": "The Siasat Daily",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T07:51:33Z",
+        "title": "Tanker struck by unknown projectile off Saudi Arabia - The Siasat Daily"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPV1ltZWdLdXFrdnVxaUh4X1pjLW5TTHNTREMxa0hUYnB0YnFwRGFhRHdNdGtYSjA3N0k1QnoxX3BPdUhzMXpjemdPNzVKTWdUQTVXMHpOd0U2Skw4LVRROGctaVpkenhpU2pqU0Y2MWI0clRIU0pOeFNQaWZOSzlCal9JdXZnZVg0SVZUQUVReEVWZ9IBkgFBVV95cUxPV1ltZWdLdXFrdnVxaUh4X1pjLW5TTHNTREMxa0hUYnB0YnFwRGFhRHdNdGtYSjA3N0k1QnoxX3BPdUhzMXpjemdPNzVKTWdUQTVXMHpOd0U2Skw4LVRROGctaVpkenhpU2pqU0Y2MWI0clRIU0pOeFNQaWZOSzlCal9JdXZnZVg0SVZUQUVReEVWZw?oc=5",
+        "source": "The Siasat Daily",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T07:51:00Z",
+        "title": "Tanker struck by unknown projectile off Saudi Arabia - The Siasat Daily"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYVh4VVZwZnc1SDc4blBvYjJuQnk3RkEzU0F5Zmo2RnNHSmVQRE03Zy0zYnV0VU1IMDVFV3YtTHd0WDV6c3U5TjZPb1ZNVjdlcWlwWHgzMkZtdEJVZGFfeEpaem5Sa2ZDV1gwM04tXzNwNmpWMWxNY0JNOWpWbGlyV3JPRTNBQ0NYc1hnNjNudkp6ZllKLVUyR3dILXdIdw?oc=5",
+        "source": "UA.NEWS",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T07:29:24Z",
+        "title": "Unknown projectile hits tanker off Saudi Arabia — Anadolu Agency - UA.NEWS"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTzY1N0xES2tmdlg5Q3VxZzFKdGN3eWxmRk1ZVTB6V2ZxN3N2VDdidmxaV0pfUTBEM2xoeEwwY1ZQM3pMSGpKb3FGWl8xeW9RWkFGdkRDelEtTzA1VDZ5aE50ejFfVUUzdFhQQnVPUFo5aXNtT0JBRDJpbERCd0pNZXdfZWpPSmpXYmxHcldmajZSZTE0dFBhQWNvdG0ybW5hUjhsX3l4cUE2eFhodkZRWlBqV1hMUFQw?oc=5",
+        "source": "Middle East Eye",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T06:51:00Z",
+        "title": "UKMTO says unknown projectile hit tanker off Saudi Arabia's coast - Middle East Eye"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNFplMlRRVkdJbkM3NHJXNXVsdjNoQW5EX2FnV0FpOUlWVERFdEliZmFZLXhGNG5VTHhZWnBhRVdJVHYyLTZIbl9FVUt1THA5Wkt1WHlOQWExeXV5eS1GZTFTTzRSa3VUamlWNTdEcDAxX25qbmIzUmJ5bTdIcW5ValJ0YS03b21MWnhxRjln0gGQAUFVX3lxTE5Qemc2dnJWRXRCSnBtak1Hc3J2SWNrTE5DVlgxM09LV1FvangycDYyaE1PRXZua3BVVTBvWS1kN1YxU2ZWZHBBYWtNblE1dlNDY1ZrSDhVamk0d1JTVWE3bGRPb3JpMDBpODdOSDlnSGg5SS1sNTU3d1c4UkEtMjM4Q2hlQjhydWRqTXFlcFh2OQ?oc=5",
+        "source": "AKŞAM",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T10:20:00Z",
+        "title": "Basra Körfezi'nde tankere roketli saldırı - AKŞAM"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOV2NNMUl1X3hlVWdPbkdnNEpmWEM5dGthNk5MZU1xdjFPUW5uVGx5YnFkbENnLWZPRkczaDdqVGY2QmliVGhTVms4ZVhzNnVyRG1lb1FPaGFOVWt2c2hUd0Y0b2YwMDNjejNfQ0Jsd1llUHh1a2lKRjNBekt1MmdnbTF1YWZRVW1NRU9kcFhrQmVXeGV3b0tXZw?oc=5",
+        "source": "Operativ Məlumat Mərkəzi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T08:16:12Z",
+        "title": "Second tanker attack reported off Saudi Arabia, UKMTO says - Operativ Məlumat Mərkəzi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQODhHOUdHQkxPLUk4azR4Ym8wSGVqalJjaDNvaENKakMzZzEzRHBiS3liUE1IbjZmVG9ERzlnREhOV2RoMUZacTNhaWRXX0J1WU1fcFFzM2FmVWsyRFJFODEtbTd2MG9PYmhlWk13SEpUOURBOHdHanhsN0Z1a3Rzb1FzdzlxajRzenBQYUJhM3hFd0I1NEJkR2NxZ0tvRDVWeFJobi1KZm9mZFk?oc=5",
+        "source": "Anadolu Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T08:12:05Z",
+        "title": "2nd tanker attack reported in same area off Saudi Arabia: UKMTO - Anadolu Ajansı"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONTJzU1lUaS1NVEJQNlRUUEhtUGoxb3VWNTVzaGlBdUx2OTlZbzFqMEl6RW1RczJsQTdteW16NjJfRmR3cWk5U0ZDejUtSVYwMTQ3QUJodmRfNTJWQ3hfVFNBYjdTcUsyN0pBeDBGWnpOcjZxVzl5QkRsdTdiMzhFb0RJaDI0NXV0?oc=5",
+        "source": "The Hawk",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T12:48:00Z",
+        "title": "Tanker attacked northeast of Saudi Arabia: UKMTO - The Hawk"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUDMxbWQxNFMtdkxFSWY0cnlOVHBkYTZvbFJscTVfdXpsR2ZIcmxNZV9pMFNDTmFIcVJPQWNOVEZsbTBmUkljcElMSDZBcWNXRHdDVWQ4MnlzMVI0X3YtdXdfV2NmYXhWY1UtUlpfMEpIcmp2eHFhejdMNDFuaHd6LUp6YUFEUDN3dDFLM2NidTgtWmZiSUZtcNIBTkFVX3lxTFBMUWNINkhOZzFSRS1wdXIwQUs1Z2wtZW9XTmU2ejhMRW9mTjNMRE1rNFZ5eWN4YU85Tk40VDQ1dmw2UkRUREQzMk9qTjU0dw?oc=5",
+        "source": "ISNA News Agency",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T11:33:33Z",
+        "title": "Tanker attacked with RPG northeast of Jubail, UKMTO says - ISNA News Agency"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5vemFHb09HMVpiWmZCVXFoN1p2bGZuNWQ3YVVlb2lJbC1VcGZQTEx0aUNZSTVyN3pvU1AxVkt0UG0xWnVQVWdyMmZTc2RQT3lKUkRWNmlOOUxQU3hKZ0dZYnB4NGROVmJBbFI0?oc=5",
+        "source": "Rudaw",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T10:10:15Z",
+        "title": "Tanker struck by RPG off Saudi coast: Maritime watchdog - Rudaw"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9JTzdJbUlTTjdnVmxqcGFFVFRzOUNJN3Q1aXRuOG9saHFMTzJzZ0U3YjdpckJ5TndUTk5qSTR1RXdsWi1pTmZUeA?oc=5",
+        "source": "https://www.elzmannews.com/",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T09:50:14Z",
+        "title": "هجوم ثانٍ على ناقلة نفط قرب السعودية.. بلاغ عن استهداف سفينة شمال شرق الجبيل - https://www.elzmannews.com/"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBEM3l0V2V5dHhfa0tScHhFRlZ5c294OTdTVmhDTF8zYUNVdUhjWnRxZlBYb1JsaXRsbDVEcjBnTFp1VG1OMEE4ZnE1cElSQzBlTjE4?oc=5",
+        "source": "Aaj English TV",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T08:46:22Z",
+        "title": "Second tanker attacked off Saudi Arabia, UK maritime agency says - Aaj English TV"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUUFiRVZ4QTZXdFI3SThOLVFsbTlZRzcxX3FxNnNMTHc5WUc1bl9zcEprRVotZl9VV3Zaemt6d293NHhQUlgzTnlpTHlYbmRZV204R1lNSXNJYUQwNXp0Vk9ZLVV3Nml6Nzk1dG00NWpxNXNEVTRxalNiR3BCSGRoNnluLTZjQ0txZVpqR3pGSWNEQldZc3lNOWlPRWNQNExtWDVfUDlEemVhMzVTODBnNHd5cnpNYTVKU3NwUm9uZTc5RW9DMjYtdk1aOXBNZ9IB0wFBVV95cUxPQjNob1JaSUVhWmRTYlctRUtDN1FIQXBHSU8xZVBLMm5GRG1vcGtTLVl4cW1iM2p6WHJTbWpRZjlZVlNUSzVhNjRST01DbHZ4aFdaOTBRS2VhTXdlMnI3alJMb25seVhKSjlGdVQtNzhWWTQyLUVJYzVFNzBGek9aVnpySjM4TE5SVTUzcFZQNjVzYkxLdnM0VTkwcHJmbW9UN0xFNTN0RFM1dXNzejh4aGt6TDcySjh4eEhsdWpZcXN6ZnUtQXVySTNYeE9IZTNkbmNJ?oc=5",
+        "source": "LatestLY",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T07:42:30Z",
+        "title": "World News | Tanker Struck by Unknown Projectile Near Al Jubail in Saudi Arabia: UKMTO - LatestLY"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObGNUajNxQmNsZGs0WlRfWmxlWXctQTJTbVk4MnV4TUpkOFIwNWtabkl1V1NlQWtLVkNMdVc5eEFJdVpjUzAtUXlSZ2ZkZlIxd3VKem5La3c4WU1DWW1OLTZlRWR5dFdCNVkwVDhIMi1LZmZCa1BQOTlHMm5lSkF0ZF85TEVfM1o5U1h3S0F3Yk9kenJsRlZlbzdNelllbTNGZUtJSmR5ZmlCTE1tNDRiYU40bw?oc=5",
+        "source": "Anadolu Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T07:21:20Z",
+        "title": "Tanker hit by unknown projectile off Saudi Arabia: UK maritime agency - Anadolu Ajansı"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYU1ZMW9vMzVKNVhVQ0V4eVE5czZxWFp5S1R3WEpLTkxyMXRFT0Y2YWNkZjhlcWtMdVRjaUxnQk1wSHYwS3BkWWgydTZKUVNkVzI4WGE0US1zLUpDTzNqeWtaYzZ4ZG12MnlxVWkwMlVFYWhXRmd0NU5td3dhejhhT3RWTkFEMWdCVkJrUldLWUV6SExWWm5UU09na3FqRTVRbGtjeHdCUERkMWhnbmxtdk5zV2NGUEN4WERyTlJFQ2lUNUphTTFMcjAxRUY1NVk?oc=5",
+        "source": "Foreks.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T05:22:47Z",
+        "title": "İran: Hürmüz Boğazı'nda bir süper tanker mayına çarptı - Foreks.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE45X2JCSGtJaHJHWEkyeWZnQnpKYXpFYVp6WnNxZkpIdEhHY2xjU20tV1BxSzJkTVc5OWFsandnTjUyM0hmRlRZQVNraEZuYmxuRy05WHY2OHU?oc=5",
+        "source": "TRT World",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T09:03:20Z",
+        "title": "Iran says oil tanker catches fire after hitting mine in Strait of Hormuz - TRT World"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbTVJWkNWMEtwLWYxZGRNcGNkS3pQMGhmTGUzZ2F1MVVrM0JJTTgzbGhnd3k0aldmOVAtY3NaQ2hMMGJLUjN1XzlORFJRTkY1bS01dkhndjI2VVZTd091MWgwWDdpbTNhRjBnYks0SHdST202MnQtOVpPSmRHSFdkdHBsVGJCQnAwcE91M1ZhZGZYR3VqajM1SGxBYmloMDNSNVE?oc=5",
+        "source": "Anadolu Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T03:19:05Z",
+        "title": "Iran says oil tanker hit naval mine in Strait of Hormuz - Anadolu Ajansı"
+      },
+      {
+        "url": "https://gcaptain.com/irans-guards-say-two-tankers-hit-mines-in-strait-of-hormuz/",
+        "source": "gCaptain",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-17T14:44:46Z",
+        "title": "Iran’s Guards Say Two Tankers Hit Mines In Strait Of Hormuz"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNa1dZY0plbGJEeGMzT3Ywd0VDQ0pwOVh2OE5hTEVZcFVRaDVUYVZYRDNqOW9MN3ljcU5UV042M1VFaUlfcnVqdHhhUVhHR1FlSzZraTkzUVdDSEphUjNxZGVmSERDckJmdFVUY1hKMm1OZ3NjNTktcmF2SHplWXlaeTZEODFnSXJpamfSAYoBQVVfeXFMTWtXWWNKZWxiRHhjM092MHdFQ0NKcDlYdjhOYUxFWXBVUWg1VGFWWEQzajlvTDd5Y3FOVFdONjNVRWlJX3J1anR4YVFYR0dRZUs2a2k5M1FXQ0hKYVIzcWRlZkhEQ3JCZnRVVGNYSjJtTmdzYzU5LXJhdkh6ZVl5Wnk2RDgxZ0lyaWpn?oc=5",
+        "source": "Mangalorean.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T14:41:44Z",
+        "title": "Tanker attacked northeast of Saudi Arabia: UKMTO - Mangalorean.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeld5aTRGbW5uaGdVM2hvQUh2Y3JGeFlsSGZxd3ZYaUQ1Sl8yNjlFaWtQM2FNTkY3UngydWpsT2wzZjIxZlo5OWhXQlZ5LTRLcFczYmpxRC00NGh6T0g2MUZROVlQc0hQdHFhZmVkNWV1U0dSUVZlUmpUc1pIMXlYV1oyQzhnRWwxRklEdnF1UU9OZzV1M3p0NnFHVW5Fa0psY1poUVI4M3g4dUVIV3haUEt1NkdLYlNPOXpKaWpSbnBCTXJKTVk2OGw4bGNMZmZ00gHQAUFVX3lxTE96V3lpNEZtbm5oZ1UzaG9BSHZjckZ4WWxIZnF3dlhpRDVKXzI2OUVpa1AzYU1ORjdSeDJ1amxPbDNmMjFmWjk5aFdCVnktNEtwVzNianFELTQ0aHpPSDYxRlE5WVBzSFB0cWFmZWQ1ZXVTR1JRVmVSalRzWkgxeVhXWjJDOGdFbDFGSUR2cXVRT05nNXUzenQ2cUdVbkVrSmxjWmhRUjgzeDh1RUhXeFpQS3U2R0tiU085ekppalJucEJNckpNWTY4bDhsY0xmZnQ?oc=5",
+        "source": "Dynamite News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T13:41:38Z",
+        "title": "Tanker Comes Under Attack Northeast of Saudi Arabia; Crew Safe, Damage Assessment Underway - Dynamite News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQT0g1M1FUR2V0Mkw0M3lXd0E5SnVkSVJETS1TZ3RpTTkzSUkzVkFzLTZkZGdCblVpT29ObVpzUm56RW93ZnAwTE1sUGxpMVhUaEU4SldBZnI1eFFBRG4wYnhKdjVqaXMtWnVFQjB5ZWlYSUNNMVdzVS12d2JWMkdTYzF3WFYxcnVCclp6cWNRaDMzZ2NVZzFqOTBCTWkzR1c3UGQtY1RQQXVkZ1Zua2pKQkpEZFJ5dUloQi0zU1pyVXF3STNkd3R0StIByAFBVV95cUxQT0g1M1FUR2V0Mkw0M3lXd0E5SnVkSVJETS1TZ3RpTTkzSUkzVkFzLTZkZGdCblVpT29ObVpzUm56RW93ZnAwTE1sUGxpMVhUaEU4SldBZnI1eFFBRG4wYnhKdjVqaXMtWnVFQjB5ZWlYSUNNMVdzVS12d2JWMkdTYzF3WFYxcnVCclp6cWNRaDMzZ2NVZzFqOTBCTWkzR1c3UGQtY1RQQXVkZ1Zua2pKQkpEZFJ5dUloQi0zU1pyVXF3STNkd3R0Sg?oc=5",
+        "source": "The Hindu",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T11:18:21Z",
+        "title": "Oil tanker on fire after hitting mine in Hormuz: Iran's Guards - The Hindu"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNDZxN09RLXNuaEpfdzNaQ3lhdzUyM29wSU84bG0tR3hpRm14NWM2d0hBbmtSVmtxM0hSZmhLMXQ5bFhCVTNKaTNkLW1LcUZRcEhlS3g1dmNMU1hFY1ZMYUJqaHBRQ0UwT3ZCNXUtM1Zwa3VxeDJxUmYtUXUxNXVKNk4wWHB3V2NaSkZEYk0yZkhXX2ZhMGtVZHhhcVhCOW9OUXp4djVwbGZ4UWdMa1RpTUJQenphV0RHTTFpejNMdDJtdw?oc=5",
+        "source": "Reuters",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T08:05:13Z",
+        "title": "Tanker struck by unknown projectile off Saudi Arabia on Friday, UKMTO says - Reuters"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNZEs3MS03YlJNR2hIWDloMS1hdTRLRjBnSkZuYTFRMVYxUVRwdzN1RlEyV0xCbVNwV0RDNkRGME4xTWEtS3R5UVd3LXZsZWxiOFc0THpZRHN1YmdjdUItX2dIc0VTd3huU0VFSFlqQkc3ZTNjRlZFajM0YVZMRjhHTEpNeENwRXhwellhMWxDU3Z3c0xnYldpQ2ZrOG5NUm1KaFdOR2tIVVluMVh1d0FHekRvV2FEaFBoTERkTWx5ZGtwSFdRWGNDeGpLQ3FpRWdzQWFjYnFfeXJ5eXZveGFBWXNjUkJQQXEtWHEybXV6VEVSMnZWTnl3cEpJZHVtTFBFSWVKYkZPY1JqcXpCejRKZGpfdk83V1nSAZcCQVVfeXFMTWRLNzEtN2JSTUdoSFg5aDEtYXU0S0YwZ0pGbmExUTFWMVFUcHczdUZRMldMQm1TcFdEQzZERjBOMU1hLUt0eVFXdy12bGVsYjhXNEx6WURzdWJnY3VCLV9nSHNFU3d4blNFRUhZakJHN2UzY0ZWRWozNGFWTEY4R0xKTXhDcEV4cHpZYTFsQ1N2d3NMZ2JXaUNmazhuTVJtSmhXTkdrSFVZbjFYdXdBR3pEb1dhRGhQaExEZE1seWRrcEhXUVhjQ3hqS0NxaUVnc0FhY2JxX3lyeXl2b3hhQVlzY1JCUEFxLVhxMm11elRFUjJ2Vk55d3BKSWR1bUxQRUllSmJGT2NSanF6Qno0SmRqX3ZPN1dZ?oc=5",
+        "source": "The Sunday Guardian",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T07:41:10Z",
+        "title": "US-Israel-Iran War Latest Live News: UKMTO Reports Tanker Attack Near Saudi Coast as Brent Crude Oil Prices Surges 3.7% to Nearly $110 a Barrel - The Sunday Guardian"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdkJIdFVBcm5TZ1ZFVG1vQk5qQk5tdDhZZ21rbXZYQWZYdkk4S2d2VHA4LTA3ZUZhaVdKUUxZVkN5ajk1S3N0TVpXQ2RDbXBXT0NsMHJsRnJkMWUwdDZBblNXQ2loZkVhdmVhWW4zS3p3blFZLWRpY0tvWjkzT1lPcV9OZFQ?oc=5",
+        "source": "Latest news from Azerbaijan",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T06:53:22Z",
+        "title": "Tanker struck by unknown projectile off Saudi coast: UKMTO - Latest news from Azerbaijan"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWmtpdldLWjVHeGFnX3l5YTVYSkFOZndIaW9UcDhqdjZhNVVHd1FQV082NnVBZWppWlgwMk1HRDAteV93OW1DZ2FMZGRtSkVIS0R3NHVDUEFoV05iT2pVUnRmeUJjMHFHVkVLS2cycUtiY2dsbHFQcWp6X3BsY2hDQW1ZSFVGTC1Fd2ZhbkxXTzdRaGI4eFRkX0NPZGszQXVkSmp3ZjFIbGF6RXBHdFlNQTl1LV9zOG0wSm1CYUtpbUN0NWdnTFZQR0RiSWdzWHJBNFI0?oc=5",
+        "source": "The Times of Israel",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T02:04:41Z",
+        "title": "Iran Guards say oil tanker exploded after hitting mine in 'unauthorized' route through Hormuz - The Times of Israel"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRFBnci02ZzVzS00zRkdmc0Z5U3ByTEU5N1Y3ODVhNzhuN0J4VEVlX3dkTFhwdXY2N0JHcS1ZOHVOVEdaNThjLWVUVVlSOUFXaHdiYW9kTkxKS3p1TkJwVXVQTU54UTd5VnRPUjhEUnRJUUlrR2lNeHF5LVB0U2VNNEl0UkFSb1ZESlNDQ29iLWk4aUg3QkdNTFpVS1RwUGFiOGp3X2E0WGh1ZmdxMWY1S1FrbG1mV3cxM1RwZzBVM1NEaXl4VGJHWEo0SdIB0AFBVV95cUxPeld5aTRGbW5uaGdVM2hvQUh2Y3JGeFlsSGZxd3ZYaUQ1Sl8yNjlFaWtQM2FNTkY3UngydWpsT2wzZjIxZlo5OWhXQlZ5LTRLcFczYmpxRC00NGh6T0g2MUZROVlQc0hQdHFhZmVkNWV1U0dSUVZlUmpUc1pIMXlYV1oyQzhnRWwxRklEdnF1UU9OZzV1M3p0NnFHVW5Fa0psY1poUVI4M3g4dUVIV3haUEt1NkdLYlNPOXpKaWpSbnBCTXJKTVk2OGw4bGNMZmZ0?oc=5",
+        "source": "Dynamite News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T13:41:38Z",
+        "title": "Tanker Comes Under Attack Northeast of Saudi Arabia; Crew Safe, Damage Assessment Underway - Dynamite News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPd0tTOV9oeU9XYzNmT2lFMGsyYkFXV2dFYm5melR3ZzduU0xkWUVzVWlYWVVEb2ZSRGstdVBsekZuZnNCRjlhdXFPZFAyNWN2VlNVbnVOSDhUbVhlV2tMR2NOWnFxY0JVRGdGdG1CQTVDb2lGV082S0hSejdVVS1KTTNTQWMxY0RjWWxwZXhaYlQtX012V29GVjI2dk1UNmpwY0E3VlBmaDdwZE41aVVSMVhlSVY0aThTMlhFQlZvS1VBTmxlTTNJU04xZjZDR1gyLWt3dnVjNmtmaFBiYXFmbnlPc3ExLXfSAewBQVVfeXFMT01ORGVuZUpOR1pCUlFldXZ2OW1GR0wxRklvY012LUYwSTAydE9UeXlGckc1NFUzTUdISUYzZEoxQXZhVERPLU05MkhaNkFseGJwT25CVHZ0ZUxCWnZET3U1bW51a0Y0T3R6X0dDYnZtVklRelc2N25VVFRjckxTNnlFZXFzc3Qyb3VUNTJYdFhGazFfX2ZKeUFQNGtkYlNEZTZNdUwxV2llNDAyZVlYMndBR1p2QVV0OEMtN2VFMllvbEtib0t2S1JSYVBzS1JBd012VDg0bmt3TUVFMW55TVUzWEZzb2FFdkJRWW8?oc=5",
+        "source": "The Times of India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T20:25:50Z",
+        "title": "Tanker Damaged In RPG Attack Off Saudi Arabia's Coast, Crew Reported Safe - The Times of India"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWTN2cDRHMjRaTy14SkpHOWF3enBvalU3VjA1OXFiUWNSaEgxbC1fd3pmSzEyYW1LWEJmTjdIUTVfTzU0VEFFN0tXRWlfWlpNVG05Mml5aTU5c2tsRmpSN3liTWNSTG9CU0E2UnZvdzhrNjRRSmdvZmxadmFMYUsyaFE2dGtGdmp3SkVBeTlwRDRSc1FVamlEUElBd09UZHlhY1k2Z3VR?oc=5",
+        "source": "Anadolu Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T08:12:05Z",
+        "title": "2nd tanker attack reported in same area off Saudi Arabia: UKMTO - Anadolu Ajansı"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNUm5kdGxSaFBXb2dxcWJKdGxGN1FYMnZmUHlxV1VqTDUweDZjUGZfVExUaEpfWC1vM0N3a0ExemRQMnZ0cEliRWt3Tmw2UVJlZXVOUFFnbjZMRnJxbEFsemN5c2JJRFYweTNVU3FZWGpZd1NlWVJyQUZwMGVBQzdBZFpHN2VMRkRfREU2TFc5SzE1RGVCal96QzlSdnAzWFZuSGo2YWxxNXZycm1JM2p0VFBNMnVuaDR4NjY2NzBtMldjcXBpRExsU3FmMWhvZk5hSzZlQWhOUTRtaUlsVTNDYWRRX290bVZMRVHSAeoBQVVfeXFMTVJuZHRsUmhQV29ncXFiSnRsRjdRWDJ2ZlB5cVdVakw1MHg2Y1BmX1RMVGhKX1gtbzNDd2tBMXpkUDJ2dHBJYkVrd05sNlFSZWV1TlBRZ242TEZycWxBbHpjeXNiSURWMHkzVVNxWVhqWXdTZVlSckFGcDBlQUM3QWRaRzdlTEZEX0RFNkxXOUsxNURlQmpfekM5UnZwM1hWbkhqNmFscTV2cnJtSTNqdFRQTTJ1bmg0eDY2NjcwbTJXY3FwaURMbFNxZjFob2ZOYUs2ZUFoTlE0bWlJbFUzQ2FkUV9vdG1WTEVR?oc=5",
+        "source": "Emirates 24|7",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T09:36:00Z",
+        "title": "Tanker struck by unknown projectile off Saudi Arabia on Friday: UKMTO - Emirates 24|7"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQ1lmQkJVUlJnUjR3TnY5YXlvNWZLOFZhdVJKMkdWSUJ6dWVvWFk5U1pNQnE3bkcxNmV4ZXVKN0xKV0xVRVpiZjNvOEt6Ty00N2l3bTBFazIxUnVhdmx2Tm1ST1J6aDhIamdaZ0s2R1NscHUybHJScW42TWlmVzF0ZG1WT2Jia0tMRWg5ekF6MHVSOGhZNGlRUklzOExqT2E3RHNra1hrQk1aa040WGVSZjdUTVFQOEVvWWJLRw?oc=5",
+        "source": "Zamin.uz",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T18:28:00Z",
+        "title": "Hürmüz Boğazı'nda 2 milyon varil petrol taşıyan ikinci tanker deniz mayınına çarptı - Zamin.uz"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMW14blJOd3lhYWVqdTBhSlBPbzh5VFd5M2Z0YzVoRXNGWnM1S1plWkNJa3psTmx4VElfZVJ0emd3TElRajVTakhtZDZEWjhUd2E2dHF2NXBDR1JLRmMyUlJhZmpmY0kyLUxwVGZzNHdraDk4QTRUTnNNSGZod2tPUXIzTjIzdFh3WnIxZGN5RWxYOW5XT0tBbkNIRkp1LWluckphZ1pwTQ?oc=5",
+        "source": "Channels Television",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T17:47:41Z",
+        "title": "Oil Tankers Catch Fire After Hitting Mines In Hormuz — Iran’s Guards - Channels Television"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE56Vy1TbnphQzJfX0RwR01PQll0QVZQbEc3c2JkU1VMX3k4T2lmVDlDZ3k3b0dfMV9yZTRKQmo2LWpXUGE4T3Q4VGJ4SW9BaHJIM3c?oc=5",
+        "source": "Iran International",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T12:17:17Z",
+        "title": "IRGC Navy claims second supertanker hit naval mine in Strait of Hormuz - Iran International"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqwRBVV95cUxNWjl5V2g2Zm1ZWmc3Z2ZlR3hiVHFpcnQtdjJLZWhvZVpqbEpQYS1KRjQ5X2lyUmZReWFHdHdqb3BwQVA2X2tZV3N5UWlnUjlBd0lKWnRLX2hSRlRRdm1EWDBqZ3R4aUVBRDNmemVuellxcWlzYzF0UFFEVTgtbi1raVN5aEN1X1lPUHYtVTZDVGNtMDM1WlJhYWplXzRXWTdVSXJVQ0tuR2NVSnNGYjlpWENpOFVrcXduYnBOVzZONEh4eGZvVFVId1Axb2t2djhONEhBZ01wTWlWSWd2c3NkOEp1blczRy1XUFpsUGNEMXFIbFNVU1NjQ2NmOGViMjJNd2wtNTVBaDRhMkVvbkVMTlNKbTNia1BNOHlXdVJvYVRrUV8tZmdFa2FjZGFWZ1NNc3dUdkYxTnRma1Iza2JxRERMbHFmM0c5MXRfZjVFdll3blNJOGh5dkR4NkFXZmpENXVseWM0RmRFR1Y4SjluUjRvWm54MlhCZy1qWEVIcTkzNWk5TEtsU1RYVXI1RkJPclV0b3RIa2J0TzRCWmwtd0ptbGhuRTB2bW9nVlNVeVFVRjRiV1R0VkFwTmMzdUFvcFZaRVRNQnZ0NEhiZFZWbjlaTEYtd1NwY2YwMmpSYkROOHl6VnZLamtKVzJsZFo0ajFZcFFQb1BydENPa1ZsMERYRU1SdS1IblBaUVE4VUFkWjVzZzV6N3ZkNGNpVXZlWkhEZUNpU1I5enM?oc=5",
+        "source": "صحيفة الخليج",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T08:16:36Z",
+        "title": "استهداف ناقلة قرب السعودية.. وانفجار أخرى في مضيق هرمز - صحيفة الخليج"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcEhpeXZhQ20xWmZjb3p1eUJRVEFVSi1QbWJnUFZpRE05QmJUd0hhMU9OQmlqMmxPemhUTGN3ZmF5YlU0LUxkaF85M2JEVEpRT1FaMVAzaV8xNTBNeGk1YUlIRVNzRFNQVkpfY3FwWllQeWU3Mmk0NEpVaV90Tkp2ZnRzQ2xaZzQ2OGRLbUp1dUVNenlPUFVuQUVGRUVKSUZRbDVVR3hjZElfSFNONWhieWF5S0_SAboBQVVfeXFMT2UzSjBRSnAybzdRcU9NRWpyV0V5SU4xT1g2LWlTNWlraWJDeFBMSDlSbGVNc093MmJCOTROSjQ5bE50Uk1WSVVMNDZGN2VRWVkyRjdFdmV3QzliaGtBci1FcjRTbll0UmZQZmJTT0tXR05oVGdjRlU3Z1FvcTNUWXVPY0drS1BvamFZdWkyU0w0QU5oSjAwTnFBU0hNc2Z6dC1yUk1ma0dDNGpZX2RuVmxEZzhrUUI4bHhn?oc=5",
+        "source": "Al Jazeera",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-18T02:02:44Z",
+        "title": "Iran says two tankers catch fire after hitting mines in Strait of Hormuz - Al Jazeera"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMFNFd0tKTnFIQVJrYnJWSkE3TUk5NGJZUmJNWGNsYmJzR2lGZkJYVnh4cXdyTEhwQm9pX043T1V4ZHBtdVpkT1MweUZpREZGT09iRTRzcC1Fal9fc2VHV05nQVU5bnJ5OFpWWUNHOF81OHF1UXVaTVZ6NF9MRm1mUHc0d2g1dkNE?oc=5",
+        "source": "Daily Tribune",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T16:26:15Z",
+        "title": "Oil tanker on fire after hitting mine in Hormuz - Daily Tribune"
+      },
+      {
+        "url": "https://www.ukmto.org/-/media/ukmto/products/20261017-ukmto_warning-175-26.pdf",
+        "source": "ukmto.org",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-18T05:06:07Z",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZFZKRTIzRHg2Ump1QWlabFBhQXlBcFZaa0VZZzZzZXd2a1hYcTVYb3V1RmczYm91bzhBN2dKbVJLTDBfemNXNHdEY3EwT2ZhTnBYQU1TNHN2MEt1dk9JNjZudUJtTG1GelBnSjFQell6ZnA0WGdQYmJoaWNZdXZIUS15NnVEV215WlhTTFktY1BmQ0lfZkVBV1I0ZWJ4N1EzSXlabWVldXJ2TXhpV0FOcnMxM0JiX3hy?oc=5",
+        "source": "Wake Up Singapore",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-18T07:30:43Z",
+        "title": "Massive Explosion Rocks Oil Tanker as Iran Claims Vessel Hit Naval Mine Amid Gulf Shipping Attacks - Wake Up Singapore"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTUVNeGNBbXAwbEtxNGU3RVNnOVhEV0R0U2FJMDMwc1oxVkZrd2tJWDcyYUZpb3V3OWpvR2xmRUZBX0tLMGhuem9FUFRrcTN6azZHT1I5T2VhYmQ0M1dWZ1RCWFctUVFKSGlOUUxSaFdOQlVESF9Edjl6MWNHMC16ZjFjWDg4NV9xS2hmMHE1Rjl0OVp4OFE?oc=5",
+        "source": "Kibris Haberci",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T19:20:03Z",
+        "title": "BASRA KÖRFEZİ’NDE PETROL TANKERİNE ROKETLİ SALDIRI DÜZENLENDİ - Kibris Haberci"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOalRPcFBjQW1GNUZvSkFkMVVFNU1vMlg2SzlSdGNySUVMZzJwM240SmFudGg2R1EtZWtpMWNtdmI5cWN4ejNoNFlCTHRXeWpsMDdkNkpDMm1nZ2hPNEdRZGxHTGZRTkxxZGJEdUxuYXNNandVM1l3dm8wakd4dHo5ckY1dzI4NkNnMjdsVTBUYmxmR2RJcWpIYkV1NXhMT3hjNEhSSk9fb2dlNjAtSzZPbk9neTUtc0g0UGpIcHpqNW5hSWlwOXVSem5qdXJSR0hGVTA0cE1RNjJXUEx3MWY3M0dhMUdsRnZWYzEyaDNCMGo3RlRjOWfSAfsBQVVfeXFMTVpsekdlLVhQMF90V09wNmhjb0tzcmxnZUtlTWlJdy1ZQ0FnLWh3Y01HRVlicklZVjZWcm55b19PSTRxS1JDTWFZY0NUcDJ1SHg5bVFiUVZJQ2F1ZTBLclhrTXBGQzN1LUhxX29Ha1NfbFRJNTE0Yy1WU2dCQ2NvOEV4ei1oTE5pYXRab0hBZGlib0tfcFFpNEpwWXlVbF9DUURETll5Z0JXcHZWcnZabEg2REdGNU9uRW1rX042UkExNlRxWWRhcHBxbUF3bXp3TnFIal9lMU5ZMFdwT0tLTTFkV1B4LW1VU3dGbjRaWDlfXzJYSENrOUpPdG8?oc=5",
+        "source": "The Times of India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T12:05:46Z",
+        "title": "Houthis Strike Again? 2 Ships Bombed Off Saudi Coast As Missiles, Drones Hit Kingdom - The Times of India"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMnVyMTc3UkFHSGNRT0tMQW1DQlh5VXpuMmJHMlNERjBRQnVLcWZLbVlXb0hTbS1SMzY1ZzFLU0s2WV91cl9FTHRueE52ZmF3bGhXNV9mdXdZX3NFLWNNa29nUi1ncWp4SF9NU2pLbjJBcmlLdlJXTVpOSkU0Q3dhdllOdlM3S1lGM0pESFBuc19qYUQ0bVV5eTZTRkc3YVlRVjJCUUh0RFJvcnJpd0pkUDNydWLSAbQBQVVfeXFMTTJ1cjE3N1JBR0hjUU9LTEFtQ0JYeVV6bjJiRzJTREYwUUJ1S3FmS21ZV29IU20tUjM2NWcxS1NLNllfdXJfRUx0bnhOdmZhd2xoVzVfZnV3WV9zRS1jTWtvZ1ItZ3FqeEhfTVNqS24yQXJpS3ZSV01aTkpFNEN3YXZZTnZTN0tZRjNKREhQbnNfamFENG1VeXk2U0ZHN2FZUVYyQlFIdERSb3JyaXdKZFAzcnVi?oc=5",
+        "source": "Dhaka Tribune",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T09:07:50Z",
+        "title": "Tanker hit off Saudi’s Gulf coast, crew evacuated - Dhaka Tribune"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE56NHllcHdrdnlsY1VLd2t1OFdpc3NtSS1UU1FGczdrM2U1bGpfVG1CTHVuRUZKSGNkcEc2dnZudmt3LUpzSnFqZXlSYw?oc=5",
+        "source": "الوقائع الإخبارية",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-18T08:35:41Z",
+        "title": "استهداف ناقلة نفط قبالة السواحل السعودية وتحقيقات حول طبيعة الهجوم - الوقائع الإخبارية"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5fWU5qZ2R1QTRSdE90ZjNFQkFMM3Q1OFEyT0ZfUkxjZjhvOFAxZTlvWE5oaVdVQUFlTGgwRU54SktxNFNFT29Pelp6RGw4S1JwRWN1UG1TMA?oc=5",
+        "source": "Wake Up Singapore",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-18T07:30:43Z",
+        "title": "Massive Explosion Rocks Oil Tanker as Iran Claims Vessel Hit Naval Mine Amid Gulf Shipping Attacks - Wake Up Singapore"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcTYzT1RXeDhsZTV6bmtSVzdFV3ljZWRVX1c3eVBjTWVidVNNUzByMFNWUWJQeV9wQnhhdGVZbWcxMUNuNmJrQmxaaUlMckFyS1hWQkxLMGhveWR3MGI5T29pTzhiX25JU0RlV2I5eUtvVlNjMkJCUjdiQnVhZmxxcklSa2RRal9ZYlpxSzlfSGhocVEzWmdycnFlZDVfU3ZzMUVfWVk4Vi0?oc=5",
+        "source": "WANA News Agency",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T08:46:46Z",
+        "title": "Reports Emerge of Attacks on Two Vessels in the Strait of Hormuz and Near Saudi Coast - WANA News Agency"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRFRwU3gtM082TmQ2WXo4WWQwNTk1N0dSVldmLXRqaXVfaWRaZnpiVzh1eUEtYUtwLVVGc3NzcnpXYk5yWVEtNU0xSTJGUTY4ZF9CakF6ODhBX1hZWk9wLWdkTFppaWczcVBzcjc0Q09TUDFHOXhlaUdDcUNlUFhGeHhyWGdMWXh0REVWTnc0RjUzQQ?oc=5",
+        "source": "Gulf Today",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T09:59:28Z",
+        "title": "Tanker hit off Saudi's Gulf coast, crew evacuated - Gulf Today"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWnBXUU5TdV9KVHVWYl9zMWN5NkMzbE1majJWUC1mdWFQOTNZMFdYM1o4SWVuVHFoSDBGUDRKMlE5cVNtbWEtM3FuSGlLNnZqSVBzSWJ3eUNkeU5ic0h2dm9CMGcyMmEwNXY1dVIxYnA0ZTgxUFRtWkllR1NtQllGWXh5UlFMNWZSanJGSnp1UHk2Sjl5cGw2SWNTcE56WHJEZ21EaDJUQk1ia1A0?oc=5",
+        "source": "Free Malaysia Today",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T08:20:33Z",
+        "title": "Tanker hit off Saudi’s Gulf coast, crew evacuated - Free Malaysia Today"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPeEQ0V1FDZ3BmckkyWWFKaTJyNng3YVJVbV9CcnVoTmp4R1ZSaUFHYVF3SlQwNmpGcHJpSEdISEVLY2x3Z09PeGxTSHpJOENqNVlxRFVaclR5enFwVkJsQ0o5QzFoRGFSeWpBNWNKSktFT0d3ck93VGNnVXRiQkMwa1JjNndyMmt5em5XZzVrQkMxemZfRmtjSWVwOWVNcFVOR0lZakNiLW5hUDV5cUxyNlA0UF9INV9fR1JNMnBGQXFQUEhCbDIzVzlnRU1iUWtvRlBpV09UMjVlRUh2RTl0ZmRORTZoNkZ2bmRBRW5iZ2k5a3ZScUZvUjZIVW9PeGRWQ2R4Rnpaa3k5VUg5bmQ4ZE5n0gGXAkFVX3lxTE1kSzcxLTdiUk1HaEhYOWgxLWF1NEtGMGdKRm5hMVExVjFRVHB3M3VGUTJXTEJtU3BXREM2REYwTjFNYS1LdHlRV3ctdmxlbGI4VzRMellEc3ViZ2N1Qi1fZ0hzRVN3eG5TRUVIWWpCRzdlM2NGVkVqMzRhVkxGOEdMSk14Q3BFeHB6WWExbENTdndzTGdiV2lDZms4bk1SbUpoV05Ha0hVWW4xWHV3QUd6RG9XYURoUGhMRGRNbHlka3BIV1FYY0N4aktDcWlFZ3NBYWNicV95cnl5dm94YUFZc2NSQlBBcS1YcTJtdXpURVIydlZOeXdwSklkdW1MUEVJZUpiRk9jUmpxekJ6NEpkal92TzdXWQ?oc=5",
+        "source": "The Sunday Guardian",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T07:41:08Z",
+        "title": "US-Israel-Iran War Latest Live News: UKMTO Reports Tanker Attack Near Saudi Coast as Brent Crude Oil Prices Surges 3.7% to Nearly $110 a Barrel - The Sunday Guardian"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5wNmRfSXRPalJzNkF4RVhWR0NEX210UlFEZ2twZlpmZlREYzNnaGNzS2FocXN2UXY2OFF5MFVXWkJoNnhRUm92U3ZHOHc0QQ?oc=5",
+        "source": "Aaj English TV",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-18T07:37:02Z",
+        "title": "Iran's military says oil tanker on fire in Gulf of Oman - Aaj English TV"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPd2RRV0hvNnlEOUJsRXlqdDlqSGhvXzBFWXkzNWJ5c2RVT1dhclowOC0tQlJvOFRwbC15X29tSV9VeUZMV1l4X0NHZTlWYTJPejRjekRFb181WUVXVVdrSEFkTEU4YlBqTUVXclZscWpJMHU0ejdGek9pMGRwbFpUNTZWeXZKTzVtTjl4eGJEWjVISXdyV0o3ekwxZ2FEejd6SXFia2VtV3o4d2k2YzNsS1RaMVBKQlRPTnd5ZzRaZ1g2VTlCTXV2YU1ENUVIOHJD0gHWAUFVX3lxTFAzRHZXdk5NTldfT2NhdUtsRHhjcmxJekdfY3ZhdUlWYkJ5WUNBYjBYOWliZlhHOEM5dTVRenRJWDNNWXVkdXBGR3hTRnRhYy1iTDNlRVNlM3RTTnNkSnNQRnJXMlhzdGkwTVAxYnNZaktHX3lsN085bDJJcExFVDNIQzB2VzFERzA1VkMtUktRRXY1eENzb3RaR2d4MTJ5TWxIMWNlcWVGYkRGRDY2VlZpSldLMTFuVHppYml4b0ZRejFSQjY3VF9lVG5maGtOMERWeEVyc3c?oc=5",
+        "source": "English Varthabharati",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T06:17:53Z",
+        "title": "Tankers hit in separate incidents in Hormuz, Romania; all 24 Indian seafarers safe: Sonowal - English Varthabharati"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA1Nk9ZOTRZeG5kWVFKLVZnakVONnZLVXNRNlJsakFOYm5qRno1dHNoTXZlMHJnMWpaVGE4b3JVUnhjZndLX0RGQU8tMDdMdw?oc=5",
+        "source": "Aaj English TV",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T20:35:25Z",
+        "title": "Iran says oil tanker caught fire after hitting mine in Strait of Hormuz - Aaj English TV"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPc0N0OTFOVUxFLWwwVWJtN0k1M0VPYnl1WnVkY1NRNEtmVm8tLXVyQzRlN19oZndEYnFhNTVzekNtNDFJR2dTbWxmNG5hOUdlcTJZMjlEVHdHZjR3RFViMzhHOFZtVGxHY1VkdHA1ck1Ib21mQ2lreU1hRUZ3cUdmb0pSSWEtUVFxOHJTaDMwSGU?oc=5",
+        "source": "newskarnataka.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T10:21:19Z",
+        "title": "24 Indian seafarers safe after tanker attacks - newskarnataka.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQN2t0OGVSS2dGaU9MQXZCRVZPMVNpcU5rSEJRQU01VnQ3cDBjd2ZFSlZpUEU3Zm1UaTVDZHFXWnRpa2VJSjJWdTRyTXNrSjhEVHlNWkNxcmEtMUM3Qzc1dXBvNDNEVmRYOUFMa3VDaVFLQ1I1WjRGQXpVbDdjWU0tTnNTaV9pb01MbjB2WE1NZDFYQ3ROenRKR1F3N2NKWnQ1?oc=5",
+        "source": "The Insight International",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T01:28:27Z",
+        "title": "Tanker with 15 Indian crew struck by projectile in Strait of Hormuz - The Insight International"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdVQyaWl5dVdfdTBXUjctYW1IWmhpUzlRYVhzWEZFWi1kWDhKVmhXTzJXTTU2OG10X3NwcnRiTW1HWTgzMEV0RFJTZF8wV09jSWJqc2FiUU1LeC1HWTNUQ3RHRXFvWWVxcGVicXZUUjZ1YTFHTFVzcl9rVGlqVXpQU18xQnotem9IaHl1VQ?oc=5",
+        "source": "Sada Elbalad English",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T19:31:38Z",
+        "title": "Iran’s IRGC says 2nd supertanker hits naval mine in Strait of Hormuz - Sada Elbalad English"
+      },
+      {
+        "url": "https://www.ukmto.org/recent-incidents",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-19T04:34:57Z",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVEZOQkZlTnUtMEVkU2VpOWtWQWQzcXluLUE4eXd6OVFEb1NWcm9mNDByM3paam9xM09XV2FaSTIwVWtYb1Nqend6U2R6LUtCOG5zMm9nVng4YWtQWldjMjU0ZTZleHhwNHF0QkVKZWlMSVBYSTVkZUFuR1FYLWduX0xZM19FbnM5SVBJTXU3UDhkT1ZGSWpkYVVCSllhZXFnb2d0X2hudUltTUMwVWI2Q0tTaw?oc=5",
+        "source": "The Business Standard",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T08:23:52Z",
+        "title": "Tanker hit off Saudi's Gulf coast, crew evacuated: maritime monitor - The Business Standard"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQN3Ffc1FWQkJKSjNMZDllVVV1eG9DV1h3OVpSVHBNLWU0NXhWcDQ4V0xnM1hKTUZIQ3VKREF2UWhnWHRQbDJTMjhXdzNucTF3M2R0U1kyYmU2VmFLZEg5ODhseFl1LUVNYUZHTy1pamNkdzFBclVHczFhXzg0NVJWZEk2TVdXQUt4cC1FdlV0UVBFWGtuVzZLa2t1M3dYYVNQYURxYWtCV2s5NnB1TjVIWHlvb2hjZS1ZX0lCaFYxLWgtMGxmRDF4M0ZiX0M2Nzc5U3ZiMmVIckNwVmE30gHiAUFVX3lxTE1UY0g1RWVhT1VGRlhxM3VFNVlfWTdzUGtZWGNvNHNxa0NmX0dYeGhyWW1oYVA1Q0tYNmZrQmFJTV9HMEE0RUowSTdpVS1rdlI1TUxWTmhRY0pKQXBPc3BlaFVOcEMzbTMyYjUyd2t3VHloeDRKWENzMU9ZVGRJSFZsMlVRdngxUk0tZWlSeWEzTy0zaklXX1ZCTkxMV0NQNTdPSk81YURxRlZfZF9PZm8xR3paZjFFelVtdDV4dDJRUHJnNmY2LU94OGRKd1gydGhvX3NaQUt6VjMtN2djM2NHN0E?oc=5",
+        "source": "The Economic Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T00:41:15Z",
+        "title": "Oil tanker on fire after hitting mine in Hormuz: Iran's Guards - The Economic Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbXRwcGNQWHhJNDR3MkNocHVLRmYzYkRMc0RPNTdUcEgzTW1QcUxQaEU2X0lHR3J2YUpmeXVDNFQyQm1rc1JpVDRxbEo5ZzF2RjhXUnVJcy1CbkkwZjh6VW1fX2s3N0FFX3k2dlhUNFliSDdzbG51Qm5jZWhhY2J4SGRGeUQ1QWNFaXJjeU5tb0w0NzdMOWRQajR0OV9BV1RJQ2g0em1VQ09QUjg?oc=5",
+        "source": "Free Malaysia Today",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T00:31:22Z",
+        "title": "Oil tanker on fire after hitting mine in Hormuz - Free Malaysia Today"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQNUJkb0I1T2RUck02TmJ1Vm1lOWFwcUd5d1psdHFSZDZBdDF0dldvR0xOTTVBUzRqUktQYUhydWZXeEN6TnJHa2FCeWV5MTR2cGJHZkNQS1podlQxcmQtU19fc0tha2Qtdm5NYzY5dEJPSks1NXh2VjBraG1ZVGcta1FJUDVmNENHN25lMVFEMUdScDZjV0Y0b1VLakZ1LVhtZklkN2F6T0JMczRJWWhNekNqa215b3MzNXMtSlZTRWd5WnpWU1VObEctcTBhSW4xYS1abEg1dldudnlwckpvY1Juc21qMlNGS01ra2F2ajl5LXR5d0VyM3FRY2VXa25mNVU2X0JLS2bSAY4CQVVfeXFMUHlUR3VPUzktN08zckJ2bEF2X0VRZWFyazY4Y2Z1OUZUaGd1UXIyS1IzOGhRSHB0TWQ3NDVXLXFER1hrbWtkeW1IMTlRMHV1aXEwNGh5cmRzUGZ5M19WaDNlR09DUUdybml6Z3pJb0FfTW5CWkVxYW5HUm5qV19rLWZJRURKY2dFQTNtU0lITW5vc2FudGxqTTVON0p2YVZFTEd1djMtUFBfNDlXZUgtRHlGODFnZlh0R1BzYjNxMEMxR0FLMkkwMWljY3lHM3BLSUVlTF9heFZ3cnNqbFZnWVJHSmhIVEtWMjcwTEV0NzRUM3lEeTB5TTNFMHpJbjNGNUhOaXRPdzNXWXlydXpB?oc=5",
+        "source": "The Times of India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T02:19:51Z",
+        "title": "Oil Tanker Defying Iran’s Transit Rules Hit By Naval Mines In Hormuz, Engine Room Erupts In Flames - The Times of India"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQM1R4b2tCRlpUdlprUnd1UEJWcFFvVzdqV3g0RXdCM3NxRElsM0NrWVI2ZnY4aDBqM2pIUDQtQS1YZHJKYnN3MUdHX0EySTNFaFp2UkxfZEF0ZC12c3V0WEVvR0E2ZlJiaVJTX200UTF2TmZwR3RnT1RXdmdmc1hpRzFKZ3pJWG9GR3E2dXZ3M1lkYnJ1NDh1eWlPTkh1T2VXb2RoWlBwWDBoaTVDN1k1REtVWDg5WEdqbnVlejdRcGNXckltdm5OTzB3WQ?oc=5",
+        "source": "Anadolu Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T01:15:04Z",
+        "title": "Iran’s Revolutionary Guard says oil tanker struck mine and caught fire in Strait of Hormuz - Anadolu Ajansı"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8xN2J1X0loM2pnVlZYX0FrekZoWUtXU3JQU2oxUHdhVVlHWmhaLVNOTkdJSjhCTWxxbXo0Z2JhNUZlRHh3U0lLVFRoSDllVnRicUZRZnFyTDJmTG50TmNaU1VzXy14eVd1UE56bVU0dw?oc=5",
+        "source": "RTHK",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T23:56:00Z",
+        "title": "Oil tanker on fire 'after hitting mine in Hormuz' - RTHK"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTVQ3enotc0w5c1BXU1lDZTRabTNndlJ0UlJIMGp2ay14enlIQ1RHT0dGZFVGRnBqQVNXc19hR2xiTFFoejNEc3dsMFdpUEdURk01SG9EZXNSYlN6TGlRdmhHczJsMmM0dk5BTloxbVFSblo3d3hvNGtKT3ZrdUZ4SEV2bk83NTl4ek9FUldmandDaDBFVkhhMnQxekYxaHVJWTJHSnRFZXQ2VkVJS0UzYUVpZjlhLWZYT3hUcTFyczl2Y3N5UV9PdjdOUkItdw?oc=5",
+        "source": "CGTN",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-18T04:11:08Z",
+        "title": "Tanker explosion reported in Strait of Hormuz as Saudi-Houthi clashes continue - CGTN"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4yNGcxTndkczNTS1gyNWdiczZTdTBiNWxjdC14SUNOVnpLSkF2NWJscUhEMnBQNzU3QjVDZVg4NXdXaS1KMlVmYTVDc2gzNkVtRlp1M3lmWkktck81TC1FZU1tMF9aUWs3WFNSb2t3?oc=5",
+        "source": "https://houseofsaud.com/",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-18T12:49:05Z",
+        "title": "Hormuz Tanker Fires Test Trump's Midterm Iran Pause - https://houseofsaud.com/"
+      },
+      {
+        "url": "https://www.ukmto.org/-/media/ukmto/products/20261017-ukmto_warning_175-26.pdf",
+        "source": "ukmto.org",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-19T05:07:29Z",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbnFWZ3l3MmEweko3ZFo2LWdSbzNaTDlQbzVpbG84Q3VzZklTeXBLNGxjRDNseEZ4RGMwdnp1VThYWm9uT2VpTVpveFA0Q2VUX3lwMlZQcGVtd3BGb1dDVG91eDdzNzhkaUFhNklsNERjN1BHNVRvS2ZWdVR2U3d2dmhzWXJ6UXBlT18xblFKSlJhMThpQ1gyZW9RNHV3dw?oc=5",
+        "source": "Yeni Şafak English",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T07:48:01Z",
+        "title": "Iran's IRGC says oil tanker struck mine in Strait of Hormuz - Yeni Şafak English"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSTBsaTJjVFo3R1JiOTJ3c0JTVnMtcE9mMnh2eW5mbmJwREhIbXJQaWRZanZ3VXlzelRDWVlKdERMTHRnNS1LYnRSSENtVGlFTk1nWDhoM0IzV3h4VFZWandGQk1EWFRPUnRZRG5xZmRCYWFGUHV0NE5fQlBSMnR5MFhTUHRneldxUGlxWlRVWU1wMXpUOFB4RmFJOGVENkEyZW9FT0FKVnJHd1AxalZEaXhpejdXcEwyVHpn?oc=5",
+        "source": "myRepublica",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T06:45:00Z",
+        "title": "Oil tanker on fire after hitting mine in Hormuz: Iran's Guards - myRepublica"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc0lVZVVSZE14QjhMd2pfRjJCX1k1WEtKNnFNODFPVEtDTXJNMFMyZFA5Z29zb3hvSVEyYV85a1JLbkh6dkhQWnJ3d1ZuYmpNeXMyX3RkeVphM1ZVTkphZEhoT3hRbWJVN2NHNjBKV1dZMkUzUmpyNmp6MmVCclY3MmR1cGtEbTJhSHdqdFN5NGNCOHNJaExjRzZ1MnlGTFhPQUxRSUZxUEVINm1RZ2dicE15MNIBswFBVV95cUxPc0lVZVVSZE14QjhMd2pfRjJCX1k1WEtKNnFNODFPVEtDTXJNMFMyZFA5Z29zb3hvSVEyYV85a1JLbkh6dkhQWnJ3d1ZuYmpNeXMyX3RkeVphM1ZVTkphZEhoT3hRbWJVN2NHNjBKV1dZMkUzUmpyNmp6MmVCclY3MmR1cGtEbTJhSHdqdFN5NGNCOHNJaExjRzZ1MnlGTFhPQUxRSUZxUEVINm1RZ2dicE15MA?oc=5",
+        "source": "Firstpost",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T02:06:45Z",
+        "title": "Iran says oil tanker hits mine in Strait of Hormuz, catches fire - Firstpost"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5FU3RxRVB3UVdHZFI5eVE2djJTcGNXdTh5RnFWZV9rRUxPeThudVhET1dTUnd6LUlhVzR0WTQ3aTFuaEE3Y29BS2F3R0RPS202MEhIZzVfN0Z1dlFJU0ZvM3EtTjdjaXRXYnVpTDg1OTJhc2gybEE?oc=5",
+        "source": "يمن مونيتور",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T22:40:31Z",
+        "title": "Tanker Struck by Unknown Projectile off Saudi Coast; Crew Evacuated - يمن مونيتور"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSDR0NXhsT1RnRWFUZTdyUmJuTzU1SmJBdUxwZmNxV0w3aUdKVFM2cVJnUzgzcVZGUl9lM1hyeXNBblcyWDM1R1N1VXZUaUxfS0hjNndtUU1ueUVDODIzV3VnMDJ0OEVMdWZab2VYeFU3Ml9Za2RuYXlrVUcxMUpaSXFMUG9XU29NRnpjd3h6VWlOdmJVcjJqOUhUeF9rVzg?oc=5",
+        "source": "Naharnet",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T17:06:45Z",
+        "title": "Iran says oil tanker on fire after hitting mine in Hormuz - Naharnet"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMDkwVmRyeVVoMDB2N3dYVFFmeERKajZmVWJLWWRaM2ZKMV8zODdGSGFEOHpqWEpHSG1wM1JpOW5CMUV3angxLUtSNzRTMGFwSmJPQUNuUzFnZWUwTlIwRFNpcWk4OE9nZ1l0N2ZvamxZVl9zSE1lVWpyNWthdmJEUXlpeDQtaWd0R0lTbXZ5OWhzbTBNbVd5bC1sTVk2T3dvazFMWTZvUzlybTNOTmRGYWlTM280Ynl5?oc=5",
+        "source": "EnergyNow.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T15:57:20Z",
+        "title": "Oil Prices Jump 6% as Iran Sets UAE Oil Port Ablaze, Strikes Vessels in Strait of Hormuz - EnergyNow.com"
       }
     ],
     "first_seen": "2026-10-17T19:40:33Z",
-    "last_updated": "2026-10-18T05:06:07Z",
+    "last_updated": "2026-10-19T14:56:42Z",
     "verification_issue": 181,
     "verdict": {
       "status": "confirmed",
@@ -4919,10 +6088,37 @@
         "kind": "media",
         "published_at": "2026-10-19T05:07:29Z",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPcDJOQ2NVSDMwd0Utam83Y0hBN0NVR1lBbTNnd3ZFeWdTaV9FbHhaTFUwcVRpSldjQ09iVGxJeDFlVGpxTG4zX0RWMVEyOFg1Y1NrSmRJOGhaaVFrdm1TUjZwbndsWFZjdUU2R0lKMmF6Z0ZNazdWQWFMblFoaUp4bnk4bVBWUTgtbmF0YXNYYm93VWtaajBDVUZGbjlGUnBhSzhzb2Z1V21NNDRnNnUtWWxLSkxwaFE3WGhYa3NQS0lfd1NnQnB2YmRibDZVcHVJdmhtQ09TbGxpWi1OUC1VbG1B0gHnAUFVX3lxTE5wVE9IZFhGeHhQc1AtRHFOX0pZd3prMjh2RUFHMFJZT1RtejRPR2E5YzVnS3dKOTFXU3lwWmJLeS1HVmx1NGJBWTZPVzkwQktmZ0FPbnVMcGVLcG4tWExQZ2w3ZGl2ZlNvYUYxelJ5TEpfVzJESWFUWklYdldZVFprQ2RjNUFBb1ZBSmt1eTNTTDJKaXgxTEp0WS1mZFdnYkJyUFdTV1dhY2xjVDJIWGEtS1NYdFZvcUFEbFVuWWZ2OTA2NlhlVVNXQXRnR29BWldVTGlHTGVodWc0X3h1cmE2b2tUYnlyZw?oc=5",
+        "source": "ET Infra",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-18T09:12:48Z",
+        "title": "Drone-hit tanker carrying 9 Indian seafarers reaches Romanian port, all safe - ET Infra"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOcFRPSGRYRnh4UHNQLURxTl9KWXd6azI4dkVBRzBSWU9UbXo0T0dhOWM1Z0t3SjkxV1N5cFpiS3ktR1ZsdTRiQVk2T1c5MEJLZmdBT251THBlS3BuLVhMUGdsN2RpdmZTb2FGMXpSeUxKX1cyRElhVFpJWHZXWVRaa0NkYzVBQW9WQUprdXkzU0wySml4MUxKdFktZmRXZ2JCclBXU1dXYWNsY1QySFhhLUtTWHRWb3FBRGxVbllmdjkwNjZYZVVTV0F0Z0dvQVpXVUxpR0xlaHVnNF94dXJhNm9rVGJ5cmfSAecBQVVfeXFMTnBUT0hkWEZ4eFBzUC1EcU5fSll3emsyOHZFQUcwUllPVG16NE9HYTljNWdLd0o5MVdTeXBaYkt5LUdWbHU0YkFZNk9XOTBCS2ZnQU9udUxwZUtwbi1YTFBnbDdkaXZmU29hRjF6UnlMSl9XMkRJYVRaSVh2V1lUWmtDZGM1QUFvVkFKa3V5M1NMMkppeDFMSnRZLWZkV2diQnJQV1NXV2FjbGNUMkhYYS1LU1h0Vm9xQURsVW5ZZnY5MDY2WGVVU1dBdGdHb0FaV1VMaUdMZWh1ZzRfeHVyYTZva1RieXJn?oc=5",
+        "source": "ET Infra",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-18T09:12:48Z",
+        "title": "Drone-hit tanker carrying 9 Indian seafarers reaches Romanian port, all safe - ET Infra"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONFpBTWN4Y1NfaFpWZmdocHk2VXA4Um13NjVrS0RHTWFHOFhBRVVxSjdMRGVFQU5iTmhqeEtGZWtXYW5makRhMkpPN0RnSG5hQzAxX2xvR3dRamMxbU8tQTJ6am5JOTlhbzVRZmZVX1FhZjNaZmk5WVV3Z1NLenhKaGNHdW10Z2RoMmhNdmtMUnprTUg1YWF4Smh0Q3dRdWxIS2ZocXZJNC1KMDJoX28tNVBpMThRSXh0dXF5bG5xd18xZE9vZjJueHNOX0FNU0xyMjYzRGJxZDYxakdh?oc=5",
+        "source": "romania-actualitati.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T03:50:21Z",
+        "title": "Incendiu pe o navă lovită de dronă lângă Sulina, în apele teritoriale ale României - romania-actualitati.ro"
       }
     ],
     "first_seen": "2026-10-15T11:21:24Z",
-    "last_updated": "2026-10-19T05:07:29Z",
+    "last_updated": "2026-10-19T14:56:46Z",
     "verification_issue": 152,
     "verdict": {
       "status": "confirmed",
@@ -12796,10 +13992,28 @@
         "kind": "media",
         "published_at": "2026-10-17T12:52:58Z",
         "title": "Повреждённое дронами судно Chelsea 3 отбуксировали в порт Болгарии - Life.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBJaEZzRXFLa004WjZlSVVySzdxR3VhWDBCYjFraHlBM2ozUzBWSHRIU1RObEMxQU4zNk1XQlhYQ1pfYkVCVU5r?oc=5",
+        "source": "Minval Politika",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T15:45:12Z",
+        "title": "Атакованное дронами судно с гражданами Азербайджана на борту отбуксировали в порт Болгарии - Minval Politika"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBSMDdZY0lLZ0Z5V09FM292X2gyVG5Tdl9OaTNtWmVzTXpPT3BIbl9ieDhDWV9LN2J4TGx0QUJvTTRTYkdXUmd6N3o3Qk9lQUNRTmRlOWJLeEMxVURPX2p4emlqMkc?oc=5",
+        "source": "БТА",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T16:51:12Z",
+        "title": "BTA :: All Rescued Sailors from Drone-Attacked Merchant Ship Arrive in Varna - БТА"
       }
     ],
     "first_seen": "2026-10-13T20:20:58Z",
-    "last_updated": "2026-10-18T14:47:57Z",
+    "last_updated": "2026-10-19T14:56:46Z",
     "verification_issue": 137,
     "verdict": {
       "status": "confirmed",
