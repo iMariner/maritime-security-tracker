@@ -37,7 +37,7 @@
   "quality": "1 check(s) need attention: dates 1 approximate; attribution ok; official coverage 0/0 ok; verified 9/11; single-source items 0; confirmed ok; fact-check no corrections needed; tweet 216/280 ok; dashes ok; consistency St 3 is in the data but not named in the article found",
   "review": {
     "status": "done",
-    "at": "2026-10-19T05:07:29Z",
+    "at": "2026-10-19T05:27:57Z",
     "changes": [
       "merged INC-20261019-001 into INC-20261017-004 (the Revolutionary Guards' 17 October mine claim, reported again a day later)",
       "merged INC-20261018-009 into INC-20261017-004 (CGTN carried the same Guards statement of 17 October on 18 October)",
@@ -59,10 +59,17 @@
     "refused": [],
     "notes": [
       "In the Strait of Hormuz and the Gulf section say UKMTO reported the 18 October attack on a tug northeast of Khor Fakkan, struck by two unknown projectiles, damaged but continuing her voyage, with one minor casualty, and drop the sentence that no attribution details were given.",
-      "Drop the key point saying a second tanker was set on fire in the same area on 15 October: that tanker is the Yara J, struck on the evening of 14 October, and the Black Sea section already carries her on that date."
+      "Drop the key point saying a second tanker was set on fire in the same area on 15 October: that tanker is the Yara J, struck on the evening of 14 October, and the Black Sea section already carries her on that date.",
+      "In the Strait of Hormuz and the Gulf section say the tanker near Al Jubail was struck by an unknown projectile on 16 October, the incident date inside UKMTO warning 175-26, and not 17 October, which was the day the warning was issued; keep the fire.",
+      "In the Strait of Hormuz and the Gulf section name the crude oil tanker as the MT ST 3, carrying 15 Indian seafarers, struck on 16 October, on the statement of India's shipping minister Sarbananda Sonowal reported by NDTV on 17 October; the name is not UKMTO's. Keep the sentence that she was targeted by a missile."
     ],
     "restored": [],
-    "send_after": false,
+    "send_after": true,
     "lead": "INC-20261015-001"
+  },
+  "final_read": {
+    "status": "fixed",
+    "at": "2026-10-19T05:27:57Z",
+    "warnings": []
   }
 }
