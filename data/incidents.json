@@ -1,6 +1,173 @@
 [
   {
     "region": "Strait of Hormuz",
+    "date_utc": "2026-10-19T17:44:00Z",
+    "summary": "A Guardian headline says people are scouring the Strait of Hormuz for spilt cargo after Iran attacked container ships. No vessel names, flags, dates or positions are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "container",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": "cargo spilled into the sea; people scouring the strait for spilt cargo",
+    "casualties": null,
+    "attribution_claimed": "Iran (per headline: 'after Iran attacks container ships')",
+    "independent_evidence": false,
+    "date_approx": true,
+    "id": "INC-20261019-009",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMVd5NTdZejdJLW9KZFpNUFVhVFpHaUxWU09tMU9lTXMxNGl3aG8ydFhmekpmcEZEdHNWRWs1MEVrUU1JamVKN1NVVWxyTXUyVmpQOC1lcUJTWUtFSkNEU2hweGJ3cFVaa2hfQ0xEZ1hTbEFKcTlPMGY0RTRXS3dpWXpIdWVXUWdvcV9MRnBqaEJlS2pySWNhbXBiWTRYVXktMFpmWjVn?oc=5",
+        "source": "The Guardian",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T17:44:00Z",
+        "title": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships - The Guardian"
+      }
+    ],
+    "first_seen": "2026-10-19T20:42:31Z",
+    "last_updated": "2026-10-19T20:42:31Z",
+    "verification_issue": 200,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-19T15:30:34Z",
+    "summary": "A Romanian news headline reports a European citizen is missing from a vessel struck by drones in the Black Sea, described as a first of its kind. No vessel name, flag, date, position or attribution is given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": "one European citizen missing",
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "date_approx": true,
+    "id": "INC-20261019-010",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNb1Rad1IxenhsNjMwMndDeFRiUjQ0Z1dpNUhIbDF4VVFyblB1RDc1b2VDc05FUno3YTlkZ2RHSjdhSzc0ZTJSOVdMV1FZX2R1RU1JMUVPTjhZaGdNbEpyS3U4Y19nbTdQZ09HazQwOUhCMFRLaEsyXzdMSGxMeUd0bjFvMkUyenRrS0NIMUFoLXIyV28tOHJDVXdWMVo3UXpCSG51TThlUGdqZnVlcjRzaA?oc=5",
+        "source": "Constanța 100%",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T15:30:34Z",
+        "title": "Premieră periculoasă în Marea Neagră: cetățean european dispărut pe o navă lovită de drone - Constanța 100%"
+      }
+    ],
+    "first_seen": "2026-10-19T20:42:41Z",
+    "last_updated": "2026-10-19T20:42:45Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261015-001",
+    "position_approx": true
+  },
+  {
+    "region": "Persian Gulf",
+    "date_utc": "2026-10-19T13:16:28Z",
+    "summary": "A headline reports that VLCCs were hit in the Gulf, a tug was struck off the UAE and an LNG carrier took fire in the Gulf of Aden. No vessel names, flags, dates, positions or attribution were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.8,
+    "lon": 52.5,
+    "location_text": "Gulf (Persian Gulf)",
+    "attack_type": "other",
+    "damage": "VLCCs hit",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "date_approx": true,
+    "id": "INC-20261019-012",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPR1FwUWxmZjVMRlcyMzlvc2V0RzNqWDUyeVR5dWM3RDU1Y21qOVItY0FtbFNmRHBCOTVNNnFCUDRqNFlNRFZ3RjFYaWVSMk5UeGRnVEx1VEM0Z0F2Q3FvZG43aHJFMnY1VTdSd1N3N2tUa2F6TGZJcFVrUVFKbTdaRGFFeUJMd1F3UHVxTU10cmRNWEg3VEttTU1XSjNCYlQ5T0FKd09sQ2ZNYUZKb3JQOXMxTWtZdmt6NWRZbWtKWHNTUU85NHhPbFpLamhqS1JRWGc?oc=5",
+        "source": "www.rivieramm.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T13:16:28Z",
+        "title": "News Content Hub - Middle East: VLCCs hit in Gulf, tug struck off UAE, LNG carrier takes fire in Gulf of Aden - www.rivieramm.com"
+      }
+    ],
+    "first_seen": "2026-10-19T20:42:41Z",
+    "last_updated": "2026-10-19T20:42:45Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261018-003",
+    "position_approx": true
+  },
+  {
+    "region": "Gulf of Aden",
+    "date_utc": "2026-10-19T13:16:28Z",
+    "summary": "A headline reports an LNG carrier took fire in the Gulf of Aden. No vessel name, flag, date, position, damage details or attribution were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "LNG/LPG carrier",
+    "vessel_category": "merchant",
+    "lat": 12.7,
+    "lon": 45.2,
+    "location_text": "Gulf of Aden",
+    "attack_type": "other",
+    "damage": "fire",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "date_approx": true,
+    "id": "INC-20261019-013",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPR1FwUWxmZjVMRlcyMzlvc2V0RzNqWDUyeVR5dWM3RDU1Y21qOVItY0FtbFNmRHBCOTVNNnFCUDRqNFlNRFZ3RjFYaWVSMk5UeGRnVEx1VEM0Z0F2Q3FvZG43aHJFMnY1VTdSd1N3N2tUa2F6TGZJcFVrUVFKbTdaRGFFeUJMd1F3UHVxTU10cmRNWEg3VEttTU1XSjNCYlQ5T0FKd09sQ2ZNYUZKb3JQOXMxTWtZdmt6NWRZbWtKWHNTUU85NHhPbFpLamhqS1JRWGc?oc=5",
+        "source": "www.rivieramm.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T13:16:28Z",
+        "title": "News Content Hub - Middle East: VLCCs hit in Gulf, tug struck off UAE, LNG carrier takes fire in Gulf of Aden - www.rivieramm.com"
+      }
+    ],
+    "first_seen": "2026-10-19T20:42:41Z",
+    "last_updated": "2026-10-19T20:42:45Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261019-004",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
     "date_utc": "2026-10-19T12:17:05Z",
     "summary": "A Turkish headline reports that a huge oil tanker that had been attacked by a UAV passed through the strait. No vessel name, flag, date, position, damage or attribution details were given.",
     "official_source_cited": null,
@@ -35,6 +202,47 @@
     "first_seen": "2026-10-19T14:56:21Z",
     "last_updated": "2026-10-19T14:56:21Z",
     "verification_issue": 197,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Red Sea",
+    "date_utc": "2026-10-19T03:15:00Z",
+    "summary": "A headline reports that drone strikes stalled two fuel tankers bound for Kenya. No vessel names, flags, dates, positions, damage details or attribution were given, and the region is not stated.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.4,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 19.5,
+    "lon": 39.5,
+    "location_text": null,
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "date_approx": true,
+    "id": "INC-20261019-014",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPREc5TDJxUmtYMGhucVNrOGxIMnhwOWVDbUNDRG55WnlrZ3lXNDJ4RjlxZkxTcm1fRUtobUlZbTF5cld0TVNneEt4cWFtQjdsSGFjUWRBT3hHMFZsME9Jb0kwWElLX3hJY0J4RGt0UWJMQXZJZlBYbE5odDhiWUFRd202ZzI4N1hIUnFqWkxTb2E1eEMwS0U4QTJn?oc=5",
+        "source": "Daily Nation",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T03:15:00Z",
+        "title": "Drone strikes stall two fuel tankers bound for Kenya - Daily Nation"
+      }
+    ],
+    "first_seen": "2026-10-19T20:42:41Z",
+    "last_updated": "2026-10-19T20:42:41Z",
+    "verification_issue": 201,
     "verdict": null,
     "published_in": [],
     "status": "claimed",
@@ -122,7 +330,7 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-10-19",
-    "summary": "Russia's defence ministry said a dry cargo ship carrying military and dual-use cargo was struck at sea 130 km southwest of Odesa port during the night. No vessel name, flag, damage or casualty details were given.",
+    "summary": "Russia's defence ministry claimed a dry cargo ship carrying military and dual-use cargo was struck at sea 130 km southwest of Odesa port during the night of 19 October. No vessel name, flag, damage or casualty details were given, and the claim was not independently confirmed.",
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.6,
@@ -135,7 +343,7 @@
     "lon": 30.74,
     "location_text": "130 km southwest of Odesa port, Black Sea",
     "attack_type": "other",
-    "damage": null,
+    "damage": "dry cargo ship hit",
     "casualties": null,
     "attribution_claimed": "Russia's defence ministry claimed it",
     "independent_evidence": false,
@@ -185,15 +393,43 @@
         "kind": "media",
         "published_at": "2026-10-19T05:22:28Z",
         "title": "Russia Reports Strikes on Kiev Arms Sites and Cargo Ship - Военное дело"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE8xM01YaVFkWmJscU5WQUh0SEN0UkphYmg2djJqelpPbF8wRXVzczJEaERRMXk3dDFjT3VBNnpGc2dJSkJX?oc=5",
+        "source": "جريدة الدستور",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T15:58:00Z",
+        "title": "الدفاع الروسية: استهداف سفينة شحن بالبحر الأسود كانت تنقل إمدادات للقوات الأوكرانية - جريدة الدستور"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZnZ1UmlrZHZzc0tTVzRyaGMtajl3UWdmYUlJMV81ZkFQeHgxYXIxLU42TEdOdXhSMTF1OTZ5RVFfWnNhTjRTTS00TzNfd0pFV20wM3ZkT0FkcWNVR1BrLTRlc2c4YThUQ3E5MVRoR2pONEFyNTRqWlN4T0ktMUR4Y0ZCY0xrWWQ0S1pEb3luOS1kUzI2ZXpV?oc=5",
+        "source": "Breakingthenews.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T15:15:00Z",
+        "title": "Russia strikes vessel headed to Ukraine's Odesa - Breakingthenews.net"
+      },
+      {
+        "url": "https://t.me/mod_russia/68350",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-19T15:07:37+00:00",
+        "title": null
       }
     ],
     "first_seen": "2026-10-19T06:46:06Z",
-    "last_updated": "2026-10-19T14:56:32Z",
+    "last_updated": "2026-10-19T20:42:45Z",
     "verification_issue": 194,
     "verdict": null,
     "published_in": [],
     "status": "claimed",
-    "position_approx": true
+    "position_approx": true,
+    "date_approx": false
   },
   {
     "region": "Black Sea",
@@ -239,7 +475,7 @@
   {
     "region": "Red Sea",
     "date_utc": "2026-10-19",
-    "summary": "UKMTO reported fresh attacks and that an LNG tanker was hit near Yemen. No vessel name, flag, position, damage or attribution details were given.",
+    "summary": "UKMTO reported fresh attacks in which an LNG tanker was hit near Yemen on 19 October. A roundup headline separately reported an LNG carrier taking fire in the Gulf of Aden, describing the same strike.",
     "official_source_cited": "UKMTO",
     "conflicting": false,
     "confidence": 0.6,
@@ -248,11 +484,11 @@
     "flag": null,
     "vessel_type": "LNG/LPG carrier",
     "vessel_category": "merchant",
-    "lat": 19.5,
-    "lon": 39.5,
+    "lat": 12.7,
+    "lon": 45.2,
     "location_text": "near Yemen",
     "attack_type": "other",
-    "damage": null,
+    "damage": "fire",
     "casualties": null,
     "attribution_claimed": null,
     "independent_evidence": true,
@@ -266,20 +502,30 @@
         "kind": "media",
         "published_at": "2026-10-19T13:07:21Z",
         "title": "UKMTO reports fresh attacks, LNG tanker hit near Yemen - Quantum Commodity Intelligence"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPR1FwUWxmZjVMRlcyMzlvc2V0RzNqWDUyeVR5dWM3RDU1Y21qOVItY0FtbFNmRHBCOTVNNnFCUDRqNFlNRFZ3RjFYaWVSMk5UeGRnVEx1VEM0Z0F2Q3FvZG43aHJFMnY1VTdSd1N3N2tUa2F6TGZJcFVrUVFKbTdaRGFFeUJMd1F3UHVxTU10cmRNWEg3VEttTU1XSjNCYlQ5T0FKd09sQ2ZNYUZKb3JQOXMxTWtZdmt6NWRZbWtKWHNTUU85NHhPbFpLamhqS1JRWGc?oc=5",
+        "source": "www.rivieramm.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T13:16:28Z",
+        "title": "News Content Hub - Middle East: VLCCs hit in Gulf, tug struck off UAE, LNG carrier takes fire in Gulf of Aden - www.rivieramm.com"
       }
     ],
     "first_seen": "2026-10-19T14:56:21Z",
-    "last_updated": "2026-10-19T14:56:21Z",
+    "last_updated": "2026-10-19T20:42:45Z",
     "verification_issue": 196,
     "verdict": null,
     "published_in": [],
     "status": "confirmed",
-    "position_approx": true
+    "position_approx": true,
+    "date_approx": false
   },
   {
     "region": "Persian Gulf",
     "date_utc": "2026-10-19",
-    "summary": "UKMTO reported that a tanker was attacked with a rocket-propelled grenade off Saudi Arabia. No vessel name, flag, position, damage or attribution details were given.",
+    "summary": "UKMTO reported that a tanker was attacked with a rocket-propelled grenade off Saudi Arabia on 19 October. A separate headline reported three tankers damaged in the Gulf as the US-Iran conflict escalated, covering the same Gulf attacks.",
     "official_source_cited": "UKMTO",
     "conflicting": false,
     "confidence": 0.7,
@@ -292,7 +538,7 @@
     "lon": 52.5,
     "location_text": "off Saudi Arabia",
     "attack_type": "other",
-    "damage": null,
+    "damage": "three tankers damaged",
     "casualties": null,
     "attribution_claimed": null,
     "independent_evidence": true,
@@ -306,15 +552,25 @@
         "kind": "media",
         "published_at": "2026-10-19T12:15:14Z",
         "title": "Tanker Attacked With Rocket-Propelled Grenade Off Saudi Arabia, UKMTO Says - Marine Insight"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQVRBMEZTU1ZkSU45YVJobzBpREJWc1E1bEV3Q2hkY2piREhRQkhCWlN2Z3NNRW80TDZwWGZkZ1RBYnVocEVuaDF1cElrZjctVmVCWFdZbnc0XzZoS0xRSjhpcGs1Um0wX2xBWmVHNGpuQjdub2FXbjFDcC1ibDVocEV4UFc3MzYybHFsTnZMYlJ1cFd5?oc=5",
+        "source": "EnergyNow.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T05:44:33Z",
+        "title": "Three Tankers Damaged in Gulf as US-Iran Conflict Escalates - EnergyNow.com"
       }
     ],
     "first_seen": "2026-10-19T14:56:23Z",
-    "last_updated": "2026-10-19T14:56:23Z",
+    "last_updated": "2026-10-19T20:42:45Z",
     "verification_issue": 198,
     "verdict": null,
     "published_in": [],
     "status": "confirmed",
-    "position_approx": true
+    "position_approx": true,
+    "date_approx": false
   },
   {
     "region": "Persian Gulf",
@@ -349,12 +605,13 @@
       }
     ],
     "first_seen": "2026-10-19T14:56:32Z",
-    "last_updated": "2026-10-19T14:56:32Z",
+    "last_updated": "2026-10-19T20:42:45Z",
     "verification_issue": 199,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261019-006"
   },
   {
     "region": "Strait of Hormuz",
@@ -395,6 +652,96 @@
     "published_in": [],
     "status": "merged",
     "merged_into": "INC-20261018-003",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-19",
+    "summary": "A headline reports that Russia struck a vessel headed to Ukraine's Odesa. No vessel name, flag, position, damage or casualty details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 46.49,
+    "lon": 30.74,
+    "location_text": "en route to Odesa port, Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": "dry cargo ship hit",
+    "casualties": null,
+    "attribution_claimed": "Russia",
+    "independent_evidence": false,
+    "id": "INC-20261019-011",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZnZ1UmlrZHZzc0tTVzRyaGMtajl3UWdmYUlJMV81ZkFQeHgxYXIxLU42TEdOdXhSMTF1OTZ5RVFfWnNhTjRTTS00TzNfd0pFV20wM3ZkT0FkcWNVR1BrLTRlc2c4YThUQ3E5MVRoR2pONEFyNTRqWlN4T0ktMUR4Y0ZCY0xrWWQ0S1pEb3luOS1kUzI2ZXpV?oc=5",
+        "source": "Breakingthenews.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T15:15:00Z",
+        "title": "Russia strikes vessel headed to Ukraine's Odesa - Breakingthenews.net"
+      },
+      {
+        "url": "https://t.me/mod_russia/68350",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-19T15:07:37+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-10-19T20:42:41Z",
+    "last_updated": "2026-10-19T20:42:45Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261019-002",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-18T22:10:17Z",
+    "summary": "Iran's Revolutionary Guards Navy said a non-compliant tanker was hit by a sea mine south of the Strait of Hormuz. The claim comes from the Iranian side only; no vessel name, flag, position or damage details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "south of the Strait of Hormuz",
+    "attack_type": "mine",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "IRGC Navy (Iran) said the tanker was hit by a sea mine",
+    "independent_evidence": false,
+    "id": "INC-20261018-013",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWXFwUF8xak1VckNybUw0ZDFtNjczTE5VNWVmZHVVSkpZbjBDVGYzRC14cDg2UGRNZmVVektqRFNkUFRiRC1LS3h0ZWJBRzdfN1VoT2lXWjJFOXQ4c1I4WURZNW03WkluWGxKX3ZmYjR3LVM2eDh0aFhRdFVYWk1EamxtX0FyWUxETmY3eGZMazkydmhkQVpPbS1CbklQZw?oc=5",
+        "source": "WANA News Agency",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-18T22:10:17Z",
+        "title": "IRGC Navy Says Non-Compliant Tanker Hit by Sea Mine South of Strait of Hormuz - WANA News Agency"
+      }
+    ],
+    "first_seen": "2026-10-19T20:42:44Z",
+    "last_updated": "2026-10-19T20:42:44Z",
+    "verification_issue": 202,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
     "position_approx": true
   },
   {
@@ -507,7 +854,7 @@
   {
     "region": "Gulf of Oman",
     "date_utc": "2026-10-18",
-    "summary": "A headline reports that a tugboat was hit by projectiles off the UAE. No vessel name, flag, date, position or attribution details were given.",
+    "summary": "UKMTO reported that a tugboat was struck by two unknown projectiles off the UAE near Khor Fakkan port on 18 October. A later roundup headline repeated the tug strike off the UAE alongside other attacks.",
     "official_source_cited": "UKMTO",
     "conflicting": false,
     "confidence": 0.7,
@@ -524,7 +871,7 @@
     "casualties": "one minor casualty",
     "attribution_claimed": null,
     "independent_evidence": true,
-    "date_approx": true,
+    "date_approx": false,
     "id": "INC-20261018-003",
     "sources": [
       {
@@ -598,10 +945,37 @@
         "kind": "media",
         "published_at": "2026-10-19T05:32:30Z",
         "title": "New Report of Attack on Strait of Hormuz Shipping Fans fears of Threats to Oil Supplies - EnergyNow.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPR1FwUWxmZjVMRlcyMzlvc2V0RzNqWDUyeVR5dWM3RDU1Y21qOVItY0FtbFNmRHBCOTVNNnFCUDRqNFlNRFZ3RjFYaWVSMk5UeGRnVEx1VEM0Z0F2Q3FvZG43aHJFMnY1VTdSd1N3N2tUa2F6TGZJcFVrUVFKbTdaRGFFeUJMd1F3UHVxTU10cmRNWEg3VEttTU1XSjNCYlQ5T0FKd09sQ2ZNYUZKb3JQOXMxTWtZdmt6NWRZbWtKWHNTUU85NHhPbFpLamhqS1JRWGc?oc=5",
+        "source": "www.rivieramm.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T13:16:28Z",
+        "title": "News Content Hub - Middle East: VLCCs hit in Gulf, tug struck off UAE, LNG carrier takes fire in Gulf of Aden - www.rivieramm.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOTlGWjlEeGYtdkpEckRTT3pFMDk3OER0NVZaNVhVS1dOazRXMU14VVR1QlhkV0daYlUxLWtNR1dRdHphU0Rxd2hETExKNmtlNl80ekNXN2Fpa1hCY3ZreEQ5c0VYYVgycFEtX1c4UkdweGRqVWZfWkdMbkJUTl9CNTZKQzBhMGdGWjBjS0VKajZlWU9yWkE2WWxPWW8wZjlUMTVNT0tmdw?oc=5",
+        "source": "EnergyNow.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T06:01:42Z",
+        "title": "New Attacks Reported on Ships Near Hormuz as Trump Discusses Iran with Xi - EnergyNow.com"
+      },
+      {
+        "url": "https://maritime-executive.com/article/tug-attacked-near-strait-of-hormuz",
+        "source": "The Maritime Executive",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-19T20:17:00Z",
+        "title": "Tug Attacked Near Strait of Hormuz"
       }
     ],
     "first_seen": "2026-10-18T11:38:03Z",
-    "last_updated": "2026-10-19T14:56:45Z",
+    "last_updated": "2026-10-19T20:42:45Z",
     "verification_issue": 186,
     "verdict": {
       "status": "confirmed",
@@ -1089,6 +1463,47 @@
     "published_in": [],
     "status": "merged",
     "merged_into": "INC-20261017-004",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-18",
+    "summary": "A tug was attacked on Sunday near the Strait of Hormuz, according to a report noting that merchant ships of all types face risk in the area. No vessel name, flag, damage or attribution details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tug",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "near the Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261018-012",
+    "sources": [
+      {
+        "url": "https://maritime-executive.com/article/tug-attacked-near-strait-of-hormuz",
+        "source": "The Maritime Executive",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-19T20:17:00Z",
+        "title": "Tug Attacked Near Strait of Hormuz"
+      }
+    ],
+    "first_seen": "2026-10-19T20:42:28Z",
+    "last_updated": "2026-10-19T20:42:45Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261018-003",
     "position_approx": true
   },
   {
@@ -4589,10 +5004,37 @@
         "kind": "media",
         "published_at": "2026-10-17T15:57:20Z",
         "title": "Oil Prices Jump 6% as Iran Sets UAE Oil Port Ablaze, Strikes Vessels in Strait of Hormuz - EnergyNow.com"
+      },
+      {
+        "url": "https://www.hellenicshippingnews.com/oil-tanker-on-fire-after-hitting-mine-in-hormuz-irans-guards/",
+        "source": "Hellenic Shipping News",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-19T17:00:55Z",
+        "title": "Oil tanker on fire after hitting mine in Hormuz: Iran’s Guards"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcVBoNDlWUlIzX3NDUXJuXzFHOFg4Qm5GN0FJSFRCWktPMTYzekg0Q3l5cjJjYlRMeXNyUE1vQ2U3eHJMZXMzVDNIX3NPSkdaeEJJdnBGOXBBTk5zZjBqZVZKRWt3LVVTX3NWODVEQnZ6QTRIeTRwTFQ4QTN3cFYtak9vTWdyOW94NWJ4cmxLR1RHb1lNS1gzZWFEQTNsaGVIVkl2a0VSNEM4Q0l6RkhnWVFqc0VmdlhJZm9F?oc=5",
+        "source": "Muslim Network TV",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T11:23:55Z",
+        "title": "Iran’s Revolutionary Guard says oil tanker struck mine and caught fire in Strait of Hormuz - Muslim Network TV"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1wX2NnYklrMFlwSlBuanpLeS01M2lLMGkycjVHel8zVGZ5RlNrRXc1dnVCSnlwMFA5ZV9CLVRqV0JuWkFuMURjMlQ4OXdrQWFyanQtZmlMOTRlNzZHVHJ1dE13ZksxTTNsMkYxOUc1SWp3aGQxVlE?oc=5",
+        "source": "يمن مونيتور",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-17T22:40:32Z",
+        "title": "British Agency: LNG Tanker Fired Upon East of Yemen - يمن مونيتور"
       }
     ],
     "first_seen": "2026-10-17T19:40:33Z",
-    "last_updated": "2026-10-19T14:56:42Z",
+    "last_updated": "2026-10-19T20:42:44Z",
     "verification_issue": 181,
     "verdict": {
       "status": "confirmed",
@@ -6115,10 +6557,64 @@
         "kind": "media",
         "published_at": "2026-10-19T03:50:21Z",
         "title": "Incendiu pe o navă lovită de dronă lângă Sulina, în apele teritoriale ale României - romania-actualitati.ro"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQZGh1Y1NRWmNSVXBzQXJMVjRmOEZVeVkweWVWVnBPaFNCalFINnVjeVp2bFUzeWlUcGgxUWV1S0JyaXF1Y2RGYU1FNjMydDFlY010alJFREVsdndycUF1UmJxNEN5NWkxV2NrdnZMVTNsejVKbXB3MkgwbEpMUkFNSl9CWWVlYkhBdUR0dUlBSWxUbFJock9lMnVoc19XQzRtTG1xU3Z2azg1dEIzc2J1cjYzN3BCbmRrcFpyUjFwZk5vYm9RQlpxaldnS0oyalFTVzMteFRZY1V5TmdYNXJhNkdSZW1UbHY1blIzbC1yMnNYRF9HSG1lUjhnTExqRXRXSl9KeWRKai14QQ?oc=5",
+        "source": "Realitatea.NET",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T20:25:00Z",
+        "title": "Liderul Sindicatului navigatorilor din România, despre nava lovită în apropiere de Sulina: \"Atacul a fost cu noile drone ruseşti Geran\" - Realitatea.NET"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVDJxU1Nxc19fRVE1NVVmT1M3RnRONXFmTUp1QU15VzhKajF3MGs5OEZLWkhjQTJDamwwd2ZURHU3ZXdyTFVJZXJFMWNRdllObTloWmxBeDJJQ2lELUtnOV9mVVl3a2JxRUxaYlJvWHp5V0oxaVRWVGp1dzBPSlZHcnBoWHhJUmJHNE1IN1Z2d2tOSFhRQWd6SlZIWU9veFBSc0HSAaoBQVVfeXFMUEFJMGtleTdna1FyRlBBdDlDRThsd2dKbno3bG53OWQtdlVCRU81RnZlRU9FOVNNb0ZpNDhVeGFacXlFMnd1OHhPeFhVajJ1dUplRGFZaWlWX1dHY1hsM0cwT0YzcFhKcVpseDdPY1FVSmZ4VklBZk94R3pDUnV0c2ZwMkxEX0l6dUFGVFltblJwekM4NU03ejJWNXQzOS1CZDZyY0RIVzdHUXc?oc=5",
+        "source": "Ziare.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T20:15:32Z",
+        "title": "Nava atacată în apropiere de Sulina a fost lovită de noile drone rusești Geran, acuză liderul... - Ziare.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNUnRkVWZJTWE4a3NieDVpbDVOcTdYN29pQWtiTWhmR3pZRGRLdU1Za3Jsb05MM09MdDJtaVRqbmpGRGEwU2lhaWhvT1otSlM2SXJqTVdkNFFWc0xYNUhUYi1qOWsxTkhfSFJfVUhVZXdlb2NRbEp2MWJyVTBWNTZiLUxWZFhHYzgxbHVKU3d0d3hXcG01MnB4dm1WTDIwUVdPei1VUXdrTmhacG4tMDRpTm9hRF9nbm9wZFpsNjA1amtRM0treUQ3eWFWNWhlandRSEZ6Nk1KZmRCWnhaem9QQmtiTlZmWk1xUXU1SjNjRW1fZV9NZjhMbERiV2dmcllGdWozWlhRWQ?oc=5",
+        "source": "Stirile ProTV",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T17:59:45Z",
+        "title": "Liderul Sindicatului Liber al Navigatorilor, despre nava atacată în apropiere de Sulina: Atacul a fost cu noile drone ruseşti Geran - Stirile ProTV"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPcTlBQW1QYlYyQW9TYXVDZi1JYjltY25HRllIQXdTMzdZdGVVV1hfbjZhUlJxaE1ZWUNfTlh2OGc1R3pmOWtUcEdaMWZqczNidnlvMTZZdXN3TWY3NU5zUXJORzRoRklDRHJ4UEdoMnAxM3hsX21YSWpIWXR4Ty1MUTdZUWpPU3dhM3FmTFNjSGczS2kyUFFSV093MGk4TDNfNHR5QkRPWGdWUXpxRkowbGNtSWdwOTZ3SWtlamZfbzAwRWVmMnNpMzJaT0FJdGJaNUdvei1tTi11VTFkbzlXbnNVQ0E?oc=5",
+        "source": "FocusPress",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T17:08:28Z",
+        "title": "Nava Wine Trader, atacată cu drone în Marea neagră:. 5 persoane salvate, alte 7 sunt dispărute. Ce spun reprezentanții SLN - FocusPress"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOYXI3TWIyQ3U1aFFqYng1MndIVS0wb2N3eUx6VEMwTmZFSTdXaFNINHFuRDJUQm9fbUdMT29mb3RLRFQ5RnROX2RHblA3bkxCbFZ2N25lUU1RSXczMjAzcDROOW1EbkdELS1aTGVYUXNORHVreFAtbFRJdTNFRVhJcmZMYnV3d3IzMFZMNDcwdHl4Mm5PRE5Semd4OElFWWhGcUhnTDBpQlZxSmcybThhb0dBZU1XUTA1dDh0X3MxX3dDSndtRjBYUXZVeThsTnQzbExqa1lXRDdaQ1VsOHN5NEg0VdIB6AFBVV95cUxQWkhqakdYUkdHNXJYUno4dmQ5V0VQWFk5YVNzeno2Y0RQTmQ5VkJZSGVtYjNLS3RadFZpOXhYLUNpMHNJMkR0WkV3TGFoYTRBUThqVUdLNUI2dXJteTBGbWdYTmk2ZThfSGR2b3pSSzRZbEtkVDNZRHpOakxoM0dVejVyWGt5NFJET2tXMlh1TncwSUUzcVhyS1hTOVN1bDBpSW9VeS1kLXF4NUlDaXlYSmNfcUF4b3NBQUs4eWwyMnlBVUR5OFN0d2VTLVZ4MThTZklLdDB4NHlVTEVzWlRsaVdINm9WLXBY?oc=5",
+        "source": "Ordinea.RO",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T16:14:15Z",
+        "title": "Nava Wine Trader, atacată cu drone în Marea Neagră: 5 marinari au fost salvați, alți 7 sunt dispăruți. Ce - Ordinea.RO"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNb1Rad1IxenhsNjMwMndDeFRiUjQ0Z1dpNUhIbDF4VVFyblB1RDc1b2VDc05FUno3YTlkZ2RHSjdhSzc0ZTJSOVdMV1FZX2R1RU1JMUVPTjhZaGdNbEpyS3U4Y19nbTdQZ09HazQwOUhCMFRLaEsyXzdMSGxMeUd0bjFvMkUyenRrS0NIMUFoLXIyV28tOHJDVXdWMVo3UXpCSG51TThlUGdqZnVlcjRzaA?oc=5",
+        "source": "Constanța 100%",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T15:30:34Z",
+        "title": "Premieră periculoasă în Marea Neagră: cetățean european dispărut pe o navă lovită de drone - Constanța 100%"
       }
     ],
     "first_seen": "2026-10-15T11:21:24Z",
-    "last_updated": "2026-10-19T14:56:46Z",
+    "last_updated": "2026-10-19T20:42:45Z",
     "verification_issue": 152,
     "verdict": {
       "status": "confirmed",
