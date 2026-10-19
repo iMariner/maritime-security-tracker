@@ -40,5 +40,35 @@
   "generated_at": "2026-10-19T04:39:59Z",
   "consistency_fixed": [],
   "consistency_problems": [],
-  "quality": "3 check(s) need attention: dates 3 approximate; attribution 5 claims without a named source; official coverage 0/0 ok; verified 8/17; single-source items 1, 1 without verification; confirmed 1 marked confirmed without proof; fact-check 1 correction(s); tweet 232/280 ok; dashes ok; consistency ok"
+  "quality": "3 check(s) need attention: dates 3 approximate; attribution 5 claims without a named source; official coverage 0/0 ok; verified 8/17; single-source items 1, 1 without verification; confirmed 1 marked confirmed without proof; fact-check 1 correction(s); tweet 232/280 ok; dashes ok; consistency ok",
+  "review": {
+    "status": "done",
+    "at": "2026-10-19T05:07:29Z",
+    "changes": [
+      "merged INC-20261019-001 into INC-20261017-004 (the Revolutionary Guards' 17 October mine claim, reported again a day later)",
+      "merged INC-20261018-009 into INC-20261017-004 (CGTN carried the same Guards statement of 17 October on 18 October)",
+      "merged INC-20261017-023 into INC-20261006-014 (the 23 Indians evacuated near Sochi are the Aframax Rio's crew, struck on 6 October)",
+      "INC-20261018-002 marked rejected (Dumlupinar Gazetesi recap of successive attacks that names no ship, date or position and repeats strikes already tracked)",
+      "INC-20261018-006 marked rejected (an analysis of drone attacks near NATO shores that names no ship, date or position)",
+      "INC-20261017-024 marked rejected (it is the 4 August sinking of MSV Faize Noore Oliya reported again on 17 October, per Telegraph India of 5 August)",
+      "INC-20261018-003 marked confirmed (UKMTO warning 177-26 reports a tug struck by two projectiles northeast of Khor Fakkan on 18 October)",
+      "date of INC-20261018-003 set to 2026-10-18",
+      "date of INC-20261017-004 set to 2026-10-16",
+      "region of INC-20261018-003 set to Gulf of Oman",
+      "position of INC-20261018-003 set to 25.55, 56.75 (northeast of Khor Fakkan per UKMTO warning 177-26, position approximate)",
+      "casualties of INC-20261018-003 set to one minor casualty",
+      "imo of INC-20261015-001 set to 8808707",
+      "lead story set to INC-20261015-001 (seven of 12 crew missing, the most serious attack of the week, and no brief sinc)",
+      "lesson (facts): An unnamed report of a ship sunk can be months old: the 17 October Red Sea item repeated the 4 August sinking of MSV Fai",
+      "lesson (writing): When a record is confirmed, the text must name the body that confirmed it instead of saying no attribution details were "
+    ],
+    "refused": [],
+    "notes": [
+      "In the Strait of Hormuz and the Gulf section say UKMTO reported the 18 October attack on a tug northeast of Khor Fakkan, struck by two unknown projectiles, damaged but continuing her voyage, with one minor casualty, and drop the sentence that no attribution details were given.",
+      "Drop the key point saying a second tanker was set on fire in the same area on 15 October: that tanker is the Yara J, struck on the evening of 14 October, and the Black Sea section already carries her on that date."
+    ],
+    "restored": [],
+    "send_after": false,
+    "lead": "INC-20261015-001"
+  }
 }
