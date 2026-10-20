@@ -1,5 +1,145 @@
 [
   {
+    "region": "Black Sea",
+    "date_utc": "2026-10-20T04:37:02Z",
+    "summary": "A Romanian news report says new details have emerged about a civilian vessel attacked by drones in the Black Sea, with seven sailors still missing. No vessel name, flag, date, position or attribution was given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": "Seven sailors still missing",
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "date_approx": true,
+    "id": "INC-20261020-003",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZVdmdFdjdnhIMUtiNmd1dk5La1Y0NF9PcVZMaUF0VzZGRFRJS2oydTliME12OGF2aF8wY1I2cmtIZDJfMTk2MWQtX0dLTnZmWFJuLUdJbE16M2JtLUdIN1RnREJCbTRTTmhlQjM3OUQyY3ljZW9GUzhVd3ZlTmJ4NEc1MFh5bXBwV1laUDhDQ25XQUVtZV92YmJwUVlpaGJuY2VMTlhfbjV4T0Z3SEx5Zno2cTFtQUU3Rkk0ekFwNUpqa2V4OXZaQjhxR0hzTk0?oc=5",
+        "source": "BZI.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-20T04:37:02Z",
+        "title": "Noi detalii despre nava civilă atacată cu drone în Marea Neagră. Șapte marinari sunt în continuare dispăruți - BZI.ro"
+      }
+    ],
+    "first_seen": "2026-10-20T05:12:38Z",
+    "last_updated": "2026-10-20T05:12:42Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261015-001",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-20",
+    "summary": "Russia's defence ministry said overnight drone strikes hit three dry cargo vessels unloading military and dual-use cargo in Reni port, Odesa region. The claim comes from the Russian side only; no vessel names, flags or damage details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 45.45,
+    "lon": 28.29,
+    "location_text": "Reni port, Odesa region, Ukraine",
+    "attack_type": "drone (UAV)",
+    "damage": "Three dry cargo vessels struck while unloading, according to Russia's defence ministry",
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry",
+    "independent_evidence": false,
+    "id": "INC-20261020-001",
+    "sources": [
+      {
+        "url": "https://t.me/dva_majors/100712",
+        "source": "Dva Mayora",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "osint",
+        "published_at": "2026-10-20T05:10:37+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/68362",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-20T04:59:37+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-10-20T05:12:38Z",
+    "last_updated": "2026-10-20T05:12:38Z",
+    "verification_issue": 204,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-20",
+    "summary": "Russia's defence ministry said a dry cargo vessel carrying military cargo to Ukraine was struck at sea while heading to Odesa port. The claim comes from the Russian side only; no vessel name, flag or position was given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 46.49,
+    "lon": 30.74,
+    "location_text": "en route to Odesa port, Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": "Struck at sea, according to Russia's defence ministry",
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry",
+    "independent_evidence": false,
+    "id": "INC-20261020-002",
+    "sources": [
+      {
+        "url": "https://t.me/dva_majors/100712",
+        "source": "Dva Mayora",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "osint",
+        "published_at": "2026-10-20T05:10:37+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/68362",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-20T04:59:37+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-10-20T05:12:38Z",
+    "last_updated": "2026-10-20T05:12:38Z",
+    "verification_issue": 205,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
     "region": "Strait of Hormuz",
     "date_utc": "2026-10-19T17:44:00Z",
     "summary": "A Guardian headline says people are scouring the Strait of Hormuz for spilt cargo after Iran attacked container ships. No vessel names, flags, dates or positions are given.",
@@ -438,10 +578,19 @@
         "kind": "media",
         "published_at": "2026-10-19T17:20:00Z",
         "title": "الدفاع الروسية: استهداف سفينة شحن بالبحر الأسود كانت تنقل إمدادات للقوات الأوكرانية - مبتدا"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZFl6TDR3WnZLYktaN1oweThPdW03ZnVjYV9tOWhMejd4X3R3bWpkY3QyMER4YWY2YjBEN1lVVVA1S0d6Q1hNWmN4c016OXhnMmdFOTRGeU9YTGtNa2I5RWE4ZEU1cmV1U0JkN1NqZ09RRFdTODZJUVdfSkkySk41NjY0OXBoZ1p0RW9NNlRhQ1hNX2lNMkczUDFRT21tZmZvLVVBZHc0OHhmOTFhM1VDaHpDZ01zLUxUVmUwOWhn?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T19:44:57Z",
+        "title": "Минобороны России сообщило об ударе по судну с военными грузами вблизи Одессы - prospect.com.ru"
       }
     ],
     "first_seen": "2026-10-19T06:46:06Z",
-    "last_updated": "2026-10-20T00:35:26Z",
+    "last_updated": "2026-10-20T05:12:41Z",
     "verification_issue": 194,
     "verdict": null,
     "published_in": [],
@@ -5143,10 +5292,19 @@
         "kind": "media",
         "published_at": "2026-10-19T06:31:00Z",
         "title": "Oil tanker on fire after hitting mine in Hormuz: Iran’s IRGC - Al Arabiya English"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5lYzJKaXZ1Mk1DOElMQ2JXTUN6RHNhMXB0aHBueGZ1OUhkVG9iUkVtd0h5SW0zMmVodjFfVDh6R1k1ZEtkVlBROXN5M3BFQzBham9Z?oc=5",
+        "source": "شبكة تواصل الإخبارية",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T06:03:52Z",
+        "title": "Iran's Guards Say Oil Tanker on Fire after Hitting Mine in Hormuz - شبكة تواصل الإخبارية"
       }
     ],
     "first_seen": "2026-10-17T19:40:33Z",
-    "last_updated": "2026-10-20T00:35:28Z",
+    "last_updated": "2026-10-20T05:12:41Z",
     "verification_issue": 181,
     "verdict": {
       "status": "confirmed",
@@ -6732,10 +6890,19 @@
         "kind": "media",
         "published_at": "2026-10-19T20:04:15Z",
         "title": "Nava atacată în apropiere de Sulina a fost lovită de noile drone rusești Geran, acuză liderul Sindicatului Liber al Navigatorilor. \"Rusia lovește la întâmplare orice trafic civil\" - Ziare.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZVdmdFdjdnhIMUtiNmd1dk5La1Y0NF9PcVZMaUF0VzZGRFRJS2oydTliME12OGF2aF8wY1I2cmtIZDJfMTk2MWQtX0dLTnZmWFJuLUdJbE16M2JtLUdIN1RnREJCbTRTTmhlQjM3OUQyY3ljZW9GUzhVd3ZlTmJ4NEc1MFh5bXBwV1laUDhDQ25XQUVtZV92YmJwUVlpaGJuY2VMTlhfbjV4T0Z3SEx5Zno2cTFtQUU3Rkk0ekFwNUpqa2V4OXZaQjhxR0hzTk0?oc=5",
+        "source": "BZI.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-20T04:37:02Z",
+        "title": "Noi detalii despre nava civilă atacată cu drone în Marea Neagră. Șapte marinari sunt în continuare dispăruți - BZI.ro"
       }
     ],
     "first_seen": "2026-10-15T11:21:24Z",
-    "last_updated": "2026-10-20T00:35:26Z",
+    "last_updated": "2026-10-20T05:12:42Z",
     "verification_issue": 152,
     "verdict": {
       "status": "confirmed",
