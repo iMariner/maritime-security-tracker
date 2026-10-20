@@ -1,0 +1,41 @@
+name: Apply living evidence
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  apply:
+    if: >-
+      !github.event.issue.pull_request &&
+      startsWith(github.event.comment.body, '/evidence') &&
+      contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association)
+    concurrency:
+      group: data-writer
+      cancel-in-progress: false
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - run: python -m tracker.apply_living_evidence
+      - name: Commit additive evidence and refresh existing Pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "tracker-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/living-evidence.json
+          if ! git diff --cached --quiet; then
+            git commit -m "evidence: update living tracker"
+            git push
+          fi
+          gh workflow run pages.yml --ref main
