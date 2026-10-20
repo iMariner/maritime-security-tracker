@@ -1,6 +1,57 @@
 [
   {
     "region": "Black Sea",
+    "date_utc": "2026-10-20T10:43:11Z",
+    "summary": "A Bulgarian National Radio headline reports that drone fragments were found aboard the cargo ship Chelsea 3 after a strike in the Black Sea. No date, position, damage extent or attribution is given in the item.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": "CHELSEA 3",
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 43.0,
+    "lon": 28.3,
+    "location_text": "Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": "Drone fragments found aboard the vessel",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "date_approx": true,
+    "id": "INC-20261020-004",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcmRyY3dVRHVla3V1SE1ucS1KTFdHOUh0WmRyaDRGQVFHM1NuVi1VQlZ4b2hpMHo3ekRmcEVYb2dYTER1WW0xTkhURzZlVUl5T1hOYkM2bTNReXNBWmJCLU9BbU1YM20xZHVLODRwcExucXYxV2lTb1Jqc1Y4eTMzMzJ6alh5dUxQQkdJOXl2S05rOXJFNFV0TGxtN21EaWU5RVZBdExjem5Sdw?oc=5",
+        "source": "БНР Новини",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-20T10:43:11Z",
+        "title": "Drone fragments found aboard cargo ship Chelsea 3 after Black Sea strike - БНР Новини"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWFl1anJXUFBUdFpra2lWNjlrZE1COTcxVy0tRXRDZW5oeU9SeHJsQ2h1bU52WFktWE9QNmtDWXZ1SDNVMFBtb2NZaDU5bUk3RDhzRmctVEYzcGNHNDdBdkwtRHNnYzQxSVFVbGhiRVh5TmxFMlBMWkh3OFktdXhpR3RaNTVjS1lNLXktLWQ0d3kyRXpHLWctTUxhQUZZQWhXSWgwd0RyQkV5dFE?oc=5",
+        "source": "The Sofia Globe",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-20T09:14:22Z",
+        "title": "Drone debris found on Chelsea-3 ship attacked in Bulgaria’s Black Sea EEZ - The Sofia Globe"
+      }
+    ],
+    "first_seen": "2026-10-20T12:00:50Z",
+    "last_updated": "2026-10-20T12:00:55Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261013-007",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
     "date_utc": "2026-10-20T04:37:02Z",
     "summary": "A Romanian news report says new details have emerged about a civilian vessel attacked by drones in the Black Sea, with seven sailors still missing. No vessel name, flag, date, position or attribution was given.",
     "official_source_cited": null,
@@ -149,6 +200,46 @@
     "published_in": [
       "2026-10-20"
     ],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-20",
+    "summary": "A headline from the outlet Voyennoye Delo states that Russian drones struck four cargo ships and logistics hubs. No vessel names, flags, positions, dates, damage details or sourcing are given in the headline.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.4,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea (location not specified)",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Russia (Russian drones, per headline)",
+    "independent_evidence": false,
+    "id": "INC-20261020-005",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUHgzQ2Y2bWJYSm9VdUF2N05tVktabXJHay0zTksxVUpwQzRxYm5ScUszbkdOanlzcmNmTmkxM0IwVGYyOUhGbkFXb282NW92MmdTVUpFTFdRcE01LXBzWU1JSGNtRFRaWk16WVVWWTJrUk9lSmVLUEIzYnlaYm5tRnZmNGptNEVialFHb0dveEUtbjMtSW5DTF9kLTlvT0k?oc=5",
+        "source": "Военное дело",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-20T03:19:24Z",
+        "title": "Russian Drones Strike Four Cargo Ships and Logistics Hubs - Военное дело"
+      }
+    ],
+    "first_seen": "2026-10-20T12:00:55Z",
+    "last_updated": "2026-10-20T12:00:55Z",
+    "verification_issue": 206,
+    "verdict": null,
+    "published_in": [],
     "status": "claimed",
     "position_approx": true
   },
@@ -404,10 +495,19 @@
         "kind": "media",
         "published_at": "2026-10-19T03:15:00Z",
         "title": "Drone strikes stall two fuel tankers bound for Kenya - Daily Nation"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVklwbTVESXB0VmpXT2dNVW9OMzZDVWZCMzduTVBDZlk0ZTBRTjktNklpT05SbUNTMWphME5uSXYtZDJSdjhDdnNyMzVYWC1wT1hNVmszRk9qbm1XNnRRbGJPZ0ZYVV9mZ1FKR3l6SEVNcGQydmNpOGMzel9DcUNJMmhHb21rTGpFeWVIYVNNUjBvUW5qbDQwMy1jNlhCVDQyaUxySTVzdnA1WU54?oc=5",
+        "source": "Kenyans.co.ke",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-20T11:50:26Z",
+        "title": "Relief After Two Kenya-Bound Fuel Tankers Hit by Drone Strikes - Kenyans.co.ke"
       }
     ],
     "first_seen": "2026-10-19T20:42:41Z",
-    "last_updated": "2026-10-19T20:42:41Z",
+    "last_updated": "2026-10-20T12:00:48Z",
     "verification_issue": 201,
     "verdict": null,
     "published_in": [
@@ -14260,7 +14360,7 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-10-13",
-    "summary": "Bulgaria's Prime Minister said the Maltese-flagged, Ukrainian-owned general cargo ship Chelsea 3 was hit by three drones about 18 nautical miles east of Byala early on 13 October; all 15 crew, seven Ukrainians and eight Azerbaijanis, were rescued and five were treated for light injuries. The ship stayed afloat.",
+    "summary": "Bulgaria's Prime Minister said the Maltese-flagged, Ukrainian-owned general cargo ship Chelsea 3 was hit by three drones about 18 nautical miles east of Byala early on 13 October. All 15 crew were rescued and five were treated for light injuries, and later reports said drone fragments were found aboard the ship.",
     "official_source_cited": "Bulgarian government",
     "conflicting": false,
     "confidence": 0.8,
@@ -14827,10 +14927,46 @@
         "kind": "media",
         "published_at": "2026-10-17T16:51:12Z",
         "title": "BTA :: All Rescued Sailors from Drone-Attacked Merchant Ship Arrive in Varna - БТА"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaWNLOGg3T3dJamlDOVhNQlJST2t5NEZGMDduYVBXeWVpb3ZCNlNSbU9WeG5pU3BOT1JPR1FRRnI2VkdKcElibkw1Uk0zYlhlRlI0bjlDVERQcDFnb2pJd1RxTEZHNWtmN1NXVUZYeUVKWGNVWnJtTHoteVpDRXAxQURCdlNBRDlYckJQOFVYSmlPUWRFVFpOSkhnSnFfTExUQlRBdjVLd3pPUQ?oc=5",
+        "source": "Odessa Journal",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-20T11:11:47Z",
+        "title": "Drone Debris Found on Attacked Ship in Bulgaria's Black Sea Waters - Oj - Odessa Journal"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOX2JhTFZZOW91Qzc2U0xGSTZKRDc2cXRUc2d5X21DQUNOTms3MzhEVy1GVkVCMGp0d2pyTmxTOFBNS0ZneUVIOG1fUVBiOC1xdVNQZF9rVk1OS3hoVGF5aGt1bWFIeTF6cnFUZlpaUFU0dFBlWVU4aTRjZDkzWmY4VW83MlpXR1ROYVBseEFWUE01bEVBeGdkNEFaLXo3TGN1SzJSUnluUzlVNzV6dkVzQld1Tk3SAboBQVVfeXFMT0tKYkVrdzZlMlRndXRaVHVLLV9ib3NXb0NsSlFmdUcxM091dmh2XzhnSklYWFBwNFJJU3ZYZWtpTkphR2xVdUI1bTJJaDdOZkRTemFSVE5PaTN2TjZ1UVY0amVaaGUtb2pDYVh6RFM2M0NSckttMjRNaGk5WWdIZ0xaaURLZDE3cUctbDlubUV2R2tVM0t5TnVYTUVmd0s0aFNKcXk1UzZIMkNldTExVDFzLURGN2V1NGNR?oc=5",
+        "source": "A News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-20T11:09:50Z",
+        "title": "Bulgaria to examine drone debris found aboard ship attacked in Black Sea - A News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcmRyY3dVRHVla3V1SE1ucS1KTFdHOUh0WmRyaDRGQVFHM1NuVi1VQlZ4b2hpMHo3ekRmcEVYb2dYTER1WW0xTkhURzZlVUl5T1hOYkM2bTNReXNBWmJCLU9BbU1YM20xZHVLODRwcExucXYxV2lTb1Jqc1Y4eTMzMzJ6alh5dUxQQkdJOXl2S05rOXJFNFV0TGxtN21EaWU5RVZBdExjem5Sdw?oc=5",
+        "source": "БНР Новини",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-20T10:43:11Z",
+        "title": "Drone fragments found aboard cargo ship Chelsea 3 after Black Sea strike - БНР Новини"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWFl1anJXUFBUdFpra2lWNjlrZE1COTcxVy0tRXRDZW5oeU9SeHJsQ2h1bU52WFktWE9QNmtDWXZ1SDNVMFBtb2NZaDU5bUk3RDhzRmctVEYzcGNHNDdBdkwtRHNnYzQxSVFVbGhiRVh5TmxFMlBMWkh3OFktdXhpR3RaNTVjS1lNLXktLWQ0d3kyRXpHLWctTUxhQUZZQWhXSWgwd0RyQkV5dFE?oc=5",
+        "source": "The Sofia Globe",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-20T09:14:22Z",
+        "title": "Drone debris found on Chelsea-3 ship attacked in Bulgaria’s Black Sea EEZ - The Sofia Globe"
       }
     ],
     "first_seen": "2026-10-13T20:20:58Z",
-    "last_updated": "2026-10-19T14:56:46Z",
+    "last_updated": "2026-10-20T12:00:55Z",
     "verification_issue": 137,
     "verdict": {
       "status": "confirmed",
