@@ -1,2 +1,248 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap');
 #maritime-living{--paper:#f4f1e8;--ink:#172b32;--muted:#58656a;--orange:#e95125;--blue:#234ccc;--line:#c9cdc6;background:var(--paper);color:var(--ink);font-family:'DM Sans',sans-serif;font-size:15px;line-height:1.6;overflow:hidden;text-align:left}#maritime-living *{box-sizing:border-box}#maritime-living a{color:inherit;text-decoration:none}#maritime-living h1,#maritime-living h2,#maritime-living h3,#maritime-living p{margin:0}#maritime-living button,#maritime-living input,#maritime-living select{font:inherit}#maritime-living a:focus-visible,#maritime-living button:focus-visible,#maritime-living input:focus-visible,#maritime-living select:focus-visible,#maritime-living summary:focus-visible{outline:3px solid var(--blue);outline-offset:5px}#maritime-living [hidden]{display:none!important}#maritime-living .skip{position:absolute;top:-100px;background:white;padding:15px;z-index:10}#maritime-living .skip:focus{top:0}#maritime-living .masthead,#maritime-living main>section,#maritime-living footer{padding-left:6%;padding-right:6%}#maritime-living .masthead{display:flex;justify-content:space-between;align-items:center;padding-top:26px;padding-bottom:24px;border-bottom:1px solid var(--ink)}#maritime-living .brand{font-size:29px;font-weight:700;letter-spacing:-1.8px;line-height:1.1}#maritime-living .brand span{display:block;font-size:8px;letter-spacing:2px;margin-top:7px}#maritime-living .edition,#maritime-living .method-link,#maritime-living .eyebrow,#maritime-living .hero-kicker,#maritime-living .number-label{font-size:10px;letter-spacing:1.8px;font-weight:700}#maritime-living .method-link{letter-spacing:.2px;border-bottom:1px solid}#maritime-living .hero{position:relative;padding-top:28px;padding-bottom:28px}#maritime-living .hero-kicker{display:flex;justify-content:space-between}#maritime-living .live-dot{display:inline-block;background:var(--orange);width:7px;height:7px;border-radius:50%;margin-right:7px;box-shadow:0 0 0 5px #e9512515}#maritime-living .hero-layout{display:grid;grid-template-columns:1.2fr 1fr;gap:50px;align-items:center;padding-top:54px}#maritime-living h1,#maritime-living h2,#maritime-living .hero-number>strong,#maritime-living .stat>strong,#maritime-living .date-label strong{font-family:'Barlow Condensed','Impact',sans-serif;font-weight:600;letter-spacing:-1px}#maritime-living h1{font-size:clamp(58px,6.6vw,105px);line-height:.94}#maritime-living em{font-style:normal;color:var(--orange)}#maritime-living .hero-title>p{margin-top:27px;color:var(--muted);font-size:14px;line-height:1.8}#maritime-living .jump{display:inline-flex;align-items:center;gap:35px;margin-top:27px;font-size:12px;font-weight:700}#maritime-living .jump span{font-size:28px;color:var(--orange)}#maritime-living .hero-number{border-left:1px solid var(--line);padding-left:45px}#maritime-living .hero-number>strong{display:block;font-size:clamp(130px,19vw,290px);line-height:.94;letter-spacing:-7px;color:var(--orange)}#maritime-living .number-label{margin-bottom:18px}#maritime-living .number-caption{display:flex;align-items:center;gap:18px;margin-top:16px;font-size:12px}#maritime-living .number-line{height:2px;width:60px;background:var(--ink)}#maritime-living .hero-route{height:146px;position:relative;margin:25px -7% 0}#maritime-living .hero-route svg{width:100%;height:100%;overflow:visible}#maritime-living .hero-route path{stroke:var(--blue);stroke-width:2;fill:none;stroke-dasharray:8 6;animation:ml-drift 12s linear infinite}#maritime-living .hero-route circle{fill:var(--paper);stroke:var(--blue);stroke-width:3}#maritime-living .sea-label{position:absolute;font-size:9px;letter-spacing:1.5px;background:var(--paper);padding:4px 8px;color:var(--blue)}#maritime-living .sea-one{left:16%;top:70%}#maritime-living .sea-two{left:47%;top:10%}#maritime-living .sea-three{left:76%;top:82%}#maritime-living .scope{font-size:10px;color:var(--muted);margin-top:22px}#maritime-living .overview{padding-top:40px;padding-bottom:35px;border-top:1px solid var(--line);background:#eaece4}#maritime-living .impact-heading{display:flex;justify-content:space-between;align-items:baseline}#maritime-living .impact-heading h2{font-size:28px}#maritime-living .stats{display:grid;grid-template-columns:repeat(3,1fr);margin-top:28px}#maritime-living .stat{padding:0 24px;border-left:1px solid #b7c0b8}#maritime-living .stat:first-child{padding-left:0;border:0}#maritime-living .stat>strong{font-size:76px;line-height:1;color:var(--ink)}#maritime-living .stat>strong.unavailable{font-size:36px}#maritime-living .stat h3{font-size:13px;margin-top:10px}#maritime-living .stat p{font-size:11px;color:var(--muted);margin-top:6px;max-width:270px}#maritime-living .breakdown{display:flex;gap:8px;flex-wrap:wrap;margin-top:28px}#maritime-living .type-chip{font-size:11px;padding:8px 12px;border:1px solid #bdc5bd;display:inline-flex;gap:25px}#maritime-living .coverage{font-size:10px;color:var(--muted);margin-top:20px;max-width:850px}#maritime-living .featured{display:grid;grid-template-columns:1fr 1fr;gap:40px;background:var(--ink);color:var(--paper);padding-top:40px;padding-bottom:40px}#maritime-living .featured h2{font-size:56px;line-height:1.05;margin:16px 0}#maritime-living .featured p{font-size:13px;color:#d0d8d5;max-width:540px}#maritime-living .featured a{display:inline-block;font-size:12px;margin-top:20px;border-bottom:1px solid #8d9c9c}#maritime-living .featured-art{display:flex;align-items:center;justify-content:center;background:repeating-linear-gradient(0deg,transparent 0,transparent 44px,#ffffff09 45px,#ffffff09 46px);min-height:200px;position:relative}#maritime-living .ship{width:100%;height:125px;color:var(--ink)}#maritime-living .featured-art .ship{color:var(--paper);height:155px}#maritime-living .illustration-label{font-size:8px;letter-spacing:1.5px;position:absolute;bottom:0;right:0;opacity:.5}#maritime-living .updates-section{padding-top:55px;padding-bottom:55px;display:grid;grid-template-columns:1fr 2.2fr;gap:50px;border-bottom:1px solid var(--ink)}#maritime-living .updates-section h2{font-size:42px;line-height:1.02;margin-top:12px}#maritime-living #updates{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}#maritime-living .update{border-top:2px solid var(--orange);padding-top:13px}#maritime-living .update time{font-size:10px;color:var(--muted);display:block}#maritime-living .update>a{display:block;font-weight:700;font-size:13px;margin-top:10px}#maritime-living .update p{font-size:11px;margin-top:8px;color:var(--muted)}#maritime-living .record{padding-top:65px;padding-bottom:60px}#maritime-living .record-heading{display:flex;align-items:flex-end;justify-content:space-between}#maritime-living .record-heading h2{font-size:82px;line-height:.93;margin-top:15px;position:relative}#maritime-living .record-heading h2>span{display:inline-block;color:var(--blue);padding-left:35px;font-size:95px}#maritime-living .record-heading>p{font-size:12px;color:var(--muted);padding-bottom:8px}#maritime-living .filters{display:flex;gap:25px;margin-top:42px;padding:20px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);align-items:end}#maritime-living .filters label{font-size:9px;letter-spacing:1px;text-transform:uppercase;flex:1;display:block}#maritime-living .filters input,#maritime-living .filters select{width:100%;border:0;background:transparent;border-bottom:1px solid #9fa9a5;border-radius:0;padding:10px 0;font-size:12px;letter-spacing:0;color:var(--ink);min-height:40px}#maritime-living .filters .search{flex:1.5}#maritime-living button{cursor:pointer}#maritime-living .filters button{border:0;background:transparent;font-size:11px;padding:10px 0}#maritime-living #result-count{font-size:10px;color:var(--muted);margin-top:16px}#maritime-living .journey{position:relative;margin-top:30px}#maritime-living .journey-route{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;overflow:visible}#maritime-living #route-base{fill:none;stroke:#bfc7c3;stroke-width:2;stroke-dasharray:4 7}#maritime-living #route-progress{fill:none;stroke:var(--orange);stroke-width:2}#maritime-living #route-vessel{fill:var(--orange);stroke:var(--paper);stroke-width:2;filter:drop-shadow(0 2px 3px #172b3222)}#maritime-living .timeline{position:relative}#maritime-living .incident{display:grid;grid-template-columns:135px minmax(0,1fr);gap:65px;padding-top:42px;padding-bottom:42px;position:relative;scroll-margin-top:35px}#maritime-living .date-label{padding-top:16px;font-size:11px;position:relative}#maritime-living .date-label:after{content:'';position:absolute;width:12px;height:12px;right:-38px;top:26px;background:var(--paper);border:2px solid var(--orange);border-radius:50%}#maritime-living .date-label strong{font-size:45px;display:block;line-height:1.05;text-transform:uppercase}#maritime-living .date-label>span{display:block;margin-top:8px;font-size:9px;letter-spacing:1px;color:var(--muted)}#maritime-living .incident-card{border-top:1px solid var(--ink);background:var(--paper);position:relative;padding-top:16px}#maritime-living .card-top{display:flex;justify-content:space-between;gap:15px;font-size:9px;letter-spacing:1px}#maritime-living .badge{color:var(--blue);white-space:nowrap}#maritime-living .incident-main{display:grid;grid-template-columns:1.4fr 1fr;gap:25px;align-items:center;margin-top:18px}#maritime-living .incident h3{font-family:'Barlow Condensed',Impact,sans-serif;font-size:48px;line-height:1.05;font-weight:600;letter-spacing:-.5px}#maritime-living .vessel-meta{font-size:10px;color:var(--muted);margin-top:10px}#maritime-living .incident-summary{font-size:13px;line-height:1.8;margin-top:17px;max-width:650px}#maritime-living .vessel-art{position:relative;border-bottom:1px solid #bdc7c2;min-width:0}#maritime-living .vessel-art .ship{height:90px}#maritime-living .vessel-art .illustration-label{bottom:5px;font-size:7px}#maritime-living .factline{display:flex;gap:25px;flex-wrap:wrap;font-size:10px;padding:18px 0;color:var(--muted)}#maritime-living .factline b{color:var(--ink);font-weight:500}#maritime-living details{border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:11px;padding:12px 0}#maritime-living summary{cursor:pointer;font-size:10px;font-weight:700;letter-spacing:.3px}#maritime-living details p{margin-top:12px}#maritime-living details h4{font-size:12px;margin-top:20px}#maritime-living .sources{display:flex;gap:12px;flex-wrap:wrap;margin-top:10px}#maritime-living .sources a{font-size:10px;text-decoration:underline;text-underline-offset:3px;color:var(--blue)}#maritime-living .revision{padding:12px 0;border-top:1px solid var(--line);margin-top:12px}#maritime-living .revision time{color:var(--orange);font-size:10px}#maritime-living .notice{font-size:11px;color:var(--orange)}#maritime-living figure{margin:20px 0}#maritime-living figure img{width:100%;max-height:340px;object-fit:cover}#maritime-living figcaption{font-size:9px;color:var(--muted)}#maritime-living .empty{padding:65px 25px;border:1px solid var(--line);text-align:center;font-size:14px}#maritime-living .empty button{display:block;margin:15px auto;border:1px solid;padding:8px 20px;background:transparent}#maritime-living .more{display:block;border:1px solid var(--ink);color:var(--ink);background:transparent;padding:15px 30px;font-size:12px;margin:20px auto 0}#maritime-living .methodology{background:#e7e9e0;padding-top:55px;padding-bottom:55px;border-top:1px solid var(--ink)}#maritime-living .methodology h2{font-size:64px;line-height:.98;margin-top:20px}#maritime-living .method-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;margin-top:40px}#maritime-living .method-grid article>span{font-family:'Barlow Condensed',sans-serif;font-size:28px;color:var(--orange)}#maritime-living .method-grid h3{font-size:12px;margin-top:8px}#maritime-living .method-grid p{font-size:11px;color:var(--muted);margin-top:10px}#maritime-living footer{padding-top:30px;padding-bottom:30px;display:flex;justify-content:space-between;align-items:center;gap:20px;font-size:10px}#maritime-living .incident{animation:ml-enter .65s both}#maritime-living .hero-layout{animation:ml-enter .8s both}@keyframes ml-enter{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}@keyframes ml-drift{to{stroke-dashoffset:-140}}@media(min-width:1600px){#maritime-living main>section,#maritime-living .masthead,#maritime-living footer{padding-left:max(6%,calc((100% - 1400px)/2));padding-right:max(6%,calc((100% - 1400px)/2))}}@media(max-width:800px){#maritime-living .edition{display:none}#maritime-living .hero-layout{gap:24px;padding-top:35px}#maritime-living h1{font-size:58px}#maritime-living .hero-number{padding-left:24px}#maritime-living .hero-number>strong{font-size:150px}#maritime-living .hero-kicker{font-size:8px;letter-spacing:.8px}#maritime-living .number-label{font-size:8px;letter-spacing:.7px}#maritime-living .impact-heading{display:block}#maritime-living .impact-heading h2{margin-top:10px}#maritime-living .updates-section{grid-template-columns:1fr;gap:25px}#maritime-living .updates-section h2 br{display:none}#maritime-living .method-grid{grid-template-columns:1fr 1fr}#maritime-living .incident{grid-template-columns:90px minmax(0,1fr);gap:45px}#maritime-living .date-label strong{font-size:34px}#maritime-living .date-label:after{right:-28px}#maritime-living .incident-main{grid-template-columns:1fr}#maritime-living .vessel-art{display:none}#maritime-living .incident h3{font-size:42px}#maritime-living .record-heading h2{font-size:65px}#maritime-living .record-heading h2>span{font-size:65px;padding-left:12px}#maritime-living .record-heading>p{max-width:180px}#maritime-living .featured h2{font-size:44px}#maritime-living .featured{gap:20px}}@media(max-width:520px){#maritime-living .masthead{padding-top:20px;padding-bottom:20px}#maritime-living .method-link{font-size:9px}#maritime-living .hero-kicker{display:block}#maritime-living .hero-kicker>span{display:block;margin-bottom:12px}#maritime-living .hero-layout{grid-template-columns:1fr;gap:30px;padding-top:15px}#maritime-living h1{font-size:65px}#maritime-living .hero-title>p{font-size:12px;margin-top:20px}#maritime-living .hero-number{border-left:0;border-top:1px solid var(--line);padding:25px 0 0;position:relative}#maritime-living .hero-number>strong{font-size:170px;letter-spacing:-3px}#maritime-living .number-caption{position:absolute;right:0;bottom:16px;font-size:10px}#maritime-living .number-line{width:25px}#maritime-living .hero-route{height:95px;margin-top:15px}#maritime-living .sea-label{font-size:6px;letter-spacing:.5px;padding:2px}#maritime-living .sea-one{left:12%}#maritime-living .sea-three{left:74%}#maritime-living .stats{gap:12px}#maritime-living .stat{padding:0 0 0 12px}#maritime-living .stat>strong{font-size:55px}#maritime-living .stat>strong.unavailable{font-size:23px}#maritime-living .stat h3{font-size:10px}#maritime-living .stat p{font-size:9px}#maritime-living .featured{grid-template-columns:1fr}#maritime-living .featured-art{min-height:150px}#maritime-living .featured-art .ship{height:110px}#maritime-living #updates{grid-template-columns:1fr;gap:20px}#maritime-living .update p{font-size:12px}#maritime-living .record{padding-top:40px}#maritime-living .record-heading{display:block}#maritime-living .record-heading h2{font-size:68px}#maritime-living .record-heading>p{margin-top:24px;font-size:11px;max-width:none}#maritime-living .filters{flex-wrap:wrap;gap:15px;margin-top:25px}#maritime-living .filters label{flex-basis:40%}#maritime-living .filters .search{flex-basis:70%}#maritime-living .incident{grid-template-columns:65px minmax(0,1fr);gap:25px;padding-top:30px;padding-bottom:25px}#maritime-living .date-label strong{font-size:27px}#maritime-living .date-label{font-size:10px}#maritime-living .date-label:after{right:-17px;width:9px;height:9px;top:23px}#maritime-living .card-top{display:block;font-size:8px}#maritime-living .badge{display:block;margin-top:7px}#maritime-living .incident h3{font-size:35px}#maritime-living .incident-summary{font-size:12px}#maritime-living .factline{gap:8px;display:block;font-size:9px}#maritime-living .factline>div{margin-top:7px}#maritime-living .methodology h2{font-size:53px}#maritime-living .method-grid{gap:25px 20px}#maritime-living footer{flex-wrap:wrap}#maritime-living footer p{width:55%}}@media(prefers-reduced-motion:reduce){#maritime-living *,#maritime-living *:before,#maritime-living *:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}#maritime-living #route-vessel{display:none}}
+
+/* Maritime motion: editorial entrance, a quiet sea, and a readable route. */
+#maritime-living.motion-ready .hero-layout,
+#maritime-living.motion-ready .incident { animation: none; }
+#maritime-living.motion-ready .hero-title h1 { animation: ml-rise 1s cubic-bezier(.16,1,.3,1) both; }
+#maritime-living.motion-ready .hero-title > p { animation: ml-rise .9s .12s cubic-bezier(.16,1,.3,1) both; }
+#maritime-living.motion-ready .hero-title .jump { animation: ml-rise .9s .23s cubic-bezier(.16,1,.3,1) both; }
+#maritime-living.motion-ready .hero-number { animation: ml-rise 1.1s .18s cubic-bezier(.16,1,.3,1) both; }
+#maritime-living.motion-ready .hero-route { animation: ml-chart-in 1.3s .35s both; }
+#maritime-living.motion-ready .motion-reveal {
+  opacity: 0;
+  transform: translate3d(0, 30px, 0);
+  transition: opacity .8s cubic-bezier(.2,.65,.3,1), transform .95s cubic-bezier(.16,1,.3,1);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+#maritime-living.motion-ready .motion-reveal.is-visible { opacity: 1; transform: none; }
+#maritime-living .hero-route circle {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: ml-harbour 5s ease-in-out infinite;
+}
+#maritime-living .hero-route circle:nth-of-type(2) { animation-delay: 1.65s; }
+#maritime-living .hero-route circle:nth-of-type(3) { animation-delay: 3.3s; }
+#maritime-living .featured-art .ship { animation: ml-afloat 6.5s ease-in-out infinite; }
+#maritime-living .featured-art::before,
+#maritime-living .featured-art::after,
+#maritime-living .vessel-art::before {
+  content: '';
+  position: absolute;
+  pointer-events: none;
+  height: 1px;
+  width: 53%;
+  left: 23%;
+  bottom: 24%;
+  background: linear-gradient(90deg, transparent, currentColor, transparent);
+  opacity: .23;
+  animation: ml-wake 5s ease-out infinite;
+}
+#maritime-living .featured-art::after { bottom: 20%; width: 63%; left: 18%; animation-delay: -2.5s; }
+#maritime-living .vessel-art::before { bottom: 5px; width: 60%; left: 15%; color: var(--blue); animation-duration: 6s; }
+#maritime-living .incident-card { transition: border-color .4s ease, box-shadow .4s ease; }
+#maritime-living .incident.is-current .incident-card { border-top-color: var(--orange); box-shadow: 0 -1px 0 var(--orange); }
+#maritime-living .date-label::after { transition: background .4s ease, box-shadow .5s ease; }
+#maritime-living .incident.is-current .date-label::after { background: var(--orange); box-shadow: 0 0 0 6px #e9512514; }
+#maritime-living .reading-progress {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 50;
+  height: 3px;
+  pointer-events: none;
+  background: var(--orange);
+  transform: scaleX(0);
+  transform-origin: left;
+  will-change: transform;
+}
+#maritime-living .motion-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  color: inherit;
+  border: 1px solid var(--line);
+  border-radius: 0;
+  padding: 8px 11px;
+  font-size: 10px;
+  line-height: 1.3;
+  white-space: nowrap;
+  transition: border-color .25s ease, background .25s ease;
+}
+#maritime-living .motion-toggle:hover { border-color: var(--ink); background: #172b3207; }
+#maritime-living .jump span { transition: transform .35s cubic-bezier(.16,1,.3,1); }
+#maritime-living .jump:hover span { transform: translateY(5px); }
+#maritime-living .featured a,
+#maritime-living .update > a { transition: color .25s ease; }
+#maritime-living .featured a:hover { color: #ffa083; }
+#maritime-living .update > a:hover { color: var(--orange); }
+#maritime-living .type-chip { transition: background .3s ease, border-color .3s ease, transform .3s ease; }
+#maritime-living .type-chip:hover { border-color: var(--ink); background: #ffffff60; transform: translateY(-3px); }
+#maritime-living .more { transition: background .3s ease, color .3s ease, transform .3s ease; }
+#maritime-living .more:hover { background: var(--ink); color: var(--paper); transform: translateY(-2px); }
+#maritime-living .sources a { transition: text-underline-offset .25s ease; }
+#maritime-living .sources a:hover { text-underline-offset: 6px; }
+@media (hover: hover) and (min-width: 801px) {
+  #maritime-living .vessel-art .ship { animation: ml-afloat 7s ease-in-out infinite; }
+  #maritime-living .incident:nth-child(even) .vessel-art .ship { animation-delay: -3s; }
+}
+@keyframes ml-rise {
+  from { opacity: 0; transform: translate3d(0, 28px, 0); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes ml-chart-in {
+  from { opacity: 0; clip-path: inset(0 100% 0 0); }
+  to { opacity: 1; clip-path: inset(0 -5% 0 -5%); }
+}
+@keyframes ml-afloat {
+  0%, 100% { transform: translateY(0) rotate(-.45deg); }
+  50% { transform: translateY(-5px) rotate(.45deg); }
+}
+@keyframes ml-wake {
+  0% { opacity: 0; transform: translateX(8px) scaleX(.75); }
+  30% { opacity: .25; }
+  100% { opacity: 0; transform: translateX(-20px) scaleX(1.25); }
+}
+@keyframes ml-harbour {
+  0%, 100% { stroke-width: 3; }
+  50% { stroke-width: 5; }
+}
+/* A stopped experience remains fully visible, including mid-entrance content. */
+#maritime-living.motion-paused *,
+#maritime-living.motion-paused *::before,
+#maritime-living.motion-paused *::after,
+#maritime-living.motion-reduced *,
+#maritime-living.motion-reduced *::before,
+#maritime-living.motion-reduced *::after {
+  animation: none !important;
+  transition: none !important;
+  scroll-behavior: auto !important;
+}
+#maritime-living.motion-paused .motion-reveal,
+#maritime-living.motion-reduced .motion-reveal { opacity: 1 !important; transform: none !important; }
+@media (prefers-reduced-motion: reduce) {
+  #maritime-living.motion-ready .motion-reveal { opacity: 1; transform: none; }
+}
+
+/* The small route vessel is illustrative navigation, independent of incident data. */
+#maritime-living .hero-route #hero-route-path { animation: ml-drift 12s linear infinite; }
+#maritime-living .hero-route #hero-vessel path {
+  fill: var(--orange);
+  stroke: var(--paper);
+  stroke-width: 1.5;
+  stroke-dasharray: none;
+  animation: none;
+}
+#maritime-living .hero-route #hero-trail {
+  stroke: var(--orange);
+  stroke-width: 2;
+  stroke-dasharray: 3 6;
+  opacity: .4;
+  animation: none;
+}
+#maritime-living .reading-progress { background: transparent; transform: none; }
+#maritime-living .reading-progress > span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: var(--orange);
+  transform: scaleX(0);
+  transform-origin: left;
+  will-change: transform;
+}
+#maritime-living .masthead .motion-toggle { margin-left: 14px; }
+@media (max-width: 520px) {
+  #maritime-living .masthead { flex-wrap: wrap; gap: 16px 10px; }
+  #maritime-living .masthead .motion-toggle { padding: 7px 8px; font-size: 9px; margin-left: 0; }
+}
+
+#maritime-living .masthead-actions { display: flex; align-items: center; gap: 14px; }
+#maritime-living .masthead-actions .motion-toggle { margin-left: 0; }
+#maritime-living .hero-route #hero-vessel .hero-vessel-deck { fill: var(--paper); }
+#maritime-living[data-hero-visible='false'] .hero-route *,
+#maritime-living[data-hero-visible='false'] .hero-route *::before,
+#maritime-living[data-hero-visible='false'] .hero-route *::after { animation-play-state: paused; }
+#maritime-living.motion-paused .hero-route #hero-trail,
+#maritime-living.motion-reduced .hero-route #hero-trail { display: none; }
+body.admin-bar #maritime-living .reading-progress { top: 32px; }
+@media (max-width: 782px) {
+  body.admin-bar #maritime-living .reading-progress { top: 46px; }
+}
+
+/* Geographic monitoring atlas: real coastlines with quiet editorial overlays. */
+#maritime-living .hero-map {
+  margin-top: 42px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding-top: 20px;
+}
+#maritime-living .map-toolbar { display: flex; align-items: baseline; justify-content: space-between; gap: 18px; padding-bottom: 17px; }
+#maritime-living .map-toolbar h2 { font-size: 28px; line-height: 1.1; margin-top: 7px; letter-spacing: -.3px; }
+#maritime-living .map-caption { color: var(--muted); font-size: 9px; line-height: 1.6; max-width: 340px; }
+#maritime-living .map-frame { position: relative; width: 100%; aspect-ratio: 2.25 / 1; overflow: hidden; background: #e2eaf0; border: 1px solid #c4ced0; }
+#maritime-living .map-frame > svg { display: block; width: 100%; height: 100%; }
+#maritime-living .map-water { fill: #e2eaf0; }
+#maritime-living .map-land { fill: #e8e9d9; stroke: #aabbb4; stroke-width: .8; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+#maritime-living .map-border { fill: none; stroke: #b8c0b3; stroke-width: .55; vector-effect: non-scaling-stroke; }
+#maritime-living .map-grid { fill: none; stroke: #8ca9b8; stroke-width: .5; opacity: .3; vector-effect: non-scaling-stroke; }
+#maritime-living .map-region { fill: #234ccc0b; stroke: #234ccc55; stroke-width: 1; vector-effect: non-scaling-stroke; transition: fill .4s ease, stroke .4s ease; }
+#maritime-living .map-region.is-active { fill: #e9512516; stroke: var(--orange); }
+#maritime-living .map-route { fill: none; stroke: var(--blue); stroke-width: 1.5; stroke-dasharray: 5 6; stroke-linecap: round; opacity: .6; animation: ml-drift 20s linear infinite; vector-effect: non-scaling-stroke; }
+#maritime-living .map-marker { fill: var(--orange); stroke: var(--paper); stroke-width: 2; vector-effect: non-scaling-stroke; }
+#maritime-living .map-marker-ring { fill: none; stroke: var(--orange); stroke-width: 1.25; opacity: .45; transform-box: fill-box; transform-origin: center; animation: ml-map-beacon 4s ease-out infinite; vector-effect: non-scaling-stroke; }
+#maritime-living .map-marker-ring:nth-of-type(2) { animation-delay: -1.3s; }
+#maritime-living .map-marker-ring:nth-of-type(3) { animation-delay: -2.6s; }
+#maritime-living .map-label { fill: var(--ink); font-family: 'DM Sans',sans-serif; font-weight: 700; font-size: 12px; letter-spacing: .4px; paint-order: stroke; stroke: #e8e9d9; stroke-width: 4px; stroke-linejoin: round; }
+#maritime-living .map-label-small { fill: var(--muted); font-family: 'DM Sans',sans-serif; font-size: 9px; letter-spacing: 1px; }
+#maritime-living .map-leader { fill: none; stroke: var(--ink); stroke-width: .8; opacity: .65; vector-effect: non-scaling-stroke; }
+#maritime-living .map-choices { display: flex; gap: 8px; padding: 15px 0; flex-wrap: wrap; }
+#maritime-living .map-choice { display: inline-flex; align-items: center; justify-content: center; gap: 9px; border: 1px solid #b9c3be; background: transparent; color: var(--ink); padding: 9px 14px; font-size: 10px; font-weight: 600; line-height: 1.3; transition: border-color .25s ease, color .25s ease, background .25s ease, transform .25s ease; }
+#maritime-living .map-choice:hover { border-color: var(--blue); color: var(--blue); transform: translateY(-2px); }
+#maritime-living .map-choice[aria-pressed='true'] { border-color: var(--ink); background: var(--ink); color: var(--paper); }
+#maritime-living .hero-map > .map-caption { padding: 0 0 15px; max-width: none; font-size: 8px; }
+#maritime-living .map-caption a { text-decoration: underline; text-underline-offset: 2px; }
+#maritime-living[data-hero-visible='false'] .hero-map * { animation-play-state: paused; }
+@keyframes ml-map-beacon {
+  0% { opacity: .55; transform: scale(.75); }
+  75%, 100% { opacity: 0; transform: scale(1.65); }
+}
+@media (max-width: 800px) {
+  #maritime-living .map-frame { aspect-ratio: 1.8 / 1; }
+  #maritime-living .map-toolbar { align-items: flex-start; }
+  #maritime-living .map-toolbar .map-caption { max-width: 230px; }
+}
+@media (max-width: 520px) {
+  #maritime-living .hero-map { margin-top: 28px; }
+  #maritime-living .map-toolbar { display: block; }
+  #maritime-living .map-toolbar .map-caption { margin-top: 10px; max-width: none; }
+  #maritime-living .map-frame { aspect-ratio: 1.35 / 1; }
+  #maritime-living .map-choices { gap: 6px; }
+  #maritime-living .map-choice { flex: 1; padding: 10px 5px; font-size: 9px; }
+  #maritime-living .map-label { font-size: 14px; }
+}
+
+/* The geography is a shared SVG asset; these layers are illustrative navigation. */
+#maritime-living .map-frame { aspect-ratio: 1.85 / 1; }
+#maritime-living .map-region { fill: none; stroke: none; }
+#maritime-living .map-region.is-selected .map-region-halo { fill: var(--orange); opacity: .22; }
+#maritime-living .map-region.is-selected .map-region-label { fill: var(--orange); }
+#maritime-living .map-country { fill: #728078; font-family: 'DM Sans', sans-serif; font-size: 10px; }
+#maritime-living .map-frame #hero-vessel path { fill: var(--orange); stroke: var(--paper); stroke-width: 1.4; }
+#maritime-living .map-frame #hero-vessel .hero-vessel-deck { fill: var(--paper); stroke: none; }
+#maritime-living .map-frame #hero-trail { stroke: var(--orange); opacity: .55; }
+#maritime-living .map-loading { display: grid; place-items: center; height: 100%; font-size: 12px; color: var(--muted); }
+#maritime-living.motion-reduced #hero-trail { display: none; }
+#maritime-living.motion-ready .hero-map { animation: ml-rise 1.1s .3s both; }
+@media(max-width:520px) {
+ #maritime-living .map-frame { aspect-ratio: 1.4 / 1; }
+ #maritime-living .map-choice { flex-basis: 40%; }
+}
+#maritime-living .map-frame.map-compact { aspect-ratio: .85 / 1; }
+#maritime-living .map-compact .map-label { font-size: 22px; letter-spacing: .3px; }
+#maritime-living .map-compact .map-country { font-size: 17px; letter-spacing: .5px; }
+#maritime-living .map-compact .map-region-coordinates,
+#maritime-living .map-compact .map-attribution,
+#maritime-living .map-compact svg > .map-caption { display: none; }
+#maritime-living .map-compact .map-region[data-region='Strait of Hormuz'] text { text-anchor: end; }

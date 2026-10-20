@@ -17,14 +17,79 @@ const links = sources => (Array.isArray(sources) ? sources : []).flatMap(s => {c
 const sourceHTML = sources => [...new Map(links(sources).map(s => [s.url,s])).values()].map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer nofollow">${esc(s.source)} ↗</a>`).join('');
 const confirmedCasualties = i => {const c=i.casualties;return c && typeof c === 'object' && c.status==='confirmed' && validCount(c.deaths) && links(c.sources).length ? c : null;};
 let all = [], visible = [], limit = 16;
-const motion = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-const observer = motion && 'IntersectionObserver' in window ? new IntersectionObserver(entries => {entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('reveal');observer.unobserve(entry.target);}});},{threshold:.05}) : null;
+const media = window.matchMedia('(prefers-reduced-motion: reduce)');
+let motionPreference = true;
+try { motionPreference = localStorage.getItem('maritime-atlas-motion') !== 'off'; } catch {}
+let motion = !media.matches && motionPreference;
+let routeLength = 0, routeCurrent = null, routeTarget = 0, frame = 0, previousFrame = 0;
+let rootVisible = true;
+let heroVisible = true, heroDistance = 0, lastCurrent = null;
+const hero = root.querySelector('.hero');
+const observer = 'IntersectionObserver' in window ? new IntersectionObserver(entries => {
+ entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('is-visible', 'reveal'); observer.unobserve(entry.target); } });
+}, {threshold: .08}) : null;
+const reveal = () => root.querySelectorAll('.impact-heading, .stat, .update, .record-heading, .method-grid article, .incident-card, .featured').forEach(el => {
+ if (el.hidden || el.classList.contains('motion-reveal')) return;
+ el.classList.add('motion-reveal');
+ el.style.setProperty('--reveal-delay', `${Math.min([...el.parentElement.children].indexOf(el), 3) * 75}ms`);
+ if (motion && observer) observer.observe(el); else el.classList.add('is-visible', 'reveal');
+});
+function applyMotion() {
+ motion = !media.matches && motionPreference;
+ root.dataset.motion = motion ? 'full' : 'reduced';
+ root.classList.add('motion-ready');
+ root.classList.toggle('motion-reduced', !motion);
+ const toggle = $('motion-toggle');
+ if (toggle) {
+  toggle.setAttribute('aria-pressed', String(motion)); toggle.setAttribute('aria-label', 'Animations');
+  toggle.disabled = media.matches; toggle.title = media.matches ? 'Reduced motion is enabled in your system settings' : 'Control decorative animations';
+  const label=toggle.querySelector('.motion-label'), icon=toggle.querySelector('.motion-icon');
+  if(label)label.textContent=motion?'Pause motion':'Play motion'; else toggle.textContent=motion?'Pause motion':'Play motion';
+  if(icon)icon.textContent=motion?'Ⅱ':'▶';
+ }
+ if (!motion) root.querySelectorAll('.motion-reveal').forEach(el => el.classList.add('is-visible', 'reveal'));
+ routeCurrent = null;
+ scrollRoute(); scheduleFrame();
+}
+$('motion-toggle')?.addEventListener('click', () => {
+ if(media.matches)return;
+ motionPreference = !motionPreference;
+ try { localStorage.setItem('maritime-atlas-motion', motionPreference ? 'on' : 'off'); } catch {}
+ applyMotion();
+});
+if (media.addEventListener) media.addEventListener('change', applyMotion);
+else if (media.addListener) media.addListener(applyMotion);
+if ('IntersectionObserver' in window && hero) {
+ new IntersectionObserver(entries => { heroVisible = entries[0].isIntersecting; root.dataset.heroVisible = String(heroVisible); scheduleFrame(); }).observe(hero);
+}
+function updatePause(){const paused=document.hidden||!rootVisible;root.dataset.motionPaused=String(paused);root.classList.toggle('motion-paused',paused);previousFrame=0;scheduleFrame();}
+if('IntersectionObserver' in window)new IntersectionObserver(entries=>{rootVisible=entries[0].isIntersecting;updatePause();}).observe(root);
+document.addEventListener('visibilitychange', updatePause);
+function animateCount(id, count) {
+ const el = $(id); if (!el) return;
+ const final = count.toLocaleString('en');
+ el.textContent = final;
+ el.setAttribute('aria-label', final);
+ if (!motion || count === 0 || el.dataset.counted) return;
+ el.dataset.counted = 'true';
+ // Animate a visual duplicate, keeping the true value stable for assistive technology.
+ const visual = document.createElement('span'); visual.setAttribute('aria-hidden', 'true');
+ const accessible = document.createElement('span'); accessible.className = 'count-accessible'; accessible.style.cssText = 'position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap'; accessible.textContent = final;
+ el.replaceChildren(accessible, visual);
+ const start = performance.now();
+ const tick = now => {
+  const t = motion ? Math.min(1, (now - start) / 1000) : 1;
+  visual.textContent = Math.round(count * (1 - Math.pow(1 - t, 3))).toLocaleString('en');
+  if (t < 1) requestAnimationFrame(tick); else el.textContent = final;
+ };
+ requestAnimationFrame(tick);
+}
 function updateNotes(i) {return (Array.isArray(i.updates) ? i.updates : []).filter(u => u && typeof u.text === 'string' && stamp(u.at)).sort((a,b)=>stamp(b.at)-stamp(a.at));}
 function stats() {
- $('total').textContent = all.length.toLocaleString('en');
+ animateCount('total', all.length);
 
  const known = new Map();all.forEach(i=>{const key=i.imo ? `imo:${i.imo}` : i.vessel_name ? `name:${String(i.vessel_name).trim().toUpperCase()}` : null;if(key)known.set(key,i);});
- $('vessels').textContent=known.size.toLocaleString('en');
+ animateCount('vessels', known.size);
 
  $('unidentified').textContent='Distinct named vessels in the reviewed record.';
  const casualties=all.map(confirmedCasualties).filter(Boolean);
@@ -68,38 +133,126 @@ function drawRoute() {
  let d=`M ${points[0].x} 0 L ${points[0].x} ${points[0].y}`;
  points.slice(1).forEach((p,i)=>{const q=points[i], bend=(width<400?7:width<700?13:24)*(i%2?-1:1);d+=` C ${q.x+bend} ${q.y+(p.y-q.y)*.35}, ${p.x+bend} ${q.y+(p.y-q.y)*.65}, ${p.x} ${p.y}`;});
  d+=` L ${points.at(-1).x} ${height}`;
- $('route-base').setAttribute('d',d);$('route-progress').setAttribute('d',d);scrollRoute();
+ $('route-base').setAttribute('d',d);$('route-progress').setAttribute('d',d);routeLength=$('route-progress').getTotalLength();scrollRoute();
+}
+function scheduleFrame() {
+ if (!frame && !document.hidden && rootVisible) frame = requestAnimationFrame(animateFrame);
 }
 function scrollRoute(){
- const path=$('route-progress');if(!path.getAttribute('d'))return;
- const box=root.querySelector('.journey').getBoundingClientRect(), ratio=Math.max(0,Math.min(1,(innerHeight*.6-box.top)/box.height));
- const length=path.getTotalLength(), travelled=motion?ratio*length:length;
- path.style.strokeDasharray=`${travelled} ${length}`;
- const p=path.getPointAtLength(travelled), q=path.getPointAtLength(Math.min(length,travelled+2));
- $('route-vessel').style.display=motion?'':'none';
- $('route-vessel').setAttribute('transform',`translate(${p.x},${p.y}) rotate(${Math.atan2(q.y-p.y,q.x-p.x)*180/Math.PI+90})`);
+ const journey=root.querySelector('.journey'), path=$('route-progress');
+ if (journey && path?.getAttribute('d')) {
+  const box=journey.getBoundingClientRect();
+  routeTarget=Math.max(0,Math.min(1,(innerHeight*.6-box.top)/Math.max(1,box.height)));
+  if (routeCurrent === null || !motion) routeCurrent=routeTarget;
+ }
+ const scrollMax = document.documentElement.scrollHeight - innerHeight;
+ const progress = $('reading-progress-fill') || root.querySelector('.reading-progress span');
+ if(progress) progress.style.transform=`scaleX(${scrollMax>0?Math.max(0,Math.min(1,scrollY/scrollMax)):0})`;
+ const cards=[...root.querySelectorAll('.incident')];
+ let current=null, distance=Infinity;
+ cards.forEach(el=>{const rect=el.getBoundingClientRect();const d=Math.abs(rect.top-innerHeight*.4);if(rect.bottom>0&&rect.top<innerHeight&&d<distance){current=el;distance=d;}});
+ if(current!==lastCurrent){lastCurrent?.classList.remove('is-current');current?.classList.add('is-current');lastCurrent=current;}
+ scheduleFrame();
 }
-window.addEventListener('scroll',()=>requestAnimationFrame(scrollRoute),{passive:true});
-window.addEventListener('resize',()=>requestAnimationFrame(drawRoute));
-root.addEventListener('toggle',()=>requestAnimationFrame(drawRoute),true);
-if(document.fonts)document.fonts.ready.then(drawRoute);
+function animateFrame(now){
+ frame=0;
+ if(document.hidden||!rootVisible)return;
+ const dt=previousFrame?Math.min(48,now-previousFrame):16;previousFrame=now;
+ const path=$('route-progress'), vessel=$('route-vessel');
+ let settling=false;
+ if(path?.getAttribute('d')&&routeLength){
+  if(routeCurrent===null)routeCurrent=routeTarget;
+  const delta=routeTarget-routeCurrent;
+  settling=motion&&Math.abs(delta)>.00005;
+  routeCurrent=settling?routeCurrent+delta*(1-Math.exp(-dt/110)):routeTarget;
+  const travelled=(motion?routeCurrent:1)*routeLength;
+  path.style.strokeDasharray=`${travelled} ${routeLength}`;
+  if(vessel){
+   const p=path.getPointAtLength(travelled),q=path.getPointAtLength(Math.max(0,travelled-2));
+   vessel.style.display=motion?'':'none';
+   vessel.setAttribute('transform',`translate(${p.x},${p.y}) rotate(${Math.atan2(p.y-q.y,p.x-q.x)*180/Math.PI+90})`);
+  }
+  const wake=$('route-wake');
+  if(wake){wake.setAttribute('d',path.getAttribute('d'));wake.style.strokeDasharray=`${Math.min(travelled,65)} ${routeLength}`;wake.style.strokeDashoffset=String(-Math.max(0,travelled-65));}
+ }
+ const heroPath=$('hero-route-path') || root.querySelector('.hero-map svg path:first-of-type'), heroVessel=$('hero-vessel');
+ if(motion&&heroVisible&&heroPath&&heroVessel){
+  const length=heroPath.getTotalLength();
+  if(length){
+   heroDistance=(heroDistance+dt*.035)%length;
+   const p=heroPath.getPointAtLength(heroDistance),q=heroPath.getPointAtLength(Math.min(length,heroDistance+1));
+   heroVessel.setAttribute('transform',`translate(${p.x} ${p.y}) rotate(${Math.atan2(q.y-p.y,q.x-p.x)*180/Math.PI})`);
+   const trail=$('hero-trail');if(trail){trail.setAttribute('d',heroPath.getAttribute('d'));trail.style.strokeDasharray=`${Math.min(heroDistance,100)} ${length}`;trail.style.strokeDashoffset=String(-Math.max(0,heroDistance-100));}
+  }
+ }
+ if(settling||(motion&&heroVisible&&heroVessel))scheduleFrame();
+}
+let layoutFrame=0;
+function scheduleLayout(){if(!layoutFrame)layoutFrame=requestAnimationFrame(()=>{layoutFrame=0;fitMap();drawRoute();});}
+window.addEventListener('scroll',scrollRoute,{passive:true});
+window.addEventListener('resize',scheduleLayout);
+root.addEventListener('toggle',scheduleLayout,true);
+root.addEventListener('load',scheduleLayout,true);
+if(document.fonts)document.fonts.ready.then(scheduleLayout);
+if('ResizeObserver' in window)new ResizeObserver(scheduleLayout).observe(root.querySelector('.journey'));
+applyMotion();
 
 function render() {
  const query=$('search').value.toLowerCase().trim();
  visible=all.filter(i=>(!$('region').value||(i.region_group || i.region)===$('region').value)&&(!$('status').value||i.vessel_type===$('status').value)&&(!query||[i.vessel_name,i.imo,i.location_text].some(v=>String(v||'').toLowerCase().includes(query))));
  $('result-count').textContent=`${visible.length} reviewed incident records · Hero totals cover all three regions.`;
+ if(observer)root.querySelectorAll('#timeline .motion-reveal').forEach(el=>observer.unobserve(el));
  $('timeline').innerHTML=visible.length?visible.slice(0,limit).map(card).join(''):'<p class="empty">No records match these filters. Try another region, evidence level or vessel name.</p>';
  $('timeline').setAttribute('aria-busy','false');$('more').hidden=visible.length<=limit; requestAnimationFrame(drawRoute);
- if(observer)root.querySelectorAll('.incident').forEach(el=>observer.observe(el));
+ reveal();
 }
+function syncMap(region) {
+ root.querySelectorAll('.map-choice').forEach(button => {
+  const selected=(button.dataset.region||'')===region;
+  button.classList.toggle('is-selected',selected);
+  button.setAttribute('aria-pressed',String(selected));
+ });
+ root.querySelectorAll('.map-region').forEach(area => area.classList.toggle('is-selected',Boolean(region)&&area.dataset.region===region));
+}
+root.querySelectorAll('.map-choice').forEach(button=>button.addEventListener('click',()=>{
+ const region=button.dataset.region||'';
+ if(region&&!regions.includes(region))return;
+ $('region').value=region;limit=16;syncMap(region);render();
+}));
+syncMap($('region').value);
 $('filters').addEventListener('submit',e=>e.preventDefault());
-['region','status'].forEach(id=>$(id).addEventListener('change',()=>{limit=16;render();}));
+['region','status'].forEach(id=>$(id).addEventListener('change',()=>{limit=16;syncMap($('region').value);render();}));
 $('search').addEventListener('input',()=>{limit=16;render();});
-$('filters').addEventListener('reset',()=>{setTimeout(()=>{limit=16;render();},0);});
+$('filters').addEventListener('reset',()=>{setTimeout(()=>{limit=16;syncMap($('region').value);render();},0);});
 $('more').addEventListener('click',()=>{const firstNew=visible[limit]?.id;limit+=16;render();if(firstNew)root.querySelector(`#incident-${CSS.escape(firstNew)}`)?.scrollIntoView({behavior:motion?'smooth':'auto',block:'start'});});
-function navigateRecord(e) {const a=e.target.closest('[data-record]');if(!a)return;const index=all.findIndex(i=>i.id===a.dataset.record);if(index<0)return;e.preventDefault();$('region').value='';$('status').value='';$('search').value='';limit=Math.max(16,index+1);render();root.querySelector(`#incident-${CSS.escape(a.dataset.record)}`)?.scrollIntoView({behavior:motion?'smooth':'auto',block:'start'});}
+function navigateRecord(e) {const a=e.target.closest('[data-record]');if(!a)return;const index=all.findIndex(i=>i.id===a.dataset.record);if(index<0)return;e.preventDefault();$('region').value='';$('status').value='';$('search').value='';limit=Math.max(16,index+1);syncMap('');render();root.querySelector(`#incident-${CSS.escape(a.dataset.record)}`)?.scrollIntoView({behavior:motion?'smooth':'auto',block:'start'});}
 $('updates').addEventListener('click',navigateRecord);
 $('featured').addEventListener('click',navigateRecord);
+function fitMap() {
+ const mount = $('hero-map-mount'), svg = mount?.querySelector('svg');
+ if (svg) {
+  const compact = mount.clientWidth < 520;
+  mount.classList.toggle('map-compact', compact);
+  svg.setAttribute('viewBox', compact ? '330 0 510 600' : '0 0 1100 600');
+ }
+}
+async function loadMap() {
+ const mount = $('hero-map-mount');
+ if (!mount) return;
+ try {
+  const base = new URL(root.dataset.feed || 'living-incidents.json', document.baseURI);
+  const response = await fetch(new URL('maritime-map.svg', base), {cache: 'no-cache'});
+  if (!response.ok) throw new Error('Map unavailable');
+  const parsed = new DOMParser().parseFromString(await response.text(), 'image/svg+xml');
+  const svg = parsed.documentElement;
+  if (svg.localName !== 'svg' || parsed.querySelector('parsererror')) throw new Error('Map unavailable');
+  mount.replaceChildren(document.importNode(svg, true));
+  syncMap($('region').value);
+  scheduleLayout();
+ } catch {
+  mount.querySelector('.map-loading').textContent = 'The map is temporarily unavailable. Region filters below remain available.';
+ }
+}
 async function load(){
  try{
   const response=await fetch(root.dataset.feed||'living-incidents.json',{cache:'no-cache'});if(!response.ok)throw new Error('Feed request failed');
@@ -108,11 +261,13 @@ async function load(){
   $('status').innerHTML='<option value="">All vessel types</option>'+[...new Set(all.map(i=>i.vessel_type).filter(Boolean))].sort().map(t=>`<option>${esc(t)}</option>`).join('');
   stats();render();
   if(all.length){const i=all[0];$('featured').hidden=false;$('featured').innerHTML=`<div><span class="eyebrow">MOST RECENT REVIEWED INCIDENT / ${esc(date(i.date_utc))}</span><h2>${esc(i.vessel_name)} <em>↗</em></h2><p>${esc(i.summary)}</p><a href="#incident-${esc(i.id)}" data-record="${esc(i.id)}">${esc(i.location_text||i.region_group||i.region)} · Open the evidence ↓</a></div><div class="featured-art">${ship(i.vessel_type)}<span class="illustration-label">VESSEL ILLUSTRATION · NOT AN INCIDENT PHOTOGRAPH</span></div>`;}
-  else{$('timeline').innerHTML='<div class="empty"><strong>The record begins with evidence.</strong><p>Reports are being checked for vessel identity, incident date and original supporting sources. Reviewed incidents will appear here; unverified reports are excluded from public totals.</p></div>';$('total').textContent='0';}
+  reveal();
+  if(!all.length){$('timeline').innerHTML='<div class="empty"><strong>The record begins with evidence.</strong><p>Reports are being checked for vessel identity, incident date and original supporting sources. Reviewed incidents will appear here; unverified reports are excluded from public totals.</p></div>';$('total').textContent='0';}
 
  }catch{
   $('scope').textContent='The shared incident feed could not be loaded.';$('result-count').textContent='Records temporarily unavailable.';$('timeline').setAttribute('aria-busy','false');$('timeline').innerHTML='<div class="empty">We could not load the record. No figures are displayed until the source data is available.<button type="button" id="retry">Try again</button></div>';$('updates').innerHTML='<p class="muted">Updates temporarily unavailable.</p>';$('retry').addEventListener('click',load);
  }
 }
+loadMap();
 load();
 })();
