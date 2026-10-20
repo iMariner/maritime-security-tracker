@@ -36,27 +36,31 @@ remains a draft while historic event matching and casualty evidence are audited.
 
 ## Counting policy
 
-The archive's first observed date is displayed, rather than implying that a
-comprehensive historical backfill has taken place. The timeline sorts by attack
-date descending; later information also appears in the recent-updates section.
-Confirmed and reported records are distinguished from one-sided claims. Rejected,
-merged, satellite-only and identifiable military records are excluded.
+Only explicit source-reviewed overlays are public. Old confirmed/reported/claimed
+labels are research inputs, not automatic public approval. Every displayed vessel
+must have a reviewed name, type, date, account and supporting links. Unreviewed
+records stay in the original archive, outside this page and its totals.
 
-Death counts and nationalities require explicit structured confirmation and source
-URLs. Existing free-text casualty statements are displayed as context, never parsed
-into totals. Unknown does not mean zero. Nationality is never inferred from flag.
+The initial reviewed release contains eight named vessel/date records, not a full
+historical attack total. Duplicate vessel/date records are withheld. The legacy
+matcher can still combine repeat attacks, so historical completeness is not claimed.
+Source date/timezone differences are recorded rather than replaced with invented
+UTC event times. The displayed coverage begins with the earliest reviewed date.
 
-The legacy matcher may combine separate attacks on a vessel with the same IMO.
-Until those historical records are audited, figures describe documented incident
-records and must not be represented as an exhaustive total of actual attacks.
+Deaths and deceased nationalities require separate sourced counts. Missing crew
+remain missing, never presumed dead. Safety of one nationality group does not
+establish safety of the entire vessel. Incomplete zero-death coverage displays
+Pending; positive partial totals are lower bounds. No nationality is inferred
+from flag. See VERIFICATION-AUDIT-2026-10-20.md for checked sources and limitations.
 
 ## Operation
 
-The existing collectors and verdicts refresh the page through the existing Pages
-action. Existing sourced `latest_news` updates are reused when their timestamps can
-be linked to a source. Verified structured changes use the `/evidence` command
-documented in the Hermes skill. Its action validates shape, not real-world truth.
-Check both evidence and deployment runs before treating an update as live.
+The existing collectors and Pages deployment continue to run. The public view
+reads only reviewed overlay facts, sources and revision notes; raw pipeline
+summaries, latest-news text and incidental timestamps cannot leak into it.
+Hermes loads the dedicated evidence skill, reviews sources and proposes complete
+verification objects through /evidence. The action validates structure, not truth.
+Check both evidence and deployment runs before treating a change as live.
 
 Images are optional and require an accurate source, credit, alt text and permission
 to publish. Designed vessel illustrations fill missing images without implying

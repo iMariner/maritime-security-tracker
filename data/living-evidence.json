@@ -1,4 +1,251 @@
 {
   "schema_version": 1,
-  "incidents": {}
+  "incidents": {
+    "INC-20261018-014": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-20T18:24:59.111068+00:00",
+        "vessel_name": "JIF BARRACUDA",
+        "date_utc": "2026-10-18",
+        "vessel_type": "tug",
+        "region": "Gulf of Oman",
+        "summary": "JIF Barracuda was struck by two projectiles northeast of Khor Fakkan on 18 October. One crew member suffered minor injuries; the tug continued its voyage.",
+        "sources": [
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO confirmed incidents"
+          },
+          {
+            "url": "https://maritime-executive.com/article/tug-attacked-near-strait-of-hormuz",
+            "source": "The Maritime Executive"
+          }
+        ],
+        "imo": "9345506",
+        "location_text": "Northeast of Khor Fakkan, UAE"
+      },
+      "audit_notes": [
+        "IMO confirms name, IMO, date, position and one injured. Maritime Executive identifies vessel type and describes projectiles. Imported mine/tanker attribution is unsupported for this named vessel. No vessel-wide death count is stated."
+      ]
+    },
+    "INC-20261014-002": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-20T18:24:59.111068+00:00",
+        "vessel_name": "GFS PRIDE",
+        "date_utc": "2026-10-13",
+        "vessel_type": "container",
+        "region": "Strait of Hormuz",
+        "summary": "Singapore’s MPA reports that GFS Pride was struck by an unknown projectile on 13 October, caught fire and sank. All 21 crew were safely evacuated; no injuries were reported.",
+        "sources": [
+          {
+            "url": "https://www.mpa.gov.sg/media-centre/details/two-singapore-registered-vessels-struck-in-strait-of-hormuz",
+            "source": "Maritime and Port Authority of Singapore"
+          },
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO confirmed incidents"
+          },
+          {
+            "url": "https://wkwebster.com/casualties/772/gfs-pride",
+            "source": "WK Webster casualty report"
+          }
+        ],
+        "imo": "9349045",
+        "date_note": "Attack date as reported by Singapore MPA in Singapore Time; no UTC event time was supplied."
+      },
+      "audit_notes": [
+        "MPA explicitly gives date in Singapore Time, not UTC. Keep date precision day and do not invent UTC midnight. MPA supports zero deaths/injuries at report time through all crew safely evacuated. No nationalities of dead applicable; no Singaporeans aboard does not identify crew nationalities."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.mpa.gov.sg/media-centre/details/two-singapore-registered-vessels-struck-in-strait-of-hormuz",
+            "source": "Maritime and Port Authority of Singapore"
+          }
+        ]
+      }
+    },
+    "INC-20261013-007": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-20T18:24:59.111068+00:00",
+        "vessel_name": "CHELSEA 3",
+        "date_utc": "2026-10-13",
+        "vessel_type": "general cargo",
+        "region": "Black Sea",
+        "summary": "Chelsea 3 was attacked 17 nautical miles east of Byala on 13 October. Bulgaria’s Transport Ministry reports that all 15 crew were rescued.",
+        "sources": [
+          {
+            "url": "https://www.mtc.government.bg/bg/category/1/tekhnicheska-informaciya-za-zasegnatite-i-okazalite-sdeystvie-prez-poslednite-24-chasa-plavatelni-sredstva-v-morskite-prostranstva-na-republika-blgariya",
+            "source": "Bulgarian Ministry of Transport and Communications"
+          },
+          {
+            "url": "https://www.bta.bg/en/news/1226692-military-prosecution-opens-investigation-into-attack-on-chelsea-3-in-black-sea",
+            "source": "Bulgarian News Agency (indexed full report)"
+          }
+        ],
+        "location_text": "17 nautical miles east of Byala, Bulgaria"
+      },
+      "audit_notes": [
+        "Primary ministry opened and supports name/date/location/all15rescued. BTA search response supports general cargo; direct open rate-limited429. Five minor injuries sourced AP search article https://apnews.com/article/7dfef251fb7d47a717f0d600873dbf5b but direct article not accessible; do not relabel all rescued as no injuries."
+      ]
+    },
+    "INC-20261015-006": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-20T18:24:59.111068+00:00",
+        "vessel_name": "YARA J",
+        "date_utc": "2026-10-14",
+        "vessel_type": "chemical tanker",
+        "region": "Black Sea",
+        "summary": "A reproduced statement from Comoros maritime authority ANAM identifies Yara J as the tanker attacked by a military drone at Sulina on 14 October. It reports all 17 crew safe.",
+        "sources": [
+          {
+            "url": "https://www.habarizacomores.com/2026/10/attaque-dun-petrolier-battant-pavillon.html",
+            "source": "HabarizaComores — reproduced ANAM statement"
+          },
+          {
+            "url": "https://www.ndtv.com/india-news/24-indian-seafarers-safe-after-tankers-attacked-in-strait-of-hormuz-romania-12197556",
+            "source": "NDTV / ANI, quoting India’s shipping minister"
+          }
+        ],
+        "imo": "9221803",
+        "location_text": "Sulina Anchorage, Romania"
+      },
+      "audit_notes": [
+        "Opened article reproduces authority statement, but authority-hosted original not located. Exact statement supports IMO/date/tanker/all17safe. Nationality must not be derived from flag. Coordinate/time differences with Romanian reporting require caution; do not add precise coordinates from this alone."
+      ]
+    },
+    "INC-20261015-001": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-20T18:24:59.111068+00:00",
+        "vessel_name": "WINE TRADER",
+        "date_utc": "2026-10-15",
+        "vessel_type": "tanker",
+        "region": "Black Sea",
+        "summary": "Wine Trader caught fire off Sulina on 15 October. Later reporting quotes its manager describing a drone attack and seven crew still missing: six Beninese and one Russian national. Missing crew are not counted as confirmed deaths.",
+        "sources": [
+          {
+            "url": "https://portal.rna.ro/wp-content/uploads/2026/10/Comunicat-de-presa-15.10.2026-Incident-nava-Wine-Trader.pdf",
+            "source": "Romanian Naval Authority — initial rescue statement"
+          },
+          {
+            "url": "https://www.turkiyetoday.com/world/russian-black-sea-strikes-deepen-perfect-storm-for-food-supplies-eu-3230696",
+            "source": "Türkiye Today — named manager’s account"
+          },
+          {
+            "url": "https://www.shipfinder.com/maritime-news/maritime-security/chemical-tanker-fire-wine-trader-sulina",
+            "source": "ShipFinder News"
+          }
+        ],
+        "location_text": "Off Sulina, Romania"
+      },
+      "audit_notes": [
+        "Feed general cargo type is wrong: reporting identifies chemical tanker. Initial primary statement says8missing4safe; later reporting7missing5safe. Preserve chronology. Seven missing, including6Beninese1Russian, is NOT seven confirmed deaths and must not feed death-nationality totals. Original Maritime.bg manager interview https://www.maritime.bg/156457/ linked by TürkiyeToday returned429."
+      ]
+    },
+    "INC-20261007-008": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-20T18:24:59.111068+00:00",
+        "vessel_name": "CUL KLANG",
+        "date_utc": "2026-10-07",
+        "vessel_type": "container",
+        "region": "Red Sea",
+        "summary": "Maritime reporting citing MSCIO describes a small craft firing at a containership north of Bab el-Mandeb on 7 October; security consultants identify CUL Klang. The crew was reported uninjured and the ship continued north.",
+        "sources": [
+          {
+            "url": "https://maritime-executive.com/article/shots-fired-at-chinese-containership-in-the-red-sea",
+            "source": "The Maritime Executive"
+          },
+          {
+            "url": "https://safety4sea.com/armed-small-boat-opens-fire-on-containership-in-southern-red-sea/",
+            "source": "SAFETY4SEA"
+          }
+        ],
+        "location_text": "North of Bab el-Mandeb, southern Red Sea"
+      },
+      "audit_notes": [
+        "Both full articles opened: exact attack7Oct; later article publication9Oct. Feed8Oct reference appears publication/report date, not second attack. Source names security consultants as hull identification; MSCIO is quoted but underlying advisory not read. Reported incident confidence, not direct official named confirmation. Do not infer Chinese crew nationality from AIS broadcast as independently confirmed; no crew count in sources."
+      ]
+    },
+    "INC-20261016-010": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-20T18:24:59.111068+00:00",
+        "vessel_name": "ST3",
+        "imo": "9220964",
+        "date_utc": "2026-10-16",
+        "vessel_type": "crude oil tanker",
+        "region": "Persian Gulf",
+        "location_text": "IMO: 68 nautical miles from Al Jubail",
+        "summary": "IMO records ST3 as damaged on 16 October, 68 nautical miles from Al Jubail. Reporting quoting India’s shipping minister describes a projectile strike and says the 15 Indian seafarers aboard were safe. The news report uses a broader Hormuz location; the IMO position is retained here.",
+        "sources": [
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO confirmed incidents"
+          },
+          {
+            "url": "https://www.ndtv.com/india-news/24-indian-seafarers-safe-after-tankers-attacked-in-strait-of-hormuz-romania-12197556",
+            "source": "NDTV / ANI, quoting India’s shipping minister"
+          }
+        ]
+      }
+    },
+    "INC-20261013-028": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-20T18:24:59.111068+00:00",
+        "vessel_name": "GFS GISELLE",
+        "imo": "9704661",
+        "date_utc": "2026-10-14",
+        "date_note": "Singapore MPA gives 14 October in Singapore Time; the IMO table lists 13 October. Source date difference is retained rather than inventing a UTC time.",
+        "vessel_type": "container",
+        "region": "Strait of Hormuz",
+        "summary": "Singapore MPA reports that GFS Giselle was struck by an unknown projectile, sustained hull damage and reached safe anchorage under its own power. All 22 crew were safe and no injuries were reported.",
+        "sources": [
+          {
+            "url": "https://www.mpa.gov.sg/media-centre/details/two-singapore-registered-vessels-struck-in-strait-of-hormuz",
+            "source": "Maritime and Port Authority of Singapore"
+          },
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO confirmed incidents"
+          }
+        ]
+      },
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.mpa.gov.sg/media-centre/details/two-singapore-registered-vessels-struck-in-strait-of-hormuz",
+            "source": "Maritime and Port Authority of Singapore"
+          }
+        ]
+      }
+    }
+  },
+  "audit": [
+    {
+      "kind": "independent-source-review",
+      "checked_at": "2026-10-20T18:24:59.111068+00:00",
+      "incident_ids": [
+        "INC-20261018-014",
+        "INC-20261014-002",
+        "INC-20261013-007",
+        "INC-20261015-006",
+        "INC-20261015-001",
+        "INC-20261007-008",
+        "INC-20261016-010",
+        "INC-20261013-028"
+      ],
+      "review_note": "Underlying sources checked; see docs/VERIFICATION-AUDIT-2026-10-20.md. Unreviewed corpus excluded. Missing crew not fatalities; group nationality safety not whole-vessel death count."
+    }
+  ]
 }

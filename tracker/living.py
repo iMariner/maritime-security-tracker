@@ -1,22 +1,9 @@
-"""Additive public evidence export; never mutates incidents or the news pipeline.
+"""Separate evidence-reviewed public export; never mutates incident/news data.
 
-Run ``python -m tracker.living --output _site/living-incidents.json``.
-Hermes/reviewers may propose edits to data/living-evidence.json, keyed by existing
-incident ID, for human review before committing. Example entry::
-
-  {"casualties": {"status": "confirmed", "deaths": 1,
-    "sources": [{"url": "https://authority.example/report", "source": "Authority"}],
-    "nationalities": [{"nationality": "Indian", "deaths": 1,
-      "status": "confirmed", "sources": [{"url": "https://authority.example/report"}]}]},
-   "updates": [{"at": "2026-10-21T12:00:00Z", "text": "Death confirmed",
-     "sources": [{"url": "https://authority.example/report"}]}]}
-
-Top-level format: {"schema_version": 1, "incidents": {"INC-id": entry}}.
-Only explicit confirmed, sourced numeric claims become totals. Free-text casualty
-reports remain visible as context but never become numeric facts. Images require
-url, source_url, credit and alt; adding them asserts permission to publish. This
-module cannot verify rights. Unknown counts are null, including when reports say
-nothing about casualties. Update histories must be supplied; none are invented.
+Only an explicit, complete verification overlay can publish a record. This module
+checks review structure, not factual truth. Independent reviewers must read the
+underlying sources. Original corpus summaries, casualty prose, and news history
+are never published through this export. Run python -m tracker.living.
 """
 from __future__ import annotations
 
@@ -31,7 +18,7 @@ from urllib.parse import urlsplit
 ROOT = Path(__file__).resolve().parent.parent
 PUBLIC = {"claimed", "reported", "confirmed"}
 REGIONS = {"black sea": "Black Sea", "red sea": "Red Sea", "strait of hormuz": "Strait of Hormuz",
-           "hormuz": "Strait of Hormuz", "gulf of oman": "Strait of Hormuz", "persian gulf": "Strait of Hormuz"}
+           "sea of azov": "Black Sea", "gulf of aden": "Red Sea", "hormuz": "Strait of Hormuz", "gulf of oman": "Strait of Hormuz", "persian gulf": "Strait of Hormuz"}
 
 
 def safe_url(value):
@@ -86,13 +73,14 @@ def updates(value):
             continue
         at = item.get("at")
         try:
-            datetime.fromisoformat(at.replace("Z", "+00:00"))
+            if "T" not in at or datetime.fromisoformat(at.replace("Z", "+00:00")).tzinfo is None:
+                continue
         except (TypeError, ValueError, AttributeError):
             continue
         refs = sources(item.get("sources"))
         if refs and item["text"].strip():
             result.append({"at": at, "text": item["text"].strip(), "sources": refs})
-    return sorted(result, key=lambda item: item["at"], reverse=True)
+    return sorted(result, key=lambda item: datetime.fromisoformat(item["at"].replace("Z", "+00:00")), reverse=True)
 
 
 def latest_update(incident):
@@ -108,38 +96,96 @@ def latest_update(incident):
     return updates([{"at": at, "text": text, "sources": refs}])
 
 
+def verification(value):
+    """Validate a review assertion, not the truth of its underlying claims."""
+    if not isinstance(value, dict) or value.get("status") != "verified":
+        raise ValueError("Verified independent review required")
+    if set(value) - {"status", "checked_at", "sources", "vessel_name", "date_utc", "vessel_type", "summary", "imo", "region", "location_text", "attack_type", "date_note"}:
+        raise ValueError("Unsupported verification fields")
+    for key in ("vessel_name", "vessel_type", "summary"):
+        if not isinstance(value.get(key), str) or not value[key].strip():
+            raise ValueError("Reviewed identity, type and summary required")
+    if re.search(r"\b(unknown|unnamed|unidentified|unspecified)\b", value["vessel_name"], re.I):
+        raise ValueError("Identified vessel required")
+    try:
+        stamp = datetime.fromisoformat(value["checked_at"].replace("Z", "+00:00"))
+        if stamp.tzinfo is None or "T" not in value["checked_at"]:
+            raise ValueError()
+        datetime.strptime(value["date_utc"], "%Y-%m-%d")
+        if len(value["date_utc"]) != 10:
+            raise ValueError()
+    except (KeyError, ValueError, TypeError, AttributeError):
+        raise ValueError("Timezone-aware review timestamp and exact attack date required") from None
+    refs = value.get("sources")
+    if not isinstance(refs, list) or not refs or any(not isinstance(r, dict) or not safe_url(r.get("url")) or not isinstance(r.get("source"), str) or not r["source"].strip() for r in refs):
+        raise ValueError("Named linked review sources required")
+    for key in ("location_text", "attack_type", "date_note"):
+        if key in value and (not isinstance(value[key], str) or not value[key].strip()):
+            raise ValueError("Invalid reviewed descriptive field")
+    if "region" in value and str(value["region"]).strip().lower() not in REGIONS:
+        raise ValueError("Unsupported reviewed region")
+    if "imo" in value:
+        imo = str(value["imo"])
+        if not re.fullmatch(r"\d{7}", imo) or sum(int(n)*w for n,w in zip(imo[:6], range(7,1,-1))) % 10 != int(imo[-1]):
+            raise ValueError("Invalid reviewed IMO")
+    return deepcopy(value)
+
+
 def export(incidents, overlay=None):
     overlay = overlay or {"schema_version": 1, "incidents": {}}
     if overlay.get("schema_version") != 1 or not isinstance(overlay.get("incidents"), dict):
         raise ValueError("Unsupported living evidence schema")
-    result = []
+    result, awaiting, excluded = [], 0, 0
+    seen = set()
     for original in incidents:
-        if original.get("status") not in PUBLIC or str(original.get("region") or "").strip().lower() not in REGIONS:
-            continue
-        category = str(original.get("vessel_category") or "").lower()
-        vessel_type = str(original.get("vessel_type") or "").lower()
-        if re.search(r"\b(military|naval|warship|destroyer|frigate|corvette|submarine)\b", category + " " + vessel_type):
-            continue
-        item = deepcopy(original)
-        item["region_group"] = REGIONS[str(original["region"]).strip().lower()]
-        evidence = overlay["incidents"].get(item.get("id"), {})
+        evidence = overlay["incidents"].get(original.get("id"), {})
         if not isinstance(evidence, dict):
             raise ValueError("Incident evidence must be an object")
-        item["casualties_text"] = original.get("casualties") if isinstance(original.get("casualties"), str) else None
-        item["casualties"] = casualties(evidence.get("casualties", original.get("casualties")))
-        item["sources"] = sources(original.get("sources"))
-        item["updates"] = updates(original.get("updates")) + latest_update(original) + updates(evidence.get("updates"))
-        item["updates"] = sorted(item["updates"], key=lambda update: update["at"], reverse=True)
+        review = None
+        if "verification" in evidence:
+            try:
+                review = verification(evidence["verification"])
+            except ValueError:
+                pass
+        region = str((review or {}).get("region", original.get("region")) or "").strip().lower()
+        kind = str((review or {}).get("vessel_type", original.get("vessel_type")) or "")
+        if original.get("status") not in PUBLIC or region not in REGIONS or re.search(r"\b(military|naval|warship|destroyer|frigate|corvette|submarine)\b", str(original.get("vessel_category") or "") + " " + kind, re.I):
+            excluded += 1
+            continue
+        if review is None:
+            awaiting += 1
+            continue
+        identity = re.sub(r"[^a-z0-9]", "", review["vessel_name"].lower())
+        event_keys = {(identity, review["date_utc"])}
+        if review.get("imo"):
+            event_keys.add((str(review["imo"]), review["date_utc"]))
+        if event_keys & seen:
+            excluded += 1
+            continue
+        seen.update(event_keys)
+        item = {"id": original["id"], "status": "verified", "region": REGIONS[region], "region_group": REGIONS[region],
+                "vessel_name": review["vessel_name"].strip(), "vessel_type": review["vessel_type"].strip(),
+                "date_utc": review["date_utc"], "summary": review["summary"].strip(), "latest_news": review["summary"].strip(),
+                "verification": review, "sources": sources(review["sources"]),
+                "casualties": casualties(evidence.get("casualties")), "updates": updates(evidence.get("updates"))}
+        item["last_updated"] = max([review["checked_at"]] + [u["at"] for u in item["updates"]], key=lambda stamp: datetime.fromisoformat(stamp.replace("Z", "+00:00")))
+        for key in ("location_text", "attack_type", "date_note"):
+            if key in review:
+                item[key] = review[key]
+        if "imo" in review:
+            item["imo"] = str(review["imo"])
         image = evidence.get("image")
         item["image"] = image if isinstance(image, dict) and safe_url(image.get("url")) and safe_url(image.get("source_url")) and image.get("credit") and image.get("alt") else None
         result.append(item)
-    result.sort(key=lambda item: (str(item.get("date_utc") or ""), str(item.get("id") or "")), reverse=True)
+    result.sort(key=lambda item: (item["date_utc"], item["id"]), reverse=True)
     return {"schema_version": 1, "generated_at": datetime.now(timezone.utc).isoformat(),
-            "methodology": {"coverage": ["Black Sea", "Red Sea", "Strait of Hormuz"],
-              "count_label": "Documented incident records",
-              "counting_note": "Existing matching groups reports by vessel identity; repeat attacks may be merged. Record totals are not a complete count of distinct attacks.", "casualty_policy": "Only explicitly confirmed counts with supporting sources are included; unknown is not zero.",
-              "coverage_note": "Available reporting is incomplete. Actual totals may be higher.",
-              "history_note": "Updates reuse sourced, dated latest-news entries and supplied evidence history; earlier changes are not reconstructed."}, "incidents": result}
+            "review": {"reviewed_count": len(result), "awaiting_review_count": awaiting, "excluded_count": excluded},
+            "methodology": {"coverage": ["Black Sea", "Red Sea", "Strait of Hormuz"], "count_label": "Reviewed incident records",
+              "verification_policy": "Only identified vessels with recorded independent source review are public. Validation checks structure, not factual truth.",
+              "counting_note": "Totals describe distinct reviewed vessel/date records, not all attacks. Same vessel/date duplicates are withheld; repeat attacks may be merged.",
+              "casualty_policy": "Only explicitly confirmed sourced counts are included; unknown is not zero.",
+              "coverage_note": "Reporting and review are incomplete. Unreviewed records are withheld. Black Sea includes Sea of Azov; Red Sea includes Gulf of Aden; Hormuz includes adjacent Gulf of Oman and Persian Gulf reports.",
+              "history_note": "Only overlay updates are displayed; historical news text is withheld."}, "incidents": result}
 
 
 def main():

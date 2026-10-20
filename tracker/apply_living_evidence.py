@@ -22,7 +22,7 @@ def parse(body):
         value = json.loads(raw)
     except (ValueError, TypeError):
         raise ValueError("Evidence must be valid JSON") from None
-    if not isinstance(value, dict) or set(value) - {"incident_id", "casualties", "update", "image"}:
+    if not isinstance(value, dict) or set(value) - {"incident_id", "casualties", "update", "image", "verification"}:
         raise ValueError("Unsupported evidence fields")
     return value
 
@@ -31,6 +31,11 @@ def validate(value, incidents):
     incident_id = value.get("incident_id")
     if not isinstance(incident_id, str) or incident_id not in {i.get("id") for i in incidents}:
         raise ValueError("Unknown incident ID")
+    if "verification" in value and value["verification"] is not None:
+        living.verification(value["verification"])
+        original = next(i for i in incidents if i.get("id") == incident_id)
+        if original.get("status") not in living.PUBLIC:
+            raise ValueError("Cannot verify nonpublic, merged or rejected incidents")
     update = value.get("update")
     if not isinstance(update, dict) or set(update) - {"at", "text", "sources"} or len(living.updates([update])) != 1:
         raise ValueError("A dated, sourced update is required")
@@ -77,7 +82,7 @@ def apply_event(event, overlay, incidents):
     result = deepcopy(overlay)
     entry = result["incidents"].setdefault(value["incident_id"], {})
     before = deepcopy(entry)
-    for key in ("casualties", "image"):
+    for key in ("casualties", "image", "verification"):
         if key in value:
             entry[key] = deepcopy(value[key])
     entry.setdefault("updates", []).append(deepcopy(value["update"]))
