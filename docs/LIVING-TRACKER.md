@@ -4,6 +4,23 @@ This is an additive view of the existing collection and verification system. The
 article writer, n8n approvals, publication jobs and their credentials are unchanged.
 No new API account, database or duplicated secret is required.
 
+## Installed 20 October 2026
+
+The standalone view is deployed at
+https://imariner.github.io/maritime-security-tracker/living.html . WordPress page
+16139, "Maritime Attack Tracker", is saved as a draft and verified in the existing
+administrator preview at https://imariners.com/?page_id=16139&preview=true .
+Its content is `site/living-mount-wordpress.html`: a native mount that loads the
+latest shared markup, styling, renderer and data. Further design updates deploy
+through Pages without repeatedly pasting the full WordPress block.
+
+A separate Hermes job named `maritime-living-evidence` is scheduled every six hours
+in the existing maritime profile. It reads the repository skill on each run, checks
+at most three records using terminal and web tools, and keeps its results local.
+Existing publication jobs and n8n were not edited. The first run was requested;
+successful factual enrichment has not yet been established. The WordPress page
+remains a draft while historic event matching and casualty evidence are audited.
+
 ## Components
 
 - `site/living.html`, `living.css`, `living.js`: animated standalone page.
