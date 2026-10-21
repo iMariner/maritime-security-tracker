@@ -307,3 +307,11 @@ body.admin-bar #maritime-living .reading-progress { top: 32px; }
  #maritime-living .hero-number > strong { font-size:clamp(120px,40vw,170px); }
  #maritime-living .stat > strong { font-size:clamp(40px,12vw,55px); }
 }
+@media(max-width:520px) {
+ #maritime-living .stats { grid-template-columns:1fr; gap:0; margin-top:18px; }
+ #maritime-living .stats .stat,#maritime-living .stats .stat:first-child { display:grid; grid-template-columns:100px minmax(0,1fr); column-gap:12px; padding:20px 0; border:0; border-bottom:1px solid #b7c0b8; }
+ #maritime-living .stats .stat > strong { grid-column:1; grid-row:1 / 3; font-size:64px; align-self:center; }
+ #maritime-living .stats .stat > strong.unavailable { font-size:30px; }
+ #maritime-living .stats .stat h3 { grid-column:2; margin:0; font-size:12px; }
+ #maritime-living .stats .stat p { grid-column:2; margin-top:6px; font-size:11px; line-height:1.65; }
+}
