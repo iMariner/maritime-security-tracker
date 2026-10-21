@@ -291,3 +291,19 @@ body.admin-bar #maritime-living .reading-progress { top: 32px; }
  #maritime-living .stat { min-width:0; }
  #maritime-living .hero-map { min-width:0; }
 }
+
+#maritime-living .history-status { margin-top:24px; padding:20px 0; border-bottom:1px solid var(--line); }
+#maritime-living .history-status > .eyebrow { color:var(--orange); }
+#maritime-living .history-status > p { font-size:11px; max-width:780px; margin-top:10px; color:var(--muted); }
+#maritime-living .historical-coverage { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px; margin-top:22px; }
+#maritime-living .historical-coverage article { border-left:2px solid var(--blue); padding-left:12px; }
+#maritime-living .historical-coverage strong { display:block; font-family:'Barlow Condensed',sans-serif; font-size:32px; line-height:1.4; }
+#maritime-living .historical-coverage small { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:400; }
+#maritime-living .historical-coverage p { font-size:10px; color:var(--muted); }
+@media(max-width:520px) { #maritime-living .historical-coverage { grid-template-columns:1fr; gap:16px; } }
+
+@media(max-width:520px) {
+ #maritime-living .hero-number .number-caption { position:static; margin-top:16px; }
+ #maritime-living .hero-number > strong { font-size:clamp(120px,40vw,170px); }
+ #maritime-living .stat > strong { font-size:clamp(40px,12vw,55px); }
+}

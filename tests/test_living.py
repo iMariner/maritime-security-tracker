@@ -1,5 +1,7 @@
 from copy import deepcopy
 
+import pytest
+
 from tracker.living import casualties, export
 
 
@@ -94,3 +96,53 @@ def test_review_update_order_compares_instants_across_timezones():
     changes = [{"at": stamp, "text": "Reviewed", "sources": ["https://authority.example/report"]} for stamp in ("2026-10-20T15:00:00+05:30", "2026-10-20T10:00:00Z")]
     item = export([incident()], overlay(A={"verification": review(), "updates": changes}))["incidents"][0]
     assert item["updates"][0]["at"] == "2026-10-20T10:00:00Z"
+
+
+def test_separate_history_exports_reviewed_records_without_mutating_inputs():
+    historical = [incident("H", date_utc="2022-02-25")]
+    original = deepcopy(historical)
+    payload = export([], overlay(H={"verification": review(date_utc="2022-02-25"), "casualties": evidence()}), historical)
+    assert [item["id"] for item in payload["incidents"]] == ["H"]
+    assert payload["incidents"][0]["date_utc"] == "2022-02-25"
+    assert payload["incidents"][0]["casualties"]["deaths"] == 1
+    assert historical == original
+    assert payload["review"]["historical_candidate_count"] == 1
+    assert "not comprehensive war totals" in payload["methodology"]["coverage_note"]
+
+
+def test_history_requires_same_public_and_independent_review_gates():
+    history = [incident("H"), incident("M", vessel_category="military"), incident("R", status="rejected")]
+    payload = export([], overlay(M={"verification": review()}, R={"verification": review()}), history)
+    assert payload["incidents"] == []
+    assert payload["review"]["awaiting_review_count"] == 1
+    assert payload["review"]["excluded_count"] == 2
+
+
+def test_history_deduplicates_corpus_by_reviewed_name_or_imo_and_date():
+    history = [incident("H"), incident("I"), incident("L")]
+    reviews = overlay(A={"verification": review(imo="9074729")},
+                      H={"verification": review(vessel_name="EXAMPLE-STAR")},
+                      I={"verification": review(vessel_name="Renamed Star", imo="9074729")},
+                      L={"verification": review(date_utc="2026-10-02")})
+    payload = export([incident()], reviews, history)
+    assert [item["id"] for item in payload["incidents"]] == ["L", "A"]
+    assert payload["review"]["excluded_count"] == 2
+
+
+def test_history_id_collision_cannot_override_original_nonpublic_status():
+    payload = export([incident(status="rejected")], overlay(A={"verification": review()}), [incident(), incident()])
+    assert payload["incidents"] == []
+    assert payload["review"]["historical_candidate_count"] == 0
+
+
+def test_malformed_history_is_rejected():
+    for history in ({}, [None], [{}], [{"id": ""}]):
+        with pytest.raises(ValueError, match="Historical candidates"):
+            export([], history=history)
+
+
+def test_minimum_casualty_count_remains_explicit():
+    partial = casualties(evidence(deaths=3, minimum=True))
+    assert partial["deaths"] == 3
+    assert partial["minimum"] is True
+    assert "minimum" not in casualties(evidence(minimum="true"))

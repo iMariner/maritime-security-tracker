@@ -3,7 +3,7 @@ name: Dashboard (GitHub Pages)
 on:
   push:
     branches: [main]
-    paths: ["data/incidents.json", "data/living-evidence.json", "tracker/living.py", "site/**", ".github/workflows/pages.yml"]
+    paths: ["data/incidents.json", "data/living-evidence.json", "data/living-history.json", "tracker/living.py", "site/**", ".github/workflows/pages.yml"]
   # Commits made by the other workflows use GITHUB_TOKEN, which does not trigger `push`,
   # so also rebuild whenever one of them finishes.
   workflow_run:

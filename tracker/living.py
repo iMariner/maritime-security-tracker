@@ -63,7 +63,7 @@ def casualties(value):
     # An internally inconsistent nationality breakdown cannot support totals.
     if sum(item["deaths"] for item in nationalities) > value["deaths"]:
         nationalities = []
-    return {"status": "confirmed", "deaths": value["deaths"], "nationalities": nationalities, "sources": refs}
+    return {"status": "confirmed", "deaths": value["deaths"], "nationalities": nationalities, "sources": refs, **({"minimum": True} if value.get("minimum") is True else {})}
 
 
 def updates(value):
@@ -131,13 +131,30 @@ def verification(value):
     return deepcopy(value)
 
 
-def export(incidents, overlay=None):
+def export(incidents, overlay=None, history=None):
+    """Export current and historical candidates through the same review gate.
+
+    History is a separate array of incident stubs, never input to the news
+    pipeline. Existing corpus IDs take precedence over historical stubs; reviewed
+    vessel/date and IMO/date identities additionally deduplicate across both.
+    """
     overlay = overlay or {"schema_version": 1, "incidents": {}}
     if overlay.get("schema_version") != 1 or not isinstance(overlay.get("incidents"), dict):
         raise ValueError("Unsupported living evidence schema")
+    if history is None:
+        history = []
+    if not isinstance(history, list) or any(not isinstance(item, dict) or not isinstance(item.get("id"), str) or not item["id"].strip() for item in history):
+        raise ValueError("Historical candidates must be an array of incident objects with IDs")
+    candidates = list(incidents)
+    corpus_ids = {item.get("id") for item in candidates}
+    historical_ids = set()
+    for item in history:
+        if item["id"] not in corpus_ids and item["id"] not in historical_ids:
+            candidates.append(item)
+            historical_ids.add(item["id"])
     result, awaiting, excluded = [], 0, 0
     seen = set()
-    for original in incidents:
+    for original in candidates:
         evidence = overlay["incidents"].get(original.get("id"), {})
         if not isinstance(evidence, dict):
             raise ValueError("Incident evidence must be an object")
@@ -179,12 +196,13 @@ def export(incidents, overlay=None):
         result.append(item)
     result.sort(key=lambda item: (item["date_utc"], item["id"]), reverse=True)
     return {"schema_version": 1, "generated_at": datetime.now(timezone.utc).isoformat(),
-            "review": {"reviewed_count": len(result), "awaiting_review_count": awaiting, "excluded_count": excluded},
+            "review": {"reviewed_count": len(result), "awaiting_review_count": awaiting, "excluded_count": excluded,
+                       "historical_candidate_count": len(historical_ids)},
             "methodology": {"coverage": ["Black Sea", "Red Sea", "Strait of Hormuz"], "count_label": "Reviewed incident records",
               "verification_policy": "Only identified vessels with recorded independent source review are public. Validation checks structure, not factual truth.",
               "counting_note": "Totals describe distinct reviewed vessel/date records, not all attacks. Same vessel/date duplicates are withheld; repeat attacks may be merged.",
               "casualty_policy": "Only explicitly confirmed sourced counts are included; unknown is not zero.",
-              "coverage_note": "Reporting and review are incomplete. Unreviewed records are withheld. Black Sea includes Sea of Azov; Red Sea includes Gulf of Aden; Hormuz includes adjacent Gulf of Oman and Persian Gulf reports.",
+              "coverage_note": "Historical collection, reporting and review are incomplete; these are not comprehensive war totals. Unreviewed records are withheld. Black Sea includes Sea of Azov; Red Sea includes Gulf of Aden; Hormuz includes adjacent Gulf of Oman and Persian Gulf reports.",
               "history_note": "Only overlay updates are displayed; historical news text is withheld."}, "incidents": result}
 
 
@@ -192,10 +210,12 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--incidents", type=Path, default=ROOT / "data/incidents.json")
     parser.add_argument("--evidence", type=Path, default=ROOT / "data/living-evidence.json")
+    parser.add_argument("--history", type=Path, default=ROOT / "data/living-history.json", help="Separate historical candidate array (optional)")
     parser.add_argument("--output", type=Path, default=ROOT / "out/living-incidents.json")
     args = parser.parse_args()
     overlay = json.loads(args.evidence.read_text()) if args.evidence.exists() else None
-    payload = export(json.loads(args.incidents.read_text()), overlay)
+    history = json.loads(args.history.read_text()) if args.history.exists() else None
+    payload = export(json.loads(args.incidents.read_text()), overlay, history)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
 

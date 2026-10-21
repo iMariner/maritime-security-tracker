@@ -58,3 +58,7 @@ load their attached skills, so this is tidiness and prompt size, not correctness
 3. Create the three jobs in `maritime` with the same schedules, prompts and skills; check they show the next run.
 4. Pause (do not delete) the three old jobs in `default`. Delete them after a week of good mornings.
 5. The 06:00 watchdog in `default` and the GitHub backup schedule still cover a morning the new jobs miss.
+
+## Living evidence history (21 October 2026)
+
+The separate living-evidence desk reuses the existing GitHub workflow. Its repository manual is `skills/maritime-living-evidence/SKILL.md`; historical coverage and outstanding gaps are recorded in `../HISTORICAL-BACKFILL-2026-10-21.md`. New reviewed historical events use `/evidence` with `historical: true` and a stable `HIST-*` ID. The workflow writes the separate history store and evidence overlay, preserving article jobs and their schedules. Existing historical records accept follow-up evidence normally. Do not interpret the reviewed subset as a complete war total.
