@@ -7634,6 +7634,64 @@
       "audit_notes": [
         "Added after the omission audit; sources read separately for identity, event date and human impact."
       ]
+    },
+    "INC-20261013-002": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-21T18:22:48Z",
+        "vessel_name": "HS DIGNITY",
+        "date_utc": "2026-10-13",
+        "vessel_type": "General cargo",
+        "region": "Black Sea",
+        "location_text": "About 17 nautical miles east of Shabla, Bulgaria",
+        "summary": "HS Dignity, a Guinea-Bissau-flagged general cargo ship with 16 people aboard, was struck by a drone at about 01:20 local time on 13 October and sank 17 nautical miles east of Shabla, Bulgaria. Four survivors were taken aboard AZOV CONCORD and a fifth by the Danish-flagged SCANDI ASSERTER; Bulgaria's Ministry of Transport and Communications declared the search and rescue operation over at 15:00 on 14 October.",
+        "date_note": "Local Bulgarian time is UTC+3, so 01:20 on 13 October falls at 22:20 UTC on 12 October; the ministry and the Bulgarian News Agency date the sinking 13 October and the day-precision UTC date is kept as reported, not recalculated.",
+        "sources": [
+          {
+            "url": "https://www.mtc.government.bg/bg/category/1/tekhnicheska-informaciya-za-zasegnatite-i-okazalite-sdeystvie-prez-poslednite-24-chasa-plavatelni-sredstva-v-morskite-prostranstva-na-republika-blgariya",
+            "source": "Bulgarian Ministry of Transport and Communications"
+          },
+          {
+            "url": "https://www.mtc.government.bg/en/category/1/search-and-rescue-operation-seafarers-hs-dignity-struck-black-sea-officially-declared-over",
+            "source": "Bulgarian Ministry of Transport and Communications, 14 October 2026"
+          },
+          {
+            "url": "https://www.bta.bg/en/news/world/1224856-bulgaria-abandons-search-for-crew-of-hs-dignity",
+            "source": "Bulgarian News Agency (BTA), 14 October 2026"
+          },
+          {
+            "url": "https://www.vesselfinder.com/vessels/details/9545912",
+            "source": "VesselFinder AIS particulars (type, flag, IMO)"
+          }
+        ],
+        "imo": "9545912",
+        "attack_type": "drone (UAV)"
+      },
+      "updates": [
+        {
+          "at": "2026-10-21T18:22:48Z",
+          "text": "First reviewed living record for this sinking. Bulgaria's Ministry of Transport and Communications reported six crew rescued and 10 unaccounted for when the search ended on 14 October; Bulgarian outlets and the Syrian Sailors Union reported five rescued and 11 missing, and 24 Chasa said the fifth survivor reached Varna later on another ship. Because the rescued and missing split is unresolved, no missing figure is recorded as a snapshot and no death is counted. The ministry places the sinking 17 nautical miles east of Shabla; some reports say 15 to 17 miles east of Krapets. No nationality is recorded for the missing: Syria's Foreign Ministry told SANA on 18 October that 14 Syrians and two Egyptians were aboard, while other accounts gave 12 Syrians, and crew nationality is not inferred from the flag.",
+          "sources": [
+            {
+              "url": "https://www.bta.bg/en/news/world/1224856-bulgaria-abandons-search-for-crew-of-hs-dignity",
+              "source": "Bulgarian News Agency (BTA), 14 October 2026"
+            },
+            {
+              "url": "https://www.flagman.bg/article/391966",
+              "source": "Flagman.bg, 14 October 2026"
+            },
+            {
+              "url": "https://crew-board.net/news/black-sea-hs-dignity-sunk-off-bulgaria-crew-missing",
+              "source": "Crewboard review of ministry, BTA, CNN and SANA reports, updated 19 October 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -7651,6 +7709,71 @@
         "INC-20261013-028"
       ],
       "review_note": "Underlying sources checked; see docs/VERIFICATION-AUDIT-2026-10-20.md. Unreviewed corpus excluded. Missing crew not fatalities; group nationality safety not whole-vessel death count."
+    },
+    {
+      "comment_id": 6323391160,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6323391160",
+      "author": "iMariner",
+      "received_at": "2026-10-21T18:23:55Z",
+      "incident_id": "INC-20261013-002",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261013-002",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T18:22:48Z",
+          "vessel_name": "HS DIGNITY",
+          "date_utc": "2026-10-13",
+          "vessel_type": "General cargo",
+          "region": "Black Sea",
+          "location_text": "About 17 nautical miles east of Shabla, Bulgaria",
+          "summary": "HS Dignity, a Guinea-Bissau-flagged general cargo ship with 16 people aboard, was struck by a drone at about 01:20 local time on 13 October and sank 17 nautical miles east of Shabla, Bulgaria. Four survivors were taken aboard AZOV CONCORD and a fifth by the Danish-flagged SCANDI ASSERTER; Bulgaria's Ministry of Transport and Communications declared the search and rescue operation over at 15:00 on 14 October.",
+          "date_note": "Local Bulgarian time is UTC+3, so 01:20 on 13 October falls at 22:20 UTC on 12 October; the ministry and the Bulgarian News Agency date the sinking 13 October and the day-precision UTC date is kept as reported, not recalculated.",
+          "sources": [
+            {
+              "url": "https://www.mtc.government.bg/bg/category/1/tekhnicheska-informaciya-za-zasegnatite-i-okazalite-sdeystvie-prez-poslednite-24-chasa-plavatelni-sredstva-v-morskite-prostranstva-na-republika-blgariya",
+              "source": "Bulgarian Ministry of Transport and Communications"
+            },
+            {
+              "url": "https://www.mtc.government.bg/en/category/1/search-and-rescue-operation-seafarers-hs-dignity-struck-black-sea-officially-declared-over",
+              "source": "Bulgarian Ministry of Transport and Communications, 14 October 2026"
+            },
+            {
+              "url": "https://www.bta.bg/en/news/world/1224856-bulgaria-abandons-search-for-crew-of-hs-dignity",
+              "source": "Bulgarian News Agency (BTA), 14 October 2026"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9545912",
+              "source": "VesselFinder AIS particulars (type, flag, IMO)"
+            }
+          ],
+          "imo": "9545912",
+          "attack_type": "drone (UAV)"
+        },
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-10-21T18:22:48Z",
+          "text": "First reviewed living record for this sinking. Bulgaria's Ministry of Transport and Communications reported six crew rescued and 10 unaccounted for when the search ended on 14 October; Bulgarian outlets and the Syrian Sailors Union reported five rescued and 11 missing, and 24 Chasa said the fifth survivor reached Varna later on another ship. Because the rescued and missing split is unresolved, no missing figure is recorded as a snapshot and no death is counted. The ministry places the sinking 17 nautical miles east of Shabla; some reports say 15 to 17 miles east of Krapets. No nationality is recorded for the missing: Syria's Foreign Ministry told SANA on 18 October that 14 Syrians and two Egyptians were aboard, while other accounts gave 12 Syrians, and crew nationality is not inferred from the flag.",
+          "sources": [
+            {
+              "url": "https://www.bta.bg/en/news/world/1224856-bulgaria-abandons-search-for-crew-of-hs-dignity",
+              "source": "Bulgarian News Agency (BTA), 14 October 2026"
+            },
+            {
+              "url": "https://www.flagman.bg/article/391966",
+              "source": "Flagman.bg, 14 October 2026"
+            },
+            {
+              "url": "https://crew-board.net/news/black-sea-hs-dignity-sunk-off-bulgaria-crew-missing",
+              "source": "Crewboard review of ministry, BTA, CNN and SANA reports, updated 19 October 2026"
+            }
+          ]
+        }
+      }
     }
   ]
 }
