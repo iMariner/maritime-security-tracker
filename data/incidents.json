@@ -42,6 +42,98 @@
   },
   {
     "region": "Black Sea",
+    "date_utc": "2026-10-21",
+    "summary": "Russia's defence ministry said Russian forces struck a dry cargo vessel at sea that was heading to Odesa port carrying military cargo for Ukraine. The claim comes from the Russian side only; no vessel name, flag, position, damage or casualty details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 46.49,
+    "lon": 30.74,
+    "location_text": "at sea, en route to Odesa port, Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": "struck (Russian MoD claim)",
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry claimed it",
+    "independent_evidence": false,
+    "id": "INC-20261021-002",
+    "sources": [
+      {
+        "url": "https://t.me/tass_agency/401388",
+        "source": "TASS",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-21T05:19:18+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/68385",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-21T05:18:50+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-10-21T06:05:49Z",
+    "last_updated": "2026-10-21T06:05:49Z",
+    "verification_issue": 212,
+    "verdict": null,
+    "published_in": [
+      "2026-10-21"
+    ],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-21",
+    "summary": "A headline reports that two ships were struck off Bulgaria's coast in the latest Black Sea attack. No vessel names, flags, positions, damage or attribution details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.0,
+    "lon": 28.3,
+    "location_text": "off Bulgaria's coast, Black Sea",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261021-003",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTE9RQTY1NHV0bVZPdmlWVmFNTzVCQjZYdVN4eDkzem5STUkyQUNyMDRRT1VQOXE0aFh2UkFZaEo1dFI3bnIwY1dObUk0RmN5ODIyU0ZzcDJTR25ib0dfeDJtS1M0RUJCTU5SY25aVFlUWUVhLV9fTDhmZmx1VlJicUdFWmpkeE5XUlc1eGlTQXp0a2F5WXROalR1Tm1WZw?oc=5",
+        "source": "IOL",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-21T04:07:07Z",
+        "title": "Two ships struck off Bulgaria in latest Black Sea attack - IOL"
+      }
+    ],
+    "first_seen": "2026-10-21T06:05:52Z",
+    "last_updated": "2026-10-21T06:05:53Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261013-002",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
     "date_utc": "2026-10-20T12:00:24Z",
     "summary": "A report says the merchant ship Able, one of the vessels attacked off Bulgaria's coast, has sunk. No date, position, cause or attribution details were given.",
     "official_source_cited": null,
@@ -86,7 +178,9 @@
     "last_updated": "2026-10-21T00:05:17Z",
     "verification_issue": 208,
     "verdict": null,
-    "published_in": [],
+    "published_in": [
+      "2026-10-21"
+    ],
     "status": "claimed",
     "position_approx": true
   },
@@ -283,7 +377,8 @@
     "verification_issue": 204,
     "verdict": null,
     "published_in": [
-      "2026-10-20"
+      "2026-10-20",
+      "2026-10-21"
     ],
     "status": "claimed",
     "position_approx": true,
@@ -694,7 +789,9 @@
     "last_updated": "2026-10-21T05:13:52Z",
     "verification_issue": 209,
     "verdict": null,
-    "published_in": [],
+    "published_in": [
+      "2026-10-21"
+    ],
     "status": "claimed",
     "date_approx": false
   },
@@ -790,7 +887,8 @@
     "verification_issue": 200,
     "verdict": null,
     "published_in": [
-      "2026-10-20"
+      "2026-10-20",
+      "2026-10-21"
     ],
     "status": "claimed",
     "position_approx": true
@@ -958,7 +1056,9 @@
     "last_updated": "2026-10-21T00:05:17Z",
     "verification_issue": 211,
     "verdict": null,
-    "published_in": [],
+    "published_in": [
+      "2026-10-21"
+    ],
     "status": "claimed",
     "position_approx": true
   },
@@ -1000,7 +1100,8 @@
     "verification_issue": 197,
     "verdict": null,
     "published_in": [
-      "2026-10-20"
+      "2026-10-20",
+      "2026-10-21"
     ],
     "status": "claimed",
     "position_approx": true
@@ -1052,7 +1153,8 @@
     "verification_issue": 201,
     "verdict": null,
     "published_in": [
-      "2026-10-20"
+      "2026-10-20",
+      "2026-10-21"
     ],
     "status": "claimed",
     "position_approx": true
@@ -1254,7 +1356,8 @@
     "verification_issue": 194,
     "verdict": null,
     "published_in": [
-      "2026-10-20"
+      "2026-10-20",
+      "2026-10-21"
     ],
     "status": "claimed",
     "position_approx": true,
@@ -1585,7 +1688,8 @@
     "verification_issue": 203,
     "verdict": null,
     "published_in": [
-      "2026-10-20"
+      "2026-10-20",
+      "2026-10-21"
     ],
     "status": "claimed",
     "position_approx": true
@@ -2176,7 +2280,8 @@
     "verdict": null,
     "published_in": [
       "2026-10-19",
-      "2026-10-20"
+      "2026-10-20",
+      "2026-10-21"
     ],
     "status": "claimed",
     "position_approx": true,
@@ -2621,7 +2726,8 @@
     },
     "published_in": [
       "2026-10-19",
-      "2026-10-20"
+      "2026-10-20",
+      "2026-10-21"
     ],
     "status": "confirmed",
     "date_approx": false,
@@ -3605,7 +3711,8 @@
     "published_in": [
       "2026-10-18",
       "2026-10-19",
-      "2026-10-20"
+      "2026-10-20",
+      "2026-10-21"
     ],
     "status": "claimed",
     "position_approx": true,
@@ -6216,10 +6323,28 @@
         "kind": "media",
         "published_at": "2026-10-19T06:01:49Z",
         "title": "Oil Tanker On 'Unauthorised Route' Hits Mine In Hormuz, Catches Fire - NDTV"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPem5pQnRUSVcyZjY0QUlVYVJWbEpPY3RrTEhVUzM5QUV4QVJSZ3JDUTFZLTBHQVUzXzM5aEYwMUJwbWlWd1g2SHhFcDRoUnpoV3RGeDRFOGVpbGxudnpYRGNwSzlvckQ1bk1RS3VoZ3BiQzVYeUpxM0JqWFBWVXhTOEZHODhwQmY0NHE2akdzdw?oc=5",
+        "source": "Channels Television",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T15:04:58Z",
+        "title": "Oil Tanker On Fire After Hitting Mine In Hormuz - Channels Television"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQXc4MHpjaGtRa1NFY0lVQUJ4T0dPaDI2RnpvWllzSEl5cW5aSGJRZ1pnSkhXam03SkxadnlkNFlfN3NvME1uRC1pcWRBbm9JU0NqS0dtcEhGT1hXZWdJaERDYUVIbC1VbVZHVE4yaUlJYTFpRUR5bnc2TjV2Z2h5NEZvT3FwekVhMnpnZWYyVEFkRmhVZUgwQzZqNkFTR2Q5QXZOQld1RHI3b1FxQWFaMGFrZHFCZG1hVGg4eVE5MGVrcGRRMFBzaGp3YTJYU3plVEs00gHYAUFVX3lxTE5CX1VaTWV3bHc4YVBLUVhNRWlvRTBzVHZocmRPU2htNEU2ZTgtY1RfRWVpTU5XVW8xYkNnVnJOVTdYQU1Gbl9kZkZEbkUxZUZCajhCVmtZT1pvMGw4NE5lX1NMTml1ZzVWR25KYnJVQ1RUam1TOWFpNndodFZYakdHRWZ1SG12XzBjMmlkQ3RIYnNXNHktMERldTg3UTFqb1BERXJTZWdvNzNtc0RsZkxhWE94ME9sYmpraTNrejQyc0RCbkxyOW9ZZkNJODNmdFluSEI5UjNTMw?oc=5",
+        "source": "A News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T07:58:00Z",
+        "title": "Iran’s Revolutionary Guard says oil tanker struck mine and caught fire in Strait of Hormuz - A News"
       }
     ],
     "first_seen": "2026-10-17T19:40:33Z",
-    "last_updated": "2026-10-21T05:13:52Z",
+    "last_updated": "2026-10-21T06:05:52Z",
     "verification_issue": 181,
     "verdict": {
       "status": "confirmed",
@@ -6230,7 +6355,8 @@
     "published_in": [
       "2026-10-18",
       "2026-10-19",
-      "2026-10-20"
+      "2026-10-20",
+      "2026-10-21"
     ],
     "status": "confirmed",
     "position_approx": true,
@@ -14815,10 +14941,19 @@
         "kind": "media",
         "published_at": "2026-10-17T07:17:22Z",
         "title": "Bulgaria Asks NATO for Jets, Yet Its PM Cannot Prove Who Hit the Ships - The Eastern Herald"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTE9RQTY1NHV0bVZPdmlWVmFNTzVCQjZYdVN4eDkzem5STUkyQUNyMDRRT1VQOXE0aFh2UkFZaEo1dFI3bnIwY1dObUk0RmN5ODIyU0ZzcDJTR25ib0dfeDJtS1M0RUJCTU5SY25aVFlUWUVhLV9fTDhmZmx1VlJicUdFWmpkeE5XUlc1eGlTQXp0a2F5WXROalR1Tm1WZw?oc=5",
+        "source": "IOL",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-21T04:07:07Z",
+        "title": "Two ships struck off Bulgaria in latest Black Sea attack - IOL"
       }
     ],
     "first_seen": "2026-10-13T14:32:05Z",
-    "last_updated": "2026-10-18T14:48:03Z",
+    "last_updated": "2026-10-21T06:05:53Z",
     "verification_issue": 135,
     "verdict": {
       "status": "confirmed",
