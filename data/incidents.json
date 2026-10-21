@@ -1,5 +1,46 @@
 [
   {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-21",
+    "summary": "Iran claims that two oil tankers struck mines in the Strait of Hormuz. No vessel names, flags, positions, damage or casualty details were given, and the claim comes from the Iranian side only.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.4,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "mine",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261021-001",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE92MHpVbEE3Q0dmVERtSl9ObUVfOE1kR3otTEJKUFQ4SnYzYU02MEhzSm5ubm1iR2Q2X0hmXzIzOUszWFdfWFhmYm95eFRqei1KZUxETFFZbzFJSjcxOGgtakJtQ0ZfZ21KV3pQTDZqdl9qMmF2NGczcC11SnE4dw?oc=5",
+        "source": "Vietnam.vn",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-21T00:06:17Z",
+        "title": "Iran claims two oil tankers struck mines in the Hormuz Strait. - Vietnam.vn"
+      }
+    ],
+    "first_seen": "2026-10-21T05:13:52Z",
+    "last_updated": "2026-10-21T05:13:52Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261020-010",
+    "position_approx": true
+  },
+  {
     "region": "Black Sea",
     "date_utc": "2026-10-20T12:00:24Z",
     "summary": "A report says the merchant ship Able, one of the vessels attacked off Bulgaria's coast, has sunk. No date, position, cause or attribution details were given.",
@@ -521,7 +562,7 @@
   {
     "region": "Strait of Hormuz",
     "date_utc": "2026-10-20",
-    "summary": "Iran's Revolutionary Guards claimed on 20 October that a supertanker carrying about two million barrels of oil caught fire after striking a naval mine south of the Strait of Hormuz, and separately claimed two tankers were set ablaze by mines near Hormuz. No vessel names, flags, positions or independent confirmation were given, and the claims remain unverified.",
+    "summary": "Iran's Revolutionary Guards claimed that a supertanker carrying about two million barrels of oil caught fire after striking a naval mine south of the Strait of Hormuz, and separately claimed two tankers were set ablaze by mines near Hormuz. A later Iranian claim that two oil tankers struck mines in the strait appears to repeat the same claim, and no vessel names, flags or independent confirmation were given.",
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.6,
@@ -638,10 +679,19 @@
         "kind": "media",
         "published_at": "2026-10-20T18:08:21Z",
         "title": "Iran Guards say three tankers hit mines crossing Hormuz strait - Arab News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE92MHpVbEE3Q0dmVERtSl9ObUVfOE1kR3otTEJKUFQ4SnYzYU02MEhzSm5ubm1iR2Q2X0hmXzIzOUszWFdfWFhmYm95eFRqei1KZUxETFFZbzFJSjcxOGgtakJtQ0ZfZ21KV3pQTDZqdl9qMmF2NGczcC11SnE4dw?oc=5",
+        "source": "Vietnam.vn",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-21T00:06:17Z",
+        "title": "Iran claims two oil tankers struck mines in the Hormuz Strait. - Vietnam.vn"
       }
     ],
     "first_seen": "2026-10-20T20:49:12Z",
-    "last_updated": "2026-10-21T00:05:14Z",
+    "last_updated": "2026-10-21T05:13:52Z",
     "verification_issue": 209,
     "verdict": null,
     "published_in": [],
@@ -6157,10 +6207,19 @@
         "kind": "media",
         "published_at": "2026-10-19T06:01:49Z",
         "title": "Oil Tanker On 'Unauthorised Route' Hits Mine In Hormuz, Catches Fire - NDTV"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcVdVYjRVeEVlN25pX1ZaT1B3ckdXd1hjaXBfanNNS041ZGdiU1JCckRoc2pSczNiVV9iNDl0anJKMFBmRTIwX2dXTFBrdFJNV3JBTUktZ254NXpLSDVnM2ZpY25sRXFXUHZoU0taZWc1SDI3MGV6R2hjWGFKNUlQSkxDSVpMaHdXNzRBbnZwMmVXSUxHb1dFWElKR3h0TnJxT0xBWkh6SnNtdnVxd2ppTU5OOTlKb05vUkN4U2YyUGw0SHFLV0FR?oc=5",
+        "source": "NDTV",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T06:01:49Z",
+        "title": "Oil Tanker On 'Unauthorised Route' Hits Mine In Hormuz, Catches Fire - NDTV"
       }
     ],
     "first_seen": "2026-10-17T19:40:33Z",
-    "last_updated": "2026-10-20T20:49:19Z",
+    "last_updated": "2026-10-21T05:13:52Z",
     "verification_issue": 181,
     "verdict": {
       "status": "confirmed",
@@ -15723,10 +15782,19 @@
         "kind": "media",
         "published_at": "2026-10-20T11:04:35Z",
         "title": "Bulgaria to examine drone debris found aboard ship attacked in Black Sea - US Muslims"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbi1WTThJVGZWZEdfZ0l0Vm1HWXd6dVZFbno3WElTYndaMGVOU2pwTXd4WVF1SHVSRmVqVHNLMVVvaFRCTzB4QUtHZGc4U2JNTEUzQlVTcm9LbVNCdWxDVVpkdXVTOHVKVThldHdnZlo5TVV6bnBSV3JzYmI4RDNrZ3dqV3hkM0RrNFBqaWRhb2hIU0l3Y2pUbVZBM3BEWFVzWHpr0gGoAUFVX3lxTFBuRTVTYmQxckJ5YXFxOFlYMk9SbWxZS2FGQ05xNkJOTFpLSVhNQjhaRjdMSVlsQmtuOVBNdHlkdW50cHktVHM3NHZTVkl5OWtzb19GdklYbnp3V0pNWTVRdldoYUo3LXRpMXhFaURvc2Q3bW5vWTh1VTQ5OThaYXFtSkphdndpQ2dyX3IxbnR1Q2s2d01BRzBFN0I0d2QtRmg4WXpfWVRoVw?oc=5",
+        "source": "BurgasMedia",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-20T19:40:46Z",
+        "title": "Drone debris found on the ship «Chelsea 3» in Burgas port - BurgasMedia"
       }
     ],
     "first_seen": "2026-10-13T20:20:58Z",
-    "last_updated": "2026-10-20T17:29:41Z",
+    "last_updated": "2026-10-21T05:13:52Z",
     "verification_issue": 137,
     "verdict": {
       "status": "confirmed",
