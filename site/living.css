@@ -276,3 +276,18 @@ body.admin-bar #maritime-living .reading-progress { top: 32px; }
  #maritime-living .vessel-art .ship { transition:filter .4s; }
  #maritime-living .incident-card:hover .ship { filter:drop-shadow(0 5px 3px #172b3222); }
 }
+
+/* Content stays readable even when a browser delays scroll observers. */
+#maritime-living.motion-ready .motion-reveal { opacity:1; transform:none; transition:none; }
+#maritime-living.motion-ready .motion-reveal.is-visible { animation:ml-safe-reveal .65s cubic-bezier(.16,1,.3,1) both; }
+@keyframes ml-safe-reveal { from { transform:translateY(12px); } to { transform:none; } }
+@media(max-width:520px) {
+ #maritime-living .filters label,#maritime-living .filters .search { min-width:0; }
+ #maritime-living .filters .search { flex:1 1 100%; }
+ #maritime-living .filters button { flex:0 0 auto; white-space:nowrap; }
+ #maritime-living .incident { grid-template-columns:58px minmax(0,1fr); gap:19px; }
+ #maritime-living .incident h3 { font-size:clamp(27px,8vw,35px); overflow-wrap:anywhere; }
+ #maritime-living .vessel-meta,#maritime-living .sources a { overflow-wrap:anywhere; }
+ #maritime-living .stat { min-width:0; }
+ #maritime-living .hero-map { min-width:0; }
+}
