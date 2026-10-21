@@ -24,6 +24,8 @@ let motion = !media.matches && motionPreference;
 let routeLength = 0, routeCurrent = null, routeTarget = 0, frame = 0, previousFrame = 0;
 let rootVisible = true;
 let heroVisible = true, heroDistance = 0, lastCurrent = null;
+let mapView = null, mapTarget = null, oceanPhase = 0;
+const oceanFlows = [];
 const hero = root.querySelector('.hero');
 const observer = 'IntersectionObserver' in window ? new IntersectionObserver(entries => {
  entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('is-visible', 'reveal'); observer.unobserve(entry.target); } });
@@ -185,7 +187,27 @@ function animateFrame(now){
    const trail=$('hero-trail');if(trail){trail.setAttribute('d',heroPath.getAttribute('d'));trail.style.strokeDasharray=`${Math.min(heroDistance,100)} ${length}`;trail.style.strokeDashoffset=String(-Math.max(0,heroDistance-100));}
   }
  }
- if(settling||(motion&&heroVisible&&heroVessel))scheduleFrame();
+ const mapSVG=$('hero-map-mount')?.querySelector('svg');
+ let mapSettling=false;
+ if(mapSVG&&mapTarget){
+  if(!mapView)mapView=[...mapTarget];
+  mapSettling=motion&&heroVisible&&mapTarget.some((n,i)=>Math.abs(n-mapView[i])>.03);
+  mapView=mapView.map((n,i)=>mapSettling?n+(mapTarget[i]-n)*(1-Math.exp(-dt/155)):mapTarget[i]);
+  mapSVG.setAttribute('viewBox',mapView.map(n=>n.toFixed(3)).join(' '));
+ }
+ if(motion&&heroVisible){
+  oceanPhase+=dt*.014;
+  oceanFlows.forEach((flow,index)=>{
+   flow.path.style.strokeDashoffset=String(-oceanPhase*(index%2?.7:1));
+   flow.dots.forEach((dot,j)=>{
+    const distance=(oceanPhase*(.75+index*.07)+j*flow.length/3)%flow.length;
+    const point=flow.path.getPointAtLength(distance);
+    dot.setAttribute('cx',point.x.toFixed(2));dot.setAttribute('cy',point.y.toFixed(2));
+    dot.style.opacity=String(.18+.42*Math.sin(Math.PI*distance/flow.length));
+   });
+  });
+ }
+ if(settling||mapSettling||(motion&&heroVisible&&(heroVessel||oceanFlows.length)))scheduleFrame();
 }
 let layoutFrame=0;
 function scheduleLayout(){if(!layoutFrame)layoutFrame=requestAnimationFrame(()=>{layoutFrame=0;fitMap();drawRoute();});}
@@ -213,6 +235,7 @@ function syncMap(region) {
   button.setAttribute('aria-pressed',String(selected));
  });
  root.querySelectorAll('.map-region').forEach(area => area.classList.toggle('is-selected',Boolean(region)&&area.dataset.region===region));
+ fitMap();
 }
 root.querySelectorAll('.map-choice').forEach(button=>button.addEventListener('click',()=>{
  const region=button.dataset.region||'';
@@ -229,12 +252,41 @@ function navigateRecord(e) {const a=e.target.closest('[data-record]');if(!a)retu
 $('updates').addEventListener('click',navigateRecord);
 $('featured').addEventListener('click',navigateRecord);
 function fitMap() {
- const mount = $('hero-map-mount'), svg = mount?.querySelector('svg');
- if (svg) {
-  const compact = mount.clientWidth < 520;
-  mount.classList.toggle('map-compact', compact);
-  svg.setAttribute('viewBox', compact ? '330 0 510 600' : '0 0 1100 600');
- }
+ const mount=$('hero-map-mount'), svg=mount?.querySelector('svg');
+ if(!svg)return;
+ const compact=mount.clientWidth<520, region=$('region').value;
+ mount.classList.toggle('map-compact',compact);
+ const centres={'Black Sea':[470,120],'Red Sea':[490,410],'Strait of Hormuz':[705,335]};
+ if(centres[region]){
+  const [x,y]=centres[region],width=compact?360:760,height=compact?424:415;
+  mapTarget=[Math.max(0,Math.min(1100-width,x-width/2)),Math.max(0,Math.min(600-height,y-height/2)),width,height];
+ }else mapTarget=compact?[330,0,510,600]:[0,0,1100,600];
+ if(!mapView||!motion){mapView=[...mapTarget];svg.setAttribute('viewBox',mapView.join(' '));}
+ scheduleFrame();
+}
+function addOceanMotion(svg) {
+ // Decorative water texture only: these strokes carry no incident or oceanographic data.
+ const ns='http://www.w3.org/2000/svg', group=document.createElementNS(ns,'g');
+ group.setAttribute('class','map-ocean-flows');group.setAttribute('aria-hidden','true');
+ group.setAttribute('fill','none');group.setAttribute('stroke','#548d91');
+ group.setAttribute('stroke-width','1.3');group.setAttribute('pointer-events','none');
+ const curves=[
+  'M340 92 C390 65 440 112 500 80 S575 85 595 93',
+  'M160 220 C210 190 240 235 290 210 S350 230 390 230',
+  'M455 345 C475 370 470 392 497 435 S530 475 545 495',
+  'M570 572 C650 558 660 490 740 480 S830 415 875 445',
+  'M650 585 C740 570 735 510 820 505 S915 450 960 480',
+  'M704 345 C735 365 750 370 770 400 S820 420 860 405'
+ ];
+ curves.forEach((d,index)=>{
+  const path=document.createElementNS(ns,'path');path.setAttribute('d',d);path.setAttribute('class','map-current');path.style.animation='none';
+  path.setAttribute('stroke-dasharray','2 7');path.setAttribute('opacity','.34');group.append(path);
+  const dots=Array.from({length:3},()=>{const dot=document.createElementNS(ns,'circle');dot.setAttribute('class','map-current-dot');dot.setAttribute('r',index<3?'1.8':'2.2');dot.setAttribute('fill','#377b83');dot.setAttribute('stroke','none');group.append(dot);return dot;});
+  oceanFlows.push({path,dots,length:0});
+ });
+ const land=svg.querySelector('.map-land-group')||svg.querySelector('.map-land')?.parentElement;
+ if(land)land.before(group);else svg.querySelector('.map-water')?.after(group);
+ oceanFlows.forEach(flow=>{flow.length=flow.path.getTotalLength();flow.dots.forEach((dot,j)=>{const point=flow.path.getPointAtLength(j*flow.length/3);dot.setAttribute('cx',point.x);dot.setAttribute('cy',point.y);dot.setAttribute('opacity','.4');});});
 }
 async function loadMap() {
  const mount = $('hero-map-mount');
@@ -247,6 +299,7 @@ async function loadMap() {
   const svg = parsed.documentElement;
   if (svg.localName !== 'svg' || parsed.querySelector('parsererror')) throw new Error('Map unavailable');
   mount.replaceChildren(document.importNode(svg, true));
+  addOceanMotion(mount.querySelector('svg'));
   syncMap($('region').value);
   scheduleLayout();
  } catch {

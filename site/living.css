@@ -246,3 +246,33 @@ body.admin-bar #maritime-living .reading-progress { top: 32px; }
 #maritime-living .map-compact .map-attribution,
 #maritime-living .map-compact svg > .map-caption { display: none; }
 #maritime-living .map-compact .map-region[data-region='Strait of Hormuz'] text { text-anchor: end; }
+
+/* A nautical motion system: tidal contours, current trails and editorial accents. */
+#maritime-living .map-frame::after { content:''; position:absolute; inset:0; pointer-events:none; box-shadow:inset 0 0 55px #172b3212; border:6px solid #ffffff18; }
+#maritime-living .map-current { fill:none; stroke:#367a9b; stroke-width:1; opacity:.22; stroke-dasharray:2 12; stroke-linecap:round; animation:ml-current 18s linear infinite; vector-effect:non-scaling-stroke; }
+#maritime-living .map-current:nth-child(2n) { animation-direction:reverse; animation-duration:25s; opacity:.14; }
+#maritime-living .map-current-dot { fill:#234ccc; opacity:.65; }
+#maritime-living .featured-art { overflow:hidden; isolation:isolate; background:radial-gradient(ellipse at 50% 100%,#3e777b55,transparent 70%),repeating-linear-gradient(0deg,transparent 0,transparent 44px,#ffffff09 45px,#ffffff09 46px); }
+#maritime-living .featured-art .ship { position:relative; z-index:2; filter:drop-shadow(0 18px 9px #0003); }
+#maritime-living .featured-art::before { width:130%; height:110px; left:-15%; bottom:-65px; border:1px solid #a5d5cf55; border-radius:45%; background:repeating-radial-gradient(ellipse at 50% 0,transparent 0 13px,#a5d5cf18 14px 15px,transparent 16px 28px); animation:ml-tide 9s ease-in-out infinite; opacity:.8; }
+#maritime-living .featured-art::after { width:140%; height:110px; left:-20%; bottom:-75px; border:1px solid #a5d5cf55; border-radius:43%; background:none; animation:ml-tide 12s -5s ease-in-out infinite reverse; opacity:.5; }
+#maritime-living .illustration-label { z-index:3; }
+#maritime-living .update { position:relative; }
+#maritime-living .update::before { content:''; position:absolute; top:-2px; left:0; width:30px; height:2px; background:var(--ink); transform-origin:left; transition:transform .6s cubic-bezier(.16,1,.3,1); }
+#maritime-living .update:hover::before { transform:scaleX(2.7); }
+#maritime-living .incident-card { position:relative; }
+#maritime-living .incident.is-current .date-label strong { color:var(--orange); }
+#maritime-living .date-label strong { transition:color .5s ease; }
+#maritime-living .incident.is-current .vessel-art { background:linear-gradient(120deg,#e2e7dc,#dce6e5,#e2e7dc); background-size:200% 100%; animation:ml-water-light 9s ease-in-out infinite; }
+#maritime-living details[open] > :not(summary) { animation:ml-evidence-in .45s ease both; }
+#maritime-living .jump span { animation:ml-invitation 3s ease-in-out infinite; }
+@keyframes ml-current { to { stroke-dashoffset:-140; } }
+@keyframes ml-tide { 0%,100% { transform:translate(-2%,0) rotate(-3deg); } 50% { transform:translate(2%,-9px) rotate(3deg); } }
+@keyframes ml-water-light { 0%,100% { background-position:0 50%; } 50% { background-position:100% 50%; } }
+@keyframes ml-invitation { 0%,75%,100% { transform:translate(0,0); } 85% { transform:translate(4px,5px); } }
+@keyframes ml-evidence-in { from { opacity:0; transform:translateY(-6px); } to { opacity:1; transform:none; } }
+@media (hover:hover) {
+ #maritime-living .map-choice:hover { box-shadow:0 4px 0 #172b3210; }
+ #maritime-living .vessel-art .ship { transition:filter .4s; }
+ #maritime-living .incident-card:hover .ship { filter:drop-shadow(0 5px 3px #172b3222); }
+}
