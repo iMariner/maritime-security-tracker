@@ -87,10 +87,16 @@ function animateCount(id, count) {
  requestAnimationFrame(tick);
 }
 function updateNotes(i) {return (Array.isArray(i.updates) ? i.updates : []).filter(u => u && typeof u.text === 'string' && stamp(u.at)).sort((a,b)=>stamp(b.at)-stamp(a.at));}
+const impactLabels={injured:'Reported injured',missing:'Reported missing',captive:'Reported captive',shore_deaths:'Shore-worker deaths (separate)'};
+const impactFacts=i=>Object.entries(i.human_impact||{}).filter(([key,f])=>impactLabels[key]&&f&&validCount(f.count)&&stamp(f.as_of)&&links(f.sources).length);
+const eventGroup=i=>/attempt/i.test(i.attack_type||'')?'Attempted attack':/hijack|boarding|seiz/i.test(i.attack_type||'')?'Seizure / boarding':/near.miss/i.test(i.attack_type||'')?'Near miss / damage':/physical strike|projectile strike|drone strike|missile strike/i.test(i.attack_type||'')?'Physical strike':'Other / unclassified';
+const broadType=t=>/tanker/i.test(t)?'Tankers':/bulk/i.test(t)?'Bulk carriers':/container/i.test(t)?'Container ships':/general cargo/i.test(t)?'General cargo':/ro.ro/i.test(t)?'Ro-ro carriers':/tug|pilot|crane|diving|support|survey|dredg/i.test(t)?'Support & service vessels':/barge/i.test(t)?'Barges':'Other / subtype pending';
 function stats() {
  animateCount('total', all.length);
 
- const known = new Map();all.forEach(i=>{const key=i.imo ? `imo:${i.imo}` : i.vessel_name ? `name:${String(i.vessel_name).trim().toUpperCase()}` : null;if(key)known.set(key,i);});
+ const normalizeName=name=>String(name||'').toUpperCase().replace(/[^A-Z0-9]/g,'');
+ const nameIMOs=new Map();all.forEach(i=>{if(i.imo){const name=normalizeName(i.vessel_name);if(!nameIMOs.has(name))nameIMOs.set(name,new Set());nameIMOs.get(name).add(i.imo);}});
+ const known=new Map();all.forEach(i=>{const name=normalizeName(i.vessel_name),matches=nameIMOs.get(name),imo=i.imo||(matches?.size===1?[...matches][0]:null);const key=imo?`imo:${imo}`:name?`name:${name}`:null;if(key)known.set(key,i);});
  animateCount('vessels', known.size);
 
  $('unidentified').textContent='Distinct named vessels in the reviewed record.';
@@ -102,9 +108,13 @@ function stats() {
  $('nationalities').textContent=nations.size || (casualties.length===all.length && all.length>0 && casualties.every(c=>c.deaths===0&&!c.minimum) ? '0' : 'Pending');
  $('deaths').classList.toggle('unavailable', !complete&&deaths===0);
  $('nationalities').classList.toggle('unavailable', !nations.size);
- $('nationality-note').textContent=nations.size ? [...nations].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).map(([n,count])=>`${n}: ${count}`).join(' · ')+`. Nationality sourced for ${[...nations.values()].reduce((a,b)=>a+b,0)} of ${deaths} documented deaths.` : 'Nationality totals await explicit source confirmation.';
+ $('nationality-note').textContent=nations.size ? [...nations].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).map(([n,count])=>`${n}: ${count}`).join(' · ')+`. Nationality sourced for ${[...nations.values()].reduce((a,b)=>a+b,0)} of ${deaths} documented deaths. ${Math.max(0,deaths-[...nations.values()].reduce((a,b)=>a+b,0))} documented deaths still lack a sourced nationality.` : 'Nationality totals await explicit source confirmation.';
  const types=new Map();known.forEach(i=>{const t=typeof i.vessel_type==='string'&&i.vessel_type.trim()?i.vessel_type:'Type not established';types.set(t,(types.get(t)||0)+1);});
- $('breakdown').innerHTML=[...types].sort((a,b)=>b[1]-a[1]).map(([type,n])=>`<span class="type-chip">${esc(type)} <b>${n}</b></span>`).join('');
+ const groups=new Map();types.forEach((n,t)=>groups.set(broadType(t),(groups.get(broadType(t))||0)+n));
+ const chips=entries=>[...entries].sort((a,b)=>b[1]-a[1]).map(([type,n])=>`<span class="type-chip">${esc(type)} <b>${n}</b></span>`).join('');
+ $('breakdown').innerHTML=chips(groups)+`<details class="type-details"><summary>See vessel subtypes</summary><div class="subtype-chips">${chips(types)}</div></details>`;
+ const categoryCounts=new Map();all.forEach(i=>categoryCounts.set(eventGroup(i),(categoryCounts.get(eventGroup(i))||0)+1));
+ if($('event-coverage'))$('event-coverage').textContent=[...categoryCounts].map(([kind,n])=>`${kind}: ${n}`).join(' · ')+'. Categories describe reviewed records; an attempted attack is not a confirmed physical hit.';
  const dates=all.map(attackTime).filter(Boolean);
  const updated=all.map(i=>stamp(i.last_updated)).filter(Boolean);
  $('scope').textContent=all.length?`Available attack dates: ${dates.length?date(new Date(Math.min(...dates)).toISOString()):'unknown'} onward · Latest record change: ${updated.length?date(new Date(Math.max(...updated)).toISOString()):'unknown'} · Reviewed incidents only`:'Evidence review in progress · Only reviewed, named incidents enter this record.';
@@ -125,8 +135,9 @@ function card(i) {
  const image=i.image&&safeURL(i.image.url)&&safeURL(i.image.source_url)&&i.image.credit;
  const meta=[i.vessel_type,i.imo?`IMO ${i.imo}`:null,i.location_text].filter(Boolean).map(esc).join(' · ');
  const nations=c&&Array.isArray(c.nationalities)?c.nationalities.filter(n=>n.status==='confirmed'&&validCount(n.deaths)&&links(n.sources).length):[];
- const sourceCount=new Set([...links(i.sources),...links(c?.sources),...nations.flatMap(n=>links(n.sources)),...notes.flatMap(n=>links(n.sources))].map(s=>s.url.split('#')[0])).size;
- return `<article class="incident" id="incident-${esc(i.id)}"><div class="date-label"><strong>${new Date(d).toLocaleDateString('en-GB',{day:'2-digit',month:'short',timeZone:'UTC'})}</strong>${new Date(d).getUTCFullYear()}${i.date_approx?' · approx.':''}<span>INCIDENT DATE</span></div><div class="incident-card"><div class="card-top"><span>${esc(i.region_group||i.region)}${i.attack_type?' · '+esc(i.attack_type):''}</span><span class="badge">✓ SOURCE CHECKED</span></div><div class="incident-main"><div><h3>${esc(i.vessel_name)}</h3><div class="vessel-meta">${meta}</div></div><div class="vessel-art" aria-hidden="true">${ship(i.vessel_type)}<span class="illustration-label">VESSEL ILLUSTRATION</span></div></div><p class="incident-summary">${esc(i.summary)}</p>${image?`<figure><img src="${esc(safeURL(i.image.url))}" alt="${esc(i.image.alt||'Sourced image associated with this incident')}" loading="lazy" referrerpolicy="no-referrer"><figcaption>Image: <a href="${esc(safeURL(i.image.source_url))}" target="_blank" rel="noopener noreferrer">${esc(i.image.credit)}</a></figcaption></figure>`:''}<div class="factline">${c?`<div><span>Confirmed deaths / </span><b>${c.minimum?'≥':''}${c.deaths}</b></div>`:''}${nations.length?`<div><span>Nationalities / </span><b>${nations.map(n=>`${esc(n.nationality)} (${n.deaths})`).join(', ')}</b></div>`:''}<div><span>Evidence checked / </span><b>${esc(date(i.verification?.checked_at))}</b></div></div>${i.conflicting?'<p class="notice">Accounts differ on some details. See the evidence notes.</p>':''}<details><summary>Read the evidence · ${sourceCount} ${sourceCount===1?'source':'sources'} ＋</summary>${i.date_note?`<p><b>Date context:</b> ${esc(i.date_note)}</p>`:''}<p>${esc(i.verification?.note||i.verification?.notes||'Incident identity, date and account reviewed against the linked sources. Each casualty claim requires separate confirmation.')}</p><div class="sources">${sourceHTML(i.sources)}</div>${c?`<p>Confirmed deaths: ${c.minimum?'at least ':''}${c.deaths}.</p><div class="sources">${sourceHTML(c.sources)}</div>`:'<p>A confirmed casualty total has not yet been established for this incident.</p>'}${nations.map(n=>`<p>${esc(n.nationality)}: ${n.deaths} confirmed deaths.</p><div class="sources">${sourceHTML(n.sources)}</div>`).join('')}${notes.length?`<h4>How the record developed</h4>${notes.map(u=>`<div class="revision"><time>${esc(date(u.at))}</time><p>${esc(u.text)}</p><div class="sources">${sourceHTML(u.sources)}</div></div>`).join('')}`:''}</details></div></article>`;
+ const impact=impactFacts(i);
+ const sourceCount=new Set([...impact.flatMap(([,f])=>links(f.sources)),...links(i.sources),...links(c?.sources),...nations.flatMap(n=>links(n.sources)),...notes.flatMap(n=>links(n.sources))].map(s=>s.url.split('#')[0])).size;
+ return `<article class="incident" id="incident-${esc(i.id)}"><div class="date-label"><strong>${new Date(d).toLocaleDateString('en-GB',{day:'2-digit',month:'short',timeZone:'UTC'})}</strong>${new Date(d).getUTCFullYear()}${i.date_approx?' · approx.':''}<span>INCIDENT DATE</span></div><div class="incident-card"><div class="card-top"><span>${esc(i.region_group||i.region)}${i.attack_type?' · '+esc(i.attack_type):''}</span><span class="badge">✓ SOURCE CHECKED</span></div><div class="incident-main"><div><h3>${esc(i.vessel_name)}</h3><div class="vessel-meta">${meta}</div></div><div class="vessel-art" aria-hidden="true">${ship(i.vessel_type)}<span class="illustration-label">VESSEL ILLUSTRATION</span></div></div><p class="incident-summary">${esc(i.summary)}</p>${image?`<figure><img src="${esc(safeURL(i.image.url))}" alt="${esc(i.image.alt||'Sourced image associated with this incident')}" loading="lazy" referrerpolicy="no-referrer"><figcaption>Documentary image: <a href="${esc(safeURL(i.image.source_url))}" target="_blank" rel="noopener noreferrer">${esc(i.image.credit)}</a></figcaption></figure>`:''}<div class="factline">${c?`<div><span>Confirmed deaths / </span><b>${c.minimum?'≥':''}${c.deaths}</b></div>`:''}${nations.length?`<div><span>Nationalities / </span><b>${nations.map(n=>`${esc(n.nationality)} (${n.deaths})`).join(', ')}</b></div>`:''}${impact.map(([key,f])=>`<div><span>${esc(impactLabels[key])} / </span><b>${f.count}</b><small> · snapshot ${esc(date(f.as_of))}</small></div>`).join('')}<div><span>Evidence checked / </span><b>${esc(date(i.verification?.checked_at))}</b></div></div>${i.conflicting?'<p class="notice">Accounts differ on some details. See the evidence notes.</p>':''}<details><summary>Read the evidence · ${sourceCount} ${sourceCount===1?'source':'sources'} ＋</summary>${i.date_note?`<p><b>Date context:</b> ${esc(i.date_note)}</p>`:''}<p>${esc(i.verification?.note||i.verification?.notes||'Incident identity, date and account reviewed against the linked sources. Each casualty claim requires separate confirmation.')}</p><div class="sources">${sourceHTML(i.sources)}</div>${c?`<p>Confirmed deaths: ${c.minimum?'at least ':''}${c.deaths}.</p><div class="sources">${sourceHTML(c.sources)}</div>`:'<p>A confirmed casualty total has not yet been established for this incident.</p>'}${nations.map(n=>`<p>${esc(n.nationality)}: ${n.deaths} confirmed deaths.</p><div class="sources">${sourceHTML(n.sources)}</div>`).join('')}${impact.map(([key,f])=>`<p><b>${esc(impactLabels[key])}: ${f.count}</b> · source snapshot ${esc(date(f.as_of))}. These snapshots do not establish additional seafarer deaths.</p><div class="sources">${sourceHTML(f.sources)}</div>`).join('')}${notes.length?`<h4>How the record developed</h4>${notes.map(u=>`<div class="revision"><time>${esc(date(u.at))}</time><p>${esc(u.text)}</p><div class="sources">${sourceHTML(u.sources)}</div></div>`).join('')}`:''}</details></div></article>`;
 }
 function drawRoute() {
  const journey=root.querySelector('.journey'), svg=$('journey-route'), nodes=[...root.querySelectorAll('.date-label')];
@@ -217,13 +228,14 @@ window.addEventListener('scroll',scrollRoute,{passive:true});
 window.addEventListener('resize',scheduleLayout);
 root.addEventListener('toggle',scheduleLayout,true);
 root.addEventListener('load',scheduleLayout,true);
+root.addEventListener('error',event=>{const img=event.target;if(img?.tagName!=='IMG'||img.dataset.failed)return;const figure=img.closest('figure');if(!figure)return;img.dataset.failed='true';img.hidden=true;figure.classList.add('image-unavailable');const note=document.createElement('p');note.textContent='Photograph unavailable here. Open the credited source below.';figure.prepend(note);scheduleLayout();},true);
 if(document.fonts)document.fonts.ready.then(scheduleLayout);
 if('ResizeObserver' in window)new ResizeObserver(scheduleLayout).observe(root.querySelector('.journey'));
 applyMotion();
 
 function render() {
  const query=$('search').value.toLowerCase().trim();
- visible=all.filter(i=>(!$('region').value||(i.region_group || i.region)===$('region').value)&&(!$('status').value||i.vessel_type===$('status').value)&&(!$('year').value||i.date_utc.slice(0,4)===$('year').value)&&(!query||[i.vessel_name,i.imo,i.location_text].some(v=>String(v||'').toLowerCase().includes(query))));
+ visible=all.filter(i=>(!$('region').value||(i.region_group || i.region)===$('region').value)&&(!$('status').value||i.vessel_type===$('status').value)&&(!$('year').value||i.date_utc.slice(0,4)===$('year').value)&&(!$('event-kind').value||eventGroup(i)===$('event-kind').value)&&(!query||[i.vessel_name,i.imo,i.location_text].some(v=>String(v||'').toLowerCase().includes(query))));
  $('result-count').textContent=`${visible.length} reviewed incident records · Hero totals cover all three regions.`;
  if(observer)root.querySelectorAll('#timeline .motion-reveal').forEach(el=>observer.unobserve(el));
  $('timeline').innerHTML=visible.length?visible.slice(0,limit).map(card).join(''):'<p class="empty">No records match these filters. Try another region, year, vessel type or vessel name.</p>';
@@ -246,11 +258,11 @@ root.querySelectorAll('.map-choice').forEach(button=>button.addEventListener('cl
 }));
 syncMap($('region').value);
 $('filters').addEventListener('submit',e=>e.preventDefault());
-['region','status','year'].forEach(id=>$(id).addEventListener('change',()=>{limit=16;syncMap($('region').value);render();}));
+['region','status','year','event-kind'].forEach(id=>$(id).addEventListener('change',()=>{limit=16;syncMap($('region').value);render();}));
 $('search').addEventListener('input',()=>{limit=16;render();});
 $('filters').addEventListener('reset',()=>{setTimeout(()=>{limit=16;syncMap($('region').value);render();},0);});
 $('more').addEventListener('click',()=>{const firstNew=visible[limit]?.id;limit+=16;render();if(firstNew)root.querySelector(`#incident-${CSS.escape(firstNew)}`)?.scrollIntoView({behavior:motion?'smooth':'auto',block:'start'});});
-function navigateRecord(e) {const a=e.target.closest('[data-record]');if(!a)return;const index=all.findIndex(i=>i.id===a.dataset.record);if(index<0)return;e.preventDefault();$('region').value='';$('status').value='';$('year').value='';$('search').value='';limit=Math.max(16,index+1);syncMap('');render();root.querySelector(`#incident-${CSS.escape(a.dataset.record)}`)?.scrollIntoView({behavior:motion?'smooth':'auto',block:'start'});}
+function navigateRecord(e) {const a=e.target.closest('[data-record]');if(!a)return;const index=all.findIndex(i=>i.id===a.dataset.record);if(index<0)return;e.preventDefault();$('region').value='';$('status').value='';$('year').value='';$('event-kind').value='';$('search').value='';limit=Math.max(16,index+1);syncMap('');render();root.querySelector(`#incident-${CSS.escape(a.dataset.record)}`)?.scrollIntoView({behavior:motion?'smooth':'auto',block:'start'});}
 $('updates').addEventListener('click',navigateRecord);
 $('featured').addEventListener('click',navigateRecord);
 function fitMap() {

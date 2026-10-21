@@ -315,3 +315,13 @@ body.admin-bar #maritime-living .reading-progress { top: 32px; }
  #maritime-living .stats .stat h3 { grid-column:2; margin:0; font-size:12px; }
  #maritime-living .stats .stat p { grid-column:2; margin-top:6px; font-size:11px; line-height:1.65; }
 }
+
+#maritime-living .type-details { flex-basis:100%; border:0; padding:8px 0 0; }
+#maritime-living .subtype-chips { display:flex; flex-wrap:wrap; gap:8px; margin-top:14px; }
+#maritime-living .event-coverage { padding-top:10px; border-top:1px solid var(--line); }
+#maritime-living .factline small { font-size:9px; }
+#maritime-living .filters label { min-width:0; }
+@media(min-width:801px) { #maritime-living .filters { gap:18px; } }
+
+#maritime-living figure img { object-fit:contain; background:#e2e7e5; }
+#maritime-living .image-unavailable > p { font-size:11px; padding:18px; background:#e2e7e5; }

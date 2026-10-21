@@ -45,6 +45,37 @@ def count(value):
     return isinstance(value, int) and not isinstance(value, bool) and value >= 0
 
 
+HUMAN_IMPACT_FIELDS = {"injured", "missing", "captive", "shore_deaths"}
+
+
+def human_impact(value):
+    """Keep separately sourced, dated human-impact facts outside death totals.
+
+    These are snapshots, not additive counts. In particular, a missing person's
+    nationality or a shore worker's death cannot establish a seafarer death.
+    Invalid legacy overlay fields are withheld rather than converted to zero.
+    """
+    result = {}
+    if not isinstance(value, dict):
+        return result
+    for key in HUMAN_IMPACT_FIELDS:
+        item = value.get(key)
+        if not isinstance(item, dict) or set(item) != {"count", "as_of", "sources"} or not count(item.get("count")):
+            continue
+        at = item.get("as_of")
+        try:
+            if not isinstance(at, str) or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", at):
+                continue
+            datetime.strptime(at, "%Y-%m-%d")
+        except ValueError:
+            continue
+        refs = item.get("sources")
+        if not isinstance(refs, list) or not refs or any(not isinstance(ref, dict) or not safe_url(ref.get("url")) or not isinstance(ref.get("source"), str) or not ref["source"].strip() for ref in refs):
+            continue
+        result[key] = {"count": item["count"], "as_of": at, "sources": sources(refs)}
+    return result
+
+
 def casualties(value):
     unknown = {"status": "unknown", "deaths": None, "nationalities": [], "sources": []}
     if not isinstance(value, dict):
@@ -184,7 +215,8 @@ def export(incidents, overlay=None, history=None):
                 "vessel_name": review["vessel_name"].strip(), "vessel_type": review["vessel_type"].strip(),
                 "date_utc": review["date_utc"], "summary": review["summary"].strip(), "latest_news": review["summary"].strip(),
                 "verification": review, "sources": sources(review["sources"]),
-                "casualties": casualties(evidence.get("casualties")), "updates": updates(evidence.get("updates"))}
+                "casualties": casualties(evidence.get("casualties")), "human_impact": human_impact(evidence.get("human_impact")),
+                "updates": updates(evidence.get("updates"))}
         item["last_updated"] = max([review["checked_at"]] + [u["at"] for u in item["updates"]], key=lambda stamp: datetime.fromisoformat(stamp.replace("Z", "+00:00")))
         for key in ("location_text", "attack_type", "date_note"):
             if key in review:

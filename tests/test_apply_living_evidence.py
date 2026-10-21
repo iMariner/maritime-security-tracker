@@ -264,3 +264,44 @@ def test_historical_flag_on_existing_id_does_not_create_stub(tmp_path, monkeypat
     run_cli(tmp_path, monkeypatch, event, [{"id": payload["incident_id"], "status": "reported", "region": "Black Sea"}])
     assert not (tmp_path / "data/living-history.json").exists()
     assert json.loads((tmp_path / "data/living-evidence.json").read_text())["incidents"][payload["incident_id"]]["verification"] == payload["verification"]
+
+
+def test_human_impact_replaces_or_clears_with_audit_without_changing_casualties():
+    event, overlay, incidents = fixture()
+    payload = json.loads(event["comment"]["body"].split("\n", 1)[1])
+    fact = {"count": 7, "as_of": "2026-10-20", "sources": [{"url": "https://owner.example/report", "source": "Owner"}]}
+    payload["human_impact"] = {"missing": fact}
+    event["comment"]["body"] = "/evidence\n" + json.dumps(payload)
+    first = apply_event(event, overlay, incidents)
+    payload.pop("casualties")
+    payload["human_impact"] = {"injured": {**fact, "count": 0}}
+    event["comment"].update(id=2, body="/evidence\n" + json.dumps(payload))
+    second = apply_event(event, first, incidents)
+    assert second["incidents"]["inc-1"]["human_impact"] == payload["human_impact"]
+    assert second["incidents"]["inc-1"]["casualties"]["deaths"] == 1
+    assert second["audit"][-1]["before"]["human_impact"] == {"missing": fact}
+    payload["human_impact"] = None
+    event["comment"].update(id=3, body="/evidence\n" + json.dumps(payload))
+    third = apply_event(event, second, incidents)
+    assert third["incidents"]["inc-1"]["human_impact"] is None
+    assert third["audit"][-1]["before"]["human_impact"] == second["incidents"]["inc-1"]["human_impact"]
+
+
+@pytest.mark.parametrize("impact", [
+    True, [], {"deaths": {}}, {"missing": None},
+    {"missing": {"count": True, "as_of": "2026-10-20", "sources": [{"url": "https://owner.example", "source": "Owner"}]}},
+    {"missing": {"count": 1, "sources": [{"url": "https://owner.example", "source": "Owner"}]}},
+    {"missing": {"count": 1, "as_of": "2026-02-30", "sources": [{"url": "https://owner.example", "source": "Owner"}]}},
+    {"missing": {"count": 1, "as_of": "2026-10-20", "sources": [{"url": "javascript:bad", "source": "Owner"}]}},
+    {"missing": {"count": 1, "as_of": "2026-10-20", "sources": [{"url": "https://owner.example"}]}},
+    {"missing": {"count": 1, "as_of": "2026-10-20", "sources": []}},
+])
+def test_invalid_human_impact_rejected_without_mutation(impact):
+    event, overlay, incidents = fixture()
+    before = deepcopy(overlay)
+    payload = json.loads(event["comment"]["body"].split("\n", 1)[1])
+    payload["human_impact"] = impact
+    event["comment"]["body"] = "/evidence\n" + json.dumps(payload)
+    with pytest.raises(ValueError, match="Human impact"):
+        apply_event(event, overlay, incidents)
+    assert overlay == before

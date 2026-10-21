@@ -25,7 +25,19 @@
       },
       "audit_notes": [
         "IMO confirms name, IMO, date, position and one injured. Maritime Executive identifies vessel type and describes projectiles. Imported mine/tanker attribution is unsupported for this named vessel. No vessel-wide death count is stated."
-      ]
+      ],
+      "human_impact": {
+        "injured": {
+          "count": 1,
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, as at 20 October 2026"
+            }
+          ]
+        }
+      }
     },
     "INC-20261014-002": {
       "verification": {
@@ -309,7 +321,19 @@
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
-      ]
+      ],
+      "human_impact": {
+        "injured": {
+          "count": 1,
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, as at 20 October 2026"
+            }
+          ]
+        }
+      }
     },
     "HIST-ME-20261011-KITION-M": {
       "verification": {
@@ -363,7 +387,19 @@
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
-      ]
+      ],
+      "human_impact": {
+        "injured": {
+          "count": 2,
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, as at 20 October 2026"
+            }
+          ]
+        }
+      }
     },
     "HIST-ME-20261011-ANGOLA-PROSPERITY": {
       "verification": {
@@ -417,7 +453,19 @@
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
-      ]
+      ],
+      "human_impact": {
+        "missing": {
+          "count": 2,
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, as at 20 October 2026"
+            }
+          ]
+        }
+      }
     },
     "HIST-ME-20261010-AKIRA-SUN-OCEAN-MOLICA": {
       "verification": {
@@ -606,7 +654,19 @@
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
-      ]
+      ],
+      "human_impact": {
+        "injured": {
+          "count": 12,
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, as at 20 October 2026"
+            }
+          ]
+        }
+      }
     },
     "HIST-ME-20261004-GAS-VELA": {
       "verification": {
@@ -638,24 +698,45 @@
     "HIST-ME-20261004-CAMEROON-PROSPERITY": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T03:06:19.845439+00:00",
+        "checked_at": "2026-10-21T14:10:24.919717+00:00",
         "vessel_name": "CAMEROON PROSPERITY",
         "date_utc": "2026-10-04",
-        "vessel_type": "commercial vessel",
+        "vessel_type": "tanker",
         "region": "Strait of Hormuz",
         "location_text": "Strait of Hormuz",
-        "summary": "IMO records CAMEROON PROSPERITY in its confirmed incident register for 2026-10-04 near Strait of Hormuz. Vessel damage was reported. The vessel is named, but its specific classification is still under review.",
+        "summary": "IMO lists Cameroon Prosperity as damaged in a confirmed incident in the Strait of Hormuz on 4 October 2026. The US Coast Guard register identifies the named tanker as IMO 9315159; the eight-digit number printed in the incident table is a source typo.",
         "sources": [
           {
             "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
             "source": "IMO confirmed incident register, checked 21 October 2026"
+          },
+          {
+            "url": "https://www.uscg.mil/Portals/0/NPFC/COFR/COFR%20Vsl%20Status%20Report.pdf?ver=pW5ag2oPYYYlByogIBfsNg%3D%3D",
+            "source": "US Coast Guard COFR vessel status register, 30 April 2026"
           }
         ],
-        "date_note": "Day-precision date from IMO; an exact UTC event time is not provided."
+        "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
+        "imo": "9315159"
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used.",
         "Malformed IMO printed by source: 93151598; number omitted pending correction."
+      ],
+      "updates": [
+        {
+          "at": "2026-10-21T14:10:24.919717+00:00",
+          "text": "The named tanker identity is cross-checked against the Coast Guard register; the malformed incident-table IMO is not used.",
+          "sources": [
+            {
+              "url": "https://www.uscg.mil/Portals/0/NPFC/COFR/COFR%20Vsl%20Status%20Report.pdf?ver=pW5ag2oPYYYlByogIBfsNg%3D%3D",
+              "source": "US Coast Guard COFR vessel status register, 30 April 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, as at 20 October 2026"
+            }
+          ]
+        }
       ]
     },
     "HIST-ME-20261004-LIPSI": {
@@ -991,7 +1072,19 @@
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
-      ]
+      ],
+      "human_impact": {
+        "injured": {
+          "count": 2,
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, as at 20 October 2026"
+            }
+          ]
+        }
+      }
     },
     "HIST-ME-20260918-STI-STEADFAST": {
       "verification": {
@@ -1072,7 +1165,19 @@
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
-      ]
+      ],
+      "human_impact": {
+        "missing": {
+          "count": 2,
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, as at 20 October 2026"
+            }
+          ]
+        }
+      }
     },
     "HIST-ME-20260910-ROMANCE": {
       "verification": {
@@ -1104,7 +1209,7 @@
     "HIST-ME-20260909-HERCULES-STAR": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T03:06:19.845439+00:00",
+        "checked_at": "2026-10-21T14:10:24.919717+00:00",
         "vessel_name": "HERCULES STAR",
         "date_utc": "2026-09-09",
         "vessel_type": "tanker",
@@ -1127,7 +1232,19 @@
       "casualties": {
         "status": "confirmed",
         "deaths": 2,
-        "nationalities": [],
+        "nationalities": [
+          {
+            "nationality": "Filipino",
+            "status": "confirmed",
+            "deaths": 1,
+            "sources": [
+              {
+                "url": "https://tribune.net.ph/2026/09/27/remains-of-filipino-seafarer-killed-in-dubai-tanker-incident-repatriated",
+                "source": "Daily Tribune reporting DMW/OWWA repatriation, 27 September 2026"
+              }
+            ]
+          }
+        ],
         "sources": [
           {
             "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
@@ -1137,6 +1254,18 @@
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+      ],
+      "updates": [
+        {
+          "at": "2026-10-21T14:10:24.919717+00:00",
+          "text": "A repatriation report identifies one of the two documented deaths as Filipino. The second nationality is not established here.",
+          "sources": [
+            {
+              "url": "https://tribune.net.ph/2026/09/27/remains-of-filipino-seafarer-killed-in-dubai-tanker-incident-repatriated",
+              "source": "Daily Tribune reporting DMW/OWWA repatriation, 27 September 2026"
+            }
+          ]
+        }
       ]
     },
     "HIST-ME-20260909-NEW-ANDROS": {
@@ -1223,7 +1352,7 @@
     "HIST-ME-20260831-SIDR": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T03:06:19.845439+00:00",
+        "checked_at": "2026-10-21T14:10:24.919717+00:00",
         "vessel_name": "SIDR",
         "date_utc": "2026-08-31",
         "vessel_type": "crude oil tanker",
@@ -1246,7 +1375,19 @@
       "casualties": {
         "status": "confirmed",
         "deaths": 2,
-        "nationalities": [],
+        "nationalities": [
+          {
+            "nationality": "Filipino",
+            "status": "confirmed",
+            "deaths": 2,
+            "sources": [
+              {
+                "url": "https://www.philstar.com/headlines/2026/09/03/2553745/two-filipino-seafarers-killed-saudi-tanker-attacked-hormuz/amp/",
+                "source": "Philstar reporting DMW briefing and Bahri statement, 3 September 2026"
+              }
+            ]
+          }
+        ],
         "sources": [
           {
             "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
@@ -1256,6 +1397,18 @@
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+      ],
+      "updates": [
+        {
+          "at": "2026-10-21T14:10:24.919717+00:00",
+          "text": "The DMW briefing and operator statement identify both documented deaths as Filipino seafarers.",
+          "sources": [
+            {
+              "url": "https://www.philstar.com/headlines/2026/09/03/2553745/two-filipino-seafarers-killed-saudi-tanker-attacked-hormuz/amp/",
+              "source": "Philstar reporting DMW briefing and Bahri statement, 3 September 2026"
+            }
+          ]
+        }
       ]
     },
     "HIST-ME-20260831-SENEGAL-PROSPERITY": {
@@ -1602,7 +1755,19 @@
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
-      ]
+      ],
+      "human_impact": {
+        "missing": {
+          "count": 1,
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, as at 20 October 2026"
+            }
+          ]
+        }
+      }
     },
     "HIST-ME-20260731-GASLOG-SHANGHAI": {
       "verification": {
@@ -1683,7 +1848,19 @@
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
-      ]
+      ],
+      "human_impact": {
+        "injured": {
+          "count": 2,
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, as at 20 October 2026"
+            }
+          ]
+        }
+      }
     },
     "HIST-ME-20260719-ACHELOOS": {
       "verification": {
@@ -1829,7 +2006,19 @@
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
-      ]
+      ],
+      "human_impact": {
+        "injured": {
+          "count": 3,
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, as at 20 October 2026"
+            }
+          ]
+        }
+      }
     },
     "HIST-ME-20260714-MOMBASA-B": {
       "verification": {
@@ -1856,7 +2045,19 @@
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
-      ]
+      ],
+      "human_impact": {
+        "injured": {
+          "count": 11,
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, as at 20 October 2026"
+            }
+          ]
+        }
+      }
     },
     "HIST-ME-20260713-STOLT-MAGNESIUM": {
       "verification": {
@@ -1888,7 +2089,7 @@
     "HIST-ME-20260711-GFS-GALAXY": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T03:06:19.845439+00:00",
+        "checked_at": "2026-10-21T14:10:24.919717+00:00",
         "vessel_name": "GFS GALAXY",
         "date_utc": "2026-07-11",
         "vessel_type": "container",
@@ -1905,13 +2106,25 @@
             "url": "https://www.econdb.com/maritime/vessels/210154000/GFS%20GALAXY/"
           }
         ],
-        "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
+        "date_note": "IMO dates 11 July; consular reporting dates 12 July. One event is counted.",
         "imo": "9401271"
       },
       "casualties": {
         "status": "confirmed",
         "deaths": 1,
-        "nationalities": [],
+        "nationalities": [
+          {
+            "nationality": "Indian",
+            "status": "confirmed",
+            "deaths": 1,
+            "sources": [
+              {
+                "url": "https://www.hindustantimes.com/india-news/indian-sailor-missing-after-attack-on-gfs-galaxy-vessel-near-oman-found-dead-101784169073324.html",
+                "source": "Hindustan Times reporting the Indian Consulate confirmation"
+              }
+            ]
+          }
+        ],
         "sources": [
           {
             "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
@@ -1921,6 +2134,18 @@
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+      ],
+      "updates": [
+        {
+          "at": "2026-10-21T14:10:24.919717+00:00",
+          "text": "Consular reporting confirms one Indian death.",
+          "sources": [
+            {
+              "url": "https://www.hindustantimes.com/india-news/indian-sailor-missing-after-attack-on-gfs-galaxy-vessel-near-oman-found-dead-101784169073324.html",
+              "source": "Hindustan Times reporting the Indian Consulate confirmation"
+            }
+          ]
+        }
       ]
     },
     "HIST-ME-20260707-CYPRUS-PROSPERITY": {
@@ -2438,7 +2663,19 @@
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
-      ]
+      ],
+      "human_impact": {
+        "injured": {
+          "count": 8,
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, as at 20 October 2026"
+            }
+          ]
+        }
+      }
     },
     "HIST-ME-20260504-HMM-NAMU": {
       "verification": {
@@ -2465,7 +2702,19 @@
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
-      ]
+      ],
+      "human_impact": {
+        "injured": {
+          "count": 1,
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, as at 20 October 2026"
+            }
+          ]
+        }
+      }
     },
     "HIST-ME-20260504-JV-INNOVATION": {
       "verification": {
@@ -3182,7 +3431,19 @@
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
-      ]
+      ],
+      "human_impact": {
+        "injured": {
+          "count": 1,
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, as at 20 October 2026"
+            }
+          ]
+        }
+      }
     },
     "HIST-ME-20260306-MUSSAFAH-2": {
       "verification": {
@@ -3220,7 +3481,19 @@
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
-      ]
+      ],
+      "human_impact": {
+        "injured": {
+          "count": 3,
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, as at 20 October 2026"
+            }
+          ]
+        }
+      }
     },
     "HIST-ME-20260305-SONANGOL-NAMIBE": {
       "verification": {
@@ -3355,7 +3628,19 @@
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
-      ]
+      ],
+      "human_impact": {
+        "shore_deaths": {
+          "count": 1,
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, as at 20 October 2026"
+            }
+          ]
+        }
+      }
     },
     "HIST-ME-20260301-HERCULES-STAR": {
       "verification": {
@@ -3498,7 +3783,19 @@
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
-      ]
+      ],
+      "human_impact": {
+        "injured": {
+          "count": 4,
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, as at 20 October 2026"
+            }
+          ]
+        }
+      }
     },
     "HIST-BS-20220224-YASA-JUPITER": {
       "verification": {
@@ -4610,17 +4907,21 @@
     "HIST-RS-20231119-GALAXY-LEADER": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T03:06:19.845439+00:00",
+        "checked_at": "2026-10-21T14:10:24.919717+00:00",
         "vessel_name": "GALAXY LEADER",
         "date_utc": "2023-11-19",
         "vessel_type": "ro-ro cargo",
         "imo": "9237307",
         "region": "Red Sea",
-        "summary": "Galaxy Leader was seized and its crew held hostage.",
+        "summary": "Galaxy Leader was seized on 19 November 2023. Its 25 crew members were subsequently released on 22 January 2025, as confirmed by IMO.",
         "sources": [
           {
             "url": "https://wwwcdn.imo.org/localresources/en/MediaCentre/HotTopics/Documents/Red%20Sea/Red%20Sea%20Incidents%20-%208%20May%202024.pdf#page=5",
             "source": "International Maritime Organization, 8 May 2024 incident annex"
+          },
+          {
+            "url": "https://www.imo.org/en/mediacentre/secretarygeneral/pages/statement-on-the-release-of-the-galaxy-leader-crew.aspx",
+            "source": "IMO statement on release, 22 January 2025"
           }
         ],
         "attack_type": "hijacking"
@@ -4634,6 +4935,30 @@
       "audit_notes": [
         "{\"incident_kind\": \"hijacking\", \"source_page\": 5, \"reviewed\": true}",
         "Source-reviewed named events, including attempted attacks; not a count of distinct weapons or a complete war total."
+      ],
+      "human_impact": {
+        "captive": {
+          "count": 0,
+          "as_of": "2025-01-22",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/secretarygeneral/pages/statement-on-the-release-of-the-galaxy-leader-crew.aspx",
+              "source": "IMO statement on release, 22 January 2025"
+            }
+          ]
+        }
+      },
+      "updates": [
+        {
+          "at": "2026-10-21T14:10:24.919717+00:00",
+          "text": "The 25 crew members were released on 22 January 2025 after over a year of captivity. Their nationalities are crew composition, not deceased-nationality figures.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/secretarygeneral/pages/statement-on-the-release-of-the-galaxy-leader-crew.aspx",
+              "source": "IMO statement on release, 22 January 2025"
+            }
+          ]
+        }
       ]
     },
     "HIST-RS-20231203-UNITY-EXPLORER": {
@@ -5394,7 +5719,20 @@
       },
       "audit_notes": [
         "{\"incident_kind\": \"hit\", \"source_page\": 12, \"reviewed\": true}",
-        "Source-reviewed named events, including attempted attacks; not a count of distinct weapons or a complete war total."
+        "Source-reviewed named events, including attempted attacks; not a count of distinct weapons or a complete war total.",
+        "Public-domain Rubymar photo source reviewed, but its external image asset returned HTTP403 during availability check. Keep the documentary source link without embedding a broken image."
+      ],
+      "updates": [
+        {
+          "at": "2026-10-21T03:06:19.845439+00:00",
+          "text": "A credited public-domain photograph documents Rubymar sinking on 2 March 2024, after the 18 February attack. Its source is linked here; direct image embedding is withheld because the external asset was unavailable.",
+          "sources": [
+            {
+              "url": "https://commons.wikimedia.org/wiki/File:MV_Rubymar_sinks_in_the_Red_Sea_on_2_March_2024.jpg",
+              "source": "U.S. Central Command photograph via Wikimedia Commons, public domain"
+            }
+          ]
+        }
       ]
     },
     "HIST-RS-20240219-SEA-CHAMPION": {
@@ -6117,7 +6455,7 @@
     "HIST-RS-20240612-TUTOR": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T03:06:19.845439+00:00",
+        "checked_at": "2026-10-21T14:10:24.919717+00:00",
         "vessel_name": "TUTOR",
         "date_utc": "2024-06-12",
         "vessel_type": "bulk carrier",
@@ -6141,7 +6479,37 @@
       "audit_notes": [
         "{\"incident_kind\": \"hit\", \"reviewed\": true, \"source_page\": 17, \"casualty_note\": \"IMO Sep2024 still says one unaccounted for; Philippines DMW June20 explicitly declines to confirm death; other official US statements call him dead. Preserve disputed/missing until reconcile.\"}",
         "Source-reviewed named events, including attempted attacks; not a count of distinct weapons or a complete war total."
-      ]
+      ],
+      "human_impact": {
+        "missing": {
+          "count": 1,
+          "as_of": "2024-06-16",
+          "sources": [
+            {
+              "url": "https://www.dvidshub.net/news/474096/us-navy-rescues-crew-vessel-struck-houthis",
+              "source": "U.S. Navy rescue account, 16 June 2024"
+            }
+          ]
+        }
+      },
+      "updates": [
+        {
+          "at": "2026-10-21T14:10:24.919717+00:00",
+          "text": "The Navy rescue account lists one mariner missing. That dated report is displayed separately and does not confirm a death.",
+          "sources": [
+            {
+              "url": "https://www.dvidshub.net/news/474096/us-navy-rescues-crew-vessel-struck-houthis",
+              "source": "U.S. Navy rescue account, 16 June 2024"
+            }
+          ]
+        }
+      ],
+      "image": {
+        "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2406/8479216/1000w_q95.jpg",
+        "source_url": "https://www.dvidshub.net/image/8479216/uss-dwight-d-eisenhower-render-assistance-distressed-mariners",
+        "credit": "U.S. Navy / Seaman Caroline Pontier, public domain. Rescue assistance, 15 June 2024. U.S. military imagery does not imply endorsement.",
+        "alt": "U.S. Navy sailors assisting rescued mariners in the Red Sea on 15 June 2024; an official photograph associated with the Tutor rescue, not the moment of attack."
+      }
     },
     "HIST-RS-20240613-VERBENA": {
       "verification": {
@@ -6170,7 +6538,19 @@
       "audit_notes": [
         "{\"incident_kind\": \"hit\", \"reviewed\": true, \"source_page\": 18}",
         "Source-reviewed named events, including attempted attacks; not a count of distinct weapons or a complete war total."
-      ]
+      ],
+      "human_impact": {
+        "injured": {
+          "count": 1,
+          "as_of": "2024-06-16",
+          "sources": [
+            {
+              "url": "https://www.dvidshub.net/news/474096/us-navy-rescues-crew-vessel-struck-houthis",
+              "source": "U.S. Navy rescue account, 16 June 2024"
+            }
+          ]
+        }
+      }
     },
     "HIST-RS-20240613-SEAGUARDIAN": {
       "verification": {
@@ -6820,6 +7200,415 @@
       "audit_notes": [
         "{\"incident_kind\": \"hit\", \"reviewed\": true}",
         "Source-reviewed named events, including attempted attacks; not a count of distinct weapons or a complete war total."
+      ]
+    },
+    "HIST-RS-20260811-TIHAMAH": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-21T14:10:24.919717+00:00",
+        "vessel_name": "TIHAMAH",
+        "date_utc": "2026-08-11",
+        "vessel_type": "general cargo",
+        "region": "Red Sea",
+        "summary": "Tihamah was struck near Al Mokha on 11 August. IMO confirmed seafarer fatalities. Detailed consular reports support a minimum of two Pakistani deaths, eight injured survivors and one Indonesian crew member missing. Earlier reports gave higher, conflicting death counts; those extra deaths are not added to this minimum.",
+        "sources": [
+          {
+            "url": "https://www.imo.org/en/mediacentre/pressbriefings/pages/statement-on-deadly-ship-attack-in-the-red-sea.aspx",
+            "source": "IMO statement, 12 August 2026"
+          },
+          {
+            "url": "https://radio.gov.pk/20-08-2026/dpm-condemns-killing-of-3-pakistanis-in-houthis-attack-on-ship-in-red-sea",
+            "source": "Radio Pakistan reporting the Deputy Prime Minister, 20 August 2026"
+          },
+          {
+            "url": "https://tribratanews.jabar.polri.go.id/indonesia-kecam-keras-serangan-di-selat-bab-al-mandeb-tiga-abk-wni-di-kapal-mv-tihamah-dua-selamat-satu-masih-hilang/",
+            "source": "Indonesian government reporting Foreign Ministry consular briefing, 13 August 2026"
+          },
+          {
+            "url": "https://www.sabanew.net/story/en/150829",
+            "source": "SABA reporting Pakistan UN statement, 14 August 2026"
+          },
+          {
+            "url": "https://windward.ai/blog/three-kinetic-incidents-and-an-expanding-iran-oman-corridor/",
+            "source": "Windward vessel identity and event analysis, 12 August 2026"
+          }
+        ],
+        "attack_type": "physical strike",
+        "imo": "1031329"
+      },
+      "audit_notes": [
+        "Added after the omission audit; sources read separately for identity, event date and human impact."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 2,
+        "sources": [
+          {
+            "url": "https://www.imo.org/en/mediacentre/pressbriefings/pages/statement-on-deadly-ship-attack-in-the-red-sea.aspx",
+            "source": "IMO statement, 12 August 2026"
+          },
+          {
+            "url": "https://radio.gov.pk/20-08-2026/dpm-condemns-killing-of-3-pakistanis-in-houthis-attack-on-ship-in-red-sea",
+            "source": "Radio Pakistan reporting the Deputy Prime Minister, 20 August 2026"
+          }
+        ],
+        "nationalities": [
+          {
+            "nationality": "Pakistani",
+            "status": "confirmed",
+            "deaths": 2,
+            "sources": [
+              {
+                "url": "https://radio.gov.pk/20-08-2026/dpm-condemns-killing-of-3-pakistanis-in-houthis-attack-on-ship-in-red-sea",
+                "source": "Radio Pakistan reporting the Deputy Prime Minister, 20 August 2026"
+              }
+            ]
+          }
+        ],
+        "minimum": true
+      },
+      "human_impact": {
+        "injured": {
+          "count": 8,
+          "as_of": "2026-08-20",
+          "sources": [
+            {
+              "url": "https://radio.gov.pk/20-08-2026/dpm-condemns-killing-of-3-pakistanis-in-houthis-attack-on-ship-in-red-sea",
+              "source": "Radio Pakistan reporting the Deputy Prime Minister, 20 August 2026"
+            },
+            {
+              "url": "https://tribratanews.jabar.polri.go.id/indonesia-kecam-keras-serangan-di-selat-bab-al-mandeb-tiga-abk-wni-di-kapal-mv-tihamah-dua-selamat-satu-masih-hilang/",
+              "source": "Indonesian government reporting Foreign Ministry consular briefing, 13 August 2026"
+            }
+          ]
+        },
+        "missing": {
+          "count": 1,
+          "as_of": "2026-08-13",
+          "sources": [
+            {
+              "url": "https://tribratanews.jabar.polri.go.id/indonesia-kecam-keras-serangan-di-selat-bab-al-mandeb-tiga-abk-wni-di-kapal-mv-tihamah-dua-selamat-satu-masih-hilang/",
+              "source": "Indonesian government reporting Foreign Ministry consular briefing, 13 August 2026"
+            }
+          ]
+        }
+      },
+      "updates": [
+        {
+          "at": "2026-10-21T14:10:24.919717+00:00",
+          "text": "The 14 August report described four crew deaths. The Indonesian consular briefing identifies two injured survivors and one missing Indonesian; the later Pakistani account records six injured returned and two bodies repatriated. The public tally uses two confirmed Pakistani deaths as a minimum, leaving the conflicting additional deaths unresolved. Yemeni rescuer deaths are separate from merchant-crew deaths.",
+          "sources": [
+            {
+              "url": "https://www.sabanew.net/story/en/150829",
+              "source": "SABA reporting Pakistan UN statement, 14 August 2026"
+            },
+            {
+              "url": "https://tribratanews.jabar.polri.go.id/indonesia-kecam-keras-serangan-di-selat-bab-al-mandeb-tiga-abk-wni-di-kapal-mv-tihamah-dua-selamat-satu-masih-hilang/",
+              "source": "Indonesian government reporting Foreign Ministry consular briefing, 13 August 2026"
+            },
+            {
+              "url": "https://radio.gov.pk/20-08-2026/dpm-condemns-killing-of-3-pakistanis-in-houthis-attack-on-ship-in-red-sea",
+              "source": "Radio Pakistan reporting the Deputy Prime Minister, 20 August 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/pressbriefings/pages/statement-on-deadly-ship-attack-in-the-red-sea.aspx",
+              "source": "IMO statement, 12 August 2026"
+            }
+          ]
+        }
+      ]
+    },
+    "HIST-RS-20250831-SCARLET-RAY": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-21T14:10:24.919717+00:00",
+        "vessel_name": "SCARLET RAY",
+        "date_utc": "2025-08-31",
+        "vessel_type": "chemical/products tanker",
+        "region": "Red Sea",
+        "summary": "Scarlet Ray reported an unknown projectile landing close to the vessel southwest of Yanbu. JMIC classifies it as an attempted attack, with no visible damage and the crew safe.",
+        "sources": [
+          {
+            "url": "https://mscio.eu/media/documents/120_JMIC_Information_Note_01_September_2025.pdf",
+            "source": "Joint Maritime Information Center note 120, 1 September 2025"
+          },
+          {
+            "url": "https://digitallibrary.un.org/record/4090766/files/S_2025_636-EN.pdf",
+            "source": "IMO annex to UN Security Council S/2025/636"
+          }
+        ],
+        "attack_type": "attempted attack",
+        "imo": "9799654"
+      },
+      "audit_notes": [
+        "Added after the omission audit; sources read separately for identity, event date and human impact."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://mscio.eu/media/documents/120_JMIC_Information_Note_01_September_2025.pdf",
+            "source": "Joint Maritime Information Center note 120, 1 September 2025"
+          }
+        ],
+        "nationalities": []
+      }
+    },
+    "HIST-BS-20260109-LADONNA": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-21T14:10:24.919717+00:00",
+        "vessel_name": "LADONNA",
+        "date_utc": "2026-01-09",
+        "vessel_type": "general cargo",
+        "region": "Black Sea",
+        "summary": "Ladonna was struck at Odesa on 9 January. USPA records one death, and regional-source monitoring identifies the deceased as a Syrian crew member.",
+        "sources": [
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Ukrainian Sea Ports Authority presentation, 23 April 2026"
+          },
+          {
+            "url": "https://www.blackseanews.net/en/read/243585",
+            "source": "BlackSeaNews incident database citing regional authorities, 16 February 2026"
+          }
+        ],
+        "attack_type": "physical strike",
+        "imo": "9107033"
+      },
+      "audit_notes": [
+        "Added after the omission audit; sources read separately for identity, event date and human impact."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 1,
+        "sources": [
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Ukrainian Sea Ports Authority presentation, 23 April 2026"
+          },
+          {
+            "url": "https://www.blackseanews.net/en/read/243585",
+            "source": "BlackSeaNews incident database citing regional authorities, 16 February 2026"
+          }
+        ],
+        "nationalities": [
+          {
+            "nationality": "Syrian",
+            "status": "confirmed",
+            "deaths": 1,
+            "sources": [
+              {
+                "url": "https://www.blackseanews.net/en/read/243585",
+                "source": "BlackSeaNews incident database citing regional authorities, 16 February 2026"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "HIST-BS-20260109-WAEL-K": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-21T14:10:24.919717+00:00",
+        "vessel_name": "WAEL K",
+        "date_utc": "2026-01-09",
+        "vessel_type": "bulk carrier",
+        "region": "Black Sea",
+        "summary": "Wael K was damaged by a drone strike at Chornomorsk on 9 January. USPA and regional-source monitoring report one injured crew member. A vessel-wide death assessment is not established here.",
+        "sources": [
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Ukrainian Sea Ports Authority presentation, 23 April 2026"
+          },
+          {
+            "url": "https://www.blackseanews.net/en/read/243585",
+            "source": "BlackSeaNews incident database citing regional authorities, 16 February 2026"
+          }
+        ],
+        "attack_type": "physical strike",
+        "imo": "9001148"
+      },
+      "audit_notes": [
+        "Added after the omission audit; sources read separately for identity, event date and human impact."
+      ],
+      "human_impact": {
+        "injured": {
+          "count": 1,
+          "as_of": "2026-04-23",
+          "sources": [
+            {
+              "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+              "source": "Ukrainian Sea Ports Authority presentation, 23 April 2026"
+            }
+          ]
+        }
+      }
+    },
+    "HIST-BS-20260113-MATILDA": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-21T14:10:24.919717+00:00",
+        "vessel_name": "MATILDA",
+        "date_utc": "2026-01-13",
+        "vessel_type": "crude oil tanker",
+        "region": "Black Sea",
+        "summary": "Kazakhstan’s energy ministry confirms a UAV attack on Matilda near the CPC terminal. It reports an explosion without fire and explicitly no crew casualties or injuries.",
+        "sources": [
+          {
+            "url": "https://www.gov.kz/memleket/entities/energo/press/news/details/1140688?lang=en",
+            "source": "Kazakhstan Ministry of Energy official statement, 13 January 2026"
+          }
+        ],
+        "attack_type": "physical strike",
+        "imo": "9407457"
+      },
+      "audit_notes": [
+        "Added after the omission audit; sources read separately for identity, event date and human impact."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://www.gov.kz/memleket/entities/energo/press/news/details/1140688?lang=en",
+            "source": "Kazakhstan Ministry of Energy official statement, 13 January 2026"
+          }
+        ],
+        "nationalities": []
+      },
+      "human_impact": {
+        "injured": {
+          "count": 0,
+          "as_of": "2026-01-13",
+          "sources": [
+            {
+              "url": "https://www.gov.kz/memleket/entities/energo/press/news/details/1140688?lang=en",
+              "source": "Kazakhstan Ministry of Energy official statement, 13 January 2026"
+            }
+          ]
+        }
+      }
+    },
+    "HIST-BS-20260113-DELTA-HARMONY": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-21T14:10:24.919717+00:00",
+        "vessel_name": "DELTA HARMONY",
+        "date_utc": "2026-01-13",
+        "vessel_type": "crude oil tanker",
+        "region": "Black Sea",
+        "summary": "Kazakhstan’s energy ministry confirms a UAV attack on Delta Harmony while awaiting loading near the CPC terminal. A fire was extinguished and the ministry reported no crew injuries. The source does not separately establish a final death count.",
+        "sources": [
+          {
+            "url": "https://www.gov.kz/memleket/entities/energo/press/news/details/1140688?lang=en",
+            "source": "Kazakhstan Ministry of Energy official statement, 13 January 2026"
+          }
+        ],
+        "attack_type": "physical strike",
+        "imo": "9408463"
+      },
+      "audit_notes": [
+        "Added after the omission audit; sources read separately for identity, event date and human impact."
+      ],
+      "human_impact": {
+        "injured": {
+          "count": 0,
+          "as_of": "2026-01-13",
+          "sources": [
+            {
+              "url": "https://www.gov.kz/memleket/entities/energo/press/news/details/1140688?lang=en",
+              "source": "Kazakhstan Ministry of Energy official statement, 13 January 2026"
+            }
+          ]
+        }
+      }
+    },
+    "HIST-BS-20261006-ABLE": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-21T14:10:24.919717+00:00",
+        "vessel_name": "ABLE",
+        "date_utc": "2026-10-06",
+        "vessel_type": "general cargo",
+        "region": "Black Sea",
+        "summary": "Able caught fire after a reported drone strike east of Byala. All 18 crew members were evacuated to the ferry Dioscuria; injured personnel received emergency aid. No deaths are reported in this all-crew rescue account.",
+        "sources": [
+          {
+            "url": "https://www.maritime.bg/155185/",
+            "source": "Maritime.bg named vessel and rescue report, 6 October 2026"
+          }
+        ],
+        "attack_type": "physical strike",
+        "imo": "9001136"
+      },
+      "audit_notes": [
+        "Added after the omission audit; sources read separately for identity, event date and human impact."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://www.maritime.bg/155185/",
+            "source": "Maritime.bg named vessel and rescue report, 6 October 2026"
+          }
+        ],
+        "nationalities": []
+      }
+    },
+    "HIST-BS-20261006-ALFA-WATAN": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-21T14:10:24.919717+00:00",
+        "vessel_name": "ALFA WATAN",
+        "date_utc": "2026-10-06",
+        "vessel_type": "general cargo",
+        "region": "Black Sea",
+        "summary": "Alfa Watan was reported struck and subsequently sank east of the Bulgarian coast. The rescue account identifies the vessel, but does not establish the crew total or their final fate. No death count is inferred.",
+        "sources": [
+          {
+            "url": "https://www.maritime.bg/155185/",
+            "source": "Maritime.bg named vessel and rescue report, 6 October 2026"
+          }
+        ],
+        "attack_type": "physical strike",
+        "imo": "7510884"
+      },
+      "audit_notes": [
+        "Added after the omission audit; sources read separately for identity, event date and human impact."
+      ]
+    },
+    "HIST-BS-20240911-AYA": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-21T14:10:24.919717+00:00",
+        "vessel_name": "AYA",
+        "date_utc": "2024-09-11",
+        "vessel_type": "bulk carrier",
+        "region": "Black Sea",
+        "summary": "Aya was damaged by a missile after departing Chornomorsk with grain for Egypt. The vessel is identified by IMO across the historical inventory, UN letter and maritime reporting. No final death count is assigned from the initial absence of reported casualties.",
+        "sources": [
+          {
+            "url": "https://www.blackseanews.net/en/read/226674",
+            "source": "BlackSeaNews historical vessel inventory"
+          },
+          {
+            "url": "https://digitallibrary.un.org/record/4061704/files/A_79_349--S_2024_675-EN.pdf",
+            "source": "Ukraine letter to the UN, 12 September 2024"
+          },
+          {
+            "url": "https://www.lloydslist.com/LL1150623/Vessel-leaving-Ukraine-struck-by-Russian-missile",
+            "source": "Lloyd’s List, 12 September 2024"
+          }
+        ],
+        "attack_type": "physical strike",
+        "imo": "9117868",
+        "date_note": "The historical inventory dates the strike 11 September; the Ukrainian UN letter and initial maritime report date it 12 September. This is one incident, not two."
+      },
+      "audit_notes": [
+        "Added after the omission audit; sources read separately for identity, event date and human impact."
       ]
     }
   },

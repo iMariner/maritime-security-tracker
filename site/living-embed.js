@@ -19,11 +19,11 @@
       root.querySelectorAll('a[href="incidents.json"]').forEach(a => {a.href = new URL('living-incidents.json', base).href;});
       const css = document.createElement('link');
       css.rel = 'stylesheet';
-      css.href = new URL('living.css?v=20261021history4', base).href;
+      css.href = new URL('living.css?v=20261021audit', base).href;
       document.head.append(css);
       mount.replaceChildren(document.importNode(root, true));
       const script = document.createElement('script');
-      script.src = new URL('living.js?v=20261021history4', base).href;
+      script.src = new URL('living.js?v=20261021audit', base).href;
       mount.append(script);
     })
     .catch(() => {

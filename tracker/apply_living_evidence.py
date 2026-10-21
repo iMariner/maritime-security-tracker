@@ -23,7 +23,7 @@ def parse(body):
         value = json.loads(raw)
     except (ValueError, TypeError):
         raise ValueError("Evidence must be valid JSON") from None
-    if not isinstance(value, dict) or set(value) - {"incident_id", "historical", "casualties", "update", "image", "verification"}:
+    if not isinstance(value, dict) or set(value) - {"incident_id", "historical", "casualties", "human_impact", "update", "image", "verification"}:
         raise ValueError("Unsupported evidence fields")
     return value
 
@@ -80,6 +80,10 @@ def validate(value, incidents):
             for refs in [claim.get("sources", [])] + [n.get("sources", []) for n in nationalities]:
                 if not isinstance(refs, list) or len(living.sources(refs)) != len(refs):
                     raise ValueError("Invalid casualty source")
+    if "human_impact" in value and value["human_impact"] is not None:
+        impact = value["human_impact"]
+        if not isinstance(impact, dict) or set(impact) - living.HUMAN_IMPACT_FIELDS or set(living.human_impact(impact)) != set(impact):
+            raise ValueError("Human impact needs supported fields, nonnegative integer counts, exact as-of dates and named HTTP sources")
     if "image" in value and value["image"] is not None:
         image = value["image"]
         if not isinstance(image, dict) or set(image) - {"url", "source_url", "credit", "alt"}:
@@ -107,7 +111,7 @@ def apply_event(event, overlay, incidents):
     result = deepcopy(overlay)
     entry = result["incidents"].setdefault(value["incident_id"], {})
     before = deepcopy(entry)
-    for key in ("casualties", "image", "verification"):
+    for key in ("casualties", "human_impact", "image", "verification"):
         if key in value:
             entry[key] = deepcopy(value[key])
     entry.setdefault("updates", []).append(deepcopy(value["update"]))

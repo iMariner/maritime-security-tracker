@@ -2,7 +2,7 @@ from copy import deepcopy
 
 import pytest
 
-from tracker.living import casualties, export
+from tracker.living import casualties, export, human_impact
 
 
 def incident(id="A", **changes):
@@ -146,3 +146,31 @@ def test_minimum_casualty_count_remains_explicit():
     assert partial["deaths"] == 3
     assert partial["minimum"] is True
     assert "minimum" not in casualties(evidence(minimum="true"))
+
+
+def test_human_impact_is_dated_and_independent_of_seafarer_deaths():
+    fact = {"count": 7, "as_of": "2026-10-20", "sources": [{"url": "https://owner.example/report", "source": "Owner"}]}
+    impact = {"missing": fact, "injured": {**fact, "count": 1}, "shore_deaths": {**fact, "count": 2}, "captive": {**fact, "count": 0}}
+    original = deepcopy(impact)
+    item = export([incident(human_impact={"missing": {**fact, "count": 99}})], overlay(A={"verification": review(), "human_impact": impact}))["incidents"][0]
+    assert item["human_impact"] == impact
+    assert item["casualties"] == {"status": "unknown", "deaths": None, "nationalities": [], "sources": []}
+    assert impact == original
+    # Neither the corpus prose nor other impact categories change sourced deaths.
+    item = export([incident()], overlay(A={"verification": review(), "human_impact": impact, "casualties": evidence(deaths=1)}))["incidents"][0]
+    assert item["casualties"]["deaths"] == 1
+    assert item["casualties"]["nationalities"] == []
+
+
+@pytest.mark.parametrize("change", [
+    {"count": True}, {"count": -1}, {"count": "1"}, {"as_of": None},
+    {"as_of": "2026-02-30"}, {"as_of": "2026-1-01"}, {"as_of": "2026-10-20T12:00:00Z"},
+    {"sources": []}, {"sources": ["https://owner.example/report"]},
+    {"sources": [{"url": "javascript:bad", "source": "Owner"}]},
+    {"sources": [{"url": "https://owner.example/report"}]}, {"nationality": "Indian"},
+])
+def test_invalid_human_impact_is_omitted_not_zero(change):
+    fact = {"count": 1, "as_of": "2026-10-20", "sources": [{"url": "https://owner.example/report", "source": "Owner"}]}
+    assert human_impact({"missing": {**fact, **change}, "injured": fact}) == {"injured": fact}
+    assert human_impact(None) == {}
+    assert human_impact({"deaths": fact}) == {}
