@@ -1,6 +1,47 @@
 [
   {
     "region": "Strait of Hormuz",
+    "date_utc": "2026-10-21T10:20:35Z",
+    "summary": "A headline with video reports a cargo ship left with a giant hole after an Iranian attack. No vessel name, flag, date or position were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.4,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": null,
+    "attack_type": "other",
+    "damage": "giant hole in the hull, per video",
+    "casualties": null,
+    "attribution_claimed": "Iran (per headline)",
+    "independent_evidence": true,
+    "date_approx": true,
+    "id": "INC-20261021-006",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOeEtqbzByUGFLZHota21nY290cXJhWlZqeFRQOExZOW5rajVsQmJZbkxmODRXVzY2Y2hoOXNfenFZQ0pOY3ZWdlUzWERoejBGWXY5emVSMG5HTHJhUklHWFhfaUh4akFrTFA0d2FlMllsQVViNjd3ZGgxOHFCNnEtYnV3?oc=5",
+        "source": "Al-Bawaba",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-21T10:20:35Z",
+        "title": "Video: Cargo ship left with giant hole after Iranian attack - Al-Bawaba"
+      }
+    ],
+    "first_seen": "2026-10-21T12:16:33Z",
+    "last_updated": "2026-10-21T12:16:33Z",
+    "verification_issue": 215,
+    "verdict": null,
+    "published_in": [],
+    "status": "reported",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
     "date_utc": "2026-10-21",
     "summary": "Iran claims that two oil tankers struck mines in the Strait of Hormuz. No vessel names, flags, positions, damage or casualty details were given, and the claim comes from the Iranian side only.",
     "official_source_cited": null,
@@ -79,10 +120,37 @@
         "kind": "official",
         "published_at": "2026-10-21T05:18:50+00:00",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRi00cDhNNjc5bDNQRmVPZWZWWk5Wei15X1ZvZVBtTmIzOXdERlBTel9oN1dXLUhkTk5fT2pRUjFJalE3QzRqT3dtSFJ4MGZwRzJ1Tkk0eWRsUzBmTjd6LWVUdUduQ1VlSlphRkdkdzZsSlVheGRybFlwMllQTFMwcFBYMmRQTWVicjhRb0Z4QnNBZzZpR3JVZ3F3QV9GX3ktZElDV1R3cDItVmxZMlhxS0FMUdIBuAFBVV95cUxQZk8tb2JUZXAzWXV1NWxSUmNkVEtjandWQm1oY3lIN2diaFFZU2hDMEozZURBM3dkSWdBYkZkODlvakNYLXZXOTl1RTI5ZGtqYXFxU1hYbE1ESHMzS2NoRi1BWkQyYUNJaFJydHhDTHl2ZXV0SE9jRWR0bE5SYVUxR0tPMWVpLTBUMEY0OWtfRHBBR0JYa25YZUlrQUhXUUNDQURyYUVZYjYzR3k4eHFYMEdXOWJKQ1Jt?oc=5",
+        "source": "Al Arabiya English",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-21T07:15:00Z",
+        "title": "Russia hits cargo vessel, electric power substation in Ukraine - Al Arabiya English"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5jWFZacXN3RkEwODFmdS1QWmltbEUxSHRFQnFCLTRYRTJJUkY0MXQtYWlwOFVxQ3pKOXdQRWFpZVZ2STA?oc=5",
+        "source": "https://www.youlyou.com/",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-21T06:36:37Z",
+        "title": "روسيا تعلن استهداف سفينة شحن في أوكرانيا - https://www.youlyou.com/"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5oU2tWVXlYWC12TEl2Q0FuM19ISUltbnZJcW9OSnYxQXlkc05UUWp5c2RHbWFuVW90TDNWZnpRRV9ydmd0ZXpUZ3l6UFJKWmZydFlhc2l4YTlWcF9tY2IyTldoMDhLWVJQSzcycC1VRXFESlhSY3pMYXNB?oc=5",
+        "source": "Fakti.bg",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-21T06:16:00Z",
+        "title": "Russia says it struck cargo ship ᐉ News from Fakti.bg - World - Fakti.bg"
       }
     ],
     "first_seen": "2026-10-21T06:05:49Z",
-    "last_updated": "2026-10-21T06:05:49Z",
+    "last_updated": "2026-10-21T12:16:44Z",
     "verification_issue": 212,
     "verdict": null,
     "published_in": [
@@ -130,6 +198,212 @@
     "published_in": [],
     "status": "merged",
     "merged_into": "INC-20261013-002",
+    "position_approx": true
+  },
+  {
+    "region": "Gulf of Oman",
+    "date_utc": "2026-10-21",
+    "summary": "A headline reports that a tanker caught fire after being struck by a projectile off the coast of Oman. No vessel name, flag, position, damage details or attribution were given.",
+    "official_source_cited": "UKMTO",
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 24.8,
+    "lon": 58.2,
+    "location_text": "off the coast of Oman",
+    "attack_type": "other",
+    "damage": "tanker caught fire after being struck by a projectile",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261021-004",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUlJ2TG5LVXhscERlMVJvQkMyQXlrNVZlVXFBR0FCak53UDFzM0tLSXFnZXRWcjJ5eTlldzZsbGZMbDNVRmFwYTVLUnNMVzRMRi1OdExWZVh0T1BqZEVHdnp0dkV5b0pDRU1CTzBsci1nM2w0UmlJUTRRYm5YYktQX3FaZUt4Zw?oc=5",
+        "source": "Latest news from Azerbaijan",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-21T11:30:44Z",
+        "title": "Tanker catches fire after projectile strike off Oman coast - Latest news from Azerbaijan"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9Vb01hbTNrNGptNXdCbERXOVpWU2dtM2FZS3pPWWlNQkxqMWg5UEk0cHpjVTBnclUxU3FSYlQ4UG1KTkl1bm9OYQ?oc=5",
+        "source": "Roya News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-21T08:56:08Z",
+        "title": "Projectile strikes tanker west of Oman’s Bukha, UKMTO says - Roya News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNN1YwTUJOc3FVWTBBcHRoTXhwMnQ4Y3RqaUpsQnROazR1Ql81WTdwb3FZaUNXU1dxejJ1YkNfT24xTS1iQWszcmR3cDYzQ0NoRjZPYTh2eFNyYVA4Mm5YYTg2RUJaRjFnTWVHN3Rnc29DQjhiLW9TZkRLb09SNHBEQjQzUzEtbVB6UzJMVTd2SGFnY0xudmRYdmNrZ3BTcWFyU0xRZm9RdVB0aS1lTko3azZsS3p2ZHFpdEtpcWExMnZhRVl0d1AzVEhJb2UwNm9P?oc=5",
+        "source": "Business Upturn",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-21T08:46:44Z",
+        "title": "Tanker struck by unknown projectile near Oman’s Bukha, fire extinguished : UKMTO - Business Upturn"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOS09TYnk0QjliSXI5VTVxOHB2ZTJuWUQ5V3RPal80RkFoblVzWGYyUk5RN0VWTkVNQmJUQW10ZGtEb1RtS2RlODNCci1uUnFWckVRY0RiMUxBcjlZWFZiS0FRZFk2UUc1Z0VhOUxvVGtGLVd3OWZLbzFWT3RyU0ptTWZpQXhaRjhfMWYweVhkbWZxd3RYZG9VelFkbHktOWR5a004?oc=5",
+        "source": "safety4sea",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-21T08:18:55Z",
+        "title": "UKMTO reports tanker incident off Oman as Iran claims mine strike near Hormuz - safety4sea"
+      }
+    ],
+    "first_seen": "2026-10-21T12:16:29Z",
+    "last_updated": "2026-10-21T12:16:38Z",
+    "verification_issue": 213,
+    "verdict": null,
+    "published_in": [],
+    "status": "confirmed",
+    "status_changed_at": "2026-10-21T12:16:36Z",
+    "position_approx": true
+  },
+  {
+    "region": "Persian Gulf",
+    "date_utc": "2026-10-21",
+    "summary": "UKMTO reported that a missile hit a commercial ship off Iraq's Faw port. No vessel name, flag, position, damage or casualty details were given.",
+    "official_source_cited": "UKMTO",
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.8,
+    "lon": 52.5,
+    "location_text": "off Iraq's Faw port",
+    "attack_type": "missile",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261021-005",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeEkyU1RWdGtNUTJKRDQxQ3VCczRjaWFVdkVNa1AxYng1RUhsbzBDclZJSk81cDZjWWI5anVHZHlLZjVIRE1KaHVJaVVRd0prUmVhc0RUQ2w2WVdJRlRlc0NZbU9fRE02eVVRX3gzU2VKdWRIc3ZtdmdJaWc2NG9PbmdnMDFyY05fN0d3Q24wVzRBLVBPcTI4cnFjSjI1b2JzWmZqMWtJRQ?oc=5",
+        "source": "Kurdistan24",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-21T11:00:23Z",
+        "title": "UKMTO Reports Missile Hit Commercial Ship Off Iraq’s Faw Port - Kurdistan24"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUGJKYzVYVkhQRmVlZG5Ra3hNSWc5U2ZkMlNIaVV6alE5TmpTWWw2NGJqdUNnWkthM3llckd5MkpvbmdDOUdYWEd5QnJrNHo0djhMdUJLRV9hYTRPVFlUeXZ4bXJPOWpZRFRIaDd3c2ItQ0VaOW1aNnNkZWZwQm1Cd0JSMDVua2tDazl0M3cwbzNOck9aaDM4WW5FMVlZZ0xadFJ6aVBHQ1E?oc=5",
+        "source": "Arab Times Kuwait News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-21T10:36:36Z",
+        "title": "Tanker Struck by Unknown Projectile Southeast of Iraq’s Al Faw: UKMTO - Arab Times Kuwait News"
+      }
+    ],
+    "first_seen": "2026-10-21T12:16:29Z",
+    "last_updated": "2026-10-21T12:16:33Z",
+    "verification_issue": 214,
+    "verdict": null,
+    "published_in": [],
+    "status": "confirmed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-21",
+    "summary": "TASS's news roundup says Russian forces struck dry cargo ships in the Black Sea with Geran-4 seeker drones. No vessel names, positions, damage or casualty details were given; the claim is from the Russian side.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry (Russian forces)",
+    "independent_evidence": false,
+    "id": "INC-20261021-007",
+    "sources": [
+      {
+        "url": "https://t.me/tass_agency/401480",
+        "source": "TASS",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-21T10:15:19+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/68388",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-21T07:00:05+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-10-21T12:16:33Z",
+    "last_updated": "2026-10-21T12:16:44Z",
+    "verification_issue": 216,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-21",
+    "summary": "A headline citing a maritime agency reports that a ship was attacked near the Strait of Hormuz. No vessel name, flag, position, damage or attribution details were given.",
+    "official_source_cited": "maritime agency (unspecified)",
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "near the Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261021-008",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPMVVsZFczbEFQYUNmbElBcVJJOUVRNnAxcVp4by13MXJfMGRrQXo4X0pLeVp6SWNuM2ZkVXlNUU9VeGlxcVFwc3ljRVVFcnJvVjR5aXFUQnFEeDVNLXFsVnlnN1NkaHVyemU4SUkxc3NSdVZhSEIwTDFuNE1seTdJQzNiRkRyQkRPbkRhZk1HanBRWms5ZWpaSU1FYjhWX1FjRzNsTFZDMDI2dUhSdVBxdXF6aW1YbXl5dkQwWFVjWFhvLTZiTVBTUGpGQmktQ3FaTFFKRFh4RmlSak1YQU1UcUlwdjdmb3ViYzFZbWd5QdIB7wFBVV95cUxPMVVsZFczbEFQYUNmbElBcVJJOUVRNnAxcVp4by13MXJfMGRrQXo4X0pLeVp6SWNuM2ZkVXlNUU9VeGlxcVFwc3ljRVVFcnJvVjR5aXFUQnFEeDVNLXFsVnlnN1NkaHVyemU4SUkxc3NSdVZhSEIwTDFuNE1seTdJQzNiRkRyQkRPbkRhZk1HanBRWms5ZWpaSU1FYjhWX1FjRzNsTFZDMDI2dUhSdVBxdXF6aW1YbXl5dkQwWFVjWFhvLTZiTVBTUGpGQmktQ3FaTFFKRFh4RmlSak1YQU1UcUlwdjdmb3ViYzFZbWd5QQ?oc=5",
+        "source": "The Economic Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-21T09:56:00Z",
+        "title": "US Iran war: Ship attacked near Strait of Hormuz, as per maritime agency - The Economic Times"
+      }
+    ],
+    "first_seen": "2026-10-21T12:16:33Z",
+    "last_updated": "2026-10-21T12:16:33Z",
+    "verification_issue": 217,
+    "verdict": null,
+    "published_in": [],
+    "status": "reported",
     "position_approx": true
   },
   {
@@ -657,7 +931,7 @@
   {
     "region": "Strait of Hormuz",
     "date_utc": "2026-10-20",
-    "summary": "Iran's Revolutionary Guards claimed that a supertanker carrying about two million barrels of oil caught fire after striking a naval mine south of the Strait of Hormuz, and separately claimed two tankers were set ablaze by mines near Hormuz. A later Iranian claim that two oil tankers struck mines in the strait appears to repeat the same claim, and no vessel names, flags or independent confirmation were given.",
+    "summary": "Iran's Revolutionary Guards claimed a supertanker carrying about two million barrels of oil caught fire after hitting a naval mine south of the Strait of Hormuz, and separately claimed two tankers were set ablaze by mines near Hormuz. A Guardian report described people scouring the strait for spilt cargo after Iran attacked container ships, with no vessel names or dates given.",
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.6,
@@ -783,13 +1057,32 @@
         "kind": "media",
         "published_at": "2026-10-21T00:06:17Z",
         "title": "Iran claims two oil tankers struck mines in the Hormuz Strait. - Vietnam.vn"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMVd5NTdZejdJLW9KZFpNUFVhVFpHaUxWU09tMU9lTXMxNGl3aG8ydFhmekpmcEZEdHNWRWs1MEVrUU1JamVKN1NVVWxyTXUyVmpQOC1lcUJTWUtFSkNEU2hweGJ3cFVaa2hfQ0xEZ1hTbEFKcTlPMGY0RTRXS3dpWXpIdWVXUWdvcV9MRnBqaEJlS2pySWNhbXBiWTRYVXktMFpmWjVn?oc=5",
+        "source": "The Guardian",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T17:44:00Z",
+        "title": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships - The Guardian"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUm1wQ0F2RFpac0VjVXB0SUdXdEtyLUFrX3UxVW5uZmVuNnd0eHNaLW5UVGlWQzZtdHFfY2VXS3dwMnBZYjlHaFAtcDJRTHFEaktMeFE1aGR6cDNmeC1FWFYwTk9NMGIwLUNFWTVjQzVKNWFQUnJNZXRJd0U2b2VWa29oQlQyUQ?oc=5",
+        "source": "AOL.co.uk",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T15:40:17Z",
+        "title": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships - AOL.co.uk"
       }
     ],
     "first_seen": "2026-10-20T20:49:12Z",
-    "last_updated": "2026-10-21T05:13:52Z",
+    "last_updated": "2026-10-21T12:16:46Z",
     "verification_issue": 209,
     "verdict": null,
     "published_in": [
+      "2026-10-20",
       "2026-10-21"
     ],
     "status": "claimed",
@@ -883,15 +1176,16 @@
       }
     ],
     "first_seen": "2026-10-19T20:42:31Z",
-    "last_updated": "2026-10-20T00:35:26Z",
+    "last_updated": "2026-10-21T12:16:46Z",
     "verification_issue": 200,
     "verdict": null,
     "published_in": [
       "2026-10-20",
       "2026-10-21"
     ],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261020-010"
   },
   {
     "region": "Black Sea",
@@ -4483,6 +4777,46 @@
     "status": "merged",
     "position_approx": true,
     "merged_into": "INC-20261016-002"
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-16T00:00:00Z",
+    "summary": "The IMO lists LOYALTY (IMO 9182306) as hit at 78 NM northeast of Al Jubail, Saudi Arabia on 16 October 2026. Damaged. No pollution.",
+    "official_source_cited": "IMO confirmed incidents list",
+    "conflicting": false,
+    "confidence": 1.0,
+    "vessel_name": "LOYALTY",
+    "imo": "9182306",
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "78 NM northeast of Al Jubail, Saudi Arabia",
+    "attack_type": "other",
+    "damage": "Damaged. No pollution.",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261016-013",
+    "sources": [
+      {
+        "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9182306-2026-10-16",
+        "source": "IMO (confirmed incidents list)",
+        "source_type": "official",
+        "side": "neutral",
+        "kind": "official",
+        "published_at": "2026-10-21T12:16:46Z",
+        "title": "IMO confirmed incident: LOYALTY (IMO 9182306)"
+      }
+    ],
+    "first_seen": "2026-10-21T12:16:46Z",
+    "last_updated": "2026-10-21T12:16:46Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "confirmed",
+    "position_approx": true
   },
   {
     "region": "Persian Gulf",
@@ -47058,10 +47392,19 @@
         "kind": "official",
         "published_at": "2026-10-05T09:36:32Z",
         "title": "IMO confirmed incident: AL DASMA (IMO 9653446)"
+      },
+      {
+        "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9653446-2026-10-20",
+        "source": "IMO (confirmed incidents list)",
+        "source_type": "official",
+        "side": "neutral",
+        "kind": "official",
+        "published_at": "2026-10-21T12:16:46Z",
+        "title": "IMO confirmed incident: AL DASMA (IMO 9653446)"
       }
     ],
     "first_seen": "2026-10-05T09:36:32Z",
-    "last_updated": "2026-10-05T09:36:32Z",
+    "last_updated": "2026-10-21T12:16:46Z",
     "verification_issue": null,
     "verdict": null,
     "published_in": [],
