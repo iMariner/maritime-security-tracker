@@ -134,7 +134,7 @@
     "INC-20261015-001": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-20T18:24:59.111068+00:00",
+        "checked_at": "2026-10-21T14:20:00.362452+00:00",
         "vessel_name": "WINE TRADER",
         "date_utc": "2026-10-15",
         "vessel_type": "tanker",
@@ -158,6 +158,30 @@
       },
       "audit_notes": [
         "Feed general cargo type is wrong: reporting identifies chemical tanker. Initial primary statement says8missing4safe; later reporting7missing5safe. Preserve chronology. Seven missing, including6Beninese1Russian, is NOT seven confirmed deaths and must not feed death-nationality totals. Original Maritime.bg manager interview https://www.maritime.bg/156457/ linked by TürkiyeToday returned429."
+      ],
+      "human_impact": {
+        "missing": {
+          "count": 7,
+          "as_of": "2026-10-20",
+          "sources": [
+            {
+              "url": "https://www.turkiyetoday.com/world/russian-black-sea-strikes-deepen-perfect-storm-for-food-supplies-eu-3230696",
+              "source": "Türkiye Today — named manager’s account"
+            }
+          ]
+        }
+      },
+      "updates": [
+        {
+          "at": "2026-10-21T14:20:00.362452+00:00",
+          "text": "Follow-up reporting dated 20 October quotes the manager listing seven crew missing, including six Beninese and one Russian national. These are missing-person nationalities, not confirmed death-nationality counts.",
+          "sources": [
+            {
+              "url": "https://www.turkiyetoday.com/world/russian-black-sea-strikes-deepen-perfect-storm-for-food-supplies-eu-3230696",
+              "source": "Türkiye Today — named manager’s account"
+            }
+          ]
+        }
       ]
     },
     "INC-20261007-008": {
