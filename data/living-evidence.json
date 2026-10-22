@@ -7846,26 +7846,29 @@
       "human_impact": {
         "missing": {
           "count": 1,
-          "as_of": "2026-10-12",
+          "as_of": "2026-10-22",
           "sources": [
             {
-              "url": "https://denizde.com.tr/en/haberler/aroyat-gemisine-karadeniz-de-saldiri-turk-muhendis-hala-kayi",
-              "source": "Denizde.com.tr, updated 12 October 2026"
+              "url": "https://en.haberler.com/the-ship-attacked-by-a-drone-in-russia-drifted-off-2319983/",
+              "source": "Haberler.com (Demiroren Haber Ajansi), 22 October 2026"
+            },
+            {
+              "url": "https://www.gercekgundem.com/gundem/dron-saldirisina-ugrayan-gemi-giresun-aciklarina-suruklendi-kayip-turk-muhendis-bulunamadi-580938",
+              "source": "Gercek Gundem (Demiroren Haber Ajansi), 22 October 2026"
             }
           ]
         }
       },
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T18:22:48Z",
+        "checked_at": "2026-10-22T12:53:54Z",
         "vessel_name": "AROYAT",
         "date_utc": "2026-09-27",
         "vessel_type": "Bulk carrier",
         "region": "Black Sea",
         "location_text": "In the vicinity of Novorossiysk, Russia",
-        "summary": "Aroyat, an 18,315 dwt Palau-flagged bulk carrier operated by Istanbul-based Aroyat Management, was struck by what was reported as an aerial drone on 27 September 2026 while in the vicinity of Novorossiysk, Russia, starting a large fire in the accommodation block. The ship was disabled and towed to Turkey. The family of the Turkish second engineer posted that he was not among the rescued crew; Turkish media reported seven Egyptian, six Syrian and three Turkish crew aboard.",
-        "date_note": "The Maritime Executive, using AIS and Turkish media, dates the strike 27 September 2026; the missing engineer's family initially posted 25 September and his last AIS position was near Sinop on 24 September. Both refer to one event.",
-        "attack_type": "drone (UAV)",
+        "summary": "Aroyat, an 18,315 dwt Palau-flagged bulk carrier operated by Istanbul-based Aroyat Management, was struck by drones on 27 September 2026 in the vicinity of Novorossiysk, Russia, starting a fire in the stern and the accommodation block. The disabled ship was later towed to Turkish waters and on 22 October was anchored off Giresun, where a renewed search on board for the missing second engineer produced no trace. Fifteen of the 16 crew were evacuated; Turkish media reported the crew as seven Egyptian, six Syrian and three Turkish nationals.",
+        "date_note": "The Maritime Executive dates the strike 27 September 2026; the family of the missing engineer initially posted 25 September and his last AIS position was near Sinop on 24 September. Both refer to one event. The 22 October reports concern the ship being brought to Giresun, not a new attack.",
         "sources": [
           {
             "url": "https://maritime-executive.com/article/ukraine-accused-of-attack-on-turkish-bulker-with-one-seafarer-missing",
@@ -7873,11 +7876,11 @@
           },
           {
             "url": "https://denizde.com.tr/en/haberler/aroyat-gemisine-karadeniz-de-saldiri-turk-muhendis-hala-kayi",
-            "source": "Denizde.com.tr, updated 12 October 2026"
+            "source": "Denizde.com.tr, updated 22 October 2026"
           },
           {
-            "url": "https://www.marinetraffic.com/hr/maritime-news/15/maritime-security/2026/13272/dry-bulk-carrier-attacked-near-novorossiysk-one-sailor-missi",
-            "source": "MarineTraffic maritime security news"
+            "url": "https://en.haberler.com/the-ship-attacked-by-a-drone-in-russia-drifted-off-2319983/",
+            "source": "Haberler.com (Demiroren Haber Ajansi), 22 October 2026"
           }
         ]
       },
@@ -7893,6 +7896,20 @@
             {
               "url": "https://denizde.com.tr/en/haberler/aroyat-gemisine-karadeniz-de-saldiri-turk-muhendis-hala-kayi",
               "source": "Denizde.com.tr, updated 12 October 2026"
+            }
+          ]
+        },
+        {
+          "at": "2026-10-22T12:53:54Z",
+          "text": "Follow-up: on 22 October the damaged Aroyat was reported at anchor off Giresun, Turkey, after drifting across the Black Sea, and a renewed search on board for the second engineer Erkan Nika again found nothing. The ship is due to be taken to shipbreaking at Aliaga. He remains missing and no death is confirmed, so the death count stays unknown. Reports of a Turkish crew member missing from a ship off Giresun on 22 October describe this same 27 September attack and are not a separate incident.",
+          "sources": [
+            {
+              "url": "https://en.haberler.com/the-ship-attacked-by-a-drone-in-russia-drifted-off-2319983/",
+              "source": "Haberler.com (Demiroren Haber Ajansi), 22 October 2026"
+            },
+            {
+              "url": "https://www.gercekgundem.com/gundem/dron-saldirisina-ugrayan-gemi-giresun-aciklarina-suruklendi-kayip-turk-muhendis-bulunamadi-580938",
+              "source": "Gercek Gundem (Demiroren Haber Ajansi), 22 October 2026"
             }
           ]
         }
@@ -8901,6 +8918,132 @@
             {
               "url": "https://www.vesselfinder.com/vessels/details/9182306",
               "source": "VesselFinder vessel record for LOYALTY"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6341245688,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6341245688",
+      "author": "iMariner",
+      "received_at": "2026-10-22T12:53:55Z",
+      "incident_id": "HIST-BS-20260927-AROYAT",
+      "before": {
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "human_impact": {
+          "missing": {
+            "count": 1,
+            "as_of": "2026-10-12",
+            "sources": [
+              {
+                "url": "https://denizde.com.tr/en/haberler/aroyat-gemisine-karadeniz-de-saldiri-turk-muhendis-hala-kayi",
+                "source": "Denizde.com.tr, updated 12 October 2026"
+              }
+            ]
+          }
+        },
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T18:22:48Z",
+          "vessel_name": "AROYAT",
+          "date_utc": "2026-09-27",
+          "vessel_type": "Bulk carrier",
+          "region": "Black Sea",
+          "location_text": "In the vicinity of Novorossiysk, Russia",
+          "summary": "Aroyat, an 18,315 dwt Palau-flagged bulk carrier operated by Istanbul-based Aroyat Management, was struck by what was reported as an aerial drone on 27 September 2026 while in the vicinity of Novorossiysk, Russia, starting a large fire in the accommodation block. The ship was disabled and towed to Turkey. The family of the Turkish second engineer posted that he was not among the rescued crew; Turkish media reported seven Egyptian, six Syrian and three Turkish crew aboard.",
+          "date_note": "The Maritime Executive, using AIS and Turkish media, dates the strike 27 September 2026; the missing engineer's family initially posted 25 September and his last AIS position was near Sinop on 24 September. Both refer to one event.",
+          "attack_type": "drone (UAV)",
+          "sources": [
+            {
+              "url": "https://maritime-executive.com/article/ukraine-accused-of-attack-on-turkish-bulker-with-one-seafarer-missing",
+              "source": "The Maritime Executive, 29 September 2026"
+            },
+            {
+              "url": "https://denizde.com.tr/en/haberler/aroyat-gemisine-karadeniz-de-saldiri-turk-muhendis-hala-kayi",
+              "source": "Denizde.com.tr, updated 12 October 2026"
+            },
+            {
+              "url": "https://www.marinetraffic.com/hr/maritime-news/15/maritime-security/2026/13272/dry-bulk-carrier-attacked-near-novorossiysk-one-sailor-missi",
+              "source": "MarineTraffic maritime security news"
+            }
+          ]
+        },
+        "updates": [
+          {
+            "at": "2026-10-21T18:22:48Z",
+            "text": "New historical record for an event absent from both stores. The archive record INC-20261010-008 dates this attack 10 October and bundles it with an unrelated report of a ship reaching Trabzon with its captain killed; that date is not supported for Aroyat, whose strike the Maritime Executive dates 27 September. One Turkish second engineer, Erkan Nika, is recorded as missing on the strength of his family's public appeal and Turkish maritime reporting; no body or death has been confirmed, so deaths stay unknown. The seven Egyptian, six Syrian and three Turkish crew split comes from Turkish media, not an authority, so no nationality count is published.",
+            "sources": [
+              {
+                "url": "https://maritime-executive.com/article/ukraine-accused-of-attack-on-turkish-bulker-with-one-seafarer-missing",
+                "source": "The Maritime Executive, 29 September 2026"
+              },
+              {
+                "url": "https://denizde.com.tr/en/haberler/aroyat-gemisine-karadeniz-de-saldiri-turk-muhendis-hala-kayi",
+                "source": "Denizde.com.tr, updated 12 October 2026"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "HIST-BS-20260927-AROYAT",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-22T12:53:54Z",
+          "vessel_name": "AROYAT",
+          "date_utc": "2026-09-27",
+          "vessel_type": "Bulk carrier",
+          "region": "Black Sea",
+          "location_text": "In the vicinity of Novorossiysk, Russia",
+          "summary": "Aroyat, an 18,315 dwt Palau-flagged bulk carrier operated by Istanbul-based Aroyat Management, was struck by drones on 27 September 2026 in the vicinity of Novorossiysk, Russia, starting a fire in the stern and the accommodation block. The disabled ship was later towed to Turkish waters and on 22 October was anchored off Giresun, where a renewed search on board for the missing second engineer produced no trace. Fifteen of the 16 crew were evacuated; Turkish media reported the crew as seven Egyptian, six Syrian and three Turkish nationals.",
+          "date_note": "The Maritime Executive dates the strike 27 September 2026; the family of the missing engineer initially posted 25 September and his last AIS position was near Sinop on 24 September. Both refer to one event. The 22 October reports concern the ship being brought to Giresun, not a new attack.",
+          "sources": [
+            {
+              "url": "https://maritime-executive.com/article/ukraine-accused-of-attack-on-turkish-bulker-with-one-seafarer-missing",
+              "source": "The Maritime Executive, 29 September 2026"
+            },
+            {
+              "url": "https://denizde.com.tr/en/haberler/aroyat-gemisine-karadeniz-de-saldiri-turk-muhendis-hala-kayi",
+              "source": "Denizde.com.tr, updated 22 October 2026"
+            },
+            {
+              "url": "https://en.haberler.com/the-ship-attacked-by-a-drone-in-russia-drifted-off-2319983/",
+              "source": "Haberler.com (Demiroren Haber Ajansi), 22 October 2026"
+            }
+          ]
+        },
+        "human_impact": {
+          "missing": {
+            "count": 1,
+            "as_of": "2026-10-22",
+            "sources": [
+              {
+                "url": "https://en.haberler.com/the-ship-attacked-by-a-drone-in-russia-drifted-off-2319983/",
+                "source": "Haberler.com (Demiroren Haber Ajansi), 22 October 2026"
+              },
+              {
+                "url": "https://www.gercekgundem.com/gundem/dron-saldirisina-ugrayan-gemi-giresun-aciklarina-suruklendi-kayip-turk-muhendis-bulunamadi-580938",
+                "source": "Gercek Gundem (Demiroren Haber Ajansi), 22 October 2026"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-10-22T12:53:54Z",
+          "text": "Follow-up: on 22 October the damaged Aroyat was reported at anchor off Giresun, Turkey, after drifting across the Black Sea, and a renewed search on board for the second engineer Erkan Nika again found nothing. The ship is due to be taken to shipbreaking at Aliaga. He remains missing and no death is confirmed, so the death count stays unknown. Reports of a Turkish crew member missing from a ship off Giresun on 22 October describe this same 27 September attack and are not a separate incident.",
+          "sources": [
+            {
+              "url": "https://en.haberler.com/the-ship-attacked-by-a-drone-in-russia-drifted-off-2319983/",
+              "source": "Haberler.com (Demiroren Haber Ajansi), 22 October 2026"
+            },
+            {
+              "url": "https://www.gercekgundem.com/gundem/dron-saldirisina-ugrayan-gemi-giresun-aciklarina-suruklendi-kayip-turk-muhendis-bulunamadi-580938",
+              "source": "Gercek Gundem (Demiroren Haber Ajansi), 22 October 2026"
             }
           ]
         }
