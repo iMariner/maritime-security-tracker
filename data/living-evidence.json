@@ -7968,6 +7968,65 @@
           ]
         }
       ]
+    },
+    "INC-20261021-005": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261021-ukmto_warning_180_26.pdf",
+            "source": "UKMTO warning 180-26, master reported crew safe"
+          }
+        ],
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-22T06:50:00Z",
+        "vessel_name": "SOYIA",
+        "date_utc": "2026-10-20",
+        "vessel_type": "Oil products tanker",
+        "region": "Persian Gulf",
+        "location_text": "30 nautical miles southeast of Al Faw, Iraq",
+        "summary": "UKMTO warning 180-26 records a time-late report from a tanker's master of being struck by an unknown projectile at 1830 UTC on 20 October 2026, 30 nautical miles southeast of Al Faw, Iraq. The master reported the crew safe and no damage or environmental impact. Clearwater Dynamics identified the vessel as the Liberia-flagged oil products tanker Soyia (IMO 9263916), and vessel databases list the same name, IMO number and Liberia flag. UKMTO did not name the vessel and did not attribute the attack.",
+        "date_note": "The strike is dated 20 October 2026 at 1830 UTC in UKMTO warning 180-26, which was issued on 21 October after the master's time-late report.",
+        "imo": "9263916",
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261021-ukmto_warning_180_26.pdf",
+            "source": "UKMTO warning 180-26, 20 October 2026 incident"
+          },
+          {
+            "url": "https://www.cwdynamics.com/alerts/alert/33477",
+            "source": "Clearwater Dynamics alert 035, identifying SOYIA (IMO 9263916)"
+          },
+          {
+            "url": "https://www.vesselfinder.com/vessels/details/9263916",
+            "source": "VesselFinder vessel record for SOYIA, IMO 9263916, Liberia"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-22T06:50:00Z",
+          "text": "First structured casualty record for the 20 October strike on the Soyia near Al Faw. UKMTO reports that the master said the crew were safe and that no damage or environmental impact was reported. The vessel is named as Soyia by Clearwater Dynamics and matches the Liberia-flagged oil products tanker of that name and IMO number in vessel databases; UKMTO withheld the name. No deaths are recorded and no injury report was found.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261021-ukmto_warning_180_26.pdf",
+              "source": "UKMTO warning 180-26"
+            },
+            {
+              "url": "https://www.cwdynamics.com/alerts/alert/33477",
+              "source": "Clearwater Dynamics alert 035"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9263916",
+              "source": "VesselFinder vessel record for SOYIA"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -8643,6 +8702,72 @@
             {
               "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
               "source": "IMO confirmed incidents list, checked 22 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6334565580,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6334565580",
+      "author": "iMariner",
+      "received_at": "2026-10-22T06:44:42Z",
+      "incident_id": "INC-20261021-005",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261021-005",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-22T06:50:00Z",
+          "vessel_name": "SOYIA",
+          "date_utc": "2026-10-20",
+          "vessel_type": "Oil products tanker",
+          "region": "Persian Gulf",
+          "location_text": "30 nautical miles southeast of Al Faw, Iraq",
+          "summary": "UKMTO warning 180-26 records a time-late report from a tanker's master of being struck by an unknown projectile at 1830 UTC on 20 October 2026, 30 nautical miles southeast of Al Faw, Iraq. The master reported the crew safe and no damage or environmental impact. Clearwater Dynamics identified the vessel as the Liberia-flagged oil products tanker Soyia (IMO 9263916), and vessel databases list the same name, IMO number and Liberia flag. UKMTO did not name the vessel and did not attribute the attack.",
+          "date_note": "The strike is dated 20 October 2026 at 1830 UTC in UKMTO warning 180-26, which was issued on 21 October after the master's time-late report.",
+          "imo": "9263916",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261021-ukmto_warning_180_26.pdf",
+              "source": "UKMTO warning 180-26, 20 October 2026 incident"
+            },
+            {
+              "url": "https://www.cwdynamics.com/alerts/alert/33477",
+              "source": "Clearwater Dynamics alert 035, identifying SOYIA (IMO 9263916)"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9263916",
+              "source": "VesselFinder vessel record for SOYIA, IMO 9263916, Liberia"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261021-ukmto_warning_180_26.pdf",
+              "source": "UKMTO warning 180-26, master reported crew safe"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-10-22T06:50:00Z",
+          "text": "First structured casualty record for the 20 October strike on the Soyia near Al Faw. UKMTO reports that the master said the crew were safe and that no damage or environmental impact was reported. The vessel is named as Soyia by Clearwater Dynamics and matches the Liberia-flagged oil products tanker of that name and IMO number in vessel databases; UKMTO withheld the name. No deaths are recorded and no injury report was found.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261021-ukmto_warning_180_26.pdf",
+              "source": "UKMTO warning 180-26"
+            },
+            {
+              "url": "https://www.cwdynamics.com/alerts/alert/33477",
+              "source": "Clearwater Dynamics alert 035"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9263916",
+              "source": "VesselFinder vessel record for SOYIA"
             }
           ]
         }
