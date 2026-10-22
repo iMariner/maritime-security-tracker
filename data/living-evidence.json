@@ -8235,6 +8235,59 @@
           ]
         }
       ]
+    },
+    "INC-20261012-003": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-22T19:30:00Z",
+        "vessel_name": "FORTIS",
+        "date_utc": "2026-10-11",
+        "vessel_type": "General cargo",
+        "region": "Black Sea",
+        "location_text": "Struck at sea, then towed to an anchorage off Giresun port, Turkey",
+        "imo": "8935407",
+        "summary": "The Russian-flagged general cargo ship FORTIS, IMO 8935407, a 108 metre vessel built in 1985 and registered to Blue Wave Shipping, was damaged by a drone strike in the Black Sea while carrying 3,300 tonnes of chickpeas from Novorossiysk in Russia to Mersin in Turkey. Her ten crew were evacuated. The unmanned vessel drifted to waters off Kesap in Giresun province; the Turkish Coast Guard towed her to an anchorage off Giresun port on 11 October 2026, where smoke was found in the cargo hold and port teams cooled the hold from the sea.",
+        "date_note": "The strike date is not established by the sources. Turkish reports published on 12 and 13 October describe the ten crew already evacuated and the tow to Giresun on 11 October, and MarineTraffic records the date of the alleged attack as unclear. 11 October is recorded here as the latest date the strike can have occurred; the corpus date of 12 October is the date of the first Turkish report.",
+        "sources": [
+          {
+            "url": "https://www.milliyet.com.tr/gundem/dron-saldirisina-ugrayan-rus-gemisi-giresun-aciklarina-suruklendi-3-bin-300-ton-nohut-yuklu-ambarda-duman-panigi-7678014",
+            "source": "Milliyet (Demiroren news agency), 12 October 2026"
+          },
+          {
+            "url": "https://en.portnews.ru/news/398200/",
+            "source": "PortNews, 13 October 2026, vessel particulars and ownership"
+          },
+          {
+            "url": "https://www.marinetraffic.com/en/maritime-news/15/maritime-security/2026/13308/turkish-coast-guard-responds-to-smoke-aboard-cargo-ship",
+            "source": "MarineTraffic news, 13 October 2026"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-22T19:30:00Z",
+          "text": "First structured review of this record, which reached the corpus from a Turkish report that gave no ship name. The sources name her as the Russian-flagged FORTIS, IMO 8935407, with ten crew evacuated and no casualty figure published; MarineTraffic states that the crew condition was unclear, so deaths are recorded as unknown rather than zero and no nationality is recorded. Smoke was found in the cargo hold after the tow, and the strike date remains unresolved, so 11 October is recorded as an upper bound.",
+          "sources": [
+            {
+              "url": "https://www.milliyet.com.tr/gundem/dron-saldirisina-ugrayan-rus-gemisi-giresun-aciklarina-suruklendi-3-bin-300-ton-nohut-yuklu-ambarda-duman-panigi-7678014",
+              "source": "Milliyet (Demiroren news agency), 12 October 2026"
+            },
+            {
+              "url": "https://en.portnews.ru/news/398200/",
+              "source": "PortNews, 13 October 2026"
+            },
+            {
+              "url": "https://www.marinetraffic.com/en/maritime-news/15/maritime-security/2026/13308/turkish-coast-guard-responds-to-smoke-aboard-cargo-ship",
+              "source": "MarineTraffic news, 13 October 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -9413,6 +9466,66 @@
             {
               "url": "https://www.vesselfinder.com/vessels/details/9315367",
               "source": "VesselFinder particulars and name history for IMO 9315367, checked 22 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6349081388,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6349081388",
+      "author": "iMariner",
+      "received_at": "2026-10-22T19:10:59Z",
+      "incident_id": "INC-20261012-003",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261012-003",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-22T19:30:00Z",
+          "vessel_name": "FORTIS",
+          "date_utc": "2026-10-11",
+          "vessel_type": "General cargo",
+          "region": "Black Sea",
+          "location_text": "Struck at sea, then towed to an anchorage off Giresun port, Turkey",
+          "imo": "8935407",
+          "summary": "The Russian-flagged general cargo ship FORTIS, IMO 8935407, a 108 metre vessel built in 1985 and registered to Blue Wave Shipping, was damaged by a drone strike in the Black Sea while carrying 3,300 tonnes of chickpeas from Novorossiysk in Russia to Mersin in Turkey. Her ten crew were evacuated. The unmanned vessel drifted to waters off Kesap in Giresun province; the Turkish Coast Guard towed her to an anchorage off Giresun port on 11 October 2026, where smoke was found in the cargo hold and port teams cooled the hold from the sea.",
+          "date_note": "The strike date is not established by the sources. Turkish reports published on 12 and 13 October describe the ten crew already evacuated and the tow to Giresun on 11 October, and MarineTraffic records the date of the alleged attack as unclear. 11 October is recorded here as the latest date the strike can have occurred; the corpus date of 12 October is the date of the first Turkish report.",
+          "sources": [
+            {
+              "url": "https://www.milliyet.com.tr/gundem/dron-saldirisina-ugrayan-rus-gemisi-giresun-aciklarina-suruklendi-3-bin-300-ton-nohut-yuklu-ambarda-duman-panigi-7678014",
+              "source": "Milliyet (Demiroren news agency), 12 October 2026"
+            },
+            {
+              "url": "https://en.portnews.ru/news/398200/",
+              "source": "PortNews, 13 October 2026, vessel particulars and ownership"
+            },
+            {
+              "url": "https://www.marinetraffic.com/en/maritime-news/15/maritime-security/2026/13308/turkish-coast-guard-responds-to-smoke-aboard-cargo-ship",
+              "source": "MarineTraffic news, 13 October 2026"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-10-22T19:30:00Z",
+          "text": "First structured review of this record, which reached the corpus from a Turkish report that gave no ship name. The sources name her as the Russian-flagged FORTIS, IMO 8935407, with ten crew evacuated and no casualty figure published; MarineTraffic states that the crew condition was unclear, so deaths are recorded as unknown rather than zero and no nationality is recorded. Smoke was found in the cargo hold after the tow, and the strike date remains unresolved, so 11 October is recorded as an upper bound.",
+          "sources": [
+            {
+              "url": "https://www.milliyet.com.tr/gundem/dron-saldirisina-ugrayan-rus-gemisi-giresun-aciklarina-suruklendi-3-bin-300-ton-nohut-yuklu-ambarda-duman-panigi-7678014",
+              "source": "Milliyet (Demiroren news agency), 12 October 2026"
+            },
+            {
+              "url": "https://en.portnews.ru/news/398200/",
+              "source": "PortNews, 13 October 2026"
+            },
+            {
+              "url": "https://www.marinetraffic.com/en/maritime-news/15/maritime-security/2026/13308/turkish-coast-guard-responds-to-smoke-aboard-cargo-ship",
+              "source": "MarineTraffic news, 13 October 2026"
             }
           ]
         }
