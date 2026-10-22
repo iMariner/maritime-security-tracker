@@ -568,10 +568,34 @@
             {
               "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
               "source": "IMO confirmed incident register, as at 20 October 2026"
+            },
+            {
+              "url": "https://www.tribuneindia.com/news/mt-petro-dolphin-hit-by-drone-attack-off-omans-coast-two-indian-seafarers-missing-sonowal/",
+              "source": "The Tribune (ANI), quoting Shipping Minister Sarbananda Sonowal and the Indian embassy in Muscat, 11 and 12 October 2026"
             }
           ]
         }
-      }
+      },
+      "updates": [
+        {
+          "at": "2026-10-22T00:35:00Z",
+          "text": "First sourced casualty follow-up. India's Minister of Ports, Shipping and Waterways, Sarbananda Sonowal, said on 11 October that MT Petro Dolphin carried 11 Indian seafarers, that nine had been rescued and were safe, and that two Indian nationals remained missing while the Omani coast guard continued search and rescue; the Indian embassy in Muscat repeated that two of the 11 Indian seafarers were reported missing. The IMO register as at 20 October still lists two seafarers missing. Deaths remain unknown: the two missing men are not counted as dead, and their nationality is recorded here as a missing-person detail, not as a death nationality count.",
+          "sources": [
+            {
+              "url": "https://www.tribuneindia.com/news/mt-petro-dolphin-hit-by-drone-attack-off-omans-coast-two-indian-seafarers-missing-sonowal/",
+              "source": "The Tribune (ANI), quoting Shipping Minister Sarbananda Sonowal and the Indian embassy in Muscat, 11 and 12 October 2026"
+            },
+            {
+              "url": "https://www.thehindu.com/news/national/two-indian-seafarers-missing-nine-rescued-after-drone-attack-on-tanker-at-sohar-anchorage-says-sonowal/article71573679.ece",
+              "source": "The Hindu, 11 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, as at 20 October 2026"
+            }
+          ]
+        }
+      ]
     },
     "HIST-ME-20261010-AKIRA-SUN-OCEAN-MOLICA": {
       "verification": {
@@ -8387,6 +8411,89 @@
             {
               "url": "https://www.thehindu.com/news/national/all-nine-indian-seafarers-safe-as-drone-hit-tanker-reaches-romanian-port-embassy/article71596802.ece",
               "source": "The Hindu, quoting the Indian embassy in Bucharest, 17 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6329799170,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6329799170",
+      "author": "iMariner",
+      "received_at": "2026-10-22T00:38:10Z",
+      "incident_id": "HIST-ME-20261011-PETRO-DOLPHIN",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T03:06:19.845439+00:00",
+          "vessel_name": "PETRO DOLPHIN",
+          "date_utc": "2026-10-11",
+          "vessel_type": "product tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "Sohar Anchorage, Gulf of Oman",
+          "summary": "IMO records PETRO DOLPHIN in its confirmed incident register for 2026-10-11 near Sohar Anchorage, Gulf of Oman. 2 seafarer(s) were listed missing; they are not counted as confirmed deaths.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            },
+            {
+              "source": "VesselFinder",
+              "url": "https://www.vesselfinder.com/vessels/details/1072294"
+            }
+          ],
+          "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
+          "imo": "1072294"
+        },
+        "audit_notes": [
+          "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+        ],
+        "human_impact": {
+          "missing": {
+            "count": 2,
+            "as_of": "2026-10-20",
+            "sources": [
+              {
+                "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+                "source": "IMO confirmed incident register, as at 20 October 2026"
+              }
+            ]
+          }
+        }
+      },
+      "change": {
+        "incident_id": "HIST-ME-20261011-PETRO-DOLPHIN",
+        "human_impact": {
+          "missing": {
+            "count": 2,
+            "as_of": "2026-10-20",
+            "sources": [
+              {
+                "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+                "source": "IMO confirmed incident register, as at 20 October 2026"
+              },
+              {
+                "url": "https://www.tribuneindia.com/news/mt-petro-dolphin-hit-by-drone-attack-off-omans-coast-two-indian-seafarers-missing-sonowal/",
+                "source": "The Tribune (ANI), quoting Shipping Minister Sarbananda Sonowal and the Indian embassy in Muscat, 11 and 12 October 2026"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-10-22T00:35:00Z",
+          "text": "First sourced casualty follow-up. India's Minister of Ports, Shipping and Waterways, Sarbananda Sonowal, said on 11 October that MT Petro Dolphin carried 11 Indian seafarers, that nine had been rescued and were safe, and that two Indian nationals remained missing while the Omani coast guard continued search and rescue; the Indian embassy in Muscat repeated that two of the 11 Indian seafarers were reported missing. The IMO register as at 20 October still lists two seafarers missing. Deaths remain unknown: the two missing men are not counted as dead, and their nationality is recorded here as a missing-person detail, not as a death nationality count.",
+          "sources": [
+            {
+              "url": "https://www.tribuneindia.com/news/mt-petro-dolphin-hit-by-drone-attack-off-omans-coast-two-indian-seafarers-missing-sonowal/",
+              "source": "The Tribune (ANI), quoting Shipping Minister Sarbananda Sonowal and the Indian embassy in Muscat, 11 and 12 October 2026"
+            },
+            {
+              "url": "https://www.thehindu.com/news/national/two-indian-seafarers-missing-nine-rescued-after-drone-attack-on-tanker-at-sohar-anchorage-says-sonowal/article71573679.ece",
+              "source": "The Hindu, 11 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, as at 20 October 2026"
             }
           ]
         }
