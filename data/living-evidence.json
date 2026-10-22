@@ -103,6 +103,49 @@
       },
       "audit_notes": [
         "Primary ministry opened and supports name/date/location/all15rescued. BTA search response supports general cargo; direct open rate-limited429. Five minor injuries sourced AP search article https://apnews.com/article/7dfef251fb7d47a717f0d600873dbf5b but direct article not accessible; do not relabel all rescued as no injuries."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://www.mtc.government.bg/bg/category/1/tekhnicheska-informaciya-za-zasegnatite-i-okazalite-sdeystvie-prez-poslednite-24-chasa-plavatelni-sredstva-v-morskite-prostranstva-na-republika-blgariya",
+            "source": "Bulgarian Ministry of Transport and Communications, 13 October 2026"
+          },
+          {
+            "url": "https://www.bta.bg/en/news/1226692-military-prosecution-opens-investigation-into-attack-on-chelsea-3-in-black-sea",
+            "source": "Bulgarian News Agency (BTA), 16 October 2026"
+          }
+        ],
+        "nationalities": []
+      },
+      "updates": [
+        {
+          "at": "2026-10-22T00:35:00Z",
+          "text": "First structured casualty record for Chelsea 3. Bulgaria's Ministry of Transport and Communications says all 15 crew were rescued after the drone attack on 13 October, and BTA reports all 15 were evacuated and brought to Varna, so the reviewed death count is zero rather than unknown. Prime Minister Rumen Radev said five of the crew received medical care for minor injuries (Xinhua, quoting his statement). Varna regional governor Mario Smarkov said six were hurt, five with minor injuries and one with burns admitted to the Military Medical Academy (Novinite). Because the two Bulgarian official accounts differ, no injured figure is recorded here. The reported crew mix of seven Ukrainian and eight Azerbaijani nationals describes survivors and is not a death nationality count. The vessel was towed to Burgas on 17 October.",
+          "sources": [
+            {
+              "url": "https://www.mtc.government.bg/bg/category/1/tekhnicheska-informaciya-za-zasegnatite-i-okazalite-sdeystvie-prez-poslednite-24-chasa-plavatelni-sredstva-v-morskite-prostranstva-na-republika-blgariya",
+              "source": "Bulgarian Ministry of Transport and Communications, 13 October 2026"
+            },
+            {
+              "url": "https://www.bta.bg/en/news/1226692-military-prosecution-opens-investigation-into-attack-on-chelsea-3-in-black-sea",
+              "source": "Bulgarian News Agency (BTA), 16 October 2026"
+            },
+            {
+              "url": "https://english.news.cn/20261013/47f6256a6df14d0fa9d054cfbffaedef/c.html",
+              "source": "Xinhua, quoting Prime Minister Rumen Radev, 13 October 2026"
+            },
+            {
+              "url": "https://www.novinite.com/articles/241018/All+15+Crew+Members+Evacuated+From+Damaged+Ship+Near+Byala",
+              "source": "Novinite, quoting Varna regional governor Mario Smarkov, 13 October 2026"
+            },
+            {
+              "url": "https://safety4sea.com/turkish-and-bulgarian-authorities-conduct-black-sea-vessel-recoveries/",
+              "source": "SAFETY4SEA, Chelsea 3 towed to Burgas, October 2026"
+            }
+          ]
+        }
       ]
     },
     "INC-20261015-006": {
@@ -8156,6 +8199,82 @@
             {
               "url": "https://mea.gov.in/speeches-statements?dtl/41848/Statement_on_the_attack_on_a_commercial_vessel_MT_On_Peace_off_the_coast_of_Oman=",
               "source": "India Ministry of External Affairs statement"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6329765301,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6329765301",
+      "author": "iMariner",
+      "received_at": "2026-10-22T00:35:31Z",
+      "incident_id": "INC-20261013-007",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-20T18:24:59.111068+00:00",
+          "vessel_name": "CHELSEA 3",
+          "date_utc": "2026-10-13",
+          "vessel_type": "general cargo",
+          "region": "Black Sea",
+          "summary": "Chelsea 3 was attacked 17 nautical miles east of Byala on 13 October. Bulgaria’s Transport Ministry reports that all 15 crew were rescued.",
+          "sources": [
+            {
+              "url": "https://www.mtc.government.bg/bg/category/1/tekhnicheska-informaciya-za-zasegnatite-i-okazalite-sdeystvie-prez-poslednite-24-chasa-plavatelni-sredstva-v-morskite-prostranstva-na-republika-blgariya",
+              "source": "Bulgarian Ministry of Transport and Communications"
+            },
+            {
+              "url": "https://www.bta.bg/en/news/1226692-military-prosecution-opens-investigation-into-attack-on-chelsea-3-in-black-sea",
+              "source": "Bulgarian News Agency (indexed full report)"
+            }
+          ],
+          "location_text": "17 nautical miles east of Byala, Bulgaria"
+        },
+        "audit_notes": [
+          "Primary ministry opened and supports name/date/location/all15rescued. BTA search response supports general cargo; direct open rate-limited429. Five minor injuries sourced AP search article https://apnews.com/article/7dfef251fb7d47a717f0d600873dbf5b but direct article not accessible; do not relabel all rescued as no injuries."
+        ]
+      },
+      "change": {
+        "incident_id": "INC-20261013-007",
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.mtc.government.bg/bg/category/1/tekhnicheska-informaciya-za-zasegnatite-i-okazalite-sdeystvie-prez-poslednite-24-chasa-plavatelni-sredstva-v-morskite-prostranstva-na-republika-blgariya",
+              "source": "Bulgarian Ministry of Transport and Communications, 13 October 2026"
+            },
+            {
+              "url": "https://www.bta.bg/en/news/1226692-military-prosecution-opens-investigation-into-attack-on-chelsea-3-in-black-sea",
+              "source": "Bulgarian News Agency (BTA), 16 October 2026"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-10-22T00:35:00Z",
+          "text": "First structured casualty record for Chelsea 3. Bulgaria's Ministry of Transport and Communications says all 15 crew were rescued after the drone attack on 13 October, and BTA reports all 15 were evacuated and brought to Varna, so the reviewed death count is zero rather than unknown. Prime Minister Rumen Radev said five of the crew received medical care for minor injuries (Xinhua, quoting his statement). Varna regional governor Mario Smarkov said six were hurt, five with minor injuries and one with burns admitted to the Military Medical Academy (Novinite). Because the two Bulgarian official accounts differ, no injured figure is recorded here. The reported crew mix of seven Ukrainian and eight Azerbaijani nationals describes survivors and is not a death nationality count. The vessel was towed to Burgas on 17 October.",
+          "sources": [
+            {
+              "url": "https://www.mtc.government.bg/bg/category/1/tekhnicheska-informaciya-za-zasegnatite-i-okazalite-sdeystvie-prez-poslednite-24-chasa-plavatelni-sredstva-v-morskite-prostranstva-na-republika-blgariya",
+              "source": "Bulgarian Ministry of Transport and Communications, 13 October 2026"
+            },
+            {
+              "url": "https://www.bta.bg/en/news/1226692-military-prosecution-opens-investigation-into-attack-on-chelsea-3-in-black-sea",
+              "source": "Bulgarian News Agency (BTA), 16 October 2026"
+            },
+            {
+              "url": "https://english.news.cn/20261013/47f6256a6df14d0fa9d054cfbffaedef/c.html",
+              "source": "Xinhua, quoting Prime Minister Rumen Radev, 13 October 2026"
+            },
+            {
+              "url": "https://www.novinite.com/articles/241018/All+15+Crew+Members+Evacuated+From+Damaged+Ship+Near+Byala",
+              "source": "Novinite, quoting Varna regional governor Mario Smarkov, 13 October 2026"
+            },
+            {
+              "url": "https://safety4sea.com/turkish-and-bulgarian-authorities-conduct-black-sea-vessel-recoveries/",
+              "source": "SAFETY4SEA, Chelsea 3 towed to Burgas, October 2026"
             }
           ]
         }
