@@ -8107,6 +8107,74 @@
           ]
         }
       ]
+    },
+    "INC-20261006-001": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "human_impact": {
+        "missing": {
+          "count": 10,
+          "as_of": "2026-10-06",
+          "sources": [
+            {
+              "url": "https://www.euronews.com/2026/10/06/drones-hit-two-ships-off-coast-of-bulgaria-as-government-calls-emergency-meeting",
+              "source": "Euronews, 7 October 2026"
+            },
+            {
+              "url": "https://bgnes.com/conflicts/damascus-fate-of-nine-syrian-sailors-unknown-after-drone-strike-sinks-ship-off-bulgaria",
+              "source": "BGNES, 8 October 2026, quoting Syrias ports authority through AFP"
+            }
+          ]
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-22T12:54:50Z",
+        "vessel_name": "ALFA WATAN",
+        "date_utc": "2026-10-06",
+        "vessel_type": "General cargo",
+        "region": "Black Sea",
+        "location_text": "About 70 nautical miles east of Byala, inside the Bulgarian exclusive economic zone",
+        "summary": "Alfa Watan, an 83 metre Togolese-flagged general cargo ship owned by Mersin-based Baraka Shipping, sank in the early hours of 6 October 2026 after sea and aerial drones struck it about 70 nautical miles east of Byala, inside the Bulgarian exclusive economic zone. Ten seafarers were aboard and none was recovered; Bulgaria ended its search that afternoon after an overturned lifeboat, three life rafts and debris were found.",
+        "date_note": "Bulgarian officials put the attack at about 03:00 local time on 6 October 2026. Some reports first published on 6 October were updated on 7 October; the attack date is 6 October.",
+        "sources": [
+          {
+            "url": "https://www.euronews.com/2026/10/06/drones-hit-two-ships-off-coast-of-bulgaria-as-government-calls-emergency-meeting",
+            "source": "Euronews, updated 7 October 2026, quoting Bulgarias rescue service and Maritime.bg"
+          },
+          {
+            "url": "https://yacnews.com/russian-drones-hit-three-turkish-owned-cargo-ships-off-romania-and-bulgaria-in-two-days-2-dead",
+            "source": "YAC News, 6 October 2026, quoting Prime Minister Rumen Radev"
+          },
+          {
+            "url": "https://bgnes.com/conflicts/damascus-fate-of-nine-syrian-sailors-unknown-after-drone-strike-sinks-ship-off-bulgaria",
+            "source": "BGNES, 8 October 2026, quoting Syrias ports authority through AFP"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-22T12:54:50Z",
+          "text": "First review of this record. Bulgaria called off the search for the ten crew on the afternoon of 6 October, so all ten remain missing and no death is confirmed. Syrias General Authority for Ports and Customs told AFP the crew was ten, nine Syrian and one Egyptian, and said their fate was unknown: that is a crew list, not a count of deaths, so no nationality is recorded. Reports of an Azerbaijani captain killed and a second Azerbaijani crew member missing concern the Royad Mammadov, sunk off Romania on 5 October, and are not attached to this ship.",
+          "sources": [
+            {
+              "url": "https://www.euronews.com/2026/10/06/drones-hit-two-ships-off-coast-of-bulgaria-as-government-calls-emergency-meeting",
+              "source": "Euronews, 7 October 2026"
+            },
+            {
+              "url": "https://bgnes.com/conflicts/damascus-fate-of-nine-syrian-sailors-unknown-after-drone-strike-sinks-ship-off-bulgaria",
+              "source": "BGNES, 8 October 2026"
+            },
+            {
+              "url": "https://yacnews.com/russian-drones-hit-three-turkish-owned-cargo-ships-off-romania-and-bulgaria-in-two-days-2-dead",
+              "source": "YAC News, 6 October 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -9044,6 +9112,81 @@
             {
               "url": "https://www.gercekgundem.com/gundem/dron-saldirisina-ugrayan-gemi-giresun-aciklarina-suruklendi-kayip-turk-muhendis-bulunamadi-580938",
               "source": "Gercek Gundem (Demiroren Haber Ajansi), 22 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6341263980,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6341263980",
+      "author": "iMariner",
+      "received_at": "2026-10-22T12:54:50Z",
+      "incident_id": "INC-20261006-001",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261006-001",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-22T12:54:50Z",
+          "vessel_name": "ALFA WATAN",
+          "date_utc": "2026-10-06",
+          "vessel_type": "General cargo",
+          "region": "Black Sea",
+          "location_text": "About 70 nautical miles east of Byala, inside the Bulgarian exclusive economic zone",
+          "summary": "Alfa Watan, an 83 metre Togolese-flagged general cargo ship owned by Mersin-based Baraka Shipping, sank in the early hours of 6 October 2026 after sea and aerial drones struck it about 70 nautical miles east of Byala, inside the Bulgarian exclusive economic zone. Ten seafarers were aboard and none was recovered; Bulgaria ended its search that afternoon after an overturned lifeboat, three life rafts and debris were found.",
+          "date_note": "Bulgarian officials put the attack at about 03:00 local time on 6 October 2026. Some reports first published on 6 October were updated on 7 October; the attack date is 6 October.",
+          "sources": [
+            {
+              "url": "https://www.euronews.com/2026/10/06/drones-hit-two-ships-off-coast-of-bulgaria-as-government-calls-emergency-meeting",
+              "source": "Euronews, updated 7 October 2026, quoting Bulgarias rescue service and Maritime.bg"
+            },
+            {
+              "url": "https://yacnews.com/russian-drones-hit-three-turkish-owned-cargo-ships-off-romania-and-bulgaria-in-two-days-2-dead",
+              "source": "YAC News, 6 October 2026, quoting Prime Minister Rumen Radev"
+            },
+            {
+              "url": "https://bgnes.com/conflicts/damascus-fate-of-nine-syrian-sailors-unknown-after-drone-strike-sinks-ship-off-bulgaria",
+              "source": "BGNES, 8 October 2026, quoting Syrias ports authority through AFP"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "human_impact": {
+          "missing": {
+            "count": 10,
+            "as_of": "2026-10-06",
+            "sources": [
+              {
+                "url": "https://www.euronews.com/2026/10/06/drones-hit-two-ships-off-coast-of-bulgaria-as-government-calls-emergency-meeting",
+                "source": "Euronews, 7 October 2026"
+              },
+              {
+                "url": "https://bgnes.com/conflicts/damascus-fate-of-nine-syrian-sailors-unknown-after-drone-strike-sinks-ship-off-bulgaria",
+                "source": "BGNES, 8 October 2026, quoting Syrias ports authority through AFP"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-10-22T12:54:50Z",
+          "text": "First review of this record. Bulgaria called off the search for the ten crew on the afternoon of 6 October, so all ten remain missing and no death is confirmed. Syrias General Authority for Ports and Customs told AFP the crew was ten, nine Syrian and one Egyptian, and said their fate was unknown: that is a crew list, not a count of deaths, so no nationality is recorded. Reports of an Azerbaijani captain killed and a second Azerbaijani crew member missing concern the Royad Mammadov, sunk off Romania on 5 October, and are not attached to this ship.",
+          "sources": [
+            {
+              "url": "https://www.euronews.com/2026/10/06/drones-hit-two-ships-off-coast-of-bulgaria-as-government-calls-emergency-meeting",
+              "source": "Euronews, 7 October 2026"
+            },
+            {
+              "url": "https://bgnes.com/conflicts/damascus-fate-of-nine-syrian-sailors-unknown-after-drone-strike-sinks-ship-off-bulgaria",
+              "source": "BGNES, 8 October 2026"
+            },
+            {
+              "url": "https://yacnews.com/russian-drones-hit-three-turkish-owned-cargo-ships-off-romania-and-bulgaria-in-two-days-2-dead",
+              "source": "YAC News, 6 October 2026"
             }
           ]
         }
