@@ -7897,6 +7897,77 @@
           ]
         }
       ]
+    },
+    "INC-20261021-008": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261021-ukmto_warning_179_26.pdf",
+            "source": "UKMTO warning 179-26, all crew reported safe"
+          },
+          {
+            "url": "https://www.moneycontrol.com/world/strait-of-hormuz-kuwait-flagged-tanker-carrying-21-indians-hit-by-projectile-all-safe-article-14057091.html",
+            "source": "Moneycontrol, quoting Shipping Minister Sarbananda Sonowal, 22 October 2026"
+          }
+        ],
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-22T06:46:00Z",
+        "vessel_name": "AL DASMA",
+        "date_utc": "2026-10-21",
+        "vessel_type": "Oil products tanker",
+        "region": "Strait of Hormuz",
+        "location_text": "11 nautical miles west of Bukha, Oman",
+        "summary": "UKMTO warning 179-26 records a tanker struck by an unknown projectile at 0145 UTC on 21 October 2026, 11 nautical miles west of Bukha, Oman; the resulting fire was extinguished, the tanker was at anchor, all crew were reported safe and no environmental impact was reported. Riviera Maritime Media identifies the vessel as the Kuwait Oil Tanker Company product tanker Al Dasma, citing Navarea IX and Ambrey reports of a security incident at the same position. India's Minister of Ports, Shipping and Waterways Sarbananda Sonowal said the Kuwait-flagged oil product tanker M/T AL DASMA was carrying 21 Indian seafarers and that all of them, and the rest of the crew, were completely safe. The IMO confirmed incidents list records AL DASMA (IMO 9653446) as its second attack, damaged with no pollution.",
+        "date_note": "UKMTO warning 179-26 gives the incident date as 21 October 2026 at 0145 UTC. The IMO confirmed incidents list dates the second AL DASMA attack 20 October. Both describe one attack on this vessel in the Strait of Hormuz, and this record keeps the UKMTO date.",
+        "imo": "9653446",
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261021-ukmto_warning_179_26.pdf",
+            "source": "UKMTO warning 179-26, 21 October 2026"
+          },
+          {
+            "url": "https://www.rivieramm.com/news-content-hub/kotc-tanker-on-fire-and-adrift-in-strait-of-hormuz-sts-operation-targeted-in-iraq-90323",
+            "source": "Riviera Maritime Media, 21 October 2026"
+          },
+          {
+            "url": "https://www.moneycontrol.com/world/strait-of-hormuz-kuwait-flagged-tanker-carrying-21-indians-hit-by-projectile-all-safe-article-14057091.html",
+            "source": "Moneycontrol, quoting Shipping Minister Sarbananda Sonowal's post, 22 October 2026"
+          },
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO confirmed incidents list, checked 22 October 2026"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-22T06:46:00Z",
+          "text": "First structured casualty record for the Al Dasma attack of 21 October. UKMTO reports all crew safe after the projectile strike and the fire, and India's shipping minister said all 21 Indian seafarers aboard were safe along with the rest of the crew. Riviera Maritime Media identifies the tanker as the Kuwait Oil Tanker Company vessel Al Dasma. No deaths are recorded and no injury report was found. The IMO list dates the attack 20 October while UKMTO gives 0145 UTC on 21 October; they describe one attack and this desk keeps the UKMTO date.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261021-ukmto_warning_179_26.pdf",
+              "source": "UKMTO warning 179-26, 21 October 2026"
+            },
+            {
+              "url": "https://www.rivieramm.com/news-content-hub/kotc-tanker-on-fire-and-adrift-in-strait-of-hormuz-sts-operation-targeted-in-iraq-90323",
+              "source": "Riviera Maritime Media, 21 October 2026"
+            },
+            {
+              "url": "https://www.moneycontrol.com/world/strait-of-hormuz-kuwait-flagged-tanker-carrying-21-indians-hit-by-projectile-all-safe-article-14057091.html",
+              "source": "Moneycontrol, 22 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents list, checked 22 October 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -8494,6 +8565,84 @@
             {
               "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
               "source": "IMO confirmed incident register, as at 20 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6334553652,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6334553652",
+      "author": "iMariner",
+      "received_at": "2026-10-22T06:43:55Z",
+      "incident_id": "INC-20261021-008",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261021-008",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-22T06:46:00Z",
+          "vessel_name": "AL DASMA",
+          "date_utc": "2026-10-21",
+          "vessel_type": "Oil products tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "11 nautical miles west of Bukha, Oman",
+          "summary": "UKMTO warning 179-26 records a tanker struck by an unknown projectile at 0145 UTC on 21 October 2026, 11 nautical miles west of Bukha, Oman; the resulting fire was extinguished, the tanker was at anchor, all crew were reported safe and no environmental impact was reported. Riviera Maritime Media identifies the vessel as the Kuwait Oil Tanker Company product tanker Al Dasma, citing Navarea IX and Ambrey reports of a security incident at the same position. India's Minister of Ports, Shipping and Waterways Sarbananda Sonowal said the Kuwait-flagged oil product tanker M/T AL DASMA was carrying 21 Indian seafarers and that all of them, and the rest of the crew, were completely safe. The IMO confirmed incidents list records AL DASMA (IMO 9653446) as its second attack, damaged with no pollution.",
+          "date_note": "UKMTO warning 179-26 gives the incident date as 21 October 2026 at 0145 UTC. The IMO confirmed incidents list dates the second AL DASMA attack 20 October. Both describe one attack on this vessel in the Strait of Hormuz, and this record keeps the UKMTO date.",
+          "imo": "9653446",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261021-ukmto_warning_179_26.pdf",
+              "source": "UKMTO warning 179-26, 21 October 2026"
+            },
+            {
+              "url": "https://www.rivieramm.com/news-content-hub/kotc-tanker-on-fire-and-adrift-in-strait-of-hormuz-sts-operation-targeted-in-iraq-90323",
+              "source": "Riviera Maritime Media, 21 October 2026"
+            },
+            {
+              "url": "https://www.moneycontrol.com/world/strait-of-hormuz-kuwait-flagged-tanker-carrying-21-indians-hit-by-projectile-all-safe-article-14057091.html",
+              "source": "Moneycontrol, quoting Shipping Minister Sarbananda Sonowal's post, 22 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents list, checked 22 October 2026"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261021-ukmto_warning_179_26.pdf",
+              "source": "UKMTO warning 179-26, all crew reported safe"
+            },
+            {
+              "url": "https://www.moneycontrol.com/world/strait-of-hormuz-kuwait-flagged-tanker-carrying-21-indians-hit-by-projectile-all-safe-article-14057091.html",
+              "source": "Moneycontrol, quoting Shipping Minister Sarbananda Sonowal, 22 October 2026"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-10-22T06:46:00Z",
+          "text": "First structured casualty record for the Al Dasma attack of 21 October. UKMTO reports all crew safe after the projectile strike and the fire, and India's shipping minister said all 21 Indian seafarers aboard were safe along with the rest of the crew. Riviera Maritime Media identifies the tanker as the Kuwait Oil Tanker Company vessel Al Dasma. No deaths are recorded and no injury report was found. The IMO list dates the attack 20 October while UKMTO gives 0145 UTC on 21 October; they describe one attack and this desk keeps the UKMTO date.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261021-ukmto_warning_179_26.pdf",
+              "source": "UKMTO warning 179-26, 21 October 2026"
+            },
+            {
+              "url": "https://www.rivieramm.com/news-content-hub/kotc-tanker-on-fire-and-adrift-in-strait-of-hormuz-sts-operation-targeted-in-iraq-90323",
+              "source": "Riviera Maritime Media, 21 October 2026"
+            },
+            {
+              "url": "https://www.moneycontrol.com/world/strait-of-hormuz-kuwait-flagged-tanker-carrying-21-indians-hit-by-projectile-all-safe-article-14057091.html",
+              "source": "Moneycontrol, 22 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents list, checked 22 October 2026"
             }
           ]
         }
