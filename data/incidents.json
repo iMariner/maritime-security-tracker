@@ -4032,16 +4032,35 @@
         "kind": "media",
         "published_at": "2026-10-17T07:53:45Z",
         "title": "Two Drone-Damaged Vessels Run Aground Off Istanbul Amid Severe Weather - Marine Insight"
+      },
+      {
+        "url": "https://www.marineinsight.com/two-drone-damaged-vessels-run-aground-off-istanbul-amid-severe-weather/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-22T04:33:34Z",
+        "title": null
+      },
+      {
+        "url": "https://safety4sea.com/vessels-damaged-in-black-sea-attacks-run-aground-off-istanbul-amid-severe-weather/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-22T04:33:34Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-17T11:07:58Z",
-    "last_updated": "2026-10-18T05:06:07Z",
+    "last_updated": "2026-10-22T04:33:34Z",
     "verification_issue": 172,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-18T05:06:07Z",
-      "note": "no vessel was attacked that day: Marine Insight reports two tankers damaged in earlier drone attacks, Banda and Grace Romavictor, ran aground off Istanbul in bad weather"
+      "by": "iMariner",
+      "at": "2026-10-22T04:33:34Z",
+      "note": "Both groundings were of tankers damaged weeks earlier, Banda in a drone attack on 14 July and Grace Romavictor in an earlier Black Sea strike, so no vessel was attacked on 17 October.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/172#issuecomment-6332769584"
     },
     "published_in": [
       "2026-10-18"
@@ -4479,9 +4498,9 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.5,
-    "vessel_name": null,
+    "vessel_name": "CHELSEA 3",
     "imo": null,
-    "flag": null,
+    "flag": "Malta",
     "vessel_type": null,
     "vessel_category": "merchant",
     "lat": 43.4,
@@ -4502,18 +4521,43 @@
         "kind": "media",
         "published_at": "2026-10-17T13:52:25Z",
         "title": "Атакованное дронами в Черном море судно отбуксировали с места удара - prospect.com.ru"
+      },
+      {
+        "url": "https://prospect.com.ru/news/7102624/atakovannoe-dronami-v-chernom-more-sudno-otbuksirovali-s-mesta-udara.html",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-22T04:33:32Z",
+        "title": null
+      },
+      {
+        "url": "https://bnrnews.bg/en/post/541584/drone-struck-ships-in-latest-black-sea-attack-were-empty",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-22T04:33:32Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-17T14:22:51Z",
-    "last_updated": "2026-10-18T05:06:07Z",
+    "last_updated": "2026-10-22T04:33:32Z",
     "verification_issue": 174,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-22T04:33:32Z",
+      "note": "The vessel towed from the strike site was the Chelsea 3, hit by three drones off Byala on 13 October, which is already recorded as INC-20261013-007, so this duplicates that incident.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/174#issuecomment-6332769897"
+    },
     "published_in": [
       "2026-10-18"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261013-007"
+    "merged_into": "INC-20261013-007",
+    "status_changed_at": "2026-10-22T04:33:32Z"
   },
   {
     "region": "Black Sea",
@@ -4586,16 +4630,26 @@
         "kind": "media",
         "published_at": "2026-10-17T12:22:30Z",
         "title": "US and Iran both claim control of Strait of Hormuz amid attacks on vessels - Al Jazeera"
+      },
+      {
+        "url": "https://www.aljazeera.com/news/2026/10/17/us-and-iran-both-claim-control-of-strait-of-hormuz-amid-attacks-on-vessels",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-22T04:33:31Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-17T14:22:55Z",
-    "last_updated": "2026-10-18T05:06:07Z",
+    "last_updated": "2026-10-22T04:33:31Z",
     "verification_issue": 175,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-18T05:06:07Z",
-      "note": "no vessel attacked and no incident of its own; Al Jazeera reported a dispute over control of the strait"
+      "by": "iMariner",
+      "at": "2026-10-22T04:33:31Z",
+      "note": "The Al Jazeera article is a round-up on who controls the strait and names no vessel or incident of its own, so it records no attack.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/175#issuecomment-6332770123"
     },
     "published_in": [
       "2026-10-18"
@@ -4952,9 +5006,9 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.6,
-    "vessel_name": null,
-    "imo": null,
-    "flag": null,
+    "vessel_name": "ON PEACE",
+    "imo": "9893204",
+    "flag": "Panama",
     "vessel_type": null,
     "vessel_category": "merchant",
     "lat": 24.8,
@@ -4975,18 +5029,43 @@
         "kind": "media",
         "published_at": "2026-10-17T14:07:39Z",
         "title": "India Condemns Attack on Commercial Vessel off Oman; 11 Indians Injured - INDIA New England News"
+      },
+      {
+        "url": "https://www.thehindu.com/news/national/indian-crew-attacked-in-mt-on-peace-vessel-attack-strait-of-hormuz/article71551158.ece",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-22T04:33:29Z",
+        "title": null
+      },
+      {
+        "url": "https://ddindia.co.in/2026/10/india-condemns-attack-on-vessel-off-oman-11-indian-crew-members-injured/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-22T04:33:29Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-17T17:31:01Z",
-    "last_updated": "2026-10-18T05:06:07Z",
+    "last_updated": "2026-10-22T04:33:29Z",
     "verification_issue": 178,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-22T04:33:29Z",
+      "note": "India's condemnation concerned the Panama-flagged MT On Peace, struck on 6 October with 12 crew injured including 11 Indians, which is already recorded as INC-20261006-006.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/178#issuecomment-6332770600"
+    },
     "published_in": [
       "2026-10-18"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261006-006"
+    "merged_into": "INC-20261006-006",
+    "status_changed_at": "2026-10-22T04:33:29Z"
   },
   {
     "region": "Black Sea",
@@ -7743,16 +7822,26 @@
         "kind": "media",
         "published_at": "2026-10-15T23:56:17Z",
         "title": "Iran attacks tankers, but the flow of oil through the Strait of Hormuz unexpectedly increased - Українські Національні Новини (УНН)"
+      },
+      {
+        "url": "https://unn.ua/news/iran-atakuie-tankery-ale-potik-nafty-cherez-ormuzku-protoku-nespodivano-zris",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-22T04:33:28Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-17T17:31:10Z",
-    "last_updated": "2026-10-18T05:06:07Z",
+    "last_updated": "2026-10-22T04:33:28Z",
     "verification_issue": 179,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-18T05:06:07Z",
-      "note": "no incident of its own: a round-up that names no vessel and reports oil flows rising"
+      "by": "iMariner",
+      "at": "2026-10-22T04:33:28Z",
+      "note": "The report is a market round-up on oil flows through Hormuz that names no vessel, date or position, so it is not an incident of its own.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/179#issuecomment-6332770336"
     },
     "published_in": [
       "2026-10-18"
