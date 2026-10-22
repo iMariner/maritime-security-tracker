@@ -8027,6 +8027,69 @@
           ]
         }
       ]
+    },
+    "INC-20261016-013": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261017-ukmto_warning-175-26.pdf",
+            "source": "UKMTO warning 175-26, crew accounted for and reported safe"
+          }
+        ],
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-22T06:45:20Z",
+        "vessel_name": "LOYALTY",
+        "date_utc": "2026-10-16",
+        "vessel_type": "Crude oil tanker",
+        "region": "Persian Gulf",
+        "location_text": "78 nautical miles northeast of Al Jubail, Saudi Arabia",
+        "summary": "The IMO confirmed incidents list records LOYALTY (IMO 9182306) as damaged with no pollution 78 nautical miles northeast of Al Jubail, Saudi Arabia, on 16 October 2026. UKMTO warning 175-26 reports that a tanker's master was attacked by an RPG fired from a small boat at 1922 UTC that day, 78 nautical miles northeast of Al Jubail, causing damage to the aft port quarter, with the crew accounted for and reported safe. UKMTO warning 174-26 covers a separate report the same day, a tanker struck by an unknown projectile 68 nautical miles northeast of Al Jubail, which the IMO list records against ST3.",
+        "date_note": "UKMTO issued warning 175-26 on 17 October for an incident it dates 16 October 2026 at 1922 UTC; the IMO list also dates the LOYALTY damage 16 October.",
+        "imo": "9182306",
+        "sources": [
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO confirmed incidents list, checked 22 October 2026"
+          },
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261017-ukmto_warning-175-26.pdf",
+            "source": "UKMTO warning 175-26, 78NM northeast of Al Jubail"
+          },
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261016-ukmto_warning_174-26.pdf",
+            "source": "UKMTO warning 174-26, 68NM northeast of Al Jubail"
+          },
+          {
+            "url": "https://www.vesselfinder.com/vessels/details/9182306",
+            "source": "VesselFinder vessel record for LOYALTY, IMO 9182306"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-22T06:45:20Z",
+          "text": "First structured verification for LOYALTY, bringing the record into the reviewed set. The IMO register places LOYALTY at 78 nautical miles northeast of Al Jubail on 16 October, damaged with no pollution. UKMTO warning 175-26 reports an RPG attack from a small boat on a tanker at the same distance at 1922 UTC, damaging the aft port quarter, with the crew accounted for and reported safe. UKMTO withheld the vessel name, so the identification rests on the identical date and position; the separate 68 nautical mile attack that day is recorded against ST3. No deaths are recorded, and no casualty figure for the vessel has been published beyond the crew being safe.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents list, checked 22 October 2026"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261017-ukmto_warning-175-26.pdf",
+              "source": "UKMTO warning 175-26"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9182306",
+              "source": "VesselFinder vessel record for LOYALTY"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -8768,6 +8831,76 @@
             {
               "url": "https://www.vesselfinder.com/vessels/details/9263916",
               "source": "VesselFinder vessel record for SOYIA"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6334575237,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6334575237",
+      "author": "iMariner",
+      "received_at": "2026-10-22T06:45:20Z",
+      "incident_id": "INC-20261016-013",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261016-013",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-22T06:45:20Z",
+          "vessel_name": "LOYALTY",
+          "date_utc": "2026-10-16",
+          "vessel_type": "Crude oil tanker",
+          "region": "Persian Gulf",
+          "location_text": "78 nautical miles northeast of Al Jubail, Saudi Arabia",
+          "summary": "The IMO confirmed incidents list records LOYALTY (IMO 9182306) as damaged with no pollution 78 nautical miles northeast of Al Jubail, Saudi Arabia, on 16 October 2026. UKMTO warning 175-26 reports that a tanker's master was attacked by an RPG fired from a small boat at 1922 UTC that day, 78 nautical miles northeast of Al Jubail, causing damage to the aft port quarter, with the crew accounted for and reported safe. UKMTO warning 174-26 covers a separate report the same day, a tanker struck by an unknown projectile 68 nautical miles northeast of Al Jubail, which the IMO list records against ST3.",
+          "date_note": "UKMTO issued warning 175-26 on 17 October for an incident it dates 16 October 2026 at 1922 UTC; the IMO list also dates the LOYALTY damage 16 October.",
+          "imo": "9182306",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents list, checked 22 October 2026"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261017-ukmto_warning-175-26.pdf",
+              "source": "UKMTO warning 175-26, 78NM northeast of Al Jubail"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261016-ukmto_warning_174-26.pdf",
+              "source": "UKMTO warning 174-26, 68NM northeast of Al Jubail"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9182306",
+              "source": "VesselFinder vessel record for LOYALTY, IMO 9182306"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261017-ukmto_warning-175-26.pdf",
+              "source": "UKMTO warning 175-26, crew accounted for and reported safe"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-10-22T06:45:20Z",
+          "text": "First structured verification for LOYALTY, bringing the record into the reviewed set. The IMO register places LOYALTY at 78 nautical miles northeast of Al Jubail on 16 October, damaged with no pollution. UKMTO warning 175-26 reports an RPG attack from a small boat on a tanker at the same distance at 1922 UTC, damaging the aft port quarter, with the crew accounted for and reported safe. UKMTO withheld the vessel name, so the identification rests on the identical date and position; the separate 68 nautical mile attack that day is recorded against ST3. No deaths are recorded, and no casualty figure for the vessel has been published beyond the crew being safe.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents list, checked 22 October 2026"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261017-ukmto_warning-175-26.pdf",
+              "source": "UKMTO warning 175-26"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9182306",
+              "source": "VesselFinder vessel record for LOYALTY"
             }
           ]
         }
