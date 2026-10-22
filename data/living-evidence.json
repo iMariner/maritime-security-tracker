@@ -172,6 +172,45 @@
       },
       "audit_notes": [
         "Opened article reproduces authority statement, but authority-hosted original not located. Exact statement supports IMO/date/tanker/all17safe. Nationality must not be derived from flag. Coordinate/time differences with Romanian reporting require caution; do not add precise coordinates from this alone."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "http://www.bgnes.com/conflicts/tanker-hit-by-drones-in-romanian-waters-fire-reported-off-sulina-crew-safe",
+            "source": "BGNES, 15 October 2026"
+          },
+          {
+            "url": "https://newsonair.gov.in/no-casualties-reported-as-indian-crewed-vessels-hit-by-projectile-and-drone-in-separate-incidents/",
+            "source": "News On AIR (Akashvani), quoting Shipping Minister Sarbananda Sonowal, 17 October 2026"
+          }
+        ],
+        "nationalities": []
+      },
+      "updates": [
+        {
+          "at": "2026-10-22T00:35:00Z",
+          "text": "First structured casualty record for the Yara J fire. Romanian authorities reported 17 crew from Syria, India and Iran aboard, and the crew extinguished the fire after the 14 October incident and confirmed everyone on board was safe; no death is recorded. India's Shipping Minister Sarbananda Sonowal said all 24 Indian seafarers on the Yara J and MT ST 3 were safe with no casualties or injuries, and the Indian embassy in Bucharest confirmed on 17 October that all nine Indian seafarers aboard the Yara J were safe and the tanker had reached Constanta. Romania's Defence Minister Radu Miruta said military radars had not detected a drone heading for the tanker and that the cause was still being established, so the drone attribution remains unconfirmed. The 17 crew nationalities are crew composition, not a death nationality count.",
+          "sources": [
+            {
+              "url": "http://www.bgnes.com/conflicts/tanker-hit-by-drones-in-romanian-waters-fire-reported-off-sulina-crew-safe",
+              "source": "BGNES, 15 October 2026"
+            },
+            {
+              "url": "https://odessa-journal.com/public/tanker-catches-fire-near-romanias-sulina-port-following-suspected-drone-attack",
+              "source": "Odesa Journal, 15 October 2026"
+            },
+            {
+              "url": "https://newsonair.gov.in/no-casualties-reported-as-indian-crewed-vessels-hit-by-projectile-and-drone-in-separate-incidents/",
+              "source": "News On AIR (Akashvani), quoting Shipping Minister Sarbananda Sonowal, 17 October 2026"
+            },
+            {
+              "url": "https://www.thehindu.com/news/national/all-nine-indian-seafarers-safe-as-drone-hit-tanker-reaches-romanian-port-embassy/article71596802.ece",
+              "source": "The Hindu, quoting the Indian embassy in Bucharest, 17 October 2026"
+            }
+          ]
+        }
       ]
     },
     "INC-20261015-001": {
@@ -8275,6 +8314,79 @@
             {
               "url": "https://safety4sea.com/turkish-and-bulgarian-authorities-conduct-black-sea-vessel-recoveries/",
               "source": "SAFETY4SEA, Chelsea 3 towed to Burgas, October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6329783440,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6329783440",
+      "author": "iMariner",
+      "received_at": "2026-10-22T00:36:56Z",
+      "incident_id": "INC-20261015-006",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-20T18:24:59.111068+00:00",
+          "vessel_name": "YARA J",
+          "date_utc": "2026-10-14",
+          "vessel_type": "chemical tanker",
+          "region": "Black Sea",
+          "summary": "A reproduced statement from Comoros maritime authority ANAM identifies Yara J as the tanker attacked by a military drone at Sulina on 14 October. It reports all 17 crew safe.",
+          "sources": [
+            {
+              "url": "https://www.habarizacomores.com/2026/10/attaque-dun-petrolier-battant-pavillon.html",
+              "source": "HabarizaComores — reproduced ANAM statement"
+            },
+            {
+              "url": "https://www.ndtv.com/india-news/24-indian-seafarers-safe-after-tankers-attacked-in-strait-of-hormuz-romania-12197556",
+              "source": "NDTV / ANI, quoting India’s shipping minister"
+            }
+          ],
+          "imo": "9221803",
+          "location_text": "Sulina Anchorage, Romania"
+        },
+        "audit_notes": [
+          "Opened article reproduces authority statement, but authority-hosted original not located. Exact statement supports IMO/date/tanker/all17safe. Nationality must not be derived from flag. Coordinate/time differences with Romanian reporting require caution; do not add precise coordinates from this alone."
+        ]
+      },
+      "change": {
+        "incident_id": "INC-20261015-006",
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "http://www.bgnes.com/conflicts/tanker-hit-by-drones-in-romanian-waters-fire-reported-off-sulina-crew-safe",
+              "source": "BGNES, 15 October 2026"
+            },
+            {
+              "url": "https://newsonair.gov.in/no-casualties-reported-as-indian-crewed-vessels-hit-by-projectile-and-drone-in-separate-incidents/",
+              "source": "News On AIR (Akashvani), quoting Shipping Minister Sarbananda Sonowal, 17 October 2026"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-10-22T00:35:00Z",
+          "text": "First structured casualty record for the Yara J fire. Romanian authorities reported 17 crew from Syria, India and Iran aboard, and the crew extinguished the fire after the 14 October incident and confirmed everyone on board was safe; no death is recorded. India's Shipping Minister Sarbananda Sonowal said all 24 Indian seafarers on the Yara J and MT ST 3 were safe with no casualties or injuries, and the Indian embassy in Bucharest confirmed on 17 October that all nine Indian seafarers aboard the Yara J were safe and the tanker had reached Constanta. Romania's Defence Minister Radu Miruta said military radars had not detected a drone heading for the tanker and that the cause was still being established, so the drone attribution remains unconfirmed. The 17 crew nationalities are crew composition, not a death nationality count.",
+          "sources": [
+            {
+              "url": "http://www.bgnes.com/conflicts/tanker-hit-by-drones-in-romanian-waters-fire-reported-off-sulina-crew-safe",
+              "source": "BGNES, 15 October 2026"
+            },
+            {
+              "url": "https://odessa-journal.com/public/tanker-catches-fire-near-romanias-sulina-port-following-suspected-drone-attack",
+              "source": "Odesa Journal, 15 October 2026"
+            },
+            {
+              "url": "https://newsonair.gov.in/no-casualties-reported-as-indian-crewed-vessels-hit-by-projectile-and-drone-in-separate-incidents/",
+              "source": "News On AIR (Akashvani), quoting Shipping Minister Sarbananda Sonowal, 17 October 2026"
+            },
+            {
+              "url": "https://www.thehindu.com/news/national/all-nine-indian-seafarers-safe-as-drone-hit-tanker-reaches-romanian-port-embassy/article71596802.ece",
+              "source": "The Hindu, quoting the Indian embassy in Bucharest, 17 October 2026"
             }
           ]
         }
