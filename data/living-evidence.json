@@ -8190,6 +8190,51 @@
           ]
         }
       ]
+    },
+    "INC-20261019-018": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-22T19:25:00Z",
+        "vessel_name": "CHLOE",
+        "date_utc": "2026-10-19",
+        "vessel_type": "Crude oil tanker",
+        "region": "Gulf of Oman",
+        "location_text": "121 nautical miles from the coast of Oman",
+        "imo": "9315367",
+        "summary": "The IMO confirmed incidents list records CHLOE (IMO 9315367) damaged in the Gulf of Oman, 121 nautical miles from the coast of Oman, on 19 October 2026, with no pollution reported. Public register data identify IMO 9315367 as the crude oil tanker CHLOE, a 333 metre VLCC built in 2007 and sailing under the Hong Kong flag, with the former names MINERVA V, KASSOS I and SPYROS.",
+        "date_note": "Day precision only: the IMO list gives 19 October and no event time. The list prints the name as CHLOE (MIVERVA V); IMO 9315367 has MINERVA V among its recorded former names, so the parenthetical is read as that former name.",
+        "sources": [
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO confirmed incidents list, checked 22 October 2026"
+          },
+          {
+            "url": "https://www.vesselfinder.com/vessels/details/9315367",
+            "source": "VesselFinder particulars and name history for IMO 9315367, checked 22 October 2026"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-22T19:25:00Z",
+          "text": "First structured review of this record. The IMO confirmed incidents list records CHLOE, IMO 9315367, as damaged 121 nautical miles from the coast of Oman on 19 October 2026 with no pollution. Register data confirm that IMO as the crude oil tanker CHLOE under the Hong Kong flag. The sources say nothing about crew casualties, so deaths are recorded as unknown rather than zero and no nationality is recorded.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents list, checked 22 October 2026"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9315367",
+              "source": "VesselFinder particulars and name history for IMO 9315367, checked 22 October 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -9316,6 +9361,58 @@
             {
               "url": "https://agerpres.ro/english/2026/10/15/five-crew-members-from-wine-trader-rescued-seven-others-remain-missing--1603262",
               "source": "Romanian Naval Authority press release via AGERPRES, 15 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6349067212,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6349067212",
+      "author": "iMariner",
+      "received_at": "2026-10-22T19:10:20Z",
+      "incident_id": "INC-20261019-018",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261019-018",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-22T19:25:00Z",
+          "vessel_name": "CHLOE",
+          "date_utc": "2026-10-19",
+          "vessel_type": "Crude oil tanker",
+          "region": "Gulf of Oman",
+          "location_text": "121 nautical miles from the coast of Oman",
+          "imo": "9315367",
+          "summary": "The IMO confirmed incidents list records CHLOE (IMO 9315367) damaged in the Gulf of Oman, 121 nautical miles from the coast of Oman, on 19 October 2026, with no pollution reported. Public register data identify IMO 9315367 as the crude oil tanker CHLOE, a 333 metre VLCC built in 2007 and sailing under the Hong Kong flag, with the former names MINERVA V, KASSOS I and SPYROS.",
+          "date_note": "Day precision only: the IMO list gives 19 October and no event time. The list prints the name as CHLOE (MIVERVA V); IMO 9315367 has MINERVA V among its recorded former names, so the parenthetical is read as that former name.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents list, checked 22 October 2026"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9315367",
+              "source": "VesselFinder particulars and name history for IMO 9315367, checked 22 October 2026"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-10-22T19:25:00Z",
+          "text": "First structured review of this record. The IMO confirmed incidents list records CHLOE, IMO 9315367, as damaged 121 nautical miles from the coast of Oman on 19 October 2026 with no pollution. Register data confirm that IMO as the crude oil tanker CHLOE under the Hong Kong flag. The sources say nothing about crew casualties, so deaths are recorded as unknown rather than zero and no nationality is recorded.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents list, checked 22 October 2026"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9315367",
+              "source": "VesselFinder particulars and name history for IMO 9315367, checked 22 October 2026"
             }
           ]
         }
