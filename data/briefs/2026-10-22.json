@@ -39,5 +39,49 @@
   "generated_at": "2026-10-22T04:38:46Z",
   "consistency_fixed": [],
   "consistency_problems": [],
-  "quality": "3 check(s) need attention: dates 4 approximate; attribution 6 claims without a named source; official coverage 0/0 ok; verified 3/15; single-source items 5, 5 without verification; confirmed 1 marked confirmed without proof; fact-check 2 correction(s); tweet 229/280 ok; dashes ok; consistency ok"
+  "quality": "3 check(s) need attention: dates 4 approximate; attribution 6 claims without a named source; official coverage 0/0 ok; verified 3/15; single-source items 5, 5 without verification; confirmed 1 marked confirmed without proof; fact-check 2 correction(s); tweet 229/280 ok; dashes ok; consistency ok",
+  "review": {
+    "status": "done",
+    "at": "2026-10-22T05:06:16Z",
+    "changes": [
+      "merged INC-20261020-009 into INC-20261006-011 (the Able sinking off Turkey is the aftermath of the drone attack on her off Byala on 6 October, already recorded)",
+      "update on INC-20261006-011: the Palau-flagged general cargo ship Able, struck by a drone 70 nautical miles east of Byala on 6 October while carrying",
+      "lead story set to INC-20261021-008 (the newest attack of the last 24 hours, a tanker set on fire 11 nautical miles w)",
+      "name of INC-20261021-008 set to AL DASMA",
+      "imo of INC-20261021-008 set to 9653446",
+      "INC-20261021-008 marked confirmed (UKMTO warning 179-26 reports the strike 11NM west of Bukha on 21 October and the IMO confirmed incidents list records AL DASMA damaged)",
+      "name of INC-20261021-005 set to SOYIA",
+      "flag of INC-20261021-005 set to Liberia",
+      "imo of INC-20261021-005 set to 9263916",
+      "date of INC-20261021-005 set to 2026-10-20",
+      "damage of INC-20261021-005 set to struck by an unknown projectile, no damage or environmental impact reported",
+      "casualties of INC-20261021-005 set to all crew reported safe",
+      "INC-20261021-005 marked confirmed (UKMTO warning 180-26 reports the master's report of a strike 30NM southeast of Al Faw on 20 October, and Seatrade names the tanker Soyia)",
+      "flag of INC-20261018-014 set to Netherlands",
+      "INC-20261016-013 marked confirmed (the IMO confirmed incidents list records LOYALTY damaged 78 NM northeast of Al Jubail on 16 October)",
+      "INC-20261019-017 marked confirmed (UKMTO warning 178-26 reports the interaction 121 nm east of Duqm on 19 October)",
+      "flag of INC-20261020-010 cleared (the IRGC claim named no vessel, and the Qatar flag came from a separate headline)",
+      "INC-20261019-005 marked rejected (a Turkish transit headline about an unnamed tanker attacked earlier by a UAV, with no attack on 19 October)",
+      "INC-20261019-016 marked rejected (a transit report of the NELSA, struck near Novorossiysk on 20 July per the Caspian Pipeline Consortium, with no attack on 19 October)",
+      "INC-20261019-014 marked rejected (a Kenya fuel supply story about tankers stalled in the Strait of Hormuz, naming no ship and giving no date or attack of its own)",
+      "INC-20261019-015 marked rejected (a round-up headline about Black Sea tensions that names no ship, date or position)",
+      "INC-20261021-012 marked rejected (the Houthi claim on the tanker Amzan off Yanbu of 24 August, re-served by a Yemen Online page dated 25 August 2026)",
+      "INC-20261021-017 marked rejected (Reuters of 11 July 2026 on Iran declaring the strait closed after a warning shot, re-served by an aggregator)",
+      "lesson (facts): A named ship can be attacked twice: the IMO list carries the same vessel under separate dates, so check her earlier reco",
+      "lesson (writing): Never attach a claim made about an unnamed vessel to a named ship: give such a claim in its own sentence with the date a"
+    ],
+    "refused": [],
+    "notes": [
+      "In the Strait of Hormuz and the Gulf section name the tanker struck off Bukha as the Kuwaiti-flagged Aframax AL DASMA, hit at 01:45 UTC on 21 October about 11 nautical miles west of Bukha, Oman, with the fire extinguished and all crew safe; carry the name in the headline, standfirst, lede, paragraph, key points and tweet, and say the IMO list dates the strike 20 October while UKMTO warning 179-26 gives 21 October.",
+      "In the same section call JIF BARRACUDA a Dutch-flagged tug, not a tanker, in the standfirst, key points, paragraph and tweet, and do not present UKMTO warning 177-26's tug struck by two projectiles as a second vessel: it is the same incident, and the injury is one minor casualty.",
+      "Remove the sentence crediting JIF BARRACUDA with a sea mine claim by Iran's Revolutionary Guards: the Guards' 20 October mine claims named no vessel and gCaptain reported them as unsubstantiated, so keep the mine claim only in the paragraph about those claims.",
+      "In the Earlier in the week Gulf paragraph name the tanker struck southeast of Al Faw as the Greek-owned, Liberian-flagged products tanker SOYIA, hit 30 nautical miles southeast of Al Faw at 18:30 UTC on 20 October with no damage reported and all crew safe, per UKMTO warning 180-26 and Seatrade.",
+      "In the Black Sea section report the Able's sinking as an update to her 6 October attack: say the Palau-flagged general cargo ship, hit 70 nautical miles east of Byala while carrying barley to Turkey, drifted unmanned and sank off the Turkish coast after vanishing from radar late on 19 October."
+    ],
+    "restored": [
+      "INC-20261006-011"
+    ],
+    "send_after": false,
+    "lead": "INC-20261021-008"
+  }
 }
