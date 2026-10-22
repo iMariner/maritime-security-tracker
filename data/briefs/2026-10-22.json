@@ -76,5 +76,14 @@
     ],
     "send_after": false,
     "lead": "INC-20261021-008"
+  },
+  "final_read": {
+    "status": "warnings",
+    "at": "2026-10-22T05:28:23Z",
+    "warnings": [
+      "The Earlier in the week Gulf sentence still says 21 October and leaves the tanker unnamed, although UKMTO warning 180-26 dates that strike 20 October at 18:30 UTC and the record names her as the Liberian-flagged Soyia, so the body disagrees with the Sources list.",
+      "The Al Dasma name and Kuwaiti flag in the headline and lede rest on the IMO confirmed incidents list and Seatrade, while UKMTO warning 179-26 reports only an unnamed tanker, so the lede's \"UKMTO reported\" covers the strike, not the identification.",
+      "Four sentences open with a lower-case letter (uKMTO twice, iran's, russia's) because the writer code lowercases the first letter of earlier paragraphs, a code fix rather than a data error."
+    ]
   }
 }
