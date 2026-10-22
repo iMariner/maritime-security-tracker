@@ -216,27 +216,24 @@
     "INC-20261015-001": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T14:20:00.362452+00:00",
+        "checked_at": "2026-10-22T12:55:39Z",
         "vessel_name": "WINE TRADER",
         "date_utc": "2026-10-15",
-        "vessel_type": "tanker",
+        "vessel_type": "Tanker",
         "region": "Black Sea",
-        "summary": "Wine Trader caught fire off Sulina on 15 October. Later reporting quotes its manager describing a drone attack and seven crew still missing: six Beninese and one Russian national. Missing crew are not counted as confirmed deaths.",
+        "location_text": "At anchor about 13 nautical miles south-east of Sulina, Romania",
+        "summary": "Wine Trader, a San Marino-flagged chemical tanker bound for Giurgiulesti in Moldova, was struck by drones at anchor off Sulina on 15 October 2026 and caught fire. Twelve crew were aboard: nine Beninese, two Croatian and one Bosnian, according to the San Marino Ship Register. Five were rescued, including the master, and seven remain unaccounted for.",
+        "date_note": "Romanian authorities date the fire to about 07:00 local time on 15 October 2026, with the first drone strike at about 04:00; the attack date is 15 October.",
         "sources": [
           {
-            "url": "https://portal.rna.ro/wp-content/uploads/2026/10/Comunicat-de-presa-15.10.2026-Incident-nava-Wine-Trader.pdf",
-            "source": "Romanian Naval Authority — initial rescue statement"
+            "url": "https://www.capital.gr/english/4024378/drone-attack-on-the-wine-trader-in-the-black-sea-search-and-rescue-operations-underway/",
+            "source": "San Marino Ship Register statement, carried by Capital.gr, 19 October 2026"
           },
           {
-            "url": "https://www.turkiyetoday.com/world/russian-black-sea-strikes-deepen-perfect-storm-for-food-supplies-eu-3230696",
-            "source": "Türkiye Today — named manager’s account"
-          },
-          {
-            "url": "https://www.shipfinder.com/maritime-news/maritime-security/chemical-tanker-fire-wine-trader-sulina",
-            "source": "ShipFinder News"
+            "url": "https://agerpres.ro/english/2026/10/15/five-crew-members-from-wine-trader-rescued-seven-others-remain-missing--1603262",
+            "source": "Romanian Naval Authority press release via AGERPRES, 15 October 2026"
           }
-        ],
-        "location_text": "Off Sulina, Romania"
+        ]
       },
       "audit_notes": [
         "Feed general cargo type is wrong: reporting identifies chemical tanker. Initial primary statement says8missing4safe; later reporting7missing5safe. Preserve chronology. Seven missing, including6Beninese1Russian, is NOT seven confirmed deaths and must not feed death-nationality totals. Original Maritime.bg manager interview https://www.maritime.bg/156457/ linked by TürkiyeToday returned429."
@@ -244,11 +241,15 @@
       "human_impact": {
         "missing": {
           "count": 7,
-          "as_of": "2026-10-20",
+          "as_of": "2026-10-22",
           "sources": [
             {
-              "url": "https://www.turkiyetoday.com/world/russian-black-sea-strikes-deepen-perfect-storm-for-food-supplies-eu-3230696",
-              "source": "Türkiye Today — named manager’s account"
+              "url": "https://www.capital.gr/english/4024378/drone-attack-on-the-wine-trader-in-the-black-sea-search-and-rescue-operations-underway/",
+              "source": "San Marino Ship Register statement, 19 October 2026"
+            },
+            {
+              "url": "https://agerpres.ro/english/2026/10/15/five-crew-members-from-wine-trader-rescued-seven-others-remain-missing--1603262",
+              "source": "Romanian Naval Authority press release via AGERPRES, 15 October 2026"
             }
           ]
         }
@@ -261,6 +262,20 @@
             {
               "url": "https://www.turkiyetoday.com/world/russian-black-sea-strikes-deepen-perfect-storm-for-food-supplies-eu-3230696",
               "source": "Türkiye Today — named manager’s account"
+            }
+          ]
+        },
+        {
+          "at": "2026-10-22T12:55:39Z",
+          "text": "The flag state register lists the crew as nine Beninese, two Croatian and one Bosnian. That conflicts with the manager account used earlier in this record, which placed one Russian among the seven missing. The count of seven unaccounted for, with five rescued including the master, is unchanged. No body has been reported, so deaths stay unknown and the nationalities of the missing are not counted.",
+          "sources": [
+            {
+              "url": "https://www.capital.gr/english/4024378/drone-attack-on-the-wine-trader-in-the-black-sea-search-and-rescue-operations-underway/",
+              "source": "San Marino Ship Register statement, 19 October 2026"
+            },
+            {
+              "url": "https://agerpres.ro/english/2026/10/15/five-crew-members-from-wine-trader-rescued-seven-others-remain-missing--1603262",
+              "source": "Romanian Naval Authority press release via AGERPRES, 15 October 2026"
             }
           ]
         }
@@ -9187,6 +9202,120 @@
             {
               "url": "https://yacnews.com/russian-drones-hit-three-turkish-owned-cargo-ships-off-romania-and-bulgaria-in-two-days-2-dead",
               "source": "YAC News, 6 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6341279951,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6341279951",
+      "author": "iMariner",
+      "received_at": "2026-10-22T12:55:40Z",
+      "incident_id": "INC-20261015-001",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T14:20:00.362452+00:00",
+          "vessel_name": "WINE TRADER",
+          "date_utc": "2026-10-15",
+          "vessel_type": "tanker",
+          "region": "Black Sea",
+          "summary": "Wine Trader caught fire off Sulina on 15 October. Later reporting quotes its manager describing a drone attack and seven crew still missing: six Beninese and one Russian national. Missing crew are not counted as confirmed deaths.",
+          "sources": [
+            {
+              "url": "https://portal.rna.ro/wp-content/uploads/2026/10/Comunicat-de-presa-15.10.2026-Incident-nava-Wine-Trader.pdf",
+              "source": "Romanian Naval Authority — initial rescue statement"
+            },
+            {
+              "url": "https://www.turkiyetoday.com/world/russian-black-sea-strikes-deepen-perfect-storm-for-food-supplies-eu-3230696",
+              "source": "Türkiye Today — named manager’s account"
+            },
+            {
+              "url": "https://www.shipfinder.com/maritime-news/maritime-security/chemical-tanker-fire-wine-trader-sulina",
+              "source": "ShipFinder News"
+            }
+          ],
+          "location_text": "Off Sulina, Romania"
+        },
+        "audit_notes": [
+          "Feed general cargo type is wrong: reporting identifies chemical tanker. Initial primary statement says8missing4safe; later reporting7missing5safe. Preserve chronology. Seven missing, including6Beninese1Russian, is NOT seven confirmed deaths and must not feed death-nationality totals. Original Maritime.bg manager interview https://www.maritime.bg/156457/ linked by TürkiyeToday returned429."
+        ],
+        "human_impact": {
+          "missing": {
+            "count": 7,
+            "as_of": "2026-10-20",
+            "sources": [
+              {
+                "url": "https://www.turkiyetoday.com/world/russian-black-sea-strikes-deepen-perfect-storm-for-food-supplies-eu-3230696",
+                "source": "Türkiye Today — named manager’s account"
+              }
+            ]
+          }
+        },
+        "updates": [
+          {
+            "at": "2026-10-21T14:20:00.362452+00:00",
+            "text": "Follow-up reporting dated 20 October quotes the manager listing seven crew missing, including six Beninese and one Russian national. These are missing-person nationalities, not confirmed death-nationality counts.",
+            "sources": [
+              {
+                "url": "https://www.turkiyetoday.com/world/russian-black-sea-strikes-deepen-perfect-storm-for-food-supplies-eu-3230696",
+                "source": "Türkiye Today — named manager’s account"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "INC-20261015-001",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-22T12:55:39Z",
+          "vessel_name": "WINE TRADER",
+          "date_utc": "2026-10-15",
+          "vessel_type": "Tanker",
+          "region": "Black Sea",
+          "location_text": "At anchor about 13 nautical miles south-east of Sulina, Romania",
+          "summary": "Wine Trader, a San Marino-flagged chemical tanker bound for Giurgiulesti in Moldova, was struck by drones at anchor off Sulina on 15 October 2026 and caught fire. Twelve crew were aboard: nine Beninese, two Croatian and one Bosnian, according to the San Marino Ship Register. Five were rescued, including the master, and seven remain unaccounted for.",
+          "date_note": "Romanian authorities date the fire to about 07:00 local time on 15 October 2026, with the first drone strike at about 04:00; the attack date is 15 October.",
+          "sources": [
+            {
+              "url": "https://www.capital.gr/english/4024378/drone-attack-on-the-wine-trader-in-the-black-sea-search-and-rescue-operations-underway/",
+              "source": "San Marino Ship Register statement, carried by Capital.gr, 19 October 2026"
+            },
+            {
+              "url": "https://agerpres.ro/english/2026/10/15/five-crew-members-from-wine-trader-rescued-seven-others-remain-missing--1603262",
+              "source": "Romanian Naval Authority press release via AGERPRES, 15 October 2026"
+            }
+          ]
+        },
+        "human_impact": {
+          "missing": {
+            "count": 7,
+            "as_of": "2026-10-22",
+            "sources": [
+              {
+                "url": "https://www.capital.gr/english/4024378/drone-attack-on-the-wine-trader-in-the-black-sea-search-and-rescue-operations-underway/",
+                "source": "San Marino Ship Register statement, 19 October 2026"
+              },
+              {
+                "url": "https://agerpres.ro/english/2026/10/15/five-crew-members-from-wine-trader-rescued-seven-others-remain-missing--1603262",
+                "source": "Romanian Naval Authority press release via AGERPRES, 15 October 2026"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-10-22T12:55:39Z",
+          "text": "The flag state register lists the crew as nine Beninese, two Croatian and one Bosnian. That conflicts with the manager account used earlier in this record, which placed one Russian among the seven missing. The count of seven unaccounted for, with five rescued including the master, is unchanged. No body has been reported, so deaths stay unknown and the nationalities of the missing are not counted.",
+          "sources": [
+            {
+              "url": "https://www.capital.gr/english/4024378/drone-attack-on-the-wine-trader-in-the-black-sea-search-and-rescue-operations-underway/",
+              "source": "San Marino Ship Register statement, 19 October 2026"
+            },
+            {
+              "url": "https://agerpres.ro/english/2026/10/15/five-crew-members-from-wine-trader-rescued-seven-others-remain-missing--1603262",
+              "source": "Romanian Naval Authority press release via AGERPRES, 15 October 2026"
             }
           ]
         }
