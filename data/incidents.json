@@ -424,7 +424,7 @@
     "location_text": "Black Sea",
     "attack_type": "drone (UAV)",
     "damage": "struck and set adrift, according to Russia's defence ministry",
-    "casualties": "Turkish crew member reported missing",
+    "casualties": "none reported for the ships Russia says it struck on 22 October",
     "attribution_claimed": "Russia's defence ministry (Geran drone crews)",
     "independent_evidence": false,
     "id": "INC-20261022-006",
@@ -620,7 +620,7 @@
       }
     ],
     "first_seen": "2026-10-22T12:18:40Z",
-    "last_updated": "2026-10-23T00:07:23Z",
+    "last_updated": "2026-10-23T05:08:59Z",
     "verification_issue": 223,
     "verdict": null,
     "published_in": [
@@ -1082,14 +1082,20 @@
       }
     ],
     "first_seen": "2026-10-22T17:33:49Z",
-    "last_updated": "2026-10-22T17:33:49Z",
+    "last_updated": "2026-10-23T05:08:59Z",
     "verification_issue": 226,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "editor-check",
+      "at": "2026-10-23T05:08:59Z",
+      "note": "a threat to attack an Indian ship in the Red Sea, giving no vessel, position, date of any strike or damage, so no merchant ship was hit"
+    },
     "published_in": [
       "2026-10-23"
     ],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-10-23T05:08:59Z"
   },
   {
     "region": "Black Sea",
@@ -1124,14 +1130,20 @@
       }
     ],
     "first_seen": "2026-10-22T17:33:54Z",
-    "last_updated": "2026-10-22T17:33:54Z",
+    "last_updated": "2026-10-23T05:08:59Z",
     "verification_issue": 227,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "editor-check",
+      "at": "2026-10-23T05:08:59Z",
+      "note": "a Turkish headline about growing concern over Black Sea attacks, naming no vessel, date, position, damage or attacker"
+    },
     "published_in": [
       "2026-10-23"
     ],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-10-23T05:08:59Z"
   },
   {
     "region": "Strait of Hormuz",
