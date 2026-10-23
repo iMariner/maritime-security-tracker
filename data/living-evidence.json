@@ -552,25 +552,30 @@
     "HIST-ME-20261011-PETRO-DOLPHIN": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T03:06:19.845439+00:00",
+        "checked_at": "2026-10-23T01:19:00Z",
         "vessel_name": "PETRO DOLPHIN",
+        "imo": "1072294",
         "date_utc": "2026-10-11",
-        "vessel_type": "product tanker",
+        "vessel_type": "Oil products tanker",
         "region": "Strait of Hormuz",
         "location_text": "Sohar Anchorage, Gulf of Oman",
-        "summary": "IMO records PETRO DOLPHIN in its confirmed incident register for 2026-10-11 near Sohar Anchorage, Gulf of Oman. 2 seafarer(s) were listed missing; they are not counted as confirmed deaths.",
+        "attack_type": "Drone (UAV)",
+        "summary": "The Indian Ministry of Ports, Shipping and Waterways said the Nicaragua flagged tanker PETRO DOLPHIN was subjected to a drone attack at Sohar Anchorage, Oman, on 11 October 2026. Eleven Indian seafarers were aboard, nine were rescued and safe and two Indian nationals remained missing while the local coast guard searched. No death has been confirmed. The register lists IMO 1072294 as an oil products tanker of 3,922 deadweight tonnes built in 2004.",
+        "date_note": "Day precision date from the Indian government statements and the IMO register. The attack occurred at Sohar Anchorage; an exact UTC time was not given. The register lists the AIS flag as Nicaragua and the flag in its particulars table as Saint Kitts and Nevis.",
         "sources": [
           {
-            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 21 October 2026"
+            "url": "http://republicworld.com/world-news/mt-petro-dolphin-hit-by-drone-attack-off-oman-s-coast-two-indian-seafarers-missing-sonowal-2026-10-12-138746",
+            "source": "Republic World reporting Sarbananda Sonowal, Indian Minister of Ports, Shipping and Waterways, 12 October 2026"
           },
           {
-            "source": "VesselFinder",
-            "url": "https://www.vesselfinder.com/vessels/details/1072294"
+            "url": "https://gulfnews.com/world/mena/2-indian-seafarers-missing-after-hormuz-attack-seafarers-union-seeks-urgent-status-update-1.500706956",
+            "source": "Gulf News reporting the Indian embassy in Muscat and the FSUI, 12 October 2026"
+          },
+          {
+            "url": "https://www.vesselfinder.com/vessels/details/1072294",
+            "source": "VesselFinder vessel register"
           }
-        ],
-        "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
-        "imo": "1072294"
+        ]
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
@@ -607,6 +612,24 @@
             {
               "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
               "source": "IMO confirmed incident register, as at 20 October 2026"
+            }
+          ]
+        },
+        {
+          "at": "2026-10-23T01:19:00Z",
+          "text": "Follow-up on the two missing seafarers. Sarbananda Sonowal said on 12 October that nine of the 11 Indian seafarers were rescued and safe and that two Indian nationals remained missing while the local coast guard searched. No later statement from the Indian government, the flag state or the owner reporting the two as found or as dead was located in this check, so the two remain a dated missing person snapshot and are not counted as deaths. The FSUI said 12 crew were aboard, which conflicts with the figure of 11 Indian seafarers given by the minister, so the total crew is left unreconciled. A separate corpus record, INC-20261011-008, states that a UKMTO report of a tanker struck by a projectile in the Strait of Hormuz the same day described this same attack; that is wrong, because the same day strike in the strait hit the Marshall Islands flagged VALTHERA, a different vessel in a different place.",
+          "sources": [
+            {
+              "url": "http://republicworld.com/world-news/mt-petro-dolphin-hit-by-drone-attack-off-oman-s-coast-two-indian-seafarers-missing-sonowal-2026-10-12-138746",
+              "source": "Republic World reporting Sarbananda Sonowal, 12 October 2026"
+            },
+            {
+              "url": "https://gulfnews.com/world/mena/2-indian-seafarers-missing-after-hormuz-attack-seafarers-union-seeks-urgent-status-update-1.500706956",
+              "source": "Gulf News reporting the Indian embassy in Muscat and the FSUI, 12 October 2026"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/1072294",
+              "source": "VesselFinder vessel register"
             }
           ]
         }
@@ -9687,6 +9710,124 @@
             {
               "url": "https://timesofindia.indiatimes.com/india/1-indian-killed-19-rescued-after-mv-cape-dao-attacked-off-oman-mea-calls-for-end-to-shipping-attacks/articleshow/134442340.cms",
               "source": "Times of India reporting the Indian Ministry of External Affairs, 23 September 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6355066913,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6355066913",
+      "author": "iMariner",
+      "received_at": "2026-10-23T01:19:28Z",
+      "incident_id": "HIST-ME-20261011-PETRO-DOLPHIN",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T03:06:19.845439+00:00",
+          "vessel_name": "PETRO DOLPHIN",
+          "date_utc": "2026-10-11",
+          "vessel_type": "product tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "Sohar Anchorage, Gulf of Oman",
+          "summary": "IMO records PETRO DOLPHIN in its confirmed incident register for 2026-10-11 near Sohar Anchorage, Gulf of Oman. 2 seafarer(s) were listed missing; they are not counted as confirmed deaths.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            },
+            {
+              "source": "VesselFinder",
+              "url": "https://www.vesselfinder.com/vessels/details/1072294"
+            }
+          ],
+          "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
+          "imo": "1072294"
+        },
+        "audit_notes": [
+          "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+        ],
+        "human_impact": {
+          "missing": {
+            "count": 2,
+            "as_of": "2026-10-20",
+            "sources": [
+              {
+                "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+                "source": "IMO confirmed incident register, as at 20 October 2026"
+              },
+              {
+                "url": "https://www.tribuneindia.com/news/mt-petro-dolphin-hit-by-drone-attack-off-omans-coast-two-indian-seafarers-missing-sonowal/",
+                "source": "The Tribune (ANI), quoting Shipping Minister Sarbananda Sonowal and the Indian embassy in Muscat, 11 and 12 October 2026"
+              }
+            ]
+          }
+        },
+        "updates": [
+          {
+            "at": "2026-10-22T00:35:00Z",
+            "text": "First sourced casualty follow-up. India's Minister of Ports, Shipping and Waterways, Sarbananda Sonowal, said on 11 October that MT Petro Dolphin carried 11 Indian seafarers, that nine had been rescued and were safe, and that two Indian nationals remained missing while the Omani coast guard continued search and rescue; the Indian embassy in Muscat repeated that two of the 11 Indian seafarers were reported missing. The IMO register as at 20 October still lists two seafarers missing. Deaths remain unknown: the two missing men are not counted as dead, and their nationality is recorded here as a missing-person detail, not as a death nationality count.",
+            "sources": [
+              {
+                "url": "https://www.tribuneindia.com/news/mt-petro-dolphin-hit-by-drone-attack-off-omans-coast-two-indian-seafarers-missing-sonowal/",
+                "source": "The Tribune (ANI), quoting Shipping Minister Sarbananda Sonowal and the Indian embassy in Muscat, 11 and 12 October 2026"
+              },
+              {
+                "url": "https://www.thehindu.com/news/national/two-indian-seafarers-missing-nine-rescued-after-drone-attack-on-tanker-at-sohar-anchorage-says-sonowal/article71573679.ece",
+                "source": "The Hindu, 11 October 2026"
+              },
+              {
+                "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+                "source": "IMO confirmed incident register, as at 20 October 2026"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "HIST-ME-20261011-PETRO-DOLPHIN",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-23T01:19:00Z",
+          "vessel_name": "PETRO DOLPHIN",
+          "imo": "1072294",
+          "date_utc": "2026-10-11",
+          "vessel_type": "Oil products tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "Sohar Anchorage, Gulf of Oman",
+          "attack_type": "Drone (UAV)",
+          "summary": "The Indian Ministry of Ports, Shipping and Waterways said the Nicaragua flagged tanker PETRO DOLPHIN was subjected to a drone attack at Sohar Anchorage, Oman, on 11 October 2026. Eleven Indian seafarers were aboard, nine were rescued and safe and two Indian nationals remained missing while the local coast guard searched. No death has been confirmed. The register lists IMO 1072294 as an oil products tanker of 3,922 deadweight tonnes built in 2004.",
+          "date_note": "Day precision date from the Indian government statements and the IMO register. The attack occurred at Sohar Anchorage; an exact UTC time was not given. The register lists the AIS flag as Nicaragua and the flag in its particulars table as Saint Kitts and Nevis.",
+          "sources": [
+            {
+              "url": "http://republicworld.com/world-news/mt-petro-dolphin-hit-by-drone-attack-off-oman-s-coast-two-indian-seafarers-missing-sonowal-2026-10-12-138746",
+              "source": "Republic World reporting Sarbananda Sonowal, Indian Minister of Ports, Shipping and Waterways, 12 October 2026"
+            },
+            {
+              "url": "https://gulfnews.com/world/mena/2-indian-seafarers-missing-after-hormuz-attack-seafarers-union-seeks-urgent-status-update-1.500706956",
+              "source": "Gulf News reporting the Indian embassy in Muscat and the FSUI, 12 October 2026"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/1072294",
+              "source": "VesselFinder vessel register"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-10-23T01:19:00Z",
+          "text": "Follow-up on the two missing seafarers. Sarbananda Sonowal said on 12 October that nine of the 11 Indian seafarers were rescued and safe and that two Indian nationals remained missing while the local coast guard searched. No later statement from the Indian government, the flag state or the owner reporting the two as found or as dead was located in this check, so the two remain a dated missing person snapshot and are not counted as deaths. The FSUI said 12 crew were aboard, which conflicts with the figure of 11 Indian seafarers given by the minister, so the total crew is left unreconciled. A separate corpus record, INC-20261011-008, states that a UKMTO report of a tanker struck by a projectile in the Strait of Hormuz the same day described this same attack; that is wrong, because the same day strike in the strait hit the Marshall Islands flagged VALTHERA, a different vessel in a different place.",
+          "sources": [
+            {
+              "url": "http://republicworld.com/world-news/mt-petro-dolphin-hit-by-drone-attack-off-oman-s-coast-two-indian-seafarers-missing-sonowal-2026-10-12-138746",
+              "source": "Republic World reporting Sarbananda Sonowal, 12 October 2026"
+            },
+            {
+              "url": "https://gulfnews.com/world/mena/2-indian-seafarers-missing-after-hormuz-attack-seafarers-union-seeks-urgent-status-update-1.500706956",
+              "source": "Gulf News reporting the Indian embassy in Muscat and the FSUI, 12 October 2026"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/1072294",
+              "source": "VesselFinder vessel register"
             }
           ]
         }
