@@ -1168,39 +1168,80 @@
     "HIST-ME-20260923-CAPE-DAO": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T03:06:19.845439+00:00",
+        "checked_at": "2026-10-23T01:17:00Z",
         "vessel_name": "CAPE DAO",
+        "imo": "9219020",
         "date_utc": "2026-09-23",
-        "vessel_type": "bulk carrier",
+        "vessel_type": "Bulk carrier",
         "region": "Strait of Hormuz",
-        "location_text": "15NM northeast of Khasab, Oman",
-        "summary": "IMO records CAPE DAO in its confirmed incident register for 2026-09-23 near 15NM northeast of Khasab, Oman. Vessel damage was reported; the vessel sank. IMO confirms 1 seafarer death(s).",
+        "location_text": "Off Musandam Governorate, Oman",
+        "attack_type": "Unknown projectile, described by India as a missile strike and by a seafarers union as two torpedo hits",
+        "summary": "Omani authorities said the Antigua and Barbuda flagged bulk carrier CAPE DAO was targeted about 2.5 nautical miles off the Musandam Governorate on 23 September 2026, causing a fire in the engine room and the death of one crew member. A Royal Navy of Oman vessel evacuated 27 crew members, 19 of them Indian. The Indian Ministry of External Affairs said 20 Indian seafarers were aboard, 19 were rescued and one was killed. UKMTO reported the vessel struck by an unknown projectile at about 0630 UTC, on fire and adrift. No party has been identified as responsible.",
+        "date_note": "Day precision date from the Omani and Indian statements of 23 September 2026. UKMTO gives the event as about 0630 UTC the same day. Oman places the vessel 2.5 nautical miles off Musandam, while the IMO register entry places it 15 nautical miles northeast of Khasab.",
         "sources": [
           {
-            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 21 October 2026"
+            "url": "https://www.omanobserver.om/article/1196695/oman/community/one-dead-27-rescued-by-rno-after-attack-on-merchant-ship",
+            "source": "Oman Observer reporting the Omani Maritime Security Centre statement, 23 September 2026"
           },
           {
-            "source": "VesselFinder vessel register",
-            "url": "https://www.vesselfinder.com/vessels/details/9219020"
+            "url": "https://timesofindia.indiatimes.com/india/1-indian-killed-19-rescued-after-mv-cape-dao-attacked-off-oman-mea-calls-for-end-to-shipping-attacks/articleshow/134442340.cms",
+            "source": "Times of India reporting the Indian Ministry of External Affairs and the Indian embassy in Oman, 23 September 2026"
+          },
+          {
+            "url": "https://www.vesselfinder.com/vessels/details/9219020",
+            "source": "VesselFinder vessel register"
           }
-        ],
-        "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
-        "imo": "9219020"
+        ]
       },
       "casualties": {
         "status": "confirmed",
         "deaths": 1,
-        "nationalities": [],
         "sources": [
           {
-            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 21 October 2026"
+            "url": "https://www.omanobserver.om/article/1196695/oman/community/one-dead-27-rescued-by-rno-after-attack-on-merchant-ship",
+            "source": "Oman Observer reporting the Omani Maritime Security Centre statement, 23 September 2026"
+          },
+          {
+            "url": "https://timesofindia.indiatimes.com/india/1-indian-killed-19-rescued-after-mv-cape-dao-attacked-off-oman-mea-calls-for-end-to-shipping-attacks/articleshow/134442340.cms",
+            "source": "Times of India reporting the Indian Ministry of External Affairs, 23 September 2026"
+          }
+        ],
+        "nationalities": [
+          {
+            "nationality": "Indian",
+            "status": "confirmed",
+            "deaths": 1,
+            "sources": [
+              {
+                "url": "https://www.omanobserver.om/article/1196695/oman/community/one-dead-27-rescued-by-rno-after-attack-on-merchant-ship",
+                "source": "Oman Observer reporting the Indian embassy in Oman, 23 September 2026"
+              },
+              {
+                "url": "https://timesofindia.indiatimes.com/india/1-indian-killed-19-rescued-after-mv-cape-dao-attacked-off-oman-mea-calls-for-end-to-shipping-attacks/articleshow/134442340.cms",
+                "source": "Times of India reporting the Indian Ministry of External Affairs, 23 September 2026"
+              }
+            ]
           }
         ]
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+      ],
+      "updates": [
+        {
+          "at": "2026-10-23T01:17:00Z",
+          "text": "First authority sourced casualty detail for this record. The IMO register already gave one death; this update adds the nationality confirmed by the Indian embassy in Oman and the Indian Ministry of External Affairs, which said one of 20 Indian seafarers aboard was killed and 19 rescued, and it adds the Omani statement that one crew member died and 27 were evacuated. The position differs between the Omani statement and the IMO entry and both appear in the date note. The corpus record INC-20261004-008 carried this same 23 September death under a 4 October date and was rejected on 5 October; that rejection stands and the death is counted once, in this record.",
+          "sources": [
+            {
+              "url": "https://www.omanobserver.om/article/1196695/oman/community/one-dead-27-rescued-by-rno-after-attack-on-merchant-ship",
+              "source": "Oman Observer reporting the Omani Maritime Security Centre statement, 23 September 2026"
+            },
+            {
+              "url": "https://timesofindia.indiatimes.com/india/1-indian-killed-19-rescued-after-mv-cape-dao-attacked-off-oman-mea-calls-for-end-to-shipping-attacks/articleshow/134442340.cms",
+              "source": "Times of India reporting the Indian Ministry of External Affairs, 23 September 2026"
+            }
+          ]
+        }
       ]
     },
     "HIST-ME-20260921-AL-MARYAH": {
@@ -9526,6 +9567,126 @@
             {
               "url": "https://www.marinetraffic.com/en/maritime-news/15/maritime-security/2026/13308/turkish-coast-guard-responds-to-smoke-aboard-cargo-ship",
               "source": "MarineTraffic news, 13 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6355041069,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6355041069",
+      "author": "iMariner",
+      "received_at": "2026-10-23T01:17:24Z",
+      "incident_id": "HIST-ME-20260923-CAPE-DAO",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T03:06:19.845439+00:00",
+          "vessel_name": "CAPE DAO",
+          "date_utc": "2026-09-23",
+          "vessel_type": "bulk carrier",
+          "region": "Strait of Hormuz",
+          "location_text": "15NM northeast of Khasab, Oman",
+          "summary": "IMO records CAPE DAO in its confirmed incident register for 2026-09-23 near 15NM northeast of Khasab, Oman. Vessel damage was reported; the vessel sank. IMO confirms 1 seafarer death(s).",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            },
+            {
+              "source": "VesselFinder vessel register",
+              "url": "https://www.vesselfinder.com/vessels/details/9219020"
+            }
+          ],
+          "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
+          "imo": "9219020"
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 1,
+          "nationalities": [],
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            }
+          ]
+        },
+        "audit_notes": [
+          "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+        ]
+      },
+      "change": {
+        "incident_id": "HIST-ME-20260923-CAPE-DAO",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-23T01:17:00Z",
+          "vessel_name": "CAPE DAO",
+          "imo": "9219020",
+          "date_utc": "2026-09-23",
+          "vessel_type": "Bulk carrier",
+          "region": "Strait of Hormuz",
+          "location_text": "Off Musandam Governorate, Oman",
+          "attack_type": "Unknown projectile, described by India as a missile strike and by a seafarers union as two torpedo hits",
+          "summary": "Omani authorities said the Antigua and Barbuda flagged bulk carrier CAPE DAO was targeted about 2.5 nautical miles off the Musandam Governorate on 23 September 2026, causing a fire in the engine room and the death of one crew member. A Royal Navy of Oman vessel evacuated 27 crew members, 19 of them Indian. The Indian Ministry of External Affairs said 20 Indian seafarers were aboard, 19 were rescued and one was killed. UKMTO reported the vessel struck by an unknown projectile at about 0630 UTC, on fire and adrift. No party has been identified as responsible.",
+          "date_note": "Day precision date from the Omani and Indian statements of 23 September 2026. UKMTO gives the event as about 0630 UTC the same day. Oman places the vessel 2.5 nautical miles off Musandam, while the IMO register entry places it 15 nautical miles northeast of Khasab.",
+          "sources": [
+            {
+              "url": "https://www.omanobserver.om/article/1196695/oman/community/one-dead-27-rescued-by-rno-after-attack-on-merchant-ship",
+              "source": "Oman Observer reporting the Omani Maritime Security Centre statement, 23 September 2026"
+            },
+            {
+              "url": "https://timesofindia.indiatimes.com/india/1-indian-killed-19-rescued-after-mv-cape-dao-attacked-off-oman-mea-calls-for-end-to-shipping-attacks/articleshow/134442340.cms",
+              "source": "Times of India reporting the Indian Ministry of External Affairs and the Indian embassy in Oman, 23 September 2026"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9219020",
+              "source": "VesselFinder vessel register"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 1,
+          "sources": [
+            {
+              "url": "https://www.omanobserver.om/article/1196695/oman/community/one-dead-27-rescued-by-rno-after-attack-on-merchant-ship",
+              "source": "Oman Observer reporting the Omani Maritime Security Centre statement, 23 September 2026"
+            },
+            {
+              "url": "https://timesofindia.indiatimes.com/india/1-indian-killed-19-rescued-after-mv-cape-dao-attacked-off-oman-mea-calls-for-end-to-shipping-attacks/articleshow/134442340.cms",
+              "source": "Times of India reporting the Indian Ministry of External Affairs, 23 September 2026"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Indian",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "url": "https://www.omanobserver.om/article/1196695/oman/community/one-dead-27-rescued-by-rno-after-attack-on-merchant-ship",
+                  "source": "Oman Observer reporting the Indian embassy in Oman, 23 September 2026"
+                },
+                {
+                  "url": "https://timesofindia.indiatimes.com/india/1-indian-killed-19-rescued-after-mv-cape-dao-attacked-off-oman-mea-calls-for-end-to-shipping-attacks/articleshow/134442340.cms",
+                  "source": "Times of India reporting the Indian Ministry of External Affairs, 23 September 2026"
+                }
+              ]
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-10-23T01:17:00Z",
+          "text": "First authority sourced casualty detail for this record. The IMO register already gave one death; this update adds the nationality confirmed by the Indian embassy in Oman and the Indian Ministry of External Affairs, which said one of 20 Indian seafarers aboard was killed and 19 rescued, and it adds the Omani statement that one crew member died and 27 were evacuated. The position differs between the Omani statement and the IMO entry and both appear in the date note. The corpus record INC-20261004-008 carried this same 23 September death under a 4 October date and was rejected on 5 October; that rejection stands and the death is counted once, in this record.",
+          "sources": [
+            {
+              "url": "https://www.omanobserver.om/article/1196695/oman/community/one-dead-27-rescued-by-rno-after-attack-on-merchant-ship",
+              "source": "Oman Observer reporting the Omani Maritime Security Centre statement, 23 September 2026"
+            },
+            {
+              "url": "https://timesofindia.indiatimes.com/india/1-indian-killed-19-rescued-after-mv-cape-dao-attacked-off-oman-mea-calls-for-end-to-shipping-attacks/articleshow/134442340.cms",
+              "source": "Times of India reporting the Indian Ministry of External Affairs, 23 September 2026"
             }
           ]
         }
