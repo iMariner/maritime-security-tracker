@@ -1958,16 +1958,53 @@
       "casualties": {
         "status": "confirmed",
         "deaths": 1,
-        "nationalities": [],
+        "minimum": false,
         "sources": [
           {
             "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 21 October 2026"
+            "source": "IMO highlighted (confirmed) incidents register, checked 23 October 2026"
+          },
+          {
+            "url": "https://www.sunstar.com.ph/manila/1-pinoy-seafarer-dead-17-survive-attack-in-strait-of-hormuz",
+            "source": "SunStar Philippines reporting a Department of Migrant Workers statement, 23 August 2026"
+          }
+        ],
+        "nationalities": [
+          {
+            "nationality": "Filipino",
+            "status": "confirmed",
+            "deaths": 1,
+            "sources": [
+              {
+                "url": "https://www.sunstar.com.ph/manila/1-pinoy-seafarer-dead-17-survive-attack-in-strait-of-hormuz",
+                "source": "SunStar Philippines, Department of Migrant Workers statement: one Filipino seafarer died, 17 Filipino crew survived"
+              },
+              {
+                "url": "https://tribune.net.ph/2026/09/02/remains-of-slain-seaman-repatriated",
+                "source": "Daily Tribune, 2 September 2026: remains of the Minoan Dignity chief engineer repatriated from Oman"
+              }
+            ]
           }
         ]
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+      ],
+      "updates": [
+        {
+          "at": "2026-10-23T13:46:37Z",
+          "text": "Follow-up on the single documented death. The Philippine Department of Migrant Workers said one Filipino seafarer was killed aboard MINOAN DIGNITY and that the other 17 Filipino crew survived and were repatriated on 21 August. Daily Tribune reported the repatriation of the remains of the ship's Filipino chief engineer from Oman on 1 September. The single IMO-recorded fatality is therefore attributed to a Filipino national; the death count stays at one. No image is published.",
+          "sources": [
+            {
+              "url": "https://www.sunstar.com.ph/manila/1-pinoy-seafarer-dead-17-survive-attack-in-strait-of-hormuz",
+              "source": "SunStar Philippines, 23 August 2026"
+            },
+            {
+              "url": "https://tribune.net.ph/2026/09/02/remains-of-slain-seaman-repatriated",
+              "source": "Daily Tribune, 2 September 2026"
+            }
+          ]
+        }
       ]
     },
     "HIST-ME-20260815-RIYAN-STAR": {
@@ -10553,6 +10590,100 @@
             {
               "url": "https://www.vesselfinder.com/vessels/details/8138712",
               "source": "VesselFinder particulars"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6366369297,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6366369297",
+      "author": "iMariner",
+      "received_at": "2026-10-23T13:46:37Z",
+      "incident_id": "HIST-ME-20260817-MINOAN-DIGNITY",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T03:06:19.845439+00:00",
+          "vessel_name": "MINOAN DIGNITY",
+          "date_utc": "2026-08-17",
+          "vessel_type": "bulk carrier",
+          "region": "Strait of Hormuz",
+          "location_text": "Strait of Hormuz",
+          "summary": "IMO records MINOAN DIGNITY in its confirmed incident register for 2026-08-17 near Strait of Hormuz. Vessel damage was reported. IMO confirms 1 seafarer death(s).",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            },
+            {
+              "source": "Maritime Optima vessel register",
+              "url": "https://maritimeoptima.com/public/vessels/pages/imo%3A9294484/mmsi%3A636016405/MINOAN_DIGNITY.html"
+            }
+          ],
+          "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
+          "imo": "9294484"
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 1,
+          "nationalities": [],
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            }
+          ]
+        },
+        "audit_notes": [
+          "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+        ]
+      },
+      "change": {
+        "incident_id": "HIST-ME-20260817-MINOAN-DIGNITY",
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 1,
+          "minimum": false,
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO highlighted (confirmed) incidents register, checked 23 October 2026"
+            },
+            {
+              "url": "https://www.sunstar.com.ph/manila/1-pinoy-seafarer-dead-17-survive-attack-in-strait-of-hormuz",
+              "source": "SunStar Philippines reporting a Department of Migrant Workers statement, 23 August 2026"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Filipino",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "url": "https://www.sunstar.com.ph/manila/1-pinoy-seafarer-dead-17-survive-attack-in-strait-of-hormuz",
+                  "source": "SunStar Philippines, Department of Migrant Workers statement: one Filipino seafarer died, 17 Filipino crew survived"
+                },
+                {
+                  "url": "https://tribune.net.ph/2026/09/02/remains-of-slain-seaman-repatriated",
+                  "source": "Daily Tribune, 2 September 2026: remains of the Minoan Dignity chief engineer repatriated from Oman"
+                }
+              ]
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-10-23T13:46:37Z",
+          "text": "Follow-up on the single documented death. The Philippine Department of Migrant Workers said one Filipino seafarer was killed aboard MINOAN DIGNITY and that the other 17 Filipino crew survived and were repatriated on 21 August. Daily Tribune reported the repatriation of the remains of the ship's Filipino chief engineer from Oman on 1 September. The single IMO-recorded fatality is therefore attributed to a Filipino national; the death count stays at one. No image is published.",
+          "sources": [
+            {
+              "url": "https://www.sunstar.com.ph/manila/1-pinoy-seafarer-dead-17-survive-attack-in-strait-of-hormuz",
+              "source": "SunStar Philippines, 23 August 2026"
+            },
+            {
+              "url": "https://tribune.net.ph/2026/09/02/remains-of-slain-seaman-repatriated",
+              "source": "Daily Tribune, 2 September 2026"
             }
           ]
         }
