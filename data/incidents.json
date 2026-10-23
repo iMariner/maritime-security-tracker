@@ -1,6 +1,56 @@
 [
   {
     "region": "Black Sea",
+    "date_utc": "2026-10-23",
+    "summary": "Russia's defence ministry said its drones struck a dry cargo vessel at sea that was carrying cargo for Ukraine's armed forces to Odesa port. No vessel name, flag, position, damage details or casualties were given, and the claim was not independently confirmed.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 46.49,
+    "lon": 30.74,
+    "location_text": "at sea, en route to Odesa port, Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": "struck, according to Russia's defence ministry",
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry claimed it",
+    "independent_evidence": false,
+    "id": "INC-20261023-001",
+    "sources": [
+      {
+        "url": "https://t.me/mod_russia/68464",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-23T05:06:07+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/tass_agency/401866",
+        "source": "TASS",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-23T05:02:43+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-10-23T05:16:13Z",
+    "last_updated": "2026-10-23T05:16:14Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261022-006",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
     "date_utc": "2026-10-22T11:18:29Z",
     "summary": "A Turkish headline reports that a ship attacked in the Black Sea drifted to the coast of Giresun, Turkey, and that a Turkish crew member is missing. No vessel name, date, position or attacker is given.",
     "official_source_cited": null,
@@ -410,7 +460,7 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-10-22",
-    "summary": "Russia's defence ministry claimed its Geran drones struck several dry cargo ships and a container ship in the Black Sea on 22 October, saying they carried military cargo, with one vessel reported adrift and no names or damage given. Turkish reports said an attacked cargo ship drifted off Giresun with a Turkish crew member aboard, and RIA Novosti said two vessels bound for Odesa and Chornomorsk were hit.",
+    "summary": "Russia's defence ministry claimed its Geran drones struck dry cargo ships and a container ship in the Black Sea on 21 to 23 October, saying they carried military cargo for Ukraine, with one vessel reported adrift off Giresun. No vessel names, flags, positions or independent confirmation were given, and the claims come from the Russian side only.",
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.6,
@@ -419,8 +469,8 @@
     "flag": null,
     "vessel_type": "bulk carrier",
     "vessel_category": "merchant",
-    "lat": 46.3,
-    "lon": 30.66,
+    "lat": 43.4,
+    "lon": 34.5,
     "location_text": "Black Sea",
     "attack_type": "drone (UAV)",
     "damage": "struck and set adrift, according to Russia's defence ministry",
@@ -617,13 +667,205 @@
         "kind": "media",
         "published_at": "2026-10-22T22:49:38Z",
         "title": "Karadeniz'in ortasında dehşet: Dron saldırısı sonrası sürüklenen gemide kayıp mühendis bilmecesi - Havadis"
+      },
+      {
+        "url": "https://t.me/tass_agency/401388",
+        "source": "TASS",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-21T05:19:18+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/68385",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-21T05:18:50+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRi00cDhNNjc5bDNQRmVPZWZWWk5Wei15X1ZvZVBtTmIzOXdERlBTel9oN1dXLUhkTk5fT2pRUjFJalE3QzRqT3dtSFJ4MGZwRzJ1Tkk0eWRsUzBmTjd6LWVUdUduQ1VlSlphRkdkdzZsSlVheGRybFlwMllQTFMwcFBYMmRQTWVicjhRb0Z4QnNBZzZpR3JVZ3F3QV9GX3ktZElDV1R3cDItVmxZMlhxS0FMUdIBuAFBVV95cUxQZk8tb2JUZXAzWXV1NWxSUmNkVEtjandWQm1oY3lIN2diaFFZU2hDMEozZURBM3dkSWdBYkZkODlvakNYLXZXOTl1RTI5ZGtqYXFxU1hYbE1ESHMzS2NoRi1BWkQyYUNJaFJydHhDTHl2ZXV0SE9jRWR0bE5SYVUxR0tPMWVpLTBUMEY0OWtfRHBBR0JYa25YZUlrQUhXUUNDQURyYUVZYjYzR3k4eHFYMEdXOWJKQ1Jt?oc=5",
+        "source": "Al Arabiya English",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-21T07:15:00Z",
+        "title": "Russia hits cargo vessel, electric power substation in Ukraine - Al Arabiya English"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5jWFZacXN3RkEwODFmdS1QWmltbEUxSHRFQnFCLTRYRTJJUkY0MXQtYWlwOFVxQ3pKOXdQRWFpZVZ2STA?oc=5",
+        "source": "https://www.youlyou.com/",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-21T06:36:37Z",
+        "title": "روسيا تعلن استهداف سفينة شحن في أوكرانيا - https://www.youlyou.com/"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5oU2tWVXlYWC12TEl2Q0FuM19ISUltbnZJcW9OSnYxQXlkc05UUWp5c2RHbWFuVW90TDNWZnpRRV9ydmd0ZXpUZ3l6UFJKWmZydFlhc2l4YTlWcF9tY2IyTldoMDhLWVJQSzcycC1VRXFESlhSY3pMYXNB?oc=5",
+        "source": "Fakti.bg",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-21T06:16:00Z",
+        "title": "Russia says it struck cargo ship ᐉ News from Fakti.bg - World - Fakti.bg"
+      },
+      {
+        "url": "https://t.me/tass_agency/401480",
+        "source": "TASS",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-21T10:15:19+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/68388",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-21T07:00:05+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/68405",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-21T15:31:20+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOd3UxUlg5T2wyQmtMZlA0U0VQWldjN3RfbG5wLTJsaUR5MHZZZHZBS1U1WWYxdmxJSXBTOGdaZFdBM2JLWjBOUTI2UmJfeUs3VlJpMzE4bnV0MUh0c2FMbk5RRjd4Vm1aWkp3aFY3TWoyVXpvTm5HTlVLODJCZExwdDlvdWxqaGxDWDJXbWZsbXA2d1d4S0lLa2VEaWlmazdlZ0cw?oc=5",
+        "source": "Ukrainian Shipping Magazine",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-21T14:41:00Z",
+        "title": "Росія заявила про удари по п’яти вантажних суднах у Рені та на шляху до Одеси - Ukrainian Shipping Magazine"
+      },
+      {
+        "url": "https://t.me/dva_majors/100712",
+        "source": "Dva Mayora",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "osint",
+        "published_at": "2026-10-20T05:10:37+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/68362",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-20T04:59:37+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9Qd3ktclZzQ2k5a01QTmN1bEQ5elRtQTUtSkRMTkFNSTc0dlNGUE91SmItVkdFajJ1VlpRSjhPVTdXSGYzb0pTRlZ2NjFkRzBhdDRfeU43WHJBVk8yX2JSVlgtaw?oc=5",
+        "source": "أفريكا نيوز",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-19T20:54:54Z",
+        "title": "Russian Military Strikes Cargo Ship Heading for Port of Odesa - أفريكا نيوز"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUHgzQ2Y2bWJYSm9VdUF2N05tVktabXJHay0zTksxVUpwQzRxYm5ScUszbkdOanlzcmNmTmkxM0IwVGYyOUhGbkFXb282NW92MmdTVUpFTFdRcE01LXBzWU1JSGNtRFRaWk16WVVWWTJrUk9lSmVLUEIzYnlaYm5tRnZmNGptNEVialFHb0dveEUtbjMtSW5DTF9kLTlvT0k?oc=5",
+        "source": "Военное дело",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-20T03:19:24Z",
+        "title": "Russian Drones Strike Four Cargo Ships and Logistics Hubs - Военное дело"
+      },
+      {
+        "url": "https://t.me/mod_russia/68375",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-20T15:30:11+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdEFrV1UyUGoyeFhBMEllYjJkQUF5dExrWk9Qa3NsYlMxcXdOWXhka19udFRjSzh0d3FsT0NoRzhObGFPd3dkcGF0alhhdnpXeWQyVUxtOGU3YkpSLVpTZmhtOTRSXzl4T0lMSFNIYlQzTVlJNm9Fd2tfejU2Q001T1BZa0EtMTZmdFlabHgwWi04QmtOMkZVZkdUSFBpUmo4Q3NPZUFWT0p6TVp5ZnZhdDA5TDNHWkJEcUl4OHI1RzFJS3YyT1dmcWRZN2hrZnY0MVExWUp0YldoZHpnYlM0REREdw?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-20T19:25:49Z",
+        "title": "Russia claims attack on container ship at Ukraine port after string of dry cargo vessel attacks - TradeWinds News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaW5qX0hJTXRubEx6OElWZ0dKeXJITXhQcG52OGVEdlItZm4wVWZET3BfQ3dNUWtOUnVob1kxYXYyaW04ckVqWlFMZktONjBhSjg4U0h2OE9nUjRLbjh3U25sQTZRd2NXRUdRT3pOcVNXWTY4OExXUmpId3dkWlU4WXFjRlhUODhEWmc1NUU0SWVWVjRVSDFRWTNYbXJKNW5uUDlZYk5Ra2paSmFMZU9aZUd0LWU2TkxmOE9ReNIBvAFBVV95cUxOaW5qX0hJTXRubEx6OElWZ0dKeXJITXhQcG52OGVEdlItZm4wVWZET3BfQ3dNUWtOUnVob1kxYXYyaW04ckVqWlFMZktONjBhSjg4U0h2OE9nUjRLbjh3U25sQTZRd2NXRUdRT3pOcVNXWTY4OExXUmpId3dkWlU4WXFjRlhUODhEWmc1NUU0SWVWVjRVSDFRWTNYbXJKNW5uUDlZYk5Ra2paSmFMZU9aZUd0LWU2TkxmOE9ReA?oc=5",
+        "source": "Bengü Türk",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-20T18:23:10Z",
+        "title": "Rusya'dan Karadeniz'de yük gemilerine saldırı! Ukrayna yolundaki 5 gemi vuruldu - Bengü Türk"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTEhxcWt6Q2xEODRveEVLLXg3MklkMDRkOFd6WTVpNHdGalA0OVRJdFJ2aFY0NjVEYW9xcmZmemc2V3lUcGxzSmxrMTdFbGRKa3NGa2FMd0FUSV8tcXpHUzItUXZJeDh6bVZPT1YtS0otVlJZZWk5aVVxOHpPelNxLVlDLXRFMW02TU9DLXVxb0RpbG1HM3BkdFhyVFRCYWNvRURaT2xEcW1acnJyOERMUm03U0xjN03SAbwBQVVfeXFMTmlual9ISU10bmxMejhJVmdHSnlySE14UHBudjhlRHZSLWZuMFVmRE9wX0N3TVFrTlJ1aG9ZMWF2MmltOHJFalpRTGZLTjYwYUo4OFNIdjhPZ1I0S244d1NubEE2UXdjV0VHUU96TnFTV1k2ODhMV1JqSHd3ZFpVOFlxY0ZYVDg4RFpnNTVFNEllVlY0VUgxUVkzWG1ySjVublA5WWJOUWtqWkphTGVPWmVHdC1lNk5MZjhPUXg?oc=5",
+        "source": "Bengü Türk",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-20T18:23:10Z",
+        "title": "Rusya'dan Karadeniz'de yük gemilerine saldırı! Ukrayna yolundaki 5 gemi vuruldu - Bengü Türk"
+      },
+      {
+        "url": "https://t.me/mod_russia/68412",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-21T18:39:49+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBRRGdHeWFFMVo2RG5WcEkwQzhaVE5nZlRHRnJnN3lDUWlNNnZJY2dlSWJacGM3eVJJQTRuRF8yUWpqak1mTlVza00xc2otMEJLeUNR?oc=5",
+        "source": "Aqreqator.az",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-21T18:35:18Z",
+        "title": "Russia claims strike on ship bound for Odesa region - Aqreqator.az"
+      },
+      {
+        "url": "https://t.me/mod_russia/68464",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-23T05:06:07+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/tass_agency/401866",
+        "source": "TASS",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-23T05:02:43+00:00",
+        "title": null
       }
     ],
     "first_seen": "2026-10-22T12:18:40Z",
-    "last_updated": "2026-10-23T05:08:59Z",
+    "last_updated": "2026-10-23T05:16:14Z",
     "verification_issue": 223,
     "verdict": null,
     "published_in": [
+      "2026-10-20",
+      "2026-10-21",
+      "2026-10-22",
       "2026-10-23"
     ],
     "status": "claimed",
@@ -1506,7 +1748,7 @@
       }
     ],
     "first_seen": "2026-10-21T06:05:49Z",
-    "last_updated": "2026-10-21T20:52:57Z",
+    "last_updated": "2026-10-23T05:16:14Z",
     "verification_issue": 212,
     "verdict": null,
     "published_in": [
@@ -1515,9 +1757,10 @@
       "2026-10-22",
       "2026-10-23"
     ],
-    "status": "claimed",
+    "status": "merged",
     "position_approx": true,
-    "date_approx": false
+    "date_approx": false,
+    "merged_into": "INC-20261022-006"
   },
   {
     "region": "Black Sea",
