@@ -8491,6 +8491,79 @@
           ]
         }
       ]
+    },
+    "INC-20261023-002": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 1,
+        "minimum": true,
+        "sources": [
+          {
+            "url": "https://agerpres.ro/english/2026/10/23/major-rescue-operation-offshore-of-constanta-for-crew-of-vessel-at-risk-of-sinking-one-dead--1606115",
+            "source": "Agerpres, quoting the Romanian Naval Authority: one body recovered from the water"
+          }
+        ],
+        "nationalities": []
+      },
+      "human_impact": {
+        "missing": {
+          "count": 3,
+          "as_of": "2026-10-23",
+          "sources": [
+            {
+              "url": "https://agerpres.ro/english/2026/10/23/major-rescue-operation-offshore-of-constanta-for-crew-of-vessel-at-risk-of-sinking-one-dead--1606115",
+              "source": "Agerpres, quoting the Romanian Naval Authority: three crew still being searched for"
+            }
+          ]
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-23T13:43:32Z",
+        "vessel_name": "KHORYV",
+        "imo": "8138712",
+        "date_utc": "2026-10-23",
+        "vessel_type": "Ore/oil carrier",
+        "region": "Black Sea",
+        "location_text": "13 nautical miles off Constanta, outside Romanian territorial waters",
+        "attack_type": "drone (UAV)",
+        "summary": "KHORYV, a Comoros-flagged ore/oil carrier of 3,280 dwt built in 1983, was 13 nautical miles off Constanta en route from Eregli to Sulina when it sent a distress signal at about 10:00 local time on 23 October 2026. Romania's Naval Authority said the 13 crew were 10 Ukrainian and 3 Azerbaijani nationals, that intervention vessels recovered nine people alive and one body from the water, and that three crew were still missing while the search continued in poor weather. The ship capsized and sank. Romania's president, Nicusor Dan, said the vessel had been struck by a drone; the naval authority's statement did not establish the cause.",
+        "date_note": "Romanian local time on 23 October is UTC+3, so the 10:00 distress call was about 07:00 UTC on the same day. The day-precision UTC date is kept as reported.",
+        "sources": [
+          {
+            "url": "https://agerpres.ro/english/2026/10/23/major-rescue-operation-offshore-of-constanta-for-crew-of-vessel-at-risk-of-sinking-one-dead--1606115",
+            "source": "Agerpres, quoting the Romanian Naval Authority, 23 October 2026"
+          },
+          {
+            "url": "https://agerpres.ro/english/2026/10/23/incident-at-sea-nine-sailors-rescued-after-vessel-sinking-brought-to-port-of-constanta--1606234",
+            "source": "Agerpres, nine rescued brought to Constanta, 23 October 2026"
+          },
+          {
+            "url": "https://www.ziuaconstanta.ro/stiri/eveniment/alerta-in-marea-neagra-nava-khoryv-in-dificultate-la-13-mile-marine-de-constanta-noua-marinari-au-fost-salvati-unul-a-murit-iar-alti-trei-sunt-957751.html",
+            "source": "Ziua de Constanta, full Romanian Naval Authority communique, 23 October 2026"
+          },
+          {
+            "url": "https://www.vesselfinder.com/vessels/details/8138712",
+            "source": "VesselFinder particulars: IMO 8138712, ore/oil carrier, Comoros flag, built 1983"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-23T13:43:32Z",
+          "text": "First reviewed living record for this sinking, checked against the Romanian Naval Authority communique as carried by Agerpres and Ziua de Constanta. One death is confirmed because one body was recovered; the three crew still missing are recorded as a dated missing snapshot, not as deaths, and the confirmed death count is flagged as a minimum while the search continues. The authority gave the crew as 10 Ukrainians and 3 Azerbaijanis but did not attribute a nationality to the dead or the missing, so no nationality count is recorded for the death. Vessel name, flag and type were checked against the AIS registry entry. No image is published.",
+          "sources": [
+            {
+              "url": "https://agerpres.ro/english/2026/10/23/major-rescue-operation-offshore-of-constanta-for-crew-of-vessel-at-risk-of-sinking-one-dead--1606115",
+              "source": "Agerpres, 23 October 2026"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/8138712",
+              "source": "VesselFinder particulars"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -10400,6 +10473,86 @@
             {
               "url": "https://n1info.hr/vijesti/hrvatski-pomorac-nestao-u-crnom-moru-nakon-napada-na-tanker-jo-jedan-ozlijeen/",
               "source": "N1 Croatia reporting Večernji list and the ITF inspector Adrian Mihalcioiu, 22 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6366307250,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6366307250",
+      "author": "iMariner",
+      "received_at": "2026-10-23T13:43:32Z",
+      "incident_id": "INC-20261023-002",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261023-002",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-23T13:43:32Z",
+          "vessel_name": "KHORYV",
+          "imo": "8138712",
+          "date_utc": "2026-10-23",
+          "vessel_type": "Ore/oil carrier",
+          "region": "Black Sea",
+          "location_text": "13 nautical miles off Constanta, outside Romanian territorial waters",
+          "attack_type": "drone (UAV)",
+          "summary": "KHORYV, a Comoros-flagged ore/oil carrier of 3,280 dwt built in 1983, was 13 nautical miles off Constanta en route from Eregli to Sulina when it sent a distress signal at about 10:00 local time on 23 October 2026. Romania's Naval Authority said the 13 crew were 10 Ukrainian and 3 Azerbaijani nationals, that intervention vessels recovered nine people alive and one body from the water, and that three crew were still missing while the search continued in poor weather. The ship capsized and sank. Romania's president, Nicusor Dan, said the vessel had been struck by a drone; the naval authority's statement did not establish the cause.",
+          "date_note": "Romanian local time on 23 October is UTC+3, so the 10:00 distress call was about 07:00 UTC on the same day. The day-precision UTC date is kept as reported.",
+          "sources": [
+            {
+              "url": "https://agerpres.ro/english/2026/10/23/major-rescue-operation-offshore-of-constanta-for-crew-of-vessel-at-risk-of-sinking-one-dead--1606115",
+              "source": "Agerpres, quoting the Romanian Naval Authority, 23 October 2026"
+            },
+            {
+              "url": "https://agerpres.ro/english/2026/10/23/incident-at-sea-nine-sailors-rescued-after-vessel-sinking-brought-to-port-of-constanta--1606234",
+              "source": "Agerpres, nine rescued brought to Constanta, 23 October 2026"
+            },
+            {
+              "url": "https://www.ziuaconstanta.ro/stiri/eveniment/alerta-in-marea-neagra-nava-khoryv-in-dificultate-la-13-mile-marine-de-constanta-noua-marinari-au-fost-salvati-unul-a-murit-iar-alti-trei-sunt-957751.html",
+              "source": "Ziua de Constanta, full Romanian Naval Authority communique, 23 October 2026"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/8138712",
+              "source": "VesselFinder particulars: IMO 8138712, ore/oil carrier, Comoros flag, built 1983"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 1,
+          "minimum": true,
+          "sources": [
+            {
+              "url": "https://agerpres.ro/english/2026/10/23/major-rescue-operation-offshore-of-constanta-for-crew-of-vessel-at-risk-of-sinking-one-dead--1606115",
+              "source": "Agerpres, quoting the Romanian Naval Authority: one body recovered from the water"
+            }
+          ],
+          "nationalities": []
+        },
+        "human_impact": {
+          "missing": {
+            "count": 3,
+            "as_of": "2026-10-23",
+            "sources": [
+              {
+                "url": "https://agerpres.ro/english/2026/10/23/major-rescue-operation-offshore-of-constanta-for-crew-of-vessel-at-risk-of-sinking-one-dead--1606115",
+                "source": "Agerpres, quoting the Romanian Naval Authority: three crew still being searched for"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-10-23T13:43:32Z",
+          "text": "First reviewed living record for this sinking, checked against the Romanian Naval Authority communique as carried by Agerpres and Ziua de Constanta. One death is confirmed because one body was recovered; the three crew still missing are recorded as a dated missing snapshot, not as deaths, and the confirmed death count is flagged as a minimum while the search continues. The authority gave the crew as 10 Ukrainians and 3 Azerbaijanis but did not attribute a nationality to the dead or the missing, so no nationality count is recorded for the death. Vessel name, flag and type were checked against the AIS registry entry. No image is published.",
+          "sources": [
+            {
+              "url": "https://agerpres.ro/english/2026/10/23/major-rescue-operation-offshore-of-constanta-for-crew-of-vessel-at-risk-of-sinking-one-dead--1606115",
+              "source": "Agerpres, 23 October 2026"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/8138712",
+              "source": "VesselFinder particulars"
             }
           ]
         }
