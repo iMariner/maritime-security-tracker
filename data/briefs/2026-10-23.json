@@ -38,7 +38,7 @@
   "quality": "2 check(s) need attention: dates ok; attribution 2 claims without a named source; official coverage 0/0 ok; verified 5/12; single-source items 3, 3 without verification; confirmed ok; fact-check 1 correction(s); tweet 204/280 ok; dashes ok; consistency ok",
   "review": {
     "status": "done",
-    "at": "2026-10-23T05:08:59Z",
+    "at": "2026-10-23T05:28:25Z",
     "changes": [
       "lead story set to INC-20261022-004 (the newest attack reported in the last 24 hours, the IRGC claim that seven vesse)",
       "INC-20261022-016 marked rejected (a threat to attack an Indian ship in the Red Sea, giving no vessel, position, date of any strike or damage, so no merchant ship was hit)",
@@ -52,10 +52,16 @@
       "In the Black Sea paragraph say only that Russia's defence ministry claimed its Geran drones struck three dry cargo ships and a container ship in the Black Sea on 22 October carrying military cargo, with no names and no independent confirmation, and drop the sentence about a ship drifting off Giresun with a Turkish crew member, because that ship is the Palau-flagged Aroyat, struck off Novorossiysk on 27 September and reported by DHA on 22 October.",
       "JIF BARRACUDA (IMO 9345506) is a Netherlands-flagged multi-purpose tug, not a tanker: her operator Jifmar and VesselFinder both give tug, so call her a tug in the headline, standfirst, lede, key points, paragraph and tweet, and do not attach a sea-mine claim to her, because the IRGC mine claims in the same sources are about other vessels.",
       "The lead is an unverified claim, so say in the headline, key points and lede that the IRGC's seven-vessel claim is unconfirmed, that UKMTO has issued no warning matching it, and that President Trump accused Iran of faking the hits to push up oil prices, as gCaptain reported on 22 October.",
-      "In the Able paragraph say the Palau-flagged general cargo ship Able, damaged by a drone off Bulgaria on 6 October, later sank off the Turkish coast after her crew was taken off, as Sofia Globe reported on 20 October."
+      "In the Able paragraph say the Palau-flagged general cargo ship Able, damaged by a drone off Bulgaria on 6 October, later sank off the Turkish coast after her crew was taken off, as Sofia Globe reported on 20 October.",
+      "The last rebuild's headline failed the code's own check and fell back to \"Tanker hit in the Strait of Hormuz and the Gulf\", which reads as fact for an IRGC claim, so write the headline as an unconfirmed claim that still contains the word tankers, for example \"Iran claims seven tankers hit in the Strait of Hormuz, unconfirmed\", and keep the claim wording in the standfirst, lede and key points as the earlier note asks."
     ],
     "restored": [],
-    "send_after": false,
+    "send_after": true,
     "lead": "INC-20261022-004"
+  },
+  "final_read": {
+    "status": "fixed",
+    "at": "2026-10-23T05:28:25Z",
+    "warnings": []
   }
 }
