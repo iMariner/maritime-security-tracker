@@ -1,7 +1,7 @@
 {
   "date": "2026-10-23",
-  "title": "IMO confirms tanker JIF BARRACUDA damaged off Khor Fakkan",
-  "preview_url": "https://imariner.github.io/maritime-security-tracker/preview/2026-10-23.html?v=043944",
+  "title": "Iran claims seven tankers hit in the Strait of Hormuz, unconfirmed",
+  "preview_url": "https://imariner.github.io/maritime-security-tracker/preview/2026-10-23.html?v=052931",
   "incidents": [
     {
       "id": "INC-20261022-004",
@@ -82,9 +82,9 @@
       "location": "Black Sea",
       "attack": "drone (UAV)",
       "damage": "struck and set adrift, according to Russia's defence ministry",
-      "casualties": "Turkish crew member reported missing",
+      "casualties": "none reported for the ships Russia says it struck on 22 October",
       "attribution": "Russia's defence ministry (Geran drone crews)",
-      "summary": "Russia's defence ministry claimed its Geran drones struck several dry cargo ships and a container ship in the Black Sea on 22 October, saying they carried military cargo, with one vessel reported adrift and no names or damage given. Turkish reports said an attacked cargo ship drifted off Giresun with a Turkish crew member aboard, and RIA Novosti said two vessels bound for Odesa and Chornomorsk were hit.",
+      "summary": "Russia's defence ministry claimed its Geran drones struck dry cargo ships and a container ship in the Black Sea on 21 to 23 October, saying they carried military cargo for Ukraine, with one vessel reported adrift off Giresun. No vessel names, flags, positions or independent confirmation were given, and the claims come from the Russian side only.",
       "checked_by_hermes": false,
       "sources": [
         {
@@ -124,66 +124,16 @@
           "published": "2026-10-22T19:59:27+00:00"
         },
         {
-          "outlet": "prospect.com.ru",
-          "title": "Российские военные атаковали два сухогруза и контейнеровоз в Черном море - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYkFMN0d1YVhTVWJ3NmFmV0ZpNFU3eWkzZTZBcC1TQWFja0hBMGVSSFVWRm9Ob1NIYUd6VjR6UzJISmJzUWxyaklQMjBDaXV0el9kX0Q1Q3I2d2JSWmkwTnVvbXB1ZzhydmlIajd6eTA4NEpIMS1FNVZTaEhWNnJrcUVVN1RJbkQ1aGVSUEZ3NUtnR3NCWGlmM2M2SE9Oc2thaEZfRG9vMU9NbnM0OXpQT2hPYmpzdw?oc=5",
-          "published": "2026-10-22T06:22:55Z"
+          "outlet": "TASS",
+          "title": null,
+          "url": "https://t.me/tass_agency/401388",
+          "published": "2026-10-21T05:19:18+00:00"
         },
         {
-          "outlet": "Ensonhaber",
-          "title": "Rusya'dan Karadeniz'de 4 gemiye saldırı - Ensonhaber",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5FZElVcFB6bTU3bWJROEFXdTRTS3FzVnBoQmR2d08zOTVNLTczS1ZkZkpyZHZyOEktRXVqendyaXJfcjh4dTh0cWhpcmxyWmRMYlN4WDhMd0M2aUxIQXJ2a2lieU5veS0zRmppSGU2N3ByQng5bmtISk44M0h5Zw?oc=5",
-          "published": "2026-10-22T12:05:30Z"
-        }
-      ]
-    },
-    {
-      "id": "INC-20261022-016",
-      "status": "claimed",
-      "region": "Red Sea",
-      "date_utc": "2026-10-22",
-      "vessel_name": null,
-      "imo": null,
-      "flag": null,
-      "vessel_type": null,
-      "location": "Red Sea",
-      "attack": "other",
-      "damage": null,
-      "casualties": null,
-      "attribution": "Yemeni army (threat)",
-      "summary": "A headline says the Yemeni army threatened to attack an Indian ship in the Red Sea and international shipping. No vessel name, position, date of any actual attack or damage was given; this is a threat, not a reported strike.",
-      "checked_by_hermes": false,
-      "sources": [
-        {
-          "outlet": "تلویزیون سفیر",
-          "title": "Yemeni army threatens to attack Indian ship in Red Sea, international shipping - تلویزیون سفیر",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT0liaWk3ZUdHd1BhX1lnV2pObEtVZmozdjc3dnY1ZW9CUzI1cWprVVlhV09XcjRkcFRybmswSWF4Z1dPaDY0OU5kc3lxQ29LU3p5ckU1ZXFPX2JjeHo3V2pWYmxIc3BBTkNtUG1MeG03dHJsZUZCZldMTVVPQTNULWl0YkJnUHpOSUJnaW9HbmxHRC1mcTNvSHoxaVFiMnIzSllyNlJzT0I5SGJHM3c?oc=5",
-          "published": "2026-10-22T13:47:52Z"
-        }
-      ]
-    },
-    {
-      "id": "INC-20261022-017",
-      "status": "claimed",
-      "region": "Black Sea",
-      "date_utc": "2026-10-22",
-      "vessel_name": null,
-      "imo": null,
-      "flag": null,
-      "vessel_type": null,
-      "location": "Black Sea",
-      "attack": "other",
-      "damage": null,
-      "casualties": null,
-      "attribution": null,
-      "summary": "A Turkish headline reports growing concern over attacks on ships in the Black Sea. No vessel names, dates, positions, damage or attribution are given.",
-      "checked_by_hermes": false,
-      "sources": [
-        {
-          "outlet": "Sivas Memleket Gazetesi",
-          "title": "Karadeniz’de Gemilere Yönelik Saldırılar Endişeyi Büyütüyor - Sivas Memleket Gazetesi",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQS1HMEtRaU04Q190dEVUMjJKR1o3M1Rjb1ZaOTFWM3FDOF9pQ1VGWkNPU3N6Szh0cFZYaVFpaTBrVUxtSEowU2dzR19uNlFBd3drTnBzRVYtUU1xM1BRNnJPX0g0c1F5X0Frc3NJVF93Q3JITU1iS2NSem95SjdHUFlRdUNZLTIwRUlsNUZzdnU4ZVpQS09XQnpFY1Y1S1k0QjJndjJlZ1g?oc=5",
-          "published": "2026-10-22T12:08:24Z"
+          "outlet": "Russian Ministry of Defence",
+          "title": null,
+          "url": "https://t.me/mod_russia/68385",
+          "published": "2026-10-21T05:18:50+00:00"
         }
       ]
     },
@@ -209,73 +159,6 @@
           "title": "أنباء عن استهداف سفينة عُمانية قبالة جزيرة زُقَر اثناء نقلها أسلحة للحوثيين - صحافتك",
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE00TVEyWGdBSnVQdW95clh1S2M2ZU1TSTloQlhNZ0g1ZEl5YXF4dElabXlyaWN3UVkteFkxZUtXV3NZWnRkWERELU5PZHd4M1U?oc=5",
           "published": "2026-10-22T22:29:06Z"
-        }
-      ]
-    },
-    {
-      "id": "INC-20261021-002",
-      "status": "claimed",
-      "region": "Black Sea",
-      "date_utc": "2026-10-21",
-      "vessel_name": null,
-      "imo": null,
-      "flag": null,
-      "vessel_type": "general cargo",
-      "location": "at sea, en route to Odesa port, Black Sea",
-      "attack": "drone (UAV)",
-      "damage": "struck (Russian MoD claim)",
-      "casualties": null,
-      "attribution": "Russia's defence ministry claimed it",
-      "summary": "Russia's defence ministry claimed its Geran drones struck dry cargo vessels in the Black Sea heading to Odesa and Chornomorsk and vessels in Reni port, saying they carried military cargo for Ukraine. The claims come from the Russian side only, with no vessel names, flags, positions, damage or casualties given.",
-      "checked_by_hermes": false,
-      "sources": [
-        {
-          "outlet": "TASS",
-          "title": null,
-          "url": "https://t.me/tass_agency/401388",
-          "published": "2026-10-21T05:19:18+00:00"
-        },
-        {
-          "outlet": "Russian Ministry of Defence",
-          "title": null,
-          "url": "https://t.me/mod_russia/68385",
-          "published": "2026-10-21T05:18:50+00:00"
-        },
-        {
-          "outlet": "TASS",
-          "title": null,
-          "url": "https://t.me/tass_agency/401480",
-          "published": "2026-10-21T10:15:19+00:00"
-        },
-        {
-          "outlet": "Russian Ministry of Defence",
-          "title": null,
-          "url": "https://t.me/mod_russia/68388",
-          "published": "2026-10-21T07:00:05+00:00"
-        },
-        {
-          "outlet": "Russian Ministry of Defence",
-          "title": null,
-          "url": "https://t.me/mod_russia/68405",
-          "published": "2026-10-21T15:31:20+00:00"
-        },
-        {
-          "outlet": "Dva Mayora",
-          "title": null,
-          "url": "https://t.me/dva_majors/100712",
-          "published": "2026-10-20T05:10:37+00:00"
-        },
-        {
-          "outlet": "Russian Ministry of Defence",
-          "title": null,
-          "url": "https://t.me/mod_russia/68362",
-          "published": "2026-10-20T04:59:37+00:00"
-        },
-        {
-          "outlet": "Russian Ministry of Defence",
-          "title": null,
-          "url": "https://t.me/mod_russia/68375",
-          "published": "2026-10-20T15:30:11+00:00"
         }
       ]
     },
