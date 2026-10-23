@@ -638,28 +638,60 @@
     "HIST-ME-20261010-AKIRA-SUN-OCEAN-MOLICA": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T03:06:19.845439+00:00",
-        "vessel_name": "AKIRA SUN (OCEAN MOLICA)",
+        "checked_at": "2026-10-23T01:21:00Z",
+        "vessel_name": "OCEAN MOLICA (AKIRA SUN)",
+        "imo": "9139270",
         "date_utc": "2026-10-10",
-        "vessel_type": "bulk carrier",
+        "vessel_type": "Bulk carrier",
         "region": "Strait of Hormuz",
         "location_text": "Gulf of Oman",
-        "summary": "IMO records AKIRA SUN (OCEAN MOLICA) in its confirmed incident register for 2026-10-10 near Gulf of Oman. Vessel damage was reported.",
+        "attack_type": "Air strike with a precision munition from a United States fighter jet",
+        "summary": "United States Central Command said a US fighter jet struck the stern of the Panama flagged bulk carrier Ocean Molica, also known as Arika Sun, with a precision munition in the Gulf of Oman on 10 October 2026, disabling the propulsion and stating that the crew was not harmed. Central Command said the vessel had departed an Iranian port and was attempting to run the blockade of Iranian ports. The register lists IMO 9139270 as a bulk carrier built in 1996 of 70,296 deadweight tonnes under the Panama flag.",
+        "date_note": "Day precision date from the Central Command release, which gives no event time.",
         "sources": [
           {
-            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 21 October 2026"
+            "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4623817/us-forces-disable-cargo-vessel-attempting-to-violate-blockade/",
+            "source": "United States Central Command public release, 10 October 2026"
           },
           {
-            "source": "VesselFinder",
-            "url": "https://www.vesselfinder.com/vessels/details/9139270"
+            "url": "https://www.vesselfinder.com/vessels/details/9139270",
+            "source": "VesselFinder vessel register"
+          },
+          {
+            "url": "https://www.aljazeera.com/news/2026/10/11/us-forces-disable-ship-attempting-to-run-iran-blockade-in-gulf-of-oman",
+            "source": "Al Jazeera, 11 October 2026"
           }
-        ],
-        "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
-        "imo": "9139270"
+        ]
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4623817/us-forces-disable-cargo-vessel-attempting-to-violate-blockade/",
+            "source": "United States Central Command public release, 10 October 2026"
+          }
+        ],
+        "nationalities": []
+      },
+      "updates": [
+        {
+          "at": "2026-10-23T01:21:00Z",
+          "text": "Deaths are recorded as zero for the first time on the explicit statement by United States Central Command that the strike disabled the ship without harming the crew. The earlier entry came from the IMO register and recorded damage only, so deaths were unknown rather than zero, and this is the first source to state the effect on the crew. That statement is the account of the force that carried out the strike; no independent crew, owner or flag state statement on casualties was located in this check, and no crew nationality is recorded because none was stated. The vessel name is shown as Ocean Molica with Arika Sun as the former name, as used by Central Command and the register.",
+          "sources": [
+            {
+              "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4623817/us-forces-disable-cargo-vessel-attempting-to-violate-blockade/",
+              "source": "United States Central Command public release, 10 October 2026"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9139270",
+              "source": "VesselFinder vessel register"
+            }
+          ]
+        }
       ]
     },
     "HIST-ME-20261010-VALTHERA": {
@@ -9827,6 +9859,95 @@
             },
             {
               "url": "https://www.vesselfinder.com/vessels/details/1072294",
+              "source": "VesselFinder vessel register"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6355080228,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6355080228",
+      "author": "iMariner",
+      "received_at": "2026-10-23T01:20:33Z",
+      "incident_id": "HIST-ME-20261010-AKIRA-SUN-OCEAN-MOLICA",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T03:06:19.845439+00:00",
+          "vessel_name": "AKIRA SUN (OCEAN MOLICA)",
+          "date_utc": "2026-10-10",
+          "vessel_type": "bulk carrier",
+          "region": "Strait of Hormuz",
+          "location_text": "Gulf of Oman",
+          "summary": "IMO records AKIRA SUN (OCEAN MOLICA) in its confirmed incident register for 2026-10-10 near Gulf of Oman. Vessel damage was reported.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            },
+            {
+              "source": "VesselFinder",
+              "url": "https://www.vesselfinder.com/vessels/details/9139270"
+            }
+          ],
+          "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
+          "imo": "9139270"
+        },
+        "audit_notes": [
+          "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+        ]
+      },
+      "change": {
+        "incident_id": "HIST-ME-20261010-AKIRA-SUN-OCEAN-MOLICA",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-23T01:21:00Z",
+          "vessel_name": "OCEAN MOLICA (AKIRA SUN)",
+          "imo": "9139270",
+          "date_utc": "2026-10-10",
+          "vessel_type": "Bulk carrier",
+          "region": "Strait of Hormuz",
+          "location_text": "Gulf of Oman",
+          "attack_type": "Air strike with a precision munition from a United States fighter jet",
+          "summary": "United States Central Command said a US fighter jet struck the stern of the Panama flagged bulk carrier Ocean Molica, also known as Arika Sun, with a precision munition in the Gulf of Oman on 10 October 2026, disabling the propulsion and stating that the crew was not harmed. Central Command said the vessel had departed an Iranian port and was attempting to run the blockade of Iranian ports. The register lists IMO 9139270 as a bulk carrier built in 1996 of 70,296 deadweight tonnes under the Panama flag.",
+          "date_note": "Day precision date from the Central Command release, which gives no event time.",
+          "sources": [
+            {
+              "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4623817/us-forces-disable-cargo-vessel-attempting-to-violate-blockade/",
+              "source": "United States Central Command public release, 10 October 2026"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9139270",
+              "source": "VesselFinder vessel register"
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/11/us-forces-disable-ship-attempting-to-run-iran-blockade-in-gulf-of-oman",
+              "source": "Al Jazeera, 11 October 2026"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4623817/us-forces-disable-cargo-vessel-attempting-to-violate-blockade/",
+              "source": "United States Central Command public release, 10 October 2026"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-10-23T01:21:00Z",
+          "text": "Deaths are recorded as zero for the first time on the explicit statement by United States Central Command that the strike disabled the ship without harming the crew. The earlier entry came from the IMO register and recorded damage only, so deaths were unknown rather than zero, and this is the first source to state the effect on the crew. That statement is the account of the force that carried out the strike; no independent crew, owner or flag state statement on casualties was located in this check, and no crew nationality is recorded because none was stated. The vessel name is shown as Ocean Molica with Arika Sun as the former name, as used by Central Command and the register.",
+          "sources": [
+            {
+              "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4623817/us-forces-disable-cargo-vessel-attempting-to-violate-blockade/",
+              "source": "United States Central Command public release, 10 October 2026"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9139270",
               "source": "VesselFinder vessel register"
             }
           ]
