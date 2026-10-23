@@ -771,28 +771,75 @@
     "HIST-ME-20261009-GEM-NO-2": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T03:06:19.845439+00:00",
+        "checked_at": "2026-10-23T20:10:00Z",
         "vessel_name": "GEM NO. 2",
+        "imo": "9735373",
         "date_utc": "2026-10-09",
-        "vessel_type": "crude oil tanker",
-        "region": "Strait of Hormuz",
+        "vessel_type": "Crude oil tanker",
+        "region": "Persian Gulf",
         "location_text": "13NM west of Al Jazeera, UAE",
-        "summary": "IMO records GEM NO. 2 in its confirmed incident register for 2026-10-09 near 13NM west of Al Jazeera, UAE. Vessel damage was reported.",
+        "summary": "GEM NO. 2, a Panama flagged crude oil tanker, was struck by an unknown projectile 13 nautical miles west of Al Jazeera in the United Arab Emirates at 1000 UTC on 9 October 2026, starting a fire that was later extinguished. UKMTO warning 160-26 recorded the position and the projectile and said the status of the crew, the damage assessment and the environmental impact were unknown at the time; it named no vessel and no attacker. Shipping sources told Reuters the vessel was the Panama flagged crude tanker Gem No.2. The UAE National Guard said its Coast Guard rescued all 22 crew, described as Asian nationals, from a burning tanker in the Arabian Gulf on 10 October and that all were in a stable medical condition. The Indian consulate in Dubai confirmed on 11 October that all crew of MT GEM No. 2 were safe. Reuters reported on 23 October that analysts identify the tanker leaking oil off Umm Al Quwain as the Gem No.2, with satellite imagery from 19 and 21 October showing a slick of about 160 square kilometres.",
+        "date_note": "UKMTO warning 160-26 records 9 October 2026 at 1000 UTC, which is 14:00 local time in the UAE at UTC+4; shipping reports describe the strike on Friday afternoon local time, so the register day is kept. The strike was outside the Strait of Hormuz.",
         "sources": [
           {
-            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 21 October 2026"
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261009-ukmto_warning_160_26.pdf",
+            "source": "UKMTO warning 160-26, 9 October 2026, third party"
           },
           {
-            "source": "INTERTANKO member fleet register",
-            "url": "https://www.intertanko.com/about-us/membership/fleet-search"
+            "url": "https://www.arabnews.com/middle-east/uae-rescues-22-crew-members-from-burning-oil-tanker-in-arabian-gulf-3005648",
+            "source": "Arab News, 10 October 2026, updated 11 October: UAE National Guard rescue of 22 crew and Indian consulate statement"
+          },
+          {
+            "url": "https://www.khaleejtimes.com/uae/emergencies/national-guard-rescue-22-crew-members-oil-tanker-catch-fire-arabian-gulf",
+            "source": "Khaleej Times, 10 October 2026: National Guard rescue and Indian consulate confirmation that all crew of MT GEM No. 2 are safe"
+          },
+          {
+            "url": "https://www.arabnews.com/middle-east/oil-spill-off-uae-coast-prompts-beach-closures-cleanup-effort-3007833",
+            "source": "Reuters via Arab News, 23 October 2026: identification of the tanker and the 9 October strike"
+          },
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO highlighted confirmed incidents register, GEM NO. 2 IMO 9735373 entry"
           }
-        ],
-        "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
-        "imo": "9735373"
+        ]
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.khaleejtimes.com/uae/emergencies/national-guard-rescue-22-crew-members-oil-tanker-catch-fire-arabian-gulf",
+            "source": "Khaleej Times, 10 October 2026: UAE National Guard, all 22 crew rescued and in a stable medical condition; Indian consulate, all crew of MT GEM No. 2 safe"
+          },
+          {
+            "url": "https://www.arabnews.com/middle-east/uae-rescues-22-crew-members-from-burning-oil-tanker-in-arabian-gulf-3005648",
+            "source": "Arab News, 10 October 2026: all 22 crew safely evacuated, Indian consulate confirms all crew rescued and safe"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-23T20:10:00Z",
+          "text": "First sourced identity and casualty check for this record, which previously held only the register position and damage. UKMTO warning 160-26 confirms a vessel struck by an unknown projectile at 1000 UTC on 9 October 2026, 13NM west of Al Jazeera, UAE, with a fire that was extinguished and the crew status unknown at the time. Shipping sources named her to Reuters as the Panama flagged crude tanker Gem No.2. All 22 crew, Indian nationals, were rescued by the UAE Coast Guard on 10 October in a stable condition, and the Indian consulate in Dubai confirmed all crew of MT GEM No. 2 were safe, so deaths are recorded as a confirmed zero for this strike. No source quantified injuries, so zero deaths is not a statement about injuries. Vesseltracker, citing the ship account, reports a second strike on 10 October by four drones, and Reuters reported on 23 October that the tanker is leaking oil off Umm Al Quwain with a slick of about 160 square kilometres seen on 19 and 21 October; that second strike is not verified by an authority here and is not counted in this record. The region is corrected from Strait of Hormuz to Persian Gulf, because the strike was 13NM west of Al Jazeera in the UAE, outside the strait. No image is published.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261009-ukmto_warning_160_26.pdf",
+              "source": "UKMTO warning 160-26, 9 October 2026"
+            },
+            {
+              "url": "https://www.khaleejtimes.com/uae/emergencies/national-guard-rescue-22-crew-members-oil-tanker-catch-fire-arabian-gulf",
+              "source": "Khaleej Times, 10 October 2026"
+            },
+            {
+              "url": "https://www.arabnews.com/middle-east/oil-spill-off-uae-coast-prompts-beach-closures-cleanup-effort-3007833",
+              "source": "Reuters via Arab News, 23 October 2026"
+            }
+          ]
+        }
       ]
     },
     "HIST-ME-20261007-ACERS": {
@@ -10829,6 +10876,110 @@
             {
               "url": "https://globalnation.inquirer.net/341877/fwd-filipino-seafarer-injured-in-drone-attack-on-persian-gulf-tanker-gets-dmw-aid",
               "source": "Inquirer.net, 13 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6373524569,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6373524569",
+      "author": "iMariner",
+      "received_at": "2026-10-23T19:55:47Z",
+      "incident_id": "HIST-ME-20261009-GEM-NO-2",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T03:06:19.845439+00:00",
+          "vessel_name": "GEM NO. 2",
+          "date_utc": "2026-10-09",
+          "vessel_type": "crude oil tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "13NM west of Al Jazeera, UAE",
+          "summary": "IMO records GEM NO. 2 in its confirmed incident register for 2026-10-09 near 13NM west of Al Jazeera, UAE. Vessel damage was reported.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            },
+            {
+              "source": "INTERTANKO member fleet register",
+              "url": "https://www.intertanko.com/about-us/membership/fleet-search"
+            }
+          ],
+          "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
+          "imo": "9735373"
+        },
+        "audit_notes": [
+          "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+        ]
+      },
+      "change": {
+        "incident_id": "HIST-ME-20261009-GEM-NO-2",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-23T20:10:00Z",
+          "vessel_name": "GEM NO. 2",
+          "imo": "9735373",
+          "date_utc": "2026-10-09",
+          "vessel_type": "Crude oil tanker",
+          "region": "Persian Gulf",
+          "location_text": "13NM west of Al Jazeera, UAE",
+          "summary": "GEM NO. 2, a Panama flagged crude oil tanker, was struck by an unknown projectile 13 nautical miles west of Al Jazeera in the United Arab Emirates at 1000 UTC on 9 October 2026, starting a fire that was later extinguished. UKMTO warning 160-26 recorded the position and the projectile and said the status of the crew, the damage assessment and the environmental impact were unknown at the time; it named no vessel and no attacker. Shipping sources told Reuters the vessel was the Panama flagged crude tanker Gem No.2. The UAE National Guard said its Coast Guard rescued all 22 crew, described as Asian nationals, from a burning tanker in the Arabian Gulf on 10 October and that all were in a stable medical condition. The Indian consulate in Dubai confirmed on 11 October that all crew of MT GEM No. 2 were safe. Reuters reported on 23 October that analysts identify the tanker leaking oil off Umm Al Quwain as the Gem No.2, with satellite imagery from 19 and 21 October showing a slick of about 160 square kilometres.",
+          "date_note": "UKMTO warning 160-26 records 9 October 2026 at 1000 UTC, which is 14:00 local time in the UAE at UTC+4; shipping reports describe the strike on Friday afternoon local time, so the register day is kept. The strike was outside the Strait of Hormuz.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261009-ukmto_warning_160_26.pdf",
+              "source": "UKMTO warning 160-26, 9 October 2026, third party"
+            },
+            {
+              "url": "https://www.arabnews.com/middle-east/uae-rescues-22-crew-members-from-burning-oil-tanker-in-arabian-gulf-3005648",
+              "source": "Arab News, 10 October 2026, updated 11 October: UAE National Guard rescue of 22 crew and Indian consulate statement"
+            },
+            {
+              "url": "https://www.khaleejtimes.com/uae/emergencies/national-guard-rescue-22-crew-members-oil-tanker-catch-fire-arabian-gulf",
+              "source": "Khaleej Times, 10 October 2026: National Guard rescue and Indian consulate confirmation that all crew of MT GEM No. 2 are safe"
+            },
+            {
+              "url": "https://www.arabnews.com/middle-east/oil-spill-off-uae-coast-prompts-beach-closures-cleanup-effort-3007833",
+              "source": "Reuters via Arab News, 23 October 2026: identification of the tanker and the 9 October strike"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO highlighted confirmed incidents register, GEM NO. 2 IMO 9735373 entry"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "nationalities": [],
+          "sources": [
+            {
+              "url": "https://www.khaleejtimes.com/uae/emergencies/national-guard-rescue-22-crew-members-oil-tanker-catch-fire-arabian-gulf",
+              "source": "Khaleej Times, 10 October 2026: UAE National Guard, all 22 crew rescued and in a stable medical condition; Indian consulate, all crew of MT GEM No. 2 safe"
+            },
+            {
+              "url": "https://www.arabnews.com/middle-east/uae-rescues-22-crew-members-from-burning-oil-tanker-in-arabian-gulf-3005648",
+              "source": "Arab News, 10 October 2026: all 22 crew safely evacuated, Indian consulate confirms all crew rescued and safe"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-10-23T20:10:00Z",
+          "text": "First sourced identity and casualty check for this record, which previously held only the register position and damage. UKMTO warning 160-26 confirms a vessel struck by an unknown projectile at 1000 UTC on 9 October 2026, 13NM west of Al Jazeera, UAE, with a fire that was extinguished and the crew status unknown at the time. Shipping sources named her to Reuters as the Panama flagged crude tanker Gem No.2. All 22 crew, Indian nationals, were rescued by the UAE Coast Guard on 10 October in a stable condition, and the Indian consulate in Dubai confirmed all crew of MT GEM No. 2 were safe, so deaths are recorded as a confirmed zero for this strike. No source quantified injuries, so zero deaths is not a statement about injuries. Vesseltracker, citing the ship account, reports a second strike on 10 October by four drones, and Reuters reported on 23 October that the tanker is leaking oil off Umm Al Quwain with a slick of about 160 square kilometres seen on 19 and 21 October; that second strike is not verified by an authority here and is not counted in this record. The region is corrected from Strait of Hormuz to Persian Gulf, because the strike was 13NM west of Al Jazeera in the UAE, outside the strait. No image is published.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261009-ukmto_warning_160_26.pdf",
+              "source": "UKMTO warning 160-26, 9 October 2026"
+            },
+            {
+              "url": "https://www.khaleejtimes.com/uae/emergencies/national-guard-rescue-22-crew-members-oil-tanker-catch-fire-arabian-gulf",
+              "source": "Khaleej Times, 10 October 2026"
+            },
+            {
+              "url": "https://www.arabnews.com/middle-east/oil-spill-off-uae-coast-prompts-beach-closures-cleanup-effort-3007833",
+              "source": "Reuters via Arab News, 23 October 2026"
             }
           ]
         }
