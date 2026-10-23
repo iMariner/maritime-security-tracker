@@ -697,28 +697,57 @@
     "HIST-ME-20261010-VALTHERA": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T03:06:19.845439+00:00",
+        "checked_at": "2026-10-23T07:34:00Z",
         "vessel_name": "VALTHERA",
+        "imo": "9296389",
         "date_utc": "2026-10-10",
-        "vessel_type": "crude oil tanker",
+        "vessel_type": "Crude oil tanker",
         "region": "Strait of Hormuz",
         "location_text": "Strait of Hormuz - Oman TTW",
-        "summary": "IMO records VALTHERA in its confirmed incident register for 2026-10-10 near Strait of Hormuz - Oman TTW. Vessel damage was reported.",
+        "attack_type": "Unknown projectile",
+        "summary": "Valthera, a Marshall Islands flagged Suezmax crude oil tanker of 149,997 deadweight tonnes, was struck by an unknown projectile on its port side while leaving the Strait of Hormuz, starting a fire on board, and the master asked for help to fight it. The UK Maritime Trade Operations centre had reported an outbound tanker struck by a projectile in the strait. The Indian shipping minister said the tanker carried crude loaded at Basrah, Iraq, on 8 October, and the Indian Ministry of External Affairs reported all 11 Indian seafarers aboard safe. No vessel wide death, injury or missing count was stated by either authority.",
+        "date_note": "The IMO confirmed incident register lists 10 October 2026, and Vanguard Tech reporting places the strike on 10 October. The Indian Ministry of External Affairs condemned attacks on commercial vessels in the Strait of Hormuz region on 11 October 2026 and the shipping minister dated the Valthera hit to 11 October. The register day of 10 October is kept and the disagreement is recorded rather than resolved. Day precision only; no event time or UTC conversion is asserted.",
         "sources": [
           {
             "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 21 October 2026"
+            "source": "IMO confirmed incident register, checked 23 October 2026"
           },
           {
-            "source": "Ukraine Defence Intelligence vessel register",
-            "url": "https://war-sanctions.gur.gov.ua/en/transport/ships/1683"
+            "url": "https://timesofindia.indiatimes.com/india/deeply-concerning-india-condemns-attack-on-vessel-carrying-indian-crew-off-oman-coast/articleshow/134876803.cms",
+            "source": "The Times of India carrying the Indian Ministry of External Affairs statement, 11 October 2026"
+          },
+          {
+            "url": "https://www.worldports.org/two-tankers-hit-near-strait-of-hormuz-indian-minister/",
+            "source": "Argus Media report carried by the World Ports Organization, 11 October 2026"
+          },
+          {
+            "url": "https://www.marineinsight.com/iran-attacks-3-tankers-near-oman-and-strait-of-hormuz-after-u-s-disables-bulker/",
+            "source": "Marine Insight reporting Vanguard Tech, 11 October 2026"
           }
-        ],
-        "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
-        "imo": "9296389"
+        ]
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+      ],
+      "updates": [
+        {
+          "at": "2026-10-23T07:34:00Z",
+          "text": "Date and casualty clarification on an existing record. The Indian Ministry of External Affairs and the shipping minister date this strike to 11 October 2026, while the IMO register and Vanguard Tech place it on 10 October; the tracked day stays 10 October and the conflict is recorded rather than resolved, so no midnight or UTC precision is invented. India reported that all 11 Indian seafarers aboard were safe, which covers the Indian crew only. No vessel wide count was given, so no death is recorded and the casualty count stays unknown. Argus reported the tanker had loaded crude at Basrah on 8 October.",
+          "sources": [
+            {
+              "url": "https://timesofindia.indiatimes.com/india/deeply-concerning-india-condemns-attack-on-vessel-carrying-indian-crew-off-oman-coast/articleshow/134876803.cms",
+              "source": "Indian Ministry of External Affairs statement via The Times of India, 11 October 2026"
+            },
+            {
+              "url": "https://www.worldports.org/two-tankers-hit-near-strait-of-hormuz-indian-minister/",
+              "source": "Argus Media via the World Ports Organization, 11 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 23 October 2026"
+            }
+          ]
+        }
       ]
     },
     "HIST-ME-20261009-GEM-NO-2": {
@@ -9949,6 +9978,92 @@
             {
               "url": "https://www.vesselfinder.com/vessels/details/9139270",
               "source": "VesselFinder vessel register"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6359809472,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6359809472",
+      "author": "iMariner",
+      "received_at": "2026-10-23T07:28:05Z",
+      "incident_id": "HIST-ME-20261010-VALTHERA",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T03:06:19.845439+00:00",
+          "vessel_name": "VALTHERA",
+          "date_utc": "2026-10-10",
+          "vessel_type": "crude oil tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "Strait of Hormuz - Oman TTW",
+          "summary": "IMO records VALTHERA in its confirmed incident register for 2026-10-10 near Strait of Hormuz - Oman TTW. Vessel damage was reported.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            },
+            {
+              "source": "Ukraine Defence Intelligence vessel register",
+              "url": "https://war-sanctions.gur.gov.ua/en/transport/ships/1683"
+            }
+          ],
+          "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
+          "imo": "9296389"
+        },
+        "audit_notes": [
+          "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+        ]
+      },
+      "change": {
+        "incident_id": "HIST-ME-20261010-VALTHERA",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-23T07:34:00Z",
+          "vessel_name": "VALTHERA",
+          "imo": "9296389",
+          "date_utc": "2026-10-10",
+          "vessel_type": "Crude oil tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "Strait of Hormuz - Oman TTW",
+          "attack_type": "Unknown projectile",
+          "summary": "Valthera, a Marshall Islands flagged Suezmax crude oil tanker of 149,997 deadweight tonnes, was struck by an unknown projectile on its port side while leaving the Strait of Hormuz, starting a fire on board, and the master asked for help to fight it. The UK Maritime Trade Operations centre had reported an outbound tanker struck by a projectile in the strait. The Indian shipping minister said the tanker carried crude loaded at Basrah, Iraq, on 8 October, and the Indian Ministry of External Affairs reported all 11 Indian seafarers aboard safe. No vessel wide death, injury or missing count was stated by either authority.",
+          "date_note": "The IMO confirmed incident register lists 10 October 2026, and Vanguard Tech reporting places the strike on 10 October. The Indian Ministry of External Affairs condemned attacks on commercial vessels in the Strait of Hormuz region on 11 October 2026 and the shipping minister dated the Valthera hit to 11 October. The register day of 10 October is kept and the disagreement is recorded rather than resolved. Day precision only; no event time or UTC conversion is asserted.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 23 October 2026"
+            },
+            {
+              "url": "https://timesofindia.indiatimes.com/india/deeply-concerning-india-condemns-attack-on-vessel-carrying-indian-crew-off-oman-coast/articleshow/134876803.cms",
+              "source": "The Times of India carrying the Indian Ministry of External Affairs statement, 11 October 2026"
+            },
+            {
+              "url": "https://www.worldports.org/two-tankers-hit-near-strait-of-hormuz-indian-minister/",
+              "source": "Argus Media report carried by the World Ports Organization, 11 October 2026"
+            },
+            {
+              "url": "https://www.marineinsight.com/iran-attacks-3-tankers-near-oman-and-strait-of-hormuz-after-u-s-disables-bulker/",
+              "source": "Marine Insight reporting Vanguard Tech, 11 October 2026"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-10-23T07:34:00Z",
+          "text": "Date and casualty clarification on an existing record. The Indian Ministry of External Affairs and the shipping minister date this strike to 11 October 2026, while the IMO register and Vanguard Tech place it on 10 October; the tracked day stays 10 October and the conflict is recorded rather than resolved, so no midnight or UTC precision is invented. India reported that all 11 Indian seafarers aboard were safe, which covers the Indian crew only. No vessel wide count was given, so no death is recorded and the casualty count stays unknown. Argus reported the tanker had loaded crude at Basrah on 8 October.",
+          "sources": [
+            {
+              "url": "https://timesofindia.indiatimes.com/india/deeply-concerning-india-condemns-attack-on-vessel-carrying-indian-crew-off-oman-coast/articleshow/134876803.cms",
+              "source": "Indian Ministry of External Affairs statement via The Times of India, 11 October 2026"
+            },
+            {
+              "url": "https://www.worldports.org/two-tankers-hit-near-strait-of-hormuz-indian-minister/",
+              "source": "Argus Media via the World Ports Organization, 11 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 23 October 2026"
             }
           ]
         }
