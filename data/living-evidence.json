@@ -845,7 +845,7 @@
     "HIST-ME-20261007-ACERS": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-23T20:05:00Z",
+        "checked_at": "2026-10-23T19:56:39Z",
         "vessel_name": "ACERS",
         "imo": "9301902",
         "date_utc": "2026-10-07",
@@ -896,6 +896,24 @@
         {
           "at": "2026-10-23T20:05:00Z",
           "text": "First sourced identity and casualty check for this record, which previously held only the register position and damage. UKMTO warning 158-26 confirms a tanker struck by multiple projectiles at 1900 UTC on 7 October 2026, 51NM north of Madinat ash Shamal, Qatar, with casualties reported and no figure given. Vanguard Tech, gCaptain and Splash247 identify her as ACERS, IMO 9301902, Antigua and Barbuda flagged. The Philippine Department of Migrant Workers identified one injured Filipino seafarer, taken to Hamad General Hospital in Doha by the Qatar Navy and Coast Guard, and said 24 other Filipino crew were safe and heading for Dubai. The injured count of one is the only hurt seafarer identified in any source checked; UKMTO reported casualties without a number, so one is not a settled injury total and deaths stay unknown. The region is corrected from Strait of Hormuz to Persian Gulf, because the strike was 51NM north of Qatar, outside the strait. No image is published.",
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/20261007-ukmto_warning_158-26.pdf?rev=3df160b409f54ef4bedbbd2c0ac535fc",
+              "source": "UKMTO warning 158-26, 7 October 2026"
+            },
+            {
+              "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
+              "source": "Splash247, 8 October 2026"
+            },
+            {
+              "url": "https://globalnation.inquirer.net/341877/fwd-filipino-seafarer-injured-in-drone-attack-on-persian-gulf-tanker-gets-dmw-aid",
+              "source": "Inquirer.net, 13 October 2026"
+            }
+          ]
+        },
+        {
+          "at": "2026-10-23T19:56:39Z",
+          "text": "Timestamp correction only. First sourced identity and casualty check for this record, which previously held only the register position and damage. UKMTO warning 158-26 confirms a tanker struck by multiple projectiles at 1900 UTC on 7 October 2026, 51NM north of Madinat ash Shamal, Qatar, with casualties reported and no figure given. Vanguard Tech, gCaptain and Splash247 identify her as ACERS, IMO 9301902, Antigua and Barbuda flagged. The Philippine Department of Migrant Workers identified one injured Filipino seafarer, taken to Hamad General Hospital in Doha by the Qatar Navy and Coast Guard, and said 24 other Filipino crew were safe and heading for Dubai. The injured count of one is the only hurt seafarer identified in any source checked; UKMTO reported casualties without a number, so one is not a settled injury total and deaths stay unknown. The region is corrected from Strait of Hormuz to Persian Gulf, because the strike was 51NM north of Qatar, outside the strait. No image is published. The earlier submission recorded this review at 20:05Z and 20:10Z, ahead of the actual review; the facts, counts and sources are unchanged.",
           "sources": [
             {
               "url": "https://ukmto.org/-/media/ukmto/products/20261007-ukmto_warning_158-26.pdf?rev=3df160b409f54ef4bedbbd2c0ac535fc",
@@ -10980,6 +10998,151 @@
             {
               "url": "https://www.arabnews.com/middle-east/oil-spill-off-uae-coast-prompts-beach-closures-cleanup-effort-3007833",
               "source": "Reuters via Arab News, 23 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6373539660,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6373539660",
+      "author": "iMariner",
+      "received_at": "2026-10-23T19:56:40Z",
+      "incident_id": "HIST-ME-20261007-ACERS",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-23T20:05:00Z",
+          "vessel_name": "ACERS",
+          "imo": "9301902",
+          "date_utc": "2026-10-07",
+          "vessel_type": "Chemical/products tanker",
+          "region": "Persian Gulf",
+          "location_text": "51NM north of Madinat ash Shamal, Qatar",
+          "summary": "ACERS, an Antigua and Barbuda flagged chemical and oil tanker, was struck by multiple projectiles about 51 nautical miles north of Madinat ash Shamal, Qatar, at 1900 UTC on 7 October 2026. UKMTO warning 158-26, source verified, recorded a tanker hit by multiple projectiles with casualties reported, giving no number or severity and no attribution. UKMTO does not name vessels; Vanguard Tech identified the tanker as ACERS from AIS and shipping reports name her as the Antigua and Barbuda flagged Acers, IMO 9301902. The Philippines Department of Migrant Workers said on 13 October that one Filipino seafarer was injured and taken by the Qatar Navy and Coast Guard to Hamad General Hospital in Doha, and that 24 other Filipino crew were safe and heading for Dubai. No death has been reported in any source checked, but no source states a settled whole-vessel zero, so deaths remain unknown.",
+          "date_note": "UKMTO warning 158-26 gives 1900 UTC on 7 October 2026. The Philippine Department of Migrant Workers described the tanker as hit by three drones on 7 October, while UKMTO recorded multiple projectiles and named no weapon.",
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/20261007-ukmto_warning_158-26.pdf?rev=3df160b409f54ef4bedbbd2c0ac535fc",
+              "source": "UKMTO warning 158-26, 7 October 2026, source verified"
+            },
+            {
+              "url": "https://gcaptain.com/tanker-attack-off-qatar-signals-wider-threat-beyond-hormuz/",
+              "source": "gCaptain, 8 October 2026: UKMTO timing and position, vessel identified as Acers"
+            },
+            {
+              "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
+              "source": "Splash247, 8 October 2026: Acers IMO 9301902, Antigua and Barbuda flagged oil and chemical tanker, 51NM north of Madinat ash Shamal"
+            },
+            {
+              "url": "https://globalnation.inquirer.net/341877/fwd-filipino-seafarer-injured-in-drone-attack-on-persian-gulf-tanker-gets-dmw-aid",
+              "source": "Inquirer.net, 13 October 2026: Department of Migrant Workers statement on the injured Filipino seafarer and 24 crew safe"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO highlighted confirmed incidents register, ACERS IMO 9301902 entry"
+            }
+          ]
+        },
+        "audit_notes": [
+          "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+        ],
+        "human_impact": {
+          "injured": {
+            "count": 1,
+            "as_of": "2026-10-13",
+            "sources": [
+              {
+                "url": "https://globalnation.inquirer.net/341877/fwd-filipino-seafarer-injured-in-drone-attack-on-persian-gulf-tanker-gets-dmw-aid",
+                "source": "Inquirer.net, 13 October 2026: Department of Migrant Workers, one Filipino seafarer injured and treated in Doha"
+              }
+            ]
+          }
+        },
+        "updates": [
+          {
+            "at": "2026-10-23T20:05:00Z",
+            "text": "First sourced identity and casualty check for this record, which previously held only the register position and damage. UKMTO warning 158-26 confirms a tanker struck by multiple projectiles at 1900 UTC on 7 October 2026, 51NM north of Madinat ash Shamal, Qatar, with casualties reported and no figure given. Vanguard Tech, gCaptain and Splash247 identify her as ACERS, IMO 9301902, Antigua and Barbuda flagged. The Philippine Department of Migrant Workers identified one injured Filipino seafarer, taken to Hamad General Hospital in Doha by the Qatar Navy and Coast Guard, and said 24 other Filipino crew were safe and heading for Dubai. The injured count of one is the only hurt seafarer identified in any source checked; UKMTO reported casualties without a number, so one is not a settled injury total and deaths stay unknown. The region is corrected from Strait of Hormuz to Persian Gulf, because the strike was 51NM north of Qatar, outside the strait. No image is published.",
+            "sources": [
+              {
+                "url": "https://ukmto.org/-/media/ukmto/products/20261007-ukmto_warning_158-26.pdf?rev=3df160b409f54ef4bedbbd2c0ac535fc",
+                "source": "UKMTO warning 158-26, 7 October 2026"
+              },
+              {
+                "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
+                "source": "Splash247, 8 October 2026"
+              },
+              {
+                "url": "https://globalnation.inquirer.net/341877/fwd-filipino-seafarer-injured-in-drone-attack-on-persian-gulf-tanker-gets-dmw-aid",
+                "source": "Inquirer.net, 13 October 2026"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "HIST-ME-20261007-ACERS",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-23T19:56:39Z",
+          "vessel_name": "ACERS",
+          "imo": "9301902",
+          "date_utc": "2026-10-07",
+          "vessel_type": "Chemical/products tanker",
+          "region": "Persian Gulf",
+          "location_text": "51NM north of Madinat ash Shamal, Qatar",
+          "summary": "ACERS, an Antigua and Barbuda flagged chemical and oil tanker, was struck by multiple projectiles about 51 nautical miles north of Madinat ash Shamal, Qatar, at 1900 UTC on 7 October 2026. UKMTO warning 158-26, source verified, recorded a tanker hit by multiple projectiles with casualties reported, giving no number or severity and no attribution. UKMTO does not name vessels; Vanguard Tech identified the tanker as ACERS from AIS and shipping reports name her as the Antigua and Barbuda flagged Acers, IMO 9301902. The Philippines Department of Migrant Workers said on 13 October that one Filipino seafarer was injured and taken by the Qatar Navy and Coast Guard to Hamad General Hospital in Doha, and that 24 other Filipino crew were safe and heading for Dubai. No death has been reported in any source checked, but no source states a settled whole-vessel zero, so deaths remain unknown.",
+          "date_note": "UKMTO warning 158-26 gives 1900 UTC on 7 October 2026. The Philippine Department of Migrant Workers described the tanker as hit by three drones on 7 October, while UKMTO recorded multiple projectiles and named no weapon.",
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/20261007-ukmto_warning_158-26.pdf?rev=3df160b409f54ef4bedbbd2c0ac535fc",
+              "source": "UKMTO warning 158-26, 7 October 2026, source verified"
+            },
+            {
+              "url": "https://gcaptain.com/tanker-attack-off-qatar-signals-wider-threat-beyond-hormuz/",
+              "source": "gCaptain, 8 October 2026: UKMTO timing and position, vessel identified as Acers"
+            },
+            {
+              "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
+              "source": "Splash247, 8 October 2026: Acers IMO 9301902, Antigua and Barbuda flagged oil and chemical tanker, 51NM north of Madinat ash Shamal"
+            },
+            {
+              "url": "https://globalnation.inquirer.net/341877/fwd-filipino-seafarer-injured-in-drone-attack-on-persian-gulf-tanker-gets-dmw-aid",
+              "source": "Inquirer.net, 13 October 2026: Department of Migrant Workers statement on the injured Filipino seafarer and 24 crew safe"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO highlighted confirmed incidents register, ACERS IMO 9301902 entry"
+            }
+          ]
+        },
+        "human_impact": {
+          "injured": {
+            "count": 1,
+            "as_of": "2026-10-13",
+            "sources": [
+              {
+                "url": "https://globalnation.inquirer.net/341877/fwd-filipino-seafarer-injured-in-drone-attack-on-persian-gulf-tanker-gets-dmw-aid",
+                "source": "Inquirer.net, 13 October 2026: Department of Migrant Workers, one Filipino seafarer injured and treated in Doha"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-10-23T19:56:39Z",
+          "text": "Timestamp correction only. First sourced identity and casualty check for this record, which previously held only the register position and damage. UKMTO warning 158-26 confirms a tanker struck by multiple projectiles at 1900 UTC on 7 October 2026, 51NM north of Madinat ash Shamal, Qatar, with casualties reported and no figure given. Vanguard Tech, gCaptain and Splash247 identify her as ACERS, IMO 9301902, Antigua and Barbuda flagged. The Philippine Department of Migrant Workers identified one injured Filipino seafarer, taken to Hamad General Hospital in Doha by the Qatar Navy and Coast Guard, and said 24 other Filipino crew were safe and heading for Dubai. The injured count of one is the only hurt seafarer identified in any source checked; UKMTO reported casualties without a number, so one is not a settled injury total and deaths stay unknown. The region is corrected from Strait of Hormuz to Persian Gulf, because the strike was 51NM north of Qatar, outside the strait. No image is published. The earlier submission recorded this review at 20:05Z and 20:10Z, ahead of the actual review; the facts, counts and sources are unchanged.",
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/20261007-ukmto_warning_158-26.pdf?rev=3df160b409f54ef4bedbbd2c0ac535fc",
+              "source": "UKMTO warning 158-26, 7 October 2026"
+            },
+            {
+              "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
+              "source": "Splash247, 8 October 2026"
+            },
+            {
+              "url": "https://globalnation.inquirer.net/341877/fwd-filipino-seafarer-injured-in-drone-attack-on-persian-gulf-tanker-gets-dmw-aid",
+              "source": "Inquirer.net, 13 October 2026"
             }
           ]
         }
