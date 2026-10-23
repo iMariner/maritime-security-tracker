@@ -5102,16 +5102,35 @@
         "kind": "media",
         "published_at": "2026-10-18T03:40:04Z",
         "title": "İran savaşı: Hürmüz yakınlarında tankerlere saldırı - Investing.com Türkiye"
+      },
+      {
+        "url": "https://www.ukmto.org/recent-incidents",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-23T04:33:37Z",
+        "title": null
+      },
+      {
+        "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-23T04:33:37Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-18T04:38:21Z",
-    "last_updated": "2026-10-18T05:06:07Z",
+    "last_updated": "2026-10-23T04:33:37Z",
     "verification_issue": 183,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-18T05:06:07Z",
-      "note": "an unnamed Turkish-language recap of Hormuz tanker attacks, with no vessel, date, damage or attribution"
+      "by": "iMariner",
+      "at": "2026-10-23T04:33:37Z",
+      "note": "an unnamed Turkish-language recap of the Gulf attacks those days, naming no vessel, position, damage or attacker of its own.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/183#issuecomment-6357445906"
     },
     "published_in": [
       "2026-10-18"
@@ -7168,18 +7187,43 @@
         "kind": "media",
         "published_at": "2026-10-17T07:01:43Z",
         "title": "Eleven sailors missing after drone sinks ship off Bulgaria - DD News"
+      },
+      {
+        "url": "https://apnews.com/article/black-sea-drones-shipping-romania-bulgaria-russia-866f21a940311b13abd9425457edf388",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-23T04:33:39Z",
+        "title": null
+      },
+      {
+        "url": "https://www.france24.com/en/europe/20261015-seven-missing-off-romania-after-latest-black-sea-drone-attacks",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-23T04:33:39Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-17T22:36:11Z",
-    "last_updated": "2026-10-18T05:06:07Z",
+    "last_updated": "2026-10-23T04:33:39Z",
     "verification_issue": 182,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-23T04:33:39Z",
+      "note": "duplicate of INC-20261013-002, the 13 October drone sinking of HS Dignity off Bulgaria with 11 crew missing, which this record mis-dates to 17 October.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/182#issuecomment-6357445663"
+    },
     "published_in": [
       "2026-10-18"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261013-002"
+    "merged_into": "INC-20261013-002",
+    "status_changed_at": "2026-10-23T04:33:39Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -7211,16 +7255,26 @@
         "kind": "media",
         "published_at": "2026-10-17T16:16:56Z",
         "title": "'Hormuz Is Closed,' Warns Iran As Multiple Ships Come Under Attack; Houthi-Saudi Conflict Escalates - Times Now"
+      },
+      {
+        "url": "https://www.ukmto.org/recent-incidents",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-23T04:33:35Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-18T04:38:26Z",
-    "last_updated": "2026-10-18T05:06:07Z",
+    "last_updated": "2026-10-23T04:33:35Z",
     "verification_issue": 184,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-18T05:06:07Z",
-      "note": "no vessel named and no attack of its own; Times Now repeated the day's Hormuz claims and an Iranian warning"
+      "by": "iMariner",
+      "at": "2026-10-23T04:33:35Z",
+      "note": "a recap of Iranian warnings and the day's attacks that names no vessel and reports no attack of its own.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/184#issuecomment-6357446137"
     },
     "published_in": [
       "2026-10-18"
@@ -9756,16 +9810,26 @@
         "kind": "media",
         "published_at": "2026-10-19T07:58:00Z",
         "title": "Iran’s Revolutionary Guard says oil tanker struck mine and caught fire in Strait of Hormuz - A News"
+      },
+      {
+        "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-23T04:33:41Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-17T19:40:33Z",
-    "last_updated": "2026-10-21T06:05:52Z",
+    "last_updated": "2026-10-23T04:33:41Z",
     "verification_issue": 181,
     "verdict": {
       "status": "confirmed",
-      "by": "editor-check",
-      "at": "2026-10-18T05:06:07Z",
-      "note": "India's shipping minister Sarbananda Sonowal named the crude oil tanker MT ST 3, 15 Indian seafarers aboard, struck by a projectile in the Strait of Hormuz on 16 October, all safe"
+      "by": "iMariner",
+      "at": "2026-10-23T04:33:41Z",
+      "note": "IMO lists ST3 (IMO 9220964) as damaged on 16 October 68 nautical miles from Al Jubail, and India's ports minister said MT ST 3 was struck by a projectile in the Strait of Hormuz that day with all 15 Indian crew safe.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/181#issuecomment-6357445450"
     },
     "published_in": [
       "2026-10-18",
@@ -9950,16 +10014,26 @@
         "kind": "media",
         "published_at": "2026-10-15T18:00:00Z",
         "title": "Karadeniz'de gemilere yönelik saldırılar NATO'da görüşülecek - Kıbrıs Postası"
+      },
+      {
+        "url": "https://www.politico.eu/article/nato-black-sea-drone-attack-ship-meet/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-23T04:33:43Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-17T17:31:10Z",
-    "last_updated": "2026-10-18T05:06:07Z",
+    "last_updated": "2026-10-23T04:33:43Z",
     "verification_issue": 180,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-18T05:06:07Z",
-      "note": "no vessel was attacked; the item is about NATO discussing Black Sea attacks"
+      "by": "iMariner",
+      "at": "2026-10-23T04:33:43Z",
+      "note": "the item reported that NATO would discuss the Black Sea attacks on shipping, not an attack on any vessel.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/180#issuecomment-6357445232"
     },
     "published_in": [
       "2026-10-18"
