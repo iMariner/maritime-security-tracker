@@ -37,5 +37,29 @@
   "generated_at": "2026-10-24T04:38:44Z",
   "consistency_fixed": [],
   "consistency_problems": [],
-  "quality": "2 check(s) need attention: dates 1 approximate; attribution 3 claims without a named source; official coverage 0/0 ok; verified 5/12; single-source items 4, 4 without verification; confirmed ok; fact-check 3 correction(s); tweet 241/280 ok; dashes ok; consistency ok"
+  "quality": "2 check(s) need attention: dates 1 approximate; attribution 3 claims without a named source; official coverage 0/0 ok; verified 5/12; single-source items 4, 4 without verification; confirmed ok; fact-check 3 correction(s); tweet 241/280 ok; dashes ok; consistency ok",
+  "review": {
+    "status": "done",
+    "at": "2026-10-24T05:04:58Z",
+    "changes": [
+      "lead story set to INC-20261023-002 (the only attack of the last 24 hours, with one dead, three missing and a ship su)",
+      "INC-20261023-002 marked confirmed (Romania's interior ministry said a drone strike caused major damage and a fire, and the Romanian Naval Authority is leading the search for the three missing)",
+      "INC-20261022-023 marked confirmed (UKMTO warning 181-26, incident date 22 October 2026, a tanker hit by an unknown projectile 7NM northeast of Limah)",
+      "INC-20261023-014 marked rejected (the EnergyNow page sits under /2026/07/ and carries the 14 July 2026 UAE statement about the tankers Mombasa B and Al Bahyah, not an attack on 23 October)",
+      "INC-20261023-012 marked rejected (the Turkish reports name the AK ANA, an Antigua and Barbuda flagged tanker hit by a drone in the Black Sea in late August, now transiting the Bosphorus, not an attack on 23 October)",
+      "INC-20261023-007 marked rejected (an analysis piece on drones evading NATO defences that names no vessel, date or position and reports no separate attack)",
+      "INC-20261023-008 marked rejected (Rybar commentary on the Khoryv attack and the NATO and EU response, naming no separate vessel and no separate strike)",
+      "INC-20261022-021 marked rejected (the vessel is unidentified, one account says a yacht with 14 Indians aboard and another an Omani boat carrying weapons, with no independent evidence and no merchant ship established)",
+      "imo of INC-20261023-002 set to 8138712",
+      "lesson (facts): A report about an unidentified yacht, small boat or fishing vessel is not a merchant ship incident: record it only once "
+    ],
+    "refused": [],
+    "notes": [
+      "Call the Khoryv an oil-bulk-ore carrier, as The Maritime Executive and VesselFinder do, in the headline, standfirst, lede, key points and the Black Sea paragraph, keeping her name and the one dead and three missing; the record's vessel_type still says general cargo, which only the map legend prints.",
+      "In the Earlier in the week Black Sea line, drop the words \"with one vessel reported adrift off Giresun\": that drifting ship is the Aroyat, struck off Novorossiysk on 27 September, not a ship hit this week."
+    ],
+    "restored": [],
+    "send_after": false,
+    "lead": "INC-20261023-002"
+  }
 }
