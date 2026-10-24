@@ -1,5 +1,105 @@
 [
   {
+    "region": "Black Sea",
+    "date_utc": "2026-10-24",
+    "summary": "A headline says Russia announced that it struck a ship in the Black Sea and shot down 616 Ukrainian drones. No vessel name, flag, position, damage or casualty details are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": "struck at sea, extent unknown",
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry",
+    "independent_evidence": false,
+    "id": "INC-20261024-001",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMikARBVV95cUxPUkg0XzR4ajl2eWk4NlRuaGpuYy1DQnZ3QnBiVW5zNW16aUdVUElGZ1NjeW5VSE5BN1NIUGJlc0l5X0s3a0wwRGV2Uk9HbEx5ZXRSUG83SGUzWndPV2FVU1lZZzJYRmo1cHFGZDVjT2syMjNsOVBFNW05T0FRUkRjZVZ4aHR6REQ1dG9SXzB3ZXB0Um1hNmhkU2NnOGoxbDBfQlNRVnVaTWNqQXpUbVdXS19vN3p6dTB0WTA4c0l0NTNvaUx5UVphOXNmeUFmMXlQaWpiTHpsb29ULURZMTZVWEVkTkFiakY0Y3ZSczZMUk5qUHhyaV9rdlJucXZkUFFSQWRhMkx6N2JYeHdQN0JBdHpZRW5fWHFyMGFWamVNQ1hmQ1RMd1BjZ3ZtZXU4Y2UxY2tFZGc3cTRQQnRKaWMtUlV3cUIyc3QxODNIbnduVy1EVlFpNTVGZU9DSlVJSkFMcnFaSnVJOC13TVlSUTI2WU1EOGVwVWhmdFhJWmJPTlRfd185OVlDemg2UGl1dGlZbDN4OGsyaDN1OVNNTTljbE4wa1d4bHUya1Z4V2VvdE9MRjJDOTJLM0hvaG1TNG5lWlUzRUZzYmhQUjE5RkVRUW9JNUxiT3ppeHV0YjVoR1dIdTdpY21VUVZzMWlEWnJrQ011RXJRSVFCZVpvX0ZpZHZxQ19ESE9yOTV6NTlrTkg?oc=5",
+        "source": "مبتدا",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-24T06:34:20Z",
+        "title": "روسيا تعلن استهداف سفينة في البحر الأسود وإسقاط 616 مسيّرة أوكرانية - مبتدا"
+      },
+      {
+        "url": "https://t.me/dva_majors/100906",
+        "source": "Dva Mayora",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "osint",
+        "published_at": "2026-10-24T05:39:12+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/68492",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-24T05:29:18+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-10-24T07:34:35Z",
+    "last_updated": "2026-10-24T07:34:49Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261022-006",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-24",
+    "summary": "Russia's defence ministry said its forces struck a vessel delivering cargo for Ukraine's armed forces to Odesa port. It also said it hit a workshop producing uncrewed boats at Chornomorsk port; no vessel name, flag, damage or casualty details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 46.49,
+    "lon": 30.74,
+    "location_text": "at sea, en route to Odesa port, Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry",
+    "independent_evidence": false,
+    "id": "INC-20261024-002",
+    "sources": [
+      {
+        "url": "https://t.me/rian_ru/348519",
+        "source": "RIA Novosti",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-24T05:24:19+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-10-24T07:34:41Z",
+    "last_updated": "2026-10-24T07:34:49Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261022-006",
+    "position_approx": true
+  },
+  {
     "region": "Strait of Hormuz",
     "date_utc": "2026-10-23T15:54:13Z",
     "summary": "A headline reports an oil slick threatening an environmental disaster after a tanker was attacked in the Strait of Hormuz. No vessel name, date, position or attribution is given.",
@@ -1868,10 +1968,100 @@
         "kind": "media",
         "published_at": "2026-10-24T05:04:58Z",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNjh6RnlpeDdhVGJDbllVbmoybWpVZ3FJVEVydkRYdVlaVTJ4S3QtVG1KSktUNjczanBjR29ZYkt3V3JZWFhBeF9jS3JHYXZsaTJvclZsREhRVkoyT1lQWlBRb0NYcDA1NHJfb0VvUWNWMXJoendPZzA5bWhGM08wbVBtQWh2cFdtSWtr?oc=5",
+        "source": "NTD News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-24T04:00:47Z",
+        "title": "Drone Strike Sinks Cargo Ship in Black Sea - NTD News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTFFkQ1VCWWdpNnFWeXgwUWU5ZzlVdzNLb1FFUzlZOEVLS3cwZXR1VVluNTROajFvdWYtX1JSMmxSZXYwNHktN05vUWtJbTE4dktqcjhtamxTQWtxdUI0a2dBbktKZ3NaQWVPZ191Szc1Y0JDMnlaR2t3U2FNRXY4VkgyVE14RUgyaTlRZnZ3MkzSAZABQVVfeXFMUHZDbXNKUVNLc0xIY0g3MTlhR1FOWDl3LWRXM2VWUHRZRE1mNkZydTVDZE5PcTNRbTVXeVMxb0pQOUlfZE5VTTZUZnB1VmlIeEVOc3l0cUp6dFVPYWJCZDdQNGd1NFZGQ3ZxY1pDajNraW1PbWZ0aUktZ1g2YzNhNU5tYy02QzBKSDNBVWNuMFBy?oc=5",
+        "source": "DW.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-23T16:26:39Z",
+        "title": "Romania blames Russia for ship attack in the Black Sea - DW.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNOTRTSnA0cElPbnkwVk9XaXVtUGtURDhMdEQyOXo5OUdIaFFTX3hNd2liaER6Y2o0bTlkNWJDSHhXUzRmWEFJNG5SSXJrdDg4TDNwdlEweEpwQkw3eF9INmNidDNYWEpMdV9NRzM3YzNQZzBNRDk3M0lJMDZJdjlaLUVwb1N4aGpWS1BSVWtKaXZfdS1iVjBaTGNPbERqcXpFeVl5YU1QLVZ6eDU4WjdmbUIxSF9jQ2RIX3lPU1JkS3NiSFIwWXlNY0lEZWE3b0tOYnJIdVdlUXM0NEhkT3BsdW5Rb3h0UnIxZzZSTHp0ay1Nc3ljUkE?oc=5",
+        "source": "Stirile ProTV",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-23T16:17:00Z",
+        "title": "Nava comercială scufundată de dronă în largul Constanței venea spre Sulina. Un marinar a murit, trei sunt dispăruți - Stirile ProTV"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRFJ6T2xwZXR2M3ZuZWo4ODFZR0FXMEstSHoyMXYtMHBRRVNiaWJDcDVYOVN6WUp2dlU4eEZzVWUtMFFBTGlFbVhiMVF5VnBZR1F6bENQQkRXRkU3QTlMQmJFVmRPRy1ubXM1U3d3dGRGdFdoaTF6QzdOUXJCUkJDQWxxR3JBREpXMERNZQ?oc=5",
+        "source": "Ege Alternatif",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-23T12:55:00Z",
+        "title": "Karadeniz'de gemiye saldırı: 1 ölü, 3 kayıp - Ege Alternatif"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWDh4VDJsNUx3dHJ1VGJ4VTl5dkdLQVdyMUVOTUYyYjhUSDdvQjR6LTZueUV4ejBld3NIYURaQVZtbTkzQUpyaUhzSjRza3d6ci1LYUo2blRDblRfbFZhWXNQWjVYWGh3a3pwelRxRmZvYllmWEtfY1NNVkk2WmhmTG9BQ3lrRlRrenR0S2RGNERSemc4MGtUWEhBT0JVcEM4Y1RjdWJocWNPN3ZIV2ZBQnJITHRENGgyMmdpZlhB?oc=5",
+        "source": "Informat.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-23T12:21:51Z",
+        "title": "Prime Minister Luca Niculescu announces additional NATO equipment for the naval forces after a ship was hit by a drone in the Black Sea - Informat.ro"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOd1JuRkdHa2lfY3kzMTBBZ0w2Y3g0Vi1vdVd2R0IzTHEwVDJOMlljakFKZzlMcEQ4LWstaGM1TzVhc0gySnpuNGlfdFZsWklEREhjczJjb0txVVdBUXFGRmZZVnFoanc0Sl9veUJSWG5aZlU3Ynk1NFg3d3ZvcWwxUTk0Sy0wM1RvWlJhQWlWNXh2OVgwVWU4ZlJXZHB0dGJsNUlpLVd6RXZiT0JHbldfR2ZheTVnTHp6WWZUQURFWXBHYmNqa1BzYmpaa1JZRVFGMVFzTG1fdm5EYTVaTE1wUGNrd3FQaXYzb3FpTXJZUGV2T1BtZDNxNzlEVFpFbHIzMnc?oc=5",
+        "source": "The Sunday Guardian",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-23T11:49:21Z",
+        "title": "Russia-Ukraine War Latest News: Black Sea Cargo Ship Catches Fire Off Romania; One Dead, Three Missing After Reported Drone Strike - The Sunday Guardian"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPLU9sMC1FOTZwZ0c4dmNjOV9ENnpXNDF5UVRUcFp6aVlpOHBPVkt6YWQ3YWE5aU96MFNreFR1dk4wWm5janJhLTZLWTlRaGxwUzJoUkh5ZW5nTnBwM3MyamVqTEtiRU11cnZWLVR0RklNcjVnZjlfUWxWa0F1cUxiVHAtVmItY3Z2NVB5SjNXSU94UGM?oc=5",
+        "source": "Bangkok Post",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-23T11:45:00Z",
+        "title": "Romania blames Russia for deadly attack on ship - Bangkok Post"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdExrSXZNRklkX1JmVHNTVERyeVRONVRmMjJpSF84OVNiSml5ZEZwZ2VfTmFGQ04yZVVFRUlZUEZTeTJPVDNGQ0FJUmRyWFVEUEJlZmVEWXZoVkRES0xWR0gwbDZzU0RwX3Nick9KZTI1YUdXRU8zRVFmWUFQcDZabXJmRDU5anNxVjFTTGZYRDUydU5PRVpfRjlxYThMYVRFYncwbGxQM1Z0Z1JUQXA3X1ktbkxIcGMzSmZ5dWFEbWRHLTA?oc=5",
+        "source": "Business Upturn",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-23T10:53:46Z",
+        "title": "Black Sea ship fire off Romania leaves one dead, three missing as rescue operation continues - Business Upturn"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbVRLSllIMGxtLXNGTkdmX2NVUnVDT09NTzlUanJiOVNWSG85Zy1KYWxvY0p6a2lpWGR1LWIta1AxTmxNQm9OSWE4WnNpX091NDdTbDdqeE1TUWpxQndaTWZ4bHBXd0syNjRVQWE3aHN1eFNrSmZja2xQOXctd3NSc0JPX3djMTVObzgzZW5vVVo?oc=5",
+        "source": "Yahoo",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-23T10:13:00Z",
+        "title": "Vessel presumably struck by drone sinks in Black Sea, one killed and three missing – video - Yahoo"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9NdVhHUGNLLUFTZTI2aDA4VXZfazlmMjM4b0x2QURuZW1zYXNfMTdpQ2dvOEUwdEgwTlhoUXlKRHpGQk5YTll4RTlPcVBEMEFHRHRyM1EwTDdHak9KdVQ4RGZiaG93UDJNRTdtcmxNc2E5TC1KNlHSAXtBVV95cUxOdkVVUEFTT3E2LVpCcUVaQU9jUE52S004VWYxVmIxSDNpdEJyQlFNWWx3dFJDaHNoVy02NlNaQzNxOV9fc05sclg2bFZkVTZDY0l0QlpjUzZhbko3b19nOE5PeGJKbFBpdUVMTUd0ZE5NZ0RBSUJKLTdSTU0?oc=5",
+        "source": "Daily Express",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-23T08:55:00Z",
+        "title": "At least one dead after ship sunk 'by a drone' off coast of NATO state - WW3 fears erupt - Daily Express"
       }
     ],
     "first_seen": "2026-10-23T11:59:27Z",
-    "last_updated": "2026-10-24T05:04:58Z",
+    "last_updated": "2026-10-24T07:34:48Z",
     "verification_issue": 230,
     "verdict": {
       "status": "confirmed",
@@ -2347,6 +2537,47 @@
     ],
     "first_seen": "2026-10-24T04:38:26Z",
     "last_updated": "2026-10-24T04:38:35Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261022-023",
+    "position_approx": true
+  },
+  {
+    "region": "Persian Gulf",
+    "date_utc": "2026-10-23",
+    "summary": "UKMTO reported that a vessel was struck by an unknown projectile off the UAE coast amid a surge in attacks. No vessel name, flag, damage or casualty details were given.",
+    "official_source_cited": "UKMTO",
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 26.8,
+    "lon": 52.5,
+    "location_text": "off the UAE coast, Persian Gulf",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261023-016",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOLVB0d004UExaZzFwQl9KSE9IODA0aGE1OVpkVTZDTmZxMG80LXEzMThycElvSmYzS29xbV9vMGJNODZUY0hjZGZoWTdmS0R2Q1VSbUJEQjNDdG13Zy1xbk11UENPRHlKRW1QS3ZZdUxVcnVaZERtU3JucUdwM1F3aHNSVHV5Sm1LOHd6VEhZcjNZV0ZmcjFaT21iemhPRmw5N3VLRmZmLXhUdEpCN1Y0Zzdn?oc=5",
+        "source": "EnergyNow",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-23T21:01:00Z",
+        "title": "Vessel Struck by Unknown Projectile Off UAE Coast Amid Surge in Attacks, UKMTO Says - EnergyNow"
+      }
+    ],
+    "first_seen": "2026-10-24T07:34:41Z",
+    "last_updated": "2026-10-24T07:34:49Z",
     "verification_issue": null,
     "verdict": null,
     "published_in": [],
@@ -3234,10 +3465,46 @@
         "kind": "media",
         "published_at": "2026-10-23T05:00:02Z",
         "title": "Russia Says Drones Hit Poltava Depot, Vilkovo Port, Ship - Военное дело"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikARBVV95cUxPUkg0XzR4ajl2eWk4NlRuaGpuYy1DQnZ3QnBiVW5zNW16aUdVUElGZ1NjeW5VSE5BN1NIUGJlc0l5X0s3a0wwRGV2Uk9HbEx5ZXRSUG83SGUzWndPV2FVU1lZZzJYRmo1cHFGZDVjT2syMjNsOVBFNW05T0FRUkRjZVZ4aHR6REQ1dG9SXzB3ZXB0Um1hNmhkU2NnOGoxbDBfQlNRVnVaTWNqQXpUbVdXS19vN3p6dTB0WTA4c0l0NTNvaUx5UVphOXNmeUFmMXlQaWpiTHpsb29ULURZMTZVWEVkTkFiakY0Y3ZSczZMUk5qUHhyaV9rdlJucXZkUFFSQWRhMkx6N2JYeHdQN0JBdHpZRW5fWHFyMGFWamVNQ1hmQ1RMd1BjZ3ZtZXU4Y2UxY2tFZGc3cTRQQnRKaWMtUlV3cUIyc3QxODNIbnduVy1EVlFpNTVGZU9DSlVJSkFMcnFaSnVJOC13TVlSUTI2WU1EOGVwVWhmdFhJWmJPTlRfd185OVlDemg2UGl1dGlZbDN4OGsyaDN1OVNNTTljbE4wa1d4bHUya1Z4V2VvdE9MRjJDOTJLM0hvaG1TNG5lWlUzRUZzYmhQUjE5RkVRUW9JNUxiT3ppeHV0YjVoR1dIdTdpY21VUVZzMWlEWnJrQ011RXJRSVFCZVpvX0ZpZHZxQ19ESE9yOTV6NTlrTkg?oc=5",
+        "source": "مبتدا",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-24T06:34:20Z",
+        "title": "روسيا تعلن استهداف سفينة في البحر الأسود وإسقاط 616 مسيّرة أوكرانية - مبتدا"
+      },
+      {
+        "url": "https://t.me/dva_majors/100906",
+        "source": "Dva Mayora",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "osint",
+        "published_at": "2026-10-24T05:39:12+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/68492",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-24T05:29:18+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/rian_ru/348519",
+        "source": "RIA Novosti",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-24T05:24:19+00:00",
+        "title": null
       }
     ],
     "first_seen": "2026-10-22T12:18:40Z",
-    "last_updated": "2026-10-24T04:38:35Z",
+    "last_updated": "2026-10-24T07:34:49Z",
     "verification_issue": 223,
     "verdict": null,
     "published_in": [
@@ -3954,10 +4221,19 @@
         "kind": "media",
         "published_at": "2026-10-23T23:33:28Z",
         "title": "Chinese-Owned Oil Tanker Hit Near Hormuz as US Pauses Ship-Protection Plan, Report Says - EnergyNow.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOLVB0d004UExaZzFwQl9KSE9IODA0aGE1OVpkVTZDTmZxMG80LXEzMThycElvSmYzS29xbV9vMGJNODZUY0hjZGZoWTdmS0R2Q1VSbUJEQjNDdG13Zy1xbk11UENPRHlKRW1QS3ZZdUxVcnVaZERtU3JucUdwM1F3aHNSVHV5Sm1LOHd6VEhZcjNZV0ZmcjFaT21iemhPRmw5N3VLRmZmLXhUdEpCN1Y0Zzdn?oc=5",
+        "source": "EnergyNow",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-23T21:01:00Z",
+        "title": "Vessel Struck by Unknown Projectile Off UAE Coast Amid Surge in Attacks, UKMTO Says - EnergyNow"
       }
     ],
     "first_seen": "2026-10-24T04:38:22Z",
-    "last_updated": "2026-10-24T05:04:58Z",
+    "last_updated": "2026-10-24T07:34:49Z",
     "verification_issue": null,
     "verdict": {
       "status": "confirmed",
