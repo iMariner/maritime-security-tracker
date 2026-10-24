@@ -52,5 +52,14 @@
     "restored": [],
     "send_after": false,
     "lead": "INC-20261023-002"
+  },
+  "final_read": {
+    "status": "warnings",
+    "at": "2026-10-24T05:28:13Z",
+    "warnings": [
+      "The headline is cut mid-word at 90 characters (\"one dead and three missi\") in the preview and in the WordPress title, which is the writer's hard 90-character cut and no review line can correct it, so shorten the wording if you want it clean before publishing.",
+      "Three \"Earlier in the week\" sentences print \"uKMTO\" and one prints \"russia's defence ministry\" in lower case, which is the writer's lowercase bug and not a data error.",
+      "The map legend prints \"KHORYV (general cargo)\" while the article calls her an oil-bulk-ore carrier, because the record's vessel_type still says general cargo and no review line sets that field."
+    ]
   }
 }
