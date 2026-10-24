@@ -7905,13 +7905,14 @@
       }
     ],
     "first_seen": "2026-10-18T11:38:00Z",
-    "last_updated": "2026-10-19T05:07:29Z",
+    "last_updated": "2026-10-24T04:33:14Z",
     "verification_issue": 185,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-19T05:07:29Z",
-      "note": "Dumlupinar Gazetesi recap of successive attacks that names no ship, date or position and repeats strikes already tracked"
+      "by": "iMariner",
+      "at": "2026-10-24T04:33:14Z",
+      "note": "A round-up of Black Sea attacks that names no ship, date or position and adds nothing beyond strikes already tracked.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/185#issuecomment-6379896832"
     },
     "published_in": [
       "2026-10-19"
@@ -8281,13 +8282,14 @@
       }
     ],
     "first_seen": "2026-10-18T11:38:07Z",
-    "last_updated": "2026-10-19T05:07:29Z",
+    "last_updated": "2026-10-24T04:33:13Z",
     "verification_issue": 188,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-19T05:07:29Z",
-      "note": "an analysis of drone attacks near NATO shores that names no ship, date or position"
+      "by": "iMariner",
+      "at": "2026-10-24T04:33:13Z",
+      "note": "An analysis piece on drone attacks near NATO coasts that names no ship, date or position and reports no separate attack.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/188#issuecomment-6379897006"
     },
     "published_in": [
       "2026-10-19"
@@ -8512,18 +8514,34 @@
         "kind": "media",
         "published_at": "2026-10-18T12:49:05Z",
         "title": "Hormuz Tanker Fires Test Trump's Midterm Iran Pause - https://houseofsaud.com/"
+      },
+      {
+        "url": "https://www.ukmto.org/recent-incidents",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-24T04:33:11Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-18T11:38:19Z",
-    "last_updated": "2026-10-19T05:07:29Z",
+    "last_updated": "2026-10-24T04:33:11Z",
     "verification_issue": 190,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-24T04:33:11Z",
+      "note": "Duplicate of the 16 October projectile strike on the tanker ST 3 near Al Jubayl, already recorded as INC-20261016-010.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/190#issuecomment-6379897250"
+    },
     "published_in": [
       "2026-10-19"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261017-004"
+    "merged_into": "INC-20261017-004",
+    "status_changed_at": "2026-10-24T04:33:11Z"
   },
   {
     "region": "Black Sea",
@@ -9040,18 +9058,34 @@
         "kind": "media",
         "published_at": "2026-10-18T18:52:03Z",
         "title": "У побережья Сочи возник крупный пожар на борту танкера - prospect.com.ru"
+      },
+      {
+        "url": "https://www.thehindu.com/news/international/ukraine-drone-attack-triggers-huge-tanker-fire-off-russias-sochi-23-indians-rescued/article71554355.ece",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-24T04:33:10Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-18T14:48:03Z",
-    "last_updated": "2026-10-19T05:07:29Z",
+    "last_updated": "2026-10-24T04:33:10Z",
     "verification_issue": 191,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-24T04:33:10Z",
+      "note": "The 23 Indians taken off a tanker near Sochi were the crew of the Aframax Rio, hit on 6 October and already recorded as INC-20261006-014.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/191#issuecomment-6379897456"
+    },
     "published_in": [
       "2026-10-19"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261006-014"
+    "merged_into": "INC-20261006-014",
+    "status_changed_at": "2026-10-24T04:33:10Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -10304,7 +10338,7 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.4,
-    "vessel_name": null,
+    "vessel_name": "MSV FAIZE NOORE OLIYA",
     "imo": null,
     "flag": "India",
     "vessel_type": null,
@@ -10327,16 +10361,35 @@
         "kind": "media",
         "published_at": "2026-10-17T07:00:00Z",
         "title": "India-flagged ship sinks after attack in Red Sea - mahamedianews"
+      },
+      {
+        "url": "https://indianexpress.com/article/world/indian-ship-sinks-in-yemeni-waters-attack-houthi-iran-msv-faize-noore-oliya-sarbananda-sonowal-10818029/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-24T04:33:08Z",
+        "title": null
+      },
+      {
+        "url": "https://www.mofa-ye.org/Pages/38475/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-24T04:33:08Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-18T20:59:31Z",
-    "last_updated": "2026-10-19T05:07:29Z",
+    "last_updated": "2026-10-24T04:33:08Z",
     "verification_issue": 192,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-19T05:07:29Z",
-      "note": "it is the 4 August sinking of MSV Faize Noore Oliya reported again on 17 October, per Telegraph India of 5 August"
+      "by": "iMariner",
+      "at": "2026-10-24T04:33:08Z",
+      "note": "This is the 4 August sinking of the Indian-flagged MSV Faize Noore Oliya off Yemen, not an attack on 17 October.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/192#issuecomment-6379897618"
     },
     "published_in": [
       "2026-10-19"
