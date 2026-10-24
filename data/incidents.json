@@ -193,6 +193,47 @@
     "position_approx": true
   },
   {
+    "region": "Black Sea",
+    "date_utc": "2026-10-24",
+    "summary": "A Turkish headline reports a drone attack on a ship that departed from Zonguldak, leaving one dead and three missing. No vessel name, flag, position or attribution is given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "vessel that departed from Zonguldak, Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": "1 dead, 3 missing",
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261024-005",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPc0NVcnpqcW1xemdKVU1ZRHpSMVJna1NocWdjWmNDSk5CVXdqODNwd0laNnVvSUZlQU5vYlZVSDRRbVhkMVdqejFyeUYyMV8tclJST0xmMGVoYWxDQ1MzRmU0b2JHRm5hUi1yb21obXlJVm9VekIteHJ4R3pKTUMtWTRsdkNUU1FmWmxhMDRTdjFUV0ZuUS1JODZB?oc=5",
+        "source": "Zonguldak Pusula Son Dakika Haberleri",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-24T18:09:00Z",
+        "title": "Zonguldak'tan hareket eden gemiye 'İHA' saldırısı: 1 ölü, 3 kayıp! - Zonguldak Pusula Son Dakika Haberleri"
+      }
+    ],
+    "first_seen": "2026-10-24T18:57:44Z",
+    "last_updated": "2026-10-24T18:57:50Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261023-002",
+    "position_approx": true
+  },
+  {
     "region": "Strait of Hormuz",
     "date_utc": "2026-10-23T15:54:13Z",
     "summary": "A headline reports an oil slick threatening an environmental disaster after a tanker was attacked in the Strait of Hormuz. No vessel name, date, position or attribution is given.",
@@ -284,6 +325,47 @@
     "status": "merged",
     "position_approx": true,
     "merged_into": "INC-20261021-008"
+  },
+  {
+    "region": "Persian Gulf",
+    "date_utc": "2026-10-23T11:44:45Z",
+    "summary": "A headline says the U.S. struck three Iranian oil tankers after missile attacks on navy warships. No vessel names, positions, dates or damage details are given, and the claim is not attributed to a named source.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.4,
+    "vessel_name": null,
+    "imo": null,
+    "flag": "Iran",
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.8,
+    "lon": 52.5,
+    "location_text": null,
+    "attack_type": "other",
+    "damage": "three Iranian oil tankers struck by U.S. forces",
+    "casualties": null,
+    "attribution_claimed": "United States (struck the tankers, per headline)",
+    "independent_evidence": false,
+    "date_approx": true,
+    "id": "INC-20261023-018",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbEk5SW1ubXpkSFhnUnJxQ0txVTVFZmlWVXNmYXZGOGF1QnduZkUwNERKcERTY1g2NTdJVlJpQlJ2OG9sLUZnUDF3aktZd0hQWVdFY2prQ1pPTUFlUGRPdS0xTmtfZG5jNlhVY1hROVRYZTdydlJfRklQRjBDb0JOM2swQjRvZnlWb18zNjhnNXFnN183ektrVjEwQjd1Y2dIU2h0UlpicGIyQQ?oc=5",
+        "source": "EnergyNow",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-23T11:44:45Z",
+        "title": "U.S. Strikes Three Iranian Oil Tankers After Missile Attacks on Navy Warships - EnergyNow"
+      }
+    ],
+    "first_seen": "2026-10-24T18:57:50Z",
+    "last_updated": "2026-10-24T18:57:50Z",
+    "verification_issue": 239,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
   },
   {
     "region": "Black Sea",
@@ -438,7 +520,7 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-10-23",
-    "summary": "The general cargo ship Khoryv was struck by a drone and sank about 13 nautical miles off Constanța, Romania, on 23 October, killing one crew member and leaving three missing while nine were rescued. Romanian officials blamed Russia for the attack, and a Romanian Black Hawk helicopter was sent to search for the missing sailors.",
+    "summary": "The general cargo ship Khoryv was struck by a drone and sank about 13 nautical miles off Constanța, Romania, on 23 October, killing one crew member and leaving three missing while nine were rescued. Romanian officials blamed Russia, and a Turkish report of a drone attack on a ship from Zonguldak with the same casualty toll and a presidential comment on a new vessel hit describe the same strike.",
     "official_source_cited": "Romanian authorities",
     "conflicting": true,
     "confidence": 0.95,
@@ -2328,10 +2410,37 @@
         "kind": "media",
         "published_at": "2026-10-24T10:08:44Z",
         "title": "A fost reluată căutarea celor trei marinari dispăruți de pe nava comercială lovită de drone în Marea Neagră - TVRInfo.ro"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1FWXNEbEE3T3FkUmxGSUk1UzV4WEI3MkFwVGZUTmh3S20xRF9YQ21LTFlaSklXNldBNmwtWC1IdEI0T1NGbE5vREhhQ1pnWTdsNTlKWG1zS2JXU0RsSFd4RWlJMA?oc=5",
+        "source": "TRT Balkan BHSC",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-24T10:25:11Z",
+        "title": "România acuză Rusia după ce un atac cu dronă a scufundat o navă și a ucis un marinar - TRT Balkan BHSC"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPc0NVcnpqcW1xemdKVU1ZRHpSMVJna1NocWdjWmNDSk5CVXdqODNwd0laNnVvSUZlQU5vYlZVSDRRbVhkMVdqejFyeUYyMV8tclJST0xmMGVoYWxDQ1MzRmU0b2JHRm5hUi1yb21obXlJVm9VekIteHJ4R3pKTUMtWTRsdkNUU1FmWmxhMDRTdjFUV0ZuUS1JODZB?oc=5",
+        "source": "Zonguldak Pusula Son Dakika Haberleri",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-24T18:09:00Z",
+        "title": "Zonguldak'tan hareket eden gemiye 'İHA' saldırısı: 1 ölü, 3 kayıp! - Zonguldak Pusula Son Dakika Haberleri"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbDFJc0RsQWRKWlZwaU1GNVUtSVdpQnMwV1JrbXpSMTFNaERCX3N1MFdTWDM2U0tEcXlidUVxSWxWM3hWcjh4eFNQeE9hMHdrUFo0YzBaWWh1b3J6eFF4OW5FaHVham5kMHlheUhsYkw2ZlRLZ3pfMEVwX1cwVmVRVzRzeWdzVXlKWUFJWS1jZEg5S1Vs?oc=5",
+        "source": "Informat.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-23T09:32:59Z",
+        "title": "Nicușor Dan, about the new vessel hit by drones in the Black Sea: An event in Russia’s escalation process - Informat.ro"
       }
     ],
     "first_seen": "2026-10-23T11:59:27Z",
-    "last_updated": "2026-10-24T16:12:49Z",
+    "last_updated": "2026-10-24T18:57:50Z",
     "verification_issue": 230,
     "verdict": {
       "status": "confirmed",
@@ -2853,6 +2962,47 @@
     "published_in": [],
     "status": "merged",
     "merged_into": "INC-20261022-023",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-23",
+    "summary": "Romanian President Nicușor Dan commented on a new vessel hit by drones in the Black Sea, calling it part of Russia's escalation. No vessel name, flag, position, damage or casualty details are given.",
+    "official_source_cited": "Romanian President Nicușor Dan",
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Russia (implied by Romanian president calling it part of Russia's escalation)",
+    "independent_evidence": true,
+    "id": "INC-20261023-019",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbDFJc0RsQWRKWlZwaU1GNVUtSVdpQnMwV1JrbXpSMTFNaERCX3N1MFdTWDM2U0tEcXlidUVxSWxWM3hWcjh4eFNQeE9hMHdrUFo0YzBaWWh1b3J6eFF4OW5FaHVham5kMHlheUhsYkw2ZlRLZ3pfMEVwX1cwVmVRVzRzeWdzVXlKWUFJWS1jZEg5S1Vs?oc=5",
+        "source": "Informat.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-23T09:32:59Z",
+        "title": "Nicușor Dan, about the new vessel hit by drones in the Black Sea: An event in Russia’s escalation process - Informat.ro"
+      }
+    ],
+    "first_seen": "2026-10-24T18:57:50Z",
+    "last_updated": "2026-10-24T18:57:50Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261023-002",
     "position_approx": true
   },
   {
@@ -3798,10 +3948,19 @@
         "kind": "media",
         "published_at": "2026-10-24T06:02:38Z",
         "title": "Russian Forces Strike Cargo Ship Carrying Supplies to Odessa - Военное дело"
+      },
+      {
+        "url": "https://t.me/mod_russia/68509",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-24T18:31:32+00:00",
+        "title": null
       }
     ],
     "first_seen": "2026-10-22T12:18:40Z",
-    "last_updated": "2026-10-24T16:12:49Z",
+    "last_updated": "2026-10-24T18:57:44Z",
     "verification_issue": 223,
     "verdict": null,
     "published_in": [
@@ -5648,10 +5807,28 @@
         "kind": "media",
         "published_at": "2026-10-24T07:34:00Z",
         "title": "Massive oil spill washes up on UAE holiday resort after tanker strike near Strait of Hormuz forcing beaches to shut - The Sun"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9EYjFkcDkzeTlzV055bjlscDdsam9VMXU0TzNBRU5xV1dZOHdaWTlERjNob1k0MUJhRlVmVmQwbEVYUFpVcHpmTTRnRVlGdGhpUmxuNlp4MEl2UW95LWdsb2dndGJpT1V0c3I1VkR3YzNjMFpuLTBCclo4ZDE?oc=5",
+        "source": "www.the-sun.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-24T07:46:38Z",
+        "title": "Massive oil spill washes up on UAE holiday resort after tanker strike near Strait of Hormuz forcing beaches to shut - www.the-sun.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JUjZ1cVhSNnlxRmc3Mml1S0dHVl8yRHlTbzVpZFRKcXlXaXNYdzRqbmN0S20yYWg1N0pKNVFXTXlGNXg0TVQtTEdIVVV2Mm1kMm1zRnhTdHBhVDY0VG14MzF4NVFBS3dxOGp3bzlaRTBvYmVXcWV5dXlkeU9KRFE?oc=5",
+        "source": "The Sun",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-24T07:34:00Z",
+        "title": "Beaches forced to shut after attack on tanker near Strait of Hormuz sparks massive oil spill off UAE holiday resort - The Sun"
       }
     ],
     "first_seen": "2026-10-21T12:16:33Z",
-    "last_updated": "2026-10-24T16:12:49Z",
+    "last_updated": "2026-10-24T18:57:50Z",
     "verification_issue": 217,
     "verdict": {
       "status": "confirmed",
@@ -6705,10 +6882,19 @@
         "kind": "media",
         "published_at": "2026-10-22T12:50:12Z",
         "title": "Iran says 7 ships have been struck in Strait of Hormuz, Saudis intercept drones in airspace - CBC"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZHgyWE1ZbFdVQXhyZ0JRTV82cm5HOW1WYUU0b1o3OVlHbTFmSXBpU3dZMkdTTjJLQWZVN1NRdXYwbXNhY3lwR0xLNndCQmtLRTI2aGlnMkdHd1NIdlJjTlRHYWFoNXN4eTB2SzVtQlF3ZHpQMXZmMDd2S1ZsU3R6elpRT1dZRHNEcms2N3pmekFRZmNmSDNLaS1WREpDcTFZdUVYV0VkUEFFQm5YWl9QaVZPc3E?oc=5",
+        "source": "NBC News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-22T21:33:09Z",
+        "title": "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears of a return to war grow - NBC News"
       }
     ],
     "first_seen": "2026-10-21T12:16:29Z",
-    "last_updated": "2026-10-24T04:38:33Z",
+    "last_updated": "2026-10-24T18:57:50Z",
     "verification_issue": 214,
     "verdict": {
       "status": "confirmed",
