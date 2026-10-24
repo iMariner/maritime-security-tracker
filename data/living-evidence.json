@@ -497,28 +497,44 @@
     "HIST-ME-20261011-KITION-M": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T03:06:19.845439+00:00",
+        "checked_at": "2026-10-24T14:22:00Z",
         "vessel_name": "KITION M",
+        "imo": "9321160",
         "date_utc": "2026-10-11",
-        "vessel_type": "product tanker",
+        "vessel_type": "Products tanker",
         "region": "Strait of Hormuz",
-        "location_text": "Strait of Hormuz",
-        "summary": "IMO records KITION M in its confirmed incident register for 2026-10-11 near Strait of Hormuz. Vessel damage was reported.",
+        "attack_type": "projectile (unknown origin)",
+        "summary": "KITION M, a products tanker, was struck by an unknown projectile on 11 October 2026 while transiting the Strait of Hormuz outbound. UKMTO warning 168-26, carried in the Joint Maritime Information Center advisory update 105 of 15 October 2026, recorded that the vessel was able to continue her voyage and that reports of environmental damage were unconfirmed. The IMO confirmed incident register records the vessel damaged with limited pollution reported. The two sources conflict on pollution, both readings are preserved here and no casualty is reported by either source.",
+        "date_note": "UKMTO warning 168-26 was issued on 12 October but dates the attack 11 October 2026, and the IMO register also gives 11 October. The day-precision date is therefore 11 October 2026.",
         "sources": [
           {
-            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 21 October 2026"
+            "url": "https://www.ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf",
+            "source": "Joint Maritime Information Center advisory update 105, 15 October 2026"
           },
           {
-            "source": "VesselFinder",
-            "url": "https://www.vesselfinder.com/vessels/details/9321160"
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO confirmed incident register, checked 24 October 2026"
           }
-        ],
-        "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
-        "imo": "9321160"
+        ]
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+      ],
+      "updates": [
+        {
+          "at": "2026-10-24T14:22:00Z",
+          "text": "Authority sourced detail added to a record that rested on the IMO register row alone. UKMTO warning 168-26 as carried by the Joint Maritime Information Center records an outbound products tanker struck by an unknown projectile, able to continue her voyage, with environmental damage unconfirmed. The IMO register records limited pollution. Those two statements differ and are recorded together rather than resolved, so the pollution status stays open. Neither source reports a crew injury or death, and no casualty figure is entered.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf",
+              "source": "Joint Maritime Information Center advisory update 105, 15 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 24 October 2026"
+            }
+          ]
+        }
       ]
     },
     "HIST-ME-20261011-EVER-VICT": {
@@ -12194,6 +12210,79 @@
         "update": {
           "at": "2026-10-24T14:22:00Z",
           "text": "Authority sourced detail added to a record that rested on the IMO register row alone. UKMTO warning 167-26 as carried by the Joint Maritime Information Center adds the inbound transit, an unknown projectile, one minor crew injury, that the ship continued her voyage and that no environmental damage was reported. The injured snapshot is now dated to the attack on 11 October 2026 rather than to the register check on 20 October. No death is reported by either source and none is inferred.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf",
+              "source": "Joint Maritime Information Center advisory update 105, 15 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 24 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6385321945,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6385321945",
+      "author": "iMariner",
+      "received_at": "2026-10-24T14:20:59Z",
+      "incident_id": "HIST-ME-20261011-KITION-M",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T03:06:19.845439+00:00",
+          "vessel_name": "KITION M",
+          "date_utc": "2026-10-11",
+          "vessel_type": "product tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "Strait of Hormuz",
+          "summary": "IMO records KITION M in its confirmed incident register for 2026-10-11 near Strait of Hormuz. Vessel damage was reported.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            },
+            {
+              "source": "VesselFinder",
+              "url": "https://www.vesselfinder.com/vessels/details/9321160"
+            }
+          ],
+          "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
+          "imo": "9321160"
+        },
+        "audit_notes": [
+          "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+        ]
+      },
+      "change": {
+        "incident_id": "HIST-ME-20261011-KITION-M",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-24T14:22:00Z",
+          "vessel_name": "KITION M",
+          "imo": "9321160",
+          "date_utc": "2026-10-11",
+          "vessel_type": "Products tanker",
+          "region": "Strait of Hormuz",
+          "attack_type": "projectile (unknown origin)",
+          "summary": "KITION M, a products tanker, was struck by an unknown projectile on 11 October 2026 while transiting the Strait of Hormuz outbound. UKMTO warning 168-26, carried in the Joint Maritime Information Center advisory update 105 of 15 October 2026, recorded that the vessel was able to continue her voyage and that reports of environmental damage were unconfirmed. The IMO confirmed incident register records the vessel damaged with limited pollution reported. The two sources conflict on pollution, both readings are preserved here and no casualty is reported by either source.",
+          "date_note": "UKMTO warning 168-26 was issued on 12 October but dates the attack 11 October 2026, and the IMO register also gives 11 October. The day-precision date is therefore 11 October 2026.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf",
+              "source": "Joint Maritime Information Center advisory update 105, 15 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 24 October 2026"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-10-24T14:22:00Z",
+          "text": "Authority sourced detail added to a record that rested on the IMO register row alone. UKMTO warning 168-26 as carried by the Joint Maritime Information Center records an outbound products tanker struck by an unknown projectile, able to continue her voyage, with environmental damage unconfirmed. The IMO register records limited pollution. Those two statements differ and are recorded together rather than resolved, so the pollution status stays open. Neither source reports a crew injury or death, and no casualty figure is entered.",
           "sources": [
             {
               "url": "https://www.ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf",
