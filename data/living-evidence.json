@@ -8728,6 +8728,92 @@
           ]
         }
       ]
+    },
+    "INC-20261011-008": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "human_impact": {
+        "missing": {
+          "count": 2,
+          "as_of": "2026-10-14",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf",
+              "source": "UKMTO and JMIC advisory update 105, 15 October 2026: two crew members missing per the Indian Ministry of External Affairs, vessel still drifting on 14 October"
+            },
+            {
+              "url": "https://www.thenationalnews.com/news/gulf/2026/10/14/there-are-no-dreams-left-families-of-two-sailors-missing-after-drone-attack-off-oman-speak-of-their-grief",
+              "source": "The National, 14 October 2026, citing India's External Affairs Ministry: two seafarers missing"
+            }
+          ]
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-24T02:06:55Z",
+        "vessel_name": "PETRO DOLPHIN",
+        "imo": "1072294",
+        "date_utc": "2026-10-11",
+        "vessel_type": "Products tanker",
+        "region": "Gulf of Oman",
+        "location_text": "Sohar Anchorage, Gulf of Oman, UKMTO position 24 33 N 056 42 E",
+        "attack_type": "drone (UAV)",
+        "summary": "PETRO DOLPHIN, a Nicaragua-flagged products tanker of about 4,000 dwt built in 2004, was struck by an uncrewed aerial vehicle while awaiting a berth at Sohar Anchorage in Oman on 11 October 2026, and the crew evacuated. UKMTO warning 165-26, carried in the Joint Maritime Information Center advisory of 15 October, records the UAV strike, the evacuation and the Indian Ministry of External Affairs report that two crew members were missing, and NAVAREA IX 372/26 put the ship drifting about 50 nautical miles northeast of Sohar on 14 October. The IMO confirmed incidents register lists PETRO DOLPHIN, IMO 1072294, at Sohar Anchorage in the Gulf of Oman on 11 October with two seafarers missing and no fatality. India's shipping minister, Sarbananda Sonowal, said the tanker carried 11 Indian seafarers, nine of whom were rescued, and that two Indian nationals were missing; India's External Affairs Ministry told The National that of the 12 crew on board, nine Indians and one Bangladeshi were rescued and two were missing, and the Forward Seamen's Union of India named the two missing men as Bir Bahadur Yadav and Amit Singh. No authority has reported a death on this vessel.",
+        "date_note": "The strike was at about 11:30 local time on 11 October, which is about 07:30 UTC the same day with Oman at UTC+4, so the day-precision UTC date is 11 October under either reading. UKMTO did not publish an exact UTC time. The vessel was still drifting off Sohar on 14 October.",
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf",
+            "source": "UKMTO and JMIC advisory update 105, 15 October 2026: UKMTO 165-26, UAV strike on PETRO DOLPHIN, crew evacuated, two crew missing per the Indian Ministry of External Affairs, drifting about 50NM northeast of Sohar on 14 October"
+          },
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261016-ukmto_vra_overview_u.pdf",
+            "source": "UKMTO weekly VRA overview, warning 165-26, 11 October 2026, position 24 33 N 056 42 E, area Gulf of Oman"
+          },
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO highlighted confirmed incidents register, PETRO DOLPHIN IMO 1072294, 11 October, Sohar Anchorage, Gulf of Oman, two seafarers missing"
+          },
+          {
+            "url": "https://www.aa.com.tr/en/asia-pacific/2-indian-nationals-missing-after-tanker-hit-by-drone-off-oman-s-coast/4085515",
+            "source": "Anadolu Agency, 12 October 2026, quoting Shipping Minister Sarbananda Sonowal: 11 Indian seafarers aboard, nine rescued, two Indian nationals missing"
+          },
+          {
+            "url": "https://www.thenationalnews.com/news/gulf/2026/10/14/there-are-no-dreams-left-families-of-two-sailors-missing-after-drone-attack-off-oman-speak-of-their-grief",
+            "source": "The National, 14 October 2026, citing India's External Affairs Ministry: 12 crew, nine Indians and one Bangladeshi rescued, two missing, named as Amit Singh and Bir Bahadur Yadav"
+          },
+          {
+            "url": "https://maritime-executive.com/article/two-seafarers-missing-in-drone-attack-on-product-tanker-off-oman",
+            "source": "The Maritime Executive, 11 October 2026: vessel particulars, UAE-owned product tanker of 4,000 dwt built 2004, Equasis records suggesting the Nicaraguan flag is false"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-24T02:06:55Z",
+          "text": "First sourced identity and casualty check for this record, which until now carried only aggregated headlines. The tanker is confirmed as PETRO DOLPHIN, IMO 1072294, a Nicaragua-flagged products tanker of about 4,000 dwt, struck by a UAV at Sohar Anchorage in the Gulf of Oman on 11 October 2026 and evacuated. UKMTO warning 165-26 and the JMIC advisory of 15 October confirm the weapon and the evacuation, and the IMO register confirms the name, IMO number, date and place with two seafarers missing. India's shipping minister said 11 Indian seafarers were aboard, nine rescued, and two Indian nationals missing; the External Affairs Ministry gave the crew as 12, of whom nine Indians and one Bangladeshi were rescued, and the seafarers union named the two missing men. No authority has reported a death, and the crew video and family statements reported in the press are not a death confirmation, so the death count stays unknown rather than zero and the two missing are recorded as a dated missing snapshot only. Both missing men are Indian nationals on the statement of India's shipping minister, but the nationality list stays empty because no death has been confirmed to attach a nationality to. The crew nationalities come from the Indian government and ministry statements, not from the Nicaraguan flag. The record previously merged a UKMTO report of an unnamed tanker struck in the Strait of Hormuz on the same day into this attack; those were separate strikes on 11 October recorded elsewhere in the tracker as UKMTO warnings 166-26 to 169-26, and the region here is corrected to the Gulf of Oman, outside the strait, per the UKMTO position and the IMO entry. No image is published.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf",
+              "source": "UKMTO and JMIC advisory update 105, 15 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO highlighted confirmed incidents register"
+            },
+            {
+              "url": "https://www.aa.com.tr/en/asia-pacific/2-indian-nationals-missing-after-tanker-hit-by-drone-off-oman-s-coast/4085515",
+              "source": "Anadolu Agency, 12 October 2026, quoting India's shipping minister"
+            },
+            {
+              "url": "https://www.thenationalnews.com/news/gulf/2026/10/14/there-are-no-dreams-left-families-of-two-sailors-missing-after-drone-attack-off-oman-speak-of-their-grief",
+              "source": "The National, 14 October 2026, citing India's External Affairs Ministry"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -11312,6 +11398,99 @@
             {
               "url": "https://www.arabnews.com/middle-east/oil-spill-off-uae-coast-prompts-beach-closures-cleanup-effort-3007833",
               "source": "Reuters via Arab News, 23 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6378553954,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6378553954",
+      "author": "iMariner",
+      "received_at": "2026-10-24T02:06:56Z",
+      "incident_id": "INC-20261011-008",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261011-008",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-24T02:06:55Z",
+          "vessel_name": "PETRO DOLPHIN",
+          "imo": "1072294",
+          "date_utc": "2026-10-11",
+          "vessel_type": "Products tanker",
+          "region": "Gulf of Oman",
+          "location_text": "Sohar Anchorage, Gulf of Oman, UKMTO position 24 33 N 056 42 E",
+          "attack_type": "drone (UAV)",
+          "summary": "PETRO DOLPHIN, a Nicaragua-flagged products tanker of about 4,000 dwt built in 2004, was struck by an uncrewed aerial vehicle while awaiting a berth at Sohar Anchorage in Oman on 11 October 2026, and the crew evacuated. UKMTO warning 165-26, carried in the Joint Maritime Information Center advisory of 15 October, records the UAV strike, the evacuation and the Indian Ministry of External Affairs report that two crew members were missing, and NAVAREA IX 372/26 put the ship drifting about 50 nautical miles northeast of Sohar on 14 October. The IMO confirmed incidents register lists PETRO DOLPHIN, IMO 1072294, at Sohar Anchorage in the Gulf of Oman on 11 October with two seafarers missing and no fatality. India's shipping minister, Sarbananda Sonowal, said the tanker carried 11 Indian seafarers, nine of whom were rescued, and that two Indian nationals were missing; India's External Affairs Ministry told The National that of the 12 crew on board, nine Indians and one Bangladeshi were rescued and two were missing, and the Forward Seamen's Union of India named the two missing men as Bir Bahadur Yadav and Amit Singh. No authority has reported a death on this vessel.",
+          "date_note": "The strike was at about 11:30 local time on 11 October, which is about 07:30 UTC the same day with Oman at UTC+4, so the day-precision UTC date is 11 October under either reading. UKMTO did not publish an exact UTC time. The vessel was still drifting off Sohar on 14 October.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf",
+              "source": "UKMTO and JMIC advisory update 105, 15 October 2026: UKMTO 165-26, UAV strike on PETRO DOLPHIN, crew evacuated, two crew missing per the Indian Ministry of External Affairs, drifting about 50NM northeast of Sohar on 14 October"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261016-ukmto_vra_overview_u.pdf",
+              "source": "UKMTO weekly VRA overview, warning 165-26, 11 October 2026, position 24 33 N 056 42 E, area Gulf of Oman"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO highlighted confirmed incidents register, PETRO DOLPHIN IMO 1072294, 11 October, Sohar Anchorage, Gulf of Oman, two seafarers missing"
+            },
+            {
+              "url": "https://www.aa.com.tr/en/asia-pacific/2-indian-nationals-missing-after-tanker-hit-by-drone-off-oman-s-coast/4085515",
+              "source": "Anadolu Agency, 12 October 2026, quoting Shipping Minister Sarbananda Sonowal: 11 Indian seafarers aboard, nine rescued, two Indian nationals missing"
+            },
+            {
+              "url": "https://www.thenationalnews.com/news/gulf/2026/10/14/there-are-no-dreams-left-families-of-two-sailors-missing-after-drone-attack-off-oman-speak-of-their-grief",
+              "source": "The National, 14 October 2026, citing India's External Affairs Ministry: 12 crew, nine Indians and one Bangladeshi rescued, two missing, named as Amit Singh and Bir Bahadur Yadav"
+            },
+            {
+              "url": "https://maritime-executive.com/article/two-seafarers-missing-in-drone-attack-on-product-tanker-off-oman",
+              "source": "The Maritime Executive, 11 October 2026: vessel particulars, UAE-owned product tanker of 4,000 dwt built 2004, Equasis records suggesting the Nicaraguan flag is false"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "human_impact": {
+          "missing": {
+            "count": 2,
+            "as_of": "2026-10-14",
+            "sources": [
+              {
+                "url": "https://www.ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf",
+                "source": "UKMTO and JMIC advisory update 105, 15 October 2026: two crew members missing per the Indian Ministry of External Affairs, vessel still drifting on 14 October"
+              },
+              {
+                "url": "https://www.thenationalnews.com/news/gulf/2026/10/14/there-are-no-dreams-left-families-of-two-sailors-missing-after-drone-attack-off-oman-speak-of-their-grief",
+                "source": "The National, 14 October 2026, citing India's External Affairs Ministry: two seafarers missing"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-10-24T02:06:55Z",
+          "text": "First sourced identity and casualty check for this record, which until now carried only aggregated headlines. The tanker is confirmed as PETRO DOLPHIN, IMO 1072294, a Nicaragua-flagged products tanker of about 4,000 dwt, struck by a UAV at Sohar Anchorage in the Gulf of Oman on 11 October 2026 and evacuated. UKMTO warning 165-26 and the JMIC advisory of 15 October confirm the weapon and the evacuation, and the IMO register confirms the name, IMO number, date and place with two seafarers missing. India's shipping minister said 11 Indian seafarers were aboard, nine rescued, and two Indian nationals missing; the External Affairs Ministry gave the crew as 12, of whom nine Indians and one Bangladeshi were rescued, and the seafarers union named the two missing men. No authority has reported a death, and the crew video and family statements reported in the press are not a death confirmation, so the death count stays unknown rather than zero and the two missing are recorded as a dated missing snapshot only. Both missing men are Indian nationals on the statement of India's shipping minister, but the nationality list stays empty because no death has been confirmed to attach a nationality to. The crew nationalities come from the Indian government and ministry statements, not from the Nicaraguan flag. The record previously merged a UKMTO report of an unnamed tanker struck in the Strait of Hormuz on the same day into this attack; those were separate strikes on 11 October recorded elsewhere in the tracker as UKMTO warnings 166-26 to 169-26, and the region here is corrected to the Gulf of Oman, outside the strait, per the UKMTO position and the IMO entry. No image is published.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf",
+              "source": "UKMTO and JMIC advisory update 105, 15 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO highlighted confirmed incidents register"
+            },
+            {
+              "url": "https://www.aa.com.tr/en/asia-pacific/2-indian-nationals-missing-after-tanker-hit-by-drone-off-oman-s-coast/4085515",
+              "source": "Anadolu Agency, 12 October 2026, quoting India's shipping minister"
+            },
+            {
+              "url": "https://www.thenationalnews.com/news/gulf/2026/10/14/there-are-no-dreams-left-families-of-two-sailors-missing-after-drone-attack-off-oman-speak-of-their-grief",
+              "source": "The National, 14 October 2026, citing India's External Affairs Ministry"
             }
           ]
         }
