@@ -4100,25 +4100,30 @@
     "HIST-ME-20260306-MUSSAFAH-2": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T03:06:19.845439+00:00",
+        "checked_at": "2026-10-24T20:30:00Z",
         "vessel_name": "MUSSAFAH 2",
+        "imo": "9522051",
         "date_utc": "2026-03-06",
-        "vessel_type": "tug",
+        "vessel_type": "Tug",
         "region": "Strait of Hormuz",
         "location_text": "6NM north of Oman",
-        "summary": "IMO records MUSSAFAH 2 in its confirmed incident register for 2026-03-06 near 6NM north of Oman. IMO confirms 4 seafarer death(s).",
+        "attack_type": "projectile (unknown origin)",
+        "summary": "MUSSAFAH 2, a tug, was struck by projectiles on 6 March 2026 about six nautical miles north of Oman while supporting operations with the container ship SAFEEN PRESTIGE, which had been abandoned after being hit two days earlier. UKMTO warning 015-26 records the attack as serious and the vessel as struck by projectiles while supporting operations with SAFEEN PRESTIGE. The IMO confirmed incident register records four seafarer fatalities and three severely injured. The tug caught fire and sank. Agence France-Presse, quoting Indonesia's foreign ministry on 8 March 2026, said the tug had seven crew from Indonesia, India and the Philippines, that four survived and that three Indonesians were missing.",
+        "date_note": "UKMTO 015-26, the IMO register and the owner-linked reporting all give the attack as 6 March 2026. Initial reports spoke of eight crew aboard while Indonesia's foreign ministry gave seven, so the crew total is recorded as reported rather than reconciled.",
         "sources": [
           {
-            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 21 October 2026"
+            "url": "https://www.ukmto.org/-/media/ukmto/products/update-081-jmic-advisory-note-06-august.pdf?rev=917f52ea836e41b0803b94e38df8480d",
+            "source": "Joint Maritime Information Center advisory update 081, carrying UKMTO warning 015-26, 6 August 2026"
           },
           {
-            "source": "Joint Maritime Information Center",
-            "url": "https://www.ukmto.org/-/media/ukmto/products/update-037-jmic-advisory-note-26-april.pdf"
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO confirmed incident register, checked 24 October 2026"
+          },
+          {
+            "url": "https://globalnation.inquirer.net/313069/3-indonesian-crew-missing-after-uae-tugboat-sinks-in-strait-of-hormuz",
+            "source": "Agence France-Presse, 8 March 2026"
           }
-        ],
-        "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
-        "imo": "9522051"
+        ]
       },
       "casualties": {
         "status": "confirmed",
@@ -4137,15 +4142,35 @@
       "human_impact": {
         "injured": {
           "count": 3,
-          "as_of": "2026-10-20",
+          "as_of": "2026-03-06",
           "sources": [
             {
               "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-              "source": "IMO confirmed incident register, as at 20 October 2026"
+              "source": "IMO confirmed incident register, checked 24 October 2026"
             }
           ]
         }
-      }
+      },
+      "updates": [
+        {
+          "at": "2026-10-24T20:30:00Z",
+          "text": "Authority sourced narrative added to a record that rested on the IMO register row alone. UKMTO warning 015-26, carried in Joint Maritime Information Center advisory update 081, names MUSSAFAH 2 as a tug struck by projectiles on 6 March 2026 while supporting operations with the container ship SAFEEN PRESTIGE. The register keeps four seafarer fatalities and three severely injured, and the injured snapshot is now dated to the attack rather than to the register check. The sinking and the crew breakdown are taken from Agence France-Presse quoting Indonesia's foreign ministry, which reported seven crew from Indonesia, India and the Philippines and three Indonesians missing. No nationality is recorded for the four deaths because no source assigns one, and the missing three are not counted as dead.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-081-jmic-advisory-note-06-august.pdf?rev=917f52ea836e41b0803b94e38df8480d",
+              "source": "Joint Maritime Information Center advisory update 081, carrying UKMTO warning 015-26, 6 August 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 24 October 2026"
+            },
+            {
+              "url": "https://globalnation.inquirer.net/313069/3-indonesian-crew-missing-after-uae-tugboat-sinks-in-strait-of-hormuz",
+              "source": "Agence France-Presse, 8 March 2026"
+            }
+          ]
+        }
+      ]
     },
     "HIST-ME-20260305-SONANGOL-NAMIBE": {
       "verification": {
@@ -12436,6 +12461,123 @@
             {
               "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
               "source": "IMO confirmed incident register, checked 24 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6389136616,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6389136616",
+      "author": "iMariner",
+      "received_at": "2026-10-24T20:26:17Z",
+      "incident_id": "HIST-ME-20260306-MUSSAFAH-2",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T03:06:19.845439+00:00",
+          "vessel_name": "MUSSAFAH 2",
+          "date_utc": "2026-03-06",
+          "vessel_type": "tug",
+          "region": "Strait of Hormuz",
+          "location_text": "6NM north of Oman",
+          "summary": "IMO records MUSSAFAH 2 in its confirmed incident register for 2026-03-06 near 6NM north of Oman. IMO confirms 4 seafarer death(s).",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            },
+            {
+              "source": "Joint Maritime Information Center",
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-037-jmic-advisory-note-26-april.pdf"
+            }
+          ],
+          "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
+          "imo": "9522051"
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 4,
+          "nationalities": [],
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            }
+          ]
+        },
+        "audit_notes": [
+          "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+        ],
+        "human_impact": {
+          "injured": {
+            "count": 3,
+            "as_of": "2026-10-20",
+            "sources": [
+              {
+                "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+                "source": "IMO confirmed incident register, as at 20 October 2026"
+              }
+            ]
+          }
+        }
+      },
+      "change": {
+        "incident_id": "HIST-ME-20260306-MUSSAFAH-2",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-24T20:30:00Z",
+          "vessel_name": "MUSSAFAH 2",
+          "imo": "9522051",
+          "date_utc": "2026-03-06",
+          "vessel_type": "Tug",
+          "region": "Strait of Hormuz",
+          "location_text": "6NM north of Oman",
+          "attack_type": "projectile (unknown origin)",
+          "summary": "MUSSAFAH 2, a tug, was struck by projectiles on 6 March 2026 about six nautical miles north of Oman while supporting operations with the container ship SAFEEN PRESTIGE, which had been abandoned after being hit two days earlier. UKMTO warning 015-26 records the attack as serious and the vessel as struck by projectiles while supporting operations with SAFEEN PRESTIGE. The IMO confirmed incident register records four seafarer fatalities and three severely injured. The tug caught fire and sank. Agence France-Presse, quoting Indonesia's foreign ministry on 8 March 2026, said the tug had seven crew from Indonesia, India and the Philippines, that four survived and that three Indonesians were missing.",
+          "date_note": "UKMTO 015-26, the IMO register and the owner-linked reporting all give the attack as 6 March 2026. Initial reports spoke of eight crew aboard while Indonesia's foreign ministry gave seven, so the crew total is recorded as reported rather than reconciled.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-081-jmic-advisory-note-06-august.pdf?rev=917f52ea836e41b0803b94e38df8480d",
+              "source": "Joint Maritime Information Center advisory update 081, carrying UKMTO warning 015-26, 6 August 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 24 October 2026"
+            },
+            {
+              "url": "https://globalnation.inquirer.net/313069/3-indonesian-crew-missing-after-uae-tugboat-sinks-in-strait-of-hormuz",
+              "source": "Agence France-Presse, 8 March 2026"
+            }
+          ]
+        },
+        "human_impact": {
+          "injured": {
+            "count": 3,
+            "as_of": "2026-03-06",
+            "sources": [
+              {
+                "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+                "source": "IMO confirmed incident register, checked 24 October 2026"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-10-24T20:30:00Z",
+          "text": "Authority sourced narrative added to a record that rested on the IMO register row alone. UKMTO warning 015-26, carried in Joint Maritime Information Center advisory update 081, names MUSSAFAH 2 as a tug struck by projectiles on 6 March 2026 while supporting operations with the container ship SAFEEN PRESTIGE. The register keeps four seafarer fatalities and three severely injured, and the injured snapshot is now dated to the attack rather than to the register check. The sinking and the crew breakdown are taken from Agence France-Presse quoting Indonesia's foreign ministry, which reported seven crew from Indonesia, India and the Philippines and three Indonesians missing. No nationality is recorded for the four deaths because no source assigns one, and the missing three are not counted as dead.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-081-jmic-advisory-note-06-august.pdf?rev=917f52ea836e41b0803b94e38df8480d",
+              "source": "Joint Maritime Information Center advisory update 081, carrying UKMTO warning 015-26, 6 August 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 24 October 2026"
+            },
+            {
+              "url": "https://globalnation.inquirer.net/313069/3-indonesian-crew-missing-after-uae-tugboat-sinks-in-strait-of-hormuz",
+              "source": "Agence France-Presse, 8 March 2026"
             }
           ]
         }
