@@ -1,6 +1,48 @@
 [
   {
     "region": "Black Sea",
+    "date_utc": "2026-10-24T08:00:00Z",
+    "summary": "A CBC report describes Black Sea sailors who mistook an approaching drone for a rescue boat before it sank their ship. No vessel name, flag, date or position is given in the headline.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": "vessel sank",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "date_approx": true,
+    "id": "INC-20261024-003",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8yTXVnV0xoVHVZWTV1bnpqcjBZQ1RpZ3VyUG1rWDBDdFRuVzBSd0VnZ3VuQ25jQnBFN2RGa3cxRFd6dVJ6QnVGdFRQYTJtQXlnWkRweTNOX3lpUDl4VDZiX2R6bGhmMmd1cXptWHMwNjMyQQ?oc=5",
+        "source": "CBC",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-24T08:00:00Z",
+        "title": "Black Sea sailors thought a rescue boat was racing toward them. Instead, it was a drone that sank their ship - CBC"
+      }
+    ],
+    "first_seen": "2026-10-24T12:12:18Z",
+    "last_updated": "2026-10-24T12:12:26Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261023-002",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
     "date_utc": "2026-10-24",
     "summary": "A headline says Russia announced that it struck a ship in the Black Sea and shot down 616 Ukrainian drones. No vessel name, flag, position, damage or casualty details are given.",
     "official_source_cited": null,
@@ -252,6 +294,48 @@
   },
   {
     "region": "Black Sea",
+    "date_utc": "2026-10-23T07:34:33Z",
+    "summary": "A Turkish headline reports that a large ship which had been attacked by a drone was in the Bosphorus. No vessel name, flag, date, position of the attack, damage or attribution are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 41.2,
+    "lon": 29.12,
+    "location_text": "Bosphorus, Istanbul (vessel transiting after attack)",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "date_approx": true,
+    "id": "INC-20261023-017",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQjYzYTR5WFlsMERHRDNtZ3RuT3J0dTFva28zT2EtT3dVTkJsQWxBb0hfaGRkQXRkWER2NzB2UXFhbGlPdUd4aFRxeFFEaG5ONjFMb0RONXpnQ1hSZlJpaVBucE5ERGp0eWhGbmRrQ3pWaGR0Z055ci1hY2JqVUxVTm9XVmFkM09lS1I3RVNpcHNRTURLbTJXZTdDVdIBmwFBVV95cUxOQjYzYTR5WFlsMERHRDNtZ3RuT3J0dTFva28zT2EtT3dVTkJsQWxBb0hfaGRkQXRkWER2NzB2UXFhbGlPdUd4aFRxeFFEaG5ONjFMb0RONXpnQ1hSZlJpaVBucE5ERGp0eWhGbmRrQ3pWaGR0Z055ci1hY2JqVUxVTm9XVmFkM09lS1I3RVNpcHNRTURLbTJXZTdDVQ?oc=5",
+        "source": "NTV Haber",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-23T07:34:33Z",
+        "title": "Drone saldırısına uğrayan dev gemi İstanbul Boğazı'nda - NTV Haber"
+      }
+    ],
+    "first_seen": "2026-10-24T12:12:25Z",
+    "last_updated": "2026-10-24T12:12:26Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261023-002",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
     "date_utc": "2026-10-23",
     "summary": "Russia's defence ministry said its drones struck a dry cargo vessel at sea that was carrying cargo for Ukraine's armed forces to Odesa port. No vessel name, flag, position, damage details or casualties were given, and the claim was not independently confirmed.",
     "official_source_cited": null,
@@ -303,7 +387,7 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-10-23",
-    "summary": "A small cargo ship was struck by a drone and sank about 13 nautical miles off Constanța, Romania, on 23 October, killing one crew member and leaving three missing while nine were rescued. Romanian officials blamed Russia for the attack, and Azerbaijan coordinated consular support afterward.",
+    "summary": "The general cargo ship Khoryv was struck by a drone and sank about 13 nautical miles off Constanța, Romania, on 23 October, killing one crew member and leaving three missing while nine were rescued. Romanian officials blamed Russia for the attack, and a CBC account of sailors mistaking the drone for a rescue boat and a Turkish report of the damaged ship transiting the Bosphorus appear to describe the same vessel.",
     "official_source_cited": "Romanian authorities",
     "conflicting": true,
     "confidence": 0.95,
@@ -2058,10 +2142,91 @@
         "kind": "media",
         "published_at": "2026-10-23T08:55:00Z",
         "title": "At least one dead after ship sunk 'by a drone' off coast of NATO state - WW3 fears erupt - Daily Express"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbVltTDlPaXlhcXBHMHhQSERHLTk1X25iS3E3SlRQS0NJLUQxYV9zc2haS2JpNy1uUHNkeG01eUJLZS1Ba0hJc2NVUTNuV1VObFBaeGJ4SGl3RUY2YlNZNENKZjlWTFNoT201b1VxcVd6TXBCc1VGZVY2c1c0bXhBUEZLa2RBcmNjRTN2V1JQV09nUHZsVTF6d0NweklrQQ?oc=5",
+        "source": "Timeturk",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-24T04:50:00Z",
+        "title": "Ereğli’den yola çıkan gemiye Romanya açıklarında İHA saldırısı: Gemi battı - Timeturk"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZGJ6akRnWVAxSXdsTVlFVG5sWHVTbjRITDhoZmZTYzd4OUY3RHhxbllHV2NFclpBUzJZSVhHV1FmclkwemQ4RUUwYWNOV2lLT0JPd0NRazNxREJIVDFfMXhZY1NLWXJXenRtc0xKYnd3MVJqeXJ2ZEd0aDNvYS1ySXptcExSdmdJbEExNEYwRHVvNHphRG1MNUxDck9kcF9HWXEzd2lrakc1dw?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-24T00:42:45Z",
+        "title": "У берегов Румынии после атаки дронов затонуло судно, погиб моряк - prospect.com.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1Sc1AzS1lLWVoxbnQwbFFfLUJnaGFYUU9SaEoxeXQ4cW5fanltZ1QtTHRHMkpfRGM2RlhVeUoxbElwaGhETVdTUklBcTdiWGZiZnRDMFRDR2lVMVd5OHZJUWpBWQ?oc=5",
+        "source": "Ukr.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-23T18:56:15Z",
+        "title": "Біля узбережжя Румунії затонуло судно, на борту якого були українці – ймовірно, його атакував дрон - Ukr.net"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNRlkydDRkOWJjREVBb2JDUUF2dUNENUxYdW5VbFdCRV9LYWxhOWtnX0g1Vko1UDhid29qc19jbmxxMDFXZ1Y4RzBpVkloUktSOHBmQ1ZsajhoZGtaNHFlX3BMOElqUmtQSkpzN1Vkc0NSZW91MENsMGMzRkp6MEwtRmxUZnd3cUF5b3BrdklLLWJONDhZQWFtQ0E4QjBtNVNqampkSnNndkpRbDFVdVRnT1RVVEhJeW5vbzlEOHJyR3hYVXQ1ZUllbEs1Z2hLT3U0R2xJcjlibWlpM1ptdDVIanZfZzNZdw?oc=5",
+        "source": "RFI",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-23T15:57:09Z",
+        "title": "40 de minute - Încă o navă comercială a fost lovită de drone în Marea Neagră - RFI"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBdnNZN0V5bmRJOS12dTFidkxzb1dDdmNOSm9tcy12N18zeXhMNFZTVHhmQ1JjOTV0SHZHejRnWGw2UXFQWUZuS1ZuMnhDTE4wOXpPWlk0Mk13bUlBSUNwSFR1V25zSWp0bi10VHMwVUctTGMtTjk2NjhDNndRYUU?oc=5",
+        "source": "Yahoo News UK",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-23T14:25:00Z",
+        "title": "Romania blames Russia for ship attack in the Black Sea - Yahoo News UK"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOEhFdFJwdWM4V2s4eUdrOGtObVRJZzVqZThFOEtUdkVDVXFOcHE3WjdYVGttbEN0SjhobU5rV0FfRU80OHVpSmNEUmwwVjNqNlFxWGxjZ21nX1BTZ2VUeV9yd1F1NXFOQkJZZndLQjFUMHlGU01WU2xMQ3dxNDJkNy1lcHNidlEtaldpanh6VVVac1pmSjZtM2lXcWh6RzRnVGE2ZXgyYzYtdDFSRHJCcHhqSTZXMjN0UFBNLXRFQlF1LWxRQmx2c2ZhNVU2Um9S?oc=5",
+        "source": "The Straits Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-23T10:51:00Z",
+        "title": "Romania blames Russia for drone that sinks cargo ship; 1 killed, 3 missing - The Straits Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0xa0tsV29DOTFBblVxc3EwTVFabzZ4MzdsaFNYenZaLTIwcTFSZ3N4c1ZvWTAtWmpfQkhMS2RnUk4xRk80NVdCMlJtbUZnSl90VDAxa3Z6XzJTVkpubGdHOVRhRkRQYmV5bFlPY0Y2dGZReFZkcFIyZFQ3dDFlZw?oc=5",
+        "source": "LB.ua",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-23T10:10:00Z",
+        "title": "​Поблизу Румунії дрони уразили судно: є загиблий та зниклі безвісти - LB.ua"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8yTXVnV0xoVHVZWTV1bnpqcjBZQ1RpZ3VyUG1rWDBDdFRuVzBSd0VnZ3VuQ25jQnBFN2RGa3cxRFd6dVJ6QnVGdFRQYTJtQXlnWkRweTNOX3lpUDl4VDZiX2R6bGhmMmd1cXptWHMwNjMyQQ?oc=5",
+        "source": "CBC",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-24T08:00:00Z",
+        "title": "Black Sea sailors thought a rescue boat was racing toward them. Instead, it was a drone that sank their ship - CBC"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQjYzYTR5WFlsMERHRDNtZ3RuT3J0dTFva28zT2EtT3dVTkJsQWxBb0hfaGRkQXRkWER2NzB2UXFhbGlPdUd4aFRxeFFEaG5ONjFMb0RONXpnQ1hSZlJpaVBucE5ERGp0eWhGbmRrQ3pWaGR0Z055ci1hY2JqVUxVTm9XVmFkM09lS1I3RVNpcHNRTURLbTJXZTdDVdIBmwFBVV95cUxOQjYzYTR5WFlsMERHRDNtZ3RuT3J0dTFva28zT2EtT3dVTkJsQWxBb0hfaGRkQXRkWER2NzB2UXFhbGlPdUd4aFRxeFFEaG5ONjFMb0RONXpnQ1hSZlJpaVBucE5ERGp0eWhGbmRrQ3pWaGR0Z055ci1hY2JqVUxVTm9XVmFkM09lS1I3RVNpcHNRTURLbTJXZTdDVQ?oc=5",
+        "source": "NTV Haber",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-23T07:34:33Z",
+        "title": "Drone saldırısına uğrayan dev gemi İstanbul Boğazı'nda - NTV Haber"
       }
     ],
     "first_seen": "2026-10-23T11:59:27Z",
-    "last_updated": "2026-10-24T07:34:48Z",
+    "last_updated": "2026-10-24T12:12:26Z",
     "verification_issue": 230,
     "verdict": {
       "status": "confirmed",
@@ -3501,10 +3666,28 @@
         "kind": "media",
         "published_at": "2026-10-24T05:24:19+00:00",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONjMwNVNqaVZrMmRQZDhhZjdkRW1YUVQwWEZ6Y2U1VEU1Z1pleHZVSG5Ib0o3NllWSXdrbUxVUDhCVUJJX0pyTDd4NGp2Um1zc1VSUlAyenUwNE12Y0JObWNNN3Jpc1RIUldNYXluRlNXZVRYbW5KQ3NmR1UyT2hmbjdZSWh4dDYzSmNVWXlERDM2X1oz?oc=5",
+        "source": "Breakingthenews.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-24T09:20:00Z",
+        "title": "Russia claims strike on cargo ship near Odesa - Breakingthenews.net"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbFNvRnRWdHR3cnExeGhkVVBNOVY4b3VsOG1MUXJfZFhERWVxV3NWMFpZOHQ3YVJmTFdVWVJMcUozRkZTWURaU1l6M0NnTFZmMGROa2JFNkZzRU51RnlHZU1HYU1zRWI1cnlxeHdHcDBYYi1lWWtVQVZSbGRHNWJhNUV2TG92MVlXN000MEExOUxyVV9ubGtFSy1IY2VzY182VnNUM2NmZEZfOEFYbzN4NHFyWGxMbzd5?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-24T08:22:46Z",
+        "title": "Минобороны РФ сообщило об ударе в Черном море по судну с грузом для ВСУ - prospect.com.ru"
       }
     ],
     "first_seen": "2026-10-22T12:18:40Z",
-    "last_updated": "2026-10-24T07:34:49Z",
+    "last_updated": "2026-10-24T12:12:18Z",
     "verification_issue": 223,
     "verdict": null,
     "published_in": [
@@ -5333,10 +5516,19 @@
         "kind": "media",
         "published_at": "2026-10-23T17:57:42Z",
         "title": "Tanker struck off Oman in war's most violent month for shipping in Hormuz - TradeWinds News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5LbTZteS1KejFwUWlTTkhQTlR2Wm9KUHpuX0RQUGplcXY3SVVici1wVmJIY2p0SzdBXzdQQkVjRnVjNUtlZUxuRG1uX09tZ2pGeDdGeWh4TzdlY1k3WGJucXBaRm9hTW5MeHNsZDVOM3JBb285bWg1WGFvM2tidw?oc=5",
+        "source": "The Sun",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-24T07:45:52Z",
+        "title": "Massive oil spill washes up on UAE holiday resort after tanker strike near Strait of Hormuz forcing beaches to shut - The Sun"
       }
     ],
     "first_seen": "2026-10-21T12:16:33Z",
-    "last_updated": "2026-10-24T01:56:06Z",
+    "last_updated": "2026-10-24T12:12:18Z",
     "verification_issue": 217,
     "verdict": {
       "status": "confirmed",
