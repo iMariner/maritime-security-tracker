@@ -8814,6 +8814,80 @@
           ]
         }
       ]
+    },
+    "INC-20261011-031": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "human_impact": {
+        "injured": {
+          "count": 2,
+          "as_of": "2026-10-22",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO highlighted confirmed incidents register, as at 22 October 2026: EVER VICT, two seafarers injured"
+            }
+          ]
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-24T02:07:46Z",
+        "vessel_name": "EVER VICT",
+        "imo": "9266774",
+        "date_utc": "2026-10-11",
+        "vessel_type": "Crude oil tanker",
+        "region": "Strait of Hormuz",
+        "location_text": "About 11.5 nautical miles northwest of Khor Khwair, UAE, outbound through the Strait of Hormuz",
+        "attack_type": "projectile (unspecified)",
+        "summary": "EVER VICT, a Bahamas-flagged crude oil tanker of 229 metres, IMO 9266774, was struck by an unknown projectile while transiting the Strait of Hormuz outbound on 11 October 2026, about 11.5 nautical miles northwest of Khor Khwair in the UAE. UKMTO warning 169-26, issued as a time-late report on 12 October and carried in the Joint Maritime Information Center advisory of 15 October, recorded a crude oil tanker identified by the IMO as the EVER VICT struck by an unknown projectile, said reports of crew injuries were unconfirmed, and said the vessel self-reported as not under command; her AIS resumed near Khor Khwair on 12 October and showed her drifting with a not-under-command status. The IMO confirmed incidents register lists EVER VICT, IMO 9266774, in the Strait of Hormuz on 11 October, damaged with no pollution and two seafarers injured. UKMTO does not name vessels; Vanguard Tech and shipping reports identify the tanker as the Bahamas-flagged Ever Vict. No source checked reports a death on this vessel.",
+        "date_note": "UKMTO published warning 169-26 as a time-late report on 12 October for a strike on 11 October and gave no incident time; the IMO register dates the strike 11 October, which this record keeps. A shipping summary of the mid-October strikes listed all crew of the three vessels covered by UKMTO warnings 167-26 to 169-26 as safe, while the IMO register records two injured on EVER VICT and UKMTO said injury reports were unconfirmed at the time of its warning.",
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf",
+            "source": "UKMTO and JMIC advisory update 105, 15 October 2026: UKMTO 169-26, EVER VICT struck by an unknown projectile on 11 October while transiting the Strait of Hormuz outbound, crew injury reports unconfirmed, vessel self-reported not under command"
+          },
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO highlighted confirmed incidents register, EVER VICT IMO 9266774, 11 October, Strait of Hormuz, damaged, no pollution, two seafarers injured"
+          },
+          {
+            "url": "https://www.seatrade-maritime.com/security/ukmto-issues-four-hormuz-attack-reports-iran-claims-adnoc-tanker-strike",
+            "source": "Seatrade Maritime News, October 2026: Vanguard Tech identifies the tanker covered by UKMTO 169-26 as the Bahamas-flagged Ever Vict"
+          },
+          {
+            "url": "https://www.vesseltracker.com/en/Ships/Ever-Vict-9266774.html",
+            "source": "Vesseltracker vessel record: EVER VICT, IMO 9266774, Bahamas flag, tankship, 229 metres, struck about 11.5NM northwest of Khor Khwair, AIS resumed 12 October with not-under-command status"
+          },
+          {
+            "url": "https://westboundglobal.com/westbound-news/shipping-under-fire-as-four-container-ships-attacked-in-hormuz",
+            "source": "Westbound Global, 15 October 2026: Ever Vict, Bahamas flag, damaged in the Strait of Hormuz on 11 October with two seafarers injured"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-24T02:07:46Z",
+          "text": "First sourced identity and casualty check for this record, which previously held only the IMO register line. EVER VICT is the Bahamas-flagged crude oil tanker, IMO 9266774, struck by an unknown projectile while outbound through the Strait of Hormuz on 11 October 2026 about 11.5 nautical miles northwest of Khor Khwair in the UAE, after which she drifted with a not-under-command status. UKMTO warning 169-26 confirms the strike and the not-under-command report but recorded crew injuries as unconfirmed, so the injured count of two rests on the IMO confirmed incidents register, which states two seafarers injured; a shipping summary of the same days listed the crews of the three late-reported strikes as safe. The two injured seafarers are recorded as a dated snapshot from the IMO register, no nationality is attributed to them and none is inferred from the Bahamas flag, and the death count stays unknown because no source states a settled whole-vessel zero. No authority named a weapon beyond an unknown projectile, so the attack type is recorded as an unspecified projectile. No image is published.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf",
+              "source": "UKMTO and JMIC advisory update 105, 15 October 2026, warning 169-26"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO highlighted confirmed incidents register"
+            },
+            {
+              "url": "https://www.vesseltracker.com/en/Ships/Ever-Vict-9266774.html",
+              "source": "Vesseltracker vessel record, EVER VICT IMO 9266774, position and status on 12 October"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -11491,6 +11565,87 @@
             {
               "url": "https://www.thenationalnews.com/news/gulf/2026/10/14/there-are-no-dreams-left-families-of-two-sailors-missing-after-drone-attack-off-oman-speak-of-their-grief",
               "source": "The National, 14 October 2026, citing India's External Affairs Ministry"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6378562310,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6378562310",
+      "author": "iMariner",
+      "received_at": "2026-10-24T02:07:47Z",
+      "incident_id": "INC-20261011-031",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261011-031",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-24T02:07:46Z",
+          "vessel_name": "EVER VICT",
+          "imo": "9266774",
+          "date_utc": "2026-10-11",
+          "vessel_type": "Crude oil tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "About 11.5 nautical miles northwest of Khor Khwair, UAE, outbound through the Strait of Hormuz",
+          "attack_type": "projectile (unspecified)",
+          "summary": "EVER VICT, a Bahamas-flagged crude oil tanker of 229 metres, IMO 9266774, was struck by an unknown projectile while transiting the Strait of Hormuz outbound on 11 October 2026, about 11.5 nautical miles northwest of Khor Khwair in the UAE. UKMTO warning 169-26, issued as a time-late report on 12 October and carried in the Joint Maritime Information Center advisory of 15 October, recorded a crude oil tanker identified by the IMO as the EVER VICT struck by an unknown projectile, said reports of crew injuries were unconfirmed, and said the vessel self-reported as not under command; her AIS resumed near Khor Khwair on 12 October and showed her drifting with a not-under-command status. The IMO confirmed incidents register lists EVER VICT, IMO 9266774, in the Strait of Hormuz on 11 October, damaged with no pollution and two seafarers injured. UKMTO does not name vessels; Vanguard Tech and shipping reports identify the tanker as the Bahamas-flagged Ever Vict. No source checked reports a death on this vessel.",
+          "date_note": "UKMTO published warning 169-26 as a time-late report on 12 October for a strike on 11 October and gave no incident time; the IMO register dates the strike 11 October, which this record keeps. A shipping summary of the mid-October strikes listed all crew of the three vessels covered by UKMTO warnings 167-26 to 169-26 as safe, while the IMO register records two injured on EVER VICT and UKMTO said injury reports were unconfirmed at the time of its warning.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf",
+              "source": "UKMTO and JMIC advisory update 105, 15 October 2026: UKMTO 169-26, EVER VICT struck by an unknown projectile on 11 October while transiting the Strait of Hormuz outbound, crew injury reports unconfirmed, vessel self-reported not under command"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO highlighted confirmed incidents register, EVER VICT IMO 9266774, 11 October, Strait of Hormuz, damaged, no pollution, two seafarers injured"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/ukmto-issues-four-hormuz-attack-reports-iran-claims-adnoc-tanker-strike",
+              "source": "Seatrade Maritime News, October 2026: Vanguard Tech identifies the tanker covered by UKMTO 169-26 as the Bahamas-flagged Ever Vict"
+            },
+            {
+              "url": "https://www.vesseltracker.com/en/Ships/Ever-Vict-9266774.html",
+              "source": "Vesseltracker vessel record: EVER VICT, IMO 9266774, Bahamas flag, tankship, 229 metres, struck about 11.5NM northwest of Khor Khwair, AIS resumed 12 October with not-under-command status"
+            },
+            {
+              "url": "https://westboundglobal.com/westbound-news/shipping-under-fire-as-four-container-ships-attacked-in-hormuz",
+              "source": "Westbound Global, 15 October 2026: Ever Vict, Bahamas flag, damaged in the Strait of Hormuz on 11 October with two seafarers injured"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "human_impact": {
+          "injured": {
+            "count": 2,
+            "as_of": "2026-10-22",
+            "sources": [
+              {
+                "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+                "source": "IMO highlighted confirmed incidents register, as at 22 October 2026: EVER VICT, two seafarers injured"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-10-24T02:07:46Z",
+          "text": "First sourced identity and casualty check for this record, which previously held only the IMO register line. EVER VICT is the Bahamas-flagged crude oil tanker, IMO 9266774, struck by an unknown projectile while outbound through the Strait of Hormuz on 11 October 2026 about 11.5 nautical miles northwest of Khor Khwair in the UAE, after which she drifted with a not-under-command status. UKMTO warning 169-26 confirms the strike and the not-under-command report but recorded crew injuries as unconfirmed, so the injured count of two rests on the IMO confirmed incidents register, which states two seafarers injured; a shipping summary of the same days listed the crews of the three late-reported strikes as safe. The two injured seafarers are recorded as a dated snapshot from the IMO register, no nationality is attributed to them and none is inferred from the Bahamas flag, and the death count stays unknown because no source states a settled whole-vessel zero. No authority named a weapon beyond an unknown projectile, so the attack type is recorded as an unspecified projectile. No image is published.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf",
+              "source": "UKMTO and JMIC advisory update 105, 15 October 2026, warning 169-26"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO highlighted confirmed incidents register"
+            },
+            {
+              "url": "https://www.vesseltracker.com/en/Ships/Ever-Vict-9266774.html",
+              "source": "Vesseltracker vessel record, EVER VICT IMO 9266774, position and status on 12 October"
             }
           ]
         }
