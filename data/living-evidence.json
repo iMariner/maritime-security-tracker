@@ -8698,34 +8698,58 @@
         "sources": [
           {
             "url": "https://agerpres.ro/english/2026/10/23/major-rescue-operation-offshore-of-constanta-for-crew-of-vessel-at-risk-of-sinking-one-dead--1606115",
-            "source": "Agerpres, quoting the Romanian Naval Authority: one body recovered from the water"
+            "source": "Agerpres, quoting the Romanian Naval Authority, 23 October 2026"
+          },
+          {
+            "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059450",
+            "source": "Ukrainska Pravda reporting the Ukrainian Ministry of Foreign Affairs, 23 October 2026"
           }
         ],
-        "nationalities": []
+        "nationalities": [
+          {
+            "nationality": "Ukrainian",
+            "status": "confirmed",
+            "deaths": 1,
+            "sources": [
+              {
+                "url": "https://www.ukrinform.ua/amp/rubric-society/4177561-vnaslidok-zatoplenna-sudna-poblizu-konstanci-zaginuv-ukrainskij-morak-mzs.html",
+                "source": "Ukrinform reporting the Ukrainian Ministry of Foreign Affairs, 23 October 2026"
+              },
+              {
+                "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059450",
+                "source": "Ukrainska Pravda reporting the Ukrainian Ministry of Foreign Affairs, 23 October 2026"
+              }
+            ]
+          }
+        ]
       },
       "human_impact": {
         "missing": {
           "count": 3,
-          "as_of": "2026-10-23",
+          "as_of": "2026-10-24",
           "sources": [
             {
               "url": "https://agerpres.ro/english/2026/10/23/major-rescue-operation-offshore-of-constanta-for-crew-of-vessel-at-risk-of-sinking-one-dead--1606115",
-              "source": "Agerpres, quoting the Romanian Naval Authority: three crew still being searched for"
+              "source": "Agerpres, quoting the Romanian Naval Authority, 23 October 2026"
+            },
+            {
+              "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059450",
+              "source": "Ukrainska Pravda reporting the Ukrainian Ministry of Foreign Affairs, 23 October 2026"
             }
           ]
         }
       },
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-23T13:43:32Z",
+        "checked_at": "2026-10-24T08:55:00Z",
         "vessel_name": "KHORYV",
         "imo": "8138712",
         "date_utc": "2026-10-23",
         "vessel_type": "Ore/oil carrier",
         "region": "Black Sea",
-        "location_text": "13 nautical miles off Constanta, outside Romanian territorial waters",
+        "location_text": "About 13 nautical miles east of Constanta, outside Romanian territorial waters, at 44 06.59 N 029 01.10 E",
         "attack_type": "drone (UAV)",
-        "summary": "KHORYV, a Comoros-flagged ore/oil carrier of 3,280 dwt built in 1983, was 13 nautical miles off Constanta en route from Eregli to Sulina when it sent a distress signal at about 10:00 local time on 23 October 2026. Romania's Naval Authority said the 13 crew were 10 Ukrainian and 3 Azerbaijani nationals, that intervention vessels recovered nine people alive and one body from the water, and that three crew were still missing while the search continued in poor weather. The ship capsized and sank. Romania's president, Nicusor Dan, said the vessel had been struck by a drone; the naval authority's statement did not establish the cause.",
+        "summary": "KHORYV, a Comoros-flagged ore/oil carrier of 3,280 dwt built in 1983, was 13 nautical miles off Constanta en route from Eregli to Sulina when it sent a distress signal at about 10:00 local time on 23 October 2026 and caught fire. Romania's Naval Authority said the 13 crew were 10 Ukrainian and 3 Azerbaijani nationals, that intervention vessels recovered nine people alive and one body from the water, and that three crew were still missing while the search continued in poor weather. The ship capsized and lay upside down, and Romanian hydrographic warning ARN 153/2026 gave its position as 44 06.59 N 029 01.10 E. Ukraine's Ministry of Foreign Affairs said the dead seafarer was a Ukrainian citizen, that four Ukrainians including the master were taken to hospital and that two Ukrainians needed no medical treatment. Romania's president, Nicusor Dan, said the vessel had been struck by a drone; the naval authority's statement did not establish the cause.",
         "date_note": "Romanian local time on 23 October is UTC+3, so the 10:00 distress call was about 07:00 UTC on the same day. The day-precision UTC date is kept as reported.",
         "sources": [
           {
@@ -8737,12 +8761,16 @@
             "source": "Agerpres, nine rescued brought to Constanta, 23 October 2026"
           },
           {
-            "url": "https://www.ziuaconstanta.ro/stiri/eveniment/alerta-in-marea-neagra-nava-khoryv-in-dificultate-la-13-mile-marine-de-constanta-noua-marinari-au-fost-salvati-unul-a-murit-iar-alti-trei-sunt-957751.html",
-            "source": "Ziua de Constanta, full Romanian Naval Authority communique, 23 October 2026"
+            "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059450",
+            "source": "Ukrainska Pravda reporting the Ukrainian Ministry of Foreign Affairs, 23 October 2026"
           },
           {
-            "url": "https://www.vesselfinder.com/vessels/details/8138712",
-            "source": "VesselFinder particulars: IMO 8138712, ore/oil carrier, Comoros flag, built 1983"
+            "url": "https://www.ukrinform.ua/amp/rubric-society/4177561-vnaslidok-zatoplenna-sudna-poblizu-konstanci-zaginuv-ukrainskij-morak-mzs.html",
+            "source": "Ukrinform reporting the Ukrainian Ministry of Foreign Affairs, 23 October 2026"
+          },
+          {
+            "url": "https://www.seanews.com.tr/article/khoryv-capsizes-after-departing-from-ereli-mvltalid",
+            "source": "SeaNews quoting Romanian hydrographic warning ARN 153/2026 and Interfax-Ukraine, 24 October 2026"
           }
         ]
       },
@@ -8758,6 +8786,28 @@
             {
               "url": "https://www.vesselfinder.com/vessels/details/8138712",
               "source": "VesselFinder particulars"
+            }
+          ]
+        },
+        {
+          "at": "2026-10-24T08:55:00Z",
+          "text": "Ukraine's Ministry of Foreign Affairs identified the one confirmed death as a Ukrainian citizen, so a single Ukrainian death is now sourced rather than the nationality being left open. The ministry put the crew at 14 while Romania's Naval Authority reported 13, but its own breakdown, one dead, three missing, four hospitalised including the master and two Ukrainians unhurt, accounts for exactly the ten Ukrainian crew Romania listed, so the crew-count difference stays recorded and unresolved rather than averaged. The ministry said the three crew still missing are Ukrainian. On 24 October the search for the three continued; no further body has been reported and one death remains a confirmed minimum for the vessel, not a settled whole-crew total.",
+          "sources": [
+            {
+              "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059450",
+              "source": "Ukrainska Pravda reporting the Ukrainian Ministry of Foreign Affairs, 23 October 2026"
+            },
+            {
+              "url": "https://www.ukrinform.ua/amp/rubric-society/4177561-vnaslidok-zatoplenna-sudna-poblizu-konstanci-zaginuv-ukrainskij-morak-mzs.html",
+              "source": "Ukrinform reporting the Ukrainian Ministry of Foreign Affairs, 23 October 2026"
+            },
+            {
+              "url": "https://agerpres.ro/english/2026/10/23/major-rescue-operation-offshore-of-constanta-for-crew-of-vessel-at-risk-of-sinking-one-dead--1606115",
+              "source": "Agerpres, quoting the Romanian Naval Authority, 23 October 2026"
+            },
+            {
+              "url": "https://www.seanews.com.tr/article/khoryv-capsizes-after-departing-from-ereli-mvltalid",
+              "source": "SeaNews quoting Romanian hydrographic warning ARN 153/2026 and Interfax-Ukraine, 24 October 2026"
             }
           ]
         }
@@ -11843,6 +11893,194 @@
             {
               "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
               "source": "IMO confirmed incident register, checked 24 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6381869268,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6381869268",
+      "author": "iMariner",
+      "received_at": "2026-10-24T08:14:14Z",
+      "incident_id": "INC-20261023-002",
+      "before": {
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 1,
+          "minimum": true,
+          "sources": [
+            {
+              "url": "https://agerpres.ro/english/2026/10/23/major-rescue-operation-offshore-of-constanta-for-crew-of-vessel-at-risk-of-sinking-one-dead--1606115",
+              "source": "Agerpres, quoting the Romanian Naval Authority: one body recovered from the water"
+            }
+          ],
+          "nationalities": []
+        },
+        "human_impact": {
+          "missing": {
+            "count": 3,
+            "as_of": "2026-10-23",
+            "sources": [
+              {
+                "url": "https://agerpres.ro/english/2026/10/23/major-rescue-operation-offshore-of-constanta-for-crew-of-vessel-at-risk-of-sinking-one-dead--1606115",
+                "source": "Agerpres, quoting the Romanian Naval Authority: three crew still being searched for"
+              }
+            ]
+          }
+        },
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-23T13:43:32Z",
+          "vessel_name": "KHORYV",
+          "imo": "8138712",
+          "date_utc": "2026-10-23",
+          "vessel_type": "Ore/oil carrier",
+          "region": "Black Sea",
+          "location_text": "13 nautical miles off Constanta, outside Romanian territorial waters",
+          "attack_type": "drone (UAV)",
+          "summary": "KHORYV, a Comoros-flagged ore/oil carrier of 3,280 dwt built in 1983, was 13 nautical miles off Constanta en route from Eregli to Sulina when it sent a distress signal at about 10:00 local time on 23 October 2026. Romania's Naval Authority said the 13 crew were 10 Ukrainian and 3 Azerbaijani nationals, that intervention vessels recovered nine people alive and one body from the water, and that three crew were still missing while the search continued in poor weather. The ship capsized and sank. Romania's president, Nicusor Dan, said the vessel had been struck by a drone; the naval authority's statement did not establish the cause.",
+          "date_note": "Romanian local time on 23 October is UTC+3, so the 10:00 distress call was about 07:00 UTC on the same day. The day-precision UTC date is kept as reported.",
+          "sources": [
+            {
+              "url": "https://agerpres.ro/english/2026/10/23/major-rescue-operation-offshore-of-constanta-for-crew-of-vessel-at-risk-of-sinking-one-dead--1606115",
+              "source": "Agerpres, quoting the Romanian Naval Authority, 23 October 2026"
+            },
+            {
+              "url": "https://agerpres.ro/english/2026/10/23/incident-at-sea-nine-sailors-rescued-after-vessel-sinking-brought-to-port-of-constanta--1606234",
+              "source": "Agerpres, nine rescued brought to Constanta, 23 October 2026"
+            },
+            {
+              "url": "https://www.ziuaconstanta.ro/stiri/eveniment/alerta-in-marea-neagra-nava-khoryv-in-dificultate-la-13-mile-marine-de-constanta-noua-marinari-au-fost-salvati-unul-a-murit-iar-alti-trei-sunt-957751.html",
+              "source": "Ziua de Constanta, full Romanian Naval Authority communique, 23 October 2026"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/8138712",
+              "source": "VesselFinder particulars: IMO 8138712, ore/oil carrier, Comoros flag, built 1983"
+            }
+          ]
+        },
+        "updates": [
+          {
+            "at": "2026-10-23T13:43:32Z",
+            "text": "First reviewed living record for this sinking, checked against the Romanian Naval Authority communique as carried by Agerpres and Ziua de Constanta. One death is confirmed because one body was recovered; the three crew still missing are recorded as a dated missing snapshot, not as deaths, and the confirmed death count is flagged as a minimum while the search continues. The authority gave the crew as 10 Ukrainians and 3 Azerbaijanis but did not attribute a nationality to the dead or the missing, so no nationality count is recorded for the death. Vessel name, flag and type were checked against the AIS registry entry. No image is published.",
+            "sources": [
+              {
+                "url": "https://agerpres.ro/english/2026/10/23/major-rescue-operation-offshore-of-constanta-for-crew-of-vessel-at-risk-of-sinking-one-dead--1606115",
+                "source": "Agerpres, 23 October 2026"
+              },
+              {
+                "url": "https://www.vesselfinder.com/vessels/details/8138712",
+                "source": "VesselFinder particulars"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "INC-20261023-002",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-24T08:55:00Z",
+          "vessel_name": "KHORYV",
+          "imo": "8138712",
+          "date_utc": "2026-10-23",
+          "vessel_type": "Ore/oil carrier",
+          "region": "Black Sea",
+          "location_text": "About 13 nautical miles east of Constanta, outside Romanian territorial waters, at 44 06.59 N 029 01.10 E",
+          "attack_type": "drone (UAV)",
+          "summary": "KHORYV, a Comoros-flagged ore/oil carrier of 3,280 dwt built in 1983, was 13 nautical miles off Constanta en route from Eregli to Sulina when it sent a distress signal at about 10:00 local time on 23 October 2026 and caught fire. Romania's Naval Authority said the 13 crew were 10 Ukrainian and 3 Azerbaijani nationals, that intervention vessels recovered nine people alive and one body from the water, and that three crew were still missing while the search continued in poor weather. The ship capsized and lay upside down, and Romanian hydrographic warning ARN 153/2026 gave its position as 44 06.59 N 029 01.10 E. Ukraine's Ministry of Foreign Affairs said the dead seafarer was a Ukrainian citizen, that four Ukrainians including the master were taken to hospital and that two Ukrainians needed no medical treatment. Romania's president, Nicusor Dan, said the vessel had been struck by a drone; the naval authority's statement did not establish the cause.",
+          "date_note": "Romanian local time on 23 October is UTC+3, so the 10:00 distress call was about 07:00 UTC on the same day. The day-precision UTC date is kept as reported.",
+          "sources": [
+            {
+              "url": "https://agerpres.ro/english/2026/10/23/major-rescue-operation-offshore-of-constanta-for-crew-of-vessel-at-risk-of-sinking-one-dead--1606115",
+              "source": "Agerpres, quoting the Romanian Naval Authority, 23 October 2026"
+            },
+            {
+              "url": "https://agerpres.ro/english/2026/10/23/incident-at-sea-nine-sailors-rescued-after-vessel-sinking-brought-to-port-of-constanta--1606234",
+              "source": "Agerpres, nine rescued brought to Constanta, 23 October 2026"
+            },
+            {
+              "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059450",
+              "source": "Ukrainska Pravda reporting the Ukrainian Ministry of Foreign Affairs, 23 October 2026"
+            },
+            {
+              "url": "https://www.ukrinform.ua/amp/rubric-society/4177561-vnaslidok-zatoplenna-sudna-poblizu-konstanci-zaginuv-ukrainskij-morak-mzs.html",
+              "source": "Ukrinform reporting the Ukrainian Ministry of Foreign Affairs, 23 October 2026"
+            },
+            {
+              "url": "https://www.seanews.com.tr/article/khoryv-capsizes-after-departing-from-ereli-mvltalid",
+              "source": "SeaNews quoting Romanian hydrographic warning ARN 153/2026 and Interfax-Ukraine, 24 October 2026"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 1,
+          "minimum": true,
+          "sources": [
+            {
+              "url": "https://agerpres.ro/english/2026/10/23/major-rescue-operation-offshore-of-constanta-for-crew-of-vessel-at-risk-of-sinking-one-dead--1606115",
+              "source": "Agerpres, quoting the Romanian Naval Authority, 23 October 2026"
+            },
+            {
+              "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059450",
+              "source": "Ukrainska Pravda reporting the Ukrainian Ministry of Foreign Affairs, 23 October 2026"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Ukrainian",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "url": "https://www.ukrinform.ua/amp/rubric-society/4177561-vnaslidok-zatoplenna-sudna-poblizu-konstanci-zaginuv-ukrainskij-morak-mzs.html",
+                  "source": "Ukrinform reporting the Ukrainian Ministry of Foreign Affairs, 23 October 2026"
+                },
+                {
+                  "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059450",
+                  "source": "Ukrainska Pravda reporting the Ukrainian Ministry of Foreign Affairs, 23 October 2026"
+                }
+              ]
+            }
+          ]
+        },
+        "human_impact": {
+          "missing": {
+            "count": 3,
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "url": "https://agerpres.ro/english/2026/10/23/major-rescue-operation-offshore-of-constanta-for-crew-of-vessel-at-risk-of-sinking-one-dead--1606115",
+                "source": "Agerpres, quoting the Romanian Naval Authority, 23 October 2026"
+              },
+              {
+                "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059450",
+                "source": "Ukrainska Pravda reporting the Ukrainian Ministry of Foreign Affairs, 23 October 2026"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-10-24T08:55:00Z",
+          "text": "Ukraine's Ministry of Foreign Affairs identified the one confirmed death as a Ukrainian citizen, so a single Ukrainian death is now sourced rather than the nationality being left open. The ministry put the crew at 14 while Romania's Naval Authority reported 13, but its own breakdown, one dead, three missing, four hospitalised including the master and two Ukrainians unhurt, accounts for exactly the ten Ukrainian crew Romania listed, so the crew-count difference stays recorded and unresolved rather than averaged. The ministry said the three crew still missing are Ukrainian. On 24 October the search for the three continued; no further body has been reported and one death remains a confirmed minimum for the vessel, not a settled whole-crew total.",
+          "sources": [
+            {
+              "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059450",
+              "source": "Ukrainska Pravda reporting the Ukrainian Ministry of Foreign Affairs, 23 October 2026"
+            },
+            {
+              "url": "https://www.ukrinform.ua/amp/rubric-society/4177561-vnaslidok-zatoplenna-sudna-poblizu-konstanci-zaginuv-ukrainskij-morak-mzs.html",
+              "source": "Ukrinform reporting the Ukrainian Ministry of Foreign Affairs, 23 October 2026"
+            },
+            {
+              "url": "https://agerpres.ro/english/2026/10/23/major-rescue-operation-offshore-of-constanta-for-crew-of-vessel-at-risk-of-sinking-one-dead--1606115",
+              "source": "Agerpres, quoting the Romanian Naval Authority, 23 October 2026"
+            },
+            {
+              "url": "https://www.seanews.com.tr/article/khoryv-capsizes-after-departing-from-ereli-mvltalid",
+              "source": "SeaNews quoting Romanian hydrographic warning ARN 153/2026 and Interfax-Ukraine, 24 October 2026"
             }
           ]
         }
