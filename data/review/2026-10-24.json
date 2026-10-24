@@ -1,46 +1,15 @@
 {
   "date": "2026-10-24",
-  "title": "Cargo ship Khoryv sinks off Romania after drone strike, one dead and three missing",
-  "preview_url": "https://imariner.github.io/maritime-security-tracker/preview/2026-10-24.html?v=043928",
+  "title": "Oil-bulk-ore carrier Khoryv sinks off Romania after drone strike, one dead and three missi",
+  "preview_url": "https://imariner.github.io/maritime-security-tracker/preview/2026-10-24.html?v=050600",
   "incidents": [
     {
-      "id": "INC-20261023-012",
-      "status": "claimed",
-      "region": "Black Sea",
-      "date_utc": "2026-10-23T08:04:30Z",
-      "vessel_name": null,
-      "imo": null,
-      "flag": null,
-      "vessel_type": "tanker",
-      "location": "Bosphorus, Istanbul (vessel transited after being hit in the Black Sea)",
-      "attack": "drone (UAV)",
-      "damage": null,
-      "casualties": null,
-      "attribution": null,
-      "summary": "A tanker that had been hit by a drone attack passed through the Istanbul Bosphorus, and the strait was closed to traffic. The report gives no vessel name, date of the attack, damage or attribution.",
-      "checked_by_hermes": false,
-      "sources": [
-        {
-          "outlet": "Haberler",
-          "title": "Dron saldırısına uğrayan tanker İstanbul Boğazı’ndan geçti! Boğaz trafiğe kapatıldı - Haberler",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNXy10d2lycE4wV2xTX2syd2M0MDQtenJ6QXFjWXljQm5sTFd4eUViZWlZV3ZUX3VsYkJ0eWlIeWw4VmhLSVR3VzF0Z2o5ZlVZaE1XS2VlZjNsT3ZHd0FiOW41amFmcTdLVmhkZjFxakdHMWNqR0dHNk90aFlsUEw3WjlyYlBibkltNU9pZlJhVQ?oc=5",
-          "published": "2026-10-23T08:04:30Z"
-        },
-        {
-          "outlet": "Mersin Haber",
-          "title": "İstanbul Boğazı'nda Dron Saldırısına Uğrayan Tanker Geçti - Mersin Haber",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE11LU1vMzlWclpJWkluVTYwdktJajhheDdBSmxyY0RQd3JKOVM2VU96SkRHX1g4TmNMUHlEeHVwa0taMHRFN0ZsakNMYnEwSW0xSTlfZ2lyc9IBV0FVX3lxTE11LU1vMzlWclpJWkluVTYwdktJajhheDdBSmxyY0RQd3JKOVM2VU96SkRHX1g4TmNMUHlEeHVwa0taMHRFN0ZsakNMYnEwSW0xSTlfZ2lycw?oc=5",
-          "published": "2026-10-23T07:29:14Z"
-        }
-      ]
-    },
-    {
       "id": "INC-20261023-002",
-      "status": "reported",
+      "status": "confirmed",
       "region": "Black Sea",
       "date_utc": "2026-10-23",
       "vessel_name": "KHORYV",
-      "imo": null,
+      "imo": "8138712",
       "flag": "Comoros",
       "vessel_type": "general cargo",
       "location": "off the coast of Romania, Black Sea",
@@ -49,7 +18,7 @@
       "casualties": "1 killed, 3 missing",
       "attribution": "Romania blamed Russia",
       "summary": "A small cargo ship was struck by a drone and sank about 13 nautical miles off Constanța, Romania, on 23 October, killing one crew member and leaving three missing while nine were rescued. Romanian officials blamed Russia for the attack, and Azerbaijan coordinated consular support afterward.",
-      "checked_by_hermes": false,
+      "checked_by_hermes": true,
       "sources": [
         {
           "outlet": "Suspilne Odesa",
@@ -98,81 +67,6 @@
           "title": null,
           "url": "https://t.me/rybar/84114",
           "published": "2026-10-23T08:57:02+00:00"
-        }
-      ]
-    },
-    {
-      "id": "INC-20261023-007",
-      "status": "claimed",
-      "region": "Black Sea",
-      "date_utc": "2026-10-23",
-      "vessel_name": null,
-      "imo": null,
-      "flag": null,
-      "vessel_type": null,
-      "location": "Black Sea",
-      "attack": "drone (UAV)",
-      "damage": null,
-      "casualties": null,
-      "attribution": "Russia",
-      "summary": "A headline reports that Russian drone strikes in the Black Sea are evading NATO defences, changing the threat to shipping. No specific vessel, position, damage or casualty details are given.",
-      "checked_by_hermes": false,
-      "sources": [
-        {
-          "outlet": "TradeWinds News",
-          "title": "Shipping faces changing threat in Black Sea as Russian drone strikes elude NATO defences - TradeWinds News",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQWFOcFZIT0NpOGU3Q0tidFFJNHRFZkZDdWllVjJobG5xLTZBRENGYk5yU28teDJZcXUwalFhVWhPV0dPVXo0dzkzSThTZGlNeFkzemh6RVRGa1g4M09nNVpHdGtJYUlNbExWUWdqaG9wWGRfcnZ0OFVwZnZ6eXYyQU1FN3d1Rm1HZWI2Tk8wekxQbEtMYVNCMjVLOXNiQjNqWVVIU3VFbzFYNjBydlloUzZiQlo1ZUlZakNIWmgyTUNLeXpreEFBenVXSlIxN0NuRU4xUXJLbHdHUQ?oc=5",
-          "published": "2026-10-23T19:18:45Z"
-        }
-      ]
-    },
-    {
-      "id": "INC-20261023-008",
-      "status": "claimed",
-      "region": "Black Sea",
-      "date_utc": "2026-10-23",
-      "vessel_name": null,
-      "imo": null,
-      "flag": "Romania",
-      "vessel_type": null,
-      "location": "Black Sea",
-      "attack": "drone (UAV)",
-      "damage": null,
-      "casualties": null,
-      "attribution": null,
-      "summary": "A Russian Telegram digest states that a Romanian vessel was attacked in the Black Sea, alongside discussion of EU and NATO moves to tighten shipping controls. No vessel name, position, damage or casualty details are given.",
-      "checked_by_hermes": false,
-      "sources": [
-        {
-          "outlet": "Rybar",
-          "title": null,
-          "url": "https://t.me/rybar/84126",
-          "published": "2026-10-23T18:59:31+00:00"
-        }
-      ]
-    },
-    {
-      "id": "INC-20261023-014",
-      "status": "reported",
-      "region": "Strait of Hormuz",
-      "date_utc": "2026-10-23",
-      "vessel_name": null,
-      "imo": null,
-      "flag": null,
-      "vessel_type": "tanker",
-      "location": "Strait of Hormuz",
-      "attack": "missile",
-      "damage": null,
-      "casualties": "one sailor killed",
-      "attribution": "UAE said Iranian missiles struck the tankers",
-      "summary": "The UAE said Iranian missiles struck oil tankers in the Strait of Hormuz, killing one sailor. No vessel names, flags or positions were given in the headline.",
-      "checked_by_hermes": false,
-      "sources": [
-        {
-          "outlet": "EnergyNow.com",
-          "title": "UAE Says Iranian Missiles Struck Oil Tankers in Strait of Hormuz, One Sailor Killed - EnergyNow.com",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWHI2dnA4RFFBdm9PemRsSGZPVE91QWpZRUprX084RjNiZmh4LUxUZ3RKRFZxRS1nTTkyemlUbmxJUjZocVl0Um5pWFZvN1R2Q2NIcThHQ2ZOalFRc21LQ3AyWVV4amMtal9pbmdySTdjcUxNRVlDQWlyc1RyVjA3RlpEN1F6VEEwU3VkTEhMR2ZqQmlwVHVOeFMwSkkyZmdINFp4bm9SX3ZSd1dMY0lmRi0tQQ?oc=5",
-          "published": "2026-10-23T23:51:48Z"
         }
       ]
     },
@@ -244,31 +138,6 @@
       ]
     },
     {
-      "id": "INC-20261022-021",
-      "status": "claimed",
-      "region": "Red Sea",
-      "date_utc": "2026-10-22",
-      "vessel_name": null,
-      "imo": null,
-      "flag": "Oman",
-      "vessel_type": "other",
-      "location": "off Zuqar Island",
-      "attack": "other",
-      "damage": null,
-      "casualties": null,
-      "attribution": null,
-      "summary": "Reports say an Omani ship was targeted off Zuqar Island while it was reportedly transporting weapons to the Houthis. No vessel name, exact position, damage, casualties or attribution are given, and the claim is unconfirmed.",
-      "checked_by_hermes": false,
-      "sources": [
-        {
-          "outlet": "صحافتك",
-          "title": "أنباء عن استهداف سفينة عُمانية قبالة جزيرة زُقَر اثناء نقلها أسلحة للحوثيين - صحافتك",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE00TVEyWGdBSnVQdW95clh1S2M2ZU1TSTloQlhNZ0g1ZEl5YXF4dElabXlyaWN3UVkteFkxZUtXV3NZWnRkWERELU5PZHd4M1U?oc=5",
-          "published": "2026-10-22T22:29:06Z"
-        }
-      ]
-    },
-    {
       "id": "INC-20261022-023",
       "status": "confirmed",
       "region": "Strait of Hormuz",
@@ -283,7 +152,7 @@
       "casualties": null,
       "attribution": null,
       "summary": "UKMTO received a time-late report that a tanker was hit by an unknown projectile while transiting outbound in the Strait of Hormuz, 7 nm northeast of Limah, Oman. The tanker was able to continue its voyage to its next port of call.",
-      "checked_by_hermes": false,
+      "checked_by_hermes": true,
       "sources": [
         {
           "outlet": "UKMTO",
