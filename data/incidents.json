@@ -1,6 +1,57 @@
 [
   {
     "region": "Black Sea",
+    "date_utc": "2026-10-24T12:26:34Z",
+    "summary": "A Romanian Black Hawk helicopter was sent on a search mission in the Black Sea for sailors missing from a vessel that was attacked. The item gives no vessel name, flag, date or position.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": "sailors missing from the attacked vessel",
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "date_approx": true,
+    "id": "INC-20261024-004",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZjByZm55WTBlSmZ5S2l1SWxIQTFOazZQaTBHeGMtV1FCTWdseTc1RUVfZmsxd0tZVE01YkdPek9oa2dTb0g0dHptaUVWQU9FeFJWWnBFME1xZXNCNmF1M0kzZTFod1VHMHB6RUNERjVwZldobXUxQ3FIZjI5T19UcFVfUmFLM1VRYlNYUlQwbXRzYWc1aUw1R1BwdmwweXFPWENCUDh4cnBvaXpkMEE3dXBDenV2b2dZdGNrZzBhRHVrM3lMY2NIbTdzNUVSSXdhSFZzc040RGFidnlD0gHnAUFVX3lxTE80cnVfS3lkWnY1VGlaNUJjRE0wMTBVeFBrTlp2ZFlHZUlxQTBseVlCMFNTSVBFZEN1TXhjb1VXWm1wbGR0TnR6MzQySHlzNkdoVmtoa0w3RWR6ZnZ0a2JLcXV5cExSUmJxUHB1MXducXJPTDBfVGN6Vll6QlV6Z3plZG9rQnM4NVUtbmVsLWZOT1lrWlFZNW5HYUd6bGplaUg5LWxzRzhJeDJnZ2gyaHNsQnAyR1l2enJXS3lZNk12VzI0RWRnRFctRll0MExDaXNmdWdLVUFoazlDbEg2RmtGeDg4M0s3WQ?oc=5",
+        "source": "Digi24",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-24T12:26:34Z",
+        "title": "Elicopter Black Hawk, misiune în Marea Neagră, pentru căutarea marinarilor dispăruţi de pe nava atacată... - Digi24"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMng3S3U5dDdNZHp4Mi1ad01CZnpCNXhlaXJraExvZUJld3JsN0UxWjgtSzVfT01JRTRNek9KMEN6UTcxV2dDeFhOdnRuU0NQVHlOMXE2Yk5IOVdwaTZIejVKNHFUcHYyVUk0cG9mMzNWMElVWDlTRGxjT3I5bVhMZXVVUHZ0MXl1UWVtaEJmZ05vU2JNN1N4QVlNYzVYdjExSW5kSHlfeTJnNkdjNUsyMjY4OVdoOWZlMjMzSXpkd0hnSjVCYlE?oc=5",
+        "source": "TVRInfo.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-24T10:08:44Z",
+        "title": "A fost reluată căutarea celor trei marinari dispăruți de pe nava comercială lovită de drone în Marea Neagră - TVRInfo.ro"
+      }
+    ],
+    "first_seen": "2026-10-24T16:12:43Z",
+    "last_updated": "2026-10-24T16:12:49Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261023-002",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
     "date_utc": "2026-10-24T08:00:00Z",
     "summary": "A CBC report describes Black Sea sailors who mistook an approaching drone for a rescue boat before it sank their ship. No vessel name, flag, date or position is given in the headline.",
     "official_source_cited": null,
@@ -387,7 +438,7 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-10-23",
-    "summary": "The general cargo ship Khoryv was struck by a drone and sank about 13 nautical miles off Constanța, Romania, on 23 October, killing one crew member and leaving three missing while nine were rescued. Romanian officials blamed Russia for the attack, and a CBC account of sailors mistaking the drone for a rescue boat and a Turkish report of the damaged ship transiting the Bosphorus appear to describe the same vessel.",
+    "summary": "The general cargo ship Khoryv was struck by a drone and sank about 13 nautical miles off Constanța, Romania, on 23 October, killing one crew member and leaving three missing while nine were rescued. Romanian officials blamed Russia for the attack, and a Romanian Black Hawk helicopter was sent to search for the missing sailors.",
     "official_source_cited": "Romanian authorities",
     "conflicting": true,
     "confidence": 0.95,
@@ -2223,10 +2274,64 @@
         "kind": "media",
         "published_at": "2026-10-23T07:34:33Z",
         "title": "Drone saldırısına uğrayan dev gemi İstanbul Boğazı'nda - NTV Haber"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRUt3MUlmVjFYbVgwS3dwcERUMnFPVVhVQVRKSmR3THBLV3hpWkREd1cwZmhfeEZxSmF6R1BhdVVDald6YW1VNXg2NzV6cFBYX0ZzVlZyeEhaa1FldmtmYzlObFBtNk9OSUMxelRXT1pKbGN2T09xOXVFNjd2b1JZcFAwTll2Q2lGRW0wMVJuS1VMSUZDUzZvdTRkbS1fSjE0NWlfTElvR3J0X2F0SUdhOG1qSmhvRUVLeU5JUW1B?oc=5",
+        "source": "Informat.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-24T14:00:33Z",
+        "title": "A Black Hawk helicopter searches for the three sailors missing after the attack on the Khoryv vessel - Informat.ro"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQTdFTkRrLWlYMW91ZkU4NTc5cWFfMGQwM24yQjk3RjlvUmFwLW8tcUNxb1ZUZmVTZXdpcDFzMjBkdUpLRTFVdWI2SzM5R0FqbE80M3I2dmY4clpqQUdoUV9ZNTNtV3cwLUJhOVZ0S19xb1FSVFVkOW4wSVhrRm80ZzhFbmRFSFpFNC05VG1HUHBZaFRjaU05Q2E3TWt2N2c0?oc=5",
+        "source": "Haberler",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-23T13:30:53Z",
+        "title": "Romanya açıklarında gemiye İHA saldırısı! Ölü ve kayıplar var - Haberler"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMnRmMTFqV1ZlMzFWNHNWaTNNWktyRXczMk1rOE82bnhiRXdfUGplbGU2WVFFOVhnZDlfdzhmMHdLRXdnNWdOcFJaV0pHN0dLcHAtNDVtY19jTmtEcHkwMWhqR1o1QTNlSGx3dGd1aWV0aGVnQmRnUzB6OVhEcXZGajRyOWV2dEtqQndUekZ3aUlhQkxfNUZN0gGcAUFVX3lxTE9oNEozQ2FTQ1JvOGpxT1IxcUpVdWpfdUJrU0kzN1lYMW9yZE5naHFvVnpCenU1NXRiLWRLUUZ6ZTc0ZjEyZV9YWmIzUWFld2ktZE43VEFfb3E5MUJQVjFjSjJ2eFMwcjI1eVRtVkVDM3pUbVlPZGFDMWp1azFaWDIwajM2Rm5jTm9kc2F3ZUh0MFNSTWg0cU1CN0Q2dw?oc=5",
+        "source": "Mardin Life",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-23T11:06:05Z",
+        "title": "Romanya yakınlarında ticaret gemisine saldırı: 1 ölü 3 kayıp - Mardin Life"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wSzZQQ2o0YWhNcjZpNzY3aDNON3lwbHZabzNxZ0l3bXphMUt6Si1kal9IalV5WS1IWFFwMUxmOEtHbVhMS2hzdThHX09HZDg3WmEyNUJGNE9PazFYSGkzcVFyYUxXdU9yLTF1SjFTYVVqYlNyVXp4Y0l1QQ?oc=5",
+        "source": "Doğruhaber",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-23T10:27:00Z",
+        "title": "Romanya yakınlarında ticaret gemisine saldırı! - Doğruhaber"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZjByZm55WTBlSmZ5S2l1SWxIQTFOazZQaTBHeGMtV1FCTWdseTc1RUVfZmsxd0tZVE01YkdPek9oa2dTb0g0dHptaUVWQU9FeFJWWnBFME1xZXNCNmF1M0kzZTFod1VHMHB6RUNERjVwZldobXUxQ3FIZjI5T19UcFVfUmFLM1VRYlNYUlQwbXRzYWc1aUw1R1BwdmwweXFPWENCUDh4cnBvaXpkMEE3dXBDenV2b2dZdGNrZzBhRHVrM3lMY2NIbTdzNUVSSXdhSFZzc040RGFidnlD0gHnAUFVX3lxTE80cnVfS3lkWnY1VGlaNUJjRE0wMTBVeFBrTlp2ZFlHZUlxQTBseVlCMFNTSVBFZEN1TXhjb1VXWm1wbGR0TnR6MzQySHlzNkdoVmtoa0w3RWR6ZnZ0a2JLcXV5cExSUmJxUHB1MXducXJPTDBfVGN6Vll6QlV6Z3plZG9rQnM4NVUtbmVsLWZOT1lrWlFZNW5HYUd6bGplaUg5LWxzRzhJeDJnZ2gyaHNsQnAyR1l2enJXS3lZNk12VzI0RWRnRFctRll0MExDaXNmdWdLVUFoazlDbEg2RmtGeDg4M0s3WQ?oc=5",
+        "source": "Digi24",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-24T12:26:34Z",
+        "title": "Elicopter Black Hawk, misiune în Marea Neagră, pentru căutarea marinarilor dispăruţi de pe nava atacată... - Digi24"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMng3S3U5dDdNZHp4Mi1ad01CZnpCNXhlaXJraExvZUJld3JsN0UxWjgtSzVfT01JRTRNek9KMEN6UTcxV2dDeFhOdnRuU0NQVHlOMXE2Yk5IOVdwaTZIejVKNHFUcHYyVUk0cG9mMzNWMElVWDlTRGxjT3I5bVhMZXVVUHZ0MXl1UWVtaEJmZ05vU2JNN1N4QVlNYzVYdjExSW5kSHlfeTJnNkdjNUsyMjY4OVdoOWZlMjMzSXpkd0hnSjVCYlE?oc=5",
+        "source": "TVRInfo.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-24T10:08:44Z",
+        "title": "A fost reluată căutarea celor trei marinari dispăruți de pe nava comercială lovită de drone în Marea Neagră - TVRInfo.ro"
       }
     ],
     "first_seen": "2026-10-23T11:59:27Z",
-    "last_updated": "2026-10-24T12:12:26Z",
+    "last_updated": "2026-10-24T16:12:49Z",
     "verification_issue": 230,
     "verdict": {
       "status": "confirmed",
@@ -3684,10 +3789,19 @@
         "kind": "media",
         "published_at": "2026-10-24T08:22:46Z",
         "title": "Минобороны РФ сообщило об ударе в Черном море по судну с грузом для ВСУ - prospect.com.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObTE5TG1RRGszdlBGTVpUYjZtOWlWeTYwU0xnWXktUGNLZHNnSTdsalNhb051UVlyS2JEYkgxa21wMW5kbkFVOEhwdU1YSDVWQnhwXzlwd3dkN3VEY1A4VjJhT09rYk1YZGYxTGRyd3lRNURNV2w1LUJfSUdVT2JEQVRGMFI3QVplZzZaQ0Q2Ym9ud3l5SGFnaXlWaWlLVFNUWWpj?oc=5",
+        "source": "Военное дело",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-24T06:02:38Z",
+        "title": "Russian Forces Strike Cargo Ship Carrying Supplies to Odessa - Военное дело"
       }
     ],
     "first_seen": "2026-10-22T12:18:40Z",
-    "last_updated": "2026-10-24T12:12:18Z",
+    "last_updated": "2026-10-24T16:12:49Z",
     "verification_issue": 223,
     "verdict": null,
     "published_in": [
@@ -5525,10 +5639,19 @@
         "kind": "media",
         "published_at": "2026-10-24T07:45:52Z",
         "title": "Massive oil spill washes up on UAE holiday resort after tanker strike near Strait of Hormuz forcing beaches to shut - The Sun"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9RQmJ0dWVWNFQ2MjB1bmN4NWhQV2Z3UXg0WFRha1lWcEladEZmV3pLaS1yNThPbkNxcXY5OG4xVkk4eVhhWlV0Rk9RYnR4TW5JSmJYT003eElzUTVlNVhfMTIzR1dRRU5MWjFhSUxMZW1lbHVpcFNXTkVHOHFmQQ?oc=5",
+        "source": "The Sun",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-24T07:34:00Z",
+        "title": "Massive oil spill washes up on UAE holiday resort after tanker strike near Strait of Hormuz forcing beaches to shut - The Sun"
       }
     ],
     "first_seen": "2026-10-21T12:16:33Z",
-    "last_updated": "2026-10-24T12:12:18Z",
+    "last_updated": "2026-10-24T16:12:49Z",
     "verification_issue": 217,
     "verdict": {
       "status": "confirmed",
