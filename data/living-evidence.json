@@ -2770,25 +2770,33 @@
     "HIST-ME-20260714-MOMBASA-B": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T03:06:19.845439+00:00",
+        "checked_at": "2026-10-25T02:41:15Z",
         "vessel_name": "MOMBASA B",
+        "imo": "9739501",
         "date_utc": "2026-07-14",
-        "vessel_type": "crude oil tanker",
+        "vessel_type": "Crude oil tanker (VLCC)",
         "region": "Strait of Hormuz",
         "location_text": "13 NM from the coast of Oman",
-        "summary": "IMO records MOMBASA B in its confirmed incident register for 2026-07-14 near 13 NM from the coast of Oman. Vessel damage was reported; the vessel was abandoned.",
+        "summary": "MOMBASA B, a VLCC operated by ADNOC Logistics and Services under a time charter, was one of two tankers struck by projectiles in the Strait of Hormuz in the early hours of 14 July 2026 and sustained significant damage; the IMO register records 11 injured on this ship and places the attack 13 NM from the coast of Oman. ADNOC L&S confirmed that one seafarer died in the two attacks without saying which ship he was on. The UAE Ministry of Defence, quoted by Reuters and The National, said the dead crew member was an Indian national aboard the Mombasa, while the IMO register records that fatality on AL BAHYAH. The single death is not recorded here, so the two records cannot be added together as two deaths.",
+        "date_note": "Day-precision date from the IMO register and the owner's statement; no exact UTC event time was published.",
         "sources": [
           {
-            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 21 October 2026"
+            "url": "https://www.adnocls.ae/en/news-and-media/press-releases/2026/update-on-following-attacks-on-the-al-bahyah-and-mombasa-b-vessels/",
+            "source": "ADNOC Logistics and Services press release, 14 July 2026"
           },
           {
-            "source": "INTERTANKO member fleet register",
-            "url": "https://www.intertanko.com/about-us/membership/fleet-search"
+            "url": "https://www.thenationalnews.com/news/uae/2026/07/14/one-dead-eight-injured-as-iran-hits-two-uae-supertankers-in-strait/",
+            "source": "The National, quoting the UAE Ministry of Defence and Oman's Maritime Security Centre, 14 July 2026"
+          },
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO confirmed incident register, checked 25 October 2026"
+          },
+          {
+            "url": "https://breakbulk.news/adnoc-ls-confirms-1-dead-8-injured-after-hormuz-tanker-attacks",
+            "source": "Breakbulk News, reporting the UAE Ministry of Defence and ADNOC L&S, 14 July 2026"
           }
-        ],
-        "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
-        "imo": "9739501"
+        ]
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
@@ -2804,7 +2812,27 @@
             }
           ]
         }
-      }
+      },
+      "updates": [
+        {
+          "at": "2026-10-25T02:41:15Z",
+          "text": "The UAE Ministry of Defence statement of 14 July, carried by Reuters and The National, places the one confirmed death of this two-ship attack aboard the Mombasa and names the seafarer as Indian. The IMO register records that fatality on Al Bahyah. Because the official accounts disagree, no death is added to this record and the death counted on AL BAHYAH is not duplicated, so the pair must not be read as two deaths. The 11 injured remain as recorded by the IMO register, and no nationality is attached to the death here.",
+          "sources": [
+            {
+              "url": "https://www.thenationalnews.com/news/uae/2026/07/14/one-dead-eight-injured-as-iran-hits-two-uae-supertankers-in-strait/",
+              "source": "The National, 14 July 2026"
+            },
+            {
+              "url": "https://breakbulk.news/adnoc-ls-confirms-1-dead-8-injured-after-hormuz-tanker-attacks",
+              "source": "Breakbulk News, 14 July 2026"
+            },
+            {
+              "url": "https://www.adnocls.ae/en/news-and-media/press-releases/2026/update-on-following-attacks-on-the-al-bahyah-and-mombasa-b-vessels/",
+              "source": "ADNOC Logistics and Services, 14 July 2026"
+            }
+          ]
+        }
+      ]
     },
     "HIST-ME-20260713-STOLT-MAGNESIUM": {
       "verification": {
@@ -13222,6 +13250,103 @@
             {
               "url": "https://www.bangkokpost.com/thailand/general/3233309/three-thai-crew-confirmed-dead",
               "source": "Bangkok Post, 8 April 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6392568839,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6392568839",
+      "author": "iMariner",
+      "received_at": "2026-10-25T02:41:16Z",
+      "incident_id": "HIST-ME-20260714-MOMBASA-B",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T03:06:19.845439+00:00",
+          "vessel_name": "MOMBASA B",
+          "date_utc": "2026-07-14",
+          "vessel_type": "crude oil tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "13 NM from the coast of Oman",
+          "summary": "IMO records MOMBASA B in its confirmed incident register for 2026-07-14 near 13 NM from the coast of Oman. Vessel damage was reported; the vessel was abandoned.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            },
+            {
+              "source": "INTERTANKO member fleet register",
+              "url": "https://www.intertanko.com/about-us/membership/fleet-search"
+            }
+          ],
+          "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
+          "imo": "9739501"
+        },
+        "audit_notes": [
+          "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+        ],
+        "human_impact": {
+          "injured": {
+            "count": 11,
+            "as_of": "2026-10-20",
+            "sources": [
+              {
+                "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+                "source": "IMO confirmed incident register, as at 20 October 2026"
+              }
+            ]
+          }
+        }
+      },
+      "change": {
+        "incident_id": "HIST-ME-20260714-MOMBASA-B",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-25T02:41:15Z",
+          "vessel_name": "MOMBASA B",
+          "imo": "9739501",
+          "date_utc": "2026-07-14",
+          "vessel_type": "Crude oil tanker (VLCC)",
+          "region": "Strait of Hormuz",
+          "location_text": "13 NM from the coast of Oman",
+          "summary": "MOMBASA B, a VLCC operated by ADNOC Logistics and Services under a time charter, was one of two tankers struck by projectiles in the Strait of Hormuz in the early hours of 14 July 2026 and sustained significant damage; the IMO register records 11 injured on this ship and places the attack 13 NM from the coast of Oman. ADNOC L&S confirmed that one seafarer died in the two attacks without saying which ship he was on. The UAE Ministry of Defence, quoted by Reuters and The National, said the dead crew member was an Indian national aboard the Mombasa, while the IMO register records that fatality on AL BAHYAH. The single death is not recorded here, so the two records cannot be added together as two deaths.",
+          "date_note": "Day-precision date from the IMO register and the owner's statement; no exact UTC event time was published.",
+          "sources": [
+            {
+              "url": "https://www.adnocls.ae/en/news-and-media/press-releases/2026/update-on-following-attacks-on-the-al-bahyah-and-mombasa-b-vessels/",
+              "source": "ADNOC Logistics and Services press release, 14 July 2026"
+            },
+            {
+              "url": "https://www.thenationalnews.com/news/uae/2026/07/14/one-dead-eight-injured-as-iran-hits-two-uae-supertankers-in-strait/",
+              "source": "The National, quoting the UAE Ministry of Defence and Oman's Maritime Security Centre, 14 July 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 25 October 2026"
+            },
+            {
+              "url": "https://breakbulk.news/adnoc-ls-confirms-1-dead-8-injured-after-hormuz-tanker-attacks",
+              "source": "Breakbulk News, reporting the UAE Ministry of Defence and ADNOC L&S, 14 July 2026"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-10-25T02:41:15Z",
+          "text": "The UAE Ministry of Defence statement of 14 July, carried by Reuters and The National, places the one confirmed death of this two-ship attack aboard the Mombasa and names the seafarer as Indian. The IMO register records that fatality on Al Bahyah. Because the official accounts disagree, no death is added to this record and the death counted on AL BAHYAH is not duplicated, so the pair must not be read as two deaths. The 11 injured remain as recorded by the IMO register, and no nationality is attached to the death here.",
+          "sources": [
+            {
+              "url": "https://www.thenationalnews.com/news/uae/2026/07/14/one-dead-eight-injured-as-iran-hits-two-uae-supertankers-in-strait/",
+              "source": "The National, 14 July 2026"
+            },
+            {
+              "url": "https://breakbulk.news/adnoc-ls-confirms-1-dead-8-injured-after-hormuz-tanker-attacks",
+              "source": "Breakbulk News, 14 July 2026"
+            },
+            {
+              "url": "https://www.adnocls.ae/en/news-and-media/press-releases/2026/update-on-following-attacks-on-the-al-bahyah-and-mombasa-b-vessels/",
+              "source": "ADNOC Logistics and Services, 14 July 2026"
             }
           ]
         }
