@@ -8401,20 +8401,34 @@
     "HIST-BS-20261006-ABLE": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T14:10:24.919717+00:00",
+        "checked_at": "2026-10-25T14:58:51Z",
         "vessel_name": "ABLE",
+        "imo": "9001136",
         "date_utc": "2026-10-06",
-        "vessel_type": "general cargo",
+        "vessel_type": "General cargo ship",
         "region": "Black Sea",
-        "summary": "Able caught fire after a reported drone strike east of Byala. All 18 crew members were evacuated to the ferry Dioscuria; injured personnel received emergency aid. No deaths are reported in this all-crew rescue account.",
+        "location_text": "About 70NM east of Byala, inside Bulgaria's exclusive economic zone",
+        "attack_type": "drone strike",
+        "summary": "ABLE, a Palau flagged general cargo ship of 7,416 deadweight built in 1991 and Turkish owned, was attacked by air and sea drones about 70 nautical miles east of Byala, inside Bulgaria's exclusive economic zone, in the early hours of 6 October 2026 while carrying barley from Romania to Turkey. A fire broke out and the engine room began to fill with water. Bulgaria's Prime Minister Rumen Radev said the ferry Dioscuria, the navy and the border police rescued all 18 crew, 11 Turkish and 7 Indian; two were injured in the fire and taken to Varna for treatment. The ship stayed afloat, left the Bulgarian zone on 14 October and, according to Nova Televizia as reported by Sofia Globe, disappeared from radar late on 19 October and sank off the Turkish coast.",
+        "date_note": "Bulgarian officials placed the attack at about 03:00 local time on 6 October 2026; the BBC gives 23:00 GMT. The record keeps 6 October, the date used by the Bulgarian government and by the Bulgarian and international reporting checked.",
         "sources": [
           {
-            "url": "https://www.maritime.bg/155185/",
-            "source": "Maritime.bg named vessel and rescue report, 6 October 2026"
+            "url": "https://www.bbc.com/news/articles/c8ly0v5r602eo",
+            "source": "BBC News, 6 October 2026: Palau flagged Able, grain cargo, 18 crew of 11 Turkish and 7 Indian rescued, two injured"
+          },
+          {
+            "url": "https://maritime-executive.com/article/bulgaria-says-one-crew-is-missing-and-second-rescued-after-drone-attack",
+            "source": "The Maritime Executive, 6 October 2026: Turkish owned Able, built 1991, 18 crew rescued, two severely injured taken to Varna"
+          },
+          {
+            "url": "https://sofiaglobe.com/2026/10/20/able-one-of-the-merchant-ships-attacked-off-bulgarias-coast-sinks/",
+            "source": "Sofia Globe, 20 October 2026, citing Nova Televizia: Able sank off the Turkish coast after disappearing from radar late on 19 October"
+          },
+          {
+            "url": "https://www.vesselfinder.com/vessels/details/9001136",
+            "source": "VesselFinder: ABLE IMO 9001136, general cargo ship, Palau flag, built 1991, 7,416 dwt"
           }
-        ],
-        "attack_type": "physical strike",
-        "imo": "9001136"
+        ]
       },
       "audit_notes": [
         "Added after the omission audit; sources read separately for identity, event date and human impact."
@@ -8424,12 +8438,52 @@
         "deaths": 0,
         "sources": [
           {
-            "url": "https://www.maritime.bg/155185/",
-            "source": "Maritime.bg named vessel and rescue report, 6 October 2026"
+            "url": "https://www.bbc.com/news/articles/c8ly0v5r602eo",
+            "source": "BBC News, 6 October 2026: all 18 crew rescued from the Able"
+          },
+          {
+            "url": "https://maritime-executive.com/article/bulgaria-says-one-crew-is-missing-and-second-rescued-after-drone-attack",
+            "source": "The Maritime Executive, 6 October 2026: 18 crewmembers rescued from the Able, two injured"
           }
         ],
         "nationalities": []
-      }
+      },
+      "human_impact": {
+        "injured": {
+          "count": 2,
+          "as_of": "2026-10-06",
+          "sources": [
+            {
+              "url": "https://www.bbc.com/news/articles/c8ly0v5r602eo",
+              "source": "BBC News, 6 October 2026: two of the 18 rescued crew were injured in a fire on board"
+            },
+            {
+              "url": "https://maritime-executive.com/article/bulgaria-says-one-crew-is-missing-and-second-rescued-after-drone-attack",
+              "source": "The Maritime Executive, 6 October 2026: two reported severely injured and taken to Varna"
+            }
+          ]
+        }
+      },
+      "updates": [
+        {
+          "at": "2026-10-25T14:58:51Z",
+          "text": "The earlier review of this record carried one source and no injury snapshot. It now rests on the Bulgarian government account reported by the BBC and The Maritime Executive: drones hit the Palau flagged general cargo ship Able about 70NM east of Byala on 6 October 2026, starting a fire and flooding the engine room, and all 18 crew, 11 Turkish and 7 Indian, were rescued, two of them injured and taken to Varna. The injured snapshot of two is dated 6 October 2026. Deaths stay zero for this ship: nobody on the Able is reported dead. The crew of the Alfa Watan, the other ship attacked in the same incident, are recorded under that ship and are not counted here. The later sinking is added: Sofia Globe, citing Nova Televizia on 20 October 2026, reported that Able disappeared from radar late on 19 October and sank off the Turkish coast. No image is published.",
+          "sources": [
+            {
+              "url": "https://www.bbc.com/news/articles/c8ly0v5r602eo",
+              "source": "BBC News, 6 October 2026"
+            },
+            {
+              "url": "https://maritime-executive.com/article/bulgaria-says-one-crew-is-missing-and-second-rescued-after-drone-attack",
+              "source": "The Maritime Executive, 6 October 2026"
+            },
+            {
+              "url": "https://sofiaglobe.com/2026/10/20/able-one-of-the-merchant-ships-attacked-off-bulgarias-coast-sinks/",
+              "source": "Sofia Globe, 20 October 2026"
+            }
+          ]
+        }
+      ]
     },
     "HIST-BS-20261006-ALFA-WATAN": {
       "verification": {
@@ -13943,6 +13997,129 @@
             {
               "url": "https://maritime-executive.com/article/iran-keeps-up-pace-of-strikes-with-attack-on-brand-new-lr2-tanker",
               "source": "The Maritime Executive, 4 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6399200743,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6399200743",
+      "author": "iMariner",
+      "received_at": "2026-10-25T14:58:52Z",
+      "incident_id": "HIST-BS-20261006-ABLE",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T14:10:24.919717+00:00",
+          "vessel_name": "ABLE",
+          "date_utc": "2026-10-06",
+          "vessel_type": "general cargo",
+          "region": "Black Sea",
+          "summary": "Able caught fire after a reported drone strike east of Byala. All 18 crew members were evacuated to the ferry Dioscuria; injured personnel received emergency aid. No deaths are reported in this all-crew rescue account.",
+          "sources": [
+            {
+              "url": "https://www.maritime.bg/155185/",
+              "source": "Maritime.bg named vessel and rescue report, 6 October 2026"
+            }
+          ],
+          "attack_type": "physical strike",
+          "imo": "9001136"
+        },
+        "audit_notes": [
+          "Added after the omission audit; sources read separately for identity, event date and human impact."
+        ],
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.maritime.bg/155185/",
+              "source": "Maritime.bg named vessel and rescue report, 6 October 2026"
+            }
+          ],
+          "nationalities": []
+        }
+      },
+      "change": {
+        "incident_id": "HIST-BS-20261006-ABLE",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-25T14:58:51Z",
+          "vessel_name": "ABLE",
+          "imo": "9001136",
+          "date_utc": "2026-10-06",
+          "vessel_type": "General cargo ship",
+          "region": "Black Sea",
+          "location_text": "About 70NM east of Byala, inside Bulgaria's exclusive economic zone",
+          "attack_type": "drone strike",
+          "summary": "ABLE, a Palau flagged general cargo ship of 7,416 deadweight built in 1991 and Turkish owned, was attacked by air and sea drones about 70 nautical miles east of Byala, inside Bulgaria's exclusive economic zone, in the early hours of 6 October 2026 while carrying barley from Romania to Turkey. A fire broke out and the engine room began to fill with water. Bulgaria's Prime Minister Rumen Radev said the ferry Dioscuria, the navy and the border police rescued all 18 crew, 11 Turkish and 7 Indian; two were injured in the fire and taken to Varna for treatment. The ship stayed afloat, left the Bulgarian zone on 14 October and, according to Nova Televizia as reported by Sofia Globe, disappeared from radar late on 19 October and sank off the Turkish coast.",
+          "date_note": "Bulgarian officials placed the attack at about 03:00 local time on 6 October 2026; the BBC gives 23:00 GMT. The record keeps 6 October, the date used by the Bulgarian government and by the Bulgarian and international reporting checked.",
+          "sources": [
+            {
+              "url": "https://www.bbc.com/news/articles/c8ly0v5r602eo",
+              "source": "BBC News, 6 October 2026: Palau flagged Able, grain cargo, 18 crew of 11 Turkish and 7 Indian rescued, two injured"
+            },
+            {
+              "url": "https://maritime-executive.com/article/bulgaria-says-one-crew-is-missing-and-second-rescued-after-drone-attack",
+              "source": "The Maritime Executive, 6 October 2026: Turkish owned Able, built 1991, 18 crew rescued, two severely injured taken to Varna"
+            },
+            {
+              "url": "https://sofiaglobe.com/2026/10/20/able-one-of-the-merchant-ships-attacked-off-bulgarias-coast-sinks/",
+              "source": "Sofia Globe, 20 October 2026, citing Nova Televizia: Able sank off the Turkish coast after disappearing from radar late on 19 October"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9001136",
+              "source": "VesselFinder: ABLE IMO 9001136, general cargo ship, Palau flag, built 1991, 7,416 dwt"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.bbc.com/news/articles/c8ly0v5r602eo",
+              "source": "BBC News, 6 October 2026: all 18 crew rescued from the Able"
+            },
+            {
+              "url": "https://maritime-executive.com/article/bulgaria-says-one-crew-is-missing-and-second-rescued-after-drone-attack",
+              "source": "The Maritime Executive, 6 October 2026: 18 crewmembers rescued from the Able, two injured"
+            }
+          ],
+          "nationalities": []
+        },
+        "human_impact": {
+          "injured": {
+            "count": 2,
+            "as_of": "2026-10-06",
+            "sources": [
+              {
+                "url": "https://www.bbc.com/news/articles/c8ly0v5r602eo",
+                "source": "BBC News, 6 October 2026: two of the 18 rescued crew were injured in a fire on board"
+              },
+              {
+                "url": "https://maritime-executive.com/article/bulgaria-says-one-crew-is-missing-and-second-rescued-after-drone-attack",
+                "source": "The Maritime Executive, 6 October 2026: two reported severely injured and taken to Varna"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-10-25T14:58:51Z",
+          "text": "The earlier review of this record carried one source and no injury snapshot. It now rests on the Bulgarian government account reported by the BBC and The Maritime Executive: drones hit the Palau flagged general cargo ship Able about 70NM east of Byala on 6 October 2026, starting a fire and flooding the engine room, and all 18 crew, 11 Turkish and 7 Indian, were rescued, two of them injured and taken to Varna. The injured snapshot of two is dated 6 October 2026. Deaths stay zero for this ship: nobody on the Able is reported dead. The crew of the Alfa Watan, the other ship attacked in the same incident, are recorded under that ship and are not counted here. The later sinking is added: Sofia Globe, citing Nova Televizia on 20 October 2026, reported that Able disappeared from radar late on 19 October and sank off the Turkish coast. No image is published.",
+          "sources": [
+            {
+              "url": "https://www.bbc.com/news/articles/c8ly0v5r602eo",
+              "source": "BBC News, 6 October 2026"
+            },
+            {
+              "url": "https://maritime-executive.com/article/bulgaria-says-one-crew-is-missing-and-second-rescued-after-drone-attack",
+              "source": "The Maritime Executive, 6 October 2026"
+            },
+            {
+              "url": "https://sofiaglobe.com/2026/10/20/able-one-of-the-merchant-ships-attacked-off-bulgarias-coast-sinks/",
+              "source": "Sofia Globe, 20 October 2026"
             }
           ]
         }
