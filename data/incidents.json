@@ -492,14 +492,20 @@
       }
     ],
     "first_seen": "2026-10-24T18:57:50Z",
-    "last_updated": "2026-10-24T18:57:50Z",
+    "last_updated": "2026-10-25T05:11:01Z",
     "verification_issue": 239,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "editor-check",
+      "at": "2026-10-25T05:11:01Z",
+      "note": "the EnergyNow page sits under /2026/09/ and carries the 5 September 2026 CENTCOM statement on the tankers Downy, Stark 1 and Kylo, not an attack on 23 October"
+    },
     "published_in": [
       "2026-10-25"
     ],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-10-25T05:11:01Z"
   },
   {
     "region": "Black Sea",
@@ -6532,8 +6538,155 @@
     "position_approx": true
   },
   {
+    "region": "Black Sea",
+    "date_utc": "2026-10-20T12:00:24Z",
+    "summary": "A report says the merchant ship Able, one of the vessels attacked off Bulgaria's coast, has sunk. No date, position, cause or attribution details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": "ABLE",
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 43.0,
+    "lon": 28.3,
+    "location_text": "off Bulgaria's coast, Black Sea",
+    "attack_type": "other",
+    "damage": "vessel sank, according to a report",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "date_approx": true,
+    "id": "INC-20261020-009",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdHJnOHNyOUJvbjV5LU1QeFRfRHl5M0pCSWhHV2sxaU1rYVpVSlZteUZDLVY2SUJTMjFSdi12TUVRVGx5bmdCeU83dU1Oc0xGMDlrUG91OWw4dkxHRGN1Zlk3VG44eVZOWDRmcTNrN0w0WTNPOFZreWVmUGxBbE1BYmFFQ1UycnhBZmdJaU9oQXJscUk5VUNMcmpFdnVPNDNrQnZGTV9kVnBSQXc?oc=5",
+        "source": "The Sofia Globe",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-20T12:00:24Z",
+        "title": "Able, one of the merchant ships attacked off Bulgaria’s coast, sinks – report - The Sofia Globe"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSGNVcWI2bnVDQ21kenlpeTEtZTZhNXNndHZNcUZJdmkxaWRLREVFS05nVlg2MVBNWDUxWmNOSkNySzF5d202akdWMXp3R29YYjkxQjQ3TjQ1ZjBieVRVMGZNVTQwTE5JdTZjXzNtY05zRXEyRmVRMG5EMjFyQ0pzb1pXby14dVNWbEd2bUJ5U1FuSlJ6YkFDTTJUZEdpSnNoaVJGNVpwemV3TC1iU1cxeTNWRWg?oc=5",
+        "source": "Novinite.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-20T12:00:42Z",
+        "title": "Drone-Hit Cargo Ship ABLE Sinks off Turkey After Leaving Bulgarian Waters - Novinite.com"
+      }
+    ],
+    "first_seen": "2026-10-20T17:29:41Z",
+    "last_updated": "2026-10-22T05:06:16Z",
+    "verification_issue": 208,
+    "verdict": null,
+    "published_in": [
+      "2026-10-21",
+      "2026-10-22"
+    ],
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261006-011"
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-20T10:43:11Z",
+    "summary": "A Bulgarian National Radio headline reports that drone fragments were found aboard the cargo ship Chelsea 3 after a strike in the Black Sea. No date, position, damage extent or attribution is given in the item.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": "CHELSEA 3",
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 43.0,
+    "lon": 28.3,
+    "location_text": "Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": "Drone fragments found aboard the vessel",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "date_approx": true,
+    "id": "INC-20261020-004",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcmRyY3dVRHVla3V1SE1ucS1KTFdHOUh0WmRyaDRGQVFHM1NuVi1VQlZ4b2hpMHo3ekRmcEVYb2dYTER1WW0xTkhURzZlVUl5T1hOYkM2bTNReXNBWmJCLU9BbU1YM20xZHVLODRwcExucXYxV2lTb1Jqc1Y4eTMzMzJ6alh5dUxQQkdJOXl2S05rOXJFNFV0TGxtN21EaWU5RVZBdExjem5Sdw?oc=5",
+        "source": "БНР Новини",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-20T10:43:11Z",
+        "title": "Drone fragments found aboard cargo ship Chelsea 3 after Black Sea strike - БНР Новини"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWFl1anJXUFBUdFpra2lWNjlrZE1COTcxVy0tRXRDZW5oeU9SeHJsQ2h1bU52WFktWE9QNmtDWXZ1SDNVMFBtb2NZaDU5bUk3RDhzRmctVEYzcGNHNDdBdkwtRHNnYzQxSVFVbGhiRVh5TmxFMlBMWkh3OFktdXhpR3RaNTVjS1lNLXktLWQ0d3kyRXpHLWctTUxhQUZZQWhXSWgwd0RyQkV5dFE?oc=5",
+        "source": "The Sofia Globe",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-20T09:14:22Z",
+        "title": "Drone debris found on Chelsea-3 ship attacked in Bulgaria’s Black Sea EEZ - The Sofia Globe"
+      }
+    ],
+    "first_seen": "2026-10-20T12:00:50Z",
+    "last_updated": "2026-10-20T12:00:55Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261013-007",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-20T04:37:02Z",
+    "summary": "A Romanian news report says new details have emerged about a civilian vessel attacked by drones in the Black Sea, with seven sailors still missing. No vessel name, flag, date, position or attribution was given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": "Seven sailors still missing",
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "date_approx": true,
+    "id": "INC-20261020-003",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZVdmdFdjdnhIMUtiNmd1dk5La1Y0NF9PcVZMaUF0VzZGRFRJS2oydTliME12OGF2aF8wY1I2cmtIZDJfMTk2MWQtX0dLTnZmWFJuLUdJbE16M2JtLUdIN1RnREJCbTRTTmhlQjM3OUQyY3ljZW9GUzhVd3ZlTmJ4NEc1MFh5bXBwV1laUDhDQ25XQUVtZV92YmJwUVlpaGJuY2VMTlhfbjV4T0Z3SEx5Zno2cTFtQUU3Rkk0ekFwNUpqa2V4OXZaQjhxR0hzTk0?oc=5",
+        "source": "BZI.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-20T04:37:02Z",
+        "title": "Noi detalii despre nava civilă atacată cu drone în Marea Neagră. Șapte marinari sunt în continuare dispăruți - BZI.ro"
+      }
+    ],
+    "first_seen": "2026-10-20T05:12:38Z",
+    "last_updated": "2026-10-20T05:12:42Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261015-001",
+    "position_approx": true
+  },
+  {
     "region": "Persian Gulf",
-    "date_utc": "2026-10-21",
+    "date_utc": "2026-10-20",
     "summary": "UKMTO reported that a tanker was struck by an unidentified projectile in the northern Persian Gulf southeast of Iraq's Al Faw port on 21 October. TradeWinds identified a Greek product tanker as one of the latest targets in the Gulf attack, with no vessel name or damage given.",
     "official_source_cited": "UKMTO",
     "conflicting": false,
@@ -7119,10 +7272,19 @@
         "kind": "media",
         "published_at": "2026-10-23T01:31:43Z",
         "title": "Iran Says 7 Oil Tankers Attacked In The Strait Of Hormuz As Fears Grow Of A Return To War - ETV Bharat"
+      },
+      {
+        "url": "https://www.ukmto.org/-/media/ukmto/products/20261021-ukmto_warning_180_26.pdf",
+        "source": "ukmto.org",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-25T05:11:01Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-21T12:16:29Z",
-    "last_updated": "2026-10-24T21:50:19Z",
+    "last_updated": "2026-10-25T05:11:01Z",
     "verification_issue": 214,
     "verdict": {
       "status": "confirmed",
@@ -7142,153 +7304,6 @@
     "position_approx": true,
     "date_approx": false,
     "news_changed_at": "2026-10-22T05:06:16Z"
-  },
-  {
-    "region": "Black Sea",
-    "date_utc": "2026-10-20T12:00:24Z",
-    "summary": "A report says the merchant ship Able, one of the vessels attacked off Bulgaria's coast, has sunk. No date, position, cause or attribution details were given.",
-    "official_source_cited": null,
-    "conflicting": false,
-    "confidence": 0.6,
-    "vessel_name": "ABLE",
-    "imo": null,
-    "flag": null,
-    "vessel_type": "general cargo",
-    "vessel_category": "merchant",
-    "lat": 43.0,
-    "lon": 28.3,
-    "location_text": "off Bulgaria's coast, Black Sea",
-    "attack_type": "other",
-    "damage": "vessel sank, according to a report",
-    "casualties": null,
-    "attribution_claimed": null,
-    "independent_evidence": false,
-    "date_approx": true,
-    "id": "INC-20261020-009",
-    "sources": [
-      {
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdHJnOHNyOUJvbjV5LU1QeFRfRHl5M0pCSWhHV2sxaU1rYVpVSlZteUZDLVY2SUJTMjFSdi12TUVRVGx5bmdCeU83dU1Oc0xGMDlrUG91OWw4dkxHRGN1Zlk3VG44eVZOWDRmcTNrN0w0WTNPOFZreWVmUGxBbE1BYmFFQ1UycnhBZmdJaU9oQXJscUk5VUNMcmpFdnVPNDNrQnZGTV9kVnBSQXc?oc=5",
-        "source": "The Sofia Globe",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-20T12:00:24Z",
-        "title": "Able, one of the merchant ships attacked off Bulgaria’s coast, sinks – report - The Sofia Globe"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSGNVcWI2bnVDQ21kenlpeTEtZTZhNXNndHZNcUZJdmkxaWRLREVFS05nVlg2MVBNWDUxWmNOSkNySzF5d202akdWMXp3R29YYjkxQjQ3TjQ1ZjBieVRVMGZNVTQwTE5JdTZjXzNtY05zRXEyRmVRMG5EMjFyQ0pzb1pXby14dVNWbEd2bUJ5U1FuSlJ6YkFDTTJUZEdpSnNoaVJGNVpwemV3TC1iU1cxeTNWRWg?oc=5",
-        "source": "Novinite.com",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-20T12:00:42Z",
-        "title": "Drone-Hit Cargo Ship ABLE Sinks off Turkey After Leaving Bulgarian Waters - Novinite.com"
-      }
-    ],
-    "first_seen": "2026-10-20T17:29:41Z",
-    "last_updated": "2026-10-22T05:06:16Z",
-    "verification_issue": 208,
-    "verdict": null,
-    "published_in": [
-      "2026-10-21",
-      "2026-10-22"
-    ],
-    "status": "merged",
-    "position_approx": true,
-    "merged_into": "INC-20261006-011"
-  },
-  {
-    "region": "Black Sea",
-    "date_utc": "2026-10-20T10:43:11Z",
-    "summary": "A Bulgarian National Radio headline reports that drone fragments were found aboard the cargo ship Chelsea 3 after a strike in the Black Sea. No date, position, damage extent or attribution is given in the item.",
-    "official_source_cited": null,
-    "conflicting": false,
-    "confidence": 0.7,
-    "vessel_name": "CHELSEA 3",
-    "imo": null,
-    "flag": null,
-    "vessel_type": "general cargo",
-    "vessel_category": "merchant",
-    "lat": 43.0,
-    "lon": 28.3,
-    "location_text": "Black Sea",
-    "attack_type": "drone (UAV)",
-    "damage": "Drone fragments found aboard the vessel",
-    "casualties": null,
-    "attribution_claimed": null,
-    "independent_evidence": false,
-    "date_approx": true,
-    "id": "INC-20261020-004",
-    "sources": [
-      {
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcmRyY3dVRHVla3V1SE1ucS1KTFdHOUh0WmRyaDRGQVFHM1NuVi1VQlZ4b2hpMHo3ekRmcEVYb2dYTER1WW0xTkhURzZlVUl5T1hOYkM2bTNReXNBWmJCLU9BbU1YM20xZHVLODRwcExucXYxV2lTb1Jqc1Y4eTMzMzJ6alh5dUxQQkdJOXl2S05rOXJFNFV0TGxtN21EaWU5RVZBdExjem5Sdw?oc=5",
-        "source": "БНР Новини",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-20T10:43:11Z",
-        "title": "Drone fragments found aboard cargo ship Chelsea 3 after Black Sea strike - БНР Новини"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWFl1anJXUFBUdFpra2lWNjlrZE1COTcxVy0tRXRDZW5oeU9SeHJsQ2h1bU52WFktWE9QNmtDWXZ1SDNVMFBtb2NZaDU5bUk3RDhzRmctVEYzcGNHNDdBdkwtRHNnYzQxSVFVbGhiRVh5TmxFMlBMWkh3OFktdXhpR3RaNTVjS1lNLXktLWQ0d3kyRXpHLWctTUxhQUZZQWhXSWgwd0RyQkV5dFE?oc=5",
-        "source": "The Sofia Globe",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-20T09:14:22Z",
-        "title": "Drone debris found on Chelsea-3 ship attacked in Bulgaria’s Black Sea EEZ - The Sofia Globe"
-      }
-    ],
-    "first_seen": "2026-10-20T12:00:50Z",
-    "last_updated": "2026-10-20T12:00:55Z",
-    "verification_issue": null,
-    "verdict": null,
-    "published_in": [],
-    "status": "merged",
-    "merged_into": "INC-20261013-007",
-    "position_approx": true
-  },
-  {
-    "region": "Black Sea",
-    "date_utc": "2026-10-20T04:37:02Z",
-    "summary": "A Romanian news report says new details have emerged about a civilian vessel attacked by drones in the Black Sea, with seven sailors still missing. No vessel name, flag, date, position or attribution was given.",
-    "official_source_cited": null,
-    "conflicting": false,
-    "confidence": 0.5,
-    "vessel_name": null,
-    "imo": null,
-    "flag": null,
-    "vessel_type": null,
-    "vessel_category": "merchant",
-    "lat": 43.4,
-    "lon": 34.5,
-    "location_text": "Black Sea",
-    "attack_type": "drone (UAV)",
-    "damage": null,
-    "casualties": "Seven sailors still missing",
-    "attribution_claimed": null,
-    "independent_evidence": false,
-    "date_approx": true,
-    "id": "INC-20261020-003",
-    "sources": [
-      {
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZVdmdFdjdnhIMUtiNmd1dk5La1Y0NF9PcVZMaUF0VzZGRFRJS2oydTliME12OGF2aF8wY1I2cmtIZDJfMTk2MWQtX0dLTnZmWFJuLUdJbE16M2JtLUdIN1RnREJCbTRTTmhlQjM3OUQyY3ljZW9GUzhVd3ZlTmJ4NEc1MFh5bXBwV1laUDhDQ25XQUVtZV92YmJwUVlpaGJuY2VMTlhfbjV4T0Z3SEx5Zno2cTFtQUU3Rkk0ekFwNUpqa2V4OXZaQjhxR0hzTk0?oc=5",
-        "source": "BZI.ro",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-20T04:37:02Z",
-        "title": "Noi detalii despre nava civilă atacată cu drone în Marea Neagră. Șapte marinari sunt în continuare dispăruți - BZI.ro"
-      }
-    ],
-    "first_seen": "2026-10-20T05:12:38Z",
-    "last_updated": "2026-10-20T05:12:42Z",
-    "verification_issue": null,
-    "verdict": null,
-    "published_in": [],
-    "status": "merged",
-    "merged_into": "INC-20261015-001",
-    "position_approx": true
   },
   {
     "region": "Black Sea",
@@ -9161,9 +9176,9 @@
     "official_source_cited": "IMO confirmed incidents list",
     "conflicting": false,
     "confidence": 1.0,
-    "vessel_name": "CHLOE (MIVERVA V)",
+    "vessel_name": "CHLOE (MINERVA V)",
     "imo": "9315367",
-    "flag": null,
+    "flag": "Hong Kong",
     "vessel_type": "tanker",
     "vessel_category": "merchant",
     "lat": 24.8,
@@ -9193,10 +9208,28 @@
         "kind": "official",
         "published_at": "2026-10-22T04:33:05Z",
         "title": "Missed: UKMTO #178-26 19 Oct 2026"
+      },
+      {
+        "url": "https://www.vesselfinder.com/vessels/details/9315367",
+        "source": "vesselfinder.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-25T05:11:01Z",
+        "title": null
+      },
+      {
+        "url": "https://www.vesselfinder.com/vessels/details/9315367",
+        "source": "vesselfinder.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-25T05:11:01Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-22T12:19:05Z",
-    "last_updated": "2026-10-22T12:19:06Z",
+    "last_updated": "2026-10-25T05:11:01Z",
     "verification_issue": null,
     "verdict": {
       "status": "confirmed",
@@ -9211,7 +9244,8 @@
       "2026-10-25"
     ],
     "status": "confirmed",
-    "date_approx": false
+    "date_approx": false,
+    "news_changed_at": "2026-10-25T05:11:01Z"
   },
   {
     "region": "Strait of Hormuz",
