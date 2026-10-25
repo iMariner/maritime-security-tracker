@@ -8086,16 +8086,26 @@
         "kind": "media",
         "published_at": "2026-10-19T12:17:05Z",
         "title": "İHA Saldırısına Uğrayan Devasa Petrol Tankeri Boğaz'dan Geçti - İşçi Haber"
+      },
+      {
+        "url": "https://www.iscihaber.net/gundem/iha-saldirisina-ugrayan-devasa-petrol-tankeri-bogazdan-gecti/272864",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-25T04:32:57Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-19T14:56:21Z",
-    "last_updated": "2026-10-22T05:06:16Z",
+    "last_updated": "2026-10-25T04:32:57Z",
     "verification_issue": 197,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-22T05:06:16Z",
-      "note": "a Turkish transit headline about an unnamed tanker attacked earlier by a UAV, with no attack on 19 October"
+      "by": "iMariner",
+      "at": "2026-10-25T04:32:57Z",
+      "note": "The Turkish item is the Cameroon-flagged tanker Nelsa passing the Bosphorus under escort on 19 October after a drone attack in the Black Sea on 20 July, so it reports a transit and not an attack on 19 October.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/197#issuecomment-6393471121"
     },
     "published_in": [
       "2026-10-20",
@@ -8194,16 +8204,26 @@
         "kind": "media",
         "published_at": "2026-10-20T11:50:26Z",
         "title": "Relief After Two Kenya-Bound Fuel Tankers Hit by Drone Strikes - Kenyans.co.ke"
+      },
+      {
+        "url": "https://nation.africa/kenya/news/drone-strikes-stall-two-fuel-tankers-bound-for-kenya--5637112",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-25T04:32:56Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-19T20:42:41Z",
-    "last_updated": "2026-10-22T05:06:16Z",
+    "last_updated": "2026-10-25T04:32:56Z",
     "verification_issue": 201,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-22T05:06:16Z",
-      "note": "a Kenya fuel supply story about tankers stalled in the Strait of Hormuz, naming no ship and giving no date or attack of its own"
+      "by": "iMariner",
+      "at": "2026-10-25T04:32:56Z",
+      "note": "The Daily Nation article is the Kenyan energy regulator telling MPs that two Kenya-bound tankers were immobilised in the Strait of Hormuz, an official statement about fuel supply that names no ship and describes no attack in the Red Sea.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/201#issuecomment-6393471258"
     },
     "published_in": [
       "2026-10-20",
@@ -8280,18 +8300,43 @@
         "kind": "media",
         "published_at": "2026-10-17T23:56:00Z",
         "title": "Oil tanker on fire 'after hitting mine in Hormuz' - RTHK"
+      },
+      {
+        "url": "https://english.alarabiya.net/News/middle-east/2026/10/19/oil-tanker-on-fire-after-hitting-mine-in-hormuz-iran-s-irgc-",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-25T04:33:00Z",
+        "title": null
+      },
+      {
+        "url": "https://gcaptain.com/iran-claims-more-tankers-hit-mines-in-hormuz-but-evidence-remains-elusive/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-25T04:33:00Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-19T01:37:34Z",
-    "last_updated": "2026-10-19T05:07:29Z",
+    "last_updated": "2026-10-25T04:33:00Z",
     "verification_issue": 193,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-25T04:33:00Z",
+      "note": "Duplicate of INC-20261017-004: this is the Guards' mine claim series restated on 19 October, with no vessel named, no position and no independent evidence, and the same wording was already recorded from the 17 October statement.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/193#issuecomment-6393470855"
+    },
     "published_in": [
       "2026-10-19"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261017-004"
+    "merged_into": "INC-20261017-004",
+    "status_changed_at": "2026-10-25T04:33:00Z"
   },
   {
     "region": "Black Sea",
@@ -8593,12 +8638,36 @@
         "kind": "media",
         "published_at": "2026-10-17T10:31:46Z",
         "title": "ВС России ударили по судну, доставлявшему в Одессу грузы для ВСУ - prospect.com.ru"
+      },
+      {
+        "url": "https://defenseandtech.com/russia-claims-drone-strike-cargo-ship-odesa/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-25T04:32:59Z",
+        "title": null
+      },
+      {
+        "url": "https://ria.ru/20261019/korabl-2125333360.html",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-25T04:32:59Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-19T06:46:06Z",
-    "last_updated": "2026-10-21T17:37:26Z",
+    "last_updated": "2026-10-25T04:32:59Z",
     "verification_issue": 194,
-    "verdict": null,
+    "verdict": {
+      "status": "claimed",
+      "by": "iMariner",
+      "at": "2026-10-25T04:32:59Z",
+      "note": "Only Russia's defence ministry reports the strike on a dry cargo ship 130 km southwest of Odesa, giving no name, flag, damage or casualty, and Ukrainian authorities had not addressed the claim.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/194#issuecomment-6393470978"
+    },
     "published_in": [
       "2026-10-18",
       "2026-10-19",
@@ -8929,16 +8998,26 @@
         "kind": "media",
         "published_at": "2026-10-19T15:26:21Z",
         "title": "Tensions Escalate in the Black Sea Following Drone Strikes on Commercial Vessels - IR Insider"
+      },
+      {
+        "url": "https://www.irinsider.org/easterncentral-europe/2ek4qfphbilq3s12v2n9jmq6nthjgp",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-25T04:32:53Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-20T00:35:26Z",
-    "last_updated": "2026-10-22T05:06:16Z",
+    "last_updated": "2026-10-25T04:32:53Z",
     "verification_issue": 203,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-22T05:06:16Z",
-      "note": "a round-up headline about Black Sea tensions that names no ship, date or position"
+      "by": "iMariner",
+      "at": "2026-10-25T04:32:53Z",
+      "note": "The IR Insider piece published on 19 October is a round-up of the 13 October sinking off Shabla and the earlier October attacks on Alfa Watan and Able, and it reports no attack on a vessel on 19 October.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/203#issuecomment-6393471392"
     },
     "published_in": [
       "2026-10-20",
