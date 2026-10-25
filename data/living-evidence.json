@@ -9295,6 +9295,67 @@
           ]
         }
       ]
+    },
+    "INC-20261011-029": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "human_impact": {
+        "injured": {
+          "count": 1,
+          "as_of": "2026-10-11",
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf",
+              "source": "UKMTO warning 167-26, JMIC advisory update 105, 15 October 2026"
+            }
+          ]
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-25T08:50:00Z",
+        "vessel_name": "DP WORLD KAVERI",
+        "date_utc": "2026-10-11",
+        "vessel_type": "Container ship",
+        "region": "Strait of Hormuz",
+        "imo": "9363429",
+        "location_text": "Strait of Hormuz, inbound transit",
+        "attack_type": "unknown projectile",
+        "summary": "DP WORLD KAVERI, an Indian-flagged container ship of 2,483 TEU, was struck by an unknown projectile while transiting the Strait of Hormuz inbound on 11 October 2026. One crew member suffered a minor injury. The ship was able to continue its voyage and no environmental damage was reported.",
+        "sources": [
+          {
+            "url": "https://ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf",
+            "source": "UKMTO warning 167-26, JMIC advisory update 105, 15 October 2026"
+          },
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9363429-2026-10-11",
+            "source": "IMO confirmed incidents list"
+          },
+          {
+            "url": "https://www.marinetraffic.com/en/ais/details/ships/shipid:411910/mmsi:419001812/imo:9363429/vessel:DP%20WORLD%20KAVERI",
+            "source": "Registry particulars (MarineTraffic)"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-25T08:50:00Z",
+          "text": "The IMO register entry gave vessel damage and one injured seafarer but no vessel type. UKMTO warning 167-26 confirms a container ship struck by an unknown projectile on the inbound transit of 11 October 2026, one minor crew injury, the voyage continuing and no reported environmental damage. The single injury is recorded as a snapshot dated 11 October 2026. No source reports a death, so the death count stays unknown rather than zero.",
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf",
+              "source": "UKMTO warning 167-26, JMIC advisory update 105, 15 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9363429-2026-10-11",
+              "source": "IMO confirmed incidents list"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -13510,6 +13571,74 @@
             {
               "url": "https://ukmto.org/-/media/ukmto/products/update-103-jmic-advisory-note-08-october.pdf",
               "source": "UKMTO and JMIC advisory update 103, 8 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6395596082,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6395596082",
+      "author": "iMariner",
+      "received_at": "2026-10-25T08:50:01Z",
+      "incident_id": "INC-20261011-029",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261011-029",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-25T08:50:00Z",
+          "vessel_name": "DP WORLD KAVERI",
+          "date_utc": "2026-10-11",
+          "vessel_type": "Container ship",
+          "region": "Strait of Hormuz",
+          "imo": "9363429",
+          "location_text": "Strait of Hormuz, inbound transit",
+          "attack_type": "unknown projectile",
+          "summary": "DP WORLD KAVERI, an Indian-flagged container ship of 2,483 TEU, was struck by an unknown projectile while transiting the Strait of Hormuz inbound on 11 October 2026. One crew member suffered a minor injury. The ship was able to continue its voyage and no environmental damage was reported.",
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf",
+              "source": "UKMTO warning 167-26, JMIC advisory update 105, 15 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9363429-2026-10-11",
+              "source": "IMO confirmed incidents list"
+            },
+            {
+              "url": "https://www.marinetraffic.com/en/ais/details/ships/shipid:411910/mmsi:419001812/imo:9363429/vessel:DP%20WORLD%20KAVERI",
+              "source": "Registry particulars (MarineTraffic)"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "human_impact": {
+          "injured": {
+            "count": 1,
+            "as_of": "2026-10-11",
+            "sources": [
+              {
+                "url": "https://ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf",
+                "source": "UKMTO warning 167-26, JMIC advisory update 105, 15 October 2026"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-10-25T08:50:00Z",
+          "text": "The IMO register entry gave vessel damage and one injured seafarer but no vessel type. UKMTO warning 167-26 confirms a container ship struck by an unknown projectile on the inbound transit of 11 October 2026, one minor crew injury, the voyage continuing and no reported environmental damage. The single injury is recorded as a snapshot dated 11 October 2026. No source reports a death, so the death count stays unknown rather than zero.",
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf",
+              "source": "UKMTO warning 167-26, JMIC advisory update 105, 15 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9363429-2026-10-11",
+              "source": "IMO confirmed incidents list"
             }
           ]
         }
