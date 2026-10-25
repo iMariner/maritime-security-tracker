@@ -9217,6 +9217,84 @@
           ]
         }
       ]
+    },
+    "INC-20261006-006": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "human_impact": {
+        "injured": {
+          "count": 12,
+          "as_of": "2026-10-06",
+          "sources": [
+            {
+              "url": "https://www.marinelink.com/news/hormuz-oil-tanker-strike-injures-crew-543515",
+              "source": "Reuters, carried by MarineLink"
+            },
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/update-103-jmic-advisory-note-08-october.pdf",
+              "source": "UKMTO and JMIC advisory update 103, 8 October 2026"
+            }
+          ]
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-25T08:49:18Z",
+        "vessel_name": "ON PEACE",
+        "date_utc": "2026-10-05",
+        "vessel_type": "Crude oil tanker",
+        "region": "Strait of Hormuz",
+        "imo": "9893204",
+        "location_text": "About 9NM off Limah, Musandam, Oman",
+        "attack_type": "unknown projectile",
+        "summary": "ON PEACE, a Panama-flagged Aframax crude oil tanker of 115,157 deadweight tonnes, was struck by an unknown projectile while transiting the Strait of Hormuz outbound. The strike set off a fire and the ship was abandoned. Twelve of the 19 crew, 17 of them Indian, were injured, 11 of the injured being Indian nationals. Oman's air force flew the injured to hospital in Khasab, Musandam. Owner ONEX DMCC and manager Anglo-Eastern Tanker Management Hong Kong did not answer Reuters requests for comment.",
+        "date_note": "UKMTO warning 157-26 and the IMO register date the strike 5 October 2026. Oman's defence ministry and India's Ministry of External Affairs, whose statement was issued on Tuesday 6 October, describe it as 6 October. The difference is most likely local time, Oman being UTC+4, and no time has been published, so the UKMTO date is kept.",
+        "sources": [
+          {
+            "url": "https://ukmto.org/-/media/ukmto/products/update-103-jmic-advisory-note-08-october.pdf",
+            "source": "UKMTO and JMIC advisory update 103, 8 October 2026"
+          },
+          {
+            "url": "https://www.marinelink.com/news/hormuz-oil-tanker-strike-injures-crew-543515",
+            "source": "Reuters, carried by MarineLink"
+          },
+          {
+            "url": "https://www.bairdmaritime.com/security/incidents/on-peace-tanker-attack-hormuz",
+            "source": "Baird Maritime, citing India's Ministry of External Affairs"
+          },
+          {
+            "url": "https://www.aljazeera.com/news/2026/10/7/oman-evacuates-injured-crew-from-attacked-tanker-in-strait-of-hormuz",
+            "source": "Al Jazeera, citing Oman's Ministry of Defence"
+          },
+          {
+            "url": "https://www.vesselfinder.com/vessels/details/9893204",
+            "source": "Registry particulars (VesselFinder)"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-25T08:49:18Z",
+          "text": "This review adds the vessel identity and IMO the archive summary lacked, a dated structure for the injured count, and the date conflict. Twelve injuries are recorded as a snapshot dated 6 October 2026, 11 of the injured being Indian nationals on India's Ministry of External Affairs statement. No checked source reports a death, so the death count stays unknown rather than zero. The archive's 17 October record for the same vessel is already merged into this one and is not a second attack.",
+          "sources": [
+            {
+              "url": "https://www.marinelink.com/news/hormuz-oil-tanker-strike-injures-crew-543515",
+              "source": "Reuters, carried by MarineLink"
+            },
+            {
+              "url": "https://www.bairdmaritime.com/security/incidents/on-peace-tanker-attack-hormuz",
+              "source": "Baird Maritime, citing India's Ministry of External Affairs"
+            },
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/update-103-jmic-advisory-note-08-october.pdf",
+              "source": "UKMTO and JMIC advisory update 103, 8 October 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -13347,6 +13425,91 @@
             {
               "url": "https://www.adnocls.ae/en/news-and-media/press-releases/2026/update-on-following-attacks-on-the-al-bahyah-and-mombasa-b-vessels/",
               "source": "ADNOC Logistics and Services, 14 July 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6395589860,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6395589860",
+      "author": "iMariner",
+      "received_at": "2026-10-25T08:49:18Z",
+      "incident_id": "INC-20261006-006",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261006-006",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-25T08:49:18Z",
+          "vessel_name": "ON PEACE",
+          "date_utc": "2026-10-05",
+          "vessel_type": "Crude oil tanker",
+          "region": "Strait of Hormuz",
+          "imo": "9893204",
+          "location_text": "About 9NM off Limah, Musandam, Oman",
+          "attack_type": "unknown projectile",
+          "summary": "ON PEACE, a Panama-flagged Aframax crude oil tanker of 115,157 deadweight tonnes, was struck by an unknown projectile while transiting the Strait of Hormuz outbound. The strike set off a fire and the ship was abandoned. Twelve of the 19 crew, 17 of them Indian, were injured, 11 of the injured being Indian nationals. Oman's air force flew the injured to hospital in Khasab, Musandam. Owner ONEX DMCC and manager Anglo-Eastern Tanker Management Hong Kong did not answer Reuters requests for comment.",
+          "date_note": "UKMTO warning 157-26 and the IMO register date the strike 5 October 2026. Oman's defence ministry and India's Ministry of External Affairs, whose statement was issued on Tuesday 6 October, describe it as 6 October. The difference is most likely local time, Oman being UTC+4, and no time has been published, so the UKMTO date is kept.",
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/update-103-jmic-advisory-note-08-october.pdf",
+              "source": "UKMTO and JMIC advisory update 103, 8 October 2026"
+            },
+            {
+              "url": "https://www.marinelink.com/news/hormuz-oil-tanker-strike-injures-crew-543515",
+              "source": "Reuters, carried by MarineLink"
+            },
+            {
+              "url": "https://www.bairdmaritime.com/security/incidents/on-peace-tanker-attack-hormuz",
+              "source": "Baird Maritime, citing India's Ministry of External Affairs"
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/7/oman-evacuates-injured-crew-from-attacked-tanker-in-strait-of-hormuz",
+              "source": "Al Jazeera, citing Oman's Ministry of Defence"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9893204",
+              "source": "Registry particulars (VesselFinder)"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "human_impact": {
+          "injured": {
+            "count": 12,
+            "as_of": "2026-10-06",
+            "sources": [
+              {
+                "url": "https://www.marinelink.com/news/hormuz-oil-tanker-strike-injures-crew-543515",
+                "source": "Reuters, carried by MarineLink"
+              },
+              {
+                "url": "https://ukmto.org/-/media/ukmto/products/update-103-jmic-advisory-note-08-october.pdf",
+                "source": "UKMTO and JMIC advisory update 103, 8 October 2026"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-10-25T08:49:18Z",
+          "text": "This review adds the vessel identity and IMO the archive summary lacked, a dated structure for the injured count, and the date conflict. Twelve injuries are recorded as a snapshot dated 6 October 2026, 11 of the injured being Indian nationals on India's Ministry of External Affairs statement. No checked source reports a death, so the death count stays unknown rather than zero. The archive's 17 October record for the same vessel is already merged into this one and is not a second attack.",
+          "sources": [
+            {
+              "url": "https://www.marinelink.com/news/hormuz-oil-tanker-strike-injures-crew-543515",
+              "source": "Reuters, carried by MarineLink"
+            },
+            {
+              "url": "https://www.bairdmaritime.com/security/incidents/on-peace-tanker-attack-hormuz",
+              "source": "Baird Maritime, citing India's Ministry of External Affairs"
+            },
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/update-103-jmic-advisory-note-08-october.pdf",
+              "source": "UKMTO and JMIC advisory update 103, 8 October 2026"
             }
           ]
         }
