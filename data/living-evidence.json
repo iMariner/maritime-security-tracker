@@ -1967,29 +1967,48 @@
     "HIST-ME-20260831-SIDR": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T14:10:24.919717+00:00",
+        "checked_at": "2026-10-25T02:45:00Z",
         "vessel_name": "SIDR",
+        "imo": "9854715",
         "date_utc": "2026-08-31",
         "vessel_type": "crude oil tanker",
         "region": "Strait of Hormuz",
         "location_text": "17NM east of Khasab, Oman",
-        "summary": "IMO records SIDR in its confirmed incident register for 2026-08-31 near 17NM east of Khasab, Oman. Vessel damage was reported. IMO confirms 2 seafarer death(s).",
+        "summary": "SIDR, a Saudi-flagged crude oil tanker owned by Bahri, was hit by unknown projectiles while transiting the Strait of Hormuz at about 23:40 local time on 31 August 2026 and a fire broke out that the crew contained. Bahri said on 2 September that two of its Filipino seafarers were lost. The Philippines Department of Migrant Workers said 16 Filipino seafarers were aboard, that the remains of the two dead were taken to Oman and that the other 14 were safe and being prepared for repatriation. Saudi Arabia blamed Iran, which has not accepted responsibility. The IMO register places the damage 17 nautical miles east of Khasab, Oman, while shipping intelligence firms quoted by Gulf News put the strike about 16.6 nautical miles north-east of Khasab.",
+        "date_note": "Bahri gave the event time as about 23:40 local time on 31 August, which is 19:40 UTC on the same day, so the day-precision UTC date is 31 August.",
         "sources": [
           {
-            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 21 October 2026"
+            "url": "https://www.bbc.com/news/articles/cx2zxgg4mx9o",
+            "source": "BBC News, reporting Bahri and the Saudi foreign ministry, 2 September 2026"
           },
           {
-            "source": "INTERTANKO member fleet register",
-            "url": "https://www.intertanko.com/about-us/membership/fleet-search"
+            "url": "https://www.pna.gov.ph/articles/1283212",
+            "source": "Philippine News Agency, reporting the Department of Migrant Workers and Bahri, 3 September 2026"
+          },
+          {
+            "url": "https://www.philstar.com/headlines/2026/09/03/2553745/two-filipino-seafarers-killed-saudi-tanker-attacked-hormuz/amp/",
+            "source": "Philstar, Department of Migrant Workers briefing and Bahri statement, 3 September 2026"
+          },
+          {
+            "url": "https://gulfnews.com/world/gulf/saudi/two-filipino-sailors-killed-after-saudi-tanker-incident-in-strait-of-hormuz-1.500660494",
+            "source": "Gulf News, 2 September 2026"
           }
-        ],
-        "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
-        "imo": "9854715"
+        ]
       },
       "casualties": {
         "status": "confirmed",
         "deaths": 2,
+        "minimum": false,
+        "sources": [
+          {
+            "url": "https://www.bbc.com/news/articles/cx2zxgg4mx9o",
+            "source": "BBC News, quoting Bahri's statement, 2 September 2026"
+          },
+          {
+            "url": "https://www.pna.gov.ph/articles/1283212",
+            "source": "Philippine News Agency, Department of Migrant Workers, 3 September 2026"
+          }
+        ],
         "nationalities": [
           {
             "nationality": "Filipino",
@@ -1998,15 +2017,13 @@
             "sources": [
               {
                 "url": "https://www.philstar.com/headlines/2026/09/03/2553745/two-filipino-seafarers-killed-saudi-tanker-attacked-hormuz/amp/",
-                "source": "Philstar reporting DMW briefing and Bahri statement, 3 September 2026"
+                "source": "Philstar reporting the DMW briefing and Bahri statement, 3 September 2026"
+              },
+              {
+                "url": "https://www.bbc.com/news/articles/cx2zxgg4mx9o",
+                "source": "BBC News, quoting Bahri's statement, 2 September 2026"
               }
             ]
-          }
-        ],
-        "sources": [
-          {
-            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 21 October 2026"
           }
         ]
       },
@@ -2021,6 +2038,24 @@
             {
               "url": "https://www.philstar.com/headlines/2026/09/03/2553745/two-filipino-seafarers-killed-saudi-tanker-attacked-hormuz/amp/",
               "source": "Philstar reporting DMW briefing and Bahri statement, 3 September 2026"
+            }
+          ]
+        },
+        {
+          "at": "2026-10-25T02:45:00Z",
+          "text": "The summary now rests on the owner's and the Philippine government's accounts rather than the IMO register alone. Bahri confirmed the loss of two Filipino seafarers on 2 September 2026 and the Department of Migrant Workers confirmed both deaths, the 16 Filipino crew and the safe release of the other 14. The two deaths and the Filipino nationality are unchanged. No injured snapshot is added because the DMW figure of 10 injured covers 31 vessels, not SIDR.",
+          "sources": [
+            {
+              "url": "https://www.bbc.com/news/articles/cx2zxgg4mx9o",
+              "source": "BBC News, 2 September 2026"
+            },
+            {
+              "url": "https://www.pna.gov.ph/articles/1283212",
+              "source": "Philippine News Agency, 3 September 2026"
+            },
+            {
+              "url": "https://www.philstar.com/headlines/2026/09/03/2553745/two-filipino-seafarers-killed-saudi-tanker-attacked-hormuz/amp/",
+              "source": "Philstar, 3 September 2026"
             }
           ]
         }
@@ -12858,6 +12893,158 @@
             {
               "url": "https://maritimeoptima.com/public/vessels/pages/imo:9156761/mmsi:341680002/RIYAN_STAR.html",
               "source": "Maritime Optima vessel particulars and AIS position, checked 24 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6392551251,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6392551251",
+      "author": "iMariner",
+      "received_at": "2026-10-25T02:39:11Z",
+      "incident_id": "HIST-ME-20260831-SIDR",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T14:10:24.919717+00:00",
+          "vessel_name": "SIDR",
+          "date_utc": "2026-08-31",
+          "vessel_type": "crude oil tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "17NM east of Khasab, Oman",
+          "summary": "IMO records SIDR in its confirmed incident register for 2026-08-31 near 17NM east of Khasab, Oman. Vessel damage was reported. IMO confirms 2 seafarer death(s).",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            },
+            {
+              "source": "INTERTANKO member fleet register",
+              "url": "https://www.intertanko.com/about-us/membership/fleet-search"
+            }
+          ],
+          "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
+          "imo": "9854715"
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 2,
+          "nationalities": [
+            {
+              "nationality": "Filipino",
+              "status": "confirmed",
+              "deaths": 2,
+              "sources": [
+                {
+                  "url": "https://www.philstar.com/headlines/2026/09/03/2553745/two-filipino-seafarers-killed-saudi-tanker-attacked-hormuz/amp/",
+                  "source": "Philstar reporting DMW briefing and Bahri statement, 3 September 2026"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            }
+          ]
+        },
+        "audit_notes": [
+          "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+        ],
+        "updates": [
+          {
+            "at": "2026-10-21T14:10:24.919717+00:00",
+            "text": "The DMW briefing and operator statement identify both documented deaths as Filipino seafarers.",
+            "sources": [
+              {
+                "url": "https://www.philstar.com/headlines/2026/09/03/2553745/two-filipino-seafarers-killed-saudi-tanker-attacked-hormuz/amp/",
+                "source": "Philstar reporting DMW briefing and Bahri statement, 3 September 2026"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "HIST-ME-20260831-SIDR",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-25T02:45:00Z",
+          "vessel_name": "SIDR",
+          "imo": "9854715",
+          "date_utc": "2026-08-31",
+          "vessel_type": "crude oil tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "17NM east of Khasab, Oman",
+          "summary": "SIDR, a Saudi-flagged crude oil tanker owned by Bahri, was hit by unknown projectiles while transiting the Strait of Hormuz at about 23:40 local time on 31 August 2026 and a fire broke out that the crew contained. Bahri said on 2 September that two of its Filipino seafarers were lost. The Philippines Department of Migrant Workers said 16 Filipino seafarers were aboard, that the remains of the two dead were taken to Oman and that the other 14 were safe and being prepared for repatriation. Saudi Arabia blamed Iran, which has not accepted responsibility. The IMO register places the damage 17 nautical miles east of Khasab, Oman, while shipping intelligence firms quoted by Gulf News put the strike about 16.6 nautical miles north-east of Khasab.",
+          "date_note": "Bahri gave the event time as about 23:40 local time on 31 August, which is 19:40 UTC on the same day, so the day-precision UTC date is 31 August.",
+          "sources": [
+            {
+              "url": "https://www.bbc.com/news/articles/cx2zxgg4mx9o",
+              "source": "BBC News, reporting Bahri and the Saudi foreign ministry, 2 September 2026"
+            },
+            {
+              "url": "https://www.pna.gov.ph/articles/1283212",
+              "source": "Philippine News Agency, reporting the Department of Migrant Workers and Bahri, 3 September 2026"
+            },
+            {
+              "url": "https://www.philstar.com/headlines/2026/09/03/2553745/two-filipino-seafarers-killed-saudi-tanker-attacked-hormuz/amp/",
+              "source": "Philstar, Department of Migrant Workers briefing and Bahri statement, 3 September 2026"
+            },
+            {
+              "url": "https://gulfnews.com/world/gulf/saudi/two-filipino-sailors-killed-after-saudi-tanker-incident-in-strait-of-hormuz-1.500660494",
+              "source": "Gulf News, 2 September 2026"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 2,
+          "minimum": false,
+          "sources": [
+            {
+              "url": "https://www.bbc.com/news/articles/cx2zxgg4mx9o",
+              "source": "BBC News, quoting Bahri's statement, 2 September 2026"
+            },
+            {
+              "url": "https://www.pna.gov.ph/articles/1283212",
+              "source": "Philippine News Agency, Department of Migrant Workers, 3 September 2026"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Filipino",
+              "status": "confirmed",
+              "deaths": 2,
+              "sources": [
+                {
+                  "url": "https://www.philstar.com/headlines/2026/09/03/2553745/two-filipino-seafarers-killed-saudi-tanker-attacked-hormuz/amp/",
+                  "source": "Philstar reporting the DMW briefing and Bahri statement, 3 September 2026"
+                },
+                {
+                  "url": "https://www.bbc.com/news/articles/cx2zxgg4mx9o",
+                  "source": "BBC News, quoting Bahri's statement, 2 September 2026"
+                }
+              ]
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-10-25T02:45:00Z",
+          "text": "The summary now rests on the owner's and the Philippine government's accounts rather than the IMO register alone. Bahri confirmed the loss of two Filipino seafarers on 2 September 2026 and the Department of Migrant Workers confirmed both deaths, the 16 Filipino crew and the safe release of the other 14. The two deaths and the Filipino nationality are unchanged. No injured snapshot is added because the DMW figure of 10 injured covers 31 vessels, not SIDR.",
+          "sources": [
+            {
+              "url": "https://www.bbc.com/news/articles/cx2zxgg4mx9o",
+              "source": "BBC News, 2 September 2026"
+            },
+            {
+              "url": "https://www.pna.gov.ph/articles/1283212",
+              "source": "Philippine News Agency, 3 September 2026"
+            },
+            {
+              "url": "https://www.philstar.com/headlines/2026/09/03/2553745/two-filipino-seafarers-killed-saudi-tanker-attacked-hormuz/amp/",
+              "source": "Philstar, 3 September 2026"
             }
           ]
         }
