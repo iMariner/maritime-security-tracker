@@ -9356,6 +9356,82 @@
           ]
         }
       ]
+    },
+    "INC-20260923-001": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 1,
+        "sources": [
+          {
+            "url": "https://www.worldports.org/indian-seafarer-killed-as-bulker-cape-dao-is-hit-in-strait-of-hormuz",
+            "source": "World Ports Organization, citing India's Ministry of External Affairs, 24 September 2026"
+          },
+          {
+            "url": "https://www.bbc.com/news/articles/crkg7q97z078o",
+            "source": "BBC News, 14 October 2026"
+          }
+        ],
+        "nationalities": [
+          {
+            "nationality": "Indian",
+            "status": "confirmed",
+            "deaths": 1,
+            "sources": [
+              {
+                "url": "https://www.worldports.org/indian-seafarer-killed-as-bulker-cape-dao-is-hit-in-strait-of-hormuz",
+                "source": "World Ports Organization, citing India's Ministry of External Affairs, 24 September 2026"
+              }
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-25T08:51:15Z",
+        "vessel_name": "CAPE DAO",
+        "date_utc": "2026-09-23",
+        "vessel_type": "Bulk carrier",
+        "region": "Strait of Hormuz",
+        "imo": "9219020",
+        "location_text": "15NM northeast of Khasab, Oman",
+        "attack_type": "unknown projectile",
+        "summary": "CAPE DAO, an Antigua and Barbuda-flagged bulk carrier, was struck by an unknown projectile north-east of Khasab, Oman, on 23 September 2026. The impact hit the bridge and accommodation area, started a fire and left the ship adrift. One seafarer, Suraj Yadav, a 26-year-old Indian wiper from Deoria in Uttar Pradesh, was killed; India's Ministry of External Affairs gave his name and the ports and shipping minister said he died of head injuries. Twenty-seven other crew were evacuated by the Royal Navy of Oman, 20 of the crew being Indian and 19 of those rescued. The IMO register records the ship as partially sunk, and on 14 October Vanguard, quoted by Reuters and the BBC, reported it had sunk.",
+        "date_note": "India's Ministry of External Affairs and UKMTO warning 142-26 both place the strike on 23 September 2026, UKMTO receiving the report at about 0630 UTC that day.",
+        "sources": [
+          {
+            "url": "https://www.worldports.org/indian-seafarer-killed-as-bulker-cape-dao-is-hit-in-strait-of-hormuz",
+            "source": "World Ports Organization, citing India's Ministry of External Affairs, 24 September 2026"
+          },
+          {
+            "url": "https://www.bbc.com/news/articles/crkg7q97z078o",
+            "source": "BBC News, 14 October 2026"
+          },
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9219020-2026-09-23",
+            "source": "IMO confirmed incidents list"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-25T08:51:15Z",
+          "text": "The record carried a death count with no structured basis. It is now confirmed as one death, Indian national, from India's Ministry of External Affairs identification of Suraj Yadav and the ports and shipping minister's statement that he died of head injuries. Twenty-seven crew were evacuated, not 27 casualties. The IMO register records the ship as partially sunk; the BBC and Reuters reported on 14 October that Vanguard assessed it had sunk after an unsuccessful salvage attempt. No other death is recorded on this vessel.",
+          "sources": [
+            {
+              "url": "https://www.worldports.org/indian-seafarer-killed-as-bulker-cape-dao-is-hit-in-strait-of-hormuz",
+              "source": "World Ports Organization, citing India's Ministry of External Affairs, 24 September 2026"
+            },
+            {
+              "url": "https://www.bbc.com/news/articles/crkg7q97z078o",
+              "source": "BBC News, 14 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9219020-2026-09-23",
+              "source": "IMO confirmed incidents list"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -13638,6 +13714,89 @@
             },
             {
               "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9363429-2026-10-11",
+              "source": "IMO confirmed incidents list"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6395606933,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6395606933",
+      "author": "iMariner",
+      "received_at": "2026-10-25T08:51:16Z",
+      "incident_id": "INC-20260923-001",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20260923-001",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-25T08:51:15Z",
+          "vessel_name": "CAPE DAO",
+          "date_utc": "2026-09-23",
+          "vessel_type": "Bulk carrier",
+          "region": "Strait of Hormuz",
+          "imo": "9219020",
+          "location_text": "15NM northeast of Khasab, Oman",
+          "attack_type": "unknown projectile",
+          "summary": "CAPE DAO, an Antigua and Barbuda-flagged bulk carrier, was struck by an unknown projectile north-east of Khasab, Oman, on 23 September 2026. The impact hit the bridge and accommodation area, started a fire and left the ship adrift. One seafarer, Suraj Yadav, a 26-year-old Indian wiper from Deoria in Uttar Pradesh, was killed; India's Ministry of External Affairs gave his name and the ports and shipping minister said he died of head injuries. Twenty-seven other crew were evacuated by the Royal Navy of Oman, 20 of the crew being Indian and 19 of those rescued. The IMO register records the ship as partially sunk, and on 14 October Vanguard, quoted by Reuters and the BBC, reported it had sunk.",
+          "date_note": "India's Ministry of External Affairs and UKMTO warning 142-26 both place the strike on 23 September 2026, UKMTO receiving the report at about 0630 UTC that day.",
+          "sources": [
+            {
+              "url": "https://www.worldports.org/indian-seafarer-killed-as-bulker-cape-dao-is-hit-in-strait-of-hormuz",
+              "source": "World Ports Organization, citing India's Ministry of External Affairs, 24 September 2026"
+            },
+            {
+              "url": "https://www.bbc.com/news/articles/crkg7q97z078o",
+              "source": "BBC News, 14 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9219020-2026-09-23",
+              "source": "IMO confirmed incidents list"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 1,
+          "sources": [
+            {
+              "url": "https://www.worldports.org/indian-seafarer-killed-as-bulker-cape-dao-is-hit-in-strait-of-hormuz",
+              "source": "World Ports Organization, citing India's Ministry of External Affairs, 24 September 2026"
+            },
+            {
+              "url": "https://www.bbc.com/news/articles/crkg7q97z078o",
+              "source": "BBC News, 14 October 2026"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Indian",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "url": "https://www.worldports.org/indian-seafarer-killed-as-bulker-cape-dao-is-hit-in-strait-of-hormuz",
+                  "source": "World Ports Organization, citing India's Ministry of External Affairs, 24 September 2026"
+                }
+              ]
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-10-25T08:51:15Z",
+          "text": "The record carried a death count with no structured basis. It is now confirmed as one death, Indian national, from India's Ministry of External Affairs identification of Suraj Yadav and the ports and shipping minister's statement that he died of head injuries. Twenty-seven crew were evacuated, not 27 casualties. The IMO register records the ship as partially sunk; the BBC and Reuters reported on 14 October that Vanguard assessed it had sunk after an unsuccessful salvage attempt. No other death is recorded on this vessel.",
+          "sources": [
+            {
+              "url": "https://www.worldports.org/indian-seafarer-killed-as-bulker-cape-dao-is-hit-in-strait-of-hormuz",
+              "source": "World Ports Organization, citing India's Ministry of External Affairs, 24 September 2026"
+            },
+            {
+              "url": "https://www.bbc.com/news/articles/crkg7q97z078o",
+              "source": "BBC News, 14 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9219020-2026-09-23",
               "source": "IMO confirmed incidents list"
             }
           ]
