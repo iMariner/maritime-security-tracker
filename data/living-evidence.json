@@ -4296,7 +4296,7 @@
     "HIST-ME-20260306-MUSSAFAH-2": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-24T20:30:00Z",
+        "checked_at": "2026-10-25T21:10:00Z",
         "vessel_name": "MUSSAFAH 2",
         "imo": "9522051",
         "date_utc": "2026-03-06",
@@ -4304,31 +4304,66 @@
         "region": "Strait of Hormuz",
         "location_text": "6NM north of Oman",
         "attack_type": "projectile (unknown origin)",
-        "summary": "MUSSAFAH 2, a tug, was struck by projectiles on 6 March 2026 about six nautical miles north of Oman while supporting operations with the container ship SAFEEN PRESTIGE, which had been abandoned after being hit two days earlier. UKMTO warning 015-26 records the attack as serious and the vessel as struck by projectiles while supporting operations with SAFEEN PRESTIGE. The IMO confirmed incident register records four seafarer fatalities and three severely injured. The tug caught fire and sank. Agence France-Presse, quoting Indonesia's foreign ministry on 8 March 2026, said the tug had seven crew from Indonesia, India and the Philippines, that four survived and that three Indonesians were missing.",
-        "date_note": "UKMTO 015-26, the IMO register and the owner-linked reporting all give the attack as 6 March 2026. Initial reports spoke of eight crew aboard while Indonesia's foreign ministry gave seven, so the crew total is recorded as reported rather than reconciled.",
+        "summary": "MUSSAFAH 2, an Emirati flagged salvage tug operated by Abu Dhabi Ports, was hit by two missiles at about 02:00 local time on 6 March 2026 while preparing to tow the abandoned container ship SAFEEN PRESTIGE, which had been struck two days earlier. UKMTO reported an incident six nautical miles north of Oman in which a tug was hit by unknown projectiles, and the IMO confirmed incident register records four seafarer fatalities and three severely injured on this ship that day. The tug caught fire and sank. Indonesia's foreign ministry said the tug had seven crew from Indonesia, India and the Philippines, that four survived and that three Indonesians were missing. The Migrant Workers Office of the Philippine Embassy in Abu Dhabi said the second missile hit the bridge, where four crew including the only Filipino on board were standing, and that all four were missing and presumed dead.",
+        "date_note": "UKMTO 015-26, the IMO register and the owner linked reporting all give the attack as 6 March 2026. Initial reports spoke of eight crew aboard while Indonesia's foreign ministry gave seven, and about thirteen people were on the tug and the container ship together, so the crew total is recorded as reported rather than reconciled. The Indonesian ministry's toll of four survivors and three missing sits beside the IMO toll of four dead and three severely injured; the two are kept side by side and not merged.",
         "sources": [
           {
-            "url": "https://www.ukmto.org/-/media/ukmto/products/update-081-jmic-advisory-note-06-august.pdf?rev=917f52ea836e41b0803b94e38df8480d",
-            "source": "Joint Maritime Information Center advisory update 081, carrying UKMTO warning 015-26, 6 August 2026"
-          },
-          {
             "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 24 October 2026"
+            "source": "IMO confirmed incident register: MUSSAFAH 2 IMO 9522051, 6NM north of Oman, 6 March 2026, four seafarer fatalities, three severely injured, checked 25 October 2026"
           },
           {
             "url": "https://globalnation.inquirer.net/313069/3-indonesian-crew-missing-after-uae-tugboat-sinks-in-strait-of-hormuz",
-            "source": "Agence France-Presse, 8 March 2026"
+            "source": "Agence France-Presse, 8 March 2026, quoting Indonesia's foreign ministry: seven crew from Indonesia, India and the Philippines, four survived, three Indonesians missing"
+          },
+          {
+            "url": "https://businessmirror.com.ph/2026/03/10/pinoy-seafarer-missing-after-iranian-missile-strike-in-strait-of-hormuz-2/",
+            "source": "BusinessMirror, 10 March 2026, reporting the Migrant Workers Office of the Philippine Embassy in Abu Dhabi: the second missile hit the bridge, four crew there including the only Filipino on board were missing and presumed dead"
+          },
+          {
+            "url": "https://airwars.org/incidents/memar260306a-march-6-2026",
+            "source": "Airwars incident MEMAR260306a, last updated 22 October 2026: independent tally of four missing and presumed dead, three Indonesian and one Filipino"
           }
         ]
       },
       "casualties": {
         "status": "confirmed",
         "deaths": 4,
-        "nationalities": [],
+        "nationalities": [
+          {
+            "nationality": "Indonesian",
+            "status": "confirmed",
+            "deaths": 3,
+            "sources": [
+              {
+                "url": "https://globalnation.inquirer.net/313069/3-indonesian-crew-missing-after-uae-tugboat-sinks-in-strait-of-hormuz",
+                "source": "Agence France-Presse, 8 March 2026, quoting Indonesia's foreign ministry: three crew members, all Indonesians, missing"
+              },
+              {
+                "url": "https://businessmirror.com.ph/2026/03/10/pinoy-seafarer-missing-after-iranian-missile-strike-in-strait-of-hormuz-2/",
+                "source": "BusinessMirror, 10 March 2026: three Indonesian crew members, including the captain, unaccounted for"
+              }
+            ]
+          },
+          {
+            "nationality": "Filipino",
+            "status": "confirmed",
+            "deaths": 1,
+            "sources": [
+              {
+                "url": "https://businessmirror.com.ph/2026/03/10/pinoy-seafarer-missing-after-iranian-missile-strike-in-strait-of-hormuz-2/",
+                "source": "BusinessMirror, 10 March 2026, reporting the Migrant Workers Office of the Philippine Embassy in Abu Dhabi: the only Filipino on board was at the bridge and is missing and presumed dead"
+              },
+              {
+                "url": "https://airwars.org/incidents/memar260306a-march-6-2026",
+                "source": "Airwars incident MEMAR260306a: four missing, three Indonesian and one Filipino, recorded as fatalities"
+              }
+            ]
+          }
+        ],
         "sources": [
           {
             "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 21 October 2026"
+            "source": "IMO confirmed incident register, checked 25 October 2026: four seafarer fatalities"
           }
         ]
       },
@@ -4363,6 +4398,24 @@
             {
               "url": "https://globalnation.inquirer.net/313069/3-indonesian-crew-missing-after-uae-tugboat-sinks-in-strait-of-hormuz",
               "source": "Agence France-Presse, 8 March 2026"
+            }
+          ]
+        },
+        {
+          "at": "2026-10-25T21:10:00Z",
+          "text": "Crew nationalities added to a record that carried four deaths with no nationality detail. The IMO register confirms four seafarer fatalities and three severely injured on this tug. Indonesia's foreign ministry named three Indonesian crew members, including the captain, as missing, and the Philippine Embassy's Migrant Workers Office in Abu Dhabi reported that the second missile struck the bridge where four crew including the only Filipino on board were standing and that all four were missing and presumed dead. On that basis the four deaths are recorded as three Indonesian and one Filipino: the four men reported missing are the four fatalities in the IMO total. The two authorities disagree on the structure of the toll, the ministry giving four survivors and three missing while the IMO gives four dead and three severely injured, and that conflict is left visible rather than averaged. No nationality is inferred from the tug's Emirati flag or from any crew list. No image is added.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 25 October 2026"
+            },
+            {
+              "url": "https://globalnation.inquirer.net/313069/3-indonesian-crew-missing-after-uae-tugboat-sinks-in-strait-of-hormuz",
+              "source": "Agence France-Presse quoting Indonesia's foreign ministry, 8 March 2026"
+            },
+            {
+              "url": "https://businessmirror.com.ph/2026/03/10/pinoy-seafarer-missing-after-iranian-missile-strike-in-strait-of-hormuz-2/",
+              "source": "BusinessMirror reporting the Philippine Migrant Workers Office, 10 March 2026"
             }
           ]
         }
@@ -14263,6 +14316,182 @@
             {
               "url": "https://www.vesselfinder.com/vessels/details/9139270",
               "source": "VesselFinder vessel record for IMO 9139270"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6403258266,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6403258266",
+      "author": "iMariner",
+      "received_at": "2026-10-25T21:04:48Z",
+      "incident_id": "HIST-ME-20260306-MUSSAFAH-2",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-24T20:30:00Z",
+          "vessel_name": "MUSSAFAH 2",
+          "imo": "9522051",
+          "date_utc": "2026-03-06",
+          "vessel_type": "Tug",
+          "region": "Strait of Hormuz",
+          "location_text": "6NM north of Oman",
+          "attack_type": "projectile (unknown origin)",
+          "summary": "MUSSAFAH 2, a tug, was struck by projectiles on 6 March 2026 about six nautical miles north of Oman while supporting operations with the container ship SAFEEN PRESTIGE, which had been abandoned after being hit two days earlier. UKMTO warning 015-26 records the attack as serious and the vessel as struck by projectiles while supporting operations with SAFEEN PRESTIGE. The IMO confirmed incident register records four seafarer fatalities and three severely injured. The tug caught fire and sank. Agence France-Presse, quoting Indonesia's foreign ministry on 8 March 2026, said the tug had seven crew from Indonesia, India and the Philippines, that four survived and that three Indonesians were missing.",
+          "date_note": "UKMTO 015-26, the IMO register and the owner-linked reporting all give the attack as 6 March 2026. Initial reports spoke of eight crew aboard while Indonesia's foreign ministry gave seven, so the crew total is recorded as reported rather than reconciled.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-081-jmic-advisory-note-06-august.pdf?rev=917f52ea836e41b0803b94e38df8480d",
+              "source": "Joint Maritime Information Center advisory update 081, carrying UKMTO warning 015-26, 6 August 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 24 October 2026"
+            },
+            {
+              "url": "https://globalnation.inquirer.net/313069/3-indonesian-crew-missing-after-uae-tugboat-sinks-in-strait-of-hormuz",
+              "source": "Agence France-Presse, 8 March 2026"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 4,
+          "nationalities": [],
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            }
+          ]
+        },
+        "audit_notes": [
+          "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+        ],
+        "human_impact": {
+          "injured": {
+            "count": 3,
+            "as_of": "2026-03-06",
+            "sources": [
+              {
+                "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+                "source": "IMO confirmed incident register, checked 24 October 2026"
+              }
+            ]
+          }
+        },
+        "updates": [
+          {
+            "at": "2026-10-24T20:30:00Z",
+            "text": "Authority sourced narrative added to a record that rested on the IMO register row alone. UKMTO warning 015-26, carried in Joint Maritime Information Center advisory update 081, names MUSSAFAH 2 as a tug struck by projectiles on 6 March 2026 while supporting operations with the container ship SAFEEN PRESTIGE. The register keeps four seafarer fatalities and three severely injured, and the injured snapshot is now dated to the attack rather than to the register check. The sinking and the crew breakdown are taken from Agence France-Presse quoting Indonesia's foreign ministry, which reported seven crew from Indonesia, India and the Philippines and three Indonesians missing. No nationality is recorded for the four deaths because no source assigns one, and the missing three are not counted as dead.",
+            "sources": [
+              {
+                "url": "https://www.ukmto.org/-/media/ukmto/products/update-081-jmic-advisory-note-06-august.pdf?rev=917f52ea836e41b0803b94e38df8480d",
+                "source": "Joint Maritime Information Center advisory update 081, carrying UKMTO warning 015-26, 6 August 2026"
+              },
+              {
+                "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+                "source": "IMO confirmed incident register, checked 24 October 2026"
+              },
+              {
+                "url": "https://globalnation.inquirer.net/313069/3-indonesian-crew-missing-after-uae-tugboat-sinks-in-strait-of-hormuz",
+                "source": "Agence France-Presse, 8 March 2026"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "HIST-ME-20260306-MUSSAFAH-2",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-25T21:10:00Z",
+          "vessel_name": "MUSSAFAH 2",
+          "imo": "9522051",
+          "date_utc": "2026-03-06",
+          "vessel_type": "Tug",
+          "region": "Strait of Hormuz",
+          "location_text": "6NM north of Oman",
+          "attack_type": "projectile (unknown origin)",
+          "summary": "MUSSAFAH 2, an Emirati flagged salvage tug operated by Abu Dhabi Ports, was hit by two missiles at about 02:00 local time on 6 March 2026 while preparing to tow the abandoned container ship SAFEEN PRESTIGE, which had been struck two days earlier. UKMTO reported an incident six nautical miles north of Oman in which a tug was hit by unknown projectiles, and the IMO confirmed incident register records four seafarer fatalities and three severely injured on this ship that day. The tug caught fire and sank. Indonesia's foreign ministry said the tug had seven crew from Indonesia, India and the Philippines, that four survived and that three Indonesians were missing. The Migrant Workers Office of the Philippine Embassy in Abu Dhabi said the second missile hit the bridge, where four crew including the only Filipino on board were standing, and that all four were missing and presumed dead.",
+          "date_note": "UKMTO 015-26, the IMO register and the owner linked reporting all give the attack as 6 March 2026. Initial reports spoke of eight crew aboard while Indonesia's foreign ministry gave seven, and about thirteen people were on the tug and the container ship together, so the crew total is recorded as reported rather than reconciled. The Indonesian ministry's toll of four survivors and three missing sits beside the IMO toll of four dead and three severely injured; the two are kept side by side and not merged.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register: MUSSAFAH 2 IMO 9522051, 6NM north of Oman, 6 March 2026, four seafarer fatalities, three severely injured, checked 25 October 2026"
+            },
+            {
+              "url": "https://globalnation.inquirer.net/313069/3-indonesian-crew-missing-after-uae-tugboat-sinks-in-strait-of-hormuz",
+              "source": "Agence France-Presse, 8 March 2026, quoting Indonesia's foreign ministry: seven crew from Indonesia, India and the Philippines, four survived, three Indonesians missing"
+            },
+            {
+              "url": "https://businessmirror.com.ph/2026/03/10/pinoy-seafarer-missing-after-iranian-missile-strike-in-strait-of-hormuz-2/",
+              "source": "BusinessMirror, 10 March 2026, reporting the Migrant Workers Office of the Philippine Embassy in Abu Dhabi: the second missile hit the bridge, four crew there including the only Filipino on board were missing and presumed dead"
+            },
+            {
+              "url": "https://airwars.org/incidents/memar260306a-march-6-2026",
+              "source": "Airwars incident MEMAR260306a, last updated 22 October 2026: independent tally of four missing and presumed dead, three Indonesian and one Filipino"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 4,
+          "nationalities": [
+            {
+              "nationality": "Indonesian",
+              "status": "confirmed",
+              "deaths": 3,
+              "sources": [
+                {
+                  "url": "https://globalnation.inquirer.net/313069/3-indonesian-crew-missing-after-uae-tugboat-sinks-in-strait-of-hormuz",
+                  "source": "Agence France-Presse, 8 March 2026, quoting Indonesia's foreign ministry: three crew members, all Indonesians, missing"
+                },
+                {
+                  "url": "https://businessmirror.com.ph/2026/03/10/pinoy-seafarer-missing-after-iranian-missile-strike-in-strait-of-hormuz-2/",
+                  "source": "BusinessMirror, 10 March 2026: three Indonesian crew members, including the captain, unaccounted for"
+                }
+              ]
+            },
+            {
+              "nationality": "Filipino",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "url": "https://businessmirror.com.ph/2026/03/10/pinoy-seafarer-missing-after-iranian-missile-strike-in-strait-of-hormuz-2/",
+                  "source": "BusinessMirror, 10 March 2026, reporting the Migrant Workers Office of the Philippine Embassy in Abu Dhabi: the only Filipino on board was at the bridge and is missing and presumed dead"
+                },
+                {
+                  "url": "https://airwars.org/incidents/memar260306a-march-6-2026",
+                  "source": "Airwars incident MEMAR260306a: four missing, three Indonesian and one Filipino, recorded as fatalities"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 25 October 2026: four seafarer fatalities"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-10-25T21:10:00Z",
+          "text": "Crew nationalities added to a record that carried four deaths with no nationality detail. The IMO register confirms four seafarer fatalities and three severely injured on this tug. Indonesia's foreign ministry named three Indonesian crew members, including the captain, as missing, and the Philippine Embassy's Migrant Workers Office in Abu Dhabi reported that the second missile struck the bridge where four crew including the only Filipino on board were standing and that all four were missing and presumed dead. On that basis the four deaths are recorded as three Indonesian and one Filipino: the four men reported missing are the four fatalities in the IMO total. The two authorities disagree on the structure of the toll, the ministry giving four survivors and three missing while the IMO gives four dead and three severely injured, and that conflict is left visible rather than averaged. No nationality is inferred from the tug's Emirati flag or from any crew list. No image is added.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 25 October 2026"
+            },
+            {
+              "url": "https://globalnation.inquirer.net/313069/3-indonesian-crew-missing-after-uae-tugboat-sinks-in-strait-of-hormuz",
+              "source": "Agence France-Presse quoting Indonesia's foreign ministry, 8 March 2026"
+            },
+            {
+              "url": "https://businessmirror.com.ph/2026/03/10/pinoy-seafarer-missing-after-iranian-missile-strike-in-strait-of-hormuz-2/",
+              "source": "BusinessMirror reporting the Philippine Migrant Workers Office, 10 March 2026"
             }
           ]
         }
