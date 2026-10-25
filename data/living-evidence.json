@@ -4071,33 +4071,48 @@
     "HIST-ME-20260311-MAYUREE-NAREE": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T03:06:19.845439+00:00",
+        "checked_at": "2026-10-25T02:47:00Z",
         "vessel_name": "MAYUREE NAREE",
+        "imo": "9323649",
         "date_utc": "2026-03-11",
         "vessel_type": "bulk carrier",
         "region": "Strait of Hormuz",
-        "location_text": "11NM north of Oman",
-        "summary": "IMO records MAYUREE NAREE in its confirmed incident register for 2026-03-11 near 11NM north of Oman. a fire was reported. IMO confirms 3 seafarer death(s).",
+        "location_text": "About 11 nautical miles north of Oman",
+        "summary": "MAYUREE NAREE, a Thai-flagged bulk carrier owned by Precious Shipping, was struck by two projectiles of unknown origin about 11 nautical miles north of Oman on 11 March 2026 while in ballast from Khalifa Port towards India. The projectiles hit above the waterline, set the engine room on fire and left it flooded. Twenty of the 23 Thai crew were taken off with help from the Omani navy and flew home on 16 March, and three were trapped in the engine room. A search team hired by Precious Shipping found human remains in the damaged area, as Thailand's Ministry of Foreign Affairs reported on 3 April 2026, and Foreign Minister Sihasak Phuangketkeow confirmed on 8 April that all three had died. Their remains were repatriated to Thailand in early July.",
+        "date_note": "The strike was reported on 11 March in Gulf local time, which is UTC+4, so the UTC date is also 11 March; no exact event time was published.",
         "sources": [
           {
-            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 21 October 2026"
+            "url": "https://www.mfa.go.th/en/content/thai-crew-members-case-030426",
+            "source": "Thailand Ministry of Foreign Affairs, 3 April 2026"
           },
           {
-            "source": "Precious Shipping vessel questionnaire",
-            "url": "https://www.preciousshipping.com/wp-content/uploads/BQ/Mayuree_BQ.pdf"
+            "url": "https://www.channelnewsasia.com/asia/thai-ship-attacked-three-deaths-strait-hormuz-6043981",
+            "source": "CNA reporting the Thai foreign minister's press conference, 8 April 2026"
           },
           {
-            "source": "AFP report of Thai foreign minister, 9 April 2026",
-            "url": "https://www.gulf-times.com/pdf/2026/04/09/main-20260409-2.pdf?ts=010334"
+            "url": "https://www.bangkokpost.com/thailand/general/3233309/three-thai-crew-confirmed-dead",
+            "source": "Bangkok Post, 8 April 2026"
+          },
+          {
+            "url": "https://www.preciousshipping.com/wp-content/uploads/BQ/Mayuree_BQ.pdf",
+            "source": "Precious Shipping vessel questionnaire"
           }
-        ],
-        "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
-        "imo": "9323649"
+        ]
       },
       "casualties": {
         "status": "confirmed",
         "deaths": 3,
+        "minimum": false,
+        "sources": [
+          {
+            "url": "https://www.channelnewsasia.com/asia/thai-ship-attacked-three-deaths-strait-hormuz-6043981",
+            "source": "CNA, Thai foreign minister's confirmation, 8 April 2026"
+          },
+          {
+            "url": "https://www.bangkokpost.com/thailand/general/3233309/three-thai-crew-confirmed-dead",
+            "source": "Bangkok Post, 8 April 2026"
+          }
+        ],
         "nationalities": [
           {
             "nationality": "Thai",
@@ -4105,25 +4120,39 @@
             "deaths": 3,
             "sources": [
               {
-                "source": "AFP report of Thai foreign minister, 9 April 2026",
-                "url": "https://www.gulf-times.com/pdf/2026/04/09/main-20260409-2.pdf?ts=010334"
+                "url": "https://www.bangkokpost.com/thailand/general/3233309/three-thai-crew-confirmed-dead",
+                "source": "Bangkok Post, 8 April 2026"
+              },
+              {
+                "url": "https://thepattayanews.com/2026/04/08/thai-foreign-ministry-confirms-deaths-of-three-crew-members-from-mayuree-naree-ship-following-iranian-attack-in-strait-of-hormuz-in-march",
+                "source": "The Pattaya News, reporting the Thai foreign ministry briefing, 8 April 2026"
               }
             ]
-          }
-        ],
-        "sources": [
-          {
-            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 21 October 2026"
-          },
-          {
-            "source": "AFP report of Thai foreign minister, 9 April 2026",
-            "url": "https://www.gulf-times.com/pdf/2026/04/09/main-20260409-2.pdf?ts=010334"
           }
         ]
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+      ],
+      "updates": [
+        {
+          "at": "2026-10-25T02:47:00Z",
+          "text": "The summary now records the owner's and Thailand's account rather than the IMO register alone. The three crew trapped in the flooded engine room were confirmed dead by the Thai foreign minister on 8 April 2026 after the owner's search team found remains aboard, so they are no longer a missing-person presumption. The death count stays at three and all three are Thai on the ministry's and owner's statements that the 23 crew were Thai. No injured snapshot is added because no source gives a vessel-specific injury count.",
+          "sources": [
+            {
+              "url": "https://www.mfa.go.th/en/content/thai-crew-members-case-030426",
+              "source": "Thailand Ministry of Foreign Affairs, 3 April 2026"
+            },
+            {
+              "url": "https://www.channelnewsasia.com/asia/thai-ship-attacked-three-deaths-strait-hormuz-6043981",
+              "source": "CNA, 8 April 2026"
+            },
+            {
+              "url": "https://www.bangkokpost.com/thailand/general/3233309/three-thai-crew-confirmed-dead",
+              "source": "Bangkok Post, 8 April 2026"
+            }
+          ]
+        }
       ]
     },
     "HIST-ME-20260311-ONE-MAJESTY": {
@@ -13045,6 +13074,154 @@
             {
               "url": "https://www.philstar.com/headlines/2026/09/03/2553745/two-filipino-seafarers-killed-saudi-tanker-attacked-hormuz/amp/",
               "source": "Philstar, 3 September 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6392560116,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6392560116",
+      "author": "iMariner",
+      "received_at": "2026-10-25T02:40:13Z",
+      "incident_id": "HIST-ME-20260311-MAYUREE-NAREE",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T03:06:19.845439+00:00",
+          "vessel_name": "MAYUREE NAREE",
+          "date_utc": "2026-03-11",
+          "vessel_type": "bulk carrier",
+          "region": "Strait of Hormuz",
+          "location_text": "11NM north of Oman",
+          "summary": "IMO records MAYUREE NAREE in its confirmed incident register for 2026-03-11 near 11NM north of Oman. a fire was reported. IMO confirms 3 seafarer death(s).",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            },
+            {
+              "source": "Precious Shipping vessel questionnaire",
+              "url": "https://www.preciousshipping.com/wp-content/uploads/BQ/Mayuree_BQ.pdf"
+            },
+            {
+              "source": "AFP report of Thai foreign minister, 9 April 2026",
+              "url": "https://www.gulf-times.com/pdf/2026/04/09/main-20260409-2.pdf?ts=010334"
+            }
+          ],
+          "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
+          "imo": "9323649"
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 3,
+          "nationalities": [
+            {
+              "nationality": "Thai",
+              "status": "confirmed",
+              "deaths": 3,
+              "sources": [
+                {
+                  "source": "AFP report of Thai foreign minister, 9 April 2026",
+                  "url": "https://www.gulf-times.com/pdf/2026/04/09/main-20260409-2.pdf?ts=010334"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            },
+            {
+              "source": "AFP report of Thai foreign minister, 9 April 2026",
+              "url": "https://www.gulf-times.com/pdf/2026/04/09/main-20260409-2.pdf?ts=010334"
+            }
+          ]
+        },
+        "audit_notes": [
+          "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+        ]
+      },
+      "change": {
+        "incident_id": "HIST-ME-20260311-MAYUREE-NAREE",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-25T02:47:00Z",
+          "vessel_name": "MAYUREE NAREE",
+          "imo": "9323649",
+          "date_utc": "2026-03-11",
+          "vessel_type": "bulk carrier",
+          "region": "Strait of Hormuz",
+          "location_text": "About 11 nautical miles north of Oman",
+          "summary": "MAYUREE NAREE, a Thai-flagged bulk carrier owned by Precious Shipping, was struck by two projectiles of unknown origin about 11 nautical miles north of Oman on 11 March 2026 while in ballast from Khalifa Port towards India. The projectiles hit above the waterline, set the engine room on fire and left it flooded. Twenty of the 23 Thai crew were taken off with help from the Omani navy and flew home on 16 March, and three were trapped in the engine room. A search team hired by Precious Shipping found human remains in the damaged area, as Thailand's Ministry of Foreign Affairs reported on 3 April 2026, and Foreign Minister Sihasak Phuangketkeow confirmed on 8 April that all three had died. Their remains were repatriated to Thailand in early July.",
+          "date_note": "The strike was reported on 11 March in Gulf local time, which is UTC+4, so the UTC date is also 11 March; no exact event time was published.",
+          "sources": [
+            {
+              "url": "https://www.mfa.go.th/en/content/thai-crew-members-case-030426",
+              "source": "Thailand Ministry of Foreign Affairs, 3 April 2026"
+            },
+            {
+              "url": "https://www.channelnewsasia.com/asia/thai-ship-attacked-three-deaths-strait-hormuz-6043981",
+              "source": "CNA reporting the Thai foreign minister's press conference, 8 April 2026"
+            },
+            {
+              "url": "https://www.bangkokpost.com/thailand/general/3233309/three-thai-crew-confirmed-dead",
+              "source": "Bangkok Post, 8 April 2026"
+            },
+            {
+              "url": "https://www.preciousshipping.com/wp-content/uploads/BQ/Mayuree_BQ.pdf",
+              "source": "Precious Shipping vessel questionnaire"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 3,
+          "minimum": false,
+          "sources": [
+            {
+              "url": "https://www.channelnewsasia.com/asia/thai-ship-attacked-three-deaths-strait-hormuz-6043981",
+              "source": "CNA, Thai foreign minister's confirmation, 8 April 2026"
+            },
+            {
+              "url": "https://www.bangkokpost.com/thailand/general/3233309/three-thai-crew-confirmed-dead",
+              "source": "Bangkok Post, 8 April 2026"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Thai",
+              "status": "confirmed",
+              "deaths": 3,
+              "sources": [
+                {
+                  "url": "https://www.bangkokpost.com/thailand/general/3233309/three-thai-crew-confirmed-dead",
+                  "source": "Bangkok Post, 8 April 2026"
+                },
+                {
+                  "url": "https://thepattayanews.com/2026/04/08/thai-foreign-ministry-confirms-deaths-of-three-crew-members-from-mayuree-naree-ship-following-iranian-attack-in-strait-of-hormuz-in-march",
+                  "source": "The Pattaya News, reporting the Thai foreign ministry briefing, 8 April 2026"
+                }
+              ]
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-10-25T02:47:00Z",
+          "text": "The summary now records the owner's and Thailand's account rather than the IMO register alone. The three crew trapped in the flooded engine room were confirmed dead by the Thai foreign minister on 8 April 2026 after the owner's search team found remains aboard, so they are no longer a missing-person presumption. The death count stays at three and all three are Thai on the ministry's and owner's statements that the 23 crew were Thai. No injured snapshot is added because no source gives a vessel-specific injury count.",
+          "sources": [
+            {
+              "url": "https://www.mfa.go.th/en/content/thai-crew-members-case-030426",
+              "source": "Thailand Ministry of Foreign Affairs, 3 April 2026"
+            },
+            {
+              "url": "https://www.channelnewsasia.com/asia/thai-ship-attacked-three-deaths-strait-hormuz-6043981",
+              "source": "CNA, 8 April 2026"
+            },
+            {
+              "url": "https://www.bangkokpost.com/thailand/general/3233309/three-thai-crew-confirmed-dead",
+              "source": "Bangkok Post, 8 April 2026"
             }
           ]
         }
