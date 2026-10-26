@@ -9465,58 +9465,60 @@
     },
     "INC-20261006-006": {
       "casualties": {
-        "status": "unknown",
-        "deaths": null,
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://www.amp.gob.pa/noticias/notas-de-prensa/amp-informa-sobre-el-incidente-sufrido-por-la-nave-on-peace/",
+            "source": "Panama Maritime Authority, 8 October 2026: the whole crew on board was accounted for"
+          },
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO confirmed incident register, checked 26 October 2026: twelve seafarers injured and no fatality recorded for ON PEACE on 5 October"
+          }
+        ],
         "nationalities": []
       },
       "human_impact": {
         "injured": {
           "count": 12,
-          "as_of": "2026-10-06",
+          "as_of": "2026-10-05",
           "sources": [
             {
-              "url": "https://www.marinelink.com/news/hormuz-oil-tanker-strike-injures-crew-543515",
-              "source": "Reuters, carried by MarineLink"
+              "url": "https://www.amp.gob.pa/noticias/notas-de-prensa/amp-informa-sobre-el-incidente-sufrido-por-la-nave-on-peace/",
+              "source": "Panama Maritime Authority, 8 October 2026: 12 seafarers injured, 10 of them evacuated ashore"
             },
             {
-              "url": "https://ukmto.org/-/media/ukmto/products/update-103-jmic-advisory-note-08-october.pdf",
-              "source": "UKMTO and JMIC advisory update 103, 8 October 2026"
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 26 October 2026: twelve seafarers injured"
             }
           ]
         }
       },
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-25T08:49:18Z",
+        "checked_at": "2026-10-26T03:50:00Z",
         "vessel_name": "ON PEACE",
-        "date_utc": "2026-10-05",
-        "vessel_type": "Crude oil tanker",
-        "region": "Strait of Hormuz",
         "imo": "9893204",
-        "location_text": "About 9NM off Limah, Musandam, Oman",
-        "attack_type": "unknown projectile",
-        "summary": "ON PEACE, a Panama-flagged Aframax crude oil tanker of 115,157 deadweight tonnes, was struck by an unknown projectile while transiting the Strait of Hormuz outbound. The strike set off a fire and the ship was abandoned. Twelve of the 19 crew, 17 of them Indian, were injured, 11 of the injured being Indian nationals. Oman's air force flew the injured to hospital in Khasab, Musandam. Owner ONEX DMCC and manager Anglo-Eastern Tanker Management Hong Kong did not answer Reuters requests for comment.",
-        "date_note": "UKMTO warning 157-26 and the IMO register date the strike 5 October 2026. Oman's defence ministry and India's Ministry of External Affairs, whose statement was issued on Tuesday 6 October, describe it as 6 October. The difference is most likely local time, Oman being UTC+4, and no time has been published, so the UKMTO date is kept.",
+        "date_utc": "2026-10-05",
+        "vessel_type": "Crude oil tanker (LR2)",
+        "region": "Strait of Hormuz",
+        "location_text": "9 nautical miles north-east of Limah, Musandam, Oman",
+        "attack_type": "projectile (unknown origin)",
+        "summary": "ON PEACE, a Panama flagged LR2 crude oil tanker of about 115,000 deadweight tonnes built in 2021, was struck by a projectile of unknown origin on 5 October 2026 while on passage from Sitrah in Bahrain to Fujairah in the United Arab Emirates. The Panama Maritime Authority, the flag state, said the ship reported the impact at 19:30 UTC, that no marine pollution or environmental damage was recorded, that the whole crew was accounted for, that 12 seafarers were injured and that 10 of them, who needed specialist care ashore, were evacuated and were being treated at a medical centre. The ship was towed to Shinas in Oman for a structural assessment. The IMO confirmed incident register lists ON PEACE at the Strait of Hormuz on 5 October, damaged with no pollution and twelve seafarers injured, and records no fatality on this ship. India Ministry of External Affairs said the tanker carried 19 crew, 17 of them Indian, that at least 12 were injured and that 11 of the injured were Indian nationals. Oman Ministry of Defence said its air force flew 10 of the injured to hospital in Khasab.",
+        "date_note": "The flag state gives 5 October 2026 at 19:30 UTC, which was 23:30 local time the same day, and UKMTO notice 156-26 and the IMO register both date the attack 5 October. Al Jazeera, quoting Oman Ministry of Defence, describes the strike as happening on the Tuesday, which would read as 6 October, so the day is kept at 5 October, where the flag state, UKMTO and the IMO register agree, and the timezone wording is left as the source gave it.",
         "sources": [
           {
-            "url": "https://ukmto.org/-/media/ukmto/products/update-103-jmic-advisory-note-08-october.pdf",
-            "source": "UKMTO and JMIC advisory update 103, 8 October 2026"
+            "url": "https://www.amp.gob.pa/noticias/notas-de-prensa/amp-informa-sobre-el-incidente-sufrido-por-la-nave-on-peace/",
+            "source": "Panama Maritime Authority statement, 8 October 2026: IMO 9893204, impact at 19:30 UTC on 5 October, whole crew accounted for, 12 injured, 10 evacuated for specialist care, towed to Shinas"
           },
           {
-            "url": "https://www.marinelink.com/news/hormuz-oil-tanker-strike-injures-crew-543515",
-            "source": "Reuters, carried by MarineLink"
-          },
-          {
-            "url": "https://www.bairdmaritime.com/security/incidents/on-peace-tanker-attack-hormuz",
-            "source": "Baird Maritime, citing India's Ministry of External Affairs"
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO confirmed incident register, checked 26 October 2026: ON PEACE (IMO 9893204), Strait of Hormuz, 5 October, damaged, no pollution, twelve seafarers injured"
           },
           {
             "url": "https://www.aljazeera.com/news/2026/10/7/oman-evacuates-injured-crew-from-attacked-tanker-in-strait-of-hormuz",
-            "source": "Al Jazeera, citing Oman's Ministry of Defence"
-          },
-          {
-            "url": "https://www.vesselfinder.com/vessels/details/9893204",
-            "source": "Registry particulars (VesselFinder)"
+            "source": "Al Jazeera, 7 October 2026, quoting Oman Ministry of Defence and India Ministry of External Affairs: 19 crew, 17 Indian, 12 injured, 11 of the injured Indian, 10 taken to Khasab hospital"
           }
         ]
       },
@@ -9536,6 +9538,20 @@
             {
               "url": "https://ukmto.org/-/media/ukmto/products/update-103-jmic-advisory-note-08-october.pdf",
               "source": "UKMTO and JMIC advisory update 103, 8 October 2026"
+            }
+          ]
+        },
+        {
+          "at": "2026-10-26T03:50:00Z",
+          "text": "The flag state and the IMO register together confirm that all 19 crew were accounted for and that twelve were injured, so the death count is now recorded as confirmed nil instead of unknown, with the injured snapshot kept at twelve. Eleven of the twelve injured were Indian nationals, per India Ministry of External Affairs. The same attack is also carried separately by HIST-ME-20261005-ON-PEACE, the same vessel, IMO number and date: the two entries describe one attack and must not be counted as two.",
+          "sources": [
+            {
+              "url": "https://www.amp.gob.pa/noticias/notas-de-prensa/amp-informa-sobre-el-incidente-sufrido-por-la-nave-on-peace/",
+              "source": "Panama Maritime Authority, 8 October 2026"
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/7/oman-evacuates-injured-crew-from-attacked-tanker-in-strait-of-hormuz",
+              "source": "Al Jazeera quoting India Ministry of External Affairs, 7 October 2026"
             }
           ]
         }
@@ -15013,6 +15029,166 @@
             {
               "url": "https://agerpres.ro/english/2026/10/23/major-rescue-operation-offshore-of-constanta-for-crew-of-vessel-at-risk-of-sinking-one-dead--1606115",
               "source": "Agerpres, quoting the Romanian Naval Authority, 23 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6407385459,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6407385459",
+      "author": "iMariner",
+      "received_at": "2026-10-26T03:13:15Z",
+      "incident_id": "INC-20261006-006",
+      "before": {
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "human_impact": {
+          "injured": {
+            "count": 12,
+            "as_of": "2026-10-06",
+            "sources": [
+              {
+                "url": "https://www.marinelink.com/news/hormuz-oil-tanker-strike-injures-crew-543515",
+                "source": "Reuters, carried by MarineLink"
+              },
+              {
+                "url": "https://ukmto.org/-/media/ukmto/products/update-103-jmic-advisory-note-08-october.pdf",
+                "source": "UKMTO and JMIC advisory update 103, 8 October 2026"
+              }
+            ]
+          }
+        },
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-25T08:49:18Z",
+          "vessel_name": "ON PEACE",
+          "date_utc": "2026-10-05",
+          "vessel_type": "Crude oil tanker",
+          "region": "Strait of Hormuz",
+          "imo": "9893204",
+          "location_text": "About 9NM off Limah, Musandam, Oman",
+          "attack_type": "unknown projectile",
+          "summary": "ON PEACE, a Panama-flagged Aframax crude oil tanker of 115,157 deadweight tonnes, was struck by an unknown projectile while transiting the Strait of Hormuz outbound. The strike set off a fire and the ship was abandoned. Twelve of the 19 crew, 17 of them Indian, were injured, 11 of the injured being Indian nationals. Oman's air force flew the injured to hospital in Khasab, Musandam. Owner ONEX DMCC and manager Anglo-Eastern Tanker Management Hong Kong did not answer Reuters requests for comment.",
+          "date_note": "UKMTO warning 157-26 and the IMO register date the strike 5 October 2026. Oman's defence ministry and India's Ministry of External Affairs, whose statement was issued on Tuesday 6 October, describe it as 6 October. The difference is most likely local time, Oman being UTC+4, and no time has been published, so the UKMTO date is kept.",
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/update-103-jmic-advisory-note-08-october.pdf",
+              "source": "UKMTO and JMIC advisory update 103, 8 October 2026"
+            },
+            {
+              "url": "https://www.marinelink.com/news/hormuz-oil-tanker-strike-injures-crew-543515",
+              "source": "Reuters, carried by MarineLink"
+            },
+            {
+              "url": "https://www.bairdmaritime.com/security/incidents/on-peace-tanker-attack-hormuz",
+              "source": "Baird Maritime, citing India's Ministry of External Affairs"
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/7/oman-evacuates-injured-crew-from-attacked-tanker-in-strait-of-hormuz",
+              "source": "Al Jazeera, citing Oman's Ministry of Defence"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9893204",
+              "source": "Registry particulars (VesselFinder)"
+            }
+          ]
+        },
+        "updates": [
+          {
+            "at": "2026-10-25T08:49:18Z",
+            "text": "This review adds the vessel identity and IMO the archive summary lacked, a dated structure for the injured count, and the date conflict. Twelve injuries are recorded as a snapshot dated 6 October 2026, 11 of the injured being Indian nationals on India's Ministry of External Affairs statement. No checked source reports a death, so the death count stays unknown rather than zero. The archive's 17 October record for the same vessel is already merged into this one and is not a second attack.",
+            "sources": [
+              {
+                "url": "https://www.marinelink.com/news/hormuz-oil-tanker-strike-injures-crew-543515",
+                "source": "Reuters, carried by MarineLink"
+              },
+              {
+                "url": "https://www.bairdmaritime.com/security/incidents/on-peace-tanker-attack-hormuz",
+                "source": "Baird Maritime, citing India's Ministry of External Affairs"
+              },
+              {
+                "url": "https://ukmto.org/-/media/ukmto/products/update-103-jmic-advisory-note-08-october.pdf",
+                "source": "UKMTO and JMIC advisory update 103, 8 October 2026"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "INC-20261006-006",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-26T03:50:00Z",
+          "vessel_name": "ON PEACE",
+          "imo": "9893204",
+          "date_utc": "2026-10-05",
+          "vessel_type": "Crude oil tanker (LR2)",
+          "region": "Strait of Hormuz",
+          "location_text": "9 nautical miles north-east of Limah, Musandam, Oman",
+          "attack_type": "projectile (unknown origin)",
+          "summary": "ON PEACE, a Panama flagged LR2 crude oil tanker of about 115,000 deadweight tonnes built in 2021, was struck by a projectile of unknown origin on 5 October 2026 while on passage from Sitrah in Bahrain to Fujairah in the United Arab Emirates. The Panama Maritime Authority, the flag state, said the ship reported the impact at 19:30 UTC, that no marine pollution or environmental damage was recorded, that the whole crew was accounted for, that 12 seafarers were injured and that 10 of them, who needed specialist care ashore, were evacuated and were being treated at a medical centre. The ship was towed to Shinas in Oman for a structural assessment. The IMO confirmed incident register lists ON PEACE at the Strait of Hormuz on 5 October, damaged with no pollution and twelve seafarers injured, and records no fatality on this ship. India Ministry of External Affairs said the tanker carried 19 crew, 17 of them Indian, that at least 12 were injured and that 11 of the injured were Indian nationals. Oman Ministry of Defence said its air force flew 10 of the injured to hospital in Khasab.",
+          "date_note": "The flag state gives 5 October 2026 at 19:30 UTC, which was 23:30 local time the same day, and UKMTO notice 156-26 and the IMO register both date the attack 5 October. Al Jazeera, quoting Oman Ministry of Defence, describes the strike as happening on the Tuesday, which would read as 6 October, so the day is kept at 5 October, where the flag state, UKMTO and the IMO register agree, and the timezone wording is left as the source gave it.",
+          "sources": [
+            {
+              "url": "https://www.amp.gob.pa/noticias/notas-de-prensa/amp-informa-sobre-el-incidente-sufrido-por-la-nave-on-peace/",
+              "source": "Panama Maritime Authority statement, 8 October 2026: IMO 9893204, impact at 19:30 UTC on 5 October, whole crew accounted for, 12 injured, 10 evacuated for specialist care, towed to Shinas"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 26 October 2026: ON PEACE (IMO 9893204), Strait of Hormuz, 5 October, damaged, no pollution, twelve seafarers injured"
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/7/oman-evacuates-injured-crew-from-attacked-tanker-in-strait-of-hormuz",
+              "source": "Al Jazeera, 7 October 2026, quoting Oman Ministry of Defence and India Ministry of External Affairs: 19 crew, 17 Indian, 12 injured, 11 of the injured Indian, 10 taken to Khasab hospital"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.amp.gob.pa/noticias/notas-de-prensa/amp-informa-sobre-el-incidente-sufrido-por-la-nave-on-peace/",
+              "source": "Panama Maritime Authority, 8 October 2026: the whole crew on board was accounted for"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 26 October 2026: twelve seafarers injured and no fatality recorded for ON PEACE on 5 October"
+            }
+          ],
+          "nationalities": []
+        },
+        "human_impact": {
+          "injured": {
+            "count": 12,
+            "as_of": "2026-10-05",
+            "sources": [
+              {
+                "url": "https://www.amp.gob.pa/noticias/notas-de-prensa/amp-informa-sobre-el-incidente-sufrido-por-la-nave-on-peace/",
+                "source": "Panama Maritime Authority, 8 October 2026: 12 seafarers injured, 10 of them evacuated ashore"
+              },
+              {
+                "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+                "source": "IMO confirmed incident register, checked 26 October 2026: twelve seafarers injured"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-10-26T03:50:00Z",
+          "text": "The flag state and the IMO register together confirm that all 19 crew were accounted for and that twelve were injured, so the death count is now recorded as confirmed nil instead of unknown, with the injured snapshot kept at twelve. Eleven of the twelve injured were Indian nationals, per India Ministry of External Affairs. The same attack is also carried separately by HIST-ME-20261005-ON-PEACE, the same vessel, IMO number and date: the two entries describe one attack and must not be counted as two.",
+          "sources": [
+            {
+              "url": "https://www.amp.gob.pa/noticias/notas-de-prensa/amp-informa-sobre-el-incidente-sufrido-por-la-nave-on-peace/",
+              "source": "Panama Maritime Authority, 8 October 2026"
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/7/oman-evacuates-injured-crew-from-attacked-tanker-in-strait-of-hormuz",
+              "source": "Al Jazeera quoting India Ministry of External Affairs, 7 October 2026"
             }
           ]
         }
