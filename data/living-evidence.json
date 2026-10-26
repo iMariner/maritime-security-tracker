@@ -10163,6 +10163,102 @@
           ]
         }
       ]
+    },
+    "HIST-BS-20261005-ROYAD-MAMMADOV": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 2,
+        "sources": [
+          {
+            "url": "https://reuters.com/world/two-dead-11-rescued-serious-maritime-incident-black-sea-romania-says-2026-10-05",
+            "source": "Reuters, 5 October 2026"
+          },
+          {
+            "url": "https://safety4sea.com/two-killed-after-drone-strike-sets-cargo-ship-ablaze-in-black-sea",
+            "source": "SAFETY4SEA, October 2026"
+          }
+        ],
+        "nationalities": [
+          {
+            "nationality": "Azerbaijani",
+            "status": "confirmed",
+            "deaths": 1,
+            "sources": [
+              {
+                "url": "https://en.apa.az/foreign-policy/azerbaijani-citizen-killed-another-missing-in-drone-attack-on-cargo-ship-in-black-sea-528328",
+                "source": "APA News reporting Azerbaijan's Ministry of Foreign Affairs, 6 October 2026"
+              }
+            ]
+          }
+        ]
+      },
+      "human_impact": {
+        "injured": {
+          "count": 3,
+          "as_of": "2026-10-05",
+          "sources": [
+            {
+              "url": "https://en.apa.az/foreign-policy/azerbaijani-citizen-killed-another-missing-in-drone-attack-on-cargo-ship-in-black-sea-528328",
+              "source": "APA News reporting Azerbaijan's Ministry of Foreign Affairs, 6 October 2026"
+            },
+            {
+              "url": "https://safety4sea.com/two-killed-after-drone-strike-sets-cargo-ship-ablaze-in-black-sea",
+              "source": "SAFETY4SEA, October 2026"
+            }
+          ]
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-26T15:35:24Z",
+        "vessel_name": "ROYAD MAMMADOV",
+        "imo": "9356969",
+        "date_utc": "2026-10-05",
+        "vessel_type": "General cargo ship",
+        "region": "Black Sea",
+        "location_text": "About 9 nautical miles south-east of the Pescăruș offshore platform, in Romania's exclusive economic zone and outside its territorial waters",
+        "attack_type": "Drone strike, two drones according to Ukraine's president; Romania did not attribute the cause",
+        "summary": "ROYAD MAMMADOV, a 140 metre Saint Kitts and Nevis flagged general cargo ship owned by Turkey's MG Shipping 5 and managed by Spring Marine, was carrying corn from Ukraine's Danube port of Izmail to Ravenna, Italy, when it was struck on the morning of 5 October 2026 outside Romania's territorial waters. A fire started, the ship took a list and sank by the stern. Thirteen crew, Azerbaijani and Indian nationals, were on board. Romanian rescue vessels and a helicopter recovered eleven survivors and two bodies, and three injured crew were airlifted to hospital in Constanța. The captain, Rustam Ismayil Hasanov, an Azerbaijani national, was killed. Ukraine's president said two Russian drones struck the ship in neutral waters; Romania's Naval Authority confirmed the fire and sinking without attributing it, and Russia's defence ministry said it had struck two cargo vessels without naming this ship.",
+        "date_note": "Distress alert received by Romania's maritime rescue coordination centre at 10:37 local time on 5 October 2026, and all sources read place the attack on 5 October. Romanian authorities describe the position as outside territorial waters, about 9 nautical miles from the Pescăruș platform and about 30 nautical miles south of Sfântu Gheorghe.",
+        "sources": [
+          {
+            "url": "https://reuters.com/world/two-dead-11-rescued-serious-maritime-incident-black-sea-romania-says-2026-10-05",
+            "source": "Reuters, 5 October 2026"
+          },
+          {
+            "url": "https://en.apa.az/foreign-policy/azerbaijani-citizen-killed-another-missing-in-drone-attack-on-cargo-ship-in-black-sea-528328",
+            "source": "APA News reporting Azerbaijan's Ministry of Foreign Affairs, 6 October 2026"
+          },
+          {
+            "url": "https://safety4sea.com/two-killed-after-drone-strike-sets-cargo-ship-ablaze-in-black-sea",
+            "source": "SAFETY4SEA, October 2026"
+          },
+          {
+            "url": "https://en.h.ua/2026/10/05/cargo-vessel-royad-mammadov-black-sea-fire",
+            "source": "h.ua news, 5 October 2026"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-26T15:35:24Z",
+          "text": "New reviewed record. Romania's interior ministry reported two dead and eleven rescued after ROYAD MAMMADOV caught fire and sank on 5 October 2026; the incident was absent from both stores. One of the two dead is identified by Azerbaijan's Ministry of Foreign Affairs as the captain, Rustam Ismayil Hasanov, an Azerbaijani national. The nationality of the second fatality is not established by the sources read, so only one nationality is recorded. Azerbaijan's ministry said on 6 October that a second Azerbaijani crew member was missing and that three injured Azerbaijani crew were hospitalised; Romania's interior ministry said two bodies were recovered and eleven were rescued, which accounts for the whole crew of thirteen, so no separate missing person is recorded and nobody reported missing is counted as dead. Ukraine attributes the strike to two Russian drones; Romania did not publicly attribute the cause. Casualty figures cover this vessel only and are not a theatre total.",
+          "sources": [
+            {
+              "url": "https://reuters.com/world/two-dead-11-rescued-serious-maritime-incident-black-sea-romania-says-2026-10-05",
+              "source": "Reuters, 5 October 2026"
+            },
+            {
+              "url": "https://en.apa.az/foreign-policy/azerbaijani-citizen-killed-another-missing-in-drone-attack-on-cargo-ship-in-black-sea-528328",
+              "source": "APA News reporting Azerbaijan's Ministry of Foreign Affairs, 6 October 2026"
+            },
+            {
+              "url": "https://safety4sea.com/two-killed-after-drone-strike-sets-cargo-ship-ablaze-in-black-sea",
+              "source": "SAFETY4SEA, October 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -16590,6 +16686,110 @@
             {
               "url": "https://www.thehindu.com/news/national/russia-ukraine-war-odessa-ship-attack-bodies-of-indian-seafarers-identified/article71248172.ece",
               "source": "The Hindu, 21 July 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6420113015,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6420113015",
+      "author": "iMariner",
+      "received_at": "2026-10-26T15:35:28Z",
+      "incident_id": "HIST-BS-20261005-ROYAD-MAMMADOV",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-BS-20261005-ROYAD-MAMMADOV",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-26T15:35:24Z",
+          "vessel_name": "ROYAD MAMMADOV",
+          "imo": "9356969",
+          "date_utc": "2026-10-05",
+          "vessel_type": "General cargo ship",
+          "region": "Black Sea",
+          "location_text": "About 9 nautical miles south-east of the Pescăruș offshore platform, in Romania's exclusive economic zone and outside its territorial waters",
+          "attack_type": "Drone strike, two drones according to Ukraine's president; Romania did not attribute the cause",
+          "summary": "ROYAD MAMMADOV, a 140 metre Saint Kitts and Nevis flagged general cargo ship owned by Turkey's MG Shipping 5 and managed by Spring Marine, was carrying corn from Ukraine's Danube port of Izmail to Ravenna, Italy, when it was struck on the morning of 5 October 2026 outside Romania's territorial waters. A fire started, the ship took a list and sank by the stern. Thirteen crew, Azerbaijani and Indian nationals, were on board. Romanian rescue vessels and a helicopter recovered eleven survivors and two bodies, and three injured crew were airlifted to hospital in Constanța. The captain, Rustam Ismayil Hasanov, an Azerbaijani national, was killed. Ukraine's president said two Russian drones struck the ship in neutral waters; Romania's Naval Authority confirmed the fire and sinking without attributing it, and Russia's defence ministry said it had struck two cargo vessels without naming this ship.",
+          "date_note": "Distress alert received by Romania's maritime rescue coordination centre at 10:37 local time on 5 October 2026, and all sources read place the attack on 5 October. Romanian authorities describe the position as outside territorial waters, about 9 nautical miles from the Pescăruș platform and about 30 nautical miles south of Sfântu Gheorghe.",
+          "sources": [
+            {
+              "url": "https://reuters.com/world/two-dead-11-rescued-serious-maritime-incident-black-sea-romania-says-2026-10-05",
+              "source": "Reuters, 5 October 2026"
+            },
+            {
+              "url": "https://en.apa.az/foreign-policy/azerbaijani-citizen-killed-another-missing-in-drone-attack-on-cargo-ship-in-black-sea-528328",
+              "source": "APA News reporting Azerbaijan's Ministry of Foreign Affairs, 6 October 2026"
+            },
+            {
+              "url": "https://safety4sea.com/two-killed-after-drone-strike-sets-cargo-ship-ablaze-in-black-sea",
+              "source": "SAFETY4SEA, October 2026"
+            },
+            {
+              "url": "https://en.h.ua/2026/10/05/cargo-vessel-royad-mammadov-black-sea-fire",
+              "source": "h.ua news, 5 October 2026"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 2,
+          "sources": [
+            {
+              "url": "https://reuters.com/world/two-dead-11-rescued-serious-maritime-incident-black-sea-romania-says-2026-10-05",
+              "source": "Reuters, 5 October 2026"
+            },
+            {
+              "url": "https://safety4sea.com/two-killed-after-drone-strike-sets-cargo-ship-ablaze-in-black-sea",
+              "source": "SAFETY4SEA, October 2026"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Azerbaijani",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "url": "https://en.apa.az/foreign-policy/azerbaijani-citizen-killed-another-missing-in-drone-attack-on-cargo-ship-in-black-sea-528328",
+                  "source": "APA News reporting Azerbaijan's Ministry of Foreign Affairs, 6 October 2026"
+                }
+              ]
+            }
+          ]
+        },
+        "human_impact": {
+          "injured": {
+            "count": 3,
+            "as_of": "2026-10-05",
+            "sources": [
+              {
+                "url": "https://en.apa.az/foreign-policy/azerbaijani-citizen-killed-another-missing-in-drone-attack-on-cargo-ship-in-black-sea-528328",
+                "source": "APA News reporting Azerbaijan's Ministry of Foreign Affairs, 6 October 2026"
+              },
+              {
+                "url": "https://safety4sea.com/two-killed-after-drone-strike-sets-cargo-ship-ablaze-in-black-sea",
+                "source": "SAFETY4SEA, October 2026"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-10-26T15:35:24Z",
+          "text": "New reviewed record. Romania's interior ministry reported two dead and eleven rescued after ROYAD MAMMADOV caught fire and sank on 5 October 2026; the incident was absent from both stores. One of the two dead is identified by Azerbaijan's Ministry of Foreign Affairs as the captain, Rustam Ismayil Hasanov, an Azerbaijani national. The nationality of the second fatality is not established by the sources read, so only one nationality is recorded. Azerbaijan's ministry said on 6 October that a second Azerbaijani crew member was missing and that three injured Azerbaijani crew were hospitalised; Romania's interior ministry said two bodies were recovered and eleven were rescued, which accounts for the whole crew of thirteen, so no separate missing person is recorded and nobody reported missing is counted as dead. Ukraine attributes the strike to two Russian drones; Romania did not publicly attribute the cause. Casualty figures cover this vessel only and are not a theatre total.",
+          "sources": [
+            {
+              "url": "https://reuters.com/world/two-dead-11-rescued-serious-maritime-incident-black-sea-romania-says-2026-10-05",
+              "source": "Reuters, 5 October 2026"
+            },
+            {
+              "url": "https://en.apa.az/foreign-policy/azerbaijani-citizen-killed-another-missing-in-drone-attack-on-cargo-ship-in-black-sea-528328",
+              "source": "APA News reporting Azerbaijan's Ministry of Foreign Affairs, 6 October 2026"
+            },
+            {
+              "url": "https://safety4sea.com/two-killed-after-drone-strike-sets-cargo-ship-ablaze-in-black-sea",
+              "source": "SAFETY4SEA, October 2026"
             }
           ]
         }
