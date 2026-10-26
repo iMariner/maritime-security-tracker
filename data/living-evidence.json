@@ -10259,6 +10259,89 @@
           ]
         }
       ]
+    },
+    "HIST-BS-20261006-AFRAMAX-RIO": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://dzrh.com.ph/post/russia-says-tanker-crew-rescued-in-black-sea-after-attack-set-ship-ablaze",
+            "source": "Reuters report carried by DZRH News, 6 October 2026"
+          },
+          {
+            "url": "https://shipmanagementinternational.com/news/p6sz79lpxrbah22-4bkcf-zbcsd-nc48r-lx2wh-phcly-5gefa-43xp8-gck8j-8jhf3-9zgbg-efhdy-thclp-eyz4k-wrxmz-ln64a-2zdrr-3zws9-6stby-b6cns",
+            "source": "Ship Management International carrying the Executive Ship Management statement, 8 October 2026"
+          }
+        ]
+      },
+      "human_impact": {
+        "injured": {
+          "count": 0,
+          "as_of": "2026-10-07",
+          "sources": [
+            {
+              "url": "https://dzrh.com.ph/post/russia-says-tanker-crew-rescued-in-black-sea-after-attack-set-ship-ablaze",
+              "source": "Reuters report carried by DZRH News, 6 October 2026"
+            },
+            {
+              "url": "https://shipmanagementinternational.com/news/p6sz79lpxrbah22-4bkcf-zbcsd-nc48r-lx2wh-phcly-5gefa-43xp8-gck8j-8jhf3-9zgbg-efhdy-thclp-eyz4k-wrxmz-ln64a-2zdrr-3zws9-6stby-b6cns",
+              "source": "Ship Management International carrying the Executive Ship Management statement, 8 October 2026"
+            }
+          ]
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-26T15:36:26Z",
+        "vessel_name": "AFRAMAX RIO",
+        "imo": "9273844",
+        "date_utc": "2026-10-06",
+        "vessel_type": "Crude oil tanker",
+        "region": "Black Sea",
+        "location_text": "Off Sochi, near the Sirius settlement in Russia's Krasnodar region",
+        "attack_type": "Unmanned surface vessels, described by Russia's Transport Ministry as an attack by an unmanned vessel",
+        "summary": "AFRAMAX RIO, a Liberian flagged crude oil tanker of 107,113 deadweight, was attacked by unmanned surface vessels on the evening of 6 October 2026 while proceeding southbound in the Black Sea off Sochi, having sailed from Novorossiysk. A fire broke out, crude oil burned on the water and thick black smoke closed beaches at Sirius. The 23 crew members, all Indian nationals according to Russia's Transport Ministry, abandoned the vessel and were rescued by the Sochi port authority. The ministry reported no injuries and said the crew was complete. The ship's technical manager, Singapore based Executive Ship Management, said all crew were safe and accounted for with no reported injuries, that the fire had been extinguished and that the vessel was being inspected with the authorities. Russia's ministry did not name the attacker and the manager said it would not speculate on who attacked the ship or why.",
+        "date_note": "Day precision only. Reuters, citing Russia's Transport Ministry, and the manager's statement place the attack on Tuesday 6 October 2026, in the evening local time. No time of strike is fixed by the sources read.",
+        "sources": [
+          {
+            "url": "https://dzrh.com.ph/post/russia-says-tanker-crew-rescued-in-black-sea-after-attack-set-ship-ablaze",
+            "source": "Reuters report carried by DZRH News, 6 October 2026"
+          },
+          {
+            "url": "https://shipmanagementinternational.com/news/p6sz79lpxrbah22-4bkcf-zbcsd-nc48r-lx2wh-phcly-5gefa-43xp8-gck8j-8jhf3-9zgbg-efhdy-thclp-eyz4k-wrxmz-ln64a-2zdrr-3zws9-6stby-b6cns",
+            "source": "Ship Management International carrying the Executive Ship Management statement, 8 October 2026"
+          },
+          {
+            "url": "https://en.rua.gr/2026/10/07/rio-tanker-attacked-near-sochi-cypriot-trace-russian-oil-and-23-rescued-sailors",
+            "source": "Athens News, 7 October 2026"
+          },
+          {
+            "url": "https://www.vesselfinder.com/vessels/details/9273844",
+            "source": "VesselFinder vessel register, IMO 9273844"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-26T15:36:26Z",
+          "text": "New reviewed record for the 6 October 2026 attack on AFRAMAX RIO off Sochi. The incident was absent from both stores although two other Black Sea attacks from the same two days, ALFA WATAN and ABLE, were already recorded. Russia's Transport Ministry, reported by Reuters, confirmed the unmanned surface vessel attack, the fire and the rescue of all 23 crew, who were Indian nationals, with no injuries. The loss of life is confirmed as zero for this vessel by that ministry statement and by the manager's account that all crew were safe and accounted for. Neither source attributes the attack, and no attribution is recorded here. Twenty three Indian seafarers were aboard; their nationality is a crew fact, not evidence about any casualty.",
+          "sources": [
+            {
+              "url": "https://dzrh.com.ph/post/russia-says-tanker-crew-rescued-in-black-sea-after-attack-set-ship-ablaze",
+              "source": "Reuters report carried by DZRH News, 6 October 2026"
+            },
+            {
+              "url": "https://shipmanagementinternational.com/news/p6sz79lpxrbah22-4bkcf-zbcsd-nc48r-lx2wh-phcly-5gefa-43xp8-gck8j-8jhf3-9zgbg-efhdy-thclp-eyz4k-wrxmz-ln64a-2zdrr-3zws9-6stby-b6cns",
+              "source": "Ship Management International carrying the Executive Ship Management statement, 8 October 2026"
+            },
+            {
+              "url": "https://en.rua.gr/2026/10/07/rio-tanker-attacked-near-sochi-cypriot-trace-russian-oil-and-23-rescued-sailors",
+              "source": "Athens News, 7 October 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -16790,6 +16873,97 @@
             {
               "url": "https://safety4sea.com/two-killed-after-drone-strike-sets-cargo-ship-ablaze-in-black-sea",
               "source": "SAFETY4SEA, October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6420135696,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6420135696",
+      "author": "iMariner",
+      "received_at": "2026-10-26T15:36:27Z",
+      "incident_id": "HIST-BS-20261006-AFRAMAX-RIO",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-BS-20261006-AFRAMAX-RIO",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-26T15:36:26Z",
+          "vessel_name": "AFRAMAX RIO",
+          "imo": "9273844",
+          "date_utc": "2026-10-06",
+          "vessel_type": "Crude oil tanker",
+          "region": "Black Sea",
+          "location_text": "Off Sochi, near the Sirius settlement in Russia's Krasnodar region",
+          "attack_type": "Unmanned surface vessels, described by Russia's Transport Ministry as an attack by an unmanned vessel",
+          "summary": "AFRAMAX RIO, a Liberian flagged crude oil tanker of 107,113 deadweight, was attacked by unmanned surface vessels on the evening of 6 October 2026 while proceeding southbound in the Black Sea off Sochi, having sailed from Novorossiysk. A fire broke out, crude oil burned on the water and thick black smoke closed beaches at Sirius. The 23 crew members, all Indian nationals according to Russia's Transport Ministry, abandoned the vessel and were rescued by the Sochi port authority. The ministry reported no injuries and said the crew was complete. The ship's technical manager, Singapore based Executive Ship Management, said all crew were safe and accounted for with no reported injuries, that the fire had been extinguished and that the vessel was being inspected with the authorities. Russia's ministry did not name the attacker and the manager said it would not speculate on who attacked the ship or why.",
+          "date_note": "Day precision only. Reuters, citing Russia's Transport Ministry, and the manager's statement place the attack on Tuesday 6 October 2026, in the evening local time. No time of strike is fixed by the sources read.",
+          "sources": [
+            {
+              "url": "https://dzrh.com.ph/post/russia-says-tanker-crew-rescued-in-black-sea-after-attack-set-ship-ablaze",
+              "source": "Reuters report carried by DZRH News, 6 October 2026"
+            },
+            {
+              "url": "https://shipmanagementinternational.com/news/p6sz79lpxrbah22-4bkcf-zbcsd-nc48r-lx2wh-phcly-5gefa-43xp8-gck8j-8jhf3-9zgbg-efhdy-thclp-eyz4k-wrxmz-ln64a-2zdrr-3zws9-6stby-b6cns",
+              "source": "Ship Management International carrying the Executive Ship Management statement, 8 October 2026"
+            },
+            {
+              "url": "https://en.rua.gr/2026/10/07/rio-tanker-attacked-near-sochi-cypriot-trace-russian-oil-and-23-rescued-sailors",
+              "source": "Athens News, 7 October 2026"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9273844",
+              "source": "VesselFinder vessel register, IMO 9273844"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://dzrh.com.ph/post/russia-says-tanker-crew-rescued-in-black-sea-after-attack-set-ship-ablaze",
+              "source": "Reuters report carried by DZRH News, 6 October 2026"
+            },
+            {
+              "url": "https://shipmanagementinternational.com/news/p6sz79lpxrbah22-4bkcf-zbcsd-nc48r-lx2wh-phcly-5gefa-43xp8-gck8j-8jhf3-9zgbg-efhdy-thclp-eyz4k-wrxmz-ln64a-2zdrr-3zws9-6stby-b6cns",
+              "source": "Ship Management International carrying the Executive Ship Management statement, 8 October 2026"
+            }
+          ]
+        },
+        "human_impact": {
+          "injured": {
+            "count": 0,
+            "as_of": "2026-10-07",
+            "sources": [
+              {
+                "url": "https://dzrh.com.ph/post/russia-says-tanker-crew-rescued-in-black-sea-after-attack-set-ship-ablaze",
+                "source": "Reuters report carried by DZRH News, 6 October 2026"
+              },
+              {
+                "url": "https://shipmanagementinternational.com/news/p6sz79lpxrbah22-4bkcf-zbcsd-nc48r-lx2wh-phcly-5gefa-43xp8-gck8j-8jhf3-9zgbg-efhdy-thclp-eyz4k-wrxmz-ln64a-2zdrr-3zws9-6stby-b6cns",
+                "source": "Ship Management International carrying the Executive Ship Management statement, 8 October 2026"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-10-26T15:36:26Z",
+          "text": "New reviewed record for the 6 October 2026 attack on AFRAMAX RIO off Sochi. The incident was absent from both stores although two other Black Sea attacks from the same two days, ALFA WATAN and ABLE, were already recorded. Russia's Transport Ministry, reported by Reuters, confirmed the unmanned surface vessel attack, the fire and the rescue of all 23 crew, who were Indian nationals, with no injuries. The loss of life is confirmed as zero for this vessel by that ministry statement and by the manager's account that all crew were safe and accounted for. Neither source attributes the attack, and no attribution is recorded here. Twenty three Indian seafarers were aboard; their nationality is a crew fact, not evidence about any casualty.",
+          "sources": [
+            {
+              "url": "https://dzrh.com.ph/post/russia-says-tanker-crew-rescued-in-black-sea-after-attack-set-ship-ablaze",
+              "source": "Reuters report carried by DZRH News, 6 October 2026"
+            },
+            {
+              "url": "https://shipmanagementinternational.com/news/p6sz79lpxrbah22-4bkcf-zbcsd-nc48r-lx2wh-phcly-5gefa-43xp8-gck8j-8jhf3-9zgbg-efhdy-thclp-eyz4k-wrxmz-ln64a-2zdrr-3zws9-6stby-b6cns",
+              "source": "Ship Management International carrying the Executive Ship Management statement, 8 October 2026"
+            },
+            {
+              "url": "https://en.rua.gr/2026/10/07/rio-tanker-attacked-near-sochi-cypriot-trace-russian-oil-and-23-rescued-sailors",
+              "source": "Athens News, 7 October 2026"
             }
           ]
         }
