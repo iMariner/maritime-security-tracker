@@ -10387,6 +10387,77 @@
           ]
         }
       ]
+    },
+    "HIST-RS-20260804-FAIZE-NOORE-OLIYA": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://www.aa.com.tr/en/middle-east/indian-vessel-sinks-after-red-sea-attack-off-yemen-all-14-crew-rescued/4018343",
+            "source": "Anadolu Agency, 4 August 2026, reporting the National Resistance Forces: no casualties recorded and all 14 crew rescued"
+          },
+          {
+            "url": "https://www.mofa-ye.org/Pages/38475/",
+            "source": "Yemen Ministry of Foreign Affairs and Expatriates, 5 August 2026: all 14 crew rescued"
+          }
+        ],
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-26T21:41:05Z",
+        "vessel_name": "FAIZE NOORE OLIYA",
+        "date_utc": "2026-08-04",
+        "vessel_type": "Mechanised sailing vessel",
+        "region": "Red Sea",
+        "location_text": "About 13 nautical miles south of Al Hudaydah, Yemen",
+        "attack_type": "Explosive-laden boat attack, attributed to the Houthis by Yemen's government",
+        "summary": "MSV FAIZE NOORE OLIYA, an Indian-flagged mechanised sailing vessel, was hit in the Red Sea about 13 nautical miles south of Al Hudaydah on 4 August 2026, capsized and sank. Yemen's foreign ministry said a Houthi explosive-laden boat carried out the attack and that the Yemeni coast guard and navy rescued all 14 crew, 13 Indian nationals and one Yemeni, and took them to the port of Mokha. Yemen's National Resistance Forces said no casualties were recorded. India's shipping minister Sarbananda Sonowal condemned an unprovoked attack and confirmed all 14 seafarers were rescued, and India's external affairs ministry confirmed the sinking on 4 August. The BBC reported that it was not clear who struck the ship and that no group had claimed responsibility.",
+        "date_note": "India's Ministry of External Affairs dates the sinking to 4 August 2026 and the BBC report is dated 4 August; the vessel was struck and sank the same day. No time of attack is given by the sources read.",
+        "sources": [
+          {
+            "url": "https://www.bbc.com/news/articles/cly84we1y37o",
+            "source": "BBC News, 4 August 2026"
+          },
+          {
+            "url": "https://www.mofa-ye.org/Pages/38475/",
+            "source": "Yemen Ministry of Foreign Affairs and Expatriates, 5 August 2026"
+          },
+          {
+            "url": "https://www.aa.com.tr/en/middle-east/indian-vessel-sinks-after-red-sea-attack-off-yemen-all-14-crew-rescued/4018343",
+            "source": "Anadolu Agency, 4 August 2026, reporting the National Resistance Forces"
+          },
+          {
+            "url": "https://indianexpress.com/article/world/indian-ship-sinks-in-yemeni-waters-attack-houthi-iran-msv-faize-noore-oliya-sarbananda-sonowal-10818029/",
+            "source": "The Indian Express, 4 August 2026, quoting India's shipping minister and external affairs ministry"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-26T21:41:05Z",
+          "text": "New reviewed historical record. The 4 August 2026 sinking of the Indian-flagged MSV FAIZE NOORE OLIYA off Al Hudaydah was absent from both the incident corpus and the history store; the corpus held only an undated 17 October headline naming the vessel. Yemen's foreign ministry, the National Resistance Forces and India's shipping minister all confirm the vessel sank and that all 14 people aboard, 13 Indian nationals and one Yemeni, were rescued, so zero deaths is a confirmed count for this vessel and not an absence of reporting. Attribution is left with the source: Yemen's government blamed a Houthi explosive-laden boat, the BBC reported it was not clear who struck the ship and no group had claimed responsibility.",
+          "sources": [
+            {
+              "url": "https://www.bbc.com/news/articles/cly84we1y37o",
+              "source": "BBC News, 4 August 2026"
+            },
+            {
+              "url": "https://www.mofa-ye.org/Pages/38475/",
+              "source": "Yemen Ministry of Foreign Affairs and Expatriates, 5 August 2026"
+            },
+            {
+              "url": "https://www.aa.com.tr/en/middle-east/indian-vessel-sinks-after-red-sea-attack-off-yemen-all-14-crew-rescued/4018343",
+              "source": "Anadolu Agency, 4 August 2026"
+            },
+            {
+              "url": "https://indianexpress.com/article/world/indian-ship-sinks-in-yemeni-waters-attack-houthi-iran-msv-faize-noore-oliya-sarbananda-sonowal-10818029/",
+              "source": "The Indian Express, 4 August 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -17062,6 +17133,85 @@
             {
               "url": "https://maritime-executive.com/article/three-tankers-attacked-while-loading-at-caspian-pipeline",
               "source": "The Maritime Executive, 20 July 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6428045874,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6428045874",
+      "author": "iMariner",
+      "received_at": "2026-10-26T21:43:13Z",
+      "incident_id": "HIST-RS-20260804-FAIZE-NOORE-OLIYA",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-RS-20260804-FAIZE-NOORE-OLIYA",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-26T21:41:05Z",
+          "vessel_name": "FAIZE NOORE OLIYA",
+          "date_utc": "2026-08-04",
+          "vessel_type": "Mechanised sailing vessel",
+          "region": "Red Sea",
+          "location_text": "About 13 nautical miles south of Al Hudaydah, Yemen",
+          "attack_type": "Explosive-laden boat attack, attributed to the Houthis by Yemen's government",
+          "summary": "MSV FAIZE NOORE OLIYA, an Indian-flagged mechanised sailing vessel, was hit in the Red Sea about 13 nautical miles south of Al Hudaydah on 4 August 2026, capsized and sank. Yemen's foreign ministry said a Houthi explosive-laden boat carried out the attack and that the Yemeni coast guard and navy rescued all 14 crew, 13 Indian nationals and one Yemeni, and took them to the port of Mokha. Yemen's National Resistance Forces said no casualties were recorded. India's shipping minister Sarbananda Sonowal condemned an unprovoked attack and confirmed all 14 seafarers were rescued, and India's external affairs ministry confirmed the sinking on 4 August. The BBC reported that it was not clear who struck the ship and that no group had claimed responsibility.",
+          "date_note": "India's Ministry of External Affairs dates the sinking to 4 August 2026 and the BBC report is dated 4 August; the vessel was struck and sank the same day. No time of attack is given by the sources read.",
+          "sources": [
+            {
+              "url": "https://www.bbc.com/news/articles/cly84we1y37o",
+              "source": "BBC News, 4 August 2026"
+            },
+            {
+              "url": "https://www.mofa-ye.org/Pages/38475/",
+              "source": "Yemen Ministry of Foreign Affairs and Expatriates, 5 August 2026"
+            },
+            {
+              "url": "https://www.aa.com.tr/en/middle-east/indian-vessel-sinks-after-red-sea-attack-off-yemen-all-14-crew-rescued/4018343",
+              "source": "Anadolu Agency, 4 August 2026, reporting the National Resistance Forces"
+            },
+            {
+              "url": "https://indianexpress.com/article/world/indian-ship-sinks-in-yemeni-waters-attack-houthi-iran-msv-faize-noore-oliya-sarbananda-sonowal-10818029/",
+              "source": "The Indian Express, 4 August 2026, quoting India's shipping minister and external affairs ministry"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.aa.com.tr/en/middle-east/indian-vessel-sinks-after-red-sea-attack-off-yemen-all-14-crew-rescued/4018343",
+              "source": "Anadolu Agency, 4 August 2026, reporting the National Resistance Forces: no casualties recorded and all 14 crew rescued"
+            },
+            {
+              "url": "https://www.mofa-ye.org/Pages/38475/",
+              "source": "Yemen Ministry of Foreign Affairs and Expatriates, 5 August 2026: all 14 crew rescued"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-10-26T21:41:05Z",
+          "text": "New reviewed historical record. The 4 August 2026 sinking of the Indian-flagged MSV FAIZE NOORE OLIYA off Al Hudaydah was absent from both the incident corpus and the history store; the corpus held only an undated 17 October headline naming the vessel. Yemen's foreign ministry, the National Resistance Forces and India's shipping minister all confirm the vessel sank and that all 14 people aboard, 13 Indian nationals and one Yemeni, were rescued, so zero deaths is a confirmed count for this vessel and not an absence of reporting. Attribution is left with the source: Yemen's government blamed a Houthi explosive-laden boat, the BBC reported it was not clear who struck the ship and no group had claimed responsibility.",
+          "sources": [
+            {
+              "url": "https://www.bbc.com/news/articles/cly84we1y37o",
+              "source": "BBC News, 4 August 2026"
+            },
+            {
+              "url": "https://www.mofa-ye.org/Pages/38475/",
+              "source": "Yemen Ministry of Foreign Affairs and Expatriates, 5 August 2026"
+            },
+            {
+              "url": "https://www.aa.com.tr/en/middle-east/indian-vessel-sinks-after-red-sea-attack-off-yemen-all-14-crew-rescued/4018343",
+              "source": "Anadolu Agency, 4 August 2026"
+            },
+            {
+              "url": "https://indianexpress.com/article/world/indian-ship-sinks-in-yemeni-waters-attack-houthi-iran-msv-faize-noore-oliya-sarbananda-sonowal-10818029/",
+              "source": "The Indian Express, 4 August 2026"
             }
           ]
         }
