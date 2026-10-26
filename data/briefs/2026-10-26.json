@@ -26,5 +26,23 @@
   "generated_at": "2026-10-26T04:40:55Z",
   "consistency_fixed": [],
   "consistency_problems": [],
-  "quality": "1 check(s) need attention: dates ok; attribution ok; official coverage 0/0 ok; verified 1/3; single-source items 1, 1 without verification; confirmed ok; fact-check 1 correction(s); tweet 245/280 ok; dashes ok; consistency ok"
+  "quality": "1 check(s) need attention: dates ok; attribution ok; official coverage 0/0 ok; verified 1/3; single-source items 1, 1 without verification; confirmed ok; fact-check 1 correction(s); tweet 245/280 ok; dashes ok; consistency ok",
+  "review": {
+    "status": "done",
+    "at": "2026-10-26T05:05:13Z",
+    "changes": [
+      "lead story set to INC-20261023-002 (one dead, three missing and a ship sunk, confirmed by Romania's interior ministr)",
+      "INC-20261024-008 marked rejected (the only source, Ukraine's ArmyInform via BurgasMedia, reports a Russian army fuel tanker marked MILK hit on the front line, a land vehicle, not a merchant ship at sea)",
+      "date of INC-20261024-010 set to 2026-10-23",
+      "lesson (facts): A fuel tanker or bowser struck on the front line is a land vehicle, not a merchant ship: record a tanker only when a sou"
+    ],
+    "refused": [],
+    "notes": [
+      "Call the Khoryv an oil-bulk-ore carrier, as The Maritime Executive and VesselFinder for IMO 8138712 do, in the headline, standfirst, lede, key points and the Black Sea paragraph, and keep her name, the one dead and the three missing in the headline and lede.",
+      "Drop the second key point, which repeats the article's closing sentence about the Red Sea and Gulf of Aden word for word, and keep the key point that credits the nine rescued to Romania's interior ministry, with the headline and lede unchanged."
+    ],
+    "restored": [],
+    "send_after": false,
+    "lead": "INC-20261023-002"
+  }
 }

@@ -758,14 +758,20 @@
       }
     ],
     "first_seen": "2026-10-25T16:44:58Z",
-    "last_updated": "2026-10-25T16:44:58Z",
+    "last_updated": "2026-10-26T05:05:13Z",
     "verification_issue": 243,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "editor-check",
+      "at": "2026-10-26T05:05:13Z",
+      "note": "the only source, Ukraine's ArmyInform via BurgasMedia, reports a Russian army fuel tanker marked MILK hit on the front line, a land vehicle, not a merchant ship at sea"
+    },
     "published_in": [
       "2026-10-26"
     ],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-10-26T05:05:13Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -807,122 +813,6 @@
     "status": "merged",
     "position_approx": true,
     "merged_into": "INC-20261024-010"
-  },
-  {
-    "region": "Strait of Hormuz",
-    "date_utc": "2026-10-24",
-    "summary": "Iran said that two unauthorised oil tankers were struck in the Strait of Hormuz, a claim that is Iran's alone. Other outlets reported explosions, a cruise missile strike and exchanges of fire involving vessels in the same waters over 24 and 25 October, with no vessel names or confirmed damage details.",
-    "official_source_cited": null,
-    "conflicting": false,
-    "confidence": 0.5,
-    "vessel_name": null,
-    "imo": null,
-    "flag": null,
-    "vessel_type": "tanker",
-    "vessel_category": "merchant",
-    "lat": 26.55,
-    "lon": 56.35,
-    "location_text": "Strait of Hormuz",
-    "attack_type": "other",
-    "damage": "possible damage reported",
-    "casualties": null,
-    "attribution_claimed": "Iran said the tankers were struck (Iran's account)",
-    "independent_evidence": false,
-    "id": "INC-20261024-010",
-    "sources": [
-      {
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQTJmN3F0S0QtbGMtcjVoTzM1SDY2QWtTVGxIYzljenZLY1RSTThUSXIyTjBndnhCVEY2TnAyYXlpbDB4ajNDd0R6cnFjZW4xMU9GeUc2a1dIOVJoMk8wQWJUVGlHdW9CdzFRSjRZQU1vck9mYXN0REdtOU1KSWpIU2ZJUnBjeEJUVjBZbU5yMXFMNllCWFlIWEhpSU9SXzdDcy1uc0kyMEhBQmlk0gGsAUFVX3lxTE1BMmY3cXRLRC1sYy1yNWhPMzVINjZBa1NUbEhjOWN6dktjVFJNOFRJcjJOMGd2eEJURjZOcDJheWlsMHhqM0N3RHpycWNlbjExT0Z5RzZrV0g5UmgyTzBBYlRUaUd1b0J3MVFKNFlBTW9yT2Zhc3RER205TUpJakhTZklScGN4QlRWMFltTnIxcUw2WUJYWUhYSGlJT1JfN0NzLW5zSTIwSEFCaWQ?oc=5",
-        "source": "Africanews",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-24T09:34:04Z",
-        "title": "Two 'unauthorised' oil tankers struck in Strait of Hormuz, Iran says - Africanews"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNY2tka2pPNG9yLVRCR1RtNjBFTG1DT204enpnZkY4YXZHTXJqX3NlV1p2M2dKcGpLc0ZCbWYwT2VqclZDUGlzTkJoNjZnQWwwRTYtMVhDZ2w5WXpWeFk4NXNkSk9yQktTR1pVY2F3U01QMFc2R0phZjc0amIxeUxrRENncUR3ZE5GbE5aVkg5aXVzMjRUcGZLN3ljZFE?oc=5",
-        "source": "WANA News Agency",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-24T16:53:57Z",
-        "title": "Reports of Explosion, Possible Damage to Giant Oil Tanker in Strait of Hormuz - WANA News Agency"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVXh5c1VJbHBFMmEzNXh6RE8wUE1tQmtNdzJ1aVZGWVViN3haTXJjUHdvSzdRNXdsTHBVSzdvZFRxVlU0SHVyY3NXa1hnVHcxcS0xd0lzQ1NzQ2cwRDJtTmlSMlY1X0Z4QXk1dk4tdlFWMHpFeUtSTUZoTmZWU3BaN3hkbXpGRUpNakg2c3hBbDJETEJGaFhFbERIc2E1QXZBUGhDYldn0gGrAUFVX3lxTE44TFFXSGY4Q0RsS3BqWEY4bmdQUW5VcmhnUVFqWS15c09JNTF3M2ZFMXZHaWpITFBiOXBjbEZ6MHRycWdkM0RUd3lndTlCVEx6dlQxcTd0NFN2dFpzdWFGMFdFZWlWN3RLVjc0RFhPUm1fdXFkTndnYkEzU09qS1hoV0Uzd3IzY3RnVU8yTlF5Yzgwc2RpbGl4dzdMbGF1ZmdYZXJYcDFheS1rMA?oc=5",
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-24T07:49:31Z",
-        "title": "As tensions escalate in the Strait of Hormuz, US and Iran both fire at ships - ABC News - Breaking News, Latest News and Videos"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9PNm9TOTZ2U2pKN2NSV003MFBKZ2N1NUdKcGNFNE5EdHMtU1Vkb21DNTFuNjJNZWphUnlYdjNGX05qajRaUmVzN2V3MTlMakhLWHR5YWdrMTc0b0o5TkJHUjJvckExZw?oc=5",
-        "source": "Unisba Media",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-24T17:23:16Z",
-        "title": "Americans In Iran's Line Of Fire? IRGC Hits US-Contracted Vessel Near Hormuz | Firstpost Live | 4K Zak Chelli (sLOcPDvVkE) - Unisba Media"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81NEJmMGVEeDVIMGpTZVhPMGFhd0pZRUVlelowVElZckxpUEJoYVZYVHB3U2plNmxYRUNiX1piMjJYSF9HQ1BWdVEyY2ZHVVE?oc=5",
-        "source": "وكالة سبأ",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-25T16:49:07Z",
-        "title": "Cruise missile strike on vessel triggers explosion in Strait of Hormuz - وكالة سبأ"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5KeDhOY1VyWXBxTE1MaDNUZDRqS2FBUW43ejdEOTlVUGlmUEJ2OWNoRy0zdkc1SUNKUnduMkJXVV8tck9Zdi1oMnBjWC1sNWNhSnBiNEZHQjdCMXAzQ01NYzBIZXk5eEo3VmZGZGNjMFg?oc=5",
-        "source": "houseofsaud.com",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-26T04:27:55Z",
-        "title": "Iran Fires Cruise Missile at Vessel in Hormuz; Launcher at Sirik Struck - houseofsaud.com"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNUFlLNm4xWHJ4eFppMjdmWmxUVFJ0SU9pSGExYWVvZXJfcjc0REY3T0l4c0huTGVyVkpPN2g2OTdBNlFNS3c5QTBtOWw5RS1kMHgtNFI3RmFPTXgyWEhkX1NVc0NPSTQyb293ZG5CcjFOVGRyTG9KejRyMDJrendkTTdpYW5pRHNuTzluNWJhZ2t0UWVLOEE2cVRuV0F0VHNkTnJUTkxqNnp6QXItd0ZyblRRbnpBMEY4bDhSUGhtWUJZWWNNMW9ZaUpyQUlFNnlKYXF5ZklOdEZCc0tySV9LUVo2a3Q4ZWFrRTBJMW9iWFBVSkdwY1M0LWo4Mi1IRFptM2JYYUxzSQ?oc=5",
-        "source": "The Times of India",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-26T02:40:15Z",
-        "title": "US Warship Blown Up? Iran Fires Cruise Missile At Rogue Vessels; Explosions Rock Strait Of Hormuz - The Times of India"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOUp0Nkd5a1kzRFdEcW00amlTUG9GczlhbkFEMVliUi1kY1hpR0RRUFV6M3hTR2FjdlBJTm1GdTBOQjliVFhuOERzN3dkcEJ2Q0dlYkFZU3Vwa1BRZnl5MTZ0Vk9BOFc4N2hVT1RUZlc1RXRtd09zUzJVMGpPREhfa0FUUklSaHRfNXN4aFhnaWlOY1pBMGRyZXNvd1Z5VlpfU1JmSVZvcw?oc=5",
-        "source": "UrduPoint",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-25T19:33:36Z",
-        "title": "Maritime Crisis Deepens In Strait Of Hormuz As Nearly 500 Ships Stranded, Another Oil Tanker Attacked Near Oman - UrduPoint"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOS1QwN2hrTUszZUY4XzJkQk16NGkzSW1tUXdDcXg1aHhvNUh2RHJhTi1peDRvX2s5Qmdnb1dqRWg5SGxoOHUwaUlfSG1WN1pXNWJSSWQ4Wkk3dGRHYVIyYU5ENld5T1BxSC03Q1NMRG9OV0xWZjNtUDZuc0tKc182UVFRQzFweEp2LUl3clB3WUo3VWtuNGt3YnlIT0tEdkRXX1JZVGYtVllacXgtMTVVNTgxRWs5Q3FrLWRzLUdjMER4UUU?oc=5",
-        "source": "Gulf News",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-25T16:22:41Z",
-        "title": "Strait of Hormuz crisis: Nearly 500 vessels delayed amid new tanker attack and rising maritime threats - Gulf News"
-      }
-    ],
-    "first_seen": "2026-10-26T01:34:45Z",
-    "last_updated": "2026-10-26T04:40:42Z",
-    "verification_issue": 248,
-    "verdict": null,
-    "published_in": [
-      "2026-10-25",
-      "2026-10-26"
-    ],
-    "status": "claimed",
-    "position_approx": true,
-    "date_approx": false
   },
   {
     "region": "Strait of Hormuz",
@@ -1165,6 +1055,131 @@
     "status": "merged",
     "merged_into": "INC-20261023-002",
     "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-23",
+    "summary": "Iran said that two unauthorised oil tankers were struck in the Strait of Hormuz, a claim that is Iran's alone. Other outlets reported explosions, a cruise missile strike and exchanges of fire involving vessels in the same waters over 24 and 25 October, with no vessel names or confirmed damage details.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": "possible damage reported",
+    "casualties": null,
+    "attribution_claimed": "Iran said the tankers were struck (Iran's account)",
+    "independent_evidence": false,
+    "id": "INC-20261024-010",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQTJmN3F0S0QtbGMtcjVoTzM1SDY2QWtTVGxIYzljenZLY1RSTThUSXIyTjBndnhCVEY2TnAyYXlpbDB4ajNDd0R6cnFjZW4xMU9GeUc2a1dIOVJoMk8wQWJUVGlHdW9CdzFRSjRZQU1vck9mYXN0REdtOU1KSWpIU2ZJUnBjeEJUVjBZbU5yMXFMNllCWFlIWEhpSU9SXzdDcy1uc0kyMEhBQmlk0gGsAUFVX3lxTE1BMmY3cXRLRC1sYy1yNWhPMzVINjZBa1NUbEhjOWN6dktjVFJNOFRJcjJOMGd2eEJURjZOcDJheWlsMHhqM0N3RHpycWNlbjExT0Z5RzZrV0g5UmgyTzBBYlRUaUd1b0J3MVFKNFlBTW9yT2Zhc3RER205TUpJakhTZklScGN4QlRWMFltTnIxcUw2WUJYWUhYSGlJT1JfN0NzLW5zSTIwSEFCaWQ?oc=5",
+        "source": "Africanews",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-24T09:34:04Z",
+        "title": "Two 'unauthorised' oil tankers struck in Strait of Hormuz, Iran says - Africanews"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNY2tka2pPNG9yLVRCR1RtNjBFTG1DT204enpnZkY4YXZHTXJqX3NlV1p2M2dKcGpLc0ZCbWYwT2VqclZDUGlzTkJoNjZnQWwwRTYtMVhDZ2w5WXpWeFk4NXNkSk9yQktTR1pVY2F3U01QMFc2R0phZjc0amIxeUxrRENncUR3ZE5GbE5aVkg5aXVzMjRUcGZLN3ljZFE?oc=5",
+        "source": "WANA News Agency",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-24T16:53:57Z",
+        "title": "Reports of Explosion, Possible Damage to Giant Oil Tanker in Strait of Hormuz - WANA News Agency"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVXh5c1VJbHBFMmEzNXh6RE8wUE1tQmtNdzJ1aVZGWVViN3haTXJjUHdvSzdRNXdsTHBVSzdvZFRxVlU0SHVyY3NXa1hnVHcxcS0xd0lzQ1NzQ2cwRDJtTmlSMlY1X0Z4QXk1dk4tdlFWMHpFeUtSTUZoTmZWU3BaN3hkbXpGRUpNakg2c3hBbDJETEJGaFhFbERIc2E1QXZBUGhDYldn0gGrAUFVX3lxTE44TFFXSGY4Q0RsS3BqWEY4bmdQUW5VcmhnUVFqWS15c09JNTF3M2ZFMXZHaWpITFBiOXBjbEZ6MHRycWdkM0RUd3lndTlCVEx6dlQxcTd0NFN2dFpzdWFGMFdFZWlWN3RLVjc0RFhPUm1fdXFkTndnYkEzU09qS1hoV0Uzd3IzY3RnVU8yTlF5Yzgwc2RpbGl4dzdMbGF1ZmdYZXJYcDFheS1rMA?oc=5",
+        "source": "ABC News - Breaking News, Latest News and Videos",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-24T07:49:31Z",
+        "title": "As tensions escalate in the Strait of Hormuz, US and Iran both fire at ships - ABC News - Breaking News, Latest News and Videos"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9PNm9TOTZ2U2pKN2NSV003MFBKZ2N1NUdKcGNFNE5EdHMtU1Vkb21DNTFuNjJNZWphUnlYdjNGX05qajRaUmVzN2V3MTlMakhLWHR5YWdrMTc0b0o5TkJHUjJvckExZw?oc=5",
+        "source": "Unisba Media",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-24T17:23:16Z",
+        "title": "Americans In Iran's Line Of Fire? IRGC Hits US-Contracted Vessel Near Hormuz | Firstpost Live | 4K Zak Chelli (sLOcPDvVkE) - Unisba Media"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81NEJmMGVEeDVIMGpTZVhPMGFhd0pZRUVlelowVElZckxpUEJoYVZYVHB3U2plNmxYRUNiX1piMjJYSF9HQ1BWdVEyY2ZHVVE?oc=5",
+        "source": "وكالة سبأ",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-25T16:49:07Z",
+        "title": "Cruise missile strike on vessel triggers explosion in Strait of Hormuz - وكالة سبأ"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5KeDhOY1VyWXBxTE1MaDNUZDRqS2FBUW43ejdEOTlVUGlmUEJ2OWNoRy0zdkc1SUNKUnduMkJXVV8tck9Zdi1oMnBjWC1sNWNhSnBiNEZHQjdCMXAzQ01NYzBIZXk5eEo3VmZGZGNjMFg?oc=5",
+        "source": "houseofsaud.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-26T04:27:55Z",
+        "title": "Iran Fires Cruise Missile at Vessel in Hormuz; Launcher at Sirik Struck - houseofsaud.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNUFlLNm4xWHJ4eFppMjdmWmxUVFJ0SU9pSGExYWVvZXJfcjc0REY3T0l4c0huTGVyVkpPN2g2OTdBNlFNS3c5QTBtOWw5RS1kMHgtNFI3RmFPTXgyWEhkX1NVc0NPSTQyb293ZG5CcjFOVGRyTG9KejRyMDJrendkTTdpYW5pRHNuTzluNWJhZ2t0UWVLOEE2cVRuV0F0VHNkTnJUTkxqNnp6QXItd0ZyblRRbnpBMEY4bDhSUGhtWUJZWWNNMW9ZaUpyQUlFNnlKYXF5ZklOdEZCc0tySV9LUVo2a3Q4ZWFrRTBJMW9iWFBVSkdwY1M0LWo4Mi1IRFptM2JYYUxzSQ?oc=5",
+        "source": "The Times of India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-26T02:40:15Z",
+        "title": "US Warship Blown Up? Iran Fires Cruise Missile At Rogue Vessels; Explosions Rock Strait Of Hormuz - The Times of India"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOUp0Nkd5a1kzRFdEcW00amlTUG9GczlhbkFEMVliUi1kY1hpR0RRUFV6M3hTR2FjdlBJTm1GdTBOQjliVFhuOERzN3dkcEJ2Q0dlYkFZU3Vwa1BRZnl5MTZ0Vk9BOFc4N2hVT1RUZlc1RXRtd09zUzJVMGpPREhfa0FUUklSaHRfNXN4aFhnaWlOY1pBMGRyZXNvd1Z5VlpfU1JmSVZvcw?oc=5",
+        "source": "UrduPoint",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-25T19:33:36Z",
+        "title": "Maritime Crisis Deepens In Strait Of Hormuz As Nearly 500 Ships Stranded, Another Oil Tanker Attacked Near Oman - UrduPoint"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOS1QwN2hrTUszZUY4XzJkQk16NGkzSW1tUXdDcXg1aHhvNUh2RHJhTi1peDRvX2s5Qmdnb1dqRWg5SGxoOHUwaUlfSG1WN1pXNWJSSWQ4Wkk3dGRHYVIyYU5ENld5T1BxSC03Q1NMRG9OV0xWZjNtUDZuc0tKc182UVFRQzFweEp2LUl3clB3WUo3VWtuNGt3YnlIT0tEdkRXX1JZVGYtVllacXgtMTVVNTgxRWs5Q3FrLWRzLUdjMER4UUU?oc=5",
+        "source": "Gulf News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-25T16:22:41Z",
+        "title": "Strait of Hormuz crisis: Nearly 500 vessels delayed amid new tanker attack and rising maritime threats - Gulf News"
+      },
+      {
+        "url": "https://www.africanews.com/2026/10/24/two-unauthorised-oil-tankers-struck-in-strait-of-hormuz-iran-says/",
+        "source": "africanews.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-26T05:05:13Z",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-10-26T01:34:45Z",
+    "last_updated": "2026-10-26T05:05:13Z",
+    "verification_issue": 248,
+    "verdict": null,
+    "published_in": [
+      "2026-10-25",
+      "2026-10-26"
+    ],
+    "status": "claimed",
+    "position_approx": true,
+    "date_approx": false
   },
   {
     "region": "Black Sea",
