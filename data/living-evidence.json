@@ -10342,6 +10342,51 @@
           ]
         }
       ]
+    },
+    "HIST-BS-20260720-NELSA": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-26T21:41:05Z",
+        "vessel_name": "NELSA",
+        "date_utc": "2026-07-20",
+        "vessel_type": "Crude oil tanker",
+        "region": "Black Sea",
+        "location_text": "At single point mooring SPM-1 of the CPC marine terminal off Novorossiysk, Russia",
+        "attack_type": "Drone strike by an aerial drone",
+        "summary": "NELSA, a Cameroon-flagged crude oil tanker of 156,760 deadweight, was struck by an aerial drone on 20 July 2026 while loading at single point mooring SPM-1 of the Caspian Pipeline Consortium marine terminal off Novorossiysk. The drone hit the starboard aft body and a fire broke out on deck and in the compartments between the superstructure and the engine and boiler space. The fire was put out within a few hours by the tanker's loading crew and CPC emergency response teams. The 22-person international crew was evacuated onto CPC tugs except the master and the chief mate, the tanker stayed afloat and no oil spill occurred. CPC called the strike a terrorist attack and Kazakhstan's foreign and energy ministries condemned it. No casualty figures were published by CPC, so deaths are recorded as unknown.",
+        "date_note": "CPC's release is dated 20 July 2026 and states the attack happened that day, the day after the strikes on ASIA and NISSOS IOS loading at SPM-1 and SPM-2 on 19 July. The Maritime Executive dates the NELSA hit to Monday 20 July.",
+        "sources": [
+          {
+            "url": "https://www.cpc.ru/EN/press/releases/2026/Pages/20260720.aspx",
+            "source": "Caspian Pipeline Consortium press release, 20 July 2026"
+          },
+          {
+            "url": "https://maritime-executive.com/article/three-tankers-attacked-while-loading-at-caspian-pipeline",
+            "source": "The Maritime Executive, 20 July 2026"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-26T21:41:05Z",
+          "text": "New reviewed historical record. The 20 July 2026 drone strike on the tanker NELSA while loading at CPC's SPM-1 was absent from both the incident corpus and the history store; the corpus held only an undated October headline about the tanker passing the Bosphorus, which belongs to this event. CPC's own release gives the date, the mooring, the point of impact, the fire, the evacuation of part of the 22-person crew onto CPC tugs and the absence of an oil spill. CPC published no casualty figures, so deaths are unknown, not zero. This is a separate ship from ASIA and NISSOS IOS, which were struck at the same terminal on 19 July, and from the later strikes there; nothing here is added to any theatre total.",
+          "sources": [
+            {
+              "url": "https://www.cpc.ru/EN/press/releases/2026/Pages/20260720.aspx",
+              "source": "Caspian Pipeline Consortium press release, 20 July 2026"
+            },
+            {
+              "url": "https://maritime-executive.com/article/three-tankers-attacked-while-loading-at-caspian-pipeline",
+              "source": "The Maritime Executive, 20 July 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -16964,6 +17009,59 @@
             {
               "url": "https://en.rua.gr/2026/10/07/rio-tanker-attacked-near-sochi-cypriot-trace-russian-oil-and-23-rescued-sailors",
               "source": "Athens News, 7 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6428024900,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6428024900",
+      "author": "iMariner",
+      "received_at": "2026-10-26T21:42:01Z",
+      "incident_id": "HIST-BS-20260720-NELSA",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-BS-20260720-NELSA",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-26T21:41:05Z",
+          "vessel_name": "NELSA",
+          "date_utc": "2026-07-20",
+          "vessel_type": "Crude oil tanker",
+          "region": "Black Sea",
+          "location_text": "At single point mooring SPM-1 of the CPC marine terminal off Novorossiysk, Russia",
+          "attack_type": "Drone strike by an aerial drone",
+          "summary": "NELSA, a Cameroon-flagged crude oil tanker of 156,760 deadweight, was struck by an aerial drone on 20 July 2026 while loading at single point mooring SPM-1 of the Caspian Pipeline Consortium marine terminal off Novorossiysk. The drone hit the starboard aft body and a fire broke out on deck and in the compartments between the superstructure and the engine and boiler space. The fire was put out within a few hours by the tanker's loading crew and CPC emergency response teams. The 22-person international crew was evacuated onto CPC tugs except the master and the chief mate, the tanker stayed afloat and no oil spill occurred. CPC called the strike a terrorist attack and Kazakhstan's foreign and energy ministries condemned it. No casualty figures were published by CPC, so deaths are recorded as unknown.",
+          "date_note": "CPC's release is dated 20 July 2026 and states the attack happened that day, the day after the strikes on ASIA and NISSOS IOS loading at SPM-1 and SPM-2 on 19 July. The Maritime Executive dates the NELSA hit to Monday 20 July.",
+          "sources": [
+            {
+              "url": "https://www.cpc.ru/EN/press/releases/2026/Pages/20260720.aspx",
+              "source": "Caspian Pipeline Consortium press release, 20 July 2026"
+            },
+            {
+              "url": "https://maritime-executive.com/article/three-tankers-attacked-while-loading-at-caspian-pipeline",
+              "source": "The Maritime Executive, 20 July 2026"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-10-26T21:41:05Z",
+          "text": "New reviewed historical record. The 20 July 2026 drone strike on the tanker NELSA while loading at CPC's SPM-1 was absent from both the incident corpus and the history store; the corpus held only an undated October headline about the tanker passing the Bosphorus, which belongs to this event. CPC's own release gives the date, the mooring, the point of impact, the fire, the evacuation of part of the 22-person crew onto CPC tugs and the absence of an oil spill. CPC published no casualty figures, so deaths are unknown, not zero. This is a separate ship from ASIA and NISSOS IOS, which were struck at the same terminal on 19 July, and from the later strikes there; nothing here is added to any theatre total.",
+          "sources": [
+            {
+              "url": "https://www.cpc.ru/EN/press/releases/2026/Pages/20260720.aspx",
+              "source": "Caspian Pipeline Consortium press release, 20 July 2026"
+            },
+            {
+              "url": "https://maritime-executive.com/article/three-tankers-attacked-while-loading-at-caspian-pipeline",
+              "source": "The Maritime Executive, 20 July 2026"
             }
           ]
         }
