@@ -378,12 +378,13 @@
       }
     ],
     "first_seen": "2026-10-25T22:46:41Z",
-    "last_updated": "2026-10-25T22:46:41Z",
+    "last_updated": "2026-10-26T01:34:46Z",
     "verification_issue": 247,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261023-002"
   },
   {
     "region": "Strait of Hormuz",
@@ -784,6 +785,46 @@
   },
   {
     "region": "Strait of Hormuz",
+    "date_utc": "2026-10-24",
+    "summary": "Iran said that two 'unauthorised' oil tankers were struck in the Strait of Hormuz. No vessel names, flags, positions, damage or casualty details were given, and the claim is Iran's alone.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Iran said the tankers were struck (Iran's account)",
+    "independent_evidence": false,
+    "id": "INC-20261024-010",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQTJmN3F0S0QtbGMtcjVoTzM1SDY2QWtTVGxIYzljenZLY1RSTThUSXIyTjBndnhCVEY2TnAyYXlpbDB4ajNDd0R6cnFjZW4xMU9GeUc2a1dIOVJoMk8wQWJUVGlHdW9CdzFRSjRZQU1vck9mYXN0REdtOU1KSWpIU2ZJUnBjeEJUVjBZbU5yMXFMNllCWFlIWEhpSU9SXzdDcy1uc0kyMEhBQmlk0gGsAUFVX3lxTE1BMmY3cXRLRC1sYy1yNWhPMzVINjZBa1NUbEhjOWN6dktjVFJNOFRJcjJOMGd2eEJURjZOcDJheWlsMHhqM0N3RHpycWNlbjExT0Z5RzZrV0g5UmgyTzBBYlRUaUd1b0J3MVFKNFlBTW9yT2Zhc3RER205TUpJakhTZklScGN4QlRWMFltTnIxcUw2WUJYWUhYSGlJT1JfN0NzLW5zSTIwSEFCaWQ?oc=5",
+        "source": "Africanews",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-24T09:34:04Z",
+        "title": "Two 'unauthorised' oil tankers struck in Strait of Hormuz, Iran says - Africanews"
+      }
+    ],
+    "first_seen": "2026-10-26T01:34:45Z",
+    "last_updated": "2026-10-26T01:34:45Z",
+    "verification_issue": 248,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
     "date_utc": "2026-10-23T15:54:13Z",
     "summary": "A headline reports an oil slick threatening an environmental disaster after a tanker was attacked in the Strait of Hormuz. No vessel name, date, position or attribution is given.",
     "official_source_cited": null,
@@ -1077,7 +1118,7 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-10-23",
-    "summary": "The general cargo ship Khoryv was struck by a drone and sank about 13 nautical miles off Constanța, Romania, on 23 October, killing one crew member and leaving three missing while nine were rescued. Romanian officials blamed Russia, and Russia's defence ministry separately claimed drone strikes on dry cargo vessels carrying cargo for Ukraine, including one bound for Chornomorsk.",
+    "summary": "The general cargo ship Khoryv was struck by a drone and sank about 13 nautical miles off Constanța, Romania, on 23 October, killing one crew member and leaving three missing while nine were rescued. Romanian officials blamed Russia, and Russia's defence ministry claimed its drones hit two cargo vessels in the same overnight attack, without naming the second ship.",
     "official_source_cited": "Romanian authorities",
     "conflicting": true,
     "confidence": 0.95,
@@ -1086,8 +1127,8 @@
     "flag": "Comoros",
     "vessel_type": "general cargo",
     "vessel_category": "merchant",
-    "lat": 46.3,
-    "lon": 30.66,
+    "lat": 44.17,
+    "lon": 28.66,
     "location_text": "off the coast of Romania, Black Sea",
     "attack_type": "drone (UAV)",
     "damage": "cargo ship sunk",
@@ -4146,10 +4187,19 @@
         "kind": "media",
         "published_at": "2026-10-25T15:30:18Z",
         "title": "Russia says it hit two cargo vessels and Ukrainian logistics hubs - ThePrint"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQc01oU2I2UWVObkVmenY3RUc4dnNDNnhHVzZXbE51MkhBX1Z1NU1WOHlwYk9JYXoyb1BKcDZJa0YtSU9VY2wxblk1dGRFcVVJS0NObk9tVnFXanFwSWZZMlVrUlM4WTVNSW1wQTBWNTVTRzE4aHNnMy1hcEJrRmN2SkZDRGtuR19fWTk2Q3lrLTV3WGV3YWs1TFJ2VkFtWTlmVm0ta1ZOTGdSZVh4cHRRNVI1VkxFYUdWMkpUa0Z2UkNYSXdrZXRtTld3VzJsMzNwNmVn?oc=5",
+        "source": "Prescott eNews",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-24T05:03:07Z",
+        "title": "A drone hit and sank a cargo vessel in new Black Sea attack near Romania, killing 1 - Associated Press - Prescott eNews"
       }
     ],
     "first_seen": "2026-10-23T11:59:27Z",
-    "last_updated": "2026-10-25T22:46:41Z",
+    "last_updated": "2026-10-26T01:34:46Z",
     "verification_issue": 230,
     "verdict": {
       "status": "confirmed",
