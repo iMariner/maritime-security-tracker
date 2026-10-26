@@ -7688,16 +7688,26 @@
         "kind": "media",
         "published_at": "2026-10-23T18:05:29Z",
         "title": "Oil spills from tanker as ships attacked - Daily Tribune"
+      },
+      {
+        "url": "https://www.ukmto.org/-/media/ukmto/products/20261021-ukmto_warning_179_26.pdf",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-26T04:35:39Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-21T12:16:33Z",
-    "last_updated": "2026-10-25T11:57:45Z",
+    "last_updated": "2026-10-26T04:35:39Z",
     "verification_issue": 217,
     "verdict": {
       "status": "confirmed",
-      "by": "editor-check",
-      "at": "2026-10-22T05:06:16Z",
-      "note": "UKMTO warning 179-26 reports the strike 11NM west of Bukha on 21 October and the IMO confirmed incidents list records AL DASMA damaged"
+      "by": "iMariner",
+      "at": "2026-10-26T04:35:39Z",
+      "note": "UKMTO warning 179-26 reports a tanker struck by an unknown projectile 11 nautical miles west of Bukha, Oman, on 21 October 2026, starting a fire that was extinguished with all crew safe.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/217#issuecomment-6408320693"
     },
     "published_in": [
       "2026-10-22",
@@ -7864,16 +7874,26 @@
         "kind": "media",
         "published_at": "2026-10-21T00:58:20Z",
         "title": "Yemen: Houthis Announce Strike on Saudi Oil Tanker, Military Build-Up in Hadramout - Yemen Online"
+      },
+      {
+        "url": "https://aljazeera.com/news/2026/8/24/yemens-houthis-report-attack-on-saudi-ship",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-26T04:35:38Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-21T17:37:25Z",
-    "last_updated": "2026-10-22T05:06:16Z",
+    "last_updated": "2026-10-26T04:35:38Z",
     "verification_issue": 219,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-22T05:06:16Z",
-      "note": "the Houthi claim on the tanker Amzan off Yanbu of 24 August, re-served by a Yemen Online page dated 25 August 2026"
+      "by": "iMariner",
+      "at": "2026-10-26T04:35:38Z",
+      "note": "Mis-dated: the Houthi claim matches the strike on the Saudi tanker Amzan about 63 nautical miles west of Yanbu on 24 August 2026, and no attack on a Saudi oil tanker was reported on 21 October.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/219#issuecomment-6408320922"
     },
     "published_in": [
       "2026-10-22"
@@ -8839,13 +8859,14 @@
       }
     ],
     "first_seen": "2026-10-21T12:16:29Z",
-    "last_updated": "2026-10-25T19:55:14Z",
+    "last_updated": "2026-10-26T04:35:41Z",
     "verification_issue": 214,
     "verdict": {
       "status": "confirmed",
-      "by": "editor-check",
-      "at": "2026-10-22T05:06:16Z",
-      "note": "UKMTO warning 180-26 reports the master's report of a strike 30NM southeast of Al Faw on 20 October, and Seatrade names the tanker Soyia"
+      "by": "iMariner",
+      "at": "2026-10-26T04:35:41Z",
+      "note": "UKMTO warning 180-26 reports the master's report of a tanker struck by an unknown projectile 30 nautical miles southeast of Al Faw, Iraq, on 20 October 2026.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/214#issuecomment-6408320471"
     },
     "published_in": [
       "2026-10-20",
@@ -8900,19 +8921,35 @@
         "kind": "media",
         "published_at": "2026-10-20T12:00:42Z",
         "title": "Drone-Hit Cargo Ship ABLE Sinks off Turkey After Leaving Bulgarian Waters - Novinite.com"
+      },
+      {
+        "url": "https://sofiaglobe.com/2026/10/13/new-drone-attacks-on-ships-in-bulgarias-black-sea-eez-one-sunk/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-26T04:35:45Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-20T17:29:41Z",
-    "last_updated": "2026-10-22T05:06:16Z",
+    "last_updated": "2026-10-26T04:35:45Z",
     "verification_issue": 208,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-26T04:35:45Z",
+      "note": "Mis-dated duplicate: the Able was severely damaged off Bulgaria on 6 October 2026 and did not sink, and that attack is already tracked as INC-20261006-011.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/208#issuecomment-6408320008"
+    },
     "published_in": [
       "2026-10-21",
       "2026-10-22"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261006-011"
+    "merged_into": "INC-20261006-011",
+    "status_changed_at": "2026-10-26T04:35:45Z"
   },
   {
     "region": "Black Sea",
@@ -9879,16 +9916,26 @@
         "kind": "media",
         "published_at": "2026-10-19T13:04:59Z",
         "title": "Rusya’da İHA saldırısına uğrayan ‘Nelsa’ isimli tanker İstanbul Boğazı’ndan geçti - Haberton"
+      },
+      {
+        "url": "https://www.aa.com.tr/en/world/caspian-pipeline-consortium-says-oil-tanker-attacked-by-drones-near-its-black-sea-terminal/4003496",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-26T04:35:43Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-21T00:05:17Z",
-    "last_updated": "2026-10-22T05:06:16Z",
+    "last_updated": "2026-10-26T04:35:43Z",
     "verification_issue": 211,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-22T05:06:16Z",
-      "note": "a transit report of the NELSA, struck near Novorossiysk on 20 July per the Caspian Pipeline Consortium, with no attack on 19 October"
+      "by": "iMariner",
+      "at": "2026-10-26T04:35:43Z",
+      "note": "Mis-dated: the NELSA was struck by a drone at the Caspian Pipeline Consortium terminal near Novorossiysk on 20 July 2026, and the 19 October report is only of the tanker transiting the Bosphorus.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/211#issuecomment-6408320250"
     },
     "published_in": [
       "2026-10-21",
