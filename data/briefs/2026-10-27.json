@@ -32,5 +32,33 @@
   "generated_at": "2026-10-27T04:40:28Z",
   "consistency_fixed": [],
   "consistency_problems": [],
-  "quality": "2 check(s) need attention: dates ok; attribution ok; official coverage 0/0 ok; verified 1/6; single-source items 3, 3 without verification; confirmed 1 marked confirmed without proof; fact-check 4 correction(s); tweet 245/280 ok; dashes ok; consistency ok"
+  "quality": "2 check(s) need attention: dates ok; attribution ok; official coverage 0/0 ok; verified 1/6; single-source items 3, 3 without verification; confirmed 1 marked confirmed without proof; fact-check 4 correction(s); tweet 245/280 ok; dashes ok; consistency ok",
+  "review": {
+    "status": "done",
+    "at": "2026-10-27T05:18:17Z",
+    "changes": [
+      "INC-20261026-010 separated from INC-20261026-005 (a vessel on fire 63 nautical miles southeast of Al-Faw, Iraq (UKMTO warning 183-26, 26 October) is a separate incident from the tanker disabled in the Strait of Hormuz on 23 October)",
+      "merged INC-20261027-001 into INC-20261026-010 (the Times of India headline describes the same vessel fire off Al-Faw that UKMTO reported on 26 October)",
+      "merged INC-20261026-011 into INC-20260923-001 (the TradeWinds headline is the bulk carrier Cape Dao, struck on 23 September, which sank east of Sohar on 14 October)",
+      "merged INC-20261026-003 into INC-20261021-008 (a headline version of Iran's cruise missile claim of 25 October already folded into this record, naming no merchant ship)",
+      "name of INC-20261026-005 cleared (the Cape Dao was struck on 23 September near Khasab; this record is the unnamed )",
+      "date of INC-20261026-005 set to 2026-10-23",
+      "damage of INC-20261026-005 set to disabled by an unknown projectile, all crew safe",
+      "INC-20261026-005 marked confirmed (UKMTO warning 182-26, a verified time-late report of the 23 October strike in the Strait of Hormuz)",
+      "lead story set to INC-20261023-002 (one seafarer killed and three missing, the most serious attack the tracker holds)",
+      "lesson (facts): A ship on fire in one sea is not the same attack as a ship disabled in another: merge two unnamed reports only when a so"
+    ],
+    "refused": [],
+    "notes": [
+      "The Cape Dao is not an attack of 26 October. She was struck on 23 September, one seafarer was killed, and she sank about 35 nautical miles east of Sohar on 14 October after salvage failed, as Lloyd's List reported on 26 October when she was declared a total loss. If she is mentioned at all, use those dates, that place and that death.",
+      "Keep the vessel on fire off Iraq as its own Persian Gulf item. UKMTO warning 183-26 reported it 63 nautical miles southeast of Al-Faw on 26 October from multiple third party reports, with the name, cause and crew status unknown, so do not credit Iran with it and do not call it a sinking.",
+      "The tanker of UKMTO warning 182-26 was struck at 0839 UTC on 23 October and UKMTO disclosed it on 26 October. Call her a tanker, never a bulk carrier, give her no name, do not say she sank, and say the report came three days late.",
+      "The Khoryv is an oil-bulk-ore carrier (VesselFinder, IMO 8138712), not a general cargo ship. Use that type in the headline, standfirst, lede, key points, her paragraph and the tweet, keep the headline at 80 characters or fewer, and keep one dead and three missing in the headline and lede."
+    ],
+    "restored": [
+      "INC-20261026-010"
+    ],
+    "send_after": false,
+    "lead": "INC-20261023-002"
+  }
 }
