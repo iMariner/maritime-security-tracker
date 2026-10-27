@@ -10593,6 +10593,78 @@
           ]
         }
       ]
+    },
+    "INC-20261026-005": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261026-ukmto_warning-182-26.pdf",
+            "source": "UKMTO warning 182-26, crew reported safe"
+          },
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/update-108-jmic-advisory-note-25-oct.pdf",
+            "source": "JMIC advisory update 108, no casualties reported"
+          }
+        ],
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-27T16:14:00Z",
+        "vessel_name": "LEONORA KOSAN",
+        "date_utc": "2026-10-23",
+        "vessel_type": "LPG tanker",
+        "region": "Strait of Hormuz",
+        "imo": "9390953",
+        "location_text": "6 nautical miles northeast of Limah, Oman",
+        "attack_type": "unknown projectile",
+        "summary": "LEONORA KOSAN, a Singapore-flagged LPG and ethylene carrier, was struck by an unknown projectile while transiting outbound in the Strait of Hormuz and was disabled, with the crew reported safe. The IMO confirmed incidents register records the attack on 23 October 2026, 6 nautical miles northeast of Limah, Oman, as damaged with no pollution.",
+        "date_note": "The IMO register dates the attack 23 October 2026 at 6 nautical miles northeast of Limah. UKMTO warning 182-26 gives 0839 UTC on 23 October with no position, and UKMTO warning 181-26, issued on 23 October, reports an LPG tanker hit at 1715 UTC on 22 October 7 nautical miles northeast of Limah. JMIC advisory update 108 dates that entry 23 October. The register's single new Limah row is treated as one attack, dated as the register and 182-26 print it; the corpus row for the earlier warning, INC-20261022-023, is merged and is not treated as a second attack.",
+        "sources": [
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO confirmed incidents register, 23 October 2026 row, read 27 October 2026"
+          },
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261026-ukmto_warning-182-26.pdf",
+            "source": "UKMTO warning 182-26, attack of 23 October 2026"
+          },
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/update-108-jmic-advisory-note-25-oct.pdf",
+            "source": "JMIC advisory update 108, 25 October 2026"
+          },
+          {
+            "url": "https://bwek.com/our-fleet",
+            "source": "BW Epic Kosan fleet list, vessel type and flag"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-27T16:14:00Z",
+          "text": "First reviewed record for this attack. The corpus entry had no vessel identity, was typed as a bulk carrier, and its summary mixed in the separate CAPE DAO sinking recorded in this register on 23 September, which is a different ship. The register now names the Limah attack as LEONORA KOSAN (IMO 9390953), damaged with no pollution. UKMTO tracked the strike in two products: 181-26 reported an LPG tanker hit at 1715 UTC on 22 October that was able to continue to its next port, and 182-26 reported the tanker disabled at 0839 UTC on 23 October with the crew safe. JMIC update 108 records the vessel at anchor off Khor Fakkan with no casualties and no environmental impact. Deaths are recorded as zero on the crew-safe and no-casualty statements; no nationality is recorded because none was reported.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents register, read 27 October 2026"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261026-ukmto_warning-182-26.pdf",
+              "source": "UKMTO warning 182-26"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-108-jmic-advisory-note-25-oct.pdf",
+              "source": "JMIC advisory update 108, 25 October 2026"
+            },
+            {
+              "url": "https://gcaptain.com/tanker-disabled-in-strait-of-hormuz-attack-another-vessel-reported-on-fire-in-persian-gulf/",
+              "source": "gCaptain, 26 October 2026, reporting both UKMTO products"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -17721,6 +17793,85 @@
             {
               "url": "https://intent.press/en/news/war/2026/two-boats-named-after-sailors-killed-in-the-mouth-of-the-bystrom-river",
               "source": "Intent, 24 February 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6447099339,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6447099339",
+      "author": "iMariner",
+      "received_at": "2026-10-27T16:11:04Z",
+      "incident_id": "INC-20261026-005",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261026-005",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-27T16:14:00Z",
+          "vessel_name": "LEONORA KOSAN",
+          "date_utc": "2026-10-23",
+          "vessel_type": "LPG tanker",
+          "region": "Strait of Hormuz",
+          "imo": "9390953",
+          "location_text": "6 nautical miles northeast of Limah, Oman",
+          "attack_type": "unknown projectile",
+          "summary": "LEONORA KOSAN, a Singapore-flagged LPG and ethylene carrier, was struck by an unknown projectile while transiting outbound in the Strait of Hormuz and was disabled, with the crew reported safe. The IMO confirmed incidents register records the attack on 23 October 2026, 6 nautical miles northeast of Limah, Oman, as damaged with no pollution.",
+          "date_note": "The IMO register dates the attack 23 October 2026 at 6 nautical miles northeast of Limah. UKMTO warning 182-26 gives 0839 UTC on 23 October with no position, and UKMTO warning 181-26, issued on 23 October, reports an LPG tanker hit at 1715 UTC on 22 October 7 nautical miles northeast of Limah. JMIC advisory update 108 dates that entry 23 October. The register's single new Limah row is treated as one attack, dated as the register and 182-26 print it; the corpus row for the earlier warning, INC-20261022-023, is merged and is not treated as a second attack.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents register, 23 October 2026 row, read 27 October 2026"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261026-ukmto_warning-182-26.pdf",
+              "source": "UKMTO warning 182-26, attack of 23 October 2026"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-108-jmic-advisory-note-25-oct.pdf",
+              "source": "JMIC advisory update 108, 25 October 2026"
+            },
+            {
+              "url": "https://bwek.com/our-fleet",
+              "source": "BW Epic Kosan fleet list, vessel type and flag"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261026-ukmto_warning-182-26.pdf",
+              "source": "UKMTO warning 182-26, crew reported safe"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-108-jmic-advisory-note-25-oct.pdf",
+              "source": "JMIC advisory update 108, no casualties reported"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-10-27T16:14:00Z",
+          "text": "First reviewed record for this attack. The corpus entry had no vessel identity, was typed as a bulk carrier, and its summary mixed in the separate CAPE DAO sinking recorded in this register on 23 September, which is a different ship. The register now names the Limah attack as LEONORA KOSAN (IMO 9390953), damaged with no pollution. UKMTO tracked the strike in two products: 181-26 reported an LPG tanker hit at 1715 UTC on 22 October that was able to continue to its next port, and 182-26 reported the tanker disabled at 0839 UTC on 23 October with the crew safe. JMIC update 108 records the vessel at anchor off Khor Fakkan with no casualties and no environmental impact. Deaths are recorded as zero on the crew-safe and no-casualty statements; no nationality is recorded because none was reported.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents register, read 27 October 2026"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261026-ukmto_warning-182-26.pdf",
+              "source": "UKMTO warning 182-26"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-108-jmic-advisory-note-25-oct.pdf",
+              "source": "JMIC advisory update 108, 25 October 2026"
+            },
+            {
+              "url": "https://gcaptain.com/tanker-disabled-in-strait-of-hormuz-attack-another-vessel-reported-on-fire-in-persian-gulf/",
+              "source": "gCaptain, 26 October 2026, reporting both UKMTO products"
             }
           ]
         }
