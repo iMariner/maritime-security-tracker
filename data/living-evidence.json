@@ -9117,23 +9117,28 @@
       },
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-22T19:25:00Z",
+        "checked_at": "2026-10-27T10:05:00Z",
         "vessel_name": "CHLOE",
         "date_utc": "2026-10-19",
         "vessel_type": "Crude oil tanker",
         "region": "Gulf of Oman",
-        "location_text": "121 nautical miles from the coast of Oman",
+        "location_text": "Approximately 121 nautical miles east of Duqm, Oman, which UKMTO and JMIC place in the Arabian Sea",
         "imo": "9315367",
-        "summary": "The IMO confirmed incidents list records CHLOE (IMO 9315367) damaged in the Gulf of Oman, 121 nautical miles from the coast of Oman, on 19 October 2026, with no pollution reported. Public register data identify IMO 9315367 as the crude oil tanker CHLOE, a 333 metre VLCC built in 2007 and sailing under the Hong Kong flag, with the former names MINERVA V, KASSOS I and SPYROS.",
-        "date_note": "Day precision only: the IMO list gives 19 October and no event time. The list prints the name as CHLOE (MIVERVA V); IMO 9315367 has MINERVA V among its recorded former names, so the parenthetical is read as that former name.",
+        "attack_type": "Military interaction with naval forces during blockade enforcement activity, which UKMTO and JMIC do not count as an attack",
+        "summary": "UKMTO advisory 178-26, received on 20 October 2026, reports that on 19 October a tanker identified by the IMO as the CHLOE was subject to interaction with military forces as part of ongoing blockade activity in the region, approximately 121 nautical miles east of Duqm, Oman, and that no crew injuries were reported. JMIC's advisory note update 107 lists the event as a military interaction, not an attack, and does not count it in its attack tally. The IMO confirmed incidents list prints CHLOE (MIVERVA V), IMO 9315367, dated 19 October, 121 nautical miles from the coast of Oman, damaged with no pollution. Public register data identify IMO 9315367 as the crude oil tanker CHLOE, a 333 metre VLCC built in 2007 sailing under the Hong Kong flag, with the recorded former names MINERVA V, KASSOS I and SPYROS.",
+        "date_note": "Day precision only: the event is dated 19 October 2026 in both the UKMTO advisory and the IMO list, and the advisory was received on 20 October. No event time is printed. The IMO list spells the parenthetical name MIVERVA V; MINERVA V is a recorded former name of IMO 9315367.",
         "sources": [
           {
             "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incidents list, checked 22 October 2026"
+            "source": "IMO confirmed incidents list, checked 27 October 2026"
+          },
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/update-107-jmic-advisory-note-22-oct.pdf",
+            "source": "JMIC advisory note update 107, 22 October 2026, summarising UKMTO advisory 178-26"
           },
           {
             "url": "https://www.vesselfinder.com/vessels/details/9315367",
-            "source": "VesselFinder particulars and name history for IMO 9315367, checked 22 October 2026"
+            "source": "VesselFinder particulars and name history for IMO 9315367, checked 27 October 2026"
           }
         ]
       },
@@ -9149,6 +9154,20 @@
             {
               "url": "https://www.vesselfinder.com/vessels/details/9315367",
               "source": "VesselFinder particulars and name history for IMO 9315367, checked 22 October 2026"
+            }
+          ]
+        },
+        {
+          "at": "2026-10-27T10:05:00Z",
+          "text": "Follow-up to the first review of this record. JMIC advisory note update 107 records UKMTO advisory 178-26 as a military interaction east of Duqm on 19 October, as part of blockade enforcement activity, with no crew injuries reported, and states that the advisory is not counted as an attack. The IMO list separately prints the vessel as damaged with no pollution. The record now carries the event type as a military interaction rather than an attack. Deaths stay unknown rather than zero: no source states a vessel-wide casualty count, and a report of no crew injuries is not a settled zero-death finding. No nationality is recorded.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-107-jmic-advisory-note-22-oct.pdf",
+              "source": "JMIC advisory note update 107, 22 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents list, checked 27 October 2026"
             }
           ]
         }
@@ -17462,6 +17481,102 @@
             {
               "url": "https://www.hindustantimes.com/india-news/indian-seafarer-killed-in-torpedo-attack-on-ship-mv-cape-dao-near-oman-antigua-barbuda-flagged-vessel-101790169379670.html",
               "source": "Hindustan Times, 24 September 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6438950906,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6438950906",
+      "author": "iMariner",
+      "received_at": "2026-10-27T10:04:16Z",
+      "incident_id": "INC-20261019-018",
+      "before": {
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-22T19:25:00Z",
+          "vessel_name": "CHLOE",
+          "date_utc": "2026-10-19",
+          "vessel_type": "Crude oil tanker",
+          "region": "Gulf of Oman",
+          "location_text": "121 nautical miles from the coast of Oman",
+          "imo": "9315367",
+          "summary": "The IMO confirmed incidents list records CHLOE (IMO 9315367) damaged in the Gulf of Oman, 121 nautical miles from the coast of Oman, on 19 October 2026, with no pollution reported. Public register data identify IMO 9315367 as the crude oil tanker CHLOE, a 333 metre VLCC built in 2007 and sailing under the Hong Kong flag, with the former names MINERVA V, KASSOS I and SPYROS.",
+          "date_note": "Day precision only: the IMO list gives 19 October and no event time. The list prints the name as CHLOE (MIVERVA V); IMO 9315367 has MINERVA V among its recorded former names, so the parenthetical is read as that former name.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents list, checked 22 October 2026"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9315367",
+              "source": "VesselFinder particulars and name history for IMO 9315367, checked 22 October 2026"
+            }
+          ]
+        },
+        "updates": [
+          {
+            "at": "2026-10-22T19:25:00Z",
+            "text": "First structured review of this record. The IMO confirmed incidents list records CHLOE, IMO 9315367, as damaged 121 nautical miles from the coast of Oman on 19 October 2026 with no pollution. Register data confirm that IMO as the crude oil tanker CHLOE under the Hong Kong flag. The sources say nothing about crew casualties, so deaths are recorded as unknown rather than zero and no nationality is recorded.",
+            "sources": [
+              {
+                "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+                "source": "IMO confirmed incidents list, checked 22 October 2026"
+              },
+              {
+                "url": "https://www.vesselfinder.com/vessels/details/9315367",
+                "source": "VesselFinder particulars and name history for IMO 9315367, checked 22 October 2026"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "INC-20261019-018",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-27T10:05:00Z",
+          "vessel_name": "CHLOE",
+          "date_utc": "2026-10-19",
+          "vessel_type": "Crude oil tanker",
+          "region": "Gulf of Oman",
+          "location_text": "Approximately 121 nautical miles east of Duqm, Oman, which UKMTO and JMIC place in the Arabian Sea",
+          "imo": "9315367",
+          "attack_type": "Military interaction with naval forces during blockade enforcement activity, which UKMTO and JMIC do not count as an attack",
+          "summary": "UKMTO advisory 178-26, received on 20 October 2026, reports that on 19 October a tanker identified by the IMO as the CHLOE was subject to interaction with military forces as part of ongoing blockade activity in the region, approximately 121 nautical miles east of Duqm, Oman, and that no crew injuries were reported. JMIC's advisory note update 107 lists the event as a military interaction, not an attack, and does not count it in its attack tally. The IMO confirmed incidents list prints CHLOE (MIVERVA V), IMO 9315367, dated 19 October, 121 nautical miles from the coast of Oman, damaged with no pollution. Public register data identify IMO 9315367 as the crude oil tanker CHLOE, a 333 metre VLCC built in 2007 sailing under the Hong Kong flag, with the recorded former names MINERVA V, KASSOS I and SPYROS.",
+          "date_note": "Day precision only: the event is dated 19 October 2026 in both the UKMTO advisory and the IMO list, and the advisory was received on 20 October. No event time is printed. The IMO list spells the parenthetical name MIVERVA V; MINERVA V is a recorded former name of IMO 9315367.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents list, checked 27 October 2026"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-107-jmic-advisory-note-22-oct.pdf",
+              "source": "JMIC advisory note update 107, 22 October 2026, summarising UKMTO advisory 178-26"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9315367",
+              "source": "VesselFinder particulars and name history for IMO 9315367, checked 27 October 2026"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-10-27T10:05:00Z",
+          "text": "Follow-up to the first review of this record. JMIC advisory note update 107 records UKMTO advisory 178-26 as a military interaction east of Duqm on 19 October, as part of blockade enforcement activity, with no crew injuries reported, and states that the advisory is not counted as an attack. The IMO list separately prints the vessel as damaged with no pollution. The record now carries the event type as a military interaction rather than an attack. Deaths stay unknown rather than zero: no source states a vessel-wide casualty count, and a report of no crew injuries is not a settled zero-death finding. No nationality is recorded.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-107-jmic-advisory-note-22-oct.pdf",
+              "source": "JMIC advisory note update 107, 22 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents list, checked 27 October 2026"
             }
           ]
         }
