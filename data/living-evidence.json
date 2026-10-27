@@ -1332,28 +1332,53 @@
     "HIST-ME-20261003-GHANA-PROSPERITY": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T03:06:19.845439+00:00",
+        "checked_at": "2026-10-27T16:11:16Z",
         "vessel_name": "GHANA PROSPERITY",
         "date_utc": "2026-10-03",
-        "vessel_type": "crude oil tanker",
+        "vessel_type": "Crude oil tanker",
         "region": "Strait of Hormuz",
+        "imo": "9732541",
         "location_text": "Strait of Hormuz",
-        "summary": "IMO records GHANA PROSPERITY in its confirmed incident register for 2026-10-03 near Strait of Hormuz. Vessel damage was reported.",
+        "attack_type": "unknown",
+        "summary": "GHANA PROSPERITY, a Liberia-flagged VLCC crude oil tanker, was damaged in the Strait of Hormuz on 3 October 2026. The IMO confirmed incidents register lists her as damaged with no pollution. JMIC advisory update 108 records that NAVAREA IX warning 404/26 placed the tanker at anchor about 4.5 nautical miles south of Jazirat Musandam on 24 October, describing her as previously involved in a security incident.",
+        "date_note": "Day-precision date from the IMO confirmed incidents register, which gives no UTC event time. The vessel remained afloat and at anchor three weeks later.",
         "sources": [
           {
             "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 21 October 2026"
+            "source": "IMO confirmed incidents register, 3 October 2026 row, read 27 October 2026"
           },
           {
-            "source": "INTERTANKO member fleet register",
-            "url": "https://www.intertanko.com/about-us/membership/fleet-search"
+            "url": "https://www.ukmto.org/-/media/ukmto/products/update-108-jmic-advisory-note-25-oct.pdf",
+            "source": "JMIC advisory update 108, 25 October 2026, citing NAVAREA IX 404/26"
+          },
+          {
+            "url": "https://www.vesselfinder.com/vessels/details/9732541",
+            "source": "VesselFinder vessel record for GHANA PROSPERITY, IMO 9732541, Liberia"
           }
-        ],
-        "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
-        "imo": "9732541"
+        ]
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+      ],
+      "updates": [
+        {
+          "at": "2026-10-27T16:11:16Z",
+          "text": "Follow-up on the 3 October strike. JMIC update 108 reports that NAVAREA IX warning 404/26 placed the tanker at anchor about 4.5 nautical miles south of Jazirat Musandam on 24 October, after the earlier security incident, so the vessel was not lost. The UAE said on 23 October that oil pollution had reached the Umm Al Quwain coast from a tanker damaged in an earlier attack, but neither the UAE ministry nor JMIC identified that tanker, and the spill is not attributed to GHANA PROSPERITY here. No injury, missing-person or nationality claim is added; none was reported.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-108-jmic-advisory-note-25-oct.pdf",
+              "source": "JMIC advisory update 108, 25 October 2026"
+            },
+            {
+              "url": "https://www.reuters.com/business/environment/uae-says-tanker-oil-spill-affects-beaches-umm-al-quwain-2026-10-23",
+              "source": "Reuters, 23 October 2026, UAE oil spill statement"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents register, read 27 October 2026"
+            }
+          ]
+        }
       ]
     },
     "HIST-ME-20261002-UHUD": {
@@ -17872,6 +17897,88 @@
             {
               "url": "https://gcaptain.com/tanker-disabled-in-strait-of-hormuz-attack-another-vessel-reported-on-fire-in-persian-gulf/",
               "source": "gCaptain, 26 October 2026, reporting both UKMTO products"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6447103891,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6447103891",
+      "author": "iMariner",
+      "received_at": "2026-10-27T16:11:16Z",
+      "incident_id": "HIST-ME-20261003-GHANA-PROSPERITY",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T03:06:19.845439+00:00",
+          "vessel_name": "GHANA PROSPERITY",
+          "date_utc": "2026-10-03",
+          "vessel_type": "crude oil tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "Strait of Hormuz",
+          "summary": "IMO records GHANA PROSPERITY in its confirmed incident register for 2026-10-03 near Strait of Hormuz. Vessel damage was reported.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            },
+            {
+              "source": "INTERTANKO member fleet register",
+              "url": "https://www.intertanko.com/about-us/membership/fleet-search"
+            }
+          ],
+          "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
+          "imo": "9732541"
+        },
+        "audit_notes": [
+          "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+        ]
+      },
+      "change": {
+        "incident_id": "HIST-ME-20261003-GHANA-PROSPERITY",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-27T16:11:16Z",
+          "vessel_name": "GHANA PROSPERITY",
+          "date_utc": "2026-10-03",
+          "vessel_type": "Crude oil tanker",
+          "region": "Strait of Hormuz",
+          "imo": "9732541",
+          "location_text": "Strait of Hormuz",
+          "attack_type": "unknown",
+          "summary": "GHANA PROSPERITY, a Liberia-flagged VLCC crude oil tanker, was damaged in the Strait of Hormuz on 3 October 2026. The IMO confirmed incidents register lists her as damaged with no pollution. JMIC advisory update 108 records that NAVAREA IX warning 404/26 placed the tanker at anchor about 4.5 nautical miles south of Jazirat Musandam on 24 October, describing her as previously involved in a security incident.",
+          "date_note": "Day-precision date from the IMO confirmed incidents register, which gives no UTC event time. The vessel remained afloat and at anchor three weeks later.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents register, 3 October 2026 row, read 27 October 2026"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-108-jmic-advisory-note-25-oct.pdf",
+              "source": "JMIC advisory update 108, 25 October 2026, citing NAVAREA IX 404/26"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9732541",
+              "source": "VesselFinder vessel record for GHANA PROSPERITY, IMO 9732541, Liberia"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-10-27T16:11:16Z",
+          "text": "Follow-up on the 3 October strike. JMIC update 108 reports that NAVAREA IX warning 404/26 placed the tanker at anchor about 4.5 nautical miles south of Jazirat Musandam on 24 October, after the earlier security incident, so the vessel was not lost. The UAE said on 23 October that oil pollution had reached the Umm Al Quwain coast from a tanker damaged in an earlier attack, but neither the UAE ministry nor JMIC identified that tanker, and the spill is not attributed to GHANA PROSPERITY here. No injury, missing-person or nationality claim is added; none was reported.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-108-jmic-advisory-note-25-oct.pdf",
+              "source": "JMIC advisory update 108, 25 October 2026"
+            },
+            {
+              "url": "https://www.reuters.com/business/environment/uae-says-tanker-oil-spill-affects-beaches-umm-al-quwain-2026-10-23",
+              "source": "Reuters, 23 October 2026, UAE oil spill statement"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents register, read 27 October 2026"
             }
           ]
         }
