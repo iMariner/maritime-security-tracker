@@ -10525,6 +10525,74 @@
           ]
         }
       ]
+    },
+    "HIST-BS-20250723-INGULSKY": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 3,
+        "sources": [
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Ukrainian Sea Ports Authority presentation, 23 April 2026: 3 of 11 crew died"
+          },
+          {
+            "url": "https://dredgingtoday.com/2025/08/04/explosion-kills-three-and-sinks-dredger-ingulskiy-in-ukraine",
+            "source": "DredgingToday, 4 August 2025: official information that three crew members died"
+          },
+          {
+            "url": "https://intent.press/en/news/war/2026/two-boats-named-after-sailors-killed-in-the-mouth-of-the-bystrom-river",
+            "source": "Intent, 24 February 2026: the explosion killed three USPA employees"
+          }
+        ],
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-27T10:05:00Z",
+        "vessel_name": "INGULSKY",
+        "date_utc": "2025-07-23",
+        "vessel_type": "Dredger",
+        "region": "Black Sea",
+        "location_text": "Bystre sea approach channel, Danube delta near Vylkove, Odesa region, Ukraine",
+        "imo": "9646912",
+        "attack_type": "Explosion of an unidentified explosive device in the channel; a mine is suspected in Ukrainian reporting, and no attacker is established",
+        "summary": "The Ukrainian Sea Ports Authority states that at about 22:30 on 23 July 2025 its dredger INGULSKY, IMO 9646912, flag Ukraine, owned by the state enterprise's Delta-pilot branch, exploded on an unidentified explosive device in the Bystre sea approach channel. The vessel was holed and sank partially to starboard. Of the 11 crew on board, three died and eight were rescued, four of them injured, according to the authority's detailed account. DredgingToday reported the authority's confirmation that three crew members died and that the others were taken to hospital, and noted that local media suggested a naval mine while the cause remained under investigation. Ukrainian reporting in February 2026 recorded that the authority had named small survey boats after the three dead employees and said the dredger struck a mine; the same report said the vessel was raised in September 2025. The sources do not identify an attacker.",
+        "date_note": "Day precision only. The authority gives about 22:30 local time on 23 July 2025; Ukrainian local time was UTC+3 that day, so the explosion was about 19:30 UTC on the same date. The tracker keeps the reported calendar date.",
+        "sources": [
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Ukrainian Sea Ports Authority presentation, 23 April 2026, incident page on the Ingulsky"
+          },
+          {
+            "url": "https://dredgingtoday.com/2025/08/04/explosion-kills-three-and-sinks-dredger-ingulskiy-in-ukraine",
+            "source": "DredgingToday, 4 August 2025, reporting USPA confirmation"
+          },
+          {
+            "url": "https://intent.press/en/news/war/2026/two-boats-named-after-sailors-killed-in-the-mouth-of-the-bystrom-river",
+            "source": "Intent, 24 February 2026, reporting USPA head Mykola Kravchuk"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-27T10:05:00Z",
+          "text": "New historical record for a Black Sea event that was held pending reconciliation. The Ukrainian Sea Ports Authority and later Ukrainian reporting establish that the state-owned dredger INGULSKY, IMO 9646912, exploded on an unidentified device in the Bystre approach channel on 23 July 2025 with 11 crew on board, and that three crew members died. Deaths are recorded as three, not as a minimum, because the authority's account and the two later reports agree on that figure. No nationality is recorded: the dead were described only as employees of the Ukrainian state port authority, which is not a nationality finding. No injured snapshot is submitted because the authority's own summary slide says eight injured while its detailed account says four injured among the eight rescued; that conflict is left unresolved rather than picked. The cause and any attacker remain unestablished. The dredger is a state-owned port authority workboat rather than a trading cargo ship, and it is recorded here as a dredger so that it is not read as part of the merchant cargo fleet.",
+          "sources": [
+            {
+              "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+              "source": "Ukrainian Sea Ports Authority presentation, 23 April 2026"
+            },
+            {
+              "url": "https://dredgingtoday.com/2025/08/04/explosion-kills-three-and-sinks-dredger-ingulskiy-in-ukraine",
+              "source": "DredgingToday, 4 August 2025"
+            },
+            {
+              "url": "https://intent.press/en/news/war/2026/two-boats-named-after-sailors-killed-in-the-mouth-of-the-bystrom-river",
+              "source": "Intent, 24 February 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -17577,6 +17645,82 @@
             {
               "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
               "source": "IMO confirmed incidents list, checked 27 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6438969297,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6438969297",
+      "author": "iMariner",
+      "received_at": "2026-10-27T10:05:06Z",
+      "incident_id": "HIST-BS-20250723-INGULSKY",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-BS-20250723-INGULSKY",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-27T10:05:00Z",
+          "vessel_name": "INGULSKY",
+          "date_utc": "2025-07-23",
+          "vessel_type": "Dredger",
+          "region": "Black Sea",
+          "location_text": "Bystre sea approach channel, Danube delta near Vylkove, Odesa region, Ukraine",
+          "imo": "9646912",
+          "attack_type": "Explosion of an unidentified explosive device in the channel; a mine is suspected in Ukrainian reporting, and no attacker is established",
+          "summary": "The Ukrainian Sea Ports Authority states that at about 22:30 on 23 July 2025 its dredger INGULSKY, IMO 9646912, flag Ukraine, owned by the state enterprise's Delta-pilot branch, exploded on an unidentified explosive device in the Bystre sea approach channel. The vessel was holed and sank partially to starboard. Of the 11 crew on board, three died and eight were rescued, four of them injured, according to the authority's detailed account. DredgingToday reported the authority's confirmation that three crew members died and that the others were taken to hospital, and noted that local media suggested a naval mine while the cause remained under investigation. Ukrainian reporting in February 2026 recorded that the authority had named small survey boats after the three dead employees and said the dredger struck a mine; the same report said the vessel was raised in September 2025. The sources do not identify an attacker.",
+          "date_note": "Day precision only. The authority gives about 22:30 local time on 23 July 2025; Ukrainian local time was UTC+3 that day, so the explosion was about 19:30 UTC on the same date. The tracker keeps the reported calendar date.",
+          "sources": [
+            {
+              "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+              "source": "Ukrainian Sea Ports Authority presentation, 23 April 2026, incident page on the Ingulsky"
+            },
+            {
+              "url": "https://dredgingtoday.com/2025/08/04/explosion-kills-three-and-sinks-dredger-ingulskiy-in-ukraine",
+              "source": "DredgingToday, 4 August 2025, reporting USPA confirmation"
+            },
+            {
+              "url": "https://intent.press/en/news/war/2026/two-boats-named-after-sailors-killed-in-the-mouth-of-the-bystrom-river",
+              "source": "Intent, 24 February 2026, reporting USPA head Mykola Kravchuk"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 3,
+          "sources": [
+            {
+              "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+              "source": "Ukrainian Sea Ports Authority presentation, 23 April 2026: 3 of 11 crew died"
+            },
+            {
+              "url": "https://dredgingtoday.com/2025/08/04/explosion-kills-three-and-sinks-dredger-ingulskiy-in-ukraine",
+              "source": "DredgingToday, 4 August 2025: official information that three crew members died"
+            },
+            {
+              "url": "https://intent.press/en/news/war/2026/two-boats-named-after-sailors-killed-in-the-mouth-of-the-bystrom-river",
+              "source": "Intent, 24 February 2026: the explosion killed three USPA employees"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-10-27T10:05:00Z",
+          "text": "New historical record for a Black Sea event that was held pending reconciliation. The Ukrainian Sea Ports Authority and later Ukrainian reporting establish that the state-owned dredger INGULSKY, IMO 9646912, exploded on an unidentified device in the Bystre approach channel on 23 July 2025 with 11 crew on board, and that three crew members died. Deaths are recorded as three, not as a minimum, because the authority's account and the two later reports agree on that figure. No nationality is recorded: the dead were described only as employees of the Ukrainian state port authority, which is not a nationality finding. No injured snapshot is submitted because the authority's own summary slide says eight injured while its detailed account says four injured among the eight rescued; that conflict is left unresolved rather than picked. The cause and any attacker remain unestablished. The dredger is a state-owned port authority workboat rather than a trading cargo ship, and it is recorded here as a dredger so that it is not read as part of the merchant cargo fleet.",
+          "sources": [
+            {
+              "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+              "source": "Ukrainian Sea Ports Authority presentation, 23 April 2026"
+            },
+            {
+              "url": "https://dredgingtoday.com/2025/08/04/explosion-kills-three-and-sinks-dredger-ingulskiy-in-ukraine",
+              "source": "DredgingToday, 4 August 2025"
+            },
+            {
+              "url": "https://intent.press/en/news/war/2026/two-boats-named-after-sailors-killed-in-the-mouth-of-the-bystrom-river",
+              "source": "Intent, 24 February 2026"
             }
           ]
         }
