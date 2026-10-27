@@ -1,5 +1,73 @@
 [
   {
+    "region": "Black Sea",
+    "date_utc": "2026-10-27T17:48:58Z",
+    "summary": "A Turkish headline reports that a tanker which had been attacked by a drone in the Black Sea transited the Bosphorus, and that the Istanbul Strait was closed to traffic for its passage. No vessel name, flag, date or position of the attack is given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 41.2,
+    "lon": 29.12,
+    "location_text": "Black Sea (attack location not specified); vessel transiting the Bosphorus, Istanbul",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "date_approx": true,
+    "id": "INC-20261027-004",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTVFqa3FSLWw0dXg5Y2FBNDNkS1kxRm1qSE9rcXZxYldEanhRQUlGMW5qSDJnRDFwYkVhaG5SUTV4QXJXTVJmc1pJQWhfWFhud3lFVjFIZkF6MDNTdS1Rb0pZNWs1WlBOcXpmUFByb2lVbC1rX0FCTjRtQTltYTNvd0RrU3ZzRFNCMVBmckNoakF2N19ZYjdtS01uc2hzYXN5VXJz?oc=5",
+        "source": "Haber Expres",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-27T17:48:58Z",
+        "title": "Dron saldırısına uğrayan tanker için İstanbul Boğazı kapatıldı - Güncel - Görsel - Haber Expres"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcTNCMUhjT25mc19NZlR0WkczT1A5aGdaUEw2cGh5MXpyb2hJcGlzS2ppS3BMU0YwTy1UTGNWZkk4eGtISC1EUEpzN1hDTy00a1NHVHNab0NYcHM2V2U5dzlCNVRxdWQtZXlPNmZuX1JGczNRZ3RJekxPTk53WENYMFhoYUM5dkJORHNNWHFVVVoycXAxM2pidHNGaXA1a0dUTUU0Y2xBRWpTVmRfMGdkZlJnSFZsd3JrY1NQUjNtZjVwQ0p2Nklib0drVVBfYUpvRVE?oc=5",
+        "source": "Cumhuriyet",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-27T16:58:00Z",
+        "title": "Karadeniz'de saldırıya uğramıştı: Tankerin geçişi nedeniyle İstanbul Boğazı trafiğe kapandı - Cumhuriyet"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTFUzcFdGS1B4QnFwbjhWTjFMTVgwcVRUOXQ2czRpYkdjaDhHOURabkROcnRsWGlNMEJIQTFocTBGbzBYSjJhYXozQ1hpX2d5bGIzVEVHX1NFMERUXzVvQW16Rkp4c3dKU2p6QTgycjVtVDc2czlvclBEb0d1Y2Q3QUN5Yktfb09kekNkVzhScmJvSU9rUGQtWHJRNElzOHRqQWJveA?oc=5",
+        "source": "Ege Alternatif",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-27T16:52:00Z",
+        "title": "Dron saldırısı gören tankerin geçişi boğazı trafiğe kapattı - Ege Alternatif"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQLWljVHdPQ2lNcFo2SWJvM3ZlUUZTejFRN01XMHJnUHp6WktMeWlYRnp2WTRiVUNfR3VHTjlhaktEMmc2MnpkbG14dXlKVjZrWkgtMDl0VUE1enRwdE5kb09kaVQ4RzNrc1dwQW8teHE1V0czdXpadjJQOWl2QkZadnJRek5YbUNXbE5maGg1NUowVkVpdVFVU0FsZkNlSFJVZzRybk92bkhkWWZNVGx4ZlZSYmlocDhxb0hIcGhxanJVVHA1aEZQUkRUZWxuaF9SbUxNVVgyUQ?oc=5",
+        "source": "turkhaber.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-27T16:42:50Z",
+        "title": "Karadeniz’de dron saldırısına uğrayan tankerin geçişi nedeniyle İstanbul Boğazı trafiğe kapandı - turkhaber.com"
+      }
+    ],
+    "first_seen": "2026-10-27T18:14:43Z",
+    "last_updated": "2026-10-27T18:14:43Z",
+    "verification_issue": 260,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
     "region": "Strait of Hormuz",
     "date_utc": "2026-10-27",
     "summary": "A Times of India headline says Iran hit a 'US-linked' ship near an allied Arab nation, with the crew's fate unknown and 'suspicious activity' reported. No vessel name, flag, position, date or damage details are given, and the claim is attributed only in the headline.",
@@ -171,6 +239,136 @@
   },
   {
     "region": "Black Sea",
+    "date_utc": "2026-10-27",
+    "summary": "Russia's defence ministry said its drones struck a dry cargo vessel at sea that was delivering cargo intended for Ukraine's armed forces to Odesa port. The ministry also said it hit a Ukrainian electronics plant in Kharkiv region; no vessel name, flag, position, damage details or casualties were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 46.49,
+    "lon": 30.74,
+    "location_text": "at sea, en route to Odesa port, Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": "struck at sea, according to Russia's defence ministry",
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry claimed it",
+    "independent_evidence": false,
+    "id": "INC-20261027-005",
+    "sources": [
+      {
+        "url": "https://t.me/mod_russia/68583",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-27T15:39:23+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTTFHS0JlVTlDb2prQjdWcHZyUXZ2aHM5THhYVWFlUmlvdTlZbjFUai1vZmxJUXAxNWV4OHhaRDNBT1NsdW1Kek1ESTdhQ0UtTXQ3VU5IZmxNS3RRWGJSZHEyNkY2TzBucnp2OFQxRmNtSjZmSHdPU2NBQTBuVi1KMVBTcWU3SUNQYmtlVXV6SHV2bWxYdmVKSEZrOUtqbzdnbER3b3NQaFFsZjYxb1BzZA?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-26T18:41:33Z",
+        "title": "Russia claims more attacks on Black Sea dry cargo vessels - TradeWinds News"
+      }
+    ],
+    "first_seen": "2026-10-27T18:14:45Z",
+    "last_updated": "2026-10-27T18:14:50Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261026-002",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-27",
+    "summary": "Hürriyet reported in a headline that a ship struck a mine in the Strait of Hormuz. No vessel name, flag, position, damage or casualty details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "mine",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261027-006",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQOHhlNEhHTHprc1Y1amtnRGxnWUJpRHFNczV0RFh2d29jYks0NGtwajBBQ3V2UkYtQzhMRDlWUUVtOHVQRlhnSm96Z3JNRkpUbHk3NWlQT2MyUjBReUgyVVoxVlJBeG9xci01cDA2OWtNNTE1WnZoY01MWDhGd2trb0Z4SWhSN0dlWkE?oc=5",
+        "source": "Hürriyet",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-27T13:06:23Z",
+        "title": "Hürmüz Boğazı'nda bir gemi mayına çarptı - Hürriyet"
+      }
+    ],
+    "first_seen": "2026-10-27T18:14:46Z",
+    "last_updated": "2026-10-27T18:14:46Z",
+    "verification_issue": 261,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-27",
+    "summary": "A Benzinga headline reports a vessel strike near Iran in the Strait of Hormuz, alongside a risk analyst's comment that Iran has always had the ability to shut down the strait. No vessel name, flag, position, damage or casualty details are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.4,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "near Iran, Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261027-007",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxON2w1WnRsUzRWSTk4QzI2WVNBVUdNaFU1WU1DNEkxM1czb29tZHQwZ3JFRnZ6aEp5VjY0SndZVHE5Y3VLeXdMTHBoWkJrUThyWjloNENmd2xid25BQW9MVGxMalI0ZkRFRGt1NUlaX3VSdlkwRjhuaktqazFYSVNVTE0zSWVzR3ExRmVkbjZKMWdSMG5MQ084U1Z2MmF0N2xISlNjcERzaWJFTzhvdnN4a0E3dFh5RmJsQnV3MU1oRzV5SDJVd2JwZGNqdGlYS29xOFNUY01CZF95Yl9xdG4zcC0wVkNyMTRKUjhiZVpVd1NnR08xcm9zZDk0Q2tRZmpvSVlyRVBMV0tZbHVvMzJXNkFxU0tMakhDWG5kQUh4WkowRlR3b3VveXRTVTNZc3Yt?oc=5",
+        "source": "Benzinga",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-27T11:28:10Z",
+        "title": "Iran ‘Always’ Had Ability to Shut Down Strait of Hormuz, Top Risk Analyst Says Amid Vessel Strike Near Ir - Benzinga"
+      }
+    ],
+    "first_seen": "2026-10-27T18:14:49Z",
+    "last_updated": "2026-10-27T18:14:49Z",
+    "verification_issue": 262,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
     "date_utc": "2026-10-26T04:24:00Z",
     "summary": "A Turkish headline reports that a ship reached the waters off Giresun after being attacked by a drone. No vessel name, flag, date or position of the attack is given.",
     "official_source_cited": null,
@@ -255,7 +453,7 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-10-26",
-    "summary": "Russia's defence ministry claimed its drones struck dry cargo vessels bound for Odesa and Chornomorsk carrying military equipment for Ukraine, and also hit port infrastructure and warehouses at Chornomorsk. No vessel names, flags, positions, damage or casualties were given, and the claims come from the Russian side only.",
+    "summary": "Russia's defence ministry claimed its drones struck dry cargo vessels bound for Odesa and Chornomorsk carrying military equipment for Ukraine, and also hit port infrastructure and warehouses at Chornomorsk. A follow-up claim said drones hit a dry cargo vessel delivering cargo for Ukraine's armed forces to Odesa port; no vessel names, flags, positions, damage or casualties were given and the claims come from the Russian side only.",
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.65,
@@ -435,10 +633,28 @@
         "kind": "media",
         "published_at": "2026-10-27T06:07:03+00:00",
         "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/68583",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-27T15:39:23+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTTFHS0JlVTlDb2prQjdWcHZyUXZ2aHM5THhYVWFlUmlvdTlZbjFUai1vZmxJUXAxNWV4OHhaRDNBT1NsdW1Kek1ESTdhQ0UtTXQ3VU5IZmxNS3RRWGJSZHEyNkY2TzBucnp2OFQxRmNtSjZmSHdPU2NBQTBuVi1KMVBTcWU3SUNQYmtlVXV6SHV2bWxYdmVKSEZrOUtqbzdnbER3b3NQaFFsZjYxb1BzZA?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-26T18:41:33Z",
+        "title": "Russia claims more attacks on Black Sea dry cargo vessels - TradeWinds News"
       }
     ],
     "first_seen": "2026-10-26T06:53:41Z",
-    "last_updated": "2026-10-27T12:37:48Z",
+    "last_updated": "2026-10-27T18:14:50Z",
     "verification_issue": 250,
     "verdict": null,
     "published_in": [
@@ -878,6 +1094,143 @@
     "status": "merged",
     "position_approx": true,
     "merged_into": "INC-20260923-001"
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-26",
+    "summary": "A projectile strike disabled a tanker in the Strait of Hormuz on 26 October, and Lloyd's List reported the bulk carrier Cape Dao sank after the attack. UKMTO also reported a vessel on fire off Iraq's Al-Faw coast in the Persian Gulf the same day, with no name, cause or casualties given.",
+    "official_source_cited": "UKMTO",
+    "conflicting": false,
+    "confidence": 0.7,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "bulk carrier",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": "disabled by an unknown projectile, all crew safe",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261026-005",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbjNFbmpQTWRHUU9xdkxfUzRuaG5KekR3S09EdmpCUnFXTHFQdDl4SXpkeWRtdWpLRGdCRmo2czBRV3VlVlZXM1JoV1RGMFlNNS1QSXhEVEFTdmdnZ04teHRGcnBnNG51TjVONXB4ZWxwTjFwZlRtZzlIUTNEVjh3TzVyODUxRWFqSndVRw?oc=5",
+        "source": "Lloyd's List",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-26T14:00:43Z",
+        "title": "Bulk carrier Cape Dao sinks after Hormuz attack - Lloyd's List"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTjd1SjFyMDRfc0hZNzBtbjNzemE3UmFoa3BhalM5akphSmZ5V1RSZUdXeDdQbGJmX3VDYm95SUFDNk5ZdHpfMjFMSUEwOWVXcGJoMF9BUktyd0dwR0RPR0E0OGhESnI2WXFZT2dfc3YyR2RhSWtFRXV5aHpqcDgxcHBoWl90dHBYdmFEdXRIVQ?oc=5",
+        "source": "Quantum Commodity Intelligence",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-26T14:22:21Z",
+        "title": "UKMTO reports more tankers struck in Hormuz - Quantum Commodity Intelligence"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZEprbHIwTWxhV2FkbjhtVEo0MGdIaHRIaHVNR01uLVlqRnl6RDdKUkUwTndpYVVoa3lVRENtQmFPdWZlVWdHcVZsUEdRMDQxMG03NkU3cjZxNjVrNU5KcXpsR19kSE5DdGdHZ2NlSnlKWDdpbU9XZ0F6UnZhaER3dVlObWwxYVlqMkZrV0dKMFA1dVhIdjBzalVn?oc=5",
+        "source": "Arab Times Kuwait News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-26T10:23:43Z",
+        "title": "Tanker Disabled by Projectile Strike in Strait of Hormuz - Arab Times Kuwait News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZUtXcE8wUHkyRXVxcFkxMXhXTFZVV3E1R2Zqc180cnpxY3ZGU0hHVmxuVGQyaE9kMnVIMWF4b0plOU16M1U3N3RoOThMRl8yZVpTZW0zeXkzaFBya3NHNTV2X1N4c1pqcXYtVFNyOHA1dkpNUXVkUDc5THB6RmNidEw4RnJ1QzdKSXk5YzJoeGlCRDNCeEdBRzV5TDZTVEc1TmVvY3U3bkpTLTE0ZlljQjdzZ2pXWVV3amg4?oc=5",
+        "source": "WANA News Agency",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-26T11:58:49Z",
+        "title": "Explosion Reported in Sirik Following Reports of Anti-Ship Missile Launches in the Strait of Hormuz - WANA News Agency"
+      },
+      {
+        "url": "https://gcaptain.com/tanker-disabled-in-strait-of-hormuz-attack-another-vessel-reported-on-fire-in-persian-gulf/",
+        "source": "gcaptain.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-27T05:18:17Z",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQc0dsNUwwMFNORWQ4dGpBQUFidFdTLWJOUjh2UDBESFlRdHhQYkk4cVRqWlhGN1VHbFlsTmNLbGcwaVB5RjhTWjJMYUdlN2tvNnNQbTlocERmOUkwdjFKcHdfQmZ1bHI3Z0RGeHNid0h0VV9XUUU2VHU1c2Nza2ZUUHpuazNSQ2tJLWQ1eFczX1F5M3N2WkxTQ1l4QXhtU2JnRFhzQzFVdXp3bC1XZVBmcktKNS1vbDlO?oc=5",
+        "source": "EnergyNow",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-26T23:03:45Z",
+        "title": "New Report of Attack on Strait of Hormuz Shipping Fans fears of Threats to Oil Supplies - EnergyNow"
+      }
+    ],
+    "first_seen": "2026-10-26T14:32:27Z",
+    "last_updated": "2026-10-27T18:14:50Z",
+    "verification_issue": 252,
+    "verdict": {
+      "status": "confirmed",
+      "by": "editor-check",
+      "at": "2026-10-27T05:18:17Z",
+      "note": "UKMTO warning 182-26, a verified time-late report of the 23 October strike in the Strait of Hormuz"
+    },
+    "published_in": [
+      "2026-10-27"
+    ],
+    "status": "confirmed",
+    "date_approx": false,
+    "position_approx": true,
+    "keep_apart": [
+      "INC-20261026-010"
+    ],
+    "vessel_name": "Cape Dao"
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-26",
+    "summary": "An EnergyNow headline reports a new attack on shipping in the Strait of Hormuz, raising fears for oil supplies. No vessel name, flag, position, damage or casualty details are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.4,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261026-012",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQc0dsNUwwMFNORWQ4dGpBQUFidFdTLWJOUjh2UDBESFlRdHhQYkk4cVRqWlhGN1VHbFlsTmNLbGcwaVB5RjhTWjJMYUdlN2tvNnNQbTlocERmOUkwdjFKcHdfQmZ1bHI3Z0RGeHNid0h0VV9XUUU2VHU1c2Nza2ZUUHpuazNSQ2tJLWQ1eFczX1F5M3N2WkxTQ1l4QXhtU2JnRFhzQzFVdXp3bC1XZVBmcktKNS1vbDlO?oc=5",
+        "source": "EnergyNow",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-26T23:03:45Z",
+        "title": "New Report of Attack on Strait of Hormuz Shipping Fans fears of Threats to Oil Supplies - EnergyNow"
+      }
+    ],
+    "first_seen": "2026-10-27T18:14:49Z",
+    "last_updated": "2026-10-27T18:14:50Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261026-005",
+    "position_approx": true
   },
   {
     "region": "Black Sea",
@@ -1976,92 +2329,6 @@
     "status": "merged",
     "merged_into": "INC-20261023-002",
     "position_approx": true
-  },
-  {
-    "region": "Strait of Hormuz",
-    "date_utc": "2026-10-23",
-    "summary": "A projectile strike disabled a tanker in the Strait of Hormuz on 26 October, and Lloyd's List reported the bulk carrier Cape Dao sank after the attack. UKMTO also reported a vessel on fire off Iraq's Al-Faw coast in the Persian Gulf the same day, with no name, cause or casualties given.",
-    "official_source_cited": "UKMTO",
-    "conflicting": false,
-    "confidence": 0.7,
-    "imo": null,
-    "flag": null,
-    "vessel_type": "bulk carrier",
-    "vessel_category": "merchant",
-    "lat": 26.55,
-    "lon": 56.35,
-    "location_text": "Strait of Hormuz",
-    "attack_type": "other",
-    "damage": "disabled by an unknown projectile, all crew safe",
-    "casualties": null,
-    "attribution_claimed": null,
-    "independent_evidence": true,
-    "id": "INC-20261026-005",
-    "sources": [
-      {
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbjNFbmpQTWRHUU9xdkxfUzRuaG5KekR3S09EdmpCUnFXTHFQdDl4SXpkeWRtdWpLRGdCRmo2czBRV3VlVlZXM1JoV1RGMFlNNS1QSXhEVEFTdmdnZ04teHRGcnBnNG51TjVONXB4ZWxwTjFwZlRtZzlIUTNEVjh3TzVyODUxRWFqSndVRw?oc=5",
-        "source": "Lloyd's List",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-26T14:00:43Z",
-        "title": "Bulk carrier Cape Dao sinks after Hormuz attack - Lloyd's List"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTjd1SjFyMDRfc0hZNzBtbjNzemE3UmFoa3BhalM5akphSmZ5V1RSZUdXeDdQbGJmX3VDYm95SUFDNk5ZdHpfMjFMSUEwOWVXcGJoMF9BUktyd0dwR0RPR0E0OGhESnI2WXFZT2dfc3YyR2RhSWtFRXV5aHpqcDgxcHBoWl90dHBYdmFEdXRIVQ?oc=5",
-        "source": "Quantum Commodity Intelligence",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-26T14:22:21Z",
-        "title": "UKMTO reports more tankers struck in Hormuz - Quantum Commodity Intelligence"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZEprbHIwTWxhV2FkbjhtVEo0MGdIaHRIaHVNR01uLVlqRnl6RDdKUkUwTndpYVVoa3lVRENtQmFPdWZlVWdHcVZsUEdRMDQxMG03NkU3cjZxNjVrNU5KcXpsR19kSE5DdGdHZ2NlSnlKWDdpbU9XZ0F6UnZhaER3dVlObWwxYVlqMkZrV0dKMFA1dVhIdjBzalVn?oc=5",
-        "source": "Arab Times Kuwait News",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-26T10:23:43Z",
-        "title": "Tanker Disabled by Projectile Strike in Strait of Hormuz - Arab Times Kuwait News"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZUtXcE8wUHkyRXVxcFkxMXhXTFZVV3E1R2Zqc180cnpxY3ZGU0hHVmxuVGQyaE9kMnVIMWF4b0plOU16M1U3N3RoOThMRl8yZVpTZW0zeXkzaFBya3NHNTV2X1N4c1pqcXYtVFNyOHA1dkpNUXVkUDc5THB6RmNidEw4RnJ1QzdKSXk5YzJoeGlCRDNCeEdBRzV5TDZTVEc1TmVvY3U3bkpTLTE0ZlljQjdzZ2pXWVV3amg4?oc=5",
-        "source": "WANA News Agency",
-        "source_type": "news",
-        "side": "unknown",
-        "kind": "media",
-        "published_at": "2026-10-26T11:58:49Z",
-        "title": "Explosion Reported in Sirik Following Reports of Anti-Ship Missile Launches in the Strait of Hormuz - WANA News Agency"
-      },
-      {
-        "url": "https://gcaptain.com/tanker-disabled-in-strait-of-hormuz-attack-another-vessel-reported-on-fire-in-persian-gulf/",
-        "source": "gcaptain.com",
-        "source_type": "media",
-        "side": "neutral",
-        "kind": "media",
-        "published_at": "2026-10-27T05:18:17Z",
-        "title": null
-      }
-    ],
-    "first_seen": "2026-10-26T14:32:27Z",
-    "last_updated": "2026-10-27T05:18:17Z",
-    "verification_issue": 252,
-    "verdict": {
-      "status": "confirmed",
-      "by": "editor-check",
-      "at": "2026-10-27T05:18:17Z",
-      "note": "UKMTO warning 182-26, a verified time-late report of the 23 October strike in the Strait of Hormuz"
-    },
-    "published_in": [
-      "2026-10-27"
-    ],
-    "status": "confirmed",
-    "date_approx": false,
-    "position_approx": true,
-    "keep_apart": [
-      "INC-20261026-010"
-    ]
   },
   {
     "region": "Strait of Hormuz",
