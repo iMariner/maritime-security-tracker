@@ -44,6 +44,46 @@
   },
   {
     "region": "Black Sea",
+    "date_utc": "2026-10-27",
+    "summary": "Russia's defence ministry said its forces carried out a massed overnight strike with precision ground-based weapons and drones, hitting Ukrainian military-industrial facilities, transport infrastructure in Kyiv, a logistics centre in Kharkiv region and sea vessels used in the interests of Ukraine's armed forces. No vessel name, flag, position, damage or casualty details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea, at sea (location not specified)",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry claimed it struck sea vessels used in the interests of Ukraine's armed forces",
+    "independent_evidence": false,
+    "id": "INC-20261027-002",
+    "sources": [
+      {
+        "url": "https://t.me/mod_russia/68574",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-27T05:06:57+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-10-27T05:30:04Z",
+    "last_updated": "2026-10-27T05:30:04Z",
+    "verification_issue": 258,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
     "date_utc": "2026-10-26T04:24:00Z",
     "summary": "A Turkish headline reports that a ship reached the waters off Giresun after being attacked by a drone. No vessel name, flag, date or position of the attack is given.",
     "official_source_cited": null,
@@ -603,10 +643,19 @@
         "kind": "media",
         "published_at": "2026-10-27T02:00:25Z",
         "title": "Iran Hits 'US-Linked' Ship Near Ally Arab Nation; Crew Fate Unknown; 'Suspicious Activity' Reported - The Times of India"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNLWl3VTVNNlloQjhVT1Z3VkdVdXhFcGl0QzJ1Q1FtNk1tYTBtdHh6d2plTjd2b3Y1NmFWcTJ1UFd1bmxoVzlobUkxbDZ5cmFPcEJsLTFHeG92blg4RzFYWVItOXcwV3dGY3Jta3YxOHhjZWk5blUyYjRBeTlWOVktQmJPYjVrVDdMZEgtZlRsN0F4c2NxZExWVVBDYmM2TVZFMmdZWXQ1aGhTYnpQM1E5Q3NXc29WaTNmSXV0UWwydFREb2M?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-26T19:26:39Z",
+        "title": "Vessel on fire after off Iraq as Middle East war nears eight-month mark - TradeWinds News"
       }
     ],
     "first_seen": "2026-10-26T20:06:50Z",
-    "last_updated": "2026-10-27T05:18:17Z",
+    "last_updated": "2026-10-27T05:30:04Z",
     "verification_issue": 255,
     "verdict": null,
     "published_in": [
@@ -1068,6 +1117,46 @@
     "status": "merged",
     "position_approx": true,
     "merged_into": "INC-20261023-002"
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-25",
+    "summary": "A headline reports a Russian strike in the Black Sea targeting a cargo ship and Ukrainian military supply centres in a wide attack. No vessel name, flag, position, damage or casualty details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea (location not specified)",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Russia (Russian strike, per headline)",
+    "independent_evidence": false,
+    "id": "INC-20261025-005",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lZnVXTzRZdjIzX1UyYWFOZnFlNmFUOFg2ZlF6Y09SdUNRWHNIV3VjaHZpNXowSDhPbU1LbS1DeElJMWw1V2RMN2RjTUVFUnA3clpPZktzSGJJdmN0ZU9zbjJYZ1bSAV9BVV95cUxQYWhMMTFWZzlKcjl6UHhka2Q1ekMwUHQyWDJ3b2dVWFY4ZmVybGY4b3VLejJjUjFWck5adC1EQjVKN2tkb3VSb0xqUzNCcWpMX1VmZ0s2bnEyY2NpU1pQcw?oc=5",
+        "source": "مأرب برس",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-25T06:27:06Z",
+        "title": "ضربة روسية في البحر الأسود.. استهداف سفينة شحن ومراكز إمداد عسكري أوكرانية في هجوم واسع - مأرب برس"
+      }
+    ],
+    "first_seen": "2026-10-27T05:30:04Z",
+    "last_updated": "2026-10-27T05:30:04Z",
+    "verification_issue": 259,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
   },
   {
     "region": "Strait of Hormuz",
