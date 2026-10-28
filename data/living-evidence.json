@@ -10833,6 +10833,32 @@
           ]
         }
       ]
+    },
+    "INC-20261026-010": {
+      "updates": [
+        {
+          "at": "2026-10-28T10:34:21Z",
+          "text": "Checked on 28 October 2026 and no new confirmed detail could be added. UKMTO warning 183-26, issued on 26 October, recorded multiple third party reports of a vessel on fire about 63 nautical miles south east of Al Faw in Iraq and classified the report as suspicious activity, while stating that the vessel's identity, the cause of the fire, the extent of damage, the crew's condition and any environmental impact were all unknown. MSCIO alert 155/26, published on 27 October, repeats those facts for an incident on 26 October. The IMO confirmed incidents list, read on 28 October, prints 121 confirmed incidents and 24 confirmed seafarer fatalities as at 27 October and its most recent entry is LEONORA KOSAN on 23 October, so it carries no row for this fire. Trade reporting describes the fire as suspected Iranian action, but no authority has confirmed a cause or an attacker. No checked source names the vessel or reports a casualty, so deaths and the crew's status stay unknown rather than zero, and no nationality is recorded. The row stays without a verification assertion and no count is submitted here.",
+          "sources": [
+            {
+              "url": "https://mscio.eu/alerts/191",
+              "source": "Maritime Security Centre Indian Ocean alert 155/26, issued 27 October 2026 on the 26 October report southeast of Al-Faw"
+            },
+            {
+              "url": "https://arabtimesonline.com/news/vessel-reported-on-fire-southeast-of-iraqs-al-faw-peninsula",
+              "source": "Arab Times, 26 October 2026, quoting UKMTO warning 183-26"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents list, read 28 October 2026: 121 confirmed incidents and 24 seafarer fatalities as at 27 October, latest entry 23 October"
+            },
+            {
+              "url": "https://maritime-executive.com/article/fire-reported-on-tanker-off-the-coast-of-iraq",
+              "source": "The Maritime Executive, 26 October 2026, reporting the fire as suspected Iranian action without official confirmation"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -18417,6 +18443,39 @@
             {
               "url": "https://swissinfo.ch/spa/un-buque-franc%C3%A9s-derrib%C3%B3-en-octubre-un-misil-cerca-de-un-cazaminas-belga-en-bab-el-mandeb/92274889",
               "source": "EFE news agency, 26 October 2026, citing Belgian news agency Belga"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6466725474,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6466725474",
+      "author": "iMariner",
+      "received_at": "2026-10-28T10:34:27Z",
+      "incident_id": "INC-20261026-010",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261026-010",
+        "update": {
+          "at": "2026-10-28T10:34:21Z",
+          "text": "Checked on 28 October 2026 and no new confirmed detail could be added. UKMTO warning 183-26, issued on 26 October, recorded multiple third party reports of a vessel on fire about 63 nautical miles south east of Al Faw in Iraq and classified the report as suspicious activity, while stating that the vessel's identity, the cause of the fire, the extent of damage, the crew's condition and any environmental impact were all unknown. MSCIO alert 155/26, published on 27 October, repeats those facts for an incident on 26 October. The IMO confirmed incidents list, read on 28 October, prints 121 confirmed incidents and 24 confirmed seafarer fatalities as at 27 October and its most recent entry is LEONORA KOSAN on 23 October, so it carries no row for this fire. Trade reporting describes the fire as suspected Iranian action, but no authority has confirmed a cause or an attacker. No checked source names the vessel or reports a casualty, so deaths and the crew's status stay unknown rather than zero, and no nationality is recorded. The row stays without a verification assertion and no count is submitted here.",
+          "sources": [
+            {
+              "url": "https://mscio.eu/alerts/191",
+              "source": "Maritime Security Centre Indian Ocean alert 155/26, issued 27 October 2026 on the 26 October report southeast of Al-Faw"
+            },
+            {
+              "url": "https://arabtimesonline.com/news/vessel-reported-on-fire-southeast-of-iraqs-al-faw-peninsula",
+              "source": "Arab Times, 26 October 2026, quoting UKMTO warning 183-26"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents list, read 28 October 2026: 121 confirmed incidents and 24 seafarer fatalities as at 27 October, latest entry 23 October"
+            },
+            {
+              "url": "https://maritime-executive.com/article/fire-reported-on-tanker-off-the-coast-of-iraq",
+              "source": "The Maritime Executive, 26 October 2026, reporting the fire as suspected Iranian action without official confirmation"
             }
           ]
         }
