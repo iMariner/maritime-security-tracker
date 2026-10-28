@@ -9437,6 +9437,28 @@
               "source": "Constanta.info, 25 October 2026: search suspended on 24 October at 18:04 because of poor visibility"
             }
           ]
+        },
+        {
+          "at": "2026-10-28T23:02:00Z",
+          "text": "Follow-up on the wreck, not a change to the casualty figures. Bulgarian NAVWARN 758/26, received on 27 October and updated on 28 October 2026, reports KHORYV (IMO 8138712) sighted at 1800 UTC on 28 October capsized, semi-submerged and drifting without crew or lights in position 43 30.60 N 028 43.69 E east of Shabla, a navigational danger, with mariners told to keep a safety distance of five cables. Bulgaria's Ministry of Transport and Communications said the capsized vessel was under real time surveillance as it entered Bulgaria's zone of responsibility, that notices to mariners would be issued and that a navy vessel would be sent to inspect the ship. BGNES reported the same entry into Bulgaria's exclusive economic zone and repeated the toll of one dead, three missing and nine rescued, while 24 Chasa reported the corvette Reshitelni working the area and that extreme technical measures could follow. No source read for this update reports the three missing found or any additional death, so the recorded toll stands at one death and three missing, and no pollution has been confirmed.",
+          "sources": [
+            {
+              "url": "https://www.mtc.government.bg/en/category/1/authorities-are-monitoring-movement-capsized-vessel-khoryv-and-are-prepared-measures-ensure-navigational-safety",
+              "source": "Bulgarian Ministry of Transport and Communications, statement on the capsized Khoryv"
+            },
+            {
+              "url": "https://www.sealagom.com/coastal/127/message/49468/758-26-semi-submerged/",
+              "source": "Bulgarian NAVWARN 758/26 reproduced by SeaLagom, received 27 October, updated 28 October 2026"
+            },
+            {
+              "url": "https://www.bgnes.com/conflicts/capsized-cargo-ship-khoryv-enters-bulgaria-s-exclusive-economic-zone",
+              "source": "BGNES, 28 October 2026, citing Bulgarian National Television"
+            },
+            {
+              "url": "https://www.24chasa.bg/bulgaria/article/23825257",
+              "source": "24 Chasa, 28 October 2026, on the corvette Reshitelni and possible technical measures"
+            }
+          ]
         }
       ]
     },
@@ -18757,6 +18779,227 @@
             {
               "url": "https://www.rivieramm.com/news-content-hub/vessel-on-fire-and-adrift-after-attack-in-strait-of-hormuz-90086",
               "source": "Riviera, September 2026: at least one seafarer died and another was injured"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6482799317,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6482799317",
+      "author": "iMariner",
+      "received_at": "2026-10-28T22:54:22Z",
+      "incident_id": "INC-20261023-002",
+      "before": {
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 1,
+          "minimum": true,
+          "nationalities": [
+            {
+              "nationality": "Ukrainian",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "url": "https://www.ukrinform.ua/amp/rubric-society/4177561-vnaslidok-zatoplenna-sudna-poblizu-konstanci-zaginuv-ukrainskij-morak-mzs.html",
+                  "source": "Ukrinform reporting the Ukrainian Ministry of Foreign Affairs, 23 October 2026"
+                },
+                {
+                  "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059450",
+                  "source": "Ukrainska Pravda reporting the Ukrainian Ministry of Foreign Affairs, 23 October 2026"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://agerpres.ro/english/2026/10/23/major-rescue-operation-offshore-of-constanta-for-crew-of-vessel-at-risk-of-sinking-one-dead--1606115",
+              "source": "Agerpres, quoting the Romanian Naval Authority, 23 October 2026: one body recovered from the water"
+            },
+            {
+              "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059450",
+              "source": "Ukrainska Pravda reporting the Ukrainian Ministry of Foreign Affairs, 23 October 2026"
+            }
+          ]
+        },
+        "human_impact": {
+          "missing": {
+            "count": 3,
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "url": "https://www.sealagom.com/coastal/34/message/48769/155-26-black-sea/",
+                "source": "Romanian hydrographic warning ARN 155/2026, published 25 October 2026: three crew members reported missing"
+              },
+              {
+                "url": "https://en.usm.media/search-for-three-sailors-from-sunken-khoryv-suspended-in-black-sea/",
+                "source": "Ukrainian Shipping Magazine, 25 October 2026, reporting Constanta.info: search for the three missing suspended on 24 October"
+              },
+              {
+                "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059450",
+                "source": "Ukrainska Pravda reporting the Ukrainian Ministry of Foreign Affairs, 23 October 2026: the three missing are Ukrainian"
+              },
+              {
+                "url": "https://report.az/en/foreign-politics/mfa-all-three-azerbaijani-citizens-rescued-after-attack-on-vessel-off-romania",
+                "source": "Report.az carrying Azerbaijan's foreign ministry statement, 23 October 2026: all three Azerbaijani crew were rescued, so none of them is among the missing"
+              }
+            ]
+          },
+          "injured": {
+            "count": 5,
+            "as_of": "2026-10-23",
+            "sources": [
+              {
+                "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059450",
+                "source": "Ukrainska Pravda reporting the Ukrainian Ministry of Foreign Affairs, 23 October 2026: four Ukrainians including the master taken to hospital"
+              },
+              {
+                "url": "https://report.az/en/foreign-politics/mfa-all-three-azerbaijani-citizens-rescued-after-attack-on-vessel-off-romania",
+                "source": "Report.az carrying Azerbaijan's foreign ministry statement, 23 October 2026: one Azerbaijani crew member with minor injuries, examined and accommodated in a hotel"
+              }
+            ]
+          }
+        },
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-26T09:30:00Z",
+          "vessel_name": "KHORYV",
+          "imo": "8138712",
+          "date_utc": "2026-10-23",
+          "vessel_type": "Ore/oil carrier",
+          "region": "Black Sea",
+          "location_text": "About 13 nautical miles east of Constanta, outside Romanian territorial waters, at 44 06.59 N 029 01.10 E",
+          "attack_type": "drone (UAV)",
+          "summary": "KHORYV, a Comoros-flagged ore/oil carrier of 3,280 dwt built in 1983, was 13 nautical miles off Constanta en route from Eregli to Sulina when it sent a distress signal at about 10:00 local time on 23 October 2026 and caught fire. Romania's Naval Authority said the 13 crew were 10 Ukrainian and 3 Azerbaijani nationals, that intervention vessels recovered nine people alive and one body from the water, and that three crew were still missing while the search continued in poor weather. The ship capsized and lay upside down, and Romanian hydrographic warning ARN 153/2026 gave its position as 44 06.59 N 029 01.10 E. Ukraine's Ministry of Foreign Affairs said the dead seafarer was a Ukrainian citizen, that four Ukrainians including the master were taken to hospital, that two Ukrainians needed no medical treatment and that the three crew still missing are Ukrainian. Azerbaijan's Ministry of Foreign Affairs said all three Azerbaijani crew were rescued and that one of them had minor injuries, was examined and was accommodated in a hotel. Romania's president, Nicusor Dan, said the vessel had been struck by a drone; the naval authority's statement did not establish the cause.",
+          "date_note": "Romanian local time on 23 October is UTC+3, so the 10:00 distress call was about 07:00 UTC on the same day. The day-precision UTC date is kept as reported. Ukraine's ministry put the crew at 14 while Romania's naval authority reported 13; the difference stays recorded and unresolved.",
+          "sources": [
+            {
+              "url": "https://agerpres.ro/english/2026/10/23/major-rescue-operation-offshore-of-constanta-for-crew-of-vessel-at-risk-of-sinking-one-dead--1606115",
+              "source": "Agerpres, quoting the Romanian Naval Authority, 23 October 2026"
+            },
+            {
+              "url": "https://agerpres.ro/english/2026/10/23/incident-at-sea-nine-sailors-rescued-after-vessel-sinking-brought-to-port-of-constanta--1606234",
+              "source": "Agerpres, nine rescued brought to Constanta, 23 October 2026"
+            },
+            {
+              "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059450",
+              "source": "Ukrainska Pravda reporting the Ukrainian Ministry of Foreign Affairs, 23 October 2026: one dead Ukrainian, four Ukrainians including the master hospitalised, three Ukrainian crew members missing"
+            },
+            {
+              "url": "https://www.ukrinform.ua/amp/rubric-society/4177561-vnaslidok-zatoplenna-sudna-poblizu-konstanci-zaginuv-ukrainskij-morak-mzs.html",
+              "source": "Ukrinform reporting the Ukrainian Ministry of Foreign Affairs, 23 October 2026"
+            },
+            {
+              "url": "https://report.az/en/foreign-politics/mfa-all-three-azerbaijani-citizens-rescued-after-attack-on-vessel-off-romania",
+              "source": "Report.az carrying Azerbaijan's foreign ministry statement, 23 October 2026: all three Azerbaijani crew rescued, one with minor injuries"
+            },
+            {
+              "url": "https://www.seanews.com.tr/article/khoryv-capsizes-after-departing-from-ereli-mvltalid",
+              "source": "SeaNews quoting Romanian hydrographic warning ARN 153/2026 and Interfax-Ukraine, 24 October 2026"
+            },
+            {
+              "url": "https://www.sealagom.com/coastal/34/message/48769/155-26-black-sea/",
+              "source": "Romanian hydrographic warning ARN 155/2026, published 25 October 2026, as reprinted by the SeaLagom coastal service: M/V KHORYV at 43 55.25 N 028 57.40 E at 09:00 UTC on 25 October, afloat and capsized, three crew reported missing, one nautical mile keep clear"
+            }
+          ]
+        },
+        "updates": [
+          {
+            "at": "2026-10-23T13:43:32Z",
+            "text": "First reviewed living record for this sinking, checked against the Romanian Naval Authority communique as carried by Agerpres and Ziua de Constanta. One death is confirmed because one body was recovered; the three crew still missing are recorded as a dated missing snapshot, not as deaths, and the confirmed death count is flagged as a minimum while the search continues. The authority gave the crew as 10 Ukrainians and 3 Azerbaijanis but did not attribute a nationality to the dead or the missing, so no nationality count is recorded for the death. Vessel name, flag and type were checked against the AIS registry entry. No image is published.",
+            "sources": [
+              {
+                "url": "https://agerpres.ro/english/2026/10/23/major-rescue-operation-offshore-of-constanta-for-crew-of-vessel-at-risk-of-sinking-one-dead--1606115",
+                "source": "Agerpres, 23 October 2026"
+              },
+              {
+                "url": "https://www.vesselfinder.com/vessels/details/8138712",
+                "source": "VesselFinder particulars"
+              }
+            ]
+          },
+          {
+            "at": "2026-10-24T08:55:00Z",
+            "text": "Ukraine's Ministry of Foreign Affairs identified the one confirmed death as a Ukrainian citizen, so a single Ukrainian death is now sourced rather than the nationality being left open. The ministry put the crew at 14 while Romania's Naval Authority reported 13, but its own breakdown, one dead, three missing, four hospitalised including the master and two Ukrainians unhurt, accounts for exactly the ten Ukrainian crew Romania listed, so the crew-count difference stays recorded and unresolved rather than averaged. The ministry said the three crew still missing are Ukrainian. On 24 October the search for the three continued; no further body has been reported and one death remains a confirmed minimum for the vessel, not a settled whole-crew total.",
+            "sources": [
+              {
+                "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059450",
+                "source": "Ukrainska Pravda reporting the Ukrainian Ministry of Foreign Affairs, 23 October 2026"
+              },
+              {
+                "url": "https://www.ukrinform.ua/amp/rubric-society/4177561-vnaslidok-zatoplenna-sudna-poblizu-konstanci-zaginuv-ukrainskij-morak-mzs.html",
+                "source": "Ukrinform reporting the Ukrainian Ministry of Foreign Affairs, 23 October 2026"
+              },
+              {
+                "url": "https://agerpres.ro/english/2026/10/23/major-rescue-operation-offshore-of-constanta-for-crew-of-vessel-at-risk-of-sinking-one-dead--1606115",
+                "source": "Agerpres, quoting the Romanian Naval Authority, 23 October 2026"
+              },
+              {
+                "url": "https://www.seanews.com.tr/article/khoryv-capsizes-after-departing-from-ereli-mvltalid",
+                "source": "SeaNews quoting Romanian hydrographic warning ARN 153/2026 and Interfax-Ukraine, 24 October 2026"
+              }
+            ]
+          },
+          {
+            "at": "2026-10-25T21:30:00Z",
+            "text": "Follow-up on a record reviewed on 24 October. Two sourced facts are added. Azerbaijan's foreign ministry said all three Azerbaijani crew members were rescued and that one of them had minor injuries; that removes any doubt over who the three missing men are, since Ukraine's ministry had already said the three still missing are Ukrainian, and it is why the missing snapshot now carries the Azerbaijani statement as well. An injured snapshot of five is recorded for the first time: four Ukrainians including the master were taken to hospital, and the Azerbaijani seafarer was examined and lodged in a hotel without admission. The death count stays at one and keeps its minimum qualifier, because three men are still missing and no further body has been reported; the search continued in poor weather into 25 October. The crew total remains unresolved at 13 by Romania's naval authority against 14 by Ukraine's ministry. Nothing here is added together: the missing are not counted as deaths. No image is added.",
+            "sources": [
+              {
+                "url": "https://report.az/en/foreign-politics/mfa-all-three-azerbaijani-citizens-rescued-after-attack-on-vessel-off-romania",
+                "source": "Report.az carrying Azerbaijan's foreign ministry statement, 23 October 2026"
+              },
+              {
+                "url": "https://www.pravda.com.ua/eng/news/2026/10/23/8059450",
+                "source": "Ukrainska Pravda reporting the Ukrainian Ministry of Foreign Affairs, 23 October 2026"
+              },
+              {
+                "url": "https://agerpres.ro/english/2026/10/23/major-rescue-operation-offshore-of-constanta-for-crew-of-vessel-at-risk-of-sinking-one-dead--1606115",
+                "source": "Agerpres, quoting the Romanian Naval Authority, 23 October 2026"
+              }
+            ]
+          },
+          {
+            "at": "2026-10-26T09:30:00Z",
+            "text": "Follow-up on a record reviewed on 25 October. Two sourced facts are added and neither changes the casualty count. Romanian rescuers suspended the search for the three missing crew at 18:04 on 24 October because of poor visibility, after almost four hours of work by the rescue vessel SAR Artemis and a Black Hawk helicopter of the General Aviation Inspectorate, and it was not known on 25 October whether the search had resumed. Separately, Romania's Maritime Hydrographic Directorate published warning ARN 155/2026 on 25 October, cancelling ARN 154/2026, and reported M/V KHORYV at 43 55.25 N 028 57.40 E at 09:00 UTC that day, still afloat and capsized, with three crew members reported missing and a one nautical mile keep clear because the hull is a danger to navigation. That notice is the same Comoros flagged ore and oil carrier sunk on 23 October. It is a wreck position update, not a second attack, not a completed sinking and not a closed search. One death stays confirmed and flagged as a minimum, the three missing men stay a dated missing snapshot and are not counted as dead, and the suspension of the search does not change their status.",
+            "sources": [
+              {
+                "url": "https://www.sealagom.com/coastal/34/message/48769/155-26-black-sea/",
+                "source": "Romanian hydrographic warning ARN 155/2026, published 25 October 2026"
+              },
+              {
+                "url": "https://en.usm.media/search-for-three-sailors-from-sunken-khoryv-suspended-in-black-sea/",
+                "source": "Ukrainian Shipping Magazine, 25 October 2026, reporting Constanta.info on the suspended search"
+              },
+              {
+                "url": "https://constanta.info/cautarile-celor-trei-marinari-disparuti-de-pe-nava-khoryv-suspendate-din-cauza-vizibilitatii-reduse/",
+                "source": "Constanta.info, 25 October 2026: search suspended on 24 October at 18:04 because of poor visibility"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "INC-20261023-002",
+        "update": {
+          "at": "2026-10-28T23:02:00Z",
+          "text": "Follow-up on the wreck, not a change to the casualty figures. Bulgarian NAVWARN 758/26, received on 27 October and updated on 28 October 2026, reports KHORYV (IMO 8138712) sighted at 1800 UTC on 28 October capsized, semi-submerged and drifting without crew or lights in position 43 30.60 N 028 43.69 E east of Shabla, a navigational danger, with mariners told to keep a safety distance of five cables. Bulgaria's Ministry of Transport and Communications said the capsized vessel was under real time surveillance as it entered Bulgaria's zone of responsibility, that notices to mariners would be issued and that a navy vessel would be sent to inspect the ship. BGNES reported the same entry into Bulgaria's exclusive economic zone and repeated the toll of one dead, three missing and nine rescued, while 24 Chasa reported the corvette Reshitelni working the area and that extreme technical measures could follow. No source read for this update reports the three missing found or any additional death, so the recorded toll stands at one death and three missing, and no pollution has been confirmed.",
+          "sources": [
+            {
+              "url": "https://www.mtc.government.bg/en/category/1/authorities-are-monitoring-movement-capsized-vessel-khoryv-and-are-prepared-measures-ensure-navigational-safety",
+              "source": "Bulgarian Ministry of Transport and Communications, statement on the capsized Khoryv"
+            },
+            {
+              "url": "https://www.sealagom.com/coastal/127/message/49468/758-26-semi-submerged/",
+              "source": "Bulgarian NAVWARN 758/26 reproduced by SeaLagom, received 27 October, updated 28 October 2026"
+            },
+            {
+              "url": "https://www.bgnes.com/conflicts/capsized-cargo-ship-khoryv-enters-bulgaria-s-exclusive-economic-zone",
+              "source": "BGNES, 28 October 2026, citing Bulgarian National Television"
+            },
+            {
+              "url": "https://www.24chasa.bg/bulgaria/article/23825257",
+              "source": "24 Chasa, 28 October 2026, on the corvette Reshitelni and possible technical measures"
             }
           ]
         }
