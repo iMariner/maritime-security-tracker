@@ -10811,6 +10811,28 @@
           ]
         }
       ]
+    },
+    "INC-20261028-003": {
+      "updates": [
+        {
+          "at": "2026-10-28T10:33:43Z",
+          "text": "Checked on 28 October 2026. The Belgian flagged ship in this record is BNS Primula, a Tripartite class minehunter of the Belgian Navy, so this is a naval vessel and not a merchant ship. The French armed forces general staff confirmed on 27 October 2026 that a French frigate escorting her detected and intercepted a ballistic missile near the Bab el Mandeb strait, dated the engagement 13 October, described it as strictly defensive and said the missile's final trajectory had not been determined; Belgian defence placed the engagement around 14 October. No casualties and no damage were reported, and initial Belgian accounts said there was no indication that Primula was the intended target. The 28 October date carried by this row is the publication date of the report, not the date of the incident. Because the vessel is a warship, the row falls outside the scope of a tracker of attacks on merchant ships and seafarer deaths. Nothing is verified and no casualty count or nationality is submitted, and the row should not be published as a merchant vessel attack.",
+          "sources": [
+            {
+              "url": "https://bairdmaritime.com/security/incidents/french-frigate-intercepts-ballistic-missile",
+              "source": "Baird Maritime, 28 October 2026, reporting the French armed forces general staff statement of 27 October and Belgian defence confirmation to VRT NWS"
+            },
+            {
+              "url": "https://www.vrt.be/vrtnws/nl/2026/10/26/belgische-mijnenjager-primula-defensie-ballistische-raket-midden/",
+              "source": "VRT NWS, 26 October 2026, quoting Belgian defence on the interception near the Primula"
+            },
+            {
+              "url": "https://swissinfo.ch/spa/un-buque-franc%C3%A9s-derrib%C3%B3-en-octubre-un-misil-cerca-de-un-cazaminas-belga-en-bab-el-mandeb/92274889",
+              "source": "EFE news agency, 26 October 2026, citing Belgian news agency Belga"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -18366,6 +18388,35 @@
             {
               "url": "https://www.marineinsight.com/1-killed-3-injured-after-drone-attack-on-turkish-cargo-ship-in-black-sea/",
               "source": "Marine Insight, 22 July 2026: owner statement and the separate Samsun position reported by Oksijen"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6466713074,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6466713074",
+      "author": "iMariner",
+      "received_at": "2026-10-28T10:33:49Z",
+      "incident_id": "INC-20261028-003",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261028-003",
+        "update": {
+          "at": "2026-10-28T10:33:43Z",
+          "text": "Checked on 28 October 2026. The Belgian flagged ship in this record is BNS Primula, a Tripartite class minehunter of the Belgian Navy, so this is a naval vessel and not a merchant ship. The French armed forces general staff confirmed on 27 October 2026 that a French frigate escorting her detected and intercepted a ballistic missile near the Bab el Mandeb strait, dated the engagement 13 October, described it as strictly defensive and said the missile's final trajectory had not been determined; Belgian defence placed the engagement around 14 October. No casualties and no damage were reported, and initial Belgian accounts said there was no indication that Primula was the intended target. The 28 October date carried by this row is the publication date of the report, not the date of the incident. Because the vessel is a warship, the row falls outside the scope of a tracker of attacks on merchant ships and seafarer deaths. Nothing is verified and no casualty count or nationality is submitted, and the row should not be published as a merchant vessel attack.",
+          "sources": [
+            {
+              "url": "https://bairdmaritime.com/security/incidents/french-frigate-intercepts-ballistic-missile",
+              "source": "Baird Maritime, 28 October 2026, reporting the French armed forces general staff statement of 27 October and Belgian defence confirmation to VRT NWS"
+            },
+            {
+              "url": "https://www.vrt.be/vrtnws/nl/2026/10/26/belgische-mijnenjager-primula-defensie-ballistische-raket-midden/",
+              "source": "VRT NWS, 26 October 2026, quoting Belgian defence on the interception near the Primula"
+            },
+            {
+              "url": "https://swissinfo.ch/spa/un-buque-franc%C3%A9s-derrib%C3%B3-en-octubre-un-misil-cerca-de-un-cazaminas-belga-en-bab-el-mandeb/92274889",
+              "source": "EFE news agency, 26 October 2026, citing Belgian news agency Belga"
             }
           ]
         }
