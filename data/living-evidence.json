@@ -10964,6 +10964,24 @@
               "source": "Associated Press quoting BTA, 28 October 2026"
             }
           ]
+        },
+        {
+          "at": "2026-10-28T23:06:00Z",
+          "text": "Corpus cross-check so that this attack is not counted twice. The corpus carries the same 28 October attack a second time as INC-20261028-011, from a Romanian report describing a Greek-flagged vessel hit by drones near the Bulgarian coast. Reuters, carried by gCaptain, and Kathimerini describe the ship as Greek-owned and managed by Contships Management but sailing under the Liberian flag, and every report read of the 28 October attack off Shabla and Cape Kaliakra concerns CONTSHIP JET (IMO 9348625). No separate Greek-flagged merchant ship is reported struck that day, so INC-20261028-011 is a duplicate of this incident and should be merged into it by the owner rather than counted as another attack. Reuters reported the vessel badly damaged and listing but afloat, with the owner confirming that all 18 crew, 14 Filipinos and four Ukrainians, were safe and ashore. The reviewed identity, date, zero deaths and the crew breakdown already recorded here are unchanged; no injury was reported, and the state of the ship after 28 October was not established by any source read today.",
+          "sources": [
+            {
+              "url": "https://gcaptain.com/drones-hit-container-ship-off-bulgaria-crew-safe-and-ashore/",
+              "source": "Reuters, carried by gCaptain, 28 October 2026"
+            },
+            {
+              "url": "https://www.ekathimerini.com/politics/foreign-policy/1319508/drones-hit-greek-container-ship-off-bulgaria/",
+              "source": "Kathimerini, 28 October 2026, reporting Reuters"
+            },
+            {
+              "url": "https://apnews.com/article/bulgaria-drone-attack-container-ship-black-sea-357e91838a3695acb39d3e361bc2fe72",
+              "source": "Associated Press, 28 October 2026, quoting the Bulgarian defence minister and BTA"
+            }
+          ]
         }
       ]
     }
@@ -19000,6 +19018,93 @@
             {
               "url": "https://www.24chasa.bg/bulgaria/article/23825257",
               "source": "24 Chasa, 28 October 2026, on the corvette Reshitelni and possible technical measures"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6482818114,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6482818114",
+      "author": "iMariner",
+      "received_at": "2026-10-28T22:55:24Z",
+      "incident_id": "INC-20261028-004",
+      "before": {
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.mtc.government.bg/bg/category/1/18-chlenniyat-ekipazh-na-konteynerovoza-contship-jet-e-spasen",
+              "source": "Bulgarian Ministry of Transport and Communications, 28 October 2026: rescue of all 18 crew completed, no death reported"
+            },
+            {
+              "url": "https://apnews.com/article/bulgaria-drone-attack-container-ship-black-sea-357e91838a3695acb39d3e361bc2fe72",
+              "source": "Associated Press, 28 October 2026: rescued sailors taken to Varna for medical checks, no death reported"
+            }
+          ]
+        },
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-28T16:41:37Z",
+          "vessel_name": "CONTSHIP JET",
+          "imo": "9348625",
+          "date_utc": "2026-10-28",
+          "vessel_type": "Container ship",
+          "region": "Black Sea",
+          "location_text": "About 17 nautical miles east of Cape Kaliakra in Bulgaria's exclusive economic zone, off the Bulgarian Black Sea coast on passage from Haifa to Constanta; the defence minister gave the position as 21 nautical miles southeast of Shabla",
+          "attack_type": "Sea drones (unmanned surface vessels), three of them",
+          "summary": "CONTSHIP JET, a Liberia flagged container ship carrying 421 containers from Haifa in Israel to Constanta in Romania, was struck by three sea drones on 28 October 2026 about 17 nautical miles east of Cape Kaliakra inside Bulgaria's exclusive economic zone. The maritime rescue coordination centre at Constanta was alerted at 12:01 local time and the 18 crew left the ship at 12:13; eight were taken aboard a Bulgarian Navy boat and the other ten were in the ship's lifeboat, and all 18 were rescued and taken towards Varna for medical checks. Bulgarian defence minister Dimitar Stoyanov announced the attack at a briefing in Sofia with the Romanian and Turkish defence ministers, and the three countries condemned the drone attacks on commercial vessels. The crew were 14 Filipinos and 4 Ukrainians. No death was reported among the 18. No party claimed the attack and no authority attributed it.",
+          "date_note": "Day precision date from the Bulgarian Ministry of Transport and Communications statement and the defence minister's briefing, both 28 October 2026. The ministry received the alert at 12:01 local time while AP described the strike as a little before 13:00 local time, so the clock time is uncertain; the date is not. Local Bulgarian time was EET (UTC+2) after the clock change on 25 October, and the day is kept as reported rather than recalculated.",
+          "sources": [
+            {
+              "url": "https://www.mtc.government.bg/bg/category/1/18-chlenniyat-ekipazh-na-konteynerovoza-contship-jet-e-spasen",
+              "source": "Bulgarian Ministry of Transport and Communications, 28 October 2026: the 18 member crew of CONTSHIP JET rescued"
+            },
+            {
+              "url": "https://bnrnews.bg/en/post/549403/container-ship-struck-by-three-drones-21-nautical-miles-southeast-of-shabla",
+              "source": "Bulgarian National Radio in English, 28 October 2026: IMO 9348625, 21 nautical miles southeast of Shabla"
+            },
+            {
+              "url": "https://apnews.com/article/bulgaria-drone-attack-container-ship-black-sea-357e91838a3695acb39d3e361bc2fe72",
+              "source": "Associated Press, 28 October 2026, quoting the Bulgarian state news agency BTA on the 14 Filipino and 4 Ukrainian crew"
+            }
+          ]
+        },
+        "updates": [
+          {
+            "at": "2026-10-28T16:41:37Z",
+            "text": "First reviewed record for this attack. Bulgaria's maritime administration reported that the rescue of all 18 crew was completed, so no death is recorded; the crew counted 14 Filipinos and 4 Ukrainians, taken from the Bulgarian state news agency BTA as carried by AP and not inferred from the Liberian flag. The corpus row for 28 October described the incident without a vessel name, position or crew state, and this review supplies the identified ship and the official account of the response.",
+            "sources": [
+              {
+                "url": "https://www.mtc.government.bg/bg/category/1/18-chlenniyat-ekipazh-na-konteynerovoza-contship-jet-e-spasen",
+                "source": "Bulgarian Ministry of Transport and Communications, 28 October 2026"
+              },
+              {
+                "url": "https://apnews.com/article/bulgaria-drone-attack-container-ship-black-sea-357e91838a3695acb39d3e361bc2fe72",
+                "source": "Associated Press quoting BTA, 28 October 2026"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "INC-20261028-004",
+        "update": {
+          "at": "2026-10-28T23:06:00Z",
+          "text": "Corpus cross-check so that this attack is not counted twice. The corpus carries the same 28 October attack a second time as INC-20261028-011, from a Romanian report describing a Greek-flagged vessel hit by drones near the Bulgarian coast. Reuters, carried by gCaptain, and Kathimerini describe the ship as Greek-owned and managed by Contships Management but sailing under the Liberian flag, and every report read of the 28 October attack off Shabla and Cape Kaliakra concerns CONTSHIP JET (IMO 9348625). No separate Greek-flagged merchant ship is reported struck that day, so INC-20261028-011 is a duplicate of this incident and should be merged into it by the owner rather than counted as another attack. Reuters reported the vessel badly damaged and listing but afloat, with the owner confirming that all 18 crew, 14 Filipinos and four Ukrainians, were safe and ashore. The reviewed identity, date, zero deaths and the crew breakdown already recorded here are unchanged; no injury was reported, and the state of the ship after 28 October was not established by any source read today.",
+          "sources": [
+            {
+              "url": "https://gcaptain.com/drones-hit-container-ship-off-bulgaria-crew-safe-and-ashore/",
+              "source": "Reuters, carried by gCaptain, 28 October 2026"
+            },
+            {
+              "url": "https://www.ekathimerini.com/politics/foreign-policy/1319508/drones-hit-greek-container-ship-off-bulgaria/",
+              "source": "Kathimerini, 28 October 2026, reporting Reuters"
+            },
+            {
+              "url": "https://apnews.com/article/bulgaria-drone-attack-container-ship-black-sea-357e91838a3695acb39d3e361bc2fe72",
+              "source": "Associated Press, 28 October 2026, quoting the Bulgarian defence minister and BTA"
             }
           ]
         }
