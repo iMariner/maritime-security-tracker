@@ -10984,6 +10984,104 @@
           ]
         }
       ]
+    },
+    "HIST-BS-20260805-MERA-QUEEN": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 1,
+        "sources": [
+          {
+            "url": "https://en.interfax.com.ua/news/general/1191169.html",
+            "source": "Interfax-Ukraine, 6 August 2026, quoting the Ukrainian Sea Ports Authority: a Ukrainian crew member killed"
+          },
+          {
+            "url": "https://hromadske.ua/en/war/268947-zahynuv-hromadianyn-ukrayiny-rosiia-atakuvala-sudno-z-ukrayinskoiu-pshenytseiu-shcho-yshlo-morskym-korydorom",
+            "source": "Hromadske, 6 August 2026, quoting Odesa regional governor Oleh Kiper: one crew member, a Ukrainian citizen, killed"
+          }
+        ],
+        "nationalities": [
+          {
+            "nationality": "Ukrainian",
+            "status": "confirmed",
+            "deaths": 1,
+            "sources": [
+              {
+                "url": "https://t.me/ampu_uspa/594",
+                "source": "Ukrainian Sea Ports Authority, 6 August 2026: a Ukrainian crew member killed"
+              },
+              {
+                "url": "https://en.interfax.com.ua/news/general/1191169.html",
+                "source": "Interfax-Ukraine, 6 August 2026"
+              }
+            ]
+          }
+        ]
+      },
+      "human_impact": {
+        "injured": {
+          "count": 3,
+          "as_of": "2026-08-06",
+          "sources": [
+            {
+              "url": "https://hromadske.ua/en/war/268947-zahynuv-hromadianyn-ukrayiny-rosiia-atakuvala-sudno-z-ukrayinskoiu-pshenytseiu-shcho-yshlo-morskym-korydorom",
+              "source": "Hromadske, 6 August 2026, quoting Odesa regional governor Oleh Kiper: three injured"
+            },
+            {
+              "url": "https://maritime-executive.com/article/seafarer-killed-as-russia-strikes-two-more-black-sea-ships",
+              "source": "The Maritime Executive, 6 August 2026: three seafarers injured and in hospital"
+            }
+          ]
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-28T23:12:00Z",
+        "vessel_name": "MERA QUEEN",
+        "date_utc": "2026-08-05",
+        "vessel_type": "General cargo ship",
+        "region": "Black Sea",
+        "location_text": "In or near the Odesa port complex, Ukraine",
+        "summary": "Mera Queen, a Guinea-Bissau flagged dry cargo ship of 5,195 dwt loaded with Ukrainian wheat, was struck in the hull at or near the Odesa port complex on the evening of 5 August 2026, starting a fire on board. One crew member, a Ukrainian citizen, was killed and three other seafarers were injured; the rest of the crew were taken ashore and the ship was moored at a berth by 06:00 on 6 August.",
+        "date_note": "Ukrainian officials date the strike to the evening of 5 August 2026, which was a Wednesday; reports filed on 6 August describe the attack in the past tense. The day-precision UTC date is kept as 5 August, with no time of day recorded.",
+        "sources": [
+          {
+            "url": "https://en.interfax.com.ua/news/general/1191169.html",
+            "source": "Interfax-Ukraine, 6 August 2026, reporting the Ukrainian Sea Ports Authority"
+          },
+          {
+            "url": "https://t.me/ampu_uspa/594",
+            "source": "Ukrainian Sea Ports Authority statement, 6 August 2026"
+          },
+          {
+            "url": "https://hromadske.ua/en/war/268947-zahynuv-hromadianyn-ukrayiny-rosiia-atakuvala-sudno-z-ukrayinskoiu-pshenytseiu-shcho-yshlo-morskym-korydorom",
+            "source": "Hromadske, 6 August 2026, reporting Odesa regional governor Oleh Kiper and the Sea Ports Authority"
+          },
+          {
+            "url": "https://maritime-executive.com/article/seafarer-killed-as-russia-strikes-two-more-black-sea-ships",
+            "source": "The Maritime Executive, 6 August 2026"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-28T23:12:00Z",
+          "text": "Newly created historical record for an event absent from both incident stores. Read from the Ukrainian Sea Ports Authority statement, Odesa regional governor Oleh Kiper, Interfax-Ukraine, Hromadske and The Maritime Executive: the dry cargo ship Mera Queen, Guinea-Bissau flagged and managed from Lebanon, was hit in the hull while carrying Ukrainian wheat at or near the Odesa port complex on the evening of 5 August 2026, a fire broke out and the crew was taken ashore. One Ukrainian seafarer was killed and three were injured, which is recorded as one death with a separate injured snapshot of three; the nationality of the dead seafarer is stated by the authority and is not taken from the Guinea-Bissau flag. Vessel type is given as a dry cargo ship of 5,195 dwt by the Sea Ports Authority and Maritime Executive, and as a bulk carrier or grain carrier by other outlets. No IMO is recorded because none of the sources read stated one. The attacking weapon is not described in the sources read, so no attack type is asserted.",
+          "sources": [
+            {
+              "url": "https://en.interfax.com.ua/news/general/1191169.html",
+              "source": "Interfax-Ukraine, 6 August 2026"
+            },
+            {
+              "url": "https://t.me/ampu_uspa/594",
+              "source": "Ukrainian Sea Ports Authority, 6 August 2026"
+            },
+            {
+              "url": "https://maritime-executive.com/article/seafarer-killed-as-russia-strikes-two-more-black-sea-ships",
+              "source": "The Maritime Executive, 6 August 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -19105,6 +19203,112 @@
             {
               "url": "https://apnews.com/article/bulgaria-drone-attack-container-ship-black-sea-357e91838a3695acb39d3e361bc2fe72",
               "source": "Associated Press, 28 October 2026, quoting the Bulgarian defence minister and BTA"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6482831602,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6482831602",
+      "author": "iMariner",
+      "received_at": "2026-10-28T22:56:09Z",
+      "incident_id": "HIST-BS-20260805-MERA-QUEEN",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-BS-20260805-MERA-QUEEN",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-28T23:12:00Z",
+          "vessel_name": "MERA QUEEN",
+          "date_utc": "2026-08-05",
+          "vessel_type": "General cargo ship",
+          "region": "Black Sea",
+          "location_text": "In or near the Odesa port complex, Ukraine",
+          "summary": "Mera Queen, a Guinea-Bissau flagged dry cargo ship of 5,195 dwt loaded with Ukrainian wheat, was struck in the hull at or near the Odesa port complex on the evening of 5 August 2026, starting a fire on board. One crew member, a Ukrainian citizen, was killed and three other seafarers were injured; the rest of the crew were taken ashore and the ship was moored at a berth by 06:00 on 6 August.",
+          "date_note": "Ukrainian officials date the strike to the evening of 5 August 2026, which was a Wednesday; reports filed on 6 August describe the attack in the past tense. The day-precision UTC date is kept as 5 August, with no time of day recorded.",
+          "sources": [
+            {
+              "url": "https://en.interfax.com.ua/news/general/1191169.html",
+              "source": "Interfax-Ukraine, 6 August 2026, reporting the Ukrainian Sea Ports Authority"
+            },
+            {
+              "url": "https://t.me/ampu_uspa/594",
+              "source": "Ukrainian Sea Ports Authority statement, 6 August 2026"
+            },
+            {
+              "url": "https://hromadske.ua/en/war/268947-zahynuv-hromadianyn-ukrayiny-rosiia-atakuvala-sudno-z-ukrayinskoiu-pshenytseiu-shcho-yshlo-morskym-korydorom",
+              "source": "Hromadske, 6 August 2026, reporting Odesa regional governor Oleh Kiper and the Sea Ports Authority"
+            },
+            {
+              "url": "https://maritime-executive.com/article/seafarer-killed-as-russia-strikes-two-more-black-sea-ships",
+              "source": "The Maritime Executive, 6 August 2026"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 1,
+          "sources": [
+            {
+              "url": "https://en.interfax.com.ua/news/general/1191169.html",
+              "source": "Interfax-Ukraine, 6 August 2026, quoting the Ukrainian Sea Ports Authority: a Ukrainian crew member killed"
+            },
+            {
+              "url": "https://hromadske.ua/en/war/268947-zahynuv-hromadianyn-ukrayiny-rosiia-atakuvala-sudno-z-ukrayinskoiu-pshenytseiu-shcho-yshlo-morskym-korydorom",
+              "source": "Hromadske, 6 August 2026, quoting Odesa regional governor Oleh Kiper: one crew member, a Ukrainian citizen, killed"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Ukrainian",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "url": "https://t.me/ampu_uspa/594",
+                  "source": "Ukrainian Sea Ports Authority, 6 August 2026: a Ukrainian crew member killed"
+                },
+                {
+                  "url": "https://en.interfax.com.ua/news/general/1191169.html",
+                  "source": "Interfax-Ukraine, 6 August 2026"
+                }
+              ]
+            }
+          ]
+        },
+        "human_impact": {
+          "injured": {
+            "count": 3,
+            "as_of": "2026-08-06",
+            "sources": [
+              {
+                "url": "https://hromadske.ua/en/war/268947-zahynuv-hromadianyn-ukrayiny-rosiia-atakuvala-sudno-z-ukrayinskoiu-pshenytseiu-shcho-yshlo-morskym-korydorom",
+                "source": "Hromadske, 6 August 2026, quoting Odesa regional governor Oleh Kiper: three injured"
+              },
+              {
+                "url": "https://maritime-executive.com/article/seafarer-killed-as-russia-strikes-two-more-black-sea-ships",
+                "source": "The Maritime Executive, 6 August 2026: three seafarers injured and in hospital"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-10-28T23:12:00Z",
+          "text": "Newly created historical record for an event absent from both incident stores. Read from the Ukrainian Sea Ports Authority statement, Odesa regional governor Oleh Kiper, Interfax-Ukraine, Hromadske and The Maritime Executive: the dry cargo ship Mera Queen, Guinea-Bissau flagged and managed from Lebanon, was hit in the hull while carrying Ukrainian wheat at or near the Odesa port complex on the evening of 5 August 2026, a fire broke out and the crew was taken ashore. One Ukrainian seafarer was killed and three were injured, which is recorded as one death with a separate injured snapshot of three; the nationality of the dead seafarer is stated by the authority and is not taken from the Guinea-Bissau flag. Vessel type is given as a dry cargo ship of 5,195 dwt by the Sea Ports Authority and Maritime Executive, and as a bulk carrier or grain carrier by other outlets. No IMO is recorded because none of the sources read stated one. The attacking weapon is not described in the sources read, so no attack type is asserted.",
+          "sources": [
+            {
+              "url": "https://en.interfax.com.ua/news/general/1191169.html",
+              "source": "Interfax-Ukraine, 6 August 2026"
+            },
+            {
+              "url": "https://t.me/ampu_uspa/594",
+              "source": "Ukrainian Sea Ports Authority, 6 August 2026"
+            },
+            {
+              "url": "https://maritime-executive.com/article/seafarer-killed-as-russia-strikes-two-more-black-sea-ships",
+              "source": "The Maritime Executive, 6 August 2026"
             }
           ]
         }
