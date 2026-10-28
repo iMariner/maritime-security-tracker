@@ -10724,6 +10724,93 @@
           ]
         }
       ]
+    },
+    "HIST-BS-20260722-REYHAN-SARI": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 1,
+        "sources": [
+          {
+            "url": "https://www.iha.com.tr/trabzon-haberleri/karadenizde-dron-saldirisina-ugrayan-gemi-trabzon-limanina-geldi-458178584",
+            "source": "Ihlas News Agency (IHA), 23 July 2026: one Turkish crew member working in the engine room died at the scene, named as Savas Cakar, 54, whose body was taken for autopsy in Trabzon"
+          },
+          {
+            "url": "https://www.turkiyetoday.com/world/turkish-sailor-killed-in-drone-strike-on-black-sea-coal-ship-3224446",
+            "source": "Turkiye Today, 23 July 2026: a Turkish crew member was killed, with a survivor describing one dead and wounded on deck"
+          }
+        ],
+        "nationalities": [
+          {
+            "nationality": "Turkish",
+            "status": "confirmed",
+            "deaths": 1,
+            "sources": [
+              {
+                "url": "https://www.iha.com.tr/trabzon-haberleri/karadenizde-dron-saldirisina-ugrayan-gemi-trabzon-limanina-geldi-458178584",
+                "source": "Ihlas News Agency (IHA), 23 July 2026: one Turkish crew member killed, named as Savas Cakar, 54, body recovered on board at Trabzon"
+              },
+              {
+                "url": "https://www.turkiyetoday.com/world/turkish-sailor-killed-in-drone-strike-on-black-sea-coal-ship-3224446",
+                "source": "Turkiye Today, 23 July 2026: Turkish crew member killed in the attack"
+              }
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-28T04:24:28Z",
+        "vessel_name": "REYHAN SARI",
+        "date_utc": "2026-07-22",
+        "vessel_type": "bulk carrier",
+        "region": "Black Sea",
+        "imo": "9543342",
+        "location_text": "Black Sea; reported off Novorossiysk, Russia, with some accounts placing the strike in international waters off Samsun, Turkiye",
+        "attack_type": "drone (UAV)",
+        "summary": "REYHAN SARI, a Turkish-flagged bulk carrier of IMO 9543342 on the Istanbul register and owned by T and O Denizcilik, was struck by a drone on 22 July 2026 while carrying coal from Taman, Russia, to Trabzon. The ship stayed under way and reached waters off Samsun on its own power. One Turkish crew member, Savas Cakar, 54, was killed when drone strikes hit the accommodation and engine-room area, and the vessel reached Trabzon on 23 July 2026.",
+        "sources": [
+          {
+            "url": "https://www.7deniz.net/iha-saldirisina-ugrayan-reyhan-sarinin-armatorunden-aciklama",
+            "source": "T and O Denizcilik owner statement, carried by 7deniz, 22 July 2026"
+          },
+          {
+            "url": "https://www.iha.com.tr/trabzon-haberleri/karadenizde-dron-saldirisina-ugrayan-gemi-trabzon-limanina-geldi-458178584",
+            "source": "Ihlas News Agency (IHA), 23 July 2026"
+          },
+          {
+            "url": "https://www.turkiyetoday.com/world/turkish-sailor-killed-in-drone-strike-on-black-sea-coal-ship-3224446",
+            "source": "Turkiye Today, 23 July 2026"
+          },
+          {
+            "url": "https://www.seanews.com.tr/article/drone-attack-on-reyhan-sari-1-dead-3-injured-mrwodk5g",
+            "source": "SeaNews Turkiye, 22 July 2026"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-28T04:24:28Z",
+          "text": "New historical record for an event absent from the incident corpus and the historical store: the corpus holds no rows at all for 20 to 24 July 2026 and nothing naming this vessel. The owner's statement of 22 July 2026 confirms a drone attack while the ship was under way in the Black Sea, damage to the communication systems, two injured crew airlifted to Samsun and one crew member unreachable because the cabin could not be entered; it did not announce a death at that stage. The Ihlas news agency reported on 23 July 2026 that one Turkish crew member working in the engine room died at the scene, named him as Savas Cakar, 54, and reported his body recovered from the accommodation block after the ship reached Trabzon, where it was handed to forensic examiners. Turkiye Today reported the same death and a survivor's account of one dead and wounded on deck. Nationality is taken from those explicit reports of a Turkish crew member, not from the flag. Three wounded were reported by agencies while the owner and IHA name two injured crew, so no injured snapshot is recorded here. The strike position is disputed: most Turkish reports place it off Novorossiysk, Oksijen places it in international waters off Samsun. No party has claimed the attack and no authority has attributed it.",
+          "sources": [
+            {
+              "url": "https://www.7deniz.net/iha-saldirisina-ugrayan-reyhan-sarinin-armatorunden-aciklama",
+              "source": "T and O Denizcilik owner statement, carried by 7deniz, 22 July 2026"
+            },
+            {
+              "url": "https://www.iha.com.tr/trabzon-haberleri/karadenizde-dron-saldirisina-ugrayan-gemi-trabzon-limanina-geldi-458178584",
+              "source": "Ihlas News Agency (IHA), 23 July 2026"
+            },
+            {
+              "url": "https://www.turkiyetoday.com/world/turkish-sailor-killed-in-drone-strike-on-black-sea-coal-ship-3224446",
+              "source": "Turkiye Today, 23 July 2026"
+            },
+            {
+              "url": "https://www.marineinsight.com/1-killed-3-injured-after-drone-attack-on-turkish-cargo-ship-in-black-sea/",
+              "source": "Marine Insight, 22 July 2026: owner statement and the separate Samsun position reported by Oksijen"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -18184,6 +18271,101 @@
             {
               "url": "https://en.apa.az/foreign-policy/mfa-azerbaijani-citizen-killed-another-missing-in-drone-attack-on-cargo-ship-in-black-sea-528328",
               "source": "APA News reporting Azerbaijan's Ministry of Foreign Affairs, 6 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6460624150,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6460624150",
+      "author": "iMariner",
+      "received_at": "2026-10-28T04:24:34Z",
+      "incident_id": "HIST-BS-20260722-REYHAN-SARI",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-BS-20260722-REYHAN-SARI",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-28T04:24:28Z",
+          "vessel_name": "REYHAN SARI",
+          "date_utc": "2026-07-22",
+          "vessel_type": "bulk carrier",
+          "region": "Black Sea",
+          "imo": "9543342",
+          "location_text": "Black Sea; reported off Novorossiysk, Russia, with some accounts placing the strike in international waters off Samsun, Turkiye",
+          "attack_type": "drone (UAV)",
+          "summary": "REYHAN SARI, a Turkish-flagged bulk carrier of IMO 9543342 on the Istanbul register and owned by T and O Denizcilik, was struck by a drone on 22 July 2026 while carrying coal from Taman, Russia, to Trabzon. The ship stayed under way and reached waters off Samsun on its own power. One Turkish crew member, Savas Cakar, 54, was killed when drone strikes hit the accommodation and engine-room area, and the vessel reached Trabzon on 23 July 2026.",
+          "sources": [
+            {
+              "url": "https://www.7deniz.net/iha-saldirisina-ugrayan-reyhan-sarinin-armatorunden-aciklama",
+              "source": "T and O Denizcilik owner statement, carried by 7deniz, 22 July 2026"
+            },
+            {
+              "url": "https://www.iha.com.tr/trabzon-haberleri/karadenizde-dron-saldirisina-ugrayan-gemi-trabzon-limanina-geldi-458178584",
+              "source": "Ihlas News Agency (IHA), 23 July 2026"
+            },
+            {
+              "url": "https://www.turkiyetoday.com/world/turkish-sailor-killed-in-drone-strike-on-black-sea-coal-ship-3224446",
+              "source": "Turkiye Today, 23 July 2026"
+            },
+            {
+              "url": "https://www.seanews.com.tr/article/drone-attack-on-reyhan-sari-1-dead-3-injured-mrwodk5g",
+              "source": "SeaNews Turkiye, 22 July 2026"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 1,
+          "sources": [
+            {
+              "url": "https://www.iha.com.tr/trabzon-haberleri/karadenizde-dron-saldirisina-ugrayan-gemi-trabzon-limanina-geldi-458178584",
+              "source": "Ihlas News Agency (IHA), 23 July 2026: one Turkish crew member working in the engine room died at the scene, named as Savas Cakar, 54, whose body was taken for autopsy in Trabzon"
+            },
+            {
+              "url": "https://www.turkiyetoday.com/world/turkish-sailor-killed-in-drone-strike-on-black-sea-coal-ship-3224446",
+              "source": "Turkiye Today, 23 July 2026: a Turkish crew member was killed, with a survivor describing one dead and wounded on deck"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Turkish",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "url": "https://www.iha.com.tr/trabzon-haberleri/karadenizde-dron-saldirisina-ugrayan-gemi-trabzon-limanina-geldi-458178584",
+                  "source": "Ihlas News Agency (IHA), 23 July 2026: one Turkish crew member killed, named as Savas Cakar, 54, body recovered on board at Trabzon"
+                },
+                {
+                  "url": "https://www.turkiyetoday.com/world/turkish-sailor-killed-in-drone-strike-on-black-sea-coal-ship-3224446",
+                  "source": "Turkiye Today, 23 July 2026: Turkish crew member killed in the attack"
+                }
+              ]
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-10-28T04:24:28Z",
+          "text": "New historical record for an event absent from the incident corpus and the historical store: the corpus holds no rows at all for 20 to 24 July 2026 and nothing naming this vessel. The owner's statement of 22 July 2026 confirms a drone attack while the ship was under way in the Black Sea, damage to the communication systems, two injured crew airlifted to Samsun and one crew member unreachable because the cabin could not be entered; it did not announce a death at that stage. The Ihlas news agency reported on 23 July 2026 that one Turkish crew member working in the engine room died at the scene, named him as Savas Cakar, 54, and reported his body recovered from the accommodation block after the ship reached Trabzon, where it was handed to forensic examiners. Turkiye Today reported the same death and a survivor's account of one dead and wounded on deck. Nationality is taken from those explicit reports of a Turkish crew member, not from the flag. Three wounded were reported by agencies while the owner and IHA name two injured crew, so no injured snapshot is recorded here. The strike position is disputed: most Turkish reports place it off Novorossiysk, Oksijen places it in international waters off Samsun. No party has claimed the attack and no authority has attributed it.",
+          "sources": [
+            {
+              "url": "https://www.7deniz.net/iha-saldirisina-ugrayan-reyhan-sarinin-armatorunden-aciklama",
+              "source": "T and O Denizcilik owner statement, carried by 7deniz, 22 July 2026"
+            },
+            {
+              "url": "https://www.iha.com.tr/trabzon-haberleri/karadenizde-dron-saldirisina-ugrayan-gemi-trabzon-limanina-geldi-458178584",
+              "source": "Ihlas News Agency (IHA), 23 July 2026"
+            },
+            {
+              "url": "https://www.turkiyetoday.com/world/turkish-sailor-killed-in-drone-strike-on-black-sea-coal-ship-3224446",
+              "source": "Turkiye Today, 23 July 2026"
+            },
+            {
+              "url": "https://www.marineinsight.com/1-killed-3-injured-after-drone-attack-on-turkish-cargo-ship-in-black-sea/",
+              "source": "Marine Insight, 22 July 2026: owner statement and the separate Samsun position reported by Oksijen"
             }
           ]
         }
