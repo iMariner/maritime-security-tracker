@@ -29,5 +29,35 @@
   "consistency_problems": [
     "Golden Sapling is in the data but not named in the article"
   ],
-  "quality": "4 check(s) need attention: dates 1 approximate; attribution 1 claims without a named source; official coverage 0/0 ok; verified 1/6; single-source items 2, 2 without verification; confirmed 1 marked confirmed without proof; fact-check no corrections needed; tweet 236/280 ok; dashes ok; consistency Golden Sapling is in the data but not named in the article found"
+  "quality": "4 check(s) need attention: dates 1 approximate; attribution 1 claims without a named source; official coverage 0/0 ok; verified 1/6; single-source items 2, 2 without verification; confirmed 1 marked confirmed without proof; fact-check no corrections needed; tweet 236/280 ok; dashes ok; consistency Golden Sapling is in the data but not named in the article found",
+  "review": {
+    "status": "done",
+    "at": "2026-10-28T05:06:40Z",
+    "changes": [
+      "lead story set to INC-20261026-010 (confirmed by UKMTO warning 183-26, a vessel on fire with its crew unaccounted fo)",
+      "INC-20261027-004 marked rejected (the tanker is the Golden Sapling, a Hong Kong flagged chemical tanker struck by a drone in the Black Sea in August and aground off Samsun, towed through the Bosphorus to Aliaga for scrapping on 27 October, so there was no attack that day)",
+      "INC-20261027-010 marked rejected (a BurgasMedia feature on Ukrainian K-2 drones hunting Russian tankers under Operation MoLoChKa, naming no vessel, date or position and reporting no specific attack)",
+      "date of INC-20261028-001 set to 2026-10-27",
+      "region of INC-20261028-001 set to Gulf of Oman",
+      "INC-20261028-001 marked claimed (Iran's army said an unnamed oil tanker struck naval mines and caught fire east of the Strait of Hormuz on 27 October, carried by IRNA, with no independent confirmation and no ship, flag, crew or casualty details)",
+      "name of INC-20261026-005 set to LEONORA KOSAN",
+      "imo of INC-20261026-005 set to 9390953",
+      "flag of INC-20261026-005 set to Singapore",
+      "date of INC-20261026-005 set to 2026-10-23",
+      "region of INC-20261026-005 set to Gulf of Oman",
+      "INC-20261026-005 marked confirmed (the IMO confirmed incidents register records the Leonora Kosan damaged 6 nautical miles northeast of Limah on 23 October, and UKMTO warnings 181-26 and 182-26 report the projectile strike and the disabled tanker with the crew safe)",
+      "INC-20261026-010 marked confirmed (UKMTO warning 183-26 of 26 October, multiple third party reports of a vessel on fire 63 nautical miles southeast of Al-Faw, with the name, cause, damage and crew status unknown)",
+      "INC-20261026-002 marked claimed (Russia's defence ministry claimed its drones struck dry cargo vessels bound for Odesa and Chornomorsk, naming no ship and offering no independent evidence)",
+      "lesson (facts): A name or date fixed by yesterday's editor check can be reset by a later collection run: re-check each record's name, ty"
+    ],
+    "refused": [],
+    "notes": [
+      "Report Iran's claim as a claim: Iran's army said an unnamed oil tanker struck naval mines and caught fire in a prohibited area east of the Strait of Hormuz on 27 October, the statement was carried by IRNA, no ship, flag, crew or casualty details were given and there is no independent confirmation. Drop the Riyadh explosions and Zoom News from this item: those were Houthi missile attacks on land with no ship hit.",
+      "Name the tanker of UKMTO warnings 181-26 and 182-26 as the Leonora Kosan, an LPG tanker under the Singapore flag (IMO 9390953), struck by an unknown projectile 6 nautical miles northeast of Limah, Oman, on 23 October and disabled, with the crew safe, as the IMO confirmed incidents register and JMIC update 108 record. Never call her a bulk carrier, and never mention the Cape Dao, a different ship struck on 23 September that sank east of Sohar on 14 October.",
+      "Give the fire off Al-Faw once, as UKMTO warning 183-26 of 26 October recorded it from multiple third party reports, a vessel on fire 63 nautical miles southeast of Al-Faw: the name, cause, damage and crew status are unknown, so credit UKMTO, do not credit Iran, and do not call it a sinking."
+    ],
+    "restored": [],
+    "send_after": false,
+    "lead": "INC-20261026-010"
+  }
 }
