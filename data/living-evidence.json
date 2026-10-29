@@ -11394,6 +11394,57 @@
           ]
         }
       ]
+    },
+    "HIST-BS-20260711-ZEINAB": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.hellenicshippingnews.com/saint-kitts-and-nevis-international-ship-registry-expresses-grave-concern-over-black-sea-security-incidents/",
+            "source": "Saint Kitts and Nevis International Ship Registry statement, 27 July 2026"
+          }
+        ]
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-29T11:15:21Z",
+        "vessel_name": "ZEINAB",
+        "imo": "9070424",
+        "date_utc": "2026-07-11",
+        "vessel_type": "Bulk carrier",
+        "region": "Black Sea",
+        "location_text": "Near the Ukrainian coast, Black Sea",
+        "attack_type": "drone (UAV)",
+        "summary": "ZEINAB, a Saint Kitts and Nevis flagged bulk carrier built in 1994 of about 26,441 dwt, was damaged by a drone strike on 11 July 2026 while operating near the Ukrainian coast. Deck structures and a lifeboat were damaged, all persons on board remained unharmed and the vessel stayed seaworthy, according to the flag registry. No pollution was reported.",
+        "sources": [
+          {
+            "url": "https://www.hellenicshippingnews.com/saint-kitts-and-nevis-international-ship-registry-expresses-grave-concern-over-black-sea-security-incidents/",
+            "source": "Saint Kitts and Nevis International Ship Registry statement, 27 July 2026"
+          },
+          {
+            "url": "https://www.vesselfinder.com/vessels/details/9070424",
+            "source": "VesselFinder AIS particulars for ZEINAB (IMO 9070424)"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-29T11:15:21Z",
+          "text": "New historical record, absent from both incident stores. The Saint Kitts and Nevis International Ship Registry reported that its flagged bulk carrier ZEINAB, IMO 9070424, was damaged by a drone strike on 11 July 2026 while operating near the Ukrainian coast, that deck structures and a lifeboat were damaged, that all persons on board remained unharmed and that the ship retained her seaworthiness, with no pollution reported. The deadweight, year of build and flag were checked against the AIS particulars. Deaths are recorded as zero on the registry's explicit statement that everyone aboard was unharmed; no crew total is published by the source, so none is recorded, no nationality is inferred from the flag and no image is used.",
+          "sources": [
+            {
+              "url": "https://www.hellenicshippingnews.com/saint-kitts-and-nevis-international-ship-registry-expresses-grave-concern-over-black-sea-security-incidents/",
+              "source": "Saint Kitts and Nevis International Ship Registry statement, 27 July 2026"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9070424",
+              "source": "VesselFinder AIS particulars for ZEINAB (IMO 9070424)"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -19965,6 +20016,65 @@
             {
               "url": "https://www.pravda.com.ua/eng/news/2026/07/22/8045356/",
               "source": "Ukrainska Pravda reporting Ukraine’s State Border Guard Service, 22 July 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6495180590,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6495180590",
+      "author": "iMariner",
+      "received_at": "2026-10-29T11:16:30Z",
+      "incident_id": "HIST-BS-20260711-ZEINAB",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-BS-20260711-ZEINAB",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-29T11:15:21Z",
+          "vessel_name": "ZEINAB",
+          "imo": "9070424",
+          "date_utc": "2026-07-11",
+          "vessel_type": "Bulk carrier",
+          "region": "Black Sea",
+          "location_text": "Near the Ukrainian coast, Black Sea",
+          "attack_type": "drone (UAV)",
+          "summary": "ZEINAB, a Saint Kitts and Nevis flagged bulk carrier built in 1994 of about 26,441 dwt, was damaged by a drone strike on 11 July 2026 while operating near the Ukrainian coast. Deck structures and a lifeboat were damaged, all persons on board remained unharmed and the vessel stayed seaworthy, according to the flag registry. No pollution was reported.",
+          "sources": [
+            {
+              "url": "https://www.hellenicshippingnews.com/saint-kitts-and-nevis-international-ship-registry-expresses-grave-concern-over-black-sea-security-incidents/",
+              "source": "Saint Kitts and Nevis International Ship Registry statement, 27 July 2026"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9070424",
+              "source": "VesselFinder AIS particulars for ZEINAB (IMO 9070424)"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "nationalities": [],
+          "sources": [
+            {
+              "url": "https://www.hellenicshippingnews.com/saint-kitts-and-nevis-international-ship-registry-expresses-grave-concern-over-black-sea-security-incidents/",
+              "source": "Saint Kitts and Nevis International Ship Registry statement, 27 July 2026"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-10-29T11:15:21Z",
+          "text": "New historical record, absent from both incident stores. The Saint Kitts and Nevis International Ship Registry reported that its flagged bulk carrier ZEINAB, IMO 9070424, was damaged by a drone strike on 11 July 2026 while operating near the Ukrainian coast, that deck structures and a lifeboat were damaged, that all persons on board remained unharmed and that the ship retained her seaworthiness, with no pollution reported. The deadweight, year of build and flag were checked against the AIS particulars. Deaths are recorded as zero on the registry's explicit statement that everyone aboard was unharmed; no crew total is published by the source, so none is recorded, no nationality is inferred from the flag and no image is used.",
+          "sources": [
+            {
+              "url": "https://www.hellenicshippingnews.com/saint-kitts-and-nevis-international-ship-registry-expresses-grave-concern-over-black-sea-security-incidents/",
+              "source": "Saint Kitts and Nevis International Ship Registry statement, 27 July 2026"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9070424",
+              "source": "VesselFinder AIS particulars for ZEINAB (IMO 9070424)"
             }
           ]
         }
