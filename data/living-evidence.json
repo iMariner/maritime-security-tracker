@@ -11274,6 +11274,62 @@
           ]
         }
       ]
+    },
+    "HIST-BS-20260725-AGN-RAGNAR": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "human_impact": {
+        "missing": {
+          "count": 2,
+          "as_of": "2026-07-27",
+          "sources": [
+            {
+              "url": "https://www.hindustantimes.com/india-news/indians-missing-after-jumping-into-black-sea-as-cargo-ship-struck-mv-agn-ragnar-101785120224090.html",
+              "source": "Hindustan Times, citing India's Directorate of Maritime Administration"
+            }
+          ]
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-29T05:09:09Z",
+        "vessel_name": "AGN RAGNAR",
+        "date_utc": "2026-07-25",
+        "vessel_type": "Cargo ship",
+        "region": "Black Sea",
+        "location_text": "Exiting the Bystre Mouth of the Danube, Odesa region, Ukraine",
+        "summary": "AGN Ragnar, a Palau-flagged cargo ship, was struck by three drones on the evening of Saturday 25 July 2026 while leaving the Bystre Mouth of the Danube in Ukraine's Odesa region. Ten people were aboard, nine crew and a pilot, including four Indian nationals. Two Indian seafarers, Chandra Ram Dubey and Deepak Kumar Gupta, entered the water and remain missing; the other seven crew and the pilot were evacuated ashore by the Ukrainian Coast Guard. India's Directorate of Maritime Administration said search and rescue was suspended because of the continuing drone threat. The Indian embassy in Kyiv confirmed two of the four Indian nationals safe.",
+        "date_note": "India's Directorate of Maritime Administration and the Indian embassy place the attack on Saturday 25 July 2026; the embassy described it as at the port of Odesa, while the directorate said the ship was leaving the Bystre Mouth of the Danube.",
+        "sources": [
+          {
+            "url": "https://www.hindustantimes.com/india-news/indians-missing-after-jumping-into-black-sea-as-cargo-ship-struck-mv-agn-ragnar-101785120224090.html",
+            "source": "Hindustan Times, citing India's Directorate of Maritime Administration"
+          },
+          {
+            "url": "https://www.ndtv.com/world-news/2-indians-missing-after-another-attack-on-ship-at-odesa-port-in-ukraine-russia-ukraine-war-11823627",
+            "source": "NDTV, citing the Indian embassy in Kyiv"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-29T05:09:09Z",
+          "text": "New historical record. AGN Ragnar was hit by three drones on 25 July 2026 leaving the Bystre Mouth of the Danube; two Indian crew, Chandra Ram Dubey and Deepak Kumar Gupta, went into the water and were still untraced when search operations were suspended for the drone threat. Two missing seafarers are not counted as deaths: no body recovery or death confirmation was found in the sources read, so deaths stay unknown and the missing figure is kept as a dated snapshot. The vessel's Palau flag is not used as evidence of the crew's nationality.",
+          "sources": [
+            {
+              "url": "https://www.hindustantimes.com/india-news/indians-missing-after-jumping-into-black-sea-as-cargo-ship-struck-mv-agn-ragnar-101785120224090.html",
+              "source": "Hindustan Times, citing India's Directorate of Maritime Administration"
+            },
+            {
+              "url": "https://www.ndtv.com/world-news/2-indians-missing-after-another-attack-on-ship-at-odesa-port-in-ukraine-russia-ukraine-war-11823627",
+              "source": "NDTV, citing the Indian embassy in Kyiv"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -19709,6 +19765,70 @@
             {
               "url": "https://globalsecurity.org/wmd/library/news/ukraine/2026/08/ukraine-260812-russia-mfa02.htm",
               "source": "Russian Foreign Ministry statement"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6488516502,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6488516502",
+      "author": "iMariner",
+      "received_at": "2026-10-29T05:09:09Z",
+      "incident_id": "HIST-BS-20260725-AGN-RAGNAR",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-BS-20260725-AGN-RAGNAR",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-29T05:09:09Z",
+          "vessel_name": "AGN RAGNAR",
+          "date_utc": "2026-07-25",
+          "vessel_type": "Cargo ship",
+          "region": "Black Sea",
+          "location_text": "Exiting the Bystre Mouth of the Danube, Odesa region, Ukraine",
+          "summary": "AGN Ragnar, a Palau-flagged cargo ship, was struck by three drones on the evening of Saturday 25 July 2026 while leaving the Bystre Mouth of the Danube in Ukraine's Odesa region. Ten people were aboard, nine crew and a pilot, including four Indian nationals. Two Indian seafarers, Chandra Ram Dubey and Deepak Kumar Gupta, entered the water and remain missing; the other seven crew and the pilot were evacuated ashore by the Ukrainian Coast Guard. India's Directorate of Maritime Administration said search and rescue was suspended because of the continuing drone threat. The Indian embassy in Kyiv confirmed two of the four Indian nationals safe.",
+          "date_note": "India's Directorate of Maritime Administration and the Indian embassy place the attack on Saturday 25 July 2026; the embassy described it as at the port of Odesa, while the directorate said the ship was leaving the Bystre Mouth of the Danube.",
+          "sources": [
+            {
+              "url": "https://www.hindustantimes.com/india-news/indians-missing-after-jumping-into-black-sea-as-cargo-ship-struck-mv-agn-ragnar-101785120224090.html",
+              "source": "Hindustan Times, citing India's Directorate of Maritime Administration"
+            },
+            {
+              "url": "https://www.ndtv.com/world-news/2-indians-missing-after-another-attack-on-ship-at-odesa-port-in-ukraine-russia-ukraine-war-11823627",
+              "source": "NDTV, citing the Indian embassy in Kyiv"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "human_impact": {
+          "missing": {
+            "count": 2,
+            "as_of": "2026-07-27",
+            "sources": [
+              {
+                "url": "https://www.hindustantimes.com/india-news/indians-missing-after-jumping-into-black-sea-as-cargo-ship-struck-mv-agn-ragnar-101785120224090.html",
+                "source": "Hindustan Times, citing India's Directorate of Maritime Administration"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-10-29T05:09:09Z",
+          "text": "New historical record. AGN Ragnar was hit by three drones on 25 July 2026 leaving the Bystre Mouth of the Danube; two Indian crew, Chandra Ram Dubey and Deepak Kumar Gupta, went into the water and were still untraced when search operations were suspended for the drone threat. Two missing seafarers are not counted as deaths: no body recovery or death confirmation was found in the sources read, so deaths stay unknown and the missing figure is kept as a dated snapshot. The vessel's Palau flag is not used as evidence of the crew's nationality.",
+          "sources": [
+            {
+              "url": "https://www.hindustantimes.com/india-news/indians-missing-after-jumping-into-black-sea-as-cargo-ship-struck-mv-agn-ragnar-101785120224090.html",
+              "source": "Hindustan Times, citing India's Directorate of Maritime Administration"
+            },
+            {
+              "url": "https://www.ndtv.com/world-news/2-indians-missing-after-another-attack-on-ship-at-odesa-port-in-ukraine-russia-ukraine-war-11823627",
+              "source": "NDTV, citing the Indian embassy in Kyiv"
             }
           ]
         }
