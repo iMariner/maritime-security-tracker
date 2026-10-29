@@ -1,5 +1,47 @@
 [
   {
+    "region": "Black Sea",
+    "date_utc": "2026-10-29",
+    "summary": "Russia's defence ministry said its drones struck a dry cargo vessel at sea that was delivering military and dual-use cargo to Odesa port. No vessel name, flag, position, damage details or casualties were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 46.49,
+    "lon": 30.74,
+    "location_text": "at sea, en route to Odesa port, Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": "struck at sea",
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry",
+    "independent_evidence": false,
+    "id": "INC-20261029-001",
+    "sources": [
+      {
+        "url": "https://t.me/mod_russia/68618",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-29T05:14:57+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-10-29T06:05:20Z",
+    "last_updated": "2026-10-29T06:05:20Z",
+    "verification_issue": 277,
+    "verdict": null,
+    "published_in": [
+      "2026-10-29"
+    ],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
     "region": "Strait of Hormuz",
     "date_utc": "2026-10-28T07:14:21Z",
     "summary": "A Firstpost headline reports a tanker on fire in the Strait of Hormuz, alongside political commentary about Iran. No vessel name, flag, date, position, cause or casualty details are given.",
@@ -129,7 +171,9 @@
     "last_updated": "2026-10-28T07:22:09Z",
     "verification_issue": 265,
     "verdict": null,
-    "published_in": [],
+    "published_in": [
+      "2026-10-29"
+    ],
     "status": "reported",
     "position_approx": true
   },
@@ -1036,13 +1080,60 @@
         "kind": "media",
         "published_at": "2026-10-27T07:00:00Z",
         "title": "Drone Attack Strikes Container Ship off Bulgaria’s Black Sea Coast - Howl.Link"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaWUyNjBGMjRhTmw2alZQU1k1YnlOMEUwbjNaT19wRHRMUWYyZ1V4QXhTb0h3OHRUX0xwdzkxZ0E1UlpNVnhydWx3TjYxQ1NZYXA3T05Qb21CZFRMaWVjQWNvTEJPd19fVnV5T2QzTFVLUEVQX1dUVVV0dEVzdjRNSk9MV1lOUGQ1SEdwSGhiaDZwVmc2TnRkcXNJc1pNSHMydWszYjhMTmNNLWYxZ2RmMDg1OA?oc=5",
+        "source": "Defensemirror.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T06:03:52Z",
+        "title": "Black Sea Drone Attack Hits Container Ship Off Bulgaria; All 18 Crew Rescued - Defensemirror.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQZHZXOVQ4QUx1ZWFQY2FyTGhEQUdEQzM2c1FhSWNCQXdYZWdsTUhuRkRuVjFIbmpLbU82UEc2MS1May1VRnBSZm9xYXNkcUJGOFBQR050N2ZfWUlaN1JJTGQxbUFmRGJJQ0REZm1vazhTempFamIzUThZekprX0cwZGNkMWlpcnIxUUZmaWV1UE5PeG9aS3E2R3Njd2c1cXQwOERsQ3dOZG1mRWJXak0zVE9CYmEyRjJDYlJFSjBTX0s4WlRMb0NoS1RJQXNkd3lOb0xCckpPSmlGTXhnM3RwWlhPb1JibmdPYnZ3dXlFWXlldkpHMTZQaFVZdWF5NWNWa3pnckdBODNNcTd4cDluc2dlTQ?oc=5",
+        "source": "Ottumwa Courier",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T04:36:02Z",
+        "title": "Drones strike a container ship off Bulgaria's Black Sea coast and its crew members are rescued - Ottumwa Courier"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOdzd5d0pfMG5oNTl5MkNiT3pUREN4UkhjTnJFY2stdnlqSHplSUdOVVF6R2x2dUhlM1d1cU5YXzM5N29aSTktRXBqVjZqNnRJWTJSMjROLThEQ01pa1FTNnBTWHhhSXNoWVMyX3djNUtWVnpXZUliT25hY19Ick10X3h4ZGFPRGUtNFdyZ1VhTEh6elZhbXBKUHVpSnE4eGhGU05kT0J6Y2pNMkJLRXVVMjhOSTNhUEZ4T0haMHNGaU1kMEFISktUa1lzOVlBcUl0T1I2WWtIOWZBeDFpLUQzMFhFaFF0Y1dPR0ZUZzBhSm1uSHhSZDktTTQ4bzQ4cW93RXFkWnR4MA?oc=5",
+        "source": "Traverse City Record-Eagle",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T04:36:02Z",
+        "title": "Drones strike a container ship off Bulgaria's Black Sea coast and its crew members are rescued - Traverse City Record-Eagle"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOTHZxVzNJNmIzTjhWVzI4NzF4bXpNWHlhMDMwTmw2YVhkLXpGdWFHLVBUUEJ3UG5mbGFWQlJzN04wX2xiM0gybnYxOHRjeTNjdExhYW4yRHowb3U2aUo3WWZCYUNmWmVoRXRPSl81cUd5bjB1eTRFRXR5UWtBc25uTi13ekNuM0VoaXZ0OTB6Q2EzeWpLRWNuNC1GaXU3M1ZBVmFVYXFaNGctOEpucHh2YTNLRHJMem1EZW9PV01veEVGeEtMdGZfUmJ4aDMySDhObWo5Wkg5ZVVBQkUwNHNrckwyQ2NGdmJGUTJPdUZhMVlnblFxek1Pd0p30gH_AUFVX3lxTFB6Y2dudFVibm83aXdITVc4Q0lmMW1DeENiUlNwUExucVZPMTNZZ043MllVUkRJRWM4NXNfQjhYZVVrMUxtMzhUMDFYSU5iOFlkSFJhODR2TnJILTRaMWgwYzZjdWh3SjVjZ2x2aGd5M05VXzFpd2Y1dUl3ZnljRXgzVGl5M0h3UlR4Wm90SlhiMk8wenNHQ3Z6cktkX3Z1WFZtNjg5SUYxZmx6OHh2aFUyRWdYekFDME00bzRNaVJMR192ZE9TUk1rY3BWTk9xdjg1YWltSHhkdHNmVVpNR0ptb09xclhZV3hyYm1VYUh0dWZSRURBOXk1VlR6eWx2RQ?oc=5",
+        "source": "The Times of India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T04:06:40Z",
+        "title": "Black Sea Drone Attack Hits Container Ship Off Bulgaria;18 Crew Members Rescued Safely - The Times of India"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVzA0aVg3VGhOaHY4US1kY3pFNTZwOEZhNnVlV2V1TjYwWHZvemh3enE1YlZpV1ZBbVkwTURNV1RCbzlvNDBJcS1aeDR1bEc1Um5DZ2tweUJDU0tIRWZMSzdkb25sVmpJaWQ0M0ZYblhDM1R2YkZUQlBxcVlIY1pCT19OZ2IyVnF3MXhINGdDTHlsaWhZdlQ1WVVKWmFxM2xtYmU2RHVVS0J2anc?oc=5",
+        "source": "Shipping Telegraph",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T02:01:51Z",
+        "title": "All 18-crew members of drone-hit Greek container ship rescued - Shipping Telegraph"
       }
     ],
     "first_seen": "2026-10-28T14:24:50Z",
-    "last_updated": "2026-10-29T00:19:30Z",
+    "last_updated": "2026-10-29T06:05:25Z",
     "verification_issue": 268,
     "verdict": null,
-    "published_in": [],
+    "published_in": [
+      "2026-10-29"
+    ],
     "status": "reported",
     "status_changed_at": "2026-10-28T14:24:50Z",
     "position_approx": true,
@@ -1084,7 +1175,9 @@
     "last_updated": "2026-10-28T19:49:14Z",
     "verification_issue": 270,
     "verdict": null,
-    "published_in": [],
+    "published_in": [
+      "2026-10-29"
+    ],
     "status": "claimed",
     "position_approx": true
   },
@@ -1305,7 +1398,7 @@
     "location_text": "off the Bulgarian coast, Black Sea",
     "attack_type": "drone (UAV)",
     "damage": null,
-    "casualties": null,
+    "casualties": "seafarers narrowly escaped",
     "attribution_claimed": "Capt. Todor Georgiev said the drones were Russian",
     "independent_evidence": true,
     "id": "INC-20261028-011",
@@ -1390,15 +1483,119 @@
         "kind": "media",
         "published_at": "2026-10-28T14:33:28Z",
         "title": "Fifth ship hit in Bulgaria's Black Sea economic zone - BurgasMedia"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcDRzdlJYbWRNOVE3WmVNa003cF96XzBydWZPRXN1M1ZrV19LNU0xcEJBS1E5dmpoRk9DRUNObVQyaC1sR01sdkY4bmhaaEltbXcxNmR0d2I3WDFadFNTSWlMSnhNcXVmRjBaRGRxZkQzbjd3Q1JEX2tuSy1yb0toNjJyOG5qNVM0VDVFQVRwZ0xwMWVGRnZ3MzV3Rlk3QXE3aFFqa3NUdmhiWm9i?oc=5",
+        "source": "Слободен печат",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-28T12:26:38Z",
+        "title": "Bulgaristan yakınlarında bir gemiye insansız hava araçlarıyla saldırı düzenlendi, denizciler kıl payı kurtuldu. - Слободен печат"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNb3BkNkVjV3ZqQUJSaGI2VlZQVG04VVVfNjlpSzNFbU9IYzZEUFpiTzYybnVrM0RIeEkzYWhUb2xRWEs5ek1ndnpZS2IxbkN6bHNoeXFWaVhRUWkwT1FjcGdNVFJLV1E3Zk4xX1lYRThCS0xQV0lLdU4zZS1nRlR0QnZmUzI5Rzd5aGp3U2ZKX09uOGtuRDlOQkJaeThZMnNDYzU1cUstVXZSUQ?oc=5",
+        "source": "INDIA New England News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-28T05:30:12Z",
+        "title": "Three Indian Crew Members Recovering in Romania After Black Sea Vessel Attack - INDIA New England News"
       }
     ],
     "first_seen": "2026-10-28T19:49:31Z",
-    "last_updated": "2026-10-28T19:49:45Z",
+    "last_updated": "2026-10-29T06:05:25Z",
     "verification_issue": 271,
     "verdict": null,
-    "published_in": [],
+    "published_in": [
+      "2026-10-29"
+    ],
     "status": "reported",
     "status_changed_at": "2026-10-28T19:49:45Z",
+    "position_approx": true
+  },
+  {
+    "region": "Red Sea",
+    "date_utc": "2026-10-28",
+    "summary": "Yemen's Houthis said they targeted two Saudi tankers in the Red Sea on 28 October, and a source said the tanker Encelia was hit by a missile. No position, damage details or casualties were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": "ENCELIA",
+    "imo": null,
+    "flag": "Saudi Arabia",
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 17.5,
+    "lon": 40.5,
+    "location_text": "Red Sea",
+    "attack_type": "missile",
+    "damage": "hit by a missile, per a source",
+    "casualties": null,
+    "attribution_claimed": "Yemen's Houthis said they targeted it",
+    "independent_evidence": true,
+    "id": "INC-20261028-012",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZG1OcTg0NEFPbHlyVUxuNWxCWEZYR3FYRURlZ3dXb2d6UnJWVkQ0Qk8xRWJuY2R5ZVVvZHdUak0tQk05TFhybHNzckg5b1BXNTVIRy1XVE93ZndlOVV4LWFIVGlJM3dtX0tvaDY1OVJ0a2o1dlZ2Zzh4V242el9VbFliaFA5OVktMHNBUmQxMHFiRDlybUNpRmNpM1B1SUl0dDV2SmpnYkZGMk5qbDdGZ01INlk1Rk0?oc=5",
+        "source": "EnergyNow.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-28T19:28:59Z",
+        "title": "Yemen’s Houthis Say They Targeted Two Saudi Tankers; Source Says Encelia Hit by Missile - EnergyNow.com"
+      }
+    ],
+    "first_seen": "2026-10-29T06:05:25Z",
+    "last_updated": "2026-10-29T06:05:26Z",
+    "verification_issue": 278,
+    "verdict": null,
+    "published_in": [
+      "2026-10-29"
+    ],
+    "status": "reported",
+    "date_approx": false,
+    "position_approx": true
+  },
+  {
+    "region": "Red Sea",
+    "date_utc": "2026-10-28",
+    "summary": "The Houthis said they targeted a second Saudi tanker in addition to Encelia. No vessel name, position, damage or casualty details are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": "Saudi Arabia",
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 17.5,
+    "lon": 40.5,
+    "location_text": "Red Sea",
+    "attack_type": "missile",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Yemen's Houthis said they targeted it",
+    "independent_evidence": false,
+    "id": "INC-20261028-013",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZG1OcTg0NEFPbHlyVUxuNWxCWEZYR3FYRURlZ3dXb2d6UnJWVkQ0Qk8xRWJuY2R5ZVVvZHdUak0tQk05TFhybHNzckg5b1BXNTVIRy1XVE93ZndlOVV4LWFIVGlJM3dtX0tvaDY1OVJ0a2o1dlZ2Zzh4V242el9VbFliaFA5OVktMHNBUmQxMHFiRDlybUNpRmNpM1B1SUl0dDV2SmpnYkZGMk5qbDdGZ01INlk1Rk0?oc=5",
+        "source": "EnergyNow.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-28T19:28:59Z",
+        "title": "Yemen’s Houthis Say They Targeted Two Saudi Tankers; Source Says Encelia Hit by Missile - EnergyNow.com"
+      }
+    ],
+    "first_seen": "2026-10-29T06:05:25Z",
+    "last_updated": "2026-10-29T06:05:26Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261028-012",
     "position_approx": true
   },
   {
@@ -1577,7 +1774,9 @@
     "last_updated": "2026-10-28T07:22:13Z",
     "verification_issue": 267,
     "verdict": null,
-    "published_in": [],
+    "published_in": [
+      "2026-10-29"
+    ],
     "status": "claimed",
     "position_approx": true
   },
@@ -1632,7 +1831,8 @@
       "note": "Iran's army said an unnamed oil tanker struck naval mines and caught fire east of the Strait of Hormuz on 27 October, carried by IRNA, with no independent confirmation and no ship, flag, crew or casualty details"
     },
     "published_in": [
-      "2026-10-28"
+      "2026-10-28",
+      "2026-10-29"
     ],
     "status": "claimed",
     "position_approx": true
@@ -2571,7 +2771,8 @@
     },
     "published_in": [
       "2026-10-27",
-      "2026-10-28"
+      "2026-10-28",
+      "2026-10-29"
     ],
     "status": "claimed",
     "position_approx": true,
@@ -2632,10 +2833,10 @@
     "published_in": [
       "2026-10-27"
     ],
-    "status": "rejected",
+    "status": "merged",
     "position_approx": true,
     "merged_into": "INC-20261021-008",
-    "status_changed_at": "2026-10-29T04:33:06Z"
+    "status_changed_at": "2026-10-29T06:05:14Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -3015,7 +3216,8 @@
     },
     "published_in": [
       "2026-10-27",
-      "2026-10-28"
+      "2026-10-28",
+      "2026-10-29"
     ],
     "status": "confirmed",
     "position_approx": true,
@@ -3078,10 +3280,10 @@
     "published_in": [
       "2026-10-27"
     ],
-    "status": "rejected",
+    "status": "merged",
     "position_approx": true,
     "merged_into": "INC-20260923-001",
-    "status_changed_at": "2026-10-29T04:33:02Z"
+    "status_changed_at": "2026-10-29T06:05:14Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -3370,7 +3572,8 @@
     },
     "published_in": [
       "2026-10-27",
-      "2026-10-28"
+      "2026-10-28",
+      "2026-10-29"
     ],
     "status": "confirmed",
     "date_approx": false,

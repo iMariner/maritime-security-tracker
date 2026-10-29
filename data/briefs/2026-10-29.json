@@ -1,0 +1,44 @@
+{
+  "post_id": 16172,
+  "media_id": 16171,
+  "image_url": "https://imariners.com/wp-content/uploads/brief-2026-10-29.png",
+  "preview_url": "https://imariner.github.io/maritime-security-tracker/preview/2026-10-29.html?v=060615",
+  "link": "https://imariners.com/?p=16172",
+  "status": "draft",
+  "title": "Container ship Contship Jet struck by sea drones off Bulgaria",
+  "excerpt": "The Liberian-flagged vessel was hit by three drones en route to Constanța, Romania, and her crew was evacuated, the owner and government said.",
+  "x_post": "Sea drones struck the container ship Contship Jet off Bulgaria's Black Sea coast on 28 October, and her crew was reported safe and ashore, the owner and the government said. #MaritimeSecurity #Shipping #Seafarers #BlackSea",
+  "incident_ids": [
+    "INC-20261029-001",
+    "INC-20261028-003",
+    "INC-20261028-004",
+    "INC-20261028-006",
+    "INC-20261028-011",
+    "INC-20261028-012",
+    "INC-20261027-012",
+    "INC-20261028-001",
+    "INC-20261026-002",
+    "INC-20261026-010",
+    "INC-20261026-005"
+  ],
+  "correction_ids": [],
+  "counts": {
+    "new": 11,
+    "updated": 0,
+    "corrections": 0
+  },
+  "fact_check": "5 correction(s)",
+  "fact_check_fixes": [
+    "Lede: removed the attribution to Romania's defence minister, since the facts credit the ship's owner and the government, and changed the crew line to reported safe and ashore.",
+    "INC-20261028-004 paragraph: removed the line that Romania's minister commented on the attack, which the facts do not support.",
+    "INC-20261026-005 paragraph: removed the vessel name Leonora Kosan, the flag Singapore, the bulk carrier type and the date 26 October, because the facts place that ship's damage on 23 October and describe a tanker in the UKMTO warning.",
+    "INC-20261026-010 paragraph: changed tanker to vessel and crew fate unknown to crew status unknown, matching the facts.",
+    "Tweet: changed crew was evacuated to crew was reported safe and ashore and removed the defence minister attribution."
+  ],
+  "generated_at": "2026-10-29T06:05:32Z",
+  "consistency_fixed": [],
+  "consistency_problems": [
+    "Leonora Kosan is in the data but not named in the article"
+  ],
+  "quality": "3 check(s) need attention: dates 2 approximate; attribution 3 claims without a named source; official coverage 0/0 ok; verified 4/11; single-source items 5, 5 without verification; confirmed ok; fact-check 5 correction(s); tweet 246/280 ok; dashes ok; consistency Leonora Kosan is in the data but not named in the article found"
+}
