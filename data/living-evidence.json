@@ -11445,6 +11445,85 @@
           ]
         }
       ]
+    },
+    "HIST-BS-20260805-EMIL": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.euronews.com/2026/08/06/russian-drones-attack-german-cargo-ship-emil-in-black-sea-media-reports",
+            "source": "Euronews, 6 August 2026"
+          },
+          {
+            "url": "https://www.marineinsight.com/german-bulk-carrier-abandoned-left-adrift-in-black-sea-after-multiple-russian-drone-attacks/",
+            "source": "Marine Insight, 7 August 2026"
+          }
+        ]
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-29T11:15:21Z",
+        "vessel_name": "EMIL",
+        "date_utc": "2026-08-05",
+        "vessel_type": "Bulk carrier",
+        "region": "Black Sea",
+        "location_text": "About 24 nautical miles off Odesa, Black Sea",
+        "attack_type": "drone (UAV)",
+        "summary": "EMIL, the Liberian flagged bulk carrier of about 175,000 dwt managed from Hamburg by Johann M. K. Blumenthal, was struck by Russian drones on 5 August 2026 about 24 nautical miles off Odesa and was hit again while the crew was evacuating. Several technical systems failed, a fire broke out and the ship was left unable to manoeuvre, so her 11 crew abandoned her and she drifted unmanned through the Romanian and then the Bulgarian exclusive economic zone until a Turkish tug took her in tow towards the Bosphorus on 12 October 2026.",
+        "date_note": "Ukrainian and German reporting and the Bulgarian authorities date the strike to 5 August 2026, during the night before the first reports on 6 August.",
+        "sources": [
+          {
+            "url": "https://www.kyivpost.com/post/81869",
+            "source": "Kyiv Post, 7 August 2026, citing Deutsche Welle"
+          },
+          {
+            "url": "https://www.euronews.com/2026/08/06/russian-drones-attack-german-cargo-ship-emil-in-black-sea-media-reports",
+            "source": "Euronews, 6 August 2026"
+          },
+          {
+            "url": "https://www.marineinsight.com/german-bulk-carrier-abandoned-left-adrift-in-black-sea-after-multiple-russian-drone-attacks/",
+            "source": "Marine Insight, 7 August 2026"
+          },
+          {
+            "url": "https://www.bta.bg/en/news/bulgaria/1222664-drone-damaged-cargo-ship-emil-being-towed-towards-bosphorus-transport-minister-",
+            "source": "Bulgarian News Agency (BTA), 12 October 2026, quoting Transport Minister Georgi Peev"
+          },
+          {
+            "url": "https://www.bgnes.com/society/abandoned-cargo-ship-struck-by-drone-drifts-into-bulgarian-waters-off-cape-shabla",
+            "source": "BGNES, 4 October 2026, quoting Bulgaria’s Ministry of Defence"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-29T11:15:21Z",
+          "text": "New historical record, absent from both incident stores and from the historical list. EMIL, a Liberian flagged bulk carrier of about 175,000 dwt owned by the Hamburg company Johann M. K. Blumenthal, was struck by Russian drones on 5 August 2026 about 24 nautical miles off Odesa, and a further drone hit her while the crew was evacuating. Euronews reported that 11 people were aboard, none of them German nationals, and that all were unharmed; Marine Insight reported the same 11 crew safely evacuated with no injuries reported. She was abandoned, drifted unmanned through Romania's and then Bulgaria's exclusive economic zone, and Bulgaria's transport minister said on 12 October 2026 that a Turkish tug was towing her towards the Bosphorus. Deaths are recorded as zero because all 11 crew were evacuated; no nationality is recorded because the sources name none, and the Liberian flag is not used to infer it. No image is published.",
+          "sources": [
+            {
+              "url": "https://www.kyivpost.com/post/81869",
+              "source": "Kyiv Post, 7 August 2026, citing Deutsche Welle"
+            },
+            {
+              "url": "https://www.euronews.com/2026/08/06/russian-drones-attack-german-cargo-ship-emil-in-black-sea-media-reports",
+              "source": "Euronews, 6 August 2026"
+            },
+            {
+              "url": "https://www.marineinsight.com/german-bulk-carrier-abandoned-left-adrift-in-black-sea-after-multiple-russian-drone-attacks/",
+              "source": "Marine Insight, 7 August 2026"
+            },
+            {
+              "url": "https://www.bta.bg/en/news/bulgaria/1222664-drone-damaged-cargo-ship-emil-being-towed-towards-bosphorus-transport-minister-",
+              "source": "Bulgarian News Agency (BTA), 12 October 2026, quoting Transport Minister Georgi Peev"
+            },
+            {
+              "url": "https://www.bgnes.com/society/abandoned-cargo-ship-struck-by-drone-drifts-into-bulgarian-waters-off-cape-shabla",
+              "source": "BGNES, 4 October 2026, quoting Bulgaria’s Ministry of Defence"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -20075,6 +20154,93 @@
             {
               "url": "https://www.vesselfinder.com/vessels/details/9070424",
               "source": "VesselFinder AIS particulars for ZEINAB (IMO 9070424)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6495192278,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6495192278",
+      "author": "iMariner",
+      "received_at": "2026-10-29T11:17:07Z",
+      "incident_id": "HIST-BS-20260805-EMIL",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-BS-20260805-EMIL",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-29T11:15:21Z",
+          "vessel_name": "EMIL",
+          "date_utc": "2026-08-05",
+          "vessel_type": "Bulk carrier",
+          "region": "Black Sea",
+          "location_text": "About 24 nautical miles off Odesa, Black Sea",
+          "attack_type": "drone (UAV)",
+          "summary": "EMIL, the Liberian flagged bulk carrier of about 175,000 dwt managed from Hamburg by Johann M. K. Blumenthal, was struck by Russian drones on 5 August 2026 about 24 nautical miles off Odesa and was hit again while the crew was evacuating. Several technical systems failed, a fire broke out and the ship was left unable to manoeuvre, so her 11 crew abandoned her and she drifted unmanned through the Romanian and then the Bulgarian exclusive economic zone until a Turkish tug took her in tow towards the Bosphorus on 12 October 2026.",
+          "date_note": "Ukrainian and German reporting and the Bulgarian authorities date the strike to 5 August 2026, during the night before the first reports on 6 August.",
+          "sources": [
+            {
+              "url": "https://www.kyivpost.com/post/81869",
+              "source": "Kyiv Post, 7 August 2026, citing Deutsche Welle"
+            },
+            {
+              "url": "https://www.euronews.com/2026/08/06/russian-drones-attack-german-cargo-ship-emil-in-black-sea-media-reports",
+              "source": "Euronews, 6 August 2026"
+            },
+            {
+              "url": "https://www.marineinsight.com/german-bulk-carrier-abandoned-left-adrift-in-black-sea-after-multiple-russian-drone-attacks/",
+              "source": "Marine Insight, 7 August 2026"
+            },
+            {
+              "url": "https://www.bta.bg/en/news/bulgaria/1222664-drone-damaged-cargo-ship-emil-being-towed-towards-bosphorus-transport-minister-",
+              "source": "Bulgarian News Agency (BTA), 12 October 2026, quoting Transport Minister Georgi Peev"
+            },
+            {
+              "url": "https://www.bgnes.com/society/abandoned-cargo-ship-struck-by-drone-drifts-into-bulgarian-waters-off-cape-shabla",
+              "source": "BGNES, 4 October 2026, quoting Bulgaria’s Ministry of Defence"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "nationalities": [],
+          "sources": [
+            {
+              "url": "https://www.euronews.com/2026/08/06/russian-drones-attack-german-cargo-ship-emil-in-black-sea-media-reports",
+              "source": "Euronews, 6 August 2026"
+            },
+            {
+              "url": "https://www.marineinsight.com/german-bulk-carrier-abandoned-left-adrift-in-black-sea-after-multiple-russian-drone-attacks/",
+              "source": "Marine Insight, 7 August 2026"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-10-29T11:15:21Z",
+          "text": "New historical record, absent from both incident stores and from the historical list. EMIL, a Liberian flagged bulk carrier of about 175,000 dwt owned by the Hamburg company Johann M. K. Blumenthal, was struck by Russian drones on 5 August 2026 about 24 nautical miles off Odesa, and a further drone hit her while the crew was evacuating. Euronews reported that 11 people were aboard, none of them German nationals, and that all were unharmed; Marine Insight reported the same 11 crew safely evacuated with no injuries reported. She was abandoned, drifted unmanned through Romania's and then Bulgaria's exclusive economic zone, and Bulgaria's transport minister said on 12 October 2026 that a Turkish tug was towing her towards the Bosphorus. Deaths are recorded as zero because all 11 crew were evacuated; no nationality is recorded because the sources name none, and the Liberian flag is not used to infer it. No image is published.",
+          "sources": [
+            {
+              "url": "https://www.kyivpost.com/post/81869",
+              "source": "Kyiv Post, 7 August 2026, citing Deutsche Welle"
+            },
+            {
+              "url": "https://www.euronews.com/2026/08/06/russian-drones-attack-german-cargo-ship-emil-in-black-sea-media-reports",
+              "source": "Euronews, 6 August 2026"
+            },
+            {
+              "url": "https://www.marineinsight.com/german-bulk-carrier-abandoned-left-adrift-in-black-sea-after-multiple-russian-drone-attacks/",
+              "source": "Marine Insight, 7 August 2026"
+            },
+            {
+              "url": "https://www.bta.bg/en/news/bulgaria/1222664-drone-damaged-cargo-ship-emil-being-towed-towards-bosphorus-transport-minister-",
+              "source": "Bulgarian News Agency (BTA), 12 October 2026, quoting Transport Minister Georgi Peev"
+            },
+            {
+              "url": "https://www.bgnes.com/society/abandoned-cargo-ship-struck-by-drone-drifts-into-bulgarian-waters-off-cape-shabla",
+              "source": "BGNES, 4 October 2026, quoting Bulgaria’s Ministry of Defence"
             }
           ]
         }
