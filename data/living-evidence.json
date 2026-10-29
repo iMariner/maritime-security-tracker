@@ -11662,6 +11662,59 @@
           ]
         }
       ]
+    },
+    "HIST-BS-20260827-LIDER-KOCATEPE": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-30T05:50:00+05:30",
+        "vessel_name": "LIDER KOCATEPE",
+        "date_utc": "2026-08-27",
+        "vessel_type": "Ro-ro cargo ship",
+        "region": "Black Sea",
+        "location_text": "International waters off Tuapse, Russian Black Sea coast, while en route to assist the drone-damaged Lider Bordo Mavi",
+        "attack_type": "drone (UAV)",
+        "summary": "The Turkish-operated ro-ro cargo ship Lider Kocatepe was sent from Samsun on 27 August to tow the drone-damaged Lider Bordo Mavi near Tuapse and was itself hit by a drone while en route. It sustained material damage and returned to Samsun. No casualty figure for this vessel was published.",
+        "date_note": "Turkish Foreign Ministry briefing and Turkish media place the strike on 27 August 2026, the day after the Lider Bordo Mavi was hit. Day precision only, no time of attack published.",
+        "sources": [
+          {
+            "url": "https://www.dailysabah.com/politics/diplomacy/ankara-summons-ukraines-ambassador-over-black-sea-attacks",
+            "source": "Daily Sabah, citing Turkish Foreign Ministry sources"
+          },
+          {
+            "url": "https://en.portnews.ru/news/396222/",
+            "source": "PortNews, citing the Turkish Foreign Ministry"
+          },
+          {
+            "url": "https://safety4sea.com/turkiye-summons-ukrainian-envoy-over-black-sea-attacks/",
+            "source": "Safety4Sea"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-30T05:50:00+05:30",
+          "text": "New historical record for a second hull in the 26 and 27 August 2026 Tuapse attacks. The Turkish Foreign Ministry summoned Ukraine's ambassador on 29 August over both vessels; the Lider Kocatepe, sent to tow the damaged Lider Bordo Mavi, was hit by a drone on 27 August, took material damage and returned to Samsun, where AIS showed it moored on 28 August. No source read gives a death, injury or missing figure for this hull, so casualties are unknown rather than zero. Turkish media call it Turkish-flagged while PortNews describes both ships as Cameroon-flagged, so no flag is recorded. It is kept separate from the Lider Bordo Mavi record: two ships, two attacks, and no shared fatality is duplicated.",
+          "sources": [
+            {
+              "url": "https://www.dailysabah.com/politics/diplomacy/ankara-summons-ukraines-ambassador-over-black-sea-attacks",
+              "source": "Daily Sabah, citing Turkish Foreign Ministry sources"
+            },
+            {
+              "url": "https://en.portnews.ru/news/396222/",
+              "source": "PortNews, citing the Turkish Foreign Ministry"
+            },
+            {
+              "url": "https://safety4sea.com/turkiye-summons-ukrainian-envoy-over-black-sea-attacks/",
+              "source": "Safety4Sea"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -20532,6 +20585,67 @@
             {
               "url": "https://www.hurriyetdailynews.com/ankara-summons-ukraine-envoy-after-black-sea-attacks-226241",
               "source": "Hurriyet Daily News, 29 August 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6511040734,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6511040734",
+      "author": "iMariner",
+      "received_at": "2026-10-29T23:34:39Z",
+      "incident_id": "HIST-BS-20260827-LIDER-KOCATEPE",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-BS-20260827-LIDER-KOCATEPE",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-30T05:50:00+05:30",
+          "vessel_name": "LIDER KOCATEPE",
+          "date_utc": "2026-08-27",
+          "vessel_type": "Ro-ro cargo ship",
+          "region": "Black Sea",
+          "location_text": "International waters off Tuapse, Russian Black Sea coast, while en route to assist the drone-damaged Lider Bordo Mavi",
+          "attack_type": "drone (UAV)",
+          "summary": "The Turkish-operated ro-ro cargo ship Lider Kocatepe was sent from Samsun on 27 August to tow the drone-damaged Lider Bordo Mavi near Tuapse and was itself hit by a drone while en route. It sustained material damage and returned to Samsun. No casualty figure for this vessel was published.",
+          "date_note": "Turkish Foreign Ministry briefing and Turkish media place the strike on 27 August 2026, the day after the Lider Bordo Mavi was hit. Day precision only, no time of attack published.",
+          "sources": [
+            {
+              "url": "https://www.dailysabah.com/politics/diplomacy/ankara-summons-ukraines-ambassador-over-black-sea-attacks",
+              "source": "Daily Sabah, citing Turkish Foreign Ministry sources"
+            },
+            {
+              "url": "https://en.portnews.ru/news/396222/",
+              "source": "PortNews, citing the Turkish Foreign Ministry"
+            },
+            {
+              "url": "https://safety4sea.com/turkiye-summons-ukrainian-envoy-over-black-sea-attacks/",
+              "source": "Safety4Sea"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-10-30T05:50:00+05:30",
+          "text": "New historical record for a second hull in the 26 and 27 August 2026 Tuapse attacks. The Turkish Foreign Ministry summoned Ukraine's ambassador on 29 August over both vessels; the Lider Kocatepe, sent to tow the damaged Lider Bordo Mavi, was hit by a drone on 27 August, took material damage and returned to Samsun, where AIS showed it moored on 28 August. No source read gives a death, injury or missing figure for this hull, so casualties are unknown rather than zero. Turkish media call it Turkish-flagged while PortNews describes both ships as Cameroon-flagged, so no flag is recorded. It is kept separate from the Lider Bordo Mavi record: two ships, two attacks, and no shared fatality is duplicated.",
+          "sources": [
+            {
+              "url": "https://www.dailysabah.com/politics/diplomacy/ankara-summons-ukraines-ambassador-over-black-sea-attacks",
+              "source": "Daily Sabah, citing Turkish Foreign Ministry sources"
+            },
+            {
+              "url": "https://en.portnews.ru/news/396222/",
+              "source": "PortNews, citing the Turkish Foreign Ministry"
+            },
+            {
+              "url": "https://safety4sea.com/turkiye-summons-ukrainian-envoy-over-black-sea-attacks/",
+              "source": "Safety4Sea"
             }
           ]
         }
