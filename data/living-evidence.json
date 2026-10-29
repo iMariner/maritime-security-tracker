@@ -11524,6 +11524,75 @@
           ]
         }
       ]
+    },
+    "INC-20261007-003": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "human_impact": {
+        "injured": {
+          "count": 1,
+          "as_of": "2026-10-13",
+          "sources": [
+            {
+              "url": "https://globalnation.inquirer.net/341877/fwd-filipino-seafarer-injured-in-drone-attack-on-persian-gulf-tanker-gets-dmw-aid",
+              "source": "Philippine Department of Migrant Workers, reported by INQUIRER.net, 13 October 2026"
+            }
+          ]
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-29T17:40:00Z",
+        "vessel_name": "ACERS",
+        "imo": "9301902",
+        "date_utc": "2026-10-07",
+        "vessel_type": "Chemical and oil tanker",
+        "region": "Persian Gulf",
+        "location_text": "51 NM north of Madinat ash Shamal, Qatar",
+        "attack_type": "Struck by multiple projectiles",
+        "summary": "The Antigua and Barbuda-flagged chemical and oil tanker ACERS was struck by multiple projectiles at about 19:00 UTC on 7 October 2026, 51 nautical miles north of Madinat ash Shamal, Qatar, and caught fire. UKMTO reported casualties without giving numbers. The Philippine Department of Migrant Workers said one Filipino crew member was injured and taken by the Qatar Navy and Qatar Coast Guard to Hamad General Hospital in Doha, and that the 24 other Filipino crew members aboard were safe and heading for Dubai. No death was confirmed in the sources read, so the death count stays unknown. The IMO confirmed incident register records the vessel damaged with no pollution.",
+        "sources": [
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO confirmed incident register, checked 29 October 2026"
+          },
+          {
+            "url": "https://maritime-executive.com/article/tanker-hit-multiple-times-in-arabian-gulf-hundreds-of-miles-from-hormuz",
+            "source": "The Maritime Executive, 7 October 2026"
+          },
+          {
+            "url": "https://gcaptain.com/tanker-attack-off-qatar-signals-wider-threat-beyond-hormuz/",
+            "source": "gCaptain, 8 October 2026"
+          },
+          {
+            "url": "https://globalnation.inquirer.net/341877/fwd-filipino-seafarer-injured-in-drone-attack-on-persian-gulf-tanker-gets-dmw-aid",
+            "source": "INQUIRER.net, quoting the Philippine Department of Migrant Workers, 13 October 2026"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-29T17:40:00Z",
+          "text": "First structured evidence for the 7 October strike on ACERS. UKMTO reported casualties in its initial warning without numbers. The Philippine Department of Migrant Workers then named one injured Filipino seafarer flown to Hamad General Hospital in Doha and said the 24 other Filipino crew were safe. That resolves the reported casualties as injuries, not deaths, but no authority states a whole-vessel death toll, so deaths remain unknown rather than zero. The injured snapshot records the one numbered case: Reuters-sourced trade reporting described several crew members with minor injuries without giving a number. Nationality is taken from the Philippine authority that named the injured man, never from the flag.",
+          "sources": [
+            {
+              "url": "https://globalnation.inquirer.net/341877/fwd-filipino-seafarer-injured-in-drone-attack-on-persian-gulf-tanker-gets-dmw-aid",
+              "source": "INQUIRER.net, 13 October 2026"
+            },
+            {
+              "url": "https://maritime-executive.com/article/tanker-hit-multiple-times-in-arabian-gulf-hundreds-of-miles-from-hormuz",
+              "source": "The Maritime Executive, 7 October 2026"
+            },
+            {
+              "url": "https://gcaptain.com/tanker-attack-off-qatar-signals-wider-threat-beyond-hormuz/",
+              "source": "gCaptain, 8 October 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -20241,6 +20310,82 @@
             {
               "url": "https://www.bgnes.com/society/abandoned-cargo-ship-struck-by-drone-drifts-into-bulgarian-waters-off-cape-shabla",
               "source": "BGNES, 4 October 2026, quoting Bulgaria’s Ministry of Defence"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6503640412,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6503640412",
+      "author": "iMariner",
+      "received_at": "2026-10-29T17:24:00Z",
+      "incident_id": "INC-20261007-003",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261007-003",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-29T17:40:00Z",
+          "vessel_name": "ACERS",
+          "imo": "9301902",
+          "date_utc": "2026-10-07",
+          "vessel_type": "Chemical and oil tanker",
+          "region": "Persian Gulf",
+          "location_text": "51 NM north of Madinat ash Shamal, Qatar",
+          "attack_type": "Struck by multiple projectiles",
+          "summary": "The Antigua and Barbuda-flagged chemical and oil tanker ACERS was struck by multiple projectiles at about 19:00 UTC on 7 October 2026, 51 nautical miles north of Madinat ash Shamal, Qatar, and caught fire. UKMTO reported casualties without giving numbers. The Philippine Department of Migrant Workers said one Filipino crew member was injured and taken by the Qatar Navy and Qatar Coast Guard to Hamad General Hospital in Doha, and that the 24 other Filipino crew members aboard were safe and heading for Dubai. No death was confirmed in the sources read, so the death count stays unknown. The IMO confirmed incident register records the vessel damaged with no pollution.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 29 October 2026"
+            },
+            {
+              "url": "https://maritime-executive.com/article/tanker-hit-multiple-times-in-arabian-gulf-hundreds-of-miles-from-hormuz",
+              "source": "The Maritime Executive, 7 October 2026"
+            },
+            {
+              "url": "https://gcaptain.com/tanker-attack-off-qatar-signals-wider-threat-beyond-hormuz/",
+              "source": "gCaptain, 8 October 2026"
+            },
+            {
+              "url": "https://globalnation.inquirer.net/341877/fwd-filipino-seafarer-injured-in-drone-attack-on-persian-gulf-tanker-gets-dmw-aid",
+              "source": "INQUIRER.net, quoting the Philippine Department of Migrant Workers, 13 October 2026"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "human_impact": {
+          "injured": {
+            "count": 1,
+            "as_of": "2026-10-13",
+            "sources": [
+              {
+                "url": "https://globalnation.inquirer.net/341877/fwd-filipino-seafarer-injured-in-drone-attack-on-persian-gulf-tanker-gets-dmw-aid",
+                "source": "Philippine Department of Migrant Workers, reported by INQUIRER.net, 13 October 2026"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-10-29T17:40:00Z",
+          "text": "First structured evidence for the 7 October strike on ACERS. UKMTO reported casualties in its initial warning without numbers. The Philippine Department of Migrant Workers then named one injured Filipino seafarer flown to Hamad General Hospital in Doha and said the 24 other Filipino crew were safe. That resolves the reported casualties as injuries, not deaths, but no authority states a whole-vessel death toll, so deaths remain unknown rather than zero. The injured snapshot records the one numbered case: Reuters-sourced trade reporting described several crew members with minor injuries without giving a number. Nationality is taken from the Philippine authority that named the injured man, never from the flag.",
+          "sources": [
+            {
+              "url": "https://globalnation.inquirer.net/341877/fwd-filipino-seafarer-injured-in-drone-attack-on-persian-gulf-tanker-gets-dmw-aid",
+              "source": "INQUIRER.net, 13 October 2026"
+            },
+            {
+              "url": "https://maritime-executive.com/article/tanker-hit-multiple-times-in-arabian-gulf-hundreds-of-miles-from-hormuz",
+              "source": "The Maritime Executive, 7 October 2026"
+            },
+            {
+              "url": "https://gcaptain.com/tanker-attack-off-qatar-signals-wider-threat-beyond-hormuz/",
+              "source": "gCaptain, 8 October 2026"
             }
           ]
         }
