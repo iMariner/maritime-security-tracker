@@ -11192,6 +11192,88 @@
           ]
         }
       ]
+    },
+    "HIST-BS-20260718-OMORFI": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 1,
+        "sources": [
+          {
+            "url": "https://news.liga.net/en/politics/news/india-summoned-ukraines-ambassador-following-an-attack-on-a-ship",
+            "source": "LIGA.net, citing India's Ministry of External Affairs"
+          },
+          {
+            "url": "https://www.hindustantimes.com/india-news/india-condemns-black-sea-attack-on-vessel-that-killed-indian-seafarer-101784914666105.html",
+            "source": "Hindustan Times, citing India's Ministry of External Affairs"
+          }
+        ],
+        "nationalities": [
+          {
+            "nationality": "Indian",
+            "status": "confirmed",
+            "deaths": 1,
+            "sources": [
+              {
+                "url": "https://news.liga.net/en/politics/news/india-summoned-ukraines-ambassador-following-an-attack-on-a-ship",
+                "source": "LIGA.net, citing India's Ministry of External Affairs"
+              },
+              {
+                "url": "https://www.hindustantimes.com/india-news/india-condemns-black-sea-attack-on-vessel-that-killed-indian-seafarer-101784914666105.html",
+                "source": "Hindustan Times, citing India's Ministry of External Affairs"
+              },
+              {
+                "url": "https://globalsecurity.org/wmd/library/news/ukraine/2026/08/ukraine-260812-russia-mfa02.htm",
+                "source": "Russian Foreign Ministry statement"
+              }
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-29T05:07:34Z",
+        "vessel_name": "OMORFI",
+        "date_utc": "2026-07-18",
+        "vessel_type": "Bulk carrier",
+        "region": "Black Sea",
+        "location_text": "Russian territorial waters, Black Sea, Novorossiysk area reported",
+        "summary": "India's Ministry of External Affairs said the Marshall Islands-flagged bulk carrier Omorfi was attacked on 18 July 2026 while transiting the Black Sea in Russian territorial waters. Ten crew were aboard, including three Indian nationals; chief officer Sagar Gupta, an Indian national, was killed and the other two Indian crew were reported safe. India condemned the attack without naming the attacker and later summoned Ukraine's ambassador over the case. The Forward Seamen's Union of India said the ship was hit by a Ukrainian drone at Novorossiysk and dated the attack 20 July; Russia's Foreign Ministry said the ship was carrying grain when attacked in its territorial waters and that an Indian sailor died.",
+        "date_note": "India's Ministry of External Affairs dates the attack 18 July 2026, as does Russia's Foreign Ministry; the Forward Seamen's Union of India gives 20 July at Novorossiysk. The record follows the ministry statement.",
+        "sources": [
+          {
+            "url": "https://news.liga.net/en/politics/news/india-summoned-ukraines-ambassador-following-an-attack-on-a-ship",
+            "source": "LIGA.net, citing India's Ministry of External Affairs"
+          },
+          {
+            "url": "https://www.hindustantimes.com/india-news/india-condemns-black-sea-attack-on-vessel-that-killed-indian-seafarer-101784914666105.html",
+            "source": "Hindustan Times, citing India's Ministry of External Affairs"
+          },
+          {
+            "url": "https://globalsecurity.org/wmd/library/news/ukraine/2026/08/ukraine-260812-russia-mfa02.htm",
+            "source": "Russian Foreign Ministry statement"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-29T05:07:34Z",
+          "text": "New historical record. One Indian seafarer, chief officer Sagar Gupta, was killed when the bulk carrier Omorfi was attacked in the Black Sea on 18 July 2026, according to India's Ministry of External Affairs and the seafarers' union that named him. India did not name the attacker; the union alleged a Ukrainian drone. Two points stay unresolved and are recorded rather than resolved: the union dates the attack 20 July at Novorossiysk rather than 18 July, and a Saint Kitts and Nevis ship registry statement places an Omorfi under its flag with IMO 7900091 and reports two attacks on 18 and 19 July with the master and second engineer injured, which conflicts with the Marshall Islands flag given by the ministry and by ship trackers. No IMO is recorded for that reason, and the reported injuries are not entered.",
+          "sources": [
+            {
+              "url": "https://news.liga.net/en/politics/news/india-summoned-ukraines-ambassador-following-an-attack-on-a-ship",
+              "source": "LIGA.net, citing India's Ministry of External Affairs"
+            },
+            {
+              "url": "https://www.hindustantimes.com/india-news/india-condemns-black-sea-attack-on-vessel-that-killed-indian-seafarer-101784914666105.html",
+              "source": "Hindustan Times, citing India's Ministry of External Affairs"
+            },
+            {
+              "url": "https://globalsecurity.org/wmd/library/news/ukraine/2026/08/ukraine-260812-russia-mfa02.htm",
+              "source": "Russian Foreign Ministry statement"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -19537,6 +19619,96 @@
             {
               "url": "https://www.romania-insider.com/sailor-gas-tanker-black-sea-dies-hospital-2026",
               "source": "Romania Insider"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6488502546,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6488502546",
+      "author": "iMariner",
+      "received_at": "2026-10-29T05:08:10Z",
+      "incident_id": "HIST-BS-20260718-OMORFI",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-BS-20260718-OMORFI",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-29T05:07:34Z",
+          "vessel_name": "OMORFI",
+          "date_utc": "2026-07-18",
+          "vessel_type": "Bulk carrier",
+          "region": "Black Sea",
+          "location_text": "Russian territorial waters, Black Sea, Novorossiysk area reported",
+          "summary": "India's Ministry of External Affairs said the Marshall Islands-flagged bulk carrier Omorfi was attacked on 18 July 2026 while transiting the Black Sea in Russian territorial waters. Ten crew were aboard, including three Indian nationals; chief officer Sagar Gupta, an Indian national, was killed and the other two Indian crew were reported safe. India condemned the attack without naming the attacker and later summoned Ukraine's ambassador over the case. The Forward Seamen's Union of India said the ship was hit by a Ukrainian drone at Novorossiysk and dated the attack 20 July; Russia's Foreign Ministry said the ship was carrying grain when attacked in its territorial waters and that an Indian sailor died.",
+          "date_note": "India's Ministry of External Affairs dates the attack 18 July 2026, as does Russia's Foreign Ministry; the Forward Seamen's Union of India gives 20 July at Novorossiysk. The record follows the ministry statement.",
+          "sources": [
+            {
+              "url": "https://news.liga.net/en/politics/news/india-summoned-ukraines-ambassador-following-an-attack-on-a-ship",
+              "source": "LIGA.net, citing India's Ministry of External Affairs"
+            },
+            {
+              "url": "https://www.hindustantimes.com/india-news/india-condemns-black-sea-attack-on-vessel-that-killed-indian-seafarer-101784914666105.html",
+              "source": "Hindustan Times, citing India's Ministry of External Affairs"
+            },
+            {
+              "url": "https://globalsecurity.org/wmd/library/news/ukraine/2026/08/ukraine-260812-russia-mfa02.htm",
+              "source": "Russian Foreign Ministry statement"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 1,
+          "sources": [
+            {
+              "url": "https://news.liga.net/en/politics/news/india-summoned-ukraines-ambassador-following-an-attack-on-a-ship",
+              "source": "LIGA.net, citing India's Ministry of External Affairs"
+            },
+            {
+              "url": "https://www.hindustantimes.com/india-news/india-condemns-black-sea-attack-on-vessel-that-killed-indian-seafarer-101784914666105.html",
+              "source": "Hindustan Times, citing India's Ministry of External Affairs"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Indian",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "url": "https://news.liga.net/en/politics/news/india-summoned-ukraines-ambassador-following-an-attack-on-a-ship",
+                  "source": "LIGA.net, citing India's Ministry of External Affairs"
+                },
+                {
+                  "url": "https://www.hindustantimes.com/india-news/india-condemns-black-sea-attack-on-vessel-that-killed-indian-seafarer-101784914666105.html",
+                  "source": "Hindustan Times, citing India's Ministry of External Affairs"
+                },
+                {
+                  "url": "https://globalsecurity.org/wmd/library/news/ukraine/2026/08/ukraine-260812-russia-mfa02.htm",
+                  "source": "Russian Foreign Ministry statement"
+                }
+              ]
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-10-29T05:07:34Z",
+          "text": "New historical record. One Indian seafarer, chief officer Sagar Gupta, was killed when the bulk carrier Omorfi was attacked in the Black Sea on 18 July 2026, according to India's Ministry of External Affairs and the seafarers' union that named him. India did not name the attacker; the union alleged a Ukrainian drone. Two points stay unresolved and are recorded rather than resolved: the union dates the attack 20 July at Novorossiysk rather than 18 July, and a Saint Kitts and Nevis ship registry statement places an Omorfi under its flag with IMO 7900091 and reports two attacks on 18 and 19 July with the master and second engineer injured, which conflicts with the Marshall Islands flag given by the ministry and by ship trackers. No IMO is recorded for that reason, and the reported injuries are not entered.",
+          "sources": [
+            {
+              "url": "https://news.liga.net/en/politics/news/india-summoned-ukraines-ambassador-following-an-attack-on-a-ship",
+              "source": "LIGA.net, citing India's Ministry of External Affairs"
+            },
+            {
+              "url": "https://www.hindustantimes.com/india-news/india-condemns-black-sea-attack-on-vessel-that-killed-indian-seafarer-101784914666105.html",
+              "source": "Hindustan Times, citing India's Ministry of External Affairs"
+            },
+            {
+              "url": "https://globalsecurity.org/wmd/library/news/ukraine/2026/08/ukraine-260812-russia-mfa02.htm",
+              "source": "Russian Foreign Ministry statement"
             }
           ]
         }
