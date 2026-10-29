@@ -11715,6 +11715,70 @@
           ]
         }
       ]
+    },
+    "INC-20261004-017": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://www.ekathimerini.com/economy/1317331/greek-lng-carrier-hit-in-strait-of-hormuz-crew-safe/",
+            "source": "eKathimerini, citing the Greek Ministry of Shipping"
+          }
+        ],
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-30T06:10:00+05:30",
+        "vessel_name": "MARAN GAS MYSTRAS",
+        "imo": "9658238",
+        "date_utc": "2026-10-04",
+        "vessel_type": "LNG carrier",
+        "region": "Strait of Hormuz",
+        "location_text": "Outbound passage from the Strait of Hormuz, then continuing to the Fujairah anchorage, United Arab Emirates",
+        "attack_type": "unknown projectile",
+        "summary": "The Greek-flagged LNG carrier Maran Gas Mystras, of about 159,800 cubic metres, was struck near the waterline by an unidentified projectile on 4 October while leaving the Strait of Hormuz. Smoke was seen, the ship kept its propulsion and carried on to the Fujairah anchorage. Greece's shipping ministry said the 30 crew, 11 of them Greek, were safe and no injuries were reported, and the operator Maran Gas said the vessel and crew were safe.",
+        "date_note": "Greek reporting places the strike on Sunday 4 October 2026. The IMO register dates the entry 5 October, the date of the UKMTO report from the master, so the attack date is recorded as 4 October and the register date is explained here.",
+        "sources": [
+          {
+            "url": "https://www.ekathimerini.com/economy/1317331/greek-lng-carrier-hit-in-strait-of-hormuz-crew-safe/",
+            "source": "eKathimerini, citing the Greek Ministry of Shipping"
+          },
+          {
+            "url": "https://www.hellenicshippingnews.com/second-greek-linked-ship-hit-in-hormuz-within-days/",
+            "source": "Hellenic Shipping News, citing Maran Gas and the IMO register"
+          },
+          {
+            "url": "https://www.seatrade-maritime.com/tankers/sinokor-maran-gas-and-sinogas-ships-hit-in-spate-of-hormuz-attacks",
+            "source": "Seatrade Maritime News, citing UKMTO and Greek media"
+          },
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO confirmed incidents list, entry for MARAN GAS MYSTRAS, 5 October 2026"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-30T06:10:00+05:30",
+          "text": "First structured review of this record. The Greek Ministry of Shipping, the flag state authority, said the 30-strong crew including 11 Greeks was safe with no injuries reported, and the operator Maran Gas said the ship and crew were safe and the vessel fully operational, so no deaths are confirmed rather than unknown. The projectile hit near the waterline on Sunday 4 October; the IMO register carries the entry under 5 October, the date of the UKMTO report from the master, and that difference is recorded rather than silently changed. The origin and type of the projectile remain undetermined and no attribution is recorded. The vessel continued to the Fujairah anchorage and no pollution was reported.",
+          "sources": [
+            {
+              "url": "https://www.ekathimerini.com/economy/1317331/greek-lng-carrier-hit-in-strait-of-hormuz-crew-safe/",
+              "source": "eKathimerini, citing the Greek Ministry of Shipping"
+            },
+            {
+              "url": "https://www.hellenicshippingnews.com/second-greek-linked-ship-hit-in-hormuz-within-days/",
+              "source": "Hellenic Shipping News, citing Maran Gas and the IMO register"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents list, entry for MARAN GAS MYSTRAS, 5 October 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -20646,6 +20710,77 @@
             {
               "url": "https://safety4sea.com/turkiye-summons-ukrainian-envoy-over-black-sea-attacks/",
               "source": "Safety4Sea"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6511051422,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6511051422",
+      "author": "iMariner",
+      "received_at": "2026-10-29T23:35:24Z",
+      "incident_id": "INC-20261004-017",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261004-017",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-30T06:10:00+05:30",
+          "vessel_name": "MARAN GAS MYSTRAS",
+          "imo": "9658238",
+          "date_utc": "2026-10-04",
+          "vessel_type": "LNG carrier",
+          "region": "Strait of Hormuz",
+          "location_text": "Outbound passage from the Strait of Hormuz, then continuing to the Fujairah anchorage, United Arab Emirates",
+          "attack_type": "unknown projectile",
+          "summary": "The Greek-flagged LNG carrier Maran Gas Mystras, of about 159,800 cubic metres, was struck near the waterline by an unidentified projectile on 4 October while leaving the Strait of Hormuz. Smoke was seen, the ship kept its propulsion and carried on to the Fujairah anchorage. Greece's shipping ministry said the 30 crew, 11 of them Greek, were safe and no injuries were reported, and the operator Maran Gas said the vessel and crew were safe.",
+          "date_note": "Greek reporting places the strike on Sunday 4 October 2026. The IMO register dates the entry 5 October, the date of the UKMTO report from the master, so the attack date is recorded as 4 October and the register date is explained here.",
+          "sources": [
+            {
+              "url": "https://www.ekathimerini.com/economy/1317331/greek-lng-carrier-hit-in-strait-of-hormuz-crew-safe/",
+              "source": "eKathimerini, citing the Greek Ministry of Shipping"
+            },
+            {
+              "url": "https://www.hellenicshippingnews.com/second-greek-linked-ship-hit-in-hormuz-within-days/",
+              "source": "Hellenic Shipping News, citing Maran Gas and the IMO register"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/tankers/sinokor-maran-gas-and-sinogas-ships-hit-in-spate-of-hormuz-attacks",
+              "source": "Seatrade Maritime News, citing UKMTO and Greek media"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents list, entry for MARAN GAS MYSTRAS, 5 October 2026"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.ekathimerini.com/economy/1317331/greek-lng-carrier-hit-in-strait-of-hormuz-crew-safe/",
+              "source": "eKathimerini, citing the Greek Ministry of Shipping"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-10-30T06:10:00+05:30",
+          "text": "First structured review of this record. The Greek Ministry of Shipping, the flag state authority, said the 30-strong crew including 11 Greeks was safe with no injuries reported, and the operator Maran Gas said the ship and crew were safe and the vessel fully operational, so no deaths are confirmed rather than unknown. The projectile hit near the waterline on Sunday 4 October; the IMO register carries the entry under 5 October, the date of the UKMTO report from the master, and that difference is recorded rather than silently changed. The origin and type of the projectile remain undetermined and no attribution is recorded. The vessel continued to the Fujairah anchorage and no pollution was reported.",
+          "sources": [
+            {
+              "url": "https://www.ekathimerini.com/economy/1317331/greek-lng-carrier-hit-in-strait-of-hormuz-crew-safe/",
+              "source": "eKathimerini, citing the Greek Ministry of Shipping"
+            },
+            {
+              "url": "https://www.hellenicshippingnews.com/second-greek-linked-ship-hit-in-hormuz-within-days/",
+              "source": "Hellenic Shipping News, citing Maran Gas and the IMO register"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents list, entry for MARAN GAS MYSTRAS, 5 October 2026"
             }
           ]
         }
