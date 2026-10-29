@@ -11082,6 +11082,116 @@
           ]
         }
       ]
+    },
+    "HIST-BS-20260720-GAS-LISBON": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 1,
+        "sources": [
+          {
+            "url": "https://apnews.com/article/romania-sailor-dies-tanker-fire-ukraine-war-5bd58676987e0f8a0cb0bd79a59964eb",
+            "source": "Associated Press"
+          },
+          {
+            "url": "https://maritime-executive.com/article/sailor-aboard-lpg-carrier-gas-lisbon-dies-of-his-wounds",
+            "source": "The Maritime Executive"
+          }
+        ],
+        "nationalities": [
+          {
+            "nationality": "Filipino",
+            "status": "confirmed",
+            "deaths": 1,
+            "sources": [
+              {
+                "url": "https://apnews.com/article/romania-sailor-dies-tanker-fire-ukraine-war-5bd58676987e0f8a0cb0bd79a59964eb",
+                "source": "Associated Press"
+              },
+              {
+                "url": "https://maritime-executive.com/article/sailor-aboard-lpg-carrier-gas-lisbon-dies-of-his-wounds",
+                "source": "The Maritime Executive"
+              },
+              {
+                "url": "https://tribune.net.ph/2026/08/05/dmw-pays-tribute-to-filipino-seafarer-killed-in-black-sea-drone-attacks",
+                "source": "Daily Tribune, citing the Philippine Department of Migrant Workers"
+              }
+            ]
+          }
+        ]
+      },
+      "human_impact": {
+        "injured": {
+          "count": 3,
+          "as_of": "2026-07-23",
+          "sources": [
+            {
+              "url": "https://apnews.com/article/romania-sailor-dies-tanker-fire-ukraine-war-5bd58676987e0f8a0cb0bd79a59964eb",
+              "source": "Associated Press"
+            },
+            {
+              "url": "https://www.romania-insider.com/sailor-gas-tanker-black-sea-dies-hospital-2026",
+              "source": "Romania Insider"
+            }
+          ]
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-29T05:07:34Z",
+        "vessel_name": "GAS LISBON",
+        "date_utc": "2026-07-20",
+        "vessel_type": "LPG tanker",
+        "region": "Black Sea",
+        "location_text": "About 20 nautical miles off Romania's coast, south-east of Sfantul Gheorghe and roughly 30 km from Sulina, inside Romania's exclusive economic zone",
+        "summary": "Gas Lisbon, a Liberia-flagged LPG tanker carrying about 3,790 tonnes of propane from Alexandria in Egypt to Reni in Ukraine, was struck late on 20 July 2026 about 20 nautical miles off the Romanian coast, outside territorial waters but inside Romania's exclusive economic zone. The strike caused a major fire and severe damage to the superstructure. Romanian rescue vessels evacuated all 17 crew, three of them injured and taken to the county hospital in Tulcea. On 23 July one of those three, a 45-year-old Filipino seafarer who was the vessel's chief engineer, died of burns to his airways. Romanian president Nicusor Dan said the incident was most likely part of Russia's war on Ukraine and ordered an inquiry into its cause; crew members told Romanian television the ship was hit by three drones. No official Romanian finding read names the weapon or the attacker.",
+        "date_note": "Romanian authorities date the strike to the night of Monday 20 to Tuesday 21 July 2026 and the Romanian president reported it on 21 July; AP, the Philippine Department of Migrant Workers and several later accounts give 21 July. The record uses 20 July, the evening of the strike.",
+        "sources": [
+          {
+            "url": "https://www.seatrade-maritime.com/tankers/crew-abandon-burning-lpg-tanker-in-black-sea",
+            "source": "Seatrade Maritime News"
+          },
+          {
+            "url": "https://www.romania-insider.com/gas-tanker-fire-black-sea-romania-july-2026",
+            "source": "Romania Insider"
+          },
+          {
+            "url": "https://agerpres.ro/english/2026/07/21/president-dan-state-institutitions-on-alert-to-clarify-circumstance-of-incident-involving-lpg-tanker--1577897",
+            "source": "AGERPRES (Romanian presidential statement)"
+          },
+          {
+            "url": "https://apnews.com/article/romania-sailor-dies-tanker-fire-ukraine-war-5bd58676987e0f8a0cb0bd79a59964eb",
+            "source": "Associated Press"
+          },
+          {
+            "url": "https://maritime-executive.com/article/sailor-aboard-lpg-carrier-gas-lisbon-dies-of-his-wounds",
+            "source": "The Maritime Executive"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-29T05:07:34Z",
+          "text": "New historical record. The LPG tanker Gas Lisbon was struck on the night of 20 July 2026 about 20 nautical miles off Romania while bound for Reni, and one of her 17 crew, a 45-year-old Filipino chief engineer hospitalised with airway burns, died on 23 July. Three crew were injured. No earlier record for this attack existed in either incident store, and the death was absent from the tracker totals. Nationality comes from AP quoting the Tulcea hospital director and from the Philippine Department of Migrant Workers, not from the Liberian flag.",
+          "sources": [
+            {
+              "url": "https://apnews.com/article/romania-sailor-dies-tanker-fire-ukraine-war-5bd58676987e0f8a0cb0bd79a59964eb",
+              "source": "Associated Press"
+            },
+            {
+              "url": "https://maritime-executive.com/article/sailor-aboard-lpg-carrier-gas-lisbon-dies-of-his-wounds",
+              "source": "The Maritime Executive"
+            },
+            {
+              "url": "https://tribune.net.ph/2026/08/05/dmw-pays-tribute-to-filipino-seafarer-killed-in-black-sea-drone-attacks",
+              "source": "Daily Tribune, citing the Philippine Department of Migrant Workers"
+            },
+            {
+              "url": "https://www.romania-insider.com/sailor-gas-tanker-black-sea-dies-hospital-2026",
+              "source": "Romania Insider"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -19309,6 +19419,124 @@
             {
               "url": "https://maritime-executive.com/article/seafarer-killed-as-russia-strikes-two-more-black-sea-ships",
               "source": "The Maritime Executive, 6 August 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6488499825,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6488499825",
+      "author": "iMariner",
+      "received_at": "2026-10-29T05:08:00Z",
+      "incident_id": "HIST-BS-20260720-GAS-LISBON",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-BS-20260720-GAS-LISBON",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-29T05:07:34Z",
+          "vessel_name": "GAS LISBON",
+          "date_utc": "2026-07-20",
+          "vessel_type": "LPG tanker",
+          "region": "Black Sea",
+          "location_text": "About 20 nautical miles off Romania's coast, south-east of Sfantul Gheorghe and roughly 30 km from Sulina, inside Romania's exclusive economic zone",
+          "summary": "Gas Lisbon, a Liberia-flagged LPG tanker carrying about 3,790 tonnes of propane from Alexandria in Egypt to Reni in Ukraine, was struck late on 20 July 2026 about 20 nautical miles off the Romanian coast, outside territorial waters but inside Romania's exclusive economic zone. The strike caused a major fire and severe damage to the superstructure. Romanian rescue vessels evacuated all 17 crew, three of them injured and taken to the county hospital in Tulcea. On 23 July one of those three, a 45-year-old Filipino seafarer who was the vessel's chief engineer, died of burns to his airways. Romanian president Nicusor Dan said the incident was most likely part of Russia's war on Ukraine and ordered an inquiry into its cause; crew members told Romanian television the ship was hit by three drones. No official Romanian finding read names the weapon or the attacker.",
+          "date_note": "Romanian authorities date the strike to the night of Monday 20 to Tuesday 21 July 2026 and the Romanian president reported it on 21 July; AP, the Philippine Department of Migrant Workers and several later accounts give 21 July. The record uses 20 July, the evening of the strike.",
+          "sources": [
+            {
+              "url": "https://www.seatrade-maritime.com/tankers/crew-abandon-burning-lpg-tanker-in-black-sea",
+              "source": "Seatrade Maritime News"
+            },
+            {
+              "url": "https://www.romania-insider.com/gas-tanker-fire-black-sea-romania-july-2026",
+              "source": "Romania Insider"
+            },
+            {
+              "url": "https://agerpres.ro/english/2026/07/21/president-dan-state-institutitions-on-alert-to-clarify-circumstance-of-incident-involving-lpg-tanker--1577897",
+              "source": "AGERPRES (Romanian presidential statement)"
+            },
+            {
+              "url": "https://apnews.com/article/romania-sailor-dies-tanker-fire-ukraine-war-5bd58676987e0f8a0cb0bd79a59964eb",
+              "source": "Associated Press"
+            },
+            {
+              "url": "https://maritime-executive.com/article/sailor-aboard-lpg-carrier-gas-lisbon-dies-of-his-wounds",
+              "source": "The Maritime Executive"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 1,
+          "sources": [
+            {
+              "url": "https://apnews.com/article/romania-sailor-dies-tanker-fire-ukraine-war-5bd58676987e0f8a0cb0bd79a59964eb",
+              "source": "Associated Press"
+            },
+            {
+              "url": "https://maritime-executive.com/article/sailor-aboard-lpg-carrier-gas-lisbon-dies-of-his-wounds",
+              "source": "The Maritime Executive"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Filipino",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "url": "https://apnews.com/article/romania-sailor-dies-tanker-fire-ukraine-war-5bd58676987e0f8a0cb0bd79a59964eb",
+                  "source": "Associated Press"
+                },
+                {
+                  "url": "https://maritime-executive.com/article/sailor-aboard-lpg-carrier-gas-lisbon-dies-of-his-wounds",
+                  "source": "The Maritime Executive"
+                },
+                {
+                  "url": "https://tribune.net.ph/2026/08/05/dmw-pays-tribute-to-filipino-seafarer-killed-in-black-sea-drone-attacks",
+                  "source": "Daily Tribune, citing the Philippine Department of Migrant Workers"
+                }
+              ]
+            }
+          ]
+        },
+        "human_impact": {
+          "injured": {
+            "count": 3,
+            "as_of": "2026-07-23",
+            "sources": [
+              {
+                "url": "https://apnews.com/article/romania-sailor-dies-tanker-fire-ukraine-war-5bd58676987e0f8a0cb0bd79a59964eb",
+                "source": "Associated Press"
+              },
+              {
+                "url": "https://www.romania-insider.com/sailor-gas-tanker-black-sea-dies-hospital-2026",
+                "source": "Romania Insider"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-10-29T05:07:34Z",
+          "text": "New historical record. The LPG tanker Gas Lisbon was struck on the night of 20 July 2026 about 20 nautical miles off Romania while bound for Reni, and one of her 17 crew, a 45-year-old Filipino chief engineer hospitalised with airway burns, died on 23 July. Three crew were injured. No earlier record for this attack existed in either incident store, and the death was absent from the tracker totals. Nationality comes from AP quoting the Tulcea hospital director and from the Philippine Department of Migrant Workers, not from the Liberian flag.",
+          "sources": [
+            {
+              "url": "https://apnews.com/article/romania-sailor-dies-tanker-fire-ukraine-war-5bd58676987e0f8a0cb0bd79a59964eb",
+              "source": "Associated Press"
+            },
+            {
+              "url": "https://maritime-executive.com/article/sailor-aboard-lpg-carrier-gas-lisbon-dies-of-his-wounds",
+              "source": "The Maritime Executive"
+            },
+            {
+              "url": "https://tribune.net.ph/2026/08/05/dmw-pays-tribute-to-filipino-seafarer-killed-in-black-sea-drone-attacks",
+              "source": "Daily Tribune, citing the Philippine Department of Migrant Workers"
+            },
+            {
+              "url": "https://www.romania-insider.com/sailor-gas-tanker-black-sea-dies-hospital-2026",
+              "source": "Romania Insider"
             }
           ]
         }
