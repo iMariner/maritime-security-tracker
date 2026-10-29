@@ -2548,16 +2548,26 @@
         "kind": "official",
         "published_at": "2026-10-28T15:02:01+00:00",
         "title": null
+      },
+      {
+        "url": "https://www.brecorder.com/news/40445962",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-29T04:33:08Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-26T06:53:41Z",
-    "last_updated": "2026-10-28T19:49:56Z",
+    "last_updated": "2026-10-29T04:33:08Z",
     "verification_issue": 250,
     "verdict": {
       "status": "claimed",
-      "by": "editor-check",
-      "at": "2026-10-28T05:06:40Z",
-      "note": "Russia's defence ministry claimed its drones struck dry cargo vessels bound for Odesa and Chornomorsk, naming no ship and offering no independent evidence"
+      "by": "iMariner",
+      "at": "2026-10-29T04:33:08Z",
+      "note": "Russia's defence ministry says its drones hit a cargo vessel bound for Odesa and port terminals at Chornomorsk, naming no ship, and Reuters could not independently verify the claim.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/250#issuecomment-6488007773"
     },
     "published_in": [
       "2026-10-27",
@@ -2598,18 +2608,34 @@
         "kind": "media",
         "published_at": "2026-10-26T02:40:15Z",
         "title": "US Warship Blown Up? Iran Fires Cruise Missile At Rogue Vessels; Explosions Rock Strait Of Hormuz - The Times of India"
+      },
+      {
+        "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-29T04:33:06Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-26T06:53:44Z",
-    "last_updated": "2026-10-27T05:18:17Z",
+    "last_updated": "2026-10-29T04:33:06Z",
     "verification_issue": 251,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-29T04:33:06Z",
+      "note": "the headline names no merchant ship and repeats Iran's cruise missile claim of 25 October, already carried in the record for the AL DASMA strike off Oman on 21 October.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/251#issuecomment-6488007521"
+    },
     "published_in": [
       "2026-10-27"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261021-008"
+    "merged_into": "INC-20261021-008",
+    "status_changed_at": "2026-10-29T04:33:06Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -3028,18 +3054,34 @@
         "kind": "media",
         "published_at": "2026-10-26T17:16:29Z",
         "title": "Bulker sinks off Oman a month after Iranian attack - TradeWinds News"
+      },
+      {
+        "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-29T04:33:02Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-26T20:06:52Z",
-    "last_updated": "2026-10-27T05:18:17Z",
+    "last_updated": "2026-10-29T04:33:02Z",
     "verification_issue": 256,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-10-29T04:33:02Z",
+      "note": "the TradeWinds headline is the bulk carrier Cape Dao, struck off Khasab on 23 September and later sunk, not a separate sinking on 26 October.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/256#issuecomment-6488008472"
+    },
     "published_in": [
       "2026-10-27"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20260923-001"
+    "merged_into": "INC-20260923-001",
+    "status_changed_at": "2026-10-29T04:33:02Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -3305,16 +3347,26 @@
         "kind": "media",
         "published_at": "2026-10-28T01:50:40Z",
         "title": "US-Iran War Live Updates: Iran says oil tanker caught fire after hitting mines east of Hormuz - The Indian Express"
+      },
+      {
+        "url": "https://www.ukmto.org/-/media/ukmto/products/20261026-ukmto_warning-182-26.pdf",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-29T04:33:04Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-26T14:32:27Z",
-    "last_updated": "2026-10-28T19:49:56Z",
+    "last_updated": "2026-10-29T04:33:04Z",
     "verification_issue": 252,
     "verdict": {
       "status": "confirmed",
-      "by": "editor-check",
-      "at": "2026-10-28T05:06:40Z",
-      "note": "the IMO confirmed incidents register records the Leonora Kosan damaged 6 nautical miles northeast of Limah on 23 October, and UKMTO warnings 181-26 and 182-26 report the projectile strike and the disabled tanker with the crew safe"
+      "by": "iMariner",
+      "at": "2026-10-29T04:33:04Z",
+      "note": "the IMO confirmed register names the Leonora Kosan, IMO 9390953, damaged 6 nautical miles northeast of Limah on 23 October, and UKMTO warning 182-26 records a tanker disabled by an unknown projectile in the strait that day, while the Cape Dao named in the issue sank on 23 September.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/252#issuecomment-6488008063"
     },
     "published_in": [
       "2026-10-27",
@@ -4126,16 +4178,35 @@
         "kind": "media",
         "published_at": "2026-10-24T13:44:31Z",
         "title": "Ukrainian drone crews hit Russian fuel tanker disguised with «Milk» sign - BurgasMedia"
+      },
+      {
+        "url": "https://united24media.com/war-in-ukraine/russia-is-hiding-fuel-for-crimea-in-water-and-milk-tankers-ukrainian-drones-still-find-it-20577",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-29T04:33:10Z",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOTJ5MkMyRkJYUzRnREg3X1RSRTUwSEZLZGpUVUd4WkhKaXBlbmowQ1NJUWxJNUZIZ0NUQXduZWo1b0RXb0tkaTRFQmtfRXZMNFFFUmxxdzE3ekxRQi14WFRxeDVhRnl2emZXRHNndnY2NGR0blRRS3BIbnZ2R1JwTm0xZHM2QnIwU0hVb2J2Wl84MEc0VTU1VDRxRXFpYmxMbTM2SW54c0hGWVBLYVhmaUVXbWjSAboBQVVfeXFMUDZpQ1p5Q0EweklHVV95TjdHYlZTZ3NfX1d3X3RzZkU5SlgwYmFhN0E3c0VLWXNBWmFTb0hJaFZiajBfeTdJbkxUcHYyX0NEdm15Z0hiSEtrUGxtbXZqM0EyZHI1SFFRbHJaQVJCQlVkUjlPb2p5dnVfNVdsdFBkdVFEWUZNQ083SGp6dzBSWFdub3FDZUg5YTBpT0xKai1sUk9IQVJLQkFzdy1NOWR1MmhHV2JtemZkU3F3?oc=5",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-29T04:33:10Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-25T16:44:58Z",
-    "last_updated": "2026-10-26T05:05:13Z",
+    "last_updated": "2026-10-29T04:33:10Z",
     "verification_issue": 243,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-26T05:05:13Z",
-      "note": "the only source, Ukraine's ArmyInform via BurgasMedia, reports a Russian army fuel tanker marked MILK hit on the front line, a land vehicle, not a merchant ship at sea"
+      "by": "iMariner",
+      "at": "2026-10-29T04:33:10Z",
+      "note": "the MILK marking is the Russian road tanker disguise described by Ukrainian drone crews to Reuters, a land vehicle hit on the front line, not a merchant ship at sea.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/243#issuecomment-6488007239"
     },
     "published_in": [
       "2026-10-26"
