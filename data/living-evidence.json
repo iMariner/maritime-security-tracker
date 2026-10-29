@@ -11593,6 +11593,75 @@
           ]
         }
       ]
+    },
+    "HIST-BS-20260826-LIDER-BORDO-MAVI": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "human_impact": {
+        "injured": {
+          "count": 5,
+          "as_of": "2026-08-29",
+          "sources": [
+            {
+              "url": "https://www.dailysabah.com/politics/diplomacy/ankara-summons-ukraines-ambassador-over-black-sea-attacks",
+              "source": "Daily Sabah, 29 August 2026, citing Turkish shipping and regional sources"
+            },
+            {
+              "url": "https://www.aa.com.tr/en/turkiye/ukraines-ambassador-summoned-to-turkish-foreign-ministry-over-attacks-on-vessels-in-black-sea/4041070",
+              "source": "Anadolu Agency, 29 August 2026"
+            }
+          ]
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-29T17:45:00Z",
+        "vessel_name": "LIDER BORDO MAVI",
+        "date_utc": "2026-08-26",
+        "vessel_type": "Ro-Ro cargo ship",
+        "region": "Black Sea",
+        "location_text": "Off Tuapse, Russia, on passage from Samsun, Turkiye",
+        "attack_type": "drone (UAV)",
+        "summary": "LIDER BORDO MAVI, a Cameroon-flagged Ro-Ro cargo ship operated by a Turkish company, was struck by three drones on the night of 26 August 2026 off the Russian port of Tuapse while carrying fresh produce from Samsun, Turkiye, to Tuapse. A fire broke out on board and five crew members were injured according to the initial assessment, with their condition being monitored, and damage to technical equipment and the cargo area was reported. Turkiye summoned Ukraine ambassador over this attack and the separate drone strike the next day on LIDER KOCATEPE, which had been sent to tow the damaged ship and returned to Samsun. No side publicly claimed responsibility. The ship was later reported at Trabzon port with heavy damage.",
+        "date_note": "Anadolu, from Turkish Foreign Ministry sources, dates the strike to 26 August 2026; Turkish shipping reports describe the night of 26 August. The ship left Samsun around 25 August and reports were published from 27 to 29 August 2026.",
+        "sources": [
+          {
+            "url": "https://www.aa.com.tr/en/turkiye/ukraines-ambassador-summoned-to-turkish-foreign-ministry-over-attacks-on-vessels-in-black-sea/4041070",
+            "source": "Anadolu Agency, quoting Turkish Foreign Ministry sources, 29 August 2026"
+          },
+          {
+            "url": "https://www.dailysabah.com/politics/diplomacy/ankara-summons-ukraines-ambassador-over-black-sea-attacks",
+            "source": "Daily Sabah, 29 August 2026"
+          },
+          {
+            "url": "https://www.hurriyetdailynews.com/ankara-summons-ukraine-envoy-after-black-sea-attacks-226241",
+            "source": "Hurriyet Daily News, 29 August 2026"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-29T17:45:00Z",
+          "text": "New historical record for a casualty event with no entry in either store: the Black Sea corpus has no row at all between 24 and 30 August 2026. Three drones hit the Ro-Ro LIDER BORDO MAVI off Tuapse on 26 August, starting a fire and injuring five crew in the initial assessment, as carried by Anadolu, Daily Sabah and Hurriyet Daily News from Turkish Foreign Ministry, shipping and regional sources. No death is reported in the sources read, but none states that nobody died and the crew total is unpublished, so deaths stay unknown rather than zero. The five injured are recorded as an initial assessment. No nationality is recorded: the Cameroon flag and the Turkish operator are ship facts, not crew nationality. LIDER KOCATEPE, struck the next day while going to assist, is a separate vessel and a separate attack and is not merged into this record.",
+          "sources": [
+            {
+              "url": "https://www.aa.com.tr/en/turkiye/ukraines-ambassador-summoned-to-turkish-foreign-ministry-over-attacks-on-vessels-in-black-sea/4041070",
+              "source": "Anadolu Agency, 29 August 2026"
+            },
+            {
+              "url": "https://www.dailysabah.com/politics/diplomacy/ankara-summons-ukraines-ambassador-over-black-sea-attacks",
+              "source": "Daily Sabah, 29 August 2026"
+            },
+            {
+              "url": "https://www.hurriyetdailynews.com/ankara-summons-ukraine-envoy-after-black-sea-attacks-226241",
+              "source": "Hurriyet Daily News, 29 August 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -20386,6 +20455,83 @@
             {
               "url": "https://gcaptain.com/tanker-attack-off-qatar-signals-wider-threat-beyond-hormuz/",
               "source": "gCaptain, 8 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6503657334,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6503657334",
+      "author": "iMariner",
+      "received_at": "2026-10-29T17:24:47Z",
+      "incident_id": "HIST-BS-20260826-LIDER-BORDO-MAVI",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-BS-20260826-LIDER-BORDO-MAVI",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-29T17:45:00Z",
+          "vessel_name": "LIDER BORDO MAVI",
+          "date_utc": "2026-08-26",
+          "vessel_type": "Ro-Ro cargo ship",
+          "region": "Black Sea",
+          "location_text": "Off Tuapse, Russia, on passage from Samsun, Turkiye",
+          "attack_type": "drone (UAV)",
+          "summary": "LIDER BORDO MAVI, a Cameroon-flagged Ro-Ro cargo ship operated by a Turkish company, was struck by three drones on the night of 26 August 2026 off the Russian port of Tuapse while carrying fresh produce from Samsun, Turkiye, to Tuapse. A fire broke out on board and five crew members were injured according to the initial assessment, with their condition being monitored, and damage to technical equipment and the cargo area was reported. Turkiye summoned Ukraine ambassador over this attack and the separate drone strike the next day on LIDER KOCATEPE, which had been sent to tow the damaged ship and returned to Samsun. No side publicly claimed responsibility. The ship was later reported at Trabzon port with heavy damage.",
+          "date_note": "Anadolu, from Turkish Foreign Ministry sources, dates the strike to 26 August 2026; Turkish shipping reports describe the night of 26 August. The ship left Samsun around 25 August and reports were published from 27 to 29 August 2026.",
+          "sources": [
+            {
+              "url": "https://www.aa.com.tr/en/turkiye/ukraines-ambassador-summoned-to-turkish-foreign-ministry-over-attacks-on-vessels-in-black-sea/4041070",
+              "source": "Anadolu Agency, quoting Turkish Foreign Ministry sources, 29 August 2026"
+            },
+            {
+              "url": "https://www.dailysabah.com/politics/diplomacy/ankara-summons-ukraines-ambassador-over-black-sea-attacks",
+              "source": "Daily Sabah, 29 August 2026"
+            },
+            {
+              "url": "https://www.hurriyetdailynews.com/ankara-summons-ukraine-envoy-after-black-sea-attacks-226241",
+              "source": "Hurriyet Daily News, 29 August 2026"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "human_impact": {
+          "injured": {
+            "count": 5,
+            "as_of": "2026-08-29",
+            "sources": [
+              {
+                "url": "https://www.dailysabah.com/politics/diplomacy/ankara-summons-ukraines-ambassador-over-black-sea-attacks",
+                "source": "Daily Sabah, 29 August 2026, citing Turkish shipping and regional sources"
+              },
+              {
+                "url": "https://www.aa.com.tr/en/turkiye/ukraines-ambassador-summoned-to-turkish-foreign-ministry-over-attacks-on-vessels-in-black-sea/4041070",
+                "source": "Anadolu Agency, 29 August 2026"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-10-29T17:45:00Z",
+          "text": "New historical record for a casualty event with no entry in either store: the Black Sea corpus has no row at all between 24 and 30 August 2026. Three drones hit the Ro-Ro LIDER BORDO MAVI off Tuapse on 26 August, starting a fire and injuring five crew in the initial assessment, as carried by Anadolu, Daily Sabah and Hurriyet Daily News from Turkish Foreign Ministry, shipping and regional sources. No death is reported in the sources read, but none states that nobody died and the crew total is unpublished, so deaths stay unknown rather than zero. The five injured are recorded as an initial assessment. No nationality is recorded: the Cameroon flag and the Turkish operator are ship facts, not crew nationality. LIDER KOCATEPE, struck the next day while going to assist, is a separate vessel and a separate attack and is not merged into this record.",
+          "sources": [
+            {
+              "url": "https://www.aa.com.tr/en/turkiye/ukraines-ambassador-summoned-to-turkish-foreign-ministry-over-attacks-on-vessels-in-black-sea/4041070",
+              "source": "Anadolu Agency, 29 August 2026"
+            },
+            {
+              "url": "https://www.dailysabah.com/politics/diplomacy/ankara-summons-ukraines-ambassador-over-black-sea-attacks",
+              "source": "Daily Sabah, 29 August 2026"
+            },
+            {
+              "url": "https://www.hurriyetdailynews.com/ankara-summons-ukraine-envoy-after-black-sea-attacks-226241",
+              "source": "Hurriyet Daily News, 29 August 2026"
             }
           ]
         }
