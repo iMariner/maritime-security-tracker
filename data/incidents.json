@@ -149,10 +149,37 @@
         "kind": "media",
         "published_at": "2026-10-29T05:35:00Z",
         "title": "Russia hits ship carrying military cargo to Ukraine en route to Odessa ᐉ News from Fakti.bg - World - Fakti.bg"
+      },
+      {
+        "url": "https://t.me/tass_agency/403045",
+        "source": "TASS",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-10-29T18:30:21+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/68628",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-29T15:05:50+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9UbG5uOXdOaTRCeDN1WkNITWdNNnVCckhpTFVjYWl6QU4yYXNTLVRqTzBuNmxIWVpZSTNkd2stLUNFd2RaNXZwTTJRUWFoZ1o5dXBrV2dxM0VrMzlrNU4zSDNiMmNqdFZhc1FiOA?oc=5",
+        "source": "Khaama Press",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T09:32:07Z",
+        "title": "Russia Says Drone Strike Hit Cargo Ship Near Ukraine’s Odesa Port - Khaama Press"
       }
     ],
     "first_seen": "2026-10-29T06:05:20Z",
-    "last_updated": "2026-10-29T06:22:05Z",
+    "last_updated": "2026-10-29T19:13:06Z",
     "verification_issue": 277,
     "verdict": null,
     "published_in": [
@@ -244,10 +271,10 @@
   {
     "region": "Strait of Hormuz",
     "date_utc": "2026-10-29",
-    "summary": "Iran's IRGC claimed that three oil tankers struck mines in the Strait of Hormuz and caught fire on 29 October, a claim not independently confirmed. UKMTO separately reported a vessel on fire in the Strait of Hormuz the same day, and another headline linked tanker explosions in the strait to Iran downing a US drone.",
+    "summary": "Iran's IRGC claimed that three oil tankers struck mines in the Strait of Hormuz and caught fire on 29 October, a claim not independently confirmed. UKMTO separately reported a vessel on fire in the same waters the same day, and a further report described a ship on fire off Oman amid escalation fears.",
     "official_source_cited": "UKMTO",
-    "conflicting": false,
-    "confidence": 0.6,
+    "conflicting": true,
+    "confidence": 0.7,
     "vessel_name": null,
     "imo": null,
     "flag": null,
@@ -258,7 +285,7 @@
     "location_text": "Strait of Hormuz",
     "attack_type": "mine",
     "damage": "three tankers engulfed in flames",
-    "casualties": null,
+    "casualties": "crew status unknown",
     "attribution_claimed": "Iran (IRGC) claimed, per headline",
     "independent_evidence": true,
     "id": "INC-20261029-004",
@@ -325,10 +352,109 @@
         "kind": "media",
         "published_at": "2026-10-29T10:02:47Z",
         "title": "Ship Reported on Fire in Strait of Hormuz - Howl.Link"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbEZ6V1ZVS1JCTGZBNnlZYldmWS1xSi1HSFdwdmtvdGo2SnRRU01QYS0wOE1DRFdReXV0S1d6bFhpOTB3OGZhVlRUVVVlOXVlWjJSdVplb2t3enM3T2RhZVY1Q1BqcTEwUlNkQ0RRVFEtMjF0Y2dlT0Z6N1BYR0VPbVowUzE2UHRKLUE1dE5pbG1SR0s3T2RJZWpaSQ?oc=5",
+        "source": "WRAL",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T17:37:30Z",
+        "title": "Iran says 3 oil tankers struck mines, and other Mideast news - WRAL"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQeEdmelRPRFFwd3pHTHY5eG9FWVRneEFjOVctY19VS3pUeWRqUG5jLUZPWXhneVlaYkhCVXhxd0VJTjA3YS04d2U4SHRmbHJxLVptOVhfR1lOMEJRdXNtWTZGU1RFMGlLWmplZ1BFNWs3eHZ4N3hLTWlHSWkwNTN4REtXYU90X0tZc0JQTGhoOWJUU3llTC05aTBFN0ZWSmJRelFfdDRLVVpvaDVzamplcVpQSlRaaFZFODhrOFQ3UGEyWnU4bFdDbzEzZndpVDItRXlSYWZ6UU1CYmJLZGlVYUhaSzN3Y1RoTGtRQ1V1ZFBleWRM?oc=5",
+        "source": "National Security Journal",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T16:53:11Z",
+        "title": "Something Strange Is Happening in the Strait of Hormuz: Iran Says Three Tankers Hit Its Mines, Yet It Hasn’t Named a Single Ship - National Security Journal"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9OdzdhLXRXMFh3NHJzUEtkNXdFZW9GZEFyT3JLbDFKeFVtZlIwenZVQXdoTnlkNzhRUWRzZ2l6TzdzWWZGWHlrODFQM2V1VmNBZE05ekx6bkppd3VGQVkyYThELXZpLUlRRTEwcGxBZ2dsU0dnU29DT05QSdIBe0FVX3lxTE9OdzdhLXRXMFh3NHJzUEtkNXdFZW9GZEFyT3JLbDFKeFVtZlIwenZVQXdoTnlkNzhRUWRzZ2l6TzdzWWZGWHlrODFQM2V1VmNBZE05ekx6bkppd3VGQVkyYThELXZpLUlRRTEwcGxBZ2dsU0dnU29DT05QSQ?oc=5",
+        "source": "EurAsian Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T16:24:38Z",
+        "title": "U.S. Rejects Iran’s Claim of Seizing MQM-170 Drone as Four Tankers Catch Fire in Strait of Hormuz - EurAsian Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPU1FPNmNreWowYks3NmtQWm42Z05JY3RGN00zeVBOQ3FFREg5SXNGSWtzaXQwb2dFb1l2eVYxZ3FZMGRreW4xM255dFNrS1VPMEFXemtqTFJoQnR6d1MtTUFpTlVTdHFNWUxaZXdjdDdndE5weW80anh0VzdDUldrckJ1eWNxc2MyTzZWXzUtYjhDamJ3bFZDeDlYU2MtSVJCTEx0bmJHUXpkSm5IaFlmVEVUYzd5UFROMjFlQTk0M1ptQ2c?oc=5",
+        "source": "Türkiye Today",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T15:41:22Z",
+        "title": "Oil tanker catches fire after hitting naval mines near Strait of Hormuz, Iran says - Türkiye Today"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOOGxSTngxNzVVSVZINmN6YXI0Tk5aOVlpWmI5Y0RuWXBra2JOb0JkTGFtV05rb0E0TlhySHc4RlBvVjd1bGE4QW9lbnhUbTBIcjZ6bS1mSUd3LVU0X2FxUVBPTHM0NU5xc1hma1g0TWdtNERUenVWMk1zTEEwUl9QMDNqWkh6LW5lYmJ0RjA2cFExdw?oc=5",
+        "source": "Breakingthenews.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T14:44:00Z",
+        "title": "Iran: Tanker hit mine in Hormuz, caught fire - Breakingthenews.net"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4ySHpKc2F5Y0c3YS1hMUhEdnNEV0prcnpGOGM1OHdJT0VNNGVtTXZaOGZHdmFiLW1ab0pwaWV0WW5kR1gzU2owQlRZa3B6b1lqM3pjYVM4YnQ0WTNzaDBoMDVB?oc=5",
+        "source": "Global Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T11:20:00Z",
+        "title": "Vessel reported on fire in Strait of Hormuz: UKMTO - Global Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBJdDBZSk5ELVBUdkNwamszaG9va19KWjNucEhNTmN3enZoM0dHRXdfR3VIMUFzb1d0S1dreG83YXVXZDEzeVpUUUZSN0VuNVhKZHJhU2l2Q2VsTC1qOWx0eGN6ZWJtQQ?oc=5",
+        "source": "Rudaw",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T10:15:15Z",
+        "title": "Vessel reported on fire in the Strait of Hormuz: UKMTO - Rudaw"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZ2dRc0I2TV95T3NwVVpjTTlfdEVFRmhtSVNodHJldWJPRmlIc0FSaEZDT1dDc1EyRXFzS2wyZ2plbUR0a2VJYlJVcTI1cC1pQkxJLWVoVUxVMEpwV3pzNWJuZkVZYWhzTGlzM2xNM0NMSDFBU3pZdHRFZTcydmlqTi1KS0JweldPZkE1NXBmVVNjeGI3bnA1Njd30gGaAUFVX3lxTE83SUhOOGxnaFlXcHhMZXdtLWRab2tqczRxeXNWdkVMSEYwc3NIWTBDZzJ1N1J2aFZnSnZMWU1ncmgtMnZISEtWQ1p4RXNGZ1FBazlKYWlGVmxZSWNBX0pOOHRCSjRQZ2FwbWh5SmdnOUlmVTJsT1FiZDlKbjJkMl9MM1Y4dEw0Z2dDSGRTZnBQRVZHeUVVZFVObmc?oc=5",
+        "source": "DW.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T10:10:11Z",
+        "title": "Ship reported on fire off Oman as Iran escalation fears mount - DW.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZzV5cThJdUFIZEJCLVdDa3p3c0ZxOHoycVJjaXVZckJMVGR0TFhaM2xEaWJuUW9tNm5aNzRtcDZtNWN2aUI5U0RQMkdDLUJqMEpabGRxUnZ2cGlWWll3NGFHRkg0cURJZ2VHS2JIU3J3RGNYbTBxZ1ZzZV9DS0ZIU3BoVmlBU04yckRicFVQc1M0M0VDTm9CUmJ6Z0k1Vjktb09zSW1TcTBlOW9kckc4LU1lRk8wc3lvTW1UWEt3TGpZMGhSU0E?oc=5",
+        "source": "Deccan Herald",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T17:00:17Z",
+        "title": "Vessel catches fire, sinks off Oman after maritime security incident, UKMTO says - Deccan Herald"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaGVmS3h4TW9Lbm11M2RRY0dwSkdhbHlFMEV4OTBvY0ZCQ254cUh1TDVZeUhoTXdQWk04eExYSjd2LV96bnIyNnNURHppeWxORzlLQWtQaXlsS2k3YjRKNUFGZUZpU0lCSmotVUtnUjI0VzBHNmVfOXBjVjhWaFpmVHRTZGVtVThJNzFDVEVMYTRHOFFSa3REbHNR?oc=5",
+        "source": "Tempo.co English",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T13:59:35Z",
+        "title": "Ship Reported on Fire off Oman as Iran Escalation Fears Mount - Tempo.co English"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1KWVpLeFJqZ3BXTTltWExhbEIwRFZGN3dFeDNldi0yMEgxdUMya1R4Qm8xSml3RXZiZU96SEo2cUhvQ3NBbXk1SW04N1hKOFBYS1E?oc=5",
+        "source": "Yemen Online",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T08:59:30Z",
+        "title": "UKMTO Reports Vessel on Fire Off Oman’s Coast, Crew Status Unknown - Yemen Online"
       }
     ],
     "first_seen": "2026-10-29T13:38:28Z",
-    "last_updated": "2026-10-29T13:38:51Z",
+    "last_updated": "2026-10-29T19:13:07Z",
     "verification_issue": 285,
     "verdict": null,
     "published_in": [],
@@ -513,9 +639,9 @@
     "region": "Gulf of Oman",
     "date_utc": "2026-10-29",
     "summary": "A headline reports a ship on fire off Oman amid fears of an Iran escalation. No vessel name, flag, position, cause or casualty details are given.",
-    "official_source_cited": null,
+    "official_source_cited": "UKMTO",
     "conflicting": false,
-    "confidence": 0.4,
+    "confidence": 0.7,
     "vessel_name": null,
     "imo": null,
     "flag": null,
@@ -526,9 +652,9 @@
     "location_text": "off Oman",
     "attack_type": "explosion (cause unknown)",
     "damage": "ship on fire",
-    "casualties": null,
+    "casualties": "crew status unknown",
     "attribution_claimed": null,
-    "independent_evidence": false,
+    "independent_evidence": true,
     "id": "INC-20261029-011",
     "sources": [
       {
@@ -539,11 +665,274 @@
         "kind": "media",
         "published_at": "2026-10-29T10:10:11Z",
         "title": "Ship reported on fire off Oman as Iran escalation fears mount - DW.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZzV5cThJdUFIZEJCLVdDa3p3c0ZxOHoycVJjaXVZckJMVGR0TFhaM2xEaWJuUW9tNm5aNzRtcDZtNWN2aUI5U0RQMkdDLUJqMEpabGRxUnZ2cGlWWll3NGFHRkg0cURJZ2VHS2JIU3J3RGNYbTBxZ1ZzZV9DS0ZIU3BoVmlBU04yckRicFVQc1M0M0VDTm9CUmJ6Z0k1Vjktb09zSW1TcTBlOW9kckc4LU1lRk8wc3lvTW1UWEt3TGpZMGhSU0E?oc=5",
+        "source": "Deccan Herald",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T17:00:17Z",
+        "title": "Vessel catches fire, sinks off Oman after maritime security incident, UKMTO says - Deccan Herald"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaGVmS3h4TW9Lbm11M2RRY0dwSkdhbHlFMEV4OTBvY0ZCQ254cUh1TDVZeUhoTXdQWk04eExYSjd2LV96bnIyNnNURHppeWxORzlLQWtQaXlsS2k3YjRKNUFGZUZpU0lCSmotVUtnUjI0VzBHNmVfOXBjVjhWaFpmVHRTZGVtVThJNzFDVEVMYTRHOFFSa3REbHNR?oc=5",
+        "source": "Tempo.co English",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T13:59:35Z",
+        "title": "Ship Reported on Fire off Oman as Iran Escalation Fears Mount - Tempo.co English"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1KWVpLeFJqZ3BXTTltWExhbEIwRFZGN3dFeDNldi0yMEgxdUMya1R4Qm8xSml3RXZiZU96SEo2cUhvQ3NBbXk1SW04N1hKOFBYS1E?oc=5",
+        "source": "Yemen Online",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T08:59:30Z",
+        "title": "UKMTO Reports Vessel on Fire Off Oman’s Coast, Crew Status Unknown - Yemen Online"
       }
     ],
     "first_seen": "2026-10-29T13:38:48Z",
-    "last_updated": "2026-10-29T13:38:48Z",
+    "last_updated": "2026-10-29T19:13:07Z",
     "verification_issue": 286,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "position_approx": true,
+    "status_changed_at": "2026-10-29T19:12:34Z",
+    "merged_into": "INC-20261029-004"
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-29",
+    "summary": "Russia's defence ministry said in its daily summary that its drones struck port infrastructure in Ukraine and maritime vessels used in the interests of Ukraine's armed forces. No vessel name, flag, position, damage or casualty details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Ukrainian ports, Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry",
+    "independent_evidence": false,
+    "id": "INC-20261029-012",
+    "sources": [
+      {
+        "url": "https://t.me/mod_russia/68635",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-29T18:37:23+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-10-29T19:12:29Z",
+    "last_updated": "2026-10-29T19:12:29Z",
+    "verification_issue": 287,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-29",
+    "summary": "A ZIM-chartered vessel sank in the Black Sea after being hit by three suicide boat drones, according to a headline. No injuries were reported; no vessel name, flag or position is given.",
+    "official_source_cited": "Reuters",
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": null,
+    "imo": null,
+    "flag": "Liberia",
+    "vessel_type": "container",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "sea drone (USV)",
+    "damage": "vessel sank after being hit by three suicide boat drones",
+    "casualties": "no injuries",
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261029-013",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQzVKRnphNWtKdU8zQ1lQcEt1U3hBbl9iZEw2XzhSRUR3S2hySlJ4WmpkN0VfNEVSNlhieWRPbnoxVlFCU3ZyYjdYQVBCX1dXcEhlbVB6ZXZ2SWYyRDZGcDl6eE1LSkh0VVp2ZWlTbWdtU1hqNm5VWUtvVlRJRWhjMmlpM0FZNzEtanpnUE9WWkFEajAzQnJmdWhXak9RNjBYd1ZoOWRvWGRNZnVRRVVVRHY1d9IBuAFBVV95cUxNN3FERG9DRUhyV0QzbXFSQ3BkSWY5b1RmRGdFWFY1NllFNktyNkRKZkpJeDUxOVpZdkNUUVBpWjVDRkdMX0xPbk1DcGVicDA0RUNkRjVCV3hOakRwX3VIbnFzTWNMdmFwT21jajh5dUNQZDRFOTI1M2FfU1ZrRUQ1R201WGhNNy1JRHZhMXJnUWZtZ2YzUy1ZWkZ1d2F6TFduanRLTUFmbEdYODh3M1dZeUZEMGNWOXJs?oc=5",
+        "source": "The Times of Israel",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T16:55:28Z",
+        "title": "ZIM vessel sinks in Black Sea after being hit by 3 suicide boat drones; no injuries - The Times of Israel"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQVk0QV8zcDFYaG9vTl9mRkdsM0NvX2xRcjFLN2o3cDlsSlVPRThQOXJlb0xnbmdUaTROOFBoVVVyS1g5OWlsMXJvSTdXZGNZemwtcmZZMTVldUhLcXpZTjgwRG90ZENCQWhsSDJsY2ozSnEyZkFua01tVy1UVVZUcTZwWTQ2a242Rk1PeEtFdEpQeWFjc1lnaUl3?oc=5",
+        "source": "Seeking Alpha",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T16:21:26Z",
+        "title": "ZIM-chartered ship sinks in Black Sea after drone attack (ZIM:NYSE) - Seeking Alpha"
+      },
+      {
+        "url": "https://t.me/operativnoZSU/224842",
+        "source": "Operatyvnyi ZSU",
+        "source_type": "telegram",
+        "side": "ua",
+        "kind": "media",
+        "published_at": "2026-10-29T16:11:58+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiARBVV95cUxOMFhZdTR4eW8ybVY1ZzZ0OHJ5S19uZWx1ZUYzZWs5Q1gxX1NlNVVmc1V3VVliUWdZa2pfQ2x0M00tNFRTM3E0VjRSc05UYVM2TXhIMFlLUC1QSjZRZnN3Mnh5RmFwYnhZSWJTVm1POFFVZm5vbENZV2dHRy1LLV9TdFlxTzByUnN1QzRIY096aVhpWFNGVVFVY1Ruc0lMdmVpVWZBRERqTkliMlJNTzVudFFlWHBDSVE3bTlKTzdiSzJ5ZWNBX29iV1B3bEdmbmR0WHNwTko5ckczSGtLS0gyQjJqdjNsR0RQN0hJT2xRX1VqMkIzVkFpUXc2UWhtTkRJb0lLTW1DV0JEMmxlUDNRSVl0SFBqcjRjek04bmFiX29GV2prRWx2blBlSGx6eHFkdWpKc2x2SmM2ejZuLTVsM1JXNTZKRFhUU3JDV1lLZms0TzFTOVQ5UGUtOElFdWN4RFdQcDV6blI4U0ZvQzNMX2o5U2JOZm5NemRySTBNRmdtakFPdmdCdHdtWWNleTVqZmRnNm1MQjBXWnJUS0FZakt3OFVWQ1NvdkpGcjUxTEFORV96R0FoVEFNQUhlc2RNb0pGa1FOekFabU5sOXpBa25GZmhndEozMHhVVnRaSkZ4M2lBd1ZpTzRkeEJSb20yczJlVDFOTl8wQ0E4UlZUMllnNVFnQ2hI?oc=5",
+        "source": "Anadolu Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T14:58:35Z",
+        "title": "غرق سفينة مستأجرة من شركة إسرائيلية إثر هجوم في البحر الأسود - Anadolu Ajansı"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQY2x1Vzh5VXczMjdJb1dFcTd4RTJBNGl4cWk2LTJMOEpQc1c1bXlkWU5nSEo2ZmZnVUhUZDZXRXR0X1lPNk5uU0ZLOU5Cd0txTFlPaktEalBxTTdzd25FZzRiTmNjaS1oQXY1eTg0SENxSzJrc0pnTjRoT1owNTlNMmRuZXA3ZXpSN0R6ZHlWNHJRb1QyY08tb0VNeU1jMlppblVqbWVsYldWbmlGempEODBHUFo5U29hd25YZ3VB?oc=5",
+        "source": "VINnews",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T13:58:37Z",
+        "title": "Israeli Shipping Firm ZIM’s Chartered Ship Sinks in Black Sea Drone Attack; 18 Crew Rescued - VINnews"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOa1phbm91U0NfbVhOblFwN0ptbWNUMXZkYWpscFhhbnR0UDRPYXVTeXMxZFRJN1BOVDNkRi1CV0Fia0NkV2pvX002Tk0tTkp5d3RncE4wX2dSWWVSWFNhS2NVMnJncHRpenljbFl2aXJKNHFEUmVRVGJ0amhOeV9Qd0JONmljNUNURHdaZkpmWnBrMFF4aGp5R0VCOG1SNlE1WFpj?oc=5",
+        "source": "Globes - Israel Business News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T13:41:49Z",
+        "title": "ZIM-operated ship sinks in Black Sea after drone strike - Globes - Israel Business News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVU01MU9RNnYteS02bzJyZVRkbjZsNWRjbEFGWTZwTWVPNklsNF9xZ3g1S1NqZkFpR29MOURjSUZvNnNzTkczY1hzWmRfV0tQM3FjbWRiMUhfUG9KaDJ6X0ZYVTlyMWhjMS10a19xeFJCeHBRUHY4cTBHZWoxd283ZGxzQVhVbkgyME5JV05Nek5sUDZwd3NXUVpoMGgzSFBPaHRWQzVkZ1ZvNE1SdEhxd21n?oc=5",
+        "source": "Marine Insight",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T13:14:33Z",
+        "title": "Bulgarian Navy Rescues 18 Seafarers After Drone Attack On Cargo Ship In Black Sea - Marine Insight"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOLS01SkgwVWNJVlNaVVJ1YU9zeUkyOTNCZEx2dnhNU0FnT2R5aFBfbGRHb2JFMTQxU0RoYzdJRkRVZEl6NmF4SnVNb3YwUWNvaDQtWDlBbjA1QnZrQllQd1FUcnA2QV8wandjWXZXYVRUY3RoSDBZNGM1MW9YY0NiRXVPUm9Pd3lmQ1ppclVHZTBXMWVWdXZtaDFJUzdQMFlOVkZBdkE2dVhCN2VJa05BOFdmamdKQnRJN1JCSXdaTVVQTEFLYnZN?oc=5",
+        "source": "The Times of Israel",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T12:55:00Z",
+        "title": "ZIM vessel sinks in Black Sea after being hit by 3 suicide boat drones; no injuries - The Times of Israel"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1WUDdJRnd4X0FheUJoTF9XLVp0aW1RNUVVUnF6ekV2eDhwOWxMcF9wV3ZzcE5SOG9HU1U3T0pJU0t5UEE5MlFfeEl4VGpuWVpw?oc=5",
+        "source": "شبكة يافا الإخبارية",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T12:51:19Z",
+        "title": "Container Ship Sinks in the Black Sea Following Drone Attack - شبكة يافا الإخبارية"
+      }
+    ],
+    "first_seen": "2026-10-29T19:12:40Z",
+    "last_updated": "2026-10-29T19:13:07Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "status_changed_at": "2026-10-29T19:12:56Z",
+    "merged_into": "INC-20261028-004",
+    "position_approx": true
+  },
+  {
+    "region": "Red Sea",
+    "date_utc": "2026-10-29",
+    "summary": "A headline reports a Houthi attack near Saudi Arabia's Ras Tanura Terminal that pushed oil prices up. No vessel name, flag, type, damage or casualty details are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.4,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 26.8,
+    "lon": 52.5,
+    "location_text": "near Ras Tanura Terminal, Saudi Arabia, Persian Gulf",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Houthis",
+    "independent_evidence": false,
+    "id": "INC-20261029-014",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYW9TNDJoNjFKMVp6SW1lU0NKUFhDNlFLTzRreEZWZ0liVnpVSVlXWUZDbjNHM0Y3T3hjcnJEMXQzYkFscDhLczFJLVpZeFNnSmx3ei0zMlZ1VEZqaV9HN0pDLWktTnlkMkJpTjNIbEZuY2MxWXlBOWN0N3Z6bGk4OUVRSmtmY2k1b3JldDlSMEpaR0ItZExxRjlmenA5TU0?oc=5",
+        "source": "safety4sea",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T12:09:15Z",
+        "title": "Oil prices rise after Houthi attack near Saudi Arabia’s Ras Tanura Terminal - safety4sea"
+      }
+    ],
+    "first_seen": "2026-10-29T19:13:02Z",
+    "last_updated": "2026-10-29T19:13:02Z",
+    "verification_issue": 288,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-29",
+    "summary": "A Turkish maritime news outlet reports that Türkiye warned Russia and Ukraine against attacks on ships. No specific vessel, date, position, damage or casualty details are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.3,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261029-015",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTVg0QTh1cFBBdk50N1N3T3NwaVVLWHRLVHhRcDNCUUsxVmtDXzlua29tenBYbjdhc29TTl9IUHlxSHdtODR2S2pOZzQ2UHRoYm81Uy1FVGhoMEZnNi1iTDRoRmtoRkxyS1lCUDNBUi1aSF9NQjB2TU1DUVZZRlZfUU8wUnBEd3k5UjlaYUNJcks0aEFU0gGUAUFVX3lxTE9NWDRBOHVwUEF2TnQ3U3dPc3BpVUtYdEtUeFFwM0JRSzFWa0NfOW5rb216cFhuN2Fzb1NOX0hQeXFId204NHZLak5nNDZQdGhibzVTLUVUaGgwRmc2LWJMNGhGa2hGTHJLWUJQM0FSLVpIX01CMHZNTUNRVllGVl9RTzBScER3eTlSOVphQ0lySzRoQVQ?oc=5",
+        "source": "Denizcilik Haberleri",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T08:48:47Z",
+        "title": "Türkiye'den Rusya ve Ukrayna'ya Gemi Saldırısı Uyarısı - Denizcilik Haberleri"
+      }
+    ],
+    "first_seen": "2026-10-29T19:13:06Z",
+    "last_updated": "2026-10-29T19:13:06Z",
+    "verification_issue": 289,
     "verdict": null,
     "published_in": [],
     "status": "claimed",
@@ -1831,10 +2220,181 @@
         "kind": "media",
         "published_at": "2026-10-29T10:17:39Z",
         "title": "Drone attack on a commercial ship in Bulgaria! Minister Güler warned 2 countries, pointing to Montreux - Haberler.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9DZ2NYVmprZEZpYmRpVkQ5d2ZfV0k1c19kbmhyZkNSRjIwUDBHX3czWndIbVpRalFYWHlETVlTc0lUajFUQmxBckV2cHZrcGM0SGtYWDlSSF9Td0wxNG40em92Ql85czVfTTZ3TkhHUmxPamNM?oc=5",
+        "source": "JFeed",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T17:33:00Z",
+        "title": "ZIM-Chartered Ship From Haifa Sunk by Drones off Bulgaria - JFeed"
+      },
+      {
+        "url": "https://maritime-executive.com/article/zim-confirms-loss-of-containership-attacked-in-black-sea-off-bulgaria",
+        "source": "The Maritime Executive",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-29T17:04:39Z",
+        "title": "Zim Confirms Loss of Containership Attacked in Black Sea off Bulgaria"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxON1RZbnhaSHVzVDQ2OGppTzJhamFMWWFHT2pldzNuVVhxLTJRcEM0Sl9qaFhMUU00R0FEU3lKd3R1Wl94QURTRWVhS0t2Y19CSjlFZk1RMm03Z3VBTlFzUWx2ZHViQ3RJbWhUT2xiNEJ4aHVDcU4td2hNdkhyZEtQdXVfd2hJeVAxeEdYaEpuem9qeHluYS01UDZmTF9WYnFRTGNPLUpSajQ4YWND?oc=5",
+        "source": "The Maritime Executive",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T17:04:39Z",
+        "title": "Zim Confirms Loss of Containership Attacked in Black Sea off Bulgaria - The Maritime Executive"
+      },
+      {
+        "url": "https://t.me/uniannet/205511",
+        "source": "UNIAN",
+        "source_type": "telegram",
+        "side": "ua",
+        "kind": "media",
+        "published_at": "2026-10-29T16:07:07+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVjMxbjR4dzRzLVRSZVllbk1lWDB2TldCamhWaGVQelhEQW9YTTlwR3Z1Q2JHN0JRLVY4MVJFYmNJLUJKczdYNlMtSENONmJidUxlSk52YjJWTDE0YU1hZXlzUHlIbXkyanJ4dDNqYjI5WV8yN1FLRFdobko5Q21QR2JVS2FGdEo1ZWswTGFqOVN5MG5SWXgtcmN0aFhjRHVxSmVsQ2pCTQ?oc=5",
+        "source": "Palestine Chronicle",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T15:59:41Z",
+        "title": "Israeli-Chartered Ship Reported Sunk after Drone Attack Off Bulgaria - Palestine Chronicle"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONDMzaVRrYmdyOEdfeVFOdDBnbXQ4QUhDYU5ySnpDOWVvMGZZM1NRM0kwNTIwcWk1WTc3T0tfdmgzbGd5M1FEbDRMSWhlOUNyWUFEcDBVTFBPN1dtUlA5OVh5SEJ0Z21nOVkya0VHdzJEeHVVVWR6dmp1QUxWN19YbHI5dkNWOC0ySmR1dGhtNFlNMzdO?oc=5",
+        "source": "tovima.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T15:34:19Z",
+        "title": "Drone-Hit Container Ship Sinks Off Bulgaria’s Black Sea Coast - tovima.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTTFSNDZHSFRaRHRBaEg4UVNGWVZhUVBoRzFoX3NfakU2UW1NS3ZuVm9DcDlieGltZVJFeFFQa292SkgtMXBoOHR3TVVHWS1yZEtkb0gxdzZsbXlZVkptbVR0aFVoTWlvY0pGZk1pS0o2clBVQmtTd0ExTVZlMHpEblJ6Q1NpTk1NT0piNzBOMUFKOHl0TFk5QjNqLThWRE9UUHk5eXdwZTFOcDRlWjViQ2wwN1U1VGlnb1lLYw?oc=5",
+        "source": "The Straits Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T15:26:00Z",
+        "title": "Greek PM calls for global maritime truce after ship sunk in Black Sea drone attack - The Straits Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQk81eURfOWVsMFkzUmtaYmNTOGZRSDhpeE5xTlVhb2xObm9JSlJma3k3Vlo4WHBpXzAzRDF6SnpZa0hTQWtnd190WDFYMnJwN0tlVmIxNlg1cDZuRF9RSWUtSzFja0ZuVFlQRzM1ZkJ0blloNnJUMl8waTVlMXQ5NHRwQlpnQWVKb1RsTDNUVFRNejg?oc=5",
+        "source": "Цензор.НЕТ",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T14:46:00Z",
+        "title": "Sea drones attack container ship off Bulgaria: vessel sinks, four Ukrainians were on board. VIDEO - Цензор.НЕТ"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaDRFSHljOGxGMGMxbkFaelB3QzdWNkEwemdRcG53bjhkcXlVbjdIeGhiT3c1TDA2SVktM2taQjVLdzVVaUpiczM3VGVCRW1LZ3hycnpyc2d4ZTV6ZE03TlBQWlRocHlxRi14eWY4ZThKSTFwR0hWWXFVcE1Fa3o1LVRUb19oN0pHZG1BX0tsZTJnMHZKcXlyZXNWQXlHNWszRFNEVldla3k2VS01dkF4NXlCX2o2dVXSAbwBQVVfeXFMUEdORFFNWnpFYXpXVVNlSHlvNUR2Z0h2a0xMTTdBaWwwcDlOQjhCdXg0eDB3TFBQTGdHcmZhaFlOTEtVZHZTbjhDZ19zUFdTV05XNmx4ektVd3YwNzY4b2ktcWRIekpsSldzZmxGOGtmaTlsTDBwSzIzMDNJQUV4bkltcmJpZ0NFMWpzc2VqN19iamZKLXZoSW04U3hBMlJHeThrU2lSX3JNOFYwT0M2dDlEQWc0Mng1MVZGQW4?oc=5",
+        "source": "BurgasMedia",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T14:43:09Z",
+        "title": "Military investigator probes drone attack on Liberian-flagged ship off Kaliakra - BurgasMedia"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQS2oyT2JkdV85eEZJc0Q5N1JpOE5qUm1QaHh1cFpFZnlzdWJkSFNEYklaMUxsWW5udldTSTVrRU9RZTBMTUl5UGtkZjN3WlQtd1JfV1NjRkJETUtTWkZtUWhXUFQ5bWRaLWpmZ3h6QWQtOTlLVnBsRlhwQjh2VmNndHdUSmdaM0VHdzFUU0hBbkpPdEp2Ui1MZUFVRWVnWk9hUVNxT0ozTTItQVp0V3NjWDBLTVluRUpzOEVCLWg3TWhqYXVPZ3V0VnB2Z2Rtdw?oc=5",
+        "source": "i24NEWS",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T14:37:00Z",
+        "title": "Naval Drones Sink Israeli-operated Cargo Ship Off Bulgaria's Black Sea Coast - i24NEWS"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQzVKRnphNWtKdU8zQ1lQcEt1U3hBbl9iZEw2XzhSRUR3S2hySlJ4WmpkN0VfNEVSNlhieWRPbnoxVlFCU3ZyYjdYQVBCX1dXcEhlbVB6ZXZ2SWYyRDZGcDl6eE1LSkh0VVp2ZWlTbWdtU1hqNm5VWUtvVlRJRWhjMmlpM0FZNzEtanpnUE9WWkFEajAzQnJmdWhXak9RNjBYd1ZoOWRvWGRNZnVRRVVVRHY1d9IBuAFBVV95cUxNN3FERG9DRUhyV0QzbXFSQ3BkSWY5b1RmRGdFWFY1NllFNktyNkRKZkpJeDUxOVpZdkNUUVBpWjVDRkdMX0xPbk1DcGVicDA0RUNkRjVCV3hOakRwX3VIbnFzTWNMdmFwT21jajh5dUNQZDRFOTI1M2FfU1ZrRUQ1R201WGhNNy1JRHZhMXJnUWZtZ2YzUy1ZWkZ1d2F6TFduanRLTUFmbEdYODh3M1dZeUZEMGNWOXJs?oc=5",
+        "source": "The Times of Israel",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T16:55:28Z",
+        "title": "ZIM vessel sinks in Black Sea after being hit by 3 suicide boat drones; no injuries - The Times of Israel"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQVk0QV8zcDFYaG9vTl9mRkdsM0NvX2xRcjFLN2o3cDlsSlVPRThQOXJlb0xnbmdUaTROOFBoVVVyS1g5OWlsMXJvSTdXZGNZemwtcmZZMTVldUhLcXpZTjgwRG90ZENCQWhsSDJsY2ozSnEyZkFua01tVy1UVVZUcTZwWTQ2a242Rk1PeEtFdEpQeWFjc1lnaUl3?oc=5",
+        "source": "Seeking Alpha",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T16:21:26Z",
+        "title": "ZIM-chartered ship sinks in Black Sea after drone attack (ZIM:NYSE) - Seeking Alpha"
+      },
+      {
+        "url": "https://t.me/operativnoZSU/224842",
+        "source": "Operatyvnyi ZSU",
+        "source_type": "telegram",
+        "side": "ua",
+        "kind": "media",
+        "published_at": "2026-10-29T16:11:58+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiARBVV95cUxOMFhZdTR4eW8ybVY1ZzZ0OHJ5S19uZWx1ZUYzZWs5Q1gxX1NlNVVmc1V3VVliUWdZa2pfQ2x0M00tNFRTM3E0VjRSc05UYVM2TXhIMFlLUC1QSjZRZnN3Mnh5RmFwYnhZSWJTVm1POFFVZm5vbENZV2dHRy1LLV9TdFlxTzByUnN1QzRIY096aVhpWFNGVVFVY1Ruc0lMdmVpVWZBRERqTkliMlJNTzVudFFlWHBDSVE3bTlKTzdiSzJ5ZWNBX29iV1B3bEdmbmR0WHNwTko5ckczSGtLS0gyQjJqdjNsR0RQN0hJT2xRX1VqMkIzVkFpUXc2UWhtTkRJb0lLTW1DV0JEMmxlUDNRSVl0SFBqcjRjek04bmFiX29GV2prRWx2blBlSGx6eHFkdWpKc2x2SmM2ejZuLTVsM1JXNTZKRFhUU3JDV1lLZms0TzFTOVQ5UGUtOElFdWN4RFdQcDV6blI4U0ZvQzNMX2o5U2JOZm5NemRySTBNRmdtakFPdmdCdHdtWWNleTVqZmRnNm1MQjBXWnJUS0FZakt3OFVWQ1NvdkpGcjUxTEFORV96R0FoVEFNQUhlc2RNb0pGa1FOekFabU5sOXpBa25GZmhndEozMHhVVnRaSkZ4M2lBd1ZpTzRkeEJSb20yczJlVDFOTl8wQ0E4UlZUMllnNVFnQ2hI?oc=5",
+        "source": "Anadolu Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T14:58:35Z",
+        "title": "غرق سفينة مستأجرة من شركة إسرائيلية إثر هجوم في البحر الأسود - Anadolu Ajansı"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQY2x1Vzh5VXczMjdJb1dFcTd4RTJBNGl4cWk2LTJMOEpQc1c1bXlkWU5nSEo2ZmZnVUhUZDZXRXR0X1lPNk5uU0ZLOU5Cd0txTFlPaktEalBxTTdzd25FZzRiTmNjaS1oQXY1eTg0SENxSzJrc0pnTjRoT1owNTlNMmRuZXA3ZXpSN0R6ZHlWNHJRb1QyY08tb0VNeU1jMlppblVqbWVsYldWbmlGempEODBHUFo5U29hd25YZ3VB?oc=5",
+        "source": "VINnews",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T13:58:37Z",
+        "title": "Israeli Shipping Firm ZIM’s Chartered Ship Sinks in Black Sea Drone Attack; 18 Crew Rescued - VINnews"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOa1phbm91U0NfbVhOblFwN0ptbWNUMXZkYWpscFhhbnR0UDRPYXVTeXMxZFRJN1BOVDNkRi1CV0Fia0NkV2pvX002Tk0tTkp5d3RncE4wX2dSWWVSWFNhS2NVMnJncHRpenljbFl2aXJKNHFEUmVRVGJ0amhOeV9Qd0JONmljNUNURHdaZkpmWnBrMFF4aGp5R0VCOG1SNlE1WFpj?oc=5",
+        "source": "Globes - Israel Business News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T13:41:49Z",
+        "title": "ZIM-operated ship sinks in Black Sea after drone strike - Globes - Israel Business News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVU01MU9RNnYteS02bzJyZVRkbjZsNWRjbEFGWTZwTWVPNklsNF9xZ3g1S1NqZkFpR29MOURjSUZvNnNzTkczY1hzWmRfV0tQM3FjbWRiMUhfUG9KaDJ6X0ZYVTlyMWhjMS10a19xeFJCeHBRUHY4cTBHZWoxd283ZGxzQVhVbkgyME5JV05Nek5sUDZwd3NXUVpoMGgzSFBPaHRWQzVkZ1ZvNE1SdEhxd21n?oc=5",
+        "source": "Marine Insight",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T13:14:33Z",
+        "title": "Bulgarian Navy Rescues 18 Seafarers After Drone Attack On Cargo Ship In Black Sea - Marine Insight"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOLS01SkgwVWNJVlNaVVJ1YU9zeUkyOTNCZEx2dnhNU0FnT2R5aFBfbGRHb2JFMTQxU0RoYzdJRkRVZEl6NmF4SnVNb3YwUWNvaDQtWDlBbjA1QnZrQllQd1FUcnA2QV8wandjWXZXYVRUY3RoSDBZNGM1MW9YY0NiRXVPUm9Pd3lmQ1ppclVHZTBXMWVWdXZtaDFJUzdQMFlOVkZBdkE2dVhCN2VJa05BOFdmamdKQnRJN1JCSXdaTVVQTEFLYnZN?oc=5",
+        "source": "The Times of Israel",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T12:55:00Z",
+        "title": "ZIM vessel sinks in Black Sea after being hit by 3 suicide boat drones; no injuries - The Times of Israel"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1WUDdJRnd4X0FheUJoTF9XLVp0aW1RNUVVUnF6ekV2eDhwOWxMcF9wV3ZzcE5SOG9HU1U3T0pJU0t5UEE5MlFfeEl4VGpuWVpw?oc=5",
+        "source": "شبكة يافا الإخبارية",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T12:51:19Z",
+        "title": "Container Ship Sinks in the Black Sea Following Drone Attack - شبكة يافا الإخبارية"
       }
     ],
     "first_seen": "2026-10-28T14:24:50Z",
-    "last_updated": "2026-10-29T13:38:51Z",
+    "last_updated": "2026-10-29T19:13:07Z",
     "verification_issue": 268,
     "verdict": null,
     "published_in": [
@@ -2573,10 +3133,28 @@
         "kind": "osint",
         "published_at": "2026-10-29T10:18:52+00:00",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMklxbHN6OUNKbmRKNEtOSGFQR0xSdmRmU094aTBXaVZfaWhkVk5jNjBCbXV1dkVRb0xPd3dqUldkdGR0RXQxQUwyMmFNRGdwdEtOVjR2ZFYtOWF3RmxKZUNhR2k1MXo4ZzNyV3IwMTRGaUQxQ1pBdWRySWFWVW1KdjJXVjV2MmQtQTZvaWlFR2JGVk42eHVMRnRUYVdjdWF2UHZqVlVUSVoyYVk?oc=5",
+        "source": "Plainview Herald",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T10:12:18Z",
+        "title": "Ship sinks off Bulgaria's Black Sea coast after being hit by drones - Plainview Herald"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRVVmWGM2dEF3eVVrMzZpdUdWWkNhMDd4eEpDd2E4N3I0Mk5hU3hBanFNTENQU2wwYXJfbVVUbm9BR1A1V3IwbzNVNDVQWTFCS2N2ZHpINUtBYVFDR0g3RUdPY2NuMjR1LW92R1lvTWRHU3FvbHh0NGJnbnVLaGVQMnZla1VkNlQ3QVh3c243N1lQWnNNWU9QRjJybTROb1praVdJTnBPM1Nndw?oc=5",
+        "source": "AP News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T09:54:00Z",
+        "title": "Ship sinks off Bulgaria’s Black Sea coast after being hit by drones - AP News"
       }
     ],
     "first_seen": "2026-10-29T13:38:08Z",
-    "last_updated": "2026-10-29T13:38:51Z",
+    "last_updated": "2026-10-29T19:13:02Z",
     "verification_issue": 282,
     "verdict": null,
     "published_in": [],
@@ -2651,10 +3229,28 @@
         "kind": "media",
         "published_at": "2026-10-29T12:06:13Z",
         "title": "غرق سفينة حاويات تديرها شركة \"زيم\" الإسرائيلية بعد استهدافها بثلاث مسيّرات بحرية في البحر الأسود - وكالة وطن للأنباء"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQcl9MYTVzWG1JTDd3TlE1ak15V1FwdW9VTjRiOXMyQi1lWVBJQXl2TXJhQmNQVlp4cWtSLUlnLWRhYXpqYWtaRGowQ0M2MW5TWWtPWGgyTWpicUxfNExWQTdwOHk1ejBDdlBhMzlWMnN4MElVdllBaW5vNnQwMWRqUTVoMko2MHFMNm1tTkMwclNNeFBMX2xjd241c1hJVVFUMHdySFI1eFI1aGxRVjdFSEtoOGhZUkswWEJUYmE2WnZ4dTFRN1FGN1hERW1WUEtYNlU2SVVtOHZROS1TNE5sek9Xcm9zbkNNNk12QlZVZ2M2U01ORXhTeVpxTDJBVnd3WkE?oc=5",
+        "source": "Haaretz",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T18:31:00Z",
+        "title": "Ship chartered by Israeli company sinks in Black Sea after drone attack - Haaretz"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1HMHoxYWdhSklrWFVLVllJc2dPZzZUbTVtOXRwVGFSWlBPM3RrZ2ZTUVR6NFRRWFJYTmdkNTdpNmRMVVRyNW9VQXpRTFlqdw?oc=5",
+        "source": "وكالة عمان جو الاخبارية",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T13:11:58Z",
+        "title": "غرق سفينة حاويات إسرائيلية بعد استهدافها في البحر الأسود - وكالة عمان جو الاخبارية"
       }
     ],
     "first_seen": "2026-10-29T13:38:08Z",
-    "last_updated": "2026-10-29T13:38:21Z",
+    "last_updated": "2026-10-29T19:13:02Z",
     "verification_issue": 283,
     "verdict": null,
     "published_in": [],
