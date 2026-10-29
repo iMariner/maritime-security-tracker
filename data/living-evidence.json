@@ -11330,6 +11330,70 @@
           ]
         }
       ]
+    },
+    "HIST-BS-20260721-GOLDEN-ROSE": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.ukrinform.net/rubric-ato/4146911-ukrainian-border-guards-rescue-16-crew-members-after-russian-drone-hits-foreign-cargo-ship-in-black-sea.html",
+            "source": "Ukrinform reporting Ukraine’s State Border Guard Service, 22 July 2026"
+          },
+          {
+            "url": "https://www.pravda.com.ua/eng/news/2026/07/22/8045356/",
+            "source": "Ukrainska Pravda reporting Ukraine’s State Border Guard Service, 22 July 2026"
+          }
+        ]
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-29T11:15:21Z",
+        "vessel_name": "GOLDEN ROSE",
+        "imo": "8801620",
+        "date_utc": "2026-07-21",
+        "vessel_type": "Bulk carrier",
+        "region": "Black Sea",
+        "location_text": "In the Ukrainian maritime corridor, Black Sea",
+        "attack_type": "drone (UAV)",
+        "summary": "GOLDEN ROSE, a Saint Kitts and Nevis flagged bulk carrier, was struck while transiting Ukraine's maritime corridor on the night of 21 to 22 July 2026. The strike hit the stern and started a major fire. Ukraine's State Border Guard Service patrol boats came alongside the burning ship and brought all 16 crew ashore, 2 Syrian and 14 Egyptian nationals, where they were medically examined. The flag registry said the master suffered minor injuries and that no fatalities were reported, while the border guard service said none of the crew was injured.",
+        "date_note": "Ukraine's State Border Guard Service dates the strike to the night of 21 to 22 July 2026 and the Saint Kitts and Nevis registry to 21 July; the day-precision date is kept as 21 July and no time is inferred.",
+        "sources": [
+          {
+            "url": "https://www.hellenicshippingnews.com/saint-kitts-and-nevis-international-ship-registry-expresses-grave-concern-over-black-sea-security-incidents/",
+            "source": "Saint Kitts and Nevis International Ship Registry statement, 27 July 2026"
+          },
+          {
+            "url": "https://www.ukrinform.net/rubric-ato/4146911-ukrainian-border-guards-rescue-16-crew-members-after-russian-drone-hits-foreign-cargo-ship-in-black-sea.html",
+            "source": "Ukrinform reporting Ukraine’s State Border Guard Service, 22 July 2026"
+          },
+          {
+            "url": "https://www.pravda.com.ua/eng/news/2026/07/22/8045356/",
+            "source": "Ukrainska Pravda reporting Ukraine’s State Border Guard Service, 22 July 2026"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-29T11:15:21Z",
+          "text": "New historical record, absent from both incident stores. Ukraine's State Border Guard Service reported that border guard patrol boats evacuated all 16 crew members from the burning bulk carrier GOLDEN ROSE after a Russian drone struck the stern in the Black Sea during the night of 21 to 22 July 2026, and that none of the seafarers was injured; the crew were 2 Syrian and 14 Egyptian nationals. The Saint Kitts and Nevis registry dates the same strike to 21 July, describes the weapon as unidentified and reports the master with minor injuries and no fatalities. The injured position is unresolved, one master with minor injuries against none injured, so no injured snapshot is recorded; deaths are recorded as zero because every person aboard was rescued alive. No nationality is inferred from the flag and no image is published.",
+          "sources": [
+            {
+              "url": "https://www.hellenicshippingnews.com/saint-kitts-and-nevis-international-ship-registry-expresses-grave-concern-over-black-sea-security-incidents/",
+              "source": "Saint Kitts and Nevis International Ship Registry statement, 27 July 2026"
+            },
+            {
+              "url": "https://www.ukrinform.net/rubric-ato/4146911-ukrainian-border-guards-rescue-16-crew-members-after-russian-drone-hits-foreign-cargo-ship-in-black-sea.html",
+              "source": "Ukrinform reporting Ukraine’s State Border Guard Service, 22 July 2026"
+            },
+            {
+              "url": "https://www.pravda.com.ua/eng/news/2026/07/22/8045356/",
+              "source": "Ukrainska Pravda reporting Ukraine’s State Border Guard Service, 22 July 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -19829,6 +19893,78 @@
             {
               "url": "https://www.ndtv.com/world-news/2-indians-missing-after-another-attack-on-ship-at-odesa-port-in-ukraine-russia-ukraine-war-11823627",
               "source": "NDTV, citing the Indian embassy in Kyiv"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6495167519,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6495167519",
+      "author": "iMariner",
+      "received_at": "2026-10-29T11:15:49Z",
+      "incident_id": "HIST-BS-20260721-GOLDEN-ROSE",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-BS-20260721-GOLDEN-ROSE",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-29T11:15:21Z",
+          "vessel_name": "GOLDEN ROSE",
+          "imo": "8801620",
+          "date_utc": "2026-07-21",
+          "vessel_type": "Bulk carrier",
+          "region": "Black Sea",
+          "location_text": "In the Ukrainian maritime corridor, Black Sea",
+          "attack_type": "drone (UAV)",
+          "summary": "GOLDEN ROSE, a Saint Kitts and Nevis flagged bulk carrier, was struck while transiting Ukraine's maritime corridor on the night of 21 to 22 July 2026. The strike hit the stern and started a major fire. Ukraine's State Border Guard Service patrol boats came alongside the burning ship and brought all 16 crew ashore, 2 Syrian and 14 Egyptian nationals, where they were medically examined. The flag registry said the master suffered minor injuries and that no fatalities were reported, while the border guard service said none of the crew was injured.",
+          "date_note": "Ukraine's State Border Guard Service dates the strike to the night of 21 to 22 July 2026 and the Saint Kitts and Nevis registry to 21 July; the day-precision date is kept as 21 July and no time is inferred.",
+          "sources": [
+            {
+              "url": "https://www.hellenicshippingnews.com/saint-kitts-and-nevis-international-ship-registry-expresses-grave-concern-over-black-sea-security-incidents/",
+              "source": "Saint Kitts and Nevis International Ship Registry statement, 27 July 2026"
+            },
+            {
+              "url": "https://www.ukrinform.net/rubric-ato/4146911-ukrainian-border-guards-rescue-16-crew-members-after-russian-drone-hits-foreign-cargo-ship-in-black-sea.html",
+              "source": "Ukrinform reporting Ukraine’s State Border Guard Service, 22 July 2026"
+            },
+            {
+              "url": "https://www.pravda.com.ua/eng/news/2026/07/22/8045356/",
+              "source": "Ukrainska Pravda reporting Ukraine’s State Border Guard Service, 22 July 2026"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "nationalities": [],
+          "sources": [
+            {
+              "url": "https://www.ukrinform.net/rubric-ato/4146911-ukrainian-border-guards-rescue-16-crew-members-after-russian-drone-hits-foreign-cargo-ship-in-black-sea.html",
+              "source": "Ukrinform reporting Ukraine’s State Border Guard Service, 22 July 2026"
+            },
+            {
+              "url": "https://www.pravda.com.ua/eng/news/2026/07/22/8045356/",
+              "source": "Ukrainska Pravda reporting Ukraine’s State Border Guard Service, 22 July 2026"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-10-29T11:15:21Z",
+          "text": "New historical record, absent from both incident stores. Ukraine's State Border Guard Service reported that border guard patrol boats evacuated all 16 crew members from the burning bulk carrier GOLDEN ROSE after a Russian drone struck the stern in the Black Sea during the night of 21 to 22 July 2026, and that none of the seafarers was injured; the crew were 2 Syrian and 14 Egyptian nationals. The Saint Kitts and Nevis registry dates the same strike to 21 July, describes the weapon as unidentified and reports the master with minor injuries and no fatalities. The injured position is unresolved, one master with minor injuries against none injured, so no injured snapshot is recorded; deaths are recorded as zero because every person aboard was rescued alive. No nationality is inferred from the flag and no image is published.",
+          "sources": [
+            {
+              "url": "https://www.hellenicshippingnews.com/saint-kitts-and-nevis-international-ship-registry-expresses-grave-concern-over-black-sea-security-incidents/",
+              "source": "Saint Kitts and Nevis International Ship Registry statement, 27 July 2026"
+            },
+            {
+              "url": "https://www.ukrinform.net/rubric-ato/4146911-ukrainian-border-guards-rescue-16-crew-members-after-russian-drone-hits-foreign-cargo-ship-in-black-sea.html",
+              "source": "Ukrinform reporting Ukraine’s State Border Guard Service, 22 July 2026"
+            },
+            {
+              "url": "https://www.pravda.com.ua/eng/news/2026/07/22/8045356/",
+              "source": "Ukrainska Pravda reporting Ukraine’s State Border Guard Service, 22 July 2026"
             }
           ]
         }
