@@ -46,7 +46,7 @@
   "quality": "4 check(s) need attention: dates ok; attribution 4 claims without a named source; official coverage 0/0 ok; verified 3/15; single-source items 5, 5 without verification; confirmed 2 marked confirmed without proof; fact-check 3 correction(s); tweet 235/280 ok; dashes ok; consistency Contship Jet is in the data but not named in the article; Contship Jet is in the data but not named in the article found",
   "review": {
     "status": "done",
-    "at": "2026-10-30T05:06:46Z",
+    "at": "2026-10-30T05:28:58Z",
     "changes": [
       "lead story set to INC-20261030-001 (the newest confirmed attack, a tanker disabled by explosives on 29 October, and )",
       "name of INC-20261030-001 set to LOUISE 1",
@@ -75,7 +75,12 @@
       "Hormuz claim: the vessel UKMTO reported on fire 9 nautical miles north of Khasab on 29 October was a dhow, identified by regional authorities, with its crew evacuated. Do not present that fire as one of the three tankers the IRGC claims; give the IRGC claim in its own sentence as unconfirmed, with no official body credited for it."
     ],
     "restored": [],
-    "send_after": false,
+    "send_after": true,
     "lead": "INC-20261030-001"
+  },
+  "final_read": {
+    "status": "fixed",
+    "at": "2026-10-30T05:28:58Z",
+    "warnings": []
   }
 }
