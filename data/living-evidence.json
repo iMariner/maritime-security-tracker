@@ -4803,11 +4803,15 @@
           {
             "nationality": "Indian",
             "status": "confirmed",
-            "deaths": 1,
+            "deaths": 2,
             "sources": [
               {
-                "source": "India Ministry of Ports, Shipping and Waterways, Lok Sabha answer 5557, 27 March 2026",
-                "url": "https://sansad.in/getFile/loksabhaquestions/annex/187/AU5557_6kEB3a.pdf?source=pqals"
+                "url": "https://www.ndtv.com/world-news/us-israel-iran-war-2-indians-killed-in-iran-attack-on-oil-tanker-skylight-in-strait-of-hormuz-near-oman-port-11171213",
+                "source": "NDTV, 5 March 2026, with PTI inputs: the two dead named as Captain Ashish Kumar of Bihar and Dixit Solanki of Mumbai, both Indian nationals"
+              },
+              {
+                "url": "https://sansad.in/getFile/loksabhaquestions/annex/187/AU5557_6kEB3a.pdf?source=pqals",
+                "source": "India Ministry of Ports, Shipping and Waterways, Lok Sabha answer 5557, 27 March 2026"
               }
             ]
           }
@@ -4815,11 +4819,15 @@
         "sources": [
           {
             "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 21 October 2026"
+            "source": "IMO confirmed incident register, as at 27 October 2026: SKYLIGHT, IMO 9330020, 1 March, four seafarers injured and two seafarer fatalities"
           },
           {
-            "source": "India Ministry of Ports, Shipping and Waterways, Lok Sabha answer 5557, 27 March 2026",
-            "url": "https://sansad.in/getFile/loksabhaquestions/annex/187/AU5557_6kEB3a.pdf?source=pqals"
+            "url": "https://www.ndtv.com/world-news/us-israel-iran-war-2-indians-killed-in-iran-attack-on-oil-tanker-skylight-in-strait-of-hormuz-near-oman-port-11171213",
+            "source": "NDTV, 5 March 2026: two Indians killed, burnt bodies recovered"
+          },
+          {
+            "url": "https://sansad.in/getFile/loksabhaquestions/annex/187/AU5557_6kEB3a.pdf?source=pqals",
+            "source": "India Ministry of Ports, Shipping and Waterways, Lok Sabha answer 5557, 27 March 2026"
           }
         ]
       },
@@ -4837,7 +4845,27 @@
             }
           ]
         }
-      }
+      },
+      "updates": [
+        {
+          "at": "2026-10-30T12:05:00Z",
+          "text": "Both deaths on this record are now sourced as Indian nationals; the count stays at two. Indian reporting on 5 March 2026 named the dead as Captain Ashish Kumar of Bettiah, Bihar, and Dixit Solanki of Mumbai, both aboard the Palau-flagged Skylight when it was struck 5 nautical miles north of Khasab, and said the burnt bodies of two people had been recovered, one from the captain's cabin. Oman's Maritime Security Centre said the tanker carried 20 crew, 15 Indian and 5 Iranian, and that all were evacuated. The same reporting said a third Indian crew member, Dalip Singh of Rajasthan, was reported missing, and the company had not confirmed his death; no third death and no missing snapshot is added here because his fate is not established in a checked source. Deaths stay at two, matching the IMO register.",
+          "sources": [
+            {
+              "url": "https://www.ndtv.com/world-news/us-israel-iran-war-2-indians-killed-in-iran-attack-on-oil-tanker-skylight-in-strait-of-hormuz-near-oman-port-11171213",
+              "source": "NDTV, 5 March 2026, with PTI inputs"
+            },
+            {
+              "url": "https://sansad.in/getFile/loksabhaquestions/annex/187/AU5557_6kEB3a.pdf?source=pqals",
+              "source": "India Ministry of Ports, Shipping and Waterways, Lok Sabha answer 5557, 27 March 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, as at 27 October 2026"
+            }
+          ]
+        }
+      ]
     },
     "HIST-BS-20220224-YASA-JUPITER": {
       "verification": {
@@ -20900,6 +20928,139 @@
             {
               "url": "https://www.seatrade-maritime.com/security/tanker-catches-fire-in-hormuz-after-explosives-attached-to-hull",
               "source": "Seatrade Maritime, 30 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6521994892,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6521994892",
+      "author": "iMariner",
+      "received_at": "2026-10-30T11:52:07Z",
+      "incident_id": "HIST-ME-20260301-SKYLIGHT",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T03:06:19.845439+00:00",
+          "vessel_name": "SKYLIGHT",
+          "date_utc": "2026-03-01",
+          "vessel_type": "tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "5 NM North of Khasab, Oman",
+          "summary": "IMO records SKYLIGHT in its confirmed incident register for 2026-03-01 near 5 NM North of Khasab, Oman. IMO confirms 2 seafarer death(s).",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            },
+            {
+              "source": "Joint Maritime Information Center",
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-037-jmic-advisory-note-26-april.pdf"
+            },
+            {
+              "source": "India Ministry of Ports, Shipping and Waterways, Lok Sabha answer 5557, 27 March 2026",
+              "url": "https://sansad.in/getFile/loksabhaquestions/annex/187/AU5557_6kEB3a.pdf?source=pqals"
+            }
+          ],
+          "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
+          "imo": "9330020"
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 2,
+          "nationalities": [
+            {
+              "nationality": "Indian",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "source": "India Ministry of Ports, Shipping and Waterways, Lok Sabha answer 5557, 27 March 2026",
+                  "url": "https://sansad.in/getFile/loksabhaquestions/annex/187/AU5557_6kEB3a.pdf?source=pqals"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            },
+            {
+              "source": "India Ministry of Ports, Shipping and Waterways, Lok Sabha answer 5557, 27 March 2026",
+              "url": "https://sansad.in/getFile/loksabhaquestions/annex/187/AU5557_6kEB3a.pdf?source=pqals"
+            }
+          ]
+        },
+        "audit_notes": [
+          "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+        ],
+        "human_impact": {
+          "injured": {
+            "count": 4,
+            "as_of": "2026-10-20",
+            "sources": [
+              {
+                "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+                "source": "IMO confirmed incident register, as at 20 October 2026"
+              }
+            ]
+          }
+        }
+      },
+      "change": {
+        "incident_id": "HIST-ME-20260301-SKYLIGHT",
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 2,
+          "nationalities": [
+            {
+              "nationality": "Indian",
+              "status": "confirmed",
+              "deaths": 2,
+              "sources": [
+                {
+                  "url": "https://www.ndtv.com/world-news/us-israel-iran-war-2-indians-killed-in-iran-attack-on-oil-tanker-skylight-in-strait-of-hormuz-near-oman-port-11171213",
+                  "source": "NDTV, 5 March 2026, with PTI inputs: the two dead named as Captain Ashish Kumar of Bihar and Dixit Solanki of Mumbai, both Indian nationals"
+                },
+                {
+                  "url": "https://sansad.in/getFile/loksabhaquestions/annex/187/AU5557_6kEB3a.pdf?source=pqals",
+                  "source": "India Ministry of Ports, Shipping and Waterways, Lok Sabha answer 5557, 27 March 2026"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, as at 27 October 2026: SKYLIGHT, IMO 9330020, 1 March, four seafarers injured and two seafarer fatalities"
+            },
+            {
+              "url": "https://www.ndtv.com/world-news/us-israel-iran-war-2-indians-killed-in-iran-attack-on-oil-tanker-skylight-in-strait-of-hormuz-near-oman-port-11171213",
+              "source": "NDTV, 5 March 2026: two Indians killed, burnt bodies recovered"
+            },
+            {
+              "url": "https://sansad.in/getFile/loksabhaquestions/annex/187/AU5557_6kEB3a.pdf?source=pqals",
+              "source": "India Ministry of Ports, Shipping and Waterways, Lok Sabha answer 5557, 27 March 2026"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-10-30T12:05:00Z",
+          "text": "Both deaths on this record are now sourced as Indian nationals; the count stays at two. Indian reporting on 5 March 2026 named the dead as Captain Ashish Kumar of Bettiah, Bihar, and Dixit Solanki of Mumbai, both aboard the Palau-flagged Skylight when it was struck 5 nautical miles north of Khasab, and said the burnt bodies of two people had been recovered, one from the captain's cabin. Oman's Maritime Security Centre said the tanker carried 20 crew, 15 Indian and 5 Iranian, and that all were evacuated. The same reporting said a third Indian crew member, Dalip Singh of Rajasthan, was reported missing, and the company had not confirmed his death; no third death and no missing snapshot is added here because his fate is not established in a checked source. Deaths stay at two, matching the IMO register.",
+          "sources": [
+            {
+              "url": "https://www.ndtv.com/world-news/us-israel-iran-war-2-indians-killed-in-iran-attack-on-oil-tanker-skylight-in-strait-of-hormuz-near-oman-port-11171213",
+              "source": "NDTV, 5 March 2026, with PTI inputs"
+            },
+            {
+              "url": "https://sansad.in/getFile/loksabhaquestions/annex/187/AU5557_6kEB3a.pdf?source=pqals",
+              "source": "India Ministry of Ports, Shipping and Waterways, Lok Sabha answer 5557, 27 March 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, as at 27 October 2026"
             }
           ]
         }
