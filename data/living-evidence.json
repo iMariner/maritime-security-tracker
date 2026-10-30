@@ -11779,6 +11779,62 @@
           ]
         }
       ]
+    },
+    "INC-20261030-001": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://ukmto.org/-/media/ukmto/products/20261029-ukmto_warning-187-26-update-001.pdf?rev=c5fca281b8cb48d6b275bf6fb612219f",
+            "source": "UKMTO warning 187-26, attack update 001, 30 October 2026: verified report that the crew are safe"
+          }
+        ],
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-30T05:55:00Z",
+        "vessel_name": "LOUISE 1",
+        "imo": "9290323",
+        "date_utc": "2026-10-29",
+        "vessel_type": "Crude oil tanker",
+        "region": "Strait of Hormuz",
+        "location_text": "25NM northeast of Khasab, Oman",
+        "attack_type": "explosive devices attached to hull",
+        "summary": "LOUISE 1, a Panama-flagged crude oil tanker of 159,092 deadweight tonnes, was approached on the port side by a small boat 25 nautical miles northeast of Khasab, Oman at 2212 UTC on 29 October 2026. The small boat attached two explosive devices to the hull above the waterline and the blasts caused a fire in the engine room that temporarily disabled the ship. UKMTO reported on 30 October that a verified report confirmed the crew were safe, that there was no environmental impact, that the fire was extinguished and that the vessel was continuing to its next port of call. Maritime security firm Vanguard Tech, cited by Seatrade Maritime, identified the ship as the Panama-flagged Louise 1 of 159,092 deadweight tonnes, owned by Panama-based Aquarius Maritime Ventures, and those particulars match the crude oil tanker IMO 9290323. Iran's army navy said a tanker had struck a naval mine in a restricted area east of the strait, which contradicts the UKMTO account. No checked source gives a crew nationality.",
+        "date_note": "UKMTO warning 187-26 gives the attack as 29 October 2026 at 2212 UTC. The crew-safe update was issued at 0150 UTC on 30 October, which is why some reports carry a 30 October date.",
+        "sources": [
+          {
+            "url": "https://ukmto.org/-/media/ukmto/products/20261029-ukmto_warning-187-26-update-001.pdf?rev=c5fca281b8cb48d6b275bf6fb612219f",
+            "source": "UKMTO warning 187-26, attack update 001, 30 October 2026"
+          },
+          {
+            "url": "https://www.seatrade-maritime.com/security/tanker-catches-fire-in-hormuz-after-explosives-attached-to-hull",
+            "source": "Seatrade Maritime, 30 October 2026, citing Vanguard Tech and Pole Star Global"
+          },
+          {
+            "url": "https://www.vesselfinder.com/vessels/details/9290323",
+            "source": "VesselFinder vessel particulars for IMO 9290323"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-30T05:55:00Z",
+          "text": "First review of this record. The corpus row held the name but no flag, no position and only a headline claim that the crew were safe. UKMTO warning 187-26 and its 30 October update establish the attack time, position and method, and state on a verified report that the crew were safe and that there was no environmental impact. Seatrade Maritime, citing Vanguard Tech, names the tanker as the Panama-flagged Louise 1, whose tonnage and owner match IMO 9290323, so the identity is recorded rather than guessed. Zero deaths is a stated fact in the UKMTO report, not an inference from silence, and no nationality is recorded because no checked source gives one. The Iranian army navy's claim that the ship hit a mine is recorded as a conflicting account. Kept separate from the 29 October 16:00 UTC projectile strike and from the 29 October dhow fire, which are different events.",
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/20261029-ukmto_warning-187-26-update-001.pdf?rev=c5fca281b8cb48d6b275bf6fb612219f",
+              "source": "UKMTO warning 187-26, attack update 001, 30 October 2026"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/tanker-catches-fire-in-hormuz-after-explosives-attached-to-hull",
+              "source": "Seatrade Maritime, 30 October 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -20781,6 +20837,69 @@
             {
               "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
               "source": "IMO confirmed incidents list, entry for MARAN GAS MYSTRAS, 5 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6515896229,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6515896229",
+      "author": "iMariner",
+      "received_at": "2026-10-30T05:41:55Z",
+      "incident_id": "INC-20261030-001",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261030-001",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-30T05:55:00Z",
+          "vessel_name": "LOUISE 1",
+          "imo": "9290323",
+          "date_utc": "2026-10-29",
+          "vessel_type": "Crude oil tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "25NM northeast of Khasab, Oman",
+          "attack_type": "explosive devices attached to hull",
+          "summary": "LOUISE 1, a Panama-flagged crude oil tanker of 159,092 deadweight tonnes, was approached on the port side by a small boat 25 nautical miles northeast of Khasab, Oman at 2212 UTC on 29 October 2026. The small boat attached two explosive devices to the hull above the waterline and the blasts caused a fire in the engine room that temporarily disabled the ship. UKMTO reported on 30 October that a verified report confirmed the crew were safe, that there was no environmental impact, that the fire was extinguished and that the vessel was continuing to its next port of call. Maritime security firm Vanguard Tech, cited by Seatrade Maritime, identified the ship as the Panama-flagged Louise 1 of 159,092 deadweight tonnes, owned by Panama-based Aquarius Maritime Ventures, and those particulars match the crude oil tanker IMO 9290323. Iran's army navy said a tanker had struck a naval mine in a restricted area east of the strait, which contradicts the UKMTO account. No checked source gives a crew nationality.",
+          "date_note": "UKMTO warning 187-26 gives the attack as 29 October 2026 at 2212 UTC. The crew-safe update was issued at 0150 UTC on 30 October, which is why some reports carry a 30 October date.",
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/20261029-ukmto_warning-187-26-update-001.pdf?rev=c5fca281b8cb48d6b275bf6fb612219f",
+              "source": "UKMTO warning 187-26, attack update 001, 30 October 2026"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/tanker-catches-fire-in-hormuz-after-explosives-attached-to-hull",
+              "source": "Seatrade Maritime, 30 October 2026, citing Vanguard Tech and Pole Star Global"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9290323",
+              "source": "VesselFinder vessel particulars for IMO 9290323"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/20261029-ukmto_warning-187-26-update-001.pdf?rev=c5fca281b8cb48d6b275bf6fb612219f",
+              "source": "UKMTO warning 187-26, attack update 001, 30 October 2026: verified report that the crew are safe"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-10-30T05:55:00Z",
+          "text": "First review of this record. The corpus row held the name but no flag, no position and only a headline claim that the crew were safe. UKMTO warning 187-26 and its 30 October update establish the attack time, position and method, and state on a verified report that the crew were safe and that there was no environmental impact. Seatrade Maritime, citing Vanguard Tech, names the tanker as the Panama-flagged Louise 1, whose tonnage and owner match IMO 9290323, so the identity is recorded rather than guessed. Zero deaths is a stated fact in the UKMTO report, not an inference from silence, and no nationality is recorded because no checked source gives one. The Iranian army navy's claim that the ship hit a mine is recorded as a conflicting account. Kept separate from the 29 October 16:00 UTC projectile strike and from the 29 October dhow fire, which are different events.",
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/20261029-ukmto_warning-187-26-update-001.pdf?rev=c5fca281b8cb48d6b275bf6fb612219f",
+              "source": "UKMTO warning 187-26, attack update 001, 30 October 2026"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/tanker-catches-fire-in-hormuz-after-explosives-attached-to-hull",
+              "source": "Seatrade Maritime, 30 October 2026"
             }
           ]
         }
