@@ -347,7 +347,7 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-10-30",
-    "summary": "Russia's defence ministry said its forces struck a dry cargo vessel in the Black Sea that was carrying military and dual-use cargo to Odesa port. The claim was part of a massed overnight strike and no vessel name, damage or casualty details were given.",
+    "summary": "Russia's defence ministry claimed its forces struck a dry cargo vessel in the Black Sea carrying military and dual-use cargo toward Odesa as part of a massed overnight strike with drones and precision weapons. The same claim was repeated by Russian outlets and in a ministry summary that also listed port infrastructure in Odesa region, with no vessel name, damage or casualties given.",
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.6,
@@ -410,15 +410,52 @@
         "kind": "official",
         "published_at": "2026-10-30T15:20:12+00:00",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQek5GVkVRLVdKUzdiSFhxS1hRckpjWHdMbVRraXc5dEFaQzRUNEZHenN1cjRaRlVxbkhtazJHcFJiVU5HUFhwQWZvVVctcjR5WV9nWWtKa0VUb1VmcTI2T3VrVHR0REx5ODV6bVpBNUJyZUN1M1pRQ1Rpdnh2bEt2WTFiYk1QQk1ERkNRRHhHSGNOSmpnOXoyX0YtQVI5dw?oc=5",
+        "source": "Военное дело",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T07:15:18Z",
+        "title": "Russia Reports Strikes on Drone Sites and Black Sea Ship - Военное дело"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVGZfQlFzaUc1d3E1TDdoQmoxMzl0dWMySEN5aHFhLVkwVHZLcUk0OEx6WGFoWXR4ME02anNhcUh3dG5jenZMaHVqM01iWkJqelk3Zk5zZHBvNkJYa3NObFEtUEJjMm5pdlJReF9XZ3FpODZ2UmFrd1pNVFJhanJNUmFsS1R6Y3NydEJRU0p3SHEwRVplQzRnb2lYd2NWdw?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T09:11:26Z",
+        "title": "Судно с грузами для ВСУ попало под удар по пути в порт - prospect.com.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbkxuWjM5SXA0c29Dc2VmUEZtSFNUZDg1MXkxZmZ3NFBESzFVZUlzekREWnZ6SFdhaEd4ZFJQOVBhZE0wQndlZFdJVXgxTHdCX3VZZXpYNnpobW5kWjVVZk41YjNsUmRoV3FFNjJwbUduX2JLX05GX3BORFVkSEFBQzJzOWZRRUlQM3pITGQzM0lmSTRzbU81QVlYdWtmdw?oc=5",
+        "source": "Canlı Gaste",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T07:11:22Z",
+        "title": "Rusya’dan Ukrayna’ya gemi, sanayi ve enerji tesislerine saldırı - Canlı Gaste"
+      },
+      {
+        "url": "https://t.me/mod_russia/68640",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-10-30T05:02:55+00:00",
+        "title": null
       }
     ],
     "first_seen": "2026-10-30T10:25:37Z",
-    "last_updated": "2026-10-30T16:48:44Z",
+    "last_updated": "2026-10-30T21:42:15Z",
     "verification_issue": 294,
     "verdict": null,
     "published_in": [],
     "status": "claimed",
-    "position_approx": true
+    "position_approx": true,
+    "date_approx": false
   },
   {
     "region": "Black Sea",
@@ -494,12 +531,13 @@
       }
     ],
     "first_seen": "2026-10-30T10:25:50Z",
-    "last_updated": "2026-10-30T10:25:50Z",
+    "last_updated": "2026-10-30T21:42:15Z",
     "verification_issue": 295,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261030-004"
   },
   {
     "region": "Gulf of Oman",
@@ -681,7 +719,7 @@
     "lon": 56.35,
     "location_text": "near the Strait of Hormuz",
     "attack_type": "other",
-    "damage": null,
+    "damage": "fire broke out aboard",
     "casualties": null,
     "attribution_claimed": null,
     "independent_evidence": true,
@@ -713,10 +751,19 @@
         "kind": "media",
         "published_at": "2026-10-30T12:25:31Z",
         "title": "Oman rescues 25 from attacked RITI vessel as Hormuz shipping risks mount - Business Upturn"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUW1TdzczdHhYUnRuSWRyS1A0RzF4MUlEMzhGSUZadnVJTmtOcGI1dkJUV0RRWWdfMHBSZUNZbWcxeXREbWNoQTNjcG52My1YZ2ZMTVRkMmxtb3lYSHRHWUxJbmxISzQ3UndvY01OM2F1QnRYemVqUF9DVENzeHBTMVI1bmpmV1cw?oc=5",
+        "source": "nedaelwatan.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T17:07:06Z",
+        "title": "البحرية العُمانية تجلي 25 بحارًا بعد استهداف سفينة واندلاع حريق قرب مسندم - nedaelwatan.com"
       }
     ],
     "first_seen": "2026-10-30T16:48:53Z",
-    "last_updated": "2026-10-30T16:49:05Z",
+    "last_updated": "2026-10-30T21:41:41Z",
     "verification_issue": 296,
     "verdict": null,
     "published_in": [],
@@ -864,7 +911,7 @@
     "attack_type": "other",
     "damage": null,
     "casualties": null,
-    "attribution_claimed": null,
+    "attribution_claimed": "Russia's defence ministry claimed it",
     "independent_evidence": false,
     "id": "INC-20261030-015",
     "sources": [
@@ -876,15 +923,25 @@
         "kind": "media",
         "published_at": "2026-10-30T09:11:26Z",
         "title": "Судно с грузами для ВСУ попало под удар по пути в порт - prospect.com.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbkxuWjM5SXA0c29Dc2VmUEZtSFNUZDg1MXkxZmZ3NFBESzFVZUlzekREWnZ6SFdhaEd4ZFJQOVBhZE0wQndlZFdJVXgxTHdCX3VZZXpYNnpobW5kWjVVZk41YjNsUmRoV3FFNjJwbUduX2JLX05GX3BORFVkSEFBQzJzOWZRRUlQM3pITGQzM0lmSTRzbU81QVlYdWtmdw?oc=5",
+        "source": "Canlı Gaste",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T07:11:22Z",
+        "title": "Rusya’dan Ukrayna’ya gemi, sanayi ve enerji tesislerine saldırı - Canlı Gaste"
       }
     ],
     "first_seen": "2026-10-30T16:49:23Z",
-    "last_updated": "2026-10-30T16:49:23Z",
+    "last_updated": "2026-10-30T21:42:15Z",
     "verification_issue": 297,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261030-004"
   },
   {
     "region": "Strait of Hormuz",
@@ -966,6 +1023,246 @@
     "published_in": [],
     "status": "merged",
     "merged_into": "INC-20261023-002",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-30",
+    "summary": "Oman evacuated a tanker's crew while Iran claimed a spate of new, unverified attacks, including the first reported limpet mine attack in seven years. No vessel name, flag, position, damage or casualty details are given.",
+    "official_source_cited": "Oman (evacuation of crew)",
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "mine",
+    "damage": "engine room caught fire",
+    "casualties": "27 Indian crew reported safe",
+    "attribution_claimed": "Iran (limpet mine narrative attributed to Iran)",
+    "independent_evidence": true,
+    "id": "INC-20261030-018",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVDNKVjNsaVpMV25rakxiczJpQ0o0dEF0b1RSeXZwOXZUS01JS052UW9pSjdmLUVvTnFQYlhTVjZXMldKbnl0OG1fYnB0blJ6X1pSblJGb2VuZk5UX0ZEQ0V2ejl4dE91aVgxaTlWUFdzek45TWpzUUJGTDg0aWNGT0RrM3RVd3JHM0dnSi1hSTFNVWZobGhOZkJFSU45T1N2MFZXQ25NM09ZZm1BYy1XYV9oX0ZDc05pbWJHWnowZ1R1X20xZnJNVWMwOTJrTk0tQlZEd2xn0gHbAUFVX3lxTFBkOUpSMXFISDZLbk1nQWxaMlRydDBSVXBrS1llQmJFQ29kNGkwVFozVnZjV1FWOEJkb0Q2X2J0VEZFdU1CVVRqbnlPQV9zeGY4QWdvQXZoU19tcjZVSVBSekluclN4YmpVdU9JdlJjQWNrbjRkRlE2ejhBWVU4cS0wYWU1cE9QaGctR09xY3d2dXRreGVkTE53NzdlTk5hUWticEg0aDhFV0hJQ3pBQjlvZHZZNGZ1OUlaRmQxb0RiRXVtd3ktR2xVcnV1Q2tZVXlzZmdkeDJyOGtEMA?oc=5",
+        "source": "Moneycontrol.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T21:11:41Z",
+        "title": "27 Indians aboard tanker hit in first known limpet-mine attack in Strait of Hormuz - Moneycontrol.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNzZwVDE4OXRNWnRiN1UxWGF6NjRhdlp3Q05mT2h0RTFObURCOTB0ZnhhcFRCOEdiWGp2ZFoxVmFSdHVEX0p2STVhSXp1ampuVVVwRFByVnhTRlFHZlppUU9jeE01TkpWMXJCbG1RMXVLMHh1bzZQeldOZzFvaVcxTnBsZlA4Vjg0cjRPSmF4eVJYVkJlaFh5RFBfWTNIVTlIRk9QZmpKdmJ0ZVRteFpF?oc=5",
+        "source": "JournalArta",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T20:57:59Z",
+        "title": "Tanker Struck by Limpet Mines Near Oman in Strait of Hormuz, Sources Say - JournalArta"
+      },
+      {
+        "url": "https://maritime-executive.com/article/oman-evacuates-tanker-crew-as-iran-claims-spate-of-new-attacks",
+        "source": "The Maritime Executive",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-30T20:16:28Z",
+        "title": "Oman Evacuates Tanker Crew as Iran Claims Spate of New Attacks"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZXB5SzVpRk9xY1Bxb1dmb3gwLVVwSFpQbnN2U1pwaDhhZUNlN0pScHNISmRIUTlCLU5wQ0VzV2N5aksyd3NxSWhHNjYxMFc3Wm5DcVgxcVdyUjhYaG5JSzl4MTVtOVo0WFZMaXZHV0Z6dEVKNjZzczJlYl9XVlNJd0dvZEFaWkpLbVRZTzFQZ3ZrbDhEcGlOcnVMX0dyQjhta1djTkFTejFCcXFnZTkzYnlXWEtsM0RrWEhXQmxLX0hzMTAwWGpZelBuYjlDTUw0TFJlSEdOUGVCX3RPZlEzQ09EbEY?oc=5",
+        "source": "Gulf News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T18:37:19Z",
+        "title": "Why Iran pushes 'sea mines' narrative: Limpet mines on a Hormuz tanker are nothing new from Iran - Gulf News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNmNsYTlvcTk1cVNSM0NaM0FQaGwtSHdRNHFoOHU3cDl4RFBxU3Z5VnR2Nk5JckN1eUJ4ekgzenQ5cGgzbjNidmVtMmd2a1NOOGRaaEtvMHZ5cDBDOWc2S2Fwc1k1U05WOG5ROVJZLVBfeThyc09FQUdjT1pxVk90MDEzRVA5MUpGTU9wUFZJSzdaRzhHR0d0OU14eTJaRUY4OGVlNzZLejdFN0dySDRPZEF3cGNXMklL?oc=5",
+        "source": "TWZ",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T18:33:46Z",
+        "title": "Iran Used Limpet Mine Placed On Ship’s Hull In Latest Strait Of Hormuz Attack: Report - TWZ"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOMlFfTnA1MnZ4VWltcXVISzFfSTNHOTF6VWF0VjRjNFlubVhvSmJQSFdaWnhPeERPVFUwQ1VqNmYtN3BMYjJpaDlTQWZUd3BCOFRETmJwMHRWNEhPRTVlVjRXa3BtNnprZEFxNUg0SlpMUnFGZTFURTdsdzRGakpLQ3FWWEtZbVBmS2lqZzBpRkprMDl0STQtNGRYdHpFSF81ampycUNCMG5FZEpBUHBrUVREZmFxY0lUT21CNlJkcmFyVHY5VVN6MFJsNUZUbHdjVXBjYVJsdlpSb0tRd1pUazhUdzdjYWF5MGY4N2VHcF84UGZW0gH6AUFVX3lxTFBHc1NnaFNmV0twNlljWm40bkRMNE5uNXBiVzVodzF6UTZuR2plekpwRG95dGVzaXVOeHkwSDByMEhjSnhFejk4X0lWOUhUUTNxUDYwNFIzN2NXWDd2U0dINmZXNjVqcTRobHVYck5abF8ySjNacDFyUllDd1IxVjNMODVSNG54aElkR3hjMm0xZGdEN1lYYUpITXVXeE4yVG1rRGR5QlhBaExZenAxOGZIcXVJZE5GQWkwa2lXUThBWGh0UzFjMW5UcGozaXhEcWV3ZTZvS1hEejYzcXZFMUM5WlI4cFhKb0pOVU9yYXVjUEQ5Y3N6WUNfWGc?oc=5",
+        "source": "Times Now",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T17:57:19Z",
+        "title": "New Threat in Hormuz: First-Ever Limpet Mine Strike Hits Tanker With 27 Indians - Times Now"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYWpTXzBOdUVfcW14OFlNMzV1VXhfVDFhMUR3U0h3SFNfNVpFV01vY0lfY0ozUzYxTmRxUnk3WFZnMGxaXzFOS2JPb0Fta3poZkg1SlNEOTU5NnZQdGQ2M045TWpTeFI5clhhdWoxbWlheHVwQmE2MnB2R1pVWnlfY2tRM1NnZjZSbE1hdkdwblU5ZUp0bV9pcFMyRUdfSUw0T0tlSW1CUWdMcG9DQTJXZmVNVnRhVzNo0gHGAUFVX3lxTE9Tdk9SYVlBdk50XzNoaVNsOE9Qb3VSLUE0Vkp3aVNKd1BhZWM3dS00R1lLZ3hRTjlzdTM2dmdGWGZPTW1wRDJ0eUViZGVhWmtwOFh5dll0bmYySDRoUVZkVTQ2UzNRSkdVNTV6Zy1tQ3lrcVlYbDI0UG9ZWFVyTzliUHcxdGZ2aWZVeVZtajc3T2swazVpck9mUi1fWGJScjRBa2I5anJ2YzVyREt4RFRKaDBqaFNQMzBoa3l5NklYLWhOZlNLQQ?oc=5",
+        "source": "The New Indian Express",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T17:27:17Z",
+        "title": "Tanker carrying 27 Indians hit by limpet mines in Strait of Hormuz - The New Indian Express"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOTnc2N2FVSEVhLWdWb05Ld3VZcW1ZYmRjdjNteTJHN19YU0RFY2Z0ZUJhYnNkUkpmelY5WGhlZVBxaFRWUk5KeFFsWXdNWGxVU3pMSFRkaE9UcTNyVWJhR21DaUdpU19tMUdabUVYTDVDUFpIQ0JTZTJzaHNEYTNwMENWTElQRzFnNHBOX3pqYjRxa05XamhBTHh0RzR6TVo3QUNYSnpBMlo0Z3dCd000WjhmT3JJa0QzR1k3aGlOQlhBMWUxdjk2em1VWFU3UjVSZHlJNEpURVpxZC1oSHZhM29QZFI2UzRhX1IxeUIxR2dGT3ljTFNTbzZVeVllSnZmbFVB0gGIAkFVX3lxTE9ZZXZhXzRMaTdBU2VjZ19OT0dTZWQ4RzVRcTg5Z1J5NDdNdE5jQkw5VTdPQ2M1akJsSnVDV2JIeVllTlphOTR4UC1hOGlIU3RPeVkzV2ptR2QyQk5tXzBlVnJnckRTaENRT0tCMmJGRDlfQ1ZyUXhfdzdFYVRYWmhHa2pHUWxzOXZWbHo1WnFFU3k2cEZ5Z1NWR0FPTFRMYTZpcWFXakl5WjQzMkw0NVNQR3ZlRUNMbEtMX0lyRjBLR0EtbTJzLWIxQkY5VkUxWlg1cmhOREJ4WVRpZXBtMm00Q1VRSWtPWlp6ZW0wMFMzZ3ZuZDZZbzhINTVFUkJSVjN0c1IyNThrRQ?oc=5",
+        "source": "The Times of India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T17:09:00Z",
+        "title": "Tanker with 27 Indian seafarers targeted in first-ever limpet mine attack in Strait of Hormuz - The Times of India"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYlczd0xISDI1Q2E4eXNKRUlhMUJCS01pUG9vT3k4WVFPaXlqYmRGR0hyeXR1MnByVGR0ZnRpeUprdW42T1NCZ0VyWVZocE9QM3FLZHh1Sm10VlZBdVVIaW15dGNlVUN3TTNCVW0xUkUxZ2dHRzZZN0xTLXB0YkxRd29taFljeHVHLU5ERC01U3U2UGxrNFHSAZsBQVVfeXFMT1MwTHBHSi1zbWFEU2hqb3ZlVXRwZFBEZV9CanEyTWlRVlp3NFN3Y1VFLXJ6V1JxQUhkYTA0alF6d01hbWE2cFZBVVg2dW9xeWdKaGFjR1d0Rm5ZX2RXTFBlVU1sRnlqZmZBZzJsZDNJTWFpWVdXYXVTWm9GRjUybDRjOC1UdEFKcUtRbnNDVk9lb2JObHNjOEJOTTQ?oc=5",
+        "source": "The Week",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T17:06:30Z",
+        "title": "What is a limpet mine? Iran switches to low-cost devices to target tanker in Hormuz; 27 Indians aboard safe - The Week"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNX2ZzQ3dpTndmR3MwVUdNQ3pra01KczhrVEVJeFBZSXFPSW1JZ0Rfb1pKRE4zWXpjd2tTNVQ3QUx6YUFvVUZHbm4yOWNCdWprdXVFQ1B2Tnc5bWJZU3VjWUhpZ25kOFY2Z3o3aEVtdXdzWHlfeFlrOElvaW80RzhOX1RwUUZYOVIycmFqQ25US0R6NTZqT2ZnZmFzWdIBoAFBVV95cUxOUWVXVXpvZ3ZScGNzVDVRNE9YcThIQV84d21mR1Y2R01ueDdadFQzaFhCdDBtYml3aDI3VEZhSnFET25IZGlPTWFIZVJDTUdGMklyakVHemxQcWgyZi1aclF6V0xIUDNWWEdSUGo2b0taMktlT3ZlbURJQUdKcEtqa1BJTldiR2FKdS05WmhWVS1zalA0VFppOVR3TmdIeTBf?oc=5",
+        "source": "Denizcilik Haberleri",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T16:53:03Z",
+        "title": "Hürmüz Boğazı'nda Tankere Mayınlı Saldırı: Makine Dairesi Yandı - Denizcilik Haberleri"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRFRoa0lNVXFzVmphSE93VVdEWXlneU1hM2lwSUVMSGt3dzVaMjVkenFjR3lYTzlIMmR5dW9wU3Jsa1IyTF9obGoyZmg1a3p2cVY4MldBUWtYc1Z0MG1fTUQxQzhsbzBybm0tekFUcmR2ZzNRQkhGZHowSEQxN0trSllZNDJkbG1VakxHeXQ3REljNFRCbDZ6al93b1p5YkE0S3dHanNNOWlEMWpXOEdXM3JCTzB4UdIBuwFBVV95cUxON001TFAzY09SdGVNVmI4TVoybkZma2l6OWxHcDUtR2pJZi1ZcmpwdF9Qem83R1NrT040bHJmdVFpSEtTZXJza1dwcm9GNnRZS1k0YXBWbDlOWE9vQmVJZkRMUjJUVzdYQXU2X2xTYU5rdXJ3b1Q4YUNQOVJUX0FFV2RtalNNUzM2UnNlYXRKaEZUUldlVVU4MHBYQUFGVld5WEp1TmpVRGRVZ2hGWWs4cm95aEhnbmZkcnVZ?oc=5",
+        "source": "OdishaBytes",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T16:41:19Z",
+        "title": "Tanker With 27 Indians Aboard Struck By Limpet Mines In Strait Of Hormuz, First Such Attack - OdishaBytes"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTWJtSGlqUjFUQVpscVg4YWN0VG96WlFCZHZ2TVZCRDdEdVlCT2JnTzJ4enJ3Z2Y3YjY3bjJVLTNjYUVvS1FEQTVEb0Z6NUFCUXhaOGNFdENuazRPOFNqa2hYem9FNDBxbWR4YkNvWmMydkV1VkVmV1dUenBNV3ZlVjJrdFdTelFW?oc=5",
+        "source": "NewsBytes",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T16:36:13Z",
+        "title": "Tanker carrying 27 Indians hit by limpet mines in Hormuz - NewsBytes"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSXc3ZGl1WURGYWJpZVBDVjZ3aDk5RFRsa2RUQ19QUUlmbnp1WWw0VERGeEo2M003RTJCcHZGOXktcUFMNEVOb0lsWDBoNGtkVGpOV1ZDODVUUTVWMi1IZDRndU5KZTJHVlRHeGtvMGFBck9BS09HUGJaYXE2dU4wSTl2UTI2T2hJUmh6cGd0bS1oSUowNHpfMVBqLTVSTjA?oc=5",
+        "source": "Мировое обозрение",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T16:01:58Z",
+        "title": "Пожар на супертанкере в Ормузском проливе: подрыв на мине и эвакуация экипажа - Мировое обозрение"
+      }
+    ],
+    "first_seen": "2026-10-30T21:41:31Z",
+    "last_updated": "2026-10-30T21:42:15Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "status_changed_at": "2026-10-30T21:41:31Z",
+    "merged_into": "INC-20261030-001",
+    "position_approx": true
+  },
+  {
+    "region": "Persian Gulf",
+    "date_utc": "2026-10-30",
+    "summary": "An Arabic-language headline reports that a vessel was struck by an unknown projectile near Iran's Lavan Island and caught fire. No vessel name, flag, position, damage extent or casualty details are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 26.8,
+    "lon": 52.5,
+    "location_text": "near Lavan Island, Iran",
+    "attack_type": "other",
+    "damage": "fire broke out aboard",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261030-019",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxNZG5DMlo3eHZvTVNQWWkwTGplZGRXVUprX1ZGd1lsbnVieFRFYkVDMXlySl9PNEItLUp5eG8wWXVycmxlbU0xMWZ6eEplSGp6TWFNTjctQ3F0SV9LMF9BNEZ5aWdYalRLREdJZ05FTDZEdklCOHdzX1lRZTBlQmZaUHYwVExzdDBqN2pVWHF5OTJZQV9Ydlc0bVV5RnZPaXl1MkJzNzlFTm1CUTRfS2lfVEVXSjJtak5IVEFaOWg4VEFLSy0xVlBiVUw0d1lhRmJvOGJfSXp5SnNDSHE5b0VrQ2t2NDk0cnI2V1c3ektUMVRfX05tUU1ZcThuS3RINTgyNVRwZHBPQmMzZFJNQVRtQ0JMS1NXTmVxdmRYYlhib2NKU1owcW5oMkZfVTg1NzZfdnBCZzJjdWt5T0EzUHV2dUhGR245VXN2UW5BZTdBOXZjQWdjTkE?oc=5",
+        "source": "أخبار الغد",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T20:35:05Z",
+        "title": "استهداف سفينة بمقذوف مجهول قرب جزيرة لاوان الإيرانية واندلاع حريق على متنها - أخبار الغد"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi7gNBVV95cUxNbTJJdVBJVXFsQ3NheU1kS3NvaGJqM2RULWxhbWRJUEhFYk8tc3hhVXM4S2pYVXJOVmwtNlBldTViZldnd1FJdmJ0QUo3N0VYM1RlcGt4T184VmZydWxLcUxSYWxmbi0teDRDUWs3cUFSNFA0YzhOVGhIdmJUci04YTA3R19Fc0dCMWNfbnpacjFvQjMxbnR4VEVMWllQek04c3daX29iRzFKVmVSdjNmRlU5ZzhvYm1Qc05xUGpjelU1dTBOZktCSnNfMUZnTXZyZ0VyZ01BM3BtZXNLMWk2R2s4MGdkRVF2Mmw0NnVETXRJbHN4bWlJcnlxbmFsRDdwU1RnUzdNUVdfZVEzaWs4WXRrVDZCLXhyYW5SRlJjOW9PN1ROdVBkbVg1aXdHdG0wSUg2MmowZUw0dGVPeUtuemwtT0lOUE5IVDRpbUg5WUp2MkowRThyVmk1NU1mVnpINnZ4RXZyZGRYcHpseWxtRUFyUHRpS3hrTTVZcFRDTnlnUGRJa2pZa0VxR2I4YTFvSFVEcUxZQzdnOHN4OVUwTHNqM3VxaXVHWjc5amNZLTZ6R0pBNElOd3hTcTFKOXJQMXZRZGx4bGQzdU9VSmticC1XMXlCNjJzWW83VG9MUGV1SFRiN005ZUZPa2RRQQ?oc=5",
+        "source": "عربي21",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T18:05:00Z",
+        "title": "هجوم يستهدف سفينة قرب جزيرة \"لاوان\" الإيرانية في الخليج العربي - عربي21"
+      }
+    ],
+    "first_seen": "2026-10-30T21:41:31Z",
+    "last_updated": "2026-10-30T21:41:36Z",
+    "verification_issue": 298,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-30",
+    "summary": "A headline reports a sharp escalation of Iranian attacks on tankers in the Strait of Hormuz, with tankers continuing to transit. No specific vessel, date, position, damage or casualty details are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.4,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Iran (Iranian attacks, per headline)",
+    "independent_evidence": false,
+    "id": "INC-20261030-020",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTjZlVnBjQWc3TU0zdGE1QmhZOVdvZzhYSzZyci1hZE1scFJyY3hnaGUzSlpIZG1CcG5JVXhLQWxWaDRVS05UTUNYRkxSVEhGSW11SmhlMHBmM3FyZHhPWkJkeDJqS0ZDS2VsWWpRa3p6RFkyUTl5a0ZJYk90d1FvcVFsRdIBiAFBVV95cUxPV0ZFNlB2SnBqR1NCRWVlRTRmWkR0Z2ZyRmR6cUpPMjRtREFsb2RkRnBaTnRWVkVBRDM5QUJJa0lybXpRUzZQVFBnS3htaXdiTko3SzZJLUlUWDZacEpiSEJpdXlrVENkcjd5YVJZMTMwY05jR3BIbjROS00xMjVHQnh6Vmp4T0xG?oc=5",
+        "source": "CNBC",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T17:21:47Z",
+        "title": "Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz - CNBC"
+      }
+    ],
+    "first_seen": "2026-10-30T21:41:41Z",
+    "last_updated": "2026-10-30T21:42:15Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261030-001",
     "position_approx": true
   },
   {
@@ -1703,10 +2000,280 @@
         "kind": "media",
         "published_at": "2026-10-30T10:23:37Z",
         "title": "Crude Oil Price Forecast: WTI, Brent Rise After Hormuz Tanker Attack - FXEmpire"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRS0tS043c1l4VGU2RElXTlBEQ1BWYUszRTlxZmN6bmtiSUhJN1lsVUJPNW1Xck5qWk9JbWMzeHozaFhoUmd3aFQ4T0dMWFE4Sk11MjVMYkZpM3hYR2ptNmNkUHFrZ2MtYVlhYlBka2Y5TlpmdzZxT1FyMllYMHZJdWZac3czQ0kx?oc=5",
+        "source": "Finimize",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T17:03:16Z",
+        "title": "Oil Prices Jump After Strait Of Hormuz Tanker Attack - Finimize"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbnZCazB5c2xGdjktN2JXcFRvMmdWcVpQbG9VbkZ5VlV5RVZYd3RCakNLZHZBd2FCWVJUU1B6dk1DVlVoOU9sdUlrZ2pDbXhuTklGS2ozdFJteHhoZ2VzSGxSNXRSTzJiYnQ5R3doUnBBWU5VZTU5QjRTejRnZm5rVlpybklwa21CSXlxYktwSXJvZjBYYXpuTlhVcVkzUm8?oc=5",
+        "source": "Мировое обозрение",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T12:32:40Z",
+        "title": "В Ормузском проливе катер с взрывчаткой атаковал нефтяной танкер - Мировое обозрение"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1QNDNJTmtrZ28wR291eUlFbGNUS0V2X3hOVWh0bUdCanl1ZGFsbl83cWhLdzdZSGRIT1hPMzAtNGoza3hidDRkYVBiZTUzQVFwWWMw?oc=5",
+        "source": "شبكة تواصل الإخبارية",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T11:08:51Z",
+        "title": "Oil set for fourth monthly gain as Hormuz tanker attack highlights supply risks - شبكة تواصل الإخبارية"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMkJXYVN6UHA2WUJOR3YzZkVKeHNUQlBNcXVfUjk1YVdOckVFMmJ6UXVncU1FNXBTT2ZMc2ZwV1VtSkplSUE0OC1OazI3R0JGUlZwUjN1OEs4M05pZUVJYnJGdE5TNFNhY0d6VHhQdHN4WWhuQnRxM2U0Ni00LWtPeU5hX3FjUXpIMEYyUnRiMl9lLW5NcUwxUW1R?oc=5",
+        "source": "Global Banking & Finance Review",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T10:25:04Z",
+        "title": "Oil Prices Rise After Hormuz Tanker Attack Highlights Supply Risks - Global Banking & Finance Review"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUV9EM2FZVmIzdTU2YVE1YjZEbmZVZlJhV2hhV0VxbGxORnFCRWw0Y0xuazVkWDJSMHhJTm1qRlN1N0ZKOHV4YVpnUW5pQ19TT2FrM1MyVTBmeWtqVHBXTnMwQk9PRE4xWXl2UWVUZUowX1gtNzZaUzI1VGlOUmJCdkVJNTFoOHdZbHVONnV5dw?oc=5",
+        "source": "Yahoo Finance",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T07:55:00Z",
+        "title": "Oil Prices Rise After Hormuz Tanker Attack, Houthi Claims Stoke Supply Fears - Yahoo Finance"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNM2ZleWlPUnl6bnI3QkJyQVNSWkhKdGZKQ0VOekNKa2hSbVMwWEUzMVhuRGlvMmhCVHNGbFpuUk03VnZ3RG1pX09jNXN6VlpzbW9vV3BXYnZaYTVwMUJTQ2ltX0V4OWs1N0t3elJDU1dYSGlFcXJBZHpRbWZKdHVOeVhQemlieUw1WjlNVEdiZUNIRDhBcVBJQ0Y3Y3FHZTM1R19BUHJ3TmtDdw?oc=5",
+        "source": "AsiaOne.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T06:14:12Z",
+        "title": "Oil set for fourth monthly gain as Hormuz tanker attack highlights supply risks from war, Money News - AsiaOne.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQm5GMDJFVXFuZ25wc1VYN2l4ZjVUbHA3eFNRZFh2T1BIaWhWZFZBa1Vkd0h1VzI4Q3NEaGtsbGhvZm1SNGxkSHduOXVqSTdrTjJ2ejdnZ29ESDdrak9EbFhQeGl1ZU00QWJTLXE0dWlfT0ZZRi1XOW1sQXJuRXcyN1VHMy1uRHNWN3Q3cGxjRGFpRUtCNFEwbTViLVJacU9aNEU1MUhma3lFMWxfVFhpUTN3Q1BWeUtuRlhuQw?oc=5",
+        "source": "Общественная служба новостей",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T06:04:11Z",
+        "title": "UKMTO: Танкер, загоревшийся в Ормузе, подвергся атаке катера со взрывчаткой на борту - Общественная служба новостей"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdXVYRFh3UmQ0UldaOGYtRGdaeXNxeWhPY0c0Zk1mYXFoajJMRFJrejBNeEcwTjNlV3NqSVBtMTRfTHVhV1Rzdkc3SlBIbzdmTGV4a2FqRjAydTRKd0N5d09fT1RULVNMUmM4N1JwbnYxRkpud2ZBOG1jbWJQa2p1YnE5WFMxd0tTb2h1NGNweXNTaWhTNUdQQUZZeVJMMzQxQy1aYnFzSlh6VS1uR2tSU3VkQ2hRdWllRklhdG1CWjZFU3PSAcsBQVVfeXFMTkFlNnhJWGdmbVV5ZDg2TkdZTVFRNHlucy05MUF4YjZ5ZjVoR0pmeVU4eUN4a3dwcWJ3ZjhBUVJfcmJNdzV2b0dyZHBTLXB0UHdEZ3dkYVBSTXE1OUdEWFRmZmhzV0xMekhCaFhFSUswNVZZLTMxaXUyU291SGVrdWcycUZJNGIwb0Y0WnBMVEQ5bzd0d1pRdWhVRjk1THBWZjZlTVlZX0RrOTRyRmhRTGZ2aVhxT0hndHhQY1F4UjlxVVk4bVptZ0VqNHc?oc=5",
+        "source": "The Express Tribune",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T05:56:45Z",
+        "title": "Oil set for fourth monthly gain as Hormuz tanker attack highlights supply risks from war - The Express Tribune"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNc2ZpT2tjMmZudk10V1BqeDlHbmNoWEtlUW00VFZJY0YtUXkzNG9senZJMlhKVlBRZHB0OWlSS2FxVXNBUTRibTRDb0lYUXNjRVdIeXExclhmVklmNlJ3Y2t1WHZCMXNOX2FvaTRJei0yVGFuRnBVb3JaSlA4MERXa0ZDVENVenJWUmNpV2lWanVKWXJXTVpKVDNPWDV4cDctMFJXT1NNeUZEZFhEOEFCX2dFREVjNG92MERpTW5uWHpUWDBBU0otTUdrRGI5QQ?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T05:29:12Z",
+        "title": "Iran deploys new small-boat tactics in attack on tanker in the Strait of Hormuz - TradeWinds News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVVF0RTRhZ3poU0FndHc4WElEUTcySlVhdXpQQnpzNTM5bGZtTVRYM1MyQm5tU1hVb1JHZXQ1ZTFxWmEwSFZjNkZQdUZNVkg3WTdHbGotWXlPUUpadm44bEhHdlgzZXVEeFZYR2E2cmlTVkNzS3d3aldWcnJUeXU1UjZuVlZnMmd4MDJtVzBwRlBPOGtIUW1nNUN0a01Ca1FYU1FtUzY2bFZxQ3ZPTTd3OUt4X1hJdk0?oc=5",
+        "source": "Newswav",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T05:13:28Z",
+        "title": "Oil set for fourth monthly gain as Hormuz tanker attack highlights supply risks from war - Newswav"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZDE0eTRQdnBhQWN6ZEJfTUJ4NG9xcXFSeEFrX3VIcTBNd3BrcFpNdDBVMTBxUHpHWkZGRFFuNndsanZRNndKa1V6SEQ5eFpaYmVGbUxWdnloRF8tajJmY3ZjNlM5RldGcEJCdDYtenRjUzZvOFJHb1p0SGdkazVsV01XTm1lTloyREVvdEhVNG1KcHU5NTJjOWlsVHBKNll1UGZiVklKSDR0d0dQcVg4S1FxejEtQm5URUNfYkNPVnhBcDhzUDRQTEpLWUw0MVA4ekRVdGNHemtiNExMdG1v0gHfAUFVX3lxTFBkMTR5NFB2cGFBY3pkQl9NQng0b3FxcVJ4QWtfdUhxME13cGtwWk10MFUxMHFQekdaRkZEUW42d2xqdlE2d0prVXpIRDl4WlpiZUZtTFZ2eWhEXy1qMmZjdmM2UzlGV0ZwQkJ0Ni16dGNTNm84UkdvWnRIZ2RrNWxXTVdObWVOWjJERW90SFU0bUpwdTk1MmM5aWxUcEo2WXVQZmJWSUpINHR3R1BxWDhLUXF6MS1CblRFQ19iQ09WeEFwOHNQNFBMSktZTDQxUDh6RFV0Y0d6a2I0TEx0bW8?oc=5",
+        "source": "Republic World",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T05:06:29Z",
+        "title": "Tanker Comes Under Explosive Attack Near Strait Of Hormuz, Engine Room Catches Fire - Republic World"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMXhIQW9waEJhRVVzUlIyOUFLbjUwTXJ4QmNvNkU2ZFBJUUtLdzNFN2xzRU5RTVMtLTlIRElDTjFVSWthcDZ2dG1Rd2RCaXBDX2JoSm45ajl2dkZOYWRqakllTXRMQ3hKLTJka2U3Z0U1YjBYOXE2cDVYUTkxcDZseXZzUG40dWJZYUQ4WHlTRFFMVDF6T1lka1J6V1prcmNJd1J4SGNiVGx4Zw?oc=5",
+        "source": "Seatrade Maritime News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T04:06:09Z",
+        "title": "Tanker catches fire in Hormuz after explosives attached to hull - Seatrade Maritime News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0zdlZGdnpfSXduQmFfemk2MGFDYTRqUjlmNlZNMmg2OHFoOUNEcmd0S0djT2RZNW5wSnFDTUNHV1JMU0d5N2t6bGlWN1RwSzZq?oc=5",
+        "source": "Business Recorder",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T02:47:04Z",
+        "title": "Oil set for fourth monthly gain as Hormuz tanker attack highlights supply risks from war - Business Recorder"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPLVd2SDlwRldfcEJqN0RhbWhMNVVvTElLbXQ2NmhfeU1HMVZob2hqM3h6aHNIQjE1SmE4eTZBc21vY0h2MmdCcDhodTJMdmZBNldrdmpsR1pFeFptS19mMHMzTmZhOGRxc3NCYWxCVVJIYTZEZ2QyRFF5M0E1VWxCdzUyZkFRRnlmQlhGUmpvNE90OGRQOGlVc0dwV3bSAaIBQVVfeXFMUFlzUTNfY0toTFpqNWd4b2JLT1V6ZVFMaDJLSmpqbFVpRW5RWDJ5Y21wTThpMEJzbHlEU09sdmVuWmdkZzlERWVlNFVKSEtRTEJsYUVUNGdIWUN6V0dZSTNPWGI0eVMxN0lIOGxSZTFnVHFIU1o4N1BSUXYtQkhwV3REajJEQ1EzX0hMYlRvZUZtSktOSlBJVmtPY0Q0VDB6aERn?oc=5",
+        "source": "CNBC",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T02:36:00Z",
+        "title": "Oil set for fourth monthly gain as Hormuz tanker attack highlights supply risks from war - CNBC"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB0MVdkODhOU0d0UG1PUnJjcUFPalhTbzZjQV9QbnpOUzVRTHY4TDF4WGthb2VrcjlXZzNfbC1MUzNYWnpjMFY1anNVRXFyc3Qt?oc=5",
+        "source": "The Edge Malaysia",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T22:47:37Z",
+        "title": "Oil set for fourth monthly gain as Hormuz tanker attack highlights supply risks from war - The Edge Malaysia"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTjZlVnBjQWc3TU0zdGE1QmhZOVdvZzhYSzZyci1hZE1scFJyY3hnaGUzSlpIZG1CcG5JVXhLQWxWaDRVS05UTUNYRkxSVEhGSW11SmhlMHBmM3FyZHhPWkJkeDJqS0ZDS2VsWWpRa3p6RFkyUTl5a0ZJYk90d1FvcVFsRdIBiAFBVV95cUxPV0ZFNlB2SnBqR1NCRWVlRTRmWkR0Z2ZyRmR6cUpPMjRtREFsb2RkRnBaTnRWVkVBRDM5QUJJa0lybXpRUzZQVFBnS3htaXdiTko3SzZJLUlUWDZacEpiSEJpdXlrVENkcjd5YVJZMTMwY05jR3BIbjROS00xMjVHQnh6Vmp4T0xG?oc=5",
+        "source": "CNBC",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T17:21:47Z",
+        "title": "Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz - CNBC"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPeUVBdDlmd3d3TVgtdjZRdVRiOGsxVm05TlpSUnJJUmNUdmFUWUNSRll6QV82Y2Vtd3NaRm5ZSThhTjdCMU1iVHhYVmJWM0NwMVM4LXBLQkE3UzZwVGdQcHRJRVUxSk9GZlN4cV9jaWJSSWNXZDNOUjMxYWVOUkhEMlFOZUlhZExyaGk1aGJkeEc1ZS1YaVlFLUd2U3pxZGhmdnd0N0IxMFlXLTBWNTZHRWUxNWR5Uk5sMVc1eVdTSlRrY2hxb21qUkFaZWZkU2xCckZVc0lUX0MxQlUtRVd3Z2g2SC16STFZU0NoaTNzenh5UdIB7AFBVV95cUxQY1dFdDZHbVhqNmc2Z2p3M3JwTkhXT0dlaDRQYmxJSjdKZFRETzdWWFdJajFRb0UxWEltU1UzRmpYVHdjTHBTNE1iMlVjQzktalZPdXdKZk9pSE1GTEhBWGJVTklTVEtTd05QUktUcDJkbUJiLUpOSDR0U1J1SEw0VlFJazVXQ3dBX25lTFMwWkM3Mm9MbWNjYkc5TEd5YmdONVU2d0J3NEEtSmtwOFA4TUVIV3lWSUhmbzgwQmtLSGpQUFIzd2w4aldMRXlibEtWUHB3bko2ckF6bk00RnVaWEpkcE5HSjg5Q0xVcg?oc=5",
+        "source": "ET Infra",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T04:13:05Z",
+        "title": "UN agency says it pauses Hormuz ship evacuation initiative after vessel attacked - ET Infra"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVDNKVjNsaVpMV25rakxiczJpQ0o0dEF0b1RSeXZwOXZUS01JS052UW9pSjdmLUVvTnFQYlhTVjZXMldKbnl0OG1fYnB0blJ6X1pSblJGb2VuZk5UX0ZEQ0V2ejl4dE91aVgxaTlWUFdzek45TWpzUUJGTDg0aWNGT0RrM3RVd3JHM0dnSi1hSTFNVWZobGhOZkJFSU45T1N2MFZXQ25NM09ZZm1BYy1XYV9oX0ZDc05pbWJHWnowZ1R1X20xZnJNVWMwOTJrTk0tQlZEd2xn0gHbAUFVX3lxTFBkOUpSMXFISDZLbk1nQWxaMlRydDBSVXBrS1llQmJFQ29kNGkwVFozVnZjV1FWOEJkb0Q2X2J0VEZFdU1CVVRqbnlPQV9zeGY4QWdvQXZoU19tcjZVSVBSekluclN4YmpVdU9JdlJjQWNrbjRkRlE2ejhBWVU4cS0wYWU1cE9QaGctR09xY3d2dXRreGVkTE53NzdlTk5hUWticEg0aDhFV0hJQ3pBQjlvZHZZNGZ1OUlaRmQxb0RiRXVtd3ktR2xVcnV1Q2tZVXlzZmdkeDJyOGtEMA?oc=5",
+        "source": "Moneycontrol.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T21:11:41Z",
+        "title": "27 Indians aboard tanker hit in first known limpet-mine attack in Strait of Hormuz - Moneycontrol.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNzZwVDE4OXRNWnRiN1UxWGF6NjRhdlp3Q05mT2h0RTFObURCOTB0ZnhhcFRCOEdiWGp2ZFoxVmFSdHVEX0p2STVhSXp1ampuVVVwRFByVnhTRlFHZlppUU9jeE01TkpWMXJCbG1RMXVLMHh1bzZQeldOZzFvaVcxTnBsZlA4Vjg0cjRPSmF4eVJYVkJlaFh5RFBfWTNIVTlIRk9QZmpKdmJ0ZVRteFpF?oc=5",
+        "source": "JournalArta",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T20:57:59Z",
+        "title": "Tanker Struck by Limpet Mines Near Oman in Strait of Hormuz, Sources Say - JournalArta"
+      },
+      {
+        "url": "https://maritime-executive.com/article/oman-evacuates-tanker-crew-as-iran-claims-spate-of-new-attacks",
+        "source": "The Maritime Executive",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-30T20:16:28Z",
+        "title": "Oman Evacuates Tanker Crew as Iran Claims Spate of New Attacks"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZXB5SzVpRk9xY1Bxb1dmb3gwLVVwSFpQbnN2U1pwaDhhZUNlN0pScHNISmRIUTlCLU5wQ0VzV2N5aksyd3NxSWhHNjYxMFc3Wm5DcVgxcVdyUjhYaG5JSzl4MTVtOVo0WFZMaXZHV0Z6dEVKNjZzczJlYl9XVlNJd0dvZEFaWkpLbVRZTzFQZ3ZrbDhEcGlOcnVMX0dyQjhta1djTkFTejFCcXFnZTkzYnlXWEtsM0RrWEhXQmxLX0hzMTAwWGpZelBuYjlDTUw0TFJlSEdOUGVCX3RPZlEzQ09EbEY?oc=5",
+        "source": "Gulf News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T18:37:19Z",
+        "title": "Why Iran pushes 'sea mines' narrative: Limpet mines on a Hormuz tanker are nothing new from Iran - Gulf News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNmNsYTlvcTk1cVNSM0NaM0FQaGwtSHdRNHFoOHU3cDl4RFBxU3Z5VnR2Nk5JckN1eUJ4ekgzenQ5cGgzbjNidmVtMmd2a1NOOGRaaEtvMHZ5cDBDOWc2S2Fwc1k1U05WOG5ROVJZLVBfeThyc09FQUdjT1pxVk90MDEzRVA5MUpGTU9wUFZJSzdaRzhHR0d0OU14eTJaRUY4OGVlNzZLejdFN0dySDRPZEF3cGNXMklL?oc=5",
+        "source": "TWZ",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T18:33:46Z",
+        "title": "Iran Used Limpet Mine Placed On Ship’s Hull In Latest Strait Of Hormuz Attack: Report - TWZ"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOMlFfTnA1MnZ4VWltcXVISzFfSTNHOTF6VWF0VjRjNFlubVhvSmJQSFdaWnhPeERPVFUwQ1VqNmYtN3BMYjJpaDlTQWZUd3BCOFRETmJwMHRWNEhPRTVlVjRXa3BtNnprZEFxNUg0SlpMUnFGZTFURTdsdzRGakpLQ3FWWEtZbVBmS2lqZzBpRkprMDl0STQtNGRYdHpFSF81ampycUNCMG5FZEpBUHBrUVREZmFxY0lUT21CNlJkcmFyVHY5VVN6MFJsNUZUbHdjVXBjYVJsdlpSb0tRd1pUazhUdzdjYWF5MGY4N2VHcF84UGZW0gH6AUFVX3lxTFBHc1NnaFNmV0twNlljWm40bkRMNE5uNXBiVzVodzF6UTZuR2plekpwRG95dGVzaXVOeHkwSDByMEhjSnhFejk4X0lWOUhUUTNxUDYwNFIzN2NXWDd2U0dINmZXNjVqcTRobHVYck5abF8ySjNacDFyUllDd1IxVjNMODVSNG54aElkR3hjMm0xZGdEN1lYYUpITXVXeE4yVG1rRGR5QlhBaExZenAxOGZIcXVJZE5GQWkwa2lXUThBWGh0UzFjMW5UcGozaXhEcWV3ZTZvS1hEejYzcXZFMUM5WlI4cFhKb0pOVU9yYXVjUEQ5Y3N6WUNfWGc?oc=5",
+        "source": "Times Now",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T17:57:19Z",
+        "title": "New Threat in Hormuz: First-Ever Limpet Mine Strike Hits Tanker With 27 Indians - Times Now"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYWpTXzBOdUVfcW14OFlNMzV1VXhfVDFhMUR3U0h3SFNfNVpFV01vY0lfY0ozUzYxTmRxUnk3WFZnMGxaXzFOS2JPb0Fta3poZkg1SlNEOTU5NnZQdGQ2M045TWpTeFI5clhhdWoxbWlheHVwQmE2MnB2R1pVWnlfY2tRM1NnZjZSbE1hdkdwblU5ZUp0bV9pcFMyRUdfSUw0T0tlSW1CUWdMcG9DQTJXZmVNVnRhVzNo0gHGAUFVX3lxTE9Tdk9SYVlBdk50XzNoaVNsOE9Qb3VSLUE0Vkp3aVNKd1BhZWM3dS00R1lLZ3hRTjlzdTM2dmdGWGZPTW1wRDJ0eUViZGVhWmtwOFh5dll0bmYySDRoUVZkVTQ2UzNRSkdVNTV6Zy1tQ3lrcVlYbDI0UG9ZWFVyTzliUHcxdGZ2aWZVeVZtajc3T2swazVpck9mUi1fWGJScjRBa2I5anJ2YzVyREt4RFRKaDBqaFNQMzBoa3l5NklYLWhOZlNLQQ?oc=5",
+        "source": "The New Indian Express",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T17:27:17Z",
+        "title": "Tanker carrying 27 Indians hit by limpet mines in Strait of Hormuz - The New Indian Express"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOTnc2N2FVSEVhLWdWb05Ld3VZcW1ZYmRjdjNteTJHN19YU0RFY2Z0ZUJhYnNkUkpmelY5WGhlZVBxaFRWUk5KeFFsWXdNWGxVU3pMSFRkaE9UcTNyVWJhR21DaUdpU19tMUdabUVYTDVDUFpIQ0JTZTJzaHNEYTNwMENWTElQRzFnNHBOX3pqYjRxa05XamhBTHh0RzR6TVo3QUNYSnpBMlo0Z3dCd000WjhmT3JJa0QzR1k3aGlOQlhBMWUxdjk2em1VWFU3UjVSZHlJNEpURVpxZC1oSHZhM29QZFI2UzRhX1IxeUIxR2dGT3ljTFNTbzZVeVllSnZmbFVB0gGIAkFVX3lxTE9ZZXZhXzRMaTdBU2VjZ19OT0dTZWQ4RzVRcTg5Z1J5NDdNdE5jQkw5VTdPQ2M1akJsSnVDV2JIeVllTlphOTR4UC1hOGlIU3RPeVkzV2ptR2QyQk5tXzBlVnJnckRTaENRT0tCMmJGRDlfQ1ZyUXhfdzdFYVRYWmhHa2pHUWxzOXZWbHo1WnFFU3k2cEZ5Z1NWR0FPTFRMYTZpcWFXakl5WjQzMkw0NVNQR3ZlRUNMbEtMX0lyRjBLR0EtbTJzLWIxQkY5VkUxWlg1cmhOREJ4WVRpZXBtMm00Q1VRSWtPWlp6ZW0wMFMzZ3ZuZDZZbzhINTVFUkJSVjN0c1IyNThrRQ?oc=5",
+        "source": "The Times of India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T17:09:00Z",
+        "title": "Tanker with 27 Indian seafarers targeted in first-ever limpet mine attack in Strait of Hormuz - The Times of India"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYlczd0xISDI1Q2E4eXNKRUlhMUJCS01pUG9vT3k4WVFPaXlqYmRGR0hyeXR1MnByVGR0ZnRpeUprdW42T1NCZ0VyWVZocE9QM3FLZHh1Sm10VlZBdVVIaW15dGNlVUN3TTNCVW0xUkUxZ2dHRzZZN0xTLXB0YkxRd29taFljeHVHLU5ERC01U3U2UGxrNFHSAZsBQVVfeXFMT1MwTHBHSi1zbWFEU2hqb3ZlVXRwZFBEZV9CanEyTWlRVlp3NFN3Y1VFLXJ6V1JxQUhkYTA0alF6d01hbWE2cFZBVVg2dW9xeWdKaGFjR1d0Rm5ZX2RXTFBlVU1sRnlqZmZBZzJsZDNJTWFpWVdXYXVTWm9GRjUybDRjOC1UdEFKcUtRbnNDVk9lb2JObHNjOEJOTTQ?oc=5",
+        "source": "The Week",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T17:06:30Z",
+        "title": "What is a limpet mine? Iran switches to low-cost devices to target tanker in Hormuz; 27 Indians aboard safe - The Week"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNX2ZzQ3dpTndmR3MwVUdNQ3pra01KczhrVEVJeFBZSXFPSW1JZ0Rfb1pKRE4zWXpjd2tTNVQ3QUx6YUFvVUZHbm4yOWNCdWprdXVFQ1B2Tnc5bWJZU3VjWUhpZ25kOFY2Z3o3aEVtdXdzWHlfeFlrOElvaW80RzhOX1RwUUZYOVIycmFqQ25US0R6NTZqT2ZnZmFzWdIBoAFBVV95cUxOUWVXVXpvZ3ZScGNzVDVRNE9YcThIQV84d21mR1Y2R01ueDdadFQzaFhCdDBtYml3aDI3VEZhSnFET25IZGlPTWFIZVJDTUdGMklyakVHemxQcWgyZi1aclF6V0xIUDNWWEdSUGo2b0taMktlT3ZlbURJQUdKcEtqa1BJTldiR2FKdS05WmhWVS1zalA0VFppOVR3TmdIeTBf?oc=5",
+        "source": "Denizcilik Haberleri",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T16:53:03Z",
+        "title": "Hürmüz Boğazı'nda Tankere Mayınlı Saldırı: Makine Dairesi Yandı - Denizcilik Haberleri"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRFRoa0lNVXFzVmphSE93VVdEWXlneU1hM2lwSUVMSGt3dzVaMjVkenFjR3lYTzlIMmR5dW9wU3Jsa1IyTF9obGoyZmg1a3p2cVY4MldBUWtYc1Z0MG1fTUQxQzhsbzBybm0tekFUcmR2ZzNRQkhGZHowSEQxN0trSllZNDJkbG1VakxHeXQ3REljNFRCbDZ6al93b1p5YkE0S3dHanNNOWlEMWpXOEdXM3JCTzB4UdIBuwFBVV95cUxON001TFAzY09SdGVNVmI4TVoybkZma2l6OWxHcDUtR2pJZi1ZcmpwdF9Qem83R1NrT040bHJmdVFpSEtTZXJza1dwcm9GNnRZS1k0YXBWbDlOWE9vQmVJZkRMUjJUVzdYQXU2X2xTYU5rdXJ3b1Q4YUNQOVJUX0FFV2RtalNNUzM2UnNlYXRKaEZUUldlVVU4MHBYQUFGVld5WEp1TmpVRGRVZ2hGWWs4cm95aEhnbmZkcnVZ?oc=5",
+        "source": "OdishaBytes",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T16:41:19Z",
+        "title": "Tanker With 27 Indians Aboard Struck By Limpet Mines In Strait Of Hormuz, First Such Attack - OdishaBytes"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTWJtSGlqUjFUQVpscVg4YWN0VG96WlFCZHZ2TVZCRDdEdVlCT2JnTzJ4enJ3Z2Y3YjY3bjJVLTNjYUVvS1FEQTVEb0Z6NUFCUXhaOGNFdENuazRPOFNqa2hYem9FNDBxbWR4YkNvWmMydkV1VkVmV1dUenBNV3ZlVjJrdFdTelFW?oc=5",
+        "source": "NewsBytes",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T16:36:13Z",
+        "title": "Tanker carrying 27 Indians hit by limpet mines in Hormuz - NewsBytes"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSXc3ZGl1WURGYWJpZVBDVjZ3aDk5RFRsa2RUQ19QUUlmbnp1WWw0VERGeEo2M003RTJCcHZGOXktcUFMNEVOb0lsWDBoNGtkVGpOV1ZDODVUUTVWMi1IZDRndU5KZTJHVlRHeGtvMGFBck9BS09HUGJaYXE2dU4wSTl2UTI2T2hJUmh6cGd0bS1oSUowNHpfMVBqLTVSTjA?oc=5",
+        "source": "Мировое обозрение",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T16:01:58Z",
+        "title": "Пожар на супертанкере в Ормузском проливе: подрыв на мине и эвакуация экипажа - Мировое обозрение"
       }
     ],
     "first_seen": "2026-10-30T04:37:48Z",
-    "last_updated": "2026-10-30T16:49:23Z",
+    "last_updated": "2026-10-30T21:42:15Z",
     "verification_issue": 292,
     "verdict": {
       "status": "confirmed",
@@ -1869,10 +2436,19 @@
         "kind": "osint",
         "published_at": "2026-10-30T07:47:09+00:00",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMXNYQWZEeUFNXzFOVTlycm5KZlJQM0x1bUVtVDYzODFFQmRUVklMelFMS3ozNV95T3A0RjUyYTVVa0laRWZVdkYxc0J4alZJQ0VIaW9weHFLWDlweDVGdG9lU2pfVHJtcFhSX0kwQ1dOZ3MxaDBIRnVVVlZldjFWcjFUemk2Nk1LeU5GMG9lZEhEOVhKcmY2U1Z2NlJ5eWtBd2VrLUpSNXFDVkk?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T15:55:03Z",
+        "title": "Минобороны России отчиталось об ударе по сухогрузу в порту Одессы - prospect.com.ru"
       }
     ],
     "first_seen": "2026-10-29T06:05:20Z",
-    "last_updated": "2026-10-30T10:25:26Z",
+    "last_updated": "2026-10-30T21:42:11Z",
     "verification_issue": 277,
     "verdict": null,
     "published_in": [
@@ -2373,10 +2949,55 @@
         "kind": "media",
         "published_at": "2026-10-30T07:18:00Z",
         "title": "Tankers strike mines in Strait of Hormuz, Iran says, as Hegseth fires top general - CBS News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVjRMRU44XzE1VGMzc0g3clczbW80TjdvVFdSUVlCVHZyU3JsYVdOekZkb1NJNjhPQ243a2I0Rk9DT0xiVHRjQjJkNVlDMHg5VzI3SThvbURQQTBFMTJGeGNJUmtEMHRkc3ZaeGJFQlpodWszWXZycWo2Zk1IdmJoZkNKS0pwbjhaYzU3dlQxM1JiYXJDcnRmYjZ4VUdfRFhWX1FsNVJR?oc=5",
+        "source": "Tehran Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T19:50:43Z",
+        "title": "Iran reports destruction of US drone and three tanker incidents in Strait of Hormuz - Tehran Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSGxoQkFHSXBBcG1pa3BhSF9FaDU2Y1pzYWszemI2NkRzRlREUnhFSGVTM1JHeUdOcHNTLTJyRGdDbGxCOERSR1NFWWFZYkJxclNRZXlyQXpvZGhBckZaRFhYVEx0LW55VnRGUnhpVW1JYWRzb0cxZU5fX3RDTnp1b2tWaTBKTThwNWwteE5Qb1BaeTIzN1pHV2w1NHpOVGdUZm05Nm9YQ0JWN3N1?oc=5",
+        "source": "The Independent",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T19:28:00Z",
+        "title": "Iran claims three tankers catch fire and US drone was downed in Strait of Hormuz - The Independent"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNU1JDR1N6cUFoVC1hX3Z6YUlCdkRHRm1hS2dZd1FlWTFaWTljZnVta1A3dHdRZFJQbExwcHlhS1BkaGlvQ1FYeXZkUzRUcWpRaE9wN0FaWFhoNHdYWC0zemp5ZVREdG9xUnlYUEhPYnFMemdBemZvdHE3MEVhNTVEZmpTdzVLcjhwNE14clhyTVFYTzkwQlJuSXQ5ZXZkbmdROEsxdFJTMDAzMlB2bXBhNHJCV25Hb1VyU3oxajFrU3JjSWNj?oc=5",
+        "source": "Euronews.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T14:43:36Z",
+        "title": "Iran’s Revolutionary Guard reports three tankers on fire in Strait of Hormuz as talks continue - Euronews.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ZMUhKdzZpUlk1T1d3d0tKckIxb055TmdyTFk3ckZtdFVZOGVYYWFGMXZ4U1VaWXNuUm0yVEEzX1ZXYzBNMFZGUWFaTE5PekJjVEpqRnEyaEx5YlJhY2xGLWVVOGlvVHZYV01aUnQ3SWI2TEJGbURBSG1hVdIBgAFBVV95cUxNTzJSUUREZC0xSTk0R1ltcGR2a2VfRzlaZGhYaWxjZG5qMnppMlJGYlZ0MXhDdmlSS3dmOGRkYkt0WktJQnNjVmJuTGtHRjE0RFB0U0dMN1ZES2NFMVU4dW9xanl3aFdMZUlERzU5RDQ0aGh3ZEtOTzl0Y0FMb3ZlNQ?oc=5",
+        "source": "CNBC",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T06:33:52Z",
+        "title": "Iran claims four tankers struck mines in Hormuz as strike fears grow after U.S. midterms - CNBC"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSnFFTHZONkF5ajg3cjRES1c1aGl2b1ZUZkkzT0cyX29oaHdGR3hTYjZEMmRfbFV3dlVzUXpaU3BJV0xyQmsyT2xLZXlITDNIOElmZzZVRVRUeGRzX1JMc0pYa1JEQjAwMWZiUkxrTEptWUJXM2VLNDhESW9VT0tHUV83cU9uRXo2a3lkdm9Rcm5WRDVNYkNWTDVPSDJMVy1EUGdGc0pVMkNVTFVTWXpZYkVOSXllMlRZbUZQQkhlOWRHUEnSAcMBQVVfeXFMT0pxRUx2TjZBeWo4N3I0REtXNWhpdm9WVGZJM09HMl9vaGh3Rkd4U2I2RDJkX2xVd3ZVc1F6WlNwSVdMckJrMk9sS2V5SEwzSDhJZmc2VUVUVHhkc19STHNKWGtSREIwMDFmYlJMa0xKbVlCVzNlSzQ4RElvVU9LR1FfN3FPbkV6Nmt5ZHZvUXJuVkQ1TWJDVkw1T0gyTFctRFBnRnNKVTJDVUxVU1l6WWJFTkl5ZTJUWW1GUEJIZTlkR1BJ?oc=5",
+        "source": "ABP Live English",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T12:51:45Z",
+        "title": "Ship Fire Reported In Strait Of Hormuz Amid Fears Of Fresh US-Iran Escalation - ABP Live English"
       }
     ],
     "first_seen": "2026-10-29T13:38:28Z",
-    "last_updated": "2026-10-30T16:49:23Z",
+    "last_updated": "2026-10-30T21:42:14Z",
     "verification_issue": 285,
     "verdict": {
       "status": "claimed",
@@ -3049,6 +3670,47 @@
     "published_in": [],
     "status": "merged",
     "merged_into": "INC-20261028-012",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-29",
+    "summary": "A UN agency said it paused a Hormuz ship evacuation initiative after a vessel was attacked, according to a headline. No vessel name, flag, position, weapon type or casualty details are given.",
+    "official_source_cited": "UN agency",
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261029-020",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPeUVBdDlmd3d3TVgtdjZRdVRiOGsxVm05TlpSUnJJUmNUdmFUWUNSRll6QV82Y2Vtd3NaRm5ZSThhTjdCMU1iVHhYVmJWM0NwMVM4LXBLQkE3UzZwVGdQcHRJRVUxSk9GZlN4cV9jaWJSSWNXZDNOUjMxYWVOUkhEMlFOZUlhZExyaGk1aGJkeEc1ZS1YaVlFLUd2U3pxZGhmdnd0N0IxMFlXLTBWNTZHRWUxNWR5Uk5sMVc1eVdTSlRrY2hxb21qUkFaZWZkU2xCckZVc0lUX0MxQlUtRVd3Z2g2SC16STFZU0NoaTNzenh5UdIB7AFBVV95cUxQY1dFdDZHbVhqNmc2Z2p3M3JwTkhXT0dlaDRQYmxJSjdKZFRETzdWWFdJajFRb0UxWEltU1UzRmpYVHdjTHBTNE1iMlVjQzktalZPdXdKZk9pSE1GTEhBWGJVTklTVEtTd05QUktUcDJkbUJiLUpOSDR0U1J1SEw0VlFJazVXQ3dBX25lTFMwWkM3Mm9MbWNjYkc5TEd5YmdONVU2d0J3NEEtSmtwOFA4TUVIV3lWSUhmbzgwQmtLSGpQUFIzd2w4aldMRXlibEtWUHB3bko2ckF6bk00RnVaWEpkcE5HSjg5Q0xVcg?oc=5",
+        "source": "ET Infra",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T04:13:05Z",
+        "title": "UN agency says it pauses Hormuz ship evacuation initiative after vessel attacked - ET Infra"
+      }
+    ],
+    "first_seen": "2026-10-30T21:42:03Z",
+    "last_updated": "2026-10-30T21:42:15Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261030-001",
     "position_approx": true
   },
   {
@@ -5420,10 +6082,82 @@
         "kind": "media",
         "published_at": "2026-10-30T14:03:20Z",
         "title": "Russian Strike Kills 14 at Crowded Train Station in Ukraine as Another Ship Is Sunk in Black Sea - Democracy Now!"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9JVDFKUFVJc1ZwZElXcDMzb3I3eHZBSFZ3S1RWZ015M3duN2lySnFBQk5rZHAwTXJRRDJnQWVxU0JGRzFZUDJWMGp5eDdCU3FsSkhGR9IBWEFVX3lxTE9HZ3Y4QngtcF8tSnJva0RkcFJld09HcG9NSGlVcXY4VndNdmtzaGRFb2V6T0M0TVlHbm5ybHpENEQtSUtVZjdXaUpVcmVFT3hyVnlBdUJ0bms?oc=5",
+        "source": "جريدة الوطن السعودية",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T11:13:00Z",
+        "title": "3 زوارق مسيرة تغرق سفينة بالبحر الأسود - جريدة الوطن السعودية"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNS2FBVzBlME1nTlVQd2dGWl9Sa19vWDMyMndCSXJ3ZS0ybk5XbUtvYWk5Nko4c1gtcU93YndOa19wMEVmd2x6WHR5U0QtYUVaMTNiamN1a19DZkVOQ3p1Sm5CNGF6T3NXcjhIY2hEME42Vnh3Z0pXcF9pSnhnREVaM09NLXBDRVNXaHNNZHByakI4T0FFUlRkS2JUMFZadGVocWVkT2sxaGktRzd4RXhXbElfRkxiemdXTk4yWmppZUhaQ0ZzWDNGVXplYllrRF90a0VnUVA1NlhKSVV6eDdRTkU0YjZ1SE5wWWNUeU9WbVQyX29QaTBXMUZiLWVKd0pMMWQ0NFgyeHM0ZDhTQTJzeDd2NURzQnJYR3JJQ1V0MWJ3QmNPeVhqMHVsMA?oc=5",
+        "source": "Unimedia",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T18:20:00Z",
+        "title": "(video) Nava lovită de 3 drone în timp ce se îndrepta spre Constanța s-a scufundat în Marea Neagră: Transporta baterii litiu-ion, lichide corozive și acizi - Unimedia"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPNWJfR041Tlc1WGpSOWZXOVFhYWpQYVR0S3piaERIenV2Nlg4OWtkNzdpbzEwU2swWmFfcHVCVzdnTFhhbzJDeUpMVWoyRmtYZlJHUDU1QjNpR2I5QmhBaXQtWUFzU295bWl0aTF1M3dGa2o1Q3g5ZS0temlPQXdla0xZUFhMb2w2OUFfRDdSSUsyejdoY0lMOE9OblFEVTJ0aHppVk9PaFRrSk8yNVhRYVZRd0RHNHBTTmpHUW1TbVl4bENYcXVJeWluSDRSSllMMmR5aXNLaXNjUUN1ZGIzNUhoSW14bGJDYkgwMUt2WTVTZXl0eVFLZ0Y3a0ZfUQ?oc=5",
+        "source": "BZI.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T15:26:46Z",
+        "title": "Navă portcontainer lovită de trei drone în Marea Neagră, în apropiere de Bulgaria. Ce au decis miniștrii Apărării din România, Bulgaria și Turcia - BZI.ro"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMlI0Z2Z0ZW5vbjU3N0hNeDVYTS03bEpGQ3B0WUluTkhScWhPN1Y5d0c1c3RoV3RaRUFsRDhQUFA5SXJTMnpmaFBxaFlDQU1QZmEzb1VsQmFnbjhLbEwwR01manI3b3ljSE5OMi1BX1RhNmtFS0taNXIzTERNWm9Nb2FTNFg4YjNNTjJpUzVtUDNsTFgyZkJ6cmRPSElFOF8wQUZIRU50UjNKRExLTDNweWZ4RmFiRm5tUkVlN3cwNHFKbXZ4VnhEUGlUYw?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T15:14:39Z",
+        "title": "Zim-chartered container ship sinks in Black Sea after strike blamed on Russia - TradeWinds News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOaDZOeFhudFJNNi1hLVoxdFpIQjZaZldPNlBTQllBVlF0bWpQVHM1SXFoYTZseTVGOWQ3WEpYTW9hSFBwb2lBUzdLQ01mSVd5VEJLQ1VwSkN4bGNZVF9zcFNZLWc1alE5SEdWNzZma2JJZ1F1UE56TVk2WC12UGRpUGlqazJ1TDhaYVdWZklVZWpBSEdvdmlpWGxkSnJQVFE2T25UZmpBMERiWm1IYWpXZ013R3RHNEhaVzNPRXp2SmRDMGdHaFh5RmtIU2RpM0lzQjlpNDN4cDN1dGdWamNJQTBzV0g?oc=5",
+        "source": "TRUmedia.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T14:01:25Z",
+        "title": "Atac cu drone în largul Bulgariei: o navă comercială s-a scufundat - TRUmedia.ro"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYnVOZENKa1JwNjdkTVhJTU1xbXlUUEVMOTBRYnBfX2FWYmUyM1M5M25ENTZ2YUYtNUlEVHNkVUc2eDF1a25FdGhqXy14bnh5XzkyQjFjMDlHcXJnRGNvTElmd2FnTDRHWjFXRmRtNUY1WloyektXRXFlWUlMWHYxX2dtVU5ubHJXdWtOMktTX21wWVd6NDMtV2hkNUlQemQydUxKcXZpRzJUN3c3a1JiTklSTlUtVUdfTllhSUctbzHSAcABQVVfeXFMUGJ1TmRDSmtScDY3ZE1YSU1NcW15VFBFTDkwUWJwX19hVmJlMjNTOTNuRDU2dmFGLTVJRFRzZFVHNngxdWtuRXRoal8teG54eV85MkIxYzA5R3FyZ0Rjb0xJZndhZ0w0R1oxV0ZkbTVGNVpaMnpLV0VxZVlJTFh2MV9nbVVObmxyV3VrTjJLU19tcFlXejQzLVdoZDVJUHpkMnVMSnF2aUcyVDd3N2tSYk5JUk5VLVVHX05ZYUlHLW8x?oc=5",
+        "source": "Al Arabiya English",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T09:57:00Z",
+        "title": "Ship sinks off Bulgaria’s Black Sea coast after being hit by drones - Al Arabiya English"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOOFBWbGx2MGRuYnRYRDlNTXA3SXFpUGdiVHJNM0dwc2tZQzNBaDhoSUt4VXFPeXc4Z0VlYTJJU3BnMHgzYzExYXktWHhDWmRLNVlBU2J2VC1SX3FodHlYX2lVdUpfempaZFk3djhDaUhoUnFUUlo2TVJwVEZVektUdXZTYVFKRVN6c3IzejNEc2hraV9INGlQSEVKQ05jbmFXSmwxWTlHVzl1MV8xaGNxX1VKWHlIVk9SUWlmVDFDeWZCMVRvSHFGczRHX3NNdGNTTnBHcHlvS1dyOUliQmQ0d2dnSjh0eUw3Rm82SWZoMTI3UUE?oc=5",
+        "source": "Oskaloosa Herald",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T09:54:06Z",
+        "title": "Ship sinks off Bulgaria's Black Sea coast after being hit by drones - Oskaloosa Herald"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQlpBV1lkc1ZMTFV0NGpTMzZWTTFIeFNRNV9Ha25oMHRxSkNvb1pna2I4NVNoZ2U1QWRMMGE2bHFRc3hRM1JtN1NjM2VQcUpVekpUdDRxVU1VR05XVjh4NHFqVTJ5akNPVUxGYzlfMVJvMmpiRUppdjFYaUN1VTVlUlpoZUw3LUVHenNwcFVsN1hQX0hZ0gGUAUFVX3lxTE9CWkFXWWRzVkxMVXQ0alMzNlZNMUh4U1E1X0drbmgwdHFKQ29vWmdrYjg1U2hnZTVBZEwwYTZscVFzeFEzUm03U2MzZVBxSlV6SlR0NHFVTVVHTldWOHg0cWpVMnlqQ09VTEZjOV8xUm8yamJFSml2MVhpQ3VVNWVSWmhlTDctRUd6c3BwVWw3WFBfSFk?oc=5",
+        "source": "KIRO 7 News Seattle",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-29T09:54:06Z",
+        "title": "Ship sinks off Bulgaria's Black Sea coast after being hit by drones - KIRO 7 News Seattle"
       }
     ],
     "first_seen": "2026-10-28T14:24:50Z",
-    "last_updated": "2026-10-30T16:49:23Z",
+    "last_updated": "2026-10-30T21:42:14Z",
     "verification_issue": 268,
     "verdict": null,
     "published_in": [
