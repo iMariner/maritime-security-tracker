@@ -10287,6 +10287,21 @@
                 "source": "The Hindu, 21 July 2026"
               }
             ]
+          },
+          {
+            "nationality": "Syrian",
+            "status": "confirmed",
+            "deaths": 5,
+            "sources": [
+              {
+                "url": "https://npasyria.com/en/139358",
+                "source": "North Press, 21 July 2026: Syria's Tartus Media Directorate mourned five named Syrian seafarers killed on GOLDEN LEO"
+              },
+              {
+                "url": "https://newscord.org/article/russian-missile-strikes-kill-five-syrian-sailors-aboard-golden-leo-near-odessa--Story_20260720_Syriacondemnsthetarg601648de",
+                "source": "NewsCord compilation of Syrian outlets, 21 July 2026: five Syrian sailors killed and seven other Syrian sailors survived"
+              }
+            ]
           }
         ]
       },
@@ -10365,6 +10380,24 @@
             {
               "url": "https://www.thehindu.com/news/national/russia-ukraine-war-odessa-ship-attack-bodies-of-indian-seafarers-identified/article71248172.ece",
               "source": "The Hindu, 21 July 2026"
+            }
+          ]
+        },
+        {
+          "at": "2026-10-30T18:20:00Z",
+          "text": "Nationality completed for the Syrian crew among the ten dead, and the death count does not change. The record already carried four Indian deaths from India's Ministry of External Affairs and one Ukrainian port pilot death, and left the remaining five deaths without a recorded nationality because the sources first read gave no Syrian breakdown. North Press reported on 21 July 2026 that the Tartus Media Directorate in Syria mourned five named Syrian seafarers, Mustafa Ammar, Ayman Deifallah, Rakan Bashara, Yasser Santli and Mohammad al-Baghdadi, and a NewsCord compilation of Syrian outlets put the Syrian dead at five with seven other Syrian crew surviving, which matches a Syrian crew of twelve. Five Syrian deaths reconcile with the ten deaths confirmed by Ukraine's seaports authority, the four Indian deaths confirmed by India's ministry and the one Ukrainian pilot. North Press's headline put the Syrian deaths at six and quoted a source saying a sixth wounded sailor later died, which would raise the toll to eleven; no authority has confirmed eleven, so the sixth death is not counted and the total stays at ten. Nothing here is inferred from the Guinea-Bissau flag.",
+          "sources": [
+            {
+              "url": "https://npasyria.com/en/139358",
+              "source": "North Press, 21 July 2026"
+            },
+            {
+              "url": "https://newscord.org/article/russian-missile-strikes-kill-five-syrian-sailors-aboard-golden-leo-near-odessa--Story_20260720_Syriacondemnsthetarg601648de",
+              "source": "NewsCord compilation citing Syrian outlets, 21 July 2026"
+            },
+            {
+              "url": "https://www.thehindu.com/news/national/russia-ukraine-war-odessa-ship-attack-bodies-of-indian-seafarers-identified/article71248172.ece",
+              "source": "The Hindu, 21 July 2026: 17 crew, five Indian and twelve Syrian, plus a Ukrainian pilot; all ten dead recovered"
             }
           ]
         }
@@ -21419,6 +21452,222 @@
             {
               "url": "https://theins.press/en/news/297038",
               "source": "The Insider, 10 September 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6529971485,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6529971485",
+      "author": "iMariner",
+      "received_at": "2026-10-30T18:05:26Z",
+      "incident_id": "HIST-BS-20260719-GOLDEN-LEO",
+      "before": {
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 10,
+          "sources": [
+            {
+              "url": "https://www.bbc.com/news/articles/c4gvpv3ewv2o",
+              "source": "BBC News, 20 July 2026"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/golden-leo-sinks-after-deadly-russian-missile-strike",
+              "source": "Seatrade Maritime News, 27 July 2026"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Indian",
+              "status": "confirmed",
+              "deaths": 4,
+              "sources": [
+                {
+                  "url": "https://ddnews.gov.in/en/four-indians-killed-one-critically-injured-in-attack-on-commercial-vessel-near-odesa-port-in-ukraine-mea/",
+                  "source": "DD News reporting India's Ministry of External Affairs statement, 20 July 2026"
+                },
+                {
+                  "url": "https://indianexpress.com/article/india/russia-ukraine-war-4-indian-sailors-among-10-killed-as-missile-hits-ship-10795640/",
+                  "source": "The Indian Express, 20 July 2026"
+                }
+              ]
+            },
+            {
+              "nationality": "Ukrainian",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "url": "https://www.seatrade-maritime.com/security/golden-leo-sinks-after-deadly-russian-missile-strike",
+                  "source": "Seatrade Maritime News, 27 July 2026"
+                },
+                {
+                  "url": "https://www.thehindu.com/news/national/russia-ukraine-war-odessa-ship-attack-bodies-of-indian-seafarers-identified/article71248172.ece",
+                  "source": "The Hindu, 21 July 2026"
+                }
+              ]
+            }
+          ]
+        },
+        "human_impact": {
+          "injured": {
+            "count": 1,
+            "as_of": "2026-07-20",
+            "sources": [
+              {
+                "url": "https://ddnews.gov.in/en/four-indians-killed-one-critically-injured-in-attack-on-commercial-vessel-near-odesa-port-in-ukraine-mea/",
+                "source": "DD News reporting India's Ministry of External Affairs statement, 20 July 2026"
+              },
+              {
+                "url": "https://indianexpress.com/article/india/russia-ukraine-war-4-indian-sailors-among-10-killed-as-missile-hits-ship-10795640/",
+                "source": "The Indian Express, 20 July 2026"
+              }
+            ]
+          }
+        },
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-26T15:34:05Z",
+          "vessel_name": "GOLDEN LEO",
+          "imo": "9181833",
+          "date_utc": "2026-07-19",
+          "vessel_type": "General cargo ship",
+          "region": "Black Sea",
+          "location_text": "Off Odesa, Ukraine, on departure from the port; the wreck sank off Odesa on 26 July 2026",
+          "attack_type": "Cruise missile strike, three Kh-59/Kh-69 missiles according to Ukraine's Air Force",
+          "summary": "GOLDEN LEO, a Guinea-Bissau-flagged general cargo ship of 7,334 deadweight, was struck by three cruise missiles on the evening of 19 July 2026 as it left the port of Odesa with a cargo of corn for Ukraine's Black Sea export corridor. One missile hit the starboard side of the superstructure and a fire broke out. Seventeen people were on board, including five Indian nationals and a Ukrainian port pilot. Ten were killed: nine crew, among them four Indian seafarers, and the Ukrainian pilot. Eight survivors were rescued. Ukraine's seaports authority and the ship's managers reported that the vessel sank off Odesa on 26 July 2026. Ukraine's Air Force and navy attributed the strike to Russia; Russia's defence ministry said ships in the area were carrying military cargo, while India said GOLDEN LEO had loaded grain.",
+          "date_note": "Day precision from India's Ministry of External Affairs statement of 20 July 2026, which places the attack on the evening of 19 July. The Hindu reports the strike at about 16:00 Ukraine local time. Seatrade names the departure port as Chornomorsk in the Odesa region; the Ministry of External Affairs says the port of Odesa.",
+          "sources": [
+            {
+              "url": "https://www.bbc.com/news/articles/c4gvpv3ewv2o",
+              "source": "BBC News, 20 July 2026"
+            },
+            {
+              "url": "https://indianexpress.com/article/india/russia-ukraine-war-4-indian-sailors-among-10-killed-as-missile-hits-ship-10795640/",
+              "source": "The Indian Express, 20 July 2026"
+            },
+            {
+              "url": "https://ddnews.gov.in/en/four-indians-killed-one-critically-injured-in-attack-on-commercial-vessel-near-odesa-port-in-ukraine-mea/",
+              "source": "DD News reporting India's Ministry of External Affairs statement, 20 July 2026"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/golden-leo-sinks-after-deadly-russian-missile-strike",
+              "source": "Seatrade Maritime News, 27 July 2026"
+            },
+            {
+              "url": "https://www.thehindu.com/news/national/russia-ukraine-war-odessa-ship-attack-bodies-of-indian-seafarers-identified/article71248172.ece",
+              "source": "The Hindu, 21 July 2026"
+            }
+          ]
+        },
+        "updates": [
+          {
+            "at": "2026-10-26T15:34:05Z",
+            "text": "New reviewed historical record. The 19 July 2026 missile strike on GOLDEN LEO while leaving Odesa was absent from both the incident corpus and the history store, where only the later October statement from India's Ministry of External Affairs had been ingested. Ten deaths are confirmed by Ukraine's seaports authority as reported by the BBC and by Seatrade, including a Ukrainian port pilot, and four of the dead were Indian nationals per the Ministry of External Affairs. The nationality of the remaining five dead, reported as Syrian crew, is not recorded because the sources read give the Syrian share as five or six and do not reconcile it with the pilot. One Indian seafarer was critically injured. The vessel sank off Odesa on 26 July 2026. Numbers here are for this vessel only and add nothing to any theatre total.",
+            "sources": [
+              {
+                "url": "https://www.bbc.com/news/articles/c4gvpv3ewv2o",
+                "source": "BBC News, 20 July 2026"
+              },
+              {
+                "url": "https://www.seatrade-maritime.com/security/golden-leo-sinks-after-deadly-russian-missile-strike",
+                "source": "Seatrade Maritime News, 27 July 2026"
+              },
+              {
+                "url": "https://ddnews.gov.in/en/four-indians-killed-one-critically-injured-in-attack-on-commercial-vessel-near-odesa-port-in-ukraine-mea/",
+                "source": "DD News reporting India's Ministry of External Affairs statement, 20 July 2026"
+              },
+              {
+                "url": "https://indianexpress.com/article/india/russia-ukraine-war-4-indian-sailors-among-10-killed-as-missile-hits-ship-10795640/",
+                "source": "The Indian Express, 20 July 2026"
+              },
+              {
+                "url": "https://www.thehindu.com/news/national/russia-ukraine-war-odessa-ship-attack-bodies-of-indian-seafarers-identified/article71248172.ece",
+                "source": "The Hindu, 21 July 2026"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "HIST-BS-20260719-GOLDEN-LEO",
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 10,
+          "sources": [
+            {
+              "url": "https://www.bbc.com/news/articles/c4gvpv3ewv2o",
+              "source": "BBC News, 20 July 2026"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/golden-leo-sinks-after-deadly-russian-missile-strike",
+              "source": "Seatrade Maritime News, 27 July 2026"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Indian",
+              "status": "confirmed",
+              "deaths": 4,
+              "sources": [
+                {
+                  "url": "https://ddnews.gov.in/en/four-indians-killed-one-critically-injured-in-attack-on-commercial-vessel-near-odesa-port-in-ukraine-mea/",
+                  "source": "DD News reporting India's Ministry of External Affairs statement, 20 July 2026"
+                },
+                {
+                  "url": "https://indianexpress.com/article/india/russia-ukraine-war-4-indian-sailors-among-10-killed-as-missile-hits-ship-10795640/",
+                  "source": "The Indian Express, 20 July 2026"
+                }
+              ]
+            },
+            {
+              "nationality": "Ukrainian",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "url": "https://www.seatrade-maritime.com/security/golden-leo-sinks-after-deadly-russian-missile-strike",
+                  "source": "Seatrade Maritime News, 27 July 2026"
+                },
+                {
+                  "url": "https://www.thehindu.com/news/national/russia-ukraine-war-odessa-ship-attack-bodies-of-indian-seafarers-identified/article71248172.ece",
+                  "source": "The Hindu, 21 July 2026"
+                }
+              ]
+            },
+            {
+              "nationality": "Syrian",
+              "status": "confirmed",
+              "deaths": 5,
+              "sources": [
+                {
+                  "url": "https://npasyria.com/en/139358",
+                  "source": "North Press, 21 July 2026: Syria's Tartus Media Directorate mourned five named Syrian seafarers killed on GOLDEN LEO"
+                },
+                {
+                  "url": "https://newscord.org/article/russian-missile-strikes-kill-five-syrian-sailors-aboard-golden-leo-near-odessa--Story_20260720_Syriacondemnsthetarg601648de",
+                  "source": "NewsCord compilation of Syrian outlets, 21 July 2026: five Syrian sailors killed and seven other Syrian sailors survived"
+                }
+              ]
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-10-30T18:20:00Z",
+          "text": "Nationality completed for the Syrian crew among the ten dead, and the death count does not change. The record already carried four Indian deaths from India's Ministry of External Affairs and one Ukrainian port pilot death, and left the remaining five deaths without a recorded nationality because the sources first read gave no Syrian breakdown. North Press reported on 21 July 2026 that the Tartus Media Directorate in Syria mourned five named Syrian seafarers, Mustafa Ammar, Ayman Deifallah, Rakan Bashara, Yasser Santli and Mohammad al-Baghdadi, and a NewsCord compilation of Syrian outlets put the Syrian dead at five with seven other Syrian crew surviving, which matches a Syrian crew of twelve. Five Syrian deaths reconcile with the ten deaths confirmed by Ukraine's seaports authority, the four Indian deaths confirmed by India's ministry and the one Ukrainian pilot. North Press's headline put the Syrian deaths at six and quoted a source saying a sixth wounded sailor later died, which would raise the toll to eleven; no authority has confirmed eleven, so the sixth death is not counted and the total stays at ten. Nothing here is inferred from the Guinea-Bissau flag.",
+          "sources": [
+            {
+              "url": "https://npasyria.com/en/139358",
+              "source": "North Press, 21 July 2026"
+            },
+            {
+              "url": "https://newscord.org/article/russian-missile-strikes-kill-five-syrian-sailors-aboard-golden-leo-near-odessa--Story_20260720_Syriacondemnsthetarg601648de",
+              "source": "NewsCord compilation citing Syrian outlets, 21 July 2026"
+            },
+            {
+              "url": "https://www.thehindu.com/news/national/russia-ukraine-war-odessa-ship-attack-bodies-of-indian-seafarers-identified/article71248172.ece",
+              "source": "The Hindu, 21 July 2026: 17 crew, five Indian and twelve Syrian, plus a Ukrainian pilot; all ten dead recovered"
             }
           ]
         }
