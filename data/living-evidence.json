@@ -11901,6 +11901,90 @@
           ]
         }
       ]
+    },
+    "HIST-BS-20260909-TEDY": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 2,
+        "sources": [
+          {
+            "url": "https://mfa.gov.az/az/news/no35426",
+            "source": "Azerbaijan Ministry of Foreign Affairs press release 354/26, 10 September 2026: two Azerbaijani citizens killed"
+          },
+          {
+            "url": "https://www.euronews.com/2026/09/11/two-azerbaijani-sailors-killed-in-black-sea-tugboat-drone-attack",
+            "source": "Euronews, 11 September 2026"
+          }
+        ],
+        "nationalities": [
+          {
+            "nationality": "Azerbaijani",
+            "status": "confirmed",
+            "deaths": 2,
+            "sources": [
+              {
+                "url": "https://mfa.gov.az/az/news/no35426",
+                "source": "Azerbaijan Ministry of Foreign Affairs press release 354/26, 10 September 2026, naming two Azerbaijani citizens killed"
+              },
+              {
+                "url": "https://kyivindependent.com/azerbaijanis-killed-in-drone-attack-as-russia-strikes-ships-in-black-sea",
+                "source": "Kyiv Independent, 10 September 2026, reporting the foreign ministry statement"
+              }
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-30T18:12:00Z",
+        "vessel_name": "TEDY",
+        "imo": "9059200",
+        "date_utc": "2026-09-09",
+        "vessel_type": "tug",
+        "region": "Black Sea",
+        "location_text": "Black Sea near the port of Odesa, Ukraine; struck twice more overnight while heading for Constanta, Romania",
+        "attack_type": "drone (UAV)",
+        "summary": "TEDY, a Somali flagged tug of about 30 metres built in 1995 and owned by Turkey's Mert Marine Corporation, came under drone attack in the Black Sea near the port of Odesa on 9 September 2026 with 10 crew aboard, four of them Azerbaijani nationals. Azerbaijan's Ministry of Foreign Affairs said two Azerbaijani crew were killed and two were injured and taken to hospital in Chornomorsk. Euronews reported the tug was first hit near Odesa and came under two further drone attacks overnight as it sailed towards Constanta. Ukraine's Ministry for Restoration, Infrastructure and Transport attributed the strike to Russia, while Russia's defence ministry said on 9 September that it had struck two dry cargo vessels bound for Odesa and an escorting tug without naming the vessel. Azerbaijan's ministry did not attribute responsibility.",
+        "date_note": "Azerbaijan's Ministry of Foreign Affairs dates the first drone attack 9 September 2026 and describes two further strikes overnight, which fall on 10 September. Euronews described the first strike as happening on Tuesday, but 9 September 2026 was a Wednesday; the day-precision UTC date follows the foreign ministry statement.",
+        "sources": [
+          {
+            "url": "https://mfa.gov.az/az/news/no35426",
+            "source": "Azerbaijan Ministry of Foreign Affairs press release 354/26, 10 September 2026"
+          },
+          {
+            "url": "https://www.euronews.com/2026/09/11/two-azerbaijani-sailors-killed-in-black-sea-tugboat-drone-attack",
+            "source": "Euronews, 11 September 2026"
+          },
+          {
+            "url": "https://theins.press/en/news/297038",
+            "source": "The Insider, 10 September 2026: vessel tracking review identifying TEDY, IMO 9059200"
+          },
+          {
+            "url": "https://kyivindependent.com/azerbaijanis-killed-in-drone-attack-as-russia-strikes-ships-in-black-sea",
+            "source": "Kyiv Independent, 10 September 2026, reporting Azerbaijan's Foreign Ministry"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-30T18:12:00Z",
+          "text": "New historical record for a 9 September 2026 attack absent from both the incident corpus and the history store. Azerbaijan's Ministry of Foreign Affairs said the tug TEDY came under drone attack in the Black Sea and that two Azerbaijani crew, Aslan Aliyev and Asim Gasimov, were killed while two more, Imran Novruzov and Rauf Aliyev, were injured and hospitalised in Chornomorsk. The Insider's review of vessel tracking identifies TEDY as a Somali flagged tug of about 30 metres built in 1995, IMO 9059200, owned by Mert Marine Corporation of Turkey, with 10 crew aboard. Euronews reported the tug was first hit near Odesa and struck twice more overnight as it sailed for Constanta. Ukraine's restoration ministry attributed the strike to Russia, and Russia's defence ministry said it hit an escorting tug bound for Odesa without naming a vessel; Azerbaijan's ministry did not attribute responsibility. Interfax rendered the second name as Asim Kasimov, while the foreign ministry statement gives Asim Gasimov; the dead are recorded from the ministry text. Two injured crew are recorded here only as the ministry described them, and no combined injured total is asserted because Euronews reported six further crew treated at the scene without hospitalisation. No nationality is assigned to the other eight crew beyond the ministry's crew composition, and nothing is inferred from the Somali flag.",
+          "sources": [
+            {
+              "url": "https://mfa.gov.az/az/news/no35426",
+              "source": "Azerbaijan Ministry of Foreign Affairs press release 354/26, 10 September 2026"
+            },
+            {
+              "url": "https://www.euronews.com/2026/09/11/two-azerbaijani-sailors-killed-in-black-sea-tugboat-drone-attack",
+              "source": "Euronews, 11 September 2026"
+            },
+            {
+              "url": "https://theins.press/en/news/297038",
+              "source": "The Insider, 10 September 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -21243,6 +21327,98 @@
             {
               "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
               "source": "IMO confirmed incident register, as at 27 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6529953311,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6529953311",
+      "author": "iMariner",
+      "received_at": "2026-10-30T18:04:38Z",
+      "incident_id": "HIST-BS-20260909-TEDY",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-BS-20260909-TEDY",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-30T18:12:00Z",
+          "vessel_name": "TEDY",
+          "imo": "9059200",
+          "date_utc": "2026-09-09",
+          "vessel_type": "tug",
+          "region": "Black Sea",
+          "location_text": "Black Sea near the port of Odesa, Ukraine; struck twice more overnight while heading for Constanta, Romania",
+          "attack_type": "drone (UAV)",
+          "summary": "TEDY, a Somali flagged tug of about 30 metres built in 1995 and owned by Turkey's Mert Marine Corporation, came under drone attack in the Black Sea near the port of Odesa on 9 September 2026 with 10 crew aboard, four of them Azerbaijani nationals. Azerbaijan's Ministry of Foreign Affairs said two Azerbaijani crew were killed and two were injured and taken to hospital in Chornomorsk. Euronews reported the tug was first hit near Odesa and came under two further drone attacks overnight as it sailed towards Constanta. Ukraine's Ministry for Restoration, Infrastructure and Transport attributed the strike to Russia, while Russia's defence ministry said on 9 September that it had struck two dry cargo vessels bound for Odesa and an escorting tug without naming the vessel. Azerbaijan's ministry did not attribute responsibility.",
+          "date_note": "Azerbaijan's Ministry of Foreign Affairs dates the first drone attack 9 September 2026 and describes two further strikes overnight, which fall on 10 September. Euronews described the first strike as happening on Tuesday, but 9 September 2026 was a Wednesday; the day-precision UTC date follows the foreign ministry statement.",
+          "sources": [
+            {
+              "url": "https://mfa.gov.az/az/news/no35426",
+              "source": "Azerbaijan Ministry of Foreign Affairs press release 354/26, 10 September 2026"
+            },
+            {
+              "url": "https://www.euronews.com/2026/09/11/two-azerbaijani-sailors-killed-in-black-sea-tugboat-drone-attack",
+              "source": "Euronews, 11 September 2026"
+            },
+            {
+              "url": "https://theins.press/en/news/297038",
+              "source": "The Insider, 10 September 2026: vessel tracking review identifying TEDY, IMO 9059200"
+            },
+            {
+              "url": "https://kyivindependent.com/azerbaijanis-killed-in-drone-attack-as-russia-strikes-ships-in-black-sea",
+              "source": "Kyiv Independent, 10 September 2026, reporting Azerbaijan's Foreign Ministry"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 2,
+          "sources": [
+            {
+              "url": "https://mfa.gov.az/az/news/no35426",
+              "source": "Azerbaijan Ministry of Foreign Affairs press release 354/26, 10 September 2026: two Azerbaijani citizens killed"
+            },
+            {
+              "url": "https://www.euronews.com/2026/09/11/two-azerbaijani-sailors-killed-in-black-sea-tugboat-drone-attack",
+              "source": "Euronews, 11 September 2026"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Azerbaijani",
+              "status": "confirmed",
+              "deaths": 2,
+              "sources": [
+                {
+                  "url": "https://mfa.gov.az/az/news/no35426",
+                  "source": "Azerbaijan Ministry of Foreign Affairs press release 354/26, 10 September 2026, naming two Azerbaijani citizens killed"
+                },
+                {
+                  "url": "https://kyivindependent.com/azerbaijanis-killed-in-drone-attack-as-russia-strikes-ships-in-black-sea",
+                  "source": "Kyiv Independent, 10 September 2026, reporting the foreign ministry statement"
+                }
+              ]
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-10-30T18:12:00Z",
+          "text": "New historical record for a 9 September 2026 attack absent from both the incident corpus and the history store. Azerbaijan's Ministry of Foreign Affairs said the tug TEDY came under drone attack in the Black Sea and that two Azerbaijani crew, Aslan Aliyev and Asim Gasimov, were killed while two more, Imran Novruzov and Rauf Aliyev, were injured and hospitalised in Chornomorsk. The Insider's review of vessel tracking identifies TEDY as a Somali flagged tug of about 30 metres built in 1995, IMO 9059200, owned by Mert Marine Corporation of Turkey, with 10 crew aboard. Euronews reported the tug was first hit near Odesa and struck twice more overnight as it sailed for Constanta. Ukraine's restoration ministry attributed the strike to Russia, and Russia's defence ministry said it hit an escorting tug bound for Odesa without naming a vessel; Azerbaijan's ministry did not attribute responsibility. Interfax rendered the second name as Asim Kasimov, while the foreign ministry statement gives Asim Gasimov; the dead are recorded from the ministry text. Two injured crew are recorded here only as the ministry described them, and no combined injured total is asserted because Euronews reported six further crew treated at the scene without hospitalisation. No nationality is assigned to the other eight crew beyond the ministry's crew composition, and nothing is inferred from the Somali flag.",
+          "sources": [
+            {
+              "url": "https://mfa.gov.az/az/news/no35426",
+              "source": "Azerbaijan Ministry of Foreign Affairs press release 354/26, 10 September 2026"
+            },
+            {
+              "url": "https://www.euronews.com/2026/09/11/two-azerbaijani-sailors-killed-in-black-sea-tugboat-drone-attack",
+              "source": "Euronews, 11 September 2026"
+            },
+            {
+              "url": "https://theins.press/en/news/297038",
+              "source": "The Insider, 10 September 2026"
             }
           ]
         }
