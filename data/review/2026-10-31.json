@@ -1,51 +1,8 @@
 {
   "date": "2026-10-31",
-  "title": "Panama-flagged ship RITI catches fire near Iran's Lavan Island",
-  "preview_url": "https://imariner.github.io/maritime-security-tracker/preview/2026-10-31.html?v=044128",
+  "title": "Panama-flagged tanker RITI catches fire off Musandam, all 25 crew evacuated",
+  "preview_url": "https://imariner.github.io/maritime-security-tracker/preview/2026-10-31.html?v=050623",
   "incidents": [
-    {
-      "id": "INC-20261031-001",
-      "status": "claimed",
-      "region": "Strait of Hormuz",
-      "date_utc": "2026-10-31T04:28:51Z",
-      "vessel_name": null,
-      "imo": null,
-      "flag": null,
-      "vessel_type": "tanker",
-      "location": "Strait of Hormuz",
-      "attack": "other",
-      "damage": null,
-      "casualties": null,
-      "attribution": null,
-      "summary": "A headline reports that oil prices climbed after a tanker attack in the Strait of Hormuz. No vessel name, flag, date, position, damage or casualty details are given.",
-      "checked_by_hermes": false,
-      "sources": [
-        {
-          "outlet": "Bloom Pakistan",
-          "title": "Oil Prices Climb After Tanker Attack in Strait of Hormuz - Bloom Pakistan",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeDNnVUc5T2kyNXRMekxoZmFZaERIVEhJb3JzdGlSZ3hUV2xPR0ExY1hBd3VfREk4a0dFby1oRFZNdXRSNWN0V254dWptMmZKdU1DVlZ4OHpQeUdIUmdoSld1YTl2dzdQbVZ2eG05NFk3dnFMLWtoTldMQjRVZWN1NnBoeDctYWVDemFN?oc=5",
-          "published": "2026-10-31T04:28:51Z"
-        },
-        {
-          "outlet": "BigGo Finance",
-          "title": "Tanker Attack in Strait of Hormuz Lifts Oil Prices; Spot Gold Falls Below $3,910, Plunging More Than $110 in a Single Day - BigGo Finance",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1DN2NKb3hMbGduZkxVc2VFOVRMbF9wTDZfd1hKQWZVMHB3SEYyNTdYR2NsWGd6QTI5eWFUSEFEN0x4QnlNV01HY3ozR2dFX0FoN0JwRy10X0VleHJzUFU1TGVfc3M1RFdWNGZQTnJXd2o5bEs0OHc?oc=5",
-          "published": "2026-10-30T14:35:00Z"
-        },
-        {
-          "outlet": "Euronext Markets: Real-time Stock Market Data | live",
-          "title": "Oil set for fourth monthly gain as Hormuz tanker attack highlights supply risks - Euronext Markets: Real-time Stock Market Data | live",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVnJEY18tcEJmUGxjajAtdWxfbEtRazk4Y2ZMbnJqUDk5TTQ2VHA5QV80UEhIRlY0cFF1VjZGZ1k4OUd6STI4M0RLZk1JSzZpdGtSbk9icmxndHNxc1A4VmdhMzBSR0pZYm9Yam5FZGV5YWhQbXhyVmFtbkdpTjB3VDN6MEgxOHU0OWF6VG1lSkczRThGYjRiMUdiUk1wSndxRmhFQ1gyQWlESEEzOVF3NVhGZm1UVVE?oc=5",
-          "published": "2026-10-30T12:32:52Z"
-        },
-        {
-          "outlet": "Centre Daily Times",
-          "title": "Oil set for fourth monthly gain as Hormuz tanker attack highlights supply risks from war - Centre Daily Times",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWVVtNWdOdjBYSkxKZ0FubG53T1dERTh4RzZJUFRKbFc0VkxhUmVRaUtVTjFFZUpjU2FJVmF2LUxXeXdtNG02LWgwZFRLNlZGU1haZVVmVlJTUEhMSWlaSmx1Q2xaUzlkV2JDTG96NVRzRFBUY3J2X2dZWWV5UHZZaF9R?oc=5",
-          "published": "2026-10-30T02:31:00Z"
-        }
-      ]
-    },
     {
       "id": "INC-20261030-004",
       "status": "claimed",
@@ -116,10 +73,10 @@
     {
       "id": "INC-20261030-019",
       "status": "confirmed",
-      "region": "Persian Gulf",
+      "region": "Strait of Hormuz",
       "date_utc": "2026-10-30",
       "vessel_name": "RITI",
-      "imo": null,
+      "imo": "9249075",
       "flag": "Panama",
       "vessel_type": null,
       "location": "near Lavan Island, Iran",
@@ -128,8 +85,14 @@
       "casualties": "25 sailors evacuated",
       "attribution": null,
       "summary": "A vessel was struck by an unknown projectile about 40 nautical miles from Iran's Lavan Island on 30 October and caught fire, according to UKMTO. Oman's navy evacuated 25 sailors from the attacked vessel RITI near Musandam after the fire broke out.",
-      "checked_by_hermes": false,
+      "checked_by_hermes": true,
       "sources": [
+        {
+          "outlet": "vesselfinder.com",
+          "title": null,
+          "url": "https://www.vesselfinder.com/vessels/details/9249075",
+          "published": "2026-10-31T05:05:19Z"
+        },
         {
           "outlet": "أخبار الغد",
           "title": "استهداف سفينة بمقذوف مجهول قرب جزيرة لاوان الإيرانية واندلاع حريق على متنها - أخبار الغد",
@@ -171,37 +134,6 @@
           "title": "Oman rescues 25 from attacked RITI vessel as Hormuz shipping risks mount - Business Upturn",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWXlNS2VkaGZkNHNnZTQyOFBmVGxiMDRlb1dSNnpPWnllLU5rWTZ3LWFOTlVIUEcwU1FZTmxob0kyOVVhY0NVS2lQbjh6WTJCRWlXY2JwbE5DdUtTWEo4a04xaDlLRWh5a0hCSmZ2VlJuUGJxb2Z1R1VoaEkzaE45UlpsVXdodkhpRXZPTTBjZnRYWFlfdHRSaEk0WkZLZlZDdVJYZVJQcVNCMDRMVElMak1qNGhYSE54WGYzTDdVck0waVhWbTZiRk44UQ?oc=5",
           "published": "2026-10-30T12:25:39Z"
-        },
-        {
-          "outlet": "Business Upturn",
-          "title": "Oman rescues 25 from attacked RITI vessel as Hormuz shipping risks mount - Business Upturn",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxON0pFRW41dHBXa3FZNU1fWnhZcThkNG41ci1PWmY3Tkw2cURvUzYtalRGOFpoVTJzNEJISWs1ZzhrQVhHVHQ4VU5JRDFZZkVTSkZyTUZBY1hZbHpnODV1V1gtUWp4UEtUUDhwZEl6WlY2Vl9nVnN0ZEppd3VQNEtNTG5HbC12MGZWbWtNRlUzMnVRdGFUWEwxSmlyTFdXeGdsdi1CSk90RHJSUllMUzliUHVOdFhxa3Q2QXVNYWdpSlVpWVhrVUE?oc=5",
-          "published": "2026-10-30T12:25:31Z"
-        }
-      ]
-    },
-    {
-      "id": "INC-20261030-025",
-      "status": "claimed",
-      "region": "Strait of Hormuz",
-      "date_utc": "2026-10-30",
-      "vessel_name": null,
-      "imo": null,
-      "flag": null,
-      "vessel_type": "general cargo",
-      "location": "Strait of Hormuz",
-      "attack": "other",
-      "damage": null,
-      "casualties": null,
-      "attribution": null,
-      "summary": "A headline reports that a cargo ship reported a suspected attack while crossing the Strait of Hormuz. No vessel name, flag, position, weapon type, damage or casualty details are given.",
-      "checked_by_hermes": false,
-      "sources": [
-        {
-          "outlet": "EnergyNow.com",
-          "title": "Cargo Ship Reports Suspected Attack While Crossing Hormuz - EnergyNow.com",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYi1ySDh4VUU4U2NJa3Q4cFZWUkVqaWp0TkNtYVF4LUswWlF5dm00c1k0Y1lxb3RabVZSb1ZkNTNNc19haXkxVWdSemU0Z0FpU2lxYWJDcHlhNHhOY3psc2lXV0trOUVnbVFMekd4aElOWFU5ak9XRzQwMVBGSEQtcGg0TjAxTVVhSVg4WEE5aXJIdw?oc=5",
-          "published": "2026-10-30T07:13:05Z"
         }
       ]
     },
@@ -220,7 +152,7 @@
       "casualties": "no injuries reported",
       "attribution": null,
       "summary": "UKMTO reported, citing the vessel's Company Security Officer, that a tanker was struck by an unknown projectile while completing an outbound transit of the Strait of Hormuz on 29 October at 1600 UTC. No crew injuries or environmental impact were reported.",
-      "checked_by_hermes": false,
+      "checked_by_hermes": true,
       "sources": [
         {
           "outlet": "UKMTO",
