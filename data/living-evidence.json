@@ -12533,6 +12533,74 @@
           ]
         }
       ]
+    },
+    "HIST-BS-20260816-SKIROS": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.rigzone.com/news/wire/greekrun_oil_tanker_comes_under_attack-18-aug-2026-184402-article/",
+            "source": "Bloomberg report carried by Rigzone, 17 August 2026: the manager said there were no injuries or pollution from the incident"
+          },
+          {
+            "url": "https://tass.com/emergencies/2174369",
+            "source": "TASS, 17 August 2026: the Greek operator said no one was hurt in the incident"
+          }
+        ]
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-31T18:56:16Z",
+        "vessel_name": "SKIROS",
+        "imo": "9390628",
+        "date_utc": "2026-08-16",
+        "vessel_type": "Crude oil tanker (Suezmax)",
+        "region": "Black Sea",
+        "location_text": "Off Novorossiysk, Russia, after loading at the Caspian Pipeline Consortium terminal",
+        "attack_type": "drone (UAV)",
+        "summary": "SKIROS, a Liberia flagged Suezmax crude oil tanker of 159,021 deadweight built in 2009 and managed from Piraeus by International Marine Services, was struck by a drone on the evening of 16 August 2026 after loading crude at the Caspian Pipeline Consortium terminal off Novorossiysk in Russia. The drone passed over the vessel and hit the bridge, starting a fire that the crew put out. The manager said there were no injuries and no pollution, and that all the crew were safe; the ship was left drifting with bridge damage while salvage assistance was sought. Lloyd's List reported the strike happened after the vessel had left Russian territorial waters. Ukrainian officials did not publicly claim the attack, and reports described it as a suspected Ukrainian drone strike; the cargo was reported by Bloomberg sources to be Russian origin rather than Kazakh CPC crude.",
+        "date_note": "Bloomberg sources, the Greek broadcaster Skai reported by TASS, and the specialist accounts place the strike on the evening of Sunday 16 August 2026, and the manager spoke to Lloyd's List on Monday 17 August. The Maritime Executive, publishing at 14:53 on 17 August, described an attack on the Monday at midday, which conflicts with the Sunday evening accounts; the day-precision date is kept at 16 August on the weight of the manager and Bloomberg reporting, and no time of strike is fixed.",
+        "sources": [
+          {
+            "url": "https://www.lloydslist.com/-/media/lloyds-list/daily-pdf/2026/08-august/dailypdf180826.pdf",
+            "source": "Lloyd's List Daily Briefing, 18 August 2026: Liberia flagged Skiros, IMO 9390628, 159,021 dwt, managed by Greece based International Marine Services, struck after loading crude at the CPC terminal off Novorossiysk, bridge damaged and tanker left drifting, all crew safe, attack took place after the vessel left Russian territorial waters"
+          },
+          {
+            "url": "https://www.rigzone.com/news/wire/greekrun_oil_tanker_comes_under_attack-18-aug-2026-184402-article/",
+            "source": "Bloomberg report carried by Rigzone, 17 August 2026: Suezmax Skiros attacked after loading at the Caspian Pipeline Consortium terminal near Novorossiysk, the attack happened on Sunday close to the terminal, the manager said there were no injuries or pollution"
+          },
+          {
+            "url": "https://tass.com/emergencies/2174369",
+            "source": "TASS, 17 August 2026, citing Greek broadcaster Skai: a drone struck the Greek tanker Skiros after it loaded oil at Novorossiysk on 16 August, fire on the bridge, and the Greek operator said no one was hurt and no oil leaked"
+          },
+          {
+            "url": "https://maritime-executive.com/article/tanker-struck-near-black-sea-terminal-as-both-sides-continue-attacks",
+            "source": "The Maritime Executive, 17 August 2026: Greek managed Skiros, 159,000 dwt, Liberia flag, managed by IMS, hit by a drone with a small fire the crew contained and no reports of injuries"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-31T18:56:16Z",
+          "text": "New reviewed record for the 16 August 2026 drone strike on the Suezmax tanker Skiros, which was absent from both incident stores although the same weeks of Black Sea attacks on Turkish and Greek operated ships are otherwise recorded. The zero death count rests on the manager's own statement that the crew were all safe with no injuries and no pollution, not on silence in the reporting. No crew nationality is published and the Liberian flag is not treated as evidence of crew nationality. The attack is recorded as a drone strike by an unidentified operator: reports called it a suspected Ukrainian attack and no Ukrainian claim was published.",
+          "sources": [
+            {
+              "url": "https://www.lloydslist.com/-/media/lloyds-list/daily-pdf/2026/08-august/dailypdf180826.pdf",
+              "source": "Lloyd's List Daily Briefing, 18 August 2026: Liberia flagged Skiros, IMO 9390628, 159,021 dwt, managed by Greece based International Marine Services, struck after loading crude at the CPC terminal off Novorossiysk, bridge damaged and tanker left drifting, all crew safe, attack took place after the vessel left Russian territorial waters"
+            },
+            {
+              "url": "https://www.rigzone.com/news/wire/greekrun_oil_tanker_comes_under_attack-18-aug-2026-184402-article/",
+              "source": "Bloomberg report carried by Rigzone, 17 August 2026: Suezmax Skiros attacked after loading at the Caspian Pipeline Consortium terminal near Novorossiysk, the attack happened on Sunday close to the terminal, the manager said there were no injuries or pollution"
+            },
+            {
+              "url": "https://tass.com/emergencies/2174369",
+              "source": "TASS, 17 August 2026, citing Greek broadcaster Skai: a drone struck the Greek tanker Skiros after it loaded oil at Novorossiysk on 16 August, fire on the bridge, and the Greek operator said no one was hurt and no oil leaked"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -23169,6 +23237,82 @@
             {
               "url": "https://fakti.bg/en/world/1076033-tensions-in-the-black-sea-drone-attacks-container-ship-rms-team-sailing-to-russia",
               "source": "Fakti.bg, 22 August 2026: operator Akkon Lines reported the drone attack and the missing crew member, damage critical and possible constructive total loss, ship sailed from Gemlik on 12 August for Novorossiysk"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6547746097,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6547746097",
+      "author": "iMariner",
+      "received_at": "2026-10-31T18:56:17Z",
+      "incident_id": "HIST-BS-20260816-SKIROS",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-BS-20260816-SKIROS",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-31T18:56:16Z",
+          "vessel_name": "SKIROS",
+          "imo": "9390628",
+          "date_utc": "2026-08-16",
+          "vessel_type": "Crude oil tanker (Suezmax)",
+          "region": "Black Sea",
+          "location_text": "Off Novorossiysk, Russia, after loading at the Caspian Pipeline Consortium terminal",
+          "attack_type": "drone (UAV)",
+          "summary": "SKIROS, a Liberia flagged Suezmax crude oil tanker of 159,021 deadweight built in 2009 and managed from Piraeus by International Marine Services, was struck by a drone on the evening of 16 August 2026 after loading crude at the Caspian Pipeline Consortium terminal off Novorossiysk in Russia. The drone passed over the vessel and hit the bridge, starting a fire that the crew put out. The manager said there were no injuries and no pollution, and that all the crew were safe; the ship was left drifting with bridge damage while salvage assistance was sought. Lloyd's List reported the strike happened after the vessel had left Russian territorial waters. Ukrainian officials did not publicly claim the attack, and reports described it as a suspected Ukrainian drone strike; the cargo was reported by Bloomberg sources to be Russian origin rather than Kazakh CPC crude.",
+          "date_note": "Bloomberg sources, the Greek broadcaster Skai reported by TASS, and the specialist accounts place the strike on the evening of Sunday 16 August 2026, and the manager spoke to Lloyd's List on Monday 17 August. The Maritime Executive, publishing at 14:53 on 17 August, described an attack on the Monday at midday, which conflicts with the Sunday evening accounts; the day-precision date is kept at 16 August on the weight of the manager and Bloomberg reporting, and no time of strike is fixed.",
+          "sources": [
+            {
+              "url": "https://www.lloydslist.com/-/media/lloyds-list/daily-pdf/2026/08-august/dailypdf180826.pdf",
+              "source": "Lloyd's List Daily Briefing, 18 August 2026: Liberia flagged Skiros, IMO 9390628, 159,021 dwt, managed by Greece based International Marine Services, struck after loading crude at the CPC terminal off Novorossiysk, bridge damaged and tanker left drifting, all crew safe, attack took place after the vessel left Russian territorial waters"
+            },
+            {
+              "url": "https://www.rigzone.com/news/wire/greekrun_oil_tanker_comes_under_attack-18-aug-2026-184402-article/",
+              "source": "Bloomberg report carried by Rigzone, 17 August 2026: Suezmax Skiros attacked after loading at the Caspian Pipeline Consortium terminal near Novorossiysk, the attack happened on Sunday close to the terminal, the manager said there were no injuries or pollution"
+            },
+            {
+              "url": "https://tass.com/emergencies/2174369",
+              "source": "TASS, 17 August 2026, citing Greek broadcaster Skai: a drone struck the Greek tanker Skiros after it loaded oil at Novorossiysk on 16 August, fire on the bridge, and the Greek operator said no one was hurt and no oil leaked"
+            },
+            {
+              "url": "https://maritime-executive.com/article/tanker-struck-near-black-sea-terminal-as-both-sides-continue-attacks",
+              "source": "The Maritime Executive, 17 August 2026: Greek managed Skiros, 159,000 dwt, Liberia flag, managed by IMS, hit by a drone with a small fire the crew contained and no reports of injuries"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "nationalities": [],
+          "sources": [
+            {
+              "url": "https://www.rigzone.com/news/wire/greekrun_oil_tanker_comes_under_attack-18-aug-2026-184402-article/",
+              "source": "Bloomberg report carried by Rigzone, 17 August 2026: the manager said there were no injuries or pollution from the incident"
+            },
+            {
+              "url": "https://tass.com/emergencies/2174369",
+              "source": "TASS, 17 August 2026: the Greek operator said no one was hurt in the incident"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-10-31T18:56:16Z",
+          "text": "New reviewed record for the 16 August 2026 drone strike on the Suezmax tanker Skiros, which was absent from both incident stores although the same weeks of Black Sea attacks on Turkish and Greek operated ships are otherwise recorded. The zero death count rests on the manager's own statement that the crew were all safe with no injuries and no pollution, not on silence in the reporting. No crew nationality is published and the Liberian flag is not treated as evidence of crew nationality. The attack is recorded as a drone strike by an unidentified operator: reports called it a suspected Ukrainian attack and no Ukrainian claim was published.",
+          "sources": [
+            {
+              "url": "https://www.lloydslist.com/-/media/lloyds-list/daily-pdf/2026/08-august/dailypdf180826.pdf",
+              "source": "Lloyd's List Daily Briefing, 18 August 2026: Liberia flagged Skiros, IMO 9390628, 159,021 dwt, managed by Greece based International Marine Services, struck after loading crude at the CPC terminal off Novorossiysk, bridge damaged and tanker left drifting, all crew safe, attack took place after the vessel left Russian territorial waters"
+            },
+            {
+              "url": "https://www.rigzone.com/news/wire/greekrun_oil_tanker_comes_under_attack-18-aug-2026-184402-article/",
+              "source": "Bloomberg report carried by Rigzone, 17 August 2026: Suezmax Skiros attacked after loading at the Caspian Pipeline Consortium terminal near Novorossiysk, the attack happened on Sunday close to the terminal, the manager said there were no injuries or pollution"
+            },
+            {
+              "url": "https://tass.com/emergencies/2174369",
+              "source": "TASS, 17 August 2026, citing Greek broadcaster Skai: a drone struck the Greek tanker Skiros after it loaded oil at Novorossiysk on 16 August, fire on the bridge, and the Greek operator said no one was hurt and no oil leaked"
             }
           ]
         }
