@@ -12311,6 +12311,70 @@
           ]
         }
       ]
+    },
+    "HIST-ME-20261023-GHANA-PROSPERITY": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_109_29-oct.pdf?rev=94919740e1734f5c8c515cfa030f7846",
+            "source": "JMIC advisory update 109, 29 October 2026: crew reported as safe after the 23 October strike on GHANA PROSPERITY"
+          },
+          {
+            "url": "https://www.ukmto.org/recent-incidents",
+            "source": "UKMTO warning 182, 23 October 2026: crew reported safe"
+          }
+        ],
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-31T12:46:23Z",
+        "vessel_name": "GHANA PROSPERITY",
+        "imo": "9732541",
+        "date_utc": "2026-10-23",
+        "vessel_type": "Crude oil tanker",
+        "region": "Strait of Hormuz",
+        "location_text": "About 2 nautical miles off the coast of Musandam, Oman",
+        "attack_type": "unknown projectile",
+        "summary": "GHANA PROSPERITY, a crude oil tanker of IMO 9732541, was hit by an unknown projectile about 2 nautical miles off the coast of Musandam, Oman, while transiting outbound through the Strait of Hormuz on 23 October 2026, and was left disabled and at anchor. UKMTO warning 182-26, published on 26 October as a verified time-late report, recorded a tanker struck by an unknown projectile while transiting outbound, with the vessel disabled and the crew reported safe. JMIC advisory update 109 attributes that warning to GHANA PROSPERITY, corroborated by NAVAREA IX, and records the ship disabled and anchored. The IMO confirmed incidents register lists GHANA PROSPERITY (IMO 9732541) in the Strait of Hormuz on 23 October as damaged with no pollution, in a separate row from the same ship on 3 October. The strike date, position and the crew-safety line come from those authority records; UKMTO named no attacker.",
+        "date_note": "UKMTO warning 182-26 is dated 26 October 2026 but is a time-late report of an attack on 23 October, and the IMO register independently lists the hull on 23 October, so the attack date is 23 October. No UTC event time is set out in the warning text checked, so no time of day is given.",
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_109_29-oct.pdf?rev=94919740e1734f5c8c515cfa030f7846",
+            "source": "JMIC advisory update 109, 29 October 2026, ICOD 291300 UTC: UKMTO 182-26 row naming GHANA PROSPERITY, corroborated by NAVAREA IX, hit about 2 NM off Musandam, disabled and anchored, crew reported as safe"
+          },
+          {
+            "url": "https://www.ukmto.org/recent-incidents",
+            "source": "UKMTO recent incidents, warning 182, 23 October 2026 attack: verified time-late report of a tanker struck by an unknown projectile while transiting outbound, disabled, crew reported safe"
+          },
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO confirmed incidents register, read 31 October 2026, 122 confirmed incidents and 24 confirmed seafarer fatalities as at 30 October: GHANA PROSPERITY (9732541), Strait of Hormuz, 23 October, damaged, no pollution"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-31T12:46:23Z",
+          "text": "New historical record for a second, separately dated attack on GHANA PROSPERITY. The IMO register lists the same hull on 3 October, which is already reviewed as HIST-ME-20261003-GHANA-PROSPERITY, and again on 23 October. UKMTO warning 182-26, which NAVAREA IX and JMIC attribute to this ship, records an outbound tanker disabled by an unknown projectile about 2 nautical miles off Musandam with the crew reported safe. Deaths are recorded as zero on that crew-safety report, not inferred from silence: no checked source reports a death or an injury. No crew nationality has been published, and the ship's flag is not treated as evidence of nationality. The attack is recorded under its own ID so that the two attacks are not collapsed into one, and no archive total is treated as a count of attacks.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_109_29-oct.pdf?rev=94919740e1734f5c8c515cfa030f7846",
+              "source": "JMIC advisory update 109, 29 October 2026"
+            },
+            {
+              "url": "https://www.ukmto.org/recent-incidents",
+              "source": "UKMTO recent incidents, warning 182"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents register, 23 October 2026 row"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -22701,6 +22765,78 @@
             {
               "url": "https://en.portnews.ru/news/397767/",
               "source": "Portnews, 1 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6543539296,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6543539296",
+      "author": "iMariner",
+      "received_at": "2026-10-31T12:46:24Z",
+      "incident_id": "HIST-ME-20261023-GHANA-PROSPERITY",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-ME-20261023-GHANA-PROSPERITY",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-31T12:46:23Z",
+          "vessel_name": "GHANA PROSPERITY",
+          "imo": "9732541",
+          "date_utc": "2026-10-23",
+          "vessel_type": "Crude oil tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "About 2 nautical miles off the coast of Musandam, Oman",
+          "attack_type": "unknown projectile",
+          "summary": "GHANA PROSPERITY, a crude oil tanker of IMO 9732541, was hit by an unknown projectile about 2 nautical miles off the coast of Musandam, Oman, while transiting outbound through the Strait of Hormuz on 23 October 2026, and was left disabled and at anchor. UKMTO warning 182-26, published on 26 October as a verified time-late report, recorded a tanker struck by an unknown projectile while transiting outbound, with the vessel disabled and the crew reported safe. JMIC advisory update 109 attributes that warning to GHANA PROSPERITY, corroborated by NAVAREA IX, and records the ship disabled and anchored. The IMO confirmed incidents register lists GHANA PROSPERITY (IMO 9732541) in the Strait of Hormuz on 23 October as damaged with no pollution, in a separate row from the same ship on 3 October. The strike date, position and the crew-safety line come from those authority records; UKMTO named no attacker.",
+          "date_note": "UKMTO warning 182-26 is dated 26 October 2026 but is a time-late report of an attack on 23 October, and the IMO register independently lists the hull on 23 October, so the attack date is 23 October. No UTC event time is set out in the warning text checked, so no time of day is given.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_109_29-oct.pdf?rev=94919740e1734f5c8c515cfa030f7846",
+              "source": "JMIC advisory update 109, 29 October 2026, ICOD 291300 UTC: UKMTO 182-26 row naming GHANA PROSPERITY, corroborated by NAVAREA IX, hit about 2 NM off Musandam, disabled and anchored, crew reported as safe"
+            },
+            {
+              "url": "https://www.ukmto.org/recent-incidents",
+              "source": "UKMTO recent incidents, warning 182, 23 October 2026 attack: verified time-late report of a tanker struck by an unknown projectile while transiting outbound, disabled, crew reported safe"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents register, read 31 October 2026, 122 confirmed incidents and 24 confirmed seafarer fatalities as at 30 October: GHANA PROSPERITY (9732541), Strait of Hormuz, 23 October, damaged, no pollution"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_109_29-oct.pdf?rev=94919740e1734f5c8c515cfa030f7846",
+              "source": "JMIC advisory update 109, 29 October 2026: crew reported as safe after the 23 October strike on GHANA PROSPERITY"
+            },
+            {
+              "url": "https://www.ukmto.org/recent-incidents",
+              "source": "UKMTO warning 182, 23 October 2026: crew reported safe"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-10-31T12:46:23Z",
+          "text": "New historical record for a second, separately dated attack on GHANA PROSPERITY. The IMO register lists the same hull on 3 October, which is already reviewed as HIST-ME-20261003-GHANA-PROSPERITY, and again on 23 October. UKMTO warning 182-26, which NAVAREA IX and JMIC attribute to this ship, records an outbound tanker disabled by an unknown projectile about 2 nautical miles off Musandam with the crew reported safe. Deaths are recorded as zero on that crew-safety report, not inferred from silence: no checked source reports a death or an injury. No crew nationality has been published, and the ship's flag is not treated as evidence of nationality. The attack is recorded under its own ID so that the two attacks are not collapsed into one, and no archive total is treated as a count of attacks.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_109_29-oct.pdf?rev=94919740e1734f5c8c515cfa030f7846",
+              "source": "JMIC advisory update 109, 29 October 2026"
+            },
+            {
+              "url": "https://www.ukmto.org/recent-incidents",
+              "source": "UKMTO recent incidents, warning 182"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents register, 23 October 2026 row"
             }
           ]
         }
