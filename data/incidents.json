@@ -7176,18 +7176,42 @@
         "kind": "media",
         "published_at": "2026-10-29T02:02:49Z",
         "title": "Drone attack hits container ship off Bulgaria's Black Sea coast; all crew members rescued - Manila Bulletin"
+      },
+      {
+        "url": "https://apnews.com/article/bulgaria-drone-attack-container-ship-black-sea-2bfd978d36fbb958781cf2721cabcf5c",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-31T04:35:39Z",
+        "title": null
+      },
+      {
+        "url": "https://abcnews.com/Business/wireStory/drones-strike-container-ship-off-bulgarias-black-sea-137637109",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-10-31T04:35:39Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-28T14:24:50Z",
-    "last_updated": "2026-10-31T01:46:34Z",
+    "last_updated": "2026-10-31T04:35:39Z",
     "verification_issue": 268,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "iMariner",
+      "at": "2026-10-31T04:35:39Z",
+      "note": "Bulgaria's defence minister said three maritime drones struck the Liberian flagged Contship Jet about 21 nautical miles off Shabla on 28 October and the manager Contships Management said all 18 crew were rescued to Varna.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/268#issuecomment-6539067084"
+    },
     "published_in": [
       "2026-10-29",
       "2026-10-30"
     ],
-    "status": "reported",
-    "status_changed_at": "2026-10-28T14:24:50Z",
+    "status": "confirmed",
+    "status_changed_at": "2026-10-31T04:35:39Z",
     "position_approx": true,
     "date_approx": false
   },
@@ -7224,13 +7248,14 @@
       }
     ],
     "first_seen": "2026-10-28T19:49:14Z",
-    "last_updated": "2026-10-30T05:06:46Z",
+    "last_updated": "2026-10-31T04:35:37Z",
     "verification_issue": 270,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-30T05:06:46Z",
-      "note": "an analysis piece on the Black Sea threat, naming no ship, date or position"
+      "by": "iMariner",
+      "at": "2026-10-31T04:35:37Z",
+      "note": "an analysis headline about drone attacks on Black Sea shipping that names no ship, date or position, so there is no attack on a vessel to confirm.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/270#issuecomment-6539067257"
     },
     "published_in": [
       "2026-10-29",
