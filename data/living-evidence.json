@@ -11893,7 +11893,7 @@
       },
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-31T06:40:00Z",
+        "checked_at": "2026-10-31T06:30:00Z",
         "vessel_name": "LOUISE 1",
         "imo": "9290323",
         "date_utc": "2026-10-29",
@@ -11944,6 +11944,20 @@
         {
           "at": "2026-10-31T06:40:00Z",
           "text": "Follow-up review, 31 October 2026. The earlier review recorded that no checked source gave a crew nationality. India's shipping minister, Sarbananda Sonowal, stated on 30 October that LOUISE 1 carried 27 Indian seafarers and that all were safe with no injuries, so the crew's nationality is now recorded as his statement, not inferred from the Panamanian flag. Reuters, cited by The Times of India and India Today, attributed the method to three maritime security sources who said two limpet mines were attached by a small craft, which matches UKMTO warning 187-26. Deaths stay at zero on the UKMTO verified crew-safe report: no checked source reports a death or an injury. Indian reporting dates the attack 30 October because 2212 UTC on 29 October falls after midnight in Indian Standard Time; the attack date stays 29 October per UKMTO. The minister described both attacks as projectile attacks, which differs from the limpet-mine accounts and from UKMTO's attached-device wording, so the method is recorded with that difference visible.",
+          "sources": [
+            {
+              "url": "https://timesofindia.indiatimes.com/world/middle-east/tanker-with-27-indian-seafarers-targeted-in-first-ever-limpet-mine-attack-in-strait-of-hormuz/articleshow/135371354.cms",
+              "source": "The Times of India, 30 October 2026"
+            },
+            {
+              "url": "https://www.indiatoday.in/india/story/strait-of-hormuz-tanker-attacks-29-indian-seafarers-safe-3028916-2026-10-30",
+              "source": "India Today, 30 October 2026"
+            }
+          ]
+        },
+        {
+          "at": "2026-10-31T06:30:00Z",
+          "text": "Timestamp correction only. The first submission of this review carried checked_at 06:40 UTC, later than the comment posted at 06:33 UTC. The review was completed before submission, so checked_at is corrected to 06:30 UTC. Nothing else changed: vessel, attack date, summary, sources and the casualty position are as previously submitted and audited.",
           "sources": [
             {
               "url": "https://timesofindia.indiatimes.com/world/middle-east/tanker-with-27-indian-seafarers-targeted-in-first-ever-limpet-mine-attack-in-strait-of-hormuz/articleshow/135371354.cms",
@@ -22407,6 +22421,154 @@
             {
               "url": "https://www.ukmto.org/-/media/ukmto/products/20261029-ukmto_warning-186-26.pdf?rev=d5f4136239bb4071958ad3a7f240a26c",
               "source": "UKMTO warning 186-26, 29 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6540169846,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6540169846",
+      "author": "iMariner",
+      "received_at": "2026-10-31T06:37:52Z",
+      "incident_id": "INC-20261030-001",
+      "before": {
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/20261029-ukmto_warning-187-26-update-001.pdf?rev=c5fca281b8cb48d6b275bf6fb612219f",
+              "source": "UKMTO warning 187-26, attack update 001, 30 October 2026: verified report that the crew are safe"
+            }
+          ],
+          "nationalities": []
+        },
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-31T06:40:00Z",
+          "vessel_name": "LOUISE 1",
+          "imo": "9290323",
+          "date_utc": "2026-10-29",
+          "vessel_type": "Crude oil tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "25NM northeast of Khasab, Oman",
+          "attack_type": "explosive devices attached to hull",
+          "summary": "LOUISE 1, a Panama-flagged crude oil tanker of 159,092 deadweight tonnes, was approached on the port side by a small boat 25 nautical miles northeast of Khasab, Oman at 2212 UTC on 29 October 2026. The small boat attached two explosive devices to the hull above the waterline and the blasts caused a fire in the engine room that temporarily disabled the ship. UKMTO reported on 30 October that a verified report confirmed the crew were safe, that there was no environmental impact, that the fire was extinguished and that the vessel was continuing to its next port of call. Maritime security firm Vanguard Tech, cited by Seatrade Maritime, identified the ship as the Panama-flagged Louise 1 of 159,092 deadweight tonnes, owned by Panama-based Aquarius Maritime Ventures, and those particulars match the crude oil tanker IMO 9290323. Iran's army navy said a tanker had struck a naval mine in a restricted area east of the strait, which contradicts the UKMTO account. India's minister for ports, shipping and waterways, Sarbananda Sonowal, said in a post on 30 October 2026 that 27 Indian seafarers were aboard LOUISE 1 and that all 29 Indian seafarers on the two tankers struck on 29 and 30 October were completely safe with no injuries. Reuters, cited by The Times of India and India Today, reported that three maritime security sources said two limpet mines had been attached to the hull by a small craft.",
+          "date_note": "UKMTO warning 187-26 gives the attack as 29 October 2026 at 2212 UTC. The crew-safe update was issued at 0150 UTC on 30 October, which is why some reports carry a 30 October date.",
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/20261029-ukmto_warning-187-26-update-001.pdf?rev=c5fca281b8cb48d6b275bf6fb612219f",
+              "source": "UKMTO warning 187-26, attack update 001, 30 October 2026"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/tanker-catches-fire-in-hormuz-after-explosives-attached-to-hull",
+              "source": "Seatrade Maritime, 30 October 2026, citing Vanguard Tech and Pole Star Global"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9290323",
+              "source": "VesselFinder vessel particulars for IMO 9290323"
+            },
+            {
+              "url": "https://timesofindia.indiatimes.com/world/middle-east/tanker-with-27-indian-seafarers-targeted-in-first-ever-limpet-mine-attack-in-strait-of-hormuz/articleshow/135371354.cms",
+              "source": "The Times of India, 30 October 2026, quoting Indian shipping minister Sarbananda Sonowal and Reuters"
+            },
+            {
+              "url": "https://www.indiatoday.in/india/story/strait-of-hormuz-tanker-attacks-29-indian-seafarers-safe-3028916-2026-10-30",
+              "source": "India Today, 30 October 2026, quoting the Indian shipping minister and Reuters"
+            }
+          ]
+        },
+        "updates": [
+          {
+            "at": "2026-10-30T05:55:00Z",
+            "text": "First review of this record. The corpus row held the name but no flag, no position and only a headline claim that the crew were safe. UKMTO warning 187-26 and its 30 October update establish the attack time, position and method, and state on a verified report that the crew were safe and that there was no environmental impact. Seatrade Maritime, citing Vanguard Tech, names the tanker as the Panama-flagged Louise 1, whose tonnage and owner match IMO 9290323, so the identity is recorded rather than guessed. Zero deaths is a stated fact in the UKMTO report, not an inference from silence, and no nationality is recorded because no checked source gives one. The Iranian army navy's claim that the ship hit a mine is recorded as a conflicting account. Kept separate from the 29 October 16:00 UTC projectile strike and from the 29 October dhow fire, which are different events.",
+            "sources": [
+              {
+                "url": "https://ukmto.org/-/media/ukmto/products/20261029-ukmto_warning-187-26-update-001.pdf?rev=c5fca281b8cb48d6b275bf6fb612219f",
+                "source": "UKMTO warning 187-26, attack update 001, 30 October 2026"
+              },
+              {
+                "url": "https://www.seatrade-maritime.com/security/tanker-catches-fire-in-hormuz-after-explosives-attached-to-hull",
+                "source": "Seatrade Maritime, 30 October 2026"
+              }
+            ]
+          },
+          {
+            "at": "2026-10-31T06:40:00Z",
+            "text": "Follow-up review, 31 October 2026. The earlier review recorded that no checked source gave a crew nationality. India's shipping minister, Sarbananda Sonowal, stated on 30 October that LOUISE 1 carried 27 Indian seafarers and that all were safe with no injuries, so the crew's nationality is now recorded as his statement, not inferred from the Panamanian flag. Reuters, cited by The Times of India and India Today, attributed the method to three maritime security sources who said two limpet mines were attached by a small craft, which matches UKMTO warning 187-26. Deaths stay at zero on the UKMTO verified crew-safe report: no checked source reports a death or an injury. Indian reporting dates the attack 30 October because 2212 UTC on 29 October falls after midnight in Indian Standard Time; the attack date stays 29 October per UKMTO. The minister described both attacks as projectile attacks, which differs from the limpet-mine accounts and from UKMTO's attached-device wording, so the method is recorded with that difference visible.",
+            "sources": [
+              {
+                "url": "https://timesofindia.indiatimes.com/world/middle-east/tanker-with-27-indian-seafarers-targeted-in-first-ever-limpet-mine-attack-in-strait-of-hormuz/articleshow/135371354.cms",
+                "source": "The Times of India, 30 October 2026"
+              },
+              {
+                "url": "https://www.indiatoday.in/india/story/strait-of-hormuz-tanker-attacks-29-indian-seafarers-safe-3028916-2026-10-30",
+                "source": "India Today, 30 October 2026"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "INC-20261030-001",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-31T06:30:00Z",
+          "vessel_name": "LOUISE 1",
+          "imo": "9290323",
+          "date_utc": "2026-10-29",
+          "vessel_type": "Crude oil tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "25NM northeast of Khasab, Oman",
+          "attack_type": "explosive devices attached to hull",
+          "summary": "LOUISE 1, a Panama-flagged crude oil tanker of 159,092 deadweight tonnes, was approached on the port side by a small boat 25 nautical miles northeast of Khasab, Oman at 2212 UTC on 29 October 2026. The small boat attached two explosive devices to the hull above the waterline and the blasts caused a fire in the engine room that temporarily disabled the ship. UKMTO reported on 30 October that a verified report confirmed the crew were safe, that there was no environmental impact, that the fire was extinguished and that the vessel was continuing to its next port of call. Maritime security firm Vanguard Tech, cited by Seatrade Maritime, identified the ship as the Panama-flagged Louise 1 of 159,092 deadweight tonnes, owned by Panama-based Aquarius Maritime Ventures, and those particulars match the crude oil tanker IMO 9290323. Iran's army navy said a tanker had struck a naval mine in a restricted area east of the strait, which contradicts the UKMTO account. India's minister for ports, shipping and waterways, Sarbananda Sonowal, said in a post on 30 October 2026 that 27 Indian seafarers were aboard LOUISE 1 and that all 29 Indian seafarers on the two tankers struck on 29 and 30 October were completely safe with no injuries. Reuters, cited by The Times of India and India Today, reported that three maritime security sources said two limpet mines had been attached to the hull by a small craft.",
+          "date_note": "UKMTO warning 187-26 gives the attack as 29 October 2026 at 2212 UTC. The crew-safe update was issued at 0150 UTC on 30 October, which is why some reports carry a 30 October date.",
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/20261029-ukmto_warning-187-26-update-001.pdf?rev=c5fca281b8cb48d6b275bf6fb612219f",
+              "source": "UKMTO warning 187-26, attack update 001, 30 October 2026"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/tanker-catches-fire-in-hormuz-after-explosives-attached-to-hull",
+              "source": "Seatrade Maritime, 30 October 2026, citing Vanguard Tech and Pole Star Global"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9290323",
+              "source": "VesselFinder vessel particulars for IMO 9290323"
+            },
+            {
+              "url": "https://timesofindia.indiatimes.com/world/middle-east/tanker-with-27-indian-seafarers-targeted-in-first-ever-limpet-mine-attack-in-strait-of-hormuz/articleshow/135371354.cms",
+              "source": "The Times of India, 30 October 2026, quoting Indian shipping minister Sarbananda Sonowal and Reuters"
+            },
+            {
+              "url": "https://www.indiatoday.in/india/story/strait-of-hormuz-tanker-attacks-29-indian-seafarers-safe-3028916-2026-10-30",
+              "source": "India Today, 30 October 2026, quoting the Indian shipping minister and Reuters"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/20261029-ukmto_warning-187-26-update-001.pdf?rev=c5fca281b8cb48d6b275bf6fb612219f",
+              "source": "UKMTO warning 187-26, attack update 001, 30 October 2026: verified report that the crew are safe"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-10-31T06:30:00Z",
+          "text": "Timestamp correction only. The first submission of this review carried checked_at 06:40 UTC, later than the comment posted at 06:33 UTC. The review was completed before submission, so checked_at is corrected to 06:30 UTC. Nothing else changed: vessel, attack date, summary, sources and the casualty position are as previously submitted and audited.",
+          "sources": [
+            {
+              "url": "https://timesofindia.indiatimes.com/world/middle-east/tanker-with-27-indian-seafarers-targeted-in-first-ever-limpet-mine-attack-in-strait-of-hormuz/articleshow/135371354.cms",
+              "source": "The Times of India, 30 October 2026"
+            },
+            {
+              "url": "https://www.indiatoday.in/india/story/strait-of-hormuz-tanker-attacks-29-indian-seafarers-safe-3028916-2026-10-30",
+              "source": "India Today, 30 October 2026"
             }
           ]
         }
