@@ -12022,7 +12022,7 @@
     "INC-20261030-011": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-31T00:50:00Z",
+        "checked_at": "2026-10-31T00:24:24Z",
         "vessel_name": "RITI",
         "date_utc": "2026-10-30",
         "vessel_type": "Crude oil tanker",
@@ -12050,6 +12050,24 @@
         {
           "at": "2026-10-31T00:50:00Z",
           "text": "First review of this record. The corpus row carried the name RITI and a headline that 25 sailors were evacuated, but no flag, type, position or attacker. Oman's Maritime Security Centre statement, read through Dawn, gives the flag, the evacuation of 25 crew, the medical care and a distance of about 106 nautical miles off Musandam. Al Jazeera identifies the hull as a crude oil tanker on MarineTraffic tracking data. The Maritime Executive gives the tonnage, the Hong Kong management and Orbital Risk Intelligence's account that the ship was struck by an Iranian missile; because the Omani statement names no weapon, that attribution is recorded as a consultancy report, not an established fact. Deaths are left unreported rather than counted as zero: no checked source states a death toll or says that nobody died, and the only statement about the crew is that the 25 were evacuated and treated. No crew nationality is recorded, since the flag is Panamanian and nothing checked gives crew nationalities. The evacuation is a separate event from the limpet mine attack on the tanker Louise 1 about 25 nautical miles northeast of Khasab on 29 October, which is recorded under its own ID.",
+          "sources": [
+            {
+              "url": "https://www.dawn.com/news/2040966",
+              "source": "Dawn, 30 October 2026"
+            },
+            {
+              "url": "https://maritime-executive.com/article/oman-evacuates-tanker-crew-as-iran-claims-spate-of-new-attacks",
+              "source": "The Maritime Executive, 30 October 2026"
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz",
+              "source": "Al Jazeera, 30 October 2026"
+            }
+          ]
+        },
+        {
+          "at": "2026-10-31T00:24:24Z",
+          "text": "Correction to the review timestamp only. The first submission on this record carried checked_at 2026-10-31T00:50:00Z, which was later than the comment itself and therefore not the true review time; the review was completed before the comment was posted at 00:22Z. No vessel fact, attack date, source or casualty position changes: deaths stay unreported rather than counted as zero, no crew nationality is recorded, and the missile attribution remains a risk consultancy's report rather than an established fact. The previous submission stays in the audit history.",
           "sources": [
             {
               "url": "https://www.dawn.com/news/2040966",
@@ -21889,6 +21907,108 @@
             {
               "url": "https://energynow.com/2026/07/yemens-houthis-say-they-targeted-two-saudi-tankers-source-says-encelia-hit-by-missile/",
               "source": "Reuters report carried by EnergyNow, 23 July 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6536450189,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6536450189",
+      "author": "iMariner",
+      "received_at": "2026-10-31T00:24:25Z",
+      "incident_id": "INC-20261030-011",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-31T00:50:00Z",
+          "vessel_name": "RITI",
+          "date_utc": "2026-10-30",
+          "vessel_type": "Crude oil tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "Off Musandam, Oman, at the southern entrance to the Strait of Hormuz",
+          "attack_type": "missile, as reported by a maritime risk consultancy",
+          "summary": "RITI, a Panama-flagged crude oil tanker of 166,729 deadweight tonnes managed from Hong Kong, was targeted and set on fire off Musandam, Oman, on 30 October 2026. Oman's Maritime Security Centre said the Royal Oman Navy evacuated the 25 crew members aboard and that they were given the medical care they needed. The centre placed the incident about 106 nautical miles off the Musandam coast, while other reports said the ship was about 1.6 nautical miles from the coast, so the distance is left unresolved. Orbital Risk Intelligence, cited by The Maritime Executive, said the outbound tanker was struck by an Iranian missile. Oman's statement named no weapon and no attacker, and it is not established whether the vessel was one of the three tankers Iran's Revolutionary Guard said it halted that day. No death toll has been published.",
+          "date_note": "Oman's Maritime Security Centre announced the evacuation on Friday 30 October 2026, which is recorded as the attack date. No attack time was published, so no time of day is given.",
+          "sources": [
+            {
+              "url": "https://www.dawn.com/news/2040966",
+              "source": "Dawn, 30 October 2026, quoting Oman's Maritime Security Centre statement: 106 nautical miles off Musandam, 25 crew evacuated, medical care provided"
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz",
+              "source": "Al Jazeera, 30 October 2026, quoting the Omani Maritime Security Centre and MarineTraffic: Panama flag, crude oil tanker, 25 rescued"
+            },
+            {
+              "url": "https://maritime-executive.com/article/oman-evacuates-tanker-crew-as-iran-claims-spate-of-new-attacks",
+              "source": "The Maritime Executive, 30 October 2026: 166,729 dwt, Panama flag, Hong Kong management, Orbital Risk Intelligence report of an Iranian missile"
+            }
+          ]
+        },
+        "updates": [
+          {
+            "at": "2026-10-31T00:50:00Z",
+            "text": "First review of this record. The corpus row carried the name RITI and a headline that 25 sailors were evacuated, but no flag, type, position or attacker. Oman's Maritime Security Centre statement, read through Dawn, gives the flag, the evacuation of 25 crew, the medical care and a distance of about 106 nautical miles off Musandam. Al Jazeera identifies the hull as a crude oil tanker on MarineTraffic tracking data. The Maritime Executive gives the tonnage, the Hong Kong management and Orbital Risk Intelligence's account that the ship was struck by an Iranian missile; because the Omani statement names no weapon, that attribution is recorded as a consultancy report, not an established fact. Deaths are left unreported rather than counted as zero: no checked source states a death toll or says that nobody died, and the only statement about the crew is that the 25 were evacuated and treated. No crew nationality is recorded, since the flag is Panamanian and nothing checked gives crew nationalities. The evacuation is a separate event from the limpet mine attack on the tanker Louise 1 about 25 nautical miles northeast of Khasab on 29 October, which is recorded under its own ID.",
+            "sources": [
+              {
+                "url": "https://www.dawn.com/news/2040966",
+                "source": "Dawn, 30 October 2026"
+              },
+              {
+                "url": "https://maritime-executive.com/article/oman-evacuates-tanker-crew-as-iran-claims-spate-of-new-attacks",
+                "source": "The Maritime Executive, 30 October 2026"
+              },
+              {
+                "url": "https://www.aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz",
+                "source": "Al Jazeera, 30 October 2026"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "INC-20261030-011",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-31T00:24:24Z",
+          "vessel_name": "RITI",
+          "date_utc": "2026-10-30",
+          "vessel_type": "Crude oil tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "Off Musandam, Oman, at the southern entrance to the Strait of Hormuz",
+          "attack_type": "missile, as reported by a maritime risk consultancy",
+          "summary": "RITI, a Panama-flagged crude oil tanker of 166,729 deadweight tonnes managed from Hong Kong, was targeted and set on fire off Musandam, Oman, on 30 October 2026. Oman's Maritime Security Centre said the Royal Oman Navy evacuated the 25 crew members aboard and that they were given the medical care they needed. The centre placed the incident about 106 nautical miles off the Musandam coast, while other reports said the ship was about 1.6 nautical miles from the coast, so the distance is left unresolved. Orbital Risk Intelligence, cited by The Maritime Executive, said the outbound tanker was struck by an Iranian missile. Oman's statement named no weapon and no attacker, and it is not established whether the vessel was one of the three tankers Iran's Revolutionary Guard said it halted that day. No death toll has been published.",
+          "date_note": "Oman's Maritime Security Centre announced the evacuation on Friday 30 October 2026, which is recorded as the attack date. No attack time was published, so no time of day is given.",
+          "sources": [
+            {
+              "url": "https://www.dawn.com/news/2040966",
+              "source": "Dawn, 30 October 2026, quoting Oman's Maritime Security Centre statement: 106 nautical miles off Musandam, 25 crew evacuated, medical care provided"
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz",
+              "source": "Al Jazeera, 30 October 2026, quoting the Omani Maritime Security Centre and MarineTraffic: Panama flag, crude oil tanker, 25 rescued"
+            },
+            {
+              "url": "https://maritime-executive.com/article/oman-evacuates-tanker-crew-as-iran-claims-spate-of-new-attacks",
+              "source": "The Maritime Executive, 30 October 2026: 166,729 dwt, Panama flag, Hong Kong management, Orbital Risk Intelligence report of an Iranian missile"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-10-31T00:24:24Z",
+          "text": "Correction to the review timestamp only. The first submission on this record carried checked_at 2026-10-31T00:50:00Z, which was later than the comment itself and therefore not the true review time; the review was completed before the comment was posted at 00:22Z. No vessel fact, attack date, source or casualty position changes: deaths stay unreported rather than counted as zero, no crew nationality is recorded, and the missile attribution remains a risk consultancy's report rather than an established fact. The previous submission stays in the audit history.",
+          "sources": [
+            {
+              "url": "https://www.dawn.com/news/2040966",
+              "source": "Dawn, 30 October 2026"
+            },
+            {
+              "url": "https://maritime-executive.com/article/oman-evacuates-tanker-crew-as-iran-claims-spate-of-new-attacks",
+              "source": "The Maritime Executive, 30 October 2026"
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz",
+              "source": "Al Jazeera, 30 October 2026"
             }
           ]
         }
