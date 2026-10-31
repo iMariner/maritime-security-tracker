@@ -12459,6 +12459,80 @@
           ]
         }
       ]
+    },
+    "HIST-BS-20260821-RMS-TEAM": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "human_impact": {
+        "missing": {
+          "count": 1,
+          "as_of": "2026-08-21",
+          "sources": [
+            {
+              "url": "https://safety4sea.com/container-vessel-attacked-by-drone-in-black-sea-with-one-crew-member-missing/",
+              "source": "SAFETY4SEA, 24 August 2026: one of the 12 crew remained missing after 11 were rescued"
+            },
+            {
+              "url": "https://en.haberler.com/the-rms-team-which-was-hit-by-a-ukrainian-uav-was-2325836/",
+              "source": "Haberler carrying DHA, 31 October 2026: one crew member reported missing, no later recovery reported"
+            }
+          ]
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-31T18:55:22Z",
+        "vessel_name": "RMS TEAM",
+        "imo": "9282170",
+        "date_utc": "2026-08-21",
+        "vessel_type": "Container ship",
+        "region": "Black Sea",
+        "location_text": "Black Sea, on passage from Gemlik, Turkey, to Novorossiysk, Russia",
+        "attack_type": "drone (UAV)",
+        "summary": "RMS TEAM, a Barbados flagged container ship of 12,968 deadweight built in 2004 and 146.39 metres long, was struck by a drone in the Black Sea on 21 August 2026 while on passage from Gemlik in Turkey to Novorossiysk in Russia. Fires broke out in the accommodation, the engine room and on deck, spread to the containers and left heavy damage with holes near the waterline. The 12 crew abandoned the vessel; 11 were rescued by the crew of the nearby container ship Lider Perihan and handed to Turkish Coast Guard teams, and one crew member was reported missing while search and rescue continued. The operator, the Turkish company Akkon Lines, said the vessel and its cargo could be a constructive total loss. The ship was towed first to Samsun and later through the Istanbul Strait on 31 October 2026 by Coastal Safety tugs, with strait traffic suspended for the passage. Turkish reports attributed the strike to a Ukrainian drone; at the time of the operator statements checked, no party had been officially identified as responsible.",
+        "date_note": "The Turkish reports and the operator statements date the attack 21 August 2026. VesselFinder shows the last AIS position off Turkey before the strike and the operator notice was issued on Friday 21 August, so the day-precision UTC date is 21 August; no time of strike is fixed by the sources read.",
+        "sources": [
+          {
+            "url": "https://en.haberler.com/the-rms-team-which-was-hit-by-a-ukrainian-uav-was-2325836/",
+            "source": "Haberler, carrying the DHA report, 31 October 2026: Barbados flagged container ship RMS Team, 146.39 m, attacked by a UAV on 21 August on passage from Gemlik to Novorossiysk, fires in accommodation, engine room and deck, 11 of 12 crew rescued by the container ship Lider Perihan, one missing, towed via Samsun and passed the Istanbul Strait on 31 October"
+          },
+          {
+            "url": "https://safety4sea.com/container-vessel-attacked-by-drone-in-black-sea-with-one-crew-member-missing/",
+            "source": "SAFETY4SEA, 24 August 2026: RMS Team attacked by a drone on 21 August while sailing to Novorossiysk, 12 crew abandoned ship, 11 rescued by a nearby vessel, one missing, search under way, operator Akkon Lines said ship and cargo could be a constructive total loss, no party officially identified at the time"
+          },
+          {
+            "url": "https://fakti.bg/en/world/1076033-tensions-in-the-black-sea-drone-attacks-container-ship-rms-team-sailing-to-russia",
+            "source": "Fakti.bg, 22 August 2026: operator Akkon Lines reported the drone attack and the missing crew member, damage critical and possible constructive total loss, ship sailed from Gemlik on 12 August for Novorossiysk"
+          },
+          {
+            "url": "https://www.vesselfinder.com/vessels/details/9282170",
+            "source": "VesselFinder vessel register: RMS TEAM, IMO 9282170, container ship built 2004, Barbados flag, 146.39 m length, 22.7 m beam, 9,528 GT, 12,968 dwt"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-31T18:55:22Z",
+          "text": "New reviewed record for the 21 August 2026 drone attack on the container ship RMS TEAM, which was absent from both incident stores. It was found through Turkish reports of 31 October that the ship passed the Istanbul Strait under tow, which the corpus had filed as a 31 October incident. Nothing in those reports describes a new attack on 31 October: the strike they describe happened on 21 August, and the transit is recorded here as a later event. One of the 12 crew is missing and no death is recorded for this ship, so the death count is left unknown rather than zero and the missing seafarer is carried as one missing person. No crew nationality is published, and the Barbados flag is not treated as evidence of crew nationality. Turkish reports attribute the strike to a Ukrainian drone while the operator said no party had been officially identified when it reported, so the attribution is recorded as a claim.",
+          "sources": [
+            {
+              "url": "https://en.haberler.com/the-rms-team-which-was-hit-by-a-ukrainian-uav-was-2325836/",
+              "source": "Haberler, carrying the DHA report, 31 October 2026: Barbados flagged container ship RMS Team, 146.39 m, attacked by a UAV on 21 August on passage from Gemlik to Novorossiysk, fires in accommodation, engine room and deck, 11 of 12 crew rescued by the container ship Lider Perihan, one missing, towed via Samsun and passed the Istanbul Strait on 31 October"
+            },
+            {
+              "url": "https://safety4sea.com/container-vessel-attacked-by-drone-in-black-sea-with-one-crew-member-missing/",
+              "source": "SAFETY4SEA, 24 August 2026: RMS Team attacked by a drone on 21 August while sailing to Novorossiysk, 12 crew abandoned ship, 11 rescued by a nearby vessel, one missing, search under way, operator Akkon Lines said ship and cargo could be a constructive total loss, no party officially identified at the time"
+            },
+            {
+              "url": "https://fakti.bg/en/world/1076033-tensions-in-the-black-sea-drone-attacks-container-ship-rms-team-sailing-to-russia",
+              "source": "Fakti.bg, 22 August 2026: operator Akkon Lines reported the drone attack and the missing crew member, damage critical and possible constructive total loss, ship sailed from Gemlik on 12 August for Novorossiysk"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -23013,6 +23087,88 @@
             {
               "url": "https://www.straitstimes.com/world/europe/russian-drones-hit-two-ships-including-chinese-cargo-vessel-off-ukraines-black-sea-coast",
               "source": "Reuters via The Straits Times, 18 May 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6547736041,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6547736041",
+      "author": "iMariner",
+      "received_at": "2026-10-31T18:55:23Z",
+      "incident_id": "HIST-BS-20260821-RMS-TEAM",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-BS-20260821-RMS-TEAM",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-31T18:55:22Z",
+          "vessel_name": "RMS TEAM",
+          "imo": "9282170",
+          "date_utc": "2026-08-21",
+          "vessel_type": "Container ship",
+          "region": "Black Sea",
+          "location_text": "Black Sea, on passage from Gemlik, Turkey, to Novorossiysk, Russia",
+          "attack_type": "drone (UAV)",
+          "summary": "RMS TEAM, a Barbados flagged container ship of 12,968 deadweight built in 2004 and 146.39 metres long, was struck by a drone in the Black Sea on 21 August 2026 while on passage from Gemlik in Turkey to Novorossiysk in Russia. Fires broke out in the accommodation, the engine room and on deck, spread to the containers and left heavy damage with holes near the waterline. The 12 crew abandoned the vessel; 11 were rescued by the crew of the nearby container ship Lider Perihan and handed to Turkish Coast Guard teams, and one crew member was reported missing while search and rescue continued. The operator, the Turkish company Akkon Lines, said the vessel and its cargo could be a constructive total loss. The ship was towed first to Samsun and later through the Istanbul Strait on 31 October 2026 by Coastal Safety tugs, with strait traffic suspended for the passage. Turkish reports attributed the strike to a Ukrainian drone; at the time of the operator statements checked, no party had been officially identified as responsible.",
+          "date_note": "The Turkish reports and the operator statements date the attack 21 August 2026. VesselFinder shows the last AIS position off Turkey before the strike and the operator notice was issued on Friday 21 August, so the day-precision UTC date is 21 August; no time of strike is fixed by the sources read.",
+          "sources": [
+            {
+              "url": "https://en.haberler.com/the-rms-team-which-was-hit-by-a-ukrainian-uav-was-2325836/",
+              "source": "Haberler, carrying the DHA report, 31 October 2026: Barbados flagged container ship RMS Team, 146.39 m, attacked by a UAV on 21 August on passage from Gemlik to Novorossiysk, fires in accommodation, engine room and deck, 11 of 12 crew rescued by the container ship Lider Perihan, one missing, towed via Samsun and passed the Istanbul Strait on 31 October"
+            },
+            {
+              "url": "https://safety4sea.com/container-vessel-attacked-by-drone-in-black-sea-with-one-crew-member-missing/",
+              "source": "SAFETY4SEA, 24 August 2026: RMS Team attacked by a drone on 21 August while sailing to Novorossiysk, 12 crew abandoned ship, 11 rescued by a nearby vessel, one missing, search under way, operator Akkon Lines said ship and cargo could be a constructive total loss, no party officially identified at the time"
+            },
+            {
+              "url": "https://fakti.bg/en/world/1076033-tensions-in-the-black-sea-drone-attacks-container-ship-rms-team-sailing-to-russia",
+              "source": "Fakti.bg, 22 August 2026: operator Akkon Lines reported the drone attack and the missing crew member, damage critical and possible constructive total loss, ship sailed from Gemlik on 12 August for Novorossiysk"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9282170",
+              "source": "VesselFinder vessel register: RMS TEAM, IMO 9282170, container ship built 2004, Barbados flag, 146.39 m length, 22.7 m beam, 9,528 GT, 12,968 dwt"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "human_impact": {
+          "missing": {
+            "count": 1,
+            "as_of": "2026-08-21",
+            "sources": [
+              {
+                "url": "https://safety4sea.com/container-vessel-attacked-by-drone-in-black-sea-with-one-crew-member-missing/",
+                "source": "SAFETY4SEA, 24 August 2026: one of the 12 crew remained missing after 11 were rescued"
+              },
+              {
+                "url": "https://en.haberler.com/the-rms-team-which-was-hit-by-a-ukrainian-uav-was-2325836/",
+                "source": "Haberler carrying DHA, 31 October 2026: one crew member reported missing, no later recovery reported"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-10-31T18:55:22Z",
+          "text": "New reviewed record for the 21 August 2026 drone attack on the container ship RMS TEAM, which was absent from both incident stores. It was found through Turkish reports of 31 October that the ship passed the Istanbul Strait under tow, which the corpus had filed as a 31 October incident. Nothing in those reports describes a new attack on 31 October: the strike they describe happened on 21 August, and the transit is recorded here as a later event. One of the 12 crew is missing and no death is recorded for this ship, so the death count is left unknown rather than zero and the missing seafarer is carried as one missing person. No crew nationality is published, and the Barbados flag is not treated as evidence of crew nationality. Turkish reports attribute the strike to a Ukrainian drone while the operator said no party had been officially identified when it reported, so the attribution is recorded as a claim.",
+          "sources": [
+            {
+              "url": "https://en.haberler.com/the-rms-team-which-was-hit-by-a-ukrainian-uav-was-2325836/",
+              "source": "Haberler, carrying the DHA report, 31 October 2026: Barbados flagged container ship RMS Team, 146.39 m, attacked by a UAV on 21 August on passage from Gemlik to Novorossiysk, fires in accommodation, engine room and deck, 11 of 12 crew rescued by the container ship Lider Perihan, one missing, towed via Samsun and passed the Istanbul Strait on 31 October"
+            },
+            {
+              "url": "https://safety4sea.com/container-vessel-attacked-by-drone-in-black-sea-with-one-crew-member-missing/",
+              "source": "SAFETY4SEA, 24 August 2026: RMS Team attacked by a drone on 21 August while sailing to Novorossiysk, 12 crew abandoned ship, 11 rescued by a nearby vessel, one missing, search under way, operator Akkon Lines said ship and cargo could be a constructive total loss, no party officially identified at the time"
+            },
+            {
+              "url": "https://fakti.bg/en/world/1076033-tensions-in-the-black-sea-drone-attacks-container-ship-rms-team-sailing-to-russia",
+              "source": "Fakti.bg, 22 August 2026: operator Akkon Lines reported the drone attack and the missing crew member, damage critical and possible constructive total loss, ship sailed from Gemlik on 12 August for Novorossiysk"
             }
           ]
         }
