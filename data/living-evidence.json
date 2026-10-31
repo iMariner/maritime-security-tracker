@@ -12184,7 +12184,7 @@
       },
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-31T06:40:00Z",
+        "checked_at": "2026-10-31T06:30:00Z",
         "vessel_name": "KAZIMAH III",
         "imo": "9329693",
         "date_utc": "2026-10-01",
@@ -12213,6 +12213,24 @@
         {
           "at": "2026-10-31T06:40:00Z",
           "text": "First review of this backfill record, which was confirmed from a UKMTO warning and a secondary identification but had no structured evidence. UKMTO warning 147-26 was a third-party report that a tanker had been struck by an unknown projectile, that the crew had been reported safe and that damage and environmental impact were unknown; the warning named no hull. The IMO register independently lists KAZIMAH III, IMO 9329693, on 1 October, damaged, no pollution. Portnews identified the tanker as Kuwait Oil Tanker Company's Kuwait-flagged VLCC. Deaths are left unknown rather than zero: UKMTO's crew line came from a third party and no authority published an injury or death count, so silence is not read as a zero. No nationality is recorded and no attacker is named.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/2026101-ukmto_warning-147-26.pdf?rev=9623c601bb7642b494ea87bbbdb435d8",
+              "source": "UKMTO warning 147-26, 1 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO highlighted confirmed incidents list, 30 October 2026"
+            },
+            {
+              "url": "https://en.portnews.ru/news/397767/",
+              "source": "Portnews, 1 October 2026"
+            }
+          ]
+        },
+        {
+          "at": "2026-10-31T06:30:00Z",
+          "text": "Timestamp correction only. The first submission of this review carried checked_at 06:40 UTC, later than the comment posted at 06:33 UTC. The review was completed before submission, so checked_at is corrected to 06:30 UTC. Nothing else changed: vessel, attack date, summary, sources and the casualty position are as previously submitted and audited.",
           "sources": [
             {
               "url": "https://www.ukmto.org/-/media/ukmto/products/2026101-ukmto_warning-147-26.pdf?rev=9623c601bb7642b494ea87bbbdb435d8",
@@ -22569,6 +22587,120 @@
             {
               "url": "https://www.indiatoday.in/india/story/strait-of-hormuz-tanker-attacks-29-indian-seafarers-safe-3028916-2026-10-30",
               "source": "India Today, 30 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6540179199,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6540179199",
+      "author": "iMariner",
+      "received_at": "2026-10-31T06:39:00Z",
+      "incident_id": "INC-20261002-001",
+      "before": {
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-31T06:40:00Z",
+          "vessel_name": "KAZIMAH III",
+          "imo": "9329693",
+          "date_utc": "2026-10-01",
+          "vessel_type": "Crude oil tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "Strait of Hormuz",
+          "attack_type": "projectile",
+          "summary": "KAZIMAH III, a Kuwait-flagged very large crude carrier owned by Kuwait Oil Tanker Company, was struck by an unknown projectile while transiting the Strait of Hormuz on 1 October 2026, starting a fire on board. UKMTO warning 147-26, issued on a third-party report, said the crew had been reported safe and that the damage assessment and environmental impact were unknown; the warning named no vessel, flag or owner. The IMO list of highlighted confirmed incidents records KAZIMAH III, IMO 9329693, on 1 October in the Strait of Hormuz as damaged with no pollution, and gives 122 confirmed incidents and 24 confirmed seafarer fatalities as at 30 October 2026. Portnews and other shipping outlets identified the tanker as Kuwait Oil Tanker Company's Kuwait-flagged VLCC KAZIMAH III. No attacker was named by UKMTO and no death or injury count was published.",
+          "date_note": "UKMTO warning 147-26 places the strike on 1 October 2026; the warning carried no incident time. The IMO register also dates the event 1 October.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/2026101-ukmto_warning-147-26.pdf?rev=9623c601bb7642b494ea87bbbdb435d8",
+              "source": "UKMTO warning 147-26, attack, 1 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO highlighted confirmed incidents list, read 31 October 2026"
+            },
+            {
+              "url": "https://en.portnews.ru/news/397767/",
+              "source": "Portnews, 1 October 2026, identifying the tanker as Kazimah III"
+            }
+          ]
+        },
+        "updates": [
+          {
+            "at": "2026-10-31T06:40:00Z",
+            "text": "First review of this backfill record, which was confirmed from a UKMTO warning and a secondary identification but had no structured evidence. UKMTO warning 147-26 was a third-party report that a tanker had been struck by an unknown projectile, that the crew had been reported safe and that damage and environmental impact were unknown; the warning named no hull. The IMO register independently lists KAZIMAH III, IMO 9329693, on 1 October, damaged, no pollution. Portnews identified the tanker as Kuwait Oil Tanker Company's Kuwait-flagged VLCC. Deaths are left unknown rather than zero: UKMTO's crew line came from a third party and no authority published an injury or death count, so silence is not read as a zero. No nationality is recorded and no attacker is named.",
+            "sources": [
+              {
+                "url": "https://www.ukmto.org/-/media/ukmto/products/2026101-ukmto_warning-147-26.pdf?rev=9623c601bb7642b494ea87bbbdb435d8",
+                "source": "UKMTO warning 147-26, 1 October 2026"
+              },
+              {
+                "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+                "source": "IMO highlighted confirmed incidents list, 30 October 2026"
+              },
+              {
+                "url": "https://en.portnews.ru/news/397767/",
+                "source": "Portnews, 1 October 2026"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "INC-20261002-001",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-31T06:30:00Z",
+          "vessel_name": "KAZIMAH III",
+          "imo": "9329693",
+          "date_utc": "2026-10-01",
+          "vessel_type": "Crude oil tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "Strait of Hormuz",
+          "attack_type": "projectile",
+          "summary": "KAZIMAH III, a Kuwait-flagged very large crude carrier owned by Kuwait Oil Tanker Company, was struck by an unknown projectile while transiting the Strait of Hormuz on 1 October 2026, starting a fire on board. UKMTO warning 147-26, issued on a third-party report, said the crew had been reported safe and that the damage assessment and environmental impact were unknown; the warning named no vessel, flag or owner. The IMO list of highlighted confirmed incidents records KAZIMAH III, IMO 9329693, on 1 October in the Strait of Hormuz as damaged with no pollution, and gives 122 confirmed incidents and 24 confirmed seafarer fatalities as at 30 October 2026. Portnews and other shipping outlets identified the tanker as Kuwait Oil Tanker Company's Kuwait-flagged VLCC KAZIMAH III. No attacker was named by UKMTO and no death or injury count was published.",
+          "date_note": "UKMTO warning 147-26 places the strike on 1 October 2026; the warning carried no incident time. The IMO register also dates the event 1 October.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/2026101-ukmto_warning-147-26.pdf?rev=9623c601bb7642b494ea87bbbdb435d8",
+              "source": "UKMTO warning 147-26, attack, 1 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO highlighted confirmed incidents list, read 31 October 2026"
+            },
+            {
+              "url": "https://en.portnews.ru/news/397767/",
+              "source": "Portnews, 1 October 2026, identifying the tanker as Kazimah III"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-10-31T06:30:00Z",
+          "text": "Timestamp correction only. The first submission of this review carried checked_at 06:40 UTC, later than the comment posted at 06:33 UTC. The review was completed before submission, so checked_at is corrected to 06:30 UTC. Nothing else changed: vessel, attack date, summary, sources and the casualty position are as previously submitted and audited.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/2026101-ukmto_warning-147-26.pdf?rev=9623c601bb7642b494ea87bbbdb435d8",
+              "source": "UKMTO warning 147-26, 1 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO highlighted confirmed incidents list, 30 October 2026"
+            },
+            {
+              "url": "https://en.portnews.ru/news/397767/",
+              "source": "Portnews, 1 October 2026"
             }
           ]
         }
