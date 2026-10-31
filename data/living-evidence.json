@@ -12375,6 +12375,90 @@
           ]
         }
       ]
+    },
+    "HIST-BS-20260518-KSL-DEYANG": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://kyivindependent.com/terrible-mistake-as-putin-heads-to-china-russia-hits-chinese-linked-cargo-ship-near-odesa",
+            "source": "Kyiv Independent, 18 May 2026, quoting Odesa governor Oleh Kiper: no crew members were injured"
+          },
+          {
+            "url": "https://www.straitstimes.com/world/europe/russian-drones-hit-two-ships-including-chinese-cargo-vessel-off-ukraines-black-sea-coast",
+            "source": "Reuters via The Straits Times, 18 May 2026: no casualties"
+          }
+        ],
+        "nationalities": [
+          {
+            "nationality": "Chinese",
+            "status": "confirmed",
+            "deaths": 0,
+            "sources": [
+              {
+                "url": "https://t.me/ukrainian_navy/20485",
+                "source": "Ukrainian Navy Telegram statement, 18 May 2026: crew of Chinese nationals aboard KSL DEYANG"
+              },
+              {
+                "url": "https://kyivindependent.com/terrible-mistake-as-putin-heads-to-china-russia-hits-chinese-linked-cargo-ship-near-odesa",
+                "source": "Kyiv Independent, 18 May 2026: all crew Chinese citizens, no injuries reported"
+              }
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-31T12:47:45Z",
+        "vessel_name": "KSL DEYANG",
+        "imo": "9457725",
+        "date_utc": "2026-05-18",
+        "vessel_type": "Bulk carrier",
+        "region": "Black Sea",
+        "location_text": "Approaches to Pivdennyi port, Odesa region, Ukraine",
+        "attack_type": "drone (Shahed)",
+        "summary": "KSL DEYANG, a Marshall Islands flagged Supramax bulk carrier of 53,451 deadweight tonnes built in 2008 and owned by a Chinese company, was struck by a Russian Shahed drone in the Black Sea while heading through Ukraine's maritime corridor to load iron ore concentrate at Pivdennyi in the Odesa region overnight on 18 May 2026. Ukraine's navy named the vessel and said she carried a Chinese crew. Odesa regional governor Oleh Kiper said a second civilian ship under the Guinea-Bissau flag was also hit, that small fires on both were put out by the crews, that no crew member was injured and that both ships continued towards port. Navy spokesman Dmytro Pletenchuk said the ship was in ballast, the crew dealt with the fire themselves and no one was hurt. President Volodymyr Zelensky said a drone hit a vessel owned by China. Reuters, citing a source, reported the ship was not significantly damaged and was heading for Pivdennyi to load iron ore concentrate.",
+        "date_note": "Ukrainian officials described an overnight strike reported on 18 May 2026, and Kyiv Independent published the navy statement at 13:48 local time that day. The reports give no UTC event time, so the attack date is kept at 18 May with no time of day.",
+        "sources": [
+          {
+            "url": "https://t.me/ukrainian_navy/20485",
+            "source": "Ukrainian Navy Telegram statement, 18 May 2026: bulk carrier KSL DEYANG, Marshall Islands flag, Chinese owned, Chinese crew"
+          },
+          {
+            "url": "https://kyivindependent.com/terrible-mistake-as-putin-heads-to-china-russia-hits-chinese-linked-cargo-ship-near-odesa",
+            "source": "Kyiv Independent, 18 May 2026: navy statement naming KSL DEYANG, Odesa governor Oleh Kiper on the second Guinea-Bissau flagged ship, fires extinguished, no crew injured, both ships continued to port, Pletenchuk quote"
+          },
+          {
+            "url": "https://www.straitstimes.com/world/europe/russian-drones-hit-two-ships-including-chinese-cargo-vessel-off-ukraines-black-sea-coast",
+            "source": "Reuters via The Straits Times, 18 May 2026: vessel in ballast heading to Pivdennyi, no casualties, no significant damage"
+          },
+          {
+            "url": "https://www.vesselfinder.com/vessels/details/9457725",
+            "source": "VesselFinder vessel particulars, read 31 October 2026: KSL DEYANG, IMO 9457725, bulk carrier, Marshall Islands, 53,451 deadweight tonnes, built 2008"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-31T12:47:45Z",
+          "text": "New historical record for a named attack absent from both stores. Ukraine's navy and the Odesa regional governor reported that a Shahed drone struck the Marshall Islands flagged bulk carrier KSL DEYANG, Chinese owned and Chinese crewed, as she approached Pivdennyi in ballast, and that a second ship under the Guinea-Bissau flag was hit in the same attack. Both fires were put out by their crews, no crew member was injured, and both vessels continued to port. Deaths are recorded as zero and the Chinese nationality of the crew is taken from the officials who named the vessel and her crew, not from her flag. The second, unnamed ship is mentioned in the summary but has no separate record, and no shared casualty is counted twice.",
+          "sources": [
+            {
+              "url": "https://t.me/ukrainian_navy/20485",
+              "source": "Ukrainian Navy Telegram statement, 18 May 2026"
+            },
+            {
+              "url": "https://kyivindependent.com/terrible-mistake-as-putin-heads-to-china-russia-hits-chinese-linked-cargo-ship-near-odesa",
+              "source": "Kyiv Independent, 18 May 2026"
+            },
+            {
+              "url": "https://www.straitstimes.com/world/europe/russian-drones-hit-two-ships-including-chinese-cargo-vessel-off-ukraines-black-sea-coast",
+              "source": "Reuters via The Straits Times, 18 May 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -22837,6 +22921,98 @@
             {
               "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
               "source": "IMO confirmed incidents register, 23 October 2026 row"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6543553185,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6543553185",
+      "author": "iMariner",
+      "received_at": "2026-10-31T12:47:46Z",
+      "incident_id": "HIST-BS-20260518-KSL-DEYANG",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-BS-20260518-KSL-DEYANG",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-31T12:47:45Z",
+          "vessel_name": "KSL DEYANG",
+          "imo": "9457725",
+          "date_utc": "2026-05-18",
+          "vessel_type": "Bulk carrier",
+          "region": "Black Sea",
+          "location_text": "Approaches to Pivdennyi port, Odesa region, Ukraine",
+          "attack_type": "drone (Shahed)",
+          "summary": "KSL DEYANG, a Marshall Islands flagged Supramax bulk carrier of 53,451 deadweight tonnes built in 2008 and owned by a Chinese company, was struck by a Russian Shahed drone in the Black Sea while heading through Ukraine's maritime corridor to load iron ore concentrate at Pivdennyi in the Odesa region overnight on 18 May 2026. Ukraine's navy named the vessel and said she carried a Chinese crew. Odesa regional governor Oleh Kiper said a second civilian ship under the Guinea-Bissau flag was also hit, that small fires on both were put out by the crews, that no crew member was injured and that both ships continued towards port. Navy spokesman Dmytro Pletenchuk said the ship was in ballast, the crew dealt with the fire themselves and no one was hurt. President Volodymyr Zelensky said a drone hit a vessel owned by China. Reuters, citing a source, reported the ship was not significantly damaged and was heading for Pivdennyi to load iron ore concentrate.",
+          "date_note": "Ukrainian officials described an overnight strike reported on 18 May 2026, and Kyiv Independent published the navy statement at 13:48 local time that day. The reports give no UTC event time, so the attack date is kept at 18 May with no time of day.",
+          "sources": [
+            {
+              "url": "https://t.me/ukrainian_navy/20485",
+              "source": "Ukrainian Navy Telegram statement, 18 May 2026: bulk carrier KSL DEYANG, Marshall Islands flag, Chinese owned, Chinese crew"
+            },
+            {
+              "url": "https://kyivindependent.com/terrible-mistake-as-putin-heads-to-china-russia-hits-chinese-linked-cargo-ship-near-odesa",
+              "source": "Kyiv Independent, 18 May 2026: navy statement naming KSL DEYANG, Odesa governor Oleh Kiper on the second Guinea-Bissau flagged ship, fires extinguished, no crew injured, both ships continued to port, Pletenchuk quote"
+            },
+            {
+              "url": "https://www.straitstimes.com/world/europe/russian-drones-hit-two-ships-including-chinese-cargo-vessel-off-ukraines-black-sea-coast",
+              "source": "Reuters via The Straits Times, 18 May 2026: vessel in ballast heading to Pivdennyi, no casualties, no significant damage"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9457725",
+              "source": "VesselFinder vessel particulars, read 31 October 2026: KSL DEYANG, IMO 9457725, bulk carrier, Marshall Islands, 53,451 deadweight tonnes, built 2008"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://kyivindependent.com/terrible-mistake-as-putin-heads-to-china-russia-hits-chinese-linked-cargo-ship-near-odesa",
+              "source": "Kyiv Independent, 18 May 2026, quoting Odesa governor Oleh Kiper: no crew members were injured"
+            },
+            {
+              "url": "https://www.straitstimes.com/world/europe/russian-drones-hit-two-ships-including-chinese-cargo-vessel-off-ukraines-black-sea-coast",
+              "source": "Reuters via The Straits Times, 18 May 2026: no casualties"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Chinese",
+              "status": "confirmed",
+              "deaths": 0,
+              "sources": [
+                {
+                  "url": "https://t.me/ukrainian_navy/20485",
+                  "source": "Ukrainian Navy Telegram statement, 18 May 2026: crew of Chinese nationals aboard KSL DEYANG"
+                },
+                {
+                  "url": "https://kyivindependent.com/terrible-mistake-as-putin-heads-to-china-russia-hits-chinese-linked-cargo-ship-near-odesa",
+                  "source": "Kyiv Independent, 18 May 2026: all crew Chinese citizens, no injuries reported"
+                }
+              ]
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-10-31T12:47:45Z",
+          "text": "New historical record for a named attack absent from both stores. Ukraine's navy and the Odesa regional governor reported that a Shahed drone struck the Marshall Islands flagged bulk carrier KSL DEYANG, Chinese owned and Chinese crewed, as she approached Pivdennyi in ballast, and that a second ship under the Guinea-Bissau flag was hit in the same attack. Both fires were put out by their crews, no crew member was injured, and both vessels continued to port. Deaths are recorded as zero and the Chinese nationality of the crew is taken from the officials who named the vessel and her crew, not from her flag. The second, unnamed ship is mentioned in the summary but has no separate record, and no shared casualty is counted twice.",
+          "sources": [
+            {
+              "url": "https://t.me/ukrainian_navy/20485",
+              "source": "Ukrainian Navy Telegram statement, 18 May 2026"
+            },
+            {
+              "url": "https://kyivindependent.com/terrible-mistake-as-putin-heads-to-china-russia-hits-chinese-linked-cargo-ship-near-odesa",
+              "source": "Kyiv Independent, 18 May 2026"
+            },
+            {
+              "url": "https://www.straitstimes.com/world/europe/russian-drones-hit-two-ships-including-chinese-cargo-vessel-off-ukraines-black-sea-coast",
+              "source": "Reuters via The Straits Times, 18 May 2026"
             }
           ]
         }
