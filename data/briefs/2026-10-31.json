@@ -30,5 +30,27 @@
   "generated_at": "2026-10-31T04:40:46Z",
   "consistency_fixed": [],
   "consistency_problems": [],
-  "quality": "3 check(s) need attention: dates 1 approximate; attribution 2 claims without a named source; official coverage 1/1 ok; verified 3/7; single-source items 1, 1 without verification; confirmed 1 marked confirmed without proof; fact-check 1 correction(s); tweet 249/280 ok; dashes ok; consistency ok"
+  "quality": "3 check(s) need attention: dates 1 approximate; attribution 2 claims without a named source; official coverage 1/1 ok; verified 3/7; single-source items 1, 1 without verification; confirmed 1 marked confirmed without proof; fact-check 1 correction(s); tweet 249/280 ok; dashes ok; consistency ok",
+  "review": {
+    "status": "done",
+    "at": "2026-10-31T05:05:19Z",
+    "changes": [
+      "lead story set to INC-20261030-019 (the most serious attack of the last 24 hours: a crude oil tanker set on fire off)",
+      "region of INC-20261030-019 set to Strait of Hormuz",
+      "imo of INC-20261030-019 set to 9249075",
+      "INC-20261030-019 marked confirmed (Oman's Maritime Security Centre said the Royal Oman Navy evacuated all 25 crew after the tanker was targeted and set on fire, and the crew were given medical care)",
+      "INC-20261029-021 marked confirmed (UKMTO warning 186-26, incident date 29 OCT 2026 at 1600 UTC, reported a tanker struck by an unknown projectile on outbound transit with no injuries)",
+      "INC-20261031-001 marked rejected (the sources are oil price and market stories about the reaction to an attack, giving no vessel, place, date, damage or casualty, so no attack on a merchant ship is established)",
+      "INC-20261030-025 marked rejected (its only source is an EnergyNow page under /2026/06/, a re-serve of the 25 June 2026 attack on the container ship Ever Lovely 7.5 nautical miles southeast of Dahit, Oman)",
+      "lesson (facts): Give a named ship the place her own naming source gives: an official warning about an unnamed vessel in another part of "
+    ],
+    "refused": [],
+    "notes": [
+      "Write the headline, standfirst, lede and tweet about the RITI as a Panama-flagged crude oil tanker of 166,739 deadweight tonnes that caught fire off Musandam, Oman, in the Strait of Hormuz on 30 October after she was targeted, with Oman's Maritime Security Centre saying its navy evacuated all 25 crew and gave them medical care: drop near Lavan Island, and do not credit UKMTO with her name, flag or position, because UKMTO's warning names no vessel.",
+      "UKMTO's 30 October warning of a vessel hit by an unknown projectile 40 nautical miles south of Lavan Island, crew safe and no pollution, names no ship and no checked source links it to the RITI: if the paragraph carries it, keep it in its own sentence with its own position and say UKMTO named no vessel, and never join it to the RITI with as or while."
+    ],
+    "restored": [],
+    "send_after": false,
+    "lead": "INC-20261030-019"
+  }
 }

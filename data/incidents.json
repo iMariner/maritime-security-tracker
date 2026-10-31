@@ -60,14 +60,20 @@
       }
     ],
     "first_seen": "2026-10-31T04:40:25Z",
-    "last_updated": "2026-10-31T04:40:38Z",
+    "last_updated": "2026-10-31T05:05:19Z",
     "verification_issue": 300,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "editor-check",
+      "at": "2026-10-31T05:05:19Z",
+      "note": "the sources are oil price and market stories about the reaction to an attack, giving no vessel, place, date, damage or casualty, so no attack on a merchant ship is established"
+    },
     "published_in": [
       "2026-10-31"
     ],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-10-31T05:05:19Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -1431,14 +1437,14 @@
     "position_approx": true
   },
   {
-    "region": "Persian Gulf",
+    "region": "Strait of Hormuz",
     "date_utc": "2026-10-30",
     "summary": "A vessel was struck by an unknown projectile about 40 nautical miles from Iran's Lavan Island on 30 October and caught fire, according to UKMTO. Oman's navy evacuated 25 sailors from the attacked vessel RITI near Musandam after the fire broke out.",
     "official_source_cited": "UKMTO",
     "conflicting": false,
     "confidence": 0.85,
     "vessel_name": "RITI",
-    "imo": null,
+    "imo": "9249075",
     "flag": "Panama",
     "vessel_type": null,
     "vessel_category": "merchant",
@@ -1559,12 +1565,26 @@
         "kind": "media",
         "published_at": "2026-10-30T19:21:58Z",
         "title": "UKMTO says it received a report of an incident 40NM south of Lavan Island, Iran, where a vessel was hit on its port side by an unknown projectile, sparking a fire onboard - Newsquawk"
+      },
+      {
+        "url": "https://www.vesselfinder.com/vessels/details/9249075",
+        "source": "vesselfinder.com",
+        "source_type": "media",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-10-31T05:05:19Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-30T21:41:31Z",
-    "last_updated": "2026-10-31T04:40:31Z",
+    "last_updated": "2026-10-31T05:05:19Z",
     "verification_issue": 298,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "editor-check",
+      "at": "2026-10-31T05:05:19Z",
+      "note": "Oman's Maritime Security Centre said the Royal Oman Navy evacuated all 25 crew after the tanker was targeted and set on fire, and the crew were given medical care"
+    },
     "published_in": [
       "2026-10-31"
     ],
@@ -1820,14 +1840,20 @@
       }
     ],
     "first_seen": "2026-10-31T04:40:38Z",
-    "last_updated": "2026-10-31T04:40:38Z",
+    "last_updated": "2026-10-31T05:05:19Z",
     "verification_issue": 301,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "editor-check",
+      "at": "2026-10-31T05:05:19Z",
+      "note": "its only source is an EnergyNow page under /2026/06/, a re-serve of the 25 June 2026 attack on the container ship Ever Lovely 7.5 nautical miles southeast of Dahit, Oman"
+    },
     "published_in": [
       "2026-10-31"
     ],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-10-31T05:05:19Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -1912,9 +1938,14 @@
       }
     ],
     "first_seen": "2026-10-31T04:40:25Z",
-    "last_updated": "2026-10-31T04:40:31Z",
+    "last_updated": "2026-10-31T05:05:19Z",
     "verification_issue": null,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "editor-check",
+      "at": "2026-10-31T05:05:19Z",
+      "note": "UKMTO warning 186-26, incident date 29 OCT 2026 at 1600 UTC, reported a tanker struck by an unknown projectile on outbound transit with no injuries"
+    },
     "published_in": [
       "2026-10-31"
     ],
