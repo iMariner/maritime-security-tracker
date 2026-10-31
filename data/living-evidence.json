@@ -12215,6 +12215,70 @@
           ]
         }
       ]
+    },
+    "INC-20261029-021": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261029-ukmto_warning-186-26.pdf?rev=d5f4136239bb4071958ad3a7f240a26c",
+            "source": "UKMTO warning 186-26, 29 October 2026: no reported injuries to the crew"
+          },
+          {
+            "url": "https://www.indiatoday.in/india/story/strait-of-hormuz-tanker-attacks-29-indian-seafarers-safe-3028916-2026-10-30",
+            "source": "India Today, 30 October 2026, quoting the minister: all 29 Indian seafarers on the two tankers safe, no injuries"
+          }
+        ],
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-31T06:36:44Z",
+        "vessel_name": "ARZANAH",
+        "imo": "9928023",
+        "date_utc": "2026-10-29",
+        "vessel_type": "Crude oil tanker",
+        "region": "Strait of Hormuz",
+        "location_text": "Strait of Hormuz",
+        "attack_type": "projectile",
+        "summary": "ARZANAH, a Liberia-flagged very large crude carrier of 299,425 deadweight tonnes managed by ADNOC Logistics and Services, was struck by an unknown projectile while completing an outbound transit of the Strait of Hormuz at 1600 UTC on 29 October 2026. UKMTO warning 186-26, issued on a company security officer's report, recorded no injuries to the crew and no environmental impact at the time, and named no vessel. India's minister for ports, shipping and waterways, Sarbananda Sonowal, said in a post on 30 October 2026 that the Liberia-flagged VLCC ARZANAH, carrying two Indian nationals, was targeted by projectiles in the Strait of Hormuz on 29 October and that those two were safe with no injuries. ARZANAH's particulars, IMO 9928023, Liberia, 299,425 deadweight tonnes, crude oil tanker managed by ADNOC Logistics and Services, match that description. No damage assessment and no attacker were reported.",
+        "date_note": "UKMTO warning 186-26 gives the incident as 1600 UTC on 29 October 2026. UKMTO did not name the vessel; the identification rests on the Indian shipping minister's statement of 30 October, the only 29 October projectile strike on a tanker that UKMTO reported.",
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261029-ukmto_warning-186-26.pdf?rev=d5f4136239bb4071958ad3a7f240a26c",
+            "source": "UKMTO warning 186-26, attack, 29 October 2026"
+          },
+          {
+            "url": "https://www.indiatoday.in/india/story/strait-of-hormuz-tanker-attacks-29-indian-seafarers-safe-3028916-2026-10-30",
+            "source": "India Today, 30 October 2026, quoting Indian shipping minister Sarbananda Sonowal"
+          },
+          {
+            "url": "https://timesofindia.indiatimes.com/world/middle-east/tanker-with-27-indian-seafarers-targeted-in-first-ever-limpet-mine-attack-in-strait-of-hormuz/articleshow/135371354.cms",
+            "source": "The Times of India, 30 October 2026, quoting the Indian shipping minister"
+          },
+          {
+            "url": "https://aisfriends.com/vessels/ARZANAH/9928023/636021545",
+            "source": "Vessel particulars for ARZANAH, IMO 9928023"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-31T06:36:44Z",
+          "text": "First review of this record, which was a confirmed tanker row from UKMTO warning 186-26 with no vessel name. The Indian shipping minister named the ship on 30 October: the Liberia-flagged VLCC ARZANAH, two Indian nationals aboard, both safe. ARZANAH's registry particulars match a Liberia-flagged VLCC of 299,425 deadweight tonnes managed by ADNOC Logistics and Services. UKMTO named no vessel, so the identity is recorded with the source that named it rather than treated as UKMTO confirmed. Zero deaths rests on UKMTO's no-injuries report and the minister's statement that both Indian crew were safe, not on silence. Two Indian nationals were aboard: that is a crew count, not a count of deaths, so no nationality is entered in the fatality breakdown. Kept separate from the LOUISE 1 attached-device attack at 2212 UTC the same day. This is a repost: the first submission at 06:33 UTC was not applied because the workflow run triggered by it was cancelled by the concurrency group, and the overlay holds no record for this incident.",
+          "sources": [
+            {
+              "url": "https://www.indiatoday.in/india/story/strait-of-hormuz-tanker-attacks-29-indian-seafarers-safe-3028916-2026-10-30",
+              "source": "India Today, 30 October 2026"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261029-ukmto_warning-186-26.pdf?rev=d5f4136239bb4071958ad3a7f240a26c",
+              "source": "UKMTO warning 186-26, 29 October 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -22272,6 +22336,77 @@
             {
               "url": "https://en.portnews.ru/news/397767/",
               "source": "Portnews, 1 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6540160298,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6540160298",
+      "author": "iMariner",
+      "received_at": "2026-10-31T06:36:44Z",
+      "incident_id": "INC-20261029-021",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261029-021",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-31T06:36:44Z",
+          "vessel_name": "ARZANAH",
+          "imo": "9928023",
+          "date_utc": "2026-10-29",
+          "vessel_type": "Crude oil tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "Strait of Hormuz",
+          "attack_type": "projectile",
+          "summary": "ARZANAH, a Liberia-flagged very large crude carrier of 299,425 deadweight tonnes managed by ADNOC Logistics and Services, was struck by an unknown projectile while completing an outbound transit of the Strait of Hormuz at 1600 UTC on 29 October 2026. UKMTO warning 186-26, issued on a company security officer's report, recorded no injuries to the crew and no environmental impact at the time, and named no vessel. India's minister for ports, shipping and waterways, Sarbananda Sonowal, said in a post on 30 October 2026 that the Liberia-flagged VLCC ARZANAH, carrying two Indian nationals, was targeted by projectiles in the Strait of Hormuz on 29 October and that those two were safe with no injuries. ARZANAH's particulars, IMO 9928023, Liberia, 299,425 deadweight tonnes, crude oil tanker managed by ADNOC Logistics and Services, match that description. No damage assessment and no attacker were reported.",
+          "date_note": "UKMTO warning 186-26 gives the incident as 1600 UTC on 29 October 2026. UKMTO did not name the vessel; the identification rests on the Indian shipping minister's statement of 30 October, the only 29 October projectile strike on a tanker that UKMTO reported.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261029-ukmto_warning-186-26.pdf?rev=d5f4136239bb4071958ad3a7f240a26c",
+              "source": "UKMTO warning 186-26, attack, 29 October 2026"
+            },
+            {
+              "url": "https://www.indiatoday.in/india/story/strait-of-hormuz-tanker-attacks-29-indian-seafarers-safe-3028916-2026-10-30",
+              "source": "India Today, 30 October 2026, quoting Indian shipping minister Sarbananda Sonowal"
+            },
+            {
+              "url": "https://timesofindia.indiatimes.com/world/middle-east/tanker-with-27-indian-seafarers-targeted-in-first-ever-limpet-mine-attack-in-strait-of-hormuz/articleshow/135371354.cms",
+              "source": "The Times of India, 30 October 2026, quoting the Indian shipping minister"
+            },
+            {
+              "url": "https://aisfriends.com/vessels/ARZANAH/9928023/636021545",
+              "source": "Vessel particulars for ARZANAH, IMO 9928023"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261029-ukmto_warning-186-26.pdf?rev=d5f4136239bb4071958ad3a7f240a26c",
+              "source": "UKMTO warning 186-26, 29 October 2026: no reported injuries to the crew"
+            },
+            {
+              "url": "https://www.indiatoday.in/india/story/strait-of-hormuz-tanker-attacks-29-indian-seafarers-safe-3028916-2026-10-30",
+              "source": "India Today, 30 October 2026, quoting the minister: all 29 Indian seafarers on the two tankers safe, no injuries"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-10-31T06:36:44Z",
+          "text": "First review of this record, which was a confirmed tanker row from UKMTO warning 186-26 with no vessel name. The Indian shipping minister named the ship on 30 October: the Liberia-flagged VLCC ARZANAH, two Indian nationals aboard, both safe. ARZANAH's registry particulars match a Liberia-flagged VLCC of 299,425 deadweight tonnes managed by ADNOC Logistics and Services. UKMTO named no vessel, so the identity is recorded with the source that named it rather than treated as UKMTO confirmed. Zero deaths rests on UKMTO's no-injuries report and the minister's statement that both Indian crew were safe, not on silence. Two Indian nationals were aboard: that is a crew count, not a count of deaths, so no nationality is entered in the fatality breakdown. Kept separate from the LOUISE 1 attached-device attack at 2212 UTC the same day. This is a repost: the first submission at 06:33 UTC was not applied because the workflow run triggered by it was cancelled by the concurrency group, and the overlay holds no record for this incident.",
+          "sources": [
+            {
+              "url": "https://www.indiatoday.in/india/story/strait-of-hormuz-tanker-attacks-29-indian-seafarers-safe-3028916-2026-10-30",
+              "source": "India Today, 30 October 2026"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261029-ukmto_warning-186-26.pdf?rev=d5f4136239bb4071958ad3a7f240a26c",
+              "source": "UKMTO warning 186-26, 29 October 2026"
             }
           ]
         }
