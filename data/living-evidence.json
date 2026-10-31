@@ -12066,6 +12066,61 @@
           ]
         }
       ]
+    },
+    "HIST-ME-20260722-ENCELIA": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/7/22/yemens-houthis-claim-attack-on-two-saudi-oil-tankers",
+            "source": "Saudi Arabia's Transport General Authority, quoted by the Saudi Press Agency and reported by Al Jazeera on 22 July 2026: all crew members were safe"
+          },
+          {
+            "url": "https://energynow.com/2026/07/yemens-houthis-say-they-targeted-two-saudi-tankers-source-says-encelia-hit-by-missile/",
+            "source": "Reuters report carried by EnergyNow, 23 July 2026, quoting UKMTO: no casualties reported"
+          }
+        ],
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-10-31T00:23:28Z",
+        "vessel_name": "ENCELIA",
+        "date_utc": "2026-07-22",
+        "vessel_type": "Oil tanker",
+        "region": "Red Sea",
+        "location_text": "Red Sea off Jizan, Saudi Arabia; Vanguard placed the strike about 70 nautical miles southwest of Al Shuqaiq",
+        "attack_type": "missile",
+        "summary": "ENCELIA, a Saudi-flagged oil tanker, was hit in the Red Sea on 22 July 2026 while the Houthis were enforcing a naval blockade on Saudi shipping. The Houthis said they attacked ENCELIA and a second tanker, LAYLA, with ballistic and cruise missiles and drones. Saudi Arabia's Transport General Authority, quoted by the Saudi Press Agency, confirmed that ENCELIA had been hit and said all crew members were safe. A maritime security source said ENCELIA reported by VHF that it had been struck by a missile at the outer port limits of Jizan and was on fire, and the risk consultancy Vanguard said an unknown projectile hit its starboard side about 70 nautical miles southwest of Al Shuqaiq at 2000 GMT. UKMTO reported a tanker master reporting an unknown projectile that started a fire the crew were fighting, with no casualties or environmental impact reported. No independent confirmation of damage to LAYLA was found, so only ENCELIA is recorded.",
+        "date_note": "Al Jazeera and The New York Times each published on 22 July 2026 quoting the Houthi spokesman announcing the attack that Wednesday, and Vanguard timed the projectile at 2000 GMT. Reuters filed from Cairo on 23 July saying the group announced it early on Thursday. The day-precision date is kept as 22 July with that discrepancy recorded.",
+        "sources": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/7/22/yemens-houthis-claim-attack-on-two-saudi-oil-tankers",
+            "source": "Al Jazeera, 22 July 2026: Houthi spokesman Yahya Saree announced the ENCELIA and LAYLA attack on Wednesday; the Saudi Transport General Authority confirmed ENCELIA was hit and said all crew were safe"
+          },
+          {
+            "url": "https://energynow.com/2026/07/yemens-houthis-say-they-targeted-two-saudi-tankers-source-says-encelia-hit-by-missile/",
+            "source": "EnergyNow carrying the Reuters report of 23 July 2026: Saudi-flagged ENCELIA, Vanguard's 2000 GMT starboard projectile about 70 nautical miles southwest of Al Shuqaiq, UKMTO report of an unknown projectile and fire"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-10-31T00:23:28Z",
+          "text": "New historical record for an attack absent from both stores. The July 2026 Houthi strike on the Saudi tanker ENCELIA appears in the news corpus only as two later syndications dated 1 October and 28 October 2026, both of which were rejected as duplicates of the July event and neither of which carried the attack date. The event is dated 22 July 2026 from Al Jazeera and The New York Times, both published that day, with Reuters filing from Cairo on 23 July and Vanguard timing the projectile at 2000 GMT; the discrepancy is recorded in the date note. Zero deaths is a stated fact, not an inference from silence: the Saudi Transport General Authority said all crew were safe and UKMTO reported no casualties. No nationality is recorded because the flag is Saudi and no checked source gives crew nationalities. The second tanker named in the same Houthi claim, LAYLA, is not recorded separately because no source read confirmed it was hit.",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/7/22/yemens-houthis-claim-attack-on-two-saudi-oil-tankers",
+              "source": "Al Jazeera, 22 July 2026"
+            },
+            {
+              "url": "https://energynow.com/2026/07/yemens-houthis-say-they-targeted-two-saudi-tankers-source-says-encelia-hit-by-missile/",
+              "source": "Reuters report carried by EnergyNow, 23 July 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -21771,6 +21826,69 @@
             {
               "url": "https://www.aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz",
               "source": "Al Jazeera, 30 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6536436817,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6536436817",
+      "author": "iMariner",
+      "received_at": "2026-10-31T00:23:28Z",
+      "incident_id": "HIST-ME-20260722-ENCELIA",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-ME-20260722-ENCELIA",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-31T00:23:28Z",
+          "vessel_name": "ENCELIA",
+          "date_utc": "2026-07-22",
+          "vessel_type": "Oil tanker",
+          "region": "Red Sea",
+          "location_text": "Red Sea off Jizan, Saudi Arabia; Vanguard placed the strike about 70 nautical miles southwest of Al Shuqaiq",
+          "attack_type": "missile",
+          "summary": "ENCELIA, a Saudi-flagged oil tanker, was hit in the Red Sea on 22 July 2026 while the Houthis were enforcing a naval blockade on Saudi shipping. The Houthis said they attacked ENCELIA and a second tanker, LAYLA, with ballistic and cruise missiles and drones. Saudi Arabia's Transport General Authority, quoted by the Saudi Press Agency, confirmed that ENCELIA had been hit and said all crew members were safe. A maritime security source said ENCELIA reported by VHF that it had been struck by a missile at the outer port limits of Jizan and was on fire, and the risk consultancy Vanguard said an unknown projectile hit its starboard side about 70 nautical miles southwest of Al Shuqaiq at 2000 GMT. UKMTO reported a tanker master reporting an unknown projectile that started a fire the crew were fighting, with no casualties or environmental impact reported. No independent confirmation of damage to LAYLA was found, so only ENCELIA is recorded.",
+          "date_note": "Al Jazeera and The New York Times each published on 22 July 2026 quoting the Houthi spokesman announcing the attack that Wednesday, and Vanguard timed the projectile at 2000 GMT. Reuters filed from Cairo on 23 July saying the group announced it early on Thursday. The day-precision date is kept as 22 July with that discrepancy recorded.",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/7/22/yemens-houthis-claim-attack-on-two-saudi-oil-tankers",
+              "source": "Al Jazeera, 22 July 2026: Houthi spokesman Yahya Saree announced the ENCELIA and LAYLA attack on Wednesday; the Saudi Transport General Authority confirmed ENCELIA was hit and said all crew were safe"
+            },
+            {
+              "url": "https://energynow.com/2026/07/yemens-houthis-say-they-targeted-two-saudi-tankers-source-says-encelia-hit-by-missile/",
+              "source": "EnergyNow carrying the Reuters report of 23 July 2026: Saudi-flagged ENCELIA, Vanguard's 2000 GMT starboard projectile about 70 nautical miles southwest of Al Shuqaiq, UKMTO report of an unknown projectile and fire"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/7/22/yemens-houthis-claim-attack-on-two-saudi-oil-tankers",
+              "source": "Saudi Arabia's Transport General Authority, quoted by the Saudi Press Agency and reported by Al Jazeera on 22 July 2026: all crew members were safe"
+            },
+            {
+              "url": "https://energynow.com/2026/07/yemens-houthis-say-they-targeted-two-saudi-tankers-source-says-encelia-hit-by-missile/",
+              "source": "Reuters report carried by EnergyNow, 23 July 2026, quoting UKMTO: no casualties reported"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-10-31T00:23:28Z",
+          "text": "New historical record for an attack absent from both stores. The July 2026 Houthi strike on the Saudi tanker ENCELIA appears in the news corpus only as two later syndications dated 1 October and 28 October 2026, both of which were rejected as duplicates of the July event and neither of which carried the attack date. The event is dated 22 July 2026 from Al Jazeera and The New York Times, both published that day, with Reuters filing from Cairo on 23 July and Vanguard timing the projectile at 2000 GMT; the discrepancy is recorded in the date note. Zero deaths is a stated fact, not an inference from silence: the Saudi Transport General Authority said all crew were safe and UKMTO reported no casualties. No nationality is recorded because the flag is Saudi and no checked source gives crew nationalities. The second tanker named in the same Houthi claim, LAYLA, is not recorded separately because no source read confirmed it was hit.",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/7/22/yemens-houthis-claim-attack-on-two-saudi-oil-tankers",
+              "source": "Al Jazeera, 22 July 2026"
+            },
+            {
+              "url": "https://energynow.com/2026/07/yemens-houthis-say-they-targeted-two-saudi-tankers-source-says-encelia-hit-by-missile/",
+              "source": "Reuters report carried by EnergyNow, 23 July 2026"
             }
           ]
         }
