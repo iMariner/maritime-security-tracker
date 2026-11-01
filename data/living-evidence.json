@@ -12711,6 +12711,77 @@
           ]
         }
       ]
+    },
+    "HIST-BS-20260819-ANTONIA-S": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://globalnation.inquirer.net/336640/22-filipino-seafarers-return-home-after-black-sea-missile-attack",
+            "source": "Philippine Department of Migrant Workers, via Inquirer.net, 31 August 2026: all 22 Filipino crew members of the Antonia S survived the missile strike"
+          },
+          {
+            "url": "https://sunstar.com.ph/manila/22-more-pinoy-seafarers-back-home",
+            "source": "Department of Migrant Workers and OWWA, via SunStar, 31 August 2026: the 22 Filipino crew members survived"
+          }
+        ],
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-01T07:23:52Z",
+        "vessel_name": "ANTONIA S",
+        "imo": "9591088",
+        "date_utc": "2026-08-19",
+        "vessel_type": "Bulk carrier",
+        "region": "Black Sea",
+        "location_text": "Berthed at Chornomorsk port, Odesa region, Ukraine",
+        "attack_type": "Missile strike",
+        "summary": "ANTONIA S, a Liberia-flagged bulk carrier of about 81,500 deadweight, was struck by a missile on 19 August 2026 while berthed at Chornomorsk port in Ukraine's Odesa region. Ukraine's authorities moved the crew to a shelter inside the port after the strike and none of them was killed. The Philippine Department of Migrant Workers said all 22 Filipino crew members survived, including the master, who credited a security officer's warning with giving the crew time to move to the upper deck before the missile hit. The 22 seafarers were repatriated to Manila on 30 August 2026. The vessel is managed through Neptune Tradebulk and Brothers Power Shipping, whose common beneficiary also controlled the bulk carrier ANNA S, struck the day before near Novorossiysk. The accounts read do not establish who fired the missile.",
+        "sources": [
+          {
+            "url": "https://globalnation.inquirer.net/336640/22-filipino-seafarers-return-home-after-black-sea-missile-attack",
+            "source": "Inquirer.net Global Nation, 31 August 2026, quoting the Philippine Department of Migrant Workers: Liberia-flagged bulk carrier M/V Antonia S hit by a missile on 19 August while docked at Chornomorsk, all 22 Filipino crew survived and were repatriated on 30 August"
+          },
+          {
+            "url": "https://gmanetwork.com/news/pinoyabroad/dispatch/1000529/22-filipino-seafarers-back-in-ph-after-black-sea-missile-attack/story",
+            "source": "GMA News, 31 August 2026, quoting the Department of Migrant Workers: 22 Filipino seafarers repatriated after the 19 August missile strike on the Antonia S at Chornomorsk"
+          },
+          {
+            "url": "https://sunstar.com.ph/manila/22-more-pinoy-seafarers-back-home",
+            "source": "SunStar, 31 August 2026, quoting the Department of Migrant Workers and OWWA: 22 Filipino crew of the Antonia S survived the 19 August missile strike at Chornomorsk and were sheltered inside the port"
+          },
+          {
+            "url": "https://en.usm.media/two-bulk-carriers-belonging-to-the-same-greek-shipowner-attacked-near-the-ports-of-russia-and-ukraine",
+            "source": "Ukrainian Shipping Magazine, 21 August 2026: Antonia S attacked near a Ukrainian port on 19 August, formally owned by Brothers Power Shipping with Anna S under Neptune Tradebulk, both with the beneficiary Bright Navigation"
+          },
+          {
+            "url": "https://www.blackseanews.net/en/read/199558",
+            "source": "BlackSeaNews vessel record: ANTONIA S, IMO 9591088, 81,462 deadweight, registered owner Brothers Power Shipping Co SA"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-01T07:23:52Z",
+          "text": "First reviewed record for this vessel, which was absent from both the incident store and the historical list. ANTONIA S was hit by a missile while berthed at Chornomorsk on 19 August 2026, the day after its associated bulk carrier ANNA S was struck near Novorossiysk. The Philippine Department of Migrant Workers, which named the vessel, recorded that all 22 Filipino crew survived and were repatriated on 30 August, so deaths are recorded as zero on that account. No injury figure was published by the agency and none is asserted here. The crew beyond the 22 Filipino seafarers is not established by the accounts read, and the attacking party is not established, so the record carries no attribution beyond the strike itself.",
+          "sources": [
+            {
+              "url": "https://globalnation.inquirer.net/336640/22-filipino-seafarers-return-home-after-black-sea-missile-attack",
+              "source": "Inquirer.net Global Nation, 31 August 2026"
+            },
+            {
+              "url": "https://gmanetwork.com/news/pinoyabroad/dispatch/1000529/22-filipino-seafarers-back-in-ph-after-black-sea-missile-attack/story",
+              "source": "GMA News, 31 August 2026"
+            },
+            {
+              "url": "https://en.usm.media/two-bulk-carriers-belonging-to-the-same-greek-shipowner-attacked-near-the-ports-of-russia-and-ukraine",
+              "source": "Ukrainian Shipping Magazine, 21 August 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -23548,6 +23619,85 @@
             {
               "url": "https://www.sunstar.com.ph/manila/12-pinoy-seafarers-back-home-from-black-sea-vessel-attacks",
               "source": "SunStar Philippines, 25 July 2026, reporting OWWA: 12 Filipino crew of GAS AURA, two with burn injuries, attacks on 12 and 15 July near Kavkaz"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6554926193,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6554926193",
+      "author": "iMariner",
+      "received_at": "2026-11-01T07:23:53Z",
+      "incident_id": "HIST-BS-20260819-ANTONIA-S",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-BS-20260819-ANTONIA-S",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-01T07:23:52Z",
+          "vessel_name": "ANTONIA S",
+          "imo": "9591088",
+          "date_utc": "2026-08-19",
+          "vessel_type": "Bulk carrier",
+          "region": "Black Sea",
+          "location_text": "Berthed at Chornomorsk port, Odesa region, Ukraine",
+          "attack_type": "Missile strike",
+          "summary": "ANTONIA S, a Liberia-flagged bulk carrier of about 81,500 deadweight, was struck by a missile on 19 August 2026 while berthed at Chornomorsk port in Ukraine's Odesa region. Ukraine's authorities moved the crew to a shelter inside the port after the strike and none of them was killed. The Philippine Department of Migrant Workers said all 22 Filipino crew members survived, including the master, who credited a security officer's warning with giving the crew time to move to the upper deck before the missile hit. The 22 seafarers were repatriated to Manila on 30 August 2026. The vessel is managed through Neptune Tradebulk and Brothers Power Shipping, whose common beneficiary also controlled the bulk carrier ANNA S, struck the day before near Novorossiysk. The accounts read do not establish who fired the missile.",
+          "sources": [
+            {
+              "url": "https://globalnation.inquirer.net/336640/22-filipino-seafarers-return-home-after-black-sea-missile-attack",
+              "source": "Inquirer.net Global Nation, 31 August 2026, quoting the Philippine Department of Migrant Workers: Liberia-flagged bulk carrier M/V Antonia S hit by a missile on 19 August while docked at Chornomorsk, all 22 Filipino crew survived and were repatriated on 30 August"
+            },
+            {
+              "url": "https://gmanetwork.com/news/pinoyabroad/dispatch/1000529/22-filipino-seafarers-back-in-ph-after-black-sea-missile-attack/story",
+              "source": "GMA News, 31 August 2026, quoting the Department of Migrant Workers: 22 Filipino seafarers repatriated after the 19 August missile strike on the Antonia S at Chornomorsk"
+            },
+            {
+              "url": "https://sunstar.com.ph/manila/22-more-pinoy-seafarers-back-home",
+              "source": "SunStar, 31 August 2026, quoting the Department of Migrant Workers and OWWA: 22 Filipino crew of the Antonia S survived the 19 August missile strike at Chornomorsk and were sheltered inside the port"
+            },
+            {
+              "url": "https://en.usm.media/two-bulk-carriers-belonging-to-the-same-greek-shipowner-attacked-near-the-ports-of-russia-and-ukraine",
+              "source": "Ukrainian Shipping Magazine, 21 August 2026: Antonia S attacked near a Ukrainian port on 19 August, formally owned by Brothers Power Shipping with Anna S under Neptune Tradebulk, both with the beneficiary Bright Navigation"
+            },
+            {
+              "url": "https://www.blackseanews.net/en/read/199558",
+              "source": "BlackSeaNews vessel record: ANTONIA S, IMO 9591088, 81,462 deadweight, registered owner Brothers Power Shipping Co SA"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://globalnation.inquirer.net/336640/22-filipino-seafarers-return-home-after-black-sea-missile-attack",
+              "source": "Philippine Department of Migrant Workers, via Inquirer.net, 31 August 2026: all 22 Filipino crew members of the Antonia S survived the missile strike"
+            },
+            {
+              "url": "https://sunstar.com.ph/manila/22-more-pinoy-seafarers-back-home",
+              "source": "Department of Migrant Workers and OWWA, via SunStar, 31 August 2026: the 22 Filipino crew members survived"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-01T07:23:52Z",
+          "text": "First reviewed record for this vessel, which was absent from both the incident store and the historical list. ANTONIA S was hit by a missile while berthed at Chornomorsk on 19 August 2026, the day after its associated bulk carrier ANNA S was struck near Novorossiysk. The Philippine Department of Migrant Workers, which named the vessel, recorded that all 22 Filipino crew survived and were repatriated on 30 August, so deaths are recorded as zero on that account. No injury figure was published by the agency and none is asserted here. The crew beyond the 22 Filipino seafarers is not established by the accounts read, and the attacking party is not established, so the record carries no attribution beyond the strike itself.",
+          "sources": [
+            {
+              "url": "https://globalnation.inquirer.net/336640/22-filipino-seafarers-return-home-after-black-sea-missile-attack",
+              "source": "Inquirer.net Global Nation, 31 August 2026"
+            },
+            {
+              "url": "https://gmanetwork.com/news/pinoyabroad/dispatch/1000529/22-filipino-seafarers-back-in-ph-after-black-sea-missile-attack/story",
+              "source": "GMA News, 31 August 2026"
+            },
+            {
+              "url": "https://en.usm.media/two-bulk-carriers-belonging-to-the-same-greek-shipowner-attacked-near-the-ports-of-russia-and-ukraine",
+              "source": "Ukrainian Shipping Magazine, 21 August 2026"
             }
           ]
         }
