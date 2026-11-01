@@ -12650,6 +12650,67 @@
           ]
         }
       ]
+    },
+    "HIST-BS-20260715-GAS-AURA": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "human_impact": {
+        "injured": {
+          "count": 2,
+          "as_of": "2026-07-15",
+          "sources": [
+            {
+              "url": "https://www.cumhuriyet.com.tr/turkiye/yaralilari-tahliye-eden-tankere-karadeniz-de-dron-saldirisi-2521734",
+              "source": "Cumhuriyet, 16 July 2026, quoting Türkiye's General Directorate of Maritime Affairs: GAS AURA struck by a drone at Kavkaz on 15 July, two injured Filipino crew evacuated via GAS NERO"
+            },
+            {
+              "url": "https://www.sunstar.com.ph/manila/12-pinoy-seafarers-back-home-from-black-sea-vessel-attacks",
+              "source": "SunStar Philippines, 25 July 2026, reporting OWWA: 12 Filipino crew of GAS AURA, two with burn injuries, attacks on 12 and 15 July near Kavkaz"
+            }
+          ]
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-01T01:14:09Z",
+        "vessel_name": "GAS AURA",
+        "imo": "9140592",
+        "date_utc": "2026-07-15",
+        "vessel_type": "LPG tanker",
+        "region": "Black Sea",
+        "location_text": "At anchor near Kavkaz, Russia, in the Black Sea",
+        "summary": "GAS AURA, a Panama-flagged LPG tanker, was struck by a drone while anchored near Kavkaz, Russia, in the Black Sea on 15 July 2026, injuring two Filipino crew members. The injured seafarers were taken aboard the LPG tanker GAS NERO and handed to a Turkish Coast Guard helicopter off Sinop on 16 July, according to Türkiye's General Directorate of Maritime Affairs. Philippine officials said 12 Filipino crew were aboard, two of them with burn injuries, and that they were repatriated on 24 July. The same vessel had been struck near Kavkaz on 12 July.",
+        "date_note": "Türkiye's maritime directorate and Philippine reports date the attack that injured the two crew members to 15 July 2026. The same vessel was struck near Kavkaz on 12 July; that earlier attack is a separate event and is not merged into this date.",
+        "sources": [
+          {
+            "url": "https://www.cumhuriyet.com.tr/turkiye/yaralilari-tahliye-eden-tankere-karadeniz-de-dron-saldirisi-2521734",
+            "source": "Cumhuriyet, 16 July 2026, quoting Türkiye's General Directorate of Maritime Affairs: GAS AURA struck by a drone at Kavkaz on 15 July, two injured Filipino crew evacuated via GAS NERO"
+          },
+          {
+            "url": "https://www.sunstar.com.ph/manila/12-pinoy-seafarers-back-home-from-black-sea-vessel-attacks",
+            "source": "SunStar Philippines, 25 July 2026, reporting OWWA: 12 Filipino crew of GAS AURA, two with burn injuries, attacks on 12 and 15 July near Kavkaz"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-01T01:14:09Z",
+          "text": "First reviewed record for GAS AURA, which was absent from both the incident store and the historical candidates. Türkiye's General Directorate of Maritime Affairs said the Panama-flagged LPG tanker was struck by a drone at Kavkaz on 15 July 2026, and that two injured Filipino crew were evacuated through GAS NERO and a Coast Guard helicopter off Sinop on 16 July. OWWA and Philippine reports record two burn injuries among the 12 Filipino crew and their repatriation on 24 July. No death has been reported, so deaths stay unknown rather than zero, and the two injuries are kept as a separate snapshot outside the death totals.",
+          "sources": [
+            {
+              "url": "https://www.cumhuriyet.com.tr/turkiye/yaralilari-tahliye-eden-tankere-karadeniz-de-dron-saldirisi-2521734",
+              "source": "Cumhuriyet, 16 July 2026, quoting Türkiye's General Directorate of Maritime Affairs: GAS AURA struck by a drone at Kavkaz on 15 July, two injured Filipino crew evacuated via GAS NERO"
+            },
+            {
+              "url": "https://www.sunstar.com.ph/manila/12-pinoy-seafarers-back-home-from-black-sea-vessel-attacks",
+              "source": "SunStar Philippines, 25 July 2026, reporting OWWA: 12 Filipino crew of GAS AURA, two with burn injuries, attacks on 12 and 15 July near Kavkaz"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -23418,6 +23479,75 @@
             {
               "url": "https://www.aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz",
               "source": "Al Jazeera, 30 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6551633265,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6551633265",
+      "author": "iMariner",
+      "received_at": "2026-11-01T01:14:18Z",
+      "incident_id": "HIST-BS-20260715-GAS-AURA",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-BS-20260715-GAS-AURA",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-01T01:14:09Z",
+          "vessel_name": "GAS AURA",
+          "imo": "9140592",
+          "date_utc": "2026-07-15",
+          "vessel_type": "LPG tanker",
+          "region": "Black Sea",
+          "location_text": "At anchor near Kavkaz, Russia, in the Black Sea",
+          "summary": "GAS AURA, a Panama-flagged LPG tanker, was struck by a drone while anchored near Kavkaz, Russia, in the Black Sea on 15 July 2026, injuring two Filipino crew members. The injured seafarers were taken aboard the LPG tanker GAS NERO and handed to a Turkish Coast Guard helicopter off Sinop on 16 July, according to Türkiye's General Directorate of Maritime Affairs. Philippine officials said 12 Filipino crew were aboard, two of them with burn injuries, and that they were repatriated on 24 July. The same vessel had been struck near Kavkaz on 12 July.",
+          "date_note": "Türkiye's maritime directorate and Philippine reports date the attack that injured the two crew members to 15 July 2026. The same vessel was struck near Kavkaz on 12 July; that earlier attack is a separate event and is not merged into this date.",
+          "sources": [
+            {
+              "url": "https://www.cumhuriyet.com.tr/turkiye/yaralilari-tahliye-eden-tankere-karadeniz-de-dron-saldirisi-2521734",
+              "source": "Cumhuriyet, 16 July 2026, quoting Türkiye's General Directorate of Maritime Affairs: GAS AURA struck by a drone at Kavkaz on 15 July, two injured Filipino crew evacuated via GAS NERO"
+            },
+            {
+              "url": "https://www.sunstar.com.ph/manila/12-pinoy-seafarers-back-home-from-black-sea-vessel-attacks",
+              "source": "SunStar Philippines, 25 July 2026, reporting OWWA: 12 Filipino crew of GAS AURA, two with burn injuries, attacks on 12 and 15 July near Kavkaz"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "human_impact": {
+          "injured": {
+            "count": 2,
+            "as_of": "2026-07-15",
+            "sources": [
+              {
+                "url": "https://www.cumhuriyet.com.tr/turkiye/yaralilari-tahliye-eden-tankere-karadeniz-de-dron-saldirisi-2521734",
+                "source": "Cumhuriyet, 16 July 2026, quoting Türkiye's General Directorate of Maritime Affairs: GAS AURA struck by a drone at Kavkaz on 15 July, two injured Filipino crew evacuated via GAS NERO"
+              },
+              {
+                "url": "https://www.sunstar.com.ph/manila/12-pinoy-seafarers-back-home-from-black-sea-vessel-attacks",
+                "source": "SunStar Philippines, 25 July 2026, reporting OWWA: 12 Filipino crew of GAS AURA, two with burn injuries, attacks on 12 and 15 July near Kavkaz"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-11-01T01:14:09Z",
+          "text": "First reviewed record for GAS AURA, which was absent from both the incident store and the historical candidates. Türkiye's General Directorate of Maritime Affairs said the Panama-flagged LPG tanker was struck by a drone at Kavkaz on 15 July 2026, and that two injured Filipino crew were evacuated through GAS NERO and a Coast Guard helicopter off Sinop on 16 July. OWWA and Philippine reports record two burn injuries among the 12 Filipino crew and their repatriation on 24 July. No death has been reported, so deaths stay unknown rather than zero, and the two injuries are kept as a separate snapshot outside the death totals.",
+          "sources": [
+            {
+              "url": "https://www.cumhuriyet.com.tr/turkiye/yaralilari-tahliye-eden-tankere-karadeniz-de-dron-saldirisi-2521734",
+              "source": "Cumhuriyet, 16 July 2026, quoting Türkiye's General Directorate of Maritime Affairs: GAS AURA struck by a drone at Kavkaz on 15 July, two injured Filipino crew evacuated via GAS NERO"
+            },
+            {
+              "url": "https://www.sunstar.com.ph/manila/12-pinoy-seafarers-back-home-from-black-sea-vessel-attacks",
+              "source": "SunStar Philippines, 25 July 2026, reporting OWWA: 12 Filipino crew of GAS AURA, two with burn injuries, attacks on 12 and 15 July near Kavkaz"
             }
           ]
         }
