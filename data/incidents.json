@@ -7490,13 +7490,14 @@
       }
     ],
     "first_seen": "2026-10-29T19:13:06Z",
-    "last_updated": "2026-10-30T05:06:46Z",
+    "last_updated": "2026-11-01T04:32:37Z",
     "verification_issue": 289,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-30T05:06:46Z",
-      "note": "a Turkish report of a diplomatic warning to Russia and Ukraine, with no ship and no attack"
+      "by": "iMariner",
+      "at": "2026-11-01T04:32:37Z",
+      "note": "A Turkish report of a diplomatic warning to Russia and Ukraine names no ship and describes no attack.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/289#issuecomment-6553439932"
     },
     "published_in": [
       "2026-10-30"
@@ -10927,16 +10928,35 @@
         "kind": "media",
         "published_at": "2026-10-31T10:33:46Z",
         "title": "Yemen’s Houthis Say They Targeted Two Saudi Tankers; Source Says Encelia Hit by Missile - EnergyNow"
+      },
+      {
+        "url": "https://www.reuters.com/world/middle-east/yemens-houthis-say-they-targeted-two-saudi-oil-tankers-2026-07-22/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-01T04:32:43Z",
+        "title": null
+      },
+      {
+        "url": "https://www.bbc.com/news/articles/cpw9xzx9r4ko",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-01T04:32:43Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-29T06:05:25Z",
-    "last_updated": "2026-11-01T02:31:03Z",
+    "last_updated": "2026-11-01T04:32:43Z",
     "verification_issue": 278,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-30T05:06:46Z",
-      "note": "the EnergyNow article is the 23 July 2026 Encelia missile story, already rejected on 1 October as the 22 July Red Sea strike"
+      "by": "iMariner",
+      "at": "2026-11-01T04:32:43Z",
+      "note": "The Houthi claim and the missile strike on Encelia belong to 22 July 2026 about 70NM southwest of Al Shuqaiq, so the 28 October record is that July story served again and is mis-dated.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/278#issuecomment-6553439402"
     },
     "published_in": [
       "2026-10-28",
@@ -11019,16 +11039,26 @@
         "kind": "media",
         "published_at": "2026-10-28T19:23:00Z",
         "title": "هجوم يستهدف سفينة شحن ترفع علم ليبيريا قبالة السواحل اليمنية - www.alghad.tv"
+      },
+      {
+        "url": "https://www.reuters.com/world/middle-east/vessel-reports-incident-southeast-yemens-aden-ukmto-says-2024-03-04",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-01T04:32:41Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-29T06:22:10Z",
-    "last_updated": "2026-10-30T05:06:46Z",
+    "last_updated": "2026-11-01T04:32:41Z",
     "verification_issue": 281,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-30T05:06:46Z",
-      "note": "an Ambrey report of a Liberia flagged ship 91 nautical miles southeast of Aden from March 2024, re-served as news with no ship named"
+      "by": "iMariner",
+      "at": "2026-11-01T04:32:41Z",
+      "note": "The headline names no ship and re-serves the Ambrey report of a Liberia-flagged container ship hit 91NM southeast of Aden on 4 March 2024.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/281#issuecomment-6553439561"
     },
     "published_in": [
       "2026-10-30"
@@ -11416,18 +11446,34 @@
         "kind": "media",
         "published_at": "2026-10-29T13:03:44Z",
         "title": "غرق سفينة حاويات إسرائيلية بعد استهدافها في البحر الأسود - خبرني - ننقل لك أخبار الأردن والعالم بموثوقية وتميّز"
+      },
+      {
+        "url": "https://gcaptain.com/greek-containership-sunk-by-naval-drones-off-bulgaria-as-black-sea-attacks-escalate/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-01T04:32:39Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-29T13:38:08Z",
-    "last_updated": "2026-10-30T05:06:46Z",
+    "last_updated": "2026-11-01T04:32:39Z",
     "verification_issue": 283,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-11-01T04:32:39Z",
+      "note": "The sinking described is the Greek-flagged container ship Contship Jet, sunk by sea drones off Bulgaria on 28 October, so this headline is a duplicate of INC-20261028-004.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/283#issuecomment-6553439722"
+    },
     "published_in": [
       "2026-10-30"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261028-004"
+    "merged_into": "INC-20261028-004",
+    "status_changed_at": "2026-11-01T04:32:39Z"
   },
   {
     "region": "Black Sea",
