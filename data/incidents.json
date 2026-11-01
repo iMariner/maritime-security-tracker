@@ -3,9 +3,9 @@
     "region": "Persian Gulf",
     "date_utc": "2026-11-01",
     "summary": "A headline reports that the Qatar LNG carrier Al Mayeda was hit by unidentified objects while transiting the Gulf. No further details on position, damage or casualties are given.",
-    "official_source_cited": null,
+    "official_source_cited": "Qatari company statement",
     "conflicting": false,
-    "confidence": 0.6,
+    "confidence": 0.7,
     "vessel_name": "AL MAYEDA",
     "imo": null,
     "flag": "Qatar",
@@ -16,9 +16,9 @@
     "location_text": "while transiting the Gulf",
     "attack_type": "other",
     "damage": "fire aboard after attack",
-    "casualties": null,
+    "casualties": "crew safe",
     "attribution_claimed": null,
-    "independent_evidence": false,
+    "independent_evidence": true,
     "id": "INC-20261101-001",
     "sources": [
       {
@@ -38,15 +38,124 @@
         "kind": "media",
         "published_at": "2026-10-30T20:38:58Z",
         "title": "Giant Qatari LNG carrier suffers fire in Gulf attack as Trump says war will be 'wrapped up ​soon' - TradeWinds News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE52d18zeFB0cUJLaVR6NnhvUTRtSmluUFNPVjN5TWoxMWR1N3I2VHpScERMVW5oY3g5QVl5Ry0wcnhDVDY3?oc=5",
+        "source": "factjo.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-01T15:22:00Z",
+        "title": "الأردن يدين استهداف ناقلة غاز قطرية في الخليج ويحذر من التداعيات - factjo.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZ0hUQWdzWTA5cjZaOFAwYkdWYmM1ak1KNXhJTDk2RVhnY0lfSWFsekFTcUhDY25faVlzVElMNUp1YXlHeWVPaVdMc3VYRTFMejlVTV9PMWR3a3A3RHFsQTJnZDJqRC1KX1o1YVlkczhjNlBOOHJBVlZod2tCemxkVnVLTWRqaERaNEJoNWdVTnE1cjlyMktVVmVSQVBfaGpELW9SNlVhVmxqV1haOGNNSA?oc=5",
+        "source": "Bloomberg.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-01T14:48:21Z",
+        "title": "Pakistan LNG Cargo Attacked Near Hormuz Had Iranian Approval - Bloomberg.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWGUwVDB3NlpGWk9jQS1Oc09oakt4aW5qTkdnQ3huVXFlRVgxUUdrbkJ3cl9MazVGU3B3akR4bm5PVk9abVZ1V01rY1Jvbm5jSmpRMFlUMldEOTVKZnhaSG9ybllVZTJLX3dVN2t5QTl4WWdiTTV5N181Vy1yemhoNG9GQzlJSlFMYzdBWFZmeXhVbm94c0VsXzdkX1FHeE9RQ1BYa1NKblZoUnFteGRvWEdpMTZXWEE?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-01T14:24:22Z",
+        "title": "Танкер с СПГ для Пакистана атаковали после согласования прохода с Ираном - prospect.com.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOLVYyQzdhYlpZSnphdFV0SkpFdURacW9jVngxUVNYQmNsVXhweFZabDA1bU5NN0RfZEFoZ0JCOHpObzBOYTRWeE8xR2phQjZ5NHM4ZWp5amR0Q3lPVFhlVDNVNjBoV3VhQ04tQmdNZklSeTNYd0tpVVBid1ROQ2Zqb2RhQ0xyZFRTb1h2ZGNNYlVoT2RPeHlmVk9ndGhLSFV20gGmAUFVX3lxTE13bWREUnd2bldoUk1JM08zRUJTTFVIaUtBQldET3BDbm10VkNWMG5qX0pSaXhPUEUycHVaakd5ajctbVBSTUctWllNWU10QlBlejg1QThhUWl4SmVZek5USmxZSWE4amtIdVRfYW96QVVPbFlZQ0hyUzQzODVDSFJmbTJJdjdUTFl5YjI5V0p6amI5SWpkdEY3RDN5azBmSXBGUmo3SlE?oc=5",
+        "source": "ProPakistani",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-01T13:36:58Z",
+        "title": "Pakistan-Bound LNG Tanker Hit Near Hormuz by Unknown Attacker - ProPakistani"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSU1Fc3JpWUM4REFIanVUZEJBRUZyQmxQbW82TTJ2TlB5bWp2bVNQV25pWlhGcmY5T19mWUV5M0xvekFGODFoLVkzMnR3a25wSVhIUWpHM2xkcS10OGtwVXFTZHY1ZGVqNGl1dTdMa19yWllzUmVqc2ZWOEtINDBJaDJ5d241UE1rTFFuMTFwcEVrUDdBb2tIQmdVc05ld9IBowFBVV95cUxNZEtDQS12eTRKS0NESXZxRVgyLVB4QXhRRmVsR2I4UEJxSG5yUzVjS1gtZUs3Z28yUXlTcHhiUEVvY2JVXy1KYjNveHZvS0ZHZVk2a1d5aXlBSUlNSHgwNWFCUWg3dzBPajF6UkZrVDFHTWJUdU9DYmhyRTlnTjVuV0ZRNVBVTC1XSFVPT3dBbDNfV2xFWXV6WC14LXZQbnM2eTRJ?oc=5",
+        "source": "Al Jazeera",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-01T13:09:56Z",
+        "title": "Qatar LNG carrier struck by ‘unidentified objects’ in Gulf - Al Jazeera"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPLV9SYzhjZnZwOVdhZXBpcTR0SnhRanZXa3d4cmFITVJhNWNRTmgxY3dEUjROVzZmOVVacEc0MDBRR1JQNHRYSHRIaDJjM19zMDd4ck5XakZoaUxKaFBFb1BYOFhuQnBvQ0NGOUNGN1VORnFjZ2FfcE5VUTRIMmd3WnNPNWpKV1JqaXVJMkEtdFlzc0l5b255bGQyUzBlTnBpbzZBbHprQUtVaDVsakHSAa4BQVVfeXFMTy1fUmM4Y2Z2cDlXYWVwaXE0dEp4UWp2V2t3eHJhSE1SYTVjUU5oMWN3RFI0Tlc2ZjlVWnBHNDAwUUdSUDR0WEh0SGgyYzNfczA3eHJOV2pGaGlMSmhQRW9QWDhYbkJwb0NDRjlDRjdVTkZxY2dhX3BOVVE0SDJnd1pzTzVqSldSaml1STJBLXRZc3NJeW9ueWxkMlMwZU5waW82QWx6a0FLVWg1bGpB?oc=5",
+        "source": "ABC News - Breaking News, Latest News and Videos",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-01T12:13:00Z",
+        "title": "Israeli strike kills boy in Gaza as Qataris say vessel struck in Gulf, and other Mideast news - ABC News - Breaking News, Latest News and Videos"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYkUzM0hSMnRiT3FKaWNQeTllYjhJLUZXMjJoN2F0b0RQc0JZNFEzVWNPNnVWc1pYOWxJbUFxT0oxY3Q5bVR6dEJDcWxfRzN0ZEZlN2c3b2o3UnJUT3AxeWU5TnpzaGozQWZkVXJpTzNjM0VCLVh0MlNMdUFsS1d6V1dsSnJhQzlKdy13QloyM0xvelVHMEhGZTlOUHhBVGgwUXZWU3RtVTdmUDVtT05uM1BfcEZkYXQ5dlNDcy1yQ3pObjdtRWVxOU5TUFZZVnNwZnc?oc=5",
+        "source": "Forbes Middle East",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-01T11:51:00Z",
+        "title": "Qatari LNG Carrier Hit Amid Surge In Gulf Shipping Attacks, Rising Insurance Costs - Forbes Middle East"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRGxYRTdjQk8zXzQ5WHFqZ0xnbXFyRzc0QXBGRU9CaGRtaXpFT0h0Y3d0ZHR0cEZYMzd6cGRuWnA0NTlBdXNaQlp4SlJmWjJYTFRqYWNIUi01ZWNwQTNwM0ZScGxhd2dXcjY4cEpTQTVDNkdjZ0FzLTIwN0RXOUcydlo3UkJjS0luT2U2aURSazN5V2xjZFp4NzM5VEVuSWFIZHNDc0QyLUxrdC0tUWRuaw?oc=5",
+        "source": "Nefes Gazetesi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-01T11:38:54Z",
+        "title": "Basra Körfezi'nde yakıt taşıyan tankere saldırı. Katarlı şirketten açıklama geldi - Nefes Gazetesi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSlBScTFTOUtfbWZaYWlZWVBYTWtpbHBCV2NzZnpVOTVkSVVWc0xoZEk5MXNfaFdRSEh3dDJvVm1BcFBMRVRBMWZ6Rll5MmVlMnkwcGVPREQ5WGxaWnR1T3VPZmVXUGU4YVVrdTh6aHNleURxa0JSN21CLTNZRXFBQmdEMlNXMDE3eUpVcDFEcldIZjB2cmF6cVp4OFBBMnU0RXVMRXFXY0Fvdi1lTnlF0gHEAUFVX3lxTE1kNTVrdHJubmdqTDZuYTNYWTlUYTdKWFdITDBGUlA3V3ZIRWczbkg5SW4wcEp3b01BRVZFSlpFVDdPdm5uOHJQM19DU21IVE9VMmhIOHAxcHlGcnp4em96QkIwTmk2N2gwUHduRDRmU1BnUk1qQ0cyNTA5WkFGRXM5X29ZaGhpcUF4R2pFeVZpYmtvNXZrRlp4eXFEeC1QTWN4bFF3ZEVvRERySHJsazJPakNPYW5CR1VsMnZqQzJOT1I5M3E?oc=5",
+        "source": "Gulf News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-01T10:37:21Z",
+        "title": "Qatar LNG tanker hit in Gulf; crew safe, no oil spill reported - Gulf News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeVpDTGd0SW1idmhJNU9NUVVnbHZoS3kzV3ZhR2JjY2FPS3ZQRkhvU3BFc0luWU1wTE1hNm9vR2MzSExscDhuWlVubXIxdkU3N2lJVFBaenEtMTJvODF6TmR0LXFHQ1dlOXlXMmdqakwya1pXSnpkb2I2WXBCbUhfVjE3RnVQYTZQd0xJLWxpeUdXbkNvc0Uzc0VoMG1jT1pyYjZ2Q3pVNHRSLTdGbnhTNA?oc=5",
+        "source": "Laodong.vn",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-01T09:33:17Z",
+        "title": "Qatar's LNG tanker suddenly attacked while moving through the Persian Gulf - Laodong.vn"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZ2k2c1pKME15cWg5aFdfdHM4S2kzSDlZMlRsdEdLT0RBbmVRTHF4QzYyNWY2Z3ZrQUlvTFpoYjZTSU1ONUlLYm1pWEJwWmpGemZJeDJ3dHpXRi1scEYyWjc0azJONnVZYmFDcmh6MlZFelNyZFpKQjc0eV83WWFyNzhCVGhBdExkWVU4?oc=5",
+        "source": "Fakti.bg",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-01T07:11:00Z",
+        "title": "LNG tanker Al Mayeda attacked in Persian Gulf ᐉ News from Fakti.bg - World - Fakti.bg"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORFhSOGw4VHZCM2p0RjloNEpoaF9tcXlXY3RRU2ZEM3ZYczFxakhZekl5UkJhRHpWZkNXWHhTOUF1TV9vRzJsWHg2eTFxV014VFNJT2hjWHhEOXFNbGkzRFNYSXRUSFh5UXFzLXBuWWFJa3k0ZlVCck5ZR0RRZ0lTamU4NkR3VXFGZDZsQ3FaTzR2R1RESEo4TFczN2R3MzYxaHlEdzVMRENZRVR4bHJ0dTF3cVRSREZMTjV1dkEtNG53TmtGZnUtU0d0Tk1MeUVkODktLUtzWTc0dlVHOUxXR0RuVQ?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T20:38:58Z",
+        "title": "Giant Qatari LNG carrier suffers fire in Gulf attack as Trump says war will be 'wrapped up ​soon' - TradeWinds News"
       }
     ],
     "first_seen": "2026-11-01T09:37:37Z",
-    "last_updated": "2026-11-01T09:37:52Z",
+    "last_updated": "2026-11-01T16:19:35Z",
     "verification_issue": 310,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "confirmed",
+    "position_approx": true,
+    "status_changed_at": "2026-11-01T16:19:19Z"
   },
   {
     "region": "Black Sea",
@@ -105,6 +214,46 @@
     "published_in": [],
     "status": "merged",
     "merged_into": "INC-20261031-002",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-11-01",
+    "summary": "Russia's defence ministry said its forces struck a dry cargo vessel with drones while it was under way 16 km south-east of Odesa, claiming it was carrying military cargo for Ukraine's armed forces. No vessel name, flag, damage assessment or casualty details were given, and the claim is not independently confirmed.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 46.49,
+    "lon": 30.74,
+    "location_text": "16 km south-east of Odesa, Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": "Russia's defence ministry said the vessel was struck",
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry claimed it",
+    "independent_evidence": false,
+    "id": "INC-20261101-003",
+    "sources": [
+      {
+        "url": "https://t.me/mod_russia/68696",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-01T13:56:49+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-11-01T16:19:15Z",
+    "last_updated": "2026-11-01T16:19:15Z",
+    "verification_issue": 312,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
     "position_approx": true
   },
   {
@@ -676,10 +825,28 @@
         "kind": "media",
         "published_at": "2026-11-01T05:10:13+00:00",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYjVtdzFaZTU4ZEtLbnp2OTlaLU1jNDZjRGlFVnZCNjJWOWNKNnBkaml6SW9OUEdyY3E3ZU10a3ZPVzRqUUpaYjlOZ1FjNC1HLWxSUndEd0s3T1d0TXlnU0g4cm5NWm54VjEwOWl6ZEVHcE05QVdYY29nellEYlRURHBROFZYZFFzZHJNLUZQTHVfcTl5YUJwVEhyQVhJQjZKY25USkVXRDRMR1BJRHVMeEVRQTJZNEpPT0HSAb8BQVVfeXFMTm5HdmRhUWlnblE1S01jTlFBWTdDRE9xNzhqb0FGT3cyUXI2TWNJbHlPbm5fMnM0MXpmUGFRbXBFdFNRdGtNQ2Q1UTJ0d3pOU2xjV3hibVU3QlUwamdhVmtHaldFX1hHbWZkdEhPWVhvWkVvUWNsMHpobVIzaFA3LWowczhLVDNaMUNZVzc1RnFRS1pua05LYXd3NEpVYy1ZRUNIYTB4YXQ4VGNYUUpwdjhOdlN2SkFXbDIydkY0UHc?oc=5",
+        "source": "STAR - Haberler",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-01T07:45:00Z",
+        "title": "﻿Rusya'dan Ukrayna'ya yeni saldırı! Askeri amaçlı tren istasyonu ve gemi vuruldu - STAR - Haberler"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNaFFzbUszV3lWRE5WSFpfUEE4cGU1VnVTeXpHSUgyb1NRa0NuVEp5N05vMWpyaFlLQ081Q3NxRGJyNGQ1T1FGOGxocWF1RUVaYklyVjRvN3FGVURIazR6M3dncmNvc2h4QVJQMjNwa0JMR3B4UEFHTWU5b0dyVEI1RzhRTXJLcEJPcnRJRGJiZE1BQmpsNXBlc29Vbi1SQVVWZW9Wa1h4SjhsWlI2UGhpQWdqaHRrNjdyVUpHRXdORzBOUTdvVWEw?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T18:40:16Z",
+        "title": "Dry-cargo vessel damaged as Russia claims to 'neutralise' 11 ships in a week - TradeWinds News"
       }
     ],
     "first_seen": "2026-10-31T08:47:00Z",
-    "last_updated": "2026-11-01T09:37:54Z",
+    "last_updated": "2026-11-01T16:19:35Z",
     "verification_issue": 302,
     "verdict": null,
     "published_in": [
@@ -1006,6 +1173,86 @@
     },
     "published_in": [],
     "status": "rejected",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-31",
+    "summary": "Swedish police boarded a dry cargo vessel over 80 metres long off Gotland overnight into Saturday; its owner had been investigated over Russian drone operations. The crew are Russians and the shipping company is registered in Kaliningrad, according to the report.",
+    "official_source_cited": "Swedish police (per TV4)",
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "off Gotland, Baltic Sea (outside the monitored regions)",
+    "attack_type": "boarding/seizure",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Swedish police special unit boarded the vessel",
+    "independent_evidence": true,
+    "id": "INC-20261031-012",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNZ0FNV0pqQ2dpQTI5Y1ZzbWhXVWlpZ2x6QmM3akV2V1k0ZlJhbE1PSTlSWXdTeGRGQ2xlSEc4TUdVR19yeDF6amtnYV9Md3E0bTZxblZTOFdtd1hBeEgxWjkxV0p6aTNOV0Ztb2YzV0ZRQndJOU1NYmtrZEo4elJ4WC1USF9xTnhZcDVYdHo4aG1YTVVkdFgtcktsaW4tSWo5cHFxRlgzdmZ4N2w3M0xaTEFRNVF3XzRLejE2ZjZMbjRtZ3dQOVFTVnlVNkdVRHFIdHNwQWl5WW5XZDdKUTFtNGJVUVhtV2lDcDBzOF9CXzdwVUJXZUw5UTJJU0g?oc=5",
+        "source": "Euromaidan Press",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-01T14:53:43Z",
+        "title": "Over 80 meters long, a dry cargo hold, and an owner investigated over Russian drone operations: the ship Sweden boarded off Gotland - Euromaidan Press"
+      }
+    ],
+    "first_seen": "2026-11-01T16:19:09Z",
+    "last_updated": "2026-11-01T16:19:09Z",
+    "verification_issue": 311,
+    "verdict": null,
+    "published_in": [],
+    "status": "reported",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-10-31",
+    "summary": "Ukrainian drones struck Russia's Primorsk port, hitting oil tankers and military ships, according to the report. No vessel names, positions, damage or casualty details are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.4,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Primorsk port, Russia",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Ukraine (Ukrainian drones)",
+    "independent_evidence": false,
+    "id": "INC-20261031-013",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdTZlNTRtQmFQcE5uYkhuNnNuYmw0UXJOZDY5cVJoYk5WX21rQzVrN3RteFJQbXR2al9jaWMzc0hSUTM0eXRmTUMtWGpRMVBmVVNMMzRMZ29YdjNWLXcwODNiYW5fS0UxSHlOT2c0SGl4NTBNdEY4anVsVGxJZ0prMWF4X3pwd2hjNVRQQndZS25PRjk4c2VzTTBmOGx5ZVJl?oc=5",
+        "source": "DD News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-31T08:40:23Z",
+        "title": "Ukrainian drones hit Russia’s Primorsk port, oil tankers and military ships - DD News"
+      }
+    ],
+    "first_seen": "2026-11-01T16:19:29Z",
+    "last_updated": "2026-11-01T16:19:29Z",
+    "verification_issue": 313,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
     "position_approx": true
   },
   {
@@ -2822,10 +3069,19 @@
         "kind": "media",
         "published_at": "2026-10-30T14:12:50Z",
         "title": "Oman rescues 25 crew after Panama-flagged ship catches fire - Latest news from Azerbaijan"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMzdWakFCLTEzM2pYaGh6ZHpxZE9KMjh2QjkzcE1ieWVwa0dmRFZZWUlOamZJUlpwN0M1ajJuZ3dNRFJ4ZzJwSmFJaGl4cGFWTEZPYmI0UllLZ1lCRzIzWVpNSlhkQnpCejl4RFltVXJvV3QtcXhqY1JiUF91TjZmSU5XYXFHM05CcE1fbzV6dVNmOFFUNEExZm1qVTFQWnhBYnVyZkUxYmlRTnEtTHlla3l0RGxncHgwbDRyVVVuMjU?oc=5",
+        "source": "Reuters",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T20:40:06Z",
+        "title": "Iran's IRGC Navy says four tankers catch fire in Strait of Hormuz - Reuters"
       }
     ],
     "first_seen": "2026-10-30T21:41:31Z",
-    "last_updated": "2026-11-01T09:37:52Z",
+    "last_updated": "2026-11-01T16:19:29Z",
     "verification_issue": 298,
     "verdict": {
       "status": "confirmed",
@@ -3557,6 +3813,47 @@
     ],
     "first_seen": "2026-11-01T09:37:52Z",
     "last_updated": "2026-11-01T09:37:53Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261029-021",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-10-30",
+    "summary": "A headline reports oil prices rising after a tanker attack in the Strait of Hormuz, with Houthi claims stoking supply fears. No vessel name, position, weapon type or damage details are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.4,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261030-037",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZnk0ZG1hanpLalRpRWptVksxbVg5SDJPb1Fva1F3QjRDQVdpT091dGV3c3pFNjZpTEVZWWdoZmR6TWFDdHFqNFRqbTNIUkVYRmttNVl1NWhRT3JuRWxxQ2Q2RXZNeXgyekc0OUlJN2FQZVZBYmtlSi1KSF9lNnIyM2tVVDduYzN4YTYzcXNoQnZCNXc?oc=5",
+        "source": "Moomoo",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T20:00:00Z",
+        "title": "Dow Jones Top Energy Headlines at 4 PM ET: Oil Prices Rise After Hormuz Tanker Attack, Houthi Claims Stoke Supply Fears | American ... - Moomoo"
+      }
+    ],
+    "first_seen": "2026-11-01T16:19:35Z",
+    "last_updated": "2026-11-01T16:19:36Z",
     "verification_issue": null,
     "verdict": null,
     "published_in": [],
@@ -5532,10 +5829,64 @@
         "kind": "media",
         "published_at": "2026-10-30T18:12:57Z",
         "title": "Oil prices set for fourth straight monthly gains as tanker attack highlights supply risks - Central Oregon Daily"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcm1LX2pvZ1Ztb1JrXzlLS21ESktHRjU2cUpjTm5IZUFHdnpldFFPQ29JTUJDejJCaWkwOGRxcE5JRkl1bkNZRFFieFlCWXB0UUthQ1g2TzIzZ3dScGtQTXo3WWZsNWhmZmF3TjBuSFptYk40bUU0NG1Tek1tYkJ4am4yUDdSV2o0Y2lxdE9uMjJkTExBZTFTd0pJS0tkcUZCNHRVTQ?oc=5",
+        "source": "ASHARQ AL-AWSAT English",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-31T07:28:24Z",
+        "title": "UKMTO: Tanker in Strait of Hormuz Hit by Explosives Attached to Small Boat - ASHARQ AL-AWSAT English"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9CWF94Qy1MUy1Vc0JEU1lwRlN1TFZVUGZwNHZqSFJ3RkhzQUZaT0FhRjhVT0xiVXlzUTk4QnE1V2Z5QjR5RTMyZk95VDlZZ3N1SjdJ?oc=5",
+        "source": "شبكة تواصل الإخبارية",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-31T00:27:51Z",
+        "title": "Hormuz shipping crisis deepens as Iran reports tanker fires, Houthis target Saudi oil facilities - شبكة تواصل الإخبارية"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUkJnUlc0c2ZVWm8zNlRrX1hKR2did3RDLWFmQVFQUlN6VktPMnVEZXZNTjFZZkFPZmVKb3NQQUlta2QxSU9WU21iM3lJSElzMHpLRkVfbEo0MmV5OU1EdU8tUHFHSXdlWS01RUg2Q2xwbTN3RkZFclBhSTRtNUNYbE5jMHZLaXpqSzJhNVJjVzVkMDF3Xy14YXE4NUlwN0JMRjJrMUNuQ3M4TkV4dEtFUUY0UQ?oc=5",
+        "source": "DatamarNews",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T20:41:34Z",
+        "title": "Oil set for fourth monthly gain as Hormuz tanker attack highlights supply risks - DatamarNews"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQS1hoblZJNmtmeXFhakpuOEtsX1JsTG5mWE5fZkJ0eGpHcVR1ZG1UTFdLVVBQc2ZLZW5wTktQWi1XNU45clpjMGlYOGpwX0tBdG50Tm9RYmk2SHdpSEdnSkRVSXdsbVdFdzhzQjhuTHpCOXFaV3Y2UFQyUnJ0X0dBU3ZiVXZScW5RRldxN3p4dXZPZVVLLXc?oc=5",
+        "source": "Boston Herald",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T20:32:20Z",
+        "title": "Iran says 3 tankers strike mines and catch fire in Strait of Hormuz, and other Mideast news - Boston Herald"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQMFpjaV9wbzFqXzl6UW5LMDJlZlZfZjBfVFlXdVNScl9hejBPRG4xU2F0b2hrMzFIcS00V2Z6ay05WnZWNjdMNE1OeEEwSjRjOERleWdyOHJ4aUpzb0wyN25yUkd0ajMwVi1IRGFPcDBfa3hOamROZG9PM01nTklrYWs1bURraVk0dTNTNm9wd0MtdXlHU29IQkVWTmNyT2xUQ09aNXk4cVdJTEVvOXZIZ2F3V3c1OEFuMHdfM1BMZTg3NVdSZUdfQnBrdmRHT3JzMzdwdmFXSGlmR0FTVFpQNGhR?oc=5",
+        "source": "BNN Bloomberg",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T15:22:00Z",
+        "title": "Three tankers strike mines and catch fire in Strait of Hormuz, Iran claims, and other Mideast news - BNN Bloomberg"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZnk0ZG1hanpLalRpRWptVksxbVg5SDJPb1Fva1F3QjRDQVdpT091dGV3c3pFNjZpTEVZWWdoZmR6TWFDdHFqNFRqbTNIUkVYRmttNVl1NWhRT3JuRWxxQ2Q2RXZNeXgyekc0OUlJN2FQZVZBYmtlSi1KSF9lNnIyM2tVVDduYzN4YTYzcXNoQnZCNXc?oc=5",
+        "source": "Moomoo",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-10-30T20:00:00Z",
+        "title": "Dow Jones Top Energy Headlines at 4 PM ET: Oil Prices Rise After Hormuz Tanker Attack, Houthi Claims Stoke Supply Fears | American ... - Moomoo"
       }
     ],
     "first_seen": "2026-10-31T04:40:25Z",
-    "last_updated": "2026-11-01T09:37:53Z",
+    "last_updated": "2026-11-01T16:19:36Z",
     "verification_issue": null,
     "verdict": {
       "status": "confirmed",
