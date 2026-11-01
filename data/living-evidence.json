@@ -12601,6 +12601,55 @@
           ]
         }
       ]
+    },
+    "INC-20261030-019": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-01T01:11:51Z",
+        "vessel_name": "RITI",
+        "imo": "9249075",
+        "date_utc": "2026-10-30",
+        "vessel_type": "Crude oil tanker",
+        "region": "Strait of Hormuz",
+        "location_text": "Off Musandam, Oman, at the southern entrance to the Strait of Hormuz",
+        "summary": "RITI, a Panama-flagged crude oil tanker of 166,729 deadweight tonnes managed from Hong Kong, was set on fire off Musandam, Oman, at the southern entrance to the Strait of Hormuz, on 30 October 2026. Oman's Maritime Security Centre said the Royal Oman Navy evacuated the 25 crew members aboard and that they were given the medical care they needed, and it placed the incident about 106 nautical miles off the Musandam coast. The centre named no weapon and no attacker, and no death toll has been published.",
+        "date_note": "Oman's Maritime Security Centre announced the evacuation on Friday 30 October 2026, which is recorded as the attack date. No attack time was published, and the separate UKMTO report of a vessel on fire 40 nautical miles from Lavan Island, Iran, is not linked to RITI here.",
+        "sources": [
+          {
+            "url": "https://www.dawn.com/news/2040966/25-crew-members-rescued-from-tanker-attacked-off-the-coast-of-oman-maritime-security-centre",
+            "source": "Dawn, 30 October 2026, quoting Oman's Maritime Security Centre: 106 nautical miles off Musandam, 25 crew evacuated, medical care provided"
+          },
+          {
+            "url": "https://www.aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz",
+            "source": "Al Jazeera, 30 October 2026: Oman rescued 25 crew from the burning crude oil tanker RITI"
+          },
+          {
+            "url": "https://www.marinetraffic.com/en/ais/details/ships/shipid:209108/mmsi:352002473/imo:9249075/vessel:RITI",
+            "source": "MarineTraffic vessel record: RITI, IMO 9249075, crude oil tanker, Panama"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-01T01:11:51Z",
+          "text": "Reviewed record moved to the corpus row for this attack that remains public. An earlier review of the same event was filed against INC-20261030-011, which the incident pipeline merged into INC-20261030-019, so the event stayed withheld from the public tracker. Oman's Maritime Security Centre reported 25 crew evacuated from RITI about 106 nautical miles off Musandam with medical care provided. No death or injury count was published, so casualties remain unknown, not zero. Later posts claiming six or twelve injured name no authority and are not recorded.",
+          "sources": [
+            {
+              "url": "https://www.dawn.com/news/2040966/25-crew-members-rescued-from-tanker-attacked-off-the-coast-of-oman-maritime-security-centre",
+              "source": "Dawn, 30 October 2026, quoting Oman's Maritime Security Centre"
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz",
+              "source": "Al Jazeera, 30 October 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -23313,6 +23362,62 @@
             {
               "url": "https://tass.com/emergencies/2174369",
               "source": "TASS, 17 August 2026, citing Greek broadcaster Skai: a drone struck the Greek tanker Skiros after it loaded oil at Novorossiysk on 16 August, fire on the bridge, and the Greek operator said no one was hurt and no oil leaked"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6551611856,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6551611856",
+      "author": "iMariner",
+      "received_at": "2026-11-01T01:12:13Z",
+      "incident_id": "INC-20261030-019",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261030-019",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-01T01:11:51Z",
+          "vessel_name": "RITI",
+          "imo": "9249075",
+          "date_utc": "2026-10-30",
+          "vessel_type": "Crude oil tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "Off Musandam, Oman, at the southern entrance to the Strait of Hormuz",
+          "summary": "RITI, a Panama-flagged crude oil tanker of 166,729 deadweight tonnes managed from Hong Kong, was set on fire off Musandam, Oman, at the southern entrance to the Strait of Hormuz, on 30 October 2026. Oman's Maritime Security Centre said the Royal Oman Navy evacuated the 25 crew members aboard and that they were given the medical care they needed, and it placed the incident about 106 nautical miles off the Musandam coast. The centre named no weapon and no attacker, and no death toll has been published.",
+          "date_note": "Oman's Maritime Security Centre announced the evacuation on Friday 30 October 2026, which is recorded as the attack date. No attack time was published, and the separate UKMTO report of a vessel on fire 40 nautical miles from Lavan Island, Iran, is not linked to RITI here.",
+          "sources": [
+            {
+              "url": "https://www.dawn.com/news/2040966/25-crew-members-rescued-from-tanker-attacked-off-the-coast-of-oman-maritime-security-centre",
+              "source": "Dawn, 30 October 2026, quoting Oman's Maritime Security Centre: 106 nautical miles off Musandam, 25 crew evacuated, medical care provided"
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz",
+              "source": "Al Jazeera, 30 October 2026: Oman rescued 25 crew from the burning crude oil tanker RITI"
+            },
+            {
+              "url": "https://www.marinetraffic.com/en/ais/details/ships/shipid:209108/mmsi:352002473/imo:9249075/vessel:RITI",
+              "source": "MarineTraffic vessel record: RITI, IMO 9249075, crude oil tanker, Panama"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-01T01:11:51Z",
+          "text": "Reviewed record moved to the corpus row for this attack that remains public. An earlier review of the same event was filed against INC-20261030-011, which the incident pipeline merged into INC-20261030-019, so the event stayed withheld from the public tracker. Oman's Maritime Security Centre reported 25 crew evacuated from RITI about 106 nautical miles off Musandam with medical care provided. No death or injury count was published, so casualties remain unknown, not zero. Later posts claiming six or twelve injured name no authority and are not recorded.",
+          "sources": [
+            {
+              "url": "https://www.dawn.com/news/2040966/25-crew-members-rescued-from-tanker-attacked-off-the-coast-of-oman-maritime-security-centre",
+              "source": "Dawn, 30 October 2026, quoting Oman's Maritime Security Centre"
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz",
+              "source": "Al Jazeera, 30 October 2026"
             }
           ]
         }
