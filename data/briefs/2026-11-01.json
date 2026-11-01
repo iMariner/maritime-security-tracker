@@ -35,7 +35,7 @@
   "quality": "2 check(s) need attention: dates 1 approximate; attribution 1 claims without a named source; official coverage 0/0 ok; verified 3/9; single-source items 0; confirmed ok; fact-check no corrections needed; tweet 216/280 ok; dashes ok; consistency Louise 1 is in the data but not named in the article found",
   "review": {
     "status": "done",
-    "at": "2026-11-01T05:04:50Z",
+    "at": "2026-11-01T05:10:26Z",
     "changes": [
       "lead story set to INC-20261031-002 (the only attack newly reported inside the 24 hours to 04:38 UTC: Russia's defenc)",
       "INC-20261031-004 marked rejected (the Turkish reports are of a ship damaged by a Ukrainian drone on 21 August, the Barbados-flagged container ship RMS Team with one crew member missing, now passing the Istanbul Strait to the breakers, so this is a transit of an old attack and not an attack on 31 October)",
@@ -52,7 +52,12 @@
       "Give Iran's IRGC claim its own sentence dated 30 October: the IRGC said a supertanker carrying more than 2 million barrels hit a mine and caught fire, the fourth tanker to burn in the strait since early that day, and it named no vessel. Do not join it to the RITI or to UKMTO's Lavan warning, and say it is not established whether they are the same ship."
     ],
     "restored": [],
-    "send_after": false,
+    "send_after": true,
     "lead": "INC-20261031-002"
+  },
+  "final_read": {
+    "status": "fixed",
+    "at": "2026-11-01T05:10:26Z",
+    "warnings": []
   }
 }
