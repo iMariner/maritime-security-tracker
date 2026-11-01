@@ -12630,25 +12630,44 @@
     },
     "INC-20261030-019": {
       "casualties": {
-        "status": "unknown",
-        "deaths": null,
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_110_01-nov-1.pdf?rev=d2be223caff04f09bbf58d94c9aa8e0a",
+            "source": "Joint Maritime Information Center advisory update 110, 1 November 2026: crew reported safe after the strike"
+          },
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261029-ukmto_warning-186-26.pdf?rev=d5f4136239bb4071958ad3a7f240a26c",
+            "source": "UKMTO warning 186-26, 29 October 2026: no reported injuries to the crew"
+          }
+        ],
         "nationalities": []
       },
       "verification": {
         "status": "verified",
-        "checked_at": "2026-11-01T01:11:51Z",
+        "checked_at": "2026-11-01T19:40:49Z",
         "vessel_name": "RITI",
         "imo": "9249075",
-        "date_utc": "2026-10-30",
+        "date_utc": "2026-10-29",
         "vessel_type": "Crude oil tanker",
         "region": "Strait of Hormuz",
-        "location_text": "Off Musandam, Oman, at the southern entrance to the Strait of Hormuz",
-        "summary": "RITI, a Panama-flagged crude oil tanker of 166,729 deadweight tonnes managed from Hong Kong, was set on fire off Musandam, Oman, at the southern entrance to the Strait of Hormuz, on 30 October 2026. Oman's Maritime Security Centre said the Royal Oman Navy evacuated the 25 crew members aboard and that they were given the medical care they needed, and it placed the incident about 106 nautical miles off the Musandam coast. The centre named no weapon and no attacker, and no death toll has been published.",
-        "date_note": "Oman's Maritime Security Centre announced the evacuation on Friday 30 October 2026, which is recorded as the attack date. No attack time was published, and the separate UKMTO report of a vessel on fire 40 nautical miles from Lavan Island, Iran, is not linked to RITI here.",
+        "location_text": "Strait of Hormuz, about 12 nautical miles north-east of Khasab, Oman at the time of the strike, per UKMTO warning 186-26; NAVAREA IX 420/26 later placed the tanker at anchor about 1 nautical mile north-west of Ra's Tahir, Oman. Oman's Maritime Security Centre gave the distance as about 106 nautical miles off the Musandam coast.",
+        "attack_type": "unknown projectile",
+        "date_note": "UKMTO warning 186-26 dates the strike to 1600 UTC on 29 October 2026, and JMIC advisory update 110 of 1 November 2026 records that the Royal Navy of Oman identified the tanker in that warning as RITI. Oman's Maritime Security Centre announced the evacuation on Friday 30 October 2026 and published no attack date, so the earlier reviews used the announcement day. The Omani distance of about 106 nautical miles does not match UKMTO's position near Khasab and is left unresolved.",
+        "summary": "RITI, a Panama flagged crude oil tanker of 166,729 deadweight tonnes managed from Hong Kong, was struck by an unknown projectile at about 1600 UTC on 29 October 2026 while completing an outbound transit of the Strait of Hormuz about 12 nautical miles north-east of Khasab, Oman. UKMTO warning 186-26, issued on a company security officer's report, recorded no reported injuries to the crew and no environmental impact and named no vessel. JMIC advisory update 110 of 1 November 2026 records that the Royal Navy of Oman identified the tanker as RITI, that a small fire was ignited and extinguished, and that the vessel lost propulsion. Oman's Maritime Security Centre said the Royal Oman Navy evacuated the 25 crew members aboard on 30 October and that they were given the medical care they needed, without giving nationalities, injury numbers or any death toll. NAVAREA IX 420/26 reported the tanker anchored about 1 nautical mile north-west of Ra's Tahir. The centre named no weapon and no attacker. The separate UKMTO report of a vessel on fire about 40 nautical miles from Lavan Island, Iran, belongs to AL MAYEDA and is not part of this record.",
         "sources": [
           {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_110_01-nov-1.pdf?rev=d2be223caff04f09bbf58d94c9aa8e0a",
+            "source": "Joint Maritime Information Center advisory update 110, 1 November 2026: RITI recorded under UKMTO 186-26, 29 October, crew reported safe, fire extinguished, propulsion lost"
+          },
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261029-ukmto_warning-186-26.pdf?rev=d5f4136239bb4071958ad3a7f240a26c",
+            "source": "UKMTO warning 186-26, attack, 29 October 2026 1600 UTC: tanker struck by an unknown projectile outbound, no reported injuries"
+          },
+          {
             "url": "https://www.dawn.com/news/2040966/25-crew-members-rescued-from-tanker-attacked-off-the-coast-of-oman-maritime-security-centre",
-            "source": "Dawn, 30 October 2026, quoting Oman's Maritime Security Centre: 106 nautical miles off Musandam, 25 crew evacuated, medical care provided"
+            "source": "Dawn, 30 October 2026, quoting Oman's Maritime Security Centre: about 106 nautical miles off Musandam, 25 crew evacuated, medical care"
           },
           {
             "url": "https://www.aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz",
@@ -12672,6 +12691,24 @@
             {
               "url": "https://www.aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz",
               "source": "Al Jazeera, 30 October 2026"
+            }
+          ]
+        },
+        {
+          "at": "2026-11-01T19:40:49Z",
+          "text": "Corrected the attack date from 30 October to 29 October and added the weapon, position and outcome. The earlier reviews used the day Oman's Maritime Security Centre announced the evacuation, because the centre published no attack date. UKMTO warning 186-26 dates the strike to 1600 UTC on 29 October, and JMIC advisory update 110 of 1 November 2026 records that the Royal Navy of Oman identified the tanker in that warning as RITI. Deaths changed from unknown to zero on those two reports. Neither authority gave an injury figure, and Oman's centre said only that the 25 evacuated crew received medical care, so injuries remain unreported rather than zero. The Lavan Island fire report in the original corpus text belongs to AL MAYEDA and has been removed from this vessel's account.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_110_01-nov-1.pdf?rev=d2be223caff04f09bbf58d94c9aa8e0a",
+              "source": "Joint Maritime Information Center advisory update 110, 1 November 2026"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261029-ukmto_warning-186-26.pdf?rev=d5f4136239bb4071958ad3a7f240a26c",
+              "source": "UKMTO warning 186-26, 29 October 2026"
+            },
+            {
+              "url": "https://www.dawn.com/news/2040966/25-crew-members-rescued-from-tanker-attacked-off-the-coast-of-oman-maritime-security-centre",
+              "source": "Dawn, 30 October 2026, quoting Oman's Maritime Security Centre"
             }
           ]
         }
@@ -24299,6 +24336,133 @@
             {
               "url": "https://www.indiagazette.com/news/279405897/entire-crew-including-six-indian-seafarers-safe-after-marshall-islands-flagged-lng-carrier-struck-in-persian-gulf-sonowal",
               "source": "ANI, 31 October 2026, quoting India's shipping minister Sarbananda Sonowal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6562910708,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6562910708",
+      "author": "iMariner",
+      "received_at": "2026-11-01T19:40:54Z",
+      "incident_id": "INC-20261030-019",
+      "before": {
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-01T01:11:51Z",
+          "vessel_name": "RITI",
+          "imo": "9249075",
+          "date_utc": "2026-10-30",
+          "vessel_type": "Crude oil tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "Off Musandam, Oman, at the southern entrance to the Strait of Hormuz",
+          "summary": "RITI, a Panama-flagged crude oil tanker of 166,729 deadweight tonnes managed from Hong Kong, was set on fire off Musandam, Oman, at the southern entrance to the Strait of Hormuz, on 30 October 2026. Oman's Maritime Security Centre said the Royal Oman Navy evacuated the 25 crew members aboard and that they were given the medical care they needed, and it placed the incident about 106 nautical miles off the Musandam coast. The centre named no weapon and no attacker, and no death toll has been published.",
+          "date_note": "Oman's Maritime Security Centre announced the evacuation on Friday 30 October 2026, which is recorded as the attack date. No attack time was published, and the separate UKMTO report of a vessel on fire 40 nautical miles from Lavan Island, Iran, is not linked to RITI here.",
+          "sources": [
+            {
+              "url": "https://www.dawn.com/news/2040966/25-crew-members-rescued-from-tanker-attacked-off-the-coast-of-oman-maritime-security-centre",
+              "source": "Dawn, 30 October 2026, quoting Oman's Maritime Security Centre: 106 nautical miles off Musandam, 25 crew evacuated, medical care provided"
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz",
+              "source": "Al Jazeera, 30 October 2026: Oman rescued 25 crew from the burning crude oil tanker RITI"
+            },
+            {
+              "url": "https://www.marinetraffic.com/en/ais/details/ships/shipid:209108/mmsi:352002473/imo:9249075/vessel:RITI",
+              "source": "MarineTraffic vessel record: RITI, IMO 9249075, crude oil tanker, Panama"
+            }
+          ]
+        },
+        "updates": [
+          {
+            "at": "2026-11-01T01:11:51Z",
+            "text": "Reviewed record moved to the corpus row for this attack that remains public. An earlier review of the same event was filed against INC-20261030-011, which the incident pipeline merged into INC-20261030-019, so the event stayed withheld from the public tracker. Oman's Maritime Security Centre reported 25 crew evacuated from RITI about 106 nautical miles off Musandam with medical care provided. No death or injury count was published, so casualties remain unknown, not zero. Later posts claiming six or twelve injured name no authority and are not recorded.",
+            "sources": [
+              {
+                "url": "https://www.dawn.com/news/2040966/25-crew-members-rescued-from-tanker-attacked-off-the-coast-of-oman-maritime-security-centre",
+                "source": "Dawn, 30 October 2026, quoting Oman's Maritime Security Centre"
+              },
+              {
+                "url": "https://www.aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz",
+                "source": "Al Jazeera, 30 October 2026"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "INC-20261030-019",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-01T19:40:49Z",
+          "vessel_name": "RITI",
+          "imo": "9249075",
+          "date_utc": "2026-10-29",
+          "vessel_type": "Crude oil tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "Strait of Hormuz, about 12 nautical miles north-east of Khasab, Oman at the time of the strike, per UKMTO warning 186-26; NAVAREA IX 420/26 later placed the tanker at anchor about 1 nautical mile north-west of Ra's Tahir, Oman. Oman's Maritime Security Centre gave the distance as about 106 nautical miles off the Musandam coast.",
+          "attack_type": "unknown projectile",
+          "date_note": "UKMTO warning 186-26 dates the strike to 1600 UTC on 29 October 2026, and JMIC advisory update 110 of 1 November 2026 records that the Royal Navy of Oman identified the tanker in that warning as RITI. Oman's Maritime Security Centre announced the evacuation on Friday 30 October 2026 and published no attack date, so the earlier reviews used the announcement day. The Omani distance of about 106 nautical miles does not match UKMTO's position near Khasab and is left unresolved.",
+          "summary": "RITI, a Panama flagged crude oil tanker of 166,729 deadweight tonnes managed from Hong Kong, was struck by an unknown projectile at about 1600 UTC on 29 October 2026 while completing an outbound transit of the Strait of Hormuz about 12 nautical miles north-east of Khasab, Oman. UKMTO warning 186-26, issued on a company security officer's report, recorded no reported injuries to the crew and no environmental impact and named no vessel. JMIC advisory update 110 of 1 November 2026 records that the Royal Navy of Oman identified the tanker as RITI, that a small fire was ignited and extinguished, and that the vessel lost propulsion. Oman's Maritime Security Centre said the Royal Oman Navy evacuated the 25 crew members aboard on 30 October and that they were given the medical care they needed, without giving nationalities, injury numbers or any death toll. NAVAREA IX 420/26 reported the tanker anchored about 1 nautical mile north-west of Ra's Tahir. The centre named no weapon and no attacker. The separate UKMTO report of a vessel on fire about 40 nautical miles from Lavan Island, Iran, belongs to AL MAYEDA and is not part of this record.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_110_01-nov-1.pdf?rev=d2be223caff04f09bbf58d94c9aa8e0a",
+              "source": "Joint Maritime Information Center advisory update 110, 1 November 2026: RITI recorded under UKMTO 186-26, 29 October, crew reported safe, fire extinguished, propulsion lost"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261029-ukmto_warning-186-26.pdf?rev=d5f4136239bb4071958ad3a7f240a26c",
+              "source": "UKMTO warning 186-26, attack, 29 October 2026 1600 UTC: tanker struck by an unknown projectile outbound, no reported injuries"
+            },
+            {
+              "url": "https://www.dawn.com/news/2040966/25-crew-members-rescued-from-tanker-attacked-off-the-coast-of-oman-maritime-security-centre",
+              "source": "Dawn, 30 October 2026, quoting Oman's Maritime Security Centre: about 106 nautical miles off Musandam, 25 crew evacuated, medical care"
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/10/30/oman-rescues-25-from-burning-oil-tanker-in-strait-of-hormuz",
+              "source": "Al Jazeera, 30 October 2026: Oman rescued 25 crew from the burning crude oil tanker RITI"
+            },
+            {
+              "url": "https://www.marinetraffic.com/en/ais/details/ships/shipid:209108/mmsi:352002473/imo:9249075/vessel:RITI",
+              "source": "MarineTraffic vessel record: RITI, IMO 9249075, crude oil tanker, Panama"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_110_01-nov-1.pdf?rev=d2be223caff04f09bbf58d94c9aa8e0a",
+              "source": "Joint Maritime Information Center advisory update 110, 1 November 2026: crew reported safe after the strike"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261029-ukmto_warning-186-26.pdf?rev=d5f4136239bb4071958ad3a7f240a26c",
+              "source": "UKMTO warning 186-26, 29 October 2026: no reported injuries to the crew"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-01T19:40:49Z",
+          "text": "Corrected the attack date from 30 October to 29 October and added the weapon, position and outcome. The earlier reviews used the day Oman's Maritime Security Centre announced the evacuation, because the centre published no attack date. UKMTO warning 186-26 dates the strike to 1600 UTC on 29 October, and JMIC advisory update 110 of 1 November 2026 records that the Royal Navy of Oman identified the tanker in that warning as RITI. Deaths changed from unknown to zero on those two reports. Neither authority gave an injury figure, and Oman's centre said only that the 25 evacuated crew received medical care, so injuries remain unreported rather than zero. The Lavan Island fire report in the original corpus text belongs to AL MAYEDA and has been removed from this vessel's account.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_110_01-nov-1.pdf?rev=d2be223caff04f09bbf58d94c9aa8e0a",
+              "source": "Joint Maritime Information Center advisory update 110, 1 November 2026"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261029-ukmto_warning-186-26.pdf?rev=d5f4136239bb4071958ad3a7f240a26c",
+              "source": "UKMTO warning 186-26, 29 October 2026"
+            },
+            {
+              "url": "https://www.dawn.com/news/2040966/25-crew-members-rescued-from-tanker-attacked-off-the-coast-of-oman-maritime-security-centre",
+              "source": "Dawn, 30 October 2026, quoting Oman's Maritime Security Centre"
             }
           ]
         }
