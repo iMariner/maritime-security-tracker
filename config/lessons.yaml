@@ -23,7 +23,6 @@ writing:
 - Keep the headline at 80 characters or fewer so the code's hard 90-character cut cannot break a word.
 - 'Start every sentence with a capital letter and keep proper names capitalised: uKMTO, jMIC and russia''s are wrong.'
 facts:
-- 'Take the event date from inside the source, never the date the page or warning was published: a warning''s own Incident Date beats its issue date.'
 - 'A report that gives no date, or an unnamed report of a ship sunk, is often an older attack reported again: match the outlet''s own date and vessel before treating it as new.'
 - 'Read the year and month in an aggregator page''s URL and the date in its text: Google News and EnergyNow re-serve months-old items as fresh news.'
 - 'The same strike often arrives as several unnamed records: merge each copy into the record that names the ship, treat same-day reports in the same waters as one attack, never count one ship twice.'
@@ -48,3 +47,4 @@ facts:
 - 'A name or date fixed by yesterday''s editor check can be reset by a later collection run: re-check each record''s name, type and date in the tracker data every morning and re-issue the line.'
 - 'A UKMTO report of a tanker on fire can be clarified later as a dhow: read UKMTO''s own update before pairing a fire with a claim about tankers.'
 - 'Give a named ship the place her own naming source gives: an official warning about an unnamed vessel in another part of the sea is a separate report, not her position.'
+- 'A market or oil price story about the reaction to an attack gives no vessel, position or casualty, so it is not an incident, and an EnergyNow page under an older month is a re-serve: reject it.'

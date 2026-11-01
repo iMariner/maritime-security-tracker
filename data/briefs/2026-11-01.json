@@ -32,5 +32,27 @@
   "consistency_problems": [
     "Louise 1 is in the data but not named in the article"
   ],
-  "quality": "2 check(s) need attention: dates 1 approximate; attribution 1 claims without a named source; official coverage 0/0 ok; verified 3/9; single-source items 0; confirmed ok; fact-check no corrections needed; tweet 216/280 ok; dashes ok; consistency Louise 1 is in the data but not named in the article found"
+  "quality": "2 check(s) need attention: dates 1 approximate; attribution 1 claims without a named source; official coverage 0/0 ok; verified 3/9; single-source items 0; confirmed ok; fact-check no corrections needed; tweet 216/280 ok; dashes ok; consistency Louise 1 is in the data but not named in the article found",
+  "review": {
+    "status": "done",
+    "at": "2026-11-01T05:04:50Z",
+    "changes": [
+      "lead story set to INC-20261031-002 (the only attack newly reported inside the 24 hours to 04:38 UTC: Russia's defenc)",
+      "INC-20261031-004 marked rejected (the Turkish reports are of a ship damaged by a Ukrainian drone on 21 August, the Barbados-flagged container ship RMS Team with one crew member missing, now passing the Istanbul Strait to the breakers, so this is a transit of an old attack and not an attack on 31 October)",
+      "INC-20261031-010 marked rejected (its EnergyNow source is the 5 August 2026 oil market story on a Houthi claim of a missile attack on a Saudi tanker off Yanbu, re-served under a 31 October Google News headline, and the Geo News copy is about Houthi strikes on Saudi oil facilities on land, so no vessel, place or casualty is established)",
+      "merged INC-20261028-020 into INC-20261028-004 (the same 28 October sinking of the Contship Jet off Bulgaria, carried by a headline that names no ship and calls her Greek, which is her operator and not her Liberia flag)",
+      "date of INC-20261031-009 set to 2026-10-30",
+      "lesson (facts): A market or oil price story about the reaction to an attack gives no vessel, position or casualty, so it is not an incid"
+    ],
+    "refused": [],
+    "notes": [
+      "Write the Odesa item as Russia's defence ministry claim and not as fact: a dry cargo ship was struck 37 km south of Odesa on the afternoon of 31 October, in the ministry statement carried by Rybar, RIA Novosti and the ministry's own channel. The ministry named no vessel and gave no damage or casualties. The 18 km and evening wording in the record belong to its 30 October statement.",
+      "Keep the RITI item to what Oman's Maritime Security Centre gave: the Panama-flagged tanker caught fire off Musandam and the Royal Oman Navy evacuated all 25 crew. Drop the 40 nautical miles south of Lavan Island position from her paragraph: that UKMTO warning named no vessel and, if the article uses it, must stand in its own sentence as a separate unnamed report.",
+      "Name Louise 1 in the Strait of Hormuz section: the tanker struck by an unknown projectile on outbound transit on 29 October at 1600 UTC was the Panama-flagged Louise 1, per UKMTO warning 186-26 and Seatrade Maritime, so the Earlier in the week line must not call her only a tanker.",
+      "Give Iran's IRGC claim its own sentence dated 30 October: the IRGC said a supertanker carrying more than 2 million barrels hit a mine and caught fire, the fourth tanker to burn in the strait since early that day, and it named no vessel. Do not join it to the RITI or to UKMTO's Lavan warning, and say it is not established whether they are the same ship."
+    ],
+    "restored": [],
+    "send_after": false,
+    "lead": "INC-20261031-002"
+  }
 }
