@@ -11,7 +11,8 @@ Each Hermes job's instructions are in [hermes/cron/](hermes/cron/) (loaded at ev
 > [LIVING-TRACKER.md](LIVING-TRACKER.md)). What still runs: hourly collection (`collect.yml`, no longer paused
 > 04:00-05:59), verdicts (`verdict.yml`), `/evidence` (`living-evidence.yml`), Pages deploy, tests, the balance alert,
 > and Hermes jobs `maritime-security-tracking` (04:30, UKMTO check and verdicts only, no `/brief`),
-> `maritime-living-evidence` (every 6 hours), `deepseek-balance-alert` and `github-token-watch`.
+> `maritime-living-evidence` (every 6 hours), `deepseek-balance-alert`, `github-token-watch` and `maritime-tracker-watchdog` (03:15 and 15:15 UTC; Telegram
+> warning if the feed, the evidence or the WordPress page goes stale; silent otherwise).
 > Disabled in GitHub: `brief-trigger.yml`, `daily-brief.yml`, `review.yml`, `publish.yml`. Paused in Hermes:
 > `maritime-editor-check`, `maritime-final-read`, `maritime-weekly-learning`, `maritime-brief-watchdog` (their job
 > files say "retired"). The n8n approval workflow is idle. The 31 brief posts are in WordPress Trash
