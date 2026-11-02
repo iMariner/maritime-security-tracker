@@ -852,3 +852,20 @@ def test_editor_position_survives_collection():
     # places the guesser now knows
     assert geo.approximate({"location_text": "east of Varna, Black Sea", "summary": "Odesa-based owner"}) == (43.20, 28.10)
     assert geo.approximate({"location_text": "Arabian Gulf", "summary": "a containership under fire in the Red Sea"}) == (26.80, 52.50)
+
+
+def test_tracker_watchdog_decide():
+    import importlib.util
+    from datetime import datetime, timedelta, timezone
+    spec = importlib.util.spec_from_file_location("tw", "scripts/hermes/tracker_watchdog.py")
+    tw = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(tw)
+    now = datetime(2026, 11, 2, 15, 15, tzinfo=timezone.utc)
+    assert tw.decide(now, now - timedelta(hours=2), now - timedelta(hours=7), True) == []
+    stale = tw.decide(now, now - timedelta(hours=9), now - timedelta(days=3), False)
+    assert len(stale) == 3 and "9 hours" in stale[0] and "3 days" in stale[1] and "no longer" in stale[2]
+    unknown = tw.decide(now, None, None, None)
+    assert len(unknown) == 3 and all(line.startswith("⚠️") for line in unknown)
+    assert tw.parse_time("2026-11-02T01:01:03+00:00") and tw.parse_time("2026-11-02T01:01:03Z")
+    assert tw.parse_time("2026-11-02T01:01:03") is None and tw.parse_time(None) is None
+    assert all("—" not in line for line in stale + unknown)

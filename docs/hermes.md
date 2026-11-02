@@ -104,6 +104,14 @@ instruction files in `docs/hermes/cron/` end with their END line and says so on 
 cannot check, acts at most once a day (marker file), and is silent on a normal day. Test with WATCHDOG_DRY_RUN=1.
 To update the script: change it here, then ask Hermes to re-download it to /opt/data/scripts/.
 
+## Tracker freshness watchdog (Hermes job `maritime-tracker-watchdog`, 03:15 and 15:15 UTC)
+
+no_agent script `/opt/data/scripts/tracker_watchdog.py` (source: `scripts/hermes/tracker_watchdog.py`), delivered to
+Telegram like the balance alert. Added 2 November 2026 when the brief watchdog was paused. Silent while the public
+feed was rebuilt in the last 8 hours, evidence was added in the last 30 hours and the WordPress page still shows the
+tracker; otherwise one warning line per problem. Public URLs only. Test with TRACKER_WATCHDOG_DRY_RUN=1.
+To update the script: change it here, then ask Hermes to re-download it to /opt/data/scripts/.
+
 ## Queue rules (GitHub Actions)
 
 verdict, review and refresh-image hold the `data-writer` slot at job level, so runs started by unrelated comments
