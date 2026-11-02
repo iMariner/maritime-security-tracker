@@ -12992,6 +12992,74 @@
           ]
         }
       ]
+    },
+    "INC-20261004-002": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261004-ukmto_warning-150-26.pdf?rev=43836604169a4c4496023c1c229e0701",
+            "source": "UKMTO warning 150-26, 4 October 2026: the crew of the struck tanker have been reported as safe"
+          },
+          {
+            "url": "https://www.seatrade-maritime.com/security/dynacom-newbuild-among-at-least-four-tankers-attacked-in-hormuz",
+            "source": "Seatrade Maritime, 5 October 2026, citing Vanguard Tech: all crew were reported to be safe"
+          }
+        ],
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T02:05:00Z",
+        "vessel_name": "LIPSI",
+        "imo": "1025033",
+        "date_utc": "2026-10-04",
+        "vessel_type": "Crude oil tanker",
+        "region": "Strait of Hormuz",
+        "location_text": "Strait of Hormuz; a NAVAREA IX alert reported the ship drifting about 3.9 nautical miles north-east of Jazirat Um Al Fayarin",
+        "attack_type": "Unknown projectile",
+        "summary": "LIPSI, a Liberian flagged tanker on its maiden voyage and managed by Dynacom Tankers Management, was struck by an unknown projectile in the Strait of Hormuz on 4 October 2026. UKMTO warning 150-26 of 4 October records that the master of a tanker reported being struck by an unknown projectile, causing damage to the engine room, that the crew have been reported as safe and that no environmental impact was reported at the time. The IMO confirmed incident register lists LIPSI (IMO 1025033) at the Strait of Hormuz on 4 October, damaged with no pollution. Seatrade Maritime, citing Vanguard Tech, reported the engine room damage, that all crew were reported safe and that a NAVAREA IX alert put the vessel drifting about 3.9 nautical miles north-east of Jazirat Um Al Fayarin.",
+        "date_note": "UKMTO warning 150-26 was issued on 4 October 2026 without a separate event time in the notice, so day precision is kept and no UTC hour is invented.",
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261004-ukmto_warning-150-26.pdf?rev=43836604169a4c4496023c1c229e0701",
+            "source": "UKMTO warning 150-26, issued 4 October 2026: master of a tanker reported being struck by an unknown projectile in the Strait of Hormuz, engine room damaged, crew reported safe, no environmental impact reported"
+          },
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO confirmed incident register, read 2 November 2026: LIPSI (IMO 1025033), Strait of Hormuz, 4 October, damaged, no pollution"
+          },
+          {
+            "url": "https://www.seatrade-maritime.com/security/dynacom-newbuild-among-at-least-four-tankers-attacked-in-hormuz",
+            "source": "Seatrade Maritime, 5 October 2026, citing Vanguard Tech: the Liberian flagged tanker Lipsi was struck by an unknown projectile in the Strait of Hormuz on 4 October, engine room damage, all crew reported safe, vessel drifting 3.9 nm north-east of Jazirat Um Al Fayarin per a NAVAREA IX alert"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-02T02:05:00Z",
+          "text": "First review of this record. The corpus row held a tanker struck by an unknown projectile in the Strait of Hormuz with engine room damage and the crew reported safe, but no vessel name, IMO or confirmed identity, and it did not record the reported position. UKMTO warning 150-26 gives the master's account and the IMO register now anchors the identity as LIPSI, IMO 1025033, on 4 October, damaged with no pollution; Seatrade Maritime and The Maritime Executive, both citing Vanguard Tech, supply the name, the Liberian flag, the Dynacom Tankers Management managers and the reported drift position north-east of Jazirat Um Al Fayarin. The two trade reports differ on type, describing a newbuild LR2 and an Aframax, so the type is recorded broadly as a crude oil tanker rather than choosing one label. No death is recorded because both UKMTO and the trade reports state the crew were reported safe as of 4 and 5 October; that is a report at the time, not a completed inquiry, and nationalities are left empty because nobody was reported killed or injured.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261004-ukmto_warning-150-26.pdf?rev=43836604169a4c4496023c1c229e0701",
+              "source": "UKMTO warning 150-26, 4 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, read 2 November 2026"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/dynacom-newbuild-among-at-least-four-tankers-attacked-in-hormuz",
+              "source": "Seatrade Maritime, 5 October 2026"
+            },
+            {
+              "url": "https://maritime-executive.com/article/iran-keeps-up-pace-of-strikes-with-attack-on-brand-new-lr2-tanker",
+              "source": "The Maritime Executive, 4 October 2026: Vanguard Tech identified the vessel as the Lipsi, a brand new LR2 linked to a Greek operator, with engine room damage"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -24607,6 +24675,81 @@
             {
               "url": "https://www.indiatoday.in/india/story/strait-of-hormuz-tanker-attacks-29-indian-seafarers-safe-3028916-2026-10-30",
               "source": "India Today, 30 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6567181150,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6567181150",
+      "author": "iMariner",
+      "received_at": "2026-11-02T01:52:05Z",
+      "incident_id": "INC-20261004-002",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261004-002",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-02T02:05:00Z",
+          "vessel_name": "LIPSI",
+          "imo": "1025033",
+          "date_utc": "2026-10-04",
+          "vessel_type": "Crude oil tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "Strait of Hormuz; a NAVAREA IX alert reported the ship drifting about 3.9 nautical miles north-east of Jazirat Um Al Fayarin",
+          "attack_type": "Unknown projectile",
+          "summary": "LIPSI, a Liberian flagged tanker on its maiden voyage and managed by Dynacom Tankers Management, was struck by an unknown projectile in the Strait of Hormuz on 4 October 2026. UKMTO warning 150-26 of 4 October records that the master of a tanker reported being struck by an unknown projectile, causing damage to the engine room, that the crew have been reported as safe and that no environmental impact was reported at the time. The IMO confirmed incident register lists LIPSI (IMO 1025033) at the Strait of Hormuz on 4 October, damaged with no pollution. Seatrade Maritime, citing Vanguard Tech, reported the engine room damage, that all crew were reported safe and that a NAVAREA IX alert put the vessel drifting about 3.9 nautical miles north-east of Jazirat Um Al Fayarin.",
+          "date_note": "UKMTO warning 150-26 was issued on 4 October 2026 without a separate event time in the notice, so day precision is kept and no UTC hour is invented.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261004-ukmto_warning-150-26.pdf?rev=43836604169a4c4496023c1c229e0701",
+              "source": "UKMTO warning 150-26, issued 4 October 2026: master of a tanker reported being struck by an unknown projectile in the Strait of Hormuz, engine room damaged, crew reported safe, no environmental impact reported"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, read 2 November 2026: LIPSI (IMO 1025033), Strait of Hormuz, 4 October, damaged, no pollution"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/dynacom-newbuild-among-at-least-four-tankers-attacked-in-hormuz",
+              "source": "Seatrade Maritime, 5 October 2026, citing Vanguard Tech: the Liberian flagged tanker Lipsi was struck by an unknown projectile in the Strait of Hormuz on 4 October, engine room damage, all crew reported safe, vessel drifting 3.9 nm north-east of Jazirat Um Al Fayarin per a NAVAREA IX alert"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261004-ukmto_warning-150-26.pdf?rev=43836604169a4c4496023c1c229e0701",
+              "source": "UKMTO warning 150-26, 4 October 2026: the crew of the struck tanker have been reported as safe"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/dynacom-newbuild-among-at-least-four-tankers-attacked-in-hormuz",
+              "source": "Seatrade Maritime, 5 October 2026, citing Vanguard Tech: all crew were reported to be safe"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-02T02:05:00Z",
+          "text": "First review of this record. The corpus row held a tanker struck by an unknown projectile in the Strait of Hormuz with engine room damage and the crew reported safe, but no vessel name, IMO or confirmed identity, and it did not record the reported position. UKMTO warning 150-26 gives the master's account and the IMO register now anchors the identity as LIPSI, IMO 1025033, on 4 October, damaged with no pollution; Seatrade Maritime and The Maritime Executive, both citing Vanguard Tech, supply the name, the Liberian flag, the Dynacom Tankers Management managers and the reported drift position north-east of Jazirat Um Al Fayarin. The two trade reports differ on type, describing a newbuild LR2 and an Aframax, so the type is recorded broadly as a crude oil tanker rather than choosing one label. No death is recorded because both UKMTO and the trade reports state the crew were reported safe as of 4 and 5 October; that is a report at the time, not a completed inquiry, and nationalities are left empty because nobody was reported killed or injured.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261004-ukmto_warning-150-26.pdf?rev=43836604169a4c4496023c1c229e0701",
+              "source": "UKMTO warning 150-26, 4 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, read 2 November 2026"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/dynacom-newbuild-among-at-least-four-tankers-attacked-in-hormuz",
+              "source": "Seatrade Maritime, 5 October 2026"
+            },
+            {
+              "url": "https://maritime-executive.com/article/iran-keeps-up-pace-of-strikes-with-attack-on-brand-new-lr2-tanker",
+              "source": "The Maritime Executive, 4 October 2026: Vanguard Tech identified the vessel as the Lipsi, a brand new LR2 linked to a Greek operator, with engine room damage"
             }
           ]
         }
