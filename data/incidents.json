@@ -923,13 +923,14 @@
       }
     ],
     "first_seen": "2026-10-31T04:40:25Z",
-    "last_updated": "2026-10-31T05:05:19Z",
+    "last_updated": "2026-11-02T04:33:11Z",
     "verification_issue": 300,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-31T05:05:19Z",
-      "note": "the sources are oil price and market stories about the reaction to an attack, giving no vessel, place, date, damage or casualty, so no attack on a merchant ship is established"
+      "by": "iMariner",
+      "at": "2026-11-02T04:33:11Z",
+      "note": "The item is a market report on oil prices rising after a tanker attack, giving no vessel, position, date, damage or casualty, so it establishes no separate attack on a merchant ship.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/300#issuecomment-6569123729"
     },
     "published_in": [
       "2026-10-31"
@@ -3644,16 +3645,35 @@
         "kind": "media",
         "published_at": "2026-10-31T03:03:06Z",
         "title": "Four oil tankers caught fire in the Strait of Hormuz; Iran claims to have shot down US drones and unmanned vessels. - Vietnam.vn"
+      },
+      {
+        "url": "https://www.omanobserver.om/article/1198850/oman/community/royal-navy-of-oman-evacuates-25-crew-members-from-an-attacked-vessel",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-02T04:33:13Z",
+        "title": null
+      },
+      {
+        "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_110_01-nov-1.pdf",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-02T04:33:13Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-30T21:41:31Z",
-    "last_updated": "2026-11-02T01:00:40Z",
+    "last_updated": "2026-11-02T04:33:13Z",
     "verification_issue": 298,
     "verdict": {
       "status": "confirmed",
-      "by": "editor-check",
-      "at": "2026-10-31T05:05:19Z",
-      "note": "Oman's Maritime Security Centre said the Royal Oman Navy evacuated all 25 crew after the tanker was targeted and set on fire, and the crew were given medical care"
+      "by": "iMariner",
+      "at": "2026-11-02T04:33:13Z",
+      "note": "Oman's Maritime Security Centre and the Royal Navy of Oman evacuated 25 crew from the Panama-flagged tanker RITI after it was targeted and set on fire; JMIC dates that attack to 29 October near Khasab under UKMTO 186-26, and the 30 October strike 40 nautical miles south of Lavan Island was on the LNG carrier Al Mayeda under UKMTO 188-26.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/298#issuecomment-6569123532"
     },
     "published_in": [
       "2026-10-31",
@@ -9293,16 +9313,26 @@
         "kind": "media",
         "published_at": "2026-10-29T12:09:15Z",
         "title": "Oil prices rise after Houthi attack near Saudi Arabia’s Ras Tanura Terminal - safety4sea"
+      },
+      {
+        "url": "https://aljazeera.com/news/2026/10/29/houthi-forces-claim-six-attacks-on-saudi-airports-oil-facilities",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-02T04:33:18Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-29T19:13:02Z",
-    "last_updated": "2026-10-30T05:06:46Z",
+    "last_updated": "2026-11-02T04:33:18Z",
     "verification_issue": 288,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-30T05:06:46Z",
-      "note": "a Houthi claim of strikes on refineries, airports and Abqaiq in Saudi Arabia, all land targets with no merchant ship hit"
+      "by": "iMariner",
+      "at": "2026-11-02T04:33:18Z",
+      "note": "The Houthi claim was for six strikes on Saudi airports and oil facilities including Ras Tanura and Abqaiq, all land targets, and no merchant ship was hit.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/288#issuecomment-6569122847"
     },
     "published_in": [
       "2026-10-30"
@@ -9390,18 +9420,34 @@
         "kind": "media",
         "published_at": "2026-10-29T20:34:00Z",
         "title": "NATO toplantısı sürerken gemiye mesaj gibi saldırı! Fransız uçağı uyardı, yine de önlenemedi - SuperHaber"
+      },
+      {
+        "url": "https://gcaptain.com/greek-containership-sunk-by-naval-drones-off-bulgaria-as-black-sea-attacks-escalate/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-02T04:33:16Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-29T23:32:56Z",
-    "last_updated": "2026-10-30T05:06:46Z",
+    "last_updated": "2026-11-02T04:33:16Z",
     "verification_issue": 290,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-11-02T04:33:16Z",
+      "note": "This is the same 28 October Black Sea drone strike off Bulgaria already held as CONTSHIP JET in INC-20261028-004, so it duplicates that incident.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/290#issuecomment-6569123059"
+    },
     "published_in": [
       "2026-10-30"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261028-004"
+    "merged_into": "INC-20261028-004",
+    "status_changed_at": "2026-11-02T04:33:16Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -13908,17 +13954,24 @@
       }
     ],
     "first_seen": "2026-10-29T23:33:04Z",
-    "last_updated": "2026-10-30T05:06:46Z",
+    "last_updated": "2026-11-02T04:33:15Z",
     "verification_issue": 291,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-11-02T04:33:15Z",
+      "note": "The Greek container ship sunk by three sea drones off Bulgaria on 28 October is CONTSHIP JET, already recorded and confirmed as INC-20261028-004, so this item duplicates that incident.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/291#issuecomment-6569123283"
+    },
     "published_in": [
       "2026-10-29",
       "2026-10-30"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
     "date_approx": false,
-    "merged_into": "INC-20261028-004"
+    "merged_into": "INC-20261028-004",
+    "status_changed_at": "2026-11-02T04:33:15Z"
   },
   {
     "region": "Black Sea",
