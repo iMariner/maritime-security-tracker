@@ -17405,16 +17405,16 @@
         "deaths": 2,
         "sources": [
           {
-            "url": "https://www.tradewindsnews.com/casualties/missing-seafarers-found-dead-after-attack-on-tanker-blacklisted-by-iran/2-1-2050819",
-            "source": "TradeWinds, 29 September 2026: missing seafarers found dead"
+            "url": "https://www.dawn.com/news/2036510",
+            "source": "Dawn, 12 October 2026: Pakistani seafarer killed and bodies of two sailors, a Pakistani and an Indian, discovered"
           },
           {
             "url": "https://www.news18.com/world/el-gaia-attack-after-12-days-mortal-remains-of-missing-indian-seafarer-sumit-kumar-singh-found-ws-l-10353904.html",
             "source": "News18, 26 September 2026, Forward Seamen's Union of India"
           },
           {
-            "url": "https://www.thedailyjagran.com/world/news/indian-seafarer-sumit-kumar-singh-found-dead-12-days-after-el-gaia-tanker-attacked-near-hormuz-10330574",
-            "source": "The Daily Jagran, 26 September 2026, Forward Seamen's Union of India"
+            "url": "https://www.tradewindsnews.com/casualties/missing-seafarers-found-dead-after-attack-on-tanker-blacklisted-by-iran/2-1-2050819",
+            "source": "TradeWinds, 29 September 2026, both missing seafarers recovered dead"
           }
         ],
         "nationalities": [
@@ -17425,11 +17425,7 @@
             "sources": [
               {
                 "url": "https://www.news18.com/world/el-gaia-attack-after-12-days-mortal-remains-of-missing-indian-seafarer-sumit-kumar-singh-found-ws-l-10353904.html",
-                "source": "News18, 26 September 2026"
-              },
-              {
-                "url": "https://www.tradewindsnews.com/casualties/missing-seafarers-found-dead-after-attack-on-tanker-blacklisted-by-iran/2-1-2050819",
-                "source": "TradeWinds, 29 September 2026"
+                "source": "News18 reporting the Forward Seamen's Union of India, 26 September 2026"
               }
             ]
           },
@@ -17439,45 +17435,26 @@
             "deaths": 1,
             "sources": [
               {
-                "url": "https://www.news18.com/world/el-gaia-attack-after-12-days-mortal-remains-of-missing-indian-seafarer-sumit-kumar-singh-found-ws-l-10353904.html",
-                "source": "News18, 26 September 2026, naming the second missing seafarer"
-              },
-              {
-                "url": "https://www.tradewindsnews.com/casualties/missing-seafarers-found-dead-after-attack-on-tanker-blacklisted-by-iran/2-1-2050819",
-                "source": "TradeWinds, 29 September 2026, both missing recovered dead"
+                "url": "https://www.dawn.com/news/2036510",
+                "source": "Dawn, 12 October 2026, reporting the family and the Pakistani Foreign Office"
               }
             ]
           }
         ]
       },
-      "human_impact": {
-        "missing": {
-          "count": 2,
-          "as_of": "2026-09-15",
-          "sources": [
-            {
-              "url": "https://www.bbc.com/news/articles/c3n07ydqdzlvo",
-              "source": "Oman Maritime Security Centre via BBC News, 15 September 2026"
-            },
-            {
-              "url": "https://gcaptain.com/oman-says-el-gaia-being-towed-to-port-two-crew-missing/",
-              "source": "Oman Maritime Security Centre via gCaptain, 15 September 2026"
-            }
-          ]
-        }
-      },
+      "human_impact": null,
       "verification": {
         "status": "verified",
-        "checked_at": "2026-11-02T20:19:48Z",
+        "checked_at": "2026-11-02T20:26:13Z",
         "vessel_name": "EL GAIA",
         "imo": "9325336",
         "date_utc": "2026-09-12",
-        "vessel_type": "Oil and products tanker",
+        "vessel_type": "Oil products tanker",
         "region": "Strait of Hormuz",
-        "location_text": "Off the Musandam peninsula, Oman, in the Strait of Hormuz",
-        "attack_type": "Unknown projectile",
-        "summary": "EL GAIA, a Panama-flagged oil and products tanker of about 48,000 dwt built in 2005, was struck off the Musandam peninsula in the Strait of Hormuz, causing an engine-room fire. Oman's Maritime Security Centre said a Royal Navy of Oman vessel evacuated 23 of the 25 crew and that two seafarers were missing; the crew were 14 Indian and 11 Pakistani nationals. The two missing were Indian oiler Sumit Kumar Singh and Pakistani third engineer Muhammad Hammad Obaida. The Forward Seamen's Union of India said on 26 September that Singh's remains had been recovered and that a second foreign crew member had also been recovered, and TradeWinds reported on 29 September that both missing seafarers had been recovered dead. The IMO confirmed incident register lists EL GAIA (IMO 9325336) in the Strait of Hormuz on 12 September 2026, damaged, pollution of unknown extent, two seafarers missing. Attribution is disputed: the IRGC said the tanker struck mines, US Central Command said it had been hit by a missile earlier in the month and by a drone over the weekend, and Oman assigned no responsibility.",
-        "date_note": "The IMO register and this record give 12 September 2026. The strike occurred in the early hours of Sunday 13 September local time, the date used by TradeWinds and by Indian government statements, so the UTC date is kept.",
+        "location_text": "About 1.3 nautical miles north of the Musandam peninsula, Oman",
+        "attack_type": "Projectile and drone strikes, attribution disputed",
+        "summary": "EL GAIA, a Panama-flagged products tanker of about 48,000 deadweight tonnes, was struck about 1.3 nautical miles north of the Musandam peninsula in the Strait of Hormuz on 12 September 2026 and a fire broke out in the engine room. The Omani Maritime Security Centre said 23 of the 25 crew were rescued and taken ashore and that the tanker was towed to an Omani port. Iran said the tanker struck naval mines; the United States said it was hit by an Iranian missile and later by a drone, and Oman assigned no responsibility. Two seafarers were unaccounted for after the fire and were later recovered dead: Indian oiler Sumit Kumar Singh, whose remains the Forward Seamen's Union of India reported recovered on 26 September, and Pakistani third engineer Muhammad Hammad Obaida.",
+        "date_note": "The IMO confirmed incident register lists 12 September 2026. Omani statements reported by the BBC, and Pakistani and Indian reporting, date the strike to 13 September local time, the early hours of Sunday. The register day is kept as the tracked date and the one day local difference is recorded, not recalculated.",
         "sources": [
           {
             "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
@@ -17485,23 +17462,23 @@
           },
           {
             "url": "https://www.bbc.com/news/articles/c3n07ydqdzlvo",
-            "source": "BBC News, 15 September 2026, quoting Oman's Maritime Security Centre"
+            "source": "BBC News reporting the Omani Maritime Security Centre, 15 September 2026"
           },
           {
             "url": "https://gcaptain.com/oman-says-el-gaia-being-towed-to-port-two-crew-missing/",
-            "source": "gCaptain, 15 September 2026, quoting Oman's Maritime Security Centre"
+            "source": "gCaptain reporting the Omani Maritime Security Centre, 15 September 2026"
+          },
+          {
+            "url": "https://www.dawn.com/news/2036510",
+            "source": "Dawn, Karachi, 12 October 2026"
           },
           {
             "url": "https://www.news18.com/world/el-gaia-attack-after-12-days-mortal-remains-of-missing-indian-seafarer-sumit-kumar-singh-found-ws-l-10353904.html",
-            "source": "News18, 26 September 2026"
+            "source": "News18 reporting the Forward Seamen's Union of India, 26 September 2026"
           },
           {
             "url": "https://www.tradewindsnews.com/casualties/missing-seafarers-found-dead-after-attack-on-tanker-blacklisted-by-iran/2-1-2050819",
             "source": "TradeWinds, 29 September 2026"
-          },
-          {
-            "url": "https://table.media/assets/documents/20261001_security_brief_soh.pdf",
-            "source": "German Navy Shipping Centre security brief, 1 October 2026"
           }
         ]
       },
@@ -17533,6 +17510,28 @@
             {
               "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
               "source": "IMO confirmed incident register"
+            }
+          ]
+        },
+        {
+          "at": "2026-11-02T20:26:13Z",
+          "text": "Correction: this review now sits on the corpus incident ID for the attack, replacing a duplicate historical stub record of the same hull and date. Both seafarers who were missing after the fire were recovered dead, so the death count is two. Sumit Kumar Singh, an Indian oiler, was reported recovered by the Forward Seamen's Union of India on 26 September, and Dawn reported the death of Pakistani third engineer Muhammad Hammad Obaida. The two were found during a headcount after the engine-room fire, days after the attack, not on the day. The IMO register still lists two seafarers missing; that register row is not a current search. The missing snapshot added earlier in tonight's review is cleared because both men are confirmed dead and the earlier review had cleared it for the same reason.",
+          "sources": [
+            {
+              "url": "https://www.news18.com/world/el-gaia-attack-after-12-days-mortal-remains-of-missing-indian-seafarer-sumit-kumar-singh-found-ws-l-10353904.html",
+              "source": "News18, 26 September 2026"
+            },
+            {
+              "url": "https://www.dawn.com/news/2036510",
+              "source": "Dawn, 12 October 2026"
+            },
+            {
+              "url": "https://www.tradewindsnews.com/casualties/missing-seafarers-found-dead-after-attack-on-tanker-blacklisted-by-iran/2-1-2050819",
+              "source": "TradeWinds, 29 September 2026"
+            },
+            {
+              "url": "https://www.bbc.com/news/articles/c3n07ydqdzlvo",
+              "source": "BBC News, 15 September 2026"
             }
           ]
         }
@@ -30162,6 +30161,259 @@
             {
               "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
               "source": "IMO confirmed incident register"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6587707832,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6587707832",
+      "author": "iMariner",
+      "received_at": "2026-11-02T20:29:21Z",
+      "incident_id": "INC-20260912-001",
+      "before": {
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 2,
+          "sources": [
+            {
+              "url": "https://www.tradewindsnews.com/casualties/missing-seafarers-found-dead-after-attack-on-tanker-blacklisted-by-iran/2-1-2050819",
+              "source": "TradeWinds, 29 September 2026: missing seafarers found dead"
+            },
+            {
+              "url": "https://www.news18.com/world/el-gaia-attack-after-12-days-mortal-remains-of-missing-indian-seafarer-sumit-kumar-singh-found-ws-l-10353904.html",
+              "source": "News18, 26 September 2026, Forward Seamen's Union of India"
+            },
+            {
+              "url": "https://www.thedailyjagran.com/world/news/indian-seafarer-sumit-kumar-singh-found-dead-12-days-after-el-gaia-tanker-attacked-near-hormuz-10330574",
+              "source": "The Daily Jagran, 26 September 2026, Forward Seamen's Union of India"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Indian",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "url": "https://www.news18.com/world/el-gaia-attack-after-12-days-mortal-remains-of-missing-indian-seafarer-sumit-kumar-singh-found-ws-l-10353904.html",
+                  "source": "News18, 26 September 2026"
+                },
+                {
+                  "url": "https://www.tradewindsnews.com/casualties/missing-seafarers-found-dead-after-attack-on-tanker-blacklisted-by-iran/2-1-2050819",
+                  "source": "TradeWinds, 29 September 2026"
+                }
+              ]
+            },
+            {
+              "nationality": "Pakistani",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "url": "https://www.news18.com/world/el-gaia-attack-after-12-days-mortal-remains-of-missing-indian-seafarer-sumit-kumar-singh-found-ws-l-10353904.html",
+                  "source": "News18, 26 September 2026, naming the second missing seafarer"
+                },
+                {
+                  "url": "https://www.tradewindsnews.com/casualties/missing-seafarers-found-dead-after-attack-on-tanker-blacklisted-by-iran/2-1-2050819",
+                  "source": "TradeWinds, 29 September 2026, both missing recovered dead"
+                }
+              ]
+            }
+          ]
+        },
+        "human_impact": {
+          "missing": {
+            "count": 2,
+            "as_of": "2026-09-15",
+            "sources": [
+              {
+                "url": "https://www.bbc.com/news/articles/c3n07ydqdzlvo",
+                "source": "Oman Maritime Security Centre via BBC News, 15 September 2026"
+              },
+              {
+                "url": "https://gcaptain.com/oman-says-el-gaia-being-towed-to-port-two-crew-missing/",
+                "source": "Oman Maritime Security Centre via gCaptain, 15 September 2026"
+              }
+            ]
+          }
+        },
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-02T20:19:48Z",
+          "vessel_name": "EL GAIA",
+          "imo": "9325336",
+          "date_utc": "2026-09-12",
+          "vessel_type": "Oil and products tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "Off the Musandam peninsula, Oman, in the Strait of Hormuz",
+          "attack_type": "Unknown projectile",
+          "summary": "EL GAIA, a Panama-flagged oil and products tanker of about 48,000 dwt built in 2005, was struck off the Musandam peninsula in the Strait of Hormuz, causing an engine-room fire. Oman's Maritime Security Centre said a Royal Navy of Oman vessel evacuated 23 of the 25 crew and that two seafarers were missing; the crew were 14 Indian and 11 Pakistani nationals. The two missing were Indian oiler Sumit Kumar Singh and Pakistani third engineer Muhammad Hammad Obaida. The Forward Seamen's Union of India said on 26 September that Singh's remains had been recovered and that a second foreign crew member had also been recovered, and TradeWinds reported on 29 September that both missing seafarers had been recovered dead. The IMO confirmed incident register lists EL GAIA (IMO 9325336) in the Strait of Hormuz on 12 September 2026, damaged, pollution of unknown extent, two seafarers missing. Attribution is disputed: the IRGC said the tanker struck mines, US Central Command said it had been hit by a missile earlier in the month and by a drone over the weekend, and Oman assigned no responsibility.",
+          "date_note": "The IMO register and this record give 12 September 2026. The strike occurred in the early hours of Sunday 13 September local time, the date used by TradeWinds and by Indian government statements, so the UTC date is kept.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register"
+            },
+            {
+              "url": "https://www.bbc.com/news/articles/c3n07ydqdzlvo",
+              "source": "BBC News, 15 September 2026, quoting Oman's Maritime Security Centre"
+            },
+            {
+              "url": "https://gcaptain.com/oman-says-el-gaia-being-towed-to-port-two-crew-missing/",
+              "source": "gCaptain, 15 September 2026, quoting Oman's Maritime Security Centre"
+            },
+            {
+              "url": "https://www.news18.com/world/el-gaia-attack-after-12-days-mortal-remains-of-missing-indian-seafarer-sumit-kumar-singh-found-ws-l-10353904.html",
+              "source": "News18, 26 September 2026"
+            },
+            {
+              "url": "https://www.tradewindsnews.com/casualties/missing-seafarers-found-dead-after-attack-on-tanker-blacklisted-by-iran/2-1-2050819",
+              "source": "TradeWinds, 29 September 2026"
+            },
+            {
+              "url": "https://table.media/assets/documents/20261001_security_brief_soh.pdf",
+              "source": "German Navy Shipping Centre security brief, 1 October 2026"
+            }
+          ]
+        },
+        "updates": [
+          {
+            "at": "2026-11-02T20:19:48Z",
+            "text": "Recorded EL GAIA with a structured casualty count. Two seafarers were missing after the attack and both were later recovered dead: Indian oiler Sumit Kumar Singh and Pakistani third engineer Muhammad Hammad Obaida. The dated missing snapshot of two reflects the Omani search as at 15 September and is not a current missing total. Attribution remains disputed between Iran's mine claim and the US account of an earlier missile hit and a weekend drone strike; Oman assigned no responsibility.",
+            "sources": [
+              {
+                "url": "https://www.news18.com/world/el-gaia-attack-after-12-days-mortal-remains-of-missing-indian-seafarer-sumit-kumar-singh-found-ws-l-10353904.html",
+                "source": "News18, 26 September 2026"
+              },
+              {
+                "url": "https://www.thedailyjagran.com/world/news/indian-seafarer-sumit-kumar-singh-found-dead-12-days-after-el-gaia-tanker-attacked-near-hormuz-10330574",
+                "source": "The Daily Jagran, 26 September 2026"
+              },
+              {
+                "url": "https://www.tradewindsnews.com/casualties/missing-seafarers-found-dead-after-attack-on-tanker-blacklisted-by-iran/2-1-2050819",
+                "source": "TradeWinds, 29 September 2026"
+              },
+              {
+                "url": "https://www.bbc.com/news/articles/c3n07ydqdzlvo",
+                "source": "BBC News, 15 September 2026"
+              },
+              {
+                "url": "https://gcaptain.com/oman-says-el-gaia-being-towed-to-port-two-crew-missing/",
+                "source": "gCaptain, 15 September 2026"
+              },
+              {
+                "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+                "source": "IMO confirmed incident register"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "INC-20260912-001",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-02T20:26:13Z",
+          "vessel_name": "EL GAIA",
+          "imo": "9325336",
+          "date_utc": "2026-09-12",
+          "vessel_type": "Oil products tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "About 1.3 nautical miles north of the Musandam peninsula, Oman",
+          "attack_type": "Projectile and drone strikes, attribution disputed",
+          "summary": "EL GAIA, a Panama-flagged products tanker of about 48,000 deadweight tonnes, was struck about 1.3 nautical miles north of the Musandam peninsula in the Strait of Hormuz on 12 September 2026 and a fire broke out in the engine room. The Omani Maritime Security Centre said 23 of the 25 crew were rescued and taken ashore and that the tanker was towed to an Omani port. Iran said the tanker struck naval mines; the United States said it was hit by an Iranian missile and later by a drone, and Oman assigned no responsibility. Two seafarers were unaccounted for after the fire and were later recovered dead: Indian oiler Sumit Kumar Singh, whose remains the Forward Seamen's Union of India reported recovered on 26 September, and Pakistani third engineer Muhammad Hammad Obaida.",
+          "date_note": "The IMO confirmed incident register lists 12 September 2026. Omani statements reported by the BBC, and Pakistani and Indian reporting, date the strike to 13 September local time, the early hours of Sunday. The register day is kept as the tracked date and the one day local difference is recorded, not recalculated.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register"
+            },
+            {
+              "url": "https://www.bbc.com/news/articles/c3n07ydqdzlvo",
+              "source": "BBC News reporting the Omani Maritime Security Centre, 15 September 2026"
+            },
+            {
+              "url": "https://gcaptain.com/oman-says-el-gaia-being-towed-to-port-two-crew-missing/",
+              "source": "gCaptain reporting the Omani Maritime Security Centre, 15 September 2026"
+            },
+            {
+              "url": "https://www.dawn.com/news/2036510",
+              "source": "Dawn, Karachi, 12 October 2026"
+            },
+            {
+              "url": "https://www.news18.com/world/el-gaia-attack-after-12-days-mortal-remains-of-missing-indian-seafarer-sumit-kumar-singh-found-ws-l-10353904.html",
+              "source": "News18 reporting the Forward Seamen's Union of India, 26 September 2026"
+            },
+            {
+              "url": "https://www.tradewindsnews.com/casualties/missing-seafarers-found-dead-after-attack-on-tanker-blacklisted-by-iran/2-1-2050819",
+              "source": "TradeWinds, 29 September 2026"
+            }
+          ]
+        },
+        "human_impact": null,
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 2,
+          "sources": [
+            {
+              "url": "https://www.dawn.com/news/2036510",
+              "source": "Dawn, 12 October 2026: Pakistani seafarer killed and bodies of two sailors, a Pakistani and an Indian, discovered"
+            },
+            {
+              "url": "https://www.news18.com/world/el-gaia-attack-after-12-days-mortal-remains-of-missing-indian-seafarer-sumit-kumar-singh-found-ws-l-10353904.html",
+              "source": "News18, 26 September 2026, Forward Seamen's Union of India"
+            },
+            {
+              "url": "https://www.tradewindsnews.com/casualties/missing-seafarers-found-dead-after-attack-on-tanker-blacklisted-by-iran/2-1-2050819",
+              "source": "TradeWinds, 29 September 2026, both missing seafarers recovered dead"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Indian",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "url": "https://www.news18.com/world/el-gaia-attack-after-12-days-mortal-remains-of-missing-indian-seafarer-sumit-kumar-singh-found-ws-l-10353904.html",
+                  "source": "News18 reporting the Forward Seamen's Union of India, 26 September 2026"
+                }
+              ]
+            },
+            {
+              "nationality": "Pakistani",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "url": "https://www.dawn.com/news/2036510",
+                  "source": "Dawn, 12 October 2026, reporting the family and the Pakistani Foreign Office"
+                }
+              ]
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-11-02T20:26:13Z",
+          "text": "Correction: this review now sits on the corpus incident ID for the attack, replacing a duplicate historical stub record of the same hull and date. Both seafarers who were missing after the fire were recovered dead, so the death count is two. Sumit Kumar Singh, an Indian oiler, was reported recovered by the Forward Seamen's Union of India on 26 September, and Dawn reported the death of Pakistani third engineer Muhammad Hammad Obaida. The two were found during a headcount after the engine-room fire, days after the attack, not on the day. The IMO register still lists two seafarers missing; that register row is not a current search. The missing snapshot added earlier in tonight's review is cleared because both men are confirmed dead and the earlier review had cleared it for the same reason.",
+          "sources": [
+            {
+              "url": "https://www.news18.com/world/el-gaia-attack-after-12-days-mortal-remains-of-missing-indian-seafarer-sumit-kumar-singh-found-ws-l-10353904.html",
+              "source": "News18, 26 September 2026"
+            },
+            {
+              "url": "https://www.dawn.com/news/2036510",
+              "source": "Dawn, 12 October 2026"
+            },
+            {
+              "url": "https://www.tradewindsnews.com/casualties/missing-seafarers-found-dead-after-attack-on-tanker-blacklisted-by-iran/2-1-2050819",
+              "source": "TradeWinds, 29 September 2026"
+            },
+            {
+              "url": "https://www.bbc.com/news/articles/c3n07ydqdzlvo",
+              "source": "BBC News, 15 September 2026"
             }
           ]
         }
