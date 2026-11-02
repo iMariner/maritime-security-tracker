@@ -13128,6 +13128,47 @@
           ]
         }
       ]
+    },
+    "INC-20261013-029": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T02:05:00Z",
+        "vessel_name": "AL SAADIYAT",
+        "imo": "9760598",
+        "date_utc": "2026-10-13",
+        "vessel_type": "Container ship",
+        "region": "Strait of Hormuz",
+        "location_text": "1 nautical mile from the coast of Oman, on an outbound transit of the Strait of Hormuz",
+        "attack_type": "Unknown projectile",
+        "summary": "AL SAADIYAT, a container ship, was struck by an unknown projectile during an outbound transit of the Strait of Hormuz on 13 October 2026. The IMO confirmed incident register lists AL SAADIYAT (IMO 9760598) at 1 nautical mile from the coast of Oman on 13 October, damaged with no pollution. Kuehne+Nagel's sea news summary, citing Seatrade Maritime News, reported that the third of three container ships identified by Vanguard Tech in the 13 October incidents was Al Saadiyat, attacked during an outbound transit, and that no significant damage or casualties had been reported at the time of writing. No casualty figure for this ship was found in a named official or independent source.",
+        "date_note": "The IMO register gives 13 October for the strike; Kuehne+Nagel's summary is dated 14 October and reports the incident as occurring on 13 October, so day precision is kept and no UTC hour is invented.",
+        "sources": [
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO confirmed incident register, read 2 November 2026: AL SAADIYAT (IMO 9760598), 1 NM from the coast of Oman, 13 October, damaged, no pollution"
+          },
+          {
+            "url": "https://mykn.kuehne-nagel.com/news/article/strait-of-hormuz-three-container-ships",
+            "source": "Kuehne+Nagel sea news, 14 October 2026, citing Seatrade Maritime News and Vanguard Tech: Al Saadiyat was the third container vessel targeted on 13 October and was reportedly attacked during an outbound transit, with no significant damage or casualties reported at that time"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-02T02:05:00Z",
+          "text": "First review of this record. The corpus row rested on the IMO register line alone and carried no vessel type and no supporting account of the event. The register is retained as the identity and date anchor, AL SAADIYAT (IMO 9760598), 13 October, 1 nautical mile from the coast of Oman, damaged with no pollution, and Kuehne+Nagel's summary of the Seatrade Maritime reporting adds that this was one of three container ships identified by Vanguard Tech in the 13 October incidents and that it was struck on an outbound transit. The two accounts differ slightly on damage, the register recording damage and the summary saying no significant damage had been reported, and that difference is left visible rather than resolved. No casualty count is stated: no named official or independent source gives one for this ship, and absence of reporting is not a zero.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, read 2 November 2026"
+            },
+            {
+              "url": "https://mykn.kuehne-nagel.com/news/article/strait-of-hormuz-three-container-ships",
+              "source": "Kuehne+Nagel sea news, 14 October 2026, citing Seatrade Maritime News"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -24893,6 +24934,54 @@
             {
               "url": "https://thehindu.com/news/national/all-indian-crew-members-safe-after-oil-tanker-attacked-at-sharjah-anchorage-sarbananda-sonowal/article71567057.ece",
               "source": "The Hindu, 10 October 2026, quoting India's shipping minister"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6567225002,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6567225002",
+      "author": "iMariner",
+      "received_at": "2026-11-02T01:55:51Z",
+      "incident_id": "INC-20261013-029",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261013-029",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-02T02:05:00Z",
+          "vessel_name": "AL SAADIYAT",
+          "imo": "9760598",
+          "date_utc": "2026-10-13",
+          "vessel_type": "Container ship",
+          "region": "Strait of Hormuz",
+          "location_text": "1 nautical mile from the coast of Oman, on an outbound transit of the Strait of Hormuz",
+          "attack_type": "Unknown projectile",
+          "summary": "AL SAADIYAT, a container ship, was struck by an unknown projectile during an outbound transit of the Strait of Hormuz on 13 October 2026. The IMO confirmed incident register lists AL SAADIYAT (IMO 9760598) at 1 nautical mile from the coast of Oman on 13 October, damaged with no pollution. Kuehne+Nagel's sea news summary, citing Seatrade Maritime News, reported that the third of three container ships identified by Vanguard Tech in the 13 October incidents was Al Saadiyat, attacked during an outbound transit, and that no significant damage or casualties had been reported at the time of writing. No casualty figure for this ship was found in a named official or independent source.",
+          "date_note": "The IMO register gives 13 October for the strike; Kuehne+Nagel's summary is dated 14 October and reports the incident as occurring on 13 October, so day precision is kept and no UTC hour is invented.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, read 2 November 2026: AL SAADIYAT (IMO 9760598), 1 NM from the coast of Oman, 13 October, damaged, no pollution"
+            },
+            {
+              "url": "https://mykn.kuehne-nagel.com/news/article/strait-of-hormuz-three-container-ships",
+              "source": "Kuehne+Nagel sea news, 14 October 2026, citing Seatrade Maritime News and Vanguard Tech: Al Saadiyat was the third container vessel targeted on 13 October and was reportedly attacked during an outbound transit, with no significant damage or casualties reported at that time"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-11-02T02:05:00Z",
+          "text": "First review of this record. The corpus row rested on the IMO register line alone and carried no vessel type and no supporting account of the event. The register is retained as the identity and date anchor, AL SAADIYAT (IMO 9760598), 13 October, 1 nautical mile from the coast of Oman, damaged with no pollution, and Kuehne+Nagel's summary of the Seatrade Maritime reporting adds that this was one of three container ships identified by Vanguard Tech in the 13 October incidents and that it was struck on an outbound transit. The two accounts differ slightly on damage, the register recording damage and the summary saying no significant damage had been reported, and that difference is left visible rather than resolved. No casualty count is stated: no named official or independent source gives one for this ship, and absence of reporting is not a zero.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, read 2 November 2026"
+            },
+            {
+              "url": "https://mykn.kuehne-nagel.com/news/article/strait-of-hormuz-three-container-ships",
+              "source": "Kuehne+Nagel sea news, 14 October 2026, citing Seatrade Maritime News"
             }
           ]
         }
