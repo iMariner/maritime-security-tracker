@@ -17113,6 +17113,63 @@
           ]
         }
       ]
+    },
+    "INC-20261101-008": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T14:12:00Z",
+        "vessel_name": "LARGO ATOM",
+        "imo": "1034747",
+        "date_utc": "2026-11-01",
+        "vessel_type": "Chemical and oil products tanker",
+        "region": "Persian Gulf",
+        "location_text": "72 nautical miles east of Ras Al Khafji, Saudi Arabia, in the northern Persian Gulf",
+        "attack_type": "Unknown projectiles",
+        "summary": "LARGO ATOM, a Liberia flagged chemical and oil products tanker of 49,740 deadweight tonnes built in 2025 and commercially managed by WECO Tankers, was struck by two unknown projectiles on its port side at 2347 UTC on 1 November 2026 while sailing southeast through the northern Persian Gulf 72 nautical miles east of Ras Al Khafji, Saudi Arabia. UKMTO warning 192-26 records the master's report, that all crew were accounted for and that no environmental impact was reported at the time. Clearwater Dynamics identified the vessel from AIS data as Largo Atom, IMO 1034747, and Vanguard Tech, through The Maritime Executive, reported that she was hit by two UAVs and lost all power. The vessel remained afloat and was reported under way towards Jebel Ali the following day.",
+        "date_note": "UKMTO gives the incident date as 1 November 2026 at 2347 UTC and issued the warning on 2 November, so the attack date is kept as 1 November and no local date is substituted.",
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261102-ukmto_warning-192-26.pdf",
+            "source": "UKMTO warning 192-26, incident date 1 November 2026, 2347 UTC: a tanker travelling southeast through the Arabian Gulf 72NM east of Ras Al Khafji, Saudi Arabia, was struck by two unknown projectiles on the port side; all crew are accounted for and no environmental impact reported"
+          },
+          {
+            "url": "https://www.cwdynamics.com/alerts/alert/33565",
+            "source": "Clearwater Dynamics alert CW 002 (Nov 26), 1 November 2026: AIS data investigated by Clearwater indicates the vessel is the Liberia-flagged oil/chemical tanker LARGO ATOM, IMO 1034747"
+          },
+          {
+            "url": "https://maritime-executive.com/article/offshore-tug-hit-in-latest-attack-in-strait-of-hormuz",
+            "source": "The Maritime Executive, 1 November 2026: Vanguard Tech identified the tanker hit east of Ras Al Khafji as Largo Atom (IMO 1034747) and said it was reportedly hit by two UAVs with a complete loss of power"
+          },
+          {
+            "url": "https://www.vesselfinder.com/vessels/details/1034747",
+            "source": "VesselFinder particulars, read 2 November 2026: LARGO ATOM, IMO 1034747, MMSI 636024198, Liberia, chemical/oil products tanker built 2025, 49,740 dwt, AIS position in the Persian Gulf bound for Jebel Ali"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-02T14:12:00Z",
+          "text": "First review of this record. The corpus row described a tanker struck by two unknown projectiles east of Ras Al Khafji on 1 November but carried no vessel name, no IMO and only the free text 'all crew accounted for'. UKMTO warning 192-26 supplies the official account and the position; Clearwater Dynamics identifies the vessel from AIS as LARGO ATOM, IMO 1034747, Liberia flagged, and Vanguard Tech through The Maritime Executive gives the same name and IMO and adds that two UAVs caused a complete loss of power. VesselFinder particulars confirm the hull as a 49,740 dwt chemical and oil products tanker built in 2025. The record is not given a numeric death toll: 'all crew are accounted for' is an explicit statement about the crew but it is not a settled fatality count and no source reports deaths, injuries or missing, so the casualty field is left as it stands and no nationality is recorded. The corpus note that Iran was the attacker is not repeated as fact, because no source opened attributes the strike and the IRGC's separate claim that tankers struck mines does not name this ship.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261102-ukmto_warning-192-26.pdf",
+              "source": "UKMTO warning 192-26, incident date 1 November 2026, 2347 UTC: a tanker travelling southeast through the Arabian Gulf 72NM east of Ras Al Khafji, Saudi Arabia, was struck by two unknown projectiles on the port side; all crew are accounted for and no environmental impact reported"
+            },
+            {
+              "url": "https://www.cwdynamics.com/alerts/alert/33565",
+              "source": "Clearwater Dynamics alert CW 002 (Nov 26), 1 November 2026: AIS data investigated by Clearwater indicates the vessel is the Liberia-flagged oil/chemical tanker LARGO ATOM, IMO 1034747"
+            },
+            {
+              "url": "https://maritime-executive.com/article/offshore-tug-hit-in-latest-attack-in-strait-of-hormuz",
+              "source": "The Maritime Executive, 1 November 2026: Vanguard Tech identified the tanker hit east of Ras Al Khafji as Largo Atom (IMO 1034747) and said it was reportedly hit by two UAVs with a complete loss of power"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/1034747",
+              "source": "VesselFinder particulars, read 2 November 2026: LARGO ATOM, IMO 1034747, MMSI 636024198, Liberia, chemical/oil products tanker built 2025, 49,740 dwt, AIS position in the Persian Gulf bound for Jebel Ali"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -28990,6 +29047,70 @@
             {
               "url": "https://www.seatrade-maritime.com/security/tanker-hit-off-saudi-and-offshore-tug-struck-in-hormuz",
               "source": "Seatrade Maritime, 2 November 2026: Panama-flagged tug Selat Storm operated by Selat Marine Services, beneficial owner Seabulk International, struck by an unidentified projectile at about 15:00 UTC on 1 November and reported partially sinking"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6579307307,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6579307307",
+      "author": "iMariner",
+      "received_at": "2026-11-02T14:12:40Z",
+      "incident_id": "INC-20261101-008",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261101-008",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-02T14:12:00Z",
+          "vessel_name": "LARGO ATOM",
+          "imo": "1034747",
+          "date_utc": "2026-11-01",
+          "vessel_type": "Chemical and oil products tanker",
+          "region": "Persian Gulf",
+          "location_text": "72 nautical miles east of Ras Al Khafji, Saudi Arabia, in the northern Persian Gulf",
+          "attack_type": "Unknown projectiles",
+          "summary": "LARGO ATOM, a Liberia flagged chemical and oil products tanker of 49,740 deadweight tonnes built in 2025 and commercially managed by WECO Tankers, was struck by two unknown projectiles on its port side at 2347 UTC on 1 November 2026 while sailing southeast through the northern Persian Gulf 72 nautical miles east of Ras Al Khafji, Saudi Arabia. UKMTO warning 192-26 records the master's report, that all crew were accounted for and that no environmental impact was reported at the time. Clearwater Dynamics identified the vessel from AIS data as Largo Atom, IMO 1034747, and Vanguard Tech, through The Maritime Executive, reported that she was hit by two UAVs and lost all power. The vessel remained afloat and was reported under way towards Jebel Ali the following day.",
+          "date_note": "UKMTO gives the incident date as 1 November 2026 at 2347 UTC and issued the warning on 2 November, so the attack date is kept as 1 November and no local date is substituted.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261102-ukmto_warning-192-26.pdf",
+              "source": "UKMTO warning 192-26, incident date 1 November 2026, 2347 UTC: a tanker travelling southeast through the Arabian Gulf 72NM east of Ras Al Khafji, Saudi Arabia, was struck by two unknown projectiles on the port side; all crew are accounted for and no environmental impact reported"
+            },
+            {
+              "url": "https://www.cwdynamics.com/alerts/alert/33565",
+              "source": "Clearwater Dynamics alert CW 002 (Nov 26), 1 November 2026: AIS data investigated by Clearwater indicates the vessel is the Liberia-flagged oil/chemical tanker LARGO ATOM, IMO 1034747"
+            },
+            {
+              "url": "https://maritime-executive.com/article/offshore-tug-hit-in-latest-attack-in-strait-of-hormuz",
+              "source": "The Maritime Executive, 1 November 2026: Vanguard Tech identified the tanker hit east of Ras Al Khafji as Largo Atom (IMO 1034747) and said it was reportedly hit by two UAVs with a complete loss of power"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/1034747",
+              "source": "VesselFinder particulars, read 2 November 2026: LARGO ATOM, IMO 1034747, MMSI 636024198, Liberia, chemical/oil products tanker built 2025, 49,740 dwt, AIS position in the Persian Gulf bound for Jebel Ali"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-11-02T14:12:00Z",
+          "text": "First review of this record. The corpus row described a tanker struck by two unknown projectiles east of Ras Al Khafji on 1 November but carried no vessel name, no IMO and only the free text 'all crew accounted for'. UKMTO warning 192-26 supplies the official account and the position; Clearwater Dynamics identifies the vessel from AIS as LARGO ATOM, IMO 1034747, Liberia flagged, and Vanguard Tech through The Maritime Executive gives the same name and IMO and adds that two UAVs caused a complete loss of power. VesselFinder particulars confirm the hull as a 49,740 dwt chemical and oil products tanker built in 2025. The record is not given a numeric death toll: 'all crew are accounted for' is an explicit statement about the crew but it is not a settled fatality count and no source reports deaths, injuries or missing, so the casualty field is left as it stands and no nationality is recorded. The corpus note that Iran was the attacker is not repeated as fact, because no source opened attributes the strike and the IRGC's separate claim that tankers struck mines does not name this ship.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261102-ukmto_warning-192-26.pdf",
+              "source": "UKMTO warning 192-26, incident date 1 November 2026, 2347 UTC: a tanker travelling southeast through the Arabian Gulf 72NM east of Ras Al Khafji, Saudi Arabia, was struck by two unknown projectiles on the port side; all crew are accounted for and no environmental impact reported"
+            },
+            {
+              "url": "https://www.cwdynamics.com/alerts/alert/33565",
+              "source": "Clearwater Dynamics alert CW 002 (Nov 26), 1 November 2026: AIS data investigated by Clearwater indicates the vessel is the Liberia-flagged oil/chemical tanker LARGO ATOM, IMO 1034747"
+            },
+            {
+              "url": "https://maritime-executive.com/article/offshore-tug-hit-in-latest-attack-in-strait-of-hormuz",
+              "source": "The Maritime Executive, 1 November 2026: Vanguard Tech identified the tanker hit east of Ras Al Khafji as Largo Atom (IMO 1034747) and said it was reportedly hit by two UAVs with a complete loss of power"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/1034747",
+              "source": "VesselFinder particulars, read 2 November 2026: LARGO ATOM, IMO 1034747, MMSI 636024198, Liberia, chemical/oil products tanker built 2025, 49,740 dwt, AIS position in the Persian Gulf bound for Jebel Ali"
             }
           ]
         }
