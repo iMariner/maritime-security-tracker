@@ -227,7 +227,7 @@ def export(incidents, overlay=None, history=None):
         item["image"] = image if isinstance(image, dict) and safe_url(image.get("url")) and safe_url(image.get("source_url")) and image.get("credit") and image.get("alt") else None
         result.append(item)
     result.sort(key=lambda item: (item["date_utc"], item["id"]), reverse=True)
-    return {"schema_version": 1, "generated_at": datetime.now(timezone.utc).isoformat(),
+    return _no_em_dash({"schema_version": 1, "generated_at": datetime.now(timezone.utc).isoformat(),
             "review": {"reviewed_count": len(result), "awaiting_review_count": awaiting, "excluded_count": excluded,
                        "historical_candidate_count": len(historical_ids)},
             "methodology": {"coverage": ["Black Sea", "Red Sea", "Strait of Hormuz"], "count_label": "Reviewed incident records",
@@ -235,7 +235,18 @@ def export(incidents, overlay=None, history=None):
               "counting_note": "Totals describe distinct reviewed vessel/date records, not all attacks. Same vessel/date duplicates are withheld; repeat attacks may be merged.",
               "casualty_policy": "Only explicitly confirmed sourced counts are included; unknown is not zero.",
               "coverage_note": "Historical collection, reporting and review are incomplete; these are not comprehensive war totals. Unreviewed records are withheld. Black Sea includes Sea of Azov; Red Sea includes Gulf of Aden; Hormuz includes adjacent Gulf of Oman and Persian Gulf reports.",
-              "history_note": "Only overlay updates are displayed; historical news text is withheld."}, "incidents": result}
+              "history_note": "Only overlay updates are displayed; historical news text is withheld."}, "incidents": result})
+
+
+def _no_em_dash(value):
+    """iMariners house style bans em dashes in public text; source labels use them often."""
+    if isinstance(value, str):
+        return re.sub(r"\s*\u2014\s*", ": ", value)
+    if isinstance(value, list):
+        return [_no_em_dash(item) for item in value]
+    if isinstance(value, dict):
+        return {key: _no_em_dash(item) for key, item in value.items()}
+    return value
 
 
 def main():

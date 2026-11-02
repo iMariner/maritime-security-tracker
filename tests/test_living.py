@@ -2,7 +2,7 @@ from copy import deepcopy
 
 import pytest
 
-from tracker.living import casualties, export, human_impact
+from tracker.living import _no_em_dash, casualties, export, human_impact
 
 
 def incident(id="A", **changes):
@@ -174,3 +174,8 @@ def test_invalid_human_impact_is_omitted_not_zero(change):
     assert human_impact({"missing": {**fact, **change}, "injured": fact}) == {"injured": fact}
     assert human_impact(None) == {}
     assert human_impact({"deaths": fact}) == {}
+
+
+def test_public_text_never_contains_em_dashes():
+    payload = _no_em_dash({"a": ["Türkiye Today \u2014 named account"], "b": {"c": "x\u2014y"}})
+    assert payload == {"a": ["Türkiye Today: named account"], "b": {"c": "x: y"}}
