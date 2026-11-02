@@ -17311,35 +17311,44 @@
           "as_of": "2026-09-21",
           "sources": [
             {
-              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-              "source": "IMO confirmed incident register, two seafarers injured"
+              "url": "https://www.seatrade-maritime.com/security/two-crew-injured-in-hormuz-tanker-attack",
+              "source": "Seatrade Maritime reporting UKMTO, 21 September 2026"
             },
             {
-              "url": "https://www.seatrade-maritime.com/security/two-crew-injured-in-hormuz-tanker-attack",
-              "source": "UKMTO warning quoted by Seatrade Maritime News, two crew with minor injuries"
+              "url": "https://maritime-executive.com/article/iran-keeps-up-pressure-hitting-another-tanker-as-us-asserts-hormuz-is-open",
+              "source": "The Maritime Executive reporting UKMTO, 21 September 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, two seafarers injured"
             }
           ]
         }
       },
       "verification": {
         "status": "verified",
-        "checked_at": "2026-11-02T20:19:48Z",
+        "checked_at": "2026-11-02T20:26:13Z",
         "vessel_name": "LR STEPHANIE",
         "imo": "9282625",
         "date_utc": "2026-09-21",
-        "vessel_type": "Product tanker",
+        "vessel_type": "Crude oil tanker",
         "region": "Strait of Hormuz",
         "location_text": "On an inbound transit of the Strait of Hormuz, northbound from Khor Fakkan in the Gulf of Oman",
         "attack_type": "Unknown projectile",
-        "summary": "LR STEPHANIE, an Isle of Man-flagged product tanker of 72,825 dwt managed by Universal Tanker Corp, was struck by an unidentified projectile on 21 September 2026 while on an inbound transit of the Strait of Hormuz, sailing north from Khor Fakkan. UKMTO reported that two crew had sustained minor injuries, that there was no environmental impact, and that the vessel was continuing to its next port of call under its own power. The IMO confirmed incident register lists LR STEPHANIE (IMO 9282625) in the Strait of Hormuz on 21 September 2026, damaged, no pollution, two seafarers injured. The German Navy Shipping Centre records the same IMO and flag and describes minimal damage with two injured. Reuters, reporting Marisks Intelligence, described the vessel as a crude oil tanker and said responsibility for the attack was unconfirmed.",
+        "summary": "LR STEPHANIE, an Isle of Man registered crude oil tanker of 72,825 deadweight tonnes, IMO 9282625, was struck by an unknown projectile on 21 September 2026 while on an inbound transit of the Strait of Hormuz. UKMTO, reporting information from military authorities, recorded two crew members with minor injuries, no environmental impact and the vessel continuing to her next port of call under her own power. Vanguard Tech identified the casualty as the crude oil tanker LR Stephanie, 72,825 dwt, registered in the Isle of Man, and The Maritime Executive reported the ship was proceeding with her inbound transit. The IMO confirmed incident register records the vessel damaged, no pollution and two seafarers injured. The German Navy Shipping Centre lists the same IMO and flag as a product tanker.",
+        "date_note": "UKMTO and the IMO register both date the attack 21 September 2026. Vanguard Tech named the casualty as La Stephanie, and Pole Star Global's closest matching vessel is the Isle of Man flagged LR Stephanie, which the IMO register lists against 21 September, so the tracked name is LR STEPHANIE and the naming difference stays visible rather than being resolved by inference.",
         "sources": [
+          {
+            "url": "https://www.seatrade-maritime.com/security/two-crew-injured-in-hormuz-tanker-attack",
+            "source": "Seatrade Maritime, reporting UKMTO, 21 September 2026"
+          },
+          {
+            "url": "https://maritime-executive.com/article/iran-keeps-up-pressure-hitting-another-tanker-as-us-asserts-hormuz-is-open",
+            "source": "The Maritime Executive, 21 September 2026, quoting Vanguard Tech"
+          },
           {
             "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
             "source": "IMO confirmed incident register"
-          },
-          {
-            "url": "https://www.seatrade-maritime.com/security/two-crew-injured-in-hormuz-tanker-attack",
-            "source": "Seatrade Maritime News, 21 September 2026, quoting UKMTO"
           },
           {
             "url": "https://english.alarabiya.net/News/middle-east/2026/09/22/hormuz-vessel-traffic-falls-to-two-data-shows",
@@ -17367,6 +17376,24 @@
             {
               "url": "https://english.alarabiya.net/News/middle-east/2026/09/22/hormuz-vessel-traffic-falls-to-two-data-shows",
               "source": "Reuters via Al Arabiya, 22 September 2026"
+            }
+          ]
+        },
+        {
+          "at": "2026-11-02T20:26:13Z",
+          "text": "Correction: this review now sits on the corpus incident ID for the attack, replacing a duplicate historical stub record of the same hull and date. Detail is restored from the UKMTO reporting: a tanker on an inbound Hormuz transit struck by an unknown projectile, two crew with minor injuries, no environmental impact and the ship continuing under her own power into the Persian Gulf. Vanguard Tech named her as the crude oil tanker LR Stephanie, 72,825 dwt, Isle of Man. No death was reported, so no death count is recorded.",
+          "sources": [
+            {
+              "url": "https://www.seatrade-maritime.com/security/two-crew-injured-in-hormuz-tanker-attack",
+              "source": "Seatrade Maritime, 21 September 2026"
+            },
+            {
+              "url": "https://maritime-executive.com/article/iran-keeps-up-pressure-hitting-another-tanker-as-us-asserts-hormuz-is-open",
+              "source": "The Maritime Executive, 21 September 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register"
             }
           ]
         }
@@ -29980,6 +30007,157 @@
             {
               "url": "https://shipandbunker.com/news/emea/973688-peninsula-confirms-missing-crew-member-from-hercules-star-incident-found-deceased",
               "source": "Ship and Bunker, 17 September 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6587669515,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6587669515",
+      "author": "iMariner",
+      "received_at": "2026-11-02T20:27:29Z",
+      "incident_id": "INC-20260921-002",
+      "before": {
+        "human_impact": {
+          "injured": {
+            "count": 2,
+            "as_of": "2026-09-21",
+            "sources": [
+              {
+                "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+                "source": "IMO confirmed incident register, two seafarers injured"
+              },
+              {
+                "url": "https://www.seatrade-maritime.com/security/two-crew-injured-in-hormuz-tanker-attack",
+                "source": "UKMTO warning quoted by Seatrade Maritime News, two crew with minor injuries"
+              }
+            ]
+          }
+        },
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-02T20:19:48Z",
+          "vessel_name": "LR STEPHANIE",
+          "imo": "9282625",
+          "date_utc": "2026-09-21",
+          "vessel_type": "Product tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "On an inbound transit of the Strait of Hormuz, northbound from Khor Fakkan in the Gulf of Oman",
+          "attack_type": "Unknown projectile",
+          "summary": "LR STEPHANIE, an Isle of Man-flagged product tanker of 72,825 dwt managed by Universal Tanker Corp, was struck by an unidentified projectile on 21 September 2026 while on an inbound transit of the Strait of Hormuz, sailing north from Khor Fakkan. UKMTO reported that two crew had sustained minor injuries, that there was no environmental impact, and that the vessel was continuing to its next port of call under its own power. The IMO confirmed incident register lists LR STEPHANIE (IMO 9282625) in the Strait of Hormuz on 21 September 2026, damaged, no pollution, two seafarers injured. The German Navy Shipping Centre records the same IMO and flag and describes minimal damage with two injured. Reuters, reporting Marisks Intelligence, described the vessel as a crude oil tanker and said responsibility for the attack was unconfirmed.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/two-crew-injured-in-hormuz-tanker-attack",
+              "source": "Seatrade Maritime News, 21 September 2026, quoting UKMTO"
+            },
+            {
+              "url": "https://english.alarabiya.net/News/middle-east/2026/09/22/hormuz-vessel-traffic-falls-to-two-data-shows",
+              "source": "Reuters via Al Arabiya, 22 September 2026, quoting Marisks Intelligence"
+            },
+            {
+              "url": "https://table.media/assets/documents/20261001_security_brief_soh.pdf",
+              "source": "German Navy Shipping Centre security brief, 1 October 2026"
+            }
+          ]
+        },
+        "updates": [
+          {
+            "at": "2026-11-02T20:19:48Z",
+            "text": "Added a reviewed record for the 21 September attack on LR STEPHANIE, struck by an unidentified projectile on an inbound Hormuz transit with two crew slightly injured and no environmental impact reported. No source opened reports a death, so no death count is recorded and the casualty status stays unknown rather than zero.",
+            "sources": [
+              {
+                "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+                "source": "IMO confirmed incident register"
+              },
+              {
+                "url": "https://www.seatrade-maritime.com/security/two-crew-injured-in-hormuz-tanker-attack",
+                "source": "Seatrade Maritime News, 21 September 2026"
+              },
+              {
+                "url": "https://english.alarabiya.net/News/middle-east/2026/09/22/hormuz-vessel-traffic-falls-to-two-data-shows",
+                "source": "Reuters via Al Arabiya, 22 September 2026"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "INC-20260921-002",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-02T20:26:13Z",
+          "vessel_name": "LR STEPHANIE",
+          "imo": "9282625",
+          "date_utc": "2026-09-21",
+          "vessel_type": "Crude oil tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "On an inbound transit of the Strait of Hormuz, northbound from Khor Fakkan in the Gulf of Oman",
+          "attack_type": "Unknown projectile",
+          "summary": "LR STEPHANIE, an Isle of Man registered crude oil tanker of 72,825 deadweight tonnes, IMO 9282625, was struck by an unknown projectile on 21 September 2026 while on an inbound transit of the Strait of Hormuz. UKMTO, reporting information from military authorities, recorded two crew members with minor injuries, no environmental impact and the vessel continuing to her next port of call under her own power. Vanguard Tech identified the casualty as the crude oil tanker LR Stephanie, 72,825 dwt, registered in the Isle of Man, and The Maritime Executive reported the ship was proceeding with her inbound transit. The IMO confirmed incident register records the vessel damaged, no pollution and two seafarers injured. The German Navy Shipping Centre lists the same IMO and flag as a product tanker.",
+          "date_note": "UKMTO and the IMO register both date the attack 21 September 2026. Vanguard Tech named the casualty as La Stephanie, and Pole Star Global's closest matching vessel is the Isle of Man flagged LR Stephanie, which the IMO register lists against 21 September, so the tracked name is LR STEPHANIE and the naming difference stays visible rather than being resolved by inference.",
+          "sources": [
+            {
+              "url": "https://www.seatrade-maritime.com/security/two-crew-injured-in-hormuz-tanker-attack",
+              "source": "Seatrade Maritime, reporting UKMTO, 21 September 2026"
+            },
+            {
+              "url": "https://maritime-executive.com/article/iran-keeps-up-pressure-hitting-another-tanker-as-us-asserts-hormuz-is-open",
+              "source": "The Maritime Executive, 21 September 2026, quoting Vanguard Tech"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register"
+            },
+            {
+              "url": "https://english.alarabiya.net/News/middle-east/2026/09/22/hormuz-vessel-traffic-falls-to-two-data-shows",
+              "source": "Reuters via Al Arabiya, 22 September 2026, quoting Marisks Intelligence"
+            },
+            {
+              "url": "https://table.media/assets/documents/20261001_security_brief_soh.pdf",
+              "source": "German Navy Shipping Centre security brief, 1 October 2026"
+            }
+          ]
+        },
+        "human_impact": {
+          "injured": {
+            "count": 2,
+            "as_of": "2026-09-21",
+            "sources": [
+              {
+                "url": "https://www.seatrade-maritime.com/security/two-crew-injured-in-hormuz-tanker-attack",
+                "source": "Seatrade Maritime reporting UKMTO, 21 September 2026"
+              },
+              {
+                "url": "https://maritime-executive.com/article/iran-keeps-up-pressure-hitting-another-tanker-as-us-asserts-hormuz-is-open",
+                "source": "The Maritime Executive reporting UKMTO, 21 September 2026"
+              },
+              {
+                "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+                "source": "IMO confirmed incident register, two seafarers injured"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-11-02T20:26:13Z",
+          "text": "Correction: this review now sits on the corpus incident ID for the attack, replacing a duplicate historical stub record of the same hull and date. Detail is restored from the UKMTO reporting: a tanker on an inbound Hormuz transit struck by an unknown projectile, two crew with minor injuries, no environmental impact and the ship continuing under her own power into the Persian Gulf. Vanguard Tech named her as the crude oil tanker LR Stephanie, 72,825 dwt, Isle of Man. No death was reported, so no death count is recorded.",
+          "sources": [
+            {
+              "url": "https://www.seatrade-maritime.com/security/two-crew-injured-in-hormuz-tanker-attack",
+              "source": "Seatrade Maritime, 21 September 2026"
+            },
+            {
+              "url": "https://maritime-executive.com/article/iran-keeps-up-pressure-hitting-another-tanker-as-us-asserts-hormuz-is-open",
+              "source": "The Maritime Executive, 21 September 2026"
             },
             {
               "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
