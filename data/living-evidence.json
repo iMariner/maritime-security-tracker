@@ -17056,6 +17056,63 @@
           }
         ]
       }
+    },
+    "INC-20261101-011": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T14:12:00Z",
+        "vessel_name": "SELAT STORM",
+        "imo": "9266657",
+        "date_utc": "2026-11-01",
+        "vessel_type": "Offshore tug and supply vessel",
+        "region": "Strait of Hormuz",
+        "location_text": "Northwest of the Musandam Peninsula, Strait of Hormuz",
+        "attack_type": "Unknown projectile",
+        "summary": "SELAT STORM, a Panama flagged offshore tug and supply vessel of about 1,300 deadweight tonnes operated by Selat Marine Services and beneficially owned by Seabulk International, was struck by an unknown projectile in the Strait of Hormuz northwest of the Musandam Peninsula at about 1500 UTC on 1 November 2026. UKMTO warning 191-26 records only that the master of a merchant vessel relayed a Mayday call reporting that another vessel had been struck by an unknown projectile, and does not name the ship. Vanguard Tech identified the vessel as Selat Storm and reported that it was partially sinking, and Clearwater Dynamics gives the name, IMO 9266657 and the Panamanian flag from AIS data. Neither the tug's operator nor any maritime authority has published a statement on the vessel's condition, and the status of its crew was not reported.",
+        "date_note": "UKMTO warning 191-26 is timestamped 1509 UTC on 1 November 2026 and the strike was reported at about 1500 UTC the same day, so day precision is kept for the attack date.",
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261101-ukmto_warning_191_26.pdf?rev=d4620238ffd446959c914049b1474287",
+            "source": "UKMTO warning 191-26, 1 November 2026, 1509 UTC: the master of a merchant vessel relayed a Mayday call on VHF Ch 16 stating that another vessel had been struck by an unknown projectile in the Strait of Hormuz; no vessel name given"
+          },
+          {
+            "url": "https://maritime-executive.com/article/offshore-tug-hit-in-latest-attack-in-strait-of-hormuz",
+            "source": "The Maritime Executive, 1 November 2026: Vanguard Tech identified the Emirati-owned offshore tug Selat Storm, about 1,300 dwt, hit by a projectile northwest of the Musandam Peninsula just after 1500 UTC and reported partially sinking; crew status not reported"
+          },
+          {
+            "url": "https://www.cwdynamics.com/alerts/alert/33564",
+            "source": "Clearwater Dynamics alert CW 001 (Nov 26), 1 November 2026: AIS data indicates the vessel is the Panama-flagged tug/supply vessel SELAT STORM, IMO 9266657"
+          },
+          {
+            "url": "https://www.seatrade-maritime.com/security/tanker-hit-off-saudi-and-offshore-tug-struck-in-hormuz",
+            "source": "Seatrade Maritime, 2 November 2026: Panama-flagged tug Selat Storm operated by Selat Marine Services, beneficial owner Seabulk International, struck by an unidentified projectile at about 15:00 UTC on 1 November and reported partially sinking"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-02T14:12:00Z",
+          "text": "First review of this record. The corpus row held a single trade headline about an offshore tug struck in the Strait of Hormuz on 1 November with no vessel name, no IMO and no casualty detail. UKMTO warning 191-26 supplies the official account of the incident: a Mayday relayed by the master of a merchant vessel reporting another vessel struck by an unknown projectile at 1509 UTC, with no identity given. The vessel is identified as SELAT STORM, IMO 9266657, by Vanguard Tech through The Maritime Executive and Seatrade Maritime, and independently by Clearwater Dynamics from AIS data, which also gives the Panamanian flag; the beneficial owner is Seabulk International. Vanguard Tech reported the tug partially sinking. The record's attack type stays an unknown projectile because no source states the weapon, and the corpus claim that Iran was the attacker is not repeated here. No death, injury or missing count is recorded: the crew's status was not reported by any source opened, and unknown is not zero. No nationalities are recorded, and the crew list is not public.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261101-ukmto_warning_191_26.pdf?rev=d4620238ffd446959c914049b1474287",
+              "source": "UKMTO warning 191-26, 1 November 2026, 1509 UTC: the master of a merchant vessel relayed a Mayday call on VHF Ch 16 stating that another vessel had been struck by an unknown projectile in the Strait of Hormuz; no vessel name given"
+            },
+            {
+              "url": "https://maritime-executive.com/article/offshore-tug-hit-in-latest-attack-in-strait-of-hormuz",
+              "source": "The Maritime Executive, 1 November 2026: Vanguard Tech identified the Emirati-owned offshore tug Selat Storm, about 1,300 dwt, hit by a projectile northwest of the Musandam Peninsula just after 1500 UTC and reported partially sinking; crew status not reported"
+            },
+            {
+              "url": "https://www.cwdynamics.com/alerts/alert/33564",
+              "source": "Clearwater Dynamics alert CW 001 (Nov 26), 1 November 2026: AIS data indicates the vessel is the Panama-flagged tug/supply vessel SELAT STORM, IMO 9266657"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/tanker-hit-off-saudi-and-offshore-tug-struck-in-hormuz",
+              "source": "Seatrade Maritime, 2 November 2026: Panama-flagged tug Selat Storm operated by Selat Marine Services, beneficial owner Seabulk International, struck by an unidentified projectile at about 15:00 UTC on 1 November and reported partially sinking"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -28869,6 +28926,70 @@
             {
               "url": "https://mykn.kuehne-nagel.com/news/article/strait-of-hormuz-three-container-ships",
               "source": "Kuehne+Nagel sea news, 14 October 2026, citing Seatrade Maritime News"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6579279072,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6579279072",
+      "author": "iMariner",
+      "received_at": "2026-11-02T14:11:24Z",
+      "incident_id": "INC-20261101-011",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261101-011",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-02T14:12:00Z",
+          "vessel_name": "SELAT STORM",
+          "imo": "9266657",
+          "date_utc": "2026-11-01",
+          "vessel_type": "Offshore tug and supply vessel",
+          "region": "Strait of Hormuz",
+          "location_text": "Northwest of the Musandam Peninsula, Strait of Hormuz",
+          "attack_type": "Unknown projectile",
+          "summary": "SELAT STORM, a Panama flagged offshore tug and supply vessel of about 1,300 deadweight tonnes operated by Selat Marine Services and beneficially owned by Seabulk International, was struck by an unknown projectile in the Strait of Hormuz northwest of the Musandam Peninsula at about 1500 UTC on 1 November 2026. UKMTO warning 191-26 records only that the master of a merchant vessel relayed a Mayday call reporting that another vessel had been struck by an unknown projectile, and does not name the ship. Vanguard Tech identified the vessel as Selat Storm and reported that it was partially sinking, and Clearwater Dynamics gives the name, IMO 9266657 and the Panamanian flag from AIS data. Neither the tug's operator nor any maritime authority has published a statement on the vessel's condition, and the status of its crew was not reported.",
+          "date_note": "UKMTO warning 191-26 is timestamped 1509 UTC on 1 November 2026 and the strike was reported at about 1500 UTC the same day, so day precision is kept for the attack date.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261101-ukmto_warning_191_26.pdf?rev=d4620238ffd446959c914049b1474287",
+              "source": "UKMTO warning 191-26, 1 November 2026, 1509 UTC: the master of a merchant vessel relayed a Mayday call on VHF Ch 16 stating that another vessel had been struck by an unknown projectile in the Strait of Hormuz; no vessel name given"
+            },
+            {
+              "url": "https://maritime-executive.com/article/offshore-tug-hit-in-latest-attack-in-strait-of-hormuz",
+              "source": "The Maritime Executive, 1 November 2026: Vanguard Tech identified the Emirati-owned offshore tug Selat Storm, about 1,300 dwt, hit by a projectile northwest of the Musandam Peninsula just after 1500 UTC and reported partially sinking; crew status not reported"
+            },
+            {
+              "url": "https://www.cwdynamics.com/alerts/alert/33564",
+              "source": "Clearwater Dynamics alert CW 001 (Nov 26), 1 November 2026: AIS data indicates the vessel is the Panama-flagged tug/supply vessel SELAT STORM, IMO 9266657"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/tanker-hit-off-saudi-and-offshore-tug-struck-in-hormuz",
+              "source": "Seatrade Maritime, 2 November 2026: Panama-flagged tug Selat Storm operated by Selat Marine Services, beneficial owner Seabulk International, struck by an unidentified projectile at about 15:00 UTC on 1 November and reported partially sinking"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-11-02T14:12:00Z",
+          "text": "First review of this record. The corpus row held a single trade headline about an offshore tug struck in the Strait of Hormuz on 1 November with no vessel name, no IMO and no casualty detail. UKMTO warning 191-26 supplies the official account of the incident: a Mayday relayed by the master of a merchant vessel reporting another vessel struck by an unknown projectile at 1509 UTC, with no identity given. The vessel is identified as SELAT STORM, IMO 9266657, by Vanguard Tech through The Maritime Executive and Seatrade Maritime, and independently by Clearwater Dynamics from AIS data, which also gives the Panamanian flag; the beneficial owner is Seabulk International. Vanguard Tech reported the tug partially sinking. The record's attack type stays an unknown projectile because no source states the weapon, and the corpus claim that Iran was the attacker is not repeated here. No death, injury or missing count is recorded: the crew's status was not reported by any source opened, and unknown is not zero. No nationalities are recorded, and the crew list is not public.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261101-ukmto_warning_191_26.pdf?rev=d4620238ffd446959c914049b1474287",
+              "source": "UKMTO warning 191-26, 1 November 2026, 1509 UTC: the master of a merchant vessel relayed a Mayday call on VHF Ch 16 stating that another vessel had been struck by an unknown projectile in the Strait of Hormuz; no vessel name given"
+            },
+            {
+              "url": "https://maritime-executive.com/article/offshore-tug-hit-in-latest-attack-in-strait-of-hormuz",
+              "source": "The Maritime Executive, 1 November 2026: Vanguard Tech identified the Emirati-owned offshore tug Selat Storm, about 1,300 dwt, hit by a projectile northwest of the Musandam Peninsula just after 1500 UTC and reported partially sinking; crew status not reported"
+            },
+            {
+              "url": "https://www.cwdynamics.com/alerts/alert/33564",
+              "source": "Clearwater Dynamics alert CW 001 (Nov 26), 1 November 2026: AIS data indicates the vessel is the Panama-flagged tug/supply vessel SELAT STORM, IMO 9266657"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/tanker-hit-off-saudi-and-offshore-tug-struck-in-hormuz",
+              "source": "Seatrade Maritime, 2 November 2026: Panama-flagged tug Selat Storm operated by Selat Marine Services, beneficial owner Seabulk International, struck by an unidentified projectile at about 15:00 UTC on 1 November and reported partially sinking"
             }
           ]
         }
