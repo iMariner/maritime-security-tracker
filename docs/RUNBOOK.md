@@ -6,6 +6,19 @@ Each Hermes job's instructions are in [hermes/cron/](hermes/cron/) (loaded at ev
 [hermes/README.md](hermes/README.md)), the Hermes setup in [hermes.md](hermes.md); server setup history is in
 [DEPLOY-ON-TEST-SERVER.md](DEPLOY-ON-TEST-SERVER.md).
 
+> **2 November 2026: the daily brief is retired.** imariners.com now shows the living
+> **Maritime Attack Tracker** (https://imariners.com/maritime-attack-tracker/, page 16139; see
+> [LIVING-TRACKER.md](LIVING-TRACKER.md)). What still runs: hourly collection (`collect.yml`, no longer paused
+> 04:00-05:59), verdicts (`verdict.yml`), `/evidence` (`living-evidence.yml`), Pages deploy, tests, the balance alert,
+> and Hermes jobs `maritime-security-tracking` (04:30, UKMTO check and verdicts only, no `/brief`),
+> `maritime-living-evidence` (every 6 hours), `deepseek-balance-alert` and `github-token-watch`.
+> Disabled in GitHub: `brief-trigger.yml`, `daily-brief.yml`, `review.yml`, `publish.yml`. Paused in Hermes:
+> `maritime-editor-check`, `maritime-final-read`, `maritime-weekly-learning`, `maritime-brief-watchdog` (their job
+> files say "retired"). The n8n approval workflow is idle. The 31 brief posts are in WordPress Trash
+> ([RETIRED-BRIEF-POSTS-2026-11-02.md](RETIRED-BRIEF-POSTS-2026-11-02.md)); Rank Math 301s
+> `maritime-security-brief-*` and `category/news/maritime-security*` to the tracker. The rest of this runbook
+> describes the brief system as it was, for reference or a restart.
+
 ## 1. What it is and why
 
 Every morning the system publishes a short, verified news brief on **imariners.com** about attacks on merchant ships in
