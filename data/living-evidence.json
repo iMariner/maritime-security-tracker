@@ -17178,11 +17178,7 @@
         "sources": [
           {
             "url": "https://shipandbunker.com/news/emea/973688-peninsula-confirms-missing-crew-member-from-hercules-star-incident-found-deceased",
-            "source": "Peninsula statement via Ship and Bunker, 17 September 2026"
-          },
-          {
-            "url": "https://www.seatrade-maritime.com/security/missing-crew-member-from-hercules-star-attack-found-dead",
-            "source": "Seatrade Maritime News, 17 September 2026"
+            "source": "Peninsula statement via Ship and Bunker, 17 September 2026, toll two"
           },
           {
             "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
@@ -17191,13 +17187,24 @@
         ],
         "nationalities": [
           {
+            "nationality": "Filipino",
+            "status": "confirmed",
+            "deaths": 1,
+            "sources": [
+              {
+                "url": "https://tribune.net.ph/2026/09/27/remains-of-filipino-seafarer-killed-in-dubai-tanker-incident-repatriated",
+                "source": "Daily Tribune, 27 September 2026, repatriation of a Filipino seafarer killed in the 9 September Hercules Star incident"
+              }
+            ]
+          },
+          {
             "nationality": "Russian",
             "status": "confirmed",
             "deaths": 1,
             "sources": [
               {
-                "url": "https://www.tradewindsnews.com/casualties/missing-seafarer-from-hercules-tanker-ship-found-dead-off-uae/2-1-2045385",
-                "source": "TradeWinds, 17 September 2026: Russian crew member is the 23rd confirmed marine casualty"
+                "url": "https://news-pravda.com/russia/2026/09/17/2599624.html",
+                "source": "REN TV, 17 September 2026, Russian Consulate General in Dubai: body of a Russian seafarer found"
               }
             ]
           }
@@ -17205,32 +17212,40 @@
       },
       "verification": {
         "status": "verified",
-        "checked_at": "2026-11-02T20:19:48Z",
+        "checked_at": "2026-11-02T20:26:13Z",
         "vessel_name": "HERCULES STAR",
         "imo": "9916135",
         "date_utc": "2026-09-09",
         "vessel_type": "Oil products tanker",
         "region": "Persian Gulf",
-        "location_text": "At anchor about 24 nautical miles northwest of Port Rashid, Dubai, United Arab Emirates",
+        "location_text": "At Dubai Delta anchorage, about 24 nautical miles northwest of Port Rashid, United Arab Emirates",
         "attack_type": "Unknown projectile",
-        "summary": "HERCULES STAR, a Gibraltar-flagged oil products tanker chartered by Peninsula Petroleum, was at anchor off Dubai when it was struck by an unknown projectile in the early hours of 9 September 2026. UKMTO reported a vessel listing about 24 nautical miles off Port Rashid, possibly from water ingress after an attack by an unknown projectile. Peninsula confirmed one seafarer killed that day and one crew member missing; on 17 September it said the missing crew member had been found deceased, taking the toll from the incident to two, and that all surviving crew had been repatriated. The IMO confirmed incident register lists HERCULES STAR (IMO 9916135) 24 nautical miles northwest of Port Rashid on 9 September 2026, damaged, no pollution, two seafarer fatalities. The German Navy Shipping Centre lists the same hull as a Gibraltar product tanker.",
-        "date_note": "The charterer's statements and the IMO register date the attack 9 September 2026. The German Navy Shipping Centre brief lists it as 8 September, consistent with a pre-midnight UTC clock time for an attack in the early hours of 9 September local time (UTC+4).",
+        "summary": "HERCULES STAR, a Gibraltar-flagged oil products tanker chartered by Peninsula Petroleum, was struck by an unknown projectile in the early hours of 9 September 2026 while at anchor off Dubai, about 24 nautical miles northwest of Port Rashid. Peninsula said one seafarer had been killed and one was missing with all other crew accounted for, and UKMTO reported a vessel listing at that position, possibly from water ingress after an attack by an unknown projectile. On 17 September Peninsula said the missing crew member had been found deceased, taking the toll to two, and that all surviving crew had been repatriated. The Russian Consulate General in Dubai told REN TV that the body of a Russian seafarer missing after the damage to the tanker had been found, and the Philippine Department of Migrant Workers and OWWA repatriated the remains of a Filipino seafarer killed in the same incident on 26 September. The IMO confirmed incident register records the ship damaged, no pollution and two seafarer fatalities on 9 September.",
+        "date_note": "The charterer's statements and the IMO register both date the attack 9 September 2026, and the Philippine repatriation notice names 9 September at the Dubai Delta anchorage. The German Navy Shipping Centre brief lists 8 September, consistent with a pre-midnight UTC time for an attack in the early hours of 9 September local time. The earlier 1 March 2026 strike on the same ship is a separate attack and is not merged with this one.",
         "sources": [
           {
-            "url": "https://www.reuters.com/world/middle-east/seafarer-oil-products-tanker-killed-incident-off-dubai-peninsula-says-2026-09-09/",
-            "source": "Reuters, 9 September 2026, quoting Peninsula"
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO confirmed incident register: HERCULES STAR IMO 9916135, 24NM northwest of Port Rashid, 9 September 2026, two seafarer fatalities"
           },
           {
-            "url": "https://www.seatrade-maritime.com/security/missing-crew-member-from-hercules-star-attack-found-dead",
-            "source": "Seatrade Maritime News, 17 September 2026, Peninsula statement"
+            "url": "https://www.reuters.com/world/middle-east/seafarer-oil-products-tanker-killed-incident-off-dubai-peninsula-says-2026-09-09/",
+            "source": "Reuters, 9 September 2026, quoting the charterer Peninsula"
           },
           {
             "url": "https://shipandbunker.com/news/emea/973688-peninsula-confirms-missing-crew-member-from-hercules-star-incident-found-deceased",
             "source": "Ship and Bunker, 17 September 2026, Peninsula statement"
           },
           {
-            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register"
+            "url": "https://www.seatrade-maritime.com/security/missing-crew-member-from-hercules-star-attack-found-dead",
+            "source": "Seatrade Maritime News, 17 September 2026"
+          },
+          {
+            "url": "https://news-pravda.com/russia/2026/09/17/2599624.html",
+            "source": "REN TV, 17 September 2026, quoting the Russian Consulate General in Dubai"
+          },
+          {
+            "url": "https://tribune.net.ph/2026/09/27/remains-of-filipino-seafarer-killed-in-dubai-tanker-incident-repatriated",
+            "source": "Daily Tribune, 27 September 2026, Department of Migrant Workers and OWWA"
           },
           {
             "url": "https://table.media/assets/documents/20261001_security_brief_soh.pdf",
@@ -17258,6 +17273,28 @@
             {
               "url": "https://www.tradewindsnews.com/casualties/missing-seafarer-from-hercules-tanker-ship-found-dead-off-uae/2-1-2045385",
               "source": "TradeWinds, 17 September 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register"
+            }
+          ]
+        },
+        {
+          "at": "2026-11-02T20:26:13Z",
+          "text": "Correction: this review now sits on the corpus incident ID for the attack, replacing a duplicate historical stub record of the same hull and date. Two deaths are recorded, one Filipino and one Russian. The Philippine Department of Migrant Workers and OWWA repatriated the remains of a Filipino seafarer on 26 September, and the Russian Consulate General in Dubai told REN TV that the body of a Russian seafarer missing after the attack had been found. The charterer Peninsula confirmed one death on the day and a second on 17 September. The 1 March 2026 strike on the same ship is a separate attack with no injuries.",
+          "sources": [
+            {
+              "url": "https://tribune.net.ph/2026/09/27/remains-of-filipino-seafarer-killed-in-dubai-tanker-incident-repatriated",
+              "source": "Daily Tribune, 27 September 2026"
+            },
+            {
+              "url": "https://news-pravda.com/russia/2026/09/17/2599624.html",
+              "source": "REN TV, 17 September 2026"
+            },
+            {
+              "url": "https://shipandbunker.com/news/emea/973688-peninsula-confirms-missing-crew-member-from-hercules-star-incident-found-deceased",
+              "source": "Ship and Bunker, 17 September 2026"
             },
             {
               "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
@@ -29734,6 +29771,215 @@
             {
               "url": "https://gcaptain.com/oman-says-el-gaia-being-towed-to-port-two-crew-missing/",
               "source": "gCaptain, 15 September 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6587647247,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6587647247",
+      "author": "iMariner",
+      "received_at": "2026-11-02T20:26:19Z",
+      "incident_id": "INC-20260909-001",
+      "before": {
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 2,
+          "sources": [
+            {
+              "url": "https://shipandbunker.com/news/emea/973688-peninsula-confirms-missing-crew-member-from-hercules-star-incident-found-deceased",
+              "source": "Peninsula statement via Ship and Bunker, 17 September 2026"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/missing-crew-member-from-hercules-star-attack-found-dead",
+              "source": "Seatrade Maritime News, 17 September 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, two seafarer fatalities"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Russian",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "url": "https://www.tradewindsnews.com/casualties/missing-seafarer-from-hercules-tanker-ship-found-dead-off-uae/2-1-2045385",
+                  "source": "TradeWinds, 17 September 2026: Russian crew member is the 23rd confirmed marine casualty"
+                }
+              ]
+            }
+          ]
+        },
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-02T20:19:48Z",
+          "vessel_name": "HERCULES STAR",
+          "imo": "9916135",
+          "date_utc": "2026-09-09",
+          "vessel_type": "Oil products tanker",
+          "region": "Persian Gulf",
+          "location_text": "At anchor about 24 nautical miles northwest of Port Rashid, Dubai, United Arab Emirates",
+          "attack_type": "Unknown projectile",
+          "summary": "HERCULES STAR, a Gibraltar-flagged oil products tanker chartered by Peninsula Petroleum, was at anchor off Dubai when it was struck by an unknown projectile in the early hours of 9 September 2026. UKMTO reported a vessel listing about 24 nautical miles off Port Rashid, possibly from water ingress after an attack by an unknown projectile. Peninsula confirmed one seafarer killed that day and one crew member missing; on 17 September it said the missing crew member had been found deceased, taking the toll from the incident to two, and that all surviving crew had been repatriated. The IMO confirmed incident register lists HERCULES STAR (IMO 9916135) 24 nautical miles northwest of Port Rashid on 9 September 2026, damaged, no pollution, two seafarer fatalities. The German Navy Shipping Centre lists the same hull as a Gibraltar product tanker.",
+          "date_note": "The charterer's statements and the IMO register date the attack 9 September 2026. The German Navy Shipping Centre brief lists it as 8 September, consistent with a pre-midnight UTC clock time for an attack in the early hours of 9 September local time (UTC+4).",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/seafarer-oil-products-tanker-killed-incident-off-dubai-peninsula-says-2026-09-09/",
+              "source": "Reuters, 9 September 2026, quoting Peninsula"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/missing-crew-member-from-hercules-star-attack-found-dead",
+              "source": "Seatrade Maritime News, 17 September 2026, Peninsula statement"
+            },
+            {
+              "url": "https://shipandbunker.com/news/emea/973688-peninsula-confirms-missing-crew-member-from-hercules-star-incident-found-deceased",
+              "source": "Ship and Bunker, 17 September 2026, Peninsula statement"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register"
+            },
+            {
+              "url": "https://table.media/assets/documents/20261001_security_brief_soh.pdf",
+              "source": "German Navy Shipping Centre security brief, 1 October 2026"
+            }
+          ]
+        },
+        "updates": [
+          {
+            "at": "2026-11-02T20:19:48Z",
+            "text": "Added a reviewed record for the 9 September attack on HERCULES STAR: a Gibraltar-flagged oil products tanker at anchor off Dubai, struck by an unknown projectile. The charterer Peninsula confirmed one death on the day and a second on 17 September, when the missing crew member was found deceased; the IMO register lists two seafarer fatalities. TradeWinds described the seafarer whose body was recovered as a Russian crew member, and that is the only nationality recorded here: the charterer gave none. The same tanker was struck again on 1 March 2026, a separate earlier attack that the IMO register records with no injuries.",
+            "sources": [
+              {
+                "url": "https://www.reuters.com/world/middle-east/seafarer-oil-products-tanker-killed-incident-off-dubai-peninsula-says-2026-09-09/",
+                "source": "Reuters, 9 September 2026"
+              },
+              {
+                "url": "https://www.seatrade-maritime.com/security/missing-crew-member-from-hercules-star-attack-found-dead",
+                "source": "Seatrade Maritime News, 17 September 2026"
+              },
+              {
+                "url": "https://shipandbunker.com/news/emea/973688-peninsula-confirms-missing-crew-member-from-hercules-star-incident-found-deceased",
+                "source": "Ship and Bunker, 17 September 2026"
+              },
+              {
+                "url": "https://www.tradewindsnews.com/casualties/missing-seafarer-from-hercules-tanker-ship-found-dead-off-uae/2-1-2045385",
+                "source": "TradeWinds, 17 September 2026"
+              },
+              {
+                "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+                "source": "IMO confirmed incident register"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "INC-20260909-001",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-02T20:26:13Z",
+          "vessel_name": "HERCULES STAR",
+          "imo": "9916135",
+          "date_utc": "2026-09-09",
+          "vessel_type": "Oil products tanker",
+          "region": "Persian Gulf",
+          "location_text": "At Dubai Delta anchorage, about 24 nautical miles northwest of Port Rashid, United Arab Emirates",
+          "attack_type": "Unknown projectile",
+          "summary": "HERCULES STAR, a Gibraltar-flagged oil products tanker chartered by Peninsula Petroleum, was struck by an unknown projectile in the early hours of 9 September 2026 while at anchor off Dubai, about 24 nautical miles northwest of Port Rashid. Peninsula said one seafarer had been killed and one was missing with all other crew accounted for, and UKMTO reported a vessel listing at that position, possibly from water ingress after an attack by an unknown projectile. On 17 September Peninsula said the missing crew member had been found deceased, taking the toll to two, and that all surviving crew had been repatriated. The Russian Consulate General in Dubai told REN TV that the body of a Russian seafarer missing after the damage to the tanker had been found, and the Philippine Department of Migrant Workers and OWWA repatriated the remains of a Filipino seafarer killed in the same incident on 26 September. The IMO confirmed incident register records the ship damaged, no pollution and two seafarer fatalities on 9 September.",
+          "date_note": "The charterer's statements and the IMO register both date the attack 9 September 2026, and the Philippine repatriation notice names 9 September at the Dubai Delta anchorage. The German Navy Shipping Centre brief lists 8 September, consistent with a pre-midnight UTC time for an attack in the early hours of 9 September local time. The earlier 1 March 2026 strike on the same ship is a separate attack and is not merged with this one.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register: HERCULES STAR IMO 9916135, 24NM northwest of Port Rashid, 9 September 2026, two seafarer fatalities"
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/seafarer-oil-products-tanker-killed-incident-off-dubai-peninsula-says-2026-09-09/",
+              "source": "Reuters, 9 September 2026, quoting the charterer Peninsula"
+            },
+            {
+              "url": "https://shipandbunker.com/news/emea/973688-peninsula-confirms-missing-crew-member-from-hercules-star-incident-found-deceased",
+              "source": "Ship and Bunker, 17 September 2026, Peninsula statement"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/missing-crew-member-from-hercules-star-attack-found-dead",
+              "source": "Seatrade Maritime News, 17 September 2026"
+            },
+            {
+              "url": "https://news-pravda.com/russia/2026/09/17/2599624.html",
+              "source": "REN TV, 17 September 2026, quoting the Russian Consulate General in Dubai"
+            },
+            {
+              "url": "https://tribune.net.ph/2026/09/27/remains-of-filipino-seafarer-killed-in-dubai-tanker-incident-repatriated",
+              "source": "Daily Tribune, 27 September 2026, Department of Migrant Workers and OWWA"
+            },
+            {
+              "url": "https://table.media/assets/documents/20261001_security_brief_soh.pdf",
+              "source": "German Navy Shipping Centre security brief, 1 October 2026"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 2,
+          "sources": [
+            {
+              "url": "https://shipandbunker.com/news/emea/973688-peninsula-confirms-missing-crew-member-from-hercules-star-incident-found-deceased",
+              "source": "Peninsula statement via Ship and Bunker, 17 September 2026, toll two"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, two seafarer fatalities"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Filipino",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "url": "https://tribune.net.ph/2026/09/27/remains-of-filipino-seafarer-killed-in-dubai-tanker-incident-repatriated",
+                  "source": "Daily Tribune, 27 September 2026, repatriation of a Filipino seafarer killed in the 9 September Hercules Star incident"
+                }
+              ]
+            },
+            {
+              "nationality": "Russian",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "url": "https://news-pravda.com/russia/2026/09/17/2599624.html",
+                  "source": "REN TV, 17 September 2026, Russian Consulate General in Dubai: body of a Russian seafarer found"
+                }
+              ]
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-11-02T20:26:13Z",
+          "text": "Correction: this review now sits on the corpus incident ID for the attack, replacing a duplicate historical stub record of the same hull and date. Two deaths are recorded, one Filipino and one Russian. The Philippine Department of Migrant Workers and OWWA repatriated the remains of a Filipino seafarer on 26 September, and the Russian Consulate General in Dubai told REN TV that the body of a Russian seafarer missing after the attack had been found. The charterer Peninsula confirmed one death on the day and a second on 17 September. The 1 March 2026 strike on the same ship is a separate attack with no injuries.",
+          "sources": [
+            {
+              "url": "https://tribune.net.ph/2026/09/27/remains-of-filipino-seafarer-killed-in-dubai-tanker-incident-repatriated",
+              "source": "Daily Tribune, 27 September 2026"
+            },
+            {
+              "url": "https://news-pravda.com/russia/2026/09/17/2599624.html",
+              "source": "REN TV, 17 September 2026"
+            },
+            {
+              "url": "https://shipandbunker.com/news/emea/973688-peninsula-confirms-missing-crew-member-from-hercules-star-incident-found-deceased",
+              "source": "Ship and Bunker, 17 September 2026"
             },
             {
               "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
