@@ -1,6 +1,6 @@
 # Historical backfill, second pass: 2 November 2026
 
-Adds 75 reviewed vessel/date records to the living tracker (276 to 351 public records). This is still a reviewed record, not a complete war count, so the page keeps its backfill notice.
+Adds 97 reviewed vessel/date records to the living tracker in two waves (276 to 373 public records). This is still a reviewed record, not a complete war count, so the page keeps its backfill notice.
 
 ## Method
 
@@ -25,9 +25,20 @@ The Izmail and Danube port records for 2024 and 2025 rest on Ukraine's Sea Ports
 - Russian state claims only, one called likely false by trade press: SGV-FLOT, SORMOVSKIY 3064, APACHE.
 - Earlier holds still unresolved: KATHLEEN, PRP-52 (floating pier), BLACK FUEL, AJ ROSE. VOLGONEFT-25 (27 September 2024) is now resolved and published.
 
+## Second wave (same day)
+
+A targeted pass on the gaps above added 22 more records (351 to 373 public records), each re-checked by an independent fact-check pass (19 ok, 3 corrected, 0 dropped):
+
+- Black Sea: SMARTA now has its real attack date (20 March 2022, owner via Reuters); ORLIK (port-authority pilot boat, mine, July 2022); NS PRIDE (2025); BLUE BEAD, SLAVYANIN and AVANGARD (March and April 2026), YASA POLARIS, AIDA, YANINA, NADEZHDA, NEFRIT, SEA DESTINY and DANIA J (2026).
+- Red Sea: MSC GINA and MSC DIEGO (7 May 2024, JMIC confirmed). Sweeps of every mirrored 2024 CENTCOM release, December 2023 and the IMO annexes found nothing else missing.
+- Hormuz: DERYA, KAVIZ, CHARMINAR and RIESCO (US strikes, 8 September 2026; HORIZON 1 is the same event and stays one record), HAJI ALI and OCEAN KOI (now with sourced dates).
+
 ## Remaining gaps
 
-Web search limits cut every research pass short. Known gaps: named ships hit in the July to December 2023 strikes on Odesa, Izmail and Reni; December 2023 Red Sea days missing from the CENTCOM mirror; US strikes on 8 September 2026 (DERYA, KAVIZ, CHARMINAR, RIESCO) awaiting a second source; strong single-source leads SELAT STORM, TARIF, DISHA, YASA POLARIS, AIDA, SEA DESTINY and DANIA J. These belong to the Hermes living-evidence desk or a later backfill pass.
+- Danube Commission register entries with no second source: SKIF, MONICA, ALV MAXX POWER, SNOW (2023), STL FORTIS, AIR-N/SAGE.
+- Ukrainian Sea Ports Authority names with no second source: YOUSSEF BEY, ANNA-SOFIA, SILVER, AMADORE, GEROI SHIPKI, MARIKA, ZEIBEK, MOAYAD Y, ATA VOYAGER, A. OBELIX.
+- No attack date yet: LORD NELSON, LOUISE 1 and BANDA (Black Sea), AVERO. Single naming source: SELAT STORM, TARIF, YASAR, GOZO, PRINCESS FAYZAH, VOLGO-BALT 216, SAPPHIRE.
+- DISHA (24 July 2026) is the same ship as LAVINE, already published; its extra reporting can be added to that record.
 
 ## Records
 
@@ -108,3 +119,25 @@ Web search limits cut every research pass short. Known gaps: named ships hit in 
 | 2026-09-05 | KYLO | Strait of Hormuz | Projectile strike |
 | 2026-09-05 | STARK I | Strait of Hormuz | Projectile strike |
 | 2026-09-05 | DOWNY | Strait of Hormuz | Projectile strike |
+| 2022-03-20 | SMARTA | Black Sea | Projectile strike |
+| 2022-07-31 | ORLIK | Black Sea | Mine strike |
+| 2025-08-31 | NS PRIDE | Black Sea | Mine strike |
+| 2026-01-12 | BLUE BEAD | Black Sea | Drone strike |
+| 2026-03-14 | SLAVYANIN | Black Sea | Projectile strike |
+| 2026-03-14 | AVANGARD | Black Sea | Projectile strike |
+| 2026-04-06 | SLAVYANIN | Black Sea | Drone strike |
+| 2026-07-07 | YASA POLARIS | Black Sea | Drone strike |
+| 2026-07-13 | AIDA | Black Sea | Projectile strike |
+| 2026-08-01 | YANINA | Black Sea | Sea drone strike |
+| 2026-08-03 | NADEZHDA | Black Sea | Drone strike |
+| 2026-09-03 | NEFRIT | Black Sea | Sea drone strike |
+| 2026-10-15 | SEA DESTINY | Black Sea | Attempted attack |
+| 2026-10-15 | DANIA J | Black Sea | Attempted attack |
+| 2024-05-07 | MSC GINA | Gulf of Aden | Attempted attack |
+| 2024-05-07 | MSC DIEGO | Gulf of Aden | Attempted attack |
+| 2026-05-08 | OCEAN KOI | Strait of Hormuz | Seizure |
+| 2026-05-13 | HAJI ALI | Strait of Hormuz | Projectile strike |
+| 2026-09-08 | DERYA | Strait of Hormuz | Projectile strike |
+| 2026-09-08 | KAVIZ | Strait of Hormuz | Projectile strike |
+| 2026-09-08 | CHARMINAR | Strait of Hormuz | Projectile strike |
+| 2026-09-08 | RIESCO | Strait of Hormuz | Projectile strike |

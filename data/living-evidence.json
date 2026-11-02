@@ -16131,6 +16131,931 @@
         "Reuters via gCaptain names Nordic Zenith, Suezmax tanker, two drones, fire extinguished, CPC quote that it is unfit for mooring or loading, sources say chartered by ExxonMobil (Exxon said it does not own or operate vessels). Maritime Executive names Nordic Zenith, 158,645 dwt, Norwegian owned, Liberia registered, in ballast, inbound to the terminal, crew extinguished fire. No party claimed it. No casualties reported, but no source explicitly states zero, so fields left null.",
         "Historical backfill 2 November 2026. Unknown deaths are not zero."
       ]
+    },
+    "HIST-BS-20220320-SMARTA": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T06:33:56.670970+00:00",
+        "vessel_name": "SMARTA",
+        "date_utc": "2022-03-20",
+        "vessel_type": "bulk carrier",
+        "region": "Black Sea",
+        "summary": "The owner, Smarta Shipping, told Reuters the Liberia-flagged SMARTA was hit by shelling at Mariupol on 20 March 2022, seriously damaging its bridge. Ukraine's human rights commissioner said Russian forces had shelled the ship before taking its 19 crew toward occupied Donetsk.",
+        "sources": [
+          {
+            "url": "https://www.euronews.com/2022/07/06/us-ukraine-crisis-ships",
+            "source": "Reuters via Euronews (owner Smarta Shipping)"
+          },
+          {
+            "url": "https://en.usm.media/shelling-and-theft-the-fate-of-foreign-ships-in-mariupol/",
+            "source": "Ukrainian Shipping Magazine (USM)"
+          },
+          {
+            "url": "https://ombudsman.gov.ua/news_details/upovnovazhenij-rashisti-zahopili-u-polon-moryakiv-vantazhnogo-sudna-smarta-i-vivezli-u-nevidomomu-napryamku",
+            "source": "Ukraine Parliament Commissioner for Human Rights"
+          },
+          {
+            "url": "https://maritime-executive.com/article/ukraine-accuses-russians-of-taking-crews-from-ships-stuck-in-mariupol",
+            "source": "Maritime Executive"
+          }
+        ],
+        "attack_type": "Projectile strike",
+        "imo": "9396567",
+        "location_text": "Berth 18, Mariupol Sea Trade Port, Sea of Azov",
+        "date_note": "20 March 2022 is the shelling date given by the owner (Reuters, 6 July 2022) and by USM (9 July 2022). The earlier first-pass record used 11 April 2022, which is only the date of the ombudsman's statement about the crew being taken; that date is not used here."
+      },
+      "audit_notes": [
+        "Reuters (Jonathan Saul, via Euronews, 6 Jul 2022): owner Smarta Shipping says the ship was hit by shelling on 20 March that seriously damaged its bridge; later appropriated by the DPR. USM (9 Jul 2022): arrived Mariupol 21 Feb to load steel, fired upon 20 March, bridge seriously damaged; crew of 19 forcibly removed to Donetsk on 9 April and released about a month later; DPR took the ship on 30 June. Ombudsman (11 Apr 2022): Liberian flag, berth 18, Russian forces shelled the ship before capturing 18 Ukrainian and 1 Egyptian crew plus the master's wife (no date for the shelling). MarEx: bulker, 15,968 dwt, built 2007, managed by Intresco. Neither Reuters nor USM names who fired; only the ombudsman attributes the shelling to Russian forces, so attribute as a Ukrainian claim. IMO 9396567 from BlackSeaNews ship table (https://www.blackseanews.net/en/read/187736); check digit valid. Crew removal on 9 April rests on USM alone, so not recorded as a separate Seizure. No casualties reported for the shelling either way.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20220731-ORLIK": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T06:33:56.670970+00:00",
+        "vessel_name": "ORLIK",
+        "date_utc": "2022-07-31",
+        "vessel_type": "pilot boat",
+        "region": "Black Sea",
+        "summary": "Ukraine's Sea Ports Authority said its pilot boat ORLIK (Delta-Pilot branch) struck an explosive device near the Bystre mouth of the Danube, was holed below the waterline and flooded; the crew was evacuated with no injuries. Ukraine's Operational Command South said the boat hit an unknown explosive device, and passage through the Bystre mouth was temporarily restricted.",
+        "sources": [
+          {
+            "url": "https://uspa.gov.ua/?p=824",
+            "source": "Ukrainian Sea Ports Authority (USPA)"
+          },
+          {
+            "url": "https://ukrinform.net/rubric-ato/3540840-ukrainian-pilot-boat-blown-up-at-danube-mouth-passage-through-bystre-canal-restricted.html",
+            "source": "Ukrinform (Operational Command South, USM)"
+          },
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/Register_of_RU_attacks/Register_of_Damage_Lower_Danube_Region_caused_by_the_Military_Actions_of_the_Russian_Federation_20260519.pdf",
+            "source": "Danube Commission register of damage (information provided by Ukraine)"
+          }
+        ],
+        "attack_type": "Mine strike",
+        "location_text": "Bystre mouth of the Danube, Odesa region, Ukraine"
+      },
+      "audit_notes": [
+        "USPA (31 Jul 2022): pilot boat Orlik of the Delta-Pilot branch of SE USPA hit an explosive device while piloting outside the ship route near the Bystre mouth; breach in the stern below the waterline; Marine Guard boat evacuated the crew; no injuries; crew said it was not a sea mine but another type of explosive device. Ukrinform (31 Jul 2022): Operational Command South said a pilot boat was ruptured by an unknown explosive device; USM named it Orlyk and reported it hit a mine. Danube Commission register (Ukraine's data): 31 Jul 2022, mine, pilot boat Orlik owned by Delta-Pilot, the vessel sank, temporary closure of traffic. Conflicts: device type (mine vs other explosive) and whether it sank (register says sank; USPA says holed and drifted). Mine strike chosen as closest attack type. Vessel is a state-enterprise port service craft (same operator as dredger INGULSKY already on the tracker). No IMO found.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://uspa.gov.ua/?p=824",
+            "source": "Casualty source"
+          },
+          {
+            "url": "https://ukrinform.net/rubric-ato/3540840-ukrainian-pilot-boat-blown-up-at-danube-mouth-passage-through-bystre-canal-restricted.html",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-RS-20240507-MSC-GINA": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T06:33:56.670970+00:00",
+        "vessel_name": "MSC GINA",
+        "date_utc": "2024-05-07",
+        "vessel_type": "container ship",
+        "region": "Gulf of Aden",
+        "summary": "The Joint Maritime Information Center (JMIC) said the Panama-flagged MSC Gina and MSC Diego were targeted in missile attacks in the Gulf of Aden early on 7 May 2024, and that neither ship was hit and all crew were safe. The Houthis claimed the attacks two days later.",
+        "sources": [
+          {
+            "url": "https://mykn.kuehne-nagel.com/news/article/two-msc-vessels-the-target-of-missile-attacks-08-May-2024",
+            "source": "JMIC via Lloyd's List (republished by Kuehne+Nagel)"
+          },
+          {
+            "url": "https://www.outlookindia.com/international/yemens-houthi-rebels-claim-2-attacks-in-gulf-of-aden-another-unreported-in-indian-ocean",
+            "source": "JMIC via Associated Press (Outlook India)"
+          },
+          {
+            "url": "https://www.aljazeera.com/news/2024/5/9/yemens-houthis-say-they-attacked-ships-in-gulf-of-aden-indian-ocean",
+            "source": "Al Jazeera (JMIC statement and Houthi claim)"
+          },
+          {
+            "url": "https://maritime-executive.com/article/houthis-continue-targeting-msc-vessels-claiming-four-new-attacks",
+            "source": "The Maritime Executive"
+          },
+          {
+            "url": "https://www.globalsecurity.org/military/library/news/2024/05/mil-240507-centcom03.htm",
+            "source": "CENTCOM release 7 May 2024 (GlobalSecurity mirror; ASBM over Gulf of Aden, ship not named)"
+          }
+        ],
+        "attack_type": "Attempted attack",
+        "imo": "9202663",
+        "location_text": "About 82 NM south of Aden, Yemen",
+        "date_note": "JMIC (via Lloyd's List) gives 0226 hrs on 7 May without a time zone; CENTCOM reports an ASBM launched over the Gulf of Aden at about 05:02 Sanaa time (02:02 UTC) on 7 May. Either way the attack falls on 7 May UTC. The Houthi claim came on 9 May."
+      },
+      "audit_notes": [
+        "Lloyd's List (8 May 2024, via K+N): JMIC confirmed missile attacks on MSC Gina (IMO 9202663, 4,056 TEU) and MSC Diego (IMO 9202649, 4,050 TEU), both Panama-flagged, about 82 NM south of Aden at 0226 hrs 7 May; neither hit, no injuries, coalition vessel assisted; MSC Gina was en route from Colombo, Sri Lanka to Djibouti. AP (9 May): JMIC said the two missile attacks happened early Tuesday (7 May), neither ship hit, all crew safe, likely targeted due to perceived Israeli affiliation; ships operate for MSC. Al Jazeera and MarEx (9 May) repeat JMIC's statement and the Houthi claim by Yahya Saree. CENTCOM's 7 May release reports one ASBM over the Gulf of Aden at about 05:02 Sanaa time with no damage, but does not name a ship. Not on the IMO incident list (Houthis had not claimed it when JMIC reported). Lloyd's List also says MSC Gina was 'likely' targeted on 7 Apr 2024; that earlier claim stays rejected (no confirmation).",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.outlookindia.com/international/yemens-houthi-rebels-claim-2-attacks-in-gulf-of-aden-another-unreported-in-indian-ocean",
+            "source": "Casualty source"
+          },
+          {
+            "url": "https://mykn.kuehne-nagel.com/news/article/two-msc-vessels-the-target-of-missile-attacks-08-May-2024",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-RS-20240507-MSC-DIEGO": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T06:33:56.670970+00:00",
+        "vessel_name": "MSC DIEGO",
+        "date_utc": "2024-05-07",
+        "vessel_type": "container ship",
+        "region": "Gulf of Aden",
+        "summary": "The Joint Maritime Information Center (JMIC) said the Panama-flagged MSC Diego and MSC Gina were targeted in missile attacks in the Gulf of Aden early on 7 May 2024, and that neither ship was hit and all crew were safe. The Houthis claimed the attacks two days later.",
+        "sources": [
+          {
+            "url": "https://mykn.kuehne-nagel.com/news/article/two-msc-vessels-the-target-of-missile-attacks-08-May-2024",
+            "source": "JMIC via Lloyd's List (republished by Kuehne+Nagel)"
+          },
+          {
+            "url": "https://www.outlookindia.com/international/yemens-houthi-rebels-claim-2-attacks-in-gulf-of-aden-another-unreported-in-indian-ocean",
+            "source": "JMIC via Associated Press (Outlook India)"
+          },
+          {
+            "url": "https://www.aljazeera.com/news/2024/5/9/yemens-houthis-say-they-attacked-ships-in-gulf-of-aden-indian-ocean",
+            "source": "Al Jazeera (JMIC statement and Houthi claim)"
+          },
+          {
+            "url": "https://maritime-executive.com/article/houthis-continue-targeting-msc-vessels-claiming-four-new-attacks",
+            "source": "The Maritime Executive"
+          },
+          {
+            "url": "https://www.globalsecurity.org/military/library/news/2024/05/mil-240507-centcom03.htm",
+            "source": "CENTCOM release 7 May 2024 (GlobalSecurity mirror; ASBM over Gulf of Aden, ship not named)"
+          }
+        ],
+        "attack_type": "Attempted attack",
+        "imo": "9202649",
+        "location_text": "About 82 NM south of Aden, Yemen",
+        "date_note": "JMIC (via Lloyd's List) gives 0226 hrs on 7 May without a time zone; CENTCOM reports an ASBM launched over the Gulf of Aden at about 05:02 Sanaa time (02:02 UTC) on 7 May. Either way the attack falls on 7 May UTC. The Houthi claim came on 9 May."
+      },
+      "audit_notes": [
+        "Lloyd's List (8 May 2024, via K+N): JMIC confirmed missile attacks on MSC Gina (IMO 9202663, 4,056 TEU) and MSC Diego (IMO 9202649, 4,050 TEU), both Panama-flagged, about 82 NM south of Aden at 0226 hrs 7 May; neither hit, no injuries, coalition vessel assisted; MSC Diego was en route from Salalah, Oman to Djibouti. AP (9 May): JMIC said the two missile attacks happened early Tuesday (7 May), neither ship hit, all crew safe, likely targeted due to perceived Israeli affiliation; ships operate for MSC. Al Jazeera and MarEx (9 May) repeat JMIC's statement and the Houthi claim by Yahya Saree. CENTCOM's 7 May release reports one ASBM over the Gulf of Aden at about 05:02 Sanaa time with no damage, but does not name a ship. Not on the IMO incident list (Houthis had not claimed it when JMIC reported). Lloyd's List also says MSC Gina was 'likely' targeted on 7 Apr 2024; that earlier claim stays rejected (no confirmation).",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.outlookindia.com/international/yemens-houthi-rebels-claim-2-attacks-in-gulf-of-aden-another-unreported-in-indian-ocean",
+            "source": "Casualty source"
+          },
+          {
+            "url": "https://mykn.kuehne-nagel.com/news/article/two-msc-vessels-the-target-of-missile-attacks-08-May-2024",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-ME-20260908-DERYA": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T06:33:56.670970+00:00",
+        "vessel_name": "DERYA",
+        "date_utc": "2026-09-08",
+        "vessel_type": "crude oil tanker",
+        "region": "Strait of Hormuz",
+        "summary": "US Central Command said US forces struck and rendered inoperable the IRGC-linked crude oil carrier DERYA near Kharg Island on 8 September 2026, after directing the crew to abandon ship, in response to Iranian missile attacks on US Navy warships.",
+        "sources": [
+          {
+            "url": "https://gcaptain.com/u-s-destroys-five-more-irgc-tankers-after-iran-targets-navy-warship/",
+            "source": "gCaptain, 8 Sep 2026 (CENTCOM statement)"
+          },
+          {
+            "url": "https://www.washingtonexaminer.com/?p=4717252",
+            "source": "Washington Examiner, 8 Sep 2026 (CENTCOM statement)"
+          },
+          {
+            "url": "https://en.apa.az/america/us-says-it-destroyed-five-iranian-oil-tankers-523414",
+            "source": "APA, 9 Sep 2026 (CENTCOM statement)"
+          }
+        ],
+        "attack_type": "Projectile strike",
+        "location_text": "Near Kharg Island, Iran, northern Persian Gulf",
+        "date_note": "CENTCOM dates the strikes 8 September (Tuesday); no time given."
+      },
+      "audit_notes": [
+        "CENTCOM (quoted by gCaptain, Washington Examiner and APA) named five tankers struck on 8 Sep: KAVIZ, CHARMINAR, HORIZON 1 and RIESCO in the Gulf of Oman and DERYA near Kharg Island. HORIZON 1 is already on the tracker for 2026-09-08 (same event) and is not repeated. CENTCOM said crews were directed to abandon ship before the strikes; no casualty figures, so deaths null. Weapon not stated by CENTCOM, so 'Projectile strike' is used generically. APA says DERYA was 'targeted'; gCaptain and Washington Examiner say destroyed. Party statement (US military). Flag/IMO not opened in any source (Seatrade, which lists types and Equasis flags, returned 403). The CENTCOM release itself (centcom.mil article 4593050) returned 403. Search summaries describe DERYA as an Iranian-flagged NITC VLCC per Seatrade, not opened.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-ME-20260908-KAVIZ": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T06:33:56.670970+00:00",
+        "vessel_name": "KAVIZ",
+        "date_utc": "2026-09-08",
+        "vessel_type": "crude oil tanker",
+        "region": "Strait of Hormuz",
+        "summary": "US Central Command said US forces struck and rendered inoperable the IRGC-linked crude oil carrier KAVIZ in the Gulf of Oman on 8 September 2026, after directing the crew to abandon ship, in response to Iranian missile attacks on US Navy warships.",
+        "sources": [
+          {
+            "url": "https://gcaptain.com/u-s-destroys-five-more-irgc-tankers-after-iran-targets-navy-warship/",
+            "source": "gCaptain, 8 Sep 2026 (CENTCOM statement)"
+          },
+          {
+            "url": "https://www.washingtonexaminer.com/?p=4717252",
+            "source": "Washington Examiner, 8 Sep 2026 (CENTCOM statement)"
+          },
+          {
+            "url": "https://en.apa.az/america/us-says-it-destroyed-five-iranian-oil-tankers-523414",
+            "source": "APA, 9 Sep 2026 (CENTCOM statement)"
+          }
+        ],
+        "attack_type": "Projectile strike",
+        "location_text": "Gulf of Oman",
+        "date_note": "CENTCOM dates the strikes 8 September (Tuesday); no time given."
+      },
+      "audit_notes": [
+        "CENTCOM (quoted by gCaptain, Washington Examiner and APA) named five tankers struck on 8 Sep: KAVIZ, CHARMINAR, HORIZON 1 and RIESCO in the Gulf of Oman and DERYA near Kharg Island. HORIZON 1 is already on the tracker for 2026-09-08 (same event) and is not repeated. CENTCOM said crews were directed to abandon ship before the strikes; no casualty figures, so deaths null. Weapon not stated by CENTCOM, so 'Projectile strike' is used generically. APA says DERYA was 'targeted'; gCaptain and Washington Examiner say destroyed. Party statement (US military). Flag/IMO not opened in any source (Seatrade, which lists types and Equasis flags, returned 403). The CENTCOM release itself (centcom.mil article 4593050) returned 403.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-ME-20260908-CHARMINAR": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T06:33:56.670970+00:00",
+        "vessel_name": "CHARMINAR",
+        "date_utc": "2026-09-08",
+        "vessel_type": "crude oil tanker",
+        "region": "Strait of Hormuz",
+        "summary": "US Central Command said US forces struck and rendered inoperable the IRGC-linked crude oil carrier CHARMINAR in the Gulf of Oman on 8 September 2026, after directing the crew to abandon ship, in response to Iranian missile attacks on US Navy warships.",
+        "sources": [
+          {
+            "url": "https://gcaptain.com/u-s-destroys-five-more-irgc-tankers-after-iran-targets-navy-warship/",
+            "source": "gCaptain, 8 Sep 2026 (CENTCOM statement)"
+          },
+          {
+            "url": "https://www.washingtonexaminer.com/?p=4717252",
+            "source": "Washington Examiner, 8 Sep 2026 (CENTCOM statement)"
+          },
+          {
+            "url": "https://en.apa.az/america/us-says-it-destroyed-five-iranian-oil-tankers-523414",
+            "source": "APA, 9 Sep 2026 (CENTCOM statement)"
+          }
+        ],
+        "attack_type": "Projectile strike",
+        "location_text": "Gulf of Oman",
+        "date_note": "CENTCOM dates the strikes 8 September (Tuesday); no time given."
+      },
+      "audit_notes": [
+        "CENTCOM (quoted by gCaptain, Washington Examiner and APA) named five tankers struck on 8 Sep: KAVIZ, CHARMINAR, HORIZON 1 and RIESCO in the Gulf of Oman and DERYA near Kharg Island. HORIZON 1 is already on the tracker for 2026-09-08 (same event) and is not repeated. CENTCOM said crews were directed to abandon ship before the strikes; no casualty figures, so deaths null. Weapon not stated by CENTCOM, so 'Projectile strike' is used generically. APA says DERYA was 'targeted'; gCaptain and Washington Examiner say destroyed. Party statement (US military). Flag/IMO not opened in any source (Seatrade, which lists types and Equasis flags, returned 403). The CENTCOM release itself (centcom.mil article 4593050) returned 403.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-ME-20260908-RIESCO": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T06:33:56.670970+00:00",
+        "vessel_name": "RIESCO",
+        "date_utc": "2026-09-08",
+        "vessel_type": "crude oil tanker",
+        "region": "Strait of Hormuz",
+        "summary": "US Central Command said US forces struck and rendered inoperable the IRGC-linked crude oil carrier RIESCO in the Gulf of Oman on 8 September 2026, after directing the crew to abandon ship, in response to Iranian missile attacks on US Navy warships.",
+        "sources": [
+          {
+            "url": "https://gcaptain.com/u-s-destroys-five-more-irgc-tankers-after-iran-targets-navy-warship/",
+            "source": "gCaptain, 8 Sep 2026 (CENTCOM statement)"
+          },
+          {
+            "url": "https://www.washingtonexaminer.com/?p=4717252",
+            "source": "Washington Examiner, 8 Sep 2026 (CENTCOM statement)"
+          },
+          {
+            "url": "https://en.apa.az/america/us-says-it-destroyed-five-iranian-oil-tankers-523414",
+            "source": "APA, 9 Sep 2026 (CENTCOM statement)"
+          }
+        ],
+        "attack_type": "Projectile strike",
+        "location_text": "Gulf of Oman",
+        "date_note": "CENTCOM dates the strikes 8 September (Tuesday); no time given."
+      },
+      "audit_notes": [
+        "CENTCOM (quoted by gCaptain, Washington Examiner and APA) named five tankers struck on 8 Sep: KAVIZ, CHARMINAR, HORIZON 1 and RIESCO in the Gulf of Oman and DERYA near Kharg Island. HORIZON 1 is already on the tracker for 2026-09-08 (same event) and is not repeated. CENTCOM said crews were directed to abandon ship before the strikes; no casualty figures, so deaths null. Weapon not stated by CENTCOM, so 'Projectile strike' is used generically. APA says DERYA was 'targeted'; gCaptain and Washington Examiner say destroyed. Party statement (US military). Flag/IMO not opened in any source (Seatrade, which lists types and Equasis flags, returned 403). The CENTCOM release itself (centcom.mil article 4593050) returned 403. Search summaries say CENTCOM released footage of RIESCO sinking; not verified in an opened source, so sinking not stated in summary.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20260707-YASA-POLARIS": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T06:33:56.670970+00:00",
+        "vessel_name": "YASA POLARIS",
+        "date_utc": "2026-07-07",
+        "vessel_type": "oil tanker",
+        "region": "Black Sea",
+        "summary": "Reuters reported that the Chevron-chartered tanker YASA POLARIS, used for Caspian Pipeline Consortium shipments, was hit by a drone near the CPC terminal on 7 July 2026 while empty and drifting offshore. Manager Yasa Tankers said all crew were safe and no pollution was reported; Ukraine made no official comment.",
+        "sources": [
+          {
+            "url": "https://www.bairdmaritime.com/security/incidents/black-sea-drone-strike-hits-chevron-chartered-oil-tanker",
+            "source": "Reuters via Baird Maritime, 8 Jul 2026 (Yasa Tanker and Chevron statements)"
+          },
+          {
+            "url": "https://maritime-executive.com/article/ukraine-raises-tanker-tally-to-35-struck-in-96-hours-and-two-in-black-sea",
+            "source": "The Maritime Executive, 9 Jul 2026"
+          },
+          {
+            "url": "https://en.apa.az/cis-countries/chevron-tanker-used-for-cpc-oil-hit-by-drone-in-black-sea-515114",
+            "source": "Reuters via APA, 8 Jul 2026"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "location_text": "Off Russia's Black Sea coast near the CPC marine terminal, Novorossiysk",
+        "date_note": "Reuters (Baird) and Maritime Executive both say 7 July. An earlier Reuters version (APA) says Chevron commented 'on Monday' (6 July) about an incident; the later version with the manager's statement gives 7 July."
+      },
+      "audit_notes": [
+        "Baird/Reuters: hit by a drone near the CPC marine terminal on July 7, no visible hull damage, all crew safe, Yasa Tanker said no pollution; Chevron confirmed crew safe. Maritime Executive: Greek-owned Yasa Tankers vessel, 158,200 dwt, under Chevron charter, struck on July 7, empty, crew uninjured, minor damage. Attacker not officially identified. Flag and IMO not stated in opened sources.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.bairdmaritime.com/security/incidents/black-sea-drone-strike-hits-chevron-chartered-oil-tanker",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20260713-AIDA": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T06:33:56.670970+00:00",
+        "vessel_name": "AIDA",
+        "date_utc": "2026-07-13",
+        "vessel_type": "general cargo ship",
+        "region": "Black Sea",
+        "summary": "Ukrainian officials said a Russian strike hit the Togo-flagged general cargo ship AIDA while it was unloading fertilizer at the Port of Pivdennyi on the afternoon of 13 July 2026, burning its superstructure. Deputy Prime Minister Kuleba first reported three crew killed and five injured; Odesa governor Oleh Kiper later said five crew were killed and 10 to 12 injured.",
+        "sources": [
+          {
+            "url": "https://gcaptain.com/ukraine-says-russia-hit-52-civilian-ships-in-six-weeks-as-black-sea-attacks-escalate/",
+            "source": "gCaptain, 21 Aug 2026 (Ukraine infrastructure ministry tally)"
+          },
+          {
+            "url": "https://www.egyptindependent.com/?p=2830146",
+            "source": "Egypt Independent, 16 Jul 2026 (Egyptian Marine Officers Union)"
+          },
+          {
+            "url": "https://www.pravda.com.ua/eng/news/2026/07/13/8043907/",
+            "source": "Ukrainska Pravda, 13 Jul 2026 (Prosecutor General, governor Kiper; ship unnamed)"
+          }
+        ],
+        "attack_type": "Projectile strike",
+        "location_text": "Port of Pivdennyi, Odesa region, Ukraine",
+        "date_note": "gCaptain gives 13 July; Ukrainska Pravda reports the attack on the afternoon of 13 July. Egypt Independent (16 July) gives no date. Deaths: 3 is the figure in gCaptain (Ukraine infrastructure ministry tally naming AIDA), Egypt Independent (three named roles) and Kuleba's first report; the Odesa governor later gave 5 crew dead and 10 (Ukrainska Pravda) or 12 (USM, 14 Jul) injured, all crew. Recorded as 3 minimum and 5 injured per the lower confirmed figures."
+      },
+      "audit_notes": [
+        "gCaptain names AIDA, attacked while unloading fertilizer at Pivdennyi on July 13, 3 crew killed and 5 injured. Egypt Independent names AIDA, Togo-flagged general cargo ship of a Syrian company, anchored at Pivdennyi, 3 killed: Egyptian chief officer, Syrian captain and Syrian chief engineer. Ukrainska Pravda (unnamed foreign civilian vessel carrying fertilisers, superstructure damaged) gives the later toll of 5 crew dead and 10 injured; Kuleba's first report (Togo-flagged ship) said 3 dead. Deaths set to the later official 5; nationalities known for 3 only. Weapon type differs between reports (drone vs missile), so 'Projectile strike' used. Kyiv Post/Kyiv Independent placed it at 'Odesa port'.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 3,
+        "nationalities": [
+          {
+            "nationality": "Egyptian",
+            "deaths": 1,
+            "status": "confirmed",
+            "sources": [
+              {
+                "url": "https://www.egyptindependent.com/?p=2830146",
+                "source": "Nationality source"
+              }
+            ]
+          },
+          {
+            "nationality": "Syrian",
+            "deaths": 2,
+            "status": "confirmed",
+            "sources": [
+              {
+                "url": "https://www.egyptindependent.com/?p=2830146",
+                "source": "Nationality source"
+              }
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://gcaptain.com/ukraine-says-russia-hit-52-civilian-ships-in-six-weeks-as-black-sea-attacks-escalate/",
+            "source": "Casualty source"
+          },
+          {
+            "url": "https://www.egyptindependent.com/?p=2830146",
+            "source": "Casualty source"
+          },
+          {
+            "url": "https://www.pravda.com.ua/eng/news/2026/07/13/8043907/",
+            "source": "Casualty source"
+          },
+          {
+            "url": "https://en.usm.media/the-number-of-victims-of-the-russian-attack-on-a-ship-in-the-port-of-odesa-has-increased-to-12/",
+            "source": "Casualty source"
+          }
+        ],
+        "minimum": true
+      },
+      "human_impact": {
+        "injured": {
+          "count": 5,
+          "as_of": "2026-07-13",
+          "sources": [
+            {
+              "url": "https://gcaptain.com/ukraine-says-russia-hit-52-civilian-ships-in-six-weeks-as-black-sea-attacks-escalate/",
+              "source": "Casualty source"
+            },
+            {
+              "url": "https://www.egyptindependent.com/?p=2830146",
+              "source": "Casualty source"
+            },
+            {
+              "url": "https://www.pravda.com.ua/eng/news/2026/07/13/8043907/",
+              "source": "Casualty source"
+            },
+            {
+              "url": "https://en.usm.media/the-number-of-victims-of-the-russian-attack-on-a-ship-in-the-port-of-odesa-has-increased-to-12/",
+              "source": "Casualty source"
+            }
+          ]
+        }
+      }
+    },
+    "HIST-BS-20261015-SEA-DESTINY": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T06:33:56.670970+00:00",
+        "vessel_name": "SEA DESTINY",
+        "date_utc": "2026-10-15",
+        "vessel_type": "bulk carrier",
+        "region": "Black Sea",
+        "summary": "NATO said the Marshall Islands-flagged bulk carrier SEA DESTINY was one of four commercial vessels targeted overnight on 14 to 15 October 2026, inside Romanian territorial waters; NATO did not say whether it was hit. Russia's defence ministry said it struck two cargo ships approaching the Odesa area, which Reuters identified as SEA DESTINY and DANIA J. No damage or casualties were reported.",
+        "sources": [
+          {
+            "url": "https://www.stripes.com/theaters/europe/2026-10-15/nato-romania-black-sea-drone-threat-23162811.html",
+            "source": "Stars and Stripes, 15 Oct 2026 (NATO statement)"
+          },
+          {
+            "url": "https://maritime-executive.com/article/nato-discusses-black-sea-after-more-vessel-strikes-leave-seven-crew-missing",
+            "source": "The Maritime Executive, 15 Oct 2026 (Russian MoD claim)"
+          }
+        ],
+        "attack_type": "Attempted attack",
+        "location_text": "Romanian territorial waters, Black Sea",
+        "date_note": "NATO: overnight Wednesday 14 into Thursday 15 October; no time given. Dated 15 October; could be late 14 October UTC."
+      },
+      "audit_notes": [
+        "Stars and Stripes (NATO) names SEA DESTINY, Marshall Islands bulk carrier, targeted in Romanian territorial waters; NATO did not say whether drones struck all four vessels. Maritime Executive: 82,172 dwt Marshall Islands bulker; Russian MoD said it struck two more cargo ships (SEA DESTINY and DANIA J) approaching Odesa; no damage information. Reuters via gCaptain (15 Oct, first pass) also names it. Classed as Attempted attack because no source confirms a hit; Russian claim attributed. Separate from YARA J and WINE TRADER already on the tracker.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20261015-DANIA-J": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T06:33:56.670970+00:00",
+        "vessel_name": "DANIA J",
+        "date_utc": "2026-10-15",
+        "vessel_type": "product tanker",
+        "region": "Black Sea",
+        "summary": "NATO said the Tanzania-flagged tanker DANIA J was targeted overnight on 14 to 15 October 2026 at the Ukrainian Danube port of Izmail; NATO did not say whether it was hit. Russia's defence ministry said it struck two cargo ships near Odesa, which Reuters identified as DANIA J and SEA DESTINY. No damage or casualties were reported.",
+        "sources": [
+          {
+            "url": "https://www.stripes.com/theaters/europe/2026-10-15/nato-romania-black-sea-drone-threat-23162811.html",
+            "source": "Stars and Stripes, 15 Oct 2026 (NATO statement)"
+          },
+          {
+            "url": "https://maritime-executive.com/article/nato-discusses-black-sea-after-more-vessel-strikes-leave-seven-crew-missing",
+            "source": "The Maritime Executive, 15 Oct 2026 (Russian MoD claim)"
+          }
+        ],
+        "attack_type": "Attempted attack",
+        "location_text": "Port of Izmail, Danube, Odesa region, Ukraine",
+        "date_note": "NATO: overnight Wednesday 14 into Thursday 15 October; no time given."
+      },
+      "audit_notes": [
+        "Stars and Stripes (NATO) names DANIA J, Tanzania-flagged tanker, targeted at Izmail. Maritime Executive: 3,585 dwt product tanker managed from the UAE, named in Russian MoD strike claim; no damage information. Reuters via gCaptain (first pass) says moored at Izmail. Classed as Attempted attack because no source confirms a hit.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-ME-20260508-OCEAN-KOI": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T06:33:56.670970+00:00",
+        "vessel_name": "OCEAN KOI",
+        "date_utc": "2026-05-08",
+        "vessel_type": "oil tanker",
+        "region": "Strait of Hormuz",
+        "summary": "Iranian state media said on 8 May 2026 that Iranian naval commandos seized the Barbados-flagged, US-sanctioned tanker OCEAN KOI in the Gulf of Oman and escorted it to Iran's southern coast, accusing it of trying to disrupt Iranian oil exports.",
+        "sources": [
+          {
+            "url": "https://shipandbunker.com/news/emea/397138-iran-seizes-tanker-the-us-sanctioned-for-carrying-iranian-hsfo",
+            "source": "Ship & Bunker, 8 May 2026"
+          },
+          {
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/05/08/iran-seizes-oil-tanker-ocean-koi-in-gulf-of-oman-state-media-says",
+            "source": "Reuters via Internazionale, 8 May 2026"
+          },
+          {
+            "url": "https://gcaptain.com/iran-detains-ocean-koi-tanker-apparently-hauling-iranian-oil/",
+            "source": "Bloomberg via gCaptain, 8 May 2026"
+          },
+          {
+            "url": "https://www.marineinsight.com/watch-iranian-navy-seizes-oil-tanker-in-gulf-of-oman-as-us-disables-2-ships-near-hormuz/",
+            "source": "Marine Insight, 9 May 2026"
+          }
+        ],
+        "attack_type": "Seizure",
+        "imo": "9255933",
+        "location_text": "Gulf of Oman",
+        "date_note": "Ship & Bunker (8 May, 10:29) says the tanker was seized in the Gulf of Oman 'on Friday' (8 May). Reuters and Bloomberg only say Iran announced it on Friday; Marine Insight says it happened hours after the US-Iran clashes. Boarding was filmed in darkness, so early 8 May local is most likely; late 7 May UTC cannot be ruled out."
+      },
+      "audit_notes": [
+        "All accounts rest on Iranian state media (party claim). Ship & Bunker gives IMO 9255933 (check digit valid) and Barbados flag; Reuters: Barbados-flagged, Gulf of Oman, escorted to Iran's southern coast. Bloomberg: appears managed by Ocean Kudos Shipping of Shanghai; armed men raised Iranian flag. No crew data. Earlier verdict dropped this for lack of a seizure date; Ship & Bunker's 'seized on Friday' is the only explicit date.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-ME-20260513-HAJI-ALI": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T06:33:56.670970+00:00",
+        "vessel_name": "HAJI ALI",
+        "date_utc": "2026-05-13",
+        "vessel_type": "livestock carrier (wooden dhow)",
+        "region": "Strait of Hormuz",
+        "summary": "UKMTO reported that an Indian-flagged livestock carrier sank after an explosion near Limah, Oman, and India's shipping ministry identified it as the wooden dhow HAJI ALI, attacked on the morning of 13 May 2026 while sailing from Somalia to Sharjah. All 14 crew were rescued by the Omani Coast Guard; the attacker was not identified.",
+        "sources": [
+          {
+            "url": "https://www.aa.com.tr/en/middle-east/indian-flagged-vessel-sinks-after-attack-off-oman-crew-rescued/3937323",
+            "source": "Anadolu Agency, 14 May 2026 (India Ministry of Ports, Shipping and Waterways; MEA)"
+          },
+          {
+            "url": "https://gcaptain.com/ukmto-warns-ship-seized-near-hormuz-is-being-taken-toward-iran/",
+            "source": "gCaptain, 14 May 2026 (UKMTO 058/26, unnamed)"
+          },
+          {
+            "url": "https://www.ynetnews.com/article/skkc00wqkge",
+            "source": "Ynetnews, 14 May 2026"
+          },
+          {
+            "url": "https://www.maritimegateway.com/indian-flagged-dhow-haji-ali-sinks-off-oman/",
+            "source": "Maritime Gateway, 15 May 2026 (Vanguard assessment)"
+          }
+        ],
+        "attack_type": "Projectile strike",
+        "location_text": "Omani waters near Limah, Musandam, Gulf of Oman",
+        "date_note": "Anadolu: attack on 'Wednesday morning' (13 May); Maritime Gateway: early hours of Wednesday."
+      },
+      "audit_notes": [
+        "Anadolu names HAJI ALI per Indian ministry official Mukesh Mangal: dhow from Somalia to Sharjah, fire after attack, sank, 14 crew rescued to Dibba. UKMTO 058/26 via gCaptain gives the unnamed Indian-flagged livestock carrier, explosion, sank near Limah, 14 crew rescued, India MEA confirmation. Maritime Gateway: Vanguard assessed drone or missile strike. Weapon unconfirmed, so 'Projectile strike'. Crew Indian per reports (not deaths).",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.aa.com.tr/en/middle-east/indian-flagged-vessel-sinks-after-attack-off-oman-crew-rescued/3937323",
+            "source": "Casualty source"
+          },
+          {
+            "url": "https://gcaptain.com/ukmto-warns-ship-seized-near-hormuz-is-being-taken-toward-iran/",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20260314-SLAVYANIN": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T06:33:56.670970+00:00",
+        "vessel_name": "SLAVYANIN",
+        "date_utc": "2026-03-14",
+        "vessel_type": "rail ferry (ro-ro)",
+        "region": "Black Sea",
+        "summary": "Ukraine's military intelligence (HUR) said it struck the Russian rail ferry SLAVYANIN and the ferry AVANGARD in the Kerch Strait on the night of 13 to 14 March 2026, putting SLAVYANIN out of action. HUR said the ferries carried military cargo to Crimea; the damage was not independently verified.",
+        "sources": [
+          {
+            "url": "https://www.shippax.com/en/news/ukraine-strikes-two-russian-rail-ferries.aspx",
+            "source": "Shippax, 16 Mar 2026"
+          },
+          {
+            "url": "https://maritime-executive.com/article/ukraine-claims-to-have-finished-off-russia-s-last-kerch-strait-ferry",
+            "source": "The Maritime Executive, 8 Apr 2026 (recaps HUR's 13/14 March claim)"
+          }
+        ],
+        "attack_type": "Projectile strike",
+        "imo": "8300169",
+        "location_text": "Kerch Strait rail ferry route between Port Kavkaz and Crimea",
+        "date_note": "Night of 13 to 14 March per Shippax and Maritime Executive; recorded as 14 March (day of HUR announcement). Could be late 13 March UTC."
+      },
+      "audit_notes": [
+        "Party claim (HUR), attributed. Shippax: SLAVYANIN (1984) and AVANGARD (1979) ro-ro rail ferries hit at sea during the night between 13 and 14 March; method not disclosed. Maritime Executive: GUR claimed SLAVYANIN disabled and AVANGARD damaged and out of service. Weapon not disclosed, so 'Projectile strike'. HUR describes the ferries as military supply vessels; included because the tracker already lists both ferries for 2024 attacks. IMO 8300169 as used on the tracker's 2024 SLAVYANIN record (VesselFinder), not stated in these sources. Casualties unknown.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20260314-AVANGARD": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T06:33:56.670970+00:00",
+        "vessel_name": "AVANGARD",
+        "date_utc": "2026-03-14",
+        "vessel_type": "rail ferry (ro-ro)",
+        "region": "Black Sea",
+        "summary": "Ukraine's military intelligence (HUR) said it struck the ferry AVANGARD, along with the rail ferry SLAVYANIN, in the Kerch Strait on the night of 13 to 14 March 2026, damaging it and putting it out of service. The damage was not independently verified.",
+        "sources": [
+          {
+            "url": "https://www.shippax.com/en/news/ukraine-strikes-two-russian-rail-ferries.aspx",
+            "source": "Shippax, 16 Mar 2026"
+          },
+          {
+            "url": "https://maritime-executive.com/article/ukraine-claims-to-have-finished-off-russia-s-last-kerch-strait-ferry",
+            "source": "The Maritime Executive, 8 Apr 2026 (recaps HUR's 13/14 March claim)"
+          }
+        ],
+        "attack_type": "Projectile strike",
+        "location_text": "Kerch Strait rail ferry route between Port Kavkaz and Crimea",
+        "date_note": "Night of 13 to 14 March; recorded as 14 March."
+      },
+      "audit_notes": [
+        "Party claim (HUR). Shippax: AVANGARD, 1979-built ro-ro rail ferry, hit at sea. Maritime Executive: reported damaged and out of service. Separate from the 30 May 2024 AVANGARD record on the tracker. Casualties unknown. IMO not stated.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20260406-SLAVYANIN": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T06:33:56.670970+00:00",
+        "vessel_name": "SLAVYANIN",
+        "date_utc": "2026-04-06",
+        "vessel_type": "rail ferry (ro-ro)",
+        "region": "Black Sea",
+        "summary": "Ukraine's military intelligence (HUR) said its drones disabled the rail ferry SLAVYANIN, which it called Russia's last rail ferry still afloat in the Kerch Strait, in the early morning of 6 April 2026. Thermal imagery released by Ukraine showed fire and smoke; the claim was not independently verified.",
+        "sources": [
+          {
+            "url": "https://www.kyivpost.com/post/73510",
+            "source": "Kyiv Post, 8 Apr 2026 (HUR statement)"
+          },
+          {
+            "url": "https://maritime-executive.com/article/ukraine-claims-to-have-finished-off-russia-s-last-kerch-strait-ferry",
+            "source": "The Maritime Executive, 8 Apr 2026"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "imo": "8300169",
+        "location_text": "Kerch Strait, between Port Kavkaz and Kerch",
+        "date_note": "Kyiv Post: early morning of 6 April; Maritime Executive: Sunday night (5 to 6 April)."
+      },
+      "audit_notes": [
+        "Party claim (HUR). Kyiv Post: HUR said it destroyed/disabled SLAVYANIN with drones on April 6. Maritime Executive: 6,300 gt ro/ro rail carrier built 1984, UAVs, put out of operation, unverified. Second 2026 attack on the ship (after 13/14 March). IMO as on the tracker's 2024 record. Casualties unknown.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20260803-NADEZHDA": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T06:33:56.670970+00:00",
+        "vessel_name": "NADEZHDA",
+        "date_utc": "2026-08-03",
+        "vessel_type": "ro-ro cargo ship",
+        "region": "Black Sea",
+        "summary": "Turkey's maritime authority said the Turkish-owned ro-ro cargo ship NADEZHDA was struck by drones about 20 NM off Novorossiysk on 3 August 2026 while sailing to Samsun, setting it on fire. All 22 crew were evacuated to Russia; three were seriously injured and 11 taken to hospital.",
+        "sources": [
+          {
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/08/04/three-crew-injured-as-cargo-ship-hit-by-drone-attack-near-russia-s-novorossiysk",
+            "source": "Reuters via Internazionale, 4 Aug 2026 (Turkish maritime authority)"
+          },
+          {
+            "url": "https://maritime-executive.com/article/turkey-calls-on-russia-and-ukraine-to-ensure-safe-navigation-in-black-sea",
+            "source": "The Maritime Executive, 4 Aug 2026"
+          },
+          {
+            "url": "https://www.dailysabah.com/politics/3-injured-after-drone-strike-hits-turkish-cargo-ship-in-black-sea/news/amp",
+            "source": "Daily Sabah, 3 Aug 2026 (Directorate General of Maritime Affairs)"
+          },
+          {
+            "url": "https://www.marineinsight.com/turkey-urges-russia-and-ukraine-to-secure-black-sea-shipping-after-drone-hits-2-cargo-ships/",
+            "source": "Marine Insight, 5 Aug 2026"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "location_text": "About 20 NM off Novorossiysk, Russia",
+        "date_note": "Attack on Monday 3 August (Reuters 'on Monday', Maritime Executive 'late on August 3', Daily Sabah published 3 Aug). The first-pass lead date of 4 August was the Reuters publication date."
+      },
+      "audit_notes": [
+        "Reuters: Turkish maritime authority, 22 crew evacuated, 3 seriously injured, fire in bow, attacker unclear. Maritime Executive: Cameroon-registered (one tweet says Turkish-flagged), Turkish-owned, 4,400 dwt, built 1978, 13 Turkish crew, 3 seriously injured and 11 hospitalised; fire later extinguished. Injured set to the 3 seriously injured; one report says 4 injured. No deaths reported (deaths null). Turkish foreign ministry also named a second ship, YASAR, see rejected file.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "human_impact": {
+        "injured": {
+          "count": 3,
+          "as_of": "2026-08-03",
+          "sources": [
+            {
+              "url": "https://maritime-executive.com/article/turkey-calls-on-russia-and-ukraine-to-ensure-safe-navigation-in-black-sea",
+              "source": "Casualty source"
+            },
+            {
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/08/04/three-crew-injured-as-cargo-ship-hit-by-drone-attack-near-russia-s-novorossiysk",
+              "source": "Casualty source"
+            }
+          ]
+        }
+      }
+    },
+    "HIST-BS-20260112-BLUE-BEAD": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T06:33:56.670970+00:00",
+        "vessel_name": "BLUE BEAD",
+        "date_utc": "2026-01-12",
+        "vessel_type": "general cargo ship",
+        "region": "Black Sea",
+        "summary": "Ukrainian authorities told San Marino's ship register that a Russian attack drone hit the port side of the San Marino-flagged cargo ship BLUE BEAD on the evening of 12 January 2026 as it left Chornomorsk with about 27,000 tonnes of corn for Ravenna. One of the 22 crew suffered a minor hand injury and the ship continued its voyage.",
+        "sources": [
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Ukrainian Sea Ports Authority presentation, 23 Apr 2026 (Danube Commission): BLUE BEAD, 12 January 2026, 1 injured"
+          },
+          {
+            "url": "https://www.ilrestodelcarlino.it/rimini/cronaca/attacco-sul-mar-nero-drone-dad03f5b",
+            "source": "Il Resto del Carlino (Rimini), 14 Jan 2026 (San Marino ship register, Kuleba)"
+          },
+          {
+            "url": "https://www.ilrestodelcarlino.it/ravenna/cronaca/attacco-sul-mar-nero-drone-463ca3b1",
+            "source": "Il Resto del Carlino (Ravenna), 14 Jan 2026"
+          },
+          {
+            "url": "https://ws19.marinelink.com/news/russian-drones-hit-two-foreign-vessels-534301",
+            "source": "Reuters via MarineLink, 12 Jan 2026 (Kuleba; Panama and San Marino-flagged ships hit, unnamed)"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "location_text": "Departing Chornomorsk, Odesa region, Ukraine",
+        "date_note": "Italian reports say Monday evening (12 January); USPA lists 12 January 2026; Reuters dateline 12 January."
+      },
+      "audit_notes": [
+        "New lead from the USPA presentation grid (not in the brief's list). Resto del Carlino: San Marino-flagged general cargo ship BLUE BEAD, Greek operator, 22 crew, ~27,000 t corn, left Chornomorsk for Ravenna, drone hit port side near a lifeboat, one minor hand injury, voyage continued; San Marino register and Kuleba cited. Reuters/MarineLink: Kuleba said drones hit Panama and San Marino-flagged vessels near Chornomorsk on Monday, one person hurt. The Panama-flagged ship that day is listed by USPA as ATA VOYAGER (see rejected). IMO not stated.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "human_impact": {
+        "injured": {
+          "count": 1,
+          "as_of": "2026-01-12",
+          "sources": [
+            {
+              "url": "https://www.ilrestodelcarlino.it/rimini/cronaca/attacco-sul-mar-nero-drone-dad03f5b",
+              "source": "Casualty source"
+            },
+            {
+              "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+              "source": "Casualty source"
+            }
+          ]
+        }
+      }
+    },
+    "HIST-BS-20250831-NS-PRIDE": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T06:33:56.670970+00:00",
+        "vessel_name": "NS PRIDE",
+        "date_utc": "2025-08-31",
+        "vessel_type": "general cargo ship (coastal freighter)",
+        "region": "Black Sea",
+        "summary": "Ukraine's navy said the Belize-flagged freighter NS PRIDE, sailing in ballast off Chornomorsk, struck an unidentified explosive device on 31 August 2025 and sustained minor damage. No crew were injured; the device was possibly debris from a downed Shahed drone or a drifting mine.",
+        "sources": [
+          {
+            "url": "https://www.maritime-executive.com/article/freighter-hits-explosive-device-off-odesa",
+            "source": "The Maritime Executive, 31 Aug 2025 (Ukrainian Navy spokesman Pletenchuk)"
+          },
+          {
+            "url": "https://militarnyi.com/en/news/civilian-cargo-ship-ns-pride-struck-near-odesa-coast-crew-unharmed/",
+            "source": "Militarnyi, 31 Aug 2025 (Ukrainian Navy)"
+          },
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Ukrainian Sea Ports Authority presentation, 23 Apr 2026 (Danube Commission): NS PRIDE, 31 August 2025, 0 injured"
+          }
+        ],
+        "attack_type": "Mine strike",
+        "location_text": "Off Chornomorsk, south of Odesa, Ukraine"
+      },
+      "audit_notes": [
+        "Navy: 'The civilian vessel exploded on an unidentified explosive device', minor damage, under inspection, expected to proceed under own power; no injuries. Albanian-owned, Belize flag, ~3,400 dwt, built 1988, in ballast. Cause uncertain (Shahed debris or drifting mine), so 'Mine strike' is the nearest category; medium for that reason. IMO 8815293 appears only in the Black Sea News aggregator, so omitted.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.maritime-executive.com/article/freighter-hits-explosive-device-off-odesa",
+            "source": "Casualty source"
+          },
+          {
+            "url": "https://militarnyi.com/en/news/civilian-cargo-ship-ns-pride-struck-near-odesa-coast-crew-unharmed/",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20260903-NEFRIT": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T06:33:56.670970+00:00",
+        "vessel_name": "NEFRIT",
+        "date_utc": "2026-09-03",
+        "vessel_type": "offshore support vessel",
+        "region": "Black Sea",
+        "summary": "Ukraine's navy said one of its uncrewed surface vessels struck the Russian-flagged multipurpose support ship NEFRIT in the port of Sochi on the morning of 3 September 2026. The navy did not specify the extent of damage, and Russia gave no details.",
+        "sources": [
+          {
+            "url": "https://hromadske.ua/en/war/270443-ukrainian-navy-says-sea-drone-struck-russian-support-vessel-in-sochi-port",
+            "source": "Hromadske, 3 Sep 2026 (Ukrainian Navy statement)"
+          },
+          {
+            "url": "https://www.marineinsight.com/video-ukrainian-naval-drone-hits-russian-offshore-support-ship-in-sochi/",
+            "source": "Marine Insight, 4 Sep 2026"
+          },
+          {
+            "url": "https://militarnyi.com/en/news/ukrainian-naval-drone-strikes-nefrit-supply-vessel-in-sochi/",
+            "source": "Militarnyi, 3 Sep 2026"
+          }
+        ],
+        "attack_type": "Sea drone strike",
+        "location_text": "Port of Sochi, Russia",
+        "date_note": "Morning of 3 September (Militarnyi); Sochi mayor's USV alert around 06:00 local."
+      },
+      "audit_notes": [
+        "Party claim (Ukrainian Navy), attributed. Hromadske quotes the navy naming NEFRIT; Marine Insight: Russian-flagged support ship used for offshore oil and gas work, navy video shows explosion and smoke, no casualties reported. Militarnyi: multipurpose supply vessel near a pier. First pass noted Bloomberg (via gCaptain) said it is used for CPC mooring repairs; not re-opened. No damage confirmation.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20260801-YANINA": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T06:33:56.670970+00:00",
+        "vessel_name": "YANINA",
+        "date_utc": "2026-08-01",
+        "vessel_type": "container ship",
+        "region": "Black Sea",
+        "summary": "Rosatom said its FESCO-operated, Russian-flagged container ship YANINA was hit by two Ukrainian naval drones overnight about 130 NM from Novorossiysk and sank; all 17 crew were rescued. President Zelensky said Ukrainian forces sank the sanctioned vessel.",
+        "sources": [
+          {
+            "url": "https://maritime-executive.com/article/ukraine-sinks-russian-flagged-containership-in-black-sea-2",
+            "source": "The Maritime Executive, 1 Aug 2026 (Rosatom, FESCO statements)"
+          },
+          {
+            "url": "https://container-news.com/ukrainian-drones-sink-russian-flag-the-container-ship-yanina-in-black-sea/",
+            "source": "Container News, 3 Aug 2026 (Rosatom statement)"
+          }
+        ],
+        "attack_type": "Sea drone strike",
+        "imo": "9301304",
+        "location_text": "About 130 NM from Novorossiysk, Black Sea",
+        "date_note": "Maritime Executive and Container News: struck overnight, reported 1 August. A search summary quotes Rosatom's CEO saying the drones hit at about 22:00 Moscow time, which if on 31 July would be 19:00 UTC on 31 July; that quote was not seen in an opened source."
+      },
+      "audit_notes": [
+        "Maritime Executive: FESCO acknowledged an 'incident with the vessel Yanina'; Rosatom said struck overnight by two drones; 13,000 dwt; 17 crew, 16 rescued by DELPHIUS and one by helicopter. Container News: Rosatom named FESCO YANINA, IMO 9301304 (check digit valid), all 17 rescued. Both sides confirm the vessel, so the first-pass doubt about Zelensky's Yanina vs Rosatom's unnamed ship is resolved. Medium because of the 31 July/1 August UTC ambiguity.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://maritime-executive.com/article/ukraine-sinks-russian-flagged-containership-in-black-sea-2",
+            "source": "Casualty source"
+          },
+          {
+            "url": "https://container-news.com/ukrainian-drones-sink-russian-flag-the-container-ship-yanina-in-black-sea/",
+            "source": "Casualty source"
+          }
+        ]
+      }
     }
   },
   "audit": [
