@@ -13060,6 +13060,74 @@
           ]
         }
       ]
+    },
+    "INC-20261009-003": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://thehindu.com/news/national/all-indian-crew-members-safe-after-oil-tanker-attacked-at-sharjah-anchorage-sarbananda-sonowal/article71567057.ece",
+            "source": "The Hindu, 10 October 2026, quoting India's shipping minister: all 22 Indian seafarers aboard MT GEM NO. 2 were reported to be completely safe"
+          }
+        ],
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T02:05:00Z",
+        "vessel_name": "GEM NO. 2",
+        "imo": "9735373",
+        "date_utc": "2026-10-09",
+        "vessel_type": "Crude oil tanker",
+        "region": "Persian Gulf",
+        "location_text": "13 nautical miles west of Al Jazeera in the United Arab Emirates, which India's shipping minister described as Sharjah Anchorage",
+        "attack_type": "Unknown projectile; India's shipping minister described a drone attack",
+        "summary": "GEM NO. 2, a Panama flagged crude oil tanker, was struck by an unknown projectile at 1000 UTC on 9 October 2026 about 13 nautical miles west of Al Jazeera in the United Arab Emirates. UKMTO warning 160-26 records the strike, a fire that was subsequently extinguished, and states that the status of the crew, the damage assessment and the environmental impact were unknown at that time. Reuters, citing two shipping and security sources and the risk firm Vanguard, identified the vessel as the Panama flagged crude supertanker GEM NO. 2. The IMO confirmed incident register lists GEM NO. 2 (IMO 9735373) at 13 nautical miles west of Al Jazeera, UAE, on 9 October, damaged. India's shipping minister, Sarbananda Sonowal, said in a post on X on 10 October that the tanker carried a crew of 22 Indian nationals and that all 22 were reported to be completely safe.",
+        "date_note": "UKMTO warning 160-26 records an incident date of 9 October 2026 and a time of 1000 UTC; India's minister and Reuters also date the strike to 9 October.",
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261009-ukmto_warning_160_26.pdf",
+            "source": "UKMTO warning 160-26, 9 October 2026: incident 13NM west of Al Jazeera, UAE at 1000 UTC, vessel struck by an unknown projectile, fire extinguished, crew status, damage assessment and environmental impact unknown at that time"
+          },
+          {
+            "url": "https://gcaptain.com/vessel-struck-by-unknown-projectile-off-uae-coast-amid-surge-in-attacks-ukmto-says/",
+            "source": "Reuters via gCaptain, 9 October 2026: two shipping and security sources identified the vessel struck as the Panama flagged crude supertanker GEM NO. 2, quoting Vanguard on the position, the projectile and the distress alert"
+          },
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO confirmed incident register, read 2 November 2026: GEM NO. 2 (IMO 9735373), 13NM west of Al Jazeera, UAE, 9 October, damaged"
+          },
+          {
+            "url": "https://thehindu.com/news/national/all-indian-crew-members-safe-after-oil-tanker-attacked-at-sharjah-anchorage-sarbananda-sonowal/article71567057.ece",
+            "source": "The Hindu, 10 October 2026: India's shipping minister Sarbananda Sonowal said the Panama flagged crude oil tanker MT GEM NO. 2 carried a crew of 22 Indian nationals, was subjected to a drone attack at Sharjah Anchorage on 9 October, and all 22 seafarers were reported completely safe"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-02T02:05:00Z",
+          "text": "First review of this record. The corpus row carried only the UKMTO account of an unnamed vessel struck off the UAE coast plus Indian reporting that the crew were safe, with no confirmed name or IMO. UKMTO warning 160-26 gives the position and time and states plainly that crew status was unknown at the time of the alert, so the earlier draft impression of a confirmed safe crew came from the Indian statement rather than from UKMTO. Reuters, through two shipping and security sources and Vanguard, identifies the ship as GEM NO. 2, and the IMO register anchors GEM NO. 2 (IMO 9735373) at the same position and date. India's shipping minister then states that the whole crew of 22 Indian nationals was reported safe. No death is recorded on that basis; the note does not convert UKMTO's unknown into zero, and nationalities are left empty because no casualty was reported for any nationality.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261009-ukmto_warning_160_26.pdf",
+              "source": "UKMTO warning 160-26, 9 October 2026"
+            },
+            {
+              "url": "https://gcaptain.com/vessel-struck-by-unknown-projectile-off-uae-coast-amid-surge-in-attacks-ukmto-says/",
+              "source": "Reuters via gCaptain, 9 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, read 2 November 2026"
+            },
+            {
+              "url": "https://thehindu.com/news/national/all-indian-crew-members-safe-after-oil-tanker-attacked-at-sharjah-anchorage-sarbananda-sonowal/article71567057.ece",
+              "source": "The Hindu, 10 October 2026, quoting India's shipping minister"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -24750,6 +24818,81 @@
             {
               "url": "https://maritime-executive.com/article/iran-keeps-up-pace-of-strikes-with-attack-on-brand-new-lr2-tanker",
               "source": "The Maritime Executive, 4 October 2026: Vanguard Tech identified the vessel as the Lipsi, a brand new LR2 linked to a Greek operator, with engine room damage"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6567212775,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6567212775",
+      "author": "iMariner",
+      "received_at": "2026-11-02T01:54:49Z",
+      "incident_id": "INC-20261009-003",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261009-003",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-02T02:05:00Z",
+          "vessel_name": "GEM NO. 2",
+          "imo": "9735373",
+          "date_utc": "2026-10-09",
+          "vessel_type": "Crude oil tanker",
+          "region": "Persian Gulf",
+          "location_text": "13 nautical miles west of Al Jazeera in the United Arab Emirates, which India's shipping minister described as Sharjah Anchorage",
+          "attack_type": "Unknown projectile; India's shipping minister described a drone attack",
+          "summary": "GEM NO. 2, a Panama flagged crude oil tanker, was struck by an unknown projectile at 1000 UTC on 9 October 2026 about 13 nautical miles west of Al Jazeera in the United Arab Emirates. UKMTO warning 160-26 records the strike, a fire that was subsequently extinguished, and states that the status of the crew, the damage assessment and the environmental impact were unknown at that time. Reuters, citing two shipping and security sources and the risk firm Vanguard, identified the vessel as the Panama flagged crude supertanker GEM NO. 2. The IMO confirmed incident register lists GEM NO. 2 (IMO 9735373) at 13 nautical miles west of Al Jazeera, UAE, on 9 October, damaged. India's shipping minister, Sarbananda Sonowal, said in a post on X on 10 October that the tanker carried a crew of 22 Indian nationals and that all 22 were reported to be completely safe.",
+          "date_note": "UKMTO warning 160-26 records an incident date of 9 October 2026 and a time of 1000 UTC; India's minister and Reuters also date the strike to 9 October.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261009-ukmto_warning_160_26.pdf",
+              "source": "UKMTO warning 160-26, 9 October 2026: incident 13NM west of Al Jazeera, UAE at 1000 UTC, vessel struck by an unknown projectile, fire extinguished, crew status, damage assessment and environmental impact unknown at that time"
+            },
+            {
+              "url": "https://gcaptain.com/vessel-struck-by-unknown-projectile-off-uae-coast-amid-surge-in-attacks-ukmto-says/",
+              "source": "Reuters via gCaptain, 9 October 2026: two shipping and security sources identified the vessel struck as the Panama flagged crude supertanker GEM NO. 2, quoting Vanguard on the position, the projectile and the distress alert"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, read 2 November 2026: GEM NO. 2 (IMO 9735373), 13NM west of Al Jazeera, UAE, 9 October, damaged"
+            },
+            {
+              "url": "https://thehindu.com/news/national/all-indian-crew-members-safe-after-oil-tanker-attacked-at-sharjah-anchorage-sarbananda-sonowal/article71567057.ece",
+              "source": "The Hindu, 10 October 2026: India's shipping minister Sarbananda Sonowal said the Panama flagged crude oil tanker MT GEM NO. 2 carried a crew of 22 Indian nationals, was subjected to a drone attack at Sharjah Anchorage on 9 October, and all 22 seafarers were reported completely safe"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://thehindu.com/news/national/all-indian-crew-members-safe-after-oil-tanker-attacked-at-sharjah-anchorage-sarbananda-sonowal/article71567057.ece",
+              "source": "The Hindu, 10 October 2026, quoting India's shipping minister: all 22 Indian seafarers aboard MT GEM NO. 2 were reported to be completely safe"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-02T02:05:00Z",
+          "text": "First review of this record. The corpus row carried only the UKMTO account of an unnamed vessel struck off the UAE coast plus Indian reporting that the crew were safe, with no confirmed name or IMO. UKMTO warning 160-26 gives the position and time and states plainly that crew status was unknown at the time of the alert, so the earlier draft impression of a confirmed safe crew came from the Indian statement rather than from UKMTO. Reuters, through two shipping and security sources and Vanguard, identifies the ship as GEM NO. 2, and the IMO register anchors GEM NO. 2 (IMO 9735373) at the same position and date. India's shipping minister then states that the whole crew of 22 Indian nationals was reported safe. No death is recorded on that basis; the note does not convert UKMTO's unknown into zero, and nationalities are left empty because no casualty was reported for any nationality.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261009-ukmto_warning_160_26.pdf",
+              "source": "UKMTO warning 160-26, 9 October 2026"
+            },
+            {
+              "url": "https://gcaptain.com/vessel-struck-by-unknown-projectile-off-uae-coast-amid-surge-in-attacks-ukmto-says/",
+              "source": "Reuters via gCaptain, 9 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, read 2 November 2026"
+            },
+            {
+              "url": "https://thehindu.com/news/national/all-indian-crew-members-safe-after-oil-tanker-attacked-at-sharjah-anchorage-sarbananda-sonowal/article71567057.ece",
+              "source": "The Hindu, 10 October 2026, quoting India's shipping minister"
             }
           ]
         }
