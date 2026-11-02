@@ -1,6 +1,56 @@
 [
   {
     "region": "Black Sea",
+    "date_utc": "2026-11-02T17:21:44Z",
+    "summary": "A headline reports unique footage of a sea drone attack on a tanker off the coast of Bulgaria. No vessel name, flag, date, position, damage or casualty details are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": "Greece",
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 43.0,
+    "lon": 28.3,
+    "location_text": "off the coast of Bulgaria, Black Sea",
+    "attack_type": "sea drone (USV)",
+    "damage": "sinking (per headline)",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "date_approx": true,
+    "id": "INC-20261102-006",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRVpxdXFObEhlX05kbWR0MHFjUUVlcVhWd05NalgySmliakl5ZVBHbEM3cGx1dW90Ym5KSGNnUWZqb0RtcEo4ZkRJNmZOOG90cmFIa2tnS1J0RUJkWmJhbEVCZVlTUEM0VE5ORHViQThmZ3FCR1NyNWduR2VJWS0ta2lyLXJoYVdYVWdKUmJrOHpmMDNEUldldHYtSGxpRko5RnNBcTkzQQ?oc=5",
+        "source": "Euronews.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T17:21:44Z",
+        "title": "Уникальные кадры атаки морских дронов на танкер у берегов Болгарии - Euronews.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTm80QnpHVUJtTWRjQlhoaUhfdTdwSkpydmgtcm1iVmVoZXBtRXBEdldUZlpTaHRHSzJSYjQ3clNDRjJ3N0FGRDN5ZVZ5VjN4SE9wbV94TW5TYzBpYU5OcG8wOEdvSk9GSjlhbnUwMnpuTUs2dElzM2xDNzRyOHNSTllpLWl3cW0wQ2RBT1VvT2N3M24xNVo0RlVXeVNuVm5PMXRUWEZoYTQ?oc=5",
+        "source": "Euronews.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T16:54:51Z",
+        "title": "Watch: Unseen images of drone sinking Greek tanker off Bulgarian coast - Euronews.com"
+      }
+    ],
+    "first_seen": "2026-11-02T20:30:37Z",
+    "last_updated": "2026-11-02T20:30:37Z",
+    "verification_issue": 321,
+    "verdict": null,
+    "published_in": [],
+    "status": "reported",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
     "date_utc": "2026-11-02",
     "summary": "Russia's defence ministry said its forces attacked a dry cargo vessel 58 km south of Odesa overnight, and also struck a site near Tuzly it described as housing Neptune missile launchers. Odesa's city military administration separately reported four people injured in Russian strikes on the city, without linking that to the vessel.",
     "official_source_cited": null,
@@ -101,10 +151,28 @@
         "kind": "official",
         "published_at": "2026-11-02T04:52:16+00:00",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdEZmRGFvX29hV0pBWV9KMWkzVGdIeE15UTFEY2hMbC16TC12S1BBOVNWenlfcDFNaGVOcDE3V3Y3YkhmV2kxYXRZZkszSFdaUUdnLXFUTS1lbFNaQzlaVWZnNEdLNDhicFJTNVF5U3Y0dGptZ1pZb3lnbm15ZUxETVZ6RDhOZw?oc=5",
+        "source": "safety4sea",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T11:44:27Z",
+        "title": "Russian forces reportedly strike cargo vessel off Odesa - safety4sea"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWVBJZUt3Mm9XZVVxU25rMFRqWFpwcTM3RWhCRXBNOFpCb3U3RnBabW9zWVY1dkZReXlzYTdMbXIycS0zVS14Vm9LR0J1Xzc2YWJXTVUycGxNWnI5NW1Mdi02czNRcjlfdHA2QzN5cUdPeGVfVkhINzA5VGdtODRMalplQ3lqT1JkaDRTNmxTNTNkamQ4S3YzQkdhUTdoUFExM2NJeG5vVUlRR1M4Qm9TTnJuOA?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T11:09:18Z",
+        "title": "Bulker hit in Russian attack on Ukrainian military cargo trade - TradeWinds News"
       }
     ],
     "first_seen": "2026-11-02T09:54:19Z",
-    "last_updated": "2026-11-02T09:54:36Z",
+    "last_updated": "2026-11-02T20:30:47Z",
     "verification_issue": 318,
     "verdict": null,
     "published_in": [],
@@ -232,17 +300,45 @@
         "kind": "media",
         "published_at": "2026-11-02T05:29:15Z",
         "title": "Hürmüz Boğazı’nda petrol tankerine saldırı oldu - Yeniçağ Gazetesi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbmc5TGJ1aDlMWFpfX2dmcU0wLUJYczdSM1FSbWEwcWU1RGN5WVBNU1c1Mm83WkZvN1RkTmI0Z2xuSmdOZXU0WTk5aS1CTGpTUW5zV2taRFlqZHU5b1RhdGJqN0JfeWxEQlRfQ1hJUmhmU3BXRUJvNHlDZElaMVV2Tm9HQ3FXM2hTdHkxam1QYnlWRHlYaVJOWDRfU2lUdEY1YnA3Y2kyOA?oc=5",
+        "source": "Logistics Middle East",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T10:51:52Z",
+        "title": "Tanker struck by two projectiles off Saudi Arabia, UKMTO reports - Logistics Middle East"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5hS19YcGlOMkR0M0VUa2k4cktUYWZSSjQwMzNQMURWbWpSTFItYXpuOUl6S3V6UFFyZDFHNkhlYjloWHJXQTZ2czFJNzQyTFpqamg2N0ppTVdyb1dUUVZVbkJRcHJmdw?oc=5",
+        "source": "https://houseofsaud.com/",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T09:45:25Z",
+        "title": "Tanker Hit 72 Nautical Miles Off Saudi Arabia, Tug Struck in Hormuz - https://houseofsaud.com/"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdG03dUhkNk9GVmdEeEU5dDFleXZwRzZkdHdFWlNRN1BJdGN0TGt5NTc4VHJEdEhaRU1zRkNjSTlXeTFhWFlTcDZpM0tYQmhmMXJIeFllVjF0cGtiSmJaOGlNSjVGX0Z6dUVyZldNR0VfZXgtUEV6bjVRdVRNQ050RW1Rc2twTkVUSFg5M20xbjc2dGJsdEFjcV90dEltRFJjaWJoSk9xWVlSSFpRd2xr?oc=5",
+        "source": "The Insight International",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T08:49:04Z",
+        "title": "Tanker struck by two projectiles in the Gulf off Saudi Arabia, UK maritime agency says - The Insight International"
       }
     ],
     "first_seen": "2026-11-02T09:54:19Z",
-    "last_updated": "2026-11-02T09:54:50Z",
+    "last_updated": "2026-11-02T20:30:54Z",
     "verification_issue": 319,
     "verdict": null,
     "published_in": [],
-    "status": "confirmed",
+    "status": "merged",
     "status_changed_at": "2026-11-02T09:54:29Z",
     "date_approx": false,
-    "position_approx": true
+    "position_approx": true,
+    "merged_into": "INC-20261101-001"
   },
   {
     "region": "Strait of Hormuz",
@@ -286,14 +382,201 @@
     "position_approx": true
   },
   {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-11-02",
+    "summary": "A TradeWinds headline reports that a Hormuz attack left a hole in a merchant vessel off Oman. No vessel name, flag, position, weapon type or casualty details are given.",
+    "official_source_cited": "UKMTO",
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "off Oman, near Strait of Hormuz",
+    "attack_type": "other",
+    "damage": "hole left in the vessel",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261102-004",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdk0tSXFVODVjenlad3NNT01iT3lYUE5COTFCNkxjNjVIU3FFLUR4SFNkelo5NVBlTGd5c1BKc01iNlBaSVlxY1oxeVJSaWEyckk0U05MSnZUbXA5bnV6cGZJRXh5Ykh3ZGhzYXVFdnZhYjAwRTk5ZTJKdzJxYWY0YXVTYTVFR0NOa0VSdF9meUlKaTlBS1BjQ1JIRFJVR2dmVDJDSUF5UUpyZXM?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T20:00:58Z",
+        "title": "Hormuz attack leaves hole in merchant vessel off Oman - TradeWinds News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZTlJWU02NmZndHR0N01EaW5LRVp4TWZiM3U0TS15RllJOGR3Z1EwRmp1bnJNcGdOcXVMTVJmZFlVNVlfQWowSFpHVWNaMWNuMlR6MGFiY2hUSHY0cTRfSGFXWDJ6Mko0eEZQV3Jtazl2NjNSUnlka3BXbVJqYWpqSzJRVmVKVnVIMm9MYkVZeFdoejBwRlJIQ1QxUS1wNXp6Q3NmUG85NjA2cVJua3lUeFJpRVV4dw?oc=5",
+        "source": "Anadolu Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T19:59:05Z",
+        "title": "Vessel struck by unknown projectile off Oman: UK maritime agency - Anadolu Ajansı"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWnpqS0FHaXo1dnhwR09TN0lDdDQ2cWMwdEplcFpUXzAyZ2w0NVdmT0QzbGkzd2Y4bm4xUjRPWGpsYlFldGZhYzduYnhHMWRXLUdmdlFwMEptMXZ4TDJFRVg0dGxxd1hWWW1GRXhwMF9kaVVFRV9qbVV6OVJTdi1xcThDTzZ6MGpWSXdN?oc=5",
+        "source": "Arab Times Kuwait News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T19:54:50Z",
+        "title": "Vessel Struck by Unknown Projectile Near Oman - Arab Times Kuwait News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBZbEI3Nll3Z2dMOGNzcXpmTlZYT2hiTGdMa21DNjBzZVc0anl0ZGlxY0lnNHlILWhjY1BvcE9qR1Q4WExqN3hwZkgzVF9uSlFLd3JCeUlwcFZpek13SzJHV3I2bjFmem1WOTFlYl9VbUlzbkVpb3J3?oc=5",
+        "source": "Latest news from Azerbaijan",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T19:37:14Z",
+        "title": "Unidentified projectile strikes vessel off Oman - Latest news from Azerbaijan"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOODFaRzZZaWQwQjFXVUw5Q2VkbktWbi1tbG9YcE5uT0NhVHAzdGFFN0doOEZXYlh0eWVPYWhlbE1tcHI0X3lna20xUld2dW1ETlJQbV85WUQtd0hqVXFhcl9rR0NFcGVjSV84OGw5UGlzNlRidzNmeTZKZXFDZk5QR05EdWdYczduVGgzUnZrMXJ3RW03N3J3cVBEMlprSk83bnB6ekV4dlY5Vmct?oc=5",
+        "source": "Facebook",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T19:36:50Z",
+        "title": "Vessel struck near Strait of Hormuz — maritime agency - Facebook"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLURmZWFDbHRrUFFtSE5FQTV1RVY1bmVXN2MxQWVfZGxjbmlweWZiSzM5NmZUUURjVHkzNllMblRJaERNdENuaE43R1gyemFOeUNyX21FdUl4SkdQdTFGMnMzMlRxNzNNUUVUZGI4TkxBRWpfUkxjUDZGYWF2VFdHVEZTY1ZPMUFtY1ZlWjF1ODhiTUg0N3JBZ0cyalNvM0lucVlVOVZkdDFSNFdaT1NDMWtB?oc=5",
+        "source": "Kurdistan24",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T19:32:00Z",
+        "title": "Vessel Struck by Unknown Projectile Near Strait of Hormuz, UKMTO Says - Kurdistan24"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUS1lWkpsT2h1NWpnZTA4dW13andrZUJVdG1KUGYwOUZZVG5FMDZFZHA2U0lqRXJLcmFnOGlRLXFHNFBnb2lMc2lRb1Z5Xy1wMG5YYlRmb1hvcW9IVmlvaW1xUm9tanlmOENCeTdjSWlnRC10MzhxNGI1dVFUUVhFaUtaTk5OcGp2UTlVTVN3?oc=5",
+        "source": "Apa.az",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T19:13:00Z",
+        "title": "Vessel struck by unidentified projectile off Oman - UKMTO - Apa.az"
+      }
+    ],
+    "first_seen": "2026-11-02T20:30:30Z",
+    "last_updated": "2026-11-02T20:30:54Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "status_changed_at": "2026-11-02T20:30:30Z",
+    "merged_into": "INC-20261101-001",
+    "position_approx": true
+  },
+  {
+    "region": "Gulf of Oman",
+    "date_utc": "2026-11-02",
+    "summary": "A headline reports a rare Iranian strike on a vessel hundreds of miles from the Strait of Hormuz. No vessel name, flag, position, weapon type, damage or casualty details are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.4,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "hundreds of miles from the Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Iran (per headline framing)",
+    "independent_evidence": false,
+    "id": "INC-20261102-005",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPLUJxSjhqRkFweGFFSWc5Uzh3UlhtNE1PcHlIN0duTEcwNXRraVBmc01oS1BfYldyM1VSSF8zT1FHRUpIM3JyMG9zM1dNdlYtNGtrVktkekFLWEZqQXZtWllMVENsODAyUm1aUVotZGM5SGFzZFJ0Y25JbjhpcUlUQ0NZR2FTTUFqdEQwbXB3TzVYeVBhcVpRTExsek9PSVB0S1Jsc3gycnNPdUl6ZWUydWFRSHhPVnUx0gG-AUFVX3lxTFBMaDZKMzB2Qi1zUmpLODVSRWk2R3RseW1mMWxFRm9KVVBrNWpEM09RTGp4NHUzYkFoVklNZFIyYTJBQS0wYTczclpGbkc1MUlram1ubmQwbWgzZ3dHRFdkVXlKTkJocm1qWjUxYXo4WGcxcTA3Y0NtbjNldm45aWRsOTZ4NjdFMUFJX0lmOHBJUzVKNzEzRno3eWhNZDVZXzNOajMtQ3VBNmhUSTA1RC12VWM0OHcwUkhFbnV0WFE?oc=5",
+        "source": "Crude Oil Prices Today | OilPrice.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T18:00:00Z",
+        "title": "Rare Iranian Strike On Vessel Hundreds Of Miles From Strait Of Hormuz - Crude Oil Prices Today | OilPrice.com"
+      }
+    ],
+    "first_seen": "2026-11-02T20:30:37Z",
+    "last_updated": "2026-11-02T20:30:54Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261101-001",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-11-02",
+    "summary": "A headline reports that a tanker described as part of Russia's shadow fleet, carrying about 1 million barrels of oil, was hit by explosives near the Strait of Hormuz. No vessel name, flag, exact position, date or casualty details are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "near the Strait of Hormuz",
+    "attack_type": "explosion (cause unknown)",
+    "damage": "hit by explosives while carrying about 1 million barrels of oil",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261102-007",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTk9Zb2tYcVlRMEQ1akRRNk02Z1ctMGF3VW5zUjF2ajNiNHh4aUVCX0xVaEFnUWNWRzlqLTc3ZElHLXBtTzJSOWl2SlhHeU4yWUhaUzByRnZQbGtqeGhhV2g4T0FLdkVmS1JMWWYtSnB2VXNYb1N5RkFnY3BuU1NjSmVuOW11Q2Q3bTVfc2djYkFGeVVfV3piNEhscnNld2RYZnQyVGhkNkFVaEpsT3dDRXFuclZCcl9wLXA0c3dfWXhKOGNkZnhhUmJIM2NteWNNV1E?oc=5",
+        "source": "UNITED24 Media",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T12:13:16Z",
+        "title": "Russian Shadow Fleet Tanker Carrying 1 Million Barrels of Oil Hit by Explosives Near Hormuz Strait - UNITED24 Media"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9ZT3BLZDJIbm9qdW9EWVVwZ29JRXhCNzBRTHJMWXFlSHZ0aFRnV2F0TEFJYmUtUDJiZTR0cXFQQjN5a1k?oc=5",
+        "source": "The Insider",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T10:25:09Z",
+        "title": "Танкер российского «теневого флота» был атакован у Ормузского пролива. В июле его уже атаковали в Черном море - The Insider"
+      }
+    ],
+    "first_seen": "2026-11-02T20:30:47Z",
+    "last_updated": "2026-11-02T20:30:54Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261101-001",
+    "position_approx": true
+  },
+  {
     "region": "Persian Gulf",
     "date_utc": "2026-11-01",
     "summary": "The Qatar-owned LNG carrier Al Mayeda, carrying a Pakistan-bound cargo, was hit by unidentified objects near the Strait of Hormuz on 1 November and caught fire. Iran's navy separately claimed two tankers it called rule-violating struck mines in the strait the same day, an unconfirmed one-sided claim that reports no vessel names.",
     "official_source_cited": "Qatari company statement",
     "conflicting": false,
-    "confidence": 0.8,
+    "confidence": 1.0,
     "vessel_name": "AL MAYEDA",
-    "imo": null,
+    "imo": "9397298",
     "flag": "Qatar",
     "vessel_type": "LNG/LPG carrier",
     "vessel_category": "merchant",
@@ -783,10 +1066,325 @@
         "kind": "media",
         "published_at": "2026-11-02T02:26:00Z",
         "title": "2 tankers explode after allegedly hitting naval mines in Strait of Hormuz, Iran claims - The Economic Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNS1VkWFdkNk95dE1iU211Wjd6MDNZNnRjYUZKWFJwQVhTdldiZGVxc1plbmFYMGxkVENzU3prMV9DdjItY29GazdiZ2oxZkQ2a0s3M1NjdDVjLUg3aDVkMG9vWEUxX1FhWTE1M1NSRUZTdFkxeGpYRHkzbGo4Sk5zSW1OUkp0VEUzdTRBTGI3aXNobm5hSzR0Uzh2aUJKMUdkOENUY09KY19oSWlqaFJpSjMwOU1PZG1xNGc?oc=5",
+        "source": "Riviera Maritime Media",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T20:11:44Z",
+        "title": "News Content Hub - Gulf attacks damage Nakilat LNG carrier as product tanker loses power - Riviera Maritime Media"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBwSkFuZGhVR3luWEZhZkFSUjlGSUhzZ0dmaG5KYTg3TG0tbkVXX29JTE1xbHN3eEczbzBfLVNUZTNLRWx6RG9oMnA5R09Kc3Vial90bU55eFVnUFo3dzB3SHZpUDlYdkM5aDhSQ3FDRlYtMlJXYWFDTG1WaHU?oc=5",
+        "source": "شفق نيوز",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T15:23:08Z",
+        "title": "Shafaq News..Iran: Tanker struck mine east of Hormuz - شفق نيوز"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMzFaXzR6YkxQc09ZNDFQckk2UFpJX2l4U1JvWU1XT05EeDhPeDVldGpTUjFtLTN5V2pHVE9MR2hiOFdiVl9sMzRPYzlzY00tTkxqczM0SV93OGQtRHZUVmtDUy1BN19sbVRIOXJTNHhIc1VnbE5qVE9hcU1HM1ZDU3kxelRPSXJ3NDdVZ1ZVRVZVV0lEaXJob0g3aHdma0M4dWR5Y3dQYUJOZUE0?oc=5",
+        "source": "EnergyNow",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T14:27:15Z",
+        "title": "Damaged Qatari LNG Tanker Awaits Salvage After Strike as Hormuz Risks Escalate - EnergyNow"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqVjdtdGltdmtncU55QU15RFc4R0tFejN5X0lCYjFQQWtCTHVTdmdaeEdzaHFqNUNkaF96NXBna1JPeXhqRzA1ZEpQSnpzalQ1VEQteUFLSEs2cWFLVUU0MmIxN3o5NE5mR2RJR2hkZlVsLW8?oc=5",
+        "source": "Minute Mirror",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T10:48:09Z",
+        "title": "LNG tanker attack near Hormuz hits Pakistan-bound Qatari cargo - Minute Mirror"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQeXBJQ1F0cjRrOUhTS2FNajBVRWRDYUlINmIzMG14ZEY2OFFfNXlBNHJWT1NXOUZrQ2p4eThBUGhJQnprc1FqX3NJSUNXbDVEelVYb3llbDU3U2ExVUpQdWpvTmN4elMwZ3JmYThoRmhEU1dIX1hIdC1FSXRKX05zRE85el9VUHBldGl6OWRzTHdqVDNzSlhHelZ5UTBSRm9hSmNBdlZvUjlpczlyc0ZZSW5KdjFHOHk5bjcxVl9BMGlsaktiR1habklsZTlkMlJnTkN0eVc2LXZlcmo2Znlna2lpXzY3TWtT0gH2AUFVX3lxTE9XT216c0MycWtycmhCdWhTMzEycUw3R3BQbEpLdEt5RHZqRUo4aVAtTDBkZUl0N3BubnJlN1RUNFNyS0tBTFN6a0UzWGJpLUF6ekFWTVUwM3hJVzNCZWFtNTIzeU8tOHpreFBReGR5b1hIM0s1ZGMxM3VWeTNYQ19rOWhkcktGeDFabW8yTnZyb0hQSWVBbG9KZGpZRDYxRmFtaWs3b2V5VlVfSmw2VF8zQmxJMVk2YjJZRE9FVTRTdDdWRlJKN0FMSkxLZUV2RGtMZnVBZnFpUXB5SVl1WF8zZk8wQmcxQ3JkeDMxVXpBRFIzX2padw?oc=5",
+        "source": "Outlook India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T10:12:50Z",
+        "title": "Pakistan-Bound LNG Tanker Al Mayeda Hit Near Hormuz Route Despite Iran Clearance, Crew Including 6 Indians Safe - Outlook India"
+      },
+      {
+        "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9397298-2026-10-30",
+        "source": "IMO (confirmed incidents list)",
+        "source_type": "official",
+        "side": "neutral",
+        "kind": "official",
+        "published_at": "2026-11-02T20:30:54Z",
+        "title": "IMO confirmed incident: AL MAYEDA (IMO 9397298)"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWEJJcWJPM3BXblFsbFZKTGhYV0ZfZi1jRFZwaS1NUUpsRXFsVV9UVE9uOFlSeWMyeU1WRHhrWXdzSDlRWUdiYVdtQWZJTE9lSUV1NEt2eEhGTWVDeF96MGc1WHFra0lLMWJOV0hCXzhBTmQ4SWcwSXVGbHFqaWlFNkZEekJGUkplcGJRZXo1cUZleDI4RVNobzhQekh5MnlGQWNuVm83cFFfc1FKVi0zSERZQzBtdXc?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T06:32:31Z",
+        "title": "Танкер подвергся ударам у побережья Саудовской Аравии в Персидском заливе - prospect.com.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNR2tXcDNpa09HbE9jM3VmWlBnVWZPVHdadE5YTjFSOGdrWl95VWY1Zk52RVhGR015ZWkyYlJWNXc2NU94RW9CaEh3SmpKaDJVazRqMEt0UXFMYThxVHhjeWJ4M053a1oxTk00VDZzZnk3ZTg2SGdvbktSdjJDQ004dGR3bw?oc=5",
+        "source": "شفق نيوز",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T05:55:20Z",
+        "title": "Shafaq News..Two projectiles strike vessel off Saudi coast - شفق نيوز"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPdGhpbGRHY2lCclVFbVVzclJDRmNNdkgwTmY3Q3hPSF9xSm5yMDlycUJ6bDhvUTBpMEJwVHo3SkxvclhPSGI2blFtRVRSbmFTNlY0dmp6NEpfV180UEo0QTVYSXRCRE9KX09KU3NRaXpTeUk3N1FEQVV0enBOeWthZVhUNzZGUDJHUVpnc3VOOFFfcm10ZXlnLXBOaFc3bGhYRm1YblpBUnc1WGhHeTViUUNDLWItTGR1cV9vRkZBbnRoRWNScUd5Tk1EejRoRGE0akRxNnRaSzU0VGNsOVZ4Tg?oc=5",
+        "source": "NewsCord",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T05:21:17Z",
+        "title": "UKMTO Says Two Projectiles Hit Tanker Off Saudi Arabia Near Ras Al Khafji: how 5 outlets framed it - NewsCord"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWUZuZkZtNllRZzFkanFtZnJ3M09vcTFuMTVwcDg2SzJkcnBqMkhkcnRyQnVBV2VyY00wMmtiU0RrUXpuLXUweHBOSEE1Z3dENWpBejV2YmsteGtYWXJMYTVlSF9Vc19qWmFnTWF0eE1LdzYyMWItSGZzcXFKU2NpcUJIX2p1Qkp6VFBoQm0yMEg0WDktM1k0?oc=5",
+        "source": "Quantum Commodity Intelligence",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T05:15:06Z",
+        "title": "Tanker struck by two projectiles off Saudi Arabia - Quantum Commodity Intelligence"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQ0J1MnZhUUV3VnNpQkhfTmE2bTd0b0o0NVh1RXRKTmEtakE3V1FROENOWGluaUNFaUNqOFRGLVZibkV2Ykk5NmR5M0taWTJlV2FTR1FSazBTa2IzNS1iM1VETVRCWEczOUhkcE9WTEJUVzNrUnlWQXVYNHJKRlpCR29GT3QtdzdEd3I0SUsyaEtuQ0pWU1HSAZsBQVVfeXFMTTFzTkZLSy10VFRtaHZ2SnVIcktVMmFveGdHUG5kSHpmNk9vR1lOaWhpVkpUcy11SDBROF9ITTV0ZHdFMHhSY0J2YTlrZDhoZkoyYi13R2tHdDBmYmNLc0ZpamNncmV2Z2xsLXA1UnBRSjZSZEJ1c3Zoa2lpS1hLNWdkbW16V2tsTkZtbE5UY2lvZExCTVlURTg2UGs?oc=5",
+        "source": "The Siasat Daily",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T05:01:49Z",
+        "title": "Tanker hit by two unidentified projectiles off Saudi Arabia - The Siasat Daily"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTkVKVVFtT1J6cDdJWEVNZGhPb2JpLVhZUlRLRTFUMlNZTnVVV2V0dkZ3d3Bqa2FGWGFkSVBncWRHMzdxMS1memJKSlo1by1PbEo5WDlfRFJrd053OTJhbXQzckJGdXQ2WFdlNEpyektSeS1Fdjh0eEVtc0VuQWVzTEVSeGJVSlhGWWo5enhBeGctVUlza1pXVEpGUHNhdVVTa3luN3BhRQ?oc=5",
+        "source": "Ship & Bunker",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T04:57:41Z",
+        "title": "Tanker Hit by Two Projectiles off Saudi Arabia’s Eastern Coast - Ship & Bunker"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVVVQVnZaU2xMM0R6bnVjVGhDUUVZSnlMYWxyeW96NUwza0xPZGxMVHlreGF1WjFRZy1YZlpoejllUEIyTkZKVFByeUFQZUl4Vi1DMkV0bzNUclNDeTBWaWc1am5selQwV05PZGZBZHJHVjRLaHZJanR1M2ZyNjZEZWZJb0NVd3ZCNGFrUUhNeU9abVdu?oc=5",
+        "source": "Mehr News Agency",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T03:46:00Z",
+        "title": "Two unknown projectiles struck tanker off Saudi Arabia - Mehr News Agency"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPREdnQms0VHlRel92WmVwVWVvcjJhZ2x2OWNhT3ctUTBQcEg1dnZsLWM3R2x5TWFhWEp0dzVDVUtLaVAzNWZrdE1WajcxQWtiTEgzaWdCMEtPWTA5VVJTeUdPam9lanU1bWxRWTdXMWtmWnc1LTNVY1Y4enI3ZFFqVEMzYkUtMktoY0ZyR0syNENiVXFYNlRmMkRqeFRPTmx0TGlqdUlkTE9COHI0YUstWlZ3?oc=5",
+        "source": "Middle East Eye",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T02:41:00Z",
+        "title": "UKMTO says vessel hit by two projectiles near Saudi Arabia - Middle East Eye"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcDhiZzJCcWhDcnFFUWhWbzY1UlYyN0J6bDUyeEpzRFQ3S2laRVFjUV9zV1JCVlBPa19RQVZFZVd4dmM1LWFkU3Jka2dtam5UUXA3d2F2dDVoTm91Tmlmd1NNUG1ZUWxvdVFBTVViaE00U3pxRlRKSHRJajNtZjdMRm9OdEJOdThvTmdFVG1kR3NVd1J2Vlkta3hCMVpvak9YRmc?oc=5",
+        "source": "Apa.az",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T02:33:00Z",
+        "title": "Tanker struck by two projectiles near Saudi port in Persian Gulf - UKMTO - Apa.az"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTU9FbHRBb1lDanNWUmhVSTlNVHdnOEp0X1hPNk9RWDZXbXNVZHQ2c3RyTHhhRXVubEkyZjNnQU4wQk14UDQ5a0lBT29OcHRwRlB1RGZ5eHVqRFdsNU5DeEo1MG40N19rWm9TUU9KWVFUaFhod1pDUVZJMWdHSEN6eTdSbG5najNIazBmZEVR?oc=5",
+        "source": "Türk Deniz Medya",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T08:05:28Z",
+        "title": "Basra Körfezi’nde Saldırı Alarmı: Ticari Gemiler Peş Peşe Vuruldu... - Türk Deniz Medya"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRHRpbWV4eTlDNE1FdjF4TDBhc1NjS0hJNUxuaURtdlBubUY3VWdKellyUTlLSnVYU0JJQjNwS0dWM0p4aEhJNGhsYW9hOG1USkNVeGVyWVA0R3pOMnoxMGwwS0VoTXVEeVhZYzA0N1ZNS2ZYd19RcmhqWldxSHJvT3RsY0hjRGJrU29lX2JKRDJTbGUxNmc?oc=5",
+        "source": "Yeniçağ Gazetesi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T05:29:15Z",
+        "title": "Hürmüz Boğazı’nda petrol tankerine saldırı oldu - Yeniçağ Gazetesi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbmc5TGJ1aDlMWFpfX2dmcU0wLUJYczdSM1FSbWEwcWU1RGN5WVBNU1c1Mm83WkZvN1RkTmI0Z2xuSmdOZXU0WTk5aS1CTGpTUW5zV2taRFlqZHU5b1RhdGJqN0JfeWxEQlRfQ1hJUmhmU3BXRUJvNHlDZElaMVV2Tm9HQ3FXM2hTdHkxam1QYnlWRHlYaVJOWDRfU2lUdEY1YnA3Y2kyOA?oc=5",
+        "source": "Logistics Middle East",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T10:51:52Z",
+        "title": "Tanker struck by two projectiles off Saudi Arabia, UKMTO reports - Logistics Middle East"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5hS19YcGlOMkR0M0VUa2k4cktUYWZSSjQwMzNQMURWbWpSTFItYXpuOUl6S3V6UFFyZDFHNkhlYjloWHJXQTZ2czFJNzQyTFpqamg2N0ppTVdyb1dUUVZVbkJRcHJmdw?oc=5",
+        "source": "https://houseofsaud.com/",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T09:45:25Z",
+        "title": "Tanker Hit 72 Nautical Miles Off Saudi Arabia, Tug Struck in Hormuz - https://houseofsaud.com/"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdG03dUhkNk9GVmdEeEU5dDFleXZwRzZkdHdFWlNRN1BJdGN0TGt5NTc4VHJEdEhaRU1zRkNjSTlXeTFhWFlTcDZpM0tYQmhmMXJIeFllVjF0cGtiSmJaOGlNSjVGX0Z6dUVyZldNR0VfZXgtUEV6bjVRdVRNQ050RW1Rc2twTkVUSFg5M20xbjc2dGJsdEFjcV90dEltRFJjaWJoSk9xWVlSSFpRd2xr?oc=5",
+        "source": "The Insight International",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T08:49:04Z",
+        "title": "Tanker struck by two projectiles in the Gulf off Saudi Arabia, UK maritime agency says - The Insight International"
+      },
+      {
+        "url": "https://www.seatrade-maritime.com/security/tanker-hit-off-saudi-and-offshore-tug-struck-in-hormuz",
+        "source": "Seatrade Maritime",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-02T04:24:10Z",
+        "title": "Tanker hit off Saudi and offshore tug struck in Hormuz"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdk0tSXFVODVjenlad3NNT01iT3lYUE5COTFCNkxjNjVIU3FFLUR4SFNkelo5NVBlTGd5c1BKc01iNlBaSVlxY1oxeVJSaWEyckk0U05MSnZUbXA5bnV6cGZJRXh5Ykh3ZGhzYXVFdnZhYjAwRTk5ZTJKdzJxYWY0YXVTYTVFR0NOa0VSdF9meUlKaTlBS1BjQ1JIRFJVR2dmVDJDSUF5UUpyZXM?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T20:00:58Z",
+        "title": "Hormuz attack leaves hole in merchant vessel off Oman - TradeWinds News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZTlJWU02NmZndHR0N01EaW5LRVp4TWZiM3U0TS15RllJOGR3Z1EwRmp1bnJNcGdOcXVMTVJmZFlVNVlfQWowSFpHVWNaMWNuMlR6MGFiY2hUSHY0cTRfSGFXWDJ6Mko0eEZQV3Jtazl2NjNSUnlka3BXbVJqYWpqSzJRVmVKVnVIMm9MYkVZeFdoejBwRlJIQ1QxUS1wNXp6Q3NmUG85NjA2cVJua3lUeFJpRVV4dw?oc=5",
+        "source": "Anadolu Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T19:59:05Z",
+        "title": "Vessel struck by unknown projectile off Oman: UK maritime agency - Anadolu Ajansı"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWnpqS0FHaXo1dnhwR09TN0lDdDQ2cWMwdEplcFpUXzAyZ2w0NVdmT0QzbGkzd2Y4bm4xUjRPWGpsYlFldGZhYzduYnhHMWRXLUdmdlFwMEptMXZ4TDJFRVg0dGxxd1hWWW1GRXhwMF9kaVVFRV9qbVV6OVJTdi1xcThDTzZ6MGpWSXdN?oc=5",
+        "source": "Arab Times Kuwait News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T19:54:50Z",
+        "title": "Vessel Struck by Unknown Projectile Near Oman - Arab Times Kuwait News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBZbEI3Nll3Z2dMOGNzcXpmTlZYT2hiTGdMa21DNjBzZVc0anl0ZGlxY0lnNHlILWhjY1BvcE9qR1Q4WExqN3hwZkgzVF9uSlFLd3JCeUlwcFZpek13SzJHV3I2bjFmem1WOTFlYl9VbUlzbkVpb3J3?oc=5",
+        "source": "Latest news from Azerbaijan",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T19:37:14Z",
+        "title": "Unidentified projectile strikes vessel off Oman - Latest news from Azerbaijan"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOODFaRzZZaWQwQjFXVUw5Q2VkbktWbi1tbG9YcE5uT0NhVHAzdGFFN0doOEZXYlh0eWVPYWhlbE1tcHI0X3lna20xUld2dW1ETlJQbV85WUQtd0hqVXFhcl9rR0NFcGVjSV84OGw5UGlzNlRidzNmeTZKZXFDZk5QR05EdWdYczduVGgzUnZrMXJ3RW03N3J3cVBEMlprSk83bnB6ekV4dlY5Vmct?oc=5",
+        "source": "Facebook",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T19:36:50Z",
+        "title": "Vessel struck near Strait of Hormuz — maritime agency - Facebook"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLURmZWFDbHRrUFFtSE5FQTV1RVY1bmVXN2MxQWVfZGxjbmlweWZiSzM5NmZUUURjVHkzNllMblRJaERNdENuaE43R1gyemFOeUNyX21FdUl4SkdQdTFGMnMzMlRxNzNNUUVUZGI4TkxBRWpfUkxjUDZGYWF2VFdHVEZTY1ZPMUFtY1ZlWjF1ODhiTUg0N3JBZ0cyalNvM0lucVlVOVZkdDFSNFdaT1NDMWtB?oc=5",
+        "source": "Kurdistan24",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T19:32:00Z",
+        "title": "Vessel Struck by Unknown Projectile Near Strait of Hormuz, UKMTO Says - Kurdistan24"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUS1lWkpsT2h1NWpnZTA4dW13andrZUJVdG1KUGYwOUZZVG5FMDZFZHA2U0lqRXJLcmFnOGlRLXFHNFBnb2lMc2lRb1Z5Xy1wMG5YYlRmb1hvcW9IVmlvaW1xUm9tanlmOENCeTdjSWlnRC10MzhxNGI1dVFUUVhFaUtaTk5OcGp2UTlVTVN3?oc=5",
+        "source": "Apa.az",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T19:13:00Z",
+        "title": "Vessel struck by unidentified projectile off Oman - UKMTO - Apa.az"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPLUJxSjhqRkFweGFFSWc5Uzh3UlhtNE1PcHlIN0duTEcwNXRraVBmc01oS1BfYldyM1VSSF8zT1FHRUpIM3JyMG9zM1dNdlYtNGtrVktkekFLWEZqQXZtWllMVENsODAyUm1aUVotZGM5SGFzZFJ0Y25JbjhpcUlUQ0NZR2FTTUFqdEQwbXB3TzVYeVBhcVpRTExsek9PSVB0S1Jsc3gycnNPdUl6ZWUydWFRSHhPVnUx0gG-AUFVX3lxTFBMaDZKMzB2Qi1zUmpLODVSRWk2R3RseW1mMWxFRm9KVVBrNWpEM09RTGp4NHUzYkFoVklNZFIyYTJBQS0wYTczclpGbkc1MUlram1ubmQwbWgzZ3dHRFdkVXlKTkJocm1qWjUxYXo4WGcxcTA3Y0NtbjNldm45aWRsOTZ4NjdFMUFJX0lmOHBJUzVKNzEzRno3eWhNZDVZXzNOajMtQ3VBNmhUSTA1RC12VWM0OHcwUkhFbnV0WFE?oc=5",
+        "source": "Crude Oil Prices Today | OilPrice.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T18:00:00Z",
+        "title": "Rare Iranian Strike On Vessel Hundreds Of Miles From Strait Of Hormuz - Crude Oil Prices Today | OilPrice.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTk9Zb2tYcVlRMEQ1akRRNk02Z1ctMGF3VW5zUjF2ajNiNHh4aUVCX0xVaEFnUWNWRzlqLTc3ZElHLXBtTzJSOWl2SlhHeU4yWUhaUzByRnZQbGtqeGhhV2g4T0FLdkVmS1JMWWYtSnB2VXNYb1N5RkFnY3BuU1NjSmVuOW11Q2Q3bTVfc2djYkFGeVVfV3piNEhscnNld2RYZnQyVGhkNkFVaEpsT3dDRXFuclZCcl9wLXA0c3dfWXhKOGNkZnhhUmJIM2NteWNNV1E?oc=5",
+        "source": "UNITED24 Media",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T12:13:16Z",
+        "title": "Russian Shadow Fleet Tanker Carrying 1 Million Barrels of Oil Hit by Explosives Near Hormuz Strait - UNITED24 Media"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9ZT3BLZDJIbm9qdW9EWVVwZ29JRXhCNzBRTHJMWXFlSHZ0aFRnV2F0TEFJYmUtUDJiZTR0cXFQQjN5a1k?oc=5",
+        "source": "The Insider",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T10:25:09Z",
+        "title": "Танкер российского «теневого флота» был атакован у Ормузского пролива. В июле его уже атаковали в Черном море - The Insider"
+      },
+      {
+        "url": "https://splash247.com/hormuz-attacks-spread-deeper-into-the-gulf/",
+        "source": "Splash247",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-02T08:29:57Z",
+        "title": "Hormuz attacks spread deeper into the Gulf"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBDWGw4eW9LS093YzFDcERvT1dfQXhadW5PWjFrRXItWjl2SWZEdGFSdHlzYXRINVY0Y0VNMVJzaWxnREpNY2ZrU0ozTWFral84RmZZMklvd21XYmlQUGJSY19Va1NKYjFpb05laUNxZ0huUQ?oc=5",
+        "source": "Khaama Press",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T04:40:56Z",
+        "title": "Tanker Hit by Two Unknown Projectiles in Arabian Gulf, UKMTO Says - Khaama Press"
+      },
+      {
+        "url": "https://www.ukmto.org/recent-incidents",
+        "source": "UKMTO",
+        "source_type": "official",
+        "side": "neutral",
+        "kind": "official",
+        "published_at": "2026-11-02T04:32:39Z",
+        "title": "Missed: UKMTO #192 2026-11-01"
+      },
+      {
+        "url": "https://gcaptain.com/new-wave-of-attacks-hits-tankers-and-lng-carrier-in-strait-of-hormuz-and-persian-gulf/",
+        "source": "gCaptain",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-02T16:00:49Z",
+        "title": "New Wave of Attacks Hits Tankers and LNG Carrier in Strait of Hormuz and Persian Gulf"
       }
     ],
     "first_seen": "2026-11-01T09:37:37Z",
-    "last_updated": "2026-11-02T09:54:50Z",
+    "last_updated": "2026-11-02T20:30:58Z",
     "verification_issue": 310,
     "verdict": null,
     "published_in": [],
@@ -1301,16 +1899,26 @@
         "kind": "media",
         "published_at": "2026-11-02T04:24:10Z",
         "title": "Tanker hit off Saudi and offshore tug struck in Hormuz"
+      },
+      {
+        "url": "https://gcaptain.com/new-wave-of-attacks-hits-tankers-and-lng-carrier-in-strait-of-hormuz-and-persian-gulf/",
+        "source": "gCaptain",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-02T16:00:49Z",
+        "title": "New Wave of Attacks Hits Tankers and LNG Carrier in Strait of Hormuz and Persian Gulf"
       }
     ],
     "first_seen": "2026-11-02T09:54:14Z",
-    "last_updated": "2026-11-02T09:54:36Z",
+    "last_updated": "2026-11-02T20:30:58Z",
     "verification_issue": null,
     "verdict": null,
     "published_in": [],
-    "status": "confirmed",
+    "status": "merged",
     "status_changed_at": "2026-11-02T09:54:36Z",
-    "position_approx": true
+    "position_approx": true,
+    "merged_into": "INC-20261101-001"
   },
   {
     "region": "Black Sea",
@@ -1400,7 +2008,7 @@
     "summary": "A report says an offshore tug was struck in the Strait of Hormuz on 1 November as part of attacks on shipping attributed to Iran. No vessel name, flag, position, weapon type, damage or casualty details are given.",
     "official_source_cited": null,
     "conflicting": false,
-    "confidence": 0.5,
+    "confidence": 0.6,
     "vessel_name": null,
     "imo": null,
     "flag": null,
@@ -1424,14 +2032,65 @@
         "kind": "media",
         "published_at": "2026-11-02T04:24:10Z",
         "title": "Tanker hit off Saudi and offshore tug struck in Hormuz"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5hS19YcGlOMkR0M0VUa2k4cktUYWZSSjQwMzNQMURWbWpSTFItYXpuOUl6S3V6UFFyZDFHNkhlYjloWHJXQTZ2czFJNzQyTFpqamg2N0ppTVdyb1dUUVZVbkJRcHJmdw?oc=5",
+        "source": "https://houseofsaud.com/",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T09:45:25Z",
+        "title": "Tanker Hit 72 Nautical Miles Off Saudi Arabia, Tug Struck in Hormuz - https://houseofsaud.com/"
       }
     ],
     "first_seen": "2026-11-02T09:54:36Z",
-    "last_updated": "2026-11-02T09:54:36Z",
+    "last_updated": "2026-11-02T20:30:54Z",
     "verification_issue": 320,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261101-001"
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-11-01",
+    "summary": "A 19,960-ton freighter carrying 421 containers to Romania was hit three times by drone boats 21 nautical miles off a NATO country's Black Sea coast. Its 18 crew abandoned ship 12 minutes after the alarm and the vessel sank around midnight, according to the report.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "container",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "21 nautical miles off a NATO country's Black Sea coast",
+    "attack_type": "sea drone (USV)",
+    "damage": "took three hits from drone boats and sank around midnight",
+    "casualties": "18 crew abandoned ship; no injuries reported",
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261101-012",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPc2VqNWdJUXQwOThPTjU4R1dqa1VtT1RQc0xOMGlWdmFzLXk0TmxNanRWcWJINEFuSVpZYjJyV0lZQ09lbFQ0SzQ5d2hLN2NoaW0tdVJ4RU5zWEswa2RDZExuaHExWkhiNDZPSGh3T210UFR2MEE5bnp2Sk1aNV9FT0NZX3MtTXFUZG9OMmtJcExDNlU5TS1SaXFmOHNIdWVVU2tqT1R3ZTIwUGZlNWJHdkx3?oc=5",
+        "source": "Autonocion.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T17:30:00Z",
+        "title": "A 19,960-ton freighter hauling 421 containers to Romania took three hits from drone boats 21 nautical miles off a NATO country's Black Sea coast, its 18 sailors abandoned ship 12 minutes after the alarm, and it sank around midnight, the fifth merchant vessel st - Autonocion.com"
+      }
+    ],
+    "first_seen": "2026-11-02T20:30:37Z",
+    "last_updated": "2026-11-02T20:30:58Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261028-004",
     "position_approx": true
   },
   {
@@ -3918,7 +4577,7 @@
     "summary": "A vessel was struck by an unknown projectile about 40 nautical miles from Iran's Lavan Island on 30 October and caught fire, according to UKMTO. Oman's navy evacuated 25 sailors from the attacked vessel RITI near Musandam after the fire broke out.",
     "official_source_cited": "UKMTO",
     "conflicting": false,
-    "confidence": 0.85,
+    "confidence": 1.0,
     "vessel_name": "RITI",
     "imo": "9249075",
     "flag": "Panama",
@@ -4338,10 +4997,19 @@
         "kind": "verification",
         "published_at": "2026-11-02T04:33:13Z",
         "title": null
+      },
+      {
+        "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9249075-2026-10-29",
+        "source": "IMO (confirmed incidents list)",
+        "source_type": "official",
+        "side": "neutral",
+        "kind": "official",
+        "published_at": "2026-11-02T20:30:54Z",
+        "title": "IMO confirmed incident: RITI (IMO 9249075)"
       }
     ],
     "first_seen": "2026-10-30T21:41:31Z",
-    "last_updated": "2026-11-02T04:33:13Z",
+    "last_updated": "2026-11-02T20:30:54Z",
     "verification_issue": 298,
     "verdict": {
       "status": "confirmed",
@@ -5239,9 +5907,9 @@
     "summary": "UKMTO reported, citing the vessel's Company Security Officer, that a tanker was struck by an unknown projectile while completing an outbound transit of the Strait of Hormuz on 29 October at 1600 UTC. No crew injuries or environmental impact were reported.",
     "official_source_cited": "UKMTO",
     "conflicting": false,
-    "confidence": 0.85,
+    "confidence": 1.0,
     "vessel_name": "LOUISE 1",
-    "imo": null,
+    "imo": "9290323",
     "flag": "Panama",
     "vessel_type": "tanker",
     "vessel_category": "merchant",
@@ -7180,10 +7848,19 @@
         "kind": "media",
         "published_at": "2026-10-31T03:35:13Z",
         "title": "Tanker Carrying 27 Indians Hit by Limpet Mines in Strait of Hormuz; All Seafarers Safe - Newstrack English"
+      },
+      {
+        "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9290323-2026-10-29",
+        "source": "IMO (confirmed incidents list)",
+        "source_type": "official",
+        "side": "neutral",
+        "kind": "official",
+        "published_at": "2026-11-02T20:30:54Z",
+        "title": "IMO confirmed incident: LOUISE 1 (IMO 9290323)"
       }
     ],
     "first_seen": "2026-10-31T04:40:25Z",
-    "last_updated": "2026-11-02T01:00:40Z",
+    "last_updated": "2026-11-02T20:30:54Z",
     "verification_issue": null,
     "verdict": {
       "status": "confirmed",
@@ -13058,10 +13735,19 @@
         "kind": "media",
         "published_at": "2026-10-30T16:29:29Z",
         "title": "French Aircraft Detected Russian Maritime Drones Early, but Could Not Prevent Ship From Sinking - Мілітарний"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPc2VqNWdJUXQwOThPTjU4R1dqa1VtT1RQc0xOMGlWdmFzLXk0TmxNanRWcWJINEFuSVpZYjJyV0lZQ09lbFQ0SzQ5d2hLN2NoaW0tdVJ4RU5zWEswa2RDZExuaHExWkhiNDZPSGh3T210UFR2MEE5bnp2Sk1aNV9FT0NZX3MtTXFUZG9OMmtJcExDNlU5TS1SaXFmOHNIdWVVU2tqT1R3ZTIwUGZlNWJHdkx3?oc=5",
+        "source": "Autonocion.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T17:30:00Z",
+        "title": "A 19,960-ton freighter hauling 421 containers to Romania took three hits from drone boats 21 nautical miles off a NATO country's Black Sea coast, its 18 sailors abandoned ship 12 minutes after the alarm, and it sank around midnight, the fifth merchant vessel st - Autonocion.com"
       }
     ],
     "first_seen": "2026-10-28T14:24:50Z",
-    "last_updated": "2026-11-01T09:37:52Z",
+    "last_updated": "2026-11-02T20:30:58Z",
     "verification_issue": 268,
     "verdict": {
       "status": "confirmed",
