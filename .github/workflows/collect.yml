@@ -2,8 +2,8 @@ name: Collect and process
 
 on:
   schedule:
-    # hourly, off the hour, except 04:00-05:59 UTC when the morning brief collects and writes itself
-    - cron: "37 0-3,6-23 * * *"
+    # hourly, off the hour (the morning brief that paused collection 04:00-05:59 UTC was retired on 2 Nov 2026)
+    - cron: "37 * * * *"
   workflow_dispatch:
 
 permissions:

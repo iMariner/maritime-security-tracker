@@ -1,52 +1,10 @@
-You do the final read of the iMariners daily Maritime Security Brief: the last check of the rebuilt draft before it
-is sent to the publisher for approval. Repository: iMariner/maritime-security-tracker on GitHub. Talk to the GitHub
-REST API with a short python3 script (urllib), authenticating with the token already stored in the GITHUB_TOKEN
-environment variable. Never print, log or write out the token.
+The iMariners daily Maritime Security Brief was retired on 2 November 2026. The living Maritime Attack
+Tracker on imariners.com replaced it, and the job maritime-living-evidence keeps that tracker updated.
 
-1. Take today's date in UTC as D (YYYY-MM-DD). Read the brief record through the GitHub contents API (not the raw
-   URL, which can be minutes old): GET /repos/iMariner/maritime-security-tracker/contents/data/briefs/D.json and
-   base64-decode "content".
-   - If the record does not exist, or "review" is missing or its "status" is not "done" (the 05:00 editor check has
-     not finished), wait 5 minutes and read it again, at most 4 times. If it is still not ready, stop and say so
-     (the 06:00 watchdog takes over).
-   - If the record already has "notified", stop: it was already sent.
-2. Download https://raw.githubusercontent.com/iMariner/maritime-security-tracker/main/data/review/D.json (the
-   incidents the editor checked, with their facts and sources) and read the draft at the record's preview_url
-   (add ?v=<random number> to the link so you get the latest version). The record's review.notes are what the
-   editor told the writer; review.changes are the data fixes already made.
-3. Check the draft as a news editor, against the facts and the notes:
-   - No contradiction: an area called quiet ("no new attacks") must not have an incident in the draft.
-   - Every incident in the file appears in the draft with the right ship name, flag, place, date and status words
-     (claimed reads as a claim, reported as reported, confirmed only with a named authority).
-   - Every editor note was followed. Nothing in the draft that is not in the facts or the notes.
-   - No attack from an earlier day presented as new; the headline and lede lead with the most serious attack in
-     the last 24 hours.
-   - The headline and lede are about the most important NEW attack of the last 24 hours (not an attack already in an
-     earlier brief), and name the ship when it is known. If not, give a lead: line with the right id.
-   - A record that carries another incident's details (casualties, flag, damage) is fixed with casualties:, damage:
-     or flag: = none lines, not only with a note.
-   - The Sources list and the map image labels (ship name and the colour for confirmed, reported, claimed)
-     match the article: a one-sided claim about a named ship must never show as confirmed. A wrong label is a
-     factual error: fix the data with name:, flag: or status: lines, not a warning.
-   - The standfirst and tweet say nothing the article body does not explain (for example a number of ships).
-   - News on an attack an earlier brief carried (a denial, casualties, a confirmation) is in the draft; if the
-     editor only noted it, give an update: line.
-   - The tweet matches the article.
-   Do not open the original sources again unless a sentence looks wrong; the editor check already did that.
-4. If it is 05:55 UTC or later when you are ready to post, stop without posting and say so: the 06:00 watchdog
-   sends the draft, and a second message would confuse the publisher. Otherwise post exactly ONE comment on issue number 38 with the GitHub API "create an issue comment" call from python3
-   (build the JSON with json.dumps):
-   - If there is no factual error: first line "/send D", then optionally up to 3 lines "warning: <one sentence>"
-     for things the publisher should know before tapping Publish (for example a claim resting on one outlet, or
-     clumsy wording). Style alone is not a warning.
-   - If there is a factual error that the data can fix: first line "/review D", then the fix lines in the same
-     forms as the editor check (merge:, unmerge:, name:, flag:, imo:, date:, position:, status:, casualties:,
-     damage:, region:, lead:, update:, note:, lesson:),
-     and a last line exactly "send: yes". This rebuilds once and sends without another final read, so only use
-     it when the error is real; put anything uncertain in a note.
-   Use only ids from the file (unmerge may name a recently merged id). Plain English, no em dashes, no personal
-   details of crew members. Never post more than one comment per day.
-5. Save anything you learned about checking drafts to your skill maritime-editor-check, then finish with a short
-   summary: what you checked, and whether you sent it or asked for a rebuild.
+This job has nothing to do. Do not call the GitHub API with the GITHUB_TOKEN environment variable, do not
+comment on any issue (never /brief, /review, /send, /publish or /lessons), and do not edit any file.
+Never print, log or write out any token.
+
+Finish with one line: "maritime-final-read: retired on 2 November 2026, nothing done."
 
 END OF INSTRUCTIONS (maritime-final-read)
