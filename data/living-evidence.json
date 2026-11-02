@@ -13169,6 +13169,2968 @@
           ]
         }
       ]
+    },
+    "HIST-RS-20231218-MSC-CLARA": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "MSC CLARA",
+        "date_utc": "2023-12-18",
+        "vessel_type": "container ship",
+        "region": "Red Sea",
+        "summary": "US Central Command said the crew of MSC Clara reported an explosion in the water nearby, with no injuries or damage. The Houthis claimed they had targeted the ship.",
+        "sources": [
+          {
+            "url": "https://maritime-executive.com/article/norwegian-owned-tanker-hit-as-red-sea-attacks-on-shipping-continue-to-grow",
+            "source": "CENTCOM statement via The Maritime Executive"
+          },
+          {
+            "url": "https://www.aljazeera.com/news/2023/12/18/oil-tanker-m-v-swan-atlantic-hit-by-houthi-projectile-in-the-red",
+            "source": "Al Jazeera (Houthi claim)"
+          }
+        ],
+        "attack_type": "Attempted attack",
+        "location_text": "Southern Red Sea, near the Bab el-Mandeb"
+      },
+      "audit_notes": [
+        "Maritime Executive (18 Dec 2023) reports CENTCOM's statement late Monday 18 Dec that Clara's crew reported an explosion in the water nearby, no injuries or damage, and describes her as an 18,900 TEU boxship. Al Jazeera (18 Dec 2023) reports the Houthi spokesman naming MSC Clara and Swan Atlantic as targets and gives Panama flag per LSEG. Same incident as the existing SWAN ATLANTIC record but a different ship. IMO not stated in sources.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://maritime-executive.com/article/norwegian-owned-tanker-hit-as-red-sea-attacks-on-shipping-continue-to-grow",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-RS-20240201-KOI": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "KOI",
+        "date_utc": "2024-02-01",
+        "vessel_type": "container ship",
+        "region": "Red Sea",
+        "summary": "US Central Command said two anti-ship ballistic missiles were launched from Houthi-controlled Yemen likely towards M/V Koi in the Red Sea and impacted in the water without hitting the ship. No injuries or damage were reported.",
+        "sources": [
+          {
+            "url": "https://www.globalsecurity.org/military/library/news/2024/02/mil-240201-centcom01.htm",
+            "source": "CENTCOM release 20240201-01 (GlobalSecurity mirror)"
+          },
+          {
+            "url": "https://mykn.kuehne-nagel.com/news/article/us-says-cma-cgmoperated-boxship-koi-likely-ta-02-Feb-2024",
+            "source": "Lloyd's List via Kuehne+Nagel"
+          }
+        ],
+        "attack_type": "Attempted attack",
+        "imo": "9461489",
+        "location_text": "About 57 NM west of Al Hudaydah, Yemen"
+      },
+      "audit_notes": [
+        "CENTCOM: about 12:45 p.m. Sanaa time on 1 Feb, two ASBMs likely towards M/V Koi, a Liberian-flagged, Bermuda-owned cargo ship; missiles hit the water. Lloyd's List (2 Feb): CMA CGM-operated 8,586 TEU Koi, IMO 9461489, UKMTO reported an explosion off the starboard side about 57 NM west of Al Hudayda. Separately the Houthis claimed an attack on KOI in the Gulf of Aden in a statement on 31 Jan/1 Feb, which was not confirmed (Ambrey reported a strike near an unnamed ship); that earlier claim is not recorded here.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.globalsecurity.org/military/library/news/2024/02/mil-240201-centcom01.htm",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-RS-20240426-MAISHA": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "MAISHA",
+        "date_utc": "2024-04-26",
+        "vessel_type": "tanker",
+        "region": "Red Sea",
+        "summary": "US Central Command said Houthi forces fired three anti-ship ballistic missiles into the Red Sea and one landed in the vicinity of MV Maisha, which was not damaged. The same salvo damaged the tanker Andromeda Star.",
+        "sources": [
+          {
+            "url": "https://www.onmanorama.com/news/world/2024/04/27/yemen-houthis-missile-strike-target-andromeda-star-oil-ship-red-sea.html",
+            "source": "Reuters via Onmanorama (CENTCOM statement)"
+          },
+          {
+            "url": "https://maritime-executive.com/article/houthi-missile-damages-shadow-tanker-carrying-russian-oil",
+            "source": "The Maritime Executive"
+          },
+          {
+            "url": "https://container-news.com/tanker-sustains-damage-as-houthis-intensify-attacks",
+            "source": "Container News"
+          }
+        ],
+        "attack_type": "Attempted attack",
+        "location_text": "About 14 NM southwest of Al Mukha (Mokha), Yemen"
+      },
+      "audit_notes": [
+        "Reuters quotes CENTCOM on X: a missile landed in the vicinity of a second vessel, MV Maisha, which was not damaged. Maritime Executive (26 Apr): Antigua and Barbuda flagged, 81,270 dwt, first missile believed to have exploded very close to Maisha, master reported crew felt the blast; CENTCOM said two tankers were targeted. Container News (30 Apr): 2002-built Antigua and Barbuda-flagged Suezmax tanker, unaffected, about 14 NM southwest of Al Mukha, departed Cochin 20 Apr. Same salvo as existing ANDROMEDA STAR record. IMO not stated in sources.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-RS-20240517-WIND": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "WIND",
+        "date_utc": "2024-05-17",
+        "vessel_type": "oil tanker",
+        "region": "Red Sea",
+        "summary": "US Central Command said a Houthi anti-ship ballistic missile struck the Panama-flagged, Greek-owned tanker M/T Wind, causing flooding and loss of propulsion and steering. The crew restored power and the ship continued its voyage with no casualties reported.",
+        "sources": [
+          {
+            "url": "https://www.globalsecurity.org/military/library/news/2024/05/mil-240518-centcom01.htm",
+            "source": "CENTCOM release (GlobalSecurity mirror)"
+          },
+          {
+            "url": "https://www.offshore-technology.com/newsletters/houthis-attack-oil-tanker-heading-towards-china-through-red-sea",
+            "source": "Reuters via Offshore Technology (Ambrey)"
+          },
+          {
+            "url": "https://www.bairdmaritime.com/security/naval/naval-ships/china-bound-tanker-damaged-in-houthi-missile-strike",
+            "source": "Baird Maritime"
+          }
+        ],
+        "attack_type": "Missile strike",
+        "location_text": "About 10 NM southwest of Mokha, Yemen",
+        "date_note": "CENTCOM gives about 01:00 Sanaa time (UTC+3) on 18 May 2024, i.e. about 22:00 UTC on 17 May. Most reports use 18 May."
+      },
+      "audit_notes": [
+        "CENTCOM: about 1 a.m. Sanaa time on 18 May, one ASBM struck M/T Wind, Panamanian-flagged, Greek owned and operated oil tanker, last docked in Russia and bound for China; flooding, loss of propulsion and steering, no casualties. Reuters/Ambrey (Offshore Technology): about 10 NM southwest of Mokha, fire in steering gear compartment. Baird Maritime confirms date and Ambrey's Novorossiysk loading. IMO not stated in fetched sources.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.globalsecurity.org/military/library/news/2024/05/mil-240518-centcom01.htm",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20220226-AFINA": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "AFINA",
+        "date_utc": "2022-02-26",
+        "vessel_type": "bulk carrier",
+        "region": "Black Sea",
+        "summary": "Ukraine's State Border Guard Service said Russian Navy warships seized the Ukrainian-flagged AFINA, which had been ordered to approach a Russian warship for inspection; its AIS was switched off and contact was lost. The statement said AIS signals the next morning placed it about 18 miles from occupied Crimea.",
+        "sources": [
+          {
+            "url": "https://www.kmu.gov.ua/en/news/derzhprikordonsluzhba-rosijski-pirati-zahopili-dva-ukrayinskih-sudna-iz-mirnimi-ekipazhami",
+            "source": "Government of Ukraine (State Border Guard Service)"
+          },
+          {
+            "url": "https://www.ukrinform.net/rubric-ato/3414753-russian-ships-capture-two-ukrainian-vessels.html",
+            "source": "Ukrinform"
+          },
+          {
+            "url": "https://channel16.dryadglobal.com/unconfirmed-russian-navy-detains-two-vessels",
+            "source": "Dryad Global"
+          }
+        ],
+        "attack_type": "Seizure",
+        "imo": "8029272",
+        "location_text": "Romanian territorial sea, about 22 NM from Snake Island; taken toward Crimea",
+        "date_note": "Ukrainian statement posted 27 February 2022 says the seizure happened 'yesterday'."
+      },
+      "audit_notes": [
+        "Ukraine's government and Ukrinform call it a tanker (Athena/Afina) carrying diesel or grain; Dryad lists AFINA as a bulk carrier, IMO 8029272, Ukraine flag. Nearly 50 civilians were aboard AFINA and PRINCESS NICOLE combined. Dryad notes tracking data but no independent confirmation of the seizure itself.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20220226-PRINCESS-NICOLE": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "PRINCESS NICOLE",
+        "date_utc": "2022-02-26",
+        "vessel_type": "bulk carrier",
+        "region": "Black Sea",
+        "summary": "Ukraine's State Border Guard Service said Russian Navy warships seized the Ukrainian-flagged PRINCESS NICOLE after it turned sharply toward the Russian ships; its AIS was switched off and contact was lost. The statement said AIS signals the next morning placed it about 18 miles from occupied Crimea.",
+        "sources": [
+          {
+            "url": "https://www.kmu.gov.ua/en/news/derzhprikordonsluzhba-rosijski-pirati-zahopili-dva-ukrayinskih-sudna-iz-mirnimi-ekipazhami",
+            "source": "Government of Ukraine (State Border Guard Service)"
+          },
+          {
+            "url": "https://www.ukrinform.net/rubric-ato/3414753-russian-ships-capture-two-ukrainian-vessels.html",
+            "source": "Ukrinform"
+          },
+          {
+            "url": "https://channel16.dryadglobal.com/unconfirmed-russian-navy-detains-two-vessels",
+            "source": "Dryad Global"
+          }
+        ],
+        "attack_type": "Seizure",
+        "imo": "8319392",
+        "location_text": "Northwestern Black Sea, en route from Romanian waters toward Snake Island; taken toward Crimea",
+        "date_note": "Ukrainian statement posted 27 February 2022 says the seizure happened 'yesterday'; Dryad shows the ship halted near Snake Island 12:00-13:00 UTC on Saturday 26 February with AIS lost around 13:20 UTC."
+      },
+      "audit_notes": [
+        "Name spelled PRINCESS NICOLE by Dryad and Ukraine's government; some lists use PRINCESS NIKOL. Registered spelling not confirmed from a registry. Dryad gives IMO 8319392, bulk carrier, Ukraine flag; Ukraine calls it a dry cargo ship. Ukraine's prosecutor later opened criminal proceedings over the ship.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20220407-KAPITAN-BELOUSOV": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "KAPITAN BELOUSOV",
+        "date_utc": "2022-04-07",
+        "vessel_type": "icebreaker",
+        "region": "Black Sea",
+        "summary": "Ukraine's Azov regiment said Russian forces shelled the icebreaker KAPITAN BELOUSOV, crewed by civilians, at Mariupol commercial port overnight, killing one person and injuring several others.",
+        "sources": [
+          {
+            "url": "https://www.pravda.com.ua/eng/news/2022/04/08/7338113/",
+            "source": "Ukrainska Pravda (Azov regiment statement)"
+          },
+          {
+            "url": "https://www.lloydslist.com/LL1140466/Seafarer-killed-as-Russian-shells-hit-icebreaker-in-Mariupol-says-Ukrainian-army",
+            "source": "Lloyd's List"
+          }
+        ],
+        "attack_type": "Projectile strike",
+        "location_text": "Commercial sea port, Mariupol, Sea of Azov",
+        "date_note": "Shelling reported on the night of 7 April 2022 (Lloyd's List, 8 April: 'overnight')."
+      },
+      "audit_notes": [
+        "Ukraine-flagged port icebreaker owned by the Mariupol port authority (Lloyd's List caption). Casualty claim from Ukrainian side only; Lloyd's List body paywalled, headline says one seafarer killed per Ukrainian army. Number injured not stated ('several'). Scope check: port service icebreaker rather than a trading merchant ship; caller may decide.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 1,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.pravda.com.ua/eng/news/2022/04/08/7338113/",
+            "source": "Casualty source"
+          },
+          {
+            "url": "https://www.lloydslist.com/LL1140466/Seafarer-killed-as-Russian-shells-hit-icebreaker-in-Mariupol-says-Ukrainian-army",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20220601-BRENTIX": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "BRENTIX",
+        "date_utc": "2022-06-01",
+        "vessel_type": "product tanker",
+        "region": "Black Sea",
+        "summary": "Ukrainian Shipping Magazine reported a single cluster submunition hit the Tanzania-flagged tanker BRENTIX while moored in Ochakiv port, holing the deck and hull near the pump room and starting a fire that the crew put out. No one aboard was hurt.",
+        "sources": [
+          {
+            "url": "https://maritime-executive.com/article/report-product-tanker-struck-by-cluster-bomb-at-ochakov",
+            "source": "Maritime Executive"
+          },
+          {
+            "url": "https://en.cfts.org.ua/news/russian_troops_fire_on_tanker_in_port_of_ochakiv",
+            "source": "CFTS (Ukraine)"
+          }
+        ],
+        "attack_type": "Projectile strike",
+        "location_text": "Port of Ochakiv, Mykolaiv region, Ukraine"
+      },
+      "audit_notes": [
+        "Both sources give 1 June 2022, Ochakiv port, single cluster munition, fire extinguished by crew, ship in ballast. Maritime Executive: 42-year-old product tanker, Tanzania flag, Mykolaiv-based owner. CFTS: built 1980, no one hurt. Attacker reported as Russian forces; weapon type from photos.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://en.cfts.org.ua/news/russian_troops_fire_on_tanker_in_port_of_ochakiv",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20220707-MILLENNIAL-SPIRIT": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "MILLENNIAL SPIRIT",
+        "date_utc": "2022-07-07",
+        "vessel_type": "chemical tanker",
+        "region": "Black Sea",
+        "summary": "Ukraine's Operational Command South said a Russian Su-30 fired two Kh-31 missiles at the abandoned Moldova-flagged tanker MILLENNIAL SPIRIT, one of which hit it and started new fires. No crew was aboard; the ship had been abandoned since it was first attacked in February 2022.",
+        "sources": [
+          {
+            "url": "https://www.pravda.com.ua/eng/news/2022/07/07/7356805/",
+            "source": "Ukrainska Pravda (Operational Command South)"
+          },
+          {
+            "url": "https://maritime-executive.com/article/ukraine-says-russian-missile-hit-abandon-moldovan-tanker-in-black-sea",
+            "source": "Maritime Executive"
+          }
+        ],
+        "attack_type": "Missile strike",
+        "imo": "7392610",
+        "location_text": "At anchor south of Odesa, in Ukraine's territorial sea"
+      },
+      "audit_notes": [
+        "Second attack on this ship; the 25 February 2022 attack is already on the tracker. Both sources state the ship had no crew aboard, so deaths set to 0. Lloyd's List also reports it came under fire again on 7 July.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.pravda.com.ua/eng/news/2022/07/07/7356805/",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20230124-FERAHNAZ": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "FERAHNAZ",
+        "date_utc": "2023-01-24",
+        "vessel_type": "general cargo ship",
+        "region": "Black Sea",
+        "summary": "Turkish media reported the Turkish-owned FERAHNAZ was damaged, apparently by shrapnel, when a strike set the neighbouring TUZLA on fire in Kherson port. Its manager said only the captain was aboard and he was not injured.",
+        "sources": [
+          {
+            "url": "https://maritime-executive.com/article/video-two-turkish-cargo-ships-hit-by-possible-missile-in-ukraine",
+            "source": "Maritime Executive"
+          },
+          {
+            "url": "https://www.bairdmaritime.com/shipping/dry-cargo/turkish-owned-cargo-ships-damaged-in-missile-attack-on-ukraines-kherson-port",
+            "source": "Baird Maritime"
+          },
+          {
+            "url": "https://en.usm.media/two-turkish-vessels-were-damaged-during-shelling-by-the-russians-in-kherson",
+            "source": "Ukrainian Shipping Magazine"
+          }
+        ],
+        "attack_type": "Projectile strike",
+        "location_text": "Port of Kherson, Ukraine",
+        "date_note": "Baird Maritime: Tuesday 24 January at about 21:00 local (19:00 UTC)."
+      },
+      "audit_notes": [
+        "Same strike as TUZLA (already on tracker for 2023-01-24). Maritime Executive: Vanuatu flag, 4,750 dwt general cargo, Cakiroglu Shipping, holes in hull possibly near engine room. USM says Turkish flag and attributes the shelling to Russian forces. Weapon reported variously as missile, bomb or shelling.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.bairdmaritime.com/shipping/dry-cargo/turkish-owned-cargo-ships-damaged-in-missile-attack-on-ukraines-kherson-port",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20231005-KAFKAMETLER": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "KAFKAMETLER",
+        "date_utc": "2023-10-05",
+        "vessel_type": "general cargo ship",
+        "region": "Black Sea",
+        "summary": "Turkey's maritime authority said an explosion occurred 15 to 20 metres behind the Turkish-flagged KAFKAMETLER off Sulina while it was en route from Batumi to Izmail, and that there was no evidence it was a mine. Earlier maritime sources had told Reuters the ship hit a mine and sustained minor ballast tank damage; the crew was unharmed.",
+        "sources": [
+          {
+            "url": "https://www.pravda.com.ua/eng/news/2023/10/06/7422898/",
+            "source": "Reuters via Ukrainska Pravda"
+          },
+          {
+            "url": "https://ws19.marinelink.com/news/turkish-ship-not-damaged-black-sea-508589",
+            "source": "Reuters via MarineLink"
+          }
+        ],
+        "attack_type": "Near miss",
+        "location_text": "Off Sulina, Romania, about 11 NM north of Sulina at the mouth of the Danube",
+        "date_note": "Explosion occurred on Thursday 5 October 2023 at 09:20 GMT (Ambrey via Reuters). Ukrainska Pravda's text says 'Thursday, 6 October', but 6 October 2023 was a Friday; MarineLink confirms the explosion was Thursday and statements came Friday."
+      },
+      "audit_notes": [
+        "Conflict: Reuters maritime sources and Ambrey reported a mine hit with minor ballast tank damage; the Turkish maritime authority and captain said the blast was 15-20 m behind the ship, no damage and no evidence of a mine. Ukraine's navy also denied the initial reports (search snippet). Recorded as Near miss per the flag state authority.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.pravda.com.ua/eng/news/2023/10/06/7422898/",
+            "source": "Casualty source"
+          },
+          {
+            "url": "https://ws19.marinelink.com/news/turkish-ship-not-damaged-black-sea-508589",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20231015-ALI-NAJAFOV": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "ALI NAJAFOV",
+        "date_utc": "2023-10-15",
+        "vessel_type": "product tanker",
+        "region": "Black Sea",
+        "summary": "Reuters sources said the Liberia-flagged, Turkish-owned tanker ALI NAJAFOV, carrying diesel from Batumi to Ukraine, hit a mine near the Sulina channel and sustained minor damage. The crew was unharmed.",
+        "sources": [
+          {
+            "url": "https://maritime-executive.com/article/tanker-sailing-to-ukraine-damaged-by-mine-in-the-black-sea",
+            "source": "Maritime Executive"
+          },
+          {
+            "url": "https://kyivindependent.com/media-oil-tanker-hits-mine-in-black-sea",
+            "source": "Reuters via Kyiv Independent"
+          }
+        ],
+        "attack_type": "Mine strike",
+        "location_text": "Approaching the Danube estuary near the Sulina channel, off Romania",
+        "date_note": "Maritime Executive: early on 15 October 2023. Some lists use 16 October, the reporting date."
+      },
+      "audit_notes": [
+        "Maritime Executive: 6,600 dwt product tanker built 2001, Liberia flag, 5,600 t diesel, Palmali group; later Ukrainian media said the hull was holed and main engine failed. Kyiv Independent (Reuters): minor damage, crew unharmed, confirmed by a Ukrainian source. Turkish authorities disputed that it was a mine but confirmed an explosion (search snippet, TradeWinds).",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://kyivindependent.com/media-oil-tanker-hits-mine-in-black-sea",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20231116-GEORGIA-S": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "GEORGIA S",
+        "date_utc": "2023-11-16",
+        "vessel_type": "bulk carrier",
+        "region": "Black Sea",
+        "summary": "Reuters, citing maritime and trade sources, reported the Liberia-flagged bulk carrier GEORGIA S, loaded with wheat from Pivdennyi, was lightly damaged in the open sea, likely by a floating sea mine according to a Ukrainian government source.",
+        "sources": [
+          {
+            "url": "https://www.ukrinform.net/rubric-economy/3788505-grain-ship-hits-floating-mine-in-black-sea-reuters.html",
+            "source": "Reuters via Ukrinform"
+          },
+          {
+            "url": "https://www.businessinsurance.com/bulker-suffers-damage-after-sea-mine-explosion/",
+            "source": "Business Insurance"
+          },
+          {
+            "url": "https://euromaidanpress.com/2023/11/18/reuters-grain-ship-damaged-by-sea-mine-off-ukraine-coast/",
+            "source": "Reuters via Euromaidan Press"
+          }
+        ],
+        "attack_type": "Mine strike",
+        "location_text": "Black Sea, after departing Pivdennyi port, Odesa region, bound for Constanta"
+      },
+      "audit_notes": [
+        "Ukrinform (Reuters): Liberia flag, wheat cargo, hit Thursday 16 November, lightly damaged. Business Insurance: 75,000 dwt bulker managed by Sea Gate Navigation, Greece. Search snippets said crew unharmed and ship proceeded to Romania under own power, not confirmed in fetched text, so casualties left null. IMO not stated by incident sources (registry lists IMO 9502647 for a 2011 75k dwt GEORGIA S, not linked by a source).",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20231227-VYSSOS": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "VYSSOS",
+        "date_utc": "2023-12-27",
+        "vessel_type": "bulk carrier",
+        "region": "Black Sea",
+        "summary": "Ukraine's southern military command said the Panama-flagged VYSSOS, heading to Izmail to load grain, struck an enemy sea mine, lost course and control, and caught fire on the upper deck. Ambrey said the mine hit the stern, and Ukrainian Shipping Magazine reported the captain ran the damaged ship aground at a breakwater. The Odesa regional prosecutor said two people, the captain and an Egyptian sailor, were injured.",
+        "sources": [
+          {
+            "url": "https://cyprus-mail.com/2023/12/28/bulk-carrier-hits-mine-in-black-sea-two-people-injured-ukraine-says",
+            "source": "Reuters via Cyprus Mail"
+          },
+          {
+            "url": "https://www.marineinsight.com/shipping-news/panama-flagged-bulk-ship-collides-with-russian-mine-in-black-sea-two-injured/",
+            "source": "Marine Insight"
+          },
+          {
+            "url": "https://en.usm.media/a-panamanian-ship-encountered-a-russian-mine-in-the-black-sea-photo/",
+            "source": "Ukrainian Shipping Magazine"
+          },
+          {
+            "url": "https://www.hellenicshippingnews.com/?p=1021236",
+            "source": "BBC via Hellenic Shipping News"
+          }
+        ],
+        "attack_type": "Mine strike",
+        "location_text": "Near the Bystre mouth of the Danube, Black Sea, Ukraine",
+        "date_note": "Reuters (28 December): 'early Wednesday', i.e. 27 December 2023; USM gives about 05:45 on 27 December (local, about 03:45 UTC). Ukraine announced it on 28 December, which some lists use."
+      },
+      "audit_notes": [
+        "Reuters: name from shipping source, Panama flag, bound for Izmail, 18 crew (13 Egyptian, 3 Ukrainian, 2 Turkish), two injured per Odesa regional prosecutor. Marine Insight lists the third nationality as 1 American, conflicting with Reuters. Manager listed as Nava Shipping, Athens. BBC/Hellenic calls it a cargo ship. Ukraine attributes the mine to Russia; not independently confirmed.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "human_impact": {
+        "injured": {
+          "count": 2,
+          "as_of": "2023-12-27",
+          "sources": [
+            {
+              "url": "https://cyprus-mail.com/2023/12/28/bulk-carrier-hits-mine-in-black-sea-two-people-injured-ukraine-says",
+              "source": "Casualty source"
+            },
+            {
+              "url": "https://www.marineinsight.com/shipping-news/panama-flagged-bulk-ship-collides-with-russian-mine-in-black-sea-two-injured/",
+              "source": "Casualty source"
+            }
+          ]
+        }
+      }
+    },
+    "HIST-RS-20240710-MOUNT-FUJI": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "MOUNT FUJI",
+        "date_utc": "2024-07-10",
+        "vessel_type": "tanker",
+        "region": "Red Sea",
+        "summary": "UKMTO reported that the Liberian-flagged tanker MOUNT FUJI was subjected to a missile attack south of Al Mukha, with an explosion about 600 metres off its port side. The master reported no damage and no injuries.",
+        "sources": [
+          {
+            "url": "https://www.hellenicshippingnews.com/wp-content/uploads/2024/07/20240712_UKMTO_Summary_Report-12Jul24.pdf",
+            "source": "UKMTO Weekly Summary Report 06-12 Jul 2024 (incident 098)"
+          },
+          {
+            "url": "https://www.steamshipmutual.com/sites/default/files/medialibrary/files/JMIC-Weekly-Dashboard-04-Aug-24-10-Aug-24.pdf",
+            "source": "CMF-JMIC Weekly Dashboard 04-10 Aug 2024, complete incident list (JMIC No. 82, 10/07/24)"
+          }
+        ],
+        "attack_type": "Attempted attack",
+        "imo": "9509011",
+        "location_text": "About 40 NM south of Al Mukha, Yemen, about 2 NM off the Yemeni coast",
+        "date_note": "UKMTO time 100240UTC Jul 2024."
+      },
+      "audit_notes": [
+        "UKMTO gives name, IMO, position, missile explosion ~600 m off port side, no damage, crew safe. JMIC's cumulative list names MOUNT FUJI as incident 82 on 10/07/24 but gives no detail. AP also reported a suspected Houthi attack on this ship (apnews.com not fetchable, not cited). No Houthi claim found.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.hellenicshippingnews.com/wp-content/uploads/2024/07/20240712_UKMTO_Summary_Report-12Jul24.pdf",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-RS-20240711-ROSTRUM-STOIC": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "ROSTRUM STOIC",
+        "date_utc": "2024-07-11",
+        "vessel_type": "bulk carrier",
+        "region": "Red Sea",
+        "summary": "UKMTO reported that the Liberian-flagged bulk carrier ROSTRUM STOIC was targeted by five missiles during 11 July southwest of Al Mukha, all of which hit the water, the closest about 200 metres away. All crew were reported safe and the ship continued its voyage.",
+        "sources": [
+          {
+            "url": "https://www.hellenicshippingnews.com/wp-content/uploads/2024/07/20240719_UKMTO_Summary_Report-19Jul24.pdf",
+            "source": "UKMTO Weekly Summary Report 13-19 Jul 2024 (incident 101)"
+          },
+          {
+            "url": "https://www.steamshipmutual.com/sites/default/files/medialibrary/files/JMIC-Weekly-Dashboard-04-Aug-24-10-Aug-24.pdf",
+            "source": "CMF-JMIC Weekly Dashboard 04-10 Aug 2024, complete incident list (JMIC No. 83, 11/07/24)"
+          },
+          {
+            "url": "https://maritime-executive.com/article/houthis-launch-new-wave-of-attacks-but-one-bomb-boat-fails-to-explode",
+            "source": "The Maritime Executive (unnamed vessel, 11 July, 15 NM SW of Mukha, two explosions)"
+          }
+        ],
+        "attack_type": "Attempted attack",
+        "imo": "9955911",
+        "location_text": "About 15 NM southwest of Al Mukha, Yemen",
+        "date_note": "UKMTO received a time-late report; explosions at 2006UTC and 2102UTC on 11 July 2024."
+      },
+      "audit_notes": [
+        "UKMTO names ship and IMO and describes five missiles, closest ~200 m, AIS off, no damage. JMIC list names ROSTRUM STOIC as incident 83 on 11/07/24. Maritime Executive describes the same event (15 NM SW Mukha, two explosions an hour apart) without naming the ship. Not on existing list.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.hellenicshippingnews.com/wp-content/uploads/2024/07/20240719_UKMTO_Summary_Report-19Jul24.pdf",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-RS-20240808-DELTA-BLUE": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "DELTA BLUE",
+        "date_utc": "2024-08-08",
+        "vessel_type": "crude oil tanker",
+        "region": "Red Sea",
+        "summary": "UKMTO and JMIC reported a series of attacks on the Liberian-flagged crude oil tanker DELTA BLUE on 8 and 9 August: an RPG fired from a small craft that missed, two missiles that splashed nearby and an uncrewed surface vessel destroyed by the armed guards. A missile splash caused minor damage to bridge lighting and the manager said the crew were safe.",
+        "sources": [
+          {
+            "url": "https://www.hellenicshippingnews.com/wp-content/uploads/2024/08/20240809_UKMTO_Summary_Report-09Aug24.pdf",
+            "source": "UKMTO Weekly Summary Report 03-09 Aug 2024 (incident 106)"
+          },
+          {
+            "url": "https://www.steamshipmutual.com/sites/default/files/medialibrary/files/JMIC-Weekly-Dashboard-04-Aug-24-10-Aug-24.pdf",
+            "source": "CMF-JMIC Weekly Dashboard 04-10 Aug 2024 (JMIC No. 89)"
+          },
+          {
+            "url": "https://gcaptain.com/oil-tanker-attacked-four-times-off-yemen-crew-and-vessel-safe/",
+            "source": "Reuters via gCaptain"
+          },
+          {
+            "url": "https://maritime-executive.com/article/houthis-in-rare-effort-attack-and-miss-one-tanker-four-times",
+            "source": "The Maritime Executive"
+          }
+        ],
+        "attack_type": "Attempted attack",
+        "imo": "9601235",
+        "location_text": "Southern Red Sea and Bab el-Mandeb; first attack about 45 NM south of Al Mukha, Yemen",
+        "date_note": "First attack 081403UTC Aug 2024; follow-up attacks to 090557UTC. Recorded as one event on the first attack date."
+      },
+      "audit_notes": [
+        "UKMTO and JMIC give name, IMO 9601235, four attacks (RPG 08 Aug 1403Z, missile splash 2245Z with minor bridge-lighting damage, USV destroyed 09 Aug 0340Z, missile splash 0557Z). Reuters/gCaptain and MarEx name DELTA BLUE, manager Delta Tankers, crew safe. Houthis had not claimed it per MarEx. Wikipedia date 21 Aug in task hint appears wrong; all sources say 8-9 Aug.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://gcaptain.com/oil-tanker-attacked-four-times-off-yemen-crew-and-vessel-safe/",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-RS-20240812-DELTA-ATLANTICA": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "DELTA ATLANTICA",
+        "date_utc": "2024-08-12",
+        "vessel_type": "crude oil tanker",
+        "region": "Red Sea",
+        "summary": "UKMTO reported four incidents involving the Liberian-flagged crude oil tanker DELTA ATLANTICA, including explosions close to the ship and an uncrewed surface vessel that collided with its starboard side without detonating before the armed security team disabled it. No damage or casualties were reported.",
+        "sources": [
+          {
+            "url": "https://www.hellenicshippingnews.com/wp-content/uploads/2024/08/20240816_UKMTO_Summary_Report-16Aug24.pdf",
+            "source": "UKMTO Weekly Summary Report 10-16 Aug 2024 (incident 107)"
+          },
+          {
+            "url": "https://maritime-executive.com/article/houthis-again-stage-multiple-attacks-on-greek-owned-delta-tanker",
+            "source": "The Maritime Executive (Reuters quoting JMIC)"
+          },
+          {
+            "url": "https://wsvn.com/news/us-world/a-ship-in-the-red-sea-is-attacked-3-times-by-suspected-yemeni-rebels-including-with-a-drone-boat/",
+            "source": "AP via WSVN"
+          }
+        ],
+        "attack_type": "Sea drone strike",
+        "imo": "9419101",
+        "location_text": "Southern Red Sea, 63 to 99 NM west and northwest of Al Hudaydah, Yemen",
+        "date_note": "UKMTO times the events 120147UTC to 122244UTC Aug 2024 (12 Aug UTC). MarEx and AP report it as 13 August (local time / publication day)."
+      },
+      "audit_notes": [
+        "UKMTO names ship, IMO, and USV collision on starboard side at 120405UTC, 99 NM NW of Hodeidah. AP quotes JMIC: USV collided but did not detonate. MarEx names ship via Reuters/JMIC, Delta Tankers operator. No Houthi claim at time.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.hellenicshippingnews.com/wp-content/uploads/2024/08/20240816_UKMTO_Summary_Report-16Aug24.pdf",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-RS-20240830-GROTON": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "GROTON",
+        "date_utc": "2024-08-30",
+        "vessel_type": "container ship",
+        "region": "Gulf of Aden",
+        "summary": "UKMTO reported that two missiles exploded close to the Liberian-flagged container ship GROTON about 130 NM east of Aden, about 50 metres off the bow and stern. No damage was reported and all crew were safe; the Houthis claimed it as their second attack on the ship after 3 August.",
+        "sources": [
+          {
+            "url": "https://www.hellenicshippingnews.com/wp-content/uploads/2024/09/20240906_UKMTO_Summary_Report-06Sep24.pdf",
+            "source": "UKMTO Weekly Summary Report 31 Aug-06 Sep 2024 (incident 117)"
+          },
+          {
+            "url": "https://gcaptain.com/yemens-houthis-claim-to-have-attacked-mv-groton-again-in-gulf-of-aden/",
+            "source": "Reuters via gCaptain"
+          },
+          {
+            "url": "https://www.clickondetroit.com/news/world/2024/08/31/ship-targeted-by-2-suspected-missiles-from-yemens-houthi-rebels-in-gulf-of-aden-as-oil-tanker-burns/",
+            "source": "AP via ClickOnDetroit"
+          }
+        ],
+        "attack_type": "Attempted attack",
+        "imo": "9246310",
+        "location_text": "About 130 NM east of Aden, Yemen",
+        "date_note": "UKMTO time 301700UTC Aug 2024."
+      },
+      "audit_notes": [
+        "Separate attack from the existing 2024-08-03 GROTON record (27 days apart). AP identifies the ship via JMIC; Houthi spokesman Saree claimed hits, unsupported per AP.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.hellenicshippingnews.com/wp-content/uploads/2024/09/20240906_UKMTO_Summary_Report-06Sep24.pdf",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-RS-20240902-AMJAD": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "AMJAD",
+        "date_utc": "2024-09-02",
+        "vessel_type": "crude oil tanker",
+        "region": "Red Sea",
+        "summary": "US Central Command said the Saudi-flagged crude oil tanker AMJAD, carrying about two million barrels of oil, and the tanker BLUE LAGOON I were targeted by Houthi ballistic missiles and a one-way attack drone. Owner Bahri said AMJAD was not targeted and sustained no injuries or damage.",
+        "sources": [
+          {
+            "url": "https://www.timesofisrael.com/liveblog_entry/centcom-confirms-two-oil-tankers-attacked-by-houthis-one-carrying-2-million-barrels-of-oil/",
+            "source": "CENTCOM statement via The Times of Israel"
+          },
+          {
+            "url": "https://gcaptain.com/bahri-denies-tanker-was-targeted-in-red-sea/",
+            "source": "Bloomberg via gCaptain (Bahri statement)"
+          },
+          {
+            "url": "https://www.ajot.com/news/us-says-houthis-hit-saudi-ship-but-bahri-says-wasnt-targeted",
+            "source": "Bloomberg via AJOT"
+          }
+        ],
+        "attack_type": "Attempted attack",
+        "location_text": "Red Sea (exact position not stated)"
+      },
+      "audit_notes": [
+        "CENTCOM named AMJAD as targeted (US also said it was hit, per Bloomberg). Bahri denied it was targeted or damaged and declined to say if it was physically hit; Houthis claimed only BLUE LAGOON I. UKMTO incident 119 (020630UTC Sep 24, tanker hit by UAS in forward cargo tank area 58 NM W of Hodeidah) is unnamed and may be AMJAD, but no source links them, so it is not cited. CENTCOM page itself returned 403. Recorded as attempted attack because damage is disputed; IMO not stated in checked sources.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://gcaptain.com/bahri-denies-tanker-was-targeted-in-red-sea/",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-RS-20241001-MINOAN-COURAGE": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "MINOAN COURAGE",
+        "date_utc": "2024-10-01",
+        "vessel_type": "bulk carrier",
+        "region": "Red Sea",
+        "summary": "UKMTO reported that the Liberian-flagged bulk carrier MINOAN COURAGE was hit by one missile on the aft starboard quarter, damaging the engine and causing a fire that the crew fought while drifting. All crew were reported safe and the ship continued without external assistance; the Houthis did not acknowledge the strike.",
+        "sources": [
+          {
+            "url": "https://www.hellenicshippingnews.com/wp-content/uploads/2024/10/20241004_UKMTO_Summary_Report-04Oct24.pdf",
+            "source": "UKMTO Weekly Summary Report 27 Sep-04 Oct 2024 (incident 125)"
+          },
+          {
+            "url": "https://www.maritime-executive.com/article/houthis-damage-vessels-in-new-wave-of-attacks",
+            "source": "The Maritime Executive"
+          },
+          {
+            "url": "https://wkwebster.com/casualty-details/602/minoan-courage",
+            "source": "W K Webster casualty report"
+          }
+        ],
+        "attack_type": "Missile strike",
+        "imo": "9288526",
+        "location_text": "About 97 NM northwest of Al Hudaydah, Yemen",
+        "date_note": "UKMTO time 010415UTC Oct 2024."
+      },
+      "audit_notes": [
+        "UKMTO names ship and IMO 9288526; damage to engine, crew safe, no injuries. MarEx names the Greek-managed Liberian bulker hit by a missile 97 NM NW of Hodeidah, not acknowledged by Houthis. W K Webster gives IMO, 01 Oct 2024, engine damage and engine-room fire. Same day as existing CORDELIA MOON record (different ship).",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.hellenicshippingnews.com/wp-content/uploads/2024/10/20241004_UKMTO_Summary_Report-04Oct24.pdf",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-RS-20241117-ANADOLU-S": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "ANADOLU S",
+        "date_utc": "2024-11-17",
+        "vessel_type": "bulk carrier",
+        "region": "Red Sea",
+        "summary": "UKMTO and JMIC reported that the Panama-flagged bulk carrier ANADOLU S was ordered over VHF by an alleged Yemeni authority to alter course, and when it did not comply a missile splashed close astern, shaking the ship without visible damage. A second missile splashed near it on 18 November southeast of Aden; Turkey's foreign ministry condemned the Houthi missile attacks on the Turkish-owned ship.",
+        "sources": [
+          {
+            "url": "https://www.hellenicshippingnews.com/wp-content/uploads/2024/11/20241122_UKMTO_Summary_Report-22Nov24.pdf",
+            "source": "UKMTO Weekly Summary Report 16-22 Nov 2024 (incident 134)"
+          },
+          {
+            "url": "https://www.steamshipmutual.com/sites/default/files/medialibrary/files/JMIC%20Week%2047%20Dashboard%2017%20Nov%20-%2023%20Nov%202024.pdf",
+            "source": "CMF-JMIC Week 47 Dashboard (JMIC No. 109)"
+          },
+          {
+            "url": "https://mfa.gov.tr/no_-236_-yemen-aciklarinda-saldiriya-ugrayan-gemi-hk.en.mfa",
+            "source": "Turkish Ministry of Foreign Affairs statement No. 236, 20 Nov 2024"
+          },
+          {
+            "url": "https://www.dailysabah.com/politics/foreign-ministry-condemns-houthi-attack-on-turkish-owned-vessel/news/amp",
+            "source": "Daily Sabah"
+          }
+        ],
+        "attack_type": "Attempted attack",
+        "imo": "9667758",
+        "location_text": "About 25 NM west of Al Mukha, Yemen; second attempt about 60 NM southeast of Aden on 18 November",
+        "date_note": "UKMTO: first attack 171613UTC Nov 2024 (Red Sea), second 180958UTC Nov 2024 (Gulf of Aden). JMIC files it as 18 Nov; Wikipedia and news give 19 Nov (date of Houthi claim). Recorded once on the first attack date."
+      },
+      "audit_notes": [
+        "UKMTO and JMIC give name and IMO 9667758; no damage, crew safe. Houthis claimed a direct hit (Daily Sabah); a naval task force said two missiles struck near the ship. Turkish MFA confirms Houthi missile attacks on the Turkish-owned Panama-flagged dry cargo ship.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.hellenicshippingnews.com/wp-content/uploads/2024/11/20241122_UKMTO_Summary_Report-22Nov24.pdf",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-RS-20260724-NCC-MASA": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "NCC MASA",
+        "date_utc": "2026-07-24",
+        "vessel_type": "tanker",
+        "region": "Red Sea",
+        "summary": "Saudi Arabia's Transport General Authority, quoted by the Saudi Press Agency, said the Saudi vessel NCC MASA was attacked while sailing in the Red Sea and sustained minor hull damage. The crew and vessel were confirmed safe and it continued to its destination.",
+        "sources": [
+          {
+            "url": "https://www.al-monitor.com/originals/2026/07/saudi-vessel-sustains-minor-hull-damage-after-red-sea-attack-state-news-agency",
+            "source": "Reuters via Al-Monitor (citing SPA / Transport General Authority)"
+          },
+          {
+            "url": "https://english.aawsat.com/node/5299821",
+            "source": "Asharq Al-Awsat (Transport General Authority)"
+          },
+          {
+            "url": "https://www.longwarjournal.org/archives/2026/08/houthis-escalate-attacks-in-red-sea-and-on-saudi-arabia-riyadh-evaluates-options.php",
+            "source": "FDD's Long War Journal"
+          }
+        ],
+        "attack_type": "Projectile strike",
+        "location_text": "Red Sea (exact position not stated)",
+        "date_note": "Attack on Friday 24 July 2026 per Reuters/SPA."
+      },
+      "audit_notes": [
+        "Saudi official source confirms the attack and minor hull damage; weapon and attacker not stated by Saudi authorities. Occurred during the Houthi blockade of Saudi shipping declared 20 July; Long War Journal describes it as a Saudi-operated tanker. UKMTO warnings 096-100 for this period were not obtainable.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.al-monitor.com/originals/2026/07/saudi-vessel-sustains-minor-hull-damage-after-red-sea-attack-state-news-agency",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-RS-20260824-AMZAN": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "AMZAN",
+        "date_utc": "2026-08-24",
+        "vessel_type": "oil tanker (VLCC)",
+        "region": "Red Sea",
+        "summary": "UKMTO reported a tanker struck by an unknown projectile about 63 NM west of Yanbu, causing a fire on the main deck, with all crew safe. Bahri confirmed its tanker AMZAN was involved in a maritime incident with all crew safe, and the Houthis claimed a ballistic missile attack on it.",
+        "sources": [
+          {
+            "url": "https://mscio.eu/media/documents/20260824-UKMTO_WARNING_119-26.pdf",
+            "source": "UKMTO Warning 119-26 (via MSCIO)"
+          },
+          {
+            "url": "https://www.aljazeera.com/news/2026/8/24/yemens-houthis-report-attack-on-saudi-ship",
+            "source": "Al Jazeera (Bahri statement, Houthi claim)"
+          }
+        ],
+        "attack_type": "Projectile strike",
+        "imo": "9693745",
+        "location_text": "About 63 NM west of Yanbu, Saudi Arabia",
+        "date_note": "UKMTO report time 0637UTC 24 Aug 2026."
+      },
+      "audit_notes": [
+        "UKMTO warning gives position, fire on main deck, crew safe, no environmental impact, ship unnamed. Al Jazeera names AMZAN via Bahri's confirmation and the Houthi claim, and places it 63 NM west of Yanbu, matching UKMTO. IMO not stated in checked sources.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/8/24/yemens-houthis-report-attack-on-saudi-ship",
+            "source": "Casualty source"
+          },
+          {
+            "url": "https://mscio.eu/media/documents/20260824-UKMTO_WARNING_119-26.pdf",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20240530-CONRO-TRADER": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "CONRO TRADER",
+        "date_utc": "2024-05-30",
+        "vessel_type": "rail ferry",
+        "region": "Black Sea",
+        "summary": "Ukraine's General Staff said ATACMS missiles struck the Kerch ferry crossing overnight into 30 May 2024, damaging two ferries carrying rail and vehicle traffic; media citing Russian Telegram channels named the CONRO TRADER as one of them. A Russian-installed Crimean official said the ferries were damaged by debris from downed missiles.",
+        "sources": [
+          {
+            "url": "https://au.news.yahoo.com/two-ferries-damaged-ukraine-strike-191545074.html",
+            "source": "Reuters via Yahoo News"
+          },
+          {
+            "url": "https://militarnyi.com/en/news/atacms-ballistic-missiles-target-kerch-ferry-crossing-general-staff-reveals",
+            "source": "Militarnyi (Ukrainian General Staff statement)"
+          },
+          {
+            "url": "https://militarnyi.com/en/news/photos-of-damaged-russian-ferries-in-kerch-appeared/",
+            "source": "Militarnyi"
+          },
+          {
+            "url": "https://euromaidanpress.com/2024/05/30/media-two-russian-kerch-strait-ferries-damaged-in-last-nights-attack/",
+            "source": "Euromaidan Press"
+          },
+          {
+            "url": "https://twz.com/news-features/ukraine-situation-report-claims-swirl-around-missile-strike-on-kerch-ferries",
+            "source": "The War Zone"
+          }
+        ],
+        "attack_type": "Missile strike",
+        "imo": "7711763",
+        "location_text": "Near a berth of the Kerch sea fishing port, Kerch, Russian-occupied Crimea",
+        "date_note": "Attack overnight 29-30 May 2024; 30 May used as the attack day, as in the General Staff statement and Reuters."
+      },
+      "audit_notes": [
+        "Reuters confirms the General Staff claim that two ferries were damaged and one ran aground on 30 May 2024, but does not name them. Militarnyi and Euromaidan Press name CONRO TRADER (less serious damage: side damage and deck fire) citing Telegram channels Astra and Military Journal; The War Zone calls the names unconfirmed. Russian-installed officials (Lukashenko, Kryuchkov) said a rail ferry and a road ferry were hit by missile debris with no casualties; Astra reported one CONRO TRADER crew member injured, so injured is left null. IMO from VesselFinder registry page (CONRO TRADER, ro-ro cargo, built 1978). The same ship was sunk at Port Kavkaz on 22 Aug 2024 (separate record).",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20240530-AVANGARD": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "AVANGARD",
+        "date_utc": "2024-05-30",
+        "vessel_type": "rail ferry",
+        "region": "Black Sea",
+        "summary": "Ukraine's General Staff said ATACMS missiles struck the Kerch ferry crossing overnight into 30 May 2024, damaging two ferries, one of which ran aground and blocked the crossing; media citing Russian Telegram channels named the grounded ferry as the AVANGARD. A Russian-installed Crimean official said the damage was caused by debris from downed missiles.",
+        "sources": [
+          {
+            "url": "https://au.news.yahoo.com/two-ferries-damaged-ukraine-strike-191545074.html",
+            "source": "Reuters via Yahoo News"
+          },
+          {
+            "url": "https://militarnyi.com/en/news/atacms-ballistic-missiles-target-kerch-ferry-crossing-general-staff-reveals",
+            "source": "Militarnyi (Ukrainian General Staff statement)"
+          },
+          {
+            "url": "https://militarnyi.com/en/news/photos-of-damaged-russian-ferries-in-kerch-appeared/",
+            "source": "Militarnyi"
+          },
+          {
+            "url": "https://euromaidanpress.com/2024/05/30/media-two-russian-kerch-strait-ferries-damaged-in-last-nights-attack/",
+            "source": "Euromaidan Press"
+          },
+          {
+            "url": "https://maritime-executive.com/article/with-ferry-strikes-ukraine-narrows-russia-s-options-at-kerch-strait",
+            "source": "Maritime Executive"
+          }
+        ],
+        "attack_type": "Missile strike",
+        "location_text": "Small port on the outskirts of Kerch, Russian-occupied Crimea",
+        "date_note": "Attack overnight 29-30 May 2024; 30 May used as the attack day, as in the General Staff statement and Reuters."
+      },
+      "audit_notes": [
+        "Reuters confirms two ferries damaged and one grounded on 30 May 2024 but gives no names. Militarnyi and Euromaidan Press (citing Astra and Military Journal) name AVANGARD as the ferry that ran aground with a hole in the upper deck; The War Zone calls the names unconfirmed. Maritime Executive (March 2026) separately states AVANGARD was struck at berth with ATACMS in 2024. Astra reported four injured aboard AVANGARD, Russian officials said no casualties, so injured is null. IMO omitted: Maritime Executive gives 9522403 but Shippax gives build year 1979, which does not fit that IMO series.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20240723-SLAVYANIN": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "SLAVYANIN",
+        "date_utc": "2024-07-23",
+        "vessel_type": "rail ferry",
+        "region": "Black Sea",
+        "summary": "Ukraine's General Staff said its naval forces caused significant damage to the rail ferry SLAVYANIN at Port Kavkaz on 23 July 2024, saying it carried rail wagons, vehicles and military containers. Krasnodar governor Veniamin Kondratyev said drones hit the ferry, causing a fire, and that one person was killed.",
+        "sources": [
+          {
+            "url": "https://maritime-executive.com/article/ukraine-claims-strike-on-kerch-strait-s-strategic-rail-ferry",
+            "source": "Maritime Executive"
+          },
+          {
+            "url": "https://babel.ua/en/news/109285-general-staff-ukrainian-military-damaged-a-russian-railway-ferry-in-the-port-kavkaz",
+            "source": "Babel (Ukrainian General Staff and Krasnodar governor statements)"
+          },
+          {
+            "url": "https://www.marineinsight.com/ukrainian-drone-attack-damages-ferry-in-russias-kavkaz-port-1-dead/",
+            "source": "Marine Insight"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "imo": "8300169",
+        "location_text": "Port Kavkaz, Kerch Strait, Krasnodar Krai, Russia"
+      },
+      "audit_notes": [
+        "All three sources name SLAVYANIN and date the strike 23 July 2024. Governor Kondratyev reported one dead and others injured among crew and port workers without saying whether the dead person was aboard, so deaths and injured are left null. Ukraine describes the ferry as used for military logistics; it is a civilian-registered ro-ro rail ferry. IMO 8300169 from Maritime Executive (March 2026). The ship was hit again in March and April 2026 (outside this batch's period).",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20240822-CONRO-TRADER": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "CONRO TRADER",
+        "date_utc": "2024-08-22",
+        "vessel_type": "rail ferry",
+        "region": "Black Sea",
+        "summary": "The rail ferry CONRO TRADER, reportedly carrying about 30 rail fuel tank cars, caught fire and sank at its pier in Port Kavkaz on 22 August 2024 after an attack Russian media blamed on Ukraine; Ukrainska Pravda's defence sources said it was hit by a Ukrainian missile, most likely a Neptune. Ukraine's navy spokesman Dmytro Pletenchuk confirmed the navy destroyed the ferry but gave no details of the weapon.",
+        "sources": [
+          {
+            "url": "https://maritime-executive.com/article/video-russian-kerch-strait-ferry-destroyed-by-fire-after-ukrainian-attack",
+            "source": "Maritime Executive"
+          },
+          {
+            "url": "https://news.liga.net/en/politics/news/ukraines-navy-confirms-destruction-of-russian-ferry-conro-trader-in-port-of-kavkaz",
+            "source": "LIGA.net (Ukrainian Navy statement)"
+          },
+          {
+            "url": "https://euromaidanpress.com/2024/08/22/fuel-laden-ferry-sinks-in-russian-port-after-alleged-ukrainian-strike-russian-media/",
+            "source": "Euromaidan Press (Krasnodar operational HQ via RBC)"
+          },
+          {
+            "url": "https://www.pravda.com.ua/eng/news/2024/08/22/7471476/",
+            "source": "Ukrainska Pravda (defence forces sources)"
+          }
+        ],
+        "attack_type": "Missile strike",
+        "imo": "7711763",
+        "location_text": "Port Kavkaz, Kerch Strait, Krasnodar Krai, Russia"
+      },
+      "audit_notes": [
+        "Maritime Executive and Euromaidan Press report the fire and sinking on 22 Aug 2024; the Ukrainian Navy confirmed on 23 Aug that it destroyed CONRO TRADER. Krasnodar operational HQ (via RBC) said the ferry carried 30 fuel tanks; governor Kondratyev said four crew were rescued. Crew numbers conflict (Reuters 17, Russian media 5) and two to three crew were reported missing by media, so missing is left null. Weapon not stated by Ukraine; Russian media said missile and analysts suggested Neptune. IMO from VesselFinder registry page.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20250819-EXCELLION": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "EXCELLION",
+        "date_utc": "2025-08-19",
+        "vessel_type": "product tanker",
+        "region": "Black Sea",
+        "summary": "The Panama-flagged product tanker EXCELLION was badly damaged on its starboard side, pumps and valves while discharging fuel at Izmail during a Russian drone attack on the port's oil terminal, Maritime Executive and Baird Maritime reported. Local officials reported one person injured in the attack, not stated to be aboard.",
+        "sources": [
+          {
+            "url": "https://maritime-executive.com/article/russian-drones-damage-tanker-during-attack-on-oil-terminal-in-izmail",
+            "source": "Maritime Executive"
+          },
+          {
+            "url": "https://www.bairdmaritime.com/security/incidents/acts-of-war/tanker-port-facilities-damaged-in-russian-attack-on-ukraines-odesa-region",
+            "source": "Baird Maritime (citing Ambrey)"
+          },
+          {
+            "url": "https://www.marineinsight.com/?p=1873907",
+            "source": "Marine Insight"
+          },
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/Register_of_RU_attacks/Register_of_Damage_Lower_Danube_Region_caused_by_the_Military_Actions_of_the_Russian_Federation_20260519.pdf",
+            "source": "Danube Commission Register of Damage in the Lower Danube Region (information provided by Ukraine), version 19 May 2026"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "location_text": "Eastern berth of the Triton oil depot, Izmail Oil Transshipment Complex, port of Izmail, Danube, Ukraine",
+        "date_note": "Maritime Executive and Baird put the attack at about 20:00 local on Tuesday 19 August 2025 (17:00 UTC), lasting about 90 minutes; Marine Insight says 20 August; the Danube Commission register dates the Izmail attack 19-20/08/2025. 2025-08-19 is used."
+      },
+      "audit_notes": [
+        "Maritime Executive (20 Aug 2025): EXCELLION, 7,842 dwt product tanker, built 2008, Panama flag, Makoil Group, alongside and offloading at the Triton depot when drones struck on the evening of 19 Aug; damage to starboard side, pumping equipment, valves and lines; one injury announced by local officials. Baird (22 Aug 2025): same, Ambrey said the tanker may be disabled. Marine Insight: same vessel and damage. The Danube Commission register (Ukraine-provided) confirms the 19-20 Aug UAV attack on the Triton Service Ukraine oil depot at Izmail with 1 injured but does not name the tanker; USPA does not list it. CAVEAT: no government statement naming the ship was found, hence medium confidence. Black Sea News (discovery) gives IMO 9428437 (check digit valid); not on a fetched page, so omitted.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20251117-ORINDA": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "ORINDA",
+        "date_utc": "2025-11-17",
+        "vessel_type": "LPG carrier",
+        "region": "Black Sea",
+        "summary": "The Turkish-flagged LPG carrier ORINDA was hit and caught fire while offloading liquefied petroleum gas at Izmail during an overnight Russian drone attack on the port, according to Ukrainian officials and Turkey's maritime authority. All 16 crew left the ship without injury and Romania evacuated residents of the nearby village of Plauru as a precaution.",
+        "sources": [
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Ukrainian Sea Ports Authority presentation, 23 Apr 2026 (Danube Commission)"
+          },
+          {
+            "url": "https://www.hurriyet.com.tr/dunya/ukraynada-vurulan-turk-gemisindeki-yangin-kontrol-altina-alindi-43023119",
+            "source": "Turkish Directorate General of Maritime Affairs statement via Hurriyet"
+          },
+          {
+            "url": "https://kyivindependent.com/romania-evacuates-village-after-russian-drone-hits-gas-ship-on-ukrainian-side-of-border/",
+            "source": "Kyiv Independent"
+          },
+          {
+            "url": "https://maritime-executive.com/article/russian-attack-starts-fire-on-lpg-carrier-and-damages-vessels-in-ukraine",
+            "source": "Maritime Executive"
+          },
+          {
+            "url": "https://en.usm.media/?p=183808",
+            "source": "USPA statement via Ukrainian Shipping Magazine"
+          },
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/Register_of_RU_attacks/Register_of_Damage_Lower_Danube_Region_caused_by_the_Military_Actions_of_the_Russian_Federation_20260519.pdf",
+            "source": "Danube Commission Register of Damage in the Lower Danube Region (information provided by Ukraine), version 19 May 2026"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "imo": "9240122",
+        "location_text": "Alongside at the port of Izmail, Danube, Odesa region, Ukraine, about 500 m from the Romanian village of Plauru",
+        "date_note": "The USPA presentation lists 16 November 2025; news and Ukrainian officials place the attack on the night of 16 to 17 November local time, with the ship reported hit in the early hours of 17 November (EET, UTC+2). 2025-11-17 is used; the USPA date reflects the night the attack began."
+      },
+      "audit_notes": [
+        "USPA presentation names ORINDA with 16 Nov 2025 and 0 injured. Hurriyet carries the Turkish Directorate General of Maritime Affairs statement that the Turkish-flagged ORINDA was hit at Izmail during discharge, caught fire, and the crew left safely, dating the attack to the night of 16 to 17 November. Kyiv Independent reports a Russian drone strike overnight on 17 November, 16 Turkish crew unhurt per Turkey's government, and the Plauru evacuation. Maritime Executive gives 9,352 dwt, built 2002, offloading LPG, and quotes governor Oleh Kiper that several civilian vessels were damaged; it also says one person was injured in the wider attack, not stated to be aboard. USM cites USPA that the fire was extinguished. IMO 9240122 is stated by the Black Sea News attacks database (discovery) and by scheepvaartwest.be for the same hull under former name CORAL ORINDA (2002, Hudong-Zhonghua, 9,352 dwt), matching Maritime Executive; check digit valid. Some outlets wrongly call the cargo LNG. Ukraine's navy spokesman later said the master had ignored a warning to leave the berth (USM, 20 Nov 2025). Danube Commission register entry 17/11/2025 (Izmail, UAV) also lists the LPG pipeline of the tanker ORINDA (IMO 9240122, shipowner ORINDA DENIZCILIK, Ankara) as damaged, supporting 17 Nov.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://kyivindependent.com/romania-evacuates-village-after-russian-drone-hits-gas-ship-on-ukrainian-side-of-border/",
+            "source": "Casualty source"
+          },
+          {
+            "url": "https://www.hurriyet.com.tr/dunya/ukraynada-vurulan-turk-gemisindeki-yangin-kontrol-altina-alindi-43023119",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20251202-MIDVOLGA-2": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "MIDVOLGA-2",
+        "date_utc": "2025-12-02",
+        "vessel_type": "tanker",
+        "region": "Black Sea",
+        "summary": "Russia's Rosmorrechflot said a drone hit the Russian-flagged tanker MIDVOLGA-2, carrying sunflower oil, on 2 December 2025, damaging its superstructure; Turkey's transport ministry said the ship reported an attack and continued to Sinop without requesting help. Ukraine's foreign ministry denied involvement and the attacker is unconfirmed.",
+        "sources": [
+          {
+            "url": "https://gcaptain.com/russian-flagged-tanker-reports-drone-attack-off-turkey-authorities-say/",
+            "source": "Reuters via gCaptain"
+          },
+          {
+            "url": "https://maritime-executive.com/article/russia-reports-drone-attack-on-tanker-but-ukraine-denies-involvement",
+            "source": "Maritime Executive"
+          },
+          {
+            "url": "https://tass.com/emergencies/2052215/amp",
+            "source": "TASS (Rosmorrechflot)"
+          },
+          {
+            "url": "https://militarnyi.com/en/news/turkiye-reports-attack-on-russian-tanker-midvolga-2-in-the-black-sea/",
+            "source": "Militarnyi (Turkish Directorate General of Maritime Affairs)"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "imo": "9735139",
+        "location_text": "Black Sea, about 80 miles (130 km) off Turkey's northern coast, en route to Sinop"
+      },
+      "audit_notes": [
+        "Reuters, Maritime Executive and TASS agree on name, date (about 08:00 Moscow time, 2 Dec 2025) and that all 13 crew were unharmed. Some later reports (not verified here) said the master and second engineer were injured, so injured is null. Maritime Executive calls it a small product tanker (6,573 dwt, built 2014). IMO 9735139 from Militarnyi. Ukraine denied involvement; Russian state media blamed Ukraine. Name also written MIDVOLGA 2.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://gcaptain.com/russian-flagged-tanker-reports-drone-attack-off-turkey-authorities-say/",
+            "source": "Casualty source"
+          },
+          {
+            "url": "https://tass.com/emergencies/2052215/amp",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20251210-DASHAN": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "DASHAN",
+        "date_utc": "2025-12-10",
+        "vessel_type": "oil tanker",
+        "region": "Black Sea",
+        "summary": "An official of Ukraine's SBU said Sea Baby sea drones struck the sanctioned tanker DASHAN in the stern on 10 December 2025 while it sailed toward Novorossiysk with its transponder off, causing critical damage. Three maritime security sources confirmed the strike to Reuters; Russia did not comment.",
+        "sources": [
+          {
+            "url": "https://www.bairdmaritime.com/security/naval/unmanned-naval-systems/video-ukrainian-sea-drones-disable-russian-shadow-fleet-tanker-in-black-sea",
+            "source": "Reuters via Baird Maritime"
+          },
+          {
+            "url": "https://kyivindependent.com/ukraines-sbu-conducts-new-sea-baby-drone-strike-on-russian-shadow-fleet-tanker-in-black-sea-source-says/",
+            "source": "Kyiv Independent"
+          },
+          {
+            "url": "https://maritime-executive.com/article/third-shadow-fleet-tanker-hit-by-suspected-ukrainian-drone-boat-attack",
+            "source": "Maritime Executive"
+          }
+        ],
+        "attack_type": "Sea drone strike",
+        "imo": "9299666",
+        "location_text": "Black Sea, in Ukraine's exclusive economic zone according to the SBU, en route to Novorossiysk"
+      },
+      "audit_notes": [
+        "Reuters and Kyiv Independent both date the strike 10 Dec 2025 and cite SBU sources. Maritime Executive gives IMO 9299666 (Suezmax, built 2005, ex Mianzimu), says the ship was in ballast and that Equasis lists it as stateless with a false flag; Kyiv Independent says Comoros flag. No casualties reported.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20251212-CENK-T": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "CENK T",
+        "date_utc": "2025-12-12",
+        "vessel_type": "ro-ro passenger ship (RoPax)",
+        "region": "Black Sea",
+        "summary": "The Turkish-owned RoPax CENK T was hit and set on fire at Chornomorsk during a Russian missile and drone attack on Odesa region ports, according to its owner Cenk Shipping, Turkey's foreign ministry and President Zelenskyy. The owner reported no casualties or injuries among the crew.",
+        "sources": [
+          {
+            "url": "https://www.bairdmaritime.com/security/incidents/acts-of-war/russian-attack-damages-civilian-vessel-in-ukraines-chornomorsk-port",
+            "source": "Reuters via Baird Maritime"
+          },
+          {
+            "url": "https://maritime-executive.com/article/turkish-owned-ropax-on-fire-after-russian-attack-on-odesa-region",
+            "source": "Maritime Executive"
+          },
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Ukrainian Sea Ports Authority presentation, 23 Apr 2026 (Danube Commission)"
+          },
+          {
+            "url": "https://magicport.ai/vessels/passenger/cenk-t-mmsi-370176000",
+            "source": "MagicPort vessel page (IMO)"
+          }
+        ],
+        "attack_type": "Missile strike",
+        "imo": "7528635",
+        "location_text": "Alongside at the port of Chornomorsk, Odesa region, Ukraine"
+      },
+      "audit_notes": [
+        "Reuters (via Baird) names CENK T, owner Cenk Shipping, hit at Chornomorsk about 16:00 local (14:00 GMT) on 12 Dec 2025, owner says no crew casualties or injuries and damage appears limited; Ukraine's navy said three Turkish-owned vessels were damaged at two ports (the other two not named). Maritime Executive: RoPax built 1978, about 21,000 GT, owned by Cenk RoRo; Zelenskyy called it a missile strike; one person, possibly a dockworker, reportedly injured (not stated to be aboard). USPA lists CENK T, 12 December 2025, 0 injured. Weapon: Zelenskyy and the operator described a missile; Ambrey (per secondary reports) suggested a drone, so 'Missile strike' follows the official Ukrainian account. IMO 7528635 from MagicPort (CENK T, Ro-Ro/Passenger, Panama, built 1978, matching Maritime Executive's build year); check digit valid.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.bairdmaritime.com/security/incidents/acts-of-war/russian-attack-damages-civilian-vessel-in-ukraines-chornomorsk-port",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20251213-VIVA": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "VIVA",
+        "date_utc": "2025-12-13",
+        "vessel_type": "product tanker",
+        "region": "Black Sea",
+        "summary": "Ukraine's navy said a Russian drone struck the Tuvalu-flagged, Turkish-operated product tanker VIVA in the Black Sea while it carried sunflower oil from Ukraine to Egypt. The 11 Turkish crew were unhurt and the damaged ship continued its voyage.",
+        "sources": [
+          {
+            "url": "https://www.bairdmaritime.com/security/naval/unmanned-naval-systems/ukraine-claims-russian-drone-attack-hit-civilian-turkish-vessel",
+            "source": "Reuters via Baird Maritime"
+          },
+          {
+            "url": "https://maritime-executive.com/article/video-russian-drone-hits-product-tanker-in-black-sea-after-leaving-ukraine",
+            "source": "Maritime Executive"
+          },
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Ukrainian Sea Ports Authority presentation, 23 Apr 2026 (Danube Commission)"
+          },
+          {
+            "url": "https://magicport.ai/vessels/tanker/viva-mmsi-572839220",
+            "source": "MagicPort vessel page (IMO, same MMSI 572839220)"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "imo": "9156539",
+        "location_text": "Black Sea, Ukraine's exclusive economic zone, more than 20 miles off the coast in the Ukrainian corridor, after leaving a Ukrainian port for Egypt"
+      },
+      "audit_notes": [
+        "Reuters (Max Hunder, via Baird) quotes Ukraine's navy that Russia deliberately attacked the civilian Turkish vessel VIVA carrying sunflower oil to Egypt in Ukraine's EEZ, outside air defence range; nobody hurt; 11 Turkish citizens aboard. Maritime Executive: product tanker, 16,116 dwt, Tuvalu flag, Chemtankers Shipping, 13 Dec 2025, damaged but proceeding. USPA lists VIVA, 13 December 2025, 0 injured. Attack attributed by Ukraine; no Russian comment found. IMO 9156539: the MagicPort page for the VIVA-era MMSI 572839220 now shows the ship as NOVA, IMO 9156539, chemical/oil products tanker, 16,116 dwt, built 1999 (the 16,116 dwt matches Maritime Executive), indicating a later renaming; the Black Sea News database also gives VIVA as IMO 9156539. Check digit valid.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://maritime-executive.com/article/video-russian-drone-hits-product-tanker-in-black-sea-after-leaving-ukraine",
+            "source": "Casualty source"
+          },
+          {
+            "url": "https://www.bairdmaritime.com/security/naval/unmanned-naval-systems/ukraine-claims-russian-drone-attack-hit-civilian-turkish-vessel",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20251218-VALERIY-GORCHAKOV": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "VALERIY GORCHAKOV",
+        "date_utc": "2025-12-18",
+        "vessel_type": "oil tanker",
+        "region": "Black Sea",
+        "summary": "Rostov governor Yuri Slyusar said a vessel caught fire in Rostov-on-Don port during a Ukrainian drone attack overnight on 18 December 2025, killing two crew and injuring three; risk firm Vanguard and OSINT reports identified the ship as the tanker VALERIY GORCHAKOV. Ukraine's Special Operations Forces said they struck an oil base and a river vessel in the area.",
+        "sources": [
+          {
+            "url": "https://maritime-executive.com/article/ukrainian-long-range-attack-kills-two-crew-and-damages-tanker-in-rostov",
+            "source": "Maritime Executive"
+          },
+          {
+            "url": "https://euromaidanpress.com/2025/12/18/drone-strike-sets-russian-tanker-ablaze-in-rostov-on-don-port-map/",
+            "source": "Euromaidan Press (Rostov governor statement)"
+          },
+          {
+            "url": "https://www.portseurope.com/ukrainian-drone-kills-two-on-russian-oil-tanker-in-rostov-on-don-port/",
+            "source": "Ports Europe"
+          },
+          {
+            "url": "https://militarnyi.com/en/news/russian-tanker-valery-gorchakov-which-was-attacked-by-drones-sinks/",
+            "source": "Militarnyi"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "imo": "8951293",
+        "location_text": "Port of Rostov-on-Don, Don River, Rostov region, Russia"
+      },
+      "audit_notes": [
+        "Russian officials confirmed the attack, the fire and two crew dead and three injured but did not name the ship; the name comes from risk firm Vanguard (Maritime Executive) and Astra/OSINT (Euromaidan Press, Militarnyi), and Ports Europe also names it. Maritime Executive: built 1969 as dry cargo ship, converted to oil tanker 2004, about 5,000 dwt, managed by Volgo-Balt Service, Russian flag. Later reports said the ship was sinking by the stern. IMO 8951293 from VesselFinder registry page (VALERIY GORCHAKOV, Russia, built 1969); also spelled VALERY GORCHAKOV.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 2,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://maritime-executive.com/article/ukrainian-long-range-attack-kills-two-crew-and-damages-tanker-in-rostov",
+            "source": "Casualty source"
+          },
+          {
+            "url": "https://euromaidanpress.com/2025/12/18/drone-strike-sets-russian-tanker-ablaze-in-rostov-on-don-port-map/",
+            "source": "Casualty source"
+          }
+        ]
+      },
+      "human_impact": {
+        "injured": {
+          "count": 3,
+          "as_of": "2025-12-18",
+          "sources": [
+            {
+              "url": "https://maritime-executive.com/article/ukrainian-long-range-attack-kills-two-crew-and-damages-tanker-in-rostov",
+              "source": "Casualty source"
+            },
+            {
+              "url": "https://euromaidanpress.com/2025/12/18/drone-strike-sets-russian-tanker-ablaze-in-rostov-on-don-port-map/",
+              "source": "Casualty source"
+            }
+          ]
+        }
+      }
+    },
+    "HIST-BS-20251223-ANKA": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "ANKA",
+        "date_utc": "2025-12-23",
+        "vessel_type": "general cargo",
+        "region": "Black Sea",
+        "summary": "The Tanzania-flagged vessel ANKA, held under arrest by Ukraine's asset agency ARMA, caught fire after a Russian drone attack on the port of Reni, according to the Danube Commission damage register and Ukrainian Shipping Magazine. No casualties were reported.",
+        "sources": [
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/Register_of_RU_attacks/Register_of_Damage_Lower_Danube_Region_caused_by_the_Military_Actions_of_the_Russian_Federation_20260519.pdf",
+            "source": "Danube Commission Register of Damage in the Lower Danube Region (information provided by Ukraine), version 19 May 2026"
+          },
+          {
+            "url": "https://en.usm.media/?p=185972",
+            "source": "Ukrainian Shipping Magazine (ARMA auction report)"
+          },
+          {
+            "url": "https://en.usm.media/?p=185737",
+            "source": "Ukrainian Shipping Magazine"
+          },
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Ukrainian Sea Ports Authority presentation, 23 Apr 2026 (Danube Commission)"
+          },
+          {
+            "url": "https://en.interfax.com.ua/news/general/1130653.html",
+            "source": "Deputy PM Kuleba via Interfax-Ukraine (Reni port damage that night)"
+          },
+          {
+            "url": "https://magicport.ai/vessels/general-cargo/anka-mmsi-457480000",
+            "source": "MagicPort vessel registry"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "imo": "9365415",
+        "location_text": "Port of Reni, Danube, Izmail district, Odesa region, Ukraine",
+        "date_note": "USPA lists 22 December 2025; the Danube Commission register and Ukrainian Shipping Magazine (citing ARMA) give 23 December. The strike came in the overnight attack of 22 to 23 December local time; 2025-12-23 is used because the dedicated damage register and the asset agency both give it. If the hit was before 02:00 local, the UTC date would be 22 December."
+      },
+      "audit_notes": [
+        "Danube Commission register entry 23/12/2025, Reni seaport, UAV: 'The vessel Anka (flag of Tanzania) took fire, covering an area of 50 square meters'; no casualties. USM (29 Dec 2025) reports ARMA's auction of ANKA failed and that it was damaged by a Russian attack in Odesa region on 23 December, IMO 9365415, Tanzania flag. USM (23 Dec 2025) reports the arrested ship caught fire after the Russian attack, with the regional emergency service photo. USPA lists ANKA, 22 December 2025, 0 injured. Interfax (Kuleba/USPA) confirms port infrastructure at Reni damaged that night. The vessel had been arrested for an illegal call at occupied Crimea. Black Sea News (discovery only) describes it as a bulk carrier, ex VICTORIA. IMO check digit valid.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/Register_of_RU_attacks/Register_of_Damage_Lower_Danube_Region_caused_by_the_Military_Actions_of_the_Russian_Federation_20260519.pdf",
+            "source": "Casualty source"
+          },
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20251226-MAJESTIC": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "MAJESTIC",
+        "date_utc": "2025-12-26",
+        "vessel_type": "river vessel",
+        "region": "Black Sea",
+        "summary": "The Slovak-flagged river vessel MAJESTIC, on the Danube roadstead at Izmail, was damaged in an overnight Russian drone attack on Odesa region ports, according to Slovakia's foreign ministry and the Danube Commission damage register. The foreign ministry said no one was aboard and the ship was already unseaworthy from earlier Russian strikes.",
+        "sources": [
+          {
+            "url": "https://www.ukrinform.net/rubric-ato/4073832-slovakflagged-ship-damaged-in-russian-attack-on-odesa-seaports.html",
+            "source": "Ukrinform (citing Slovak Ministry of Foreign Affairs)"
+          },
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/Register_of_RU_attacks/Register_of_Damage_Lower_Danube_Region_caused_by_the_Military_Actions_of_the_Russian_Federation_20260519.pdf",
+            "source": "Danube Commission Register of Damage in the Lower Danube Region (information provided by Ukraine), version 19 May 2026"
+          },
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Ukrainian Sea Ports Authority presentation, 23 Apr 2026 (Danube Commission)"
+          },
+          {
+            "url": "https://enrsi.stvr.sk/articles/news/426931/slovak-flagged-ship-damaged-in-russian-attack-on-odesa",
+            "source": "Slovak Radio RSI (Slovak foreign ministry)"
+          },
+          {
+            "url": "https://www.ukrinform.net/rubric-ato/4073616-russia-attacked-ports-in-odesa-region-all-night-kuleba.html",
+            "source": "Ukraine communities ministry via Ukrinform"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "location_text": "Danube roadstead at km 86, Izmail, Odesa region, Ukraine (Slovak foreign ministry described it as Odesa)",
+        "date_note": "Night of 25 to 26 December 2025 local time. USPA and the communities ministry give 26 December; the Danube Commission register entry is dated 25-26/12/2025. 2025-12-26 is used."
+      },
+      "audit_notes": [
+        "Ukrinform (26 Dec 2025) names the Slovak-flagged MAJESTIC, citing Slovakia's foreign ministry: no people aboard, Ukrainian crew, not seaworthy because of damage from earlier Russian strikes. Danube Commission register (25-26/12/2025, Izmail, UAV): 'The vessel MAJESTIC on the roadstead km 86 of the Danube River (river vessel, flag of Slovakia, in ballast)'. USPA lists MAJESTIC, 26 December 2025, 0 injured. The communities ministry (via Ukrinform and USM) reported ships under the flags of Slovakia and Palau damaged that night. RSI says no one was aboard. The same ship is also listed by USPA and the register as damaged at Izmail on 17 Nov 2025 (see govonly file). No IMO found (register gives MMSI 267131318 in the November entry).",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.ukrinform.net/rubric-ato/4073832-slovakflagged-ship-damaged-in-russian-attack-on-odesa-seaports.html",
+            "source": "Casualty source"
+          },
+          {
+            "url": "https://enrsi.stvr.sk/articles/news/426931/slovak-flagged-ship-damaged-in-russian-attack-on-odesa",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20251230-EMMAKRIS-III": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "EMMAKRIS III",
+        "date_utc": "2025-12-30",
+        "vessel_type": "bulk carrier",
+        "region": "Black Sea",
+        "summary": "Ukraine's navy said Russian drones hit the Panama-flagged bulk carrier EMMAKRIS III, one of two civilian ships entering port to load wheat, during attacks on the Pivdennyi and Chornomorsk ports. Ukrainian Shipping Magazine reported that the ship had been under Ukrainian arrest at Chornomorsk since 2022.",
+        "sources": [
+          {
+            "url": "https://gcaptain.com/russia-attacks-ukraines-black-sea-ports-and-civilian-ships-kyiv-says/",
+            "source": "Reuters via gCaptain"
+          },
+          {
+            "url": "https://www.pravda.com.ua/eng/news/2025/12/30/8014029/",
+            "source": "Ukrainska Pravda (Ukrainian Navy)"
+          },
+          {
+            "url": "https://militarnyi.com/en/news/russian-drones-attack-two-panamanian-flagged-civilian-vessels-in-ukraine/",
+            "source": "Militarnyi (Ukrainian Navy)"
+          },
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Ukrainian Sea Ports Authority presentation, 23 Apr 2026 (Danube Commission)"
+          },
+          {
+            "url": "https://babel.ua/en/news/124044-russians-attacked-ports-in-the-odesa-region-two-civilian-ships-were-damaged",
+            "source": "Babel (Navy and Kuleba)"
+          },
+          {
+            "url": "https://en.usm.media/?p=186088",
+            "source": "Ukrainian Shipping Magazine"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "location_text": "Port of Chornomorsk area, Odesa region, Ukraine"
+      },
+      "audit_notes": [
+        "Reuters (Olena Harmash, via gCaptain, 30 Dec 2025): Ukraine's navy said Russia attacked the Panama-flagged EMMAKRIS III and CAPTAIN KARAM as they entered a Black Sea port to load wheat; Kuleba said Pivdennyi and Chornomorsk ports and oil tanks were hit. Ukrainska Pravda: EMMAKRIS III is a Panama-flagged bulk carrier. Militarnyi: both bulk carriers hit on the side by drones, 'civilians were injured' (no count). Babel/Kuleba: one person injured in the port attack. USPA lists EMMAKRIS III, 30 December 2025, 0 injured. Casualties left null because sources conflict and none ties an injury to this ship. USM: arrested at Chornomorsk in 2022, beneficial owner reportedly a Rostov-on-Don company. Black Sea News (discovery only) gives IMO 9218387 (check digit valid) but no fetched page confirms it, so IMO omitted. Conflict: the navy's 'entering port' account and USM's 'arrested at Chornomorsk since 2022' are not reconciled; both are attributed.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20251230-CAPTAIN-KARAM": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "CAPTAIN KARAM",
+        "date_utc": "2025-12-30",
+        "vessel_type": "bulk carrier",
+        "region": "Black Sea",
+        "summary": "Ukraine's navy said Russian drones hit the Panama-flagged bulk carrier CAPTAIN KARAM as it was entering a Ukrainian port to load wheat.",
+        "sources": [
+          {
+            "url": "https://gcaptain.com/russia-attacks-ukraines-black-sea-ports-and-civilian-ships-kyiv-says/",
+            "source": "Reuters via gCaptain"
+          },
+          {
+            "url": "https://militarnyi.com/en/news/russian-drones-attack-two-panamanian-flagged-civilian-vessels-in-ukraine/",
+            "source": "Militarnyi (Ukrainian Navy)"
+          },
+          {
+            "url": "https://www.pravda.com.ua/eng/news/2025/12/30/8014029/",
+            "source": "Ukrainska Pravda (Ukrainian Navy)"
+          },
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Ukrainian Sea Ports Authority presentation, 23 Apr 2026 (Danube Commission)"
+          },
+          {
+            "url": "https://babel.ua/en/news/124044-russians-attacked-ports-in-the-odesa-region-two-civilian-ships-were-damaged",
+            "source": "Babel (Navy and Kuleba)"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "location_text": "Approaching a Greater Odesa port (Chornomorsk area) to load wheat, Odesa region, Ukraine"
+      },
+      "audit_notes": [
+        "Reuters via gCaptain names CAPTAIN KARAM, Panama-flagged, entering port to load wheat, 30 Dec 2025, per Ukraine's navy. Militarnyi calls both ships Panamanian bulk carriers hit by drones; Babel quotes the navy that CAPTAIN KARAM was entering port to load grain. USPA lists CAPTAIN KARAM, 30 December 2025, 0 injured. Injuries left null: Militarnyi says civilians were injured without detail, USPA says 0, and Black Sea News (discovery) mentions one crew member injured. Exact port not named by fetched sources. IMO 9303039 appears in Black Sea News and a Gard search snippet (page returned 404); not confirmed on a fetched page, so omitted.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20240927-VOLGONEFT-25": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "VOLGONEFT-25",
+        "date_utc": "2024-09-27",
+        "vessel_type": "oil tanker",
+        "region": "Black Sea",
+        "summary": "Ukraine told the IMO that a drone struck the empty Ukrainian-flagged tanker VOLGONEFT-25 in Izmail port during an overnight air raid on 26-27 September 2024, setting it on fire. A Ukraine-supplied entry in the Danube Commission damage register dates the attack 27 September 2024 and lists damage to a cargo tank, fire main, railings, superstructure portholes and the main-deck cargo line, with no crew aboard.",
+        "sources": [
+          {
+            "url": "https://data.consilium.europa.eu/doc/document/WK-15310-2025-INIT/en/pdf",
+            "source": "Ukraine submission to IMO A 34/23/2 (hosted by Council of the EU)"
+          },
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/Register_of_RU_attacks/Register_of_Damage_Lower_Danube_Region_caused_by_the_Military_Actions_of_the_Russian_Federation_20260519.pdf",
+            "source": "Danube Commission, Register of Damage in the Lower Danube Region (information provided by Ukraine)"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "imo": "8943985",
+        "location_text": "Izmail Sea Port, Danube River, Odesa region, Ukraine",
+        "date_note": "IMO annex gives only the air-raid window, 23:41 on 26 Sep to 03:55 on 27 Sep 2024 local time (UTC+3), i.e. 20:41 UTC 26 Sep to 00:55 UTC 27 Sep. The Danube Commission register dates the attack 27/09/2024 (local date of the overnight raid), and contemporary reports (Odesa governor Kiper via Novaya Gazeta Europe, 27 Sep 2024) describe the drone attack on Izmail as overnight into 27 September. Exact strike time is not published, so in UTC it may fall late on 26 Sep."
+      },
+      "audit_notes": [
+        "IMO A 34/23/2 annex item 12: oil tanker Volgoneft-25, IMO 8943985, flag of Ukraine, without cargo, Izmail Sea Port; a UAV struck the vessel during the air raid and caused a fire; no casualties among crew. Danube Commission register (entry 9/27/2024, Izmail seaport, UAV): damage to 'Vessel Volgoneft-25 (flag of Ukraine, IMO 8943985, without cargo, without crew)' including 1 cargo tank, fire main, railings, superstructure portholes and the cargo line between frames 126 and 130. The register's 14 injured / 3 killed figure is for the whole attack on Izmail city, not the ship. CAVEAT: both documents originate from the Government of Ukraine (the register is Ukraine-supplied information published by the Danube Commission), so they are not fully independent; no news report naming the vessel was found. Held candidate resolved on date only. IMO check digit valid. HOLD FLAG: both sources are Ukrainian-government documents (USPA presentation and/or IMO submission, and the Danube Commission damage register compiled from Ukrainian data); no independent news or non-Ukrainian source names this vessel. Publish only if a Ukraine-government-only pair is accepted.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://data.consilium.europa.eu/doc/document/WK-15310-2025-INIT/en/pdf",
+            "source": "Casualty source"
+          },
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/Register_of_RU_attacks/Register_of_Damage_Lower_Danube_Region_caused_by_the_Military_Actions_of_the_Russian_Federation_20260519.pdf",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20250902-VOLGONEFT-25": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "VOLGONEFT-25",
+        "date_utc": "2025-09-02",
+        "vessel_type": "tanker",
+        "region": "Black Sea",
+        "summary": "Ukraine's port authority and the Danube Commission damage register say the laid-up Ukrainian-flagged tanker VOLGONEFT 25, used as a buffer vessel at Izmail, took a direct drone hit in its stern compartment during a Russian attack, causing an internal explosion, collapse of the superstructure and a fuel vapour fire.",
+        "sources": [
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Ukrainian Sea Ports Authority presentation, 23 Apr 2026 (Danube Commission)"
+          },
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/Register_of_RU_attacks/Register_of_Damage_Lower_Danube_Region_caused_by_the_Military_Actions_of_the_Russian_Federation_20260519.pdf",
+            "source": "Danube Commission Register of Damage in the Lower Danube Region (information provided by Ukraine), version 19 May 2026"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "imo": "8943985",
+        "location_text": "Port of Izmail, Danube, Odesa region, Ukraine"
+      },
+      "audit_notes": [
+        "Danube Commission register entry 02/09/2025, Izmail seaport, UAV attack: damaged vessels listed as VOLGONEFT 25, SVIR, NIKA SPIRIT, MAZU, NAVIGER-2, CT TRADER and STL FORTIS; oil leaked from VOLGONEFT 25 and NAVIGER-2. USPA presentation lists the vessel with 02 September 2025, 0 injured. Governor Oleh Kiper publicly reported only a berth and a barge hit that night (per search results), and Black Sea News recorded SVIR and NIKA SPIRIT as arrested at Izmail on 1 Sep, not attacked; the register's damage detail supersedes that. Register: VOLGONEFT 25 (flag of Ukraine), ballast vessel used as a buffer, directly hit in the stern compartment. IMO 8943985 per the register's November entries and Ukraine's IMO submission A 34/23/2; check digit valid. SOURCE CAVEAT: both sources originate from the Government of Ukraine (USPA presentation and Ukraine-supplied Danube Commission register), so they are not fully independent; no news report naming this vessel was found. HOLD FLAG: both sources are Ukrainian-government documents (USPA presentation and/or IMO submission, and the Danube Commission damage register compiled from Ukrainian data); no independent news or non-Ukrainian source names this vessel. Publish only if a Ukraine-government-only pair is accepted.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20250902-SVIR": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "SVIR",
+        "date_utc": "2025-09-02",
+        "vessel_type": "vessel (type not stated; in ballast)",
+        "region": "Black Sea",
+        "summary": "The Danube Commission damage register says the Russian-flagged SVIR, held in ballast at Izmail as a buffer vessel, suffered partial destruction of ballast tanks and hull deformation in a Russian drone attack on the port; Ukraine's port authority also lists it as damaged that day.",
+        "sources": [
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Ukrainian Sea Ports Authority presentation, 23 Apr 2026 (Danube Commission)"
+          },
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/Register_of_RU_attacks/Register_of_Damage_Lower_Danube_Region_caused_by_the_Military_Actions_of_the_Russian_Federation_20260519.pdf",
+            "source": "Danube Commission Register of Damage in the Lower Danube Region (information provided by Ukraine), version 19 May 2026"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "imo": "8866694",
+        "location_text": "Port of Izmail, Danube, Odesa region, Ukraine"
+      },
+      "audit_notes": [
+        "Danube Commission register entry 02/09/2025, Izmail seaport, UAV attack: damaged vessels listed as VOLGONEFT 25, SVIR, NIKA SPIRIT, MAZU, NAVIGER-2, CT TRADER and STL FORTIS; oil leaked from VOLGONEFT 25 and NAVIGER-2. USPA presentation lists the vessel with 02 September 2025, 0 injured. Governor Oleh Kiper publicly reported only a berth and a barge hit that night (per search results), and Black Sea News recorded SVIR and NIKA SPIRIT as arrested at Izmail on 1 Sep, not attacked; the register's damage detail supersedes that. Register: SVIR (flag of the Russian Federation, IMO 8866694). Check digit valid. SOURCE CAVEAT: both sources originate from the Government of Ukraine (USPA presentation and Ukraine-supplied Danube Commission register), so they are not fully independent; no news report naming this vessel was found. HOLD FLAG: both sources are Ukrainian-government documents (USPA presentation and/or IMO submission, and the Danube Commission damage register compiled from Ukrainian data); no independent news or non-Ukrainian source names this vessel. Publish only if a Ukraine-government-only pair is accepted.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20250902-NIKA-SPIRIT": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "NIKA SPIRIT",
+        "date_utc": "2025-09-02",
+        "vessel_type": "tanker",
+        "region": "Black Sea",
+        "summary": "The Danube Commission damage register lists NIKA SPIRIT, a ship in ballast used as a buffer at Izmail, among vessels damaged in a Russian drone attack on the port; Ukraine's port authority also lists it as damaged that day.",
+        "sources": [
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Ukrainian Sea Ports Authority presentation, 23 Apr 2026 (Danube Commission)"
+          },
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/Register_of_RU_attacks/Register_of_Damage_Lower_Danube_Region_caused_by_the_Military_Actions_of_the_Russian_Federation_20260519.pdf",
+            "source": "Danube Commission Register of Damage in the Lower Danube Region (information provided by Ukraine), version 19 May 2026"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "imo": "8895528",
+        "location_text": "Port of Izmail, Danube, Odesa region, Ukraine",
+        "date_note": "USPA grid column alignment is ambiguous; the register explicitly dates the damage 02/09/2025."
+      },
+      "audit_notes": [
+        "Danube Commission register entry 02/09/2025, Izmail seaport, UAV attack: damaged vessels listed as VOLGONEFT 25, SVIR, NIKA SPIRIT, MAZU, NAVIGER-2, CT TRADER and STL FORTIS; oil leaked from VOLGONEFT 25 and NAVIGER-2. USPA presentation lists the vessel with 02 September 2025, 0 injured. Governor Oleh Kiper publicly reported only a berth and a barge hit that night (per search results), and Black Sea News recorded SVIR and NIKA SPIRIT as arrested at Izmail on 1 Sep, not attacked; the register's damage detail supersedes that. Register gives flag of Palau, IMO 8895528 in this entry (flag of the Russian Federation in the 24 Nov entry, where it is called an arrested tanker). Check digit valid. SOURCE CAVEAT: both sources originate from the Government of Ukraine (USPA presentation and Ukraine-supplied Danube Commission register), so they are not fully independent; no news report naming this vessel was found. HOLD FLAG: both sources are Ukrainian-government documents (USPA presentation and/or IMO submission, and the Danube Commission damage register compiled from Ukrainian data); no independent news or non-Ukrainian source names this vessel. Publish only if a Ukraine-government-only pair is accepted.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20250902-MAZU": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "MAZU",
+        "date_utc": "2025-09-02",
+        "vessel_type": "vessel (type not stated)",
+        "region": "Black Sea",
+        "summary": "The Danube Commission damage register lists the Liberia-flagged MAZU among vessels damaged in a Russian drone attack on the port of Izmail; Ukraine's port authority also lists it as damaged that day.",
+        "sources": [
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Ukrainian Sea Ports Authority presentation, 23 Apr 2026 (Danube Commission)"
+          },
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/Register_of_RU_attacks/Register_of_Damage_Lower_Danube_Region_caused_by_the_Military_Actions_of_the_Russian_Federation_20260519.pdf",
+            "source": "Danube Commission Register of Damage in the Lower Danube Region (information provided by Ukraine), version 19 May 2026"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "imo": "9190195",
+        "location_text": "Port of Izmail, Danube, Odesa region, Ukraine"
+      },
+      "audit_notes": [
+        "Danube Commission register entry 02/09/2025, Izmail seaport, UAV attack: damaged vessels listed as VOLGONEFT 25, SVIR, NIKA SPIRIT, MAZU, NAVIGER-2, CT TRADER and STL FORTIS; oil leaked from VOLGONEFT 25 and NAVIGER-2. USPA presentation lists the vessel with 02 September 2025, 0 injured. Governor Oleh Kiper publicly reported only a berth and a barge hit that night (per search results), and Black Sea News recorded SVIR and NIKA SPIRIT as arrested at Izmail on 1 Sep, not attacked; the register's damage detail supersedes that. Register: MAZU (flag of Liberia, IMO 9190195), damage not described. Check digit valid. SOURCE CAVEAT: both sources originate from the Government of Ukraine (USPA presentation and Ukraine-supplied Danube Commission register), so they are not fully independent; no news report naming this vessel was found. HOLD FLAG: both sources are Ukrainian-government documents (USPA presentation and/or IMO submission, and the Danube Commission damage register compiled from Ukrainian data); no independent news or non-Ukrainian source names this vessel. Publish only if a Ukraine-government-only pair is accepted.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20250902-NAVIGER-2": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "NAVIGER-2",
+        "date_utc": "2025-09-02",
+        "vessel_type": "vessel (type not stated; in ballast, used as a buffer)",
+        "region": "Black Sea",
+        "summary": "The Danube Commission damage register says the Palau-flagged NAVIGER-2, used as a buffer in ballast at Izmail, suffered hull damage that let seawater into the hold in a Russian drone attack, and that oil products leaked into the port from it and VOLGONEFT 25; Ukraine's port authority also lists it as damaged that day.",
+        "sources": [
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Ukrainian Sea Ports Authority presentation, 23 Apr 2026 (Danube Commission)"
+          },
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/Register_of_RU_attacks/Register_of_Damage_Lower_Danube_Region_caused_by_the_Military_Actions_of_the_Russian_Federation_20260519.pdf",
+            "source": "Danube Commission Register of Damage in the Lower Danube Region (information provided by Ukraine), version 19 May 2026"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "imo": "8230845",
+        "location_text": "Port of Izmail, Danube, Odesa region, Ukraine"
+      },
+      "audit_notes": [
+        "Danube Commission register entry 02/09/2025, Izmail seaport, UAV attack: damaged vessels listed as VOLGONEFT 25, SVIR, NIKA SPIRIT, MAZU, NAVIGER-2, CT TRADER and STL FORTIS; oil leaked from VOLGONEFT 25 and NAVIGER-2. USPA presentation lists the vessel with 02 September 2025, 0 injured. Governor Oleh Kiper publicly reported only a berth and a barge hit that night (per search results), and Black Sea News recorded SVIR and NIKA SPIRIT as arrested at Izmail on 1 Sep, not attacked; the register's damage detail supersedes that. Register: NAVIGER-2 (flag of Palau, IMO 8230845), hull damage with seawater entering the hold. Check digit valid. SOURCE CAVEAT: both sources originate from the Government of Ukraine (USPA presentation and Ukraine-supplied Danube Commission register), so they are not fully independent; no news report naming this vessel was found. HOLD FLAG: both sources are Ukrainian-government documents (USPA presentation and/or IMO submission, and the Danube Commission damage register compiled from Ukrainian data); no independent news or non-Ukrainian source names this vessel. Publish only if a Ukraine-government-only pair is accepted.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20250902-CT-TRADER": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "CT TRADER",
+        "date_utc": "2025-09-02",
+        "vessel_type": "tanker",
+        "region": "Black Sea",
+        "summary": "The Danube Commission damage register says the Cameroon-flagged tanker CT TRADER suffered damage to its bow superstructure, with the deck deformed and a fuel line damaged, in a Russian drone attack on Izmail; leaking fuel ignited and the crew contained the fire. Ukraine's port authority also lists it as damaged that day.",
+        "sources": [
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Ukrainian Sea Ports Authority presentation, 23 Apr 2026 (Danube Commission)"
+          },
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/Register_of_RU_attacks/Register_of_Damage_Lower_Danube_Region_caused_by_the_Military_Actions_of_the_Russian_Federation_20260519.pdf",
+            "source": "Danube Commission Register of Damage in the Lower Danube Region (information provided by Ukraine), version 19 May 2026"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "imo": "9786126",
+        "location_text": "Port of Izmail, Danube, Odesa region, Ukraine"
+      },
+      "audit_notes": [
+        "Danube Commission register entry 02/09/2025, Izmail seaport, UAV attack: damaged vessels listed as VOLGONEFT 25, SVIR, NIKA SPIRIT, MAZU, NAVIGER-2, CT TRADER and STL FORTIS; oil leaked from VOLGONEFT 25 and NAVIGER-2. USPA presentation lists the vessel with 02 September 2025, 0 injured. Governor Oleh Kiper publicly reported only a berth and a barge hit that night (per search results), and Black Sea News recorded SVIR and NIKA SPIRIT as arrested at Izmail on 1 Sep, not attacked; the register's damage detail supersedes that. Register: Tanker CT TRADER (flag of Cameroon, IMO 9786126); fuel leak ignited, fire localized by the crew. Check digit valid. SOURCE CAVEAT: both sources originate from the Government of Ukraine (USPA presentation and Ukraine-supplied Danube Commission register), so they are not fully independent; no news report naming this vessel was found. HOLD FLAG: both sources are Ukrainian-government documents (USPA presentation and/or IMO submission, and the Danube Commission damage register compiled from Ukrainian data); no independent news or non-Ukrainian source names this vessel. Publish only if a Ukraine-government-only pair is accepted.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20251103-VOLGONEFT-25": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "VOLGONEFT-25",
+        "date_utc": "2025-11-03",
+        "vessel_type": "tanker",
+        "region": "Black Sea",
+        "summary": "Ukraine's port authority and the Danube Commission damage register say the superstructure of the laid-up Ukrainian-flagged tanker VOLGONEFT 25 was damaged when drones hit the port of Izmail.",
+        "sources": [
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Ukrainian Sea Ports Authority presentation, 23 Apr 2026 (Danube Commission)"
+          },
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/Register_of_RU_attacks/Register_of_Damage_Lower_Danube_Region_caused_by_the_Military_Actions_of_the_Russian_Federation_20260519.pdf",
+            "source": "Danube Commission Register of Damage in the Lower Danube Region (information provided by Ukraine), version 19 May 2026"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "imo": "8943985",
+        "location_text": "Port of Izmail, Danube, Odesa region, Ukraine",
+        "date_note": "Register dates the attack night 3 to 4 November 2025; USPA gives 03 November. 2025-11-03 is used."
+      },
+      "audit_notes": [
+        "Danube Commission register entry 3-4/11/2025, Izmail seaport, probably UAVs (six UAV hits): superstructure of the vessel VOLGONEFT 25 (flag of Ukraine, IMO 8943985, cold lay-up) damaged. USPA lists VOLGONEFT 25 with 03 November 2025, 0 injured. Check digit valid. SOURCE CAVEAT: both sources originate from the Government of Ukraine (USPA presentation and Ukraine-supplied Danube Commission register), so they are not fully independent; no news report naming this vessel was found. HOLD FLAG: both sources are Ukrainian-government documents (USPA presentation and/or IMO submission, and the Danube Commission damage register compiled from Ukrainian data); no independent news or non-Ukrainian source names this vessel. Publish only if a Ukraine-government-only pair is accepted.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20251117-SCOT-HAMBURG": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "SCOT HAMBURG",
+        "date_utc": "2025-11-17",
+        "vessel_type": "tanker",
+        "region": "Black Sea",
+        "summary": "The Danube Commission damage register says the Malta-flagged tanker SCOT HAMBURG was damaged while discharging 6,200 tonnes of fuel at the Izmail commercial sea port during a Russian drone attack; Ukraine's port authority also lists it as damaged.",
+        "sources": [
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Ukrainian Sea Ports Authority presentation, 23 Apr 2026 (Danube Commission)"
+          },
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/Register_of_RU_attacks/Register_of_Damage_Lower_Danube_Region_caused_by_the_Military_Actions_of_the_Russian_Federation_20260519.pdf",
+            "source": "Danube Commission Register of Damage in the Lower Danube Region (information provided by Ukraine), version 19 May 2026"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "imo": "9255799",
+        "location_text": "Port of Izmail, Danube, Odesa region, Ukraine",
+        "date_note": "USPA gives 16 November 2025 (the night the attack began); the register gives 17 November, matching news timing for the ORINDA hit in the early hours of 17 November local. 2025-11-17 is used."
+      },
+      "audit_notes": [
+        "Danube Commission register entry 17/11/2025, Izmail city and seaport, UAV attack: damaged the LPG pipeline of ORINDA, the tanker SCOT HAMBURG, the tanker VOLGONEFT 25, the deck of the tanker DJANGO, the vessel NATAN and the vessel MAJESTIC, plus Romanian oil barge 1312 and a pontoon. USPA lists the vessel with 16 November 2025, 0 injured. Governor Kiper and Ukraine's navy said several unnamed civilian vessels besides ORINDA were damaged (per news, e.g. Maritime Executive on ORINDA). Register: tanker SCOT HAMBURG (flag of Malta, IMO 9255799), under operation, no water entry. Check digit valid. SOURCE CAVEAT: both sources originate from the Government of Ukraine (USPA presentation and Ukraine-supplied Danube Commission register), so they are not fully independent; no news report naming this vessel was found. HOLD FLAG: both sources are Ukrainian-government documents (USPA presentation and/or IMO submission, and the Danube Commission damage register compiled from Ukrainian data); no independent news or non-Ukrainian source names this vessel. Publish only if a Ukraine-government-only pair is accepted.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20251117-VOLGONEFT-25": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "VOLGONEFT-25",
+        "date_utc": "2025-11-17",
+        "vessel_type": "tanker",
+        "region": "Black Sea",
+        "summary": "The Danube Commission damage register says the main deck, tank bulkheads, bow superstructure portholes and three crew cabins of the laid-up Ukrainian-flagged tanker VOLGONEFT 25 were damaged in a Russian drone attack on Izmail; Ukraine's port authority also lists it as damaged.",
+        "sources": [
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Ukrainian Sea Ports Authority presentation, 23 Apr 2026 (Danube Commission)"
+          },
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/Register_of_RU_attacks/Register_of_Damage_Lower_Danube_Region_caused_by_the_Military_Actions_of_the_Russian_Federation_20260519.pdf",
+            "source": "Danube Commission Register of Damage in the Lower Danube Region (information provided by Ukraine), version 19 May 2026"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "imo": "8943985",
+        "location_text": "Port of Izmail, Danube, Odesa region, Ukraine",
+        "date_note": "USPA gives 16 November 2025 (the night the attack began); the register gives 17 November, matching news timing for the ORINDA hit in the early hours of 17 November local. 2025-11-17 is used."
+      },
+      "audit_notes": [
+        "Danube Commission register entry 17/11/2025, Izmail city and seaport, UAV attack: damaged the LPG pipeline of ORINDA, the tanker SCOT HAMBURG, the tanker VOLGONEFT 25, the deck of the tanker DJANGO, the vessel NATAN and the vessel MAJESTIC, plus Romanian oil barge 1312 and a pontoon. USPA lists the vessel with 16 November 2025, 0 injured. Governor Kiper and Ukraine's navy said several unnamed civilian vessels besides ORINDA were damaged (per news, e.g. Maritime Executive on ORINDA). Register: tanker VOLGONEFT 25 (flag of Ukraine, IMO 8943985, long-term lay-up). Forbes Ukraine (per the Sep-Nov sub-agent, citing the communities ministry) reported a Ukrainian-flagged tanker whose crew put out a fire, unnamed. Check digit valid. SOURCE CAVEAT: both sources originate from the Government of Ukraine (USPA presentation and Ukraine-supplied Danube Commission register), so they are not fully independent; no news report naming this vessel was found. HOLD FLAG: both sources are Ukrainian-government documents (USPA presentation and/or IMO submission, and the Danube Commission damage register compiled from Ukrainian data); no independent news or non-Ukrainian source names this vessel. Publish only if a Ukraine-government-only pair is accepted.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20251117-DJANGO": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "DJANGO",
+        "date_utc": "2025-11-17",
+        "vessel_type": "tanker",
+        "region": "Black Sea",
+        "summary": "The Danube Commission damage register says the deck of the Ukrainian-flagged tanker DJANGO, in ballast at Izmail, was damaged in a Russian drone attack; Ukraine's port authority also lists it as damaged.",
+        "sources": [
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Ukrainian Sea Ports Authority presentation, 23 Apr 2026 (Danube Commission)"
+          },
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/Register_of_RU_attacks/Register_of_Damage_Lower_Danube_Region_caused_by_the_Military_Actions_of_the_Russian_Federation_20260519.pdf",
+            "source": "Danube Commission Register of Damage in the Lower Danube Region (information provided by Ukraine), version 19 May 2026"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "location_text": "Port of Izmail, Danube, Odesa region, Ukraine",
+        "date_note": "USPA gives 16 November 2025 (the night the attack began); the register gives 17 November, matching news timing for the ORINDA hit in the early hours of 17 November local. 2025-11-17 is used."
+      },
+      "audit_notes": [
+        "Danube Commission register entry 17/11/2025, Izmail city and seaport, UAV attack: damaged the LPG pipeline of ORINDA, the tanker SCOT HAMBURG, the tanker VOLGONEFT 25, the deck of the tanker DJANGO, the vessel NATAN and the vessel MAJESTIC, plus Romanian oil barge 1312 and a pontoon. USPA lists the vessel with 16 November 2025, 0 injured. Governor Kiper and Ukraine's navy said several unnamed civilian vessels besides ORINDA were damaged (per news, e.g. Maritime Executive on ORINDA). Register: tanker DJANGO (flag of Ukraine, MMSI 272739000, in ballast). No IMO stated. SOURCE CAVEAT: both sources originate from the Government of Ukraine (USPA presentation and Ukraine-supplied Danube Commission register), so they are not fully independent; no news report naming this vessel was found. HOLD FLAG: both sources are Ukrainian-government documents (USPA presentation and/or IMO submission, and the Danube Commission damage register compiled from Ukrainian data); no independent news or non-Ukrainian source names this vessel. Publish only if a Ukraine-government-only pair is accepted.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20251117-NATAN": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "NATAN",
+        "date_utc": "2025-11-17",
+        "vessel_type": "vessel (type not stated; in ballast)",
+        "region": "Black Sea",
+        "summary": "The Danube Commission damage register says the vessel NATAN, in ballast at Izmail, had portholes shattered and a fire extinguished after a Russian drone attack; Ukraine's port authority also lists it as damaged.",
+        "sources": [
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Ukrainian Sea Ports Authority presentation, 23 Apr 2026 (Danube Commission)"
+          },
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/Register_of_RU_attacks/Register_of_Damage_Lower_Danube_Region_caused_by_the_Military_Actions_of_the_Russian_Federation_20260519.pdf",
+            "source": "Danube Commission Register of Damage in the Lower Danube Region (information provided by Ukraine), version 19 May 2026"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "location_text": "Port of Izmail, Danube, Odesa region, Ukraine",
+        "date_note": "USPA gives 16 November 2025 (the night the attack began); the register gives 17 November, matching news timing for the ORINDA hit in the early hours of 17 November local. 2025-11-17 is used."
+      },
+      "audit_notes": [
+        "Danube Commission register entry 17/11/2025, Izmail city and seaport, UAV attack: damaged the LPG pipeline of ORINDA, the tanker SCOT HAMBURG, the tanker VOLGONEFT 25, the deck of the tanker DJANGO, the vessel NATAN and the vessel MAJESTIC, plus Romanian oil barge 1312 and a pontoon. USPA lists the vessel with 16 November 2025, 0 injured. Governor Kiper and Ukraine's navy said several unnamed civilian vessels besides ORINDA were damaged (per news, e.g. Maritime Executive on ORINDA). Register: vessel NATAN (in ballast, portholes shattered, fire extinguished), moored with MAJESTIC at GALAKTYKA PE. Probably the same ship as NATHAN (IMO 9513361, Palau) damaged on 26 Dec 2025, which was again alongside MAJESTIC; not confirmed, so no IMO given. SOURCE CAVEAT: both sources originate from the Government of Ukraine (USPA presentation and Ukraine-supplied Danube Commission register), so they are not fully independent; no news report naming this vessel was found. HOLD FLAG: both sources are Ukrainian-government documents (USPA presentation and/or IMO submission, and the Danube Commission damage register compiled from Ukrainian data); no independent news or non-Ukrainian source names this vessel. Publish only if a Ukraine-government-only pair is accepted.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20251117-MAJESTIC": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "MAJESTIC",
+        "date_utc": "2025-11-17",
+        "vessel_type": "river vessel",
+        "region": "Black Sea",
+        "summary": "The Danube Commission damage register says the laid-up Slovak-flagged vessel MAJESTIC was damaged at Izmail in a Russian drone attack; Ukraine's port authority also lists it as damaged.",
+        "sources": [
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Ukrainian Sea Ports Authority presentation, 23 Apr 2026 (Danube Commission)"
+          },
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/Register_of_RU_attacks/Register_of_Damage_Lower_Danube_Region_caused_by_the_Military_Actions_of_the_Russian_Federation_20260519.pdf",
+            "source": "Danube Commission Register of Damage in the Lower Danube Region (information provided by Ukraine), version 19 May 2026"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "location_text": "Port of Izmail, Danube, Odesa region, Ukraine",
+        "date_note": "USPA gives 16 November 2025 (the night the attack began); the register gives 17 November, matching news timing for the ORINDA hit in the early hours of 17 November local. 2025-11-17 is used."
+      },
+      "audit_notes": [
+        "Danube Commission register entry 17/11/2025, Izmail city and seaport, UAV attack: damaged the LPG pipeline of ORINDA, the tanker SCOT HAMBURG, the tanker VOLGONEFT 25, the deck of the tanker DJANGO, the vessel NATAN and the vessel MAJESTIC, plus Romanian oil barge 1312 and a pontoon. USPA lists the vessel with 16 November 2025, 0 injured. Governor Kiper and Ukraine's navy said several unnamed civilian vessels besides ORINDA were damaged (per news, e.g. Maritime Executive on ORINDA). Register: vessel MAJESTIC (MMSI 267131318, flag of Slovakia, laid up). Ukrinform's 26 Dec 2025 report quotes Slovakia's foreign ministry that MAJESTIC was already unseaworthy from earlier Russian strikes, consistent with this entry but without a date. SOURCE CAVEAT: both sources originate from the Government of Ukraine (USPA presentation and Ukraine-supplied Danube Commission register), so they are not fully independent; no news report naming this vessel was found. HOLD FLAG: both sources are Ukrainian-government documents (USPA presentation and/or IMO submission, and the Danube Commission damage register compiled from Ukrainian data); no independent news or non-Ukrainian source names this vessel. Publish only if a Ukraine-government-only pair is accepted.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20251124-NIKA-SPIRIT": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "NIKA SPIRIT",
+        "date_utc": "2025-11-24",
+        "vessel_type": "tanker",
+        "region": "Black Sea",
+        "summary": "The Danube Commission damage register says the arrested tanker NIKA SPIRIT was hit and caught fire in a Russian drone attack on Izmail; Ukraine's port authority also lists it as damaged.",
+        "sources": [
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Ukrainian Sea Ports Authority presentation, 23 Apr 2026 (Danube Commission)"
+          },
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/Register_of_RU_attacks/Register_of_Damage_Lower_Danube_Region_caused_by_the_Military_Actions_of_the_Russian_Federation_20260519.pdf",
+            "source": "Danube Commission Register of Damage in the Lower Danube Region (information provided by Ukraine), version 19 May 2026"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "imo": "8895528",
+        "location_text": "Port of Izmail, Danube, Odesa region, Ukraine"
+      },
+      "audit_notes": [
+        "Danube Commission register entry (between the 23/11 and 25/11/2025 entries; date cell lost at the page break): arrested tanker Nika Spirit (IMO 8895528, flag of the Russian Federation, in ballast) hit with subsequent fire. USPA lists NIKA SPIRIT with 24 November 2025, 0 injured. Governor Kiper reported a fire on an 'unused vessel' in a southern Odesa region port that night (USM, 24 Nov 2025, per the Sep-Nov sub-agent), unnamed. Check digit valid. SOURCE CAVEAT: both sources originate from the Government of Ukraine (USPA presentation and Ukraine-supplied Danube Commission register), so they are not fully independent; no news report naming this vessel was found. HOLD FLAG: both sources are Ukrainian-government documents (USPA presentation and/or IMO submission, and the Danube Commission damage register compiled from Ukrainian data); no independent news or non-Ukrainian source names this vessel. Publish only if a Ukraine-government-only pair is accepted.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20251226-NATHAN": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "NATHAN",
+        "date_utc": "2025-12-26",
+        "vessel_type": "vessel (type not stated; in ballast)",
+        "region": "Black Sea",
+        "summary": "The Danube Commission damage register says the Palau-flagged NATHAN, in ballast on the Danube roadstead at Izmail, was damaged in an overnight Russian drone attack; Ukraine's communities ministry reported a Palau-flagged ship damaged that night without naming it.",
+        "sources": [
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/2026/20260423_EM_PORTS/Vyacheslav_Kharkavenko_USPA_Seaports_of_Ukraine_Operating_in_the_war_time.pdf",
+            "source": "Ukrainian Sea Ports Authority presentation, 23 Apr 2026 (Danube Commission)"
+          },
+          {
+            "url": "https://www.danubecommission.org/uploads/doc/Register_of_RU_attacks/Register_of_Damage_Lower_Danube_Region_caused_by_the_Military_Actions_of_the_Russian_Federation_20260519.pdf",
+            "source": "Danube Commission Register of Damage in the Lower Danube Region (information provided by Ukraine), version 19 May 2026"
+          },
+          {
+            "url": "https://www.ukrinform.net/rubric-ato/4073616-russia-attacked-ports-in-odesa-region-all-night-kuleba.html",
+            "source": "Ukraine communities ministry via Ukrinform (Palau-flagged ship damaged, unnamed)"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "imo": "9513361",
+        "location_text": "Danube roadstead at km 86, Izmail, Odesa region, Ukraine",
+        "date_note": "Night of 25 to 26 December 2025; 2025-12-26 used per USPA and the ministry."
+      },
+      "audit_notes": [
+        "Register entry 25-26/12/2025, Izmail, UAV: 'The vessel NATHAN on the roadstead km 86 of the Danube River (IMO 9513361, flag of Palau, in ballast)', alongside MAJESTIC. USPA lists NATHAN, 26 December 2025, 0 injured. Kuleba/communities ministry (Ukrinform, USM 26 Dec 2025) reported ships under the flags of Slovakia and Palau damaged, unnamed. Black Sea News guessed the Palau ship was FLOKI; the register contradicts that. Check digit valid. SOURCE CAVEAT: both sources originate from the Government of Ukraine (USPA presentation and Ukraine-supplied Danube Commission register), so they are not fully independent; no news report naming this vessel was found. HOLD FLAG: both sources are Ukrainian-government documents (USPA presentation and/or IMO submission, and the Danube Commission damage register compiled from Ukrainian data); no independent news or non-Ukrainian source names this vessel. Publish only if a Ukraine-government-only pair is accepted.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-ME-20260905-KYLO": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "KYLO",
+        "date_utc": "2026-09-05",
+        "vessel_type": "crude oil tanker (Suezmax)",
+        "region": "Strait of Hormuz",
+        "summary": "US Central Command said US forces struck the Iranian tanker KYLO in the Gulf of Oman after IRGC ballistic missile attacks on US Navy warships, and that the tanker sank. CENTCOM said the crew had been told to abandon the vessel before the strike.",
+        "sources": [
+          {
+            "url": "https://gcaptain.com/iran-us-trade-tit-for-tat-tanker-attacks-as-war-drags-on/",
+            "source": "Bloomberg via gCaptain, 6 Sep 2026 (CENTCOM: Kylo sank, Stark I and Downy disabled)"
+          },
+          {
+            "url": "https://gcaptain.com/hormuz-traffic-dips-to-lowest-since-may-after-us-iranian-strikes-on-ships/",
+            "source": "Reuters via gCaptain, 6 Sep 2026 (CENTCOM strike on three tankers; Marisks identified them as Downy, Stark I and Kylo)"
+          },
+          {
+            "url": "https://gcaptain.com/u-s-destroys-five-more-irgc-tankers-after-iran-targets-navy-warship/",
+            "source": "gCaptain, 8 Sep 2026 (recap citing CENTCOM)"
+          },
+          {
+            "url": "https://www.jpost.com/middle-east/iran-news/article-907662",
+            "source": "Jerusalem Post, 6 Sep 2026 (CENTCOM statement that M/T Kylo sank in the Gulf of Oman)"
+          }
+        ],
+        "attack_type": "Projectile strike",
+        "location_text": "Gulf of Oman",
+        "date_note": "Bloomberg and Reuters (via gCaptain) say the strike and sinking were announced on Saturday 5 September; the Jerusalem Post photo caption dates the strike 6 September and quotes CENTCOM that it sank 'today'. 5 September follows the two wire reports; the sinking may have been on 5 or 6 September."
+      },
+      "audit_notes": [
+        "Also known as NOXEN (gCaptain, Reuters via gCaptain). Bloomberg says shipping data suggest it was not carrying crude. No flag or IMO stated in the opened sources (Wikipedia gives Comoros, not used). No casualty figures; deaths left unknown. Attacker: US forces (CENTCOM statement).",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-ME-20260905-STARK-I": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "STARK I",
+        "date_utc": "2026-09-05",
+        "vessel_type": "crude oil tanker (Suezmax)",
+        "region": "Strait of Hormuz",
+        "summary": "US Central Command said US forces struck and disabled the Iranian tanker STARK I in the Gulf of Oman on 5 September, one of three Iranian tankers it hit in response to IRGC missile attacks on US warships.",
+        "sources": [
+          {
+            "url": "https://gcaptain.com/iran-us-trade-tit-for-tat-tanker-attacks-as-war-drags-on/",
+            "source": "Bloomberg via gCaptain, 6 Sep 2026 (CENTCOM: Kylo sank, Stark I and Downy disabled)"
+          },
+          {
+            "url": "https://gcaptain.com/hormuz-traffic-dips-to-lowest-since-may-after-us-iranian-strikes-on-ships/",
+            "source": "Reuters via gCaptain, 6 Sep 2026 (CENTCOM strike on three tankers; Marisks identified them as Downy, Stark I and Kylo)"
+          },
+          {
+            "url": "https://gcaptain.com/u-s-destroys-five-more-irgc-tankers-after-iran-targets-navy-warship/",
+            "source": "gCaptain, 8 Sep 2026 (recap citing CENTCOM)"
+          }
+        ],
+        "attack_type": "Projectile strike",
+        "location_text": "Gulf of Oman (gCaptain: near Jask, Iran)",
+        "date_note": "Saturday 5 September per Bloomberg, Reuters and gCaptain."
+      },
+      "audit_notes": [
+        "Bloomberg (via gCaptain) quotes CENTCOM that the Suezmax Stark I was disabled in the Gulf of Oman; Reuters names it among the three tankers struck (identification by Marisks); gCaptain places it near Jask. No IMO, flag or casualty data in opened sources. Attacker: US forces.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-ME-20260905-DOWNY": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "DOWNY",
+        "date_utc": "2026-09-05",
+        "vessel_type": "crude oil tanker (VLCC)",
+        "region": "Strait of Hormuz",
+        "summary": "US Central Command said US forces struck and disabled the Iranian very large crude carrier DOWNY in the Persian Gulf near Kharg Island on 5 September, one of three Iranian tankers hit in response to IRGC missile attacks on US warships.",
+        "sources": [
+          {
+            "url": "https://gcaptain.com/iran-us-trade-tit-for-tat-tanker-attacks-as-war-drags-on/",
+            "source": "Bloomberg via gCaptain, 6 Sep 2026 (CENTCOM: Kylo sank, Stark I and Downy disabled)"
+          },
+          {
+            "url": "https://gcaptain.com/hormuz-traffic-dips-to-lowest-since-may-after-us-iranian-strikes-on-ships/",
+            "source": "Reuters via gCaptain, 6 Sep 2026 (CENTCOM strike on three tankers; Marisks identified them as Downy, Stark I and Kylo)"
+          },
+          {
+            "url": "https://gcaptain.com/u-s-destroys-five-more-irgc-tankers-after-iran-targets-navy-warship/",
+            "source": "gCaptain, 8 Sep 2026 (recap citing CENTCOM)"
+          }
+        ],
+        "attack_type": "Projectile strike",
+        "location_text": "Persian Gulf, near Kharg Island, Iran",
+        "date_note": "Saturday 5 September per Bloomberg, Reuters and gCaptain."
+      },
+      "audit_notes": [
+        "Bloomberg (via gCaptain) quotes CENTCOM on the VLCC Downy disabled near Kharg Island; Reuters names it among the three tankers struck (identification by Marisks); gCaptain places it off Kharg Island. No IMO, flag or casualty data in opened sources. Attacker: US forces.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-ME-20260514-HUI-CHUAN": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "HUI CHUAN",
+        "date_utc": "2026-05-14",
+        "vessel_type": "fishery research vessel (owner Sinoguards calls it an offshore work platform vessel; Bloomberg's sources and the BBC describe it as a floating armoury)",
+        "region": "Strait of Hormuz",
+        "summary": "UKMTO reported that a vessel at anchor about 38 NM northeast of Fujairah was taken by unauthorised personnel on 14 May and was heading toward Iranian waters. Bloomberg identified it as the Honduras-flagged HUI CHUAN, classified as a fishery research vessel and described by its sources as a floating armoury, owned by Hong Kong security firm Sinoguards, which said Iranian forces took the ship into Iranian waters.",
+        "sources": [
+          {
+            "url": "https://gcaptain.com/ukmto-warns-ship-seized-near-hormuz-is-being-taken-toward-iran/",
+            "source": "gCaptain, 14 May 2026 (UKMTO warning 057/26)"
+          },
+          {
+            "url": "https://gcaptain.com/iran-seizes-chinese-owned-floating-armory-ship-near-hormuz/",
+            "source": "Bloomberg via gCaptain, 15 May 2026"
+          },
+          {
+            "url": "https://www.ynetnews.com/article/skkc00wqkge",
+            "source": "Ynetnews, 14 May 2026 (UKMTO, BBC and Vanguard identification)"
+          }
+        ],
+        "attack_type": "Seizure",
+        "location_text": "At anchor about 38 NM northeast of Fujairah, UAE, at the entrance to the Strait of Hormuz",
+        "date_note": "UKMTO warning 057/26 issued 14 May; Bloomberg says Thursday (14 May)."
+      },
+      "audit_notes": [
+        "UKMTO 057/26 (via gCaptain) gives position and seizure at anchor but no name. Bloomberg names HUI CHUAN, Honduras flag, built 1984, classified as a fishery research vessel, called an offshore work platform vessel by owner Sinoguards. Ynetnews names Hui Chuan, Honduras flag, about 70 km NE of Fujairah, citing UKMTO and the BBC. Commercial vessel serving private maritime security firms; not a naval unit. No casualty data.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-ME-20260301-OCEAN-ELECTRA": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "OCEAN ELECTRA",
+        "date_utc": "2026-03-01",
+        "vessel_type": "bulk carrier or tanker (sources differ)",
+        "region": "Strait of Hormuz",
+        "summary": "UKMTO reported that at about 1645 UTC on 1 March 2026 an unknown projectile exploded in very close proximity to a vessel about 35 NM west of Sharjah, UAE, and that all crew were safe. gCaptain reported a near miss on OCEAN ELECTRA at that position with no damage. The Maritime Executive listed an unconfirmed strike on the Greek-owned OCEAN ELECTRA among the first attacks.",
+        "sources": [
+          {
+            "url": "https://mscio.eu/media/documents/20260301-UKMTO_WARNING_007-26.pdf",
+            "source": "UKMTO Warning 007/26, 1 Mar 2026 (vessel not named; 35NM west of Sharjah, projectile exploded very close, all crew safe)"
+          },
+          {
+            "url": "https://gcaptain.com/strait-of-hormuz-traffic-collapses-tanker-markets/",
+            "source": "gCaptain, 2 Mar 2026 (near miss on OCEAN ELECTRA 35 NM west of Sharjah)"
+          },
+          {
+            "url": "https://maritime-executive.com/article/iran-claims-strike-on-iran-linked-bitumen-tanker",
+            "source": "The Maritime Executive, 2 Mar 2026"
+          }
+        ],
+        "attack_type": "Near miss",
+        "location_text": "About 35 NM west of Sharjah, UAE",
+        "date_note": "UKMTO Warning 007/26 gives the incident at 1645 UTC on 1 March 2026 at the same position; UKMTO does not name the ship, gCaptain's 2 March report links OCEAN ELECTRA to the near miss at that position."
+      },
+      "audit_notes": [
+        "Conflicts: gCaptain/JMIC describe a Panamax bulk carrier with a near miss and no damage, no casualties; Maritime Executive describes a Greek-owned MR tanker and calls the strike unconfirmed. Name and date agree. Not on the IMO confirmed register. Attacker not identified.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://mscio.eu/media/documents/20260301-UKMTO_WARNING_007-26.pdf",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20260107-ELBUS": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "ELBUS",
+        "date_utc": "2026-01-07",
+        "vessel_type": "crude oil tanker",
+        "region": "Black Sea",
+        "summary": "Lloyd's List Intelligence reported that the Palau-flagged tanker Elbus, sailing in ballast from Singapore to Novorossiysk, experienced an unmanned marine-vehicle and drone attack on 7 January 2026 off Turkey's Black Sea coast. The ship diverted and anchored off Inebolu under its own power, with no injuries reported among its 25 crew.",
+        "sources": [
+          {
+            "url": "https://www.bairdmaritime.com/security/naval/unmanned-naval-systems/drone-attack-forces-russia-bound-tanker-to-divert-in-black-sea",
+            "source": "Reuters via Baird Maritime (citing Lloyd's List Intelligence)"
+          },
+          {
+            "url": "https://maritime-executive.com/article/shadow-fleet-tanker-diverts-to-turkey-after-reporting-drone-attack",
+            "source": "Maritime Executive"
+          }
+        ],
+        "attack_type": "Sea drone strike",
+        "location_text": "Black Sea off Turkey's northern coast; the tanker diverted and anchored off Inebolu, Turkey",
+        "date_note": "Reuters/Lloyd's List give the attack as Wednesday 7 January 2026; Maritime Executive says the ship called for assistance on 7 January. Turkish media (NTV) reported it on 8 January."
+      },
+      "audit_notes": [
+        "Reuters (via Baird Maritime) names Elbus, Palau flag, 25 crew, no injuries or pollution, and an unmanned marine-vehicle and drone attack per Lloyd's List; a security source called it a drone attack. Maritime Executive names Elbus, 159,000 dwt crude tanker built 2005, Chinese-owned, and notes conflicting reports on whether the engine room or upper works were hit. No party claimed it. Attack type recorded as sea drone strike per Lloyd's List wording; aerial drone involvement also reported. IMO not stated in sources.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.bairdmaritime.com/security/naval/unmanned-naval-systems/drone-attack-forces-russia-bound-tanker-to-divert-in-black-sea",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20260326-ALTURA": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "ALTURA",
+        "date_utc": "2026-03-26",
+        "vessel_type": "crude oil tanker",
+        "region": "Black Sea",
+        "summary": "Turkey's transport minister said a marine drone struck the Sierra Leone-flagged, Turkish-managed crude tanker Altura in the early hours of 26 March 2026 about 18 NM from the Bosphorus after it left Novorossiysk with about one million barrels of crude. All 27 crew were reported safe, and Turkey's foreign ministry condemned the attack.",
+        "sources": [
+          {
+            "url": "https://www.bairdmaritime.com/security/incidents/drone-attack-hits-tanker-carrying-russian-oilnear-turkey",
+            "source": "Reuters via Baird Maritime (Turkish Transport Minister Uraloglu)"
+          },
+          {
+            "url": "https://www.al-monitor.com/index%2Ephp/originals/2026/03/turkey-condemns-attack-black-sea-oil-tanker-departed-russia",
+            "source": "Al-Monitor (Turkish Foreign Ministry statement)"
+          },
+          {
+            "url": "https://kyivindependent.com/russian-shadow-fleet-tanker-carrying-140-000-tons-of-oil-hit-by-drone-in-black-sea/",
+            "source": "Kyiv Independent (citing NTV)"
+          }
+        ],
+        "attack_type": "Sea drone strike",
+        "location_text": "About 18 NM (33 km) from the Black Sea entrance of the Bosphorus, just outside Turkish territorial waters, in Turkey's exclusive economic zone",
+        "date_note": "Early hours of Thursday 26 March 2026 local time; exact time not given, so the UTC date could be late 25 March."
+      },
+      "audit_notes": [
+        "All sources name Altura, Sierra Leone flag, owner Sea Grace Shipping (China), manager Pergamon Denizcilik (Turkey); EU and UK sanctioned. Turkish FM spokesperson Oncu Keceli said the attack was in Turkey's EEZ. Kyiv Independent (NTV) reports damage to deck, bridge and engine room and water ingress. No claim of responsibility. Same vessel attacked again on 28 May 2026 (separate record).",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.bairdmaritime.com/security/incidents/drone-attack-hits-tanker-carrying-russian-oilnear-turkey",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20260528-JAMES-II": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "JAMES II",
+        "date_utc": "2026-05-28",
+        "vessel_type": "oil tanker",
+        "region": "Black Sea",
+        "summary": "Shipping agency Tribeca said the Palau-flagged tanker James II, sailing in ballast, was attacked by drones about 80 km north of Turkeli in Sinop province on 28 May 2026. Its crew was unharmed and Turkish coastal safety boats were sent to assist.",
+        "sources": [
+          {
+            "url": "https://wtop.com/news/2026/05/drones-hit-3-shadow-fleet-oil-tankers-off-turkeys-black-sea-coast/",
+            "source": "AP via WTOP"
+          },
+          {
+            "url": "https://www.al-monitor.com/originals/2026/05/three-tankers-reportedly-attacked-drones-black-sea-shipping-agency-says",
+            "source": "Reuters via Al-Monitor"
+          },
+          {
+            "url": "https://kyivindependent.com/3-russian-shadow-fleet-tankers-attacked-by-drones-near-turkeys-black-sea-coast/",
+            "source": "Kyiv Independent"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "location_text": "About 80 km (50 miles) north of Turkeli, Sinop province, Turkey"
+      },
+      "audit_notes": [
+        "AP and Reuters both name James II, Palau flag, in ballast, 80 km north of Turkeli, crew unharmed, citing shipping agency Tribeca. AP says the owner is Marshall Islands-registered James Navigation and that the ship is on Western sanctions lists. No claim of responsibility. Whether it was an aerial or sea drone was not specified.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://wtop.com/news/2026/05/drones-hit-3-shadow-fleet-oil-tankers-off-turkeys-black-sea-coast/",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20260528-ALTURA": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "ALTURA",
+        "date_utc": "2026-05-28",
+        "vessel_type": "oil tanker",
+        "region": "Black Sea",
+        "summary": "Shipping agency Tribeca said the Sierra Leone-flagged tanker Altura was attacked by drones on 28 May 2026 while conducting a ship-to-ship operation off Turkey's northern coast, in an area near the tanker James II; the tanker Velora was attacked in the same operation. All crew were reported in good condition.",
+        "sources": [
+          {
+            "url": "https://wtop.com/news/2026/05/drones-hit-3-shadow-fleet-oil-tankers-off-turkeys-black-sea-coast/",
+            "source": "AP via WTOP"
+          },
+          {
+            "url": "https://www.al-monitor.com/originals/2026/05/three-tankers-reportedly-attacked-drones-black-sea-shipping-agency-says",
+            "source": "Reuters via Al-Monitor"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "location_text": "Off Turkey's northern Black Sea coast near Turkeli, Sinop province, during a ship-to-ship transfer"
+      },
+      "audit_notes": [
+        "Second attack on Altura in 2026 (first on 26 March near the Bosphorus). AP and Reuters both name Altura, Sierra Leone flag, in ballast, STS operation in an area near James II, citing Tribeca. AP says it belongs to Turkey-based Pergamon Shipping per OpenSanctions. No exact position given.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.al-monitor.com/originals/2026/05/three-tankers-reportedly-attacked-drones-black-sea-shipping-agency-says",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20260528-VELORA": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "VELORA",
+        "date_utc": "2026-05-28",
+        "vessel_type": "oil tanker",
+        "region": "Black Sea",
+        "summary": "Shipping agency Tribeca said the Sierra Leone-flagged tanker Velora was attacked by drones on 28 May 2026 while conducting a ship-to-ship operation off Turkey's northern coast, in an area near the tanker James II; the tanker Altura was attacked in the same operation. All crew were reported in good condition.",
+        "sources": [
+          {
+            "url": "https://wtop.com/news/2026/05/drones-hit-3-shadow-fleet-oil-tankers-off-turkeys-black-sea-coast/",
+            "source": "AP via WTOP"
+          },
+          {
+            "url": "https://www.al-monitor.com/originals/2026/05/three-tankers-reportedly-attacked-drones-black-sea-shipping-agency-says",
+            "source": "Reuters via Al-Monitor"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "location_text": "Off Turkey's northern Black Sea coast near Turkeli, Sinop province, during a ship-to-ship transfer"
+      },
+      "audit_notes": [
+        "AP and Reuters both name Velora, Sierra Leone flag, in ballast, citing Tribeca. AP says it belongs to Turkey-based Pergamon Shipping per OpenSanctions. A Turkish reporter's suggestion that a Ukrainian naval drone hit Velora is unconfirmed and not used. Maritime Executive reported only one of the three tankers was damaged, without naming it.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.al-monitor.com/originals/2026/05/three-tankers-reportedly-attacked-drones-black-sea-shipping-agency-says",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20260528-ANT": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "ANT",
+        "date_utc": "2026-05-28",
+        "vessel_type": "general cargo ship",
+        "region": "Black Sea",
+        "summary": "Ukraine's navy said Russian drones struck the Vanuatu-flagged, Turkish-owned dry cargo ship ANT overnight on 28 to 29 May 2026 as it sailed from an Odesa region port to Turkiye, starting a fire in the superstructure. Turkish authorities said two crew members suffered minor injuries.",
+        "sources": [
+          {
+            "url": "https://maritime-executive.com/article/two-crew-injured-as-russia-continues-attacks-on-merchant-ships-near-odesa",
+            "source": "Maritime Executive"
+          },
+          {
+            "url": "https://www.pravda.com.ua/eng/news/2026/05/29/8036863/",
+            "source": "Ukrainska Pravda (Ukrainian Navy statement)"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "location_text": "Black Sea off Ukraine's coast, on passage from an Odesa region port to Turkiye",
+        "date_note": "Attack overnight 28 to 29 May 2026 local time; Maritime Executive says overnight May 28. Recorded as 28 May on the assumption the strike fell before 03:00 local (00:00 UTC); confirm if exact time emerges."
+      },
+      "audit_notes": [
+        "Maritime Executive names Ant, 5,095 dwt general cargo ship built 2006, Vanuatu flag, Turkish owned, bridge and upper deckhouse damaged, being towed for repairs; Turkey's foreign ministry issued a statement. Pravda cites the Ukrainian Navy naming the dry cargo vessel ANT with a superstructure fire and two injured crew evacuated by navy boats. Early reports said three injured. A later Maritime Executive recap (30 July) erroneously says two crew killed; not used. Deaths left null as no source states zero deaths explicitly.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "human_impact": {
+        "injured": {
+          "count": 2,
+          "as_of": "2026-05-28",
+          "sources": [
+            {
+              "url": "https://maritime-executive.com/article/two-crew-injured-as-russia-continues-attacks-on-merchant-ships-near-odesa",
+              "source": "Casualty source"
+            },
+            {
+              "url": "https://www.pravda.com.ua/eng/news/2026/05/29/8036863/",
+              "source": "Casualty source"
+            }
+          ]
+        }
+      }
+    },
+    "HIST-BS-20260414-LADY-MARIS": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "LADY MARIS",
+        "date_utc": "2026-04-14",
+        "vessel_type": "bulk carrier",
+        "region": "Black Sea",
+        "summary": "Ukraine's navy said the Liberia-flagged merchant ship Lady Maris was hit by a Russian drone on 14 April 2026 while heading to Chornomorsk to load grain, starting a fire. The navy said the crew was not harmed.",
+        "sources": [
+          {
+            "url": "https://hromadske.ua/en/amp/ukraine/262357-viyska-rf-poshkodyly-odrazu-dva-sudna-pid-chas-ataky-bezpilotnykamy-po-pivdniu",
+            "source": "Hromadske (Ukrainian Navy)"
+          },
+          {
+            "url": "https://www.marineinsight.com/russian-drone-attack-hits-ukraines-izmail-port-damages-foreign-flagged-civilian-ships/",
+            "source": "Reuters via Marine Insight"
+          },
+          {
+            "url": "https://en.usm.media/russians-attacked-another-ship-bulk-carrier-headed-to-the-port-of-chornomorsk-photo/",
+            "source": "USM (Ukrainian Navy)"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "imo": "9228071",
+        "location_text": "Black Sea, en route to Chornomorsk, Odesa region, Ukraine, to load corn",
+        "date_note": "Reported on 14 April 2026 alongside overnight 13 to 14 April drone strikes on Izmail; hromadske says Lady Maris was attacked after the Izmail strike. Recorded as 14 April."
+      },
+      "audit_notes": [
+        "Hromadske (not reachable by fetch) and USM cite the Ukrainian Navy naming LADY MARIS, Liberia flag, fire on board, crew unharmed. Marine Insight (Reuters) says a Liberian-flagged merchant ship heading to load corn was hit and the navy identified Lady Maris bound for Chornomorsk. USM describes it as a bulk carrier; VesselFinder lists LADY MARIS, IMO 9228071, Liberia-flagged bulk carrier built 2001. A separate unnamed Panama-flagged vessel damaged at Izmail the same night is not recorded.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://en.usm.media/russians-attacked-another-ship-bulk-carrier-headed-to-the-port-of-chornomorsk-photo/",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20260304-BULL": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "BULL",
+        "date_utc": "2026-03-04",
+        "vessel_type": "bulk carrier",
+        "region": "Black Sea",
+        "summary": "The Ukrainian Sea Ports Authority said a Russian drone struck the bulk carrier Bull at about 19:20 local time on 4 March 2026 as it left Chornomorsk loaded with corn. Ukraine's navy said one crew member was injured and the captain declined evacuation, and the ship continued its voyage.",
+        "sources": [
+          {
+            "url": "https://latifundist.com/en/novosti/69665-rosiya-vdarila-po-sudnu-z-kukurudzoyu-yake-vihodilo-z-chornomorska?amp=1",
+            "source": "Latifundist (Ukrainian Navy and Sea Ports Authority)"
+          },
+          {
+            "url": "https://maritime-executive.com/article/bulker-struck-by-russian-drone-departing-ukraine",
+            "source": "Maritime Executive"
+          },
+          {
+            "url": "https://www.lloydslist.com/LL1156524/Vessel-carrying-Ukrainian-grain-struck-by-drone-in-the-Black-Sea",
+            "source": "Lloyd's List"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "imo": "9582489",
+        "location_text": "Just after leaving Chornomorsk port, Odesa region, Ukraine, heading for the Bosphorus"
+      },
+      "audit_notes": [
+        "Latifundist cites the Ukrainian Navy identifying BULL, IMO 9582489, attacked at about 19:20 on 4 March leaving Chornomorsk. Maritime Executive names Bull, 82,000 dwt bulker with corn, late on 4 March. Lloyd's List names Bull, bound for Valencia via the Bosporus, one crew injured. Flag conflict: Lloyd's List and Maritime Executive say Liberia, Latifundist says Panama. USPA said several crew injured; navy update referred to one injured crew member; injured set to 1.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "human_impact": {
+        "injured": {
+          "count": 1,
+          "as_of": "2026-03-04",
+          "sources": [
+            {
+              "url": "https://latifundist.com/en/novosti/69665-rosiya-vdarila-po-sudnu-z-kukurudzoyu-yake-vihodilo-z-chornomorska?amp=1",
+              "source": "Casualty source"
+            },
+            {
+              "url": "https://www.lloydslist.com/LL1156524/Vessel-carrying-Ukrainian-grain-struck-by-drone-in-the-Black-Sea",
+              "source": "Casualty source"
+            }
+          ]
+        }
+      }
+    },
+    "HIST-BS-20260622-VICTRESS": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "VICTRESS",
+        "date_utc": "2026-06-22",
+        "vessel_type": "bulk carrier",
+        "region": "Black Sea",
+        "summary": "Ukraine's navy and Sea Ports Authority said a Russian drone struck the Panama-flagged, Turkish-owned bulk carrier Victress early on 22 June 2026 while bound for a Ukrainian port, causing a large fire. A 58-year-old Egyptian cook was killed and eight crew escaped on a life raft and were rescued by the Ukrainian navy.",
+        "sources": [
+          {
+            "url": "https://www.kyivpost.com/post/78672",
+            "source": "Kyiv Post (Ukrainian Navy, USPA)"
+          },
+          {
+            "url": "https://www.marineinsight.com/?p=1892922",
+            "source": "Marine Insight (Kuleba, USPA, Ukrainian Navy)"
+          },
+          {
+            "url": "https://deccanchronicle.com/world/russian-drone-strike-kills-egyptian-crew-member-on-vessel-bound-for-ukraine-1965334",
+            "source": "AFP via Deccan Chronicle (Kuleba)"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "location_text": "Black Sea, en route to a Ukrainian port; Turkish foreign ministry placed it near Chornomorsk, Odesa region"
+      },
+      "audit_notes": [
+        "Kyiv Post and Marine Insight name Victress, Panama flag, Turkish owned, one crew (58-year-old cook) killed, eight rescued. Marine Insight gives crew of nine from Egypt, Turkey and India and Kuleba saying the ship was no longer seaworthy. AFP confirms the Panama-flagged cargo ship and the Egyptian cook's death without naming it. Turkey's foreign ministry (via Ukrainska Pravda) said two Turkish crew were injured near Chornomorsk on 22 June; injured left null because of this conflict. Two other ships (Palau and Belize flags) damaged the same night are unnamed and not recorded.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 1,
+        "nationalities": [
+          {
+            "nationality": "Egyptian",
+            "deaths": 1,
+            "status": "confirmed",
+            "sources": [
+              {
+                "url": "https://www.marineinsight.com/?p=1892922",
+                "source": "Nationality source"
+              }
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.kyivpost.com/post/78672",
+            "source": "Casualty source"
+          },
+          {
+            "url": "https://www.marineinsight.com/?p=1892922",
+            "source": "Casualty source"
+          },
+          {
+            "url": "https://deccanchronicle.com/world/russian-drone-strike-kills-egyptian-crew-member-on-vessel-bound-for-ukraine-1965334",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20260714-ATLAS-BEY": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "ATLAS BEY",
+        "date_utc": "2026-07-14",
+        "vessel_type": "cargo ship",
+        "region": "Black Sea",
+        "summary": "Azerbaijan's foreign ministry said the Tanzania-flagged cargo ship Atlas Bey, owned by Turkey's Okean Maritime, was hit in a drone strike off Odesa on 14 July 2026 and that its Azerbaijani captain, Samad Nasrullayev, was killed. The ministry said 11 crew members were Azerbaijani citizens and that all crew except the captain were brought ashore in Odesa. Odesa's governor said that day's attack hit Tanzania- and Liberia-flagged ships in the maritime corridor, killing one ship's captain and injuring three crew, without naming the ships.",
+        "sources": [
+          {
+            "url": "https://www.turkishminute.com/2026/07/15/azerbaijani-captain-missing-after-drone-strike-on-turkish-owned-ship-off-odesa/amp/",
+            "source": "Turkish Minute (Azerbaijan Foreign Ministry)"
+          },
+          {
+            "url": "https://azertag.az/en/xeber/body_of_ship_captain_killed_in_attack_off_odesa_coast_recovered-4323621",
+            "source": "AZERTAC (Azerbaijan Foreign Ministry)"
+          },
+          {
+            "url": "https://www.kyivpost.com/post/80264",
+            "source": "Kyiv Post (Odesa governor Kiper, USPA)"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "location_text": "Off the Odesa coast, Ukraine, in the Black Sea maritime corridor"
+      },
+      "audit_notes": [
+        "Turkish Minute names Atlas Bey, Tanzania flag, owner Okean Maritime, Azerbaijani captain missing after a Tuesday drone strike; AZERTAC (16 July) reports the MFA saying captain Samad Nasrullayev was killed and his body recovered. Kyiv Post (14 July) reports a Tanzania-flagged vessel hit in the maritime corridor on 14 July with its captain killed and three crew injured, without naming it; the injured count of 3 relies on matching the Tanzania flag. A Liberia-flagged ship hit in the same attack is unnamed and not recorded.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 1,
+        "nationalities": [
+          {
+            "nationality": "Azerbaijani",
+            "deaths": 1,
+            "status": "confirmed",
+            "sources": [
+              {
+                "url": "https://azertag.az/en/xeber/body_of_ship_captain_killed_in_attack_off_odesa_coast_recovered-4323621",
+                "source": "Nationality source"
+              }
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://azertag.az/en/xeber/body_of_ship_captain_killed_in_attack_off_odesa_coast_recovered-4323621",
+            "source": "Casualty source"
+          },
+          {
+            "url": "https://www.turkishminute.com/2026/07/15/azerbaijani-captain-missing-after-drone-strike-on-turkish-owned-ship-off-odesa/amp/",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20260716-ASOMATOS": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "ASOMATOS",
+        "date_utc": "2026-07-16",
+        "vessel_type": "cargo ship",
+        "region": "Black Sea",
+        "summary": "Istanbul's chief prosecutor said the Panama-flagged cargo ship Asomatos was struck by three drones from about 00:30 local time on 17 July 2026 while waiting to load off Kavkaz, Russia, and that one crew member was killed. The ship then sailed to Istanbul, where prosecutors opened an investigation.",
+        "sources": [
+          {
+            "url": "https://aa.com.tr/en/turkiye/turkiye-launches-probe-into-death-aboard-ship-hit-by-drones-off-russia/4003896",
+            "source": "Anadolu Agency (Istanbul Chief Public Prosecutor's Office)"
+          },
+          {
+            "url": "https://www.hurriyetdailynews.com/turkiye-probes-death-aboard-drone-hit-ship-224600",
+            "source": "Hurriyet Daily News (Istanbul Chief Public Prosecutor's Office)"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "location_text": "Waiting to load off Kavkaz, Krasnodar region, Russia, Kerch Strait area",
+        "date_note": "Prosecutors said the strikes began about 00:30 local time on 17 July (21:30 GMT on 16 July), so the UTC date is 16 July."
+      },
+      "audit_notes": [
+        "Both sources name ASOMATOS, Panama flag, carrying 4,751 t of wheat, 24 aboard (14 Indonesian, 4 Egyptian, 3 Greek, 3 Russian port officials), one crew killed. The victim is only 'believed' to be Indonesian, so no nationality is recorded. Anchored about 3 NM off Kisirkaya, Sariyer, Istanbul on 17 July. No party claimed the attack; it occurred amid a Ukrainian drone campaign on Russian ports.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 1,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://aa.com.tr/en/turkiye/turkiye-launches-probe-into-death-aboard-ship-hit-by-drones-off-russia/4003896",
+            "source": "Casualty source"
+          },
+          {
+            "url": "https://www.hurriyetdailynews.com/turkiye-probes-death-aboard-drone-hit-ship-224600",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20260730-ATA-2": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "ATA 2",
+        "date_utc": "2026-07-30",
+        "vessel_type": "general cargo ship",
+        "region": "Black Sea",
+        "summary": "The Panama-flagged, Turkish-owned dry cargo ship ATA-2 was hit by three drones early on 30 July 2026 shortly after leaving Chornomorsk with corn, damaging its accommodation block and bridge. The Azerbaijan Seafarers Support Public Union said no one among its 13 crew, 12 Azerbaijani and one Turkish, was killed or injured, and the ship headed for Romania.",
+        "sources": [
+          {
+            "url": "https://maritime-executive.com/article/video-turkey-and-azerbaijan-protest-as-another-vessel-is-severely-damaged",
+            "source": "Maritime Executive"
+          },
+          {
+            "url": "https://www.turkiyetoday.com/nation/drone-hits-turkish-owned-grain-ship-ata-2-off-chornomorsk-in-black-sea-3224982",
+            "source": "Turkiye Today"
+          },
+          {
+            "url": "https://en.apa.az/europe/ship-carrying-azerbaijani-seafarers-comes-under-uav-attack-off-odesa-coast-518268",
+            "source": "APA (Azerbaijan Seafarers Support Public Union)"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "location_text": "Black Sea shortly after leaving Chornomorsk, Odesa region, Ukraine"
+      },
+      "audit_notes": [
+        "Maritime Executive names ATA 2, 6,555 dwt small cargo ship built 2006, Panama flag, Turkish owned, corn from Chornomorsk, hit by three drones early 30 July, no injuries among 13 crew. Turkiye Today names ATA-2, Panama flag, Turkish company, struck after leaving Chornomorsk. APA names ATA-2, owner Albatros Corporation, three UAVs near Odesa port, no casualties. Attacker not formally identified; Russia's MoD claimed strikes on dry cargo ships near Odesa that day. Turkiye Today's MarineTraffic link carries 9387669, which is not stated in text, so IMO omitted.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://en.apa.az/europe/ship-carrying-azerbaijani-seafarers-comes-under-uav-attack-off-odesa-coast-518268",
+            "source": "Casualty source"
+          },
+          {
+            "url": "https://maritime-executive.com/article/video-turkey-and-azerbaijan-protest-as-another-vessel-is-severely-damaged",
+            "source": "Casualty source"
+          }
+        ]
+      }
+    },
+    "HIST-BS-20260708-BLUE": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "BLUE",
+        "date_utc": "2026-07-08",
+        "vessel_type": "crude oil tanker",
+        "region": "Black Sea",
+        "summary": "Ukraine's Security Service said its Sea Baby naval drone struck the stern of the Suezmax tanker Blue near Yalta on the morning of 8 July 2026, causing significant damage. The claim has not been independently verified.",
+        "sources": [
+          {
+            "url": "https://www.pravda.com.ua/eng/news/2026/07/08/8043083/",
+            "source": "Ukrainska Pravda (SBU press service)"
+          },
+          {
+            "url": "https://militarnyi.com/en/news/sea-baby-naval-drone-strikes-sanctioned-tanker-blue-near-yalta/",
+            "source": "Militarnyi (SBU)"
+          },
+          {
+            "url": "https://maritime-executive.com/article/ukraine-raises-tanker-tally-to-35-struck-in-96-hours-and-two-in-black-sea",
+            "source": "Maritime Executive"
+          }
+        ],
+        "attack_type": "Sea drone strike",
+        "location_text": "Black Sea near Yalta, occupied Crimea, within Ukraine's exclusive economic zone"
+      },
+      "audit_notes": [
+        "Party claim by the SBU, attributed as such. Pravda and Militarnyi report the SBU naming BLUE, morning of 8 July, near Yalta, stern hit. Maritime Executive names Blue, 165,293 dwt, Turkish managed, EU and UK sanctioned, registered in Cameroon, AIS last in the central Black Sea, attacked 8 July. No independent confirmation of damage; no crew casualty information. IMO not stated.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20260719-ASIA": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "ASIA",
+        "date_utc": "2026-07-19",
+        "vessel_type": "crude oil tanker",
+        "region": "Black Sea",
+        "summary": "The Caspian Pipeline Consortium said the Liberia-flagged tanker ASIA was hit by aerial drones on 19 July 2026 while loading Tengizchevroil crude at its marine terminal, starting a fire that was extinguished with CPC help. The tanker stayed afloat, no oil spill occurred, and the crew did not request medical assistance.",
+        "sources": [
+          {
+            "url": "https://www.cpc.ru/EN/press/releases/2026/Pages/20260719.aspx",
+            "source": "Caspian Pipeline Consortium press release, 19 July 2026"
+          },
+          {
+            "url": "https://maritime-executive.com/article/three-tankers-attacked-while-loading-at-caspian-pipeline",
+            "source": "Maritime Executive"
+          },
+          {
+            "url": "https://gcaptain.com/caspian-pipeline-consortium-oil-loadings-suspended-after-drone-attacks-on-tankers/",
+            "source": "Reuters via gCaptain"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "location_text": "Loading at a single point mooring (SPM-1 or SPM-2) of the CPC marine terminal off Novorossiysk, Russia"
+      },
+      "audit_notes": [
+        "CPC names ASIA (Liberia) and NISSOS IOS (Marshall Islands) hit by UAVs at SPM-1 and SPM-2 on 19 July; fire on ASIA. Maritime Executive gives ASIA as 163,111 dwt, built 2022, managed by Dynacom for Chevron, attacked Sunday 19 July. Reuters via gCaptain names both and quotes CPC and Kazakhstan's ministries. No party claimed it. CPC reported no casualties among CPC or contractor staff and no medical requests from crews; crew casualty fields left null as no source states the crew count or zero injuries explicitly. Distinct from NELSA (20 July, already on tracker).",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20260719-NISSOS-IOS": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "NISSOS IOS",
+        "date_utc": "2026-07-19",
+        "vessel_type": "crude oil tanker",
+        "region": "Black Sea",
+        "summary": "The Caspian Pipeline Consortium said the Marshall Islands-flagged tanker NISSOS IOS was hit by aerial drones on 19 July 2026 while loading Kashagan crude at its marine terminal. The tanker stayed afloat, no oil spill occurred, and the crew did not request medical assistance.",
+        "sources": [
+          {
+            "url": "https://www.cpc.ru/EN/press/releases/2026/Pages/20260719.aspx",
+            "source": "Caspian Pipeline Consortium press release, 19 July 2026"
+          },
+          {
+            "url": "https://maritime-executive.com/article/three-tankers-attacked-while-loading-at-caspian-pipeline",
+            "source": "Maritime Executive"
+          },
+          {
+            "url": "https://gcaptain.com/caspian-pipeline-consortium-oil-loadings-suspended-after-drone-attacks-on-tankers/",
+            "source": "Reuters via gCaptain"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "location_text": "Loading at a single point mooring (SPM-1 or SPM-2) of the CPC marine terminal off Novorossiysk, Russia"
+      },
+      "audit_notes": [
+        "CPC names NISSOS IOS (Marshall Islands), cargo owned by Kashagan B.V. and KazMunayGaz, hit by UAVs on 19 July. Maritime Executive gives 157,447 dwt, Greek owned, attacked Sunday 19 July, loading suspended for a few hours. Reuters via gCaptain confirms both tankers stayed afloat. No party claimed it. Crew casualty fields left null (CPC says no casualties among its staff or contractors and no crew medical requests).",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
+    },
+    "HIST-BS-20260717-NORDIC-ZENITH": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-02T05:20:40.088530+00:00",
+        "vessel_name": "NORDIC ZENITH",
+        "date_utc": "2026-07-17",
+        "vessel_type": "crude oil tanker",
+        "region": "Black Sea",
+        "summary": "The Caspian Pipeline Consortium confirmed that the Suezmax tanker Nordic Zenith was damaged by two drones on 17 July 2026 near its terminal off Novorossiysk and caught fire, which was put out. CPC said the tanker was removed from the loading schedule; 13 crew were evacuated by CPC vessels and nine stayed aboard.",
+        "sources": [
+          {
+            "url": "https://gcaptain.com/exxon-chartered-oil-tanker-attacked-by-drones-near-black-sea-terminal/",
+            "source": "Reuters via gCaptain (CPC statement)"
+          },
+          {
+            "url": "https://maritime-executive.com/article/three-tankers-attacked-while-loading-at-caspian-pipeline",
+            "source": "Maritime Executive"
+          }
+        ],
+        "attack_type": "Drone strike",
+        "location_text": "Inbound to the CPC marine terminal near Novorossiysk, Russia",
+        "date_note": "Reuters (published 18 July 2026) says the attack was on Friday, which is 17 July 2026; Maritime Executive says the end of the previous week."
+      },
+      "audit_notes": [
+        "Reuters via gCaptain names Nordic Zenith, Suezmax tanker, two drones, fire extinguished, CPC quote that it is unfit for mooring or loading, sources say chartered by ExxonMobil (Exxon said it does not own or operate vessels). Maritime Executive names Nordic Zenith, 158,645 dwt, Norwegian owned, Liberia registered, in ballast, inbound to the terminal, crew extinguished fire. No party claimed it. No casualties reported, but no source explicitly states zero, so fields left null.",
+        "Historical backfill 2 November 2026. Unknown deaths are not zero."
+      ]
     }
   },
   "audit": [

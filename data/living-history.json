@@ -1783,5 +1783,530 @@
     "vessel_category": "merchant",
     "region": "Black Sea",
     "vessel_type": "Bulk carrier"
+  },
+  {
+    "id": "HIST-RS-20231218-MSC-CLARA",
+    "status": "reported",
+    "region": "Red Sea",
+    "vessel_type": "container ship",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-RS-20240201-KOI",
+    "status": "reported",
+    "region": "Red Sea",
+    "vessel_type": "container ship",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-RS-20240426-MAISHA",
+    "status": "reported",
+    "region": "Red Sea",
+    "vessel_type": "tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-RS-20240517-WIND",
+    "status": "reported",
+    "region": "Red Sea",
+    "vessel_type": "oil tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20220226-AFINA",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "bulk carrier",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20220226-PRINCESS-NICOLE",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "bulk carrier",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20220407-KAPITAN-BELOUSOV",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "icebreaker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20220601-BRENTIX",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "product tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20220707-MILLENNIAL-SPIRIT",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "chemical tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20230124-FERAHNAZ",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "general cargo ship",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20231005-KAFKAMETLER",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "general cargo ship",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20231015-ALI-NAJAFOV",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "product tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20231116-GEORGIA-S",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "bulk carrier",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20231227-VYSSOS",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "bulk carrier",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-RS-20240710-MOUNT-FUJI",
+    "status": "reported",
+    "region": "Red Sea",
+    "vessel_type": "tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-RS-20240711-ROSTRUM-STOIC",
+    "status": "reported",
+    "region": "Red Sea",
+    "vessel_type": "bulk carrier",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-RS-20240808-DELTA-BLUE",
+    "status": "reported",
+    "region": "Red Sea",
+    "vessel_type": "crude oil tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-RS-20240812-DELTA-ATLANTICA",
+    "status": "reported",
+    "region": "Red Sea",
+    "vessel_type": "crude oil tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-RS-20240830-GROTON",
+    "status": "reported",
+    "region": "Gulf of Aden",
+    "vessel_type": "container ship",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-RS-20240902-AMJAD",
+    "status": "reported",
+    "region": "Red Sea",
+    "vessel_type": "crude oil tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-RS-20241001-MINOAN-COURAGE",
+    "status": "reported",
+    "region": "Red Sea",
+    "vessel_type": "bulk carrier",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-RS-20241117-ANADOLU-S",
+    "status": "reported",
+    "region": "Red Sea",
+    "vessel_type": "bulk carrier",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-RS-20260724-NCC-MASA",
+    "status": "reported",
+    "region": "Red Sea",
+    "vessel_type": "tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-RS-20260824-AMZAN",
+    "status": "reported",
+    "region": "Red Sea",
+    "vessel_type": "oil tanker (VLCC)",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20240530-CONRO-TRADER",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "rail ferry",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20240530-AVANGARD",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "rail ferry",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20240723-SLAVYANIN",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "rail ferry",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20240822-CONRO-TRADER",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "rail ferry",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20250819-EXCELLION",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "product tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20251117-ORINDA",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "LPG carrier",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20251202-MIDVOLGA-2",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20251210-DASHAN",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "oil tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20251212-CENK-T",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "ro-ro passenger ship (RoPax)",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20251213-VIVA",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "product tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20251218-VALERIY-GORCHAKOV",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "oil tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20251223-ANKA",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20251226-MAJESTIC",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "river vessel",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20251230-EMMAKRIS-III",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "bulk carrier",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20251230-CAPTAIN-KARAM",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "bulk carrier",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20240927-VOLGONEFT-25",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "oil tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20250902-VOLGONEFT-25",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20250902-SVIR",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "vessel (type not stated; in ballast)",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20250902-NIKA-SPIRIT",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20250902-MAZU",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "vessel (type not stated)",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20250902-NAVIGER-2",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "vessel (type not stated; in ballast, used as a buffer)",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20250902-CT-TRADER",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20251103-VOLGONEFT-25",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20251117-SCOT-HAMBURG",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20251117-VOLGONEFT-25",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20251117-DJANGO",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20251117-NATAN",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "vessel (type not stated; in ballast)",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20251117-MAJESTIC",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "river vessel",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20251124-NIKA-SPIRIT",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20251226-NATHAN",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "vessel (type not stated; in ballast)",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-ME-20260905-KYLO",
+    "status": "reported",
+    "region": "Strait of Hormuz",
+    "vessel_type": "crude oil tanker (Suezmax)",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-ME-20260905-STARK-I",
+    "status": "reported",
+    "region": "Strait of Hormuz",
+    "vessel_type": "crude oil tanker (Suezmax)",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-ME-20260905-DOWNY",
+    "status": "reported",
+    "region": "Strait of Hormuz",
+    "vessel_type": "crude oil tanker (VLCC)",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-ME-20260514-HUI-CHUAN",
+    "status": "reported",
+    "region": "Strait of Hormuz",
+    "vessel_type": "fishery research vessel (owner Sinoguards calls it an offshore work platform vessel; Bloomberg's sources and the BBC describe it as a floating armoury)",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-ME-20260301-OCEAN-ELECTRA",
+    "status": "reported",
+    "region": "Strait of Hormuz",
+    "vessel_type": "bulk carrier or tanker (sources differ)",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20260107-ELBUS",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "crude oil tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20260326-ALTURA",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "crude oil tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20260528-JAMES-II",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "oil tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20260528-ALTURA",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "oil tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20260528-VELORA",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "oil tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20260528-ANT",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "general cargo ship",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20260414-LADY-MARIS",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "bulk carrier",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20260304-BULL",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "bulk carrier",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20260622-VICTRESS",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "bulk carrier",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20260714-ATLAS-BEY",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "cargo ship",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20260716-ASOMATOS",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "cargo ship",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20260730-ATA-2",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "general cargo ship",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20260708-BLUE",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "crude oil tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20260719-ASIA",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "crude oil tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20260719-NISSOS-IOS",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "crude oil tanker",
+    "vessel_category": "merchant"
+  },
+  {
+    "id": "HIST-BS-20260717-NORDIC-ZENITH",
+    "status": "reported",
+    "region": "Black Sea",
+    "vessel_type": "crude oil tanker",
+    "vessel_category": "merchant"
   }
 ]
