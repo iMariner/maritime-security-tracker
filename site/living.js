@@ -26,7 +26,7 @@ let rootVisible = true;
 let heroVisible = true, heroDistance = 0, lastCurrent = null;
 let mapView = null, mapTarget = null, oceanPhase = 0;
 const oceanFlows = [];
-const hero = root.querySelector('.hero');
+const hero = root.querySelector('.hero-map') || root.querySelector('.hero');
 const observer = 'IntersectionObserver' in window ? new IntersectionObserver(entries => {
  entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('is-visible', 'reveal'); observer.unobserve(entry.target); } });
 }, {threshold: .08}) : null;
