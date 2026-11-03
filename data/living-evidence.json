@@ -17756,6 +17756,84 @@
           ]
         }
       ]
+    },
+    "INC-20261103-004": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 1,
+        "sources": [
+          {
+            "url": "https://www.mea.gov.in/Speeches-Statements.htm?dtl/41284",
+            "source": "Ministry of External Affairs, India, statement of 3 November 2026"
+          },
+          {
+            "url": "https://www.thehindu.com/news/national/india-seafarer-killed-in-attack-on-ship-near-oman-mea-west-asia-conflict/article71659910.ece",
+            "source": "The Hindu, 3 November 2026"
+          }
+        ],
+        "nationalities": [
+          {
+            "nationality": "Indian",
+            "status": "confirmed",
+            "deaths": 1,
+            "sources": [
+              {
+                "url": "https://www.mea.gov.in/Speeches-Statements.htm?dtl/41284",
+                "source": "Ministry of External Affairs, India, statement of 3 November 2026"
+              },
+              {
+                "url": "https://www.thehindu.com/news/national/india-seafarer-killed-in-attack-on-ship-near-oman-mea-west-asia-conflict/article71659910.ece",
+                "source": "The Hindu, 3 November 2026"
+              }
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-03T19:00:00Z",
+        "vessel_name": "AL JUSUFI",
+        "date_utc": "2026-11-02",
+        "vessel_type": "Dhow (motor sailing vessel)",
+        "region": "Gulf of Oman",
+        "location_text": "Near Limah (Lima), Oman, on the outbound Hormuz route",
+        "summary": "The Indian-flagged dhow MSV Al Jusufi, sailing from Hamriyah in the United Arab Emirates towards Porbandar in India with 14 Indian seafarers on board, was struck near Limah, Oman, on 2 November 2026. Thirteen of the crew were rescued by the Omani Coast Guard and one, Gandhar Nahim Ajij of Gujarat, died of his injuries. India's Ministry of External Affairs condemned the attack. UKMTO warning 194-26 records the Indian government's report of the attack on an Indian crewed dhow and the rescue of the surviving crew by the Omani Royal Navy.",
+        "date_note": "UKMTO warning 194-26 records the incident on 2 November 2026 at 1105 UTC off Lima, Oman. The Ministry of External Affairs statement of 3 November describes the attack as on the evening of 2 November and Indian officials put it at about 1600 local time. A day precision date is used.",
+        "sources": [
+          {
+            "url": "https://www.mea.gov.in/Speeches-Statements.htm?dtl/41284",
+            "source": "Ministry of External Affairs, India, statement of 3 November 2026"
+          },
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261103-ukmto_warning-194-26.pdf",
+            "source": "UKMTO warning 194-26, issued 2 November 2026"
+          },
+          {
+            "url": "https://www.thehindu.com/news/national/india-seafarer-killed-in-attack-on-ship-near-oman-mea-west-asia-conflict/article71659910.ece",
+            "source": "The Hindu, 3 November 2026"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-03T19:00:00Z",
+          "text": "India's Ministry of External Affairs named the vessel as MSV Al Jusufi and confirmed that all 14 people on board were Indian nationals, with 13 rescued and one killed. The single death is therefore recorded as Indian. The ministry named the dead seafarer as Gandhar Nahim Ajij of Gujarat and said he died of injuries after the strike. This record previously carried no vessel name and no verified casualty count.",
+          "sources": [
+            {
+              "url": "https://www.mea.gov.in/Speeches-Statements.htm?dtl/41284",
+              "source": "Ministry of External Affairs, India, statement of 3 November 2026"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261103-ukmto_warning-194-26.pdf",
+              "source": "UKMTO warning 194-26, issued 2 November 2026"
+            },
+            {
+              "url": "https://www.thehindu.com/news/national/india-seafarer-killed-in-attack-on-ship-near-oman-mea-west-asia-conflict/article71659910.ece",
+              "source": "The Hindu, 3 November 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -31099,6 +31177,91 @@
             {
               "url": "https://www.indiatoday.in/india/story/strait-of-hormuz-tanker-attacks-29-indian-seafarers-safe-3028916-2026-10-30",
               "source": "India Today, 30 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6612855044,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6612855044",
+      "author": "iMariner",
+      "received_at": "2026-11-03T19:00:37Z",
+      "incident_id": "INC-20261103-004",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261103-004",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-03T19:00:00Z",
+          "vessel_name": "AL JUSUFI",
+          "date_utc": "2026-11-02",
+          "vessel_type": "Dhow (motor sailing vessel)",
+          "region": "Gulf of Oman",
+          "location_text": "Near Limah (Lima), Oman, on the outbound Hormuz route",
+          "summary": "The Indian-flagged dhow MSV Al Jusufi, sailing from Hamriyah in the United Arab Emirates towards Porbandar in India with 14 Indian seafarers on board, was struck near Limah, Oman, on 2 November 2026. Thirteen of the crew were rescued by the Omani Coast Guard and one, Gandhar Nahim Ajij of Gujarat, died of his injuries. India's Ministry of External Affairs condemned the attack. UKMTO warning 194-26 records the Indian government's report of the attack on an Indian crewed dhow and the rescue of the surviving crew by the Omani Royal Navy.",
+          "date_note": "UKMTO warning 194-26 records the incident on 2 November 2026 at 1105 UTC off Lima, Oman. The Ministry of External Affairs statement of 3 November describes the attack as on the evening of 2 November and Indian officials put it at about 1600 local time. A day precision date is used.",
+          "sources": [
+            {
+              "url": "https://www.mea.gov.in/Speeches-Statements.htm?dtl/41284",
+              "source": "Ministry of External Affairs, India, statement of 3 November 2026"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261103-ukmto_warning-194-26.pdf",
+              "source": "UKMTO warning 194-26, issued 2 November 2026"
+            },
+            {
+              "url": "https://www.thehindu.com/news/national/india-seafarer-killed-in-attack-on-ship-near-oman-mea-west-asia-conflict/article71659910.ece",
+              "source": "The Hindu, 3 November 2026"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 1,
+          "sources": [
+            {
+              "url": "https://www.mea.gov.in/Speeches-Statements.htm?dtl/41284",
+              "source": "Ministry of External Affairs, India, statement of 3 November 2026"
+            },
+            {
+              "url": "https://www.thehindu.com/news/national/india-seafarer-killed-in-attack-on-ship-near-oman-mea-west-asia-conflict/article71659910.ece",
+              "source": "The Hindu, 3 November 2026"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Indian",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "url": "https://www.mea.gov.in/Speeches-Statements.htm?dtl/41284",
+                  "source": "Ministry of External Affairs, India, statement of 3 November 2026"
+                },
+                {
+                  "url": "https://www.thehindu.com/news/national/india-seafarer-killed-in-attack-on-ship-near-oman-mea-west-asia-conflict/article71659910.ece",
+                  "source": "The Hindu, 3 November 2026"
+                }
+              ]
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-11-03T19:00:00Z",
+          "text": "India's Ministry of External Affairs named the vessel as MSV Al Jusufi and confirmed that all 14 people on board were Indian nationals, with 13 rescued and one killed. The single death is therefore recorded as Indian. The ministry named the dead seafarer as Gandhar Nahim Ajij of Gujarat and said he died of injuries after the strike. This record previously carried no vessel name and no verified casualty count.",
+          "sources": [
+            {
+              "url": "https://www.mea.gov.in/Speeches-Statements.htm?dtl/41284",
+              "source": "Ministry of External Affairs, India, statement of 3 November 2026"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261103-ukmto_warning-194-26.pdf",
+              "source": "UKMTO warning 194-26, issued 2 November 2026"
+            },
+            {
+              "url": "https://www.thehindu.com/news/national/india-seafarer-killed-in-attack-on-ship-near-oman-mea-west-asia-conflict/article71659910.ece",
+              "source": "The Hindu, 3 November 2026"
             }
           ]
         }
