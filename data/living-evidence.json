@@ -12952,27 +12952,32 @@
       },
       "verification": {
         "status": "verified",
-        "checked_at": "2026-11-01T13:29:05Z",
+        "checked_at": "2026-11-03T09:00:00Z",
         "vessel_name": "AL MAYEDA",
+        "imo": "9397298",
         "date_utc": "2026-10-30",
         "vessel_type": "LNG carrier",
         "region": "Persian Gulf",
-        "location_text": "Arabian Gulf, transit position not published",
-        "attack_type": "Unidentified objects, described by India's shipping minister as a projectile attack",
-        "summary": "AL MAYEDA, an LNG carrier owned by Qatar Gas Transport Company (Nakilat) and flagged in the Marshall Islands, was hit by unidentified objects while transiting the Arabian Gulf on the evening of Friday 30 October 2026. Nakilat's statement, published on the Qatar Stock Exchange and carried by the Qatar News Agency on 1 November, said none of the crew members on board were injured, there was no impact on the environment, the vessel was in a safe condition and operational, and the impact of the incident was being assessed. India's shipping minister, Sarbananda Sonowal, said in a post on X on 31 October that the Marshall Islands-flagged LNG carrier MT AL MAYEDA, carrying six Indian seafarers, was targeted in a projectile attack in the Persian Gulf on 30 October, and that all six Indian nationals along with the entire 25-member crew were completely safe. No position, attacker or damage detail beyond the owner's assessment has been published, and the owner named no weapon.",
-        "date_note": "Nakilat's statement, carried by the Qatar News Agency, dates the strike to the evening of Friday 30 October 2026, and India's shipping minister also gives 30 October. The corpus row and the first reports carry 1 November, the day the owner's statement was published, so the attack date is recorded as 30 October.",
+        "location_text": "About 40 nautical miles south of Lavan Island, Iran, in the Arabian Gulf",
+        "attack_type": "Projectile strike; the owner described unidentified objects",
+        "summary": "AL MAYEDA, a Marshall Islands flagged LNG carrier owned by Qatar Gas Transport Company (Nakilat), was struck by projectiles about 40 nautical miles south of Lavan Island, Iran, in the Arabian Gulf on 30 October 2026, causing a fire on board, according to UKMTO warning 188-26 as listed in JMIC advisory update 110 of 1 November 2026. That entry records the crew as reported safe and names no attacker. Nakilat's statement, published on the Qatar Stock Exchange and carried by the Qatar News Agency on 1 November, said none of the crew members on board were injured, there was no impact on the environment, the vessel was in a safe condition and operational, and the impact of the incident was being assessed. India's shipping minister, Sarbananda Sonowal, said in a post on X on 31 October that the Marshall Islands flagged LNG carrier MT AL MAYEDA, carrying six Indian seafarers, was targeted in a projectile attack in the Persian Gulf on 30 October, and that all six Indian nationals along with the entire 25-member crew were completely safe. TradeWinds reported on 2 November that QatarEnergy was weighing options for offloading cargo from the damaged carrier and described the strike as on the vessel's port side. No authority has identified the attacker or the weapon type.",
+        "date_note": "Nakilat's statement, carried by the Qatar News Agency, dates the strike to the evening of Friday 30 October 2026, and India's shipping minister also gives 30 October. UKMTO warning 188-26 and JMIC advisory update 110 also date it 30 October. The corpus row and the first reports carry 1 November, the day the owner's statement was published, so the attack date is recorded as 30 October.",
         "sources": [
           {
-            "url": "https://qna.org.qa/en/news/news-details?date=1/11/2026&id=qatar-gas-transport-company-announces-one-of-its-vessels-attacked-in-arabian-gulf",
-            "source": "Qatar News Agency, 1 November 2026, carrying Nakilat's statement: LNG carrier Al Mayeda hit by unidentified objects while transiting the Arabian Gulf on Friday evening, 30 October 2026, no crew injured, no environmental impact, vessel safe and operational"
+            "url": "https://ukmto.org/-/media/ukmto/products/jmic_advisory_update_110_01-nov-1.pdf",
+            "source": "Joint Maritime Information Center advisory update 110, 1 November 2026, distributed by UKMTO: AL MAYEDA against UKMTO 188-26 on 30 October, struck by projectiles about 40 nautical miles south of Lavan Island, Iran, causing a fire on board, crew reported as safe"
           },
           {
-            "url": "https://www.indiagazette.com/news/279405897/entire-crew-including-six-indian-seafarers-safe-after-marshall-islands-flagged-lng-carrier-struck-in-persian-gulf-sonowal",
-            "source": "ANI, 31 October 2026, quoting India's shipping minister Sarbananda Sonowal: Marshall Islands-flagged LNG carrier MT AL MAYEDA carrying six Indian seafarers, projectile attack in the Persian Gulf on 30 October, all six and the entire 25-member crew safe"
+            "url": "https://qna.org.qa/en/news/news-details?date=1/11/2026&id=qatar-gas-transport-company-announces-one-of-its-vessels-attacked-in-arabian-gulf",
+            "source": "Qatar News Agency, 1 November 2026, carrying Nakilat's statement: no crew injured, no environmental impact, vessel safe and operational, impact being assessed"
+          },
+          {
+            "url": "https://www.tradewindsnews.com/gas/qatarenergy-weighs-options-for-offloading-cargo-from-damaged-nakilat-lng-carrier/2-1-2067531",
+            "source": "TradeWinds, 2 November 2026: QatarEnergy weighs options for offloading cargo from the damaged Nakilat LNG carrier; the vessel was struck on its port side"
           },
           {
             "url": "https://www.aljazeera.com/news/2026/11/1/qatar-lng-carrier-struck-by-unidentified-objects-in-gulf",
-            "source": "Al Jazeera, 1 November 2026: Qatar Gas Transport Company statement that the LNG carrier Al Mayeda was struck by unidentified objects while sailing in the Gulf on Friday evening"
+            "source": "Al Jazeera, 1 November 2026: Qatar Gas Transport Company statement that Al Mayeda was struck by unidentified objects in the Gulf on Friday evening"
           }
         ]
       },
@@ -12988,6 +12993,20 @@
             {
               "url": "https://www.indiagazette.com/news/279405897/entire-crew-including-six-indian-seafarers-safe-after-marshall-islands-flagged-lng-carrier-struck-in-persian-gulf-sonowal",
               "source": "ANI, 31 October 2026, quoting India's shipping minister Sarbananda Sonowal"
+            }
+          ]
+        },
+        {
+          "at": "2026-11-03T09:00:00Z",
+          "text": "Follow-up on the review of 1 November 2026. Two sourced facts are added and the casualty count does not change. UKMTO warning 188-26, as listed in JMIC advisory update 110 issued on 1 November, gives the position as about 40 nautical miles south of Lavan Island, Iran, records projectiles as the cause, states that a fire broke out on board and reports the crew as safe. The earlier review had recorded that no position and no damage detail had been published beyond the owner's assessment; that is no longer true, so the location is filled in and the attack type now follows the UKMTO wording of projectiles rather than the owner's unidentified objects. TradeWinds reported on 2 November that QatarEnergy was weighing options for offloading cargo from the damaged carrier and described a port-side strike, which is consistent with the UKMTO fire report and shows damage beyond the owner's safe and operational line, although no authority has published a damage assessment. Deaths stay at zero on the owner's statement that no one on board was injured and on UKMTO reporting the crew as safe, not on silence, and no nationality is entered because no casualty is reported.",
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/jmic_advisory_update_110_01-nov-1.pdf",
+              "source": "Joint Maritime Information Center advisory update 110, 1 November 2026, distributed by UKMTO (UKMTO 188-26)"
+            },
+            {
+              "url": "https://www.tradewindsnews.com/gas/qatarenergy-weighs-options-for-offloading-cargo-from-damaged-nakilat-lng-carrier/2-1-2067531",
+              "source": "TradeWinds, 2 November 2026, on offloading and port-side damage"
             }
           ]
         }
@@ -30800,6 +30819,120 @@
             {
               "url": "https://www.vesseltracker.com/en/Ships/Volg-Balt-226-8841711.html",
               "source": "Vessel Tracker"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6599309330,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6599309330",
+      "author": "iMariner",
+      "received_at": "2026-11-03T08:50:55Z",
+      "incident_id": "INC-20261101-001",
+      "before": {
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://qna.org.qa/en/news/news-details?date=1/11/2026&id=qatar-gas-transport-company-announces-one-of-its-vessels-attacked-in-arabian-gulf",
+              "source": "Nakilat statement via the Qatar News Agency, 1 November 2026: none of the crew members on board were injured"
+            },
+            {
+              "url": "https://www.indiagazette.com/news/279405897/entire-crew-including-six-indian-seafarers-safe-after-marshall-islands-flagged-lng-carrier-struck-in-persian-gulf-sonowal",
+              "source": "India's shipping minister Sarbananda Sonowal, via ANI, 31 October 2026: all six Indian nationals, along with the entire 25-member crew, are completely safe"
+            }
+          ],
+          "nationalities": []
+        },
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-01T13:29:05Z",
+          "vessel_name": "AL MAYEDA",
+          "date_utc": "2026-10-30",
+          "vessel_type": "LNG carrier",
+          "region": "Persian Gulf",
+          "location_text": "Arabian Gulf, transit position not published",
+          "attack_type": "Unidentified objects, described by India's shipping minister as a projectile attack",
+          "summary": "AL MAYEDA, an LNG carrier owned by Qatar Gas Transport Company (Nakilat) and flagged in the Marshall Islands, was hit by unidentified objects while transiting the Arabian Gulf on the evening of Friday 30 October 2026. Nakilat's statement, published on the Qatar Stock Exchange and carried by the Qatar News Agency on 1 November, said none of the crew members on board were injured, there was no impact on the environment, the vessel was in a safe condition and operational, and the impact of the incident was being assessed. India's shipping minister, Sarbananda Sonowal, said in a post on X on 31 October that the Marshall Islands-flagged LNG carrier MT AL MAYEDA, carrying six Indian seafarers, was targeted in a projectile attack in the Persian Gulf on 30 October, and that all six Indian nationals along with the entire 25-member crew were completely safe. No position, attacker or damage detail beyond the owner's assessment has been published, and the owner named no weapon.",
+          "date_note": "Nakilat's statement, carried by the Qatar News Agency, dates the strike to the evening of Friday 30 October 2026, and India's shipping minister also gives 30 October. The corpus row and the first reports carry 1 November, the day the owner's statement was published, so the attack date is recorded as 30 October.",
+          "sources": [
+            {
+              "url": "https://qna.org.qa/en/news/news-details?date=1/11/2026&id=qatar-gas-transport-company-announces-one-of-its-vessels-attacked-in-arabian-gulf",
+              "source": "Qatar News Agency, 1 November 2026, carrying Nakilat's statement: LNG carrier Al Mayeda hit by unidentified objects while transiting the Arabian Gulf on Friday evening, 30 October 2026, no crew injured, no environmental impact, vessel safe and operational"
+            },
+            {
+              "url": "https://www.indiagazette.com/news/279405897/entire-crew-including-six-indian-seafarers-safe-after-marshall-islands-flagged-lng-carrier-struck-in-persian-gulf-sonowal",
+              "source": "ANI, 31 October 2026, quoting India's shipping minister Sarbananda Sonowal: Marshall Islands-flagged LNG carrier MT AL MAYEDA carrying six Indian seafarers, projectile attack in the Persian Gulf on 30 October, all six and the entire 25-member crew safe"
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/1/qatar-lng-carrier-struck-by-unidentified-objects-in-gulf",
+              "source": "Al Jazeera, 1 November 2026: Qatar Gas Transport Company statement that the LNG carrier Al Mayeda was struck by unidentified objects while sailing in the Gulf on Friday evening"
+            }
+          ]
+        },
+        "updates": [
+          {
+            "at": "2026-11-01T13:29:05Z",
+            "text": "First review of this record. The corpus row held only a headline that the Qatar LNG carrier Al Mayeda was hit by unidentified objects in the Gulf, with the publication date as its date, no flag, no crew and no casualty position. The owner Nakilat, in a statement carried by the Qatar News Agency, and India's shipping minister now establish the attack on the evening of 30 October, the Marshall Islands flag, a 25-member crew including six Indian seafarers, and that no one on board was injured. The owner named no weapon and no attacker, so the weapon is described only as unidentified objects, and India's minister described a projectile attack. No deaths are recorded because both the owner and the minister state the whole crew was unharmed. Nationalities are left empty because no casualty among any nationality was reported.",
+            "sources": [
+              {
+                "url": "https://qna.org.qa/en/news/news-details?date=1/11/2026&id=qatar-gas-transport-company-announces-one-of-its-vessels-attacked-in-arabian-gulf",
+                "source": "Qatar News Agency, 1 November 2026, carrying Nakilat's statement"
+              },
+              {
+                "url": "https://www.indiagazette.com/news/279405897/entire-crew-including-six-indian-seafarers-safe-after-marshall-islands-flagged-lng-carrier-struck-in-persian-gulf-sonowal",
+                "source": "ANI, 31 October 2026, quoting India's shipping minister Sarbananda Sonowal"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "INC-20261101-001",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-03T09:00:00Z",
+          "vessel_name": "AL MAYEDA",
+          "imo": "9397298",
+          "date_utc": "2026-10-30",
+          "vessel_type": "LNG carrier",
+          "region": "Persian Gulf",
+          "location_text": "About 40 nautical miles south of Lavan Island, Iran, in the Arabian Gulf",
+          "attack_type": "Projectile strike; the owner described unidentified objects",
+          "summary": "AL MAYEDA, a Marshall Islands flagged LNG carrier owned by Qatar Gas Transport Company (Nakilat), was struck by projectiles about 40 nautical miles south of Lavan Island, Iran, in the Arabian Gulf on 30 October 2026, causing a fire on board, according to UKMTO warning 188-26 as listed in JMIC advisory update 110 of 1 November 2026. That entry records the crew as reported safe and names no attacker. Nakilat's statement, published on the Qatar Stock Exchange and carried by the Qatar News Agency on 1 November, said none of the crew members on board were injured, there was no impact on the environment, the vessel was in a safe condition and operational, and the impact of the incident was being assessed. India's shipping minister, Sarbananda Sonowal, said in a post on X on 31 October that the Marshall Islands flagged LNG carrier MT AL MAYEDA, carrying six Indian seafarers, was targeted in a projectile attack in the Persian Gulf on 30 October, and that all six Indian nationals along with the entire 25-member crew were completely safe. TradeWinds reported on 2 November that QatarEnergy was weighing options for offloading cargo from the damaged carrier and described the strike as on the vessel's port side. No authority has identified the attacker or the weapon type.",
+          "date_note": "Nakilat's statement, carried by the Qatar News Agency, dates the strike to the evening of Friday 30 October 2026, and India's shipping minister also gives 30 October. UKMTO warning 188-26 and JMIC advisory update 110 also date it 30 October. The corpus row and the first reports carry 1 November, the day the owner's statement was published, so the attack date is recorded as 30 October.",
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/jmic_advisory_update_110_01-nov-1.pdf",
+              "source": "Joint Maritime Information Center advisory update 110, 1 November 2026, distributed by UKMTO: AL MAYEDA against UKMTO 188-26 on 30 October, struck by projectiles about 40 nautical miles south of Lavan Island, Iran, causing a fire on board, crew reported as safe"
+            },
+            {
+              "url": "https://qna.org.qa/en/news/news-details?date=1/11/2026&id=qatar-gas-transport-company-announces-one-of-its-vessels-attacked-in-arabian-gulf",
+              "source": "Qatar News Agency, 1 November 2026, carrying Nakilat's statement: no crew injured, no environmental impact, vessel safe and operational, impact being assessed"
+            },
+            {
+              "url": "https://www.tradewindsnews.com/gas/qatarenergy-weighs-options-for-offloading-cargo-from-damaged-nakilat-lng-carrier/2-1-2067531",
+              "source": "TradeWinds, 2 November 2026: QatarEnergy weighs options for offloading cargo from the damaged Nakilat LNG carrier; the vessel was struck on its port side"
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/1/qatar-lng-carrier-struck-by-unidentified-objects-in-gulf",
+              "source": "Al Jazeera, 1 November 2026: Qatar Gas Transport Company statement that Al Mayeda was struck by unidentified objects in the Gulf on Friday evening"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-11-03T09:00:00Z",
+          "text": "Follow-up on the review of 1 November 2026. Two sourced facts are added and the casualty count does not change. UKMTO warning 188-26, as listed in JMIC advisory update 110 issued on 1 November, gives the position as about 40 nautical miles south of Lavan Island, Iran, records projectiles as the cause, states that a fire broke out on board and reports the crew as safe. The earlier review had recorded that no position and no damage detail had been published beyond the owner's assessment; that is no longer true, so the location is filled in and the attack type now follows the UKMTO wording of projectiles rather than the owner's unidentified objects. TradeWinds reported on 2 November that QatarEnergy was weighing options for offloading cargo from the damaged carrier and described a port-side strike, which is consistent with the UKMTO fire report and shows damage beyond the owner's safe and operational line, although no authority has published a damage assessment. Deaths stay at zero on the owner's statement that no one on board was injured and on UKMTO reporting the crew as safe, not on silence, and no nationality is entered because no casualty is reported.",
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/jmic_advisory_update_110_01-nov-1.pdf",
+              "source": "Joint Maritime Information Center advisory update 110, 1 November 2026, distributed by UKMTO (UKMTO 188-26)"
+            },
+            {
+              "url": "https://www.tradewindsnews.com/gas/qatarenergy-weighs-options-for-offloading-cargo-from-damaged-nakilat-lng-carrier/2-1-2067531",
+              "source": "TradeWinds, 2 November 2026, on offloading and port-side damage"
             }
           ]
         }
