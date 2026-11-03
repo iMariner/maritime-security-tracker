@@ -17834,6 +17834,54 @@
           ]
         }
       ]
+    },
+    "INC-20261101-015": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-03T19:00:00Z",
+        "vessel_name": "LARGO ATOM",
+        "date_utc": "2026-11-01",
+        "vessel_type": "Product tanker",
+        "region": "Persian Gulf",
+        "location_text": "72 nautical miles east of Ras Al Khafji, Saudi Arabia",
+        "imo": "1034747",
+        "summary": "A tanker sailing southeast through the Arabian Gulf was struck by two unknown projectiles on its port side about 72 nautical miles east of Ras Al Khafji, Saudi Arabia, at 2347 UTC on 1 November 2026. UKMTO warning 192-26 said all crew were accounted for and reported no environmental impact, and did not name the vessel. Vanguard Tech identified the ship as the 2025-built product tanker Largo Atom and said the projectiles were reported to be drones, with the strike causing a complete loss of power. The IMO confirmed incidents list records Largo Atom, IMO 1034747, at that position and date.",
+        "date_note": "The attack was at 2347 UTC on 1 November 2026, which was the early hours of 2 November local time in the Gulf.",
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261102-ukmto_warning-192-26.pdf",
+            "source": "UKMTO warning 192-26, 1 November 2026"
+          },
+          {
+            "url": "https://www.rivieramm.com/news-content-hub/gulf-attacks-damage-nakilat-lng-carrier-as-product-tanker-loses-power-90442",
+            "source": "Riviera, 2 November 2026, citing Vanguard Tech"
+          },
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO confirmed incidents list"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-03T19:00:00Z",
+          "text": "This record previously carried only an IMO register line. UKMTO warning 192-26 gives the time, position and weapon effect, and says all crew were accounted for with no environmental impact. Vanguard Tech identified the tanker as Largo Atom through Riviera, and the IMO list carries the same IMO number and position. No death or injury count has been published, so no casualty figure is recorded here; the crew accounted for line is not treated as a settled death count.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261102-ukmto_warning-192-26.pdf",
+              "source": "UKMTO warning 192-26, 1 November 2026"
+            },
+            {
+              "url": "https://www.rivieramm.com/news-content-hub/gulf-attacks-damage-nakilat-lng-carrier-as-product-tanker-loses-power-90442",
+              "source": "Riviera, 2 November 2026, citing Vanguard Tech"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents list"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -31262,6 +31310,61 @@
             {
               "url": "https://www.thehindu.com/news/national/india-seafarer-killed-in-attack-on-ship-near-oman-mea-west-asia-conflict/article71659910.ece",
               "source": "The Hindu, 3 November 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6612856463,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6612856463",
+      "author": "iMariner",
+      "received_at": "2026-11-03T19:00:41Z",
+      "incident_id": "INC-20261101-015",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261101-015",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-03T19:00:00Z",
+          "vessel_name": "LARGO ATOM",
+          "date_utc": "2026-11-01",
+          "vessel_type": "Product tanker",
+          "region": "Persian Gulf",
+          "location_text": "72 nautical miles east of Ras Al Khafji, Saudi Arabia",
+          "imo": "1034747",
+          "summary": "A tanker sailing southeast through the Arabian Gulf was struck by two unknown projectiles on its port side about 72 nautical miles east of Ras Al Khafji, Saudi Arabia, at 2347 UTC on 1 November 2026. UKMTO warning 192-26 said all crew were accounted for and reported no environmental impact, and did not name the vessel. Vanguard Tech identified the ship as the 2025-built product tanker Largo Atom and said the projectiles were reported to be drones, with the strike causing a complete loss of power. The IMO confirmed incidents list records Largo Atom, IMO 1034747, at that position and date.",
+          "date_note": "The attack was at 2347 UTC on 1 November 2026, which was the early hours of 2 November local time in the Gulf.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261102-ukmto_warning-192-26.pdf",
+              "source": "UKMTO warning 192-26, 1 November 2026"
+            },
+            {
+              "url": "https://www.rivieramm.com/news-content-hub/gulf-attacks-damage-nakilat-lng-carrier-as-product-tanker-loses-power-90442",
+              "source": "Riviera, 2 November 2026, citing Vanguard Tech"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents list"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-11-03T19:00:00Z",
+          "text": "This record previously carried only an IMO register line. UKMTO warning 192-26 gives the time, position and weapon effect, and says all crew were accounted for with no environmental impact. Vanguard Tech identified the tanker as Largo Atom through Riviera, and the IMO list carries the same IMO number and position. No death or injury count has been published, so no casualty figure is recorded here; the crew accounted for line is not treated as a settled death count.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261102-ukmto_warning-192-26.pdf",
+              "source": "UKMTO warning 192-26, 1 November 2026"
+            },
+            {
+              "url": "https://www.rivieramm.com/news-content-hub/gulf-attacks-damage-nakilat-lng-carrier-as-product-tanker-loses-power-90442",
+              "source": "Riviera, 2 November 2026, citing Vanguard Tech"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents list"
             }
           ]
         }
