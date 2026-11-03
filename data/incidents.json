@@ -2545,7 +2545,7 @@
     "confidence": 0.6,
     "vessel_name": "RMS TEAM",
     "imo": null,
-    "flag": null,
+    "flag": "Barbados",
     "vessel_type": "other",
     "vessel_category": "merchant",
     "lat": 41.2,
@@ -2612,16 +2612,35 @@
         "kind": "media",
         "published_at": "2026-10-31T10:40:07Z",
         "title": "Giresun açıklarında hasar almıştı! İHA saldırısının hedefi gemi söküme gidiyor - Haber61"
+      },
+      {
+        "url": "https://portnews.ru/news/395883",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-03T04:32:28Z",
+        "title": null
+      },
+      {
+        "url": "https://ukranews.com/news/1170257-kontejnerovoz-atakovan-dronom-v-chernom-more-na-sudne-vspyhnul-pozhar-odin-matros-chislitsya",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-03T04:32:28Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-31T15:30:00Z",
-    "last_updated": "2026-11-01T05:04:50Z",
+    "last_updated": "2026-11-03T04:32:28Z",
     "verification_issue": 304,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-11-01T05:04:50Z",
-      "note": "the Turkish reports are of a ship damaged by a Ukrainian drone on 21 August, the Barbados-flagged container ship RMS Team with one crew member missing, now passing the Istanbul Strait to the breakers, so this is a transit of an old attack and not an attack on 31 October"
+      "by": "iMariner",
+      "at": "2026-11-03T04:32:28Z",
+      "note": "The RMS Team was struck by a drone on 21 August 2026 while bound for Novorossiysk, so the Turkish report describes that damaged ship's later transit and not a new attack on 31 October.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/304#issuecomment-6595511144"
     },
     "published_in": [
       "2026-11-01"
@@ -3160,12 +3179,36 @@
         "kind": "media",
         "published_at": "2026-11-02T08:14:25Z",
         "title": "Минобороны сообщило об ударе по судну в Черном море, перевозившему грузы для ВСУ - prospect.com.ru"
+      },
+      {
+        "url": "https://tass.com/defense/2211383",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-03T04:32:30Z",
+        "title": null
+      },
+      {
+        "url": "https://tafs.uz/en/2026/10/30/russias-defense-ministry-reported-a-strike-on-a-cargo-ship-30-km-from-odesa",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-03T04:32:30Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-31T08:47:00Z",
-    "last_updated": "2026-11-02T09:54:50Z",
+    "last_updated": "2026-11-03T04:32:30Z",
     "verification_issue": 302,
-    "verdict": null,
+    "verdict": {
+      "status": "claimed",
+      "by": "iMariner",
+      "at": "2026-11-03T04:32:30Z",
+      "note": "Only Russia's defence ministry reports the strike, giving no vessel name, flag, damage or casualty details, and no independent or Ukrainian confirmation was found.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/302#issuecomment-6595510921"
+    },
     "published_in": [
       "2026-10-29",
       "2026-10-30",
@@ -3429,16 +3472,35 @@
         "kind": "media",
         "published_at": "2026-10-30T23:36:11Z",
         "title": "Hormuz shipping crisis deepens as Iran reports tanker fires, Houthis target Saudi oil facilities - Geo News"
+      },
+      {
+        "url": "https://www.reuters.com/world/middle-east/yemens-houthis-say-they-attacked-saudi-oil-tanker-red-sea-2026-08-05/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-03T04:32:24Z",
+        "title": null
+      },
+      {
+        "url": "https://www.reuters.com/world/middle-east/yemens-houthis-say-they-attacked-ship-off-saudi-arabias-yanbu-no-saudi-2026-08-24/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-03T04:32:24Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-01T04:37:48Z",
-    "last_updated": "2026-11-01T05:04:50Z",
+    "last_updated": "2026-11-03T04:32:24Z",
     "verification_issue": 309,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-11-01T05:04:50Z",
-      "note": "its EnergyNow source is the 5 August 2026 oil market story on a Houthi claim of a missile attack on a Saudi tanker off Yanbu, re-served under a 31 October Google News headline, and the Geo News copy is about Houthi strikes on Saudi oil facilities on land, so no vessel, place or casualty is established"
+      "by": "iMariner",
+      "at": "2026-11-03T04:32:24Z",
+      "note": "The Houthi claims of attacks on Saudi tankers off Yanbu date from 5 and 24 August 2026 and no tanker attack was reported on 31 October, so this is a re-serve of an older claim.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/309#issuecomment-6595511588"
     },
     "published_in": [
       "2026-11-01"
@@ -5714,16 +5776,35 @@
         "kind": "media",
         "published_at": "2026-10-30T07:13:05Z",
         "title": "Cargo Ship Reports Suspected Attack While Crossing Hormuz - EnergyNow.com"
+      },
+      {
+        "url": "https://www.seatrade-maritime.com/security/imo-suspends-hormuz-transits-after-evergreen-ship-attacked",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-03T04:32:32Z",
+        "title": null
+      },
+      {
+        "url": "https://www.bbc.com/news/articles/cjwg9np904qo",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-03T04:32:32Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-31T04:40:38Z",
-    "last_updated": "2026-10-31T05:05:19Z",
+    "last_updated": "2026-11-03T04:32:32Z",
     "verification_issue": 301,
     "verdict": {
       "status": "rejected",
-      "by": "editor-check",
-      "at": "2026-10-31T05:05:19Z",
-      "note": "its only source is an EnergyNow page under /2026/06/, a re-serve of the 25 June 2026 attack on the container ship Ever Lovely 7.5 nautical miles southeast of Dahit, Oman"
+      "by": "iMariner",
+      "at": "2026-11-03T04:32:32Z",
+      "note": "The item re-serves the 25 June 2026 attack on the Singapore-flagged container ship Ever Lovely 7.5 nautical miles southeast of Dahit, Oman, and no cargo ship was reported attacked in the Strait of Hormuz on 30 October.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/301#issuecomment-6595510694"
     },
     "published_in": [
       "2026-10-31"
@@ -15870,9 +15951,9 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.7,
-    "vessel_name": null,
+    "vessel_name": "CONTSHIP JET",
     "imo": null,
-    "flag": "Greece",
+    "flag": "Liberia",
     "vessel_type": "container",
     "vessel_category": "merchant",
     "lat": 43.0,
@@ -15902,18 +15983,43 @@
         "kind": "media",
         "published_at": "2026-10-29T20:06:37Z",
         "title": "Nava grecească lovită miercuri de drone în largul Bulgariei s-a scufundat - Universul.net"
+      },
+      {
+        "url": "https://apnews.com/article/bulgaria-drone-attack-container-ship-black-sea-2bfd978d36fbb958781cf2721cabcf5c",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-03T04:32:26Z",
+        "title": null
+      },
+      {
+        "url": "https://internazionale.it/ultime-notizie-reuters/2026/10/29/greek-container-ship-sinks-after-drone-attack-off-bulgaria",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-03T04:32:26Z",
+        "title": null
       }
     ],
     "first_seen": "2026-10-31T19:30:54Z",
-    "last_updated": "2026-11-01T05:04:50Z",
+    "last_updated": "2026-11-03T04:32:26Z",
     "verification_issue": 306,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-11-03T04:32:26Z",
+      "note": "Duplicate of INC-20261028-004, the 28 October drone attack that sank the Greek-managed container ship Contship Jet about 21 nautical miles off Bulgaria.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/306#issuecomment-6595511381"
+    },
     "published_in": [
       "2026-11-01"
     ],
-    "status": "merged",
+    "status": "rejected",
     "position_approx": true,
-    "merged_into": "INC-20261028-004"
+    "merged_into": "INC-20261028-004",
+    "status_changed_at": "2026-11-03T04:32:26Z"
   },
   {
     "region": "Strait of Hormuz",
