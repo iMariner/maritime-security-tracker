@@ -17882,6 +17882,61 @@
           ]
         }
       ]
+    },
+    "INC-20261101-016": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-03T19:00:00Z",
+        "vessel_name": "SELAT STORM",
+        "date_utc": "2026-11-01",
+        "vessel_type": "Anchor-handling tug supply vessel",
+        "region": "Strait of Hormuz",
+        "location_text": "About 0.6 nautical miles west of Jazirat Um Al Ghanam, Strait of Hormuz",
+        "imo": "9266657",
+        "summary": "The Panama-flagged anchor-handling tug supply vessel Selat Storm was struck by an unknown projectile in the Strait of Hormuz at about 1500 UTC on 1 November 2026, shortly after leaving Al Hamriyah in the United Arab Emirates. The master of a passing merchant vessel relayed the tug's mayday to UKMTO, whose warning 191-26 recorded the attack without naming the hull. NAVAREA IX warning 425/26 then named Selat Storm as sunk in position 26-22.55N 056-20.47E, about 0.6 nautical miles west of Jazirat Um Al Ghanam. No official statement on the number of crew on board or their fate has been found.",
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261101-ukmto_warning_191_26.pdf",
+            "source": "UKMTO warning 191-26, 1 November 2026"
+          },
+          {
+            "url": "https://www.sealagom.com/navarea/9/message/25463/",
+            "source": "NAVAREA IX warning 425/26, Hydrographer of Pakistan, text reproduced by SeaLagom"
+          },
+          {
+            "url": "https://cwdynamics.com/alerts/alert/33564",
+            "source": "Clearwater Dynamics alert 001-26, 1 November 2026"
+          },
+          {
+            "url": "https://www.tradewindsnews.com/casualties/hormuz-attack-leaves-hole-in-merchant-vessel-off-oman/2-1-2067885",
+            "source": "TradeWinds, 2 November 2026"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-03T19:00:00Z",
+          "text": "This record previously carried only an IMO register line with no reviewed identity, position or summary. UKMTO warning 191-26 logged an unnamed attack inside the Strait of Hormuz at 1509 UTC on 1 November 2026 after a mayday relay. NAVAREA IX warning 425/26 of 2 November named the tug Selat Storm as sunk about 0.6 nautical miles west of Jazirat Um Al Ghanam, and industry reporting identified the hull as the Panama-flagged Selat Storm. The crew count and their fate remain unconfirmed, so no casualty figure is recorded and none is inferred from the silence of the sources.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261101-ukmto_warning_191_26.pdf",
+              "source": "UKMTO warning 191-26, 1 November 2026"
+            },
+            {
+              "url": "https://www.sealagom.com/navarea/9/message/25463/",
+              "source": "NAVAREA IX warning 425/26, Hydrographer of Pakistan, text reproduced by SeaLagom"
+            },
+            {
+              "url": "https://cwdynamics.com/alerts/alert/33564",
+              "source": "Clearwater Dynamics alert 001-26, 1 November 2026"
+            },
+            {
+              "url": "https://www.tradewindsnews.com/casualties/hormuz-attack-leaves-hole-in-merchant-vessel-off-oman/2-1-2067885",
+              "source": "TradeWinds, 2 November 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -31365,6 +31420,68 @@
             {
               "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
               "source": "IMO confirmed incidents list"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6612895034,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6612895034",
+      "author": "iMariner",
+      "received_at": "2026-11-03T19:02:35Z",
+      "incident_id": "INC-20261101-016",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261101-016",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-03T19:00:00Z",
+          "vessel_name": "SELAT STORM",
+          "date_utc": "2026-11-01",
+          "vessel_type": "Anchor-handling tug supply vessel",
+          "region": "Strait of Hormuz",
+          "location_text": "About 0.6 nautical miles west of Jazirat Um Al Ghanam, Strait of Hormuz",
+          "imo": "9266657",
+          "summary": "The Panama-flagged anchor-handling tug supply vessel Selat Storm was struck by an unknown projectile in the Strait of Hormuz at about 1500 UTC on 1 November 2026, shortly after leaving Al Hamriyah in the United Arab Emirates. The master of a passing merchant vessel relayed the tug's mayday to UKMTO, whose warning 191-26 recorded the attack without naming the hull. NAVAREA IX warning 425/26 then named Selat Storm as sunk in position 26-22.55N 056-20.47E, about 0.6 nautical miles west of Jazirat Um Al Ghanam. No official statement on the number of crew on board or their fate has been found.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261101-ukmto_warning_191_26.pdf",
+              "source": "UKMTO warning 191-26, 1 November 2026"
+            },
+            {
+              "url": "https://www.sealagom.com/navarea/9/message/25463/",
+              "source": "NAVAREA IX warning 425/26, Hydrographer of Pakistan, text reproduced by SeaLagom"
+            },
+            {
+              "url": "https://cwdynamics.com/alerts/alert/33564",
+              "source": "Clearwater Dynamics alert 001-26, 1 November 2026"
+            },
+            {
+              "url": "https://www.tradewindsnews.com/casualties/hormuz-attack-leaves-hole-in-merchant-vessel-off-oman/2-1-2067885",
+              "source": "TradeWinds, 2 November 2026"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-11-03T19:00:00Z",
+          "text": "This record previously carried only an IMO register line with no reviewed identity, position or summary. UKMTO warning 191-26 logged an unnamed attack inside the Strait of Hormuz at 1509 UTC on 1 November 2026 after a mayday relay. NAVAREA IX warning 425/26 of 2 November named the tug Selat Storm as sunk about 0.6 nautical miles west of Jazirat Um Al Ghanam, and industry reporting identified the hull as the Panama-flagged Selat Storm. The crew count and their fate remain unconfirmed, so no casualty figure is recorded and none is inferred from the silence of the sources.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261101-ukmto_warning_191_26.pdf",
+              "source": "UKMTO warning 191-26, 1 November 2026"
+            },
+            {
+              "url": "https://www.sealagom.com/navarea/9/message/25463/",
+              "source": "NAVAREA IX warning 425/26, Hydrographer of Pakistan, text reproduced by SeaLagom"
+            },
+            {
+              "url": "https://cwdynamics.com/alerts/alert/33564",
+              "source": "Clearwater Dynamics alert 001-26, 1 November 2026"
+            },
+            {
+              "url": "https://www.tradewindsnews.com/casualties/hormuz-attack-leaves-hole-in-merchant-vessel-off-oman/2-1-2067885",
+              "source": "TradeWinds, 2 November 2026"
             }
           ]
         }
