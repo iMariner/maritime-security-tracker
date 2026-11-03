@@ -17536,6 +17536,82 @@
           ]
         }
       ]
+    },
+    "HIST-BS-20260913-NORAN": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 1,
+        "sources": [
+          {
+            "url": "https://www.egypttoday.com/Article/1/149569/Egyptian-sea-captain-killed-after-cargo-ship-attacked-by-drone",
+            "source": "Egypt Today, 18 September 2026, reporting Egypt's foreign ministry statement that the captain was killed"
+          },
+          {
+            "url": "https://www.maritime.bg/154036/",
+            "source": "Maritime.bg, 19 September 2026, naming the master as an Egyptian citizen"
+          }
+        ],
+        "nationalities": [
+          {
+            "nationality": "Egyptian",
+            "status": "confirmed",
+            "deaths": 1,
+            "sources": [
+              {
+                "url": "https://www.egypttoday.com/Article/1/149569/Egyptian-sea-captain-killed-after-cargo-ship-attacked-by-drone",
+                "source": "Egypt Today, 18 September 2026: Egyptian captain Saeed Abdel-Aziz Salama killed"
+              },
+              {
+                "url": "https://www.maritime.bg/154036/",
+                "source": "Maritime.bg, 19 September 2026: the dead master was an Egyptian citizen"
+              }
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-03T02:52:00Z",
+        "vessel_name": "NORAN",
+        "imo": "9175822",
+        "date_utc": "2026-09-13",
+        "vessel_type": "General cargo ship",
+        "region": "Black Sea",
+        "location_text": "Novorossiysk, Russia; Egypt's foreign ministry said only one of the ports in south-west Russia",
+        "attack_type": "drone (UAV) strike, six drones reported",
+        "summary": "NORAN (IMO 9175822) is a St Kitts and Nevis flagged general cargo ship of 8,595 deadweight tonnes built in 1997. Egypt's Ministry of Foreign Affairs said the ship was struck on 13 September 2026 in one of the ports of south-west Russia while Egyptian seafarers were aboard, and that the master, Saeed Abdel-Aziz Salama of Kafr el Sheikh governorate, was killed. The Egyptian Marine Officers Union said the 13 crew were nine Egyptians, two Indians and two Syrians, that eight Egyptian crew members flew home on 17 September, that none of the survivors was injured, and that the captain's body remained in Russia pending repatriation. Maritime.bg, citing Egyptian reports, said the ship was hit by six drones after leaving a terminal at Novorossiysk and caught fire. No authority named the attacker.",
+        "date_note": "Egypt's foreign ministry dates the incident 13 September 2026 and Vessel Tracker reported it on 17 September. Day precision only: no time or exact berth is published, and reports differ on whether the ship was inside the port or had just sailed, so the position is recorded as Novorossiysk with that caveat.",
+        "sources": [
+          {
+            "url": "https://www.egypttoday.com/Article/1/149569/Egyptian-sea-captain-killed-after-cargo-ship-attacked-by-drone",
+            "source": "Egypt Today, 18 September 2026, reporting Egypt's foreign ministry and the Egyptian Marine Officers Union"
+          },
+          {
+            "url": "https://www.maritime.bg/154036/",
+            "source": "Maritime.bg, 19 September 2026, giving IMO 9175822 and citing Egyptian reports of six drones"
+          },
+          {
+            "url": "https://www.vesselfinder.com/vessels/details/9175822",
+            "source": "Vessel particulars for NORAN, IMO 9175822, St Kitts and Nevis, general cargo, 8,595 deadweight tonnes"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-03T02:52:00Z",
+          "text": "New historical record: this attack was absent from both stores. Egypt's foreign ministry confirmed the master's death and the Egyptian Marine Officers Union gave the crew breakdown of nine Egyptians, two Indians and two Syrians, the return of eight Egyptians on 17 September and no injuries among the survivors. The IMO confirmed incident register does not carry this vessel, so the record rests on the Egyptian government statement and Egyptian and Bulgarian maritime reporting, and no attacker was identified. One seafarer death is counted, Egyptian.",
+          "sources": [
+            {
+              "url": "https://www.egypttoday.com/Article/1/149569/Egyptian-sea-captain-killed-after-cargo-ship-attacked-by-drone",
+              "source": "Egypt Today, 18 September 2026"
+            },
+            {
+              "url": "https://www.maritime.bg/154036/",
+              "source": "Maritime.bg, 19 September 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -30414,6 +30490,90 @@
             {
               "url": "https://www.bbc.com/news/articles/c3n07ydqdzlvo",
               "source": "BBC News, 15 September 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6594068058,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6594068058",
+      "author": "iMariner",
+      "received_at": "2026-11-03T02:41:31Z",
+      "incident_id": "HIST-BS-20260913-NORAN",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-BS-20260913-NORAN",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-03T02:52:00Z",
+          "vessel_name": "NORAN",
+          "imo": "9175822",
+          "date_utc": "2026-09-13",
+          "vessel_type": "General cargo ship",
+          "region": "Black Sea",
+          "location_text": "Novorossiysk, Russia; Egypt's foreign ministry said only one of the ports in south-west Russia",
+          "attack_type": "drone (UAV) strike, six drones reported",
+          "summary": "NORAN (IMO 9175822) is a St Kitts and Nevis flagged general cargo ship of 8,595 deadweight tonnes built in 1997. Egypt's Ministry of Foreign Affairs said the ship was struck on 13 September 2026 in one of the ports of south-west Russia while Egyptian seafarers were aboard, and that the master, Saeed Abdel-Aziz Salama of Kafr el Sheikh governorate, was killed. The Egyptian Marine Officers Union said the 13 crew were nine Egyptians, two Indians and two Syrians, that eight Egyptian crew members flew home on 17 September, that none of the survivors was injured, and that the captain's body remained in Russia pending repatriation. Maritime.bg, citing Egyptian reports, said the ship was hit by six drones after leaving a terminal at Novorossiysk and caught fire. No authority named the attacker.",
+          "date_note": "Egypt's foreign ministry dates the incident 13 September 2026 and Vessel Tracker reported it on 17 September. Day precision only: no time or exact berth is published, and reports differ on whether the ship was inside the port or had just sailed, so the position is recorded as Novorossiysk with that caveat.",
+          "sources": [
+            {
+              "url": "https://www.egypttoday.com/Article/1/149569/Egyptian-sea-captain-killed-after-cargo-ship-attacked-by-drone",
+              "source": "Egypt Today, 18 September 2026, reporting Egypt's foreign ministry and the Egyptian Marine Officers Union"
+            },
+            {
+              "url": "https://www.maritime.bg/154036/",
+              "source": "Maritime.bg, 19 September 2026, giving IMO 9175822 and citing Egyptian reports of six drones"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9175822",
+              "source": "Vessel particulars for NORAN, IMO 9175822, St Kitts and Nevis, general cargo, 8,595 deadweight tonnes"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 1,
+          "sources": [
+            {
+              "url": "https://www.egypttoday.com/Article/1/149569/Egyptian-sea-captain-killed-after-cargo-ship-attacked-by-drone",
+              "source": "Egypt Today, 18 September 2026, reporting Egypt's foreign ministry statement that the captain was killed"
+            },
+            {
+              "url": "https://www.maritime.bg/154036/",
+              "source": "Maritime.bg, 19 September 2026, naming the master as an Egyptian citizen"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Egyptian",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "url": "https://www.egypttoday.com/Article/1/149569/Egyptian-sea-captain-killed-after-cargo-ship-attacked-by-drone",
+                  "source": "Egypt Today, 18 September 2026: Egyptian captain Saeed Abdel-Aziz Salama killed"
+                },
+                {
+                  "url": "https://www.maritime.bg/154036/",
+                  "source": "Maritime.bg, 19 September 2026: the dead master was an Egyptian citizen"
+                }
+              ]
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-11-03T02:52:00Z",
+          "text": "New historical record: this attack was absent from both stores. Egypt's foreign ministry confirmed the master's death and the Egyptian Marine Officers Union gave the crew breakdown of nine Egyptians, two Indians and two Syrians, the return of eight Egyptians on 17 September and no injuries among the survivors. The IMO confirmed incident register does not carry this vessel, so the record rests on the Egyptian government statement and Egyptian and Bulgarian maritime reporting, and no attacker was identified. One seafarer death is counted, Egyptian.",
+          "sources": [
+            {
+              "url": "https://www.egypttoday.com/Article/1/149569/Egyptian-sea-captain-killed-after-cargo-ship-attacked-by-drone",
+              "source": "Egypt Today, 18 September 2026"
+            },
+            {
+              "url": "https://www.maritime.bg/154036/",
+              "source": "Maritime.bg, 19 September 2026"
             }
           ]
         }
