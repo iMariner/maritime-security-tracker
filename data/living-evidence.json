@@ -17612,6 +17612,55 @@
           ]
         }
       ]
+    },
+    "HIST-BS-20260820-VOLGA-4007": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-03T02:52:00Z",
+        "vessel_name": "VOLGA-4007",
+        "date_utc": "2026-08-20",
+        "vessel_type": "General cargo ship",
+        "region": "Black Sea",
+        "location_text": "Departing Novorossiysk, Russia, into the Black Sea",
+        "attack_type": "drone (UAV), four successive strikes reported",
+        "summary": "VOLGA-4007 is a Cook Islands flagged general cargo ship of about 140 metres built in 1989 and described in Turkish reporting as linked to Turkish maritime companies. Turkish and Azerbaijani reports said the ship was struck by four successive drones on 20 August 2026 as it left the port of Novorossiysk for the Black Sea, with 13 crew aboard, ten Indian and three Azerbaijani nationals according to the Support to Azerbaijani Seafarers association. The crew was evacuated and the ship later reached waters off Trabzon with visible damage, where it was filmed at the end of September with the accommodation area burned out. No injury or death figure was published and no party was officially identified as responsible.",
+        "date_note": "Turkish and Azerbaijani reporting dates the strike to 20 August 2026, the day the crew was evacuated and the day jnews.az published. Day precision only; no time of attack is given.",
+        "sources": [
+          {
+            "url": "https://jnews.az/en/drone-attack-cargo-ship-volga-4007-black-sea",
+            "source": "jnews.az, 20 August 2026, quoting the Support to Azerbaijani Seafarers association: four strikes, 13 crew, ten Indian and three Azerbaijani"
+          },
+          {
+            "url": "https://en.12punto.com.tr/economy/cargo-ship-volga-4007-damaged-in-drone-attack-spotted-off-the-coast-of-trabzon-153661",
+            "source": "12punto, 28 September 2026: Cook Islands flag, built 1989, about 140 metres, struck while departing Novorossiysk on 20 August, later seen damaged off Trabzon"
+          },
+          {
+            "url": "https://seanews.com.tr/article/named-volga-4007-attacked-by-drone-mukyj71d",
+            "source": "SeaNews Turkiye, reporting the Turkish transport ministry's maritime directorate and naming the ship"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-03T02:52:00Z",
+          "text": "New historical record: this attack was absent from both stores. Turkish and Azerbaijani reporting gives the date, the four strikes on departure from Novorossiysk and the 13 crew aboard, and later footage shows the ship burned out off Trabzon. No casualty statement has been published, so deaths are left unknown rather than zero, and the crew nationalities are recorded as a crew count, not as deaths.",
+          "sources": [
+            {
+              "url": "https://jnews.az/en/drone-attack-cargo-ship-volga-4007-black-sea",
+              "source": "jnews.az, 20 August 2026"
+            },
+            {
+              "url": "https://en.12punto.com.tr/economy/cargo-ship-volga-4007-damaged-in-drone-attack-spotted-off-the-coast-of-trabzon-153661",
+              "source": "12punto, 28 September 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -30574,6 +30623,63 @@
             {
               "url": "https://www.maritime.bg/154036/",
               "source": "Maritime.bg, 19 September 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6594083994,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6594083994",
+      "author": "iMariner",
+      "received_at": "2026-11-03T02:42:40Z",
+      "incident_id": "HIST-BS-20260820-VOLGA-4007",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-BS-20260820-VOLGA-4007",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-03T02:52:00Z",
+          "vessel_name": "VOLGA-4007",
+          "date_utc": "2026-08-20",
+          "vessel_type": "General cargo ship",
+          "region": "Black Sea",
+          "location_text": "Departing Novorossiysk, Russia, into the Black Sea",
+          "attack_type": "drone (UAV), four successive strikes reported",
+          "summary": "VOLGA-4007 is a Cook Islands flagged general cargo ship of about 140 metres built in 1989 and described in Turkish reporting as linked to Turkish maritime companies. Turkish and Azerbaijani reports said the ship was struck by four successive drones on 20 August 2026 as it left the port of Novorossiysk for the Black Sea, with 13 crew aboard, ten Indian and three Azerbaijani nationals according to the Support to Azerbaijani Seafarers association. The crew was evacuated and the ship later reached waters off Trabzon with visible damage, where it was filmed at the end of September with the accommodation area burned out. No injury or death figure was published and no party was officially identified as responsible.",
+          "date_note": "Turkish and Azerbaijani reporting dates the strike to 20 August 2026, the day the crew was evacuated and the day jnews.az published. Day precision only; no time of attack is given.",
+          "sources": [
+            {
+              "url": "https://jnews.az/en/drone-attack-cargo-ship-volga-4007-black-sea",
+              "source": "jnews.az, 20 August 2026, quoting the Support to Azerbaijani Seafarers association: four strikes, 13 crew, ten Indian and three Azerbaijani"
+            },
+            {
+              "url": "https://en.12punto.com.tr/economy/cargo-ship-volga-4007-damaged-in-drone-attack-spotted-off-the-coast-of-trabzon-153661",
+              "source": "12punto, 28 September 2026: Cook Islands flag, built 1989, about 140 metres, struck while departing Novorossiysk on 20 August, later seen damaged off Trabzon"
+            },
+            {
+              "url": "https://seanews.com.tr/article/named-volga-4007-attacked-by-drone-mukyj71d",
+              "source": "SeaNews Turkiye, reporting the Turkish transport ministry's maritime directorate and naming the ship"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-03T02:52:00Z",
+          "text": "New historical record: this attack was absent from both stores. Turkish and Azerbaijani reporting gives the date, the four strikes on departure from Novorossiysk and the 13 crew aboard, and later footage shows the ship burned out off Trabzon. No casualty statement has been published, so deaths are left unknown rather than zero, and the crew nationalities are recorded as a crew count, not as deaths.",
+          "sources": [
+            {
+              "url": "https://jnews.az/en/drone-attack-cargo-ship-volga-4007-black-sea",
+              "source": "jnews.az, 20 August 2026"
+            },
+            {
+              "url": "https://en.12punto.com.tr/economy/cargo-ship-volga-4007-damaged-in-drone-attack-spotted-off-the-coast-of-trabzon-153661",
+              "source": "12punto, 28 September 2026"
             }
           ]
         }
