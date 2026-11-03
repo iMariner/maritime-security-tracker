@@ -17661,6 +17661,62 @@
           ]
         }
       ]
+    },
+    "HIST-BS-20260820-VOLGO-BALT-226": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://1news.az/en/news/20260820182507751-Vessel-with-Azerbaijani-sailors-comes-under-drone-attack-in-the-Black-Sea-VIDEO",
+            "source": "1news.az, 20 August 2026: no one injured among the crew"
+          },
+          {
+            "url": "https://www.vesseltracker.com/en/Ships/Volg-Balt-226-8841711.html",
+            "source": "Vessel Tracker: all crew reported safe, no one injured"
+          }
+        ],
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-03T02:52:00Z",
+        "vessel_name": "VOLGO BALT 226",
+        "imo": "8841711",
+        "date_utc": "2026-08-20",
+        "vessel_type": "General cargo ship",
+        "region": "Black Sea",
+        "location_text": "Black Sea, on passage towards Trabzon, Turkey",
+        "attack_type": "drone (UAV)",
+        "summary": "VOLGO BALT 226 (IMO 8841711) is a Comoros flagged dry cargo ship of 113 metres operated by Azov Shipping. Azerbaijani and Turkish shipping reports said it was struck by a drone in the Black Sea on 20 August 2026 while sailing towards Trabzon with 11 crew aboard, ten Azerbaijani nationals and one Georgian national. The Support to Azerbaijani Seafarers association reported that no one was injured and that all the crew were safe, and Vessel Tracker records heavy damage to the accommodation area and the wheelhouse with the ship remaining operational and continuing to Trabzon. No party was officially identified as responsible.",
+        "date_note": "1news.az published the attack on 20 August 2026 and Vessel Tracker records the same date. Day precision only; no time and no exact position are published.",
+        "sources": [
+          {
+            "url": "https://1news.az/en/news/20260820182507751-Vessel-with-Azerbaijani-sailors-comes-under-drone-attack-in-the-Black-Sea-VIDEO",
+            "source": "1news.az, 20 August 2026, quoting the Support for Azerbaijani Sailors association: no one injured, ship heading to Trabzon"
+          },
+          {
+            "url": "https://www.vesseltracker.com/en/Ships/Volg-Balt-226-8841711.html",
+            "source": "Vessel Tracker: IMO 8841711, Comoros flag, 113 metres, Azov Shipping, 11 crew, heavy damage to accommodation and wheelhouse"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-03T02:52:00Z",
+          "text": "New historical record: this attack was absent from both stores. Azerbaijani reporting and Vessel Tracker give the date, the identity, the 11 crew and the damage to the accommodation and wheelhouse, and both state that no one was injured, so zero deaths is recorded on that statement rather than on silence.",
+          "sources": [
+            {
+              "url": "https://1news.az/en/news/20260820182507751-Vessel-with-Azerbaijani-sailors-comes-under-drone-attack-in-the-Black-Sea-VIDEO",
+              "source": "1news.az, 20 August 2026"
+            },
+            {
+              "url": "https://www.vesseltracker.com/en/Ships/Volg-Balt-226-8841711.html",
+              "source": "Vessel Tracker"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -30680,6 +30736,70 @@
             {
               "url": "https://en.12punto.com.tr/economy/cargo-ship-volga-4007-damaged-in-drone-attack-spotted-off-the-coast-of-trabzon-153661",
               "source": "12punto, 28 September 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6594099961,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6594099961",
+      "author": "iMariner",
+      "received_at": "2026-11-03T02:43:52Z",
+      "incident_id": "HIST-BS-20260820-VOLGO-BALT-226",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-BS-20260820-VOLGO-BALT-226",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-03T02:52:00Z",
+          "vessel_name": "VOLGO BALT 226",
+          "imo": "8841711",
+          "date_utc": "2026-08-20",
+          "vessel_type": "General cargo ship",
+          "region": "Black Sea",
+          "location_text": "Black Sea, on passage towards Trabzon, Turkey",
+          "attack_type": "drone (UAV)",
+          "summary": "VOLGO BALT 226 (IMO 8841711) is a Comoros flagged dry cargo ship of 113 metres operated by Azov Shipping. Azerbaijani and Turkish shipping reports said it was struck by a drone in the Black Sea on 20 August 2026 while sailing towards Trabzon with 11 crew aboard, ten Azerbaijani nationals and one Georgian national. The Support to Azerbaijani Seafarers association reported that no one was injured and that all the crew were safe, and Vessel Tracker records heavy damage to the accommodation area and the wheelhouse with the ship remaining operational and continuing to Trabzon. No party was officially identified as responsible.",
+          "date_note": "1news.az published the attack on 20 August 2026 and Vessel Tracker records the same date. Day precision only; no time and no exact position are published.",
+          "sources": [
+            {
+              "url": "https://1news.az/en/news/20260820182507751-Vessel-with-Azerbaijani-sailors-comes-under-drone-attack-in-the-Black-Sea-VIDEO",
+              "source": "1news.az, 20 August 2026, quoting the Support for Azerbaijani Sailors association: no one injured, ship heading to Trabzon"
+            },
+            {
+              "url": "https://www.vesseltracker.com/en/Ships/Volg-Balt-226-8841711.html",
+              "source": "Vessel Tracker: IMO 8841711, Comoros flag, 113 metres, Azov Shipping, 11 crew, heavy damage to accommodation and wheelhouse"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://1news.az/en/news/20260820182507751-Vessel-with-Azerbaijani-sailors-comes-under-drone-attack-in-the-Black-Sea-VIDEO",
+              "source": "1news.az, 20 August 2026: no one injured among the crew"
+            },
+            {
+              "url": "https://www.vesseltracker.com/en/Ships/Volg-Balt-226-8841711.html",
+              "source": "Vessel Tracker: all crew reported safe, no one injured"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-03T02:52:00Z",
+          "text": "New historical record: this attack was absent from both stores. Azerbaijani reporting and Vessel Tracker give the date, the identity, the 11 crew and the damage to the accommodation and wheelhouse, and both state that no one was injured, so zero deaths is recorded on that statement rather than on silence.",
+          "sources": [
+            {
+              "url": "https://1news.az/en/news/20260820182507751-Vessel-with-Azerbaijani-sailors-comes-under-drone-attack-in-the-Black-Sea-VIDEO",
+              "source": "1news.az, 20 August 2026"
+            },
+            {
+              "url": "https://www.vesseltracker.com/en/Ships/Volg-Balt-226-8841711.html",
+              "source": "Vessel Tracker"
             }
           ]
         }
