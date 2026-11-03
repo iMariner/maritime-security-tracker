@@ -15,7 +15,7 @@
     "lon": 29.12,
     "location_text": "Black Sea (attack); vessel later reached the Bosphorus, Istanbul",
     "attack_type": "other",
-    "damage": null,
+    "damage": "vessel bore traces of the attack",
     "casualties": null,
     "attribution_claimed": "Ukraine (per headline: 'Ukrainian attack')",
     "independent_evidence": false,
@@ -48,10 +48,19 @@
         "kind": "media",
         "published_at": "2026-11-03T12:29:14Z",
         "title": "Karadeniz’de dron saldırısında vurulan dev gemi İstanbul Boğazı’ndan geçirildi - Yeni Şafak"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQjdVLU1HVk1tZVZNcV9lMjJzRmNNN3JTX2xYYVdaTUItcDRkVVV5dnI0S0dVd3NEUDZNU2ZITE9oQ2EwSVBPOGFzWlRfd283SEhCenkzMFVkTzhrTjRTYjB0dUFySVVzb3lMeWRtdEJGY1RkRWF3MnQtUzZISFFmNkJ0bXFRNERaQnpTT184S1Nzd1NGNVM0b2h1ekRzTEFmMkVZemNLZzBFY1BQWm9KT1lUTTh5czdILVZuTk5VVnJIdw?oc=5",
+        "source": "Havadis",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-03T22:18:57Z",
+        "title": "Karadeniz'deki saldırının izlerini taşıyan dev gemi İstanbul Boğazı'ndan geçti - Havadis"
       }
     ],
     "first_seen": "2026-11-03T18:00:58Z",
-    "last_updated": "2026-11-03T18:00:58Z",
+    "last_updated": "2026-11-03T23:38:01Z",
     "verification_issue": 330,
     "verdict": null,
     "published_in": [],
@@ -148,6 +157,47 @@
     "published_in": [],
     "status": "merged",
     "merged_into": "INC-20261028-004",
+    "position_approx": true
+  },
+  {
+    "region": "Red Sea",
+    "date_utc": "2026-11-03T02:58:51Z",
+    "summary": "A Yemeni foreign ministry statement condemned the targeting of the vessel 'Tahamah', saying it shows who is besieging Yemenis and targeting their food and ports. No date, position, weapon type, damage or casualty details are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": "TAHAMAH",
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 17.5,
+    "lon": 40.5,
+    "location_text": "Red Sea (Yemeni waters)",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "date_approx": true,
+    "id": "INC-20261103-013",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5LWXJGNmNhWFpzWHlLbTVIczZEUGZMY2oxaDEwRW9UdEtSb0RHY1IyTURrQnBwUnpNUVd0RDEwcnlFMllFVWtVWGRLcUhBLUE?oc=5",
+        "source": "الساحل الغربي",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-03T02:58:51Z",
+        "title": "الخارجية: استهداف سفينة «تهامة» يكشف من يحاصر اليمنيين ويستهدف غذاءهم وموانئهم - الساحل الغربي"
+      }
+    ],
+    "first_seen": "2026-11-03T23:38:09Z",
+    "last_updated": "2026-11-03T23:38:09Z",
+    "verification_issue": 331,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
     "position_approx": true
   },
   {
@@ -248,10 +298,19 @@
         "kind": "official",
         "published_at": "2026-11-03T14:26:52+00:00",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQ3pRSHNseElTdzVXYjRWRXpMWkpDQTFXSk0wR2cySU11TnZOazhqQ1dBcTdIcG52NzlLdEhNdlRQa1dwcFpNN2Ftc2Z5eUVKSHFBc0JVSllSRm94UGdrMTBGcERZRkt6WUttcFlsZGp4aHVwVmc3RUhLVUk2ckhXbkV5bnROUUlfM0lNdW8yUFhDY2d4a0t1M1M5N2dhRndnQzRTd2ZLd2Z6cm1nXzNhMkV6MjRJdUpzSGRfYVN0OWY2Z1BCZm1aNU1TQmZkWE1j?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-03T20:56:47Z",
+        "title": "Russia claims attack on ship and Odesa port as US gears up to mediate peace talks - TradeWinds News"
       }
     ],
     "first_seen": "2026-11-03T10:00:26Z",
-    "last_updated": "2026-11-03T18:01:07Z",
+    "last_updated": "2026-11-03T23:38:05Z",
     "verification_issue": 326,
     "verdict": null,
     "published_in": [],
@@ -312,10 +371,10 @@
   {
     "region": "Gulf of Oman",
     "date_utc": "2026-11-03",
-    "summary": "A Turkish headline reports a suspected attack on a commercial vessel off Oman. No vessel name, flag, position, weapon type, damage or casualty details are given.",
+    "summary": "A commercial cargo vessel was struck by an unknown projectile off Oman's coast on 3 November, and one Indian sailor was killed with 13 crew rescued according to India's government. UKMTO reported two projectiles hit an oil tanker off Oman's coast, and outlets described a second attack within 24 hours.",
     "official_source_cited": "UK maritime agency (UKMTO)",
     "conflicting": false,
-    "confidence": 0.6,
+    "confidence": 0.7,
     "vessel_name": null,
     "imo": null,
     "flag": "India",
@@ -375,16 +434,62 @@
         "kind": "media",
         "published_at": "2026-11-03T05:22:31Z",
         "title": "One Indian Sailor Killed After Cargo Ship Comes Under Attack Off Oman, Govt Says - Outlook India"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNY3hwNGpRX2hzTUpBeXhDU2RhbEU4UjNzRHZjdHVWbTJadHdDUVRDckxFRFhSVldBZGFXN2d6ZzVEV1RMRmhFNnRpYzFLYllidjBnWUt0bl8xVHMtVlJZRDU0dDNmdnBYUkpXSUtxaVBhVnRwZ1VRR2JFdTBxaHJqVVdqTnk5bGctODdIXzNSeDQ?oc=5",
+        "source": "شفق نيوز",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-03T22:34:54Z",
+        "title": "Shafaq News..UKMTO: Two projectiles hit oil tanker off Oman's coast - شفق نيوز"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWmZwTWY2VlAwOVhZRUUtMElma20zMDdONDdndkZCempWWWdFVkNXVFBIZ0h6WllmQS1SWTJLeVhnd3ZmNHdFd1NlUjhUT29hNWY5REliT3JEUVQ5SHFqY2xHTzRYajRIOTNwZkZIdFlNd2h2Ylh5aUdmeS1Md3I3aWo2QQ?oc=5",
+        "source": "Al-Bawaba",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-03T22:00:55Z",
+        "title": "Tankers struck by unidentified projectiles off Oman, second attack within 24 hours - Al-Bawaba"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdFBiWXZUVlZQU0Exd1YyY2RXcjVNekpLYy1CYmhoVXUxQkpHcVdGaTkxV0Nyd3JFaUFoRlprdmpuVVBjaThQZ2lQQmdCLVM5RlcxRDREX21ZVmowakF2dWxJQjVoME9jeVhRY09vanBVU3hPODBQMWFjbHQ5WUdITDdtc1duOGZWRXphc1JSRjVjRXc?oc=5",
+        "source": "Arab Times Kuwait News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-03T22:00:54Z",
+        "title": "Tanker Hit by Two Unidentified Projectiles Off Oman - Arab Times Kuwait News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZW9aUkI0dGJVcXU3YzhNWmIzTWc0enhCRkJmSV9jby1WN2s2aEtUTTN6YVh6WjhDbFIzeFN0OGJPUHJWUkFMN3FBbW9EeEN2OFJfV2dXWHV2emJzREh2bDB3ZmxpRTRyUUR4alpJUmhINTkzdkJMVjQxUERpbXdSMG9KNUZ4Rm81Y2NYV2hUWWRjQW1HNGt3X05ST0h3TEdSeGs5RV9YRQ?oc=5",
+        "source": "UA.NEWS",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-03T21:46:05Z",
+        "title": "Two unidentified projectiles hit tanker off Oman — Anadolu Agency - UA.NEWS"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNbFRqWTMtMHVuUmwydHNCVm5hQnlyQl90QWQ2bVVPa3Q3eWxQbWxibUk4T3BwR2hwd1plbUF6QUFXNHhvR3h5NGw4dUR1emJvVVNtbWxCb0d2UVFid0pkeUNERzZ5SXZxaS03UkNneXJpaVJpVzhYOEdwcTJVV3VscTdmb0ZwLXA3blBuellHUlJENWhmY2M0Rm5PenBFanVwTklpMlZoV25nUk9uOXE1ai05cXBUS3h0TWhYZnJ4VFIySFNOeXNSaXU2dFA3d9IB0wFBVV95cUxPVFhVRkxsOGpKOW5QOUhnM2RUeUtOY0hYNVo1RjRMV1lEejREZ3NleVBIRXFCam9xU0VVQlJNbTczZTlHVEs5ZHduUkVrYTdlVFdZbzFhU2NSeUlfRkthUXNTQl9MR1ByR1VLNHhqYXd6ZTJ2Zkh2Tk1HX2xNaklPOHlzOWZDRkxlbWJXSmt6bmhjbzlybFBrazhOSkRCcVFiYmVjdmZyQWhBSHJrVW45ZVJtOUpoSkJ3RUFpQ1JtckppdjFIb0hRS1RSZVBxQzk5Z3NR?oc=5",
+        "source": "Demócrata",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-03T21:04:30Z",
+        "title": "Attack with two \"unknown\" projectiles against an oil tanker in the Strait of Hormuz off Oman - Demócrata"
       }
     ],
     "first_seen": "2026-11-03T10:00:26Z",
-    "last_updated": "2026-11-03T10:00:35Z",
+    "last_updated": "2026-11-03T23:38:10Z",
     "verification_issue": 327,
     "verdict": null,
     "published_in": [],
     "status": "confirmed",
     "status_changed_at": "2026-11-03T10:00:26Z",
-    "position_approx": true
+    "position_approx": true,
+    "date_approx": false
   },
   {
     "region": "Strait of Hormuz",
@@ -574,6 +679,83 @@
     },
     "published_in": [],
     "status": "rejected",
+    "position_approx": true
+  },
+  {
+    "region": "Gulf of Oman",
+    "date_utc": "2026-11-03",
+    "summary": "UKMTO reported that two projectiles hit an oil tanker off Oman's coast. No vessel name, flag, position, damage or casualty details were given.",
+    "official_source_cited": "UKMTO",
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 24.8,
+    "lon": 58.2,
+    "location_text": "off Oman's coast",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261103-012",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNY3hwNGpRX2hzTUpBeXhDU2RhbEU4UjNzRHZjdHVWbTJadHdDUVRDckxFRFhSVldBZGFXN2d6ZzVEV1RMRmhFNnRpYzFLYllidjBnWUt0bl8xVHMtVlJZRDU0dDNmdnBYUkpXSUtxaVBhVnRwZ1VRR2JFdTBxaHJqVVdqTnk5bGctODdIXzNSeDQ?oc=5",
+        "source": "شفق نيوز",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-03T22:34:54Z",
+        "title": "Shafaq News..UKMTO: Two projectiles hit oil tanker off Oman's coast - شفق نيوز"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWmZwTWY2VlAwOVhZRUUtMElma20zMDdONDdndkZCempWWWdFVkNXVFBIZ0h6WllmQS1SWTJLeVhnd3ZmNHdFd1NlUjhUT29hNWY5REliT3JEUVQ5SHFqY2xHTzRYajRIOTNwZkZIdFlNd2h2Ylh5aUdmeS1Md3I3aWo2QQ?oc=5",
+        "source": "Al-Bawaba",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-03T22:00:55Z",
+        "title": "Tankers struck by unidentified projectiles off Oman, second attack within 24 hours - Al-Bawaba"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdFBiWXZUVlZQU0Exd1YyY2RXcjVNekpLYy1CYmhoVXUxQkpHcVdGaTkxV0Nyd3JFaUFoRlprdmpuVVBjaThQZ2lQQmdCLVM5RlcxRDREX21ZVmowakF2dWxJQjVoME9jeVhRY09vanBVU3hPODBQMWFjbHQ5WUdITDdtc1duOGZWRXphc1JSRjVjRXc?oc=5",
+        "source": "Arab Times Kuwait News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-03T22:00:54Z",
+        "title": "Tanker Hit by Two Unidentified Projectiles Off Oman - Arab Times Kuwait News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZW9aUkI0dGJVcXU3YzhNWmIzTWc0enhCRkJmSV9jby1WN2s2aEtUTTN6YVh6WjhDbFIzeFN0OGJPUHJWUkFMN3FBbW9EeEN2OFJfV2dXWHV2emJzREh2bDB3ZmxpRTRyUUR4alpJUmhINTkzdkJMVjQxUERpbXdSMG9KNUZ4Rm81Y2NYV2hUWWRjQW1HNGt3X05ST0h3TEdSeGs5RV9YRQ?oc=5",
+        "source": "UA.NEWS",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-03T21:46:05Z",
+        "title": "Two unidentified projectiles hit tanker off Oman — Anadolu Agency - UA.NEWS"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNbFRqWTMtMHVuUmwydHNCVm5hQnlyQl90QWQ2bVVPa3Q3eWxQbWxibUk4T3BwR2hwd1plbUF6QUFXNHhvR3h5NGw4dUR1emJvVVNtbWxCb0d2UVFid0pkeUNERzZ5SXZxaS03UkNneXJpaVJpVzhYOEdwcTJVV3VscTdmb0ZwLXA3blBuellHUlJENWhmY2M0Rm5PenBFanVwTklpMlZoV25nUk9uOXE1ai05cXBUS3h0TWhYZnJ4VFIySFNOeXNSaXU2dFA3d9IB0wFBVV95cUxPVFhVRkxsOGpKOW5QOUhnM2RUeUtOY0hYNVo1RjRMV1lEejREZ3NleVBIRXFCam9xU0VVQlJNbTczZTlHVEs5ZHduUkVrYTdlVFdZbzFhU2NSeUlfRkthUXNTQl9MR1ByR1VLNHhqYXd6ZTJ2Zkh2Tk1HX2xNaklPOHlzOWZDRkxlbWJXSmt6bmhjbzlybFBrazhOSkRCcVFiYmVjdmZyQWhBSHJrVW45ZVJtOUpoSkJ3RUFpQ1JtckppdjFIb0hRS1RSZVBxQzk5Z3NR?oc=5",
+        "source": "Demócrata",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-03T21:04:30Z",
+        "title": "Attack with two \"unknown\" projectiles against an oil tanker in the Strait of Hormuz off Oman - Demócrata"
+      }
+    ],
+    "first_seen": "2026-11-03T23:38:01Z",
+    "last_updated": "2026-11-03T23:38:10Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261103-004",
     "position_approx": true
   },
   {
@@ -2681,10 +2863,37 @@
         "kind": "media",
         "published_at": "2026-11-02T06:32:05Z",
         "title": "Pakistan LNG Cargo Attacked Hours After Iran Cleared Its Hormuz Passage - NDTV"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPXzlmWEVFdThGbWY4MXIyVGtMdVA1dVZ4M1p4UEJNX2pEN2RIWTZpNTZBRXFMZ1JfaThOWVNjeUpia05TZFRNbjJfZTdZLTBpQTFJbEdXNGZ2eGRmRTVXeHhadG5DS0hsdGh2alJiUUdYaG1BaGxwWnVUeDBVazgtdXRfYWRNQTM1UTNVY3VUWldSMFVOZWlLQWYyMjducWZiWW1oc3F0Q1Y1WVJNR19INl9KWTFKbVNEck4yTFlPRTY3NGs1UmRFM3E3bjZTNWJIUWhibEJYVkI2QWMwUjMwVF90YWYyeW1s0gHoAUFVX3lxTE9fOWZYRUV1OEZtZjgxcjJUa0x1UDV1VngzWnhQQk1fakQ3ZEhZNmk1NkFFcUxnUl9pOE5ZU2N5SmJrTlNkVE1uMl9lN1ktMGlBMUlsR1c0ZnZ4ZGZFNVd4eFp0bkNLSGx0aHZqUmJRR1hobUFobHBadVR4MFVrOC11dF9hZE1BMzVRM1VjdVRaV1IwVU5laUtBZjIyN25xZmJZbWhzcXRDVjVZUk1HX0g2X0pZMUptU0RyTjJMWU9FNjc0azVSZEUzcTduNlM1YkhRaGJsQlhWQjZBYzBSMzBUX3RhZjJ5bWw?oc=5",
+        "source": "Firstpost",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-03T11:07:50Z",
+        "title": "'Won't Mince Our...': Another Indian Killed In Attack On Ship| New Delhi Hits Out | Firstpost Live - Firstpost"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNcGxCUmRneTJ4Snlzb2lrMzQ3RU1qa3lXQXBmRVd6WXo1LTlBOEVyMFJRd3h6Vmg5ODBpTTdQVDlHbDVTM0RDMU5kUDhRbmlwZE03UU9QTXllTjgxYWRMS1lRNERMXzVQQWs4Q0NQbThobWdHaHAwRGZJU1F4UmpPSUcwQkRkNF9uckhFUUdTZFZ5WEtHZTI3SkRTZWFkMGl4TllfUXhQalRQb2dGS25qVFF4aFRWNkVZVTFVcTRwLUl4eC1GN3JDalZ1NTh2NGdHWjdlaWpKZWlvQ0lTU3liWdIB4AFBVV95cUxNcGxCUmRneTJ4Snlzb2lrMzQ3RU1qa3lXQXBmRVd6WXo1LTlBOEVyMFJRd3h6Vmg5ODBpTTdQVDlHbDVTM0RDMU5kUDhRbmlwZE03UU9QTXllTjgxYWRMS1lRNERMXzVQQWs4Q0NQbThobWdHaHAwRGZJU1F4UmpPSUcwQkRkNF9uckhFUUdTZFZ5WEtHZTI3SkRTZWFkMGl4TllfUXhQalRQb2dGS25qVFF4aFRWNkVZVTFVcTRwLUl4eC1GN3JDalZ1NTh2NGdHWjdlaWpKZWlvQ0lTU3liWQ?oc=5",
+        "source": "Українські Національні Новини (УНН)",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T22:38:24Z",
+        "title": "The tanker previously attacked by the Security Service of Ukraine in the Black Sea was blown up again in the Strait of Hormuz - Українські Національні Новини (УНН)"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRXRyeWJEVVFDNFZ2U2RDRFF4Y3BKeFhOdWN2a1dWU2FtOVA5WXBVNm90STRNTUwySjlaZnRDX2Uyb3RWRnE0R3gyXzQ5dEhVQ0ZYRE5JTDg3VGR6S0tLaVJzS1F0Z2tzaVh1aWRUZ1JldUNzNHFSakhsMzU5bTZ2Y2tKbHgzOHJzVWh6Y3ludW05dFJOM2dQaUxkUVVIclVEbUQ2dDgteHlsQUE3RmVKaw?oc=5",
+        "source": "Anadolu Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T19:59:05Z",
+        "title": "Vessel struck by unknown projectile off Oman: UK maritime agency - Anadolu Ajansı"
       }
     ],
     "first_seen": "2026-11-01T09:37:37Z",
-    "last_updated": "2026-11-03T18:01:06Z",
+    "last_updated": "2026-11-03T23:38:09Z",
     "verification_issue": 310,
     "verdict": null,
     "published_in": [],
