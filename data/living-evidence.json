@@ -13051,6 +13051,20 @@
               "source": "TradeWinds, 2 November 2026, on offloading and port-side damage"
             }
           ]
+        },
+        {
+          "at": "2026-11-04T13:45:00Z",
+          "text": "Correction to a merge, not to the casualty count. The 2 November 2026 report held as INC-20261102-012 and merged into this row is not about AL MAYEDA. The Maritime Executive reported on 2 November that an Indian dhow was hit off Limah in Oman on the Monday, that one crew member died of his injuries and that 13 were rescued by the Omani Coast Guard, and it identified the vessel as the coaster Al Jusufi, naming the dead seafarer as Gandhar Nahim Ajij of Gujarat and quoting India's shipping minister Sarbananda Sonowal. That attack on 2 November 2026 is held as its own reviewed record, INC-20261103-004, where one death is confirmed and sourced to India's Ministry of External Affairs. AL MAYEDA was struck about 40 nautical miles south of Lavan Island on 30 October 2026 and its owner Nakilat stated that none of the crew on board were injured, so this row's confirmed position of no deaths and no injuries is unchanged. The merged 2 November report must not be read as an AL MAYEDA casualty, and its single death must not be counted twice.",
+          "sources": [
+            {
+              "url": "https://maritime-executive.com/article/indian-seafarer-killed-in-strike-in-strait-of-hormuz",
+              "source": "The Maritime Executive, 2 November 2026: Indian dhow hit off Limah, Oman, one crew member died, 13 rescued by the Omani Coast Guard, vessel named as the coaster Al Jusufi, dead seafarer named by India's shipping minister as Gandhar Nahim Ajij"
+            },
+            {
+              "url": "https://www.mea.gov.in/Speeches-Statements.htm?dtl/41284",
+              "source": "Ministry of External Affairs, India, statement on the attack on a commercial vessel off the coast of Oman"
+            }
+          ]
         }
       ]
     },
@@ -32009,6 +32023,108 @@
             {
               "url": "https://www.pravda.com.ua/eng/news/2026/11/04/8061184/",
               "source": "Ukrainska Pravda, 4 November 2026: overnight strikes into 4 November, Odesa region energy facility, shopping centre and residential area, Oleh Kiper reporting no injuries"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6632203018,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6632203018",
+      "author": "iMariner",
+      "received_at": "2026-11-04T13:43:09Z",
+      "incident_id": "INC-20261101-001",
+      "before": {
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://qna.org.qa/en/news/news-details?date=1/11/2026&id=qatar-gas-transport-company-announces-one-of-its-vessels-attacked-in-arabian-gulf",
+              "source": "Nakilat statement via the Qatar News Agency, 1 November 2026: none of the crew members on board were injured"
+            },
+            {
+              "url": "https://www.indiagazette.com/news/279405897/entire-crew-including-six-indian-seafarers-safe-after-marshall-islands-flagged-lng-carrier-struck-in-persian-gulf-sonowal",
+              "source": "India's shipping minister Sarbananda Sonowal, via ANI, 31 October 2026: all six Indian nationals, along with the entire 25-member crew, are completely safe"
+            }
+          ],
+          "nationalities": []
+        },
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-03T09:00:00Z",
+          "vessel_name": "AL MAYEDA",
+          "imo": "9397298",
+          "date_utc": "2026-10-30",
+          "vessel_type": "LNG carrier",
+          "region": "Persian Gulf",
+          "location_text": "About 40 nautical miles south of Lavan Island, Iran, in the Arabian Gulf",
+          "attack_type": "Projectile strike; the owner described unidentified objects",
+          "summary": "AL MAYEDA, a Marshall Islands flagged LNG carrier owned by Qatar Gas Transport Company (Nakilat), was struck by projectiles about 40 nautical miles south of Lavan Island, Iran, in the Arabian Gulf on 30 October 2026, causing a fire on board, according to UKMTO warning 188-26 as listed in JMIC advisory update 110 of 1 November 2026. That entry records the crew as reported safe and names no attacker. Nakilat's statement, published on the Qatar Stock Exchange and carried by the Qatar News Agency on 1 November, said none of the crew members on board were injured, there was no impact on the environment, the vessel was in a safe condition and operational, and the impact of the incident was being assessed. India's shipping minister, Sarbananda Sonowal, said in a post on X on 31 October that the Marshall Islands flagged LNG carrier MT AL MAYEDA, carrying six Indian seafarers, was targeted in a projectile attack in the Persian Gulf on 30 October, and that all six Indian nationals along with the entire 25-member crew were completely safe. TradeWinds reported on 2 November that QatarEnergy was weighing options for offloading cargo from the damaged carrier and described the strike as on the vessel's port side. No authority has identified the attacker or the weapon type.",
+          "date_note": "Nakilat's statement, carried by the Qatar News Agency, dates the strike to the evening of Friday 30 October 2026, and India's shipping minister also gives 30 October. UKMTO warning 188-26 and JMIC advisory update 110 also date it 30 October. The corpus row and the first reports carry 1 November, the day the owner's statement was published, so the attack date is recorded as 30 October.",
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/jmic_advisory_update_110_01-nov-1.pdf",
+              "source": "Joint Maritime Information Center advisory update 110, 1 November 2026, distributed by UKMTO: AL MAYEDA against UKMTO 188-26 on 30 October, struck by projectiles about 40 nautical miles south of Lavan Island, Iran, causing a fire on board, crew reported as safe"
+            },
+            {
+              "url": "https://qna.org.qa/en/news/news-details?date=1/11/2026&id=qatar-gas-transport-company-announces-one-of-its-vessels-attacked-in-arabian-gulf",
+              "source": "Qatar News Agency, 1 November 2026, carrying Nakilat's statement: no crew injured, no environmental impact, vessel safe and operational, impact being assessed"
+            },
+            {
+              "url": "https://www.tradewindsnews.com/gas/qatarenergy-weighs-options-for-offloading-cargo-from-damaged-nakilat-lng-carrier/2-1-2067531",
+              "source": "TradeWinds, 2 November 2026: QatarEnergy weighs options for offloading cargo from the damaged Nakilat LNG carrier; the vessel was struck on its port side"
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/11/1/qatar-lng-carrier-struck-by-unidentified-objects-in-gulf",
+              "source": "Al Jazeera, 1 November 2026: Qatar Gas Transport Company statement that Al Mayeda was struck by unidentified objects in the Gulf on Friday evening"
+            }
+          ]
+        },
+        "updates": [
+          {
+            "at": "2026-11-01T13:29:05Z",
+            "text": "First review of this record. The corpus row held only a headline that the Qatar LNG carrier Al Mayeda was hit by unidentified objects in the Gulf, with the publication date as its date, no flag, no crew and no casualty position. The owner Nakilat, in a statement carried by the Qatar News Agency, and India's shipping minister now establish the attack on the evening of 30 October, the Marshall Islands flag, a 25-member crew including six Indian seafarers, and that no one on board was injured. The owner named no weapon and no attacker, so the weapon is described only as unidentified objects, and India's minister described a projectile attack. No deaths are recorded because both the owner and the minister state the whole crew was unharmed. Nationalities are left empty because no casualty among any nationality was reported.",
+            "sources": [
+              {
+                "url": "https://qna.org.qa/en/news/news-details?date=1/11/2026&id=qatar-gas-transport-company-announces-one-of-its-vessels-attacked-in-arabian-gulf",
+                "source": "Qatar News Agency, 1 November 2026, carrying Nakilat's statement"
+              },
+              {
+                "url": "https://www.indiagazette.com/news/279405897/entire-crew-including-six-indian-seafarers-safe-after-marshall-islands-flagged-lng-carrier-struck-in-persian-gulf-sonowal",
+                "source": "ANI, 31 October 2026, quoting India's shipping minister Sarbananda Sonowal"
+              }
+            ]
+          },
+          {
+            "at": "2026-11-03T09:00:00Z",
+            "text": "Follow-up on the review of 1 November 2026. Two sourced facts are added and the casualty count does not change. UKMTO warning 188-26, as listed in JMIC advisory update 110 issued on 1 November, gives the position as about 40 nautical miles south of Lavan Island, Iran, records projectiles as the cause, states that a fire broke out on board and reports the crew as safe. The earlier review had recorded that no position and no damage detail had been published beyond the owner's assessment; that is no longer true, so the location is filled in and the attack type now follows the UKMTO wording of projectiles rather than the owner's unidentified objects. TradeWinds reported on 2 November that QatarEnergy was weighing options for offloading cargo from the damaged carrier and described a port-side strike, which is consistent with the UKMTO fire report and shows damage beyond the owner's safe and operational line, although no authority has published a damage assessment. Deaths stay at zero on the owner's statement that no one on board was injured and on UKMTO reporting the crew as safe, not on silence, and no nationality is entered because no casualty is reported.",
+            "sources": [
+              {
+                "url": "https://ukmto.org/-/media/ukmto/products/jmic_advisory_update_110_01-nov-1.pdf",
+                "source": "Joint Maritime Information Center advisory update 110, 1 November 2026, distributed by UKMTO (UKMTO 188-26)"
+              },
+              {
+                "url": "https://www.tradewindsnews.com/gas/qatarenergy-weighs-options-for-offloading-cargo-from-damaged-nakilat-lng-carrier/2-1-2067531",
+                "source": "TradeWinds, 2 November 2026, on offloading and port-side damage"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "INC-20261101-001",
+        "update": {
+          "at": "2026-11-04T13:45:00Z",
+          "text": "Correction to a merge, not to the casualty count. The 2 November 2026 report held as INC-20261102-012 and merged into this row is not about AL MAYEDA. The Maritime Executive reported on 2 November that an Indian dhow was hit off Limah in Oman on the Monday, that one crew member died of his injuries and that 13 were rescued by the Omani Coast Guard, and it identified the vessel as the coaster Al Jusufi, naming the dead seafarer as Gandhar Nahim Ajij of Gujarat and quoting India's shipping minister Sarbananda Sonowal. That attack on 2 November 2026 is held as its own reviewed record, INC-20261103-004, where one death is confirmed and sourced to India's Ministry of External Affairs. AL MAYEDA was struck about 40 nautical miles south of Lavan Island on 30 October 2026 and its owner Nakilat stated that none of the crew on board were injured, so this row's confirmed position of no deaths and no injuries is unchanged. The merged 2 November report must not be read as an AL MAYEDA casualty, and its single death must not be counted twice.",
+          "sources": [
+            {
+              "url": "https://maritime-executive.com/article/indian-seafarer-killed-in-strike-in-strait-of-hormuz",
+              "source": "The Maritime Executive, 2 November 2026: Indian dhow hit off Limah, Oman, one crew member died, 13 rescued by the Omani Coast Guard, vessel named as the coaster Al Jusufi, dead seafarer named by India's shipping minister as Gandhar Nahim Ajij"
+            },
+            {
+              "url": "https://www.mea.gov.in/Speeches-Statements.htm?dtl/41284",
+              "source": "Ministry of External Affairs, India, statement on the attack on a commercial vessel off the coast of Oman"
             }
           ]
         }
