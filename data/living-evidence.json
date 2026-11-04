@@ -18121,6 +18121,20 @@
           ]
         }
       ]
+    },
+    "INC-20261022-009": {
+      "updates": [
+        {
+          "at": "2026-11-04T13:45:00Z",
+          "text": "Correction to this row's meaning and to its casualty figure. The ekoturk report of 22 October 2026 headed seven commercial ships attacked by drones in the Black Sea with more than 24 killed is a running campaign tally, not an attack on 22 October. The article states that seven ships have been targeted off Bulgaria and Romania since the start of October and that more than 24 seafarers were killed, and its own detail covers the HS Dignity, struck off Bulgaria on 13 October and sunk, after which 11 seafarers were missing and five were rescued, and a separate vessel off Romania on 15 October on which seven of the 12 people on board could not be reached. Those are missing person counts from separate incidents on separate dates, so the figure of 24 mixes dead and missing across several vessels, and no source read for this update reports a single attack on 22 October 2026 or a settled death total of 24 for one event. The number must not be recorded as deaths on 22 October and must not be added to the tracker totals. The incidents it aggregates keep their own rows and their own dated counts, and this row stays a campaign summary with no death count of its own.",
+          "sources": [
+            {
+              "url": "https://www.ekoturk.com/haberler/karadenizde-7-ticari-gemiye-iha-saldirisi-24ten-fazla-can-kaybi/",
+              "source": "ekoturk, 22 October 2026: seven ships targeted off Bulgaria and Romania since the start of October, more than 24 seafarers said killed, with HS Dignity sunk off Bulgaria on 13 October (11 missing, five rescued) and seven of 12 unaccounted for on a vessel off Romania on 15 October"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -32125,6 +32139,27 @@
             {
               "url": "https://www.mea.gov.in/Speeches-Statements.htm?dtl/41284",
               "source": "Ministry of External Affairs, India, statement on the attack on a commercial vessel off the coast of Oman"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6632235590,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6632235590",
+      "author": "iMariner",
+      "received_at": "2026-11-04T13:44:39Z",
+      "incident_id": "INC-20261022-009",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261022-009",
+        "update": {
+          "at": "2026-11-04T13:45:00Z",
+          "text": "Correction to this row's meaning and to its casualty figure. The ekoturk report of 22 October 2026 headed seven commercial ships attacked by drones in the Black Sea with more than 24 killed is a running campaign tally, not an attack on 22 October. The article states that seven ships have been targeted off Bulgaria and Romania since the start of October and that more than 24 seafarers were killed, and its own detail covers the HS Dignity, struck off Bulgaria on 13 October and sunk, after which 11 seafarers were missing and five were rescued, and a separate vessel off Romania on 15 October on which seven of the 12 people on board could not be reached. Those are missing person counts from separate incidents on separate dates, so the figure of 24 mixes dead and missing across several vessels, and no source read for this update reports a single attack on 22 October 2026 or a settled death total of 24 for one event. The number must not be recorded as deaths on 22 October and must not be added to the tracker totals. The incidents it aggregates keep their own rows and their own dated counts, and this row stays a campaign summary with no death count of its own.",
+          "sources": [
+            {
+              "url": "https://www.ekoturk.com/haberler/karadenizde-7-ticari-gemiye-iha-saldirisi-24ten-fazla-can-kaybi/",
+              "source": "ekoturk, 22 October 2026: seven ships targeted off Bulgaria and Romania since the start of October, more than 24 seafarers said killed, with HS Dignity sunk off Bulgaria on 13 October (11 missing, five rescued) and seven of 12 unaccounted for on a vessel off Romania on 15 October"
             }
           ]
         }
