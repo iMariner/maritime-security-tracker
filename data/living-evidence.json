@@ -8313,13 +8313,29 @@
     "HIST-RS-20260811-TIHAMAH": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T14:10:24.919717+00:00",
+        "checked_at": "2026-11-04T19:52:46Z",
         "vessel_name": "TIHAMAH",
         "date_utc": "2026-08-11",
         "vessel_type": "general cargo",
         "region": "Red Sea",
-        "summary": "Tihamah was struck near Al Mokha on 11 August. IMO confirmed seafarer fatalities. Detailed consular reports support a minimum of two Pakistani deaths, eight injured survivors and one Indonesian crew member missing. Earlier reports gave higher, conflicting death counts; those extra deaths are not added to this minimum.",
+        "location_text": "Bab al-Mandab, south of the port of Mocha (Al Makha), Yemen",
+        "attack_type": "Missile strike (three ballistic missiles)",
+        "date_note": "Yemen's transport ministry and coastguard date both strikes to Tuesday 11 August 2026, the second on the rescue party during the evacuation the same day.",
+        "summary": "Tihamah was hit by three ballistic missiles south of Mocha in the Bab al-Mandab on 11 August 2026 and caught fire, Yemen's internationally recognised government said. The transport ministry said four crew were killed, three Pakistani nationals and one Indonesian national. The coastguard said a second missile struck rescuers evacuating the dead and wounded, killing at least two troops, and put the wounded at ten in total including seven crew; the foreign ministry said one rescuer was injured. The Houthis said they attacked a ship carrying Saudi military equipment; there was no Saudi confirmation.",
+        "imo": "1031329",
         "sources": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/8/12/six-killed-in-houthi-attack-on-bab-al-mandeb-ship-yemens-government-says",
+            "source": "Al Jazeera, 12 August 2026, citing Yemen's transport ministry and coastguard"
+          },
+          {
+            "url": "https://www.bbc.com/news/articles/ckg9wpmzmlno",
+            "source": "BBC News, 12 August 2026, citing Yemen's transport ministry and coastguard"
+          },
+          {
+            "url": "https://www.mofa-ye.org/Pages/38675/",
+            "source": "Yemen Ministry of Foreign Affairs and Expatriates statement, 11 August 2026"
+          },
           {
             "url": "https://www.imo.org/en/mediacentre/pressbriefings/pages/statement-on-deadly-ship-attack-in-the-red-sea.aspx",
             "source": "IMO statement, 12 August 2026"
@@ -8327,53 +8343,58 @@
           {
             "url": "https://radio.gov.pk/20-08-2026/dpm-condemns-killing-of-3-pakistanis-in-houthis-attack-on-ship-in-red-sea",
             "source": "Radio Pakistan reporting the Deputy Prime Minister, 20 August 2026"
-          },
-          {
-            "url": "https://tribratanews.jabar.polri.go.id/indonesia-kecam-keras-serangan-di-selat-bab-al-mandeb-tiga-abk-wni-di-kapal-mv-tihamah-dua-selamat-satu-masih-hilang/",
-            "source": "Indonesian government reporting Foreign Ministry consular briefing, 13 August 2026"
-          },
-          {
-            "url": "https://www.sabanew.net/story/en/150829",
-            "source": "SABA reporting Pakistan UN statement, 14 August 2026"
-          },
-          {
-            "url": "https://windward.ai/blog/three-kinetic-incidents-and-an-expanding-iran-oman-corridor/",
-            "source": "Windward vessel identity and event analysis, 12 August 2026"
           }
-        ],
-        "attack_type": "physical strike",
-        "imo": "1031329"
+        ]
       },
       "audit_notes": [
         "Added after the omission audit; sources read separately for identity, event date and human impact."
       ],
       "casualties": {
         "status": "confirmed",
-        "deaths": 2,
+        "deaths": 4,
+        "minimum": false,
         "sources": [
           {
-            "url": "https://www.imo.org/en/mediacentre/pressbriefings/pages/statement-on-deadly-ship-attack-in-the-red-sea.aspx",
-            "source": "IMO statement, 12 August 2026"
+            "url": "https://www.aljazeera.com/news/2026/8/12/six-killed-in-houthi-attack-on-bab-al-mandeb-ship-yemens-government-says",
+            "source": "Al Jazeera, 12 August 2026, citing Yemen's transport ministry"
           },
           {
-            "url": "https://radio.gov.pk/20-08-2026/dpm-condemns-killing-of-3-pakistanis-in-houthis-attack-on-ship-in-red-sea",
-            "source": "Radio Pakistan reporting the Deputy Prime Minister, 20 August 2026"
+            "url": "https://www.bbc.com/news/articles/ckg9wpmzmlno",
+            "source": "BBC News, 12 August 2026, citing Yemen's transport ministry"
           }
         ],
         "nationalities": [
           {
             "nationality": "Pakistani",
             "status": "confirmed",
-            "deaths": 2,
+            "deaths": 3,
             "sources": [
               {
-                "url": "https://radio.gov.pk/20-08-2026/dpm-condemns-killing-of-3-pakistanis-in-houthis-attack-on-ship-in-red-sea",
-                "source": "Radio Pakistan reporting the Deputy Prime Minister, 20 August 2026"
+                "url": "https://www.aljazeera.com/news/2026/8/12/six-killed-in-houthi-attack-on-bab-al-mandeb-ship-yemens-government-says",
+                "source": "Al Jazeera, 12 August 2026, citing Yemen's transport ministry"
+              },
+              {
+                "url": "https://www.bbc.com/news/articles/ckg9wpmzmlno",
+                "source": "BBC News, 12 August 2026, citing Yemen's transport ministry"
+              }
+            ]
+          },
+          {
+            "nationality": "Indonesian",
+            "status": "confirmed",
+            "deaths": 1,
+            "sources": [
+              {
+                "url": "https://www.aljazeera.com/news/2026/8/12/six-killed-in-houthi-attack-on-bab-al-mandeb-ship-yemens-government-says",
+                "source": "Al Jazeera, 12 August 2026, citing Yemen's transport ministry"
+              },
+              {
+                "url": "https://www.bbc.com/news/articles/ckg9wpmzmlno",
+                "source": "BBC News, 12 August 2026, citing Yemen's transport ministry"
               }
             ]
           }
-        ],
-        "minimum": true
+        ]
       },
       "human_impact": {
         "injured": {
@@ -8384,16 +8405,6 @@
               "url": "https://radio.gov.pk/20-08-2026/dpm-condemns-killing-of-3-pakistanis-in-houthis-attack-on-ship-in-red-sea",
               "source": "Radio Pakistan reporting the Deputy Prime Minister, 20 August 2026"
             },
-            {
-              "url": "https://tribratanews.jabar.polri.go.id/indonesia-kecam-keras-serangan-di-selat-bab-al-mandeb-tiga-abk-wni-di-kapal-mv-tihamah-dua-selamat-satu-masih-hilang/",
-              "source": "Indonesian government reporting Foreign Ministry consular briefing, 13 August 2026"
-            }
-          ]
-        },
-        "missing": {
-          "count": 1,
-          "as_of": "2026-08-13",
-          "sources": [
             {
               "url": "https://tribratanews.jabar.polri.go.id/indonesia-kecam-keras-serangan-di-selat-bab-al-mandeb-tiga-abk-wni-di-kapal-mv-tihamah-dua-selamat-satu-masih-hilang/",
               "source": "Indonesian government reporting Foreign Ministry consular briefing, 13 August 2026"
@@ -8421,6 +8432,32 @@
             {
               "url": "https://www.imo.org/en/mediacentre/pressbriefings/pages/statement-on-deadly-ship-attack-in-the-red-sea.aspx",
               "source": "IMO statement, 12 August 2026"
+            }
+          ]
+        },
+        {
+          "at": "2026-11-04T19:52:46Z",
+          "text": "Casualty count settled and the Indonesian missing snapshot cleared. Yemen's transport ministry, reported by BBC News and Al Jazeera on 12 August 2026, states that three ballistic missiles hit Tihamah south of Mocha on 11 August and that four crew were killed: three Pakistani nationals and one Indonesian national. This replaces the earlier minimum of two Pakistani deaths and clears the minimum flag. The ministry's one Indonesian dead is the seafarer the Indonesian foreign ministry briefing of 13 August carried as missing, since the other two Indonesian crew were reported safe at that briefing; the missing snapshot of one is therefore dropped rather than added to the dead, so nothing is double counted; the previous snapshot remains in the audit history. The six dead reported overall include at least two troops killed when a second missile struck the rescue party; those are not seafarer deaths and are not added to the crew total. The injured snapshot of eight is preserved unchanged because the coastguard's ten wounded in total, including seven crew, conflicts with the eight injured survivors reported earlier by Pakistan's deputy prime minister, and no settled injured figure is asserted here. Vessel identity, IMO 1031329, the Tanzanian flag and the 11 August date are unchanged.",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/8/12/six-killed-in-houthi-attack-on-bab-al-mandeb-ship-yemens-government-says",
+              "source": "Al Jazeera, 12 August 2026, citing Yemen's transport ministry and coastguard"
+            },
+            {
+              "url": "https://www.bbc.com/news/articles/ckg9wpmzmlno",
+              "source": "BBC News, 12 August 2026, citing Yemen's transport ministry and coastguard"
+            },
+            {
+              "url": "https://www.mofa-ye.org/Pages/38675/",
+              "source": "Yemen Ministry of Foreign Affairs and Expatriates statement, 11 August 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/pressbriefings/pages/statement-on-deadly-ship-attack-in-the-red-sea.aspx",
+              "source": "IMO statement, 12 August 2026"
+            },
+            {
+              "url": "https://radio.gov.pk/20-08-2026/dpm-condemns-killing-of-3-pakistanis-in-houthis-attack-on-ship-in-red-sea",
+              "source": "Radio Pakistan reporting the Deputy Prime Minister, 20 August 2026"
             }
           ]
         }
@@ -32162,6 +32199,256 @@
               "source": "ekoturk, 22 October 2026: seven ships targeted off Bulgaria and Romania since the start of October, more than 24 seafarers said killed, with HS Dignity sunk off Bulgaria on 13 October (11 missing, five rescued) and seven of 12 unaccounted for on a vessel off Romania on 15 October"
             }
           ]
+        }
+      }
+    },
+    {
+      "comment_id": 6640594796,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6640594796",
+      "author": "iMariner",
+      "received_at": "2026-11-04T19:54:10Z",
+      "incident_id": "HIST-RS-20260811-TIHAMAH",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T14:10:24.919717+00:00",
+          "vessel_name": "TIHAMAH",
+          "date_utc": "2026-08-11",
+          "vessel_type": "general cargo",
+          "region": "Red Sea",
+          "summary": "Tihamah was struck near Al Mokha on 11 August. IMO confirmed seafarer fatalities. Detailed consular reports support a minimum of two Pakistani deaths, eight injured survivors and one Indonesian crew member missing. Earlier reports gave higher, conflicting death counts; those extra deaths are not added to this minimum.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/pressbriefings/pages/statement-on-deadly-ship-attack-in-the-red-sea.aspx",
+              "source": "IMO statement, 12 August 2026"
+            },
+            {
+              "url": "https://radio.gov.pk/20-08-2026/dpm-condemns-killing-of-3-pakistanis-in-houthis-attack-on-ship-in-red-sea",
+              "source": "Radio Pakistan reporting the Deputy Prime Minister, 20 August 2026"
+            },
+            {
+              "url": "https://tribratanews.jabar.polri.go.id/indonesia-kecam-keras-serangan-di-selat-bab-al-mandeb-tiga-abk-wni-di-kapal-mv-tihamah-dua-selamat-satu-masih-hilang/",
+              "source": "Indonesian government reporting Foreign Ministry consular briefing, 13 August 2026"
+            },
+            {
+              "url": "https://www.sabanew.net/story/en/150829",
+              "source": "SABA reporting Pakistan UN statement, 14 August 2026"
+            },
+            {
+              "url": "https://windward.ai/blog/three-kinetic-incidents-and-an-expanding-iran-oman-corridor/",
+              "source": "Windward vessel identity and event analysis, 12 August 2026"
+            }
+          ],
+          "attack_type": "physical strike",
+          "imo": "1031329"
+        },
+        "audit_notes": [
+          "Added after the omission audit; sources read separately for identity, event date and human impact."
+        ],
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 2,
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/pressbriefings/pages/statement-on-deadly-ship-attack-in-the-red-sea.aspx",
+              "source": "IMO statement, 12 August 2026"
+            },
+            {
+              "url": "https://radio.gov.pk/20-08-2026/dpm-condemns-killing-of-3-pakistanis-in-houthis-attack-on-ship-in-red-sea",
+              "source": "Radio Pakistan reporting the Deputy Prime Minister, 20 August 2026"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Pakistani",
+              "status": "confirmed",
+              "deaths": 2,
+              "sources": [
+                {
+                  "url": "https://radio.gov.pk/20-08-2026/dpm-condemns-killing-of-3-pakistanis-in-houthis-attack-on-ship-in-red-sea",
+                  "source": "Radio Pakistan reporting the Deputy Prime Minister, 20 August 2026"
+                }
+              ]
+            }
+          ],
+          "minimum": true
+        },
+        "human_impact": {
+          "injured": {
+            "count": 8,
+            "as_of": "2026-08-20",
+            "sources": [
+              {
+                "url": "https://radio.gov.pk/20-08-2026/dpm-condemns-killing-of-3-pakistanis-in-houthis-attack-on-ship-in-red-sea",
+                "source": "Radio Pakistan reporting the Deputy Prime Minister, 20 August 2026"
+              },
+              {
+                "url": "https://tribratanews.jabar.polri.go.id/indonesia-kecam-keras-serangan-di-selat-bab-al-mandeb-tiga-abk-wni-di-kapal-mv-tihamah-dua-selamat-satu-masih-hilang/",
+                "source": "Indonesian government reporting Foreign Ministry consular briefing, 13 August 2026"
+              }
+            ]
+          },
+          "missing": {
+            "count": 1,
+            "as_of": "2026-08-13",
+            "sources": [
+              {
+                "url": "https://tribratanews.jabar.polri.go.id/indonesia-kecam-keras-serangan-di-selat-bab-al-mandeb-tiga-abk-wni-di-kapal-mv-tihamah-dua-selamat-satu-masih-hilang/",
+                "source": "Indonesian government reporting Foreign Ministry consular briefing, 13 August 2026"
+              }
+            ]
+          }
+        },
+        "updates": [
+          {
+            "at": "2026-10-21T14:10:24.919717+00:00",
+            "text": "The 14 August report described four crew deaths. The Indonesian consular briefing identifies two injured survivors and one missing Indonesian; the later Pakistani account records six injured returned and two bodies repatriated. The public tally uses two confirmed Pakistani deaths as a minimum, leaving the conflicting additional deaths unresolved. Yemeni rescuer deaths are separate from merchant-crew deaths.",
+            "sources": [
+              {
+                "url": "https://www.sabanew.net/story/en/150829",
+                "source": "SABA reporting Pakistan UN statement, 14 August 2026"
+              },
+              {
+                "url": "https://tribratanews.jabar.polri.go.id/indonesia-kecam-keras-serangan-di-selat-bab-al-mandeb-tiga-abk-wni-di-kapal-mv-tihamah-dua-selamat-satu-masih-hilang/",
+                "source": "Indonesian government reporting Foreign Ministry consular briefing, 13 August 2026"
+              },
+              {
+                "url": "https://radio.gov.pk/20-08-2026/dpm-condemns-killing-of-3-pakistanis-in-houthis-attack-on-ship-in-red-sea",
+                "source": "Radio Pakistan reporting the Deputy Prime Minister, 20 August 2026"
+              },
+              {
+                "url": "https://www.imo.org/en/mediacentre/pressbriefings/pages/statement-on-deadly-ship-attack-in-the-red-sea.aspx",
+                "source": "IMO statement, 12 August 2026"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "HIST-RS-20260811-TIHAMAH",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-04T19:52:46Z",
+          "vessel_name": "TIHAMAH",
+          "date_utc": "2026-08-11",
+          "vessel_type": "general cargo",
+          "region": "Red Sea",
+          "location_text": "Bab al-Mandab, south of the port of Mocha (Al Makha), Yemen",
+          "attack_type": "Missile strike (three ballistic missiles)",
+          "date_note": "Yemen's transport ministry and coastguard date both strikes to Tuesday 11 August 2026, the second on the rescue party during the evacuation the same day.",
+          "summary": "Tihamah was hit by three ballistic missiles south of Mocha in the Bab al-Mandab on 11 August 2026 and caught fire, Yemen's internationally recognised government said. The transport ministry said four crew were killed, three Pakistani nationals and one Indonesian national. The coastguard said a second missile struck rescuers evacuating the dead and wounded, killing at least two troops, and put the wounded at ten in total including seven crew; the foreign ministry said one rescuer was injured. The Houthis said they attacked a ship carrying Saudi military equipment; there was no Saudi confirmation.",
+          "imo": "1031329",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/8/12/six-killed-in-houthi-attack-on-bab-al-mandeb-ship-yemens-government-says",
+              "source": "Al Jazeera, 12 August 2026, citing Yemen's transport ministry and coastguard"
+            },
+            {
+              "url": "https://www.bbc.com/news/articles/ckg9wpmzmlno",
+              "source": "BBC News, 12 August 2026, citing Yemen's transport ministry and coastguard"
+            },
+            {
+              "url": "https://www.mofa-ye.org/Pages/38675/",
+              "source": "Yemen Ministry of Foreign Affairs and Expatriates statement, 11 August 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/pressbriefings/pages/statement-on-deadly-ship-attack-in-the-red-sea.aspx",
+              "source": "IMO statement, 12 August 2026"
+            },
+            {
+              "url": "https://radio.gov.pk/20-08-2026/dpm-condemns-killing-of-3-pakistanis-in-houthis-attack-on-ship-in-red-sea",
+              "source": "Radio Pakistan reporting the Deputy Prime Minister, 20 August 2026"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 4,
+          "minimum": false,
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/8/12/six-killed-in-houthi-attack-on-bab-al-mandeb-ship-yemens-government-says",
+              "source": "Al Jazeera, 12 August 2026, citing Yemen's transport ministry"
+            },
+            {
+              "url": "https://www.bbc.com/news/articles/ckg9wpmzmlno",
+              "source": "BBC News, 12 August 2026, citing Yemen's transport ministry"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Pakistani",
+              "status": "confirmed",
+              "deaths": 3,
+              "sources": [
+                {
+                  "url": "https://www.aljazeera.com/news/2026/8/12/six-killed-in-houthi-attack-on-bab-al-mandeb-ship-yemens-government-says",
+                  "source": "Al Jazeera, 12 August 2026, citing Yemen's transport ministry"
+                },
+                {
+                  "url": "https://www.bbc.com/news/articles/ckg9wpmzmlno",
+                  "source": "BBC News, 12 August 2026, citing Yemen's transport ministry"
+                }
+              ]
+            },
+            {
+              "nationality": "Indonesian",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "url": "https://www.aljazeera.com/news/2026/8/12/six-killed-in-houthi-attack-on-bab-al-mandeb-ship-yemens-government-says",
+                  "source": "Al Jazeera, 12 August 2026, citing Yemen's transport ministry"
+                },
+                {
+                  "url": "https://www.bbc.com/news/articles/ckg9wpmzmlno",
+                  "source": "BBC News, 12 August 2026, citing Yemen's transport ministry"
+                }
+              ]
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-11-04T19:52:46Z",
+          "text": "Casualty count settled and the Indonesian missing snapshot cleared. Yemen's transport ministry, reported by BBC News and Al Jazeera on 12 August 2026, states that three ballistic missiles hit Tihamah south of Mocha on 11 August and that four crew were killed: three Pakistani nationals and one Indonesian national. This replaces the earlier minimum of two Pakistani deaths and clears the minimum flag. The ministry's one Indonesian dead is the seafarer the Indonesian foreign ministry briefing of 13 August carried as missing, since the other two Indonesian crew were reported safe at that briefing; the missing snapshot of one is therefore dropped rather than added to the dead, so nothing is double counted; the previous snapshot remains in the audit history. The six dead reported overall include at least two troops killed when a second missile struck the rescue party; those are not seafarer deaths and are not added to the crew total. The injured snapshot of eight is preserved unchanged because the coastguard's ten wounded in total, including seven crew, conflicts with the eight injured survivors reported earlier by Pakistan's deputy prime minister, and no settled injured figure is asserted here. Vessel identity, IMO 1031329, the Tanzanian flag and the 11 August date are unchanged.",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/8/12/six-killed-in-houthi-attack-on-bab-al-mandeb-ship-yemens-government-says",
+              "source": "Al Jazeera, 12 August 2026, citing Yemen's transport ministry and coastguard"
+            },
+            {
+              "url": "https://www.bbc.com/news/articles/ckg9wpmzmlno",
+              "source": "BBC News, 12 August 2026, citing Yemen's transport ministry and coastguard"
+            },
+            {
+              "url": "https://www.mofa-ye.org/Pages/38675/",
+              "source": "Yemen Ministry of Foreign Affairs and Expatriates statement, 11 August 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/pressbriefings/pages/statement-on-deadly-ship-attack-in-the-red-sea.aspx",
+              "source": "IMO statement, 12 August 2026"
+            },
+            {
+              "url": "https://radio.gov.pk/20-08-2026/dpm-condemns-killing-of-3-pakistanis-in-houthis-attack-on-ship-in-red-sea",
+              "source": "Radio Pakistan reporting the Deputy Prime Minister, 20 August 2026"
+            }
+          ]
+        },
+        "human_impact": {
+          "injured": {
+            "count": 8,
+            "as_of": "2026-08-20",
+            "sources": [
+              {
+                "url": "https://radio.gov.pk/20-08-2026/dpm-condemns-killing-of-3-pakistanis-in-houthis-attack-on-ship-in-red-sea",
+                "source": "Radio Pakistan reporting the Deputy Prime Minister, 20 August 2026"
+              },
+              {
+                "url": "https://tribratanews.jabar.polri.go.id/indonesia-kecam-keras-serangan-di-selat-bab-al-mandeb-tiga-abk-wni-di-kapal-mv-tihamah-dua-selamat-satu-masih-hilang/",
+                "source": "Indonesian government reporting Foreign Ministry consular briefing, 13 August 2026"
+              }
+            ]
+          }
         }
       }
     }
