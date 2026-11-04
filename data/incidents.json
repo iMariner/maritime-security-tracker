@@ -942,15 +942,31 @@
         "kind": "media",
         "published_at": "2026-11-03T03:16:17Z",
         "title": "Freighter sinks off Bulgarian coast: what happened to the Contship Jet and who is attacking Black Sea ships - Nacionale"
+      },
+      {
+        "url": "https://www.euronews.com/2026/11/02/watch-unseen-images-of-drone-sinking-greek-tanker-off-bulgarian-coast",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-04T04:34:34Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-02T20:30:37Z",
-    "last_updated": "2026-11-03T10:00:52Z",
+    "last_updated": "2026-11-04T04:34:34Z",
     "verification_issue": 321,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-11-04T04:34:34Z",
+      "note": "The Euronews report is newly released footage of the 28 October sea drone attack on Contship Jet off Bulgaria, so this 2 November record duplicates INC-20261028-004.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/321#issuecomment-6622641945"
+    },
     "published_in": [],
-    "status": "reported",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-11-04T04:34:34Z"
   },
   {
     "region": "Persian Gulf",
@@ -1836,7 +1852,7 @@
     "confidence": 1.0,
     "vessel_name": "AL MAYEDA",
     "imo": "9397298",
-    "flag": "Qatar",
+    "flag": "Marshall Islands",
     "vessel_type": "LNG/LPG carrier",
     "vessel_category": "merchant",
     "lat": 26.8,
@@ -3045,12 +3061,36 @@
         "kind": "media",
         "published_at": "2026-11-01T23:57:00Z",
         "title": "Hürmüz Boğazı'nda Seyreden Bir Gemide Şüpheli Saldırı Gerçekleştiği Bildirildi - Mersin Haber"
+      },
+      {
+        "url": "https://www.aljazeera.com/news/2026/11/1/qatar-lng-carrier-struck-by-unidentified-objects-in-gulf",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-04T04:34:38Z",
+        "title": null
+      },
+      {
+        "url": "https://vesselfinder.com/vessels/details/9397298",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-04T04:34:38Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-01T09:37:37Z",
-    "last_updated": "2026-11-04T03:13:34Z",
+    "last_updated": "2026-11-04T04:34:38Z",
     "verification_issue": 310,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "iMariner",
+      "at": "2026-11-04T04:34:38Z",
+      "note": "Owner Nakilat confirmed the LNG carrier was struck by unidentified objects and caught fire, and JMIC and UKMTO warning 188-26 place the same strike 40NM south of Lavan Island on 30 October.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/310#issuecomment-6622640763"
+    },
     "published_in": [],
     "status": "confirmed",
     "position_approx": true,
@@ -3828,15 +3868,31 @@
         "kind": "media",
         "published_at": "2026-11-01T12:50:00Z",
         "title": "فقدان ثمانية بحارة سوريين بعد استهداف سفينة في البحر الأسود | تأكد - verify-sy.com"
+      },
+      {
+        "url": "https://www.verify-sy.com/ar/topic/regional-global/newsroom/syrian-sailors-alfa-watan",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-04T04:34:32Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-03T02:37:15Z",
-    "last_updated": "2026-11-03T02:37:15Z",
+    "last_updated": "2026-11-04T04:34:32Z",
     "verification_issue": 324,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-11-04T04:34:32Z",
+      "note": "The verify-sy article is dated 7 October 2026 and names the eight missing sailors of ALFA WATAN, sunk by drones off Bulgaria on 6 October, so the record is mis-dated and duplicates INC-20261006-001.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/324#issuecomment-6622642200"
+    },
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-11-04T04:34:32Z"
   },
   {
     "region": "Black Sea",
@@ -4886,15 +4942,31 @@
         "kind": "media",
         "published_at": "2026-11-01T14:53:43Z",
         "title": "Over 80 meters long, a dry cargo hold, and an owner investigated over Russian drone operations: the ship Sweden boarded off Gotland - Euromaidan Press"
+      },
+      {
+        "url": "https://euromaidanpress.com/2026/11/01/over-80-meters-long-a-dry-cargo-hold-and-an-owner-investigated-over-russian-drone-operations-the-ship-sweden-boarded-off-gotland",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-04T04:34:37Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-01T16:19:09Z",
-    "last_updated": "2026-11-01T16:19:09Z",
+    "last_updated": "2026-11-04T04:34:37Z",
     "verification_issue": 311,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-11-04T04:34:37Z",
+      "note": "The boarding was a Swedish police border check on a Russian-crewed dry cargo ship off Gotland in the Baltic, which is outside the covered regions and not an attack on a vessel.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/311#issuecomment-6622641442"
+    },
     "published_in": [],
-    "status": "reported",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-11-04T04:34:37Z"
   },
   {
     "region": "Black Sea",
@@ -4926,15 +4998,31 @@
         "kind": "media",
         "published_at": "2026-10-31T08:40:23Z",
         "title": "Ukrainian drones hit Russia’s Primorsk port, oil tankers and military ships - DD News"
+      },
+      {
+        "url": "https://ddnews.gov.in/en/ukrainian-drones-strike-russias-largest-oil-terminal-for-the-first-time",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-04T04:34:35Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-01T16:19:29Z",
-    "last_updated": "2026-11-01T16:19:29Z",
+    "last_updated": "2026-11-04T04:34:35Z",
     "verification_issue": 313,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-11-04T04:34:35Z",
+      "note": "The DD News item is dated 12 September 2025 and describes the first Ukrainian drone strike on Primorsk, so the record is mis-dated, and Primorsk is a Baltic port outside the covered regions.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/313#issuecomment-6622641699"
+    },
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-11-04T04:34:35Z"
   },
   {
     "region": "Strait of Hormuz",
