@@ -17937,6 +17937,28 @@
           ]
         }
       ]
+    },
+    "INC-20261029-017": {
+      "updates": [
+        {
+          "at": "2026-11-04T01:15:37Z",
+          "text": "Correction to this row's date and identity. The headline held here, that Saudi Arabia said Iran attacked a vessel in the Strait of Hormuz and killed two sailors, is the Saudi Ministry of Foreign Affairs statement of 2 September 2026 about the Bahri crude oil tanker SIDR, which was struck late on 31 August 2026 while transiting the strait. The ministry condemned the Iranian targeting of SIDR and said it resulted in fatalities among the tanker's crew (Saudi Press Agency, 2 September 2026). Reuters reported that Bahri said two of its Filipino seafarers were killed in the attack, which the company timed at about 23:40 local time on 31 August (The Business Standard, 2 September 2026; The Jerusalem Post, 2 September 2026). Those two deaths are already recorded against HIST-ME-20260831-SIDR, with nationality Filipino and a count of two. The checked statement describes no attack on 29 October 2026, so this row should not be counted as a separate attack on that date, and its two deaths must not be added to the seafarer total a second time.",
+          "sources": [
+            {
+              "url": "https://www.spa.gov.sa/en/N2667152",
+              "source": "Saudi Press Agency, 2 September 2026: foreign ministry statement condemning the attack on the Saudi tanker SIDR and reporting fatalities among its crew"
+            },
+            {
+              "url": "https://www.tbsnews.net/worldbiz/middle-east/saudi-arabia-says-iran-attacked-vessel-hormuz-killing-two-sailors-1531806",
+              "source": "Reuters via The Business Standard, 2 September 2026: two Filipino seafarers killed, SIDR owned by Bahri, hit late on 31 August"
+            },
+            {
+              "url": "https://www.jpost.com/middle-east/article-907312",
+              "source": "Reuters via The Jerusalem Post, 2 September 2026: two Filipino seafarers killed, Bahri statement, incident at about 23:40 local time"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -31482,6 +31504,35 @@
             {
               "url": "https://www.tradewindsnews.com/casualties/hormuz-attack-leaves-hole-in-merchant-vessel-off-oman/2-1-2067885",
               "source": "TradeWinds, 2 November 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6619835916,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6619835916",
+      "author": "iMariner",
+      "received_at": "2026-11-04T01:15:38Z",
+      "incident_id": "INC-20261029-017",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261029-017",
+        "update": {
+          "at": "2026-11-04T01:15:37Z",
+          "text": "Correction to this row's date and identity. The headline held here, that Saudi Arabia said Iran attacked a vessel in the Strait of Hormuz and killed two sailors, is the Saudi Ministry of Foreign Affairs statement of 2 September 2026 about the Bahri crude oil tanker SIDR, which was struck late on 31 August 2026 while transiting the strait. The ministry condemned the Iranian targeting of SIDR and said it resulted in fatalities among the tanker's crew (Saudi Press Agency, 2 September 2026). Reuters reported that Bahri said two of its Filipino seafarers were killed in the attack, which the company timed at about 23:40 local time on 31 August (The Business Standard, 2 September 2026; The Jerusalem Post, 2 September 2026). Those two deaths are already recorded against HIST-ME-20260831-SIDR, with nationality Filipino and a count of two. The checked statement describes no attack on 29 October 2026, so this row should not be counted as a separate attack on that date, and its two deaths must not be added to the seafarer total a second time.",
+          "sources": [
+            {
+              "url": "https://www.spa.gov.sa/en/N2667152",
+              "source": "Saudi Press Agency, 2 September 2026: foreign ministry statement condemning the attack on the Saudi tanker SIDR and reporting fatalities among its crew"
+            },
+            {
+              "url": "https://www.tbsnews.net/worldbiz/middle-east/saudi-arabia-says-iran-attacked-vessel-hormuz-killing-two-sailors-1531806",
+              "source": "Reuters via The Business Standard, 2 September 2026: two Filipino seafarers killed, SIDR owned by Bahri, hit late on 31 August"
+            },
+            {
+              "url": "https://www.jpost.com/middle-east/article-907312",
+              "source": "Reuters via The Jerusalem Post, 2 September 2026: two Filipino seafarers killed, Bahri statement, incident at about 23:40 local time"
             }
           ]
         }
