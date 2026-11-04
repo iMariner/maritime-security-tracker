@@ -18081,6 +18081,32 @@
           ]
         }
       ]
+    },
+    "INC-20261104-003": {
+      "updates": [
+        {
+          "at": "2026-11-04T13:45:00Z",
+          "text": "Correction to this row's date and identity, no new attack. The Turkish shipping outlet Denizhaber published on 4 November 2026 a report headed that a seafarer had died in a drone attack on a commercial ship in the Black Sea, and its own text shows the report describes the attack of 3 October 2026: it cites TradeWinds of 4 October, the Ukrainian Sea Ports Authority statement of 3 October and Reuters of 3 October, and sets out a Liberian flagged bulker off Chornomorsk in which one crew member died, three were injured and 13 were evacuated. Reuters reported on 3 October that the Ukrainian sea ports administration said Russia attacked a Liberian flagged cargo ship in one of Ukraine's Black Sea ports in the Odesa region, killing one person and injuring three, with 13 other crew members evacuated. That event is already held in this archive as INC-20261003-001, so the 4 November headline adds no new attack and no new death and must not be counted as a separate casualty. Separately, Russia's defence ministry claimed on 4 November that it had struck a dry cargo vessel about 8 kilometres south west of Odesa overnight, as carried by UNN, which states there is no independent confirmation; no authority has reported a casualty for that claim, so it is held here only as an unconfirmed claim and no count is attached to it. Odesa's regional military administration reported overnight strikes into 4 November on an energy facility, a shopping centre and a residential area, and its head Oleh Kiper said there were no casualties, according to Ukrainska Pravda. No vessel is named anywhere in the checked reporting for 4 November and no nationality is recorded.",
+          "sources": [
+            {
+              "url": "https://www.denizhaber.com/karadenizde-ticari-gemiye-iha-saldirisi-bir-denizci-oldu/127785",
+              "source": "Denizhaber, 4 November 2026: report on the death of a seafarer in a drone attack, which on reading its text is the attack of 3 October off Chornomorsk, citing TradeWinds of 4 October, the Ukrainian Sea Ports Authority of 3 October and Reuters of 3 October"
+            },
+            {
+              "url": "https://www.reuters.com/world/russia-hits-liberian-flagged-ship-ukraines-odesa-port-kills-one-2026-10-03",
+              "source": "Reuters, 3 October 2026: Ukrainian sea ports administration says a Liberian flagged cargo ship was attacked in an Odesa region port, one killed, three injured, 13 crew evacuated"
+            },
+            {
+              "url": "https://unn.ua/en/news/russia-reported-strikes-on-energy-facilities-in-the-kyiv-and-zhytomyr-regions-and-on-a-cargo-ship-near-odesa",
+              "source": "UNN, 4 November 2026: Russian defence ministry claim of a strike on a dry cargo vessel about 8 km south west of Odesa, with no independent confirmation"
+            },
+            {
+              "url": "https://www.pravda.com.ua/eng/news/2026/11/04/8061184/",
+              "source": "Ukrainska Pravda, 4 November 2026: overnight strikes into 4 November, Odesa region energy facility, shopping centre and residential area, Oleh Kiper reporting no injuries"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -31950,6 +31976,39 @@
             {
               "url": "https://www.indiatoday.in/india/story/strait-of-hormuz-tanker-attacks-29-indian-seafarers-safe-3028916-2026-10-30",
               "source": "India Today, 30 October 2026, quoting shipping minister Sarbananda Sonowal: 27 Indian seafarers aboard MT LOUISE 1, all crew escaped unharmed, no injuries reported"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6632200083,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6632200083",
+      "author": "iMariner",
+      "received_at": "2026-11-04T13:43:01Z",
+      "incident_id": "INC-20261104-003",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261104-003",
+        "update": {
+          "at": "2026-11-04T13:45:00Z",
+          "text": "Correction to this row's date and identity, no new attack. The Turkish shipping outlet Denizhaber published on 4 November 2026 a report headed that a seafarer had died in a drone attack on a commercial ship in the Black Sea, and its own text shows the report describes the attack of 3 October 2026: it cites TradeWinds of 4 October, the Ukrainian Sea Ports Authority statement of 3 October and Reuters of 3 October, and sets out a Liberian flagged bulker off Chornomorsk in which one crew member died, three were injured and 13 were evacuated. Reuters reported on 3 October that the Ukrainian sea ports administration said Russia attacked a Liberian flagged cargo ship in one of Ukraine's Black Sea ports in the Odesa region, killing one person and injuring three, with 13 other crew members evacuated. That event is already held in this archive as INC-20261003-001, so the 4 November headline adds no new attack and no new death and must not be counted as a separate casualty. Separately, Russia's defence ministry claimed on 4 November that it had struck a dry cargo vessel about 8 kilometres south west of Odesa overnight, as carried by UNN, which states there is no independent confirmation; no authority has reported a casualty for that claim, so it is held here only as an unconfirmed claim and no count is attached to it. Odesa's regional military administration reported overnight strikes into 4 November on an energy facility, a shopping centre and a residential area, and its head Oleh Kiper said there were no casualties, according to Ukrainska Pravda. No vessel is named anywhere in the checked reporting for 4 November and no nationality is recorded.",
+          "sources": [
+            {
+              "url": "https://www.denizhaber.com/karadenizde-ticari-gemiye-iha-saldirisi-bir-denizci-oldu/127785",
+              "source": "Denizhaber, 4 November 2026: report on the death of a seafarer in a drone attack, which on reading its text is the attack of 3 October off Chornomorsk, citing TradeWinds of 4 October, the Ukrainian Sea Ports Authority of 3 October and Reuters of 3 October"
+            },
+            {
+              "url": "https://www.reuters.com/world/russia-hits-liberian-flagged-ship-ukraines-odesa-port-kills-one-2026-10-03",
+              "source": "Reuters, 3 October 2026: Ukrainian sea ports administration says a Liberian flagged cargo ship was attacked in an Odesa region port, one killed, three injured, 13 crew evacuated"
+            },
+            {
+              "url": "https://unn.ua/en/news/russia-reported-strikes-on-energy-facilities-in-the-kyiv-and-zhytomyr-regions-and-on-a-cargo-ship-near-odesa",
+              "source": "UNN, 4 November 2026: Russian defence ministry claim of a strike on a dry cargo vessel about 8 km south west of Odesa, with no independent confirmation"
+            },
+            {
+              "url": "https://www.pravda.com.ua/eng/news/2026/11/04/8061184/",
+              "source": "Ukrainska Pravda, 4 November 2026: overnight strikes into 4 November, Odesa region energy facility, shopping centre and residential area, Oleh Kiper reporting no injuries"
             }
           ]
         }
