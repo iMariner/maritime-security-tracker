@@ -17959,6 +17959,20 @@
           ]
         }
       ]
+    },
+    "INC-20261103-006": {
+      "updates": [
+        {
+          "at": "2026-11-04T01:15:37Z",
+          "text": "Correction to this row's date. The 3 November 2026 headline held here, that a container ship sank after an attack in the Strait of Hormuz, repeats the loss of GFS PRIDE, the Singapore-flagged feeder of 2,824 TEU that was struck by an unknown projectile while transiting the strait on 13 October 2026 and subsequently sank. Singapore's Maritime and Port Authority said all 21 crew were evacuated and no injuries were reported, and the Hydrographer of Pakistan warned that the wreck lay 4 nautical miles north-west of Ras al-Sheikh Masud in Oman's Musandam peninsula (BBC News, 14 October 2026). No sinking of a container ship in the Strait of Hormuz on 3 November 2026 was found in the checked reporting, so this row should not be counted as a separate sinking on that date.",
+          "sources": [
+            {
+              "url": "https://www.bbc.com/news/articles/crkg7q97z078o",
+              "source": "BBC News, 14 October 2026: Maritime and Port Authority of Singapore on the sinking of GFS PRIDE, 21 crew evacuated, wreck position from the Hydrographer of Pakistan"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -31533,6 +31547,27 @@
             {
               "url": "https://www.jpost.com/middle-east/article-907312",
               "source": "Reuters via The Jerusalem Post, 2 September 2026: two Filipino seafarers killed, Bahri statement, incident at about 23:40 local time"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6619838005,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6619838005",
+      "author": "iMariner",
+      "received_at": "2026-11-04T01:15:46Z",
+      "incident_id": "INC-20261103-006",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261103-006",
+        "update": {
+          "at": "2026-11-04T01:15:37Z",
+          "text": "Correction to this row's date. The 3 November 2026 headline held here, that a container ship sank after an attack in the Strait of Hormuz, repeats the loss of GFS PRIDE, the Singapore-flagged feeder of 2,824 TEU that was struck by an unknown projectile while transiting the strait on 13 October 2026 and subsequently sank. Singapore's Maritime and Port Authority said all 21 crew were evacuated and no injuries were reported, and the Hydrographer of Pakistan warned that the wreck lay 4 nautical miles north-west of Ras al-Sheikh Masud in Oman's Musandam peninsula (BBC News, 14 October 2026). No sinking of a container ship in the Strait of Hormuz on 3 November 2026 was found in the checked reporting, so this row should not be counted as a separate sinking on that date.",
+          "sources": [
+            {
+              "url": "https://www.bbc.com/news/articles/crkg7q97z078o",
+              "source": "BBC News, 14 October 2026: Maritime and Port Authority of Singapore on the sinking of GFS PRIDE, 21 crew evacuated, wreck position from the Hydrographer of Pakistan"
             }
           ]
         }
