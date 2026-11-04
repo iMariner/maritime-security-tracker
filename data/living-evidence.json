@@ -17973,6 +17973,20 @@
           ]
         }
       ]
+    },
+    "INC-20261101-014": {
+      "updates": [
+        {
+          "at": "2026-11-04T01:17:10Z",
+          "text": "Correction to this row's date. The report held here, that eight Syrian sailors are missing after a vessel was struck in the Black Sea, is the Verify-Sy account published on 7 October 2026 of the attack on the Togolese-flagged general cargo ship ALFA WATAN. Verify-Sy recorded that ALFA WATAN and the Palau-flagged ABLE were attacked at about 04:00 on 6 October 2026 roughly 80 nautical miles off the Bulgarian coast, that ALFA WATAN sank inside Bulgaria's exclusive economic zone, and that eight named Syrian seafarers were missing after the Bulgarian national radio reported the search had been stopped without the crew being found. The same event is already held as HIST-BS-20261006-ALFA-WATAN. Nothing in the checked report describes an attack on 1 November 2026, so this row should not be counted as a separate attack on that date, and no missing or death count is recorded here because the crew totals in circulation differ and no owner or flag state statement fixes them.",
+          "sources": [
+            {
+              "url": "https://www.verify-sy.com/ar/topic/regional-global/newsroom/syrian-sailors-alfa-watan",
+              "source": "Verify-Sy, 7 October 2026: eight Syrian seafarers missing from ALFA WATAN, attacked with ABLE on 6 October about 80 nautical miles off Bulgaria, search stopped"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -31568,6 +31582,27 @@
             {
               "url": "https://www.bbc.com/news/articles/crkg7q97z078o",
               "source": "BBC News, 14 October 2026: Maritime and Port Authority of Singapore on the sinking of GFS PRIDE, 21 crew evacuated, wreck position from the Hydrographer of Pakistan"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6619859381,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6619859381",
+      "author": "iMariner",
+      "received_at": "2026-11-04T01:17:11Z",
+      "incident_id": "INC-20261101-014",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261101-014",
+        "update": {
+          "at": "2026-11-04T01:17:10Z",
+          "text": "Correction to this row's date. The report held here, that eight Syrian sailors are missing after a vessel was struck in the Black Sea, is the Verify-Sy account published on 7 October 2026 of the attack on the Togolese-flagged general cargo ship ALFA WATAN. Verify-Sy recorded that ALFA WATAN and the Palau-flagged ABLE were attacked at about 04:00 on 6 October 2026 roughly 80 nautical miles off the Bulgarian coast, that ALFA WATAN sank inside Bulgaria's exclusive economic zone, and that eight named Syrian seafarers were missing after the Bulgarian national radio reported the search had been stopped without the crew being found. The same event is already held as HIST-BS-20261006-ALFA-WATAN. Nothing in the checked report describes an attack on 1 November 2026, so this row should not be counted as a separate attack on that date, and no missing or death count is recorded here because the crew totals in circulation differ and no owner or flag state statement fixes them.",
+          "sources": [
+            {
+              "url": "https://www.verify-sy.com/ar/topic/regional-global/newsroom/syrian-sailors-alfa-watan",
+              "source": "Verify-Sy, 7 October 2026: eight Syrian seafarers missing from ALFA WATAN, attacked with ABLE on 6 October about 80 nautical miles off Bulgaria, search stopped"
             }
           ]
         }
