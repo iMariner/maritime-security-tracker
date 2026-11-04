@@ -57,10 +57,19 @@
         "kind": "media",
         "published_at": "2026-11-03T22:18:57Z",
         "title": "Karadeniz'deki saldırının izlerini taşıyan dev gemi İstanbul Boğazı'ndan geçti - Havadis"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE51VW1KZlFSWUNSaGdMaGtJcGFXODZsaVlDN2I2R05EczhqS0ZuWDVDWVhjcElpdF9TVV93?oc=5",
+        "source": "Howl.Link",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-03T13:48:00Z",
+        "title": "İstanbul Boğazı'nda alarm: İHA saldırısına uğrayan gemi nedeniyle trafik askıya alındı - Howl.Link"
       }
     ],
     "first_seen": "2026-11-03T18:00:58Z",
-    "last_updated": "2026-11-03T23:38:01Z",
+    "last_updated": "2026-11-04T03:13:33Z",
     "verification_issue": 330,
     "verdict": null,
     "published_in": [],
@@ -244,10 +253,10 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-11-03",
-    "summary": "Russia's defence ministry claimed a massed missile and drone strike overnight on 3 November hit dry cargo vessels in the Black Sea near Odesa and in the port of Yuzhny, saying they carried military and dual-use cargo for Ukraine's armed forces. Ukrainian media confirmed a massed Russian missile strike on the Odesa region, and the claims are one-sided with no vessel names given.",
+    "summary": "Russia's defence ministry claimed a massed missile and drone strike overnight hit dry cargo vessels in the Black Sea near Odesa and at the port of Yuzhny, saying they carried military and dual-use cargo for Ukraine's armed forces. A separate ministry claim said a dry cargo vessel was struck 58 km south of Odesa, and Ukrainian officials reported casualties in Odesa; no vessel is named.",
     "official_source_cited": null,
     "conflicting": false,
-    "confidence": 0.6,
+    "confidence": 0.7,
     "vessel_name": null,
     "imo": null,
     "flag": null,
@@ -257,10 +266,10 @@
     "lon": 30.74,
     "location_text": "Black Sea, near Odesa region, Ukraine",
     "attack_type": "missile",
-    "damage": null,
+    "damage": "hit by a precision strike, per Russia's defence ministry",
     "casualties": null,
     "attribution_claimed": "Russia's defence ministry claimed it struck the vessel",
-    "independent_evidence": false,
+    "independent_evidence": true,
     "id": "INC-20261103-002",
     "sources": [
       {
@@ -307,14 +316,122 @@
         "kind": "media",
         "published_at": "2026-11-03T20:56:47Z",
         "title": "Russia claims attack on ship and Odesa port as US gears up to mediate peace talks - TradeWinds News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOYmR4TmlBOTB3ajlQcGZ6SnZxV3pvS19ocnFLTkVJWnRZaWIxYkFQMUZ0NzNaU3FlSl96TzFNcUVtUzM0a2VkVmlhbGM3X3Z0S3dVT1lQd0JaM01kZjhoYkowTk14S0MtNW5VMFREMEFla0pXbldaSDA2MFNQT1JPX2ExM3hTSndtOG54WE9aQ1pyN1hkSlY5MlczaGluemJuRkFPMnBTWFlTYWtRV2pUZ0VDWEpMMnloc08yN1o3Z2xuM2lEZG1qdlFwcV9fekh1MEw1RjA2NEFOT0V4bkxkT0JiMHBnOExLTFh2N0xpMXNnVGgwRUpTcWZB?oc=5",
+        "source": "Foreks.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T07:08:57Z",
+        "title": "Rusya'dan Odessa'ya gece saldırısı: Füze rampaları ve Karadeniz'deki gemi hedef alındı - Foreks.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeDVBZjlEZUJZcU9lOXBZeERxT0RxUVdWQXBnQ2IxcFRMWm1GZ1JEUk5TLW00Q3ZCMWVMZVhmbm1GZkhDYmc5SG9ubS01T0VHbG1weFk3NThuT0ZJOEtVS2tROWRNNTJnSU5ZdzduMnRBVmdoWW9rWXJsc25ySnp1TThFckg4Z0lPOUhJRzB6YVYzT251Vm9XVk9YS0ZrMU02enp0Tm1JRm53RU8yRmpGQlI5NmdVaXPSAbwBQVVfeXFMTTRRN3FqOTF1MWdacUM2OHFxYnhkRFFTSzJZWW1ESmtYYXNBb3hPa3VNanJaSTlHSmw5OWp3WF81c1FzWnZ5cXoxRjNBSXZqYlE1X2piT2ZwNE8yUF9GZ0ZYOThBQk1wWTZHV2pQczNUWjRUR0toYWszT2p4RkYxT05IRWJtd1VVbTF0SU5NOWl6clh4TkhpS1QteGlhbVZaamV5SURjVjRyU21La1FUOTJyZ1lKZHlvV2tjX3M?oc=5",
+        "source": "A News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T07:07:11Z",
+        "title": "Russia hits military facility in Ukraine's Odesa region, cargo vessel at sea - A News"
+      },
+      {
+        "url": "https://t.me/astrapress/129972",
+        "source": "ASTRA",
+        "source_type": "telegram",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-02T06:24:04+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMDVtU1hybHUzZFk3NEZhaV9CbUFteFozX1lRUVhJNTlMOEFTbU1xYUtDYThNcXR0ZTRtT1pLZWdzNHVLWmxTR0V4Sk1lb3JxR2p0dkpLZkx5SE5Edk01ZzlNNDBQNHdDeUU4THdlVWVXeTRHUUcwNl9KWVA0d3FnM2E5WEZhQl82WnVXc3pseXhTaEptV25mVWY0bw?oc=5",
+        "source": "Life.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T05:19:11Z",
+        "title": "Сухогруз со снабжением для ВСУ получил точный удар посреди Чёрного моря - Life.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTEFhT0RqZXBPUjRRTWpBZkZQV01DVTJhTUU0Vi12d0F0U3pVcmN6cXRsdDZWRXRKZ0FmZmUyb0hMVnczTWZaZmlmVlJxazczcVVZS21kemgyR2FBcUhYdmtXSVFVTjZOSWVDUVNrdEZCaVJocThwTVMwMUluTzAwUWRwSy1mazlpVEFVLUUzRFdtejZsTHFVM3oyVnJ3QQ?oc=5",
+        "source": "Breakingthenews.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T05:17:00Z",
+        "title": "Russia says drone strikes hit Ukrainian cargo vessel - Breakingthenews.net"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNLVlBb05XdzJhbjlrbl9KTmRjRERyVUJTRS10MExuVTBpSk1VR19NaUxGS0ZScm1odGtDZk05ak5tNFlmZXZmOFVuMjdBNWFwZ01XTFkzN2lSamFFREc5SjJpeWFqVDFqZHBTREVtcGZjc2ROZHNNRFUtR0VCZnUxTjlDd1lyVHZPVlAzRmF5TmtqQWZQeVFIUy1jRFVRa0V2TGs3TXNydkpkZ1BNMF8temZEUW1aLWxZbTg2UWZUWGllQ0VYMURYdVZLSFJjbnhLbWNF0gHTAUFVX3lxTE0tWUFvTld3MmFuOWtuX0pOZGNERHJVQlNFLXQwTG5VMGlKTVVHX01pTEZLRlJybWh0a0NmTTlqTm00WWZldmY4VW4yN0E1YXBnTVdMWTM3aVJqYUVERzlKMml5YWpUMWpkcFNERW1wZmNzZE5kc01EVS1HRUJmdTFOOUN3WXJUdk9WUDNGYXlOa2pBZlB5UUhTLWNEVVFrRXZMazdNc3J2SmRnUE0wXy16ZkRRbVotbFltODZRZlRYaWVDRVgxRFh1VktIUmNueEttY0U?oc=5",
+        "source": "Devdiscourse",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T05:04:59Z",
+        "title": "Russia hits military facility in Ukraine's Odesa region, cargo vessel at sea - Devdiscourse"
+      },
+      {
+        "url": "https://t.me/rian_ru/349058",
+        "source": "RIA Novosti",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-11-02T04:54:24+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQczJ5WHpWRUhlT3owd0lHZkxMczFQWnN2ZHhkSWd5bTdtNFZpVGJnVmVmcGpOZWNkSUJUQW11ZXpLc0Yxa1Y0QXNGakQ5MjRiWS02MVlFRkNsWmhoSzZtbnIzM1VuVXZyRGNRSl9YMVU3R3JoVDU2eHc1SVNGTlZSUmFLR2hKNnpOY3VNTzNGZ3ZhZDJwdWN2TmR4RmI3MUMxaHlJSHFwTXRWbmRxbHRRNlBR?oc=5",
+        "source": "Fakti.bg",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T04:54:00Z",
+        "title": "Russia reports strike on ship near Odessa and Neptune missile complex site ᐉ News from Fakti.bg - World - Fakti.bg"
+      },
+      {
+        "url": "https://t.me/mod_russia/68705",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-02T04:52:16+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdEZmRGFvX29hV0pBWV9KMWkzVGdIeE15UTFEY2hMbC16TC12S1BBOVNWenlfcDFNaGVOcDE3V3Y3YkhmV2kxYXRZZkszSFdaUUdnLXFUTS1lbFNaQzlaVWZnNEdLNDhicFJTNVF5U3Y0dGptZ1pZb3lnbm15ZUxETVZ6RDhOZw?oc=5",
+        "source": "safety4sea",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T11:44:27Z",
+        "title": "Russian forces reportedly strike cargo vessel off Odesa - safety4sea"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWVBJZUt3Mm9XZVVxU25rMFRqWFpwcTM3RWhCRXBNOFpCb3U3RnBabW9zWVY1dkZReXlzYTdMbXIycS0zVS14Vm9LR0J1Xzc2YWJXTVUycGxNWnI5NW1Mdi02czNRcjlfdHA2QzN5cUdPeGVfVkhINzA5VGdtODRMalplQ3lqT1JkaDRTNmxTNTNkamQ4S3YzQkdhUTdoUFExM2NJeG5vVUlRR1M4Qm9TTnJuOA?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T11:09:18Z",
+        "title": "Bulker hit in Russian attack on Ukrainian military cargo trade - TradeWinds News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQVzJiamVHOEVjX3Y3bUE0c05FMk9QV0VLSWRKeHV2UUtEYmhHOEM4VnVOMEF2T0FQZEIxdUdPSnU4WjJOLTZ2QjUyVmdtV3dsUU9ma2tFdW5IbnAwaHZDYlBxb1BzcEFuN0xneHhSaFR6Y1BHOHc4R0VLV2pSd1RrMUM5a2NVZFg1R1pHV1huaWtjWERmdWlqdTk0emtHRWZ5LTNtVDcyRnRmcnBOeEp6VFNtQ3pONU54YUxERXc3N05tVVR0aC1mVW14QTR5OXY0bDE2bnhSdnZvU3VkZXpDSVJnVnkzdGdiZUxjb3NDcF9uYzZ6aEVhVmtLaFNNSEpCZ051QVFMRdIBjAJBVV95cUxOWDUzblRNU2tEUktFTzhnZEstS2JQcDhodndxUFF4Rmk5dklBTmJTbWlPZmJXdGpQYVB5OWE4ZlBmMHM2Sk5BanM4bEVKXzJLU2N3S3F4VnY3UFZtOWREeVhEYUhUZWgzdkE0dlZzWkNBZUR1YmlvNEVuODJVMUNCdWJ1NDhDQzQ2aHV2Y2V2LUpzZ1FSQlFqZ045RXg4X0FENE5tQW53bXpKa0E0TU96X0NEbTU3UmljWFlnUkUxbFpDQWRiOENqRk9GbXlTQ2lGeVJLTGNKU3BtVmlSNlk0ZDl5VmNyaHQwVnMyVU0xSDZmVG9EaUtreDJnN0FLbFVpWWlZTmstYURDeFZM?oc=5",
+        "source": "The Times of India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-03T01:00:00Z",
+        "title": "Russia Claims Strike On Ukraine's Neptune Missile Depot Near Odessa, Military Cargo Ship Also Hit - The Times of India"
       }
     ],
     "first_seen": "2026-11-03T10:00:26Z",
-    "last_updated": "2026-11-03T23:38:05Z",
+    "last_updated": "2026-11-04T03:13:34Z",
     "verification_issue": 326,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
+    "status": "reported",
     "date_approx": false,
     "position_approx": true
   },
@@ -479,10 +596,19 @@
         "kind": "media",
         "published_at": "2026-11-03T21:04:30Z",
         "title": "Attack with two \"unknown\" projectiles against an oil tanker in the Strait of Hormuz off Oman - Demócrata"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNVdmVnpIWW5SRUFpTXVacm5DZUdvSjN1OHhKUGY5R2VHUWNzWlNaRG5XRUR5cE1QV21DaDdJaW55cVlXUkZpVXZnSlFHSUVhdG44TUZIdmVmQzB1NW9DeHVjUzlya3A2NzFOX0dubXVDOGU0Rl9DS18tM1R0SnRtNThuN0RqenZqWmt0MEtOb2lCQS13VUoycmV5Ulg4NkdOZzN1akZBVWNfb2VFUUEzZ9IBtwFBVV95cUxNWDZwMExiQkt4dy1EdGJLSVVJa1VDWC03VDFkVDFqOTgxT2ZKVldLUEMyNjg2LWd3Vk5pU2hWUVg4TFlNTl9DTEZJUXV5UGhoNTd4ZzUySkZ0eTFudm5TYllyNnFoMG1fT1RrTFFicnJSRldzeHVnZkJ4d01aZzVzdDc5YV9oTlEzRFZnMGM5R2o4RWlxVkZkN2xJc2VzTWpETi1TMWllUUpBdnowMHJsclJQNTNCTlE?oc=5",
+        "source": "The Indian Express",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-03T08:55:38Z",
+        "title": "Gujarat sailor killed after projectile hits cargo vessel off Oman coast - The Indian Express"
       }
     ],
     "first_seen": "2026-11-03T10:00:26Z",
-    "last_updated": "2026-11-03T23:38:10Z",
+    "last_updated": "2026-11-04T03:13:33Z",
     "verification_issue": 327,
     "verdict": null,
     "published_in": [],
@@ -961,12 +1087,13 @@
       }
     ],
     "first_seen": "2026-11-03T02:37:09Z",
-    "last_updated": "2026-11-03T02:37:09Z",
+    "last_updated": "2026-11-04T03:13:34Z",
     "verification_issue": 323,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261101-001"
   },
   {
     "region": "Black Sea",
@@ -1100,13 +1227,14 @@
       }
     ],
     "first_seen": "2026-11-02T09:54:19Z",
-    "last_updated": "2026-11-03T02:36:38Z",
+    "last_updated": "2026-11-04T03:13:34Z",
     "verification_issue": 318,
     "verdict": null,
     "published_in": [],
-    "status": "reported",
+    "status": "merged",
     "status_changed_at": "2026-11-02T09:54:19Z",
-    "position_approx": true
+    "position_approx": true,
+    "merged_into": "INC-20261103-002"
   },
   {
     "region": "Persian Gulf",
@@ -2890,10 +3018,37 @@
         "kind": "media",
         "published_at": "2026-11-02T19:59:05Z",
         "title": "Vessel struck by unknown projectile off Oman: UK maritime agency - Anadolu Ajansı"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSEVwVlcxNmE5N1pnZDhuYU4wSWR3YXJ2T1ZacFFRcXJ6bXdyMjhQLU83aEEyYjd2UnY4c1BkXzFuSXUzS1lNdjRPQ2lnaHhFUUpGM1dkV2lfWGY2RERGdEtfSHdMUnZZWnR2WlRBSFN5SU1YUk5VNkllV09zVWdELW5LSVk1X0E?oc=5",
+        "source": "TGRT Haber",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T01:13:36Z",
+        "title": "Hürmüz Boğazı'ndan geçen gemilere saldırı - TGRT Haber"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOGQ0T3NJaHJGTTQ3aGpZVXNqQ25kZmoxVmxlekhCQWxfWEpBZ1ZYd1QwZ3ZuOHY5aFZ6N1hURTUySmIwa0RER05JbmNfY0ZqSHZtR2gzclBGRWhOSVZhWHhVa1NLRXNFT3A5NDFyM2RRdk5UYi1UY01qbjRIaHJyWEdQZl9qX1h4aEpoRzhHQlFrRHR3THfSAaYBQVVfeXFMTlVrWElpU3daWEpPT1VCVGFydWFaQTl0VzgyV204MXRTdVVfTkZHTFMzTllHSDBlRWF1RnR0RzdUMnA5MlJqLVhPREFnbGI3TFg3ZUE1QUN5ZU1iN3R2QmRsXzVIbThRZGVMcG9EdVZsSDExWUZKOThpU0RmM3hhYmFzX1RlN1lZRERBZnZLenpodmw1QWstcTlaQ25tN05HQURKYk5CUQ?oc=5",
+        "source": "Kars Manşet",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-01T23:57:00Z",
+        "title": "Hürmüz Boğazı’ndan geçen gemiye şüpheli saldırı - Kars Manşet"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTGREaG1SMEJkVkluSV9HbXBMTWVVWk9UVXlsVWw4TloxaGYxb2JzbVdadk1yeXlFeDU1VlBocnIzX2dsTENVRkZYUDhfcVNodFlnNVhRTl9zYnZxR05Ua2kteFNIZHhJd3YtMzBfcXhGNW1jNDFRMWk5MUNPRjh2NVFlVmhpSzA1dzhwTnRGLXNSaGxqYmsxUHAyY1lHRTZPNS1vcW5IUnZxTWdnU0xrRXNobjdFWUtreGfSAVdBVV95cUxPamxyUkhZVUFpcEdMX2Fud0dRbjlNLUo0amt6NDJIMnlUaHBWNTJlRW40M0d4b1ZuN2N2UTVESkNhMTBVdHZFV2s0bjJma3VuZFNIZEVycjg?oc=5",
+        "source": "Mersin Haber",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-01T23:57:00Z",
+        "title": "Hürmüz Boğazı'nda Seyreden Bir Gemide Şüpheli Saldırı Gerçekleştiği Bildirildi - Mersin Haber"
       }
     ],
     "first_seen": "2026-11-01T09:37:37Z",
-    "last_updated": "2026-11-03T23:38:09Z",
+    "last_updated": "2026-11-04T03:13:34Z",
     "verification_issue": 310,
     "verdict": null,
     "published_in": [],
@@ -6224,7 +6379,7 @@
     "position_approx": true
   },
   {
-    "region": "Strait of Hormuz",
+    "region": "Persian Gulf",
     "date_utc": "2026-10-30",
     "summary": "A vessel was struck by an unknown projectile about 40 nautical miles from Iran's Lavan Island on 30 October and caught fire, according to UKMTO. Oman's navy evacuated 25 sailors from the attacked vessel RITI near Musandam after the fire broke out.",
     "official_source_cited": "UKMTO",
@@ -6661,7 +6816,7 @@
       }
     ],
     "first_seen": "2026-10-30T21:41:31Z",
-    "last_updated": "2026-11-02T20:30:54Z",
+    "last_updated": "2026-11-04T03:13:34Z",
     "verification_issue": 298,
     "verdict": {
       "status": "confirmed",
