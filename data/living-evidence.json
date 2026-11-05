@@ -18550,6 +18550,24 @@
           ]
         }
       ]
+    },
+    "INC-20261104-008": {
+      "updates": [
+        {
+          "at": "2026-11-05T15:00:00Z",
+          "text": "A time-late UKMTO confirmation, with no vessel identity. UKMTO warning 196-26 records a report of a tanker struck by two unidentified projectiles 50 nautical miles north of Madinat ash Shamal, Qatar, with the status of the crew, the damage assessment and any environmental impact unconfirmed. The Associated Press reported the same attack as having taken place on Wednesday 4 November 2026. Kuwait's condemnation held in this row may refer to that attack, but no source checked links the two, and no source names the tanker, her flag or her crew, so the row stays unreviewed with no death count and no nationality.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/recent-incidents",
+              "source": "UKMTO recent incidents, warning 196-26, 5 November 2026"
+            },
+            {
+              "url": "https://apnews.com/article/mideast-iran-war-hormuz-tankers-a35d13806844d99fda93de0a19de57fa",
+              "source": "Associated Press, 5 November 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -33655,6 +33673,31 @@
             {
               "url": "https://ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf",
               "source": "UKMTO and JMIC advisory update 105, 15 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6660726908,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6660726908",
+      "author": "iMariner",
+      "received_at": "2026-11-05T14:37:48Z",
+      "incident_id": "INC-20261104-008",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261104-008",
+        "update": {
+          "at": "2026-11-05T15:00:00Z",
+          "text": "A time-late UKMTO confirmation, with no vessel identity. UKMTO warning 196-26 records a report of a tanker struck by two unidentified projectiles 50 nautical miles north of Madinat ash Shamal, Qatar, with the status of the crew, the damage assessment and any environmental impact unconfirmed. The Associated Press reported the same attack as having taken place on Wednesday 4 November 2026. Kuwait's condemnation held in this row may refer to that attack, but no source checked links the two, and no source names the tanker, her flag or her crew, so the row stays unreviewed with no death count and no nationality.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/recent-incidents",
+              "source": "UKMTO recent incidents, warning 196-26, 5 November 2026"
+            },
+            {
+              "url": "https://apnews.com/article/mideast-iran-war-hormuz-tankers-a35d13806844d99fda93de0a19de57fa",
+              "source": "Associated Press, 5 November 2026"
             }
           ]
         }
