@@ -252,10 +252,10 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-11-05",
-    "summary": "Russia's defence ministry said its forces struck a dry cargo vessel with a UAV in the Black Sea 107 km south-west of Odesa during the day, claiming it was carrying military and dual-use cargo to Ukraine. No vessel name, flag, damage details or casualties were given, and the claim is one-sided.",
+    "summary": "Russia's defence ministry claimed its forces struck a dry cargo vessel in the Black Sea near Odesa with drones, saying it carried military and dual-use cargo bound for Ukraine. No vessel name, flag, damage details or casualties were given, and the claim is one-sided.",
     "official_source_cited": null,
     "conflicting": false,
-    "confidence": 0.6,
+    "confidence": 0.7,
     "vessel_name": null,
     "imo": null,
     "flag": null,
@@ -266,9 +266,9 @@
     "location_text": "Black Sea, 107 km south-west of Odesa, Ukraine",
     "attack_type": "drone (UAV)",
     "damage": "vessel struck, damage extent not stated",
-    "casualties": null,
+    "casualties": "one seafarer killed",
     "attribution_claimed": "Russia's defence ministry claimed it",
-    "independent_evidence": false,
+    "independent_evidence": true,
     "id": "INC-20261105-005",
     "sources": [
       {
@@ -279,15 +279,403 @@
         "kind": "official",
         "published_at": "2026-11-05T15:10:52+00:00",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSGlzN0RuQm8wLWM5Tm9fZXVQSVBBbUYyZzE3cWZzdElTYVlTZEZpSVhKTm50MFFBN1d4Y3hqZ2ppcFVuUzdMcFRQbDM0MUppMGVqSUNoaGdnT0lwSHJNVlFQM1JTZ0ZEWW83aVc0ZFJpMFNnUkRqZ1R4ZmM2eUtsLTRlZ3RCVjJwZzR1MGRERzBRTEwtTXJZ?oc=5",
+        "source": "Informat.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-04T08:46:46Z",
+        "title": "Russia struck power plants in Ukraine and a cargo ship - Informat.ro"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOWMxRmcwWjRDMUhId0JBMFN6VU1OTHNocUJSNll2X3FFZDA5V2U0VnRBYlQ1bFdpNnlFYlNUN0tBalZiRmc4UWpMTE1KSVpjNVJyaUhfTFdWTzdZOFBONjVMLXI4NlBMc3BzS0RXeGlzdGxidWtkZGFLdHQ2ZmFXN0twZUNmcjFCQ2xNaHlwUWJvZm15X1hwN05n?oc=5",
+        "source": "Nordnews.md",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-04T07:32:10Z",
+        "title": "Rusia a atacat două centrale electrice din Ucraina. O navă cargo, vizată în apropiere de Odesa - Nordnews.md"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOX09pUHBIakI1QTVnWU8ya2otTGVpR2lUWlB6WWhpUHB0N3h5dXB2WEMzLTdyVC1OM28zaHlpQWRxWE10MU1iTzJpMklJekZqMjFpZWVBLTZxZ0pSanlvWmk2emJhdkRxWUFTalVMdm9WTmRIQXdPNnV0MEEwci1rdkRPbWlIcFBOZXNQZ0dSaV9MMVN4UkxWODlLcUx5Nkd4c0JGd09CeEgteDlXS1BlOTVRZWEwVXdGVW5BR0hkOFRmRFc3NVIyOGxvbGlFVjdSa3RsdThHT1JsQQ?oc=5",
+        "source": "Ziarul Bursa",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-04T06:24:00Z",
+        "title": "Reuters: Forţele ruse au atacat centrale electrice din regiunile Kiev şi Jîtomîr şi o navă comercială lângă Odesa - Ziarul Bursa"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZ2txWndHcmFLOWNpWVZRMDFNYTJFVEFzOXU2c1loZWFxTVh1bm1lZU1GMGhrdHFzVUFLbnlaM3ZqMDR3RnI0YmtuWFdkTUZ5a2VJZkllc0Q2TW5HZTB4U0ZWM2lUSGVPWVBmeDFIRWRUX3J1dzdKVUttOWRaRGhWa2VuRWRudVd4c1BGd3Z3enRXVTdIMUpzWkVZV0ZnTVVmWTdvNnNKSmRySW9Ed3JlMHl2R2d4bGF5Sk9XRVhkcE8wWWxyZDRzY0130gHKAUFVX3lxTE9na3Fad0dyYUs5Y2lZVlEwMU1hMkVUQXM5dTZzWWhlYXFNWHVubWVlTUYwaGt0cXNVQUtueVozdmowNHdGcjRia25YV2RNRnlrZUlmSWVzRDZNbkdlMHhTRlYzaVRIZU9ZUGZ4MUhFZFRfcnV3N0pVS205ZFpEaFZrZW5FZG51V3hzUEZ3dnd6dFdVN0gxSnNaRVlXRmdNVWZZN282c0pKZHJJb0R3cmUweXZHZ3hsYXlKT1dFWGRwTzBZbHJkNHNjTXc?oc=5",
+        "source": "Українські Національні Новини (УНН)",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-04T05:58:07Z",
+        "title": "Russia reported strikes on energy facilities in the Kyiv and Zhytomyr regions and on a cargo ship near Odesa - Українські Національні Новини (УНН)"
+      },
+      {
+        "url": "https://t.me/mod_russia/68745",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-04T05:13:23+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORVJhZnlMVzlYUnl6clBMZnhRRTlLbkhLN3NQZ1RoMENOSWkyRWNUVWdNRDQwal9HOVNiTnNfTzBnUTVZOVNKVTI2Y09jRjhtUXdYVnUyUkJyTzhOT1dWXzE5MWhMRHlDMVBXQkRUVFdGaTRpM0J3TkVGelZuNldUMWVNc2xlVVlPeVNCMGxCZUtaaEhQNURRTzF5NEUxRVdKSnc?oc=5",
+        "source": "Van Olay",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-04T08:51:00Z",
+        "title": "Rusya'dan Ukrayna'ya İHA saldırısı: Enerji altyapısı ve mühimmat gemisi hedefte - Van Olay"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOGprRllRZ2liRTRzN2MxV1lpd0lYSW1Pc2didFUtREpKZ19nSEF3NTlDMjVkVWVBWjBBTi1ySTBmYVRXTjJJamtwbGtqN0JKZkVGUGMwbC1aWmNpbnAtS3I0QUt2Uy1YSk9rVGNNSVFpY0hrbDYyOEJRYjVuM2EzV1RaZEU1SVl6dDZNX1JiMmRyRW1Cb0ZNWXFKTy1OSU15dHdZcXdKRWF0cl9ZV1k0VW9CWWRScVIwNi13LUFhbGfSAcYBQVVfeXFMTXpmNF8zMVNVbjM3ZEtJSEpmMVhpd1RQZ0tXenR0dy1kLWFNdVRmMmFnRmdBQ1dvaDdpQUtnMVFMWlV5Z0xvY0o0WHZSLTZvVFVHUUhTVVBNSDRRLWZPd2xZRmtoMWdDMkdjbkxxeXBpQm53MGdNcGEyWFF4OGRDWXc5NElIbEZMdTlVbVZxbWduZXp4QlJnN1hPRTZza001RTFZc0FLT3YzUjlxdTBVWVNuWXdlYTRuQVEtQUdYdXlkZWNvRWdn?oc=5",
+        "source": "Mardin Life",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-04T07:03:05Z",
+        "title": "Rusya'dan Ukrayna'ya gece saldırısı: Enerji tesisleri ve mühimmat taşıyan gemi hedef alındı - Mardin Life"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNkJha0JqeC1qU0lfU3g0OGRwSUh3Y1RCZHo4YWNoVXl5b2JPUWRGSlp5bVNCSzZpUVR3Q1lCRkctTlRLT0N4WWVoMk5UTkJuRjNWd0tmSzA3d0huV1hjZ1lLbUNmMVBKVUNXZlE2QlN1QkNuci14cEdic3FxZ0t5RUEzNS1BUGs0T2RGVVJYSFE4dS1V?oc=5",
+        "source": "Denizcilik Haberleri",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-04T09:35:11Z",
+        "title": "Karadeniz'de Ticari Gemiye İHA Saldırısı: Bir Denizci Öldü - Denizcilik Haberleri"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQVNrU3lpa0ppcF8zaUNaWkFOdV9pMXcxSUpkbGFRdEF2cVdSZWpydzJtT0dqdVh6SzFWZ3dMQkRpSEVBRWlRTzd0R18yaU9iamlybUwzNDgtZzFZVVZnNnN5dWxUY3ptdnBfdW5BVVdHNE42elNVam8xM203QjF0eU93UkNHM1JJa1VnVlVBZTdkR1dIZ2ZEdlVMNzFEdVhHZTVNTkE0a0RUQUxZWHBkb2ZGVmJjLXY0VjNlc3lxYzM3N3M4bUFpeHdkb9IBygFBVV95cUxPZ2txWndHcmFLOWNpWVZRMDFNYTJFVEFzOXU2c1loZWFxTVh1bm1lZU1GMGhrdHFzVUFLbnlaM3ZqMDR3RnI0YmtuWFdkTUZ5a2VJZkllc0Q2TW5HZTB4U0ZWM2lUSGVPWVBmeDFIRWRUX3J1dzdKVUttOWRaRGhWa2VuRWRudVd4c1BGd3Z3enRXVTdIMUpzWkVZV0ZnTVVmWTdvNnNKSmRySW9Ed3JlMHl2R2d4bGF5Sk9XRVhkcE8wWWxyZDRzY013?oc=5",
+        "source": "Українські Національні Новини (УНН)",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-04T05:58:07Z",
+        "title": "Russia reported strikes on energy facilities in the Kyiv and Zhytomyr regions and on a cargo ship near Odesa - Українські Національні Новини (УНН)"
+      },
+      {
+        "url": "https://t.me/mod_russia/68766",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-04T18:31:25+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQnhCRGpHcThsQlAzNkxibG9EbkZhZnNudEpYY1Y2c0t3Qnk4eFVwZlNxMWtOVmJRSUpsdkdId3pMZzlPdmZsbEF0ZGlFdndSQlBURFZjb1NtdTJ4SUctNk54SG1pV1FVMnM2cV9mOXluV0ZyWENYWUNSVXc1cGVrc3JDZTZRNURlNDdyWjN3TVZuVEI3WWF6eXpOeURjSTByOUlhalIyelpfbi1mZy1rc09yZ2F3Z1E?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-04T17:54:04Z",
+        "title": "Russia claims string of strikes on dry-cargo ships off Ukraine - TradeWinds News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUGEwem8zWklCeGFYa1RCV1o4Ynd0NDRQSlNsUGg3M25XX0xVcXVhUmYzdHJhNENoNk81RmtseVRNQ1pBczlYU053RGFHWXJMR3lZNnNETG9zOGo2TlpXZkRsZGJWSkZvSkVXTVdNWnRXWVpWZE5vc3diLWgyZUhPeDVMNFU3Z2hXd284TEZ2bmp0NnpVQzBnM0hFZGNVaVY3VGJkcXZHSnlLTWJ1MDZGLXZrcF90V1JOeG5oY240SXdTZlNhQWfSAcYBQVVfeXFMUFBhMHpvM1pJQnhhWGtUQldaOGJ3dDQ0UEpTbFBoNzNuV19MVXF1YVJmM3RyYTRDaDZPNUZrbHlUTUNaQXM5WFNOd0RhR1lyTEd5WTZzRExvczhqNk5aV2ZEbGRiVkpGb0pFV01XTVp0V1laVmROb3N3Yi1oMmVIT3g1TDRVN2doV3dvOExGdm5qdDZ6VUMwZzNIRWRjVWlWN1RiZHF2R0p5S01idTA2Ri12a3BfdFdSTnhuaGNuNEl3U2ZTYUFn?oc=5",
+        "source": "Bursada Bugün",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-04T16:52:40Z",
+        "title": "Rusya'dan Odessa Limanı'na İHA saldırısı! Askeri yük taşıyan gemi hedef alındı - Bursada Bugün"
+      },
+      {
+        "url": "https://t.me/mod_russia/68760",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-04T14:33:36+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNanlZLWFRZHotcTFLOEVyaGJrVzRQWlU3bmk3dlFhVVZhelF0QTZ2Wkp0dDg3N19mM2NsZEVpVWYzaG03eEZUdTh4UFJ0SjE2TGdUcmowVjBSTWtGdUtncW41bEhZejNOYXh3WlUxY21OenpKemVnRGFEanprVHc0ZHdTQ2d5UDR5V0hnTGxCd2VJUGMwaVd1UC1GOERNaU1JMFZienpvdDl5MmFwR0E?oc=5",
+        "source": "Newsweek",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-04T16:57:00Z",
+        "title": "Russian Drones Sank Civilian Ship on NATO’s Black Sea Doorstep, Official Says - Newsweek"
+      },
+      {
+        "url": "https://t.me/astrapress/130079",
+        "source": "ASTRA",
+        "source_type": "telegram",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-03T06:55:25+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/68728",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-03T06:38:46+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/68725",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-03T05:16:51+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/68735",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-03T14:26:52+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQ3pRSHNseElTdzVXYjRWRXpMWkpDQTFXSk0wR2cySU11TnZOazhqQ1dBcTdIcG52NzlLdEhNdlRQa1dwcFpNN2Ftc2Z5eUVKSHFBc0JVSllSRm94UGdrMTBGcERZRkt6WUttcFlsZGp4aHVwVmc3RUhLVUk2ckhXbkV5bnROUUlfM0lNdW8yUFhDY2d4a0t1M1M5N2dhRndnQzRTd2ZLd2Z6cm1nXzNhMkV6MjRJdUpzSGRfYVN0OWY2Z1BCZm1aNU1TQmZkWE1j?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-03T20:56:47Z",
+        "title": "Russia claims attack on ship and Odesa port as US gears up to mediate peace talks - TradeWinds News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOYmR4TmlBOTB3ajlQcGZ6SnZxV3pvS19ocnFLTkVJWnRZaWIxYkFQMUZ0NzNaU3FlSl96TzFNcUVtUzM0a2VkVmlhbGM3X3Z0S3dVT1lQd0JaM01kZjhoYkowTk14S0MtNW5VMFREMEFla0pXbldaSDA2MFNQT1JPX2ExM3hTSndtOG54WE9aQ1pyN1hkSlY5MlczaGluemJuRkFPMnBTWFlTYWtRV2pUZ0VDWEpMMnloc08yN1o3Z2xuM2lEZG1qdlFwcV9fekh1MEw1RjA2NEFOT0V4bkxkT0JiMHBnOExLTFh2N0xpMXNnVGgwRUpTcWZB?oc=5",
+        "source": "Foreks.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T07:08:57Z",
+        "title": "Rusya'dan Odessa'ya gece saldırısı: Füze rampaları ve Karadeniz'deki gemi hedef alındı - Foreks.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeDVBZjlEZUJZcU9lOXBZeERxT0RxUVdWQXBnQ2IxcFRMWm1GZ1JEUk5TLW00Q3ZCMWVMZVhmbm1GZkhDYmc5SG9ubS01T0VHbG1weFk3NThuT0ZJOEtVS2tROWRNNTJnSU5ZdzduMnRBVmdoWW9rWXJsc25ySnp1TThFckg4Z0lPOUhJRzB6YVYzT251Vm9XVk9YS0ZrMU02enp0Tm1JRm53RU8yRmpGQlI5NmdVaXPSAbwBQVVfeXFMTTRRN3FqOTF1MWdacUM2OHFxYnhkRFFTSzJZWW1ESmtYYXNBb3hPa3VNanJaSTlHSmw5OWp3WF81c1FzWnZ5cXoxRjNBSXZqYlE1X2piT2ZwNE8yUF9GZ0ZYOThBQk1wWTZHV2pQczNUWjRUR0toYWszT2p4RkYxT05IRWJtd1VVbTF0SU5NOWl6clh4TkhpS1QteGlhbVZaamV5SURjVjRyU21La1FUOTJyZ1lKZHlvV2tjX3M?oc=5",
+        "source": "A News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T07:07:11Z",
+        "title": "Russia hits military facility in Ukraine's Odesa region, cargo vessel at sea - A News"
+      },
+      {
+        "url": "https://t.me/astrapress/129972",
+        "source": "ASTRA",
+        "source_type": "telegram",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-02T06:24:04+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMDVtU1hybHUzZFk3NEZhaV9CbUFteFozX1lRUVhJNTlMOEFTbU1xYUtDYThNcXR0ZTRtT1pLZWdzNHVLWmxTR0V4Sk1lb3JxR2p0dkpLZkx5SE5Edk01ZzlNNDBQNHdDeUU4THdlVWVXeTRHUUcwNl9KWVA0d3FnM2E5WEZhQl82WnVXc3pseXhTaEptV25mVWY0bw?oc=5",
+        "source": "Life.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T05:19:11Z",
+        "title": "Сухогруз со снабжением для ВСУ получил точный удар посреди Чёрного моря - Life.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTEFhT0RqZXBPUjRRTWpBZkZQV01DVTJhTUU0Vi12d0F0U3pVcmN6cXRsdDZWRXRKZ0FmZmUyb0hMVnczTWZaZmlmVlJxazczcVVZS21kemgyR2FBcUhYdmtXSVFVTjZOSWVDUVNrdEZCaVJocThwTVMwMUluTzAwUWRwSy1mazlpVEFVLUUzRFdtejZsTHFVM3oyVnJ3QQ?oc=5",
+        "source": "Breakingthenews.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T05:17:00Z",
+        "title": "Russia says drone strikes hit Ukrainian cargo vessel - Breakingthenews.net"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNLVlBb05XdzJhbjlrbl9KTmRjRERyVUJTRS10MExuVTBpSk1VR19NaUxGS0ZScm1odGtDZk05ak5tNFlmZXZmOFVuMjdBNWFwZ01XTFkzN2lSamFFREc5SjJpeWFqVDFqZHBTREVtcGZjc2ROZHNNRFUtR0VCZnUxTjlDd1lyVHZPVlAzRmF5TmtqQWZQeVFIUy1jRFVRa0V2TGs3TXNydkpkZ1BNMF8temZEUW1aLWxZbTg2UWZUWGllQ0VYMURYdVZLSFJjbnhLbWNF0gHTAUFVX3lxTE0tWUFvTld3MmFuOWtuX0pOZGNERHJVQlNFLXQwTG5VMGlKTVVHX01pTEZLRlJybWh0a0NmTTlqTm00WWZldmY4VW4yN0E1YXBnTVdMWTM3aVJqYUVERzlKMml5YWpUMWpkcFNERW1wZmNzZE5kc01EVS1HRUJmdTFOOUN3WXJUdk9WUDNGYXlOa2pBZlB5UUhTLWNEVVFrRXZMazdNc3J2SmRnUE0wXy16ZkRRbVotbFltODZRZlRYaWVDRVgxRFh1VktIUmNueEttY0U?oc=5",
+        "source": "Devdiscourse",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T05:04:59Z",
+        "title": "Russia hits military facility in Ukraine's Odesa region, cargo vessel at sea - Devdiscourse"
+      },
+      {
+        "url": "https://t.me/rian_ru/349058",
+        "source": "RIA Novosti",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-11-02T04:54:24+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQczJ5WHpWRUhlT3owd0lHZkxMczFQWnN2ZHhkSWd5bTdtNFZpVGJnVmVmcGpOZWNkSUJUQW11ZXpLc0Yxa1Y0QXNGakQ5MjRiWS02MVlFRkNsWmhoSzZtbnIzM1VuVXZyRGNRSl9YMVU3R3JoVDU2eHc1SVNGTlZSUmFLR2hKNnpOY3VNTzNGZ3ZhZDJwdWN2TmR4RmI3MUMxaHlJSHFwTXRWbmRxbHRRNlBR?oc=5",
+        "source": "Fakti.bg",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T04:54:00Z",
+        "title": "Russia reports strike on ship near Odessa and Neptune missile complex site ᐉ News from Fakti.bg - World - Fakti.bg"
+      },
+      {
+        "url": "https://t.me/mod_russia/68705",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-02T04:52:16+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdEZmRGFvX29hV0pBWV9KMWkzVGdIeE15UTFEY2hMbC16TC12S1BBOVNWenlfcDFNaGVOcDE3V3Y3YkhmV2kxYXRZZkszSFdaUUdnLXFUTS1lbFNaQzlaVWZnNEdLNDhicFJTNVF5U3Y0dGptZ1pZb3lnbm15ZUxETVZ6RDhOZw?oc=5",
+        "source": "safety4sea",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T11:44:27Z",
+        "title": "Russian forces reportedly strike cargo vessel off Odesa - safety4sea"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWVBJZUt3Mm9XZVVxU25rMFRqWFpwcTM3RWhCRXBNOFpCb3U3RnBabW9zWVY1dkZReXlzYTdMbXIycS0zVS14Vm9LR0J1Xzc2YWJXTVUycGxNWnI5NW1Mdi02czNRcjlfdHA2QzN5cUdPeGVfVkhINzA5VGdtODRMalplQ3lqT1JkaDRTNmxTNTNkamQ4S3YzQkdhUTdoUFExM2NJeG5vVUlRR1M4Qm9TTnJuOA?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-02T11:09:18Z",
+        "title": "Bulker hit in Russian attack on Ukrainian military cargo trade - TradeWinds News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQVzJiamVHOEVjX3Y3bUE0c05FMk9QV0VLSWRKeHV2UUtEYmhHOEM4VnVOMEF2T0FQZEIxdUdPSnU4WjJOLTZ2QjUyVmdtV3dsUU9ma2tFdW5IbnAwaHZDYlBxb1BzcEFuN0xneHhSaFR6Y1BHOHc4R0VLV2pSd1RrMUM5a2NVZFg1R1pHV1huaWtjWERmdWlqdTk0emtHRWZ5LTNtVDcyRnRmcnBOeEp6VFNtQ3pONU54YUxERXc3N05tVVR0aC1mVW14QTR5OXY0bDE2bnhSdnZvU3VkZXpDSVJnVnkzdGdiZUxjb3NDcF9uYzZ6aEVhVmtLaFNNSEpCZ051QVFMRdIBjAJBVV95cUxOWDUzblRNU2tEUktFTzhnZEstS2JQcDhodndxUFF4Rmk5dklBTmJTbWlPZmJXdGpQYVB5OWE4ZlBmMHM2Sk5BanM4bEVKXzJLU2N3S3F4VnY3UFZtOWREeVhEYUhUZWgzdkE0dlZzWkNBZUR1YmlvNEVuODJVMUNCdWJ1NDhDQzQ2aHV2Y2V2LUpzZ1FSQlFqZ045RXg4X0FENE5tQW53bXpKa0E0TU96X0NEbTU3UmljWFlnUkUxbFpDQWRiOENqRk9GbXlTQ2lGeVJLTGNKU3BtVmlSNlk0ZDl5VmNyaHQwVnMyVU0xSDZmVG9EaUtreDJnN0FLbFVpWWlZTmstYURDeFZM?oc=5",
+        "source": "The Times of India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-03T01:00:00Z",
+        "title": "Russia Claims Strike On Ukraine's Neptune Missile Depot Near Odessa, Military Cargo Ship Also Hit - The Times of India"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMXlnSWhBa3VtRWk5QzVFb1Y3RWo3RXJETVVXMlpBYk5WTmpIRmVEUUpmX2lMeUNxTVY4MG9qMjZxMTNwcDk4cW9aT0ZvUndMd1A2OFZCVldHUjRyS3p6Vkt1alZrdEUzUk81QXZhcm1pcUtVdTIyRHhkeFFSQ2E3b3FWbWl4NmlORjZoN3pQaTFiQVFrSVByZFhkSk43TWFOSlIzZWQwVW4wSHkwUmg0WTg2LXpXRV9wVVJndC1fUmJESFFjbkVteFdJTQ?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-04T05:32:45Z",
+        "title": "ВС РФ ударили по двум судам с грузом для ВСУ в порту Южный и в акватории Черного моря - prospect.com.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMDJFTHN4eVliZXM3emlrR3Q0ejhUQnFKS3hMOXQ3aEVPdTdIRkx3cWpySUM5WmJvLWl0STZ5emhvb3B2QlFvQUNpSm1qOGVyTDlqWkQwSGJHMXQ5YWFmVnRyYmFFb1RvTE1kNXlDb2MwTzRnVkRJWTBaYXhSbzJnemp5Z0V3bkxQZG1TcEtXTlFnd2NOaWxQWUV1TEkxREROc1A0QUNrMlFTUXI3R2c?oc=5",
+        "source": "QHA - Kırım Haber Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-03T08:12:19Z",
+        "title": "Rus saldırıları Karadeniz'i kana buluyor: Ticari gemiler ateş altında - QHA - Kırım Haber Ajansı"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNajJNN3VlMWJ0T0xKRTZKZEE3N1NHUHNTbHR2T09HWlVBQ2tLOU42bkZBMGl1UUV4dkxNVWxlMFpYRkVUZ3B2V1RzeTFvdGFKWm5KVVFVODd1VU0tZzR2aGJtekVHQjA0T09MWGhrcjJYRm44c2J1QWdIUUxhVGx3R0xYZGNRbHJuQXo0UnNXZEdlTmpmVHpQazZkYWU0WnJrN3ItcEJmdGpNcWJf?oc=5",
+        "source": "Operativ Məlumat Mərkəzi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-03T05:05:34Z",
+        "title": "Russian drone attacks make Black Sea increasingly dangerous for shipping - Operativ Məlumat Mərkəzi"
+      },
+      {
+        "url": "https://www.interfax.ru/russia/1126717",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-05T04:34:23Z",
+        "title": null
+      },
+      {
+        "url": "https://ambrey.com/operations/event/war-risk-physical-damage-11/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-05T04:34:23Z",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/68771",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-05T04:56:34+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/rian_ru/349213",
+        "source": "RIA Novosti",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-11-05T04:55:48+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixwNBVV95cUxOUTBmVlA5X1dSY3dJODdqbUZQU1NKWTM3UGlDOFdVTTR6WThZUFVWSTZwUERKRndIVVR3RFVuOG1XRkwtZkdiOWR6bmtKYk1BalVKSkRJNXRJajFOSC1LU0JhMWt1Z3IxTGFUNWkySWpadXoyeFo1RFFCX1FPVUN2NGtQejRjZXpOUjZqdHJtU1BZMVJ3bGxhN0ttTW5HazZrTkNEa1NaQWJIb2tSQWt0ZUpKbHhXZmFrdHRuVkg2LWtYdUljaEpyUlZuUWlhZm90QVN2ZTBzNzZjMFFuUzJrdDRkMWwxV2lqcW8xN3VKeVVobG9rR1dTMlpfYkR3em4taVl5VERRelhxbEZDYzRFanNQWmg0OF9xRmpwbncwcGhOdzdGbncydlI4eXhpNnNWc1E2a0JiaUNFUVc5REY3LWhmeDBQVlJCZl95R3laZnY1TjdTeXhFWUhQUWNEOUtOenk5cmRaU0NnZnhHcjZJaGhkbW02TnRvaW9KR0JzTVFXeFNoMEE4SzloWmEtNmVrZndjZmZaZzljY1BuZkhVRVpPeDRnbFk1QzZzRldFamZSTGNESzdXWGczNVlQeENnWXpWRHU5dw?oc=5",
+        "source": "نيو ترك بوست",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-05T12:27:24Z",
+        "title": "روسيا تعلن استهداف سفينة شحن في ميناء أوديسا الأوكراني - نيو ترك بوست"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE85dlhpckxYUTdfR1JDZF9uVVlrQzE0cVI0MjRWYTNjYnBmVEFjRlJkVW51anFmTlRwdngwUEF1dk9qZUhVeHFWYUZsNEltdW1CNkNMZE9aV0pYc3FrNGZCY2daRjBZY2FZUTM4bA?oc=5",
+        "source": "Medianews.az",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-05T11:14:31Z",
+        "title": "Russia in the port of Odessa hit the ship - Medianews.az"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPR2hVb2JpTzJSeTNndmFNYTNhUXdXOXc5SzFCM1RpOU1Wb2tQcW9iNXNvOWF2c2l5dTdvX1BnWmQyTFU5LUs2VkU2dVZrc3VBbldSU2lQMDZjaHpiWlVTQWlacEZIY2FDSVlRWXh0MDVKQ1JfeVlOb0lXMmM3eWtmUm9vMWRqYkxfSFhHR1R3T0doSkp0OHZHMlJRRU55MzFnSFp2RmFBNUpZY3MwZGlWMy1ZX05Qd9IBuwFBVV95cUxNQWRLSkJmS2VhN2E1ZEV6RjN5ajJvU3dvdndKcDdzOXdBZnVTN09UalJLMVdoQ1hsYUx1M3cxREZqM19rOHozdE9nR3BtN19LemFGd1R3eVJQOFVtWFlkZlUzaDBVQ2ZjUnVQMFVqU25JZ21VaGF4MGFIZ1p0NkNmR25CSHBZLWhQSEV4SV80eENCNktTcmdSUFVLMlg5dmRhSG1lTkJtY1FVcEJzUG5zQzMzTnZDNS12Uy1Z?oc=5",
+        "source": "Al Jazeera",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-05T09:18:39Z",
+        "title": "Russia says Ukrainian postal hub, ship hit; Kyiv strikes Ryazan refinery - Al Jazeera"
+      },
+      {
+        "url": "https://t.me/mod_russia/68787",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-05T18:37:09+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTmd3Xy1iR1dBQm5VODhOVnNmNkZkcW9qVWxCLXRVcUVCV2Fpel9rUk9BYUF4WTNXeTFvT0otYmxTcUZBQW1Qd2FGbUpVSVVod3RSeW1oYzJOczNXb2swSjFha3ZOcVZvSmFQaDFDQjRiTjY2YlZZbDVwZ1VFMF9zRkxCaFlwUDcxX2ZyNTFXRXVnUGg1Y3BYZg?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-05T17:23:34Z",
+        "title": "Российские войска атаковали сухогруз в Черном море - prospect.com.ru"
       }
     ],
     "first_seen": "2026-11-05T15:46:20Z",
-    "last_updated": "2026-11-05T15:46:20Z",
+    "last_updated": "2026-11-05T22:14:25Z",
     "verification_issue": 340,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "reported",
+    "position_approx": true,
+    "date_approx": false
   },
   {
     "region": "Persian Gulf",
@@ -599,6 +987,97 @@
     "position_approx": true
   },
   {
+    "region": "Black Sea",
+    "date_utc": "2026-11-05",
+    "summary": "Russia's defence ministry said its forces struck energy facilities, logistics centres and sea vessels used in the interests of Ukraine's armed forces. No vessel name, flag, position, weapon type, damage or casualty details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.4,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea (location not specified)",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry claimed it struck sea vessels used in the interests of Ukraine's armed forces",
+    "independent_evidence": false,
+    "id": "INC-20261105-010",
+    "sources": [
+      {
+        "url": "https://t.me/mod_russia/68787",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-05T18:37:09+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTmd3Xy1iR1dBQm5VODhOVnNmNkZkcW9qVWxCLXRVcUVCV2Fpel9rUk9BYUF4WTNXeTFvT0otYmxTcUZBQW1Qd2FGbUpVSVVod3RSeW1oYzJOczNXb2swSjFha3ZOcVZvSmFQaDFDQjRiTjY2YlZZbDVwZ1VFMF9zRkxCaFlwUDcxX2ZyNTFXRXVnUGg1Y3BYZg?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-05T17:23:34Z",
+        "title": "Российские войска атаковали сухогруз в Черном море - prospect.com.ru"
+      }
+    ],
+    "first_seen": "2026-11-05T22:14:15Z",
+    "last_updated": "2026-11-05T22:14:25Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261105-005",
+    "position_approx": true
+  },
+  {
+    "region": "Persian Gulf",
+    "date_utc": "2026-11-05",
+    "summary": "A Lloyd's List headline reports that a seafarer was killed in a tanker attack that underscores a widening threat in the Middle East Gulf. No vessel name, flag, position, weapon type or attacker is given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.8,
+    "lon": 52.5,
+    "location_text": "Middle East Gulf (location not specified)",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": "one seafarer killed",
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261105-011",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeXNlaVh6NGpBM1FLbXFTOEt6ejZZTVVIZkk4b3hBQ2hiVGNpVC1lbzVBbG5ibU1KNTJuQzA5RTFVa2NyZ1RjS1czbERKdVJ6RHJPdXZ5X2NTaGxJWjM5MDdUT3o3c3gybjFpQUtpajd0dGJqdmljYWV1Ukg5RENtbzFaRkdha1dvYVg5cndsZ0NsMnZlb1pJT08xRGp4cWR6SFlybXpleFV5eG9WLXd5ck5wRTM?oc=5",
+        "source": "Lloyd's List",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-05T17:23:26Z",
+        "title": "Seafarer killed as tanker attack underscores widening Middle East Gulf threat - Lloyd's List"
+      }
+    ],
+    "first_seen": "2026-11-05T22:14:15Z",
+    "last_updated": "2026-11-05T22:14:24Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261104-012",
+    "position_approx": true
+  },
+  {
     "region": "Strait of Hormuz",
     "date_utc": "2026-11-04T20:12:43Z",
     "summary": "Kuwait condemned an attack on a Qatari tanker, according to a headline. No date, position, weapon type, damage or casualty details are given.",
@@ -641,12 +1120,13 @@
       }
     ],
     "first_seen": "2026-11-05T00:30:37Z",
-    "last_updated": "2026-11-05T00:30:43Z",
+    "last_updated": "2026-11-05T22:14:25Z",
     "verification_issue": 335,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261104-012"
   },
   {
     "region": "Black Sea",
@@ -783,15 +1263,15 @@
   },
   {
     "region": "Persian Gulf",
-    "date_utc": "2026-11-04T00:00:00Z",
+    "date_utc": "2026-11-04",
     "summary": "The IMO lists VELOS SAPPHIRE (IMO 9321201) as hit at 50NM north of Madinat ash Shamal, Qatar on 4 November 2026. Damaged. No pollution. One seafarer missing.",
     "official_source_cited": "IMO confirmed incidents list",
     "conflicting": false,
     "confidence": 1.0,
     "vessel_name": "VELOS SAPPHIRE",
     "imo": "9321201",
-    "flag": null,
-    "vessel_type": null,
+    "flag": "Qatar",
+    "vessel_type": "tanker",
     "vessel_category": "merchant",
     "lat": 26.0,
     "lon": 51.9,
@@ -1027,15 +1507,124 @@
         "kind": "media",
         "published_at": "2026-11-05T08:27:29Z",
         "title": "Tanker struck by two unidentified projectiles north of Qatar, crew status unconfirmed, UKMTO says - Devdiscourse"
+      },
+      {
+        "url": "https://www.hellenicshippingnews.com/iran-says-five-tankers-and-tugboat-caught-fire-in-hormuz/",
+        "source": "Hellenic Shipping News",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-05T22:00:55Z",
+        "title": "Iran says five tankers and tugboat caught fire in Hormuz"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSndUR0pGRi1MMEthNENuNFlReHRUcGJUVjdxMm9mbEp0bnVncHFlX0ZyMTVXUkR0Ql9CR2lLRElpcnRvQU5mUVFuT2oyakMxaEdGeHZqMnd5dTJyN3hhaFoyX1Z6NS03eUpMTmlCSFd2NktOeU43b0hhRXFKY0tqWHhKYW9FRzNibFFTVHdjSGFTVDhzMnZwak1MMGhTY1N0X3hCZkV30gGrAUFVX3lxTE5jd3JPYU1KcGFXeEJsc0VoM1FsaklHcnVnMkkwTmpZbkNNM2owMDlIOFViMmxWaTlwSzFSX0lqd2FCTWhNejlPeWE1QWxpcFEtbHZ5eklHbXJhTW0yWWlwQ05PeU04OVFLamJvcjBvUHI4ZW9INDFILXVGUHZFQmUwd3hVeW1NUFVmdVZTMGJMSUJfeEtFZS16bTI1SkhKZ3pIVzZaWWd0VG13aw?oc=5",
+        "source": "Al Jazeera",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-05T19:21:56Z",
+        "title": "Iran says tankers struck in Hormuz amid fears of new US attack - Al Jazeera"
+      },
+      {
+        "url": "https://www.seatrade-maritime.com/security/us-sanctioned-ships-dropped-from-iran-s-pgsa-blacklist",
+        "source": "Seatrade Maritime",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-05T19:07:23Z",
+        "title": "US-sanctioned ships dropped from Iran's PGSA blacklist"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbmp2bGpCQ09lNTdDdTFxRzZSakgya1VwZXV0b1kteldjNVVlWUZiQkRnNm02Qk1UaUJJUk5WN0RXMWdXOWVFRWZzTkdiVm1vTmdTeWxSc1lCN0VIby10RDNXVTdHeERjVVIyWWNOU0NWUzIwUFBmUTJOOHJwNzdTUFB3?oc=5",
+        "source": "beninwebtv.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-05T16:29:00Z",
+        "title": "Qatar: a tanker hit by two projectiles in the Gulf - beninwebtv.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9qX05XNk1OczExTG9TYTFKVUh6VXFfM0JpVkRsNkp0Yy1NbnpBV21ieVRjU0ptUVowYzdNY1drWnItNjJCR1U2d3F4V1o4dUx0MkZqc2d1NThmOHljWjNIU01JZ0tKZ1pYNFNfdmJpajk?oc=5",
+        "source": "Inspenet",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-05T13:29:11Z",
+        "title": "Tanker ship hit by two projectiles in Qatar - Inspenet"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBhd3lQUFdmdWZvWUEtSUp0SURRbWVMR0R3eGt2NFA5amdvWHFBU3hGclRyOWZCTzB1U1lxSXBSbnlQaThMcWFPNkJtaEpGaExy?oc=5",
+        "source": "باسنیوز",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-05T13:15:00Z",
+        "title": "Iran Reports Three Vessels on Fire in Strait of Hormuz - باسنیوز"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYkZkZ3BMTmt0TEpXZVNPOE1QZG5DZEJnVHBKS19kZzFSRnM4UWlfamN2VTVmTXNjNXpRcTE4elRkRzkxRnMxTll0YUNlZXpuREVrLU44SnZYNFd3VzRtaFV4UHY3SkRybTJ0OGRTNXlVbXFScGJ5bVZnNVdnWUIxTE5uVHNSMHZtcEdtWVdUMXNZQQ?oc=5",
+        "source": "Yahoo",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-05T10:02:33Z",
+        "title": "Iran live updates: Tanker attacked off coast of Qatar, UKMTO says - Yahoo"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOFdLRjZjcGJMUUk3YnJlYW11aFhYT1VEdVhRLUM0WnVoTmtBRnM4dlo0WkYtSDlyejl3bzVGREwyR0FoMzROc2ZXcTYxRnRlbVNKNS1DWVhOb0dRMUs4QldFcjV1Q3luZXNaejF1Smw5UDV0Y2hpQm1rZTE3c0Vrcld2YVRGLWVfcGhTVnZhdGx1SHN5NkVXeEgzOVpCc1FkZlVLYlpmYTUwUUJLaVdjeEk4S2JnMXp2eXhXUXB6aTdrTEVFTThNRQ?oc=5",
+        "source": "News4JAX",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-05T10:01:00Z",
+        "title": "Tanker struck by projectiles in the Persian Gulf off Qatar, and other Mideast news - News4JAX"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMDdkWjVqVXpPUUlmamJTNjdqMGpiS0dFUkI3eTA5akhzT0NscnFzcmJsLTExb0RtY1ZnMm1jbXV0RDFQcDJJcmlwbHpXUWlMbS02T19yWnFTWEo0aHo4Xy1vU2luMWtNaVB3Yi04U0lwZmxzTHQwXzZsVDFnRkVVQTJMampVSEJpQklRTlQ5bmIwWTEzcXlRRE13ZUpDVDA?oc=5",
+        "source": "srpske.rs",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-05T09:51:00Z",
+        "title": "Hormuz Strait: Tanker Fires and Missile Strike Off Qatar - srpske.rs"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeXNlaVh6NGpBM1FLbXFTOEt6ejZZTVVIZkk4b3hBQ2hiVGNpVC1lbzVBbG5ibU1KNTJuQzA5RTFVa2NyZ1RjS1czbERKdVJ6RHJPdXZ5X2NTaGxJWjM5MDdUT3o3c3gybjFpQUtpajd0dGJqdmljYWV1Ukg5RENtbzFaRkdha1dvYVg5cndsZ0NsMnZlb1pJT08xRGp4cWR6SFlybXpleFV5eG9WLXd5ck5wRTM?oc=5",
+        "source": "Lloyd's List",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-05T17:23:26Z",
+        "title": "Seafarer killed as tanker attack underscores widening Middle East Gulf threat - Lloyd's List"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTmZERkRqa1J3VFhDMFNUVmpxUXJ5VlFubmh6NlRPbURTNDFBdkRGSXRXUER4X2t6bm5MMk94clQ1Vzl4T2NLdTlDbUlXWVZZbEphcEZBc0RRRGZEMVJ6UHZKZjk2OE1RZU1UVUJVaGhsSE9FQ1JhMkk4V3hwRU9nekFKdnBzSXBZQjYyWnJ5YzlPMmx3bThJbjFtbEZyVGp4YW5HUFJkVGpieGNjU1VnRG9PT002cHdfdkpmc2tR0gHDAUFVX3lxTFBjUUhCbTVIYnJ3R3ZvRXl5dWhvYlAyOUxQTEVqVk1KX0NxdFU0RkNrMDNGX0hSazU4UW9Qc2w1b0lKdkFiREpQYnY3UVRrdmJmN1FJbUZvUE5ndXRHZkxFbDFXeXZBZnhMYTZuS29fR3NrSFUzYUdmeDdKWkgyNGVlTHRaSjNGN1Y2S3dSRmJIbHhITHJPcDRRSTUxX1RSTjRDQmlEcWtJUTRxamR6NjhaV3BJdHIxN1l6ZXFMNGtQclM4aw?oc=5",
+        "source": "Madhyamam",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-04T20:12:43Z",
+        "title": "Kuwait condemns Qatari tanker attack - Madhyamam"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMWlfc1J3YURkWDBMc3pCdFZpRW5BekhoYTZPMWpBQTVleVZINm1Zd08wWi1CMEVxak9oZDYwVEd1dmQ2azZpSXdVTHdBUmtOdnc4U3kyaEhzLWVzbU0wSzA0UU9OMVR3MW85ck1aVmt5R1l1QjBFYlhyYzBNV2xQcGo2UGNodDZLOUlQaS12eEhHU0ZTR2pTYUZ1ZDdKMF9PZnBPZm10d092ZTQ5eWFOUtIBtAFBVV95cUxOdUJyMWFSQ1NWXzVqcVB3aTgxRkdOUEpSQlpic3ZhTFpmX1M0bXM3QW9lRGhqWWdXd09ibGhHUk1JUU93WUdUeVEtaWJfaE1xak0xTEx1ZDlFQUNoN1hfbUZhcnFma2RGeTRyVnJGVzhDWG5RSkpHV1l1SjJwcGRQMnZLU0N5NjExMUJXS00ydS1rSjN4V0VtUXZsQ21FTE9QT2lJTmNQVXlwWmZMUHF6NWw0WDA?oc=5",
+        "source": "Kuwait Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-03T21:24:48Z",
+        "title": "Cabinet condemns attack on Qatar’s LNG tanker, approves housing law - Kuwait Times"
       }
     ],
     "first_seen": "2026-11-05T15:46:52Z",
-    "last_updated": "2026-11-05T15:46:52Z",
+    "last_updated": "2026-11-05T22:14:25Z",
     "verification_issue": null,
     "verdict": null,
     "published_in": [],
     "status": "confirmed",
-    "position_approx": true
+    "position_approx": true,
+    "date_approx": false
   },
   {
     "region": "Black Sea",
@@ -1521,13 +2110,14 @@
       }
     ],
     "first_seen": "2026-11-04T11:30:01Z",
-    "last_updated": "2026-11-05T15:46:54Z",
+    "last_updated": "2026-11-05T22:14:25Z",
     "verification_issue": 332,
     "verdict": null,
     "published_in": [],
-    "status": "reported",
+    "status": "merged",
     "date_approx": false,
-    "position_approx": true
+    "position_approx": true,
+    "merged_into": "INC-20261105-005"
   },
   {
     "region": "Strait of Hormuz",
@@ -1781,7 +2371,7 @@
       }
     ],
     "first_seen": "2026-11-05T07:17:53Z",
-    "last_updated": "2026-11-05T07:17:53Z",
+    "last_updated": "2026-11-05T22:14:25Z",
     "verification_issue": 339,
     "verdict": null,
     "published_in": [],
@@ -2679,10 +3269,19 @@
         "kind": "media",
         "published_at": "2026-11-03T21:20:00Z",
         "title": "UK reports vessel struck by 2 projectiles off Oman - Breakingthenews.net"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORjlhUFA0M0tJUVBpbnNmT3dFZTZSYk5pcUlyVm43TDBscm9LcTFjOUFwQXkxNnk4SDVJdVNPcXJ3c0ZuV1ZSa1FfdFpLRVhlbXpwN2w3RTU0d2J3OVFqUjhJX2c5QVNHU1BCeFRnbjhHSklNX25zTU5vV3k2V2hGeHZ2SGNfdU1hdkdOeUhrdG5JMTV6VGc?oc=5",
+        "source": "Azərtac",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-04T07:09:00Z",
+        "title": "Tanker hit by 2 projectiles off Oman: UK maritime agency - Azərtac"
       }
     ],
     "first_seen": "2026-11-03T10:00:26Z",
-    "last_updated": "2026-11-05T15:46:51Z",
+    "last_updated": "2026-11-05T22:14:24Z",
     "verification_issue": 327,
     "verdict": {
       "status": "confirmed",
@@ -9319,10 +9918,19 @@
         "kind": "media",
         "published_at": "2026-11-04T09:34:18Z",
         "title": "Tanker struck near Oman as Iran claims four vessels destroyed by naval mines - safety4sea"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTmFpNjhCNFFMbXU3Y2VrUUFFNlh1Q2M3TW5HeE5lSkVOOWxtbEhSNC02MXhoSGlubjBLX0NkekRsbmpha1lNNldVdEd6cTlTN21TZ0ZUTnJnS2lIcE1WaU1QMlZmQlZEejlOS2JqUXIxOFNKQ0dQQUxXSmo5dzFGdjhR?oc=5",
+        "source": "Latest news from Azerbaijan",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-05T19:59:04Z",
+        "title": "Iran says five tankers hit by mines in Strait of Hormuz - Latest news from Azerbaijan"
       }
     ],
     "first_seen": "2026-10-30T21:41:31Z",
-    "last_updated": "2026-11-05T15:46:51Z",
+    "last_updated": "2026-11-05T22:14:12Z",
     "verification_issue": 298,
     "verdict": {
       "status": "confirmed",
