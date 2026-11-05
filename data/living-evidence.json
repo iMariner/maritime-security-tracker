@@ -18426,6 +18426,90 @@
           ]
         }
       ]
+    },
+    "INC-20261006-011": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.bta.bg/en/news/bulgaria/1218986-drone-attack-on-two-merchant-ships-in-bulgarias-exclusive-economic-zone-prompts",
+            "source": "Bulgarian News Agency (BTA) wrap-up, 6 October 2026"
+          },
+          {
+            "url": "https://www.mtc.government.bg/bg/category/1/korabt-able-napusna-blgarskata-izklyuchitelna-ikonomicheska-zona",
+            "source": "Bulgarian Ministry of Transport and Communications, 14 October 2026"
+          }
+        ]
+      },
+      "human_impact": {
+        "injured": {
+          "count": 2,
+          "as_of": "2026-10-06",
+          "sources": [
+            {
+              "url": "https://www.bta.bg/en/news/bulgaria/1218740-all-rescued-sailors-from-drone-attacked-merchant-ship-arrive-in-varna",
+              "source": "Bulgarian News Agency (BTA), 6 October 2026, rescued crew in Varna"
+            }
+          ]
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-05T14:55:00Z",
+        "vessel_name": "ABLE",
+        "date_utc": "2026-10-06",
+        "vessel_type": "General cargo ship",
+        "region": "Black Sea",
+        "location_text": "About 70 nautical miles east of Byala, Bulgaria, in the exclusive economic zone",
+        "imo": "9001136",
+        "attack_type": "drone (UAV)",
+        "summary": "The Palau flagged general cargo ship Able (IMO 9001136) was struck by a drone in the early hours of 6 October 2026 about 70 nautical miles east of Byala in Bulgaria's exclusive economic zone and caught fire. All 18 crew abandoned ship and were rescued by the Bulgarian ferry Dioscuria and other vessels; two of them were seriously injured, one with a head injury and one with burns, and the survivors were taken to Varna. Bulgaria's prime minister said on 6 October that the ship carried wheat, while the transport ministry recorded on 14 October that she carried 5,985 tonnes of barley from Romania to Turkey.",
+        "date_note": "Bulgarian government statements of 6 October 2026 describe the strike as early on Tuesday 6 October, so a day precision date is used.",
+        "sources": [
+          {
+            "url": "https://www.bta.bg/en/news/bulgaria/1218507-two-merchant-ships-attacked-by-sea-and-aerial-drones-in-bulgaria-s-exclusive-economic-zone",
+            "source": "Bulgarian News Agency (BTA), 6 October 2026"
+          },
+          {
+            "url": "https://www.bta.bg/en/news/bulgaria/1218986-drone-attack-on-two-merchant-ships-in-bulgarias-exclusive-economic-zone-prompts",
+            "source": "Bulgarian News Agency (BTA) wrap-up, 6 October 2026"
+          },
+          {
+            "url": "https://www.bta.bg/en/news/bulgaria/1218740-all-rescued-sailors-from-drone-attacked-merchant-ship-arrive-in-varna",
+            "source": "Bulgarian News Agency (BTA), 6 October 2026, rescued crew in Varna"
+          },
+          {
+            "url": "https://www.mtc.government.bg/bg/category/1/korabt-able-napusna-blgarskata-izklyuchitelna-ikonomicheska-zona",
+            "source": "Bulgarian Ministry of Transport and Communications, 14 October 2026"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-05T14:55:00Z",
+          "text": "First reviewed identity for this row. Bulgaria's prime minister and the transport ministry name the Palau flagged general cargo ship Able, IMO 9001136, as the second of two ships struck by drones about 70 nautical miles east of Byala on 6 October 2026. All 18 crew were rescued by the ferry Dioscuria and other vessels and taken to Varna, so the record is confirmed at no deaths, with two seriously injured, one with a head injury and one with burns. The nationality split is not recorded as a count because Bulgarian statements conflict: the prime minister put the crew at 11 Turkish and 7 Indian, while the Border Police commander who brought 16 survivors to Varna said 10 were Turkish and 6 Indian, the two seriously injured having been taken separately. The cargo is also stated two ways, wheat on 6 October and 5,985 tonnes of barley from Romania to Turkey on 14 October.",
+          "sources": [
+            {
+              "url": "https://www.bta.bg/en/news/bulgaria/1218507-two-merchant-ships-attacked-by-sea-and-aerial-drones-in-bulgaria-s-exclusive-economic-zone",
+              "source": "Bulgarian News Agency (BTA), 6 October 2026"
+            },
+            {
+              "url": "https://www.bta.bg/en/news/bulgaria/1218986-drone-attack-on-two-merchant-ships-in-bulgarias-exclusive-economic-zone-prompts",
+              "source": "Bulgarian News Agency (BTA) wrap-up, 6 October 2026"
+            },
+            {
+              "url": "https://www.bta.bg/en/news/bulgaria/1218740-all-rescued-sailors-from-drone-attacked-merchant-ship-arrive-in-varna",
+              "source": "Bulgarian News Agency (BTA), 6 October 2026, rescued crew in Varna"
+            },
+            {
+              "url": "https://www.mtc.government.bg/bg/category/1/korabt-able-napusna-blgarskata-izklyuchitelna-ikonomicheska-zona",
+              "source": "Bulgarian Ministry of Transport and Communications, 14 October 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -33393,6 +33477,97 @@
             {
               "url": "https://aljazeera.com/news/2026/10/8/syria-calls-for-independent-probe-into-sinking-of-ship-in-black-sea",
               "source": "Al Jazeera, 8 October 2026: Syria seeks an independent investigation with 10 crew unaccounted for"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6660606497,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6660606497",
+      "author": "iMariner",
+      "received_at": "2026-11-05T14:32:41Z",
+      "incident_id": "INC-20261006-011",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261006-011",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-05T14:55:00Z",
+          "vessel_name": "ABLE",
+          "date_utc": "2026-10-06",
+          "vessel_type": "General cargo ship",
+          "region": "Black Sea",
+          "location_text": "About 70 nautical miles east of Byala, Bulgaria, in the exclusive economic zone",
+          "imo": "9001136",
+          "attack_type": "drone (UAV)",
+          "summary": "The Palau flagged general cargo ship Able (IMO 9001136) was struck by a drone in the early hours of 6 October 2026 about 70 nautical miles east of Byala in Bulgaria's exclusive economic zone and caught fire. All 18 crew abandoned ship and were rescued by the Bulgarian ferry Dioscuria and other vessels; two of them were seriously injured, one with a head injury and one with burns, and the survivors were taken to Varna. Bulgaria's prime minister said on 6 October that the ship carried wheat, while the transport ministry recorded on 14 October that she carried 5,985 tonnes of barley from Romania to Turkey.",
+          "date_note": "Bulgarian government statements of 6 October 2026 describe the strike as early on Tuesday 6 October, so a day precision date is used.",
+          "sources": [
+            {
+              "url": "https://www.bta.bg/en/news/bulgaria/1218507-two-merchant-ships-attacked-by-sea-and-aerial-drones-in-bulgaria-s-exclusive-economic-zone",
+              "source": "Bulgarian News Agency (BTA), 6 October 2026"
+            },
+            {
+              "url": "https://www.bta.bg/en/news/bulgaria/1218986-drone-attack-on-two-merchant-ships-in-bulgarias-exclusive-economic-zone-prompts",
+              "source": "Bulgarian News Agency (BTA) wrap-up, 6 October 2026"
+            },
+            {
+              "url": "https://www.bta.bg/en/news/bulgaria/1218740-all-rescued-sailors-from-drone-attacked-merchant-ship-arrive-in-varna",
+              "source": "Bulgarian News Agency (BTA), 6 October 2026, rescued crew in Varna"
+            },
+            {
+              "url": "https://www.mtc.government.bg/bg/category/1/korabt-able-napusna-blgarskata-izklyuchitelna-ikonomicheska-zona",
+              "source": "Bulgarian Ministry of Transport and Communications, 14 October 2026"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "nationalities": [],
+          "sources": [
+            {
+              "url": "https://www.bta.bg/en/news/bulgaria/1218986-drone-attack-on-two-merchant-ships-in-bulgarias-exclusive-economic-zone-prompts",
+              "source": "Bulgarian News Agency (BTA) wrap-up, 6 October 2026"
+            },
+            {
+              "url": "https://www.mtc.government.bg/bg/category/1/korabt-able-napusna-blgarskata-izklyuchitelna-ikonomicheska-zona",
+              "source": "Bulgarian Ministry of Transport and Communications, 14 October 2026"
+            }
+          ]
+        },
+        "human_impact": {
+          "injured": {
+            "count": 2,
+            "as_of": "2026-10-06",
+            "sources": [
+              {
+                "url": "https://www.bta.bg/en/news/bulgaria/1218740-all-rescued-sailors-from-drone-attacked-merchant-ship-arrive-in-varna",
+                "source": "Bulgarian News Agency (BTA), 6 October 2026, rescued crew in Varna"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-11-05T14:55:00Z",
+          "text": "First reviewed identity for this row. Bulgaria's prime minister and the transport ministry name the Palau flagged general cargo ship Able, IMO 9001136, as the second of two ships struck by drones about 70 nautical miles east of Byala on 6 October 2026. All 18 crew were rescued by the ferry Dioscuria and other vessels and taken to Varna, so the record is confirmed at no deaths, with two seriously injured, one with a head injury and one with burns. The nationality split is not recorded as a count because Bulgarian statements conflict: the prime minister put the crew at 11 Turkish and 7 Indian, while the Border Police commander who brought 16 survivors to Varna said 10 were Turkish and 6 Indian, the two seriously injured having been taken separately. The cargo is also stated two ways, wheat on 6 October and 5,985 tonnes of barley from Romania to Turkey on 14 October.",
+          "sources": [
+            {
+              "url": "https://www.bta.bg/en/news/bulgaria/1218507-two-merchant-ships-attacked-by-sea-and-aerial-drones-in-bulgaria-s-exclusive-economic-zone",
+              "source": "Bulgarian News Agency (BTA), 6 October 2026"
+            },
+            {
+              "url": "https://www.bta.bg/en/news/bulgaria/1218986-drone-attack-on-two-merchant-ships-in-bulgarias-exclusive-economic-zone-prompts",
+              "source": "Bulgarian News Agency (BTA) wrap-up, 6 October 2026"
+            },
+            {
+              "url": "https://www.bta.bg/en/news/bulgaria/1218740-all-rescued-sailors-from-drone-attacked-merchant-ship-arrive-in-varna",
+              "source": "Bulgarian News Agency (BTA), 6 October 2026, rescued crew in Varna"
+            },
+            {
+              "url": "https://www.mtc.government.bg/bg/category/1/korabt-able-napusna-blgarskata-izklyuchitelna-ikonomicheska-zona",
+              "source": "Bulgarian Ministry of Transport and Communications, 14 October 2026"
             }
           ]
         }
