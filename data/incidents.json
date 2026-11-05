@@ -776,7 +776,7 @@
     "conflicting": false,
     "confidence": 0.5,
     "vessel_name": "TAHAMAH",
-    "imo": null,
+    "imo": "1031329",
     "flag": null,
     "vessel_type": null,
     "vessel_category": "merchant",
@@ -799,15 +799,40 @@
         "kind": "media",
         "published_at": "2026-11-03T02:58:51Z",
         "title": "الخارجية: استهداف سفينة «تهامة» يكشف من يحاصر اليمنيين ويستهدف غذاءهم وموانئهم - الساحل الغربي"
+      },
+      {
+        "url": "https://arabic.news.cn/20260813/82ec0d525ace44c3a557031a88d61261/c.html",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-05T04:34:15Z",
+        "title": null
+      },
+      {
+        "url": "https://www.aljazeera.net/news/2026/8/12/%D8%B4%D9%85%D8%A7%D9%84-%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%86%D8%AF%D8%A8-%D8%B5%D9%88%D8%B1%D8%A9-%D8%A3%D9%82%D9%85%D8%A7%D8%B1-%D8%B5%D9%86%D8%A7%D8%B9%D9%8A%D8%A9-%D8%AA%D8%B1%D8%B5%D8%AF",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-05T04:34:15Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-03T23:38:09Z",
-    "last_updated": "2026-11-03T23:38:09Z",
+    "last_updated": "2026-11-05T04:34:15Z",
     "verification_issue": 331,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-11-05T04:34:15Z",
+      "note": "The statement refers to the Houthi attack on the Tanzanian-flagged cargo ship Tahamah near the Bab al-Mandab on 11 August 2026, so this record is a mis-dated re-serve and nothing was reported against her on 3 November.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/331#issuecomment-6649761694"
+    },
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-11-05T04:34:15Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -840,15 +865,40 @@
         "kind": "media",
         "published_at": "2026-11-03T01:33:35Z",
         "title": "Container ship sinks after attack in the Strait of Hormuz - Modern Ghana"
+      },
+      {
+        "url": "https://www.theguardian.com/world/2026/oct/14/container-ship-sinks-strait-of-hormuz-surge-iranian-attacks-iran-us-midterm-elections",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-05T04:34:19Z",
+        "title": null
+      },
+      {
+        "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-05T04:34:19Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-03T10:00:52Z",
-    "last_updated": "2026-11-03T10:00:52Z",
+    "last_updated": "2026-11-05T04:34:19Z",
     "verification_issue": 328,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-11-05T04:34:19Z",
+      "note": "The only container ship sunk near the Strait of Hormuz is the Singapore-flagged GFS Pride on 14 October, and IMO lists no container ship casualty in the strait on 3 November, so this record is mis-dated and re-serves the October sinking.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/328#issuecomment-6649761253"
+    },
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-11-05T04:34:19Z"
   },
   {
     "region": "Black Sea",
@@ -1051,16 +1101,41 @@
         "kind": "media",
         "published_at": "2026-11-03T05:05:34Z",
         "title": "Russian drone attacks make Black Sea increasingly dangerous for shipping - Operativ Məlumat Mərkəzi"
+      },
+      {
+        "url": "https://www.interfax.ru/russia/1126717",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-05T04:34:23Z",
+        "title": null
+      },
+      {
+        "url": "https://ambrey.com/operations/event/war-risk-physical-damage-11/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-05T04:34:23Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-03T10:00:26Z",
-    "last_updated": "2026-11-04T18:50:02Z",
+    "last_updated": "2026-11-05T04:34:23Z",
     "verification_issue": 326,
-    "verdict": null,
+    "verdict": {
+      "status": "claimed",
+      "by": "iMariner",
+      "at": "2026-11-05T04:34:23Z",
+      "note": "Only Russia's defence ministry reports the two dry cargo vessels hit at the port of Yuzhny and in the Black Sea on 3 November, and no Ukrainian or independent confirmation of vessel damage was found.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/326#issuecomment-6649761003"
+    },
     "published_in": [],
-    "status": "reported",
+    "status": "claimed",
     "date_approx": false,
-    "position_approx": true
+    "position_approx": true,
+    "status_changed_at": "2026-11-05T04:34:23Z"
   },
   {
     "region": "Black Sea",
@@ -1358,12 +1433,36 @@
         "kind": "media",
         "published_at": "2026-11-03T08:24:00Z",
         "title": "بعد مقتل بحار هندي، نيودلهي تدين استهداف سفينة تجارية قبالة سواحل عمان - فيتو"
+      },
+      {
+        "url": "https://www.ukmto.org/-/media/ukmto/products/20261103-ukmto_warning_195_26.pdf",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-05T04:34:21Z",
+        "title": null
+      },
+      {
+        "url": "https://thehindu.com/news/national/india-seafarer-killed-in-attack-on-ship-near-oman-mea-west-asia-conflict/article71659910.ece",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-05T04:34:21Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-03T10:00:26Z",
-    "last_updated": "2026-11-05T00:30:43Z",
+    "last_updated": "2026-11-05T04:34:21Z",
     "verification_issue": 327,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "iMariner",
+      "at": "2026-11-05T04:34:21Z",
+      "note": "India's government confirmed one seafarer killed and 13 rescued from the Indian cargo vessel Al Jusufi off Limah on 2 November, and UKMTO 195-26 confirms a tanker hit by two projectiles into the engine room 14NM northeast of Lima, Oman on 3 November, so the attack off Oman in this record is confirmed even though it names no hull.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/327#issuecomment-6649760696"
+    },
     "published_in": [],
     "status": "confirmed",
     "status_changed_at": "2026-11-03T10:00:26Z",
@@ -1916,15 +2015,40 @@
         "kind": "media",
         "published_at": "2026-11-02T06:32:00Z",
         "title": "﻿Basra Körfezi'nde tankere saldırı - STAR - Haberler"
+      },
+      {
+        "url": "https://www.ukmto.org/-/media/ukmto/products/20261102-ukmto_warning-192-26.pdf",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-05T04:34:17Z",
+        "title": null
+      },
+      {
+        "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-05T04:34:17Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-03T10:00:52Z",
-    "last_updated": "2026-11-03T10:00:52Z",
+    "last_updated": "2026-11-05T04:34:17Z",
     "verification_issue": 329,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-11-05T04:34:17Z",
+      "note": "The headline matches the tanker struck by two projectiles 72NM east of Ras Al Khafji on 1 November, listed by IMO as LARGO ATOM and already recorded as INC-20261101-015, so it is a duplicate and not a separate incident.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/329#issuecomment-6649761495"
+    },
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-11-05T04:34:17Z"
   },
   {
     "region": "Black Sea",
