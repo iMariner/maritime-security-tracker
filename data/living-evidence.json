@@ -18743,6 +18743,24 @@
           ]
         }
       ]
+    },
+    "INC-20261105-004": {
+      "updates": [
+        {
+          "at": "2026-11-05T20:46:17Z",
+          "text": "This row is a roundup headline, not a separate attack and not a new death. The Riviera Maritime Media article behind it, published on 4 November 2026, summarises incidents between 1 and 3 November and states that the one known fatality was aboard the Indian-flagged cargo dhow Al Jusufi, struck by an unidentified aerial object off Oman on 2 November, in which one of 14 Indian crew members died; its sources were the security firms Vanguard Tech and Marisks. That death is already recorded against INC-20261103-004 from India's Ministry of External Affairs statement. No vessel, position, weapon or casualty figure belongs specifically to this row, so it should not be counted as an attack on 5 November or as a second seafarer death.",
+          "sources": [
+            {
+              "url": "https://www.rivieramm.com/news-content-hub/fresh-hormuz-attacks-leave-seafarer-dead-and-several-vessels-damaged-90476",
+              "source": "Riviera Maritime Media, 4 November 2026: roundup of 1 to 3 November incidents, the known fatality aboard Al Jusufi on 2 November"
+            },
+            {
+              "url": "https://www.mea.gov.in/Speeches-Statements.htm?dtl/41284",
+              "source": "Ministry of External Affairs, India, statement of 3 November 2026, the source for the Al Jusufi death already recorded against INC-20261103-004"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -34063,6 +34081,31 @@
             {
               "url": "https://maritimetips.com/russian-drone-hits-cargo-vessel-captain-killed-3-injured-in-ukraines-danube-delta/",
               "source": "MaritimeTips, 17 September 2026, on the unreconciled Turkish casualty claims"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6669068998,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6669068998",
+      "author": "iMariner",
+      "received_at": "2026-11-05T20:50:30Z",
+      "incident_id": "INC-20261105-004",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261105-004",
+        "update": {
+          "at": "2026-11-05T20:46:17Z",
+          "text": "This row is a roundup headline, not a separate attack and not a new death. The Riviera Maritime Media article behind it, published on 4 November 2026, summarises incidents between 1 and 3 November and states that the one known fatality was aboard the Indian-flagged cargo dhow Al Jusufi, struck by an unidentified aerial object off Oman on 2 November, in which one of 14 Indian crew members died; its sources were the security firms Vanguard Tech and Marisks. That death is already recorded against INC-20261103-004 from India's Ministry of External Affairs statement. No vessel, position, weapon or casualty figure belongs specifically to this row, so it should not be counted as an attack on 5 November or as a second seafarer death.",
+          "sources": [
+            {
+              "url": "https://www.rivieramm.com/news-content-hub/fresh-hormuz-attacks-leave-seafarer-dead-and-several-vessels-damaged-90476",
+              "source": "Riviera Maritime Media, 4 November 2026: roundup of 1 to 3 November incidents, the known fatality aboard Al Jusufi on 2 November"
+            },
+            {
+              "url": "https://www.mea.gov.in/Speeches-Statements.htm?dtl/41284",
+              "source": "Ministry of External Affairs, India, statement of 3 November 2026, the source for the Al Jusufi death already recorded against INC-20261103-004"
             }
           ]
         }
