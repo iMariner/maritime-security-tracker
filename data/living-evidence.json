@@ -18346,6 +18346,28 @@
           ]
         }
       ]
+    },
+    "INC-20261104-009": {
+      "updates": [
+        {
+          "at": "2026-11-05T02:13:18Z",
+          "text": "Correction to this row: the event of 4 November 2026 was not an attack. The tanker was MENTOR under the flag of Antigua and Barbuda, which had been damaged by a Russian drone strike off the Odesa region overnight on 23 September 2026 and was under tow towards Turkiye with no crew on board. Romania's Ministry of Internal Affairs said the Turkish tug AYAZ BEY, towing alongside RAMAZAN BEY, sent a mayday at about 04:20 local time on 4 November after the towline parted in heavy weather and the tug collided with MENTOR. Reports of the tug's crew conflict: Ziare.com, citing the ministry, reported that the tug sank and that seven Turkish sailors were being searched for, while Azernews, also citing the ministry, reported that three crew were taken aboard the tug ODIN for Mangalia and four declined evacuation, with AYAZ BEY anchored. No merchant seafarer was killed or injured in this event, so this row should not be counted as a new attack on 4 November 2026; the seafarer death in this chain is the MENTOR master, recorded against HIST-BS-20260923-MENTOR.",
+          "sources": [
+            {
+              "url": "https://maritime-executive.com/article/tanker-damaged-by-russian-attack-breaks-towline-prompting-sar-operation",
+              "source": "The Maritime Executive, 4 November 2026"
+            },
+            {
+              "url": "https://ziare.com/marinari/cautati-marea-neagra-scufundare-remorcher-2045599",
+              "source": "Ziare.com, 4 November 2026, citing Romania's Ministry of Internal Affairs"
+            },
+            {
+              "url": "https://azernews.az/region/266782.html",
+              "source": "Azernews, 4 November 2026, citing Romania's Ministry of Internal Affairs"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -32954,6 +32976,35 @@
             {
               "url": "https://www.euronews.com/2026/10/06/drones-hit-two-ships-off-coast-of-bulgaria-as-government-calls-emergency-meeting",
               "source": "Euronews, 6 October 2026: search called off for the 10 crew of ALFA WATAN"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6647749554,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6647749554",
+      "author": "iMariner",
+      "received_at": "2026-11-05T02:13:24Z",
+      "incident_id": "INC-20261104-009",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261104-009",
+        "update": {
+          "at": "2026-11-05T02:13:18Z",
+          "text": "Correction to this row: the event of 4 November 2026 was not an attack. The tanker was MENTOR under the flag of Antigua and Barbuda, which had been damaged by a Russian drone strike off the Odesa region overnight on 23 September 2026 and was under tow towards Turkiye with no crew on board. Romania's Ministry of Internal Affairs said the Turkish tug AYAZ BEY, towing alongside RAMAZAN BEY, sent a mayday at about 04:20 local time on 4 November after the towline parted in heavy weather and the tug collided with MENTOR. Reports of the tug's crew conflict: Ziare.com, citing the ministry, reported that the tug sank and that seven Turkish sailors were being searched for, while Azernews, also citing the ministry, reported that three crew were taken aboard the tug ODIN for Mangalia and four declined evacuation, with AYAZ BEY anchored. No merchant seafarer was killed or injured in this event, so this row should not be counted as a new attack on 4 November 2026; the seafarer death in this chain is the MENTOR master, recorded against HIST-BS-20260923-MENTOR.",
+          "sources": [
+            {
+              "url": "https://maritime-executive.com/article/tanker-damaged-by-russian-attack-breaks-towline-prompting-sar-operation",
+              "source": "The Maritime Executive, 4 November 2026"
+            },
+            {
+              "url": "https://ziare.com/marinari/cautati-marea-neagra-scufundare-remorcher-2045599",
+              "source": "Ziare.com, 4 November 2026, citing Romania's Ministry of Internal Affairs"
+            },
+            {
+              "url": "https://azernews.az/region/266782.html",
+              "source": "Azernews, 4 November 2026, citing Romania's Ministry of Internal Affairs"
             }
           ]
         }
