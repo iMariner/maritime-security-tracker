@@ -18223,6 +18223,93 @@
           ]
         }
       ]
+    },
+    "HIST-BS-20260923-MENTOR": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 1,
+        "sources": [
+          {
+            "url": "https://www.ukrinform.net/rubric-ato/4167214-ukrainian-border-guards-evacuate-15-crew-members-from-vessel-attacked-by-russia-in-black-sea.html",
+            "source": "Ukrinform, 23 September 2026, citing Ukraine's State Border Guard Service: captain killed, body not recovered"
+          },
+          {
+            "url": "https://intent.press/en/news/war/2026/a-commercial-ship-s-captain-was-killed-in-a-russian-attack-in-the-odesa-region",
+            "source": "Intent, 23 September 2026, citing Oleh Kiper: the captain, a Ukrainian citizen, was killed"
+          }
+        ],
+        "nationalities": [
+          {
+            "nationality": "Ukrainian",
+            "status": "confirmed",
+            "deaths": 1,
+            "sources": [
+              {
+                "url": "https://intent.press/en/news/war/2026/a-commercial-ship-s-captain-was-killed-in-a-russian-attack-in-the-odesa-region",
+                "source": "Intent, 23 September 2026, citing Oleh Kiper: the ship's captain was a Ukrainian citizen"
+              },
+              {
+                "url": "https://seawanderer.org/captain-killed-after-russian-drone-strikes-vessel-off-ukraines-odesa-region",
+                "source": "Seawanderer, 24 September 2026: Ukrainian captain killed"
+              }
+            ]
+          }
+        ]
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-05T02:08:04Z",
+        "vessel_name": "MENTOR",
+        "date_utc": "2026-09-23",
+        "vessel_type": "Product tanker",
+        "region": "Black Sea",
+        "location_text": "Off the Odesa region, Black Sea, after sailing from a Ukrainian port",
+        "attack_type": "drone (UAV)",
+        "date_note": "The strike happened overnight on 23 September 2026, reported the same day by Ukraine's State Border Guard Service via Ukrinform and by Odesa regional governor Oleh Kiper. The Maritime Executive later dated the attack to 24 September in its 4 November 2026 report on the vessel's tow; the contemporaneous Ukrainian reports are followed here and only day precision is claimed.",
+        "summary": "MENTOR, a 13,000 dwt product tanker under the flag of Antigua and Barbuda, was struck by a Russian attack drone overnight on 23 September 2026 after sailing from a Ukrainian port in the Odesa region. The drone hit the superstructure at about 02:30 local time and a fire broke out on the bridge, after which the vessel anchored offshore. Ukraine's State Border Guard Service said 16 crew were on board, its Maritime Guard evacuated 15 of them to a safe port, and the master, a Ukrainian citizen, was killed; his body could not be recovered during the evacuation because of heavy smoke and high temperatures.",
+        "sources": [
+          {
+            "url": "https://www.ukrinform.net/rubric-ato/4167214-ukrainian-border-guards-evacuate-15-crew-members-from-vessel-attacked-by-russia-in-black-sea.html",
+            "source": "Ukrinform, 23 September 2026, citing Ukraine's State Border Guard Service"
+          },
+          {
+            "url": "https://seawanderer.org/captain-killed-after-russian-drone-strikes-vessel-off-ukraines-odesa-region",
+            "source": "Seawanderer, 24 September 2026, citing Odesa regional governor Oleh Kiper"
+          },
+          {
+            "url": "https://tradewindsnews.com/tankers/russia-claims-attacks-on-ships-carrying-fuel-and-arms-to-ukraine/2-1-2049252",
+            "source": "TradeWinds, 24 September 2026: 13,000 dwt clean product tanker Mentor, built 2007, master killed"
+          },
+          {
+            "url": "https://intent.press/en/news/war/2026/a-commercial-ship-s-captain-was-killed-in-a-russian-attack-in-the-odesa-region",
+            "source": "Intent, 23 September 2026, citing Odesa regional military administration head Oleh Kiper"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-05T02:08:04Z",
+          "text": "New historical record: the drone strike that killed the master of the Antigua and Barbuda flagged product tanker MENTOR off the Odesa region was missing from both incident stores, which hold no Black Sea attack between 13 and 27 September 2026. Identity comes from Odesa regional governor Oleh Kiper, who named the tanker MENTOR and reported the Shahed drone hitting the superstructure at about 02:30; crew numbers and the evacuation of 15 of 16 crew come from Ukraine's State Border Guard Service; tonnage and type come from TradeWinds, which records the 13,000 dwt clean product tanker Mentor, built 2007, among vessels whose masters were killed that week. One death is recorded, the master, a Ukrainian citizen. The body was not recovered during the main evacuation. This event is separate from the sinking of ALFA WATAN and ABLE on 6 October 2026.",
+          "sources": [
+            {
+              "url": "https://www.ukrinform.net/rubric-ato/4167214-ukrainian-border-guards-evacuate-15-crew-members-from-vessel-attacked-by-russia-in-black-sea.html",
+              "source": "Ukrinform, 23 September 2026"
+            },
+            {
+              "url": "https://seawanderer.org/captain-killed-after-russian-drone-strikes-vessel-off-ukraines-odesa-region",
+              "source": "Seawanderer, 24 September 2026"
+            },
+            {
+              "url": "https://tradewindsnews.com/tankers/russia-claims-attacks-on-ships-carrying-fuel-and-arms-to-ukraine/2-1-2049252",
+              "source": "TradeWinds, 24 September 2026"
+            },
+            {
+              "url": "https://intent.press/en/news/war/2026/a-commercial-ship-s-captain-was-killed-in-a-russian-attack-in-the-odesa-region",
+              "source": "Intent, 23 September 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -32670,6 +32757,101 @@
             {
               "url": "https://crisis.zone/iran-s-revolutionary-guards-say-four-tankers-hit-mines-south-of-hormuz",
               "source": "Crisis.zone summary of unverified IRGC claim and UKMTO position, 4 November 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6647668305,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6647668305",
+      "author": "iMariner",
+      "received_at": "2026-11-05T02:08:10Z",
+      "incident_id": "HIST-BS-20260923-MENTOR",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-BS-20260923-MENTOR",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-05T02:08:04Z",
+          "vessel_name": "MENTOR",
+          "date_utc": "2026-09-23",
+          "vessel_type": "Product tanker",
+          "region": "Black Sea",
+          "location_text": "Off the Odesa region, Black Sea, after sailing from a Ukrainian port",
+          "attack_type": "drone (UAV)",
+          "date_note": "The strike happened overnight on 23 September 2026, reported the same day by Ukraine's State Border Guard Service via Ukrinform and by Odesa regional governor Oleh Kiper. The Maritime Executive later dated the attack to 24 September in its 4 November 2026 report on the vessel's tow; the contemporaneous Ukrainian reports are followed here and only day precision is claimed.",
+          "summary": "MENTOR, a 13,000 dwt product tanker under the flag of Antigua and Barbuda, was struck by a Russian attack drone overnight on 23 September 2026 after sailing from a Ukrainian port in the Odesa region. The drone hit the superstructure at about 02:30 local time and a fire broke out on the bridge, after which the vessel anchored offshore. Ukraine's State Border Guard Service said 16 crew were on board, its Maritime Guard evacuated 15 of them to a safe port, and the master, a Ukrainian citizen, was killed; his body could not be recovered during the evacuation because of heavy smoke and high temperatures.",
+          "sources": [
+            {
+              "url": "https://www.ukrinform.net/rubric-ato/4167214-ukrainian-border-guards-evacuate-15-crew-members-from-vessel-attacked-by-russia-in-black-sea.html",
+              "source": "Ukrinform, 23 September 2026, citing Ukraine's State Border Guard Service"
+            },
+            {
+              "url": "https://seawanderer.org/captain-killed-after-russian-drone-strikes-vessel-off-ukraines-odesa-region",
+              "source": "Seawanderer, 24 September 2026, citing Odesa regional governor Oleh Kiper"
+            },
+            {
+              "url": "https://tradewindsnews.com/tankers/russia-claims-attacks-on-ships-carrying-fuel-and-arms-to-ukraine/2-1-2049252",
+              "source": "TradeWinds, 24 September 2026: 13,000 dwt clean product tanker Mentor, built 2007, master killed"
+            },
+            {
+              "url": "https://intent.press/en/news/war/2026/a-commercial-ship-s-captain-was-killed-in-a-russian-attack-in-the-odesa-region",
+              "source": "Intent, 23 September 2026, citing Odesa regional military administration head Oleh Kiper"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 1,
+          "sources": [
+            {
+              "url": "https://www.ukrinform.net/rubric-ato/4167214-ukrainian-border-guards-evacuate-15-crew-members-from-vessel-attacked-by-russia-in-black-sea.html",
+              "source": "Ukrinform, 23 September 2026, citing Ukraine's State Border Guard Service: captain killed, body not recovered"
+            },
+            {
+              "url": "https://intent.press/en/news/war/2026/a-commercial-ship-s-captain-was-killed-in-a-russian-attack-in-the-odesa-region",
+              "source": "Intent, 23 September 2026, citing Oleh Kiper: the captain, a Ukrainian citizen, was killed"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Ukrainian",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "url": "https://intent.press/en/news/war/2026/a-commercial-ship-s-captain-was-killed-in-a-russian-attack-in-the-odesa-region",
+                  "source": "Intent, 23 September 2026, citing Oleh Kiper: the ship's captain was a Ukrainian citizen"
+                },
+                {
+                  "url": "https://seawanderer.org/captain-killed-after-russian-drone-strikes-vessel-off-ukraines-odesa-region",
+                  "source": "Seawanderer, 24 September 2026: Ukrainian captain killed"
+                }
+              ]
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-11-05T02:08:04Z",
+          "text": "New historical record: the drone strike that killed the master of the Antigua and Barbuda flagged product tanker MENTOR off the Odesa region was missing from both incident stores, which hold no Black Sea attack between 13 and 27 September 2026. Identity comes from Odesa regional governor Oleh Kiper, who named the tanker MENTOR and reported the Shahed drone hitting the superstructure at about 02:30; crew numbers and the evacuation of 15 of 16 crew come from Ukraine's State Border Guard Service; tonnage and type come from TradeWinds, which records the 13,000 dwt clean product tanker Mentor, built 2007, among vessels whose masters were killed that week. One death is recorded, the master, a Ukrainian citizen. The body was not recovered during the main evacuation. This event is separate from the sinking of ALFA WATAN and ABLE on 6 October 2026.",
+          "sources": [
+            {
+              "url": "https://www.ukrinform.net/rubric-ato/4167214-ukrainian-border-guards-evacuate-15-crew-members-from-vessel-attacked-by-russia-in-black-sea.html",
+              "source": "Ukrinform, 23 September 2026"
+            },
+            {
+              "url": "https://seawanderer.org/captain-killed-after-russian-drone-strikes-vessel-off-ukraines-odesa-region",
+              "source": "Seawanderer, 24 September 2026"
+            },
+            {
+              "url": "https://tradewindsnews.com/tankers/russia-claims-attacks-on-ships-carrying-fuel-and-arms-to-ukraine/2-1-2049252",
+              "source": "TradeWinds, 24 September 2026"
+            },
+            {
+              "url": "https://intent.press/en/news/war/2026/a-commercial-ship-s-captain-was-killed-in-a-russian-attack-in-the-odesa-region",
+              "source": "Intent, 23 September 2026"
             }
           ]
         }
