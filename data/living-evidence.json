@@ -18510,6 +18510,46 @@
           ]
         }
       ]
+    },
+    "INC-20261011-030": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-05T15:00:00Z",
+        "vessel_name": "KITION M",
+        "date_utc": "2026-10-11",
+        "vessel_type": "Products tanker",
+        "region": "Strait of Hormuz",
+        "location_text": "Strait of Hormuz, outbound transit",
+        "imo": "9321160",
+        "attack_type": "unknown projectile",
+        "summary": "The products tanker Kition M (IMO 9321160) was struck by an unknown projectile on 11 October 2026 while transiting the Strait of Hormuz outbound and was able to continue her voyage. The IMO incident register records the ship as damaged with limited pollution reported. The UKMTO advisory circulated as JMIC advisory update 105 said the vessel was struck while transiting outbound, that she continued her voyage, and that reports of environmental damage were unconfirmed. Neither source states a casualty count.",
+        "sources": [
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO, Middle East highlighted confirmed incidents, as at 3 November 2026"
+          },
+          {
+            "url": "https://ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf",
+            "source": "UKMTO and JMIC advisory update 105, 15 October 2026"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-05T15:00:00Z",
+          "text": "Reviewed identity and type for this row, which the editor check had confirmed from the IMO register alone. The IMO register lists Kition M, IMO 9321160, hit in the Strait of Hormuz on 11 October 2026, damaged with limited pollution reported. UKMTO, in the advisory circulated as JMIC advisory update 105 of 15 October, recorded that a products tanker identified by the IMO as Kition M was struck by an unknown projectile during an outbound transit of the strait, continued her voyage, and that reports of environmental damage were unconfirmed. The pollution wording therefore stays as limited pollution reported per the IMO, with the UKMTO caveat that environmental damage was unconfirmed. No casualty count is stated in either source, so the death count remains unknown rather than zero.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO, Middle East highlighted confirmed incidents, as at 3 November 2026"
+            },
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf",
+              "source": "UKMTO and JMIC advisory update 105, 15 October 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -33568,6 +33608,53 @@
             {
               "url": "https://www.mtc.government.bg/bg/category/1/korabt-able-napusna-blgarskata-izklyuchitelna-ikonomicheska-zona",
               "source": "Bulgarian Ministry of Transport and Communications, 14 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6660693091,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6660693091",
+      "author": "iMariner",
+      "received_at": "2026-11-05T14:36:21Z",
+      "incident_id": "INC-20261011-030",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261011-030",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-05T15:00:00Z",
+          "vessel_name": "KITION M",
+          "date_utc": "2026-10-11",
+          "vessel_type": "Products tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "Strait of Hormuz, outbound transit",
+          "imo": "9321160",
+          "attack_type": "unknown projectile",
+          "summary": "The products tanker Kition M (IMO 9321160) was struck by an unknown projectile on 11 October 2026 while transiting the Strait of Hormuz outbound and was able to continue her voyage. The IMO incident register records the ship as damaged with limited pollution reported. The UKMTO advisory circulated as JMIC advisory update 105 said the vessel was struck while transiting outbound, that she continued her voyage, and that reports of environmental damage were unconfirmed. Neither source states a casualty count.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO, Middle East highlighted confirmed incidents, as at 3 November 2026"
+            },
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf",
+              "source": "UKMTO and JMIC advisory update 105, 15 October 2026"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-11-05T15:00:00Z",
+          "text": "Reviewed identity and type for this row, which the editor check had confirmed from the IMO register alone. The IMO register lists Kition M, IMO 9321160, hit in the Strait of Hormuz on 11 October 2026, damaged with limited pollution reported. UKMTO, in the advisory circulated as JMIC advisory update 105 of 15 October, recorded that a products tanker identified by the IMO as Kition M was struck by an unknown projectile during an outbound transit of the strait, continued her voyage, and that reports of environmental damage were unconfirmed. The pollution wording therefore stays as limited pollution reported per the IMO, with the UKMTO caveat that environmental damage was unconfirmed. No casualty count is stated in either source, so the death count remains unknown rather than zero.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO, Middle East highlighted confirmed incidents, as at 3 November 2026"
+            },
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf",
+              "source": "UKMTO and JMIC advisory update 105, 15 October 2026"
             }
           ]
         }
