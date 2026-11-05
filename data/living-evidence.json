@@ -8777,6 +8777,42 @@
       },
       "audit_notes": [
         "Added after the omission audit; sources read separately for identity, event date and human impact."
+      ],
+      "human_impact": {
+        "missing": {
+          "count": 10,
+          "as_of": "2026-10-08",
+          "sources": [
+            {
+              "url": "https://bnrnews.bg/en/post/538553/bulgaria-calls-off-search-for-crew-of-sunken-cargo-ship-alfa-watan",
+              "source": "Radio Bulgaria (BNR), 6 October 2026: search for the crew of ALFA WATAN called off at 17:00 on 6 October, no trace of the sailors found"
+            },
+            {
+              "url": "https://www.thenationalnews.com/news/mena/2026/10/08/nine-syrians-missing-after-cargo-ship-sunk-by-drone-in-black-sea/",
+              "source": "The National, 8 October 2026: nine Syrians and one Egyptian missing from ALFA WATAN, search called off"
+            }
+          ]
+        }
+      },
+      "updates": [
+        {
+          "at": "2026-11-05T02:12:09Z",
+          "text": "Human impact added from the rescue record, with deaths left unknown. Bulgaria's Maritime Administration called off the search for the crew of ALFA WATAN at 17:00 on 6 October 2026 after finding an overturned lifeboat, three life rafts and parts of the vessel's equipment but none of the crew, as reported by Radio Bulgaria and Euronews. The National reported on 8 October 2026 that nine Syrians and one Egyptian were missing. Those ten are recorded as missing and are not counted as deaths, because no body was recovered and no authority has confirmed a death count. Accounts of the crew conflict: the Verify-Sy report held against INC-20261101-014 says eight Syrian sailors were missing, and Bulgarian National Television quoted 12 Syrian seafarers aboard. The search director said the ship sank almost instantly and that survivors were not expected, which is an assessment, not a confirmed toll. The vessel identity in this record is unchanged.",
+          "sources": [
+            {
+              "url": "https://bnrnews.bg/en/post/538553/bulgaria-calls-off-search-for-crew-of-sunken-cargo-ship-alfa-watan",
+              "source": "Radio Bulgaria (BNR), 6 October 2026"
+            },
+            {
+              "url": "https://www.thenationalnews.com/news/mena/2026/10/08/nine-syrians-missing-after-cargo-ship-sunk-by-drone-in-black-sea/",
+              "source": "The National, 8 October 2026"
+            },
+            {
+              "url": "https://www.euronews.com/2026/10/06/drones-hit-two-ships-off-coast-of-bulgaria-as-government-calls-emergency-meeting",
+              "source": "Euronews, 6 October 2026: search called off for the 10 crew of ALFA WATAN"
+            }
+          ]
+        }
       ]
     },
     "HIST-BS-20240911-AYA": {
@@ -32852,6 +32888,72 @@
             {
               "url": "https://intent.press/en/news/war/2026/a-commercial-ship-s-captain-was-killed-in-a-russian-attack-in-the-odesa-region",
               "source": "Intent, 23 September 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6647731892,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6647731892",
+      "author": "iMariner",
+      "received_at": "2026-11-05T02:12:15Z",
+      "incident_id": "HIST-BS-20261006-ALFA-WATAN",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T14:10:24.919717+00:00",
+          "vessel_name": "ALFA WATAN",
+          "date_utc": "2026-10-06",
+          "vessel_type": "general cargo",
+          "region": "Black Sea",
+          "summary": "Alfa Watan was reported struck and subsequently sank east of the Bulgarian coast. The rescue account identifies the vessel, but does not establish the crew total or their final fate. No death count is inferred.",
+          "sources": [
+            {
+              "url": "https://www.maritime.bg/155185/",
+              "source": "Maritime.bg named vessel and rescue report, 6 October 2026"
+            }
+          ],
+          "attack_type": "physical strike",
+          "imo": "7510884"
+        },
+        "audit_notes": [
+          "Added after the omission audit; sources read separately for identity, event date and human impact."
+        ]
+      },
+      "change": {
+        "incident_id": "HIST-BS-20261006-ALFA-WATAN",
+        "human_impact": {
+          "missing": {
+            "count": 10,
+            "as_of": "2026-10-08",
+            "sources": [
+              {
+                "url": "https://bnrnews.bg/en/post/538553/bulgaria-calls-off-search-for-crew-of-sunken-cargo-ship-alfa-watan",
+                "source": "Radio Bulgaria (BNR), 6 October 2026: search for the crew of ALFA WATAN called off at 17:00 on 6 October, no trace of the sailors found"
+              },
+              {
+                "url": "https://www.thenationalnews.com/news/mena/2026/10/08/nine-syrians-missing-after-cargo-ship-sunk-by-drone-in-black-sea/",
+                "source": "The National, 8 October 2026: nine Syrians and one Egyptian missing from ALFA WATAN, search called off"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-11-05T02:12:09Z",
+          "text": "Human impact added from the rescue record, with deaths left unknown. Bulgaria's Maritime Administration called off the search for the crew of ALFA WATAN at 17:00 on 6 October 2026 after finding an overturned lifeboat, three life rafts and parts of the vessel's equipment but none of the crew, as reported by Radio Bulgaria and Euronews. The National reported on 8 October 2026 that nine Syrians and one Egyptian were missing. Those ten are recorded as missing and are not counted as deaths, because no body was recovered and no authority has confirmed a death count. Accounts of the crew conflict: the Verify-Sy report held against INC-20261101-014 says eight Syrian sailors were missing, and Bulgarian National Television quoted 12 Syrian seafarers aboard. The search director said the ship sank almost instantly and that survivors were not expected, which is an assessment, not a confirmed toll. The vessel identity in this record is unchanged.",
+          "sources": [
+            {
+              "url": "https://bnrnews.bg/en/post/538553/bulgaria-calls-off-search-for-crew-of-sunken-cargo-ship-alfa-watan",
+              "source": "Radio Bulgaria (BNR), 6 October 2026"
+            },
+            {
+              "url": "https://www.thenationalnews.com/news/mena/2026/10/08/nine-syrians-missing-after-cargo-ship-sunk-by-drone-in-black-sea/",
+              "source": "The National, 8 October 2026"
+            },
+            {
+              "url": "https://www.euronews.com/2026/10/06/drones-hit-two-ships-off-coast-of-bulgaria-as-government-calls-emergency-meeting",
+              "source": "Euronews, 6 October 2026: search called off for the 10 crew of ALFA WATAN"
             }
           ]
         }
