@@ -1,6 +1,47 @@
 [
   {
     "region": "Black Sea",
+    "date_utc": "2026-11-06T15:30:00Z",
+    "summary": "An Arabic outlet headline asks whether a Russian cargo ship was targeted by drones launched from inside Libya. The item gives no vessel name, date, position, damage or casualty details, and the claim is unverified.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.3,
+    "vessel_name": null,
+    "imo": null,
+    "flag": "Russia",
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea (location not specified)",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "date_approx": true,
+    "id": "INC-20261106-009",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiigVBVV95cUxOZkZCX0pfMGdta3NKQk8wYnp4eFM1SzQ1VWd4amJFdW84UFYyMnZVRlVWMnBfS2pFcEJfY3lHMnNEX0pTRWtJVzJRbF9ucllPbFQ0MGNGUFVSYlozRks2Vzl1dDFRSHpvUUVpeG9LUnR6R0RRenJSbGZrR2JvbjhmYkNhN0lMaDlTdzRiVlMzVjJTUEVGNERrUkxPV0dMVUpmYTF5ZVdRbk13NGhVanlWZFJtVXlXY1FQTkgtbHlOS2tIWGhjRHNEdUpZYnVfRmFGaG01Q3dSWlpaYllIcWZXSnFuLXpPSTUyT1BsYTF2eGdWLUtXY2FaZ1lSdEVSTEtFSTRLX2dxZzRhNjdhUkNhc1NyWS1zT3c2dmRuc0hIeVU0M3ZQYlpNZzc3WklZWUhDQjJIa1NnWTNWcE5WWGtTdkpsS0ZZOUlfZzlnTjlmcUVPT0gxVmdYby1oNmZiNEVHa01DLTAwRjgwWUZOejZBX0JHa0U5d1BGVS0wVkh2RkVCeGkyTXZHSGxjbjJKN2RSZW1mRDdrZksyajF6SGRYcHhSZ01GQ0d4TGlIVVFpT0dpNzNCdEx3Wm9nNjFFTW0yWHFXQndwV2VHcmdVUzFjc3hwd1hXckUyNWJvRFVZZVFnVVdPWV9EWGlzbFVaNVd1ekthY280ektKdFF0RS1OMGpnRlFhSkhoQzNCTWRvcVNMRkhZclVBS3d6SkRUMmtVQXZtTWd5ZGNWWWh3YUlqQWdHb0RxN2kyLXVXUzJ2ajZTSFBDeGhydjJWUk9BR3V5Z092Tk5sRHdFNEJMblVSX1lzWW9PMVZscm9GNVh2M2Y0Q2lyc3RmOEtQXzhuWHhfa1RyYzJKaElYUQ?oc=5",
+        "source": "الشرق الأوسط",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-06T15:30:00Z",
+        "title": "ما حقيقة استهداف سفينة شحن روسية بمسيَّرات من داخل ليبيا؟ - الشرق الأوسط"
+      }
+    ],
+    "first_seen": "2026-11-06T23:27:31Z",
+    "last_updated": "2026-11-06T23:27:31Z",
+    "verification_issue": 347,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
     "date_utc": "2026-11-06T15:26:27Z",
     "summary": "A Russian outlet headline reports that a tanker attacked off Sochi has hull breaches that threaten the Black Sea with an oil disaster. No vessel name, date, weapon type or attacker is given.",
     "official_source_cited": null,
@@ -39,15 +80,25 @@
         "kind": "media",
         "published_at": "2026-11-06T12:41:19Z",
         "title": "Атакованный у Сочи танкер получил сквозные пробоины в двух резервуарах - Life.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUkRKVHJ3eVZteGhOdDk2Z254Y2xXYjdwdjJoUjBZUXZHLWxNQW5HcVlSWHhaS05IRWV2YjNYRTc3amk0ZEcySElpeTg2SkJQS1RQYjh0djdnSlk5SGIxX2FmTkVqSHlKeDZXVzF5RG9NRm1QbFppQTFSSjZEdTFEV1hZYlY0TGQzUXJBWWNHb01jMmoySllhN1hjZw?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-06T16:14:50Z",
+        "title": "На атакованном в районе Сочи танкере арестовали нефть - prospect.com.ru"
       }
     ],
     "first_seen": "2026-11-06T18:21:32Z",
-    "last_updated": "2026-11-06T18:21:47Z",
+    "last_updated": "2026-11-06T23:27:32Z",
     "verification_issue": 342,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261106-006"
   },
   {
     "region": "Black Sea",
@@ -94,7 +145,7 @@
   {
     "region": "Persian Gulf",
     "date_utc": "2026-11-06",
-    "summary": "A headline reports that a tanker was attacked in the Gulf and one seafarer was killed. No vessel name, flag, position, weapon type or attacker is given.",
+    "summary": "A Greek-owned or Greek-managed oil tanker was hit by a suspected missile in the Gulf on 6 November, killing one seafarer. A separate headline reports a tanker explosion while crossing the Strait of Hormuz near Oman's coast the same day, and no vessel name or attacker is confirmed.",
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.6,
@@ -184,15 +235,61 @@
         "kind": "media",
         "published_at": "2026-11-06T12:01:43Z",
         "title": "Seafarer killed in attack on Greek-owned tanker in Middle East Gulf - Riviera Maritime Media"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdlNZRmx5VnBMT1JUVFZSRFR4T1VZbTFNa2g2UFZVZzliVS1KS2lGTWxIQ0NHWDZmU2NDLW5RX0JqMTFMME1VX3BGZXJkSllWYXJwRDB4dXZqOEQwZi0tNE8yOXp3WlNHWWxibk1OeXVId2JmcGpDNXF5MTNqYTVHM0h2YmEwak5zeDNNWUt0MWJMYUUwZ2RzZXJpVnZRTlhCaERiaWpVSFc?oc=5",
+        "source": "DatamarNews",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-06T21:17:26Z",
+        "title": "Seafarer missing in Gulf tanker strike as Iran redraws Hormuz blacklist - DatamarNews"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRDNJRV8zclhPSTU1Qkdobmo0WWx3SHVKSGU5OUZxcEoyNkc5MFdJYjdCb0l6cEF1aXZjdFBCRU1BSW44Z0F1aG52WUlON3Z2OGp4aWJlejlfNEJtUjdLNUhIS3lyTmc3d1RQVm5vSVU4WmJfaUZFcHkwYUNCcFVFcUtfbUNzUG9pYmg2d1VDdTk?oc=5",
+        "source": "İlke Haber Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-06T15:40:36Z",
+        "title": "Basra Körfezi'nde Yunanistan'a ait tankere saldırı: Bir ölü - İlke Haber Ajansı"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQV0tUTE9EN3FEcVZYZlBQOWMtZ0RpWC1PdHVPOUhQTHlsNVpuWERIWmJZTS0zTkU5aDdWNERzVld2c21OWXBWeU9lSkJkenB0NUp6aHF2Q3RINzN1VEZOS1g5SlRvWUFyMDk2ZndrMGQxejg3d0pZOVlLTVJUWTBMQ3FVcjk5UWVYUTRCbXZRbERpajZGa3VmMdIBngFBVV95cUxNczBOa25TbUJSYmV6eFBzRDQ1SDRyQ0tmbS1GNExFNElqZFc5U0I0REFiTzBRdEtmVmkxN0RnNnpHYVVvaUlpNDcwbUNhU0VUNmpJZXVQMGhEMHVtS2xQVk00TVpiN2tlcFZpSEVESjd0WjVIcWhlWksxb3lCVXdCNkZycjRXV3h5eW96OHpXeVVha0NWN1M4YVRYLXdsdw?oc=5",
+        "source": "The Siasat Daily",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-06T13:18:17Z",
+        "title": "Oman: Tanker reports explosion while crossing Strait of Hormuz - The Siasat Daily"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdVJ1SGQ5Y1lRR2tGQlNuZVFjVl9wczM5dWtpUG9jZ2tCWjJVa2NzQXVNVlpDczE1azZVMHVsV0k1TFJsLXlQOHJtTGdPV0ZQWHlkYnk4REdPQ2FqMjJOc1ExS0w1ZmIzU0VEbm5wT0hJMndodkNxcXZveDQwSll5SlVmcmUwU0Z3allzb0Exd2p1N0QyWjZvWg?oc=5",
+        "source": "WANA News Agency",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-06T13:11:48Z",
+        "title": "Explosion Reported Aboard Oil Tanker Near Oman’s Coast in Strait of Hormuz - WANA News Agency"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxObkJ0SVdFRHdVc25iQ3g2bUE5OG5LeWtUV3ZXdjhnMVRsU0RRR0JSV1hPcUdMMmxGbnZMdHZLbmZwb2NqMWRITjRMYnNPbGtTZ21IWWlIalNpbjdWaU5SUUlPendIbnhhVXlzenNSbjNlYzFwdjRiRmkxalNvWGw2U0h4ZGRsdzZDVmRNQlZ3OWp3M3Fqa0dEaG5aVDM3bFhvblc0U3ByZWJnUXRWWTNQdHJBOWV4VUNodlJyLVdxRTlnRFVPX2FmU2FLellQNF9sYzdrUkd4OEJEQjNPUlFVN05FMjF5Zw?oc=5",
+        "source": "Gazeta Express",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-06T06:00:52Z",
+        "title": "New attack on an oil tanker in the Strait of Hormuz, hit by an unknown missile as it was leaving the Persian Gulf - Gazeta Express"
       }
     ],
     "first_seen": "2026-11-06T18:21:28Z",
-    "last_updated": "2026-11-06T18:21:47Z",
+    "last_updated": "2026-11-06T23:27:32Z",
     "verification_issue": 341,
     "verdict": null,
     "published_in": [],
     "status": "claimed",
-    "position_approx": true
+    "position_approx": true,
+    "date_approx": false
   },
   {
     "region": "Black Sea",
@@ -286,17 +383,18 @@
       }
     ],
     "first_seen": "2026-11-06T18:21:43Z",
-    "last_updated": "2026-11-06T18:21:53Z",
+    "last_updated": "2026-11-06T23:27:32Z",
     "verification_issue": 343,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261106-001"
   },
   {
     "region": "Black Sea",
     "date_utc": "2026-11-06",
-    "summary": "The tanker TARYN EVE was damaged in an attack in the Black Sea and was later reported transiting the Istanbul Strait, where transit traffic was suspended. No attacker, weapon type or casualty details were given in the reports.",
+    "summary": "The tanker TARYN EVE was damaged in an attack in the Black Sea and was later reported transiting the Istanbul Strait, where transit traffic was suspended. Russian outlets reported that the attacked tanker off Sochi had hull breaches in two tanks threatening an oil spill, but no attacker or weapon type was confirmed.",
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.6,
@@ -333,10 +431,37 @@
         "kind": "media",
         "published_at": "2026-11-06T13:35:22Z",
         "title": "The tanker attacked by a UAV in the Black Sea is in the Istanbul Strait! Ship traffic has been halted. - Haberler.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5GTDVPVkJReUZWelVKbHJjc0E3YkstT2xZSGFKR3YtaFRrU2x3T0M1YlJuTUo5bUl3QndJemo2RnltNjJod2ZUeHZGOA?oc=5",
+        "source": "Новая Кубань",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-06T15:26:27Z",
+        "title": "Пробоины на атакованном у Сочи танкере грозят Черному морю нефтяной катастрофой - Новая Кубань"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbUFOdDFIM3RDRS0yRUVRa3N4RTNDdUxlYTZrY2ZIUjhlZDJUZGRTQlRDN01NYzZiNzNiQWhjdHBMdWNvaW9pRkZucVJHUlU2YWwwQnpVYzBUY2VfVXduR21tTHNYTWtiaWR2dzRobmY0UDFhcDdHUTBCMXdmLTFHUjExVTZPNjRmRl9fNkF4a2NhUEdt?oc=5",
+        "source": "Life.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-06T12:41:19Z",
+        "title": "Атакованный у Сочи танкер получил сквозные пробоины в двух резервуарах - Life.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUkRKVHJ3eVZteGhOdDk2Z254Y2xXYjdwdjJoUjBZUXZHLWxNQW5HcVlSWHhaS05IRWV2YjNYRTc3amk0ZEcySElpeTg2SkJQS1RQYjh0djdnSlk5SGIxX2FmTkVqSHlKeDZXVzF5RG9NRm1QbFppQTFSSjZEdTFEV1hZYlY0TGQzUXJBWWNHb01jMmoySllhN1hjZw?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-06T16:14:50Z",
+        "title": "На атакованном в районе Сочи танкере арестовали нефть - prospect.com.ru"
       }
     ],
     "first_seen": "2026-11-06T18:21:43Z",
-    "last_updated": "2026-11-06T18:21:56Z",
+    "last_updated": "2026-11-06T23:27:32Z",
     "verification_issue": 344,
     "verdict": null,
     "published_in": [],
@@ -386,6 +511,46 @@
     },
     "published_in": [],
     "status": "rejected",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-11-06",
+    "summary": "India condemned an attack on a commercial vessel in the Black Sea, according to a headline. No vessel name, flag, position, weapon type, damage or casualty details are given.",
+    "official_source_cited": "India's government condemned the attack",
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea (location not specified)",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261106-008",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN1FuN2ZJWnMwc1VWRkVHc0VKT0tNZ3NvNm55T2tPeGl1STFHN1FZSUk0OG9oenpTX01iN2dvdG1XMDFjOVBpWVkwVFhhTnZXOW92N2RmYk9ZejMzMmpqR21yNVI3WGtIUkI3OVBJRlRVaWNLQlNKSGlVOTlwaWt4Z0VicG9NTmFpeThEejRn?oc=5",
+        "source": "MorungExpress",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-06T20:21:30Z",
+        "title": "India condemns attack on commercial vessel in Black Sea - MorungExpress"
+      }
+    ],
+    "first_seen": "2026-11-06T23:27:28Z",
+    "last_updated": "2026-11-06T23:27:28Z",
+    "verification_issue": 346,
+    "verdict": null,
+    "published_in": [],
+    "status": "reported",
     "position_approx": true
   },
   {
@@ -1605,11 +1770,16 @@
       }
     ],
     "first_seen": "2026-11-06T18:21:53Z",
-    "last_updated": "2026-11-06T18:21:53Z",
+    "last_updated": "2026-11-06T23:27:32Z",
     "verification_issue": 345,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "review pass",
+      "at": "2026-11-06T23:27:32Z",
+      "note": "Out of scope: (a) strike on Tuapse port with no confirmed vessel hit"
+    },
     "published_in": [],
-    "status": "claimed",
+    "status": "rejected",
     "position_approx": true
   },
   {
