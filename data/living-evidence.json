@@ -18819,6 +18819,68 @@
           ]
         }
       ]
+    },
+    "HIST-ME-20261103-GRIT": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-06T02:48:00Z",
+        "vessel_name": "GRIT",
+        "imo": "9243150",
+        "date_utc": "2026-11-03",
+        "vessel_type": "Crude oil tanker (VLCC)",
+        "region": "Strait of Hormuz",
+        "location_text": "About 14 nautical miles northeast of Limah (Lima), Oman",
+        "attack_type": "two unknown projectiles",
+        "date_note": "UKMTO 195-26 records the company security officer report at 1900 UTC on 3 November 2026, which was 23:00 local time in Oman. The row keeps the day of the report and claims no finer precision.",
+        "summary": "GRIT, a VLCC of about 298,555 dwt under the flag of Barbados and built in 2003, was struck by two unknown projectiles in its engine room at 1900 UTC on 3 November 2026 about 14 nautical miles northeast of Limah (Lima), Oman. UKMTO warning 195-26 recorded the report from the company security officer, which stated no casualties and no environmental impact, and withheld the name. JMIC advisory update 111 of 5 November 2026 lists the same row as name withheld. The security firm Vanguard Tech, reported by Seatrade Maritime and Riviera Maritime Media, identified the tanker as the Barbados-flagged VLCC Grit, and Clearwater Dynamics recorded the name with IMO 9243150. The extent of damage and the operational status of the vessel were not established, and Iran had listed her among non-compliant ships before the attack.",
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_111_05-nov.pdf",
+            "source": "JMIC advisory update 111, 5 November 2026: UKMTO 195-26 row, tanker struck by two unknown projectiles in the engine room about 14NM northeast of Lima, Oman on 3 November, no casualties or environmental impact reported, name withheld"
+          },
+          {
+            "url": "https://www.cwdynamics.com/alerts/alert/33571",
+            "source": "Clearwater Dynamics alert on UKMTO 195-26: names the tanker as the Barbados-flagged crude oil tanker GRIT, IMO 9243150"
+          },
+          {
+            "url": "https://www.seatrade-maritime.com/security/vlcc-engine-room-struck-in-latest-hormuz-attack",
+            "source": "Seatrade Maritime, reporting Vanguard Tech: Barbados-registered VLCC Grit hit in the engine room by two unknown projectiles 14NM northeast of Limah at 1900 UTC on 3 November, no crew casualties reported"
+          },
+          {
+            "url": "https://www.rivieramm.com/news-content-hub/fresh-hormuz-attacks-leave-seafarer-dead-and-several-vessels-damaged-90476",
+            "source": "Riviera Maritime Media, 4 November 2026: Vanguard Tech reported the Barbados-flagged tanker Grit struck in its engine room, UKMTO confirmed the location and the company security officer report"
+          },
+          {
+            "url": "https://www.vesseltracker.com/en/Ships/Grit-9243150.html",
+            "source": "vesseltracker particulars: GRIT, IMO 9243150, tankship, flag Barbados; records the 3 November 2026 strike with all crew safe"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-06T02:48:00Z",
+          "text": "New reviewed record for an attack absent from both stores. Two unknown projectiles struck the engine room of the Barbados-flagged VLCC Grit, IMO 9243150, about 14 nautical miles northeast of Limah, Oman at 1900 UTC on 3 November 2026. UKMTO warning 195-26 gives the position and the company security officer report and states no casualties and no environmental impact; JMIC update 111 lists the same row with the name withheld, and Vanguard Tech through Seatrade Maritime and Riviera Maritime Media, with Clearwater Dynamics, named the hull and IMO. No crew figure is asserted: the no casualties wording is recorded as reported, and the count stays unknown rather than being set to zero. This event is separate from the 2 November attack on the dhow Al Jusufi, which is the only known fatal attack in this sequence.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_111_05-nov.pdf",
+              "source": "JMIC advisory update 111, 5 November 2026, UKMTO 195-26 row"
+            },
+            {
+              "url": "https://www.cwdynamics.com/alerts/alert/33571",
+              "source": "Clearwater Dynamics alert naming GRIT, IMO 9243150"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/vlcc-engine-room-struck-in-latest-hormuz-attack",
+              "source": "Seatrade Maritime reporting Vanguard Tech"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -34230,6 +34292,76 @@
             {
               "url": "https://www.vesselfinder.com/vessels/details/9202118",
               "source": "VesselFinder AIS record for ERA S, IMO 9202118, arrival Mina Khalifa 2 November 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6675675986,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6675675986",
+      "author": "iMariner",
+      "received_at": "2026-11-06T03:00:58Z",
+      "incident_id": "HIST-ME-20261103-GRIT",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-ME-20261103-GRIT",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-06T02:48:00Z",
+          "vessel_name": "GRIT",
+          "imo": "9243150",
+          "date_utc": "2026-11-03",
+          "vessel_type": "Crude oil tanker (VLCC)",
+          "region": "Strait of Hormuz",
+          "location_text": "About 14 nautical miles northeast of Limah (Lima), Oman",
+          "attack_type": "two unknown projectiles",
+          "date_note": "UKMTO 195-26 records the company security officer report at 1900 UTC on 3 November 2026, which was 23:00 local time in Oman. The row keeps the day of the report and claims no finer precision.",
+          "summary": "GRIT, a VLCC of about 298,555 dwt under the flag of Barbados and built in 2003, was struck by two unknown projectiles in its engine room at 1900 UTC on 3 November 2026 about 14 nautical miles northeast of Limah (Lima), Oman. UKMTO warning 195-26 recorded the report from the company security officer, which stated no casualties and no environmental impact, and withheld the name. JMIC advisory update 111 of 5 November 2026 lists the same row as name withheld. The security firm Vanguard Tech, reported by Seatrade Maritime and Riviera Maritime Media, identified the tanker as the Barbados-flagged VLCC Grit, and Clearwater Dynamics recorded the name with IMO 9243150. The extent of damage and the operational status of the vessel were not established, and Iran had listed her among non-compliant ships before the attack.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_111_05-nov.pdf",
+              "source": "JMIC advisory update 111, 5 November 2026: UKMTO 195-26 row, tanker struck by two unknown projectiles in the engine room about 14NM northeast of Lima, Oman on 3 November, no casualties or environmental impact reported, name withheld"
+            },
+            {
+              "url": "https://www.cwdynamics.com/alerts/alert/33571",
+              "source": "Clearwater Dynamics alert on UKMTO 195-26: names the tanker as the Barbados-flagged crude oil tanker GRIT, IMO 9243150"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/vlcc-engine-room-struck-in-latest-hormuz-attack",
+              "source": "Seatrade Maritime, reporting Vanguard Tech: Barbados-registered VLCC Grit hit in the engine room by two unknown projectiles 14NM northeast of Limah at 1900 UTC on 3 November, no crew casualties reported"
+            },
+            {
+              "url": "https://www.rivieramm.com/news-content-hub/fresh-hormuz-attacks-leave-seafarer-dead-and-several-vessels-damaged-90476",
+              "source": "Riviera Maritime Media, 4 November 2026: Vanguard Tech reported the Barbados-flagged tanker Grit struck in its engine room, UKMTO confirmed the location and the company security officer report"
+            },
+            {
+              "url": "https://www.vesseltracker.com/en/Ships/Grit-9243150.html",
+              "source": "vesseltracker particulars: GRIT, IMO 9243150, tankship, flag Barbados; records the 3 November 2026 strike with all crew safe"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-06T02:48:00Z",
+          "text": "New reviewed record for an attack absent from both stores. Two unknown projectiles struck the engine room of the Barbados-flagged VLCC Grit, IMO 9243150, about 14 nautical miles northeast of Limah, Oman at 1900 UTC on 3 November 2026. UKMTO warning 195-26 gives the position and the company security officer report and states no casualties and no environmental impact; JMIC update 111 lists the same row with the name withheld, and Vanguard Tech through Seatrade Maritime and Riviera Maritime Media, with Clearwater Dynamics, named the hull and IMO. No crew figure is asserted: the no casualties wording is recorded as reported, and the count stays unknown rather than being set to zero. This event is separate from the 2 November attack on the dhow Al Jusufi, which is the only known fatal attack in this sequence.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_111_05-nov.pdf",
+              "source": "JMIC advisory update 111, 5 November 2026, UKMTO 195-26 row"
+            },
+            {
+              "url": "https://www.cwdynamics.com/alerts/alert/33571",
+              "source": "Clearwater Dynamics alert naming GRIT, IMO 9243150"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/vlcc-engine-room-struck-in-latest-hormuz-attack",
+              "source": "Seatrade Maritime reporting Vanguard Tech"
             }
           ]
         }
