@@ -18127,6 +18127,16 @@
               "source": "TradeWinds, 2 November 2026"
             }
           ]
+        },
+        {
+          "at": "2026-11-06T02:50:00Z",
+          "text": "Follow-up evidence on the crew, with no numeric change. JMIC advisory update 111 of 5 November 2026 lists the 1 November attack on SELAT STORM (UKMTO 191-26 and NAVAREA IX 425/26) and states in its official register row that casualty reports are conflicting. Earlier official text recorded only that the master of a nearby merchant vessel relayed a mayday and that NAVAREA IX reported the tug sunk about 0.6 nautical miles west of Jazirat Um Al Ghanam. Because the register itself describes the casualty reports as conflicting, no crew number and no death count are recorded here. One event also carries a second reviewed overlay record, INC-20261101-011, with earlier wording; that pair is a duplicate of a single 1 November attack and needs a human merge rather than an added attack or casualty count.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_111_05-nov.pdf",
+              "source": "JMIC advisory update 111, 5 November 2026: UKMTO 191-26 and NAVAREA IX 425/26 row for SELAT STORM, casualty reports are conflicting"
+            }
+          ]
         }
       ]
     },
@@ -34362,6 +34372,81 @@
             {
               "url": "https://www.seatrade-maritime.com/security/vlcc-engine-room-struck-in-latest-hormuz-attack",
               "source": "Seatrade Maritime reporting Vanguard Tech"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6675683981,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6675683981",
+      "author": "iMariner",
+      "received_at": "2026-11-06T03:01:33Z",
+      "incident_id": "INC-20261101-016",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-03T19:00:00Z",
+          "vessel_name": "SELAT STORM",
+          "date_utc": "2026-11-01",
+          "vessel_type": "Anchor-handling tug supply vessel",
+          "region": "Strait of Hormuz",
+          "location_text": "About 0.6 nautical miles west of Jazirat Um Al Ghanam, Strait of Hormuz",
+          "imo": "9266657",
+          "summary": "The Panama-flagged anchor-handling tug supply vessel Selat Storm was struck by an unknown projectile in the Strait of Hormuz at about 1500 UTC on 1 November 2026, shortly after leaving Al Hamriyah in the United Arab Emirates. The master of a passing merchant vessel relayed the tug's mayday to UKMTO, whose warning 191-26 recorded the attack without naming the hull. NAVAREA IX warning 425/26 then named Selat Storm as sunk in position 26-22.55N 056-20.47E, about 0.6 nautical miles west of Jazirat Um Al Ghanam. No official statement on the number of crew on board or their fate has been found.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261101-ukmto_warning_191_26.pdf",
+              "source": "UKMTO warning 191-26, 1 November 2026"
+            },
+            {
+              "url": "https://www.sealagom.com/navarea/9/message/25463/",
+              "source": "NAVAREA IX warning 425/26, Hydrographer of Pakistan, text reproduced by SeaLagom"
+            },
+            {
+              "url": "https://cwdynamics.com/alerts/alert/33564",
+              "source": "Clearwater Dynamics alert 001-26, 1 November 2026"
+            },
+            {
+              "url": "https://www.tradewindsnews.com/casualties/hormuz-attack-leaves-hole-in-merchant-vessel-off-oman/2-1-2067885",
+              "source": "TradeWinds, 2 November 2026"
+            }
+          ]
+        },
+        "updates": [
+          {
+            "at": "2026-11-03T19:00:00Z",
+            "text": "This record previously carried only an IMO register line with no reviewed identity, position or summary. UKMTO warning 191-26 logged an unnamed attack inside the Strait of Hormuz at 1509 UTC on 1 November 2026 after a mayday relay. NAVAREA IX warning 425/26 of 2 November named the tug Selat Storm as sunk about 0.6 nautical miles west of Jazirat Um Al Ghanam, and industry reporting identified the hull as the Panama-flagged Selat Storm. The crew count and their fate remain unconfirmed, so no casualty figure is recorded and none is inferred from the silence of the sources.",
+            "sources": [
+              {
+                "url": "https://www.ukmto.org/-/media/ukmto/products/20261101-ukmto_warning_191_26.pdf",
+                "source": "UKMTO warning 191-26, 1 November 2026"
+              },
+              {
+                "url": "https://www.sealagom.com/navarea/9/message/25463/",
+                "source": "NAVAREA IX warning 425/26, Hydrographer of Pakistan, text reproduced by SeaLagom"
+              },
+              {
+                "url": "https://cwdynamics.com/alerts/alert/33564",
+                "source": "Clearwater Dynamics alert 001-26, 1 November 2026"
+              },
+              {
+                "url": "https://www.tradewindsnews.com/casualties/hormuz-attack-leaves-hole-in-merchant-vessel-off-oman/2-1-2067885",
+                "source": "TradeWinds, 2 November 2026"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "INC-20261101-016",
+        "update": {
+          "at": "2026-11-06T02:50:00Z",
+          "text": "Follow-up evidence on the crew, with no numeric change. JMIC advisory update 111 of 5 November 2026 lists the 1 November attack on SELAT STORM (UKMTO 191-26 and NAVAREA IX 425/26) and states in its official register row that casualty reports are conflicting. Earlier official text recorded only that the master of a nearby merchant vessel relayed a mayday and that NAVAREA IX reported the tug sunk about 0.6 nautical miles west of Jazirat Um Al Ghanam. Because the register itself describes the casualty reports as conflicting, no crew number and no death count are recorded here. One event also carries a second reviewed overlay record, INC-20261101-011, with earlier wording; that pair is a duplicate of a single 1 November attack and needs a human merge rather than an added attack or casualty count.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_111_05-nov.pdf",
+              "source": "JMIC advisory update 111, 5 November 2026: UKMTO 191-26 and NAVAREA IX 425/26 row for SELAT STORM, casualty reports are conflicting"
             }
           ]
         }
