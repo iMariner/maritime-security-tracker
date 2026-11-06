@@ -18963,6 +18963,28 @@
           ]
         }
       ]
+    },
+    "INC-20261105-005": {
+      "updates": [
+        {
+          "at": "2026-11-06T09:20:00Z",
+          "text": "Date and casualty check on a one-sided claim, with no verification submitted because no vessel can be identified. Russia's defence ministry said on 5 November 2026 that drones struck a vessel of the dry cargo type 107 km south-west of Odesa carrying military equipment and dual-use cargo to Ukraine, as carried by Interfax and RIA Novosti; the statement names no vessel, gives no flag, cargo quantity or confirmed position and reports no casualties. No authority and no independent report opened here identified the ship or reported a death in this strike, and the ministry's own posts cited by this row carry the same limits. The row's one seafarer killed cannot be tied to this event: the only headline behind it is a Turkish language report of 4 November 2026 that is also carried by INC-20261104-001 and names no vessel, date or position. The death count is therefore treated as unknown rather than one, the position stays the ministry's claim rather than a confirmed fix, and this row remains unreviewed and outside published totals.",
+          "sources": [
+            {
+              "url": "https://www.interfax.ru/russia/1127250",
+              "source": "Interfax, 5 November 2026, quoting Russia's defence ministry: drones struck a dry cargo type vessel 107 km south-west of Odesa, no vessel named, no casualties reported"
+            },
+            {
+              "url": "https://ria.ru/20261105/vs-2129502216.html",
+              "source": "RIA Novosti, 5 November 2026, the same defence ministry statement, no vessel name and no casualty figure"
+            },
+            {
+              "url": "https://t.me/mod_russia/68782",
+              "source": "Russia's defence ministry post of 5 November 2026 cited by this row, checked in the incident record"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -34599,6 +34621,35 @@
             {
               "url": "https://www.vesselfinder.com/vessels/details/9217785",
               "source": "VesselFinder record for IMO 9217785, read 6 November 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6681445853,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6681445853",
+      "author": "iMariner",
+      "received_at": "2026-11-06T09:16:13Z",
+      "incident_id": "INC-20261105-005",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261105-005",
+        "update": {
+          "at": "2026-11-06T09:20:00Z",
+          "text": "Date and casualty check on a one-sided claim, with no verification submitted because no vessel can be identified. Russia's defence ministry said on 5 November 2026 that drones struck a vessel of the dry cargo type 107 km south-west of Odesa carrying military equipment and dual-use cargo to Ukraine, as carried by Interfax and RIA Novosti; the statement names no vessel, gives no flag, cargo quantity or confirmed position and reports no casualties. No authority and no independent report opened here identified the ship or reported a death in this strike, and the ministry's own posts cited by this row carry the same limits. The row's one seafarer killed cannot be tied to this event: the only headline behind it is a Turkish language report of 4 November 2026 that is also carried by INC-20261104-001 and names no vessel, date or position. The death count is therefore treated as unknown rather than one, the position stays the ministry's claim rather than a confirmed fix, and this row remains unreviewed and outside published totals.",
+          "sources": [
+            {
+              "url": "https://www.interfax.ru/russia/1127250",
+              "source": "Interfax, 5 November 2026, quoting Russia's defence ministry: drones struck a dry cargo type vessel 107 km south-west of Odesa, no vessel named, no casualties reported"
+            },
+            {
+              "url": "https://ria.ru/20261105/vs-2129502216.html",
+              "source": "RIA Novosti, 5 November 2026, the same defence ministry statement, no vessel name and no casualty figure"
+            },
+            {
+              "url": "https://t.me/mod_russia/68782",
+              "source": "Russia's defence ministry post of 5 November 2026 cited by this row, checked in the incident record"
             }
           ]
         }
