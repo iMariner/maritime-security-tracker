@@ -18891,6 +18891,78 @@
           ]
         }
       ]
+    },
+    "HIST-BS-20250703-AJ-ROSE": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 2,
+        "sources": [
+          {
+            "url": "https://data.consilium.europa.eu/doc/document/WK-15310-2025-INIT/en/pdf",
+            "source": "Ukraine's submission to the IMO Assembly, annex entry 27: two people killed and six injured at the Odesa Commercial Sea Port berthing on 3 July 2025, role of the dead not specified"
+          },
+          {
+            "url": "https://www.pravda.com.ua/eng/news/2025/11/04/8005759",
+            "source": "Ukrainska Pravda, 4 November 2025, carrying the Ukrainian monitoring group: two crew members of AJ Rose were killed"
+          },
+          {
+            "url": "https://odessa-journal.com/14-ships-damaged-in-odessa-region-ports-over-9-months-of-russian-attacks",
+            "source": "The Odesa Journal, 4 November 2025, the same briefing: two crew members killed"
+          }
+        ],
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-06T09:20:00Z",
+        "vessel_name": "AJ ROSE",
+        "imo": "9217785",
+        "date_utc": "2025-07-03",
+        "vessel_type": "General cargo ship",
+        "region": "Black Sea",
+        "location_text": "Odesa Commercial Sea Port, Ukraine",
+        "attack_type": "ballistic missile (Iskander, as described by Ukraine's IMO submission and by Ukraine's monitoring group)",
+        "date_note": "Ukraine's submission to the IMO Assembly annex places the strike in the afternoon of 3 July 2025, and the monitoring group briefing reported on 4 November 2025 uses the same day. Day precision only; no time of day and no UTC conversion are asserted.",
+        "summary": "AJ ROSE, a general cargo ship of 6,397 deadweight tonnes built in 2000 under IMO number 9217785 and then sailing under the flag of Sao Tome and Principe, was in Odesa Commercial Sea Port with a cargo of metal when a Russian Iskander ballistic missile struck the port in the afternoon of 3 July 2025. Ukraine's submission to the IMO Assembly records in its annex that the berthing facilities were damaged and that two people were killed and six injured, and the Ukrainian monitoring group led by Andrii Klymenko reported that the ship herself was damaged and that two crew members were killed. The annex does not separate the dead and injured into crew members and port workers, and the same submission's narrative gives 12 casualties at the berth where AJ Rose was being unloaded, so no injury count is recorded here.",
+        "sources": [
+          {
+            "url": "https://data.consilium.europa.eu/doc/document/WK-15310-2025-INIT/en/pdf",
+            "source": "Ukraine's submission to the 34th IMO Assembly, A 34/23/2 with Corr.1, circulated by the Council of the EU as WK 15310/2025, read 6 November 2026: annex entry 27, General Cargo Ship AJ ROSE, IMO 9217785, flag Sao Tome and Principe, Odesa Commercial Sea Port, afternoon of 3 July 2025, Iskander ballistic missile damaged berthing facilities, two killed and six injured; paragraph 10 gives 12 casualties at the berth where AJ Rose was being unloaded"
+          },
+          {
+            "url": "https://www.pravda.com.ua/eng/news/2025/11/04/8005759",
+            "source": "Ukrainska Pravda, 4 November 2025, reporting Andrii Klymenko, head of the Black Sea and Baltic Strategic Research Monitoring Group: AJ Rose, IMO 9217785, damaged by an Iskander-M ballistic missile in Odesa Sea Port on 3 July 2025, two crew members killed"
+          },
+          {
+            "url": "https://odessa-journal.com/14-ships-damaged-in-odessa-region-ports-over-9-months-of-russian-attacks",
+            "source": "The Odesa Journal, 4 November 2025, the same monitoring group briefing: 03.07.25 bulk carrier AJ ROSE, IMO 9217785, damaged by an Iskander-M missile in Odesa Sea Port, two crew members killed"
+          },
+          {
+            "url": "https://www.vesselfinder.com/vessels/details/9217785",
+            "source": "VesselFinder record for IMO 9217785, read 6 November 2026: AJ ROSE, general cargo ship, 98 m, 6,397 deadweight tonnes, built 2000, now listed under the flag of Comoros"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-06T09:20:00Z",
+          "text": "New historical record for an event absent from both stores, created from Ukraine's submission to the IMO Assembly and the Ukrainian monitoring group, and resolving the dated hold that withheld this vessel because ship damage and the role of the two dead were unclear. The strike is dated 3 July 2025 at Odesa Commercial Sea Port in the afternoon, so the row is dated by day only. Deaths are recorded as two, the figure given both by the annex and by the monitoring group, which states that both were crew members; no nationality is asserted because no source opened here gives one. No injured snapshot is kept: the annex gives six injured while the same submission's narrative gives 12 casualties at that berth, and it does not split crew members from port workers, so the injury total is unresolved rather than zero. Flag and type are recorded with a visible conflict rather than resolved: the annex and the vessel record give a Sao Tome and Principe flagged general cargo ship of 6,397 deadweight tonnes, built in 2000 and now listed under the Comoros flag, while the monitoring group briefing described her as a bulk carrier under the flag of Saint Kitts and Nevis. The identity rests on IMO 9217785 and on the matching date and port, not on the flag.",
+          "sources": [
+            {
+              "url": "https://data.consilium.europa.eu/doc/document/WK-15310-2025-INIT/en/pdf",
+              "source": "Ukraine's submission to the IMO Assembly, annex entry 27 and paragraph 10, read 6 November 2026"
+            },
+            {
+              "url": "https://www.pravda.com.ua/eng/news/2025/11/04/8005759",
+              "source": "Ukrainska Pravda, 4 November 2025, the Klymenko monitoring group briefing"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9217785",
+              "source": "VesselFinder record for IMO 9217785, read 6 November 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -34447,6 +34519,86 @@
             {
               "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_111_05-nov.pdf",
               "source": "JMIC advisory update 111, 5 November 2026: UKMTO 191-26 and NAVAREA IX 425/26 row for SELAT STORM, casualty reports are conflicting"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6681414924,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6681414924",
+      "author": "iMariner",
+      "received_at": "2026-11-06T09:14:27Z",
+      "incident_id": "HIST-BS-20250703-AJ-ROSE",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-BS-20250703-AJ-ROSE",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-06T09:20:00Z",
+          "vessel_name": "AJ ROSE",
+          "imo": "9217785",
+          "date_utc": "2025-07-03",
+          "vessel_type": "General cargo ship",
+          "region": "Black Sea",
+          "location_text": "Odesa Commercial Sea Port, Ukraine",
+          "attack_type": "ballistic missile (Iskander, as described by Ukraine's IMO submission and by Ukraine's monitoring group)",
+          "date_note": "Ukraine's submission to the IMO Assembly annex places the strike in the afternoon of 3 July 2025, and the monitoring group briefing reported on 4 November 2025 uses the same day. Day precision only; no time of day and no UTC conversion are asserted.",
+          "summary": "AJ ROSE, a general cargo ship of 6,397 deadweight tonnes built in 2000 under IMO number 9217785 and then sailing under the flag of Sao Tome and Principe, was in Odesa Commercial Sea Port with a cargo of metal when a Russian Iskander ballistic missile struck the port in the afternoon of 3 July 2025. Ukraine's submission to the IMO Assembly records in its annex that the berthing facilities were damaged and that two people were killed and six injured, and the Ukrainian monitoring group led by Andrii Klymenko reported that the ship herself was damaged and that two crew members were killed. The annex does not separate the dead and injured into crew members and port workers, and the same submission's narrative gives 12 casualties at the berth where AJ Rose was being unloaded, so no injury count is recorded here.",
+          "sources": [
+            {
+              "url": "https://data.consilium.europa.eu/doc/document/WK-15310-2025-INIT/en/pdf",
+              "source": "Ukraine's submission to the 34th IMO Assembly, A 34/23/2 with Corr.1, circulated by the Council of the EU as WK 15310/2025, read 6 November 2026: annex entry 27, General Cargo Ship AJ ROSE, IMO 9217785, flag Sao Tome and Principe, Odesa Commercial Sea Port, afternoon of 3 July 2025, Iskander ballistic missile damaged berthing facilities, two killed and six injured; paragraph 10 gives 12 casualties at the berth where AJ Rose was being unloaded"
+            },
+            {
+              "url": "https://www.pravda.com.ua/eng/news/2025/11/04/8005759",
+              "source": "Ukrainska Pravda, 4 November 2025, reporting Andrii Klymenko, head of the Black Sea and Baltic Strategic Research Monitoring Group: AJ Rose, IMO 9217785, damaged by an Iskander-M ballistic missile in Odesa Sea Port on 3 July 2025, two crew members killed"
+            },
+            {
+              "url": "https://odessa-journal.com/14-ships-damaged-in-odessa-region-ports-over-9-months-of-russian-attacks",
+              "source": "The Odesa Journal, 4 November 2025, the same monitoring group briefing: 03.07.25 bulk carrier AJ ROSE, IMO 9217785, damaged by an Iskander-M missile in Odesa Sea Port, two crew members killed"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9217785",
+              "source": "VesselFinder record for IMO 9217785, read 6 November 2026: AJ ROSE, general cargo ship, 98 m, 6,397 deadweight tonnes, built 2000, now listed under the flag of Comoros"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 2,
+          "sources": [
+            {
+              "url": "https://data.consilium.europa.eu/doc/document/WK-15310-2025-INIT/en/pdf",
+              "source": "Ukraine's submission to the IMO Assembly, annex entry 27: two people killed and six injured at the Odesa Commercial Sea Port berthing on 3 July 2025, role of the dead not specified"
+            },
+            {
+              "url": "https://www.pravda.com.ua/eng/news/2025/11/04/8005759",
+              "source": "Ukrainska Pravda, 4 November 2025, carrying the Ukrainian monitoring group: two crew members of AJ Rose were killed"
+            },
+            {
+              "url": "https://odessa-journal.com/14-ships-damaged-in-odessa-region-ports-over-9-months-of-russian-attacks",
+              "source": "The Odesa Journal, 4 November 2025, the same briefing: two crew members killed"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-06T09:20:00Z",
+          "text": "New historical record for an event absent from both stores, created from Ukraine's submission to the IMO Assembly and the Ukrainian monitoring group, and resolving the dated hold that withheld this vessel because ship damage and the role of the two dead were unclear. The strike is dated 3 July 2025 at Odesa Commercial Sea Port in the afternoon, so the row is dated by day only. Deaths are recorded as two, the figure given both by the annex and by the monitoring group, which states that both were crew members; no nationality is asserted because no source opened here gives one. No injured snapshot is kept: the annex gives six injured while the same submission's narrative gives 12 casualties at that berth, and it does not split crew members from port workers, so the injury total is unresolved rather than zero. Flag and type are recorded with a visible conflict rather than resolved: the annex and the vessel record give a Sao Tome and Principe flagged general cargo ship of 6,397 deadweight tonnes, built in 2000 and now listed under the Comoros flag, while the monitoring group briefing described her as a bulk carrier under the flag of Saint Kitts and Nevis. The identity rests on IMO 9217785 and on the matching date and port, not on the flag.",
+          "sources": [
+            {
+              "url": "https://data.consilium.europa.eu/doc/document/WK-15310-2025-INIT/en/pdf",
+              "source": "Ukraine's submission to the IMO Assembly, annex entry 27 and paragraph 10, read 6 November 2026"
+            },
+            {
+              "url": "https://www.pravda.com.ua/eng/news/2025/11/04/8005759",
+              "source": "Ukrainska Pravda, 4 November 2025, the Klymenko monitoring group briefing"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9217785",
+              "source": "VesselFinder record for IMO 9217785, read 6 November 2026"
             }
           ]
         }
