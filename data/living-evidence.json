@@ -18761,6 +18761,64 @@
           ]
         }
       ]
+    },
+    "HIST-ME-20261101-ERA-S": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-06T02:46:00Z",
+        "vessel_name": "ERA S",
+        "imo": "9202118",
+        "date_utc": "2026-11-01",
+        "vessel_type": "Bulk carrier",
+        "region": "Strait of Hormuz",
+        "location_text": "About 9 nautical miles northeast of Lima (Limah), Oman",
+        "attack_type": "unknown projectile",
+        "date_note": "UKMTO received the report from the master at 2020 UTC on 1 November 2026 and issued warning 193-26 on 2 November. The attack day is kept as 1 November and no finer time precision is claimed.",
+        "summary": "ERA S, a 46,681 dwt bulk carrier under the flag of Panama and built in 1999, was struck by an unknown projectile at 2020 UTC on 1 November 2026 about 9 nautical miles northeast of Lima (Limah), Oman, causing a hole on the starboard side. UKMTO warning 193-26 recorded the report from the master that the vessel and crew were safe and that no environmental impact was reported, but withheld the name. JMIC advisory update 111 of 5 November 2026 lists the same row as name withheld and adds that MSCIO also reported it as 166/26. The security firm Marisks, reported by Riviera Maritime Media, identified the vessel as the Panama-flagged bulk carrier Era S, said she remained operational and continued her voyage, and gave the registered owner, ISM manager and commercial manager as Transatlantic Shipping Ltd-Mai of Istanbul. AIS data recorded her arrival at Mina Khalifa in the United Arab Emirates on 2 November 2026.",
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261102-ukmto_warning_193.pdf",
+            "source": "UKMTO warning 193-26, 2 November 2026: attack at 2020 UTC on 1 November, 9NM northeast of Lima, Oman, hole on the starboard side, vessel and crew safe, name withheld"
+          },
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_111_05-nov.pdf",
+            "source": "JMIC advisory update 111, 5 November 2026: UKMTO 193-26 row listed as name withheld, also reported by MSCIO in 166/26"
+          },
+          {
+            "url": "https://www.rivieramm.com/news-content-hub/fresh-hormuz-attacks-leave-seafarer-dead-and-several-vessels-damaged-90476",
+            "source": "Riviera Maritime Media, 4 November 2026: identifies the vessel as the Panama-flagged bulk carrier Era S, 46,681 dwt, built 1999, manager Transatlantic Shipping Ltd-Mai, remained operational after the strike"
+          },
+          {
+            "url": "https://www.vesselfinder.com/vessels/details/9202118",
+            "source": "VesselFinder particulars: ERA S, IMO 9202118, Panama, bulk carrier, built 1999, 46,681 dwt; arrival Mina Khalifa 2 November 2026"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-06T02:46:00Z",
+          "text": "New reviewed record for an event absent from both stores: an attack on an unnamed vessel 9 nautical miles northeast of Lima, Oman at 2020 UTC on 1 November 2026, recorded by UKMTO warning 193-26 with a hole on the starboard side and the vessel and crew reported safe. Marisks, reported by Riviera Maritime Media, identified the hull as the Panama-flagged bulk carrier Era S, IMO 9202118, and said she stayed operational; AIS shows her at Mina Khalifa on 2 November. The official warning withholds the name, so the identification rests on the security firm and AIS data and is stated as such. No death or injury figure is recorded and none is inferred from the absence of casualty reporting: the casualty status is unknown, not zero.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261102-ukmto_warning_193.pdf",
+              "source": "UKMTO warning 193-26, 2 November 2026"
+            },
+            {
+              "url": "https://www.rivieramm.com/news-content-hub/fresh-hormuz-attacks-leave-seafarer-dead-and-several-vessels-damaged-90476",
+              "source": "Riviera Maritime Media, 4 November 2026, reporting Marisks and Equasis data"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9202118",
+              "source": "VesselFinder AIS record for ERA S, IMO 9202118, arrival Mina Khalifa 2 November 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -34106,6 +34164,72 @@
             {
               "url": "https://www.mea.gov.in/Speeches-Statements.htm?dtl/41284",
               "source": "Ministry of External Affairs, India, statement of 3 November 2026, the source for the Al Jusufi death already recorded against INC-20261103-004"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6675653813,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6675653813",
+      "author": "iMariner",
+      "received_at": "2026-11-06T02:59:19Z",
+      "incident_id": "HIST-ME-20261101-ERA-S",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-ME-20261101-ERA-S",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-06T02:46:00Z",
+          "vessel_name": "ERA S",
+          "imo": "9202118",
+          "date_utc": "2026-11-01",
+          "vessel_type": "Bulk carrier",
+          "region": "Strait of Hormuz",
+          "location_text": "About 9 nautical miles northeast of Lima (Limah), Oman",
+          "attack_type": "unknown projectile",
+          "date_note": "UKMTO received the report from the master at 2020 UTC on 1 November 2026 and issued warning 193-26 on 2 November. The attack day is kept as 1 November and no finer time precision is claimed.",
+          "summary": "ERA S, a 46,681 dwt bulk carrier under the flag of Panama and built in 1999, was struck by an unknown projectile at 2020 UTC on 1 November 2026 about 9 nautical miles northeast of Lima (Limah), Oman, causing a hole on the starboard side. UKMTO warning 193-26 recorded the report from the master that the vessel and crew were safe and that no environmental impact was reported, but withheld the name. JMIC advisory update 111 of 5 November 2026 lists the same row as name withheld and adds that MSCIO also reported it as 166/26. The security firm Marisks, reported by Riviera Maritime Media, identified the vessel as the Panama-flagged bulk carrier Era S, said she remained operational and continued her voyage, and gave the registered owner, ISM manager and commercial manager as Transatlantic Shipping Ltd-Mai of Istanbul. AIS data recorded her arrival at Mina Khalifa in the United Arab Emirates on 2 November 2026.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261102-ukmto_warning_193.pdf",
+              "source": "UKMTO warning 193-26, 2 November 2026: attack at 2020 UTC on 1 November, 9NM northeast of Lima, Oman, hole on the starboard side, vessel and crew safe, name withheld"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_111_05-nov.pdf",
+              "source": "JMIC advisory update 111, 5 November 2026: UKMTO 193-26 row listed as name withheld, also reported by MSCIO in 166/26"
+            },
+            {
+              "url": "https://www.rivieramm.com/news-content-hub/fresh-hormuz-attacks-leave-seafarer-dead-and-several-vessels-damaged-90476",
+              "source": "Riviera Maritime Media, 4 November 2026: identifies the vessel as the Panama-flagged bulk carrier Era S, 46,681 dwt, built 1999, manager Transatlantic Shipping Ltd-Mai, remained operational after the strike"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9202118",
+              "source": "VesselFinder particulars: ERA S, IMO 9202118, Panama, bulk carrier, built 1999, 46,681 dwt; arrival Mina Khalifa 2 November 2026"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-06T02:46:00Z",
+          "text": "New reviewed record for an event absent from both stores: an attack on an unnamed vessel 9 nautical miles northeast of Lima, Oman at 2020 UTC on 1 November 2026, recorded by UKMTO warning 193-26 with a hole on the starboard side and the vessel and crew reported safe. Marisks, reported by Riviera Maritime Media, identified the hull as the Panama-flagged bulk carrier Era S, IMO 9202118, and said she stayed operational; AIS shows her at Mina Khalifa on 2 November. The official warning withholds the name, so the identification rests on the security firm and AIS data and is stated as such. No death or injury figure is recorded and none is inferred from the absence of casualty reporting: the casualty status is unknown, not zero.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261102-ukmto_warning_193.pdf",
+              "source": "UKMTO warning 193-26, 2 November 2026"
+            },
+            {
+              "url": "https://www.rivieramm.com/news-content-hub/fresh-hormuz-attacks-leave-seafarer-dead-and-several-vessels-damaged-90476",
+              "source": "Riviera Maritime Media, 4 November 2026, reporting Marisks and Equasis data"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9202118",
+              "source": "VesselFinder AIS record for ERA S, IMO 9202118, arrival Mina Khalifa 2 November 2026"
             }
           ]
         }
