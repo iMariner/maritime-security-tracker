@@ -675,16 +675,32 @@
         "kind": "media",
         "published_at": "2026-11-05T17:44:55Z",
         "title": "الدفاع الروسية: استهداف سفينة شحن تنقل معدات عسكرية إلى أوكرانيا - وكالة سبأ"
+      },
+      {
+        "url": "https://www.aljazeera.com/amp/news/2026/11/5/russia-says-it-hit-ukrainian-postal-hub-and-ship-as-ukraine-strikes-ryazan",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-06T04:34:00Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-05T15:46:20Z",
-    "last_updated": "2026-11-06T02:47:44Z",
+    "last_updated": "2026-11-06T04:34:00Z",
     "verification_issue": 340,
-    "verdict": null,
+    "verdict": {
+      "status": "claimed",
+      "by": "iMariner",
+      "at": "2026-11-06T04:34:00Z",
+      "note": "Only the Russian defence ministry reports the strike on the dry cargo vessel, and Al Jazeera notes that Ukrainian officials did not immediately confirm the hit.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/340#issuecomment-6676973294"
+    },
     "published_in": [],
-    "status": "reported",
+    "status": "claimed",
     "position_approx": true,
-    "date_approx": false
+    "date_approx": false,
+    "status_changed_at": "2026-11-06T04:34:00Z"
   },
   {
     "region": "Persian Gulf",
@@ -1144,9 +1160,9 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.5,
-    "vessel_name": null,
+    "vessel_name": "MENTOR",
     "imo": null,
-    "flag": null,
+    "flag": "Antigua and Barbuda",
     "vessel_type": "tanker",
     "vessel_category": "merchant",
     "lat": 43.4,
@@ -1177,15 +1193,40 @@
         "kind": "media",
         "published_at": "2026-11-05T01:01:14Z",
         "title": "Tanker hit by attack adrift off Shabla after towline breaks - Shipping Telegraph"
+      },
+      {
+        "url": "https://maritime-executive.com/article/tanker-damaged-by-russian-attack-breaks-towline-prompting-sar-operation",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-06T04:34:04Z",
+        "title": null
+      },
+      {
+        "url": "https://sea-news.az/2026/11/04/romanian-interior-ministry-rescues-seven-turkish-sailors-in-the-black-sea",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-06T04:34:04Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-05T00:30:43Z",
-    "last_updated": "2026-11-05T07:17:53Z",
+    "last_updated": "2026-11-06T04:34:04Z",
     "verification_issue": 336,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-11-06T04:34:04Z",
+      "note": "The towline break on 4 November was a towing accident in a Black Sea storm involving the tanker MENTOR, which had been attacked off Odesa on 24 September, so this was not a new attack on a vessel.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/336#issuecomment-6676972534"
+    },
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-11-06T04:34:04Z"
   },
   {
     "region": "Black Sea",
@@ -1260,12 +1301,36 @@
         "kind": "media",
         "published_at": "2026-11-04T10:02:34Z",
         "title": "الحوثيون يعلنون استهداف سفينة نفط سعودية في البحر الأحمر - المهرية نت"
+      },
+      {
+        "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_111_05-nov.pdf",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-06T04:34:03Z",
+        "title": null
+      },
+      {
+        "url": "https://www.dawn.com/news/2042343/saudi-arabia-warns-of-potential-danger-in-yanbu-oil-hub-as-houthi-attacks-continue",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-06T04:34:03Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-05T00:30:43Z",
-    "last_updated": "2026-11-05T00:30:43Z",
+    "last_updated": "2026-11-06T04:34:03Z",
     "verification_issue": 337,
-    "verdict": null,
+    "verdict": {
+      "status": "claimed",
+      "by": "iMariner",
+      "at": "2026-11-06T04:34:03Z",
+      "note": "The strike on a Saudi tanker is a Houthi statement only, with no vessel, position or damage confirmed, and the JMIC advisory of 5 November records no confirmed attack on a merchant vessel in the southern Red Sea between 1 and 4 November.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/337#issuecomment-6676972776"
+    },
     "published_in": [],
     "status": "claimed",
     "position_approx": true
@@ -2404,15 +2469,31 @@
         "kind": "media",
         "published_at": "2026-11-03T21:10:00Z",
         "title": "US Navy shoots down Houthi missiles targeting US-flagged commercial ships in Gulf of Aden - ABC News - Breaking News, Latest News and Videos"
+      },
+      {
+        "url": "https://abcnews.com/International/us-navy-shoots-houthi-missiles-targeting-us-flagged/story?id=116363642",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-06T04:34:01Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-05T07:17:53Z",
-    "last_updated": "2026-11-05T22:14:25Z",
+    "last_updated": "2026-11-06T04:34:01Z",
     "verification_issue": 339,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-11-06T04:34:01Z",
+      "note": "The ABC News story is dated 2 December 2024, when the destroyers USS Stockdale and USS O'Kane escorted three US-flagged ships through the Gulf of Aden, so the record is a mis-dated reprint of a 2024 event.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/339#issuecomment-6676973034"
+    },
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-11-06T04:34:01Z"
   },
   {
     "region": "Black Sea",
