@@ -2456,7 +2456,7 @@
     "HIST-ME-20260815-RIYAN-STAR": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-24T20:34:00Z",
+        "checked_at": "2026-11-06T21:45:00Z",
         "vessel_name": "RIYAN STAR",
         "imo": "9156761",
         "date_utc": "2026-08-15",
@@ -2464,12 +2464,12 @@
         "region": "Strait of Hormuz",
         "location_text": "Strait of Hormuz",
         "attack_type": "drone (UAV)",
-        "summary": "RIYAN STAR, a Handysize bulk carrier of 24,086 deadweight tonnes built in 1997, was struck on 15 August 2026 while transiting the Strait of Hormuz. Trade reporting described the strike as an Iranian drone attack that killed one seafarer and started a fire in the engine room. The IMO confirmed incident register records the vessel damaged, no pollution and one seafarer fatality. The ship was left unable to proceed under her own power and later lay at the Bandar Abbas anchorage.",
-        "date_note": "The IMO register gives the attack as 15 August 2026. Trade reporting describes the strike as mid-August and gives no separate day.",
+        "summary": "RIYAN STAR, a Handysize bulk carrier of 24,086 deadweight tonnes built in 1997, was struck on 15 August 2026 while transiting the Strait of Hormuz. Trade reporting described the strike as an Iranian drone attack that killed one seafarer and started a fire in the engine room. The IMO confirmed incident register records the vessel damaged, no pollution and one seafarer fatality. Radio Free Syria later identified the seafarer killed as engineer Ahmad Zain al-Din Zain, a Syrian national, who died of his injuries while being taken to hospital. The ship was left unable to proceed under her own power and later lay at the Bandar Abbas anchorage.",
+        "date_note": "The IMO register gives the attack as 15 August 2026. Radio Free Syria dates the strike to the night of Saturday 15 August. Some Syrian social media accounts gave 16 August and are not used.",
         "sources": [
           {
             "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 24 October 2026"
+            "source": "IMO confirmed incident register, checked 6 November 2026: RIYAN STAR (IMO 9156761), 15 August 2026, one seafarer fatality"
           },
           {
             "url": "https://www.seatrade-maritime.com/security/iran-expands-strait-of-hormuz-blacklist-to-77-ships",
@@ -2478,17 +2478,37 @@
           {
             "url": "https://maritimeoptima.com/public/vessels/pages/imo:9156761/mmsi:341680002/RIYAN_STAR.html",
             "source": "Maritime Optima vessel particulars and AIS position, checked 24 October 2026"
+          },
+          {
+            "url": "https://www.facebook.com/RadioFreeSyria/posts/syrian-engineer-dies-after-attack-on-ship-in-strait-of-hormuz%D8%A7%D9%84%D9%86%D8%B3%D8%AE%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A3%D8%AF%D9%86%D8%A7/1569234798554516/",
+            "source": "Radio Free Syria, 17 August 2026, citing Syrian maritime sources on the dead seafarer's identity and nationality"
           }
         ]
       },
       "casualties": {
         "status": "confirmed",
         "deaths": 1,
-        "nationalities": [],
         "sources": [
           {
             "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 21 October 2026"
+            "source": "IMO confirmed incident register, checked 6 November 2026: one seafarer fatality on RIYAN STAR"
+          },
+          {
+            "url": "https://www.facebook.com/RadioFreeSyria/posts/syrian-engineer-dies-after-attack-on-ship-in-strait-of-hormuz%D8%A7%D9%84%D9%86%D8%B3%D8%AE%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A3%D8%AF%D9%86%D8%A7/1569234798554516/",
+            "source": "Radio Free Syria, 17 August 2026: engineer Ahmad Zain al-Din Zain died of injuries after the strike"
+          }
+        ],
+        "nationalities": [
+          {
+            "nationality": "Syrian",
+            "status": "confirmed",
+            "deaths": 1,
+            "sources": [
+              {
+                "url": "https://www.facebook.com/RadioFreeSyria/posts/syrian-engineer-dies-after-attack-on-ship-in-strait-of-hormuz%D8%A7%D9%84%D9%86%D8%B3%D8%AE%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A3%D8%AF%D9%86%D8%A7/1569234798554516/",
+                "source": "Radio Free Syria, 17 August 2026: Syrian maritime sources identified the dead engineer as Ahmad Zain al-Din Zain, a Syrian national"
+              }
+            ]
           }
         ]
       },
@@ -2511,6 +2531,20 @@
             {
               "url": "https://maritimeoptima.com/public/vessels/pages/imo:9156761/mmsi:341680002/RIYAN_STAR.html",
               "source": "Maritime Optima vessel particulars and AIS position, checked 24 October 2026"
+            }
+          ]
+        },
+        {
+          "at": "2026-11-06T21:45:00Z",
+          "text": "The record held one death with no nationality because no source read at review stated one. Radio Free Syria, citing Syrian maritime sources, identified the dead seafarer as engineer Ahmad Zain al-Din Zain, a Syrian national, and said he died of his injuries while being taken to hospital after the strike. The death count stays one, as the IMO confirmed incident register records, and the nationality comes from that explicit statement, not from the ship's flag. The same report explained that early accounts saying all crew were safe were superseded when he died in transit.",
+          "sources": [
+            {
+              "url": "https://www.facebook.com/RadioFreeSyria/posts/syrian-engineer-dies-after-attack-on-ship-in-strait-of-hormuz%D8%A7%D9%84%D9%86%D8%B3%D8%AE%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A3%D8%AF%D9%86%D8%A7/1569234798554516/",
+              "source": "Radio Free Syria, 17 August 2026, citing Syrian maritime sources"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 6 November 2026"
             }
           ]
         }
@@ -35369,6 +35403,151 @@
             {
               "url": "https://www.aa.com.tr/en/europe/14-syrians-among-crew-of-ship-sunk-in-drone-attack-off-bulgaria-11-missing/4087815",
               "source": "Anadolu Agency report already cited in this record on 5 November 2026: 14 Syrians among the crew of 16 and 11 missing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6696547506,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6696547506",
+      "author": "iMariner",
+      "received_at": "2026-11-06T21:45:41Z",
+      "incident_id": "HIST-ME-20260815-RIYAN-STAR",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-24T20:34:00Z",
+          "vessel_name": "RIYAN STAR",
+          "imo": "9156761",
+          "date_utc": "2026-08-15",
+          "vessel_type": "Bulk carrier",
+          "region": "Strait of Hormuz",
+          "location_text": "Strait of Hormuz",
+          "attack_type": "drone (UAV)",
+          "summary": "RIYAN STAR, a Handysize bulk carrier of 24,086 deadweight tonnes built in 1997, was struck on 15 August 2026 while transiting the Strait of Hormuz. Trade reporting described the strike as an Iranian drone attack that killed one seafarer and started a fire in the engine room. The IMO confirmed incident register records the vessel damaged, no pollution and one seafarer fatality. The ship was left unable to proceed under her own power and later lay at the Bandar Abbas anchorage.",
+          "date_note": "The IMO register gives the attack as 15 August 2026. Trade reporting describes the strike as mid-August and gives no separate day.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 24 October 2026"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/iran-expands-strait-of-hormuz-blacklist-to-77-ships",
+              "source": "Seatrade Maritime, 14 September 2026"
+            },
+            {
+              "url": "https://maritimeoptima.com/public/vessels/pages/imo:9156761/mmsi:341680002/RIYAN_STAR.html",
+              "source": "Maritime Optima vessel particulars and AIS position, checked 24 October 2026"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 1,
+          "nationalities": [],
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            }
+          ]
+        },
+        "audit_notes": [
+          "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+        ],
+        "updates": [
+          {
+            "at": "2026-10-24T20:34:00Z",
+            "text": "Narrative added to a record that rested on the IMO register row alone. Trade reporting identifies the weapon as a drone and the damage as an engine room fire that killed one seafarer, matching the register entry of one seafarer fatality with the vessel damaged and no pollution. Vessel particulars, a Handysize bulk carrier of 24,086 deadweight tonnes built in 1997 and flagged in Saint Kitts and Nevis, are checked against a ship database, which also places the ship at the Bandar Abbas anchorage after the attack. No nationality is recorded for the dead seafarer because no source states one, and the flag is not used to infer it.",
+            "sources": [
+              {
+                "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+                "source": "IMO confirmed incident register, checked 24 October 2026"
+              },
+              {
+                "url": "https://www.seatrade-maritime.com/security/iran-expands-strait-of-hormuz-blacklist-to-77-ships",
+                "source": "Seatrade Maritime, 14 September 2026"
+              },
+              {
+                "url": "https://maritimeoptima.com/public/vessels/pages/imo:9156761/mmsi:341680002/RIYAN_STAR.html",
+                "source": "Maritime Optima vessel particulars and AIS position, checked 24 October 2026"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "HIST-ME-20260815-RIYAN-STAR",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-06T21:45:00Z",
+          "vessel_name": "RIYAN STAR",
+          "imo": "9156761",
+          "date_utc": "2026-08-15",
+          "vessel_type": "Bulk carrier",
+          "region": "Strait of Hormuz",
+          "location_text": "Strait of Hormuz",
+          "attack_type": "drone (UAV)",
+          "summary": "RIYAN STAR, a Handysize bulk carrier of 24,086 deadweight tonnes built in 1997, was struck on 15 August 2026 while transiting the Strait of Hormuz. Trade reporting described the strike as an Iranian drone attack that killed one seafarer and started a fire in the engine room. The IMO confirmed incident register records the vessel damaged, no pollution and one seafarer fatality. Radio Free Syria later identified the seafarer killed as engineer Ahmad Zain al-Din Zain, a Syrian national, who died of his injuries while being taken to hospital. The ship was left unable to proceed under her own power and later lay at the Bandar Abbas anchorage.",
+          "date_note": "The IMO register gives the attack as 15 August 2026. Radio Free Syria dates the strike to the night of Saturday 15 August. Some Syrian social media accounts gave 16 August and are not used.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 6 November 2026: RIYAN STAR (IMO 9156761), 15 August 2026, one seafarer fatality"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/iran-expands-strait-of-hormuz-blacklist-to-77-ships",
+              "source": "Seatrade Maritime, 14 September 2026"
+            },
+            {
+              "url": "https://maritimeoptima.com/public/vessels/pages/imo:9156761/mmsi:341680002/RIYAN_STAR.html",
+              "source": "Maritime Optima vessel particulars and AIS position, checked 24 October 2026"
+            },
+            {
+              "url": "https://www.facebook.com/RadioFreeSyria/posts/syrian-engineer-dies-after-attack-on-ship-in-strait-of-hormuz%D8%A7%D9%84%D9%86%D8%B3%D8%AE%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A3%D8%AF%D9%86%D8%A7/1569234798554516/",
+              "source": "Radio Free Syria, 17 August 2026, citing Syrian maritime sources on the dead seafarer's identity and nationality"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 1,
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 6 November 2026: one seafarer fatality on RIYAN STAR"
+            },
+            {
+              "url": "https://www.facebook.com/RadioFreeSyria/posts/syrian-engineer-dies-after-attack-on-ship-in-strait-of-hormuz%D8%A7%D9%84%D9%86%D8%B3%D8%AE%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A3%D8%AF%D9%86%D8%A7/1569234798554516/",
+              "source": "Radio Free Syria, 17 August 2026: engineer Ahmad Zain al-Din Zain died of injuries after the strike"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Syrian",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "url": "https://www.facebook.com/RadioFreeSyria/posts/syrian-engineer-dies-after-attack-on-ship-in-strait-of-hormuz%D8%A7%D9%84%D9%86%D8%B3%D8%AE%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A3%D8%AF%D9%86%D8%A7/1569234798554516/",
+                  "source": "Radio Free Syria, 17 August 2026: Syrian maritime sources identified the dead engineer as Ahmad Zain al-Din Zain, a Syrian national"
+                }
+              ]
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-11-06T21:45:00Z",
+          "text": "The record held one death with no nationality because no source read at review stated one. Radio Free Syria, citing Syrian maritime sources, identified the dead seafarer as engineer Ahmad Zain al-Din Zain, a Syrian national, and said he died of his injuries while being taken to hospital after the strike. The death count stays one, as the IMO confirmed incident register records, and the nationality comes from that explicit statement, not from the ship's flag. The same report explained that early accounts saying all crew were safe were superseded when he died in transit.",
+          "sources": [
+            {
+              "url": "https://www.facebook.com/RadioFreeSyria/posts/syrian-engineer-dies-after-attack-on-ship-in-strait-of-hormuz%D8%A7%D9%84%D9%86%D8%B3%D8%AE%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D8%A3%D8%AF%D9%86%D8%A7/1569234798554516/",
+              "source": "Radio Free Syria, 17 August 2026, citing Syrian maritime sources"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 6 November 2026"
             }
           ]
         }
