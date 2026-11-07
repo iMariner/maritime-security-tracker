@@ -19132,6 +19132,37 @@
           ]
         }
       ]
+    },
+    "INC-20261106-006": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "updates": [
+        {
+          "at": "2026-11-07T04:05:00Z",
+          "text": "Date and crew correction, no verification asserted. The 6 November 2026 event reported here is the transit of the Barbados flagged crude oil tanker TARYN EVE through the Istanbul Strait towards a shipyard at Yalova for repairs, which suspended transit traffic, not a new attack on that date. Turkey's DHA news agency, whose report the Turkish outlets repeated, dates the drone damage to 2 September 2026 in the Black Sea and says the Turkish rescue tug sent to the vessel was damaged when its tow line parted. No report of a 2 September attack on this tanker was found in the sources checked here, so the attack date and position are not verified and the record keeps no asserted attack date in its verification fields. The line that all nine Indian seafarers aboard were safe after the ship reached a Romanian port comes from a PTI report of 17 October 2026 about the chemical tanker YARA J (IMO 9221803), which was hit at Sulina, and does not describe TARYN EVE. It is not evidence about this vessel, so the crew outcome for TARYN EVE is unknown, not zero. Commercial vessel databases give TARYN EVE as IMO 9256925, a tanker of about 47,791 deadweight tonnes and 183 metres in length, matching the length in the Turkish report, but that is not an official confirmation of identity and no IMO is set on this record.",
+          "sources": [
+            {
+              "url": "https://dha.com.tr/gundem/istanbul-bogazi-taryn-eve-isimli-tankerin-gecisi-nedeniyle-gemi-trafigine-kapatildi-2976536",
+              "source": "DHA, 6 November 2026: Barbados flagged crude oil tanker TARYN EVE, damaged in a UAV attack off the Black Sea on 2 September, passed the Istanbul Strait and will go to a shipyard at Yalova; the rescue tug was damaged when its line parted"
+            },
+            {
+              "url": "https://en.haberler.com/the-tanker-attacked-by-a-uav-in-the-black-sea-is-2330525",
+              "source": "Haberler.com English, 6 November 2026: the same DHA account, attack dated 2 September, transit traffic halted, repairs at Yalova"
+            },
+            {
+              "url": "https://ddnews.gov.in/en/all-9-indian-seafarers-safe-as-drone-hit-tanker-reaches-romanian-port-embassy/",
+              "source": "DD News with PTI, 17 October 2026: all nine Indian seafarers on the chemical tanker YARA J (IMO 9221803) safe after she reached Constanta, the source of the crew safety line wrongly attached to TARYN EVE"
+            },
+            {
+              "url": "https://www.maritimeoptima.com/public/vessels/pages/imo:9256925/mmsi:314160000/TARYN_EVE.html",
+              "source": "Maritime Optima vessel record, read 7 November 2026: TARYN EVE, IMO 9256925, Barbados flag, tanker of 47,791 deadweight tonnes, 183 metres, departed Istanbul on 6 November for Yarimca"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -35617,6 +35648,44 @@
             {
               "url": "https://www.crew-board.net/news/arabian-gulf-tanker-struck-projectiles-near-qatar-ukmto-196-26",
               "source": "Crewboard, 6 November 2026: UKMTO warning 196-26 covers the 4 November Velos Sapphire strike and warning 197-26 is a separate tanker explosion east of Khasab with the crew safe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6701921082,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6701921082",
+      "author": "iMariner",
+      "received_at": "2026-11-07T03:55:11Z",
+      "incident_id": "INC-20261106-006",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261106-006",
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-07T04:05:00Z",
+          "text": "Date and crew correction, no verification asserted. The 6 November 2026 event reported here is the transit of the Barbados flagged crude oil tanker TARYN EVE through the Istanbul Strait towards a shipyard at Yalova for repairs, which suspended transit traffic, not a new attack on that date. Turkey's DHA news agency, whose report the Turkish outlets repeated, dates the drone damage to 2 September 2026 in the Black Sea and says the Turkish rescue tug sent to the vessel was damaged when its tow line parted. No report of a 2 September attack on this tanker was found in the sources checked here, so the attack date and position are not verified and the record keeps no asserted attack date in its verification fields. The line that all nine Indian seafarers aboard were safe after the ship reached a Romanian port comes from a PTI report of 17 October 2026 about the chemical tanker YARA J (IMO 9221803), which was hit at Sulina, and does not describe TARYN EVE. It is not evidence about this vessel, so the crew outcome for TARYN EVE is unknown, not zero. Commercial vessel databases give TARYN EVE as IMO 9256925, a tanker of about 47,791 deadweight tonnes and 183 metres in length, matching the length in the Turkish report, but that is not an official confirmation of identity and no IMO is set on this record.",
+          "sources": [
+            {
+              "url": "https://dha.com.tr/gundem/istanbul-bogazi-taryn-eve-isimli-tankerin-gecisi-nedeniyle-gemi-trafigine-kapatildi-2976536",
+              "source": "DHA, 6 November 2026: Barbados flagged crude oil tanker TARYN EVE, damaged in a UAV attack off the Black Sea on 2 September, passed the Istanbul Strait and will go to a shipyard at Yalova; the rescue tug was damaged when its line parted"
+            },
+            {
+              "url": "https://en.haberler.com/the-tanker-attacked-by-a-uav-in-the-black-sea-is-2330525",
+              "source": "Haberler.com English, 6 November 2026: the same DHA account, attack dated 2 September, transit traffic halted, repairs at Yalova"
+            },
+            {
+              "url": "https://ddnews.gov.in/en/all-9-indian-seafarers-safe-as-drone-hit-tanker-reaches-romanian-port-embassy/",
+              "source": "DD News with PTI, 17 October 2026: all nine Indian seafarers on the chemical tanker YARA J (IMO 9221803) safe after she reached Constanta, the source of the crew safety line wrongly attached to TARYN EVE"
+            },
+            {
+              "url": "https://www.maritimeoptima.com/public/vessels/pages/imo:9256925/mmsi:314160000/TARYN_EVE.html",
+              "source": "Maritime Optima vessel record, read 7 November 2026: TARYN EVE, IMO 9256925, Barbados flag, tanker of 47,791 deadweight tonnes, 183 metres, departed Istanbul on 6 November for Yarimca"
             }
           ]
         }
