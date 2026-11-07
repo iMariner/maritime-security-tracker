@@ -1,6 +1,48 @@
 [
   {
     "region": "Black Sea",
+    "date_utc": "2026-11-06T19:25:11Z",
+    "summary": "A tanker that was hit by a drone in the Black Sea has reached a Romanian port, and India's embassy said all nine Indian seafarers aboard are safe. The item does not name the vessel, give the date or position of the attack, or say who carried it out.",
+    "official_source_cited": "Indian Embassy",
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea; vessel later reached a Romanian port",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": "none reported; all 9 Indian seafarers safe",
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "date_approx": true,
+    "id": "INC-20261106-010",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeWlfcFJLc3dWRjYzZ2JXZnF1SWIzNWZIa1U3Y0xqM3JNa29qdV9oVGY0VmxUcjd2dm1BM25MYWpwTlVSdmpMcXd2aG44OHhabkQwaWQyNnZkV2pMR3hMM09oZ3g0dEZYd1M5XzkxTGQzbHVEZTZidDNaVkt6S25rRzNMclVmZ3hYM09fV3NSVmFfakEwNVZzaXVGMFNpM3Z4NDRnWW1n?oc=5",
+        "source": "DD News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-06T19:25:11Z",
+        "title": "All 9 Indian seafarers safe as drone-hit tanker reaches Romanian port: Embassy - DD News"
+      }
+    ],
+    "first_seen": "2026-11-07T03:07:08Z",
+    "last_updated": "2026-11-07T03:07:10Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261106-006",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
     "date_utc": "2026-11-06T15:30:00Z",
     "summary": "An Arabic outlet headline asks whether a Russian cargo ship was targeted by drones launched from inside Libya. The item gives no vessel name, date, position, damage or casualty details, and the claim is unverified.",
     "official_source_cited": null,
@@ -280,10 +322,28 @@
         "kind": "media",
         "published_at": "2026-11-06T06:00:52Z",
         "title": "New attack on an oil tanker in the Strait of Hormuz, hit by an unknown missile as it was leaving the Persian Gulf - Gazeta Express"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE02RVFBM1JFSlBnSGJjU1VyZktFTU5qY0ZhRVA5OHE2c2Mwb0NmaGtibVUxX1Q1Skp3N3R4Q1RkeFZEX0ZKMW9SbnIydw?oc=5",
+        "source": "صحيفة سبق الإلكترونية",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-06T17:05:39Z",
+        "title": "Explosion Near Ship Exiting Strait of Hormuz as Iran Downs US Drone - صحيفة سبق الإلكترونية"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZ3dTVmxpN1Ruakc3RjV3d3FVVm5zeVBEdWpxeEl6emtDT2pyd28yb2dKQ29TRzZIZnpPSjh6eG1rQWZfcXJuSFVKX25ScW9zWnRDSkprb2t3eUJISU14eFJJVjIyRHp1U3Q2ck56eHRXNUpCYXplV0pzTGZaSFQ1SDd6V2dBYWJFYzRWbVFYOWxYRzJtUW5GbXlEclNVOVRWQmNtRjV1ak1ucmlGWlE0?oc=5",
+        "source": "De Último Minuto",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-06T15:04:57Z",
+        "title": "Oil tanker reports explosion near Strait of Hormuz off Oman coast - De Último Minuto"
       }
     ],
     "first_seen": "2026-11-06T18:21:28Z",
-    "last_updated": "2026-11-06T23:27:32Z",
+    "last_updated": "2026-11-07T03:07:08Z",
     "verification_issue": 341,
     "verdict": null,
     "published_in": [],
@@ -394,8 +454,8 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-11-06",
-    "summary": "The tanker TARYN EVE was damaged in an attack in the Black Sea and was later reported transiting the Istanbul Strait, where transit traffic was suspended. Russian outlets reported that the attacked tanker off Sochi had hull breaches in two tanks threatening an oil spill, but no attacker or weapon type was confirmed.",
-    "official_source_cited": null,
+    "summary": "The tanker TARYN EVE was damaged by a drone attack in the Black Sea off Sochi, with Russian outlets reporting hull breaches in two tanks and oil aboard placed under arrest. The damaged tanker later transited the Istanbul Strait, where traffic was suspended, and India's embassy said all nine Indian seafarers aboard were safe after the ship reached a Romanian port.",
+    "official_source_cited": "Indian Embassy",
     "conflicting": false,
     "confidence": 0.6,
     "vessel_name": "TARYN EVE",
@@ -408,9 +468,9 @@
     "location_text": "Black Sea; vessel later transiting the Istanbul Strait (Bosphorus), Turkey",
     "attack_type": "other",
     "damage": "damaged in an attack",
-    "casualties": null,
+    "casualties": "none reported; all 9 Indian seafarers safe",
     "attribution_claimed": null,
-    "independent_evidence": false,
+    "independent_evidence": true,
     "date_approx": false,
     "id": "INC-20261106-006",
     "sources": [
@@ -458,14 +518,23 @@
         "kind": "media",
         "published_at": "2026-11-06T16:14:50Z",
         "title": "На атакованном в районе Сочи танкере арестовали нефть - prospect.com.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeWlfcFJLc3dWRjYzZ2JXZnF1SWIzNWZIa1U3Y0xqM3JNa29qdV9oVGY0VmxUcjd2dm1BM25MYWpwTlVSdmpMcXd2aG44OHhabkQwaWQyNnZkV2pMR3hMM09oZ3g0dEZYd1M5XzkxTGQzbHVEZTZidDNaVkt6S25rRzNMclVmZ3hYM09fV3NSVmFfakEwNVZzaXVGMFNpM3Z4NDRnWW1n?oc=5",
+        "source": "DD News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-06T19:25:11Z",
+        "title": "All 9 Indian seafarers safe as drone-hit tanker reaches Romanian port: Embassy - DD News"
       }
     ],
     "first_seen": "2026-11-06T18:21:43Z",
-    "last_updated": "2026-11-06T23:27:32Z",
+    "last_updated": "2026-11-07T03:07:10Z",
     "verification_issue": 344,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
+    "status": "reported",
     "position_approx": true
   },
   {
