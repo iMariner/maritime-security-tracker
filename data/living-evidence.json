@@ -19101,6 +19101,37 @@
           ]
         }
       ]
+    },
+    "INC-20261106-001": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "updates": [
+        {
+          "at": "2026-11-07T04:05:00Z",
+          "text": "This row joins two different events and its one seafarer killed repeats a death already recorded elsewhere. The Greek managed, Marshall Islands flagged tanker VELOS SAPPHIRE (IMO 9321201) was struck by two unidentified projectiles about 50 nautical miles north of Madinat ash Shamal, Qatar, at 23:20 UTC on 4 November 2026. Its manager, Velos Tankers, said on 6 November that one of its seafarers had been found fatally injured on board after being reported missing, with no other injuries. That death is already recorded against INC-20261104-012 and must not be counted a second time here. The other half of this row is UKMTO warning 197-26, a time late report of an explosion at the waterline on the port side of a tanker 16 nautical miles east of Khasab, Oman, at 22:00 UTC on 5 November 2026. UKMTO records the crew safe and accounted for and the tanker continuing under its own power. UKMTO did not name that tanker, and no casualty is reported for it. No verification is asserted. The casualty field is set to unknown because neither the death already counted on VELOS SAPPHIRE nor an unnamed tanker with a safe crew supports a death on this record. The IMO confirmed incident register, read on 7 November, still ends at the 4 November VELOS SAPPHIRE row, with 129 incidents and 25 seafarer fatalities.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261106-ukmto_warning-197-26.pdf",
+              "source": "UKMTO warning 197-26, incident date 5 November 2026, 22:00 UTC, 16NM east of Khasab, Oman: explosion at the waterline, port side, crew safe and accounted for, tanker continuing under her own power"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO list of highlighted confirmed incidents, read 7 November 2026: 129 confirmed incidents and 25 confirmed seafarer fatalities, latest row VELOS SAPPHIRE (IMO 9321201) on 4 November with one seafarer fatality"
+            },
+            {
+              "url": "https://srnnews.com/one-seafarer-killed-in-missile-attack-on-tanker-in-gulf",
+              "source": "Reuters, 6 November 2026, quoting the manager Velos Tankers: the seafarer was found fatally injured on board after being reported missing, no other injuries, the tanker taken to Khalifa Bin Salman Port in Bahrain"
+            },
+            {
+              "url": "https://www.crew-board.net/news/arabian-gulf-tanker-struck-projectiles-near-qatar-ukmto-196-26",
+              "source": "Crewboard, 6 November 2026: UKMTO warning 196-26 covers the 4 November Velos Sapphire strike and warning 197-26 is a separate tanker explosion east of Khasab with the crew safe"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -35548,6 +35579,44 @@
             {
               "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
               "source": "IMO confirmed incident register, checked 6 November 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6701911786,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6701911786",
+      "author": "iMariner",
+      "received_at": "2026-11-07T03:54:14Z",
+      "incident_id": "INC-20261106-001",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261106-001",
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-07T04:05:00Z",
+          "text": "This row joins two different events and its one seafarer killed repeats a death already recorded elsewhere. The Greek managed, Marshall Islands flagged tanker VELOS SAPPHIRE (IMO 9321201) was struck by two unidentified projectiles about 50 nautical miles north of Madinat ash Shamal, Qatar, at 23:20 UTC on 4 November 2026. Its manager, Velos Tankers, said on 6 November that one of its seafarers had been found fatally injured on board after being reported missing, with no other injuries. That death is already recorded against INC-20261104-012 and must not be counted a second time here. The other half of this row is UKMTO warning 197-26, a time late report of an explosion at the waterline on the port side of a tanker 16 nautical miles east of Khasab, Oman, at 22:00 UTC on 5 November 2026. UKMTO records the crew safe and accounted for and the tanker continuing under its own power. UKMTO did not name that tanker, and no casualty is reported for it. No verification is asserted. The casualty field is set to unknown because neither the death already counted on VELOS SAPPHIRE nor an unnamed tanker with a safe crew supports a death on this record. The IMO confirmed incident register, read on 7 November, still ends at the 4 November VELOS SAPPHIRE row, with 129 incidents and 25 seafarer fatalities.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261106-ukmto_warning-197-26.pdf",
+              "source": "UKMTO warning 197-26, incident date 5 November 2026, 22:00 UTC, 16NM east of Khasab, Oman: explosion at the waterline, port side, crew safe and accounted for, tanker continuing under her own power"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO list of highlighted confirmed incidents, read 7 November 2026: 129 confirmed incidents and 25 confirmed seafarer fatalities, latest row VELOS SAPPHIRE (IMO 9321201) on 4 November with one seafarer fatality"
+            },
+            {
+              "url": "https://srnnews.com/one-seafarer-killed-in-missile-attack-on-tanker-in-gulf",
+              "source": "Reuters, 6 November 2026, quoting the manager Velos Tankers: the seafarer was found fatally injured on board after being reported missing, no other injuries, the tanker taken to Khalifa Bin Salman Port in Bahrain"
+            },
+            {
+              "url": "https://www.crew-board.net/news/arabian-gulf-tanker-struck-projectiles-near-qatar-ukmto-196-26",
+              "source": "Crewboard, 6 November 2026: UKMTO warning 196-26 covers the 4 November Velos Sapphire strike and warning 197-26 is a separate tanker explosion east of Khasab with the crew safe"
             }
           ]
         }
