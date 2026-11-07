@@ -19163,6 +19163,24 @@
           ]
         }
       ]
+    },
+    "INC-20261106-008": {
+      "updates": [
+        {
+          "at": "2026-11-07T04:05:00Z",
+          "text": "This is not a 6 November attack. The item held here is an IANS report of 6 October 2026 on India's Ministry of External Affairs condemning the attack on the commercial vessel MV ROYAD MAMMADOV in the Black Sea, in which two foreign seafarers were killed and three Indian crew members were injured. The 6 November timestamp is the recrawl time of that older story, not the date of an event. That attack is already recorded separately as of 5 October 2026. This row carries no vessel, position, damage or casualty that belongs to 6 November, no verification is asserted, and nothing here should be counted as a new incident. The Indian embassy in Romania confirmed the three Indian crew members were safe, one of them injured, and the two dead were foreign nationals, not Indian.",
+          "sources": [
+            {
+              "url": "https://www.morungexpress.com/india-condemns-attack-on-commercial-vessel-in-black-sea",
+              "source": "Morung Express with IANS, 6 October 2026: MEA condemns the attack on MV Royad Mammadov, two foreign seafarers killed, three Indian crew members safe, one injured"
+            },
+            {
+              "url": "https://www.thehindu.com/news/national/targeting-of-commercial-shipping-must-end-india-condemns-latest-attack-on-vessels/article71551531.ece",
+              "source": "The Hindu, 6 October 2026: MEA statement that two foreign seafarers were killed on MV Royad Mammadov, with the three Indian nationals aboard safe"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -35686,6 +35704,31 @@
             {
               "url": "https://www.maritimeoptima.com/public/vessels/pages/imo:9256925/mmsi:314160000/TARYN_EVE.html",
               "source": "Maritime Optima vessel record, read 7 November 2026: TARYN EVE, IMO 9256925, Barbados flag, tanker of 47,791 deadweight tonnes, 183 metres, departed Istanbul on 6 November for Yarimca"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6701947024,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6701947024",
+      "author": "iMariner",
+      "received_at": "2026-11-07T03:57:21Z",
+      "incident_id": "INC-20261106-008",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261106-008",
+        "update": {
+          "at": "2026-11-07T04:05:00Z",
+          "text": "This is not a 6 November attack. The item held here is an IANS report of 6 October 2026 on India's Ministry of External Affairs condemning the attack on the commercial vessel MV ROYAD MAMMADOV in the Black Sea, in which two foreign seafarers were killed and three Indian crew members were injured. The 6 November timestamp is the recrawl time of that older story, not the date of an event. That attack is already recorded separately as of 5 October 2026. This row carries no vessel, position, damage or casualty that belongs to 6 November, no verification is asserted, and nothing here should be counted as a new incident. The Indian embassy in Romania confirmed the three Indian crew members were safe, one of them injured, and the two dead were foreign nationals, not Indian.",
+          "sources": [
+            {
+              "url": "https://www.morungexpress.com/india-condemns-attack-on-commercial-vessel-in-black-sea",
+              "source": "Morung Express with IANS, 6 October 2026: MEA condemns the attack on MV Royad Mammadov, two foreign seafarers killed, three Indian crew members safe, one injured"
+            },
+            {
+              "url": "https://www.thehindu.com/news/national/targeting-of-commercial-shipping-must-end-india-condemns-latest-attack-on-vessels/article71551531.ece",
+              "source": "The Hindu, 6 October 2026: MEA statement that two foreign seafarers were killed on MV Royad Mammadov, with the three Indian nationals aboard safe"
             }
           ]
         }
