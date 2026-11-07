@@ -1,11 +1,89 @@
 [
   {
+    "region": "Black Sea",
+    "date_utc": "2026-11-07T15:35:25Z",
+    "summary": "A headline reports that human remains were found on a tanker that was hit by a drone. No vessel name, date, position or attacker is given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": "WINE TRADER",
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea (location not specified)",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": "human remains found aboard",
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "date_approx": true,
+    "id": "INC-20261107-009",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZ2p0b2M5UWdXbjU4SGlQN3hmeHRBZUJoUXpnamFSQ1pVZnM5ZW1ZYjZ4Sl9BUWdIRXBCeHZZVFFuZ3puVV9MWUh6RmpucFdrRDY5X1UwVTcwSlhzT0E0ZTRsLU9sTWdNeUkyS2tQckZicUZFSmFtRWJMc2RqVU1pVW9ndFVyOUU?oc=5",
+        "source": "News of Bahrain",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-07T15:35:25Z",
+        "title": "Human Remains Found On Drone-Hit Tanker - News of Bahrain"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYThGV2pQOEdmRllLMTNJWndHN0xiQm5jTlJCeTBnRkctczkyN1hCLURKeTFLZkwwWGdsSHF3d0tkamE2UnNMUFFHWEJiNkhNbmd5Zk1fbGEtUGgyR2ZoQzlZOEhxdUNQdXRiSDg4WGdxUExRS0xSWWQ4dnllQmRLRGsxRU5QM3FNanZPYw?oc=5",
+        "source": "Jamaica Observer",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-07T15:25:59Z",
+        "title": "Human bodies found on ship struck in Black Sea - Jamaica Observer"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWEtmNS1pTnJ2M3prZHNwek1aVjBZczhlTzZPY0ZKRWxzZjhOdTBDNWV1Wmd1c3g4b1B6QzFwRXpMY1FRNWY0THhfRnM5LWJibHZkQTJOdEhTb3VMdEg1YUNuRkF1SVlfWEdkSTJTYkRsZy0wcnFydllQZlhlbldkVjZuQkhqWHVsUjBOaHJVaXVvbmF6YUdta041WnFEcHVWQnNFdzVSNHRGbmo5RTdNSWJnOA?oc=5",
+        "source": "www.goldring.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-07T15:02:54Z",
+        "title": "Rămășițe umane descoperite pe nava Wine Trader, atinsă de dronă în largul României - www.goldring.ro"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQY09Qc3JJMjlUV1EzQ2ZPU3lkTW9SWWZzUkh6MXF2YnhSOFRGN2J4cW1UME1tYWRva3ZCYkx3YmFoR3dxaGNpUGg4NlUwWUNvTWFleGZJZDJiMUxjUmVYYWVFc2FvVkN3OXhSRjVvY0liRzFES0lmOE1XZGpaMHVkZEM4Z25SSXNUN2p1Vnk2OHRHRzZRNWV3dFEyS05XdGJJcmZjbnZpVjI0UGdUU0RGOVdSZkE4VFpybV9tZGh2RFZPaUI4c1BoTzlOVGZiRktka3pqOGpGZjlHMlc5QzRpU3QtNldNdWhlUUJ6dWcxZ1lXY0VReF9WcmtIbkVIMDFBcVZKYXFB0gGQAkFVX3lxTE5kbTBsQ3hHby1Ra2V2ZW8ySHRYRExQOGdaLVpWc3p3QTlXcm5QN2JrMHg0S0hrYmN0UFFzM251ZHFiNUlSM1UwNWtod0RjLWZ2ZklER0FWYjF5UFFLMjhRVHVHWjMzT1pNaWpQSUM1UFFLQkkzNEU0UTRnc3dqUkVGenRqNHFRVURYUWNsRDdPMXFmVWRkSmJqMThxcnJlWElSamhBN0dJTmNtQmVJalE4S2RTYVdFYmVUYzhPM241amJ5YU4yY2ROVnllWWdGVTkwc0RwdGVCSTNzaHNrcDZVcFhtQTNBOEhZVnprNjZMMV9IbS1kaEVnNE93UC1CZDI1QWk3WXBHNzdFMEZRUkFm?oc=5",
+        "source": "Digi24",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-07T14:47:08Z",
+        "title": "Descoperire macabră pe nava lovită de dronă în largul României: rămășițe umane găsite la bord de... - Digi24"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPX08xa1laeG9WT1JhTmZMN1NtSjkzR09OdVpkN0N4SVNxaXpTNmNGRk9DQ0VGcEE0bTZPRUNNSGpfOVUzODRIc1dMV1Z4bXdSTzhoZjFyQU92WGFtd2l3MjEtRWVmUzlDU1l2WFByeV8tUEZPZ0pidkxVMDk0b1JXZjBsbDNfXzFVQVFwdVdxUkl3SXRVYkM1TTRKSm9oXzJ1Ty0wTlVHRGZOZTk4dzFnZjJnQ1DSAbQBQVVfeXFMT19PMWtZWnhvVk9SYU5mTDdTbUo5M0dPTnVaZDdDeElTcWl6UzZjRkZPQ0NFRnBBNG02T0VDTUhqXzlVMzg0SHNXTFdWeG13Uk84aGYxckFPdlhhbXdpdzIxLUVlZlM5Q1NZdlhQcnlfLVBGT2dKYnZMVTA5NG9SV2YwbGwzX18xVUFRcHVXcVJJd0l0VWJDNU00SkpvaF8ydU8tME5VR0RmTmU5OHcxZ2YyZ0NQ?oc=5",
+        "source": "BurgasMedia",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-07T11:31:13Z",
+        "title": "Bodies of five sailors from drone-hit tanker found in Varna - BurgasMedia"
+      }
+    ],
+    "first_seen": "2026-11-07T16:59:18Z",
+    "last_updated": "2026-11-07T16:59:25Z",
+    "verification_issue": 354,
+    "verdict": null,
+    "published_in": [],
+    "status": "reported",
+    "status_changed_at": "2026-11-07T16:59:23Z",
+    "position_approx": true
+  },
+  {
     "region": "Strait of Hormuz",
     "date_utc": "2026-11-07T10:14:21Z",
     "summary": "A headline reports that an oil tanker caught fire in the Strait of Hormuz after hitting a mine. No vessel name, date, position, damage details or casualties are given.",
     "official_source_cited": null,
     "conflicting": false,
-    "confidence": 0.4,
+    "confidence": 0.5,
     "vessel_name": null,
     "imo": null,
     "flag": null,
@@ -30,15 +108,25 @@
         "kind": "media",
         "published_at": "2026-11-07T10:14:21Z",
         "title": "Iran: ‘Stronger than at the start of the war’. Hormuz: oil tanker catches fire after hitting a mine - Il Sole 24 ORE"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa3lrQXQ3Wk1aWUlnMmgzZXcwZG1DMndiNnU2YjRLVVJhRGVnVmpHWmJ0VWRBTk1JRjhoajRTM3JXN2FBVWV2TDdjYWROUEM0NndKMUVfSmdGSldnbEVlQTBoaW40enRuTHBISjNXaGk3YXk4TlJVdkExV1ZkX1Vlakh6b1FlY1hzOTJGOWg0eUd3MjNKRnV1YkFldnFNQnlPQkR2OWRjcVpzVEticXRMTFNIOA?oc=5",
+        "source": "The Hawk",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-07T15:03:28Z",
+        "title": "Iran says ‘violating’ oil tanker caught fire after hitting mines in Hormuz Strait - The Hawk"
       }
     ],
     "first_seen": "2026-11-07T10:38:53Z",
-    "last_updated": "2026-11-07T10:38:53Z",
+    "last_updated": "2026-11-07T16:59:30Z",
     "verification_issue": 349,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261107-005"
   },
   {
     "region": "Black Sea",
@@ -174,10 +262,10 @@
   {
     "region": "Persian Gulf",
     "date_utc": "2026-11-07",
-    "summary": "A Greek-owned oil tanker, described as a VLCC, was struck in an apparent missile attack in the Persian Gulf and Strait of Hormuz area, killing one seafarer. The vessel is not named in the reports and the attacker is not identified.",
-    "official_source_cited": null,
+    "summary": "A Greek-owned VLCC tanker was struck in an apparent missile attack in the Persian Gulf and Strait of Hormuz area on 7 November, killing one seafarer and injuring another, according to shipping media and the Philippine DMW. Iran separately claimed that five tankers caught fire in the Strait of Hormuz, an unconfirmed one-sided claim that reports no vessel names.",
+    "official_source_cited": "Philippines' Department of Migrant Workers (DMW)",
     "conflicting": false,
-    "confidence": 0.6,
+    "confidence": 0.7,
     "vessel_name": null,
     "imo": null,
     "flag": null,
@@ -187,10 +275,10 @@
     "lon": 52.5,
     "location_text": "Persian Gulf",
     "attack_type": "missile",
-    "damage": null,
+    "damage": "oil tanker caught fire",
     "casualties": "one seafarer killed",
     "attribution_claimed": null,
-    "independent_evidence": false,
+    "independent_evidence": true,
     "id": "INC-20261107-005",
     "sources": [
       {
@@ -237,16 +325,71 @@
         "kind": "media",
         "published_at": "2026-11-07T07:55:25Z",
         "title": "Seafarer dead in Hormuz tanker blast - News Today"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWWk2S09ReDlUMXREUFFmSjhadVVxcXRoOWRad2V3RTdYalFaeXdubGhKNUVjc3ZYTDMyX0tEMEx2bFQxSDNPUjdsVDh0TzlRa2dLYWlqa2Noel81bnA0T0N1Y3M2N0VGSFZuN0U4MjA4WHJhZDFCV19jQlFYM3ZyTTdRZThpWUg2Q1k3RUJPQUFGUGZhYWVGdFM4RGlCZzZqZUIxalktcllnYkxpYUxocUdLMFNabktuNk5VcmNtdzk1VklfRFJQbGxGWW8ydFl0YmVR?oc=5",
+        "source": "Facebook",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-07T14:57:42Z",
+        "title": "Here are the biggest headlines as of 10 PM, Nov. 7, 2026. DMW: Filipino seafarer killed, another hurt in Persian Gulf tanker attack https://www.gmanetwork.com/news/pinoyabroad/dispatch/1008636/dmw-filipino-seafarer-killed-another-hurt-in-persian-gulf-tank - Facebook"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUnZaWmxNRzFQR1JkN0ZITUxBc3JuMmp5bS0zLVhwYk1SYTBSdXFjZlVYYlZNN1Z4aWR0eUVLM3A4NERHX0RxTEtLb1U1cEZ4ZXdnYmg1cEhIMW42eUdSUnBfN2ctM0pZSmtCYUtNVUp5bFFsV21sU0Iyc2x2QXpRTks2cUU2QzJUMms2TU5wU2s0VmJmMW1nUkRHWUs4Nnp6d1dZOWJn0gGrAUFVX3lxTE9fa2p2aFdHMXBJcmI0ckxOZWJmQ0tuU3ZycGhDb3Z4N1V4a1BsTExwanFfYVY4b3dpOHA5NjhBQmVTSGRCQ1BNYzRjQ3NwOExRbm5IYVlmYmczZWFuUjFXbzJRbHdwZjBaa05ma2MxZmUwOHdVWGR6UVcxTl9vei1LMzlHUE1kRHV4X0FFdEsxaVZHNkQ0RmJBYWVuYnpkdFhWRjU2NS1uTTRhQQ?oc=5",
+        "source": "Denizcilik Haberleri",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-07T06:58:17Z",
+        "title": "Basra Körfezi'nde Tankere Füze Saldırısı: Bir Denizci Hayatını Kaybetti - Denizcilik Haberleri"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11dEhKdGctSEFxT0JUVDE4YzFjbjBQWlB6ZjJZaC1FMXNwQ0h5YlMxcnhHZlgyRU5nNU10SWhPbGtnNU5MMzdjVlpNMDNRbkQ0RDBZ?oc=5",
+        "source": "Aaj English TV",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-06T16:54:48Z",
+        "title": "Seafarer killed in Gulf tanker attack: company - Aaj English TV"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTTRGVnZVT2UweUxZUG1tRFMwRFU4d0tJNHJuVHc1cFV0MjRuaTdBd0I3dlRFMTVvRzZEbFJVeVFMcFpENll2cnlicElQck5qdjJkSzk1cDZ5TTlDTmZVSW1xRlhLNzk0UzdwczdLT0V2NzVacFVyOHF6a2ZzRG5pazBMV095WXlBU3dNZUNNNFVEWHhPa3RZSzJxQnZaX0liM2cxXzFxVm9kY0wtOXRaMHpB?oc=5",
+        "source": "Il Sole 24 ORE",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-07T10:14:21Z",
+        "title": "Iran: ‘Stronger than at the start of the war’. Hormuz: oil tanker catches fire after hitting a mine - Il Sole 24 ORE"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa3lrQXQ3Wk1aWUlnMmgzZXcwZG1DMndiNnU2YjRLVVJhRGVnVmpHWmJ0VWRBTk1JRjhoajRTM3JXN2FBVWV2TDdjYWROUEM0NndKMUVfSmdGSldnbEVlQTBoaW40enRuTHBISjNXaGk3YXk4TlJVdkExV1ZkX1Vlakh6b1FlY1hzOTJGOWg0eUd3MjNKRnV1YkFldnFNQnlPQkR2OWRjcVpzVEticXRMTFNIOA?oc=5",
+        "source": "The Hawk",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-07T15:03:28Z",
+        "title": "Iran says ‘violating’ oil tanker caught fire after hitting mines in Hormuz Strait - The Hawk"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQanNrLTl2R24yUDh0UVNUclozNFVrbzVxZm4yYzIzZ1I4c24tOF9JZFplRjZ3VzU4RE1YQzEyb1ZycWlmdm40ZW9uVFdkQTdJM0o1TnZJanFFTXBnWVJadmNtS3N0eEdQVEpqRndkTUtES3Z2RU5tTGpORTN4M1c3RW9CejVON3FzaFBVeGt1RWFaZWxwNlZ1V2NPeFZOZFpsSEE?oc=5",
+        "source": "India Shipping News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-07T03:50:47Z",
+        "title": "Iran says five tankers and tugboat caught fire in Hormuz - India Shipping News"
       }
     ],
     "first_seen": "2026-11-07T10:38:59Z",
-    "last_updated": "2026-11-07T10:39:12Z",
+    "last_updated": "2026-11-07T16:59:30Z",
     "verification_issue": 351,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
+    "status": "reported",
     "date_approx": false,
-    "position_approx": true
+    "position_approx": true,
+    "status_changed_at": "2026-11-07T16:59:23Z"
   },
   {
     "region": "Black Sea",
@@ -322,12 +465,13 @@
       }
     ],
     "first_seen": "2026-11-07T10:39:03Z",
-    "last_updated": "2026-11-07T10:39:03Z",
+    "last_updated": "2026-11-07T16:59:30Z",
     "verification_issue": 352,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261107-005"
   },
   {
     "region": "Strait of Hormuz",
@@ -362,11 +506,16 @@
       }
     ],
     "first_seen": "2026-11-07T10:39:03Z",
-    "last_updated": "2026-11-07T10:39:03Z",
+    "last_updated": "2026-11-07T16:59:30Z",
     "verification_issue": 353,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "review pass",
+      "at": "2026-11-07T16:59:30Z",
+      "note": "Out of scope: (b) target was a tugboat, not a merchant ship"
+    },
     "published_in": [],
-    "status": "claimed",
+    "status": "rejected",
     "position_approx": true
   },
   {
@@ -753,10 +902,19 @@
         "kind": "verification",
         "published_at": "2026-11-07T04:34:13Z",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeUZ5dFR5TmJ6SzE2allGckZ5b0dOQkJJdGRZaE8zZ2cxdExnNTFfVklpMHl1bnJWMzBEdDlxSWdyZms4eUZfa003S29Ua05nRjhvaFY0cXpBUlBxOC0yNERVMTZMbnRlaXoybXo3WTBFaTNPVEdFUmFlb3diSXUwdk1HZHZhdWZyVzhZWE5Wcw?oc=5",
+        "source": "Fakti.bg",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-06T15:21:00Z",
+        "title": "Tanker Reports Explosion in the Strait of Hormuz ᐉ News from Fakti.bg - World - Fakti.bg"
       }
     ],
     "first_seen": "2026-11-06T18:21:28Z",
-    "last_updated": "2026-11-07T04:34:13Z",
+    "last_updated": "2026-11-07T16:59:29Z",
     "verification_issue": 341,
     "verdict": {
       "status": "rejected",
@@ -877,7 +1035,7 @@
     "summary": "The tanker TARYN EVE was damaged by a drone attack in the Black Sea off Sochi, with Russian outlets reporting hull breaches in two tanks and oil aboard placed under arrest. The damaged tanker later transited the Istanbul Strait, where traffic was suspended, and India's embassy said all nine Indian seafarers aboard were safe after the ship reached a Romanian port.",
     "official_source_cited": "Indian Embassy",
     "conflicting": false,
-    "confidence": 0.6,
+    "confidence": 0.8,
     "vessel_name": "TARYN EVE",
     "imo": null,
     "flag": null,
@@ -965,10 +1123,55 @@
         "kind": "verification",
         "published_at": "2026-11-07T04:34:11Z",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTlFnMnNyY3NmYmttWUxVZHVRRG9wdzg2V0xSOTV2bjZpVFlqdGVrLXpzMWltTU4yTTVtQ0FvZm0zMk5MT3luRDlvT29Pd1V6OWhHVFNMQlBLZnFvcl9lTWtKYm5OdTNuWlhiMWpGaENMS1pXTWdkUlRtLXRJbW1rR2ZjNzRCaEc0ZGJmVmk5UU16MnoxWnBoamMyRGI2T1lMcjRDSWwxazM1TV9CdlU3WEpvdE1HVHF1TEZvWHVTbDhYRUd6M1E?oc=5",
+        "source": "Evenimentul Zilei",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-07T16:06:25Z",
+        "title": "Rămășițe umane, găsite pe o navă atacată în Marea Neagră. Șapte membri ai echipajului fuseseră dați dispăruți - Evenimentul Zilei"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTzVtWTFHaVR3VHdxcUExY0NERUJYcmFrVEdEREI1ZHV3SFdMNEFKcW40djdFMXFoZXdBTUJKYTNZQ1dYblFEZ2lCcXhlLXVtM2I4aTRnd0xXYTNLdzZqOV9Ca19nQnRzZDJ5QVY5ZXhQb0Nja0pxVnNGaTVkZi1Kc0VpNHZvSVBzMTkyOG1OM28zRmtud1RuZUxQMVVmS0Q4QkpNNW1lSGpEOXRsT29tTEFTX3JHMHk0b21zekQyeWZZVnNSbnVuNUx30gHPAUFVX3lxTE10Qk1aZnRVU09nZXNOOXB5X1F5VEhkTTlKaW5CSVVNRF9QQ3FSX08wZ09NUk4tVmtublpIN1ZPWTNjd2wtaXllSjJ3c1VyanJIWS1ZX2lzV1VEWnFxVnRhN2NrVGVKNWxsR0REUTM5czByaFNSc3hSR2N4SkJ5cEV1bmFJdG9YaW5IR0lYaDNUQ0RsX3hxd3FXSVczQnYxVXY0M0ZlRXVXOTR5XzhoNjI1XzR4TXZjZ3U5ZmxENVpoZzVHUUQ2Vk02bEJPVEJHVQ?oc=5",
+        "source": "Mediafax",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-07T16:00:01Z",
+        "title": "Descoperire șocantă pe o navă lovită de o dronă lângă Sulina. Rămășițe umane, găsite la… - Mediafax"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMW52YzRoLTgwNW15di1XV2lNOU9PdTJqLWROOXA1NFRZZkpTcHp2Um14endaUmoyV0tWOUN3a3NMNXFsQ3pZTUhEVkpBWWhUVzVTU1ZuVnpBRUdiS3ZRT1R2MkdyU3BwVWY4dlZKeXM1T1dkWUljQWVpT3ZrX0FiOWdNUk1vQ1M5V2RJUFphSlA2VUJ1Unp2bGRlUXZCMnVzNGp3RGRXdlZPREtQbjU3eXNvWVc?oc=5",
+        "source": "Euronews România",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-07T15:53:10Z",
+        "title": "Rămășițe umane descoperite pe o navă lovită de o dronă în apropierea României. Șapte membri ai echipajului fuseseră dați dispăruți - Euronews România"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR0E0VFR0NTNvT3BGX1hTLXRfUHp5ZGliZzJ6ZlVUVVJyc2pxR3NTSGVEQTJTSnM4YnBuUEwtSWp2Mjk1MkZ5VnlHeE05MFg3R3QtUzVJWWlIbHFrMHZZdTZsb3YxSHNYbjBQalBBM2hLSWVVdm5yTnc0TEhRVVBPaGZmSDlKeFppbkdDZHJ2bDZtNG1PY1dDUWNrVWdpdXlyNGc?oc=5",
+        "source": "Informat.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-07T15:40:07Z",
+        "title": "Varna prosecutors discovered human remains on a vessel struck by a drone off the coast of Romania - Informat.ro"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOWJ3cGttYTJRLTlCS2V4MlZRUVVtR0s5LXRaSGZ1UkIyQVlNUTFKYWtSN09sWEJ0dW04cTNQd18wNWFPUzZONXFxTmx3SlBtemxSTkhkU0ZrZUxMSGx1VkZ0R2x6TkJ2aUhoTmdsVmg3aDJYSXNCTmpWQ1h1SmVxY1A5N3JlYXI4ZE0xQnY3S2hlRnZwYVJmeE5MSmFKZ0wyZHVlLTdTOUg2QThjQUlpTWtxYjc2Zw?oc=5",
+        "source": "Libertatea",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-07T15:39:22Z",
+        "title": "Descoperire macabră la bordul petrolierului lovit de o dronă lângă Sulina: Ce au găsit anchetatorii în șantierul naval - Libertatea"
       }
     ],
     "first_seen": "2026-11-06T18:21:43Z",
-    "last_updated": "2026-11-07T04:34:11Z",
+    "last_updated": "2026-11-07T16:59:13Z",
     "verification_issue": 344,
     "verdict": {
       "status": "rejected",
@@ -1957,10 +2160,46 @@
         "kind": "official",
         "published_at": "2026-11-07T06:19:41+00:00",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQN2V3ZHVsV2RRRk5vTDN1TEN2YTRscjVoaTR2bVg5Y1lETmdVMFFlOEppcElBMXR1TFlSaTI0eW1LdDdOZGI1TTBJenZaRHlRUDdTSGpNZjRRVFhjSFo5R2xfdGxDLXFwTDRhRm5McUp5NEw5VmY4aUh1eTA0VFpqbjhtaWpLZ0MzRDhr?oc=5",
+        "source": "TodayPress.tv",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-07T15:32:00Z",
+        "title": "Russia strikes Ukrainian cargo ship in the Black Sea - TodayPress.tv"
+      },
+      {
+        "url": "https://t.me/rian_ru/349350",
+        "source": "RIA Novosti",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-11-07T14:47:45+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/68825",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-07T14:42:57+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilgRBVV95cUxOY01HaFI3a29HRzNORVZVZFFJNFpydWxhWWhBSUhsbWJ4MUt6MnRYYldpMzJBWFJJUWxMZVA3RXRCbXB4WjF0MEdHcmhWdjFISUxVS2pwb0Znam9LbXY3dkM5ZXV0Wks2SWh0ZURlMTU1ZWo1Y3JxTkNqVmdSSTBfSFJaUFJOWF9zajh0eFAxZTA4a01TT1R4dlpyV3ZjT1Vlbm1ZUHJHWFpBMENvUkJSRXhzNG9ra1BrcmVIbktNRnoySTk5cnhHYkIyR0JEeFB1cGczTFQyLU5DTVByY2JtSDBUXzBOaUZ3REVfSWhCdjZWVl9rc1V1YVh5YXJ6aGw4RDQxeHg1MHlySDJERENUaEdwN1BaTjcxSzJWZHNxSG9zZjk2SG9KQmhRbGw0MHY1YWxtWXltdXNvM3YzbEFhWmp4UnVhd2dhT3hPcXcwaWRYNXFSTnJDT2VWbmttVWFTR05hUEp2blB6SVN4YkhseGNPX1lFcEw5OG5SbjFIQXJNZm9oT2M1SkFxZDRFMWM0bGNSZHFrUzdoTkZuT29VeHVKVTVaZUI5Yi01X2ZqQ3JrVXRiTXVkazNlbF8ydzNaajFfeDM2SHhQbVpfMjlLemlIT1lzTzNPeFN2ZFZmZENUdTkyMGJZMUtEbk1NNFlyNVZSZ3Bqbk11WUN1QVR3VmFveXI4Rm5Zem5fVXMwcVd6SUJzdlHSAZAEQVVfeXFMUFRiMmNFaTh0ZWJHTFlLSk9XaXdUZlBYT0dkR2tmTWloLWc2S0VjeWM5QkkwZENTOFlFNEMzVzRZakJpZjdudTd0OEJhWUMtbXBMUVNoakFHcTZVR1hGZTh2WHRfNkphckRDajgtT1JxWlpWVVdITmU5TFBuaUxvZDZSZW1kLVVNcXhNR1RHcDVnelVwRmJ2NjJUMzFiVm9EaExNVmdzU0tXeHo3cV9Tbng5YUFRamtSV1ZZWlFobFFITF9vWkwxaS16TWRMeFpLZWZ2MGJmc3JJWEgtSXFBUkRaRE9nZVBQUDBfV1BuVmVySWhVV3dlYUxQMmZwSmx6dERwakVsVlNwemJjZmtzU3VYbXY1N2hHRkJFMGI5U2I5UG1HeTBGMTRzZkU0NjMzT093VDB4ZHJIRjgzSDdpOEpzdVF4bUFWZ2Q5Mm1SOE5CN3FWLUM3UGt4S1hwQ1dHOVVkOVFlUURuaDFHTEptR3VxZXU5NF9nSmtVM1pCanY5Q3dXR0VPSGNLMEgzRC11RDF2WDFJYXdOR042V1NSTlMxUE9aMDJpM0hacnFuSkJ6OThBazlCVDZ5eDJpTkRyS3lueng2cUlGQ2lTSzM4S1BnSWdyTjhxQzhZcTRKcnBGQkxnTzhyNm5DMjFnWjMtZ2I4ZzFDNENQX212SjlLQUxoN0hlZzdUYm9VSFlEOHYx?oc=5",
+        "source": "اليوم السابع",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-07T00:16:00Z",
+        "title": "الدفاع الروسية: استهداف سفينة شحن تنقل معدات عسكرية إلى أوكرانيا - اليوم السابع"
       }
     ],
     "first_seen": "2026-11-05T15:46:20Z",
-    "last_updated": "2026-11-07T10:39:12Z",
+    "last_updated": "2026-11-07T16:59:29Z",
     "verification_issue": 340,
     "verdict": {
       "status": "claimed",
