@@ -19292,6 +19292,41 @@
           ]
         }
       ]
+    },
+    "INC-20261107-005": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "updates": [
+        {
+          "at": "2026-11-07T22:40:00Z",
+          "text": "This row repeats the 4 November strike on VELOS SAPPHIRE and is not a new attack on 7 November, so its seafarer death must not be counted a second time. The Turkish shipping outlet Denizhaber, whose headline is held here, names the ship as the Marshall Islands flagged tanker VELOS SAPPHIRE and places her off Qatar; the Reuters account carried by Kurdistan24 names the same vessel and says she was sailing empty for Sitra in Bahrain when she was struck in the early hours of 5 November local time, which is 23:20 UTC on 4 November. That attack and its one fatality are already recorded on INC-20261104-012, where the Philippines Department of Migrant Workers identified the dead seafarer as Filipino. The description of her as a VLCC in one headline is not supported by the sources checked: the IMO register lists VELOS SAPPHIRE as IMO 9321201, a product tanker, and reports one seafarer fatality. The other half of this row is a different event. Iran's army navy said on 7 November that an oil tanker caught fire and lost power after striking a naval mine in the eastern Strait of Hormuz, that the ship had entered a prohibited area with its navigation systems switched off, and reported no casualties; the vessel was not named in the statements carried by the Tehran Times, Tasnim and Xinhua, and the Iranian account is a one sided official claim with no independent confirmation found here. Nothing checked links that unnamed tanker to the death on VELOS SAPPHIRE, so the casualty field is set to unknown on this record rather than carrying a second count of the same death.",
+          "sources": [
+            {
+              "url": "https://www.denizhaber.com/amp/basra-korfezinde-tankere-fuze-saldirisi-bir-denizci-hayatini-kaybetti/127799",
+              "source": "Denizhaber, 7 November 2026: the headline held in this row names the Marshall Islands flagged tanker VELOS SAPPHIRE, struck off Qatar, one seafarer killed"
+            },
+            {
+              "url": "https://www.kurdistan24.net/en/story/951199/seafarer-killed-in-apparent-missile-attack-on-greek-owned-oil-tanker-in-gulf",
+              "source": "Kurdistan24 with Reuters, 6 November 2026: Marshall Islands flagged Velos Sapphire sailing empty for Sitra, Bahrain, struck early on Thursday 5 November local time, one seafarer found fatally injured, no other casualties"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO list of highlighted confirmed incidents, read 7 November 2026: latest row VELOS SAPPHIRE (IMO 9321201) dated 4 November, 50NM north of Madinat ash Shamal, damaged, no pollution, one seafarer fatality"
+            },
+            {
+              "url": "https://tehrantimes.com/news/531917/iranian-navy-says-tanker-catches-fire-after-striking-sea-mine",
+              "source": "Tehran Times, 7 November 2026: Iran's army navy said an oil tanker caught fire and was immobilised after striking a sea mine in the eastern Strait of Hormuz, the ship had entered a restricted zone with navigation systems off, no vessel name and no casualty reported"
+            },
+            {
+              "url": "https://tasnimnews.ir/en/news/2026/11/07/3742530/violating-tanker-hits-sea-mine-in-strait-of-hormuz-iran-s-navy",
+              "source": "Tasnim, 7 November 2026: the same Iranian navy statement on the mine strike east of the Strait of Hormuz, no vessel identified and no casualties reported"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -36310,6 +36345,48 @@
             {
               "url": "https://www.capital.gr/english/4024378/drone-attack-on-the-wine-trader-in-the-black-sea-search-and-rescue-operations-underway/",
               "source": "San Marino Ship Register statement carried by Capital.gr, 19 October 2026: flag state and the seven crew who failed to answer the roll call"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6713800974,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6713800974",
+      "author": "iMariner",
+      "received_at": "2026-11-07T22:22:15Z",
+      "incident_id": "INC-20261107-005",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261107-005",
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-07T22:40:00Z",
+          "text": "This row repeats the 4 November strike on VELOS SAPPHIRE and is not a new attack on 7 November, so its seafarer death must not be counted a second time. The Turkish shipping outlet Denizhaber, whose headline is held here, names the ship as the Marshall Islands flagged tanker VELOS SAPPHIRE and places her off Qatar; the Reuters account carried by Kurdistan24 names the same vessel and says she was sailing empty for Sitra in Bahrain when she was struck in the early hours of 5 November local time, which is 23:20 UTC on 4 November. That attack and its one fatality are already recorded on INC-20261104-012, where the Philippines Department of Migrant Workers identified the dead seafarer as Filipino. The description of her as a VLCC in one headline is not supported by the sources checked: the IMO register lists VELOS SAPPHIRE as IMO 9321201, a product tanker, and reports one seafarer fatality. The other half of this row is a different event. Iran's army navy said on 7 November that an oil tanker caught fire and lost power after striking a naval mine in the eastern Strait of Hormuz, that the ship had entered a prohibited area with its navigation systems switched off, and reported no casualties; the vessel was not named in the statements carried by the Tehran Times, Tasnim and Xinhua, and the Iranian account is a one sided official claim with no independent confirmation found here. Nothing checked links that unnamed tanker to the death on VELOS SAPPHIRE, so the casualty field is set to unknown on this record rather than carrying a second count of the same death.",
+          "sources": [
+            {
+              "url": "https://www.denizhaber.com/amp/basra-korfezinde-tankere-fuze-saldirisi-bir-denizci-hayatini-kaybetti/127799",
+              "source": "Denizhaber, 7 November 2026: the headline held in this row names the Marshall Islands flagged tanker VELOS SAPPHIRE, struck off Qatar, one seafarer killed"
+            },
+            {
+              "url": "https://www.kurdistan24.net/en/story/951199/seafarer-killed-in-apparent-missile-attack-on-greek-owned-oil-tanker-in-gulf",
+              "source": "Kurdistan24 with Reuters, 6 November 2026: Marshall Islands flagged Velos Sapphire sailing empty for Sitra, Bahrain, struck early on Thursday 5 November local time, one seafarer found fatally injured, no other casualties"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO list of highlighted confirmed incidents, read 7 November 2026: latest row VELOS SAPPHIRE (IMO 9321201) dated 4 November, 50NM north of Madinat ash Shamal, damaged, no pollution, one seafarer fatality"
+            },
+            {
+              "url": "https://tehrantimes.com/news/531917/iranian-navy-says-tanker-catches-fire-after-striking-sea-mine",
+              "source": "Tehran Times, 7 November 2026: Iran's army navy said an oil tanker caught fire and was immobilised after striking a sea mine in the eastern Strait of Hormuz, the ship had entered a restricted zone with navigation systems off, no vessel name and no casualty reported"
+            },
+            {
+              "url": "https://tasnimnews.ir/en/news/2026/11/07/3742530/violating-tanker-hits-sea-mine-in-strait-of-hormuz-iran-s-navy",
+              "source": "Tasnim, 7 November 2026: the same Iranian navy statement on the mine strike east of the Strait of Hormuz, no vessel identified and no casualties reported"
             }
           ]
         }
