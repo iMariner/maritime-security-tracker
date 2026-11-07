@@ -19181,6 +19181,59 @@
           ]
         }
       ]
+    },
+    "HIST-BS-20220324-TZAREVNA": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-07T10:10:00Z",
+        "vessel_name": "TZAREVNA",
+        "date_utc": "2022-03-24",
+        "vessel_type": "Bulk carrier",
+        "region": "Black Sea",
+        "location_text": "Berthed at Mariupol Sea Trade Port, Sea of Azov",
+        "attack_type": "Missile strike reported by Italian press; the owner describes damage from shellfire",
+        "summary": "TZAREVNA, a Malta-flagged bulk carrier built in 2004 and owned through Vulcania S.r.l. of the Fratelli Cosulich group, was berthed at Mariupol with a cargo of steel semi-finished products for Italian ports when she was struck in the night between 23 and 24 March 2022. Trieste.news, reporting RAI's Friuli Venezia Giulia service, said the ship was hit by missiles at the port, that the damage was not described as heavy, and that she could not leave the berth because the water was full of mines; it said the crew was aboard and that no Italian nationals were among them. The owner said in November 2022 that the vessel had discharged the cargo she had held since 24 February and sailed for Varna in Bulgaria to repair damage that occurred during shellfire. Lloyd's List reported that the bulker, hit by a missile and held at Mariupol for nine months, sailed on 9 November 2022 for repairs.",
+        "date_note": "23 to 24 March 2022 local time is the strike window given by Trieste.news; day precision is kept as 24 March 2022. The owner's November 2022 release dates only the shellfire damage, not the strike itself.",
+        "sources": [
+          {
+            "url": "https://www.triesteallnews.it/2022/03/mariupol-bombardata-la-tzarevna-della-fratelli-cosulich/",
+            "source": "Trieste.news, 25 March 2022 (updated 24 March 2022), reporting RAI TGR Friuli Venezia Giulia and statements by Fratelli Cosulich president Augusto Cosulich"
+          },
+          {
+            "url": "https://cosulich.com/press-release/tzarevna-november-2022-updates",
+            "source": "Fratelli Cosulich press release, November 2022: M/V Tzarevna sailed from Mariupol and is proceeding to Varna to repair damage that occurred during shellfire"
+          },
+          {
+            "url": "https://www.lloydslist.com/LL1142932/Bulker-leaves-separatist-controlled-Mariupol-after-nine-months",
+            "source": "Lloyd's List, 11 November 2022: bulker Tzarevna, hit by a missile, left Mariupol on 9 November after nine months"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-07T10:10:00Z",
+          "text": "New historical record for a 2022 Black Sea event absent from both incident stores and from the living history. The Italian regional press account dates the missile strike to the night of 23 to 24 March 2022 at Mariupol, and the owner later confirmed damage from shellfire when the ship sailed for repairs in November 2022. No source read for this review reported a death or an injury on board, and no casualty figure was published, so the death count and any nationalities stay unknown rather than zero; the crew remaining aboard and later sailing with the ship is not evidence that nobody was hurt. Crew nationality is not inferred from the Maltese flag. The ship is recorded once, as a physical strike on a berthed merchant vessel, not as a separate attack for the November 2022 departure.",
+          "sources": [
+            {
+              "url": "https://www.triesteallnews.it/2022/03/mariupol-bombardata-la-tzarevna-della-fratelli-cosulich/",
+              "source": "Trieste.news, 25 March 2022"
+            },
+            {
+              "url": "https://cosulich.com/press-release/tzarevna-november-2022-updates",
+              "source": "Fratelli Cosulich press release, November 2022"
+            },
+            {
+              "url": "https://www.lloydslist.com/LL1142932/Bulker-leaves-separatist-controlled-Mariupol-after-nine-months",
+              "source": "Lloyd's List, 11 November 2022"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -35729,6 +35782,67 @@
             {
               "url": "https://www.thehindu.com/news/national/targeting-of-commercial-shipping-must-end-india-condemns-latest-attack-on-vessels/article71551531.ece",
               "source": "The Hindu, 6 October 2026: MEA statement that two foreign seafarers were killed on MV Royad Mammadov, with the three Indian nationals aboard safe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6705407342,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6705407342",
+      "author": "iMariner",
+      "received_at": "2026-11-07T10:05:35Z",
+      "incident_id": "HIST-BS-20220324-TZAREVNA",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-BS-20220324-TZAREVNA",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-07T10:10:00Z",
+          "vessel_name": "TZAREVNA",
+          "date_utc": "2022-03-24",
+          "vessel_type": "Bulk carrier",
+          "region": "Black Sea",
+          "location_text": "Berthed at Mariupol Sea Trade Port, Sea of Azov",
+          "attack_type": "Missile strike reported by Italian press; the owner describes damage from shellfire",
+          "summary": "TZAREVNA, a Malta-flagged bulk carrier built in 2004 and owned through Vulcania S.r.l. of the Fratelli Cosulich group, was berthed at Mariupol with a cargo of steel semi-finished products for Italian ports when she was struck in the night between 23 and 24 March 2022. Trieste.news, reporting RAI's Friuli Venezia Giulia service, said the ship was hit by missiles at the port, that the damage was not described as heavy, and that she could not leave the berth because the water was full of mines; it said the crew was aboard and that no Italian nationals were among them. The owner said in November 2022 that the vessel had discharged the cargo she had held since 24 February and sailed for Varna in Bulgaria to repair damage that occurred during shellfire. Lloyd's List reported that the bulker, hit by a missile and held at Mariupol for nine months, sailed on 9 November 2022 for repairs.",
+          "date_note": "23 to 24 March 2022 local time is the strike window given by Trieste.news; day precision is kept as 24 March 2022. The owner's November 2022 release dates only the shellfire damage, not the strike itself.",
+          "sources": [
+            {
+              "url": "https://www.triesteallnews.it/2022/03/mariupol-bombardata-la-tzarevna-della-fratelli-cosulich/",
+              "source": "Trieste.news, 25 March 2022 (updated 24 March 2022), reporting RAI TGR Friuli Venezia Giulia and statements by Fratelli Cosulich president Augusto Cosulich"
+            },
+            {
+              "url": "https://cosulich.com/press-release/tzarevna-november-2022-updates",
+              "source": "Fratelli Cosulich press release, November 2022: M/V Tzarevna sailed from Mariupol and is proceeding to Varna to repair damage that occurred during shellfire"
+            },
+            {
+              "url": "https://www.lloydslist.com/LL1142932/Bulker-leaves-separatist-controlled-Mariupol-after-nine-months",
+              "source": "Lloyd's List, 11 November 2022: bulker Tzarevna, hit by a missile, left Mariupol on 9 November after nine months"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-07T10:10:00Z",
+          "text": "New historical record for a 2022 Black Sea event absent from both incident stores and from the living history. The Italian regional press account dates the missile strike to the night of 23 to 24 March 2022 at Mariupol, and the owner later confirmed damage from shellfire when the ship sailed for repairs in November 2022. No source read for this review reported a death or an injury on board, and no casualty figure was published, so the death count and any nationalities stay unknown rather than zero; the crew remaining aboard and later sailing with the ship is not evidence that nobody was hurt. Crew nationality is not inferred from the Maltese flag. The ship is recorded once, as a physical strike on a berthed merchant vessel, not as a separate attack for the November 2022 departure.",
+          "sources": [
+            {
+              "url": "https://www.triesteallnews.it/2022/03/mariupol-bombardata-la-tzarevna-della-fratelli-cosulich/",
+              "source": "Trieste.news, 25 March 2022"
+            },
+            {
+              "url": "https://cosulich.com/press-release/tzarevna-november-2022-updates",
+              "source": "Fratelli Cosulich press release, November 2022"
+            },
+            {
+              "url": "https://www.lloydslist.com/LL1142932/Bulker-leaves-separatist-controlled-Mariupol-after-nine-months",
+              "source": "Lloyd's List, 11 November 2022"
             }
           ]
         }
