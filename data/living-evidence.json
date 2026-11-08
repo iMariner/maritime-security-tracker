@@ -19673,6 +19673,28 @@
           ]
         }
       ]
+    },
+    "INC-20261108-001": {
+      "updates": [
+        {
+          "at": "2026-11-08T23:10:00Z",
+          "text": "Checked on 9 November 2026: this row repeats the 15 October attack on WINE TRADER and is not a new incident, so no count is set here. The report behind it is the statement of the Varna Appellate Prosecution Office of 7 November, carried by the Bulgarian News Agency and by Agence France-Presse, that severely damaged human remains were discovered while debris was cleared from a ship that had been struck by a drone off the coast of Romania in October and brought to a shipyard in Varna for repairs, that DNA tests have been ordered to identify the dead, and that there were no Bulgarian nationals in the crew. The prosecution did not name the ship and said the condition of the remains made an exact number impossible; a Bulgarian law enforcement source told Agence France-Presse there were most likely six victims. Seven of the twelve crew were reported missing after the 15 October strike and five were rescued. The identification with WINE TRADER rests on those particulars, a San Marino flag and a drone strike off Romania in October with the ship later at Varna, and the attack itself is recorded on INC-20261015-001, where the seven missing are a missing snapshot and not a death count. Nothing here is a confirmed total: the DNA identification has not been published, no nationality has been given for the remains, and the corpus phrase that the discovery suggests at least one death is an inference rather than a reported figure. Verification is not asserted, because a verified duplicate would put the same missing men into the public dataset a second time.",
+          "sources": [
+            {
+              "url": "https://www.bta.bg/en/news/bulgaria/1242116-varna-prosecutors-investigate-human-remains-found-on-drone-damaged-ship",
+              "source": "Bulgarian News Agency, 7 November 2026: Varna Appellate Prosecution Office says severely damaged human remains were found during debris clearing on a San Marino flagged ship struck by a drone off Romania in October and brought to a Varna shipyard, DNA tests ordered, no Bulgarian crew, ship not named"
+            },
+            {
+              "url": "https://www.straitstimes.com/world/europe/human-bodies-found-on-ship-struck-by-a-drone-in-black-sea",
+              "source": "Agence France-Presse carried by The Straits Times, 8 November 2026: a Bulgarian law enforcement source said the remains were too badly damaged for an exact number and that there were most likely six victims; seven of 12 crew reported missing, five rescued"
+            },
+            {
+              "url": "https://www.marineinsight.com/human-remains-found-drone-hit-tanker-wine-trader-black-sea/",
+              "source": "Marine Insight, 8 November 2026: the San Marino flag and the October drone strike match Wine Trader, DNA tests ordered, number of victims cannot be fixed"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -37522,6 +37544,35 @@
             {
               "url": "https://maritime-executive.com/index.php/article/tanker-burns-after-strike-in-strait-of-hormuz",
               "source": "The Maritime Executive, 8 November 2026: no injuries reported, firefighting tugs on scene, open source analysts tentatively identified the vessel as Navig8 Messi, an ADNOC chartered product tanker hit once before in August"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6728420557,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6728420557",
+      "author": "iMariner",
+      "received_at": "2026-11-08T23:05:39Z",
+      "incident_id": "INC-20261108-001",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261108-001",
+        "update": {
+          "at": "2026-11-08T23:10:00Z",
+          "text": "Checked on 9 November 2026: this row repeats the 15 October attack on WINE TRADER and is not a new incident, so no count is set here. The report behind it is the statement of the Varna Appellate Prosecution Office of 7 November, carried by the Bulgarian News Agency and by Agence France-Presse, that severely damaged human remains were discovered while debris was cleared from a ship that had been struck by a drone off the coast of Romania in October and brought to a shipyard in Varna for repairs, that DNA tests have been ordered to identify the dead, and that there were no Bulgarian nationals in the crew. The prosecution did not name the ship and said the condition of the remains made an exact number impossible; a Bulgarian law enforcement source told Agence France-Presse there were most likely six victims. Seven of the twelve crew were reported missing after the 15 October strike and five were rescued. The identification with WINE TRADER rests on those particulars, a San Marino flag and a drone strike off Romania in October with the ship later at Varna, and the attack itself is recorded on INC-20261015-001, where the seven missing are a missing snapshot and not a death count. Nothing here is a confirmed total: the DNA identification has not been published, no nationality has been given for the remains, and the corpus phrase that the discovery suggests at least one death is an inference rather than a reported figure. Verification is not asserted, because a verified duplicate would put the same missing men into the public dataset a second time.",
+          "sources": [
+            {
+              "url": "https://www.bta.bg/en/news/bulgaria/1242116-varna-prosecutors-investigate-human-remains-found-on-drone-damaged-ship",
+              "source": "Bulgarian News Agency, 7 November 2026: Varna Appellate Prosecution Office says severely damaged human remains were found during debris clearing on a San Marino flagged ship struck by a drone off Romania in October and brought to a Varna shipyard, DNA tests ordered, no Bulgarian crew, ship not named"
+            },
+            {
+              "url": "https://www.straitstimes.com/world/europe/human-bodies-found-on-ship-struck-by-a-drone-in-black-sea",
+              "source": "Agence France-Presse carried by The Straits Times, 8 November 2026: a Bulgarian law enforcement source said the remains were too badly damaged for an exact number and that there were most likely six victims; seven of 12 crew reported missing, five rescued"
+            },
+            {
+              "url": "https://www.marineinsight.com/human-remains-found-drone-hit-tanker-wine-trader-black-sea/",
+              "source": "Marine Insight, 8 November 2026: the San Marino flag and the October drone strike match Wine Trader, DNA tests ordered, number of victims cannot be fixed"
             }
           ]
         }
