@@ -19476,6 +19476,85 @@
           ]
         }
       ]
+    },
+    "INC-20261107-010": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4644273/us-forces-disable-cargo-vessel-attempting-to-violate-naval-blockade",
+            "source": "US Central Command release, 7 November 2026: no death and no injury reported, only that the crew was told to leave the spaces to be struck"
+          },
+          {
+            "url": "https://maritime-executive.com/article/us-forces-disable-first-cargo-ship-in-a-month-sailing-from-iranian-port",
+            "source": "The Maritime Executive, 7 November 2026, reporting UKMTO: the status of the crew was unknown, so the death count is unknown and not zero"
+          }
+        ]
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-08T11:05:00Z",
+        "vessel_name": "HUDA",
+        "imo": "9197088",
+        "date_utc": "2026-11-07",
+        "vessel_type": "Bulk carrier",
+        "region": "Gulf of Oman",
+        "location_text": "Gulf of Oman, about 18 nautical miles east of Khor Fakkan, United Arab Emirates, per UKMTO",
+        "attack_type": "airstrike by a military aircraft (United States blockade enforcement)",
+        "summary": "HUDA, a 24,993 deadweight tonne bulk carrier under the flag of St Kitts and Nevis, was disabled in the Gulf of Oman on 7 November 2026 by United States Central Command forces enforcing the US naval blockade of Iranian ports. CENTCOM said the civilian crew ignored repeated warnings and made several attempts to breach the blockade, that a US military aircraft fired precision munitions at the vessel's stern and disabled her, and that US forces had directed the crew to abandon the targeted spaces before the strike. The command said the ship had tried to leave regional waters after visiting an Iranian port. UKMTO placed the vessel about 18 nautical miles east of Khor Fakkan in the United Arab Emirates and said the status of the crew was unknown. No death and no injury has been reported by CENTCOM, UKMTO or the shipping press read for this review.",
+        "sources": [
+          {
+            "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4644273/us-forces-disable-cargo-vessel-attempting-to-violate-naval-blockade",
+            "source": "US Central Command public release, 7 November 2026: US forces disabled M/V Huda, St Kitts flagged, after the crew ignored repeated warnings and tried to violate the naval blockade of Iran, a US military aircraft fired precision munitions at her stern, the crew was directed to abandon targeted spaces, and 147 vessels have been redirected and five disabled since July"
+          },
+          {
+            "url": "https://maritime-executive.com/article/us-forces-disable-first-cargo-ship-in-a-month-sailing-from-iranian-port",
+            "source": "The Maritime Executive, 7 November 2026: dry bulk carrier Huda, 24,993 dwt, built 1999, 159 m, Turkish managed, UKMTO places her about 18 nautical miles east of Khor Fakkan and reports the crew status as unknown"
+          },
+          {
+            "url": "https://seatrade-maritime.com/security/crew-abandon-tanker-in-hormuz-us-strikes-bulker-in-gulf-of-oman",
+            "source": "Seatrade Maritime News, 8 November 2026: St Kitts and Nevis flagged bulker Huda disabled on 7 November after attempts to pass the US blockade, Pole Star Global names Embrace Shipping Management in Turkey as owner"
+          },
+          {
+            "url": "https://www.classnk.or.jp/register/regships/one_dsp.aspx?imo=9197088",
+            "source": "ClassNK Register of Ships entry for M/S HUDA, IMO 9197088, flag St Kitts and Nevis, bulk carrier, 24,993 deadweight, built 1999, former names NADA and ERMOUPOLIS"
+          },
+          {
+            "url": "https://www.ukmto.org/recent-incidents",
+            "source": "UKMTO recent incidents, read 8 November 2026: the disabled vessel reported about 18 nautical miles east of Khor Fakkan, with the status of the crew unknown at the time of the warning"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-08T11:05:00Z",
+          "text": "Identity established for a row that carried only a headline. The vessel is HUDA, IMO 9197088, a 24,993 deadweight tonne bulk carrier of St Kitts and Nevis, built in 1999 at Imabari and formerly named NADA and ERMOUPOLIS, as listed in the ClassNK register. CENTCOM's own release of 7 November names M/V Huda and describes the action: her civilian crew ignored repeated warnings and tried several times to violate the US naval blockade of Iranian ports, a US military aircraft fired precision munitions at her stern, the crew was told to abandon the spaces to be struck, and the ship was disabled after trying to leave regional waters following a call at an Iranian port. UKMTO placed her about 18 nautical miles east of Khor Fakkan and said the crew status was unknown. No source read here reports a death or an injury, so the death count is unknown rather than zero and no nationality is recorded. Ownership is deliberately not asserted because the accounts disagree: Pole Star Global, quoted by Seatrade, names Embrace Shipping Management in Turkey, while the ship databases name Nour Elhuda Shipping Co LLC and a Greek technical manager. This is a strike by a state military on a merchant ship during blockade enforcement, and it is recorded as such rather than as a non state attack. An earlier comment of 8 November with the same evidence was rejected by the workflow for a missing dated update source and is superseded by this one.",
+          "sources": [
+            {
+              "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4644273/us-forces-disable-cargo-vessel-attempting-to-violate-naval-blockade",
+              "source": "US Central Command public release, 7 November 2026: US forces disabled M/V Huda, St Kitts flagged, after the crew ignored repeated warnings and tried to violate the naval blockade of Iran, a US military aircraft fired precision munitions at her stern, the crew was directed to abandon targeted spaces, and 147 vessels have been redirected and five disabled since July"
+            },
+            {
+              "url": "https://maritime-executive.com/article/us-forces-disable-first-cargo-ship-in-a-month-sailing-from-iranian-port",
+              "source": "The Maritime Executive, 7 November 2026: dry bulk carrier Huda, 24,993 dwt, built 1999, 159 m, Turkish managed, UKMTO places her about 18 nautical miles east of Khor Fakkan and reports the crew status as unknown"
+            },
+            {
+              "url": "https://seatrade-maritime.com/security/crew-abandon-tanker-in-hormuz-us-strikes-bulker-in-gulf-of-oman",
+              "source": "Seatrade Maritime News, 8 November 2026: St Kitts and Nevis flagged bulker Huda disabled on 7 November after attempts to pass the US blockade, Pole Star Global names Embrace Shipping Management in Turkey as owner"
+            },
+            {
+              "url": "https://www.classnk.or.jp/register/regships/one_dsp.aspx?imo=9197088",
+              "source": "ClassNK Register of Ships entry for M/S HUDA, IMO 9197088, flag St Kitts and Nevis, bulk carrier, 24,993 deadweight, built 1999, former names NADA and ERMOUPOLIS"
+            },
+            {
+              "url": "https://www.ukmto.org/recent-incidents",
+              "source": "UKMTO recent incidents, read 8 November 2026: the disabled vessel reported about 18 nautical miles east of Khor Fakkan, with the status of the crew unknown at the time of the warning"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -36903,6 +36982,92 @@
             {
               "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
               "source": "IMO list of highlighted confirmed incidents, read 8 November 2026: 129 confirmed incidents and 25 confirmed seafarer fatalities as at 6 November, latest entry VELOS SAPPHIRE on 4 November, no row for this fire"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6720526228,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6720526228",
+      "author": "iMariner",
+      "received_at": "2026-11-08T10:46:55Z",
+      "incident_id": "INC-20261107-010",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261107-010",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-08T11:05:00Z",
+          "vessel_name": "HUDA",
+          "imo": "9197088",
+          "date_utc": "2026-11-07",
+          "vessel_type": "Bulk carrier",
+          "region": "Gulf of Oman",
+          "location_text": "Gulf of Oman, about 18 nautical miles east of Khor Fakkan, United Arab Emirates, per UKMTO",
+          "attack_type": "airstrike by a military aircraft (United States blockade enforcement)",
+          "summary": "HUDA, a 24,993 deadweight tonne bulk carrier under the flag of St Kitts and Nevis, was disabled in the Gulf of Oman on 7 November 2026 by United States Central Command forces enforcing the US naval blockade of Iranian ports. CENTCOM said the civilian crew ignored repeated warnings and made several attempts to breach the blockade, that a US military aircraft fired precision munitions at the vessel's stern and disabled her, and that US forces had directed the crew to abandon the targeted spaces before the strike. The command said the ship had tried to leave regional waters after visiting an Iranian port. UKMTO placed the vessel about 18 nautical miles east of Khor Fakkan in the United Arab Emirates and said the status of the crew was unknown. No death and no injury has been reported by CENTCOM, UKMTO or the shipping press read for this review.",
+          "sources": [
+            {
+              "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4644273/us-forces-disable-cargo-vessel-attempting-to-violate-naval-blockade",
+              "source": "US Central Command public release, 7 November 2026: US forces disabled M/V Huda, St Kitts flagged, after the crew ignored repeated warnings and tried to violate the naval blockade of Iran, a US military aircraft fired precision munitions at her stern, the crew was directed to abandon targeted spaces, and 147 vessels have been redirected and five disabled since July"
+            },
+            {
+              "url": "https://maritime-executive.com/article/us-forces-disable-first-cargo-ship-in-a-month-sailing-from-iranian-port",
+              "source": "The Maritime Executive, 7 November 2026: dry bulk carrier Huda, 24,993 dwt, built 1999, 159 m, Turkish managed, UKMTO places her about 18 nautical miles east of Khor Fakkan and reports the crew status as unknown"
+            },
+            {
+              "url": "https://seatrade-maritime.com/security/crew-abandon-tanker-in-hormuz-us-strikes-bulker-in-gulf-of-oman",
+              "source": "Seatrade Maritime News, 8 November 2026: St Kitts and Nevis flagged bulker Huda disabled on 7 November after attempts to pass the US blockade, Pole Star Global names Embrace Shipping Management in Turkey as owner"
+            },
+            {
+              "url": "https://www.classnk.or.jp/register/regships/one_dsp.aspx?imo=9197088",
+              "source": "ClassNK Register of Ships entry for M/S HUDA, IMO 9197088, flag St Kitts and Nevis, bulk carrier, 24,993 deadweight, built 1999, former names NADA and ERMOUPOLIS"
+            },
+            {
+              "url": "https://www.ukmto.org/recent-incidents",
+              "source": "UKMTO recent incidents, read 8 November 2026: the disabled vessel reported about 18 nautical miles east of Khor Fakkan, with the status of the crew unknown at the time of the warning"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": [],
+          "sources": [
+            {
+              "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4644273/us-forces-disable-cargo-vessel-attempting-to-violate-naval-blockade",
+              "source": "US Central Command release, 7 November 2026: no death and no injury reported, only that the crew was told to leave the spaces to be struck"
+            },
+            {
+              "url": "https://maritime-executive.com/article/us-forces-disable-first-cargo-ship-in-a-month-sailing-from-iranian-port",
+              "source": "The Maritime Executive, 7 November 2026, reporting UKMTO: the status of the crew was unknown, so the death count is unknown and not zero"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-11-08T11:05:00Z",
+          "text": "Identity established for a row that carried only a headline. The vessel is HUDA, IMO 9197088, a 24,993 deadweight tonne bulk carrier of St Kitts and Nevis, built in 1999 at Imabari and formerly named NADA and ERMOUPOLIS, as listed in the ClassNK register. CENTCOM's own release of 7 November names M/V Huda and describes the action: her civilian crew ignored repeated warnings and tried several times to violate the US naval blockade of Iranian ports, a US military aircraft fired precision munitions at her stern, the crew was told to abandon the spaces to be struck, and the ship was disabled after trying to leave regional waters following a call at an Iranian port. UKMTO placed her about 18 nautical miles east of Khor Fakkan and said the crew status was unknown. No source read here reports a death or an injury, so the death count is unknown rather than zero and no nationality is recorded. Ownership is deliberately not asserted because the accounts disagree: Pole Star Global, quoted by Seatrade, names Embrace Shipping Management in Turkey, while the ship databases name Nour Elhuda Shipping Co LLC and a Greek technical manager. This is a strike by a state military on a merchant ship during blockade enforcement, and it is recorded as such rather than as a non state attack. An earlier comment of 8 November with the same evidence was rejected by the workflow for a missing dated update source and is superseded by this one.",
+          "sources": [
+            {
+              "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4644273/us-forces-disable-cargo-vessel-attempting-to-violate-naval-blockade",
+              "source": "US Central Command public release, 7 November 2026: US forces disabled M/V Huda, St Kitts flagged, after the crew ignored repeated warnings and tried to violate the naval blockade of Iran, a US military aircraft fired precision munitions at her stern, the crew was directed to abandon targeted spaces, and 147 vessels have been redirected and five disabled since July"
+            },
+            {
+              "url": "https://maritime-executive.com/article/us-forces-disable-first-cargo-ship-in-a-month-sailing-from-iranian-port",
+              "source": "The Maritime Executive, 7 November 2026: dry bulk carrier Huda, 24,993 dwt, built 1999, 159 m, Turkish managed, UKMTO places her about 18 nautical miles east of Khor Fakkan and reports the crew status as unknown"
+            },
+            {
+              "url": "https://seatrade-maritime.com/security/crew-abandon-tanker-in-hormuz-us-strikes-bulker-in-gulf-of-oman",
+              "source": "Seatrade Maritime News, 8 November 2026: St Kitts and Nevis flagged bulker Huda disabled on 7 November after attempts to pass the US blockade, Pole Star Global names Embrace Shipping Management in Turkey as owner"
+            },
+            {
+              "url": "https://www.classnk.or.jp/register/regships/one_dsp.aspx?imo=9197088",
+              "source": "ClassNK Register of Ships entry for M/S HUDA, IMO 9197088, flag St Kitts and Nevis, bulk carrier, 24,993 deadweight, built 1999, former names NADA and ERMOUPOLIS"
+            },
+            {
+              "url": "https://www.ukmto.org/recent-incidents",
+              "source": "UKMTO recent incidents, read 8 November 2026: the disabled vessel reported about 18 nautical miles east of Khor Fakkan, with the status of the crew unknown at the time of the warning"
             }
           ]
         }
