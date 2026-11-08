@@ -18868,6 +18868,28 @@
               "source": "Reuters, 6 November 2026, quoting Velos Tankers: the manager reported no other injuries on board"
             }
           ]
+        },
+        {
+          "at": "2026-11-08T11:12:00Z",
+          "text": "Casualty follow-up, count unchanged at one confirmed death. On 8 November 2026 the Daily Tribune, reporting a statement from the Philippines Department of Migrant Workers, said 21 other Filipino crew members of MT Velos Sapphire were reported safe and unharmed, and the Philippine Canadian Inquirer carried the same account, adding that Philippine authorities have not determined whether a drone, a missile or another projectile caused the explosion. That does not corroborate the single injured Filipino the same department described on 7 November, which the manager, Velos Tankers, had already contradicted by reporting no other injuries, so no injured count is set and the conflict stays on the record. These 8 November reports describe the same 4 November strike, 5 November local time, on the same vessel, and the same one seafarer found fatally injured, the Filipino death already recorded here. A row ingested on 8 November from the department's statement, INC-20261108-005, repeats that death and is not a second fatality. The attack type stays a projectile of undetermined kind: the department's latest account leaves drone and missile open, the manager called it a missile, and the IMO register records only damage and one seafarer fatality.",
+          "sources": [
+            {
+              "url": "https://tribune.net.ph/2026/11/08/filipino-seafarer-killed-in-persian-gulf-tanker-explosion",
+              "source": "Daily Tribune, 8 November 2026, reporting a Department of Migrant Workers statement: the death of a Filipino seafarer on MT Velos Sapphire in the Persian Gulf, 21 other Filipino crew reported safe and unharmed, the cause of the explosion not yet verified as drone or missile, vessel bound for Sitrah in Bahrain"
+            },
+            {
+              "url": "https://canadianinquirer.net/2026/11/08/filipino-seafarer-killed-in-persian-gulf-tanker-explosion-as-dmw-assists-affected-crew/",
+              "source": "Philippine Canadian Inquirer, 8 November 2026: the department later reported that the other 21 Filipinos were safe, and Philippine authorities have yet to determine whether a drone, missile or another projectile caused the explosion"
+            },
+            {
+              "url": "https://www.gmanetwork.com/news/pinoyabroad/dispatch/1008636/dmw-filipino-seafarer-killed-another-hurt-in-persian-gulf-tanker-attack/story/",
+              "source": "GMA News Online, 7 November 2026: Secretary Hans Leo Cacdac said 22 Filipino seafarers were aboard, one died, one was injured and 20 were safe and sound"
+            },
+            {
+              "url": "https://srnnews.com/one-seafarer-killed-in-missile-attack-on-tanker-in-gulf",
+              "source": "Reuters report of 6 November 2026 carried by SRN News, quoting the manager Velos Tankers: the seafarer was found fatally injured after being reported missing and there were no other injuries"
+            }
+          ]
         }
       ]
     },
@@ -37068,6 +37090,184 @@
             {
               "url": "https://www.ukmto.org/recent-incidents",
               "source": "UKMTO recent incidents, read 8 November 2026: the disabled vessel reported about 18 nautical miles east of Khor Fakkan, with the status of the crew unknown at the time of the warning"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6720536036,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6720536036",
+      "author": "iMariner",
+      "received_at": "2026-11-08T10:47:59Z",
+      "incident_id": "INC-20261104-012",
+      "before": {
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 1,
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO list of highlighted confirmed incidents, page dated as at 6 November 2026 and read again on 7 November 2026: the VELOS SAPPHIRE row reads one seafarer fatality and the register total is 25 seafarer fatalities"
+            },
+            {
+              "url": "https://srnnews.com/one-seafarer-killed-in-missile-attack-on-tanker-in-gulf",
+              "source": "Reuters, 6 November 2026, quoting Velos Tankers: one seafarer found fatally injured after being reported missing, no other injuries"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Filipino",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "url": "https://www.gmanetwork.com/news/pinoyabroad/dispatch/1008636/dmw-filipino-seafarer-killed-another-hurt-in-persian-gulf-tanker-attack/story/",
+                  "source": "GMA News Online, 7 November 2026, reporting Migrant Workers Secretary Hans Leo Cacdac: 22 Filipino seafarers were on board MT Velos Sapphire and one of them died"
+                }
+              ]
+            }
+          ]
+        },
+        "human_impact": {
+          "missing": {
+            "count": 0,
+            "as_of": "2026-11-06",
+            "sources": [
+              {
+                "url": "https://srnnews.com/one-seafarer-killed-in-missile-attack-on-tanker-in-gulf",
+                "source": "Reuters, 6 November 2026, quoting Velos Tankers: the seafarer initially reported missing was found fatally injured on board and there were no other injuries, so nobody from this crew remains missing"
+              },
+              {
+                "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+                "source": "IMO list of highlighted confirmed incidents, read 6 November 2026: the VELOS SAPPHIRE row now reads one seafarer fatality rather than a missing person"
+              }
+            ]
+          }
+        },
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-06T15:30:00Z",
+          "vessel_name": "VELOS SAPPHIRE",
+          "imo": "9321201",
+          "date_utc": "2026-11-04",
+          "vessel_type": "Oil products tanker",
+          "region": "Persian Gulf",
+          "location_text": "About 50 nautical miles north of Madinat ash Shamal, Qatar, in the Persian Gulf",
+          "attack_type": "projectile",
+          "date_note": "The security firm Marisks and UKMTO place the strike at 23:20 UTC on 4 November 2026, which was 02:20 local time on 5 November. The IMO register, Lloyd's List and the manager's statement of 6 November all date the incident 4 November, so the row keeps that day and claims no finer precision.",
+          "summary": "VELOS SAPPHIRE, a 74,998 dwt oil products tanker under the flag of the Marshall Islands, was struck by two unidentified projectiles about 50 nautical miles north of Madinat ash Shamal, Qatar, late on 4 November 2026 while on passage from Fujairah towards Sitrah in Bahrain. The manager, Velos Tankers, said on 6 November that one of its seafarers was found fatally injured on board after being reported missing in the aftermath of the explosion, that there were no other injuries among the crew, that the crew extinguished a fire caused by the explosion, that no pollution was reported and that the tanker was taken to Khalifa Bin Salman Port in Bahrain, where an investigation will be launched. The IMO list of highlighted confirmed incidents, read the same day, records the vessel as damaged, with no pollution, and one seafarer fatality, and the register total of confirmed seafarer fatalities rose from 24 to 25.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO list of highlighted confirmed incidents, read 6 November 2026: 129 confirmed incidents and 25 confirmed seafarer fatalities, with the 4 November VELOS SAPPHIRE (IMO 9321201) row at 50NM north of Madinat ash Shamal, Qatar reading damaged, no pollution, one seafarer fatality"
+            },
+            {
+              "url": "https://srnnews.com/one-seafarer-killed-in-missile-attack-on-tanker-in-gulf",
+              "source": "Reuters report of 6 November 2026 by Renee Maltezou, read as syndicated by SRN News because reuters.com returned HTTP 401 to this desk, carrying the statement of the Greek manager Velos Tankers: one seafarer killed, found fatally injured on board after being reported missing, no other injuries, fire extinguished, no reports of pollution, the Marshall Islands flagged MT Velos Sapphire taken to Khalifa Bin Salman Port in Bahrain and an investigation to be launched"
+            },
+            {
+              "url": "https://www.ukmto.org/recent-incidents",
+              "source": "UKMTO recent incidents, warning 196-26: tanker struck by two unidentified projectiles 50NM north of Madinat ash Shamal, Qatar, crew status unconfirmed at the time of the warning"
+            },
+            {
+              "url": "https://www.lloydslist.com/LL1158929/Seafarer-killed-as-tanker-attack-underscores-widening-Middle-East-Gulf-threat",
+              "source": "Lloyd's List, 5 November 2026: a seafarer lost their life on the Greek-operated product tanker Velos Sapphire, operator reports an explosion from an unidentified missile on the aft port side"
+            },
+            {
+              "url": "https://velosshipping.com/en/fleet/velos-fleet-list/tankers",
+              "source": "Velos Shipping fleet list: VELOS SAPPHIRE, Panamax/LR1 product tanker, 74,998 dwt, Marshall Islands flag"
+            }
+          ]
+        },
+        "updates": [
+          {
+            "at": "2026-11-05T20:46:00Z",
+            "text": "Identity and the report of one seafarer missing are now sourced. The IMO list of highlighted confirmed incidents records VELOS SAPPHIRE, IMO 9321201, struck on 4 November 2026 about 50 nautical miles north of Madinat ash Shamal, Qatar, damaged with no pollution and one seafarer missing. That missing count is a dated snapshot, not a death count. UKMTO warning 196-26 named no vessel and said the status of the crew, the damage assessment and any environmental impact were unconfirmed. Lloyd's List reported on 5 November that a seafarer had lost their life and quoted the operator on an explosion caused by an unidentified missile on the aft port side, while Greek outlets carrying the Marisks account the same day said all the crew were well. Because those accounts conflict on whether the one casualty is missing or dead, no death count and no nationality are asserted here. This row and INC-20261104-008 describe the same attack; INC-20261104-012 is the identified record.",
+            "sources": [
+              {
+                "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+                "source": "IMO list of highlighted confirmed incidents, read 5 November 2026"
+              },
+              {
+                "url": "https://www.ukmto.org/recent-incidents",
+                "source": "UKMTO recent incidents, warning 196-26"
+              },
+              {
+                "url": "https://www.lloydslist.com/LL1158929/Seafarer-killed-as-tanker-attack-underscores-widening-Middle-East-Gulf-threat",
+                "source": "Lloyd's List, 5 November 2026"
+              },
+              {
+                "url": "https://www.naftemporiki.gr/maritime/2185049/persikos-kolpos-epithesi-me-dyo-vlimata-dechthike-dexamenoploio-ellinikis-diacheirisis-kala-stin-ygeia-toy-to-pliroma/",
+                "source": "Naftemporiki, 5 November 2026, citing Marisks"
+              }
+            ]
+          },
+          {
+            "at": "2026-11-06T09:25:00Z",
+            "text": "Casualty follow-up with no numeric change. The IMO list of highlighted confirmed incidents, read again on 6 November 2026, still records VELOS SAPPHIRE as damaged with no pollution and one seafarer missing, and the register's headline figures, 129 confirmed incidents and 24 seafarer fatalities, are unchanged for this vessel, so the one missing snapshot dated 4 November stands. Splash247, in a report carrying the authority's 5 November 2026 blacklist update, said maritime security sources have reported that the crew member was killed while the IMO has not confirmed a fatality, and repeated the operator's account of an explosion on the aft port side from an unidentified missile, the fire being extinguished and the tanker continuing to Bahrain. No flag state, owner or other authority has published a death, an identity or a nationality for the missing seafarer. A trade-press report of a death is therefore not recorded as a death count: the count stays unknown, no nationality is inferred, and the conflict between the missing-person register entry, the reported death and the Greek accounts that all the crew were well remains open.",
+            "sources": [
+              {
+                "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+                "source": "IMO list of highlighted confirmed incidents, read 6 November 2026: 129 confirmed incidents and 24 seafarer fatalities, VELOS SAPPHIRE (IMO 9321201), 4 November, damaged, no pollution, one seafarer missing"
+              },
+              {
+                "url": "https://splash247.com/seafarer-missing-in-gulf-tanker-strike-as-iran-redraws-hormuz-blacklist",
+                "source": "Splash247, reporting the 5 November 2026 Persian Gulf Strait Authority list: Velos Sapphire, 74,998 dwt Marshall Islands flagged product tanker managed by Velos Tankers, struck about 50 nautical miles north of Madinat ash Shamal, maritime security sources reported the crew member killed although the IMO has not confirmed a fatality, fire extinguished, vessel continued to Sitra"
+              }
+            ]
+          },
+          {
+            "at": "2026-11-06T15:30:00Z",
+            "text": "Casualty resolution from unknown to one confirmed death. On 6 November the manager, Velos Tankers, reported that the seafarer who had been missing since the 4 November strike was found fatally injured on board, so the death count is now one, supported both by the owner's statement and by the IMO register, which the same day changed its VELOS SAPPHIRE row from one seafarer missing to one seafarer fatality and raised the register total of confirmed seafarer fatalities from 24 to 25. The one missing snapshot is reduced to zero and is not carried alongside the death, because the person reported missing and the person found dead are the same seafarer. The owner reported no other injuries, the fire extinguished, no pollution and the vessel taken to Khalifa Bin Salman Port in Bahrain. No source opened here gives the dead seafarer's nationality, and a vessel's flag is not evidence of crew nationality, so none is recorded. The earlier security-firm accounts of 5 November, which said all the crew were well, are superseded by the owner's statement.",
+            "sources": [
+              {
+                "url": "https://srnnews.com/one-seafarer-killed-in-missile-attack-on-tanker-in-gulf",
+                "source": "Reuters, 6 November 2026, carrying the Velos Tankers statement, read as syndicated by SRN News"
+              },
+              {
+                "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+                "source": "IMO list of highlighted confirmed incidents, read 6 November 2026: 25 confirmed seafarer fatalities, VELOS SAPPHIRE one seafarer fatality"
+              }
+            ]
+          },
+          {
+            "at": "2026-11-07T16:20:00Z",
+            "text": "Nationality of the single fatality is now sourced and the casualty count is unchanged at one seafarer dead. On 7 November 2026 the Philippines Department of Migrant Workers, through Secretary Hans Leo Cacdac, said 22 Filipino seafarers were aboard MT Velos Sapphire when it was struck, that one of them died, that one was injured and that the other 20 were safe and sound. The manager, Velos Tankers, has said there were no other injuries on board, so the disputed injury is not recorded as a structured count and the conflict is preserved rather than resolved. Only the Filipino death rests on a named authority; no nationality is assigned to the rest of the crew. The department also said it will issue an advisory urging owners to keep vessels out of the Persian Gulf.",
+            "sources": [
+              {
+                "url": "https://www.gmanetwork.com/news/pinoyabroad/dispatch/1008636/dmw-filipino-seafarer-killed-another-hurt-in-persian-gulf-tanker-attack/story/",
+                "source": "GMA News Online, 7 November 2026, reporting the Department of Migrant Workers: one Filipino seafarer died, one was injured, 20 were safe, and 22 Filipino crew were reported on board"
+              },
+              {
+                "url": "https://srnnews.com/one-seafarer-killed-in-missile-attack-on-tanker-in-gulf",
+                "source": "Reuters, 6 November 2026, quoting Velos Tankers: the manager reported no other injuries on board"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "INC-20261104-012",
+        "update": {
+          "at": "2026-11-08T11:12:00Z",
+          "text": "Casualty follow-up, count unchanged at one confirmed death. On 8 November 2026 the Daily Tribune, reporting a statement from the Philippines Department of Migrant Workers, said 21 other Filipino crew members of MT Velos Sapphire were reported safe and unharmed, and the Philippine Canadian Inquirer carried the same account, adding that Philippine authorities have not determined whether a drone, a missile or another projectile caused the explosion. That does not corroborate the single injured Filipino the same department described on 7 November, which the manager, Velos Tankers, had already contradicted by reporting no other injuries, so no injured count is set and the conflict stays on the record. These 8 November reports describe the same 4 November strike, 5 November local time, on the same vessel, and the same one seafarer found fatally injured, the Filipino death already recorded here. A row ingested on 8 November from the department's statement, INC-20261108-005, repeats that death and is not a second fatality. The attack type stays a projectile of undetermined kind: the department's latest account leaves drone and missile open, the manager called it a missile, and the IMO register records only damage and one seafarer fatality.",
+          "sources": [
+            {
+              "url": "https://tribune.net.ph/2026/11/08/filipino-seafarer-killed-in-persian-gulf-tanker-explosion",
+              "source": "Daily Tribune, 8 November 2026, reporting a Department of Migrant Workers statement: the death of a Filipino seafarer on MT Velos Sapphire in the Persian Gulf, 21 other Filipino crew reported safe and unharmed, the cause of the explosion not yet verified as drone or missile, vessel bound for Sitrah in Bahrain"
+            },
+            {
+              "url": "https://canadianinquirer.net/2026/11/08/filipino-seafarer-killed-in-persian-gulf-tanker-explosion-as-dmw-assists-affected-crew/",
+              "source": "Philippine Canadian Inquirer, 8 November 2026: the department later reported that the other 21 Filipinos were safe, and Philippine authorities have yet to determine whether a drone, missile or another projectile caused the explosion"
+            },
+            {
+              "url": "https://www.gmanetwork.com/news/pinoyabroad/dispatch/1008636/dmw-filipino-seafarer-killed-another-hurt-in-persian-gulf-tanker-attack/story/",
+              "source": "GMA News Online, 7 November 2026: Secretary Hans Leo Cacdac said 22 Filipino seafarers were aboard, one died, one was injured and 20 were safe and sound"
+            },
+            {
+              "url": "https://srnnews.com/one-seafarer-killed-in-missile-attack-on-tanker-in-gulf",
+              "source": "Reuters report of 6 November 2026 carried by SRN News, quoting the manager Velos Tankers: the seafarer was found fatally injured after being reported missing and there were no other injuries"
             }
           ]
         }
