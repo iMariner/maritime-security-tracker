@@ -512,8 +512,8 @@
   {
     "region": "Strait of Hormuz",
     "date_utc": "2026-11-08",
-    "summary": "A tanker caught fire about 8 nautical miles north-west of Khasab, Oman on 8 November and the crew were evacuated, according to Mehr News Agency and Arab Times. Iran said three tankers caught fire in the Strait of Hormuz and suggested the blasts were not US attacks, while footage appeared to show fires on several tankers Iran called rule violators.",
-    "official_source_cited": null,
+    "summary": "A tanker caught fire about 8 nautical miles north-west of Khasab, Oman on 8 November and the crew were evacuated, according to Mehr News Agency and Arab Times. UAE authorities rescued 22 people from a burning vessel in the Gulf of Oman the same day, and Iran claimed three tankers caught fire in the Strait of Hormuz.",
+    "official_source_cited": "UAE authorities (rescue operation)",
     "conflicting": false,
     "confidence": 0.6,
     "vessel_name": null,
@@ -526,7 +526,7 @@
     "location_text": "about 8 nautical miles north-west of Khasab, Oman",
     "attack_type": "explosion (cause unknown)",
     "damage": "tanker caught fire",
-    "casualties": null,
+    "casualties": "22 crew rescued",
     "attribution_claimed": "Iran (claims the tankers violated its maritime traffic regulations)",
     "independent_evidence": true,
     "id": "INC-20261108-010",
@@ -611,10 +611,73 @@
         "kind": "media",
         "published_at": "2026-11-08T11:23:11Z",
         "title": "Iran says 3 tankers caught fire in Hormuz - Gulf News"
+      },
+      {
+        "url": "https://maritime-executive.com/article/tanker-burns-after-strike-in-strait-of-hormuz",
+        "source": "The Maritime Executive",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-08T20:37:23Z",
+        "title": "Tanker Burns After Strike in Strait of Hormuz"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWF9NWndDNnhDVnU1N2lTTm9JY3BFbGFMUXRNZUI1eVgyempsb1V3QkhUandBRlpjY214RlhvMFlCQmVWc2VsdzNJVVk4Nmk2Si1UVExUS2lPcmhrSHZLaE81QWVWT2dTR3VRcklSbVgwcG5ZOXNnSHIzXzBNYXBpdmM5VEV5UjVlVGY5YQ?oc=5",
+        "source": "The Maritime Executive",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T20:37:23Z",
+        "title": "Tanker Burns After Strike in Strait of Hormuz - The Maritime Executive"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYlh6Yjc3cllTZkFHS0hyNkljM2dPSnlOSkFiMU40R2pGenU2QjRxRlIzRGhwRmZBMEtJUkxEdnJiaVRwS0h5UkVlWmc2ZlF6NG1uenEzTGhMV2x3MmFnVS1NZ25JNHhnM2ZXZHdNSTlQalBGcGlva2hJWHd2ckhwanJvd0ZueHFIbHpfRENhREZCelJzSy1LVnQ0UHXSAZwBQVVfeXFMUGJYemI3N3JZU2ZBR0tIcjZJYzNnT0p5TkpBYjFONEdqRnp1NkI0cUZSM0RocEZmQTBLSVJMRHZyYmlUcEtIeVJFZVpnNmZRejRtbnpxM0xoTFdsdzJhZ1UtTWduSTR4ZzNmV2R3TUk5UGpQRnBpb2toSVh3dnJIcGpyb3dGbnhxSGx6X0RDYURGQnpSc0stS1Z0NFB1?oc=5",
+        "source": "The Siasat Daily",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T08:24:00Z",
+        "title": "UAE rescues 22 after cargo ship catches fire in Gulf of Oman - The Siasat Daily"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWHVUb0xjbU5NaG1sTzl2d2xyRjRtMms1b2syWnVzRm11RTFyNTh5eS0wNFdiNVVZTE1OOXRlNmpzU3NuTzJRaVlGOXNQQmllZ1FEbDd1ME1uUEVVTE5YamFwcXFCbjlOVzlUUDZNUVpiNkVEa2tVTUNUOUw2ZlRiNWE4MzhBZEcwaXgtYnREZVRFSHA3cC1ZZEg0QW42SFBSWWN5ZtIBrAFBVV95cUxQRXRyXzJ2cVpEQ3dmcTQ3aWdaWVJMenVZUWFzbG1HaVprckdwUmQtM2lCWHNlQzRRbnZDNGVQTnlfdk1Kblh1cXV0eVJvbFpGaFdwM1U0Wi0tOFZQR19fUnp6bDhaWXNoNnpBbDdqZXluekdNOWotVHFLWlY1V3hZR0pqbDBiSGhOcW1YZGxqbC1JYlM0NGREa0JhUFkzOHF6eU1uT0x1MUxEeTN4?oc=5",
+        "source": "Khaleej Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T03:01:39Z",
+        "title": "UAE rescues 22 crew members after cargo ship catches fire in Oman Sea - Khaleej Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcVR3RFFwU2NvUGZwd3NFMEpTajVDWVh1dGl4OXZPcEpxMFVnVHdrUHhkel92amV6MnZQYmVCNzB4TjlwVUNOV2FsUjhCbDhabmpXNVI3WENfbUZjQXBBUS1FZXRKbVJGV0xSQ1I4Y19PSmw0QUVybGdETTlVOEpMWGZsbkZWNkxwa1JtTEkzZmdxQWtrWVJTTmtTc3V0eDdKNmI1ZUNycmMwUGt6?oc=5",
+        "source": "www.nationpathindia.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T13:48:44Z",
+        "title": "Gulf of Oman Shipping Crisis: US Disables Cargo Ship M/V Huda; UAE Rescues 22 Crew from Separate Vessel Fire - www.nationpathindia.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUjdQZXNoTm1aY2pmdEpMZkVVTFI2ZzlLMGpQMjFTd283N21pMU1aSUkxN0FvRThmZ0prcGlPbnpYcTVsRzRFOHQzUkdlV0NJZ2lzUkdHcjluQzJuM3F0QTFsR1VvTVZhUFVEdWdIeFQzOWpucmlTS0liTFN4WnRuZXdSUHBDelFfbFZ3Um5XTGd2cldXUGRv0gGcAUFVX3lxTFBiWHpiNzdyWVNmQUdLSHI2SWMzZ09KeU5KQWIxTjRHakZ6dTZCNHFGUjNEaHBGZkEwS0lSTER2cmJpVHBLSHlSRWVaZzZmUXo0bW56cTNMaExXbHcyYWdVLU1nbkk0eGczZldkd01JOVBqUEZwaW9raElYd3ZySHBqcm93Rm54cUhsel9EQ2FERkJ6UnNLLUtWdDRQdQ?oc=5",
+        "source": "The Siasat Daily",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T08:24:00Z",
+        "title": "UAE rescues 22 after cargo ship catches fire in Gulf of Oman - The Siasat Daily"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcnpKVDZUQy1iaFpkdjEwRDhiQS1fVHJDeURPY0VDTGdQc2ZUNU5QSFYxbUpqbzhNWk4yclU3TS1aMlA4bEE2YVp4RjNCZDVXY0poMVVfRnlNeFRvRDBZODlLdjNhckVmVUdsQzZEZVh0SlB2OXBQbmhyMzd1X2tCeVFBX3JNblhZeE5RYTJtOTVjaDV4dnZKMkRjSG1kQUtpLXh1UkVMTEZfSDlGU1NmSHA3SQ?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T07:26:05Z",
+        "title": "US Navy hits bulker as UAE evacuates 22 from burning tanker - TradeWinds News"
       }
     ],
     "first_seen": "2026-11-08T15:33:12Z",
-    "last_updated": "2026-11-08T19:55:45Z",
+    "last_updated": "2026-11-08T23:58:30Z",
     "verification_issue": 363,
     "verdict": null,
     "published_in": [],
@@ -732,12 +795,13 @@
       }
     ],
     "first_seen": "2026-11-08T15:33:17Z",
-    "last_updated": "2026-11-08T19:55:44Z",
+    "last_updated": "2026-11-08T23:58:30Z",
     "verification_issue": 364,
     "verdict": null,
     "published_in": [],
-    "status": "reported",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261108-010"
   },
   {
     "region": "Black Sea",
@@ -927,10 +991,19 @@
         "kind": "media",
         "published_at": "2026-11-08T18:00:35+00:00",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSDI4WUI1M3AxcVNfbEFyRDJ4ZW9qNmJJby1IbHBjRWJISDBmbWVXQlBrZzZfZjRsV3pLRnZnWWI5NlRBWS00dzhDalI2ZkU4U3NZSG55WnRUbWR2S3AwcmlaRjFsTXExTTdoRG9XTXBncGV0TjJ1enNZQ3JtWE9SUkkyNHJmMHlqMzNEVmRxdE9EdU5MaVhjdnZxdVpOY2N6?oc=5",
+        "source": "Haber TR",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T18:30:31Z",
+        "title": "Rusya, Karadeniz'de Ukrayna'ya askeri malzeme taşıyan üç gemiye saldırı düzenledi - Haber TR"
       }
     ],
     "first_seen": "2026-11-08T19:55:23Z",
-    "last_updated": "2026-11-08T19:55:45Z",
+    "last_updated": "2026-11-08T23:58:29Z",
     "verification_issue": 365,
     "verdict": null,
     "published_in": [],
