@@ -66,10 +66,19 @@
         "kind": "media",
         "published_at": "2026-11-07T11:31:13Z",
         "title": "Bodies of five sailors from drone-hit tanker found in Varna (updated) - BurgasMedia"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNDNWSjlNd1dreXhWUUZLTFFTZzExeXpSOHdEQWtLU2lvekJRVkNMbmR5NklZMFFCQ3pWa2RMaWViRHBSRE0zRVp2cEtEbngwcURVdkl4U1hoNGljN205SWVFOGpXOHptcmtkbWJmbHhnUkRnOEo0V3RXclZjd2xKNGlPNm1RbGhybWQ3REtDR1NucExIQlBxMGVTd3NWcldnaGljREpuNjNpaU11bWFDYW91Q0VySGh5M1paSkZEblE2UdIBxwFBVV95cUxPMkxFelFEb3ZrM2VIaDhvUm1QdDlpYXhyLTRXalpPOG9vei1Ba0Rsd2tpVFV5T1h1VUNBNzI0QXVRZjFmYjUyU0VpUTRFWUFHVndGeGFnd2tmZVAyS2FkM0M5UmlJVHBXV0pOQWxjX2xVUEZUNXRaeXdQQTZfNXBveTBTYTZ4d2lkdFR1SDdld1lMaFhtd2dJaGo3R3VpcHFBRGh5QlVKd2QyUGpYZ3BIOTJrd2NIWUxkMHBTU2ZCWldBZmhaR2U0?oc=5",
+        "source": "Головне в Україні",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T14:26:00Z",
+        "title": "На танкере, атакованном российскими дронами возле Румынии, обнаружили человеческие останки - Головне в Україні"
       }
     ],
     "first_seen": "2026-11-08T07:54:57Z",
-    "last_updated": "2026-11-08T15:33:19Z",
+    "last_updated": "2026-11-08T19:55:36Z",
     "verification_issue": 358,
     "verdict": null,
     "published_in": [],
@@ -243,16 +252,26 @@
         "kind": "media",
         "published_at": "2026-11-07T13:28:46Z",
         "title": "Russia Widens Strikes On Ukraine’s War Machine, Claims Weapon Route & Military Cargo Vessel Targeted - The Times of India"
+      },
+      {
+        "url": "https://t.me/rian_ru/349414",
+        "source": "RIA Novosti",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-11-08T18:00:35+00:00",
+        "title": null
       }
     ],
     "first_seen": "2026-11-08T07:55:01Z",
-    "last_updated": "2026-11-08T15:33:27Z",
+    "last_updated": "2026-11-08T19:55:45Z",
     "verification_issue": 359,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
+    "status": "merged",
     "position_approx": true,
-    "date_approx": false
+    "date_approx": false,
+    "merged_into": "INC-20261108-014"
   },
   {
     "region": "Gulf of Oman",
@@ -482,17 +501,18 @@
       }
     ],
     "first_seen": "2026-11-08T15:33:07Z",
-    "last_updated": "2026-11-08T15:33:07Z",
+    "last_updated": "2026-11-08T19:55:45Z",
     "verification_issue": 362,
     "verdict": null,
     "published_in": [],
-    "status": "reported",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261108-010"
   },
   {
     "region": "Strait of Hormuz",
     "date_utc": "2026-11-08",
-    "summary": "A tanker caught fire about 8 nautical miles north-west of Khasab, Oman on 8 November, with the crew evacuated, according to Mehr News Agency and Arab Times. Seatrade Maritime reported the crew abandoned a tanker in the Strait of Hormuz amid weekend strikes on commercial vessels by Iran and the US.",
+    "summary": "A tanker caught fire about 8 nautical miles north-west of Khasab, Oman on 8 November and the crew were evacuated, according to Mehr News Agency and Arab Times. Iran said three tankers caught fire in the Strait of Hormuz and suggested the blasts were not US attacks, while footage appeared to show fires on several tankers Iran called rule violators.",
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.6,
@@ -507,8 +527,8 @@
     "attack_type": "explosion (cause unknown)",
     "damage": "tanker caught fire",
     "casualties": null,
-    "attribution_claimed": null,
-    "independent_evidence": false,
+    "attribution_claimed": "Iran (claims the tankers violated its maritime traffic regulations)",
+    "independent_evidence": true,
     "id": "INC-20261108-010",
     "sources": [
       {
@@ -546,14 +566,59 @@
         "kind": "media",
         "published_at": "2026-11-08T10:17:51Z",
         "title": "Crew abandon tanker in Hormuz, US strikes bulker in Gulf of Oman"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVTM4SFFhRkExRkJWbHZaNTB0Y1ZjZzk4UEJtODhXUUF5cG95OVNEbEpyTUlpZWJGSzFabTVkTkhPc19GSjBCb0lVTERBYmpLdEVmOTRocjdUNEdNbzNicnlCNFlCeVZMay02YU5RaW5pa2JCWFFZM0JseHp3WjlXbnVBN0FiazAwOFhTXzFmWERoRXZQeEpxMnVBUzU4ZFdaY3psYnRwS19MQQ?oc=5",
+        "source": "Seatrade Maritime News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T16:14:35Z",
+        "title": "Crew abandon tanker in Hormuz, US strikes bulker in Gulf of Oman - Seatrade Maritime News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9JWVkyRTZlU1hLd0ZKS1p6Mi1uUUJjTlNkUVpORFFURTlCdmZPZW9lVlg0cnpCZkVWSjk5R2NLUjZWemYzeDBjYXFIVUJpdEhNbmxacnhGLXVBN1JnMWZtSGI0U1B4X2ZkT3NLZ9IBckFVX3lxTE5GRzhfcUZ4VTFaenN4TGxhZGdnVkxkdHU4SUhCUFBLOWZ1UUVOOVJGWWNLODQxTi1WbE1JVHo4NHp3Tk1wTGJuSFlreVhmUHR4QXowbmc0cG1iUkNTaU90cXpTSmZpOFkyX0o5R3FjaUlMQQ?oc=5",
+        "source": "The Siasat Daily",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T11:03:21Z",
+        "title": "Tanker catches fire off Oman - The Siasat Daily"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5VWnJMdm1jaFZaYy1TOTJBU0NxNTlMQXJuaXRudE5MU3hIT0t0N3FyUHhzeGxsUkxRd0t6dHRHMmRud1BvRzZmQTQ3c0xyR3dZbmxoRDJDcGFDN1VMem5iRmNR?oc=5",
+        "source": "X",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T11:00:00Z",
+        "title": "🇮🇷 Footage from the Strait of Hormuz appears to show fires burning on several tankers that Iran claims violated its maritime traffic regulations It comes as another tanker has been hit while exiting the Strait, and an IRGC spokesperson warned that Hormuz is en - X"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONWFPcDhpSjcwTEozRGRNdHFnWWpzb1pCYXIzdnVOUWhJQ3JvaGVTcjItLWNwNktieTVDcTk0WlpKbDRiMHB3Tkl0R19Mb1NUckllcVYwenlvNUV2QTBLcjlNdGtZdFI2NEJxbnhVbmZieXg2SnNTUXNPTFZVZjFnX2o3Q3lBbC1kRzlWcnNNU3VXdFNYNW5YTTJ4SFdBaDVfai1CRU50cm1VMHBkeWd4Zkc0Q2UxTlBJcmZ6TnJR?oc=5",
+        "source": "Reuters",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T14:21:43Z",
+        "title": "Iran suggests blasts are not US attacks as both sides report ships hit - Reuters"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZVNteDJfUjlxcW41UHBaWmI0NzZZQVJLLVZKTmtiX004Tk5IZTl0dEZVMnBHQ0JTU2RvM0Jmb1hvcGNoaEdpSzByTVZ6N2pVU1BUNnhrSWtMV2ZKNGFrRlJfTVVFVW5RY0tqUlQyTFBnZzVrbUpGaGhnYVVjT01KRHhaT0ZwQjhXU1g3anh30gGgAUFVX3lxTE54eU1CQkNNU2h6Z3NfX1RYVldjXzZIbmZDQWM0UlAwOWxRQnF0RWdsRGFUMkVVWFI2aUdmWldVVzEyMG9Eb1IxSXlaZzV1YmlXT0ppM01rQ3REYU8tdnEzLVZ4SWEtMTZmVllSbF91UURZX0F3QzNPWXpacnBJVGl4eGlFV3FHUWFyTzNRZms4T3pxYzFXUVRNdTljQTJOQlk?oc=5",
+        "source": "Gulf News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T11:23:11Z",
+        "title": "Iran says 3 tankers caught fire in Hormuz - Gulf News"
       }
     ],
     "first_seen": "2026-11-08T15:33:12Z",
-    "last_updated": "2026-11-08T15:33:27Z",
+    "last_updated": "2026-11-08T19:55:45Z",
     "verification_issue": 363,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
+    "status": "reported",
     "date_approx": false,
     "position_approx": true
   },
@@ -615,7 +680,7 @@
     "location_text": "Gulf of Oman",
     "attack_type": "explosion (cause unknown)",
     "damage": "cargo ship caught fire",
-    "casualties": null,
+    "casualties": "22 crew rescued",
     "attribution_claimed": null,
     "independent_evidence": true,
     "id": "INC-20261108-012",
@@ -637,10 +702,37 @@
         "kind": "media",
         "published_at": "2026-11-08T03:01:39Z",
         "title": "UAE rescues 22 crew members after cargo ship catches fire in Oman Sea - Khaleej Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcVR3RFFwU2NvUGZwd3NFMEpTajVDWVh1dGl4OXZPcEpxMFVnVHdrUHhkel92amV6MnZQYmVCNzB4TjlwVUNOV2FsUjhCbDhabmpXNVI3WENfbUZjQXBBUS1FZXRKbVJGV0xSQ1I4Y19PSmw0QUVybGdETTlVOEpMWGZsbkZWNkxwa1JtTEkzZmdxQWtrWVJTTmtTc3V0eDdKNmI1ZUNycmMwUGt6?oc=5",
+        "source": "www.nationpathindia.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T13:48:44Z",
+        "title": "Gulf of Oman Shipping Crisis: US Disables Cargo Ship M/V Huda; UAE Rescues 22 Crew from Separate Vessel Fire - www.nationpathindia.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUjdQZXNoTm1aY2pmdEpMZkVVTFI2ZzlLMGpQMjFTd283N21pMU1aSUkxN0FvRThmZ0prcGlPbnpYcTVsRzRFOHQzUkdlV0NJZ2lzUkdHcjluQzJuM3F0QTFsR1VvTVZhUFVEdWdIeFQzOWpucmlTS0liTFN4WnRuZXdSUHBDelFfbFZ3Um5XTGd2cldXUGRv0gGcAUFVX3lxTFBiWHpiNzdyWVNmQUdLSHI2SWMzZ09KeU5KQWIxTjRHakZ6dTZCNHFGUjNEaHBGZkEwS0lSTER2cmJpVHBLSHlSRWVaZzZmUXo0bW56cTNMaExXbHcyYWdVLU1nbkk0eGczZldkd01JOVBqUEZwaW9raElYd3ZySHBqcm93Rm54cUhsel9EQ2FERkJ6UnNLLUtWdDRQdQ?oc=5",
+        "source": "The Siasat Daily",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T08:24:00Z",
+        "title": "UAE rescues 22 after cargo ship catches fire in Gulf of Oman - The Siasat Daily"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcnpKVDZUQy1iaFpkdjEwRDhiQS1fVHJDeURPY0VDTGdQc2ZUNU5QSFYxbUpqbzhNWk4yclU3TS1aMlA4bEE2YVp4RjNCZDVXY0poMVVfRnlNeFRvRDBZODlLdjNhckVmVUdsQzZEZVh0SlB2OXBQbmhyMzd1X2tCeVFBX3JNblhZeE5RYTJtOTVjaDV4dnZKMkRjSG1kQUtpLXh1UkVMTEZfSDlGU1NmSHA3SQ?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T07:26:05Z",
+        "title": "US Navy hits bulker as UAE evacuates 22 from burning tanker - TradeWinds News"
       }
     ],
     "first_seen": "2026-11-08T15:33:17Z",
-    "last_updated": "2026-11-08T15:33:17Z",
+    "last_updated": "2026-11-08T19:55:44Z",
     "verification_issue": 364,
     "verdict": null,
     "published_in": [],
@@ -686,6 +778,245 @@
     "published_in": [],
     "status": "merged",
     "merged_into": "INC-20261108-002",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-11-08",
+    "summary": "Russia's defence ministry claimed its drones and other strikes hit three commercial vessels in the Black Sea carrying military materiel to Ukraine overnight into 8 November. One ministry statement specified a cargo vessel south-west of Odesa, but no vessel names, flags, damage or casualties were given and the claim is one-sided.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 46.49,
+    "lon": 30.74,
+    "location_text": "Black Sea, Ukraine (location not specified)",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry",
+    "independent_evidence": false,
+    "id": "INC-20261108-014",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUWpCY3lybU5TdzNXalM2ZWU3NDFwbHRVcS1MX3JibmRYaEttWm9uNHhLWDYyd0RtZ09PTVFWUHZyY3pOZDlYbDFFSUJZY2tldUtUNERvSVg0U2JTeF9TRHdkS0o4UHZXN09la0JmOE1ZMjQ1S09kOXF5NnM1OFVDdmgyZlhvcW9hYy1RRHRMNGhSa05rNXJqNjVCVjNlbHF5WHVzVjhBY25rRl9jajF2R0gzdGt4T0hLbjBjdmRINm5DMXRRdEZsM3dR?oc=5",
+        "source": "Yeniçağ Gazetesi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T18:16:00Z",
+        "title": "Rusya: Karadeniz’de Ukrayna’ya askeri malzeme taşıyan 3 ticari gemiye saldırı düzenlendi - Yeniçağ Gazetesi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNeEUxVTdMN3NIX0NsMU1RSGFDYkp4TnVWdnJlckFobzh1dENSbzhzSFpod3hoN3NkYkROUnNab1MxM2dyR204Uks2cmcxLUI1ajdQZWdIdERqbXVMS2RJenJWSS1QZUd6ZEd2bkc1d201Tks5VkhRTXlBQTFURU52WHg1Ym14QnlYMkItMHpMSUVkM3NleEhFaTNZcC1FQ0pIeTJGR0hKTXUtSktrWFhWSkRFcC1aWlBxU0E?oc=5",
+        "source": "The Moscow Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T17:03:11Z",
+        "title": "Russia Says Hit Power Substations in Ukraine and 3 Ships in Black Sea - The Moscow Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ESlZOQmZZNzg0cG5sNV9vOW5rZEh2SDZtcDN5SzNXc19GYV9uSi1hQzlXanlXWTczd2xIVERmYVRPcG5jWVFzRVprMV9hMnE0Y2hHWHJpUHg?oc=5",
+        "source": "TRT World",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T16:24:21Z",
+        "title": "Russia strikes power substations in Ukraine and three ships in Black Sea - TRT World"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNU2N2WGNNT3ZteDl2UFgycHhCUjA2MHNVRW5kMEpDMU5aMThaTUkzLTJOWnU1ZnBBcHNVRkNQS1hoUXoxel9Tc0N5bmRiMy10Und1M0NOaEQxZmg4MFBldWJmTVgwWFRjRk8tT3lUQ1VVbzNQYjQyZG40R0czNVVfZEpiOWYxNUNBVC05Ymh4M2ZXdE9NV0JuZG5aejJVOEduZDlRUFdiQTMtM3Z0X3lyYUdCU29mSUE5T0Z6MUFOU0I?oc=5",
+        "source": "Cyprus Inform",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T16:21:15Z",
+        "title": "Russia says overnight strikes hit three cargo ships and two Ukrainian power substations - Cyprus Inform"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPX05ZYXJJaFkzckJXR2RZV2tMQUUtZ1U5ZW9wNUJaWk4tOFZqMEwwOWJhNTgxdkp1NTFibGJHbzBDbFVhVTFvdGNFVllJeWtKdXRVVTJrakpnSjZkcTRsWDF1OGxuQTdTN3lRbWxDemJaVy14dDF2dWZrWUhfY0JaVWtMOFpQYmpNLVdfeEdBLVB2eGFOTk1CVndKdXRGMURCblYzNk9Db2Z1bE1R?oc=5",
+        "source": "Cyprus Mail",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T16:14:50Z",
+        "title": "Russia says hit power substations in Ukraine and three ships in Black Sea - Cyprus Mail"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUTY5UVNRVXNENTFjMHA1b3lma3dfTnIwaEVBWDJNU2xlcEJYY1p0UWhYYmk0Mk9laTU4a3B0T3NOMWl6bTBHUDJrQmV5dXdMNjY0M3VKeldtRGh0emI1Q0JxMTMya1VPMXFBU09WSWhkNXMxdUs2WUR6TmNOWmM2dVBTOVR5UXZCN0d2VDZCMFJncEJFT1k4dHN1THlaZFdoSU12ODlWajhYeUhudUtjZ01CVEtlNDYwRUpPNDVMU29PRnZSN2hDSDVQSm9zcy00SUNz?oc=5",
+        "source": "Internazionale",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T16:02:38Z",
+        "title": "Russia says hit power substations in Ukraine and three ships in Black Sea - Internazionale"
+      },
+      {
+        "url": "https://t.me/dva_majors/101705",
+        "source": "Dva Mayora",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "osint",
+        "published_at": "2026-11-08T05:29:32+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/rian_ru/349378",
+        "source": "RIA Novosti",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-11-08T05:22:13+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/68838",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-08T05:21:13+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/dva_majors/101722",
+        "source": "Dva Mayora",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "osint",
+        "published_at": "2026-11-08T14:09:39+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/68867",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-08T14:06:27+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQbFBQSy01dW1qbFJvR0c5MDY4UnJpN2lhc0tMUHRCazB1ZXQ5anY2SVEwTWE3SXNlanpIdk8yZzNwRGIwcDJRSWtsbnVrM3ZhVEd2QS1sQTZaMmg2QmZCbUNFWFljdDBkXzRhWFF4ZFRYWTBlck01ZVZaN2J1ZWJyVzFsbnVqamttRm9BbHRnZFZmeTVxMHMtUFVGeW1zRnJIak91a2N6eHR1MEwtWkNFcXNxSXZBZ1hXNlJMWjhIQWNtbEJSaGdFNC1pMk5aSHlEbHNQSHFVYm4zcTY0RmtmY2ZiOVZPQkxYNkZrZFFjTDU2M2ZUaDZ4czhFZW54RkhPNW1zZXJqZHZMNmNraWd2am5LQW5VbDVrcHFaNXZSUTJPUzRLSGRKaWxWV283aHRvR2VIWGNxM3pueEVhTDdVUnE2WjlkSXl2OGc?oc=5",
+        "source": "Fana News -",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T13:41:54Z",
+        "title": "روسيا تعلن استهداف سفينة شحن ومرافق البنية التحتية للطاقة الأوكرانية - Fana News -"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPQUJsVGF1ZlZVOGl5NmgwTGVGWUhCb0NMZWhDTkpyazNuWkcwUXpfSXJTcWs2ZWNjX2dXWFluSFVfa2txMjJ5U2F6VkNNaDlNU3E1VU41NFRxUDFGQnhQR2s3OUJlWFZHdzljdjZBUGgxQXJWYVJHeVZFMTNQOXdmUFhVMXAwOVotMkh5VUdIWHNJZTFaU3ZmU216TFEyM2xZZFFHZlladUx2WXc1dXVlWnhVYm9ETlV3bE1pQW11N25qUl9OWm00akFVcVlMOVBSam9MNWVKSkNobXpzVGpFVDFJdkgzaU5xTVJLUDNyeV9VXy12MExZT2JmX21SYVM4S1NkeGJ2ZjbSAY4CQVVfeXFMUFdmRWdMXzl2VDRuTlZ4Znd6WGZrMXF4U2tfRWFvbjR1MXFVMEE2eVlWcXh2UzBrTV9fZ1d5T3hPd1Btdk96enpieXBZdV9pZDlGcUN3ZVBCYm9HQTJITkdSanY3dkgwcEMwRThlOHptZ25JaF9pSFlhWDNfM3VNSHJXWVVFMHp6d09tcFlURWYyS3VKc1VCT0hsc19mamRJY0MyeXFBLWFHd2lsQkRydm9fTjZvZjhnS3BxX1FSOUxOdnZmaUtQSkVWb2hRSHpBVWFyckZyZlktU29obDhnV2RlemY4MUFqbEY4WDh5RFhaV0JNUFQyOTEwOTRGOEdXX2gtLTROb19XS3JkNHJR?oc=5",
+        "source": "The Times of India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-07T13:28:46Z",
+        "title": "Russia Widens Strikes On Ukraine’s War Machine, Claims Weapon Route & Military Cargo Vessel Targeted - The Times of India"
+      },
+      {
+        "url": "https://t.me/rian_ru/349414",
+        "source": "RIA Novosti",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-11-08T18:00:35+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-11-08T19:55:23Z",
+    "last_updated": "2026-11-08T19:55:45Z",
+    "verification_issue": 365,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "date_approx": false
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-11-08",
+    "summary": "Reuters reports that Iran suggested blasts were not US attacks as both sides reported ships hit. No vessel name, position, cause or casualty details are given.",
+    "official_source_cited": null,
+    "conflicting": true,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "explosion (cause unknown)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261108-015",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONWFPcDhpSjcwTEozRGRNdHFnWWpzb1pCYXIzdnVOUWhJQ3JvaGVTcjItLWNwNktieTVDcTk0WlpKbDRiMHB3Tkl0R19Mb1NUckllcVYwenlvNUV2QTBLcjlNdGtZdFI2NEJxbnhVbmZieXg2SnNTUXNPTFZVZjFnX2o3Q3lBbC1kRzlWcnNNU3VXdFNYNW5YTTJ4SFdBaDVfai1CRU50cm1VMHBkeWd4Zkc0Q2UxTlBJcmZ6TnJR?oc=5",
+        "source": "Reuters",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T14:21:43Z",
+        "title": "Iran suggests blasts are not US attacks as both sides report ships hit - Reuters"
+      }
+    ],
+    "first_seen": "2026-11-08T19:55:36Z",
+    "last_updated": "2026-11-08T19:55:45Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261108-010",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-11-08",
+    "summary": "Iran said three tankers caught fire in the Strait of Hormuz. No vessel names, positions, cause, damage details or casualties are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "explosion (cause unknown)",
+    "damage": "caught fire",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261108-016",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZVNteDJfUjlxcW41UHBaWmI0NzZZQVJLLVZKTmtiX004Tk5IZTl0dEZVMnBHQ0JTU2RvM0Jmb1hvcGNoaEdpSzByTVZ6N2pVU1BUNnhrSWtMV2ZKNGFrRlJfTVVFVW5RY0tqUlQyTFBnZzVrbUpGaGhnYVVjT01KRHhaT0ZwQjhXU1g3anh30gGgAUFVX3lxTE54eU1CQkNNU2h6Z3NfX1RYVldjXzZIbmZDQWM0UlAwOWxRQnF0RWdsRGFUMkVVWFI2aUdmWldVVzEyMG9Eb1IxSXlaZzV1YmlXT0ppM01rQ3REYU8tdnEzLVZ4SWEtMTZmVllSbF91UURZX0F3QzNPWXpacnBJVGl4eGlFV3FHUWFyTzNRZms4T3pxYzFXUVRNdTljQTJOQlk?oc=5",
+        "source": "Gulf News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T11:23:11Z",
+        "title": "Iran says 3 tankers caught fire in Hormuz - Gulf News"
+      }
+    ],
+    "first_seen": "2026-11-08T19:55:44Z",
+    "last_updated": "2026-11-08T19:55:45Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261108-010",
     "position_approx": true
   },
   {
@@ -1547,10 +1878,64 @@
         "kind": "media",
         "published_at": "2026-11-08T10:17:51Z",
         "title": "Crew abandon tanker in Hormuz, US strikes bulker in Gulf of Oman"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVTM4SFFhRkExRkJWbHZaNTB0Y1ZjZzk4UEJtODhXUUF5cG95OVNEbEpyTUlpZWJGSzFabTVkTkhPc19GSjBCb0lVTERBYmpLdEVmOTRocjdUNEdNbzNicnlCNFlCeVZMay02YU5RaW5pa2JCWFFZM0JseHp3WjlXbnVBN0FiazAwOFhTXzFmWERoRXZQeEpxMnVBUzU4ZFdaY3psYnRwS19MQQ?oc=5",
+        "source": "Seatrade Maritime News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T16:14:35Z",
+        "title": "Crew abandon tanker in Hormuz, US strikes bulker in Gulf of Oman - Seatrade Maritime News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNLTNLdEZCamJacnV3R3d6QkNzM0Z2YlpYU3ZpM2tQWWhmbXFhZTNKOUR4R2dSM3JrNU14T2JvUXlxYXFXYWtISDBVSDlQUkllYzVkSXRTUkJ1emR2b091elNVdkxka1NjNTRNN1V1WElVaFNTb2ttclZwZDRCTzRVY1VEZGs0RjRheXI2eXd3M0VxYUhsSWd4bXlFeXJJakhkc1VFYTVYcUwzR190aXlF0gG0AUFVX3lxTFBYdEdwQXduWjhELVVJRnJPT3h5amNfb2hGTGhoQjhHZlVtNWtFZ1NKOWdRZk40eDc1TVZFU2FvNFVyd1VfeW9RT1JFbGhXcy1GejdmeDM1a3ZHNFM0aTVOdGdXNXhsbU9yd2trWmoza1JWbDI0LXlJcjdLYTV6T0xQdnlaU3hNY0l3Ry1MOHFDaHpxSUdCQmF3VV9mWHlhWG5ULTlwc2dNb3RPTllYUEJlUmZMaw?oc=5",
+        "source": "Апостроф",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T15:16:00Z",
+        "title": "Військові США завдали удару по торговому судну в Оманській затоці через порушення блокади Ірану - Апостроф"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcVR3RFFwU2NvUGZwd3NFMEpTajVDWVh1dGl4OXZPcEpxMFVnVHdrUHhkel92amV6MnZQYmVCNzB4TjlwVUNOV2FsUjhCbDhabmpXNVI3WENfbUZjQXBBUS1FZXRKbVJGV0xSQ1I4Y19PSmw0QUVybGdETTlVOEpMWGZsbkZWNkxwa1JtTEkzZmdxQWtrWVJTTmtTc3V0eDdKNmI1ZUNycmMwUGt6?oc=5",
+        "source": "www.nationpathindia.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T13:48:44Z",
+        "title": "Gulf of Oman Shipping Crisis: US Disables Cargo Ship M/V Huda; UAE Rescues 22 Crew from Separate Vessel Fire - www.nationpathindia.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZVZIRjBab183eXg3NERJTXhPTEZ1V0hmYVBiQy1pY1JOUDNVa3ZWdTNCdGZjV1VIT05UMDA1UkRCbWlacVY0STFnR0p3aGxNTXlqUF96RVZxNEJPR29NTkJRVWJTdzZjRlFQYjBueVVmLUxneTRnLWs5TjhPaEVBNHNOSTN5MUV1OFHSAYoBQVVfeXFMTWgyYWpENlJKM2N1MGM3emZnLUdubUc2RjVvNnpwMzBpQi1tVnJzemJaRGdValJqV2VHbXVPYjh0TF9QM1lmTW9oV0dnbnpFQktNYnRDY1daWnJmdGFETTBRNHN3QjJHSUhzSVdXTlctNUM0SlVTdC1fZ1FVeVpfbmgxZlFtLWtacXBB?oc=5",
+        "source": "DW.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T13:07:37Z",
+        "title": "Iran: US strikes ship after blockade breach - DW.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcnpKVDZUQy1iaFpkdjEwRDhiQS1fVHJDeURPY0VDTGdQc2ZUNU5QSFYxbUpqbzhNWk4yclU3TS1aMlA4bEE2YVp4RjNCZDVXY0poMVVfRnlNeFRvRDBZODlLdjNhckVmVUdsQzZEZVh0SlB2OXBQbmhyMzd1X2tCeVFBX3JNblhZeE5RYTJtOTVjaDV4dnZKMkRjSG1kQUtpLXh1UkVMTEZfSDlGU1NmSHA3SQ?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T07:26:05Z",
+        "title": "US Navy hits bulker as UAE evacuates 22 from burning tanker - TradeWinds News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPbE1HdXRXYU5raVBvc1Zld1ZDREdjUEE3NmgyWDNqOXZYX1RfRFJudHRjeUtrdHdKbS12U2NocWEyRXlTTXU1RXBDV2pwdnAzclJiVVA2QXBycndWOGpYVHpLWTRDTFpMWTBFajluR1VqOXFycDV0cEVQaUNBVl9jaUMtMHRJaEdsbUp2eHhaYjRpMGF4MXRDSWI4N1FGaVduQnlnNmE0NTR0YW44NjJsNzJKelJGX0g2amZQaVBzcUVJb1JORkFHaEFuUXdNd3ZOWE5JdlRZSWQ4YVZBdUhj0gHkAUFVX3lxTE5LZjd5WG1fQjFIWUdUS21mX191bk0tVGFNRU5PRU1KZ3A0eFk3ZjZvU200YnAxcktTUjNtblZQRHh1TVNmc3ltWHdhSkdxOE1JeDMzRHhiMlNpQ0NkMGs1T1UtY25PMi1KRGNQdTVxNHdqUEZnMF8ybGVpSXh3UFdGZHF3cDA2ZkRtdHUyTTZTc2VLMk8tLU5HRXRTbmV1VDNpS0pCRVp5VTM2S19RVmVpZ2QteUVVeDF4bkttR1JiNGwtNnQxNVlyVGN5dFM3bnJQOGt1YURfNTBDNXNuRHJpV0JZcA?oc=5",
+        "source": "Times Now",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-07T23:07:52Z",
+        "title": "Fresh Flashpoint In Gulf: US Hits Iran-Bound Ship, Tankers Hit Mines Near Strait Of Hormuz - Times Now"
       }
     ],
     "first_seen": "2026-11-07T21:04:17Z",
-    "last_updated": "2026-11-08T15:33:12Z",
+    "last_updated": "2026-11-08T19:55:44Z",
     "verification_issue": 355,
     "verdict": {
       "status": "confirmed",
@@ -9193,10 +9578,28 @@
         "kind": "media",
         "published_at": "2026-11-08T06:23:17Z",
         "title": "Nikkei: Attack on gas tanker tests Strait of Hormuz transit deal - Agenzia Nova"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOT09odmotZ0hocmpxTlhLd3pnSDhSSTBReXd4YW5aMDZsdXIzT25MdjNIWks0NjRBb2VjWG1XSVpTZ2NBcGlxaVBWTzZxR3FhYjFwNDV6LXl2QURVZXVmRFI0VlptWVMzbE4yeXViS0FPQndFVl9nbHRUVDV1UHY1RW1TcEc3czlDZC0wWmtRUF9Xdl9Ld0dXMURtc0VpMThaR2tldi1VeTF0RGk1ZmNOTTczNjhYemwxRUcwclZLZ1dJSUljdWRCQ3VQeFE1ZU1hbGhDSmU3eHYwV09UTzBqUUNISU5tZw?oc=5",
+        "source": "NewsCord",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T05:28:02Z",
+        "title": "Iran’s Revolutionary Guards Say Two Oil Tankers Hit Mines, Catch Fire Near Strait Of Hormuz: 17 outlets compared - NewsCord"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPbE1HdXRXYU5raVBvc1Zld1ZDREdjUEE3NmgyWDNqOXZYX1RfRFJudHRjeUtrdHdKbS12U2NocWEyRXlTTXU1RXBDV2pwdnAzclJiVVA2QXBycndWOGpYVHpLWTRDTFpMWTBFajluR1VqOXFycDV0cEVQaUNBVl9jaUMtMHRJaEdsbUp2eHhaYjRpMGF4MXRDSWI4N1FGaVduQnlnNmE0NTR0YW44NjJsNzJKelJGX0g2amZQaVBzcUVJb1JORkFHaEFuUXdNd3ZOWE5JdlRZSWQ4YVZBdUhj0gHkAUFVX3lxTE5LZjd5WG1fQjFIWUdUS21mX191bk0tVGFNRU5PRU1KZ3A0eFk3ZjZvU200YnAxcktTUjNtblZQRHh1TVNmc3ltWHdhSkdxOE1JeDMzRHhiMlNpQ0NkMGs1T1UtY25PMi1KRGNQdTVxNHdqUEZnMF8ybGVpSXh3UFdGZHF3cDA2ZkRtdHUyTTZTc2VLMk8tLU5HRXRTbmV1VDNpS0pCRVp5VTM2S19RVmVpZ2QteUVVeDF4bkttR1JiNGwtNnQxNVlyVGN5dFM3bnJQOGt1YURfNTBDNXNuRHJpV0JZcA?oc=5",
+        "source": "Times Now",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-07T23:07:52Z",
+        "title": "Fresh Flashpoint In Gulf: US Hits Iran-Bound Ship, Tankers Hit Mines Near Strait Of Hormuz - Times Now"
       }
     ],
     "first_seen": "2026-11-01T09:37:37Z",
-    "last_updated": "2026-11-08T15:33:17Z",
+    "last_updated": "2026-11-08T19:55:44Z",
     "verification_issue": 310,
     "verdict": {
       "status": "confirmed",
