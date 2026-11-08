@@ -19608,6 +19608,39 @@
           ]
         }
       ]
+    },
+    "INC-20261108-012": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://www.wam.ae/en/article/17ijsig-uae-national-guard-rescues-people-from-cargo-ship",
+            "source": "Emirates News Agency (WAM), 8 November 2026: the Coast Guard Division of the UAE National Guard rescued 22 Arab nationals, all 22 crew members, after a fire broke out aboard a cargo ship in the Sea of Oman, gave first aid and handed them to the authorities with all in stable condition"
+          }
+        ],
+        "nationalities": []
+      },
+      "updates": [
+        {
+          "at": "2026-11-08T16:56:00Z",
+          "text": "Checked on 8 November 2026. The only authority statement found is the UAE National Guard's own, carried by the state news agency WAM and by Times of Oman: a Coast Guard unit responded to a report from the crew, located the vessel, rescued all 22 crew members, described as Arab nationals, gave them first aid and handed them to the relevant authorities with all in stable condition. The statement gives no vessel name, no flag, no position beyond the Sea of Oman, no time and no cause of the fire, and it alleges no attack and names no attacker, so nothing here establishes that this fire was an attack. Because the National Guard states that all 22 crew members were rescued alive and in stable condition, deaths for this vessel's crew are recorded as confirmed zero. No injured or missing figure is set, since first aid was given but no injury count was published. The description is also inconsistent between outlets: the National Guard calls the vessel a cargo ship, while the Times of Oman copy of the statement calls it a tanker. Agence France-Presse carried the same Emirati statement in its 8 November round up and said it could not confirm whether it referred to the same incidents reported elsewhere in the Gulf of Oman that weekend. The vessel remains unidentified, so no verification is asserted and this record stays outside the public export.",
+          "sources": [
+            {
+              "url": "https://www.wam.ae/en/article/17ijsig-uae-national-guard-rescues-people-from-cargo-ship",
+              "source": "Emirates News Agency (WAM), 8 November 2026: 22 Arab nationals, all 22 crew members of a cargo ship, rescued after a fire in the Sea of Oman, all in stable condition, no vessel name, position or cause given"
+            },
+            {
+              "url": "https://timesofoman.com/article/178905-uae-national-guard-rescues-22-people-after-cargo-ship-fire-in-the-gulf-of-oman",
+              "source": "Times of Oman, 8 November 2026: same National Guard statement, referring once to the vessel as a tanker"
+            },
+            {
+              "url": "https://gulfnews.com/world/mena/iran-says-3-tankers-caught-fire-in-hormuz-1.500740005",
+              "source": "Agence France-Presse carried by Gulf News, 8 November 2026: Emirati state media said 22 people were rescued from a burning vessel in the Gulf of Oman and were in stable condition, and AFP could not confirm whether the reports described the same incidents"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -37337,6 +37370,46 @@
             {
               "url": "https://www.seatrade-maritime.com/security/crew-abandon-tanker-in-hormuz-us-strikes-bulker-in-gulf-of-oman",
               "source": "Seatrade Maritime News, 8 November 2026: no further information on the status of the vessel or its crew"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6724314092,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6724314092",
+      "author": "iMariner",
+      "received_at": "2026-11-08T16:55:09Z",
+      "incident_id": "INC-20261108-012",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261108-012",
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.wam.ae/en/article/17ijsig-uae-national-guard-rescues-people-from-cargo-ship",
+              "source": "Emirates News Agency (WAM), 8 November 2026: the Coast Guard Division of the UAE National Guard rescued 22 Arab nationals, all 22 crew members, after a fire broke out aboard a cargo ship in the Sea of Oman, gave first aid and handed them to the authorities with all in stable condition"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-08T16:56:00Z",
+          "text": "Checked on 8 November 2026. The only authority statement found is the UAE National Guard's own, carried by the state news agency WAM and by Times of Oman: a Coast Guard unit responded to a report from the crew, located the vessel, rescued all 22 crew members, described as Arab nationals, gave them first aid and handed them to the relevant authorities with all in stable condition. The statement gives no vessel name, no flag, no position beyond the Sea of Oman, no time and no cause of the fire, and it alleges no attack and names no attacker, so nothing here establishes that this fire was an attack. Because the National Guard states that all 22 crew members were rescued alive and in stable condition, deaths for this vessel's crew are recorded as confirmed zero. No injured or missing figure is set, since first aid was given but no injury count was published. The description is also inconsistent between outlets: the National Guard calls the vessel a cargo ship, while the Times of Oman copy of the statement calls it a tanker. Agence France-Presse carried the same Emirati statement in its 8 November round up and said it could not confirm whether it referred to the same incidents reported elsewhere in the Gulf of Oman that weekend. The vessel remains unidentified, so no verification is asserted and this record stays outside the public export.",
+          "sources": [
+            {
+              "url": "https://www.wam.ae/en/article/17ijsig-uae-national-guard-rescues-people-from-cargo-ship",
+              "source": "Emirates News Agency (WAM), 8 November 2026: 22 Arab nationals, all 22 crew members of a cargo ship, rescued after a fire in the Sea of Oman, all in stable condition, no vessel name, position or cause given"
+            },
+            {
+              "url": "https://timesofoman.com/article/178905-uae-national-guard-rescues-22-people-after-cargo-ship-fire-in-the-gulf-of-oman",
+              "source": "Times of Oman, 8 November 2026: same National Guard statement, referring once to the vessel as a tanker"
+            },
+            {
+              "url": "https://gulfnews.com/world/mena/iran-says-3-tankers-caught-fire-in-hormuz-1.500740005",
+              "source": "Agence France-Presse carried by Gulf News, 8 November 2026: Emirati state media said 22 people were rescued from a burning vessel in the Gulf of Oman and were in stable condition, and AFP could not confirm whether the reports described the same incidents"
             }
           ]
         }
