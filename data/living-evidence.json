@@ -19606,6 +19606,24 @@
               "source": "Seatrade Maritime News, 8 November 2026: no further information on the status of the vessel or its crew"
             }
           ]
+        },
+        {
+          "at": "2026-11-08T23:25:00Z",
+          "text": "Checked again on 9 November 2026 with no change to the casualty position, which stays unknown and not zero. UKMTO warning 199-26 and JMIC Advisory Note Update 112 of 8 November both record that on 7 November a tanker about 8 nautical miles north west of Khasab, Oman, was on fire and that its crew were evacuated, with the vessel name withheld and no cause given. The JMIC list classes 199-26 as an incident rather than an attack, and counts only UKMTO 197-26 and 200-26 as the attacks in that 72 hour period. The Maritime Executive reported on 8 November that no injuries had been reported, that at least two firefighting tugs were working the blaze, and that open source analysts had tentatively identified the tanker as NAVIG8 MESSI, IMO 9482859, an oil products tanker indirectly owned by ADNOC L&S and chartered by ADNOC. That ship was struck by drones in an outbound transit on 13 August 2026, which is recorded separately. The identification rests on open source analysis repeated by a trade outlet: no owner, manager, flag state or authority has named the vessel and UKMTO still withholds the name, so it is recorded as tentative and no verification is asserted. This record stays unreviewed and withheld. The corpus date of 8 November is the date the warning was issued; the fire was reported at 19:20 UTC on 7 November, which was 23:20 local time in Oman.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261108-ukmto_warning_199-26.pdf?rev=ece84fc3ac864575a7a42870071a01db",
+              "source": "UKMTO warning 199-26, incident date 07 Nov 2026, 19:20 UTC: time late report from military authorities that a tanker 8NM north west of Khasab, Oman, was on fire and the crew were evacuated, vessel and cause not given"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_112_08-nov.pdf?rev=fab35b6555404e9a92944523318e299a",
+              "source": "JMIC Advisory Note Update 112, 8 November 2026: UKMTO 199-26 listed as name withheld UFN, tanker, incident, Strait of Hormuz, 07 Nov, crew evacuated; only 197-26 and 200-26 counted as attacks in the period; 177 incidents since 1 March"
+            },
+            {
+              "url": "https://maritime-executive.com/index.php/article/tanker-burns-after-strike-in-strait-of-hormuz",
+              "source": "The Maritime Executive, 8 November 2026: no injuries reported, firefighting tugs on scene, open source analysts tentatively identified the vessel as Navig8 Messi, an ADNOC chartered product tanker hit once before in August"
+            }
+          ]
         }
       ]
     },
@@ -37445,6 +37463,65 @@
             {
               "url": "https://gulfnews.com/world/mena/iran-says-3-tankers-caught-fire-in-hormuz-1.500740005",
               "source": "Agence France-Presse carried by Gulf News, 8 November 2026: IRGC statement that three non compliant tankers exploded and caught fire in the Strait of Hormuz from the early hours of 8 November, no names or nationalities given; UKMTO reported a tanker on fire off Khasab a day earlier; AFP unable to confirm whether the reports were the same incidents"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6728407704,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6728407704",
+      "author": "iMariner",
+      "received_at": "2026-11-08T23:04:32Z",
+      "incident_id": "INC-20261108-010",
+      "before": {
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "updates": [
+          {
+            "at": "2026-11-08T16:55:00Z",
+            "text": "Checked on 8 November 2026 and the vessel cannot be identified. The primary record is UKMTO warning 199-26, issued on 8 November about a time late report of an incident at 19:20 UTC on 7 November: a tanker on fire 8 nautical miles north west of Khasab, Oman, with the crew evacuated, cause not stated and identity not given. The Clearwater Dynamics alert carrying the same warning adds that the status of the crew, the extent of damage and any environmental impact were not known and that the aggressor was to be confirmed. UKMTO classified the report as suspicious activity rather than an attack, and no authority read here has named the vessel, given her flag or reported a death or injury, so the crew's fate is unknown and not zero. The 8 November date in this row is the date the warning was issued; the incident itself happened at 19:20 UTC on 7 November, which was 23:20 local time in Oman on 7 November, as Arab Times noted when it timed the alert at 10:20 pm Kuwait time. Seatrade Maritime reported the same two UKMTO warnings of 7 November and said there was no further information on the status of the vessel or her crew.",
+            "sources": [
+              {
+                "url": "https://ukmto.org/-/media/ukmto/products/20261108-ukmto_warning_199-26.pdf?rev=ece84fc3ac864575a7a42870071a01db",
+                "source": "UKMTO warning 199-26, suspicious activity, incident date 7 November 2026 at 19:20 UTC, tanker on fire 8 nautical miles north west of Khasab, Oman, crew evacuated, source military authorities, no vessel name or cause given"
+              },
+              {
+                "url": "https://www.cwdynamics.com/alerts/alert/33589",
+                "source": "Clearwater Dynamics alert 010- (Nov 26), carrying UKMTO 199-26: crew status, damage extent and environmental impact not known, aggressor to be confirmed"
+              },
+              {
+                "url": "https://www.arabtimesonline.com/news/tanker-catches-fire-off-omans-khasab-crew-evacuated/",
+                "source": "Arab Times Kuwait, 8 November 2026: incident at about 1920 UTC (10:20 pm Kuwait time) on 7 November, alert gave no cause, identity, crew number or casualty information"
+              },
+              {
+                "url": "https://www.seatrade-maritime.com/security/crew-abandon-tanker-in-hormuz-us-strikes-bulker-in-gulf-of-oman",
+                "source": "Seatrade Maritime News, 8 November 2026: no further information on the status of the vessel or its crew"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "INC-20261108-010",
+        "update": {
+          "at": "2026-11-08T23:25:00Z",
+          "text": "Checked again on 9 November 2026 with no change to the casualty position, which stays unknown and not zero. UKMTO warning 199-26 and JMIC Advisory Note Update 112 of 8 November both record that on 7 November a tanker about 8 nautical miles north west of Khasab, Oman, was on fire and that its crew were evacuated, with the vessel name withheld and no cause given. The JMIC list classes 199-26 as an incident rather than an attack, and counts only UKMTO 197-26 and 200-26 as the attacks in that 72 hour period. The Maritime Executive reported on 8 November that no injuries had been reported, that at least two firefighting tugs were working the blaze, and that open source analysts had tentatively identified the tanker as NAVIG8 MESSI, IMO 9482859, an oil products tanker indirectly owned by ADNOC L&S and chartered by ADNOC. That ship was struck by drones in an outbound transit on 13 August 2026, which is recorded separately. The identification rests on open source analysis repeated by a trade outlet: no owner, manager, flag state or authority has named the vessel and UKMTO still withholds the name, so it is recorded as tentative and no verification is asserted. This record stays unreviewed and withheld. The corpus date of 8 November is the date the warning was issued; the fire was reported at 19:20 UTC on 7 November, which was 23:20 local time in Oman.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261108-ukmto_warning_199-26.pdf?rev=ece84fc3ac864575a7a42870071a01db",
+              "source": "UKMTO warning 199-26, incident date 07 Nov 2026, 19:20 UTC: time late report from military authorities that a tanker 8NM north west of Khasab, Oman, was on fire and the crew were evacuated, vessel and cause not given"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_112_08-nov.pdf?rev=fab35b6555404e9a92944523318e299a",
+              "source": "JMIC Advisory Note Update 112, 8 November 2026: UKMTO 199-26 listed as name withheld UFN, tanker, incident, Strait of Hormuz, 07 Nov, crew evacuated; only 197-26 and 200-26 counted as attacks in the period; 177 incidents since 1 March"
+            },
+            {
+              "url": "https://maritime-executive.com/index.php/article/tanker-burns-after-strike-in-strait-of-hormuz",
+              "source": "The Maritime Executive, 8 November 2026: no injuries reported, firefighting tugs on scene, open source analysts tentatively identified the vessel as Navig8 Messi, an ADNOC chartered product tanker hit once before in August"
             }
           ]
         }
