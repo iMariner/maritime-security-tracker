@@ -19695,6 +19695,28 @@
           ]
         }
       ]
+    },
+    "INC-20261108-005": {
+      "updates": [
+        {
+          "at": "2026-11-08T23:12:00Z",
+          "text": "Checked on 9 November 2026: the statement behind this row names the vessel, and it is VELOS SAPPHIRE, whose attack and single death are already recorded on INC-20261104-012, so this row is not a second fatality. The Department of Migrant Workers said in a statement on 7 November, carried by Philstar and the Inquirer, that a Filipino seafarer died after an explosion aboard MT Velos Sapphire, a Marshall Islands flagged oil products tanker bound for Sitrah in Bahrain, in the early hours of 5 November local time, and that the other 21 Filipino crew members were reported safe and unharmed. The department said the cause of the explosion remains unverified, that initial reports suggested a possible drone attack, and that no pollution or environmental damage had been reported. The manager, Velos Tankers, places the strike at 23:20 UTC on 4 November, which was 02:20 local time on 5 November, and has reported that the seafarer was found fatally injured on board after being reported missing; the IMO register records the attack on 4 November with one seafarer fatality. The 4 November UTC date and the 5 November local date are the same event, and the corpus date of 8 November is the date the Philippine reports were published. The department's own accounts conflict on injury: its secretary said in a 7 November interview that one of the other 21 was injured and that his condition was being determined, while the written statement said the 21 were unharmed and the manager has reported no other injuries, so no injured count is recorded on either record. No verification is asserted here, so that the same death does not enter the public dataset twice.",
+          "sources": [
+            {
+              "url": "https://philstar.com/headlines/2026/11/08/2568735/one-pinoy-dead-persian-gulf-tanker-explosion",
+              "source": "Philstar, 8 November 2026, reporting the Department of Migrant Workers statement of 7 November: one Filipino seafarer died aboard MT Velos Sapphire, Marshall Islands flag, oil products tanker en route to Sitrah in Bahrain, explosion in the early hours of 5 November, 21 other Filipino crew reported safe and unharmed, cause unverified, no pollution"
+            },
+            {
+              "url": "https://globalnation.inquirer.net/346271/dmw-filipino-seafarer-killed-in-drone-attack-on-persian-gulf-tanker",
+              "source": "Inquirer Global Nation, 8 November 2026: the same department statement, vessel named as MT Velos Sapphire, 21 other Filipino crew unharmed, initial reports of a possible drone attack, cause unverified"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO list of highlighted confirmed incidents, read 9 November 2026: 129 confirmed incidents and 25 confirmed seafarer fatalities, VELOS SAPPHIRE (IMO 9321201) on 4 November, damaged, no pollution, one seafarer fatality"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -37573,6 +37595,35 @@
             {
               "url": "https://www.marineinsight.com/human-remains-found-drone-hit-tanker-wine-trader-black-sea/",
               "source": "Marine Insight, 8 November 2026: the San Marino flag and the October drone strike match Wine Trader, DNA tests ordered, number of victims cannot be fixed"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6728431262,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6728431262",
+      "author": "iMariner",
+      "received_at": "2026-11-08T23:06:35Z",
+      "incident_id": "INC-20261108-005",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261108-005",
+        "update": {
+          "at": "2026-11-08T23:12:00Z",
+          "text": "Checked on 9 November 2026: the statement behind this row names the vessel, and it is VELOS SAPPHIRE, whose attack and single death are already recorded on INC-20261104-012, so this row is not a second fatality. The Department of Migrant Workers said in a statement on 7 November, carried by Philstar and the Inquirer, that a Filipino seafarer died after an explosion aboard MT Velos Sapphire, a Marshall Islands flagged oil products tanker bound for Sitrah in Bahrain, in the early hours of 5 November local time, and that the other 21 Filipino crew members were reported safe and unharmed. The department said the cause of the explosion remains unverified, that initial reports suggested a possible drone attack, and that no pollution or environmental damage had been reported. The manager, Velos Tankers, places the strike at 23:20 UTC on 4 November, which was 02:20 local time on 5 November, and has reported that the seafarer was found fatally injured on board after being reported missing; the IMO register records the attack on 4 November with one seafarer fatality. The 4 November UTC date and the 5 November local date are the same event, and the corpus date of 8 November is the date the Philippine reports were published. The department's own accounts conflict on injury: its secretary said in a 7 November interview that one of the other 21 was injured and that his condition was being determined, while the written statement said the 21 were unharmed and the manager has reported no other injuries, so no injured count is recorded on either record. No verification is asserted here, so that the same death does not enter the public dataset twice.",
+          "sources": [
+            {
+              "url": "https://philstar.com/headlines/2026/11/08/2568735/one-pinoy-dead-persian-gulf-tanker-explosion",
+              "source": "Philstar, 8 November 2026, reporting the Department of Migrant Workers statement of 7 November: one Filipino seafarer died aboard MT Velos Sapphire, Marshall Islands flag, oil products tanker en route to Sitrah in Bahrain, explosion in the early hours of 5 November, 21 other Filipino crew reported safe and unharmed, cause unverified, no pollution"
+            },
+            {
+              "url": "https://globalnation.inquirer.net/346271/dmw-filipino-seafarer-killed-in-drone-attack-on-persian-gulf-tanker",
+              "source": "Inquirer Global Nation, 8 November 2026: the same department statement, vessel named as MT Velos Sapphire, 21 other Filipino crew unharmed, initial reports of a possible drone attack, cause unverified"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO list of highlighted confirmed incidents, read 9 November 2026: 129 confirmed incidents and 25 confirmed seafarer fatalities, VELOS SAPPHIRE (IMO 9321201) on 4 November, damaged, no pollution, one seafarer fatality"
             }
           ]
         }
