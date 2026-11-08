@@ -58,7 +58,7 @@
     "conflicting": false,
     "confidence": 0.8,
     "vessel_name": "WINE TRADER",
-    "imo": null,
+    "imo": "8808707",
     "flag": null,
     "vessel_type": "tanker",
     "vessel_category": "merchant",
@@ -225,15 +225,39 @@
         "kind": "media",
         "published_at": "2026-11-07T16:12:14Z",
         "title": "Descoperire macabră pe nava lovită de dronă în largul României: rămășițe umane găsite la bord de autoritățile bulgare - QWER.ro"
+      },
+      {
+        "url": "https://www.newsofbahrain.com/en/article/human-remains-found-on-drone-hit-tanker",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-08T04:33:38Z",
+        "title": null
+      },
+      {
+        "url": "https://rotimes.ro/en/article/2026-11-07-human-remains-found-on-wine-trader-ship-in-varna",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-08T04:33:38Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-07T16:59:18Z",
-    "last_updated": "2026-11-08T00:54:03Z",
+    "last_updated": "2026-11-08T04:33:38Z",
     "verification_issue": 354,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-11-08T04:33:38Z",
+      "note": "The drone strike was on 15 October about 24km south-east of Sulina and is already recorded as INC-20261015-001, so this 7 November item is the follow-up on human remains found during repairs at Varna, with DNA tests ordered and up to six victims likely.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/354#issuecomment-6717272140"
+    },
     "published_in": [],
-    "status": "reported",
-    "status_changed_at": "2026-11-07T16:59:23Z",
+    "status": "rejected",
+    "status_changed_at": "2026-11-08T04:33:38Z",
     "position_approx": true
   },
   {
@@ -375,8 +399,8 @@
     "official_source_cited": "Philippines' Department of Migrant Workers (DMW)",
     "conflicting": false,
     "confidence": 0.7,
-    "vessel_name": null,
-    "imo": null,
+    "vessel_name": "VELOS SAPPHIRE",
+    "imo": "9321201",
     "flag": "Marshall Islands",
     "vessel_type": "tanker",
     "vessel_category": "merchant",
@@ -506,17 +530,41 @@
         "kind": "media",
         "published_at": "2026-11-07T07:56:56Z",
         "title": "An oil tanker heading to Bahrain was struck by an explosion believed t - News of Bahrain"
+      },
+      {
+        "url": "https://www.arabnews.com/middle-east/seafarer-killed-in-suspected-missile-attack-on-tanker-in-gulf-3010185",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-08T04:33:40Z",
+        "title": null
+      },
+      {
+        "url": "https://www.ndtv.com/world-news/sailor-killed-after-missile-attack-on-oil-tanker-in-persian-gulf-12294472",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-08T04:33:40Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-07T10:38:59Z",
-    "last_updated": "2026-11-07T21:04:31Z",
+    "last_updated": "2026-11-08T04:33:40Z",
     "verification_issue": 351,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-11-08T04:33:40Z",
+      "note": "This is the Velos Sapphire, struck early on 5 November 50NM north of Madinat ash Shamal and already recorded as INC-20261104-012, so the 7 November time is the news fetch time rather than a new attack.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/351#issuecomment-6717271982"
+    },
     "published_in": [],
-    "status": "reported",
+    "status": "rejected",
     "date_approx": false,
     "position_approx": true,
-    "status_changed_at": "2026-11-07T16:59:23Z"
+    "status_changed_at": "2026-11-08T04:33:40Z"
   },
   {
     "region": "Black Sea",
@@ -652,9 +700,9 @@
     "official_source_cited": "U.S. Central Command",
     "conflicting": false,
     "confidence": 0.8,
-    "vessel_name": null,
+    "vessel_name": "HUDA",
     "imo": null,
-    "flag": null,
+    "flag": "Saint Kitts and Nevis",
     "vessel_type": "general cargo",
     "vessel_category": "merchant",
     "lat": 24.8,
@@ -738,15 +786,49 @@
         "kind": "media",
         "published_at": "2026-11-07T17:51:01Z",
         "title": "Körfez'de sıcak saatler: Hürmüz Boğazı'nda iki tanker mayına çarptı, ABD Umman Körfezi'nde gemi vurdu - soL Haber"
+      },
+      {
+        "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4644273/us-forces-disable-cargo-vessel-attempting-to-violate-naval-blockade/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-08T04:33:37Z",
+        "title": null
+      },
+      {
+        "url": "https://www.ukmto.org/recent-incidents",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-08T04:33:37Z",
+        "title": null
+      },
+      {
+        "url": "https://maritime-executive.com/article/us-forces-disable-first-cargo-ship-in-a-month-sailing-from-iranian-port",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-08T04:33:37Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-07T21:04:17Z",
-    "last_updated": "2026-11-08T00:54:03Z",
+    "last_updated": "2026-11-08T04:33:37Z",
     "verification_issue": 355,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "iMariner",
+      "at": "2026-11-08T04:33:37Z",
+      "note": "CENTCOM states that a US aircraft disabled the St Kitts-flagged bulker Huda with precision munitions at its stern on 7 November, and UKMTO advisory 198 places the bulk carrier about 18NM east of Khor Fakkan.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/355#issuecomment-6717272272"
+    },
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "confirmed",
+    "position_approx": true,
+    "status_changed_at": "2026-11-08T04:33:37Z"
   },
   {
     "region": "Black Sea",
@@ -819,12 +901,36 @@
         "kind": "media",
         "published_at": "2026-11-07T22:15:49Z",
         "title": "بلاغ عن استهداف سفينة في خليج عمان.. وإيران تعلن إيقاف ناقلتي نفط بمضيق هرمز - اوان مصر"
+      },
+      {
+        "url": "https://www.aa.com.tr/en/middle-east/iran-s-revolutionary-guards-say-2-oil-tankers-hit-mines-caught-fire-near-strait-of-hormuz/4115596",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-08T04:33:36Z",
+        "title": null
+      },
+      {
+        "url": "https://apnews.com/article/commercial-vessel-gulf-oman-breach-blockade-iran-bc902d3400cb5d022f8bafd247ef975b",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-08T04:33:36Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-08T00:53:57Z",
-    "last_updated": "2026-11-08T00:53:57Z",
+    "last_updated": "2026-11-08T04:33:36Z",
     "verification_issue": 356,
-    "verdict": null,
+    "verdict": {
+      "status": "claimed",
+      "by": "iMariner",
+      "at": "2026-11-08T04:33:36Z",
+      "note": "Only the IRGC says two tankers were halted after hitting mines on 7 November, and no UKMTO report or independent source confirms those two hulls.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/356#issuecomment-6717272429"
+    },
     "published_in": [],
     "status": "claimed",
     "position_approx": true
@@ -1718,15 +1824,40 @@
         "kind": "media",
         "published_at": "2026-11-06T19:41:21Z",
         "title": "Several merchant vessels hit by disabling fire in Gulf and Gulf of Oman - DD News"
+      },
+      {
+        "url": "https://www.reuters.com/world/europe/several-merchant-vessels-hit-by-disabling-fire-gulf-gulf-oman-2026-09-09/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-08T04:33:34Z",
+        "title": null
+      },
+      {
+        "url": "https://ddnews.gov.in/en/several-merchant-vessels-hit-by-disabling-fire-in-gulf-and-gulf-of-oman/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-08T04:33:34Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-08T00:54:03Z",
-    "last_updated": "2026-11-08T00:54:03Z",
+    "last_updated": "2026-11-08T04:33:34Z",
     "verification_issue": 357,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-11-08T04:33:34Z",
+      "note": "The DD News item is the Reuters report of 9 September 2026 on UKMTO advisory 129-26, so the 6 November date is a mis-dated reprint of a two-month-old story.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/357#issuecomment-6717272599"
+    },
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-11-08T04:33:34Z"
   },
   {
     "region": "Strait of Hormuz",
