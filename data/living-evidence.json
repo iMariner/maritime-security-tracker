@@ -19577,6 +19577,37 @@
           ]
         }
       ]
+    },
+    "INC-20261108-010": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "updates": [
+        {
+          "at": "2026-11-08T16:55:00Z",
+          "text": "Checked on 8 November 2026 and the vessel cannot be identified. The primary record is UKMTO warning 199-26, issued on 8 November about a time late report of an incident at 19:20 UTC on 7 November: a tanker on fire 8 nautical miles north west of Khasab, Oman, with the crew evacuated, cause not stated and identity not given. The Clearwater Dynamics alert carrying the same warning adds that the status of the crew, the extent of damage and any environmental impact were not known and that the aggressor was to be confirmed. UKMTO classified the report as suspicious activity rather than an attack, and no authority read here has named the vessel, given her flag or reported a death or injury, so the crew's fate is unknown and not zero. The 8 November date in this row is the date the warning was issued; the incident itself happened at 19:20 UTC on 7 November, which was 23:20 local time in Oman on 7 November, as Arab Times noted when it timed the alert at 10:20 pm Kuwait time. Seatrade Maritime reported the same two UKMTO warnings of 7 November and said there was no further information on the status of the vessel or her crew.",
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/20261108-ukmto_warning_199-26.pdf?rev=ece84fc3ac864575a7a42870071a01db",
+              "source": "UKMTO warning 199-26, suspicious activity, incident date 7 November 2026 at 19:20 UTC, tanker on fire 8 nautical miles north west of Khasab, Oman, crew evacuated, source military authorities, no vessel name or cause given"
+            },
+            {
+              "url": "https://www.cwdynamics.com/alerts/alert/33589",
+              "source": "Clearwater Dynamics alert 010- (Nov 26), carrying UKMTO 199-26: crew status, damage extent and environmental impact not known, aggressor to be confirmed"
+            },
+            {
+              "url": "https://www.arabtimesonline.com/news/tanker-catches-fire-off-omans-khasab-crew-evacuated/",
+              "source": "Arab Times Kuwait, 8 November 2026: incident at about 1920 UTC (10:20 pm Kuwait time) on 7 November, alert gave no cause, identity, crew number or casualty information"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/crew-abandon-tanker-in-hormuz-us-strikes-bulker-in-gulf-of-oman",
+              "source": "Seatrade Maritime News, 8 November 2026: no further information on the status of the vessel or its crew"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -37268,6 +37299,44 @@
             {
               "url": "https://srnnews.com/one-seafarer-killed-in-missile-attack-on-tanker-in-gulf",
               "source": "Reuters report of 6 November 2026 carried by SRN News, quoting the manager Velos Tankers: the seafarer was found fatally injured after being reported missing and there were no other injuries"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6724303029,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6724303029",
+      "author": "iMariner",
+      "received_at": "2026-11-08T16:54:07Z",
+      "incident_id": "INC-20261108-010",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261108-010",
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-08T16:55:00Z",
+          "text": "Checked on 8 November 2026 and the vessel cannot be identified. The primary record is UKMTO warning 199-26, issued on 8 November about a time late report of an incident at 19:20 UTC on 7 November: a tanker on fire 8 nautical miles north west of Khasab, Oman, with the crew evacuated, cause not stated and identity not given. The Clearwater Dynamics alert carrying the same warning adds that the status of the crew, the extent of damage and any environmental impact were not known and that the aggressor was to be confirmed. UKMTO classified the report as suspicious activity rather than an attack, and no authority read here has named the vessel, given her flag or reported a death or injury, so the crew's fate is unknown and not zero. The 8 November date in this row is the date the warning was issued; the incident itself happened at 19:20 UTC on 7 November, which was 23:20 local time in Oman on 7 November, as Arab Times noted when it timed the alert at 10:20 pm Kuwait time. Seatrade Maritime reported the same two UKMTO warnings of 7 November and said there was no further information on the status of the vessel or her crew.",
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/20261108-ukmto_warning_199-26.pdf?rev=ece84fc3ac864575a7a42870071a01db",
+              "source": "UKMTO warning 199-26, suspicious activity, incident date 7 November 2026 at 19:20 UTC, tanker on fire 8 nautical miles north west of Khasab, Oman, crew evacuated, source military authorities, no vessel name or cause given"
+            },
+            {
+              "url": "https://www.cwdynamics.com/alerts/alert/33589",
+              "source": "Clearwater Dynamics alert 010- (Nov 26), carrying UKMTO 199-26: crew status, damage extent and environmental impact not known, aggressor to be confirmed"
+            },
+            {
+              "url": "https://www.arabtimesonline.com/news/tanker-catches-fire-off-omans-khasab-crew-evacuated/",
+              "source": "Arab Times Kuwait, 8 November 2026: incident at about 1920 UTC (10:20 pm Kuwait time) on 7 November, alert gave no cause, identity, crew number or casualty information"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/crew-abandon-tanker-in-hormuz-us-strikes-bulker-in-gulf-of-oman",
+              "source": "Seatrade Maritime News, 8 November 2026: no further information on the status of the vessel or its crew"
             }
           ]
         }
