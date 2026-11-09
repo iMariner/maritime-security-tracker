@@ -19831,6 +19831,28 @@
           ]
         }
       ]
+    },
+    "INC-20261108-017": {
+      "updates": [
+        {
+          "at": "2026-11-09T11:28:41Z",
+          "text": "Date and separation check on 9 November 2026. UKMTO warning 200-26 is an attack, not a suspicious activity: the Company Security Officer of a tanker reported the vessel struck by an unknown projectile while transiting outbound through the Strait of Hormuz at 20:20 UTC on 7 November 2026, with all crew safe and accounted for and no reported environmental impact. The warning was published on 8 November, and JMIC Advisory Note Update 112 of 8 November lists UKMTO 200-26 against 07 Nov 2026 with the name withheld, and counts it as one of the two Strait of Hormuz attacks in its period, alongside 197-26. The 8 November date carried by this row is therefore the publication date and not the attack date, so this row must not be grouped with the Khasab fire row INC-20261108-010 on date alone. UKMTO gave no vessel name, position, flag or crew number, and no authority read here has identified the ship; UKMTO also does not say whether this is the same vessel reported in warning 199-26, so the two stay separate events. No verification is submitted, no casualty count beyond UKMTO's crew safe statement is recorded, and the row stays outside published totals.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261108-ukmto_warning-200-26.pdf",
+              "source": "UKMTO warning 200-26, attack, incident date 07 Nov 2026 at 2020 UTC, source Company Security Officer, time late report that a tanker transiting outbound through the Strait of Hormuz was struck by an unknown projectile, all crew safe and accounted for, no reported environmental impact, no vessel named"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_112_08-nov.pdf",
+              "source": "JMIC Advisory Note Update 112, 8 November 2026: table row 08 Nov 2026 UKMTO 200-26, name withheld UFN, tanker, attack, Strait of Hormuz, report that on 07 Nov the Company Security Officer reported a projectile strike while transiting outbound, all crew safe; the period is counted as two Strait of Hormuz attacks, 197-26 and 200-26"
+            },
+            {
+              "url": "https://mscio.eu/alerts/210",
+              "source": "MSCIO alert 174/26: time late report of an incident at approximately 20:20 UTC on 7 November 2026 in the Strait of Hormuz, tanker transiting outbound struck by an unknown projectile, all crew reported safe and accounted for"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -38145,6 +38167,35 @@
             {
               "url": "https://www.ukmto.org/-/media/ukmto/products/20261108-ukmto_warning_199-26.pdf?rev=ece84fc3ac864575a7a42870071a01db",
               "source": "UKMTO warning 199-26: suspicious activity, incident 07 Nov 2026 at 1920 UTC, tanker on fire 8NM northwest of Khasab, Oman, crew evacuated, no vessel name, no cause"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6738937423,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6738937423",
+      "author": "iMariner",
+      "received_at": "2026-11-09T11:28:42Z",
+      "incident_id": "INC-20261108-017",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261108-017",
+        "update": {
+          "at": "2026-11-09T11:28:41Z",
+          "text": "Date and separation check on 9 November 2026. UKMTO warning 200-26 is an attack, not a suspicious activity: the Company Security Officer of a tanker reported the vessel struck by an unknown projectile while transiting outbound through the Strait of Hormuz at 20:20 UTC on 7 November 2026, with all crew safe and accounted for and no reported environmental impact. The warning was published on 8 November, and JMIC Advisory Note Update 112 of 8 November lists UKMTO 200-26 against 07 Nov 2026 with the name withheld, and counts it as one of the two Strait of Hormuz attacks in its period, alongside 197-26. The 8 November date carried by this row is therefore the publication date and not the attack date, so this row must not be grouped with the Khasab fire row INC-20261108-010 on date alone. UKMTO gave no vessel name, position, flag or crew number, and no authority read here has identified the ship; UKMTO also does not say whether this is the same vessel reported in warning 199-26, so the two stay separate events. No verification is submitted, no casualty count beyond UKMTO's crew safe statement is recorded, and the row stays outside published totals.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261108-ukmto_warning-200-26.pdf",
+              "source": "UKMTO warning 200-26, attack, incident date 07 Nov 2026 at 2020 UTC, source Company Security Officer, time late report that a tanker transiting outbound through the Strait of Hormuz was struck by an unknown projectile, all crew safe and accounted for, no reported environmental impact, no vessel named"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_112_08-nov.pdf",
+              "source": "JMIC Advisory Note Update 112, 8 November 2026: table row 08 Nov 2026 UKMTO 200-26, name withheld UFN, tanker, attack, Strait of Hormuz, report that on 07 Nov the Company Security Officer reported a projectile strike while transiting outbound, all crew safe; the period is counted as two Strait of Hormuz attacks, 197-26 and 200-26"
+            },
+            {
+              "url": "https://mscio.eu/alerts/210",
+              "source": "MSCIO alert 174/26: time late report of an incident at approximately 20:20 UTC on 7 November 2026 in the Strait of Hormuz, tanker transiting outbound struck by an unknown projectile, all crew reported safe and accounted for"
             }
           ]
         }
