@@ -19271,8 +19271,27 @@
               "source": "Russia's defence ministry post of 5 November 2026 cited by this row, no vessel name, flag, damage or casualty given"
             }
           ]
+        },
+        {
+          "at": "2026-11-09T17:34:40Z",
+          "text": "Casualty line withdrawn, and the row still has no identifiable vessel. The one seafarer killed carried on this row belongs to a different, older incident. The only report behind it is a Turkish language article by DenizHaber published on 4 November 2026 headed a drone attack on a commercial ship in the Black Sea with one seafarer dead. Read in full, that article describes the attack off Ukraine's Chornomorsk port on 3 October 2026: a Liberia flagged bulk carrier run by a Ukrainian company, one seafarer from the engine department killed, three crew injured and the other thirteen evacuated, citing Ukraine's Sea Ports Administration statement of 3 October, Reuters of 3 October and a TradeWinds report of 4 October. That October attack is already in the corpus at INC-20261003-001 and INC-20261003-011, so the count is not duplicated here and no death is recorded against this row. The Russian defence ministry statements cited by this row, the ones dated 2 to 7 November about drones and precision weapons striking dry cargo vessels carrying military and dual-use cargo towards Odesa, give no vessel name, flag or position beyond a general area and report no casualties, and no authority or independent report read here confirmed a death in any of them. The row also still merges several separate ministry statements from 2, 3, 4, 5, 6 and 7 November into one record, which is a merge concern recorded outside this comment: the ministry claims are not one attack and their number must not be read as a count of attacks.",
+          "sources": [
+            {
+              "url": "https://www.denizhaber.com/karadenizde-ticari-gemiye-iha-saldirisi-bir-denizci-oldu/127785",
+              "source": "DenizHaber, 4 November 2026: one seafarer killed, three injured and thirteen evacuated in a drone attack on a Liberia flagged bulk carrier off Chornomorsk, citing Ukraine's Sea Ports Administration on 3 October, Reuters on 3 October and TradeWinds on 4 October"
+            },
+            {
+              "url": "https://t.me/mod_russia/68782",
+              "source": "Russian Ministry of Defence, 5 November 2026: claim of a drone strike on a dry cargo vessel south west of Odesa, no vessel, no casualties"
+            }
+          ]
         }
-      ]
+      ],
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      }
     },
     "INC-20261106-001": {
       "casualties": {
@@ -38247,6 +38266,95 @@
             {
               "url": "https://agerpres.ro/english/2026/10/15/five-crew-members-from-wine-trader-rescued-seven-others-remain-missing--1603262",
               "source": "Romanian Naval Authority press release via AGERPRES, 15 October 2026: five rescued and seven missing from Wine Trader"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6746949124,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6746949124",
+      "author": "iMariner",
+      "received_at": "2026-11-09T17:34:40Z",
+      "incident_id": "INC-20261105-005",
+      "before": {
+        "updates": [
+          {
+            "at": "2026-11-06T09:20:00Z",
+            "text": "Date and casualty check on a one-sided claim, with no verification submitted because no vessel can be identified. Russia's defence ministry said on 5 November 2026 that drones struck a vessel of the dry cargo type 107 km south-west of Odesa carrying military equipment and dual-use cargo to Ukraine, as carried by Interfax and RIA Novosti; the statement names no vessel, gives no flag, cargo quantity or confirmed position and reports no casualties. No authority and no independent report opened here identified the ship or reported a death in this strike, and the ministry's own posts cited by this row carry the same limits. The row's one seafarer killed cannot be tied to this event: the only headline behind it is a Turkish language report of 4 November 2026 that is also carried by INC-20261104-001 and names no vessel, date or position. The death count is therefore treated as unknown rather than one, the position stays the ministry's claim rather than a confirmed fix, and this row remains unreviewed and outside published totals.",
+            "sources": [
+              {
+                "url": "https://www.interfax.ru/russia/1127250",
+                "source": "Interfax, 5 November 2026, quoting Russia's defence ministry: drones struck a dry cargo type vessel 107 km south-west of Odesa, no vessel named, no casualties reported"
+              },
+              {
+                "url": "https://ria.ru/20261105/vs-2129502216.html",
+                "source": "RIA Novosti, 5 November 2026, the same defence ministry statement, no vessel name and no casualty figure"
+              },
+              {
+                "url": "https://t.me/mod_russia/68782",
+                "source": "Russia's defence ministry post of 5 November 2026 cited by this row, checked in the incident record"
+              }
+            ]
+          },
+          {
+            "at": "2026-11-08T04:34:43Z",
+            "text": "Checked on 8 November 2026. This row is a run of separate, one sided Russian defence ministry claims about unnamed dry cargo vessels, not one attack, and the single death it carries cannot be tied to any of them, so the count stays unknown rather than one. The claims held in the incident pipeline for 31 October to 7 November have been merged into this 5 November row: the ministry said on 31 October that drones and precision weapons hit dry cargo vessels bound for Odesa, on 1 November that a dry cargo ship was struck 16 km south east of Odesa as reported by TASS, on 2 November that a vessel was hit 58 km south of Odesa as reported by Reuters, on 5 November that a ship was hit 107 km south west of Odesa as reported by Interfax and RIA Novosti, on 6 November that a ship was struck in the port of Odesa and separately that afternoon south west of Odesa as reported by RIA Novosti and Izvestia, and on 7 November that a dry cargo vessel was struck east of Odesa as reported by RIA Novosti. None of the statements read here names a vessel, gives a flag, or reports a death or an injury aboard. The one seafarer killed carried by this row comes from a Turkish language headline of 4 November that names no vessel, date or position, and no source read here has tied a death to any of these claims, so no death count and no nationality are recorded. Because separate dates may be separate attacks, the merge is recorded as a data concern rather than read as one event, and this row is not a count of attacks. No verification is asserted, and none is possible while no vessel can be identified.",
+            "sources": [
+              {
+                "url": "https://tass.com/defense/2211547",
+                "source": "TASS, 1 November 2026, quoting Russia's defence ministry: dry cargo ship hit 16 km south east of Odessa, no vessel named, no casualty reported"
+              },
+              {
+                "url": "https://www.anews.com.tr/world/2026/11/02/russia-hits-military-facility-in-ukraines-odesa-region-cargo-vessel-at-sea",
+                "source": "A News carrying Reuters, 2 November 2026: cargo vessel hit 58 km south of Odesa per Russia's defence ministry, no name or casualty given"
+              },
+              {
+                "url": "https://www.interfax.ru/russia/1127250",
+                "source": "Interfax, 5 November 2026, quoting Russia's defence ministry: dry cargo type vessel struck 107 km south west of Odesa, no vessel named, no casualties reported"
+              },
+              {
+                "url": "https://ria.ru/20261105/vs-2129502216.html",
+                "source": "RIA Novosti, 5 November 2026: the same defence ministry statement, no vessel name and no casualty figure"
+              },
+              {
+                "url": "https://nampa.org/text/23059368",
+                "source": "NAMPA carrying RIA Novosti, 6 November 2026: dry cargo ship delivering dual use cargo hit in the port of Odessa, no vessel named, no casualty reported"
+              },
+              {
+                "url": "https://en.iz.ru/en/2197409/2026-11-06/russian-army-struck-ship-delivering-cargo-armed-forces-ukraine",
+                "source": "Izvestia, 6 November 2026: separate ministry statement of a dry cargo ship hit in the Black Sea south west of Odessa that afternoon"
+              },
+              {
+                "url": "https://nampa.org/text/23060571",
+                "source": "NAMPA carrying RIA Novosti, 7 November 2026: dry cargo vessel struck east of Odessa, no vessel named, no casualty reported"
+              },
+              {
+                "url": "https://t.me/mod_russia/68782",
+                "source": "Russia's defence ministry post of 5 November 2026 cited by this row, no vessel name, flag, damage or casualty given"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "INC-20261105-005",
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-09T17:34:40Z",
+          "text": "Casualty line withdrawn, and the row still has no identifiable vessel. The one seafarer killed carried on this row belongs to a different, older incident. The only report behind it is a Turkish language article by DenizHaber published on 4 November 2026 headed a drone attack on a commercial ship in the Black Sea with one seafarer dead. Read in full, that article describes the attack off Ukraine's Chornomorsk port on 3 October 2026: a Liberia flagged bulk carrier run by a Ukrainian company, one seafarer from the engine department killed, three crew injured and the other thirteen evacuated, citing Ukraine's Sea Ports Administration statement of 3 October, Reuters of 3 October and a TradeWinds report of 4 October. That October attack is already in the corpus at INC-20261003-001 and INC-20261003-011, so the count is not duplicated here and no death is recorded against this row. The Russian defence ministry statements cited by this row, the ones dated 2 to 7 November about drones and precision weapons striking dry cargo vessels carrying military and dual-use cargo towards Odesa, give no vessel name, flag or position beyond a general area and report no casualties, and no authority or independent report read here confirmed a death in any of them. The row also still merges several separate ministry statements from 2, 3, 4, 5, 6 and 7 November into one record, which is a merge concern recorded outside this comment: the ministry claims are not one attack and their number must not be read as a count of attacks.",
+          "sources": [
+            {
+              "url": "https://www.denizhaber.com/karadenizde-ticari-gemiye-iha-saldirisi-bir-denizci-oldu/127785",
+              "source": "DenizHaber, 4 November 2026: one seafarer killed, three injured and thirteen evacuated in a drone attack on a Liberia flagged bulk carrier off Chornomorsk, citing Ukraine's Sea Ports Administration on 3 October, Reuters on 3 October and TradeWinds on 4 October"
+            },
+            {
+              "url": "https://t.me/mod_russia/68782",
+              "source": "Russian Ministry of Defence, 5 November 2026: claim of a drone strike on a dry cargo vessel south west of Odesa, no vessel, no casualties"
             }
           ]
         }
