@@ -6,8 +6,8 @@
     "official_source_cited": "Bulgarian prosecutors (ordered DNA tests)",
     "conflicting": false,
     "confidence": 0.7,
-    "vessel_name": null,
-    "imo": null,
+    "vessel_name": "Wine Trader",
+    "imo": "8808707",
     "flag": null,
     "vessel_type": "tanker",
     "vessel_category": "merchant",
@@ -75,15 +75,40 @@
         "kind": "media",
         "published_at": "2026-11-08T14:26:00Z",
         "title": "На танкере, атакованном российскими дронами возле Румынии, обнаружили человеческие останки - Головне в Україні"
+      },
+      {
+        "url": "https://rotimes.ro/en/article/2026-11-07-human-remains-found-on-wine-trader-ship-in-varna",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-09T04:34:49Z",
+        "title": null
+      },
+      {
+        "url": "https://www.newsofbahrain.com/en/article/human-remains-found-on-drone-hit-tanker",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-09T04:34:49Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-08T07:54:57Z",
-    "last_updated": "2026-11-08T19:55:36Z",
+    "last_updated": "2026-11-09T04:34:49Z",
     "verification_issue": 358,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-11-09T04:34:49Z",
+      "note": "The vessel is the Wine Trader, struck by a drone about 24 kilometres south-east of Sulina on 15 October and already recorded as INC-20261015-001, so this item is the discovery of remains during repairs at Varna, not a new attack.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/358#issuecomment-6732326563"
+    },
     "published_in": [],
-    "status": "reported",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-11-09T04:34:49Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -134,9 +159,9 @@
     "official_source_cited": "Philippines' DMW (Department of Migrant Workers)",
     "conflicting": false,
     "confidence": 0.6,
-    "vessel_name": null,
-    "imo": null,
-    "flag": null,
+    "vessel_name": "Velos Sapphire",
+    "imo": "9321201",
+    "flag": "Marshall Islands",
     "vessel_type": "tanker",
     "vessel_category": "merchant",
     "lat": 26.8,
@@ -158,15 +183,31 @@
         "kind": "media",
         "published_at": "2026-11-08T03:30:00Z",
         "title": "DMW: Filipino seafarer killed in drone attack on Persian Gulf tanker - Inquirer.net"
+      },
+      {
+        "url": "https://www.seatrade-maritime.com/security/crew-abandon-tanker-in-hormuz-us-strikes-bulker-in-gulf-of-oman",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-09T04:34:47Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-08T07:55:08Z",
-    "last_updated": "2026-11-08T07:55:08Z",
+    "last_updated": "2026-11-09T04:34:47Z",
     "verification_issue": 360,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-11-09T04:34:47Z",
+      "note": "The Philippine DMW statement refers to the seafarer killed aboard the Velos Sapphire in the 5 November attack 50NM north of Madinat ash Shamal, already recorded as INC-20261104-012, so 8 November is the date the death was confirmed and not a new attack.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/360#issuecomment-6732326806"
+    },
     "published_in": [],
-    "status": "reported",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-11-09T04:34:47Z"
   },
   {
     "region": "Black Sea",
@@ -674,16 +715,32 @@
         "kind": "media",
         "published_at": "2026-11-08T07:26:05Z",
         "title": "US Navy hits bulker as UAE evacuates 22 from burning tanker - TradeWinds News"
+      },
+      {
+        "url": "https://www.ukmto.org/recent-incidents",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-09T04:34:43Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-08T15:33:12Z",
-    "last_updated": "2026-11-08T23:58:30Z",
+    "last_updated": "2026-11-09T04:34:43Z",
     "verification_issue": 363,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "iMariner",
+      "at": "2026-11-09T04:34:43Z",
+      "note": "UKMTO recorded the tanker on fire 8NM north-west of Khasab with the crew evacuated at 19:20 UTC on 7 November, and open source analysts tentatively identify her as the Navig8 Messi.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/363#issuecomment-6732327399"
+    },
     "published_in": [],
-    "status": "reported",
+    "status": "confirmed",
     "date_approx": false,
-    "position_approx": true
+    "position_approx": true,
+    "status_changed_at": "2026-11-09T04:34:43Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -1000,12 +1057,27 @@
         "kind": "media",
         "published_at": "2026-11-08T18:30:31Z",
         "title": "Rusya, Karadeniz'de Ukrayna'ya askeri malzeme taşıyan üç gemiye saldırı düzenledi - Haber TR"
+      },
+      {
+        "url": "https://www.themoscowtimes.com/2026/11/08/russia-says-hit-power-substations-in-ukraine-and-3-ships-in-black-sea-a94203",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-09T04:34:41Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-08T19:55:23Z",
-    "last_updated": "2026-11-08T23:58:29Z",
+    "last_updated": "2026-11-09T04:34:41Z",
     "verification_issue": 365,
-    "verdict": null,
+    "verdict": {
+      "status": "claimed",
+      "by": "iMariner",
+      "at": "2026-11-09T04:34:41Z",
+      "note": "Only the Russian defence ministry reports the three vessels, no names, positions, damage or casualties are given, and Reuters could not independently verify the claim.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/365#issuecomment-6732327623"
+    },
     "published_in": [],
     "status": "claimed",
     "date_approx": false
@@ -2175,9 +2247,9 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.7,
-    "vessel_name": null,
+    "vessel_name": "Huda",
     "imo": null,
-    "flag": "St. Kitts and Nevis",
+    "flag": "St Kitts and Nevis",
     "vessel_type": null,
     "vessel_category": "merchant",
     "lat": 24.8,
@@ -2198,15 +2270,40 @@
         "kind": "media",
         "published_at": "2026-11-08T00:46:18Z",
         "title": "Video | US Strikes St. Kitts-Flagged Vessel In Gulf Of Oman After It Ignores Blockade Warnings - NDTV"
+      },
+      {
+        "url": "https://www.seatrade-maritime.com/security/crew-abandon-tanker-in-hormuz-us-strikes-bulker-in-gulf-of-oman",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-09T04:34:45Z",
+        "title": null
+      },
+      {
+        "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4644273/us-forces-disable-cargo-vessel-attempting-to-violate-naval-blockade/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-09T04:34:45Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-08T07:55:11Z",
-    "last_updated": "2026-11-08T07:55:11Z",
+    "last_updated": "2026-11-09T04:34:45Z",
     "verification_issue": 361,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-11-09T04:34:45Z",
+      "note": "This is the St Kitts and Nevis-flagged bulker Huda, disabled by a US aircraft on 7 November after she ignored blockade warnings, already recorded as INC-20261107-010 from the CENTCOM statement.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/361#issuecomment-6732327119"
+    },
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-11-09T04:34:45Z"
   },
   {
     "region": "Black Sea",
