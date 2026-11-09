@@ -19745,6 +19745,70 @@
           ]
         }
       ]
+    },
+    "INC-20261105-014": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261106-ukmto_warning-197-26.pdf",
+            "source": "UKMTO warning 197-26, 6 November 2026: the crew are safe and are accounted for, the tanker is still under her own power and continuing her voyage"
+          }
+        ],
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-09T11:27:15Z",
+        "vessel_name": "VIEIRA",
+        "imo": "9234654",
+        "date_utc": "2026-11-05",
+        "vessel_type": "Crude oil tanker (VLCC)",
+        "region": "Strait of Hormuz",
+        "location_text": "16 nautical miles east of Khasab, Oman",
+        "attack_type": "Explosion at the waterline, cause not established",
+        "date_note": "UKMTO warning 197-26 dates the incident 5 November 2026 and times the master's report at 22:00 UTC, which was 02:00 local time on 6 November off Oman. The IMO register also dates the row 5 November. The record keeps the UTC date and claims no finer precision.",
+        "summary": "VIEIRA (IMO 9234654), a Vanuatu flagged very large crude carrier, reported an explosion at the waterline on its port side about 16 nautical miles east of Khasab, Oman at 22:00 UTC on 5 November 2026 while transiting the Strait of Hormuz outbound. UKMTO warning 197-26 classes the report as an attack, says it arrived time late from the vessel's master, records that the crew were safe and accounted for and that the tanker stayed under her own power and continued her voyage, and gives no cause, no vessel name and no flag. The IMO list of highlighted confirmed incidents, read on 9 November 2026, carries the same date and position with the name printed as VIEILA and IMO 9234654, damaged with no pollution. Vanguard Tech, as carried by Seatrade Maritime on 6 November 2026, named the tanker in that incident as the Vanuatu flagged VLCC Vieira, and ship databases hold IMO 9234654 as VIEIRA, so the register spelling is treated as a typographical error and the IMO number is the link between the two records.",
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261106-ukmto_warning-197-26.pdf",
+            "source": "UKMTO warning 197-26, attack, incident date 05 Nov 2026 at 2200 UTC, source master, time late report of an explosion at the waterline on the port side of a tanker transiting the Strait of Hormuz outbound 16NM east of Khasab, Oman, crew safe and accounted for, tanker under her own power and continuing, no vessel name, no cause"
+          },
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO list of highlighted confirmed incidents, read 9 November 2026: row dated 5 November for VIEILA (IMO 9234654), 16NM east of Khasab, Oman, damaged, no pollution, no casualty entry, against 130 confirmed incidents and 25 seafarer fatalities"
+          },
+          {
+            "url": "https://www.seatrade-maritime.com/security/seafarer-fatality-reported-tanker-attack-in-the-gulf",
+            "source": "Seatrade Maritime, 6 November 2026, citing Vanguard Tech: in the 5 November incident a VLCC on outbound transit reported an explosion at the waterline on the port side and the tanker involved was the Vanuatu flagged VLCC Vieira, which stayed under her own power, about 16nm east of Khasab"
+          },
+          {
+            "url": "https://www.vesselfinder.com/vessels/details/9234654",
+            "source": "VesselFinder ship record for IMO 9234654, read 9 November 2026: VIEIRA, crude oil tanker built 2002, flag Vanuatu"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-09T11:27:15Z",
+          "text": "First review and verification of this record, on 9 November 2026. UKMTO warning 197-26, published on 6 November for an incident at 22:00 UTC on 5 November, records an attack on a tanker transiting the Strait of Hormuz outbound, an explosion at the waterline on the port side 16 nautical miles east of Khasab, Oman, the crew safe and accounted for and the vessel continuing under her own power, with no cause and no vessel name. The IMO register carries the same date and position, naming the row VIEILA with IMO 9234654, damaged and no pollution, and states no casualty. Vanguard Tech named the tanker as the Vanuatu flagged VLCC VIEIRA, IMO 9234654, as carried by Seatrade Maritime on 6 November. The IMO number matches the register row and ship databases hold IMO 9234654 as VIEIRA, so the register spelling is treated as a typographical error and is not repeated as the vessel name. Neither UKMTO nor the IMO register gives a crew number, a flag or a nationality, so no nationality is recorded and no crew total is stated. The zero death count rests on UKMTO's crew safe statement for this ship on this date and is not a statement about any other incident in the strait.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261106-ukmto_warning-197-26.pdf",
+              "source": "UKMTO warning 197-26, incident 05 Nov 2026 at 2200 UTC, 16NM east of Khasab, crew safe and accounted for"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO highlighted confirmed incidents, read 9 November 2026: VIEILA (IMO 9234654), 5 November, damaged, no pollution"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/seafarer-fatality-reported-tanker-attack-in-the-gulf",
+              "source": "Seatrade Maritime, 6 November 2026, citing Vanguard Tech, naming the VLCC Vieira, Vanuatu flagged, IMO 9234654 in Vanguard's account"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -37893,6 +37957,77 @@
             {
               "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_112_08-nov.pdf?rev=fab35b6555404e9a92944523318e299a",
               "source": "Joint Maritime Information Center, Advisory Note Update 112, 8 November 2026: UKMTO 199-26 classed as an incident, only 197-26 and 200-26 counted as attacks"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6738908962,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6738908962",
+      "author": "iMariner",
+      "received_at": "2026-11-09T11:27:16Z",
+      "incident_id": "INC-20261105-014",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261105-014",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-09T11:27:15Z",
+          "vessel_name": "VIEIRA",
+          "imo": "9234654",
+          "date_utc": "2026-11-05",
+          "vessel_type": "Crude oil tanker (VLCC)",
+          "region": "Strait of Hormuz",
+          "location_text": "16 nautical miles east of Khasab, Oman",
+          "attack_type": "Explosion at the waterline, cause not established",
+          "date_note": "UKMTO warning 197-26 dates the incident 5 November 2026 and times the master's report at 22:00 UTC, which was 02:00 local time on 6 November off Oman. The IMO register also dates the row 5 November. The record keeps the UTC date and claims no finer precision.",
+          "summary": "VIEIRA (IMO 9234654), a Vanuatu flagged very large crude carrier, reported an explosion at the waterline on its port side about 16 nautical miles east of Khasab, Oman at 22:00 UTC on 5 November 2026 while transiting the Strait of Hormuz outbound. UKMTO warning 197-26 classes the report as an attack, says it arrived time late from the vessel's master, records that the crew were safe and accounted for and that the tanker stayed under her own power and continued her voyage, and gives no cause, no vessel name and no flag. The IMO list of highlighted confirmed incidents, read on 9 November 2026, carries the same date and position with the name printed as VIEILA and IMO 9234654, damaged with no pollution. Vanguard Tech, as carried by Seatrade Maritime on 6 November 2026, named the tanker in that incident as the Vanuatu flagged VLCC Vieira, and ship databases hold IMO 9234654 as VIEIRA, so the register spelling is treated as a typographical error and the IMO number is the link between the two records.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261106-ukmto_warning-197-26.pdf",
+              "source": "UKMTO warning 197-26, attack, incident date 05 Nov 2026 at 2200 UTC, source master, time late report of an explosion at the waterline on the port side of a tanker transiting the Strait of Hormuz outbound 16NM east of Khasab, Oman, crew safe and accounted for, tanker under her own power and continuing, no vessel name, no cause"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO list of highlighted confirmed incidents, read 9 November 2026: row dated 5 November for VIEILA (IMO 9234654), 16NM east of Khasab, Oman, damaged, no pollution, no casualty entry, against 130 confirmed incidents and 25 seafarer fatalities"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/seafarer-fatality-reported-tanker-attack-in-the-gulf",
+              "source": "Seatrade Maritime, 6 November 2026, citing Vanguard Tech: in the 5 November incident a VLCC on outbound transit reported an explosion at the waterline on the port side and the tanker involved was the Vanuatu flagged VLCC Vieira, which stayed under her own power, about 16nm east of Khasab"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9234654",
+              "source": "VesselFinder ship record for IMO 9234654, read 9 November 2026: VIEIRA, crude oil tanker built 2002, flag Vanuatu"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261106-ukmto_warning-197-26.pdf",
+              "source": "UKMTO warning 197-26, 6 November 2026: the crew are safe and are accounted for, the tanker is still under her own power and continuing her voyage"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-09T11:27:15Z",
+          "text": "First review and verification of this record, on 9 November 2026. UKMTO warning 197-26, published on 6 November for an incident at 22:00 UTC on 5 November, records an attack on a tanker transiting the Strait of Hormuz outbound, an explosion at the waterline on the port side 16 nautical miles east of Khasab, Oman, the crew safe and accounted for and the vessel continuing under her own power, with no cause and no vessel name. The IMO register carries the same date and position, naming the row VIEILA with IMO 9234654, damaged and no pollution, and states no casualty. Vanguard Tech named the tanker as the Vanuatu flagged VLCC VIEIRA, IMO 9234654, as carried by Seatrade Maritime on 6 November. The IMO number matches the register row and ship databases hold IMO 9234654 as VIEIRA, so the register spelling is treated as a typographical error and is not repeated as the vessel name. Neither UKMTO nor the IMO register gives a crew number, a flag or a nationality, so no nationality is recorded and no crew total is stated. The zero death count rests on UKMTO's crew safe statement for this ship on this date and is not a statement about any other incident in the strait.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261106-ukmto_warning-197-26.pdf",
+              "source": "UKMTO warning 197-26, incident 05 Nov 2026 at 2200 UTC, 16NM east of Khasab, crew safe and accounted for"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO highlighted confirmed incidents, read 9 November 2026: VIEILA (IMO 9234654), 5 November, damaged, no pollution"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/seafarer-fatality-reported-tanker-attack-in-the-gulf",
+              "source": "Seatrade Maritime, 6 November 2026, citing Vanguard Tech, naming the VLCC Vieira, Vanuatu flagged, IMO 9234654 in Vanguard's account"
             }
           ]
         }
