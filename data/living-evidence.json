@@ -19943,6 +19943,33 @@
           ]
         }
       ]
+    },
+    "INC-20261109-003": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "updates": [
+        {
+          "at": "2026-11-09T23:46:53Z",
+          "text": "Checked on 10 November 2026 and this row is not a new attack on 9 November. The Iranian account behind it is that tankers caught fire in the Strait of Hormuz after striking mines. The Revolutionary Guard's navy maintained that the tankers hit mines while using unauthorised routes, and announced on 8 November 2026 that a third vessel had caught fire, as reported by TrasportoEuropa. Those statements describe the tanker fire about 8 nautical miles north west of Khasab at 1920 UTC on 7 November and the projectile strike on an outbound tanker about an hour later, both already held, the fire as INC-20261108-010 and the projectile attack as INC-20261108-017. No checked source describes a merchant vessel attacked on 9 November, none names a vessel, no authority confirms a mine strike and no casualty has been reported. The IMO confirmed incident register read on 9 November 2026 ends with HUDA on 7 November and carries no entry for 8 or 9 November. Deaths are unknown rather than zero, no count is asserted, and the row stays unreviewed and outside published totals.",
+          "sources": [
+            {
+              "url": "https://www.trasportoeuropa.it/english/week-of-attacks-on-merchant-ships-in-hormuz-and-the-black-sea/",
+              "source": "TrasportoEuropa, 9 November 2026: the IRGC navy maintains the tankers struck mines on unauthorised routes and announced on 8 November that a third vessel had caught fire, no vessel named"
+            },
+            {
+              "url": "https://www.iranintl.com/en/202611090512",
+              "source": "Iran International, 9 November 2026: the 7 November fire eight nautical miles north west of Khasab, UKMTO report received time late from military authorities"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO highlighted confirmed incidents, read 9 November 2026: latest confirmed entry HUDA on 7 November, no 8 or 9 November row"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -38628,6 +38655,40 @@
             {
               "url": "https://www.trasportoeuropa.it/english/week-of-attacks-on-merchant-ships-in-hormuz-and-the-black-sea/",
               "source": "TrasportoEuropa, 9 November 2026: the ships struck on 8 November have not yet been identified and there is no confirmed information on possible casualties"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6754611238,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6754611238",
+      "author": "iMariner",
+      "received_at": "2026-11-09T23:48:05Z",
+      "incident_id": "INC-20261109-003",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261109-003",
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-09T23:46:53Z",
+          "text": "Checked on 10 November 2026 and this row is not a new attack on 9 November. The Iranian account behind it is that tankers caught fire in the Strait of Hormuz after striking mines. The Revolutionary Guard's navy maintained that the tankers hit mines while using unauthorised routes, and announced on 8 November 2026 that a third vessel had caught fire, as reported by TrasportoEuropa. Those statements describe the tanker fire about 8 nautical miles north west of Khasab at 1920 UTC on 7 November and the projectile strike on an outbound tanker about an hour later, both already held, the fire as INC-20261108-010 and the projectile attack as INC-20261108-017. No checked source describes a merchant vessel attacked on 9 November, none names a vessel, no authority confirms a mine strike and no casualty has been reported. The IMO confirmed incident register read on 9 November 2026 ends with HUDA on 7 November and carries no entry for 8 or 9 November. Deaths are unknown rather than zero, no count is asserted, and the row stays unreviewed and outside published totals.",
+          "sources": [
+            {
+              "url": "https://www.trasportoeuropa.it/english/week-of-attacks-on-merchant-ships-in-hormuz-and-the-black-sea/",
+              "source": "TrasportoEuropa, 9 November 2026: the IRGC navy maintains the tankers struck mines on unauthorised routes and announced on 8 November that a third vessel had caught fire, no vessel named"
+            },
+            {
+              "url": "https://www.iranintl.com/en/202611090512",
+              "source": "Iran International, 9 November 2026: the 7 November fire eight nautical miles north west of Khasab, UKMTO report received time late from military authorities"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO highlighted confirmed incidents, read 9 November 2026: latest confirmed entry HUDA on 7 November, no 8 or 9 November row"
             }
           ]
         }
