@@ -368,6 +368,28 @@
               "source": "Agence France-Presse carried by The Straits Times, 8 November 2026: Varna prosecutors, badly damaged remains, DNA testing ordered, a law enforcement source saying most likely six victims, seven of twelve crew missing"
             }
           ]
+        },
+        {
+          "at": "2026-11-09T17:35:09Z",
+          "text": "Casualty follow-up: the death toll stays unknown and the missing snapshot of seven is unchanged. On 7 November 2026 the Bulgarian Ministry of Interior confirmed to the television channel NOVA that the bodies of six sailors had been found aboard Wine Trader, the tanker brought to Varna for repair, and NOVA reported that a pre-trial investigation had been opened. That is the first named ministry to state a number of bodies on the ship by name, and it follows the Varna Appellate Prosecution Office statement the same day, which described badly damaged remains and ordered DNA tests without giving a number. It does not settle the count. BGNES reported on 7 November that five bodies had been found, and Agence France-Presse quoted a Bulgarian law enforcement source saying the remains were too badly damaged for an exact number and that there were most likely six victims, so two Bulgarian accounts give five and six while the ministry figure and the AFP estimate cannot be reconciled from the sources read here. Identification is also outstanding, the DNA results are pending, and neither report assigns a nationality to the dead. Because the number and the identity of the dead are both unresolved, no death count and no nationality count are set here. The seven crew unaccounted for stay a missing snapshot and are not converted into deaths by this note.",
+          "sources": [
+            {
+              "url": "https://nova.bg/news/view/2026/11/07/558454/",
+              "source": "NOVA, 7 November 2026: the Bulgarian Ministry of Interior confirmed to NOVA that the bodies of six sailors were found aboard Wine Trader at Varna, and a pre-trial investigation was opened"
+            },
+            {
+              "url": "https://euromaidanpress.com/2026/11/09/drones-set-a-tanker-ablaze-off-romania-three-weeks-later-human-remains-turned-up-during-repairs-in-varna",
+              "source": "Euromaidan Press, 9 November 2026: reports the Interior Ministry confirmation to NOVA and links the Varna prosecutor statement and the 15 October strike"
+            },
+            {
+              "url": "https://straitstimes.com/world/europe/human-bodies-found-on-ship-struck-by-a-drone-in-black-sea",
+              "source": "Agence France-Presse carried by The Straits Times, 8 November 2026: a Bulgarian law enforcement source said most likely six victims and the condition of the remains made an exact number impossible"
+            },
+            {
+              "url": "https://www.bta.bg/en/news/bulgaria/1242116-varna-prosecutors-investigate-human-remains-found-on-drone-damaged-ship",
+              "source": "Bulgarian News Agency, 7 November 2026: Varna Appellate Prosecution Office statement, no number of victims given, DNA tests ordered"
+            }
+          ]
         }
       ]
     },
@@ -38355,6 +38377,196 @@
             {
               "url": "https://t.me/mod_russia/68782",
               "source": "Russian Ministry of Defence, 5 November 2026: claim of a drone strike on a dry cargo vessel south west of Odesa, no vessel, no casualties"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6746959879,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6746959879",
+      "author": "iMariner",
+      "received_at": "2026-11-09T17:35:10Z",
+      "incident_id": "INC-20261015-001",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-23T07:32:00Z",
+          "vessel_name": "WINE TRADER",
+          "date_utc": "2026-10-15",
+          "vessel_type": "Tanker",
+          "region": "Black Sea",
+          "location_text": "At anchor about 13 nautical miles south-east of Sulina, Romania",
+          "summary": "Wine Trader, a San Marino flagged chemical tanker bound for Giurgiulesti in Moldova, was struck by drones at anchor off Sulina on 15 October 2026 and caught fire. Twelve crew were aboard: nine Beninese, two Croatian and one Bosnian, according to the San Marino Ship Register. Five were rescued, including the master, and seven remain unaccounted for. The Croatian Ministry of Foreign and European Affairs confirmed that one of the two Croatian seafarers is among the missing and that the other was treated for superficial burns and released.",
+          "date_note": "Romanian authorities date the fire to about 07:00 local time on 15 October 2026, with the first drone strike at about 04:00; the attack date is 15 October.",
+          "sources": [
+            {
+              "url": "https://www.capital.gr/english/4024378/drone-attack-on-the-wine-trader-in-the-black-sea-search-and-rescue-operations-underway/",
+              "source": "San Marino Ship Register statement, carried by Capital.gr, 19 October 2026"
+            },
+            {
+              "url": "https://agerpres.ro/english/2026/10/15/five-crew-members-from-wine-trader-rescued-seven-others-remain-missing--1603262",
+              "source": "Romanian Naval Authority press release via AGERPRES, 15 October 2026"
+            },
+            {
+              "url": "https://www.jutarnji.hr/vijesti/hrvatska/jedan-hrvatski-casnik-nestao-a-drugi-ozlijeden-u-napadu-dronovima-na-brod-u-crnom-moru-15758341",
+              "source": "Jutarnji list reporting the Croatian Ministry of Foreign and European Affairs, 22 October 2026"
+            }
+          ]
+        },
+        "audit_notes": [
+          "Feed general cargo type is wrong: reporting identifies chemical tanker. Initial primary statement says8missing4safe; later reporting7missing5safe. Preserve chronology. Seven missing, including6Beninese1Russian, is NOT seven confirmed deaths and must not feed death-nationality totals. Original Maritime.bg manager interview https://www.maritime.bg/156457/ linked by TürkiyeToday returned429."
+        ],
+        "human_impact": {
+          "missing": {
+            "count": 7,
+            "as_of": "2026-10-22",
+            "sources": [
+              {
+                "url": "https://www.capital.gr/english/4024378/drone-attack-on-the-wine-trader-in-the-black-sea-search-and-rescue-operations-underway/",
+                "source": "San Marino Ship Register statement, 19 October 2026"
+              },
+              {
+                "url": "https://agerpres.ro/english/2026/10/15/five-crew-members-from-wine-trader-rescued-seven-others-remain-missing--1603262",
+                "source": "Romanian Naval Authority press release via AGERPRES, 15 October 2026"
+              }
+            ]
+          }
+        },
+        "updates": [
+          {
+            "at": "2026-10-21T14:20:00.362452+00:00",
+            "text": "Follow-up reporting dated 20 October quotes the manager listing seven crew missing, including six Beninese and one Russian national. These are missing-person nationalities, not confirmed death-nationality counts.",
+            "sources": [
+              {
+                "url": "https://www.turkiyetoday.com/world/russian-black-sea-strikes-deepen-perfect-storm-for-food-supplies-eu-3230696",
+                "source": "Türkiye Today — named manager’s account"
+              }
+            ]
+          },
+          {
+            "at": "2026-10-22T12:55:39Z",
+            "text": "The flag state register lists the crew as nine Beninese, two Croatian and one Bosnian. That conflicts with the manager account used earlier in this record, which placed one Russian among the seven missing. The count of seven unaccounted for, with five rescued including the master, is unchanged. No body has been reported, so deaths stay unknown and the nationalities of the missing are not counted.",
+            "sources": [
+              {
+                "url": "https://www.capital.gr/english/4024378/drone-attack-on-the-wine-trader-in-the-black-sea-search-and-rescue-operations-underway/",
+                "source": "San Marino Ship Register statement, 19 October 2026"
+              },
+              {
+                "url": "https://agerpres.ro/english/2026/10/15/five-crew-members-from-wine-trader-rescued-seven-others-remain-missing--1603262",
+                "source": "Romanian Naval Authority press release via AGERPRES, 15 October 2026"
+              }
+            ]
+          },
+          {
+            "at": "2026-10-23T07:32:00Z",
+            "text": "Croatian reporting establishes which of the two Croatian crew members is among the missing. The Croatian Ministry of Foreign and European Affairs told Jutarnji list that one Croatian seafarer is among the seven missing from Wine Trader, that a second Croatian was kept in hospital for superficial burns and has since been discharged to a hotel, and that the search for the missing officer was halted after time passed, with the Croatian embassy in Bucharest in contact with the shipmanager. The ITF inspector Adrian Mihalcioiu told Vecernji list that the seven missing are one Croatian and six Beninese and that those men were asleep in the directly hit lower accommodation. Seven missing remains a missing count, not a death count: no body has been reported, so deaths stay unknown and no nationality is counted as a death.",
+            "sources": [
+              {
+                "url": "https://www.jutarnji.hr/vijesti/hrvatska/jedan-hrvatski-casnik-nestao-a-drugi-ozlijeden-u-napadu-dronovima-na-brod-u-crnom-moru-15758341",
+                "source": "Jutarnji list reporting the Croatian Ministry of Foreign and European Affairs, 22 October 2026"
+              },
+              {
+                "url": "https://n1info.hr/vijesti/hrvatski-pomorac-nestao-u-crnom-moru-nakon-napada-na-tanker-jo-jedan-ozlijeen/",
+                "source": "N1 Croatia reporting Večernji list and the ITF inspector Adrian Mihalcioiu, 22 October 2026"
+              }
+            ]
+          },
+          {
+            "at": "2026-11-05T08:30:00Z",
+            "text": "Casualty follow-up, no change to the death count. CNN reported on 3 November 2026 that six Beninese and one Russian national on the Wine Trader were killed. That is the same seven-person group the manager described as missing on 20 October, and the CNN account gives no body recovery or death registration. The San Marino Ship Register said on 19 October that seven crew had failed to answer the roll call, that the fire prevented a search on board and that establishing their fate remained its priority; it did not confirm them dead. Maritime.bg reported on 3 November, carried by Ukrainian Shipping Magazine, that the tanker had been towed to Varna for repairs and that seven crew were still missing. The Romanian interim foreign minister, Oana Toiu, said on 15 October that eight people had died in attacks on four ships in the previous 24 hours, an aggregate that covers more than this vessel and cannot be assigned to it. The seven deaths stay unconfirmed here, the flag state crew list still conflicts with the manager account, and no nationality is recorded as a death.",
+            "sources": [
+              {
+                "url": "https://edition.cnn.com/2026/11/03/europe/ukraine-black-sea-drone-attacks-intl",
+                "source": "CNN, 3 November 2026, by Tim Lister: six Beninese and one Russian national on the Wine Trader were killed"
+              },
+              {
+                "url": "https://insider.sm/en/wine-trader-drone-strike-san-marino-register",
+                "source": "Insider.sm reporting the San Marino Naval Register, 15 October 2026: seven failed to answer roll call and the search was the priority"
+              },
+              {
+                "url": "https://en.usm.media/the-tanker-wine-trader-damaged-near-romania-was-towed-to-varna-for-repairs",
+                "source": "Ukrainian Shipping Magazine citing Maritime.bg, 3 November 2026: tanker towed to Varna, seven crew still missing"
+              },
+              {
+                "url": "https://pressera.ro/externe/europa/cautari-reluate-langa-sulina-pentru-sapte-marinari-oana-toiu-a-anuntat-un-bilant-de-opt-morti-87654967",
+                "source": "PressEra, 17 October 2026, quoting interim foreign minister Oana Toiu: eight dead in attacks on four ships"
+              }
+            ]
+          },
+          {
+            "at": "2026-11-07T16:45:00Z",
+            "text": "Human remains have been found aboard the vessel, and the death toll stays unknown. On 7 November 2026 the Varna Appellate Prosecution Office, as reported by the Bulgarian News Agency, said an investigation is under way after badly damaged human remains were discovered while debris was cleared from a ship that had been struck by a drone off the coast of Romania, that had no Bulgarian nationals in its crew, and that was brought to a shipyard in Varna for repairs in early November. DNA tests have been ordered to establish the identities of the dead, and Romania is investigating the same incident. The prosecution statement does not name the ship. Its stated particulars, a San Marino flag, a drone strike off Romania in October and arrival at a Varna shipyard in early November, match Wine Trader, the San Marino flagged chemical tanker struck off Sulina on 15 October and towed to Varna for repairs according to Maritime.bg, so the identification rests on those particulars and on no naming by the prosecutors. No count and no nationality is attached to the remains. The seven crew unaccounted for stay a missing snapshot and not a death count, and no identity is guessed while the DNA tests are pending.",
+            "sources": [
+              {
+                "url": "https://www.bta.bg/en/news/bulgaria/1242116-varna-prosecutors-investigate-human-remains-found-on-drone-damaged-ship",
+                "source": "Bulgarian News Agency, 7 November 2026: Varna Appellate Prosecution Office says badly damaged human remains were found while debris was cleared from a drone damaged ship, San Marino flag, no Bulgarian crew, brought to a Varna shipyard for repairs in early November, DNA tests ordered, Romania investigating"
+              },
+              {
+                "url": "https://en.usm.media/the-tanker-wine-trader-damaged-near-romania-was-towed-to-varna-for-repairs/",
+                "source": "Ukrainian Shipping Magazine carrying Maritime.bg, 3 November 2026: Wine Trader towed to Varna by the tug Oceanus M and taken into a local shipyard for repairs, seven crew still missing"
+              },
+              {
+                "url": "https://www.capital.gr/english/4024378/drone-attack-on-the-wine-trader-in-the-black-sea-search-and-rescue-operations-underway/",
+                "source": "San Marino Ship Register statement carried by Capital.gr, 19 October 2026: flag state and the seven crew who failed to answer the roll call"
+              }
+            ]
+          },
+          {
+            "at": "2026-11-07T22:44:00Z",
+            "text": "Casualty follow-up, death toll still unknown. On 7 November 2026 BGNES reported that the bodies of five sailors had been found aboard WINE TRADER during inspections after she was brought to Varna for repairs, and Agence France-Presse, in a report carried by The Straits Times, quoted a Bulgarian law enforcement source saying the remains were too badly damaged for an exact number and that there were most likely six victims. Neither figure is confirmed by the Varna prosecution statement, which names no number and says DNA tests have been ordered, and neither identifies a nationality. Seven of the twelve crew remain unaccounted for, so the missing snapshot is unchanged and no death count is set: the reported five and the estimated six are recorded here as unresolved reports and not as a settled total or a minimum. This does not alter the earlier note on this record that CNN reported on 3 November that six Beninese and one Russian national on the ship were killed, which concerned the same seven crew reported missing and is still a reporter's account without a death certificate or an authority total.",
+            "sources": [
+              {
+                "url": "https://bgnes.com/society/bodies-of-five-sailors-found-aboard-drone-struck-wine-trader-in-varna",
+                "source": "BGNES, 7 November 2026: the bodies of five sailors found aboard the Wine Trader in Varna during inspections, seven crew reported missing after the 15 October drone strike"
+              },
+              {
+                "url": "https://straitstimes.com/world/europe/human-bodies-found-on-ship-struck-by-a-drone-in-black-sea",
+                "source": "Agence France-Presse report carried by The Straits Times, 7 November 2026: a Bulgarian law enforcement source said most likely six victims, the condition of the remains made an exact number impossible, seven of 12 crew reported missing and five rescued"
+              },
+              {
+                "url": "https://www.bta.bg/en/news/bulgaria/1242116-varna-prosecutors-investigate-human-remains-found-on-drone-damaged-ship",
+                "source": "Bulgarian News Agency, 7 November 2026: the Varna Appellate Prosecution Office statement, no number of victims given, DNA tests ordered"
+              }
+            ]
+          },
+          {
+            "at": "2026-11-09T05:55:00Z",
+            "text": "Casualty follow-up on the 15 October sinking; the death toll stays unknown and the missing snapshot of seven is unchanged. On 3 November 2026 CNN, attributing the information to the operator of WINE TRADER, reported that the tanker was hit by three drones and that six Beninese nationals and one Russian national aboard were killed. That is a seven-death figure at operator level, and it is the first account that names the dead by nationality. It conflicts with the crew list published by the San Marino Ship Register, which gave twelve crew as nine Beninese, two Croatian and one Bosnian, and with the Varna Appellate Prosecution Office, which said on 7 November that the badly damaged remains found while debris was cleared could not be counted, a Bulgarian law enforcement source telling AFP that there were most likely six victims and BGNES reporting that five bodies had been found. Because the nationality breakdown and the number of remains do not reconcile, no death count and no nationality count are set here. Seven crew remain recorded as missing and this update does not convert missing into dead.",
+            "sources": [
+              {
+                "url": "https://edition.cnn.com/2026/11/03/europe/ukraine-black-sea-drone-attacks-intl",
+                "source": "CNN, 3 November 2026, quoting the operator of WINE TRADER: three drones, six Beninese and one Russian national killed"
+              },
+              {
+                "url": "https://www.straitstimes.com/world/europe/human-bodies-found-on-ship-struck-by-a-drone-in-black-sea",
+                "source": "Agence France-Presse carried by The Straits Times, 8 November 2026: Varna prosecutors, badly damaged remains, DNA testing ordered, a law enforcement source saying most likely six victims, seven of twelve crew missing"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "INC-20261015-001",
+        "update": {
+          "at": "2026-11-09T17:35:09Z",
+          "text": "Casualty follow-up: the death toll stays unknown and the missing snapshot of seven is unchanged. On 7 November 2026 the Bulgarian Ministry of Interior confirmed to the television channel NOVA that the bodies of six sailors had been found aboard Wine Trader, the tanker brought to Varna for repair, and NOVA reported that a pre-trial investigation had been opened. That is the first named ministry to state a number of bodies on the ship by name, and it follows the Varna Appellate Prosecution Office statement the same day, which described badly damaged remains and ordered DNA tests without giving a number. It does not settle the count. BGNES reported on 7 November that five bodies had been found, and Agence France-Presse quoted a Bulgarian law enforcement source saying the remains were too badly damaged for an exact number and that there were most likely six victims, so two Bulgarian accounts give five and six while the ministry figure and the AFP estimate cannot be reconciled from the sources read here. Identification is also outstanding, the DNA results are pending, and neither report assigns a nationality to the dead. Because the number and the identity of the dead are both unresolved, no death count and no nationality count are set here. The seven crew unaccounted for stay a missing snapshot and are not converted into deaths by this note.",
+          "sources": [
+            {
+              "url": "https://nova.bg/news/view/2026/11/07/558454/",
+              "source": "NOVA, 7 November 2026: the Bulgarian Ministry of Interior confirmed to NOVA that the bodies of six sailors were found aboard Wine Trader at Varna, and a pre-trial investigation was opened"
+            },
+            {
+              "url": "https://euromaidanpress.com/2026/11/09/drones-set-a-tanker-ablaze-off-romania-three-weeks-later-human-remains-turned-up-during-repairs-in-varna",
+              "source": "Euromaidan Press, 9 November 2026: reports the Interior Ministry confirmation to NOVA and links the Varna prosecutor statement and the 15 October strike"
+            },
+            {
+              "url": "https://straitstimes.com/world/europe/human-bodies-found-on-ship-struck-by-a-drone-in-black-sea",
+              "source": "Agence France-Presse carried by The Straits Times, 8 November 2026: a Bulgarian law enforcement source said most likely six victims and the condition of the remains made an exact number impossible"
+            },
+            {
+              "url": "https://www.bta.bg/en/news/bulgaria/1242116-varna-prosecutors-investigate-human-remains-found-on-drone-damaged-ship",
+              "source": "Bulgarian News Agency, 7 November 2026: Varna Appellate Prosecution Office statement, no number of victims given, DNA tests ordered"
             }
           ]
         }
