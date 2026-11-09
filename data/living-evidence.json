@@ -19853,6 +19853,28 @@
           ]
         }
       ]
+    },
+    "INC-20261107-015": {
+      "updates": [
+        {
+          "at": "2026-11-09T17:34:07Z",
+          "text": "This row repeats the 15 October attack on WINE TRADER and is not a new attack on 7 November, so no count is set here. The report behind it is an Agence France-Presse dispatch from Sofia published by The Straits Times at 03:11 Singapore time on 8 November, which is 19:11 UTC on 7 November and matches this row's timestamp. It says the Varna prosecutor's office stated on 7 November that severely damaged human remains were discovered during debris-clearing operations aboard a ship that had been struck by a drone off the coast of Romania and was being repaired in Varna, and that DNA testing had been ordered to identify the victims. The prosecutors did not name the ship but said it sailed under the San Marino flag, which matches Wine Trader, the San Marino flagged chemical tanker hit on 15 October about 24 kilometres south east of Sulina at the mouth of the Danube. A Bulgarian law enforcement source told AFP that the condition of the remains made an exact count impossible and that there were most likely six victims. The dispatch states that seven of the ship's twelve crew were reported missing after the strike and that five were rescued. The attack date remains 15 October 2026 and the incident is recorded at INC-20261015-001, where the remains find and the unresolved number are carried. This row adds no second attack, no separate casualty and no date of its own.",
+          "sources": [
+            {
+              "url": "https://www.straitstimes.com/world/europe/human-bodies-found-on-ship-struck-by-a-drone-in-black-sea",
+              "source": "Agence France-Presse dispatch carried by The Straits Times, 8 November 2026: Varna prosecutors on human remains found during debris clearing aboard a San Marino flagged ship under repair, DNA tests ordered, ship not named, described as likely Wine Trader struck 15 October about 24km south east of Sulina, a Bulgarian law enforcement source saying most likely six victims, seven of twelve crew reported missing and five rescued"
+            },
+            {
+              "url": "https://www.bta.bg/en/news/bulgaria/1242116-varna-prosecutors-investigate-human-remains-found-on-drone-damaged-ship",
+              "source": "Bulgarian News Agency, 7 November 2026: Varna Appellate Prosecution Office statement, no number of victims given, DNA tests ordered"
+            },
+            {
+              "url": "https://agerpres.ro/english/2026/10/15/five-crew-members-from-wine-trader-rescued-seven-others-remain-missing--1603262",
+              "source": "Romanian Naval Authority press release via AGERPRES, 15 October 2026: five rescued and seven missing from Wine Trader"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -38196,6 +38218,35 @@
             {
               "url": "https://mscio.eu/alerts/210",
               "source": "MSCIO alert 174/26: time late report of an incident at approximately 20:20 UTC on 7 November 2026 in the Strait of Hormuz, tanker transiting outbound struck by an unknown projectile, all crew reported safe and accounted for"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6746937175,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6746937175",
+      "author": "iMariner",
+      "received_at": "2026-11-09T17:34:08Z",
+      "incident_id": "INC-20261107-015",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261107-015",
+        "update": {
+          "at": "2026-11-09T17:34:07Z",
+          "text": "This row repeats the 15 October attack on WINE TRADER and is not a new attack on 7 November, so no count is set here. The report behind it is an Agence France-Presse dispatch from Sofia published by The Straits Times at 03:11 Singapore time on 8 November, which is 19:11 UTC on 7 November and matches this row's timestamp. It says the Varna prosecutor's office stated on 7 November that severely damaged human remains were discovered during debris-clearing operations aboard a ship that had been struck by a drone off the coast of Romania and was being repaired in Varna, and that DNA testing had been ordered to identify the victims. The prosecutors did not name the ship but said it sailed under the San Marino flag, which matches Wine Trader, the San Marino flagged chemical tanker hit on 15 October about 24 kilometres south east of Sulina at the mouth of the Danube. A Bulgarian law enforcement source told AFP that the condition of the remains made an exact count impossible and that there were most likely six victims. The dispatch states that seven of the ship's twelve crew were reported missing after the strike and that five were rescued. The attack date remains 15 October 2026 and the incident is recorded at INC-20261015-001, where the remains find and the unresolved number are carried. This row adds no second attack, no separate casualty and no date of its own.",
+          "sources": [
+            {
+              "url": "https://www.straitstimes.com/world/europe/human-bodies-found-on-ship-struck-by-a-drone-in-black-sea",
+              "source": "Agence France-Presse dispatch carried by The Straits Times, 8 November 2026: Varna prosecutors on human remains found during debris clearing aboard a San Marino flagged ship under repair, DNA tests ordered, ship not named, described as likely Wine Trader struck 15 October about 24km south east of Sulina, a Bulgarian law enforcement source saying most likely six victims, seven of twelve crew reported missing and five rescued"
+            },
+            {
+              "url": "https://www.bta.bg/en/news/bulgaria/1242116-varna-prosecutors-investigate-human-remains-found-on-drone-damaged-ship",
+              "source": "Bulgarian News Agency, 7 November 2026: Varna Appellate Prosecution Office statement, no number of victims given, DNA tests ordered"
+            },
+            {
+              "url": "https://agerpres.ro/english/2026/10/15/five-crew-members-from-wine-trader-rescued-seven-others-remain-missing--1603262",
+              "source": "Romanian Naval Authority press release via AGERPRES, 15 October 2026: five rescued and seven missing from Wine Trader"
             }
           ]
         }
