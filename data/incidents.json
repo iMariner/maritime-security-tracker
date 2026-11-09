@@ -82,6 +82,105 @@
     "position_approx": true
   },
   {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-11-09",
+    "summary": "A headline reports that an Iranian attack set an oil tanker ablaze in the Strait of Hormuz. No vessel name, position, weapon type, damage details or casualties are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.4,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": "oil tanker set ablaze",
+    "casualties": null,
+    "attribution_claimed": "Iran (per headline)",
+    "independent_evidence": false,
+    "id": "INC-20261109-003",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBpOUU1R212Y3pXaHNteHViU1VlY0ZoVmlzS09oZ3BJdDJLakdZNzFVLWVXMXBSNUxxLXQxNWVUTGZIM1NvN2lCakpjUFdSVDdj?oc=5",
+        "source": "JFeed",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-09T08:57:43Z",
+        "title": "Iranian Attack Sets Oil Tanker Ablaze in Strait of Hormuz - JFeed"
+      }
+    ],
+    "first_seen": "2026-11-09T17:46:46Z",
+    "last_updated": "2026-11-09T17:46:46Z",
+    "verification_issue": 368,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-11-09",
+    "summary": "A Turkish outlet headline reports that Russia attacked three ships in the Black Sea. No vessel names, positions, weapon types, damage or casualty details are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Russia",
+    "independent_evidence": false,
+    "id": "INC-20261109-004",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBR19tbGZpVElJM3NfQXhEd1JQb1lQWU9rNkticHRkVUgtbWxETFNaLXJFUVhwck9OR1I5Qk5FY1dWdE1LSmRCc01RZzQxdi1STk44NDB2SWhEd2EydGtCSGdmZU13dzRYb3FSbEVtM2RkR3BWdmc?oc=5",
+        "source": "Türk Deniz Medya",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-09T07:59:32Z",
+        "title": "Rusya, Karadeniz'de üç gemiye saldırı düzenledi! - Türk Deniz Medya"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVDR6TmU0dENNWDJfY1ZESWlHOF9aRWd5eGtNN3NZSXcxRjBwSXhseEdGMmNCS1RRMWI2VE8tY0E1ZzRJV0pYLVJsSDgxLVdiOTVLRjZHMFJFWF9meHdhM1U1bEVhalFqcFVIRzltY0tiWlBBQm9hYVhnUlNrRWFaRmlEMDhxSVh0cVl3MzU5VWFJYVAtY0VvOXBzZUp5QTg?oc=5",
+        "source": "Fakti.bg",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-09T06:28:00Z",
+        "title": "Russia reports strikes on ships and energy facilities in Ukraine ᐉ News from Fakti.bg - World - Fakti.bg"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNTY2TmdTbDR4M1hfemRoVmZiQmNpSk1nQy0yVTc3eUJsRkdPX0w1aVJqWm9NMTlQNnhlSjZjRWxwd01CVk5Rbm1SZkVram52RjF1TXJzT2dIb25ubVp1U0pQY3Z1SEF0LUI4Vl81MEdXejZjN29uWjZMVFg3Rm5IR0hoRW4wOWhzS1U1UUVFS2Z3dTZzQWlHU21kQm5HM0xqQkg1M19WMW94UG56MVhzMEhCbkF3azBTbVZnX01FMGtGOXVmbFJfWkRWa2E2alU?oc=5",
+        "source": "Bursa Hakimiyet",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-09T05:21:00Z",
+        "title": "Rusya duyurdu: Ukrayna'ya askeri malzeme taşıyan 3 ticari gemiye saldırı düzenlendi - Bursa Hakimiyet"
+      }
+    ],
+    "first_seen": "2026-11-09T17:46:46Z",
+    "last_updated": "2026-11-09T17:46:56Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261108-014",
+    "position_approx": true
+  },
+  {
     "region": "Black Sea",
     "date_utc": "2026-11-08T07:11:00Z",
     "summary": "A Romanian outlet reports that human remains were found on a vessel in the Black Sea that was hit by a drone, and that Bulgarian prosecutors ordered DNA tests. The item gives no vessel name, date or attacker.",
@@ -638,7 +737,7 @@
     "summary": "A tanker caught fire about 8 nautical miles north-west of Khasab, Oman on 8 November and the crew were evacuated, according to Mehr News Agency and Arab Times. UAE authorities rescued 22 people from a burning vessel in the Gulf of Oman the same day, and Iran claimed three tankers caught fire in the Strait of Hormuz.",
     "official_source_cited": "UAE authorities (rescue operation)",
     "conflicting": false,
-    "confidence": 0.6,
+    "confidence": 0.7,
     "vessel_name": null,
     "imo": null,
     "flag": null,
@@ -824,10 +923,37 @@
         "kind": "media",
         "published_at": "2026-11-08T10:25:24Z",
         "title": "UKMTO: Судно подверглось атаке в Оманском заливе - prospect.com.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWHBITTN4Zkp4bFZfaWFNZTJ5WmF3cVZ4ejh1eGRZY2I3ejFrZkhLV25uVTRrMFNHMW82S2k4UlJJZGRDeVRaZnlXcDFkT0gwYTBfZlAtSmlfa1R1VkgweHBLYTNyQm1ZUlpPMnk5TnRZOVAwVjQ3RHhJVVFWRGt5ZTRkaEcxV3R3cFZCX21pV2pEZUdpZTdCc2M5ZXZzMkN3Y1U1Z0NLdjA4SFJpM05TRUFtZm91Y3huQUQ0LXlYMUljVjFBUkpjVHM3ZW9kT3ZHamJWcg?oc=5",
+        "source": "Facebook",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-09T13:48:00Z",
+        "title": "1 Filipino seafarer killed in first reported Persian Gulf ship attack By Marita Moaje MANILA – A Filipino seafarer was killed while 21 others survived after their vessel was attacked in the Persian Gulf on Nov. 5, prompting the government to seek a security assess - Facebook"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5senBXa3JDN0VpeV9hYklFT3lBbmtwWjBJVEpKUjR0TEZyOHNfQm1OTHFBb3pjVVljRXlOaEpvVXNLbVRtQVNUYTFoLThkRmg40gFWQVVfeXFMTVE4UjJSV1hoMTZ6aDhYT2JPc0xIVm5BNTQ2a2YzdGlySWY1Z1VRVlpRdFB1R2UxNndNc0pTd2pCeDltbFlrV0tpVWxnM0FFSnpZOW0wakE?oc=5",
+        "source": "Business Recorder",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T11:50:13Z",
+        "title": "Iran says 3 tankers caught fire in Hormuz - Business Recorder"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbzFCOHYtTFBHZk1VLUFBOHNUQ2ZEcTcweTZJLVpnMkpRMDBqVE1udnhoLWhuT2pwNXBQQ0IzT0NkdWE0aHEyblpUQ3V1YXRUZnVIeXZfcU8wcEhBQlJuNnk3RWxXckF6QVY2T05NUDlHLXdSZnJnS0lxdGJvUGk5RXRNRklRY2hY?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T10:05:15Z",
+        "title": "США ударили по судну в Оманском заливе - prospect.com.ru"
       }
     ],
     "first_seen": "2026-11-08T15:33:12Z",
-    "last_updated": "2026-11-09T07:05:44Z",
+    "last_updated": "2026-11-09T17:46:54Z",
     "verification_issue": 363,
     "verdict": {
       "status": "confirmed",
@@ -837,10 +963,11 @@
       "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/363#issuecomment-6732327399"
     },
     "published_in": [],
-    "status": "confirmed",
+    "status": "merged",
     "date_approx": false,
     "position_approx": true,
-    "status_changed_at": "2026-11-09T04:34:43Z"
+    "status_changed_at": "2026-11-09T04:34:43Z",
+    "merged_into": "INC-20261107-010"
   },
   {
     "region": "Strait of Hormuz",
@@ -1004,7 +1131,7 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-11-08",
-    "summary": "Russia's defence ministry claimed its drones and other strikes hit three commercial vessels in the Black Sea carrying military materiel to Ukraine overnight into 8 November, with one statement placing a cargo vessel south-west of Odesa. Follow-up reports on 9 November repeat the claim of a drone strike on a dry cargo vessel south-west of Odesa, with no vessel names, flags, damage or casualties given.",
+    "summary": "Russia's defence ministry claimed its drones and other strikes hit three commercial vessels in the Black Sea carrying military materiel to Ukraine overnight into 8 November, with one statement placing a cargo vessel south-west of Odesa. Turkish and Bulgarian outlets repeated the claim of an attack on three ships on 9 November without naming any vessel.",
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.6,
@@ -1018,7 +1145,7 @@
     "location_text": "Black Sea, Ukraine (location not specified)",
     "attack_type": "drone (UAV)",
     "damage": null,
-    "casualties": null,
+    "casualties": "Syrians reported among the casualties",
     "attribution_claimed": "Russia's defence ministry",
     "independent_evidence": false,
     "id": "INC-20261108-014",
@@ -1211,10 +1338,91 @@
         "kind": "official",
         "published_at": "2026-11-09T05:52:47+00:00",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWk1vSDVvOC1IX1pGakNmWEFUbHlydFRXd1Y3eG5aYk96R0tDeUIzUzB1ZjRXV1FKcHRUZEtwMng3N0NlTlFneGtIYXdpWHRCRC1qeVZrYWFoVTBKY2NVVmNTMHE1SGtKWlNwMm5VSTg3cENEZFhEcXdKZUdiNHp1blhnczJwUFo1S0VaN1VKWnpZLU1NVWk2THJSLTk1b3laTlJia240RkszeFlKOWlFSV91cUxjZ2NJZEs2WHpaOHRUY3pVZFRwMW1BblRKNjDSAc8BQVVfeXFMT1pNb0g1bzgtSF9aRmpDZlhBVGx5cnRUV3dWN3huWmJPekdLQ3lCM1MwdWY0V1dRSnB0VGRLcDJ4NzdDZU5RZ3hrSGF3aVh0QkQtanlWa2FhaFUwSmNjVVZjUzBxNUhrSlpTcDJuVUk4N3BDRGRYRHF3SmVHYjR6dW5YZ3MycFBaNUtFWjdVSlp6WS1NTVVpNkxyUi05NW95Wk5SYmtuNEZLM3hZSjlpRUlfdXFMY2djSWRLNlh6Wjh0VGN6VWRUcDFtQW5USjYw?oc=5",
+        "source": "Bursada Bugün",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-09T15:58:14Z",
+        "title": "Rusya'dan Ukrayna'ya İHA saldırısı! Odessa Limanı ve Karadeniz'deki gemi hedef alındı - Bursada Bugün"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTTdwQmpRQW5veGFzdFdhMXpsb2l4R1JkbVExa0pxRExQWVVnLTNiM3lCVWUzUWdGdUh5RnpfODQ4NGV3VUY1SWgyVzM3bkxRZEI4YkZ3d21tLVM2dUM3bUotZ3lwaWhQSncyRHNrcDhuYlhEU0FDdHBtTDZXN0hYQVZWTXRPcEs4ZXF5WFFDbWo5VDF0WHM3aDFCdE5xZjJEVjhScjctZnRxRk9NQUEyYnVyYTRjTXVQcnVTbi1TaExVUnpreDdn?oc=5",
+        "source": "Haberet",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-09T15:56:46Z",
+        "title": "Rusya'dan Ukrayna'ya kritik saldırı! Odessa'daki lojistik merkezi ve Karadeniz'deki gemi vuruldu - Haberet"
+      },
+      {
+        "url": "https://t.me/mod_russia/68888",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-09T15:01:52+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYVIwcEgyaE5meTAzRU5KZWhaMXQxcEdOVlJrdVV6aU9oNVpGTGRUVXFPcS10MFJmYU1Ob1VUUm1JWndTZmN5X0M3UFhUU3RuNktNMUkwOV9WbmJGX0R4V1BiTnZOWVA5enJPZlhmejdHMXhyOE8zd0hlQ3l0ZWphZkFtR0FzbGtzOUJ5Q1FCUWRTYU9OdndYUWtPTQ?oc=5",
+        "source": "Военное дело",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-09T05:40:02Z",
+        "title": "Russian Strikes Hit Drone Plant, Substations, Cargo Ship - Военное дело"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeHBHU05QZ3JIUXdlWWZ0SXhpS3FnZjdxYmpyOUVFbXFsWmVXUG15UGEyV3h5Z0MzMVl2bFdhOHJuTUREV04tNi1yel9vZ2VxOWtPVTNOQ3BleDVkMGl6SEFybEYtclN2RmRmdUlWV2JuUmcxX0d3Nml0czlfRVplcUhieTVtVUhhMDdmZVUxaw?oc=5",
+        "source": "verify-sy.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T16:25:00Z",
+        "title": "سوريون بين ضحايا هجوم روسي على سفينة تجارية في أوديسا - verify-sy.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbGNNdUhDclNpYW9wYmsyLWtlVDBGcEM1YmtjUkh0QTdXbndheGZJV2YzUDFwRG50T3VmNS1sTER1VFREMV84SE9yYnl6dzJVcmhXZFpmdU1VVENkUHcyZ0VyM2JtZzNvaXdISmRWS3d1dlo3MF9RLVdIWndOUzNfVVZwYmJ3c3N4MXF6MDRLeG5CTU1vZERNc0lKOVM0SGhaMGtrSUt3R2FmZEMwc2hRbldCX3dVOGg3RWxqMTdYakxKTUJFWGdWWUJPSjBWeEVVRmfSAdIBQVVfeXFMUGxjTXVIQ3JTaWFvcGJrMi1rZVQwRnBDNWJrY1JIdEE3V253YXhmSVdmM1AxcERudE91ZjUtbExEdVRURDFfOEhPcmJ5encyVXJoV2RaZnVNVVRDZFB3MmdFcjNibWczb2l3SEpkVkt3dXZaNzBfUS1XSFp3TlMzX1VWcGJid3NzeDFxejA0S3huQk1Nb2RETXNJSjlTNEhoWjBra0lLd0dhZmRDMHNoUW5XQl93VThoN0VsajE3WGpMSk1CRVhnVllCT0owVnhFVUZn?oc=5",
+        "source": "Devdiscourse",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T15:59:00Z",
+        "title": "Russia says hit power substations in Ukraine and three ships in Black Sea - Devdiscourse"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBR19tbGZpVElJM3NfQXhEd1JQb1lQWU9rNkticHRkVUgtbWxETFNaLXJFUVhwck9OR1I5Qk5FY1dWdE1LSmRCc01RZzQxdi1STk44NDB2SWhEd2EydGtCSGdmZU13dzRYb3FSbEVtM2RkR3BWdmc?oc=5",
+        "source": "Türk Deniz Medya",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-09T07:59:32Z",
+        "title": "Rusya, Karadeniz'de üç gemiye saldırı düzenledi! - Türk Deniz Medya"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVDR6TmU0dENNWDJfY1ZESWlHOF9aRWd5eGtNN3NZSXcxRjBwSXhseEdGMmNCS1RRMWI2VE8tY0E1ZzRJV0pYLVJsSDgxLVdiOTVLRjZHMFJFWF9meHdhM1U1bEVhalFqcFVIRzltY0tiWlBBQm9hYVhnUlNrRWFaRmlEMDhxSVh0cVl3MzU5VWFJYVAtY0VvOXBzZUp5QTg?oc=5",
+        "source": "Fakti.bg",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-09T06:28:00Z",
+        "title": "Russia reports strikes on ships and energy facilities in Ukraine ᐉ News from Fakti.bg - World - Fakti.bg"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNTY2TmdTbDR4M1hfemRoVmZiQmNpSk1nQy0yVTc3eUJsRkdPX0w1aVJqWm9NMTlQNnhlSjZjRWxwd01CVk5Rbm1SZkVram52RjF1TXJzT2dIb25ubVp1U0pQY3Z1SEF0LUI4Vl81MEdXejZjN29uWjZMVFg3Rm5IR0hoRW4wOWhzS1U1UUVFS2Z3dTZzQWlHU21kQm5HM0xqQkg1M19WMW94UG56MVhzMEhCbkF3azBTbVZnX01FMGtGOXVmbFJfWkRWa2E2alU?oc=5",
+        "source": "Bursa Hakimiyet",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-09T05:21:00Z",
+        "title": "Rusya duyurdu: Ukrayna'ya askeri malzeme taşıyan 3 ticari gemiye saldırı düzenlendi - Bursa Hakimiyet"
       }
     ],
     "first_seen": "2026-11-08T19:55:23Z",
-    "last_updated": "2026-11-09T07:05:45Z",
+    "last_updated": "2026-11-09T17:46:56Z",
     "verification_issue": 365,
     "verdict": {
       "status": "claimed",
@@ -2131,9 +2339,9 @@
     "summary": "US Central Command said an American military aircraft fired on and disabled a commercial vessel that tried to break the US blockade of Iran on Saturday in the Gulf of Oman. No vessel name, flag or casualty details are given.",
     "official_source_cited": "U.S. Central Command",
     "conflicting": false,
-    "confidence": 0.8,
+    "confidence": 1.0,
     "vessel_name": "HUDA",
-    "imo": null,
+    "imo": "9197088",
     "flag": "Saint Kitts and Nevis",
     "vessel_type": "general cargo",
     "vessel_category": "merchant",
@@ -2142,9 +2350,9 @@
     "location_text": "Gulf of Oman",
     "attack_type": "other",
     "damage": "disabled ('put out of action')",
-    "casualties": null,
+    "casualties": "22 crew rescued",
     "attribution_claimed": "U.S. Central Command (U.S. forces)",
-    "independent_evidence": false,
+    "independent_evidence": true,
     "id": "INC-20261107-010",
     "sources": [
       {
@@ -2344,10 +2552,190 @@
         "kind": "media",
         "published_at": "2026-11-07T23:07:52Z",
         "title": "Fresh Flashpoint In Gulf: US Hits Iran-Bound Ship, Tankers Hit Mines Near Strait Of Hormuz - Times Now"
+      },
+      {
+        "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9197088-2026-11-07",
+        "source": "IMO (confirmed incidents list)",
+        "source_type": "official",
+        "side": "neutral",
+        "kind": "official",
+        "published_at": "2026-11-09T17:46:54Z",
+        "title": "IMO confirmed incident: HUDA (IMO 9197088)"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNM2ZieW96b2tHNVYzV2J3YVdxLUxjT01KUFJBYXZqajJoYlU4YmhBZ3M2eDRrVkI4LUJtSmM4eVZGVGZQNnp6RVYxcUZlNldlZWxxcmR2RVhoeE9oVE9aMERXLTNxN1JyQmxGeHZZWVgtVmF1a3FONDM2YU9YZWtjQ1NIVmhMbm1DaDlmNWp5Yw?oc=5",
+        "source": "Mehr News Agency",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T10:42:00Z",
+        "title": "A tanker catches fire about 8 miles NW Khasab, Oman - Mehr News Agency"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORVZUc2hsWk4wMy1yVEo3NUR1SFJSaW9IZXBzaEM0eDFud1dWRFdhbmN2Q1g1OWpwYXJ6eUdCQ0hDX0ViM09nTHFmZjZwN09rZ1JyeENUVkdfbzlPa2dIVEZxWm9CYVIxcjhlSlRUa3N5TnVwNjdJYTVIQVVOaFZldXIteWZMSER2c3VzVEZtTk84VlE?oc=5",
+        "source": "Arab Times Kuwait News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T09:35:47Z",
+        "title": "Tanker Catches Fire Off Oman's Khasab; Crew Evacuated - Arab Times Kuwait News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5GRzhfcUZ4VTFaenN4TGxhZGdnVkxkdHU4SUhCUFBLOWZ1UUVOOVJGWWNLODQxTi1WbE1JVHo4NHp3Tk1wTGJuSFlreVhmUHR4QXowbmc0cG1iUkNTaU90cXpTSmZpOFkyX0o5R3FjaUlMQdIBckFVX3lxTE5GRzhfcUZ4VTFaenN4TGxhZGdnVkxkdHU4SUhCUFBLOWZ1UUVOOVJGWWNLODQxTi1WbE1JVHo4NHp3Tk1wTGJuSFlreVhmUHR4QXowbmc0cG1iUkNTaU90cXpTSmZpOFkyX0o5R3FjaUlMQQ?oc=5",
+        "source": "The Siasat Daily",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T11:03:00Z",
+        "title": "Tanker catches fire off Oman - The Siasat Daily"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9JWVkyRTZlU1hLd0ZKS1p6Mi1uUUJjTlNkUVpORFFURTlCdmZPZW9lVlg0cnpCZkVWSjk5R2NLUjZWemYzeDBjYXFIVUJpdEhNbmxacnhGLXVBN1JnMWZtSGI0U1B4X2ZkT3NLZ9IBckFVX3lxTE5GRzhfcUZ4VTFaenN4TGxhZGdnVkxkdHU4SUhCUFBLOWZ1UUVOOVJGWWNLODQxTi1WbE1JVHo4NHp3Tk1wTGJuSFlreVhmUHR4QXowbmc0cG1iUkNTaU90cXpTSmZpOFkyX0o5R3FjaUlMQQ?oc=5",
+        "source": "The Siasat Daily",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T11:03:21Z",
+        "title": "Tanker catches fire off Oman - The Siasat Daily"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5VWnJMdm1jaFZaYy1TOTJBU0NxNTlMQXJuaXRudE5MU3hIT0t0N3FyUHhzeGxsUkxRd0t6dHRHMmRud1BvRzZmQTQ3c0xyR3dZbmxoRDJDcGFDN1VMem5iRmNR?oc=5",
+        "source": "X",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T11:00:00Z",
+        "title": "🇮🇷 Footage from the Strait of Hormuz appears to show fires burning on several tankers that Iran claims violated its maritime traffic regulations It comes as another tanker has been hit while exiting the Strait, and an IRGC spokesperson warned that Hormuz is en - X"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONWFPcDhpSjcwTEozRGRNdHFnWWpzb1pCYXIzdnVOUWhJQ3JvaGVTcjItLWNwNktieTVDcTk0WlpKbDRiMHB3Tkl0R19Mb1NUckllcVYwenlvNUV2QTBLcjlNdGtZdFI2NEJxbnhVbmZieXg2SnNTUXNPTFZVZjFnX2o3Q3lBbC1kRzlWcnNNU3VXdFNYNW5YTTJ4SFdBaDVfai1CRU50cm1VMHBkeWd4Zkc0Q2UxTlBJcmZ6TnJR?oc=5",
+        "source": "Reuters",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T14:21:43Z",
+        "title": "Iran suggests blasts are not US attacks as both sides report ships hit - Reuters"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZVNteDJfUjlxcW41UHBaWmI0NzZZQVJLLVZKTmtiX004Tk5IZTl0dEZVMnBHQ0JTU2RvM0Jmb1hvcGNoaEdpSzByTVZ6N2pVU1BUNnhrSWtMV2ZKNGFrRlJfTVVFVW5RY0tqUlQyTFBnZzVrbUpGaGhnYVVjT01KRHhaT0ZwQjhXU1g3anh30gGgAUFVX3lxTE54eU1CQkNNU2h6Z3NfX1RYVldjXzZIbmZDQWM0UlAwOWxRQnF0RWdsRGFUMkVVWFI2aUdmWldVVzEyMG9Eb1IxSXlaZzV1YmlXT0ppM01rQ3REYU8tdnEzLVZ4SWEtMTZmVllSbF91UURZX0F3QzNPWXpacnBJVGl4eGlFV3FHUWFyTzNRZms4T3pxYzFXUVRNdTljQTJOQlk?oc=5",
+        "source": "Gulf News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T11:23:11Z",
+        "title": "Iran says 3 tankers caught fire in Hormuz - Gulf News"
+      },
+      {
+        "url": "https://maritime-executive.com/article/tanker-burns-after-strike-in-strait-of-hormuz",
+        "source": "The Maritime Executive",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-08T20:37:23Z",
+        "title": "Tanker Burns After Strike in Strait of Hormuz"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWF9NWndDNnhDVnU1N2lTTm9JY3BFbGFMUXRNZUI1eVgyempsb1V3QkhUandBRlpjY214RlhvMFlCQmVWc2VsdzNJVVk4Nmk2Si1UVExUS2lPcmhrSHZLaE81QWVWT2dTR3VRcklSbVgwcG5ZOXNnSHIzXzBNYXBpdmM5VEV5UjVlVGY5YQ?oc=5",
+        "source": "The Maritime Executive",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T20:37:23Z",
+        "title": "Tanker Burns After Strike in Strait of Hormuz - The Maritime Executive"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYlh6Yjc3cllTZkFHS0hyNkljM2dPSnlOSkFiMU40R2pGenU2QjRxRlIzRGhwRmZBMEtJUkxEdnJiaVRwS0h5UkVlWmc2ZlF6NG1uenEzTGhMV2x3MmFnVS1NZ25JNHhnM2ZXZHdNSTlQalBGcGlva2hJWHd2ckhwanJvd0ZueHFIbHpfRENhREZCelJzSy1LVnQ0UHXSAZwBQVVfeXFMUGJYemI3N3JZU2ZBR0tIcjZJYzNnT0p5TkpBYjFONEdqRnp1NkI0cUZSM0RocEZmQTBLSVJMRHZyYmlUcEtIeVJFZVpnNmZRejRtbnpxM0xoTFdsdzJhZ1UtTWduSTR4ZzNmV2R3TUk5UGpQRnBpb2toSVh3dnJIcGpyb3dGbnhxSGx6X0RDYURGQnpSc0stS1Z0NFB1?oc=5",
+        "source": "The Siasat Daily",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T08:24:00Z",
+        "title": "UAE rescues 22 after cargo ship catches fire in Gulf of Oman - The Siasat Daily"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWHVUb0xjbU5NaG1sTzl2d2xyRjRtMms1b2syWnVzRm11RTFyNTh5eS0wNFdiNVVZTE1OOXRlNmpzU3NuTzJRaVlGOXNQQmllZ1FEbDd1ME1uUEVVTE5YamFwcXFCbjlOVzlUUDZNUVpiNkVEa2tVTUNUOUw2ZlRiNWE4MzhBZEcwaXgtYnREZVRFSHA3cC1ZZEg0QW42SFBSWWN5ZtIBrAFBVV95cUxQRXRyXzJ2cVpEQ3dmcTQ3aWdaWVJMenVZUWFzbG1HaVprckdwUmQtM2lCWHNlQzRRbnZDNGVQTnlfdk1Kblh1cXV0eVJvbFpGaFdwM1U0Wi0tOFZQR19fUnp6bDhaWXNoNnpBbDdqZXluekdNOWotVHFLWlY1V3hZR0pqbDBiSGhOcW1YZGxqbC1JYlM0NGREa0JhUFkzOHF6eU1uT0x1MUxEeTN4?oc=5",
+        "source": "Khaleej Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T03:01:39Z",
+        "title": "UAE rescues 22 crew members after cargo ship catches fire in Oman Sea - Khaleej Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUjdQZXNoTm1aY2pmdEpMZkVVTFI2ZzlLMGpQMjFTd283N21pMU1aSUkxN0FvRThmZ0prcGlPbnpYcTVsRzRFOHQzUkdlV0NJZ2lzUkdHcjluQzJuM3F0QTFsR1VvTVZhUFVEdWdIeFQzOWpucmlTS0liTFN4WnRuZXdSUHBDelFfbFZ3Um5XTGd2cldXUGRv0gGcAUFVX3lxTFBiWHpiNzdyWVNmQUdLSHI2SWMzZ09KeU5KQWIxTjRHakZ6dTZCNHFGUjNEaHBGZkEwS0lSTER2cmJpVHBLSHlSRWVaZzZmUXo0bW56cTNMaExXbHcyYWdVLU1nbkk0eGczZldkd01JOVBqUEZwaW9raElYd3ZySHBqcm93Rm54cUhsel9EQ2FERkJ6UnNLLUtWdDRQdQ?oc=5",
+        "source": "The Siasat Daily",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T08:24:00Z",
+        "title": "UAE rescues 22 after cargo ship catches fire in Gulf of Oman - The Siasat Daily"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTWFkcWpNOFp6VWxuSFlfNUcxRm1KcFhxcnk5bUt3N3g1Y3NKS0VVa3B0alRMOFRXZVVhQ0R4WHJtZFoxMUJXN3gxbGlBcl9oOUpGRndYNUc4UWlaN0tVNV9xM0JlSGhsX2VnUDNyTF9Kd3JZN2QzU18zeTlMNU5xREJidTAtRTVMc2FUOUpkeUV6b0RvVDNkb1UxbG9vLWdhODNjWUVxSnZZUdIBrwFBVV95cUxOS2JfMTBpeFd5ZTNoX09PcnVwa1drRUVscmJQdmJLb3VZVzNaY2ZiMVhHaWhqbjZTVVFKbkxoOXQxNElSeklKYjAwMF94Y2pCNUtaczZmSENQN092ZHdkemRSbVM0TW9FVE4xOU9KV1I5T3dCNjFESFRYVFM0T0tpTzB4Rm1xbVVpZWFEN3duSkNaVkEwOTB5blRZNi1BYmc0MFNvN0NUeDY4NTBJQXpv?oc=5",
+        "source": "Cebu Daily News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T23:15:00Z",
+        "title": "Filipino seafarer killed by drone strike in the Persian Gulf – DMW - Cebu Daily News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQlp4SHZibWpBU3BwMVFxeUtpQ0tsMUFoYjFZby1WRGlOVzZteHkwejdWOG45bGNrUFMxVEZyMElnemtxaEFGT3VFbUVRbWNUcHFtano0YVNjTWhKSnBuMmd6ZG16VXV1bmJXMHNPem5wQl93bHdWUVV4cS0wNHljRHVHelZaYXgtYzk0T3hsNGktQQ?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T10:25:24Z",
+        "title": "UKMTO: Судно подверглось атаке в Оманском заливе - prospect.com.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWHBITTN4Zkp4bFZfaWFNZTJ5WmF3cVZ4ejh1eGRZY2I3ejFrZkhLV25uVTRrMFNHMW82S2k4UlJJZGRDeVRaZnlXcDFkT0gwYTBfZlAtSmlfa1R1VkgweHBLYTNyQm1ZUlpPMnk5TnRZOVAwVjQ3RHhJVVFWRGt5ZTRkaEcxV3R3cFZCX21pV2pEZUdpZTdCc2M5ZXZzMkN3Y1U1Z0NLdjA4SFJpM05TRUFtZm91Y3huQUQ0LXlYMUljVjFBUkpjVHM3ZW9kT3ZHamJWcg?oc=5",
+        "source": "Facebook",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-09T13:48:00Z",
+        "title": "1 Filipino seafarer killed in first reported Persian Gulf ship attack By Marita Moaje MANILA – A Filipino seafarer was killed while 21 others survived after their vessel was attacked in the Persian Gulf on Nov. 5, prompting the government to seek a security assess - Facebook"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5senBXa3JDN0VpeV9hYklFT3lBbmtwWjBJVEpKUjR0TEZyOHNfQm1OTHFBb3pjVVljRXlOaEpvVXNLbVRtQVNUYTFoLThkRmg40gFWQVVfeXFMTVE4UjJSV1hoMTZ6aDhYT2JPc0xIVm5BNTQ2a2YzdGlySWY1Z1VRVlpRdFB1R2UxNndNc0pTd2pCeDltbFlrV0tpVWxnM0FFSnpZOW0wakE?oc=5",
+        "source": "Business Recorder",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T11:50:13Z",
+        "title": "Iran says 3 tankers caught fire in Hormuz - Business Recorder"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbzFCOHYtTFBHZk1VLUFBOHNUQ2ZEcTcweTZJLVpnMkpRMDBqVE1udnhoLWhuT2pwNXBQQ0IzT0NkdWE0aHEyblpUQ3V1YXRUZnVIeXZfcU8wcEhBQlJuNnk3RWxXckF6QVY2T05NUDlHLXdSZnJnS0lxdGJvUGk5RXRNRklRY2hY?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-08T10:05:15Z",
+        "title": "США ударили по судну в Оманском заливе - prospect.com.ru"
+      },
+      {
+        "url": "https://www.aa.com.tr/en/middle-east/iran-s-revolutionary-guards-say-2-oil-tankers-hit-mines-caught-fire-near-strait-of-hormuz/4115596",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-08T04:33:36Z",
+        "title": null
+      },
+      {
+        "url": "https://apnews.com/article/commercial-vessel-gulf-oman-breach-blockade-iran-bc902d3400cb5d022f8bafd247ef975b",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-08T04:33:36Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-07T21:04:17Z",
-    "last_updated": "2026-11-08T19:55:44Z",
+    "last_updated": "2026-11-09T17:46:54Z",
     "verification_issue": 355,
     "verdict": {
       "status": "confirmed",
@@ -2453,7 +2841,7 @@
       }
     ],
     "first_seen": "2026-11-08T00:53:57Z",
-    "last_updated": "2026-11-08T04:33:36Z",
+    "last_updated": "2026-11-09T17:46:54Z",
     "verification_issue": 356,
     "verdict": {
       "status": "claimed",
@@ -2463,8 +2851,9 @@
       "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/356#issuecomment-6717272429"
     },
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261107-010"
   },
   {
     "region": "Strait of Hormuz",
@@ -2582,7 +2971,7 @@
     "vessel_name": null,
     "imo": null,
     "flag": null,
-    "vessel_type": null,
+    "vessel_type": "tanker",
     "vessel_category": "merchant",
     "lat": 43.4,
     "lon": 34.5,
@@ -2602,10 +2991,37 @@
         "kind": "media",
         "published_at": "2026-11-07T19:11:00Z",
         "title": "Human bodies found on ship struck by a drone in Black Sea - The Straits Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRlFfZ1d3WDZjTjdjc29qR3VWMjNIdUl5SlFsMVlRS0tuZzY1Ynd0RUJYa0Jwel9OSUYtUDBHMHpESDRFSEwtakVYdEZYajRJcEYzSkk0cXpkR3ZCSU9YdXBXTl9lVUhIa0NLbVVlb0JxMDVwdS13d1lYR2twd1o4el9CNnZvUQ?oc=5",
+        "source": "Lloyd's List",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-09T11:57:33Z",
+        "title": "Human remains found on vessel hit by drone - Lloyd's List"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZDBvaVAxbDlfLXQxTnduU25zVVJiaXlwOVVBTnQ2dnM5aW1BQUhFazlxMTFHcDBxLXFrRnBVVEFtM193a2JRcVM1Y1FZUGdvTk9uSXlhaWJUcERYdHd6T1pRU2d5NTIzWHN3U3F0cFRjdFEyWFZIamlxQm1uWFpxaEFPUnpuamVPY19IaUZUZWZvU3dKV0tiQVpzY09sa1pvZThzNG55LTI2cFNsMlpXOU54WDU5QQ?oc=5",
+        "source": "TVP World",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-09T09:27:00Z",
+        "title": "Missing sailors’ remains found on drone-hit tanker as EU chief visits tense Black Sea region - TVP World"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT2tmMzMzb09wc2RRX2RnQWcwRWtCRFFKdTRXWUtxaTZQV0JSZk50b19XMWt3ek5RYUpENk5tRzh6ZWdVd2pTWHc2aGlYbFFjSHh2bmpfMktNa1VsdnJIOGsyUE9QUERYVk9LenM4ZTItamZ6THRiWnZSaVlMMmlEb3M0NWQ4QnIxc0l2S01WRF9jbTB2eERjeXlNOHVadw?oc=5",
+        "source": "Universul.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-07T18:26:34Z",
+        "title": "Bulgaria: Rămăşiţe umane găsite pe o navă lovită de o dronă în Marea Neagră - Universul.net"
       }
     ],
     "first_seen": "2026-11-09T07:05:42Z",
-    "last_updated": "2026-11-09T07:05:42Z",
+    "last_updated": "2026-11-09T17:46:54Z",
     "verification_issue": 367,
     "verdict": null,
     "published_in": [],
@@ -10123,10 +10539,19 @@
         "kind": "media",
         "published_at": "2026-11-07T23:07:52Z",
         "title": "Fresh Flashpoint In Gulf: US Hits Iran-Bound Ship, Tankers Hit Mines Near Strait Of Hormuz - Times Now"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTTVoaTk4TENPUXN0QzBXYzRXcExFSjhRMi1KMTg0Q3hXN05feHVwWWM0UF9KSklpZ3lqd1g1MWxOOU40RWFqSGVXSXpaREV4QTVabTBMYXVsX21zZXF0X1p6X1lyMDlCZXVhYXcxUUdKNUJ5azRFUGZNSzc1ZDJJaE1GZWJjNmVrblNUM1VFVl92dkJVd1RWWVZMWkpSUVd4T2p5UTltODBaRmJJWXpkRXQ4UQ?oc=5",
+        "source": "Daily Sun",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-09T12:26:19Z",
+        "title": "Pakistan's Hormuz agreement with Iran faces test after LNG tanker attack - Daily Sun"
       }
     ],
     "first_seen": "2026-11-01T09:37:37Z",
-    "last_updated": "2026-11-08T19:55:44Z",
+    "last_updated": "2026-11-09T17:46:40Z",
     "verification_issue": 310,
     "verdict": {
       "status": "confirmed",
