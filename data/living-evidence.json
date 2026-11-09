@@ -19916,6 +19916,33 @@
           ]
         }
       ]
+    },
+    "INC-20261108-014": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "updates": [
+        {
+          "at": "2026-11-09T23:46:53Z",
+          "text": "Checked on 10 November 2026 and no vessel can be identified, so no verification is submitted. Russia's defence ministry said on 8 November 2026 that it had struck cargo vessels carrying weapons and military cargo for Ukraine. TASS carried the statement naming two: a container ship in the port of Chornomorsk and a dry cargo vessel in the Black Sea south west of Odessa. Reuters reported the ministry said three cargo vessels were hit, adding a container ship delivering weapons and military equipment to the port of Odesa, noted that it could not independently verify the claim and that Ukraine had no immediate comment. TrasportoEuropa reported on 9 November 2026 that the ships have not yet been identified and that there is no confirmed information on possible casualties. No source read here names any vessel, gives a flag, a position beyond the areas named, a damage assessment or a casualty. The row's line that Syrians were reported among the casualties is not supported by any checked source: the documented Syrian seafarer losses in the Black Sea in this period are the crews of ALFA WATAN, attacked on 6 October 2026, and HS DIGNITY, attacked on 13 October 2026, both already recorded. The death count is therefore unknown and not zero, no count is asserted, and the row stays unreviewed and outside published totals. Rows INC-20261108-002, INC-20261108-007 and INC-20261108-013, and the later rows INC-20261109-001, INC-20261109-002 and INC-20261109-004, repeat the same ministry claim and are not separate attacks.",
+          "sources": [
+            {
+              "url": "https://tass.com/defense/2214487",
+              "source": "TASS, 8 November 2026, quoting Russia's defence ministry: a container ship in the port of Chornomorsk and a dry cargo vessel in the Black Sea south west of Odessa, no vessel named, no casualty given"
+            },
+            {
+              "url": "https://gcaptain.com/russia-says-it-hit-three-cargo-ships-in-black-sea/",
+              "source": "Reuters, 8 November 2026, carried by gCaptain: Russia said overnight strikes hit three cargo vessels carrying military goods, Reuters could not independently verify and Ukraine had no immediate comment"
+            },
+            {
+              "url": "https://www.trasportoeuropa.it/english/week-of-attacks-on-merchant-ships-in-hormuz-and-the-black-sea/",
+              "source": "TrasportoEuropa, 9 November 2026: the ships struck on 8 November have not yet been identified and there is no confirmed information on possible casualties"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -38567,6 +38594,40 @@
             {
               "url": "https://www.bta.bg/en/news/bulgaria/1242116-varna-prosecutors-investigate-human-remains-found-on-drone-damaged-ship",
               "source": "Bulgarian News Agency, 7 November 2026: Varna Appellate Prosecution Office statement, no number of victims given, DNA tests ordered"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6754605564,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6754605564",
+      "author": "iMariner",
+      "received_at": "2026-11-09T23:47:44Z",
+      "incident_id": "INC-20261108-014",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261108-014",
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-09T23:46:53Z",
+          "text": "Checked on 10 November 2026 and no vessel can be identified, so no verification is submitted. Russia's defence ministry said on 8 November 2026 that it had struck cargo vessels carrying weapons and military cargo for Ukraine. TASS carried the statement naming two: a container ship in the port of Chornomorsk and a dry cargo vessel in the Black Sea south west of Odessa. Reuters reported the ministry said three cargo vessels were hit, adding a container ship delivering weapons and military equipment to the port of Odesa, noted that it could not independently verify the claim and that Ukraine had no immediate comment. TrasportoEuropa reported on 9 November 2026 that the ships have not yet been identified and that there is no confirmed information on possible casualties. No source read here names any vessel, gives a flag, a position beyond the areas named, a damage assessment or a casualty. The row's line that Syrians were reported among the casualties is not supported by any checked source: the documented Syrian seafarer losses in the Black Sea in this period are the crews of ALFA WATAN, attacked on 6 October 2026, and HS DIGNITY, attacked on 13 October 2026, both already recorded. The death count is therefore unknown and not zero, no count is asserted, and the row stays unreviewed and outside published totals. Rows INC-20261108-002, INC-20261108-007 and INC-20261108-013, and the later rows INC-20261109-001, INC-20261109-002 and INC-20261109-004, repeat the same ministry claim and are not separate attacks.",
+          "sources": [
+            {
+              "url": "https://tass.com/defense/2214487",
+              "source": "TASS, 8 November 2026, quoting Russia's defence ministry: a container ship in the port of Chornomorsk and a dry cargo vessel in the Black Sea south west of Odessa, no vessel named, no casualty given"
+            },
+            {
+              "url": "https://gcaptain.com/russia-says-it-hit-three-cargo-ships-in-black-sea/",
+              "source": "Reuters, 8 November 2026, carried by gCaptain: Russia said overnight strikes hit three cargo vessels carrying military goods, Reuters could not independently verify and Ukraine had no immediate comment"
+            },
+            {
+              "url": "https://www.trasportoeuropa.it/english/week-of-attacks-on-merchant-ships-in-hormuz-and-the-black-sea/",
+              "source": "TrasportoEuropa, 9 November 2026: the ships struck on 8 November have not yet been identified and there is no confirmed information on possible casualties"
             }
           ]
         }
