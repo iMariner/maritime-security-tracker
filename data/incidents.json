@@ -3033,9 +3033,9 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.5,
-    "vessel_name": null,
-    "imo": null,
-    "flag": null,
+    "vessel_name": "Wine Trader",
+    "imo": "8808707",
+    "flag": "San Marino",
     "vessel_type": "tanker",
     "vessel_category": "merchant",
     "lat": 43.4,
@@ -3083,15 +3083,49 @@
         "kind": "media",
         "published_at": "2026-11-07T18:26:34Z",
         "title": "Bulgaria: Rămăşiţe umane găsite pe o navă lovită de o dronă în Marea Neagră - Universul.net"
+      },
+      {
+        "url": "https://maritime-executive.com/article/bulgaria-reports-discovery-of-human-remains-on-ship-hit-by-drone",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-10T04:32:08Z",
+        "title": null
+      },
+      {
+        "url": "https://www.straitstimes.com/world/europe/human-bodies-found-on-ship-struck-by-a-drone-in-black-sea",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-10T04:32:08Z",
+        "title": null
+      },
+      {
+        "url": "https://theins.press/en/news/299367",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-10T04:32:08Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-09T07:05:42Z",
-    "last_updated": "2026-11-09T17:46:54Z",
+    "last_updated": "2026-11-10T04:32:08Z",
     "verification_issue": 367,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-11-10T04:32:08Z",
+      "note": "The remains were found aboard the San Marino-flagged tanker Wine Trader during repairs at Varna, and that drone strike happened on 15 October about 24 kilometres south-east of Sulina, already recorded as INC-20261015-001, so this 7 November item is a follow-up on the dead and not a new attack.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/367#issuecomment-6759040853"
+    },
     "published_in": [],
-    "status": "reported",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-11-10T04:32:08Z"
   },
   {
     "region": "Black Sea",
