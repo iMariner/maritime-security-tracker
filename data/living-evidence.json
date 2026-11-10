@@ -19992,6 +19992,60 @@
           ]
         }
       ]
+    },
+    "HIST-BS-20260902-BANDA": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-10T06:00:00Z",
+        "vessel_name": "BANDA",
+        "imo": "9337406",
+        "date_utc": "2026-09-02",
+        "vessel_type": "Crude oil tanker",
+        "region": "Black Sea",
+        "attack_type": "drone",
+        "location_text": "Black Sea; the exact position of the strike has not been published",
+        "summary": "BANDA, a Liberia flagged crude oil tanker of 105,576 deadweight built in 2007, was hit by a drone in the Black Sea on 2 September 2026 and was left under tug escort because of the damage. Türkiye's Ministry of Transport and Infrastructure gave the date and nature of the strike in its statement of 15 October 2026 announcing that the tanker had grounded off Kisirkaya in Sariyer, Istanbul, in heavy weather, with six Turkish personnel aboard and no danger to their safety. The ship was refloated on 20 October 2026 and passed the Istanbul Strait under escort on 23 October 2026.",
+        "date_note": "The 2 September 2026 date is the ministry's own wording in its 15 October 2026 statement that the Liberia flagged Banda was hit by a drone on 2 September and had been waiting under tug escort since. No contemporaneous report of the strike itself was found, and neither the ministry nor the trade press published a position, so the record keeps day precision and asserts no coordinates.",
+        "sources": [
+          {
+            "url": "https://x.com/UABakanligi/status/2110696328409776231",
+            "source": "Türkiye Ministry of Transport and Infrastructure statement, 15 October 2026: the Liberia flagged Banda, hit by a drone on 2 September 2026 and waiting under tug escort, grounded in the Black Sea in heavy weather"
+          },
+          {
+            "url": "https://www.hurriyet.com.tr/gundem/sariyerde-gemi-karaya-oturdu-ekipler-sevk-edildi-43342419",
+            "source": "Hürriyet, DHA report of 15 October 2026, quoting the ministry statement in full"
+          },
+          {
+            "url": "https://www.vesselfinder.com/vessels/details/9337406",
+            "source": "VesselFinder particulars read 10 November 2026: BANDA, IMO 9337406, Liberia, crude oil tanker, 105,576 deadweight, 238 by 42 metres, built 2007"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-10T06:00:00Z",
+          "text": "New historical record for an event held in neither store. The dataset had no Black Sea attack dated 2 September 2026 at all, although Türkiye's Ministry of Transport and Infrastructure dates the drone damage on BANDA to that day, and the disabled ship spent the following six weeks under tow in the Black Sea before grounding off Istanbul on 15 October 2026. This is a separate event from the Ukrainian security service claim of 15 to 16 July 2026 that sea drones struck the tankers LOUISE 1 and BANDA, which is not recorded here and needs its own check. No authority has reported a death or an injury in the 2 September strike, so no count is set and none is inferred from the silence. The attack position is unpublished; the region is the Black Sea on the ministry's account of where the disabled ship was held.",
+          "sources": [
+            {
+              "url": "https://x.com/UABakanligi/status/2110696328409776231",
+              "source": "Türkiye Ministry of Transport and Infrastructure statement, 15 October 2026"
+            },
+            {
+              "url": "https://www.hurriyet.com.tr/gundem/sariyerde-gemi-karaya-oturdu-ekipler-sevk-edildi-43342419",
+              "source": "Hürriyet, DHA report of 15 October 2026"
+            },
+            {
+              "url": "https://epravda.com.ua/rus/oborona/sbu-i-vms-atakovali-dronami-rossiyskie-tankery-louise-1-i-banda-v-chernom-more-823699/",
+              "source": "Ukrainska Pravda, 16 July 2026: SBU and navy claim sea drone strikes on LOUISE 1 and BANDA, a separate earlier event"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -38833,6 +38887,68 @@
             {
               "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
               "source": "IMO highlighted confirmed incidents, read 9 November 2026: 131 confirmed incidents and 25 seafarer fatalities, latest entry HUDA on 7 November, no row for this fire"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6760255664,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6760255664",
+      "author": "iMariner",
+      "received_at": "2026-11-10T05:58:22Z",
+      "incident_id": "HIST-BS-20260902-BANDA",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-BS-20260902-BANDA",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-10T06:00:00Z",
+          "vessel_name": "BANDA",
+          "imo": "9337406",
+          "date_utc": "2026-09-02",
+          "vessel_type": "Crude oil tanker",
+          "region": "Black Sea",
+          "attack_type": "drone",
+          "location_text": "Black Sea; the exact position of the strike has not been published",
+          "summary": "BANDA, a Liberia flagged crude oil tanker of 105,576 deadweight built in 2007, was hit by a drone in the Black Sea on 2 September 2026 and was left under tug escort because of the damage. Türkiye's Ministry of Transport and Infrastructure gave the date and nature of the strike in its statement of 15 October 2026 announcing that the tanker had grounded off Kisirkaya in Sariyer, Istanbul, in heavy weather, with six Turkish personnel aboard and no danger to their safety. The ship was refloated on 20 October 2026 and passed the Istanbul Strait under escort on 23 October 2026.",
+          "date_note": "The 2 September 2026 date is the ministry's own wording in its 15 October 2026 statement that the Liberia flagged Banda was hit by a drone on 2 September and had been waiting under tug escort since. No contemporaneous report of the strike itself was found, and neither the ministry nor the trade press published a position, so the record keeps day precision and asserts no coordinates.",
+          "sources": [
+            {
+              "url": "https://x.com/UABakanligi/status/2110696328409776231",
+              "source": "Türkiye Ministry of Transport and Infrastructure statement, 15 October 2026: the Liberia flagged Banda, hit by a drone on 2 September 2026 and waiting under tug escort, grounded in the Black Sea in heavy weather"
+            },
+            {
+              "url": "https://www.hurriyet.com.tr/gundem/sariyerde-gemi-karaya-oturdu-ekipler-sevk-edildi-43342419",
+              "source": "Hürriyet, DHA report of 15 October 2026, quoting the ministry statement in full"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9337406",
+              "source": "VesselFinder particulars read 10 November 2026: BANDA, IMO 9337406, Liberia, crude oil tanker, 105,576 deadweight, 238 by 42 metres, built 2007"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-10T06:00:00Z",
+          "text": "New historical record for an event held in neither store. The dataset had no Black Sea attack dated 2 September 2026 at all, although Türkiye's Ministry of Transport and Infrastructure dates the drone damage on BANDA to that day, and the disabled ship spent the following six weeks under tow in the Black Sea before grounding off Istanbul on 15 October 2026. This is a separate event from the Ukrainian security service claim of 15 to 16 July 2026 that sea drones struck the tankers LOUISE 1 and BANDA, which is not recorded here and needs its own check. No authority has reported a death or an injury in the 2 September strike, so no count is set and none is inferred from the silence. The attack position is unpublished; the region is the Black Sea on the ministry's account of where the disabled ship was held.",
+          "sources": [
+            {
+              "url": "https://x.com/UABakanligi/status/2110696328409776231",
+              "source": "Türkiye Ministry of Transport and Infrastructure statement, 15 October 2026"
+            },
+            {
+              "url": "https://www.hurriyet.com.tr/gundem/sariyerde-gemi-karaya-oturdu-ekipler-sevk-edildi-43342419",
+              "source": "Hürriyet, DHA report of 15 October 2026"
+            },
+            {
+              "url": "https://epravda.com.ua/rus/oborona/sbu-i-vms-atakovali-dronami-rossiyskie-tankery-louise-1-i-banda-v-chernom-more-823699/",
+              "source": "Ukrainska Pravda, 16 July 2026: SBU and navy claim sea drone strikes on LOUISE 1 and BANDA, a separate earlier event"
             }
           ]
         }
