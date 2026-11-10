@@ -20082,6 +20082,37 @@
           ]
         }
       ]
+    },
+    "INC-20261110-001": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "updates": [
+        {
+          "at": "2026-11-10T12:15:00Z",
+          "text": "This row is not a new attack on 10 November 2026, and the six it reports is not a confirmed death toll. The article behind the headline, published by SAFETY4SEA on 10 November 2026, describes the San Marino flagged tanker Wine Trader, struck by drones at anchor about 24 km south east of Sulina, Romania, on 15 October 2026, and the severely damaged human remains found aboard her while she was being repaired at Varna in Bulgaria. SAFETY4SEA reports that the total of six seafarers has not been confirmed by the Varna District Prosecutor's Office, which confirmed that remains were found during debris clearing and ordered DNA examinations to identify the victims. The same article records that Bulgarian National Radio reported remains of five crew, and that an AFP source in Bulgarian law enforcement said the condition of the remains prevents an exact count, most likely six. The seven were listed as missing after five of the tanker's twelve crew were rescued, per the Romanian Naval Authority. Six, or five, is therefore not a settled death count and it is not a new toll dated 10 November: deaths stay unknown, no nationality is counted as a death, and the seven remain a missing snapshot. The attack itself is held as INC-20261015-001, so this row must not be counted as a separate attack or as additional deaths.",
+          "sources": [
+            {
+              "url": "https://safety4sea.com/remains-of-six-seafarers-reportedly-found-aboard-drone-struck-tanker-in-black-sea",
+              "source": "SAFETY4SEA, 10 November 2026: remains of six seafarers reportedly found aboard Wine Trader, struck off Romania on 15 October; the reported six is not officially confirmed, DNA tests ordered, Bulgarian National Radio reported five remains and an AFP source said the count cannot be fixed"
+            },
+            {
+              "url": "https://www.straitstimes.com/world/europe/human-bodies-found-on-ship-struck-by-a-drone-in-black-sea",
+              "source": "AFP via The Straits Times, 7 November 2026: the Varna prosecutor's office reported severely damaged human remains and ordered DNA testing, and an AFP source said most likely six but the exact number cannot be established"
+            },
+            {
+              "url": "https://prb.bg/bg/news/80197-okrazhna-prokuratura-varna-rakovodi-razsledvane-vav-vrazka-s-korab%2C-udaren-ot-dr",
+              "source": "Varna District Prosecutor's Office statement, 7 November 2026: severely damaged human remains found during debris clearing on the San Marino flagged ship, DNA tests ordered, no toll given"
+            },
+            {
+              "url": "https://agerpres.ro/english/2026/10/15/five-crew-members-from-wine-trader-rescued-seven-others-remain-missing--1603262",
+              "source": "AGERPRES quoting the Romanian Naval Authority, 15 October 2026: five crew rescued from Wine Trader and seven missing"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -39279,6 +39310,44 @@
             {
               "url": "https://www.thenationalnews.com/news/mena/2026/10/08/nine-syrians-missing-after-cargo-ship-sunk-by-drone-in-black-sea/",
               "source": "The National, 8 October 2026: nine Syrians and one Egyptian missing from ALFA WATAN"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6766969988,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6766969988",
+      "author": "iMariner",
+      "received_at": "2026-11-10T12:11:48Z",
+      "incident_id": "INC-20261110-001",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261110-001",
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-10T12:15:00Z",
+          "text": "This row is not a new attack on 10 November 2026, and the six it reports is not a confirmed death toll. The article behind the headline, published by SAFETY4SEA on 10 November 2026, describes the San Marino flagged tanker Wine Trader, struck by drones at anchor about 24 km south east of Sulina, Romania, on 15 October 2026, and the severely damaged human remains found aboard her while she was being repaired at Varna in Bulgaria. SAFETY4SEA reports that the total of six seafarers has not been confirmed by the Varna District Prosecutor's Office, which confirmed that remains were found during debris clearing and ordered DNA examinations to identify the victims. The same article records that Bulgarian National Radio reported remains of five crew, and that an AFP source in Bulgarian law enforcement said the condition of the remains prevents an exact count, most likely six. The seven were listed as missing after five of the tanker's twelve crew were rescued, per the Romanian Naval Authority. Six, or five, is therefore not a settled death count and it is not a new toll dated 10 November: deaths stay unknown, no nationality is counted as a death, and the seven remain a missing snapshot. The attack itself is held as INC-20261015-001, so this row must not be counted as a separate attack or as additional deaths.",
+          "sources": [
+            {
+              "url": "https://safety4sea.com/remains-of-six-seafarers-reportedly-found-aboard-drone-struck-tanker-in-black-sea",
+              "source": "SAFETY4SEA, 10 November 2026: remains of six seafarers reportedly found aboard Wine Trader, struck off Romania on 15 October; the reported six is not officially confirmed, DNA tests ordered, Bulgarian National Radio reported five remains and an AFP source said the count cannot be fixed"
+            },
+            {
+              "url": "https://www.straitstimes.com/world/europe/human-bodies-found-on-ship-struck-by-a-drone-in-black-sea",
+              "source": "AFP via The Straits Times, 7 November 2026: the Varna prosecutor's office reported severely damaged human remains and ordered DNA testing, and an AFP source said most likely six but the exact number cannot be established"
+            },
+            {
+              "url": "https://prb.bg/bg/news/80197-okrazhna-prokuratura-varna-rakovodi-razsledvane-vav-vrazka-s-korab%2C-udaren-ot-dr",
+              "source": "Varna District Prosecutor's Office statement, 7 November 2026: severely damaged human remains found during debris clearing on the San Marino flagged ship, DNA tests ordered, no toll given"
+            },
+            {
+              "url": "https://agerpres.ro/english/2026/10/15/five-crew-members-from-wine-trader-rescued-seven-others-remain-missing--1603262",
+              "source": "AGERPRES quoting the Romanian Naval Authority, 15 October 2026: five crew rescued from Wine Trader and seven missing"
             }
           ]
         }
