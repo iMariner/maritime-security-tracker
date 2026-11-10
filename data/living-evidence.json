@@ -20113,6 +20113,37 @@
           ]
         }
       ]
+    },
+    "INC-20261110-003": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "updates": [
+        {
+          "at": "2026-11-10T12:20:00Z",
+          "text": "Claim check on 10 November 2026, with no verification submitted because no vessel can be identified. Russia's defence ministry said its drones struck three vessels in the Black Sea: a dry cargo ship carrying weapons and military equipment, and a tanker delivering fuel and lubricants, both north east of Odesa, and a dry cargo ship with dual use cargo east of Odesa, as carried by Interfax at 08:49 Moscow time and by TASS. The ministry named no vessel, gave no flag, no exact position, no damage assessment and no casualty, and Reuters, which carried the Interfax report, added no independent confirmation. No Ukrainian, Turkish or other independent report read here describes strikes on three vessels on 10 November. The ministry also claimed a dry cargo vessel 141 km south west of Odesa on 9 November 2026, per Interfax at 17:53 Moscow time, which is a separate daily statement and not the same event. Rows INC-20261110-002, which cites Rybar, and INC-20261110-004, which cites The Times of India, both repeat the 10 November ministry claim and are that one statement rather than two further attacks. The ministry has issued such claims on 2, 3, 4, 5, 6, 7, 9 and 10 November 2026, so the number of rows in this series is a count of statements and must never be read as a count of attacks. No source read here reports a seafarer killed or injured in these claimed strikes, so deaths are unknown rather than zero, no count is asserted, and the row stays unreviewed and outside published totals.",
+          "sources": [
+            {
+              "url": "https://www.interfax.ru/world/1127963",
+              "source": "Interfax, 10 November 2026, 08:49 Moscow time: the defence ministry claimed drone strikes on a dry cargo ship with weapons and a tanker with fuel north east of Odesa, and a dry cargo ship with dual use cargo east of Odesa; no vessel named, no casualty reported"
+            },
+            {
+              "url": "https://tass.com/politics/2215245",
+              "source": "TASS, 10 November 2026: the same defence ministry statement listing a dry cargo ship and a tanker north east of Odesa and a second dry cargo ship east of Odesa, no names and no casualties"
+            },
+            {
+              "url": "https://www.interfax.ru/russia/1127885",
+              "source": "Interfax, 9 November 2026, 17:53 Moscow time: a separate defence ministry claim of a strike on a dry cargo vessel 141 km south west of Odesa"
+            },
+            {
+              "url": "https://www.brecorder.com/news/40448231/russia-hits-two-cargo-vessels-tanker-in-black-sea-ifx-cites-defence-ministry",
+              "source": "Reuters via Business Recorder, 10 November 2026: one cargo vessel and one tanker hit in the Black Sea and another cargo vessel hit east of Odesa, all attributed to the defence ministry with no independent confirmation"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -39348,6 +39379,44 @@
             {
               "url": "https://agerpres.ro/english/2026/10/15/five-crew-members-from-wine-trader-rescued-seven-others-remain-missing--1603262",
               "source": "AGERPRES quoting the Romanian Naval Authority, 15 October 2026: five crew rescued from Wine Trader and seven missing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6766982209,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6766982209",
+      "author": "iMariner",
+      "received_at": "2026-11-10T12:12:26Z",
+      "incident_id": "INC-20261110-003",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261110-003",
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-10T12:20:00Z",
+          "text": "Claim check on 10 November 2026, with no verification submitted because no vessel can be identified. Russia's defence ministry said its drones struck three vessels in the Black Sea: a dry cargo ship carrying weapons and military equipment, and a tanker delivering fuel and lubricants, both north east of Odesa, and a dry cargo ship with dual use cargo east of Odesa, as carried by Interfax at 08:49 Moscow time and by TASS. The ministry named no vessel, gave no flag, no exact position, no damage assessment and no casualty, and Reuters, which carried the Interfax report, added no independent confirmation. No Ukrainian, Turkish or other independent report read here describes strikes on three vessels on 10 November. The ministry also claimed a dry cargo vessel 141 km south west of Odesa on 9 November 2026, per Interfax at 17:53 Moscow time, which is a separate daily statement and not the same event. Rows INC-20261110-002, which cites Rybar, and INC-20261110-004, which cites The Times of India, both repeat the 10 November ministry claim and are that one statement rather than two further attacks. The ministry has issued such claims on 2, 3, 4, 5, 6, 7, 9 and 10 November 2026, so the number of rows in this series is a count of statements and must never be read as a count of attacks. No source read here reports a seafarer killed or injured in these claimed strikes, so deaths are unknown rather than zero, no count is asserted, and the row stays unreviewed and outside published totals.",
+          "sources": [
+            {
+              "url": "https://www.interfax.ru/world/1127963",
+              "source": "Interfax, 10 November 2026, 08:49 Moscow time: the defence ministry claimed drone strikes on a dry cargo ship with weapons and a tanker with fuel north east of Odesa, and a dry cargo ship with dual use cargo east of Odesa; no vessel named, no casualty reported"
+            },
+            {
+              "url": "https://tass.com/politics/2215245",
+              "source": "TASS, 10 November 2026: the same defence ministry statement listing a dry cargo ship and a tanker north east of Odesa and a second dry cargo ship east of Odesa, no names and no casualties"
+            },
+            {
+              "url": "https://www.interfax.ru/russia/1127885",
+              "source": "Interfax, 9 November 2026, 17:53 Moscow time: a separate defence ministry claim of a strike on a dry cargo vessel 141 km south west of Odesa"
+            },
+            {
+              "url": "https://www.brecorder.com/news/40448231/russia-hits-two-cargo-vessels-tanker-in-black-sea-ifx-cites-defence-ministry",
+              "source": "Reuters via Business Recorder, 10 November 2026: one cargo vessel and one tanker hit in the Black Sea and another cargo vessel hit east of Odesa, all attributed to the defence ministry with no independent confirmation"
             }
           ]
         }
