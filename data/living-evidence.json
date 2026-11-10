@@ -20250,6 +20250,46 @@
           ]
         }
       ]
+    },
+    "INC-20260910-001": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-10T18:23:31Z",
+        "vessel_name": "ROMANCE",
+        "imo": "9468815",
+        "date_utc": "2026-09-10",
+        "vessel_type": "Crude oil tanker",
+        "region": "Strait of Hormuz",
+        "location_text": "About 4 nautical miles west of Khasab, Oman",
+        "summary": "ROMANCE, IMO 9468815, a Panama-flagged crude oil tanker of about 50,000 deadweight tonnes built in 2009 and owned and managed from the United Arab Emirates, was struck on 10 September 2026 about 4 nautical miles west of Khasab, Oman. The master of another vessel reported to UKMTO that four unknown projectiles hit two vessels about 6 nautical miles from his position and that one of them caught fire; the security firm Vanguard Tech identified one of the two ships as ROMANCE and reported that two projectiles struck her. The IMO register records the same hull, date and position as damaged with an oil leak under assessment. The reports read do not establish whether ROMANCE was the ship that caught fire, and the second vessel, the condition of either crew, the cargoes and any attacker were not reported.",
+        "date_note": "UKMTO's report was issued on 10 September 2026 in the evening and the IMO register dates the row 10 September 2026, so the day is kept with no claim of a precise time.",
+        "sources": [
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO list of highlighted confirmed incidents, read 10 November 2026: ROMANCE (IMO 9468815), 10 September, 4NM west of Khasab, Oman, damaged, oil leak under assessment"
+          },
+          {
+            "url": "https://www.seatrade-maritime.com/security/two-vessels-struck-in-strait-of-hormuz-off-oman",
+            "source": "Seatrade Maritime report on the 10 September 2026 attack off Oman, quoting the security firm Vanguard Tech: one of the two ships identified as the Panama-flagged, about 50,000 dwt crude tanker ROMANCE, built 2009 and owned and managed from the UAE, struck by two projectiles, with one of the two vessels catching fire"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-10T18:23:31Z",
+          "text": "First reviewed living record for this hull, which the corpus held only as an IMO register row and the historical store only as a stub. The identification comes from a security firm through shipping media and is not printed in UKMTO's report, which describes two unnamed vessels; the IMO register independently prints ROMANCE against IMO 9468815 for the same date and position, so the identity is recorded against the official register. Casualties are left unset rather than recorded as zero, because no report read states the condition of either crew. The oil leak is recorded as under assessment in the register and its size is not asserted.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO list of highlighted confirmed incidents, read 10 November 2026"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/two-vessels-struck-in-strait-of-hormuz-off-oman",
+              "source": "Seatrade Maritime report on the 10 September 2026 attack, quoting Vanguard Tech"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -39749,6 +39789,53 @@
             {
               "url": "https://www.seatrade-maritime.com/security/vlcc-engine-room-struck-in-latest-hormuz-attack",
               "source": "Seatrade Maritime, 4 November 2026, quoting Vanguard Tech"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6775635752,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6775635752",
+      "author": "iMariner",
+      "received_at": "2026-11-10T18:23:32Z",
+      "incident_id": "INC-20260910-001",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20260910-001",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-10T18:23:31Z",
+          "vessel_name": "ROMANCE",
+          "imo": "9468815",
+          "date_utc": "2026-09-10",
+          "vessel_type": "Crude oil tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "About 4 nautical miles west of Khasab, Oman",
+          "summary": "ROMANCE, IMO 9468815, a Panama-flagged crude oil tanker of about 50,000 deadweight tonnes built in 2009 and owned and managed from the United Arab Emirates, was struck on 10 September 2026 about 4 nautical miles west of Khasab, Oman. The master of another vessel reported to UKMTO that four unknown projectiles hit two vessels about 6 nautical miles from his position and that one of them caught fire; the security firm Vanguard Tech identified one of the two ships as ROMANCE and reported that two projectiles struck her. The IMO register records the same hull, date and position as damaged with an oil leak under assessment. The reports read do not establish whether ROMANCE was the ship that caught fire, and the second vessel, the condition of either crew, the cargoes and any attacker were not reported.",
+          "date_note": "UKMTO's report was issued on 10 September 2026 in the evening and the IMO register dates the row 10 September 2026, so the day is kept with no claim of a precise time.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO list of highlighted confirmed incidents, read 10 November 2026: ROMANCE (IMO 9468815), 10 September, 4NM west of Khasab, Oman, damaged, oil leak under assessment"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/two-vessels-struck-in-strait-of-hormuz-off-oman",
+              "source": "Seatrade Maritime report on the 10 September 2026 attack off Oman, quoting the security firm Vanguard Tech: one of the two ships identified as the Panama-flagged, about 50,000 dwt crude tanker ROMANCE, built 2009 and owned and managed from the UAE, struck by two projectiles, with one of the two vessels catching fire"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-11-10T18:23:31Z",
+          "text": "First reviewed living record for this hull, which the corpus held only as an IMO register row and the historical store only as a stub. The identification comes from a security firm through shipping media and is not printed in UKMTO's report, which describes two unnamed vessels; the IMO register independently prints ROMANCE against IMO 9468815 for the same date and position, so the identity is recorded against the official register. Casualties are left unset rather than recorded as zero, because no report read states the condition of either crew. The oil leak is recorded as under assessment in the register and its size is not asserted.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO list of highlighted confirmed incidents, read 10 November 2026"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/two-vessels-struck-in-strait-of-hormuz-off-oman",
+              "source": "Seatrade Maritime report on the 10 September 2026 attack, quoting Vanguard Tech"
             }
           ]
         }
