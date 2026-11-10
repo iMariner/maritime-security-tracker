@@ -19881,7 +19881,7 @@
       },
       "verification": {
         "status": "verified",
-        "checked_at": "2026-11-10T18:20:23Z",
+        "checked_at": "2026-11-10T18:27:36Z",
         "vessel_name": "VIEILA",
         "imo": "9234654",
         "date_utc": "2026-11-05",
@@ -19935,6 +19935,20 @@
             {
               "url": "https://www.ukmto.org/recent-incidents",
               "source": "UKMTO recent incidents, 6 November 2026 report"
+            }
+          ]
+        },
+        {
+          "at": "2026-11-10T18:27:36Z",
+          "text": "Correction to this record, not to the facts. This hull was already reviewed and verified on 9 November 2026, and the second evidence comment filed on 10 November 2026 at 18:20 UTC repeated the verification. That later comment wrongly described the record as an unreviewed IMO register row and said casualties were left unset rather than recorded as zero; both statements were mistaken, because the 9 November review had already named the hull and recorded a confirmed zero deaths on UKMTO warning 197-26. The verified identity, date, position, damage, sources and the zero death count are unchanged, and no new fact about the vessel is added here. Process note for the record: the duplicate arose because the reviewer checked the incident list for the row without reading the existing overlay entry for the same ID.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261106-ukmto_warning-197-26.pdf",
+              "source": "UKMTO warning 197-26, 5 November 2026 at 2200 UTC, 16NM east of Khasab, crew safe and accounted for"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO highlighted confirmed incidents, read 10 November 2026: VIEILA (IMO 9234654), 5 November, damaged, no pollution"
             }
           ]
         }
@@ -39836,6 +39850,129 @@
             {
               "url": "https://www.seatrade-maritime.com/security/two-vessels-struck-in-strait-of-hormuz-off-oman",
               "source": "Seatrade Maritime report on the 10 September 2026 attack, quoting Vanguard Tech"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6775727532,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6775727532",
+      "author": "iMariner",
+      "received_at": "2026-11-10T18:27:37Z",
+      "incident_id": "INC-20261105-014",
+      "before": {
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261106-ukmto_warning-197-26.pdf",
+              "source": "UKMTO warning 197-26, 6 November 2026: the crew are safe and are accounted for, the tanker is still under her own power and continuing her voyage"
+            }
+          ],
+          "nationalities": []
+        },
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-10T18:20:23Z",
+          "vessel_name": "VIEILA",
+          "imo": "9234654",
+          "date_utc": "2026-11-05",
+          "vessel_type": "Crude oil tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "About 16 nautical miles east of Khasab, Oman",
+          "summary": "VIEILA, IMO 9234654, a Vanuatu-flagged crude oil tanker built in 2002 and of about 307,000 deadweight tonnes, was struck on 5 November 2026 about 16 nautical miles east of Khasab, Oman, while transiting the Strait of Hormuz outbound. The master reported an explosion at the waterline on the port side; the crew were safe and accounted for, and the tanker remained under her own power and continued her voyage. The IMO register of highlighted confirmed incidents records the same hull, date and position as damaged with no pollution. No attacker, weapon, crew number or nationality has been published.",
+          "date_note": "The IMO register dates this row 5 November 2026 with no time. UKMTO published its time-late report on 6 November 2026 and prints no incident date beyond the day of publication, so the day is taken from the IMO register at day precision and no time of day is asserted. The IMO prints the name VIEILA while the vessel register prints VIEIRA against the same IMO number; the official spelling is kept here.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO list of highlighted confirmed incidents, read 10 November 2026: VIEILA (IMO 9234654), 5 November, 16NM east of Khasab, Oman, damaged, no pollution"
+            },
+            {
+              "url": "https://www.ukmto.org/recent-incidents",
+              "source": "UKMTO recent incidents, report dated 6 November 2026: time-late report 16NM east of Khasab, Oman, master of a tanker outbound through the Strait of Hormuz reported an explosion at the waterline on the port side, crew safe and accounted for, tanker still under her own power and continuing her voyage"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9234654",
+              "source": "VesselFinder particulars for IMO 9234654, read 10 November 2026: crude oil tanker, Vanuatu flag, built 2002, 306,999 deadweight tonnes, name printed VIEIRA"
+            }
+          ]
+        },
+        "updates": [
+          {
+            "at": "2026-11-09T11:27:15Z",
+            "text": "First review and verification of this record, on 9 November 2026. UKMTO warning 197-26, published on 6 November for an incident at 22:00 UTC on 5 November, records an attack on a tanker transiting the Strait of Hormuz outbound, an explosion at the waterline on the port side 16 nautical miles east of Khasab, Oman, the crew safe and accounted for and the vessel continuing under her own power, with no cause and no vessel name. The IMO register carries the same date and position, naming the row VIEILA with IMO 9234654, damaged and no pollution, and states no casualty. Vanguard Tech named the tanker as the Vanuatu flagged VLCC VIEIRA, IMO 9234654, as carried by Seatrade Maritime on 6 November. The IMO number matches the register row and ship databases hold IMO 9234654 as VIEIRA, so the register spelling is treated as a typographical error and is not repeated as the vessel name. Neither UKMTO nor the IMO register gives a crew number, a flag or a nationality, so no nationality is recorded and no crew total is stated. The zero death count rests on UKMTO's crew safe statement for this ship on this date and is not a statement about any other incident in the strait.",
+            "sources": [
+              {
+                "url": "https://www.ukmto.org/-/media/ukmto/products/20261106-ukmto_warning-197-26.pdf",
+                "source": "UKMTO warning 197-26, incident 05 Nov 2026 at 2200 UTC, 16NM east of Khasab, crew safe and accounted for"
+              },
+              {
+                "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+                "source": "IMO highlighted confirmed incidents, read 9 November 2026: VIEILA (IMO 9234654), 5 November, damaged, no pollution"
+              },
+              {
+                "url": "https://www.seatrade-maritime.com/security/seafarer-fatality-reported-tanker-attack-in-the-gulf",
+                "source": "Seatrade Maritime, 6 November 2026, citing Vanguard Tech, naming the VLCC Vieira, Vanuatu flagged, IMO 9234654 in Vanguard's account"
+              }
+            ]
+          },
+          {
+            "at": "2026-11-10T18:20:23Z",
+            "text": "First reviewed living record for this hull, which both stores held only as an unreviewed IMO register row. The identity rests on the official register and on UKMTO's matching description of an unnamed outbound tanker at the same position, not on a news identification of the ship. No death, injury, crew count or nationality has been published for this vessel, so casualties are left unset rather than recorded as zero. Spelling note: the IMO prints VIEILA and the vessel database prints VIEIRA for IMO 9234654, and neither is treated as a second ship.",
+            "sources": [
+              {
+                "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+                "source": "IMO list of highlighted confirmed incidents, read 10 November 2026"
+              },
+              {
+                "url": "https://www.ukmto.org/recent-incidents",
+                "source": "UKMTO recent incidents, 6 November 2026 report"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "INC-20261105-014",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-10T18:27:36Z",
+          "vessel_name": "VIEILA",
+          "imo": "9234654",
+          "date_utc": "2026-11-05",
+          "vessel_type": "Crude oil tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "About 16 nautical miles east of Khasab, Oman",
+          "summary": "VIEILA, IMO 9234654, a Vanuatu-flagged crude oil tanker built in 2002 and of about 307,000 deadweight tonnes, was struck on 5 November 2026 about 16 nautical miles east of Khasab, Oman, while transiting the Strait of Hormuz outbound. The master reported an explosion at the waterline on the port side; the crew were safe and accounted for, and the tanker remained under her own power and continued her voyage. The IMO register of highlighted confirmed incidents records the same hull, date and position as damaged with no pollution. No attacker, weapon, crew number or nationality has been published.",
+          "date_note": "The IMO register dates this row 5 November 2026 with no time. UKMTO published its time-late report on 6 November 2026 and prints no incident date beyond the day of publication, so the day is taken from the IMO register at day precision and no time of day is asserted. The IMO prints the name VIEILA while the vessel register prints VIEIRA against the same IMO number; the official spelling is kept here.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO list of highlighted confirmed incidents, read 10 November 2026: VIEILA (IMO 9234654), 5 November, 16NM east of Khasab, Oman, damaged, no pollution"
+            },
+            {
+              "url": "https://www.ukmto.org/recent-incidents",
+              "source": "UKMTO recent incidents, report dated 6 November 2026: time-late report 16NM east of Khasab, Oman, master of a tanker outbound through the Strait of Hormuz reported an explosion at the waterline on the port side, crew safe and accounted for, tanker still under her own power and continuing her voyage"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9234654",
+              "source": "VesselFinder particulars for IMO 9234654, read 10 November 2026: crude oil tanker, Vanuatu flag, built 2002, 306,999 deadweight tonnes, name printed VIEIRA"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-11-10T18:27:36Z",
+          "text": "Correction to this record, not to the facts. This hull was already reviewed and verified on 9 November 2026, and the second evidence comment filed on 10 November 2026 at 18:20 UTC repeated the verification. That later comment wrongly described the record as an unreviewed IMO register row and said casualties were left unset rather than recorded as zero; both statements were mistaken, because the 9 November review had already named the hull and recorded a confirmed zero deaths on UKMTO warning 197-26. The verified identity, date, position, damage, sources and the zero death count are unchanged, and no new fact about the vessel is added here. Process note for the record: the duplicate arose because the reviewer checked the incident list for the row without reading the existing overlay entry for the same ID.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261106-ukmto_warning-197-26.pdf",
+              "source": "UKMTO warning 197-26, 5 November 2026 at 2200 UTC, 16NM east of Khasab, crew safe and accounted for"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO highlighted confirmed incidents, read 10 November 2026: VIEILA (IMO 9234654), 5 November, damaged, no pollution"
             }
           ]
         }
