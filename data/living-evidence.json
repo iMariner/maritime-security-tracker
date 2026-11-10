@@ -20144,6 +20144,59 @@
           ]
         }
       ]
+    },
+    "HIST-BS-20260902-BARYON": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-10T12:25:00Z",
+        "vessel_name": "BARYON",
+        "date_utc": "2026-09-02",
+        "vessel_type": "Container ship",
+        "region": "Black Sea",
+        "location_text": "At sea in the Black Sea on passage from Novorossiysk, Russia, to Karachi, Pakistan",
+        "attack_type": "drone (UAV)",
+        "date_note": "The sources give day precision only and publish no time of attack, so the strike is dated 2 September 2026 with no midnight or UTC precision asserted.",
+        "summary": "Baryon, a Guinea-Bissau flagged container ship on passage from Novorossiysk to Karachi, was struck by a drone in the Black Sea on 2 September 2026. A fire broke out in the accommodation and the crew put it out, and the ship continued under its own power. Reporting carried by SAFETY4SEA from the Forward Seamen's Union of India, and by SeaNews, says all 23 seafarers aboard, Indian nationals, were safe.",
+        "sources": [
+          {
+            "url": "https://safety4sea.com/indian-union-calls-for-action-to-protect-crew-after-drone-strike-on-vessel/",
+            "source": "SAFETY4SEA, 7 September 2026: the Forward Seamen's Union of India reported that the Guinea-Bissau flagged containership Baryon was struck by a drone on 2 September while sailing from Russia to Karachi, a fire broke out in the accommodation and was extinguished, and all 23 Indian seafarers were reported safe"
+          },
+          {
+            "url": "https://seanews.com.tr/article/wave-of-attacks-in-the-black-sea-turkish-flagged-ship-struck-mu16yltq",
+            "source": "SeaNews, 14 September 2026: Baryon, Guinea-Bissau flagged, was targeted by a drone on 2 September while sailing from Novorossiysk to Karachi, the crew controlled the fire and the ship continued under its own power, and all 23 Indian seafarers were reported safe"
+          },
+          {
+            "url": "https://www.palaemonmaritime.com/post/maritime-security-report-31st-august-6th-september-2026",
+            "source": "Palaemon Maritime weekly security report for 31 August to 6 September 2026: the Guinea Bissau flagged container ship Baryon was struck by a drone sailing from Novorossiysk to Karachi, sparking a fire"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-10T12:26:00Z",
+          "text": "New historical record for a Black Sea attack on a merchant ship that neither store held. No row in data/incidents.json or data/living-history.json carries any attack dated between 1 and 5 September 2026, so the early September wave was a gap in coverage. Baryon, a Guinea-Bissau flagged container ship, was on passage from Novorossiysk to Karachi when a drone struck her on 2 September 2026; the fire that started in the accommodation was put out by the crew and the ship continued under her own power, per SeaNews and SAFETY4SEA. The Forward Seamen's Union of India took up the case and asked India's Directorate General of Shipping, Ministry of External Affairs and Ministry of Ports, Shipping and Waterways to verify the condition of the 23 crew, all Indian nationals, and SAFETY4SEA and SeaNews both report that all 23 were safe. Deaths and injuries are recorded as unknown rather than zero because no flag state, owner or manager statement on the crew's condition was found in the sources read here, and no nationality is entered as a death. No party claimed the strike in the sources read here, the position of the attack was not published, and none is asserted. This record sits apart from the TARYN EVE row INC-20261106-006, which was rejected as the 6 November transit of a ship damaged on 2 September, and from INC-20261015-001; the three are separate hulls and separate events.",
+          "sources": [
+            {
+              "url": "https://safety4sea.com/indian-union-calls-for-action-to-protect-crew-after-drone-strike-on-vessel/",
+              "source": "SAFETY4SEA, 7 September 2026, on the Forward Seamen's Union of India statement: Baryon struck on 2 September, accommodation fire extinguished, 23 Indian seafarers reported safe"
+            },
+            {
+              "url": "https://seanews.com.tr/article/wave-of-attacks-in-the-black-sea-turkish-flagged-ship-struck-mu16yltq",
+              "source": "SeaNews, 14 September 2026: Baryon hit on 2 September on passage from Novorossiysk to Karachi, fire in the living quarters controlled, ship continued under her own power, 23 Indian seafarers safe"
+            },
+            {
+              "url": "https://www.palaemonmaritime.com/post/maritime-security-report-31st-august-6th-september-2026",
+              "source": "Palaemon Maritime security report for 31 August to 6 September 2026: Baryon struck by a drone sailing from Novorossiysk to Karachi, fire broke out"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -39417,6 +39470,67 @@
             {
               "url": "https://www.brecorder.com/news/40448231/russia-hits-two-cargo-vessels-tanker-in-black-sea-ifx-cites-defence-ministry",
               "source": "Reuters via Business Recorder, 10 November 2026: one cargo vessel and one tanker hit in the Black Sea and another cargo vessel hit east of Odesa, all attributed to the defence ministry with no independent confirmation"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6766993754,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6766993754",
+      "author": "iMariner",
+      "received_at": "2026-11-10T12:13:02Z",
+      "incident_id": "HIST-BS-20260902-BARYON",
+      "before": {},
+      "change": {
+        "incident_id": "HIST-BS-20260902-BARYON",
+        "historical": true,
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-10T12:25:00Z",
+          "vessel_name": "BARYON",
+          "date_utc": "2026-09-02",
+          "vessel_type": "Container ship",
+          "region": "Black Sea",
+          "location_text": "At sea in the Black Sea on passage from Novorossiysk, Russia, to Karachi, Pakistan",
+          "attack_type": "drone (UAV)",
+          "date_note": "The sources give day precision only and publish no time of attack, so the strike is dated 2 September 2026 with no midnight or UTC precision asserted.",
+          "summary": "Baryon, a Guinea-Bissau flagged container ship on passage from Novorossiysk to Karachi, was struck by a drone in the Black Sea on 2 September 2026. A fire broke out in the accommodation and the crew put it out, and the ship continued under its own power. Reporting carried by SAFETY4SEA from the Forward Seamen's Union of India, and by SeaNews, says all 23 seafarers aboard, Indian nationals, were safe.",
+          "sources": [
+            {
+              "url": "https://safety4sea.com/indian-union-calls-for-action-to-protect-crew-after-drone-strike-on-vessel/",
+              "source": "SAFETY4SEA, 7 September 2026: the Forward Seamen's Union of India reported that the Guinea-Bissau flagged containership Baryon was struck by a drone on 2 September while sailing from Russia to Karachi, a fire broke out in the accommodation and was extinguished, and all 23 Indian seafarers were reported safe"
+            },
+            {
+              "url": "https://seanews.com.tr/article/wave-of-attacks-in-the-black-sea-turkish-flagged-ship-struck-mu16yltq",
+              "source": "SeaNews, 14 September 2026: Baryon, Guinea-Bissau flagged, was targeted by a drone on 2 September while sailing from Novorossiysk to Karachi, the crew controlled the fire and the ship continued under its own power, and all 23 Indian seafarers were reported safe"
+            },
+            {
+              "url": "https://www.palaemonmaritime.com/post/maritime-security-report-31st-august-6th-september-2026",
+              "source": "Palaemon Maritime weekly security report for 31 August to 6 September 2026: the Guinea Bissau flagged container ship Baryon was struck by a drone sailing from Novorossiysk to Karachi, sparking a fire"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-10T12:26:00Z",
+          "text": "New historical record for a Black Sea attack on a merchant ship that neither store held. No row in data/incidents.json or data/living-history.json carries any attack dated between 1 and 5 September 2026, so the early September wave was a gap in coverage. Baryon, a Guinea-Bissau flagged container ship, was on passage from Novorossiysk to Karachi when a drone struck her on 2 September 2026; the fire that started in the accommodation was put out by the crew and the ship continued under her own power, per SeaNews and SAFETY4SEA. The Forward Seamen's Union of India took up the case and asked India's Directorate General of Shipping, Ministry of External Affairs and Ministry of Ports, Shipping and Waterways to verify the condition of the 23 crew, all Indian nationals, and SAFETY4SEA and SeaNews both report that all 23 were safe. Deaths and injuries are recorded as unknown rather than zero because no flag state, owner or manager statement on the crew's condition was found in the sources read here, and no nationality is entered as a death. No party claimed the strike in the sources read here, the position of the attack was not published, and none is asserted. This record sits apart from the TARYN EVE row INC-20261106-006, which was rejected as the 6 November transit of a ship damaged on 2 September, and from INC-20261015-001; the three are separate hulls and separate events.",
+          "sources": [
+            {
+              "url": "https://safety4sea.com/indian-union-calls-for-action-to-protect-crew-after-drone-strike-on-vessel/",
+              "source": "SAFETY4SEA, 7 September 2026, on the Forward Seamen's Union of India statement: Baryon struck on 2 September, accommodation fire extinguished, 23 Indian seafarers reported safe"
+            },
+            {
+              "url": "https://seanews.com.tr/article/wave-of-attacks-in-the-black-sea-turkish-flagged-ship-struck-mu16yltq",
+              "source": "SeaNews, 14 September 2026: Baryon hit on 2 September on passage from Novorossiysk to Karachi, fire in the living quarters controlled, ship continued under her own power, 23 Indian seafarers safe"
+            },
+            {
+              "url": "https://www.palaemonmaritime.com/post/maritime-security-report-31st-august-6th-september-2026",
+              "source": "Palaemon Maritime security report for 31 August to 6 September 2026: Baryon struck by a drone sailing from Novorossiysk to Karachi, fire broke out"
             }
           ]
         }
