@@ -20206,6 +20206,50 @@
           ]
         }
       ]
+    },
+    "INC-20261103-020": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-10T18:21:54Z",
+        "vessel_name": "GRIT",
+        "imo": "9243150",
+        "date_utc": "2026-11-03",
+        "vessel_type": "Crude oil tanker (VLCC)",
+        "region": "Strait of Hormuz",
+        "location_text": "About 14 nautical miles northeast of Limah, Oman",
+        "summary": "GRIT, IMO 9243150, a Barbados-flagged very large crude carrier of about 298,555 deadweight tonnes built in 2003, was struck at about 19:00 UTC on 3 November 2026 about 14 nautical miles northeast of Limah, Oman, during an outbound transit of the Strait of Hormuz. UKMTO warning 195-26 records that the vessel's company security officer reported two unknown projectiles entering the engine room of a tanker, with no casualties and no environmental impact reported at the time. The security firm Vanguard Tech named the tanker as GRIT, and the IMO register records the same hull, date and position as damaged with no pollution. The extent of damage and the vessel's status were unknown in the first reports.",
+        "date_note": "UKMTO records the report on 3 November 2026 and puts the strike at about 19:00 UTC; the IMO register gives the same day with no time, so the day is kept at day precision.",
+        "sources": [
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO list of highlighted confirmed incidents, read 10 November 2026: GRIT (IMO 9243150), 3 November, 14NM northeast of Lima, Oman, damaged, no pollution"
+          },
+          {
+            "url": "https://www.cwdynamics.com/alerts/alert/33571",
+            "source": "Clearwater Dynamics alert 33571, report dated 3 November 2026 at 19:00 UTC: UKMTO report of a tanker struck by two unknown projectiles in the engine room about 14NM northeast of Lima, Oman, no casualties or environmental impact reported, later naming GRIT (IMO 9243150) as the vessel"
+          },
+          {
+            "url": "https://www.seatrade-maritime.com/security/vlcc-engine-room-struck-in-latest-hormuz-attack",
+            "source": "Seatrade Maritime, 4 November 2026, quoting the security firm Vanguard Tech: the Barbados-registered VLCC GRIT was hit in the engine room by two unknown projectiles 14 nm northeast of Limah at 19:00 UTC on 3 November, with no crew casualties reported and the vessel's status and damage extent unknown"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-10T18:21:54Z",
+          "text": "First reviewed living record for this hull, which both stores held only as an unreviewed IMO register row. The name comes from a security firm's identification carried by shipping media and is not printed in UKMTO's warning, which describes an unnamed tanker; the IMO register independently prints GRIT against IMO 9243150 for the same date and position, so the identity is recorded against the official register. No death, injury, crew count or nationality was published, so casualties are left unset rather than recorded as zero. The damage extent was not established, so the vessel is not recorded as sunk or as a constructive total loss.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO list of highlighted confirmed incidents, read 10 November 2026"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/vlcc-engine-room-struck-in-latest-hormuz-attack",
+              "source": "Seatrade Maritime, 4 November 2026, quoting Vanguard Tech"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -39654,6 +39698,57 @@
             {
               "url": "https://www.ukmto.org/recent-incidents",
               "source": "UKMTO recent incidents, 6 November 2026 report"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6775599293,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6775599293",
+      "author": "iMariner",
+      "received_at": "2026-11-10T18:21:55Z",
+      "incident_id": "INC-20261103-020",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261103-020",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-10T18:21:54Z",
+          "vessel_name": "GRIT",
+          "imo": "9243150",
+          "date_utc": "2026-11-03",
+          "vessel_type": "Crude oil tanker (VLCC)",
+          "region": "Strait of Hormuz",
+          "location_text": "About 14 nautical miles northeast of Limah, Oman",
+          "summary": "GRIT, IMO 9243150, a Barbados-flagged very large crude carrier of about 298,555 deadweight tonnes built in 2003, was struck at about 19:00 UTC on 3 November 2026 about 14 nautical miles northeast of Limah, Oman, during an outbound transit of the Strait of Hormuz. UKMTO warning 195-26 records that the vessel's company security officer reported two unknown projectiles entering the engine room of a tanker, with no casualties and no environmental impact reported at the time. The security firm Vanguard Tech named the tanker as GRIT, and the IMO register records the same hull, date and position as damaged with no pollution. The extent of damage and the vessel's status were unknown in the first reports.",
+          "date_note": "UKMTO records the report on 3 November 2026 and puts the strike at about 19:00 UTC; the IMO register gives the same day with no time, so the day is kept at day precision.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO list of highlighted confirmed incidents, read 10 November 2026: GRIT (IMO 9243150), 3 November, 14NM northeast of Lima, Oman, damaged, no pollution"
+            },
+            {
+              "url": "https://www.cwdynamics.com/alerts/alert/33571",
+              "source": "Clearwater Dynamics alert 33571, report dated 3 November 2026 at 19:00 UTC: UKMTO report of a tanker struck by two unknown projectiles in the engine room about 14NM northeast of Lima, Oman, no casualties or environmental impact reported, later naming GRIT (IMO 9243150) as the vessel"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/vlcc-engine-room-struck-in-latest-hormuz-attack",
+              "source": "Seatrade Maritime, 4 November 2026, quoting the security firm Vanguard Tech: the Barbados-registered VLCC GRIT was hit in the engine room by two unknown projectiles 14 nm northeast of Limah at 19:00 UTC on 3 November, with no crew casualties reported and the vessel's status and damage extent unknown"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-11-10T18:21:54Z",
+          "text": "First reviewed living record for this hull, which both stores held only as an unreviewed IMO register row. The name comes from a security firm's identification carried by shipping media and is not printed in UKMTO's warning, which describes an unnamed tanker; the IMO register independently prints GRIT against IMO 9243150 for the same date and position, so the identity is recorded against the official register. No death, injury, crew count or nationality was published, so casualties are left unset rather than recorded as zero. The damage extent was not established, so the vessel is not recorded as sunk or as a constructive total loss.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO list of highlighted confirmed incidents, read 10 November 2026"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/security/vlcc-engine-room-struck-in-latest-hormuz-attack",
+              "source": "Seatrade Maritime, 4 November 2026, quoting Vanguard Tech"
             }
           ]
         }
