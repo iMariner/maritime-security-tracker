@@ -20589,6 +20589,28 @@
               "source": "gCaptain, 10 November 2026, citing UKMTO warning 201-26"
             }
           ]
+        },
+        {
+          "at": "2026-11-11T19:35:00Z",
+          "text": "Follow-up check, 11 November 2026. No change is made to the verified identity or to the casualty line on this record; two points are recorded. First, public vessel databases list ADNOC Logistics and Services as the ISM manager of FUJAIRAH ENERGY, IMO 9723071, with Haut Brion 45 Ltd as registered owner and VL8 Management as commercial manager. That makes the operator statement of 10 November 2026, that one of its vessels was damaged in an attack that afternoon inside the territorial waters of the United Arab Emirates in the Arabian Gulf, a probable report of this same ship, but ADNOC has still not named the vessel, so this record and the separate unnamed ADNOC row stay apart. Second, a conflict that is not resolved here. Public AIS aggregators place FUJAIRAH ENERGY, IMO 9723071, far from the Gulf in late October and early November 2026: Rynda records a last position of 29 degrees 5.3 minutes north, 94 degrees 41.0 minutes west, at anchor in the Gulf of Mexico, received on 9 November 2026 at 10:18 UTC, with destination to be nominated; VesselFinder shows the same hull in the Gulf of Mexico and en route to Lome; TankerMap last observed her on 30 October 2026 at 5.4 degrees north, 0.3 degrees east, off West Africa. None of that fits a transit from Al Ruwais to Dubai on 10 November. Either the AIS record is stale, lost or spoofed, which is common on this route, or the ship named by India's shipping minister is not this hull. No authority has published an IMO for the vessel named, so the identification here rests on the minister naming FUJAIRAH ENERGY and on the IMO and particulars taken from vessel databases, and it should be rechecked if a flag state, the IMO or the owner publishes the IMO of the ship attacked on 10 November.",
+          "sources": [
+            {
+              "url": "https://magicport.ai/vessels/tanker/fujairah-energy-mmsi-636026080",
+              "source": "MagicPort vessel record for FUJAIRAH ENERGY, IMO 9723071: ISM manager ADNOC Logistics and Services, registered owner Haut Brion 45 Ltd, commercial manager VL8 Management, 299,999 deadweight, Liberia flag"
+            },
+            {
+              "url": "https://rynda.io/vessels/9723071-fujairah-energy",
+              "source": "Rynda vessel record for FUJAIRAH ENERGY, IMO 9723071: ISM manager ADNOC Logistics and Services, last AIS position 29 degrees 5.3 minutes north, 94 degrees 41.0 minutes west at anchor in the Gulf of Mexico, received 9 November 2026 10:18 UTC"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9723071",
+              "source": "VesselFinder vessel record for FUJAIRAH ENERGY, IMO 9723071: current position in the Gulf of Mexico, en route to Lome, Liberia flag"
+            },
+            {
+              "url": "https://maritime-executive.com/article/adnoc-confirms-strike-on-tanker-in-uae-s-territorial-waters",
+              "source": "The Maritime Executive, 10 November 2026: ADNOC Logistics and Services said one of its vessels was damaged in an attack on Tuesday afternoon within UAE territorial waters in the Arabian Gulf and did not name the ship"
+            }
+          ]
         }
       ]
     },
@@ -40875,6 +40897,130 @@
             {
               "url": "https://economictimes.indiatimes.com/news/defence/iran-says-tanker-struck-mine-caught-fire-in-hormuz/articleshow/135730556.cms",
               "source": "Iran's army statement carried by state television, reported by Agence France-Presse via The Economic Times, 11 November 2026: a violating oil tanker caught fire after striking a naval mine east of the Strait of Hormuz, no name given"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6804949986,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6804949986",
+      "author": "iMariner",
+      "received_at": "2026-11-11T19:12:59Z",
+      "incident_id": "INC-20261111-002",
+      "before": {
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://timesofindia.indiatimes.com/india/indian-seafarer-injured-as-projectile-hits-liberia-flagged-oil-tanker-in-persian-gulf/articleshow/135724389.cms",
+              "source": "The Times of India, 11 November 2026, quoting Union Minister Sarbananda Sonowal"
+            },
+            {
+              "url": "https://www.cnbctv18.com/india/indian-sailor-injured-as-projectile-hits-liberia-flagged-oil-tanker-in-persian-gulf-20031163.htm",
+              "source": "CNBC TV18, 11 November 2026"
+            }
+          ],
+          "nationalities": []
+        },
+        "human_impact": {
+          "injured": {
+            "count": 4,
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://timesofindia.indiatimes.com/india/indian-seafarer-injured-as-projectile-hits-liberia-flagged-oil-tanker-in-persian-gulf/articleshow/135724389.cms",
+                "source": "The Times of India, 11 November 2026"
+              },
+              {
+                "url": "https://www.khaleejtimes.com/world/gulf/tanker-hit-arabian-gulf-indian-seafarers-injured",
+                "source": "Khaleej Times, 11 November 2026"
+              }
+            ]
+          }
+        },
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-11T13:10:00Z",
+          "vessel_name": "FUJAIRAH ENERGY",
+          "imo": "9723071",
+          "date_utc": "2026-11-10",
+          "vessel_type": "Very large crude carrier (VLCC)",
+          "region": "Persian Gulf",
+          "location_text": "Persian Gulf, on passage from Al Ruwais, United Arab Emirates, to Dubai",
+          "attack_type": "Projectile strike, projectile type unidentified",
+          "summary": "FUJAIRAH ENERGY, a Liberia-flagged very large crude carrier, was hit by a projectile on 10 November 2026 while transiting the Persian Gulf from Al Ruwais in the United Arab Emirates to Dubai. India's Minister of Ports, Shipping and Waterways Sarbananda Sonowal said on 11 November that four crew members were injured, one of them an Indian national whose injuries were minor and who was taken ashore for medical examination, and that the remaining 18 crew, including the other five Indian seafarers, were safe and accounted for. Six of the crew were Indian. No death was reported and no group claimed the attack.",
+          "date_note": "The minister's post dates the attack to 10 November 2026 and the reports were published on 11 November, so the reviewed date is the day of the attack, not the day of publication. The corpus row was created from the first reports on 11 November.",
+          "sources": [
+            {
+              "url": "https://timesofindia.indiatimes.com/india/indian-seafarer-injured-as-projectile-hits-liberia-flagged-oil-tanker-in-persian-gulf/articleshow/135724389.cms",
+              "source": "The Times of India, 11 November 2026, quoting Union Minister Sarbananda Sonowal"
+            },
+            {
+              "url": "https://www.cnbctv18.com/india/indian-sailor-injured-as-projectile-hits-liberia-flagged-oil-tanker-in-persian-gulf-20031163.htm",
+              "source": "CNBC TV18, 11 November 2026, quoting the minister's post"
+            },
+            {
+              "url": "https://www.khaleejtimes.com/world/gulf/tanker-hit-arabian-gulf-indian-seafarers-injured",
+              "source": "Khaleej Times, 11 November 2026"
+            },
+            {
+              "url": "https://www.vesseltracker.com/en/Ships/Fujairah-Energy-9723071.html",
+              "source": "VesselTracker ship record for FUJAIRAH ENERGY, IMO 9723071, Liberia"
+            }
+          ]
+        },
+        "updates": [
+          {
+            "at": "2026-11-11T13:10:00Z",
+            "text": "The corpus row had no vessel name, was dated 11 November and described all four injured crew as Indian. India's shipping minister named the ship as the Liberia-flagged VLCC MT FUJAIRAH ENERGY and dated the attack to 10 November, on passage from Al Ruwais to Dubai, so the reviewed date and identity are corrected here. One of the four injured was an Indian national with minor injuries, taken ashore for examination, and the remaining 18 crew including five other Indian seafarers were safe and accounted for; the casualty line is therefore corrected from four Indians injured to four injured, one of them Indian. No death is recorded, because every account accounts for the whole crew alive. The other three injured seafarers' nationalities are not established. Nationality here comes from the Indian government statement, never from the Liberian flag. Two further reports of 10 November are kept apart from this one: ADNOC Logistics and Services said an unnamed vessel of its own was damaged in UAE territorial waters, and UKMTO warning 201-26 reported a projectile strike on an unnamed tanker 19 nautical miles north-east of Lima, Oman. No source names either ship, so neither is merged with this record.",
+            "sources": [
+              {
+                "url": "https://timesofindia.indiatimes.com/india/indian-seafarer-injured-as-projectile-hits-liberia-flagged-oil-tanker-in-persian-gulf/articleshow/135724389.cms",
+                "source": "The Times of India, 11 November 2026"
+              },
+              {
+                "url": "https://www.cnbctv18.com/india/indian-sailor-injured-as-projectile-hits-liberia-flagged-oil-tanker-in-persian-gulf-20031163.htm",
+                "source": "CNBC TV18, 11 November 2026"
+              },
+              {
+                "url": "https://safety4sea.com/four-seafarers-injured-as-attacks-on-vessels-continue-in-the-persian-gulf/",
+                "source": "Safety4Sea, 11 November 2026"
+              },
+              {
+                "url": "https://adnocls.ae/en/news-and-media/press-releases/2026/november-10-statement",
+                "source": "ADNOC Logistics and Services statement, 10 November 2026"
+              },
+              {
+                "url": "https://gcaptain.com/adnoc-vessel-damaged-in-gulf-attack-as-ukmto-reports-fresh-tanker-strike-near-hormuz",
+                "source": "gCaptain, 10 November 2026, citing UKMTO warning 201-26"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "INC-20261111-002",
+        "update": {
+          "at": "2026-11-11T19:35:00Z",
+          "text": "Follow-up check, 11 November 2026. No change is made to the verified identity or to the casualty line on this record; two points are recorded. First, public vessel databases list ADNOC Logistics and Services as the ISM manager of FUJAIRAH ENERGY, IMO 9723071, with Haut Brion 45 Ltd as registered owner and VL8 Management as commercial manager. That makes the operator statement of 10 November 2026, that one of its vessels was damaged in an attack that afternoon inside the territorial waters of the United Arab Emirates in the Arabian Gulf, a probable report of this same ship, but ADNOC has still not named the vessel, so this record and the separate unnamed ADNOC row stay apart. Second, a conflict that is not resolved here. Public AIS aggregators place FUJAIRAH ENERGY, IMO 9723071, far from the Gulf in late October and early November 2026: Rynda records a last position of 29 degrees 5.3 minutes north, 94 degrees 41.0 minutes west, at anchor in the Gulf of Mexico, received on 9 November 2026 at 10:18 UTC, with destination to be nominated; VesselFinder shows the same hull in the Gulf of Mexico and en route to Lome; TankerMap last observed her on 30 October 2026 at 5.4 degrees north, 0.3 degrees east, off West Africa. None of that fits a transit from Al Ruwais to Dubai on 10 November. Either the AIS record is stale, lost or spoofed, which is common on this route, or the ship named by India's shipping minister is not this hull. No authority has published an IMO for the vessel named, so the identification here rests on the minister naming FUJAIRAH ENERGY and on the IMO and particulars taken from vessel databases, and it should be rechecked if a flag state, the IMO or the owner publishes the IMO of the ship attacked on 10 November.",
+          "sources": [
+            {
+              "url": "https://magicport.ai/vessels/tanker/fujairah-energy-mmsi-636026080",
+              "source": "MagicPort vessel record for FUJAIRAH ENERGY, IMO 9723071: ISM manager ADNOC Logistics and Services, registered owner Haut Brion 45 Ltd, commercial manager VL8 Management, 299,999 deadweight, Liberia flag"
+            },
+            {
+              "url": "https://rynda.io/vessels/9723071-fujairah-energy",
+              "source": "Rynda vessel record for FUJAIRAH ENERGY, IMO 9723071: ISM manager ADNOC Logistics and Services, last AIS position 29 degrees 5.3 minutes north, 94 degrees 41.0 minutes west at anchor in the Gulf of Mexico, received 9 November 2026 10:18 UTC"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9723071",
+              "source": "VesselFinder vessel record for FUJAIRAH ENERGY, IMO 9723071: current position in the Gulf of Mexico, en route to Lome, Liberia flag"
+            },
+            {
+              "url": "https://maritime-executive.com/article/adnoc-confirms-strike-on-tanker-in-uae-s-territorial-waters",
+              "source": "The Maritime Executive, 10 November 2026: ADNOC Logistics and Services said one of its vessels was damaged in an attack on Tuesday afternoon within UAE territorial waters in the Arabian Gulf and did not name the ship"
             }
           ]
         }
