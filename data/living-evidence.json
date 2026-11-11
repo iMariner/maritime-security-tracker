@@ -20472,6 +20472,33 @@
           ]
         }
       ]
+    },
+    "INC-20261110-006": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "updates": [
+        {
+          "at": "2026-11-11T06:57:29Z",
+          "text": "Source check, 11 November 2026: no crew outcome is established for the ADNOC vessel, and the crew-safe wording attached to this row belongs to a separate UKMTO report. ADNOC Logistics and Services said in a statement carried by the state news agency WAM on 10 November 2026 that one of its vessels was damaged in an attack in the Persian Gulf that afternoon and that response operations were continuing, and it gave no vessel name, no extent of damage and no word on whether any crew member was hurt, as gCaptain reported. UKMTO warning 201-26 records that at 1338 UTC on 10 November the master of a tanker 19 nautical miles north-east of Lima, Oman, reported being struck by an unknown projectile, that the crew were safe, that no environmental impact was reported and that a damage assessment would follow at first light; UKMTO named no vessel and did not establish what struck her. gCaptain reported it was not clear whether the ADNOC damage and the UKMTO strike were connected or separate, and Ship Universe noted neither report identifies a hull. No death count and no crew status is therefore recorded here, the row for UKMTO 201-26 (INC-20261110-005) is merged into this incident, and the pair must not be counted as one attack on one ship.",
+          "sources": [
+            {
+              "url": "https://gcaptain.com/adnoc-vessel-damaged-in-gulf-attack-as-ukmto-reports-fresh-tanker-strike-near-hormuz",
+              "source": "gCaptain (Mike Schuler), 10 November 2026: ADNOC Logistics and Services said in a WAM statement that one of its vessels was damaged in an attack in the Persian Gulf on 10 November and gave no vessel name, damage extent or crew injury detail; UKMTO 201-26 was a separate report and it was not clear whether the two were connected"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261110-ukmto_warning_201_26.pdf",
+              "source": "UKMTO warning 201-26, 10 November 2026: at 1338 UTC a tanker master 19NM north-east of Lima, Oman, reported being struck by an unknown projectile, the crew are safe, no environmental impact was reported and a damage assessment would follow at first light; no vessel was named"
+            },
+            {
+              "url": "https://www.shipuniverse.com/news/adnoc-ship-damaged-in-uae-waters-as-tanker-takes-direct-hit-near-strait-of-hormuz/",
+              "source": "Ship Universe, 10 November 2026: the ADNOC statement and UKMTO 201-26 cannot be matched because neither identifies a ship, and the two reports must be kept separate"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -40431,6 +40458,40 @@
             {
               "url": "https://edition.cnn.com/2026/11/03/europe/ukraine-black-sea-drone-attacks-intl",
               "source": "CNN (Tim Lister), 3 November 2026: nine Syrian crew members and one Egyptian died on the Alfa Watan"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6789279458,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6789279458",
+      "author": "iMariner",
+      "received_at": "2026-11-11T06:57:30Z",
+      "incident_id": "INC-20261110-006",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261110-006",
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-11T06:57:29Z",
+          "text": "Source check, 11 November 2026: no crew outcome is established for the ADNOC vessel, and the crew-safe wording attached to this row belongs to a separate UKMTO report. ADNOC Logistics and Services said in a statement carried by the state news agency WAM on 10 November 2026 that one of its vessels was damaged in an attack in the Persian Gulf that afternoon and that response operations were continuing, and it gave no vessel name, no extent of damage and no word on whether any crew member was hurt, as gCaptain reported. UKMTO warning 201-26 records that at 1338 UTC on 10 November the master of a tanker 19 nautical miles north-east of Lima, Oman, reported being struck by an unknown projectile, that the crew were safe, that no environmental impact was reported and that a damage assessment would follow at first light; UKMTO named no vessel and did not establish what struck her. gCaptain reported it was not clear whether the ADNOC damage and the UKMTO strike were connected or separate, and Ship Universe noted neither report identifies a hull. No death count and no crew status is therefore recorded here, the row for UKMTO 201-26 (INC-20261110-005) is merged into this incident, and the pair must not be counted as one attack on one ship.",
+          "sources": [
+            {
+              "url": "https://gcaptain.com/adnoc-vessel-damaged-in-gulf-attack-as-ukmto-reports-fresh-tanker-strike-near-hormuz",
+              "source": "gCaptain (Mike Schuler), 10 November 2026: ADNOC Logistics and Services said in a WAM statement that one of its vessels was damaged in an attack in the Persian Gulf on 10 November and gave no vessel name, damage extent or crew injury detail; UKMTO 201-26 was a separate report and it was not clear whether the two were connected"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261110-ukmto_warning_201_26.pdf",
+              "source": "UKMTO warning 201-26, 10 November 2026: at 1338 UTC a tanker master 19NM north-east of Lima, Oman, reported being struck by an unknown projectile, the crew are safe, no environmental impact was reported and a damage assessment would follow at first light; no vessel was named"
+            },
+            {
+              "url": "https://www.shipuniverse.com/news/adnoc-ship-damaged-in-uae-waters-as-tanker-takes-direct-hit-near-strait-of-hormuz/",
+              "source": "Ship Universe, 10 November 2026: the ADNOC statement and UKMTO 201-26 cannot be matched because neither identifies a ship, and the two reports must be kept separate"
             }
           ]
         }
