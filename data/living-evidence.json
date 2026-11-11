@@ -9429,9 +9429,36 @@
     },
     "INC-20261006-001": {
       "casualties": {
-        "status": "unknown",
-        "deaths": null,
-        "nationalities": []
+        "status": "confirmed",
+        "deaths": 1,
+        "minimum": true,
+        "sources": [
+          {
+            "url": "https://www.masrawy.com/news/news_egypt/details/2026/10/8/3059982/",
+            "source": "Masrawy (Mohamed Nassar), 8 October 2026: the professional syndicate of maritime officers announced the death of Egyptian third engineer Mahmoud Kamal Abdelaty of Belina, Sohag, after the search for the ten crew (nine Syrian, one Egyptian) was halted with nobody recovered, and said formal death registration would be pursued with the maritime transport and maritime safety authorities"
+          },
+          {
+            "url": "https://www.almasryalyoum.com/news/details/4378825",
+            "source": "Al-Masry Al-Youm (Amal Abbas), 9 October 2026: the same syndicate statement, naming the Sohag third engineer, the ten crew, the overturned lifeboat, three life rafts and life jackets found, and the application for a cabinet decision published in the Official Gazette"
+          }
+        ],
+        "nationalities": [
+          {
+            "nationality": "Egyptian",
+            "status": "confirmed",
+            "deaths": 1,
+            "sources": [
+              {
+                "url": "https://www.masrawy.com/news/news_egypt/details/2026/10/8/3059982/",
+                "source": "Masrawy (Mohamed Nassar), 8 October 2026: the professional syndicate of maritime officers announced the death of Egyptian third engineer Mahmoud Kamal Abdelaty of Belina, Sohag, after the search for the ten crew (nine Syrian, one Egyptian) was halted with nobody recovered, and said formal death registration would be pursued with the maritime transport and maritime safety authorities"
+              },
+              {
+                "url": "https://www.almasryalyoum.com/news/details/4378825",
+                "source": "Al-Masry Al-Youm (Amal Abbas), 9 October 2026: the same syndicate statement, naming the Sohag third engineer, the ten crew, the overturned lifeboat, three life rafts and life jackets found, and the application for a cabinet decision published in the Official Gazette"
+              }
+            ]
+          }
+        ]
       },
       "human_impact": {
         "missing": {
@@ -9508,6 +9535,28 @@
             {
               "url": "https://aljazeera.com/news/2026/10/8/syria-calls-for-independent-probe-into-sinking-of-ship-in-black-sea",
               "source": "Al Jazeera, 8 October 2026: Syria seeks an independent investigation with 10 crew unaccounted for"
+            }
+          ]
+        },
+        {
+          "at": "2026-11-11T06:55:41Z",
+          "text": "Casualty follow-up, 11 November 2026: the first named death in this sinking is recorded, as a minimum, and the whole-vessel toll stays unknown. The Egyptian professional syndicate of maritime officers announced on 8 October 2026 the death of the third engineer Mahmoud Kamal Abdelaty, from Belina in Sohag governorate, according to Masrawy on 8 October and Al-Masry Al-Youm on 9 October. The syndicate said the Bulgarian search for the ten crew, nine Syrian and one Egyptian, was halted after an overturned lifeboat, three life rafts and some life jackets were found and no seafarer was recovered, and that formal registration of the death would be pursued with the maritime transport and logistics sector and the Egyptian authority for maritime safety, for a cabinet decision published in the Official Gazette. One Egyptian death is therefore counted, with casualties.minimum set true because the nine Syrian seafarers remain missing and no death has been confirmed for them: the Syrian Seafarers Association said on 8 October, as reported by North Press, that its earlier statement had not confirmed the crew dead. CNN's account of 3 November 2026 that nine Syrians and one Egyptian died is a media figure with no recovered body or death registration behind it, so it is not adopted as the count. The missing snapshot of ten is unchanged.",
+          "sources": [
+            {
+              "url": "https://www.masrawy.com/news/news_egypt/details/2026/10/8/3059982/",
+              "source": "Masrawy (Mohamed Nassar), 8 October 2026: the professional syndicate of maritime officers announced the death of Egyptian third engineer Mahmoud Kamal Abdelaty of Belina, Sohag, after the search for the ten crew (nine Syrian, one Egyptian) was halted with nobody recovered, and said formal death registration would be pursued with the maritime transport and maritime safety authorities"
+            },
+            {
+              "url": "https://www.almasryalyoum.com/news/details/4378825",
+              "source": "Al-Masry Al-Youm (Amal Abbas), 9 October 2026: the same syndicate statement, naming the Sohag third engineer, the ten crew, the overturned lifeboat, three life rafts and life jackets found, and the application for a cabinet decision published in the Official Gazette"
+            },
+            {
+              "url": "https://npasyria.com/en/142405/",
+              "source": "North Press, 8 October 2026: the Syrian Seafarers Association says the fate of the Alfa Watan crew remains unknown and its earlier statement did not confirm the crew dead"
+            },
+            {
+              "url": "https://edition.cnn.com/2026/11/03/europe/ukraine-black-sea-drone-attacks-intl",
+              "source": "CNN (Tim Lister), 3 November 2026: nine Syrian crew members and one Egyptian died on the Alfa Watan"
             }
           ]
         }
@@ -40232,6 +40281,156 @@
             {
               "url": "https://apnews.com/article/bulgaria-black-sea-drones-ships-7dfef251fb7d47a717f0d600873dbf5b",
               "source": "Associated Press, 13 October 2026: the Guinea-Bissau flagged cargo ship Dignity sank, five sailors rescued and a search continued for the other 11 crew"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6789244872,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6789244872",
+      "author": "iMariner",
+      "received_at": "2026-11-11T06:55:41Z",
+      "incident_id": "INC-20261006-001",
+      "before": {
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "human_impact": {
+          "missing": {
+            "count": 10,
+            "as_of": "2026-10-06",
+            "sources": [
+              {
+                "url": "https://www.euronews.com/2026/10/06/drones-hit-two-ships-off-coast-of-bulgaria-as-government-calls-emergency-meeting",
+                "source": "Euronews, 7 October 2026"
+              },
+              {
+                "url": "https://bgnes.com/conflicts/damascus-fate-of-nine-syrian-sailors-unknown-after-drone-strike-sinks-ship-off-bulgaria",
+                "source": "BGNES, 8 October 2026, quoting Syrias ports authority through AFP"
+              }
+            ]
+          }
+        },
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-22T12:54:50Z",
+          "vessel_name": "ALFA WATAN",
+          "date_utc": "2026-10-06",
+          "vessel_type": "General cargo",
+          "region": "Black Sea",
+          "location_text": "About 70 nautical miles east of Byala, inside the Bulgarian exclusive economic zone",
+          "summary": "Alfa Watan, an 83 metre Togolese-flagged general cargo ship owned by Mersin-based Baraka Shipping, sank in the early hours of 6 October 2026 after sea and aerial drones struck it about 70 nautical miles east of Byala, inside the Bulgarian exclusive economic zone. Ten seafarers were aboard and none was recovered; Bulgaria ended its search that afternoon after an overturned lifeboat, three life rafts and debris were found.",
+          "date_note": "Bulgarian officials put the attack at about 03:00 local time on 6 October 2026. Some reports first published on 6 October were updated on 7 October; the attack date is 6 October.",
+          "sources": [
+            {
+              "url": "https://www.euronews.com/2026/10/06/drones-hit-two-ships-off-coast-of-bulgaria-as-government-calls-emergency-meeting",
+              "source": "Euronews, updated 7 October 2026, quoting Bulgarias rescue service and Maritime.bg"
+            },
+            {
+              "url": "https://yacnews.com/russian-drones-hit-three-turkish-owned-cargo-ships-off-romania-and-bulgaria-in-two-days-2-dead",
+              "source": "YAC News, 6 October 2026, quoting Prime Minister Rumen Radev"
+            },
+            {
+              "url": "https://bgnes.com/conflicts/damascus-fate-of-nine-syrian-sailors-unknown-after-drone-strike-sinks-ship-off-bulgaria",
+              "source": "BGNES, 8 October 2026, quoting Syrias ports authority through AFP"
+            }
+          ]
+        },
+        "updates": [
+          {
+            "at": "2026-10-22T12:54:50Z",
+            "text": "First review of this record. Bulgaria called off the search for the ten crew on the afternoon of 6 October, so all ten remain missing and no death is confirmed. Syrias General Authority for Ports and Customs told AFP the crew was ten, nine Syrian and one Egyptian, and said their fate was unknown: that is a crew list, not a count of deaths, so no nationality is recorded. Reports of an Azerbaijani captain killed and a second Azerbaijani crew member missing concern the Royad Mammadov, sunk off Romania on 5 October, and are not attached to this ship.",
+            "sources": [
+              {
+                "url": "https://www.euronews.com/2026/10/06/drones-hit-two-ships-off-coast-of-bulgaria-as-government-calls-emergency-meeting",
+                "source": "Euronews, 7 October 2026"
+              },
+              {
+                "url": "https://bgnes.com/conflicts/damascus-fate-of-nine-syrian-sailors-unknown-after-drone-strike-sinks-ship-off-bulgaria",
+                "source": "BGNES, 8 October 2026"
+              },
+              {
+                "url": "https://yacnews.com/russian-drones-hit-three-turkish-owned-cargo-ships-off-romania-and-bulgaria-in-two-days-2-dead",
+                "source": "YAC News, 6 October 2026"
+              }
+            ]
+          },
+          {
+            "at": "2026-11-05T08:30:00Z",
+            "text": "Casualty follow-up, death count still unknown. CNN reported on 3 November 2026 that nine Syrian crew members and one Egyptian died on the Alfa Watan. The Syrian Seafarers Association said on 8 October that a statement attributed to its head about the death of the entire crew meant only that no survivors had been found after the search was halted, and that the crew remain missing with their fate unestablished, as North Press reported. Bulgaria ended its search on the afternoon of 6 October after an overturned lifeboat, three life rafts and debris were found, and Syria asked the IMO and Bulgaria on 8 October for an independent investigation into why the search stopped. The number aboard still conflicts: the Syrian ports authority told AFP ten, nine Syrian and one Egyptian, while Bulgarian state television reported 12 Syrian seafarers. Deaths stay unknown and no nationality is recorded as a death.",
+            "sources": [
+              {
+                "url": "https://edition.cnn.com/2026/11/03/europe/ukraine-black-sea-drone-attacks-intl",
+                "source": "CNN, 3 November 2026, by Tim Lister: nine Syrian crew members and one Egyptian died on the Alfa Watan"
+              },
+              {
+                "url": "https://npasyria.com/en/142405",
+                "source": "North Press, 8 October 2026: the Syrian Seafarers Association says the crew fate remains unknown and an earlier death statement was not a confirmation"
+              },
+              {
+                "url": "https://aljazeera.com/news/2026/10/8/syria-calls-for-independent-probe-into-sinking-of-ship-in-black-sea",
+                "source": "Al Jazeera, 8 October 2026: Syria seeks an independent investigation with 10 crew unaccounted for"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "INC-20261006-001",
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 1,
+          "minimum": true,
+          "sources": [
+            {
+              "url": "https://www.masrawy.com/news/news_egypt/details/2026/10/8/3059982/",
+              "source": "Masrawy (Mohamed Nassar), 8 October 2026: the professional syndicate of maritime officers announced the death of Egyptian third engineer Mahmoud Kamal Abdelaty of Belina, Sohag, after the search for the ten crew (nine Syrian, one Egyptian) was halted with nobody recovered, and said formal death registration would be pursued with the maritime transport and maritime safety authorities"
+            },
+            {
+              "url": "https://www.almasryalyoum.com/news/details/4378825",
+              "source": "Al-Masry Al-Youm (Amal Abbas), 9 October 2026: the same syndicate statement, naming the Sohag third engineer, the ten crew, the overturned lifeboat, three life rafts and life jackets found, and the application for a cabinet decision published in the Official Gazette"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Egyptian",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "url": "https://www.masrawy.com/news/news_egypt/details/2026/10/8/3059982/",
+                  "source": "Masrawy (Mohamed Nassar), 8 October 2026: the professional syndicate of maritime officers announced the death of Egyptian third engineer Mahmoud Kamal Abdelaty of Belina, Sohag, after the search for the ten crew (nine Syrian, one Egyptian) was halted with nobody recovered, and said formal death registration would be pursued with the maritime transport and maritime safety authorities"
+                },
+                {
+                  "url": "https://www.almasryalyoum.com/news/details/4378825",
+                  "source": "Al-Masry Al-Youm (Amal Abbas), 9 October 2026: the same syndicate statement, naming the Sohag third engineer, the ten crew, the overturned lifeboat, three life rafts and life jackets found, and the application for a cabinet decision published in the Official Gazette"
+                }
+              ]
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-11-11T06:55:41Z",
+          "text": "Casualty follow-up, 11 November 2026: the first named death in this sinking is recorded, as a minimum, and the whole-vessel toll stays unknown. The Egyptian professional syndicate of maritime officers announced on 8 October 2026 the death of the third engineer Mahmoud Kamal Abdelaty, from Belina in Sohag governorate, according to Masrawy on 8 October and Al-Masry Al-Youm on 9 October. The syndicate said the Bulgarian search for the ten crew, nine Syrian and one Egyptian, was halted after an overturned lifeboat, three life rafts and some life jackets were found and no seafarer was recovered, and that formal registration of the death would be pursued with the maritime transport and logistics sector and the Egyptian authority for maritime safety, for a cabinet decision published in the Official Gazette. One Egyptian death is therefore counted, with casualties.minimum set true because the nine Syrian seafarers remain missing and no death has been confirmed for them: the Syrian Seafarers Association said on 8 October, as reported by North Press, that its earlier statement had not confirmed the crew dead. CNN's account of 3 November 2026 that nine Syrians and one Egyptian died is a media figure with no recovered body or death registration behind it, so it is not adopted as the count. The missing snapshot of ten is unchanged.",
+          "sources": [
+            {
+              "url": "https://www.masrawy.com/news/news_egypt/details/2026/10/8/3059982/",
+              "source": "Masrawy (Mohamed Nassar), 8 October 2026: the professional syndicate of maritime officers announced the death of Egyptian third engineer Mahmoud Kamal Abdelaty of Belina, Sohag, after the search for the ten crew (nine Syrian, one Egyptian) was halted with nobody recovered, and said formal death registration would be pursued with the maritime transport and maritime safety authorities"
+            },
+            {
+              "url": "https://www.almasryalyoum.com/news/details/4378825",
+              "source": "Al-Masry Al-Youm (Amal Abbas), 9 October 2026: the same syndicate statement, naming the Sohag third engineer, the ten crew, the overturned lifeboat, three life rafts and life jackets found, and the application for a cabinet decision published in the Official Gazette"
+            },
+            {
+              "url": "https://npasyria.com/en/142405/",
+              "source": "North Press, 8 October 2026: the Syrian Seafarers Association says the fate of the Alfa Watan crew remains unknown and its earlier statement did not confirm the crew dead"
+            },
+            {
+              "url": "https://edition.cnn.com/2026/11/03/europe/ukraine-black-sea-drone-attacks-intl",
+              "source": "CNN (Tim Lister), 3 November 2026: nine Syrian crew members and one Egyptian died on the Alfa Watan"
             }
           ]
         }
