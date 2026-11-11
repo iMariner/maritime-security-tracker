@@ -20591,6 +20591,30 @@
           ]
         }
       ]
+    },
+    "INC-20261111-001": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "verification": null,
+      "updates": [
+        {
+          "at": "2026-11-11T13:10:00Z",
+          "text": "The four Indian deaths carried in this row are not an event of 11 November. India's Ministry of External Affairs statement, published by DD News on 20 July 2026 and carried by CNBC TV18 the same day, places four Indian deaths and one critical injury on MV GOLDEN LEO, attacked on the evening of 19 July 2026 as it left the port of Odesa with 17 crew including five Indian nationals. That attack and its ten deaths are already recorded as HIST-BS-20260719-GOLDEN-LEO, so this row repeats a late feed pickup of the July statement rather than reporting a new casualty. The Russian defence ministry claim behind the row names no vessel and carries no casualty figure, and Reuters reported no independent confirmation of it. No source found connects the 10 to 11 November claim to GOLDEN LEO or to any named ship, and no Indian government statement about a November attack on a merchant vessel was found. Deaths in this row are therefore set to unknown rather than four, and the record stays unverified and withheld from the public export until a vessel and a settled casualty account are established.",
+          "sources": [
+            {
+              "url": "https://ddnews.gov.in/en/four-indians-killed-one-critically-injured-in-attack-on-commercial-vessel-near-odesa-port-in-ukraine-mea/",
+              "source": "DD News reporting India's Ministry of External Affairs statement, 20 July 2026"
+            },
+            {
+              "url": "https://www.cnbctv18.com/world/four-indians-killed-in-missile-attack-on-cargo-vessel-departing-ukraine-odesa-19949981.htm",
+              "source": "CNBC TV18, 20 July 2026, on the 19 July attack on GOLDEN LEO"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -40683,6 +40707,37 @@
             {
               "url": "https://gcaptain.com/adnoc-vessel-damaged-in-gulf-attack-as-ukmto-reports-fresh-tanker-strike-near-hormuz",
               "source": "gCaptain, 10 November 2026, citing UKMTO warning 201-26"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6796613955,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6796613955",
+      "author": "iMariner",
+      "received_at": "2026-11-11T13:05:47Z",
+      "incident_id": "INC-20261111-001",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261111-001",
+        "verification": null,
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-11T13:10:00Z",
+          "text": "The four Indian deaths carried in this row are not an event of 11 November. India's Ministry of External Affairs statement, published by DD News on 20 July 2026 and carried by CNBC TV18 the same day, places four Indian deaths and one critical injury on MV GOLDEN LEO, attacked on the evening of 19 July 2026 as it left the port of Odesa with 17 crew including five Indian nationals. That attack and its ten deaths are already recorded as HIST-BS-20260719-GOLDEN-LEO, so this row repeats a late feed pickup of the July statement rather than reporting a new casualty. The Russian defence ministry claim behind the row names no vessel and carries no casualty figure, and Reuters reported no independent confirmation of it. No source found connects the 10 to 11 November claim to GOLDEN LEO or to any named ship, and no Indian government statement about a November attack on a merchant vessel was found. Deaths in this row are therefore set to unknown rather than four, and the record stays unverified and withheld from the public export until a vessel and a settled casualty account are established.",
+          "sources": [
+            {
+              "url": "https://ddnews.gov.in/en/four-indians-killed-one-critically-injured-in-attack-on-commercial-vessel-near-odesa-port-in-ukraine-mea/",
+              "source": "DD News reporting India's Ministry of External Affairs statement, 20 July 2026"
+            },
+            {
+              "url": "https://www.cnbctv18.com/world/four-indians-killed-in-missile-attack-on-cargo-vessel-departing-ukraine-odesa-19949981.htm",
+              "source": "CNBC TV18, 20 July 2026, on the 19 July attack on GOLDEN LEO"
             }
           ]
         }
