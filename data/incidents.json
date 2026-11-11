@@ -6,9 +6,9 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.5,
-    "vessel_name": null,
-    "imo": null,
-    "flag": null,
+    "vessel_name": "Wine Trader",
+    "imo": "8808707",
+    "flag": "San Marino",
     "vessel_type": "tanker",
     "vessel_category": "merchant",
     "lat": 43.4,
@@ -30,15 +30,31 @@
         "kind": "media",
         "published_at": "2026-11-10T10:01:08Z",
         "title": "Remains of six seafarers reportedly found aboard drone-struck tanker in Black Sea - safety4sea"
+      },
+      {
+        "url": "https://rotimes.ro/en/article/2026-11-07-human-remains-found-on-wine-trader-ship-in-varna",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-11T04:32:42Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-10T10:18:28Z",
-    "last_updated": "2026-11-10T10:18:28Z",
+    "last_updated": "2026-11-11T04:32:42Z",
     "verification_issue": 369,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-11-11T04:32:42Z",
+      "note": "The six dead are the Wine Trader, struck by a drone on 15 October about 24 kilometres south-east of Sulina and already recorded as INC-20261015-001, so this headline is a re-report of remains found during repairs at Varna, not a new attack.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/369#issuecomment-6787081518"
+    },
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-11-11T04:32:42Z"
   },
   {
     "region": "Black Sea",
@@ -559,12 +575,27 @@
         "kind": "media",
         "published_at": "2026-11-10T19:57:46Z",
         "title": "Iran attacks ship in Strait of Hormuz after Hegseth finishes speaking - Daily Express US"
+      },
+      {
+        "url": "https://abcnews.com/International/live-updates/iran-live-updates-americans-tired-forever-wars-araghchi?entryId=137951542&id=137967256",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-11T04:32:40Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-10T18:09:58Z",
-    "last_updated": "2026-11-10T23:40:43Z",
+    "last_updated": "2026-11-11T04:32:40Z",
     "verification_issue": 372,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "iMariner",
+      "at": "2026-11-11T04:32:40Z",
+      "note": "ADNOC Logistics and Services confirmed on 10 November that one of its vessels was damaged in an attack in UAE waters, and UKMTO warning 201-26 records a separate projectile strike on a tanker 19 nautical miles north-east of Lima, Oman, the same afternoon.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/372#issuecomment-6787081782"
+    },
     "published_in": [],
     "status": "confirmed",
     "position_approx": true,
@@ -618,12 +649,36 @@
         "kind": "media",
         "published_at": "2026-11-10T19:19:42Z",
         "title": "Iran Says Third Tanker Caught Fire in Hormuz, Denies US Talks Are Underway - Palestine Chronicle"
+      },
+      {
+        "url": "https://www.morungexpress.com/irans-army-says-violating-oil-tanker-hit-mines-in-hormuz-strait",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-11T04:32:38Z",
+        "title": null
+      },
+      {
+        "url": "https://gulfnews.com/world/mena/hormuz-shipping-below-normal-but-not-stalled-ukmto-1.500741839",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-11T04:32:38Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-10T18:10:09Z",
-    "last_updated": "2026-11-10T23:40:34Z",
+    "last_updated": "2026-11-11T04:32:38Z",
     "verification_issue": 373,
-    "verdict": null,
+    "verdict": {
+      "status": "claimed",
+      "by": "iMariner",
+      "at": "2026-11-11T04:32:38Z",
+      "note": "Only Iran's army and IRGC navy report tankers catching fire after hitting mines in the strait, Iran puts the number at three rather than two, and Gulf News records the IRGC claims as unverified with no neutral authority confirming them.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/373#issuecomment-6787082037"
+    },
     "published_in": [],
     "status": "claimed",
     "position_approx": true
@@ -858,8 +913,8 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.5,
-    "vessel_name": null,
-    "imo": null,
+    "vessel_name": "HS Dignity",
+    "imo": "9545912",
     "flag": null,
     "vessel_type": null,
     "vessel_category": "merchant",
@@ -881,15 +936,31 @@
         "kind": "media",
         "published_at": "2026-11-09T09:22:00Z",
         "title": "غرق سفينة قبالة بلغاريا وفقدان 11 بحاراً إثر هجوم بمسيّرات - verify-sy.com"
+      },
+      {
+        "url": "https://www.aljazeera.net/news/2026/10/13/%D9%87%D8%AC%D9%85%D8%A7%D8%AA-%D9%85%D8%B3%D9%8A%D8%B1%D8%A9-%D8%AA%D8%B4%D8%B9%D9%84-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1-%D8%A7%D9%84%D8%A3%D8%B3%D9%88%D8%AF-%D9%82%D8%B1%D8%A8",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-11T04:32:36Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-10T18:10:17Z",
-    "last_updated": "2026-11-10T18:10:17Z",
+    "last_updated": "2026-11-11T04:32:36Z",
     "verification_issue": 374,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-11-11T04:32:36Z",
+      "note": "The sinking with 11 seafarers missing was the 13 October drone attack about 17 nautical miles east of Krapets, already recorded as INC-20261013-002, so this item is mis-dated by nearly four weeks.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/374#issuecomment-6787082533"
+    },
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-11-11T04:32:36Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -898,9 +969,9 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.5,
-    "vessel_name": null,
+    "vessel_name": "Ever Lovely",
     "imo": null,
-    "flag": null,
+    "flag": "Singapore",
     "vessel_type": "general cargo",
     "vessel_category": "merchant",
     "lat": 26.55,
@@ -921,15 +992,40 @@
         "kind": "media",
         "published_at": "2026-11-09T08:15:19Z",
         "title": "Cargo Ship Reports Suspected Attack While Crossing Hormuz - EnergyNow"
+      },
+      {
+        "url": "https://www.thehindu.com/news/international/container-ship-ever-lovely-attacked-near-oman-strait-of-hormuz/article71147560.ece",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-11T04:32:34Z",
+        "title": null
+      },
+      {
+        "url": "https://energynow.com/2026/06/cargo-ship-reports-suspected-attack-while-crossing-hormuz",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-11T04:32:34Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-10T18:10:17Z",
-    "last_updated": "2026-11-10T18:10:17Z",
+    "last_updated": "2026-11-11T04:32:34Z",
     "verification_issue": 375,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-11-11T04:32:34Z",
+      "note": "This is the Reuters report of 25 June 2026 on the Singapore-flagged container ship Ever Lovely, struck on her starboard side 7.5 nautical miles south-east of Dahit, so the record is mis-dated by more than four months and repeats INC-20261010-012.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/375#issuecomment-6787082304"
+    },
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-11-11T04:32:34Z"
   },
   {
     "region": "Black Sea",
