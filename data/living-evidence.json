@@ -20304,6 +20304,54 @@
           ]
         }
       ]
+    },
+    "INC-20261107-016": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-11T00:55:00Z",
+        "vessel_name": "NAVIG8 MACALLISTER",
+        "imo": "9482873",
+        "date_utc": "2026-11-07",
+        "vessel_type": "Oil products tanker",
+        "region": "Strait of Hormuz",
+        "location_text": "About 8 nautical miles north-west of Khasab, Oman",
+        "summary": "The IMO highlighted confirmed incidents register, read on 11 November 2026, records NAVIG8 MACALLISTER (IMO 9482873) as damaged on 7 November 2026 about 8 nautical miles north-west of Khasab, Oman, with no pollution reported, and gives no casualty figure. That date and position are the same as the tanker fire in UKMTO warning 199-26, reported at about 19:20 UTC on 7 November with the crew evacuated and the vessel name withheld, so the register is the authority that names a ship for that fire. Trade reporting had earlier put the burning tanker as her sister ship NAVIG8 MESSI (IMO 9482859) from open source imagery, and the tracking service Live AIS argued that MESSI was alongside at Fujairah that day and that MACALLISTER was the likelier ship. The Maritime Executive reported that the crew were evacuated, that no injuries had been reported and that two firefighting tugs were working the blaze. Neither the IMO register nor UKMTO has published a death, an injury or a crew headcount, so the casualty position is unknown and not zero.",
+        "date_note": "Day-precision date from the IMO register. UKMTO warning 199-26, issued on 8 November, times the fire at about 19:20 UTC on 7 November, which was 23:20 local time in Oman on 7 November. UKMTO warning 200-26 records a separate report the same evening, at 20:20 UTC, of a tanker struck by an unknown projectile while transiting outbound with all crew safe and no position given; it is not established to be the same ship and is not merged into this record.",
+        "sources": [
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO highlighted confirmed incidents register, read 11 November 2026: 7 November, NAVIG8 MACALLISTER (IMO 9482873), 8NM northwest of Khasab, Oman, damaged, no pollution"
+          },
+          {
+            "url": "https://www.vesselfinder.com/vessels/details/9482873",
+            "source": "VesselFinder particulars for IMO 9482873: oil products tanker, 229 by 32 metres, Singapore flag"
+          },
+          {
+            "url": "https://www.navig8group.com/fleet-list",
+            "source": "Navig8 Tankers fleet list: NAVIG8 MACALLISTER, LR1 product tanker, 75,618 dwt, built 2012"
+          },
+          {
+            "url": "https://maritime-executive.com/article/tanker-burns-after-strike-in-strait-of-hormuz",
+            "source": "The Maritime Executive, 8 November 2026: crew evacuated, no injuries reported, at least two firefighting tugs on scene, open source analysts had tentatively identified the vessel as NAVIG8 MESSI"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-11T00:55:00Z",
+          "text": "First structured verification for the 7 November tanker fire near Khasab. The new element is the IMO register entry, which names NAVIG8 MACALLISTER (IMO 9482873) at 8NM north-west of Khasab on 7 November as damaged with no pollution; UKMTO warning 199-26 for that time and place is unnamed. The earlier tentative identification as NAVIG8 MESSI was never confirmed by an owner, flag state or authority, and Live AIS put MESSI at Fujairah that morning. This record and INC-20261108-010 describe one tanker incident at one position on 7 November and must not be counted as two attacks. No death or injury has been published, so no casualty is counted here.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO highlighted confirmed incidents register, read 11 November 2026"
+            },
+            {
+              "url": "https://maritime-executive.com/article/tanker-burns-after-strike-in-strait-of-hormuz",
+              "source": "The Maritime Executive, 8 November 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -39973,6 +40021,61 @@
             {
               "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
               "source": "IMO highlighted confirmed incidents, read 10 November 2026: VIEILA (IMO 9234654), 5 November, damaged, no pollution"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6783334123,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6783334123",
+      "author": "iMariner",
+      "received_at": "2026-11-11T00:34:56Z",
+      "incident_id": "INC-20261107-016",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261107-016",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-11T00:55:00Z",
+          "vessel_name": "NAVIG8 MACALLISTER",
+          "imo": "9482873",
+          "date_utc": "2026-11-07",
+          "vessel_type": "Oil products tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "About 8 nautical miles north-west of Khasab, Oman",
+          "summary": "The IMO highlighted confirmed incidents register, read on 11 November 2026, records NAVIG8 MACALLISTER (IMO 9482873) as damaged on 7 November 2026 about 8 nautical miles north-west of Khasab, Oman, with no pollution reported, and gives no casualty figure. That date and position are the same as the tanker fire in UKMTO warning 199-26, reported at about 19:20 UTC on 7 November with the crew evacuated and the vessel name withheld, so the register is the authority that names a ship for that fire. Trade reporting had earlier put the burning tanker as her sister ship NAVIG8 MESSI (IMO 9482859) from open source imagery, and the tracking service Live AIS argued that MESSI was alongside at Fujairah that day and that MACALLISTER was the likelier ship. The Maritime Executive reported that the crew were evacuated, that no injuries had been reported and that two firefighting tugs were working the blaze. Neither the IMO register nor UKMTO has published a death, an injury or a crew headcount, so the casualty position is unknown and not zero.",
+          "date_note": "Day-precision date from the IMO register. UKMTO warning 199-26, issued on 8 November, times the fire at about 19:20 UTC on 7 November, which was 23:20 local time in Oman on 7 November. UKMTO warning 200-26 records a separate report the same evening, at 20:20 UTC, of a tanker struck by an unknown projectile while transiting outbound with all crew safe and no position given; it is not established to be the same ship and is not merged into this record.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO highlighted confirmed incidents register, read 11 November 2026: 7 November, NAVIG8 MACALLISTER (IMO 9482873), 8NM northwest of Khasab, Oman, damaged, no pollution"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9482873",
+              "source": "VesselFinder particulars for IMO 9482873: oil products tanker, 229 by 32 metres, Singapore flag"
+            },
+            {
+              "url": "https://www.navig8group.com/fleet-list",
+              "source": "Navig8 Tankers fleet list: NAVIG8 MACALLISTER, LR1 product tanker, 75,618 dwt, built 2012"
+            },
+            {
+              "url": "https://maritime-executive.com/article/tanker-burns-after-strike-in-strait-of-hormuz",
+              "source": "The Maritime Executive, 8 November 2026: crew evacuated, no injuries reported, at least two firefighting tugs on scene, open source analysts had tentatively identified the vessel as NAVIG8 MESSI"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-11-11T00:55:00Z",
+          "text": "First structured verification for the 7 November tanker fire near Khasab. The new element is the IMO register entry, which names NAVIG8 MACALLISTER (IMO 9482873) at 8NM north-west of Khasab on 7 November as damaged with no pollution; UKMTO warning 199-26 for that time and place is unnamed. The earlier tentative identification as NAVIG8 MESSI was never confirmed by an owner, flag state or authority, and Live AIS put MESSI at Fujairah that morning. This record and INC-20261108-010 describe one tanker incident at one position on 7 November and must not be counted as two attacks. No death or injury has been published, so no casualty is counted here.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO highlighted confirmed incidents register, read 11 November 2026"
+            },
+            {
+              "url": "https://maritime-executive.com/article/tanker-burns-after-strike-in-strait-of-hormuz",
+              "source": "The Maritime Executive, 8 November 2026"
             }
           ]
         }
