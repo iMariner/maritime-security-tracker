@@ -20352,6 +20352,54 @@
           ]
         }
       ]
+    },
+    "INC-20260907-001": {
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-11T00:55:00Z",
+        "vessel_name": "AL DASMA",
+        "imo": "9653446",
+        "date_utc": "2026-09-07",
+        "vessel_type": "Tanker",
+        "region": "Strait of Hormuz",
+        "location_text": "South-east of the Strait of Hormuz",
+        "summary": "The IMO highlighted confirmed incidents register, read on 11 November 2026, records AL DASMA (IMO 9653446) as damaged with no pollution on 7 September 2026 south-east of the Strait of Hormuz, and marks the register's 20 October entry for the same vessel as a second attack. The 7 September entry is the basis for the later trade reports that the Kuwait Oil Tanker Company tanker Al Dasma, struck by an unknown projectile about 11 nautical miles west of Bukha, Oman on 21 October, had been hit once before in September. The register gives no event time, no attacker and no casualty for the September attack, and no authority read has published a death or injury for it, so no casualty is counted.",
+        "date_note": "Day-precision date and approximate position from the IMO register; no event time is given. The register dates the later attack on this vessel 20 October while the UKMTO warning for it gives 0145 UTC on 21 October; that later attack is held as its own record, INC-20261021-008.",
+        "sources": [
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO highlighted confirmed incidents register, read 11 November 2026: 7 September, AL DASMA (IMO 9653446), south-east of the Strait of Hormuz, damaged, no pollution; 20 October entry marked Second attack"
+          },
+          {
+            "url": "https://safety4sea.com/tanker-catches-fire-off-oman-as-iran-claims-fresh-attacks-on-gulf-shipping/",
+            "source": "SAFETY4SEA, 22 October 2026: the 109,719 dwt tanker operated by Kuwait Oil Tanker Company had previously been involved in another attack on 7 September"
+          },
+          {
+            "url": "https://worldports.org/al-dasma-attacked-again-in-the-strait-of-hormuz",
+            "source": "World Ports Organisation report on the 21 October attack: according to the IMO, Al Dasma had already been attacked and damaged on 7 September south-east of the Strait of Hormuz"
+          },
+          {
+            "url": "https://www.vesselfinder.com/vessels/details/9653446",
+            "source": "VesselFinder particulars for IMO 9653446: tanker, 250 by 42 metres, Kuwait flag"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-11T00:55:00Z",
+          "text": "First review of the September attack on AL DASMA. The IMO register names the vessel, IMO number, date and approximate position and records damage with no pollution; trade reporting of the 21 October attack on the same ship corroborates a prior September hit. The register does not describe the weapon or the attacker, so none is asserted. Vessel type is left as tanker because the particulars sources differ, VesselFinder listing her as a crude oil tanker and Riviera and India's shipping ministry describing an oil product tanker. No casualty is published for the September attack and none is counted. This record is the first attack; INC-20261021-008 is the separate second attack on the same vessel.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO highlighted confirmed incidents register, read 11 November 2026"
+            },
+            {
+              "url": "https://safety4sea.com/tanker-catches-fire-off-oman-as-iran-claims-fresh-attacks-on-gulf-shipping/",
+              "source": "SAFETY4SEA, 22 October 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -40076,6 +40124,61 @@
             {
               "url": "https://maritime-executive.com/article/tanker-burns-after-strike-in-strait-of-hormuz",
               "source": "The Maritime Executive, 8 November 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6783337077,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6783337077",
+      "author": "iMariner",
+      "received_at": "2026-11-11T00:35:06Z",
+      "incident_id": "INC-20260907-001",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20260907-001",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-11T00:55:00Z",
+          "vessel_name": "AL DASMA",
+          "imo": "9653446",
+          "date_utc": "2026-09-07",
+          "vessel_type": "Tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "South-east of the Strait of Hormuz",
+          "summary": "The IMO highlighted confirmed incidents register, read on 11 November 2026, records AL DASMA (IMO 9653446) as damaged with no pollution on 7 September 2026 south-east of the Strait of Hormuz, and marks the register's 20 October entry for the same vessel as a second attack. The 7 September entry is the basis for the later trade reports that the Kuwait Oil Tanker Company tanker Al Dasma, struck by an unknown projectile about 11 nautical miles west of Bukha, Oman on 21 October, had been hit once before in September. The register gives no event time, no attacker and no casualty for the September attack, and no authority read has published a death or injury for it, so no casualty is counted.",
+          "date_note": "Day-precision date and approximate position from the IMO register; no event time is given. The register dates the later attack on this vessel 20 October while the UKMTO warning for it gives 0145 UTC on 21 October; that later attack is held as its own record, INC-20261021-008.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO highlighted confirmed incidents register, read 11 November 2026: 7 September, AL DASMA (IMO 9653446), south-east of the Strait of Hormuz, damaged, no pollution; 20 October entry marked Second attack"
+            },
+            {
+              "url": "https://safety4sea.com/tanker-catches-fire-off-oman-as-iran-claims-fresh-attacks-on-gulf-shipping/",
+              "source": "SAFETY4SEA, 22 October 2026: the 109,719 dwt tanker operated by Kuwait Oil Tanker Company had previously been involved in another attack on 7 September"
+            },
+            {
+              "url": "https://worldports.org/al-dasma-attacked-again-in-the-strait-of-hormuz",
+              "source": "World Ports Organisation report on the 21 October attack: according to the IMO, Al Dasma had already been attacked and damaged on 7 September south-east of the Strait of Hormuz"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9653446",
+              "source": "VesselFinder particulars for IMO 9653446: tanker, 250 by 42 metres, Kuwait flag"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-11-11T00:55:00Z",
+          "text": "First review of the September attack on AL DASMA. The IMO register names the vessel, IMO number, date and approximate position and records damage with no pollution; trade reporting of the 21 October attack on the same ship corroborates a prior September hit. The register does not describe the weapon or the attacker, so none is asserted. Vessel type is left as tanker because the particulars sources differ, VesselFinder listing her as a crude oil tanker and Riviera and India's shipping ministry describing an oil product tanker. No casualty is published for the September attack and none is counted. This record is the first attack; INC-20261021-008 is the separate second attack on the same vessel.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO highlighted confirmed incidents register, read 11 November 2026"
+            },
+            {
+              "url": "https://safety4sea.com/tanker-catches-fire-off-oman-as-iran-claims-fresh-attacks-on-gulf-shipping/",
+              "source": "SAFETY4SEA, 22 October 2026"
             }
           ]
         }
