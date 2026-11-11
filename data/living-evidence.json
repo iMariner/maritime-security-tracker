@@ -20615,6 +20615,71 @@
           ]
         }
       ]
+    },
+    "INC-20261111-003": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://www.aninews.in/news/world/middle-east/all-3-indian-nationals-safe-after-possible-attack-on-saudi-flagged-tanker-shipping-minister-sonowal20261111180139",
+            "source": "Sarbananda Sonowal, Minister for Ports, Shipping and Waterways, 11 November 2026: all three Indian seafarers, along with the entire crew, are safe"
+          }
+        ],
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-11T19:20:00Z",
+        "vessel_name": "NCC FAJR",
+        "imo": "9595644",
+        "date_utc": "2026-11-11",
+        "vessel_type": "Chemical and oil products tanker",
+        "region": "Strait of Hormuz",
+        "summary": "NCC FAJR, a Saudi Arabia flagged chemical and oil products tanker, was reported by India's Minister for Ports, Shipping and Waterways, Sarbananda Sonowal, as having been involved in a possible attack while transiting the Strait of Hormuz on 11 November 2026. The minister said the three Indian seafarers aboard and the entire crew were safe, and that his government was in contact with the ship management company. The UK Maritime Trade Operations centre said the same day that it had received a report of an incident involving a tanker in the Strait of Hormuz, and that the status of the crew, the extent of any damage and the environmental impact were not then known. No damage assessment, weapon type or claim of responsibility has been published, and no source read here names the vessel in the UKMTO report, so the identification of NCC FAJR rests on the minister's statement.",
+        "sources": [
+          {
+            "url": "https://www.aninews.in/news/world/middle-east/all-3-indian-nationals-safe-after-possible-attack-on-saudi-flagged-tanker-shipping-minister-sonowal20261111180139",
+            "source": "ANI, 11 November 2026, quoting Sarbananda Sonowal's post on X: Saudi Arabia flagged oil tanker NCC FAJR, carrying three Indian seafarers, involved in a possible attack while transiting the Strait of Hormuz on 11 November, all three Indians and the entire crew safe"
+          },
+          {
+            "url": "https://www.hindustantimes.com/world-news/us-iran-war-live-updates-irgc-donald-trump-marco-rubio-strait-of-hormuz-abbas-araghchi-qatar-mediation-peace-deal-saudi-101794360240894.html",
+            "source": "Reuters report carried by Hindustan Times live coverage, 11 November 2026: UKMTO said it had received a report of an incident involving a tanker in the Strait of Hormuz, crew status, damage extent and environmental impact not yet known, tanker not identified"
+          },
+          {
+            "url": "https://www.newindianexpress.com/story/india/2026/nov/11/three-indian-seafarers-safe-after-attack-on-saudi-flagged-tanker-in-strait-of-hormuz-sonowal",
+            "source": "The New Indian Express, 11 November 2026, quoting the same minister's post: NCC FAJR involved in the incident on 11 November, all crew reported safe"
+          },
+          {
+            "url": "https://www.vesselfinder.com/vessels/details/9595644",
+            "source": "VesselFinder vessel particulars: NCC FAJR, IMO 9595644, chemical and oil products tanker, Saudi Arabia flag, 81,336 deadweight"
+          },
+          {
+            "url": "https://www.bahri.sa/en/fleet/chemical-tankers/",
+            "source": "Bahri chemical tanker fleet list: NCC FAJR, 227.9 m length, 81,336 deadweight"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-11T19:20:00Z",
+          "text": "Vessel identified and the crew outcome established, replacing the headline casualty line in this row. Sarbananda Sonowal, India's Minister for Ports, Shipping and Waterways, said in a post on X on 11 November 2026 that the Saudi Arabia flagged oil tanker NCC FAJR, carrying three Indian seafarers, was involved in a possible attack while transiting the Strait of Hormuz that day and that all three Indians and the entire crew were safe. The UK Maritime Trade Operations centre said the same day that it had received a report of an incident involving a tanker in the Strait of Hormuz, that it did not identify the tanker and that the crew's status, any damage and any environmental impact were not yet known. The corpus line \"3 Indian crew reported safe\" covered only those three men; the whole-vessel outcome is now recorded as no death reported and no injury reported. Iran's Revolutionary Guard said separately that a tanker caught fire after striking a naval mine in the east of the Strait of Hormuz; no source read here connects that claim to NCC FAJR, so it is not attributed to this vessel and the separate row that carries the Iranian claim stays apart from this one.",
+          "sources": [
+            {
+              "url": "https://www.aninews.in/news/world/middle-east/all-3-indian-nationals-safe-after-possible-attack-on-saudi-flagged-tanker-shipping-minister-sonowal20261111180139",
+              "source": "ANI, 11 November 2026, quoting Sarbananda Sonowal's post on X"
+            },
+            {
+              "url": "https://www.hindustantimes.com/world-news/us-iran-war-live-updates-irgc-donald-trump-marco-rubio-strait-of-hormuz-abbas-araghchi-qatar-mediation-peace-deal-saudi-101794360240894.html",
+              "source": "Reuters report carried by Hindustan Times, 11 November 2026: UKMTO report of an incident involving an unnamed tanker in the Strait of Hormuz"
+            },
+            {
+              "url": "https://economictimes.indiatimes.com/news/defence/iran-says-tanker-struck-mine-caught-fire-in-hormuz/articleshow/135730556.cms",
+              "source": "Iran's army statement carried by state television, reported by Agence France-Presse via The Economic Times, 11 November 2026: a violating oil tanker caught fire after striking a naval mine east of the Strait of Hormuz, no name given"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -40738,6 +40803,78 @@
             {
               "url": "https://www.cnbctv18.com/world/four-indians-killed-in-missile-attack-on-cargo-vessel-departing-ukraine-odesa-19949981.htm",
               "source": "CNBC TV18, 20 July 2026, on the 19 July attack on GOLDEN LEO"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6804916461,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6804916461",
+      "author": "iMariner",
+      "received_at": "2026-11-11T19:11:22Z",
+      "incident_id": "INC-20261111-003",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261111-003",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-11T19:20:00Z",
+          "vessel_name": "NCC FAJR",
+          "imo": "9595644",
+          "date_utc": "2026-11-11",
+          "vessel_type": "Chemical and oil products tanker",
+          "region": "Strait of Hormuz",
+          "summary": "NCC FAJR, a Saudi Arabia flagged chemical and oil products tanker, was reported by India's Minister for Ports, Shipping and Waterways, Sarbananda Sonowal, as having been involved in a possible attack while transiting the Strait of Hormuz on 11 November 2026. The minister said the three Indian seafarers aboard and the entire crew were safe, and that his government was in contact with the ship management company. The UK Maritime Trade Operations centre said the same day that it had received a report of an incident involving a tanker in the Strait of Hormuz, and that the status of the crew, the extent of any damage and the environmental impact were not then known. No damage assessment, weapon type or claim of responsibility has been published, and no source read here names the vessel in the UKMTO report, so the identification of NCC FAJR rests on the minister's statement.",
+          "sources": [
+            {
+              "url": "https://www.aninews.in/news/world/middle-east/all-3-indian-nationals-safe-after-possible-attack-on-saudi-flagged-tanker-shipping-minister-sonowal20261111180139",
+              "source": "ANI, 11 November 2026, quoting Sarbananda Sonowal's post on X: Saudi Arabia flagged oil tanker NCC FAJR, carrying three Indian seafarers, involved in a possible attack while transiting the Strait of Hormuz on 11 November, all three Indians and the entire crew safe"
+            },
+            {
+              "url": "https://www.hindustantimes.com/world-news/us-iran-war-live-updates-irgc-donald-trump-marco-rubio-strait-of-hormuz-abbas-araghchi-qatar-mediation-peace-deal-saudi-101794360240894.html",
+              "source": "Reuters report carried by Hindustan Times live coverage, 11 November 2026: UKMTO said it had received a report of an incident involving a tanker in the Strait of Hormuz, crew status, damage extent and environmental impact not yet known, tanker not identified"
+            },
+            {
+              "url": "https://www.newindianexpress.com/story/india/2026/nov/11/three-indian-seafarers-safe-after-attack-on-saudi-flagged-tanker-in-strait-of-hormuz-sonowal",
+              "source": "The New Indian Express, 11 November 2026, quoting the same minister's post: NCC FAJR involved in the incident on 11 November, all crew reported safe"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9595644",
+              "source": "VesselFinder vessel particulars: NCC FAJR, IMO 9595644, chemical and oil products tanker, Saudi Arabia flag, 81,336 deadweight"
+            },
+            {
+              "url": "https://www.bahri.sa/en/fleet/chemical-tankers/",
+              "source": "Bahri chemical tanker fleet list: NCC FAJR, 227.9 m length, 81,336 deadweight"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.aninews.in/news/world/middle-east/all-3-indian-nationals-safe-after-possible-attack-on-saudi-flagged-tanker-shipping-minister-sonowal20261111180139",
+              "source": "Sarbananda Sonowal, Minister for Ports, Shipping and Waterways, 11 November 2026: all three Indian seafarers, along with the entire crew, are safe"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-11T19:20:00Z",
+          "text": "Vessel identified and the crew outcome established, replacing the headline casualty line in this row. Sarbananda Sonowal, India's Minister for Ports, Shipping and Waterways, said in a post on X on 11 November 2026 that the Saudi Arabia flagged oil tanker NCC FAJR, carrying three Indian seafarers, was involved in a possible attack while transiting the Strait of Hormuz that day and that all three Indians and the entire crew were safe. The UK Maritime Trade Operations centre said the same day that it had received a report of an incident involving a tanker in the Strait of Hormuz, that it did not identify the tanker and that the crew's status, any damage and any environmental impact were not yet known. The corpus line \"3 Indian crew reported safe\" covered only those three men; the whole-vessel outcome is now recorded as no death reported and no injury reported. Iran's Revolutionary Guard said separately that a tanker caught fire after striking a naval mine in the east of the Strait of Hormuz; no source read here connects that claim to NCC FAJR, so it is not attributed to this vessel and the separate row that carries the Iranian claim stays apart from this one.",
+          "sources": [
+            {
+              "url": "https://www.aninews.in/news/world/middle-east/all-3-indian-nationals-safe-after-possible-attack-on-saudi-flagged-tanker-shipping-minister-sonowal20261111180139",
+              "source": "ANI, 11 November 2026, quoting Sarbananda Sonowal's post on X"
+            },
+            {
+              "url": "https://www.hindustantimes.com/world-news/us-iran-war-live-updates-irgc-donald-trump-marco-rubio-strait-of-hormuz-abbas-araghchi-qatar-mediation-peace-deal-saudi-101794360240894.html",
+              "source": "Reuters report carried by Hindustan Times, 11 November 2026: UKMTO report of an incident involving an unnamed tanker in the Strait of Hormuz"
+            },
+            {
+              "url": "https://economictimes.indiatimes.com/news/defence/iran-says-tanker-struck-mine-caught-fire-in-hormuz/articleshow/135730556.cms",
+              "source": "Iran's army statement carried by state television, reported by Agence France-Presse via The Economic Times, 11 November 2026: a violating oil tanker caught fire after striking a naval mine east of the Strait of Hormuz, no name given"
             }
           ]
         }
