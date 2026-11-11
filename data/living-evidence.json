@@ -20400,6 +20400,29 @@
           ]
         }
       ]
+    },
+    "INC-20261109-005": {
+      "verification": null,
+      "updates": [
+        {
+          "at": "2026-11-11T00:55:00Z",
+          "text": "Review of this row: it is not a new sinking on 9 November and the eleven is not a death count. The article behind it is the Verify-Sy report of the HS DIGNITY sinking, published on 13 October 2026 and sourced to the Syrian Seafarers Union and Agence France-Presse, which states that HS DIGNITY was sunk off Bulgaria by a drone and two unmanned surface vessels, that five of her 16 crew were rescued and that 11 remained missing. It names Krapets, the passage from Algeria to Braila and a crew of Syrian and Egyptian seafarers. That is the 13 October 2026 attack already held as INC-20261013-002, where Bulgaria's Ministry of Transport and Communications recorded six rescued and ten unaccounted for when the search ended. No sinking of a merchant ship off Bulgaria has been reported in November 2026. This row must not be counted as a separate attack dated 9 November, and the eleven stay a missing-persons figure: no body has been recovered from this sinking and no authority has published a death, so deaths remain unknown and not eleven. No verification is submitted.",
+          "sources": [
+            {
+              "url": "https://www.verify-sy.com/ar/topic/regional-global/newsroom/a-ship-sank-off-bulgaria-and",
+              "source": "Verify-Sy, 13 October 2026, quoting the Syrian Seafarers Union and Agence France-Presse: HS DIGNITY sank off Bulgaria after a drone and two unmanned surface vessel attack, five of 16 crew rescued, 11 missing, about 17 nautical miles east of Krapets while bound from Algeria for Braila"
+            },
+            {
+              "url": "https://www.afp.com/en/11-missing-after-ships-struck-bulgaria-latest-black-sea-attack",
+              "source": "Agence France-Presse, 13 October 2026: 11 missing after ships struck off Bulgaria"
+            },
+            {
+              "url": "https://apnews.com/article/bulgaria-black-sea-drones-ships-7dfef251fb7d47a717f0d600873dbf5b",
+              "source": "Associated Press, 13 October 2026: the Guinea-Bissau flagged cargo ship Dignity sank, five sailors rescued and a search continued for the other 11 crew"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -40179,6 +40202,36 @@
             {
               "url": "https://safety4sea.com/tanker-catches-fire-off-oman-as-iran-claims-fresh-attacks-on-gulf-shipping/",
               "source": "SAFETY4SEA, 22 October 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6783406123,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6783406123",
+      "author": "iMariner",
+      "received_at": "2026-11-11T00:39:11Z",
+      "incident_id": "INC-20261109-005",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261109-005",
+        "verification": null,
+        "update": {
+          "at": "2026-11-11T00:55:00Z",
+          "text": "Review of this row: it is not a new sinking on 9 November and the eleven is not a death count. The article behind it is the Verify-Sy report of the HS DIGNITY sinking, published on 13 October 2026 and sourced to the Syrian Seafarers Union and Agence France-Presse, which states that HS DIGNITY was sunk off Bulgaria by a drone and two unmanned surface vessels, that five of her 16 crew were rescued and that 11 remained missing. It names Krapets, the passage from Algeria to Braila and a crew of Syrian and Egyptian seafarers. That is the 13 October 2026 attack already held as INC-20261013-002, where Bulgaria's Ministry of Transport and Communications recorded six rescued and ten unaccounted for when the search ended. No sinking of a merchant ship off Bulgaria has been reported in November 2026. This row must not be counted as a separate attack dated 9 November, and the eleven stay a missing-persons figure: no body has been recovered from this sinking and no authority has published a death, so deaths remain unknown and not eleven. No verification is submitted.",
+          "sources": [
+            {
+              "url": "https://www.verify-sy.com/ar/topic/regional-global/newsroom/a-ship-sank-off-bulgaria-and",
+              "source": "Verify-Sy, 13 October 2026, quoting the Syrian Seafarers Union and Agence France-Presse: HS DIGNITY sank off Bulgaria after a drone and two unmanned surface vessel attack, five of 16 crew rescued, 11 missing, about 17 nautical miles east of Krapets while bound from Algeria for Braila"
+            },
+            {
+              "url": "https://www.afp.com/en/11-missing-after-ships-struck-bulgaria-latest-black-sea-attack",
+              "source": "Agence France-Presse, 13 October 2026: 11 missing after ships struck off Bulgaria"
+            },
+            {
+              "url": "https://apnews.com/article/bulgaria-black-sea-drones-ships-7dfef251fb7d47a717f0d600873dbf5b",
+              "source": "Associated Press, 13 October 2026: the Guinea-Bissau flagged cargo ship Dignity sank, five sailors rescued and a search continued for the other 11 crew"
             }
           ]
         }
