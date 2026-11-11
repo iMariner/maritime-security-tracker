@@ -20499,6 +20499,98 @@
           ]
         }
       ]
+    },
+    "INC-20261111-002": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://timesofindia.indiatimes.com/india/indian-seafarer-injured-as-projectile-hits-liberia-flagged-oil-tanker-in-persian-gulf/articleshow/135724389.cms",
+            "source": "The Times of India, 11 November 2026, quoting Union Minister Sarbananda Sonowal"
+          },
+          {
+            "url": "https://www.cnbctv18.com/india/indian-sailor-injured-as-projectile-hits-liberia-flagged-oil-tanker-in-persian-gulf-20031163.htm",
+            "source": "CNBC TV18, 11 November 2026"
+          }
+        ],
+        "nationalities": []
+      },
+      "human_impact": {
+        "injured": {
+          "count": 4,
+          "as_of": "2026-11-11",
+          "sources": [
+            {
+              "url": "https://timesofindia.indiatimes.com/india/indian-seafarer-injured-as-projectile-hits-liberia-flagged-oil-tanker-in-persian-gulf/articleshow/135724389.cms",
+              "source": "The Times of India, 11 November 2026"
+            },
+            {
+              "url": "https://www.khaleejtimes.com/world/gulf/tanker-hit-arabian-gulf-indian-seafarers-injured",
+              "source": "Khaleej Times, 11 November 2026"
+            }
+          ]
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-11T13:10:00Z",
+        "vessel_name": "FUJAIRAH ENERGY",
+        "imo": "9723071",
+        "date_utc": "2026-11-10",
+        "vessel_type": "Very large crude carrier (VLCC)",
+        "region": "Persian Gulf",
+        "location_text": "Persian Gulf, on passage from Al Ruwais, United Arab Emirates, to Dubai",
+        "attack_type": "Projectile strike, projectile type unidentified",
+        "summary": "FUJAIRAH ENERGY, a Liberia-flagged very large crude carrier, was hit by a projectile on 10 November 2026 while transiting the Persian Gulf from Al Ruwais in the United Arab Emirates to Dubai. India's Minister of Ports, Shipping and Waterways Sarbananda Sonowal said on 11 November that four crew members were injured, one of them an Indian national whose injuries were minor and who was taken ashore for medical examination, and that the remaining 18 crew, including the other five Indian seafarers, were safe and accounted for. Six of the crew were Indian. No death was reported and no group claimed the attack.",
+        "date_note": "The minister's post dates the attack to 10 November 2026 and the reports were published on 11 November, so the reviewed date is the day of the attack, not the day of publication. The corpus row was created from the first reports on 11 November.",
+        "sources": [
+          {
+            "url": "https://timesofindia.indiatimes.com/india/indian-seafarer-injured-as-projectile-hits-liberia-flagged-oil-tanker-in-persian-gulf/articleshow/135724389.cms",
+            "source": "The Times of India, 11 November 2026, quoting Union Minister Sarbananda Sonowal"
+          },
+          {
+            "url": "https://www.cnbctv18.com/india/indian-sailor-injured-as-projectile-hits-liberia-flagged-oil-tanker-in-persian-gulf-20031163.htm",
+            "source": "CNBC TV18, 11 November 2026, quoting the minister's post"
+          },
+          {
+            "url": "https://www.khaleejtimes.com/world/gulf/tanker-hit-arabian-gulf-indian-seafarers-injured",
+            "source": "Khaleej Times, 11 November 2026"
+          },
+          {
+            "url": "https://www.vesseltracker.com/en/Ships/Fujairah-Energy-9723071.html",
+            "source": "VesselTracker ship record for FUJAIRAH ENERGY, IMO 9723071, Liberia"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-11T13:10:00Z",
+          "text": "The corpus row had no vessel name, was dated 11 November and described all four injured crew as Indian. India's shipping minister named the ship as the Liberia-flagged VLCC MT FUJAIRAH ENERGY and dated the attack to 10 November, on passage from Al Ruwais to Dubai, so the reviewed date and identity are corrected here. One of the four injured was an Indian national with minor injuries, taken ashore for examination, and the remaining 18 crew including five other Indian seafarers were safe and accounted for; the casualty line is therefore corrected from four Indians injured to four injured, one of them Indian. No death is recorded, because every account accounts for the whole crew alive. The other three injured seafarers' nationalities are not established. Nationality here comes from the Indian government statement, never from the Liberian flag. Two further reports of 10 November are kept apart from this one: ADNOC Logistics and Services said an unnamed vessel of its own was damaged in UAE territorial waters, and UKMTO warning 201-26 reported a projectile strike on an unnamed tanker 19 nautical miles north-east of Lima, Oman. No source names either ship, so neither is merged with this record.",
+          "sources": [
+            {
+              "url": "https://timesofindia.indiatimes.com/india/indian-seafarer-injured-as-projectile-hits-liberia-flagged-oil-tanker-in-persian-gulf/articleshow/135724389.cms",
+              "source": "The Times of India, 11 November 2026"
+            },
+            {
+              "url": "https://www.cnbctv18.com/india/indian-sailor-injured-as-projectile-hits-liberia-flagged-oil-tanker-in-persian-gulf-20031163.htm",
+              "source": "CNBC TV18, 11 November 2026"
+            },
+            {
+              "url": "https://safety4sea.com/four-seafarers-injured-as-attacks-on-vessels-continue-in-the-persian-gulf/",
+              "source": "Safety4Sea, 11 November 2026"
+            },
+            {
+              "url": "https://adnocls.ae/en/news-and-media/press-releases/2026/november-10-statement",
+              "source": "ADNOC Logistics and Services statement, 10 November 2026"
+            },
+            {
+              "url": "https://gcaptain.com/adnoc-vessel-damaged-in-gulf-attack-as-ukmto-reports-fresh-tanker-strike-near-hormuz",
+              "source": "gCaptain, 10 November 2026, citing UKMTO warning 201-26"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -40492,6 +40584,105 @@
             {
               "url": "https://www.shipuniverse.com/news/adnoc-ship-damaged-in-uae-waters-as-tanker-takes-direct-hit-near-strait-of-hormuz/",
               "source": "Ship Universe, 10 November 2026: the ADNOC statement and UKMTO 201-26 cannot be matched because neither identifies a ship, and the two reports must be kept separate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6796600161,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6796600161",
+      "author": "iMariner",
+      "received_at": "2026-11-11T13:05:08Z",
+      "incident_id": "INC-20261111-002",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261111-002",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-11T13:10:00Z",
+          "vessel_name": "FUJAIRAH ENERGY",
+          "imo": "9723071",
+          "date_utc": "2026-11-10",
+          "vessel_type": "Very large crude carrier (VLCC)",
+          "region": "Persian Gulf",
+          "location_text": "Persian Gulf, on passage from Al Ruwais, United Arab Emirates, to Dubai",
+          "attack_type": "Projectile strike, projectile type unidentified",
+          "summary": "FUJAIRAH ENERGY, a Liberia-flagged very large crude carrier, was hit by a projectile on 10 November 2026 while transiting the Persian Gulf from Al Ruwais in the United Arab Emirates to Dubai. India's Minister of Ports, Shipping and Waterways Sarbananda Sonowal said on 11 November that four crew members were injured, one of them an Indian national whose injuries were minor and who was taken ashore for medical examination, and that the remaining 18 crew, including the other five Indian seafarers, were safe and accounted for. Six of the crew were Indian. No death was reported and no group claimed the attack.",
+          "date_note": "The minister's post dates the attack to 10 November 2026 and the reports were published on 11 November, so the reviewed date is the day of the attack, not the day of publication. The corpus row was created from the first reports on 11 November.",
+          "sources": [
+            {
+              "url": "https://timesofindia.indiatimes.com/india/indian-seafarer-injured-as-projectile-hits-liberia-flagged-oil-tanker-in-persian-gulf/articleshow/135724389.cms",
+              "source": "The Times of India, 11 November 2026, quoting Union Minister Sarbananda Sonowal"
+            },
+            {
+              "url": "https://www.cnbctv18.com/india/indian-sailor-injured-as-projectile-hits-liberia-flagged-oil-tanker-in-persian-gulf-20031163.htm",
+              "source": "CNBC TV18, 11 November 2026, quoting the minister's post"
+            },
+            {
+              "url": "https://www.khaleejtimes.com/world/gulf/tanker-hit-arabian-gulf-indian-seafarers-injured",
+              "source": "Khaleej Times, 11 November 2026"
+            },
+            {
+              "url": "https://www.vesseltracker.com/en/Ships/Fujairah-Energy-9723071.html",
+              "source": "VesselTracker ship record for FUJAIRAH ENERGY, IMO 9723071, Liberia"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://timesofindia.indiatimes.com/india/indian-seafarer-injured-as-projectile-hits-liberia-flagged-oil-tanker-in-persian-gulf/articleshow/135724389.cms",
+              "source": "The Times of India, 11 November 2026, quoting Union Minister Sarbananda Sonowal"
+            },
+            {
+              "url": "https://www.cnbctv18.com/india/indian-sailor-injured-as-projectile-hits-liberia-flagged-oil-tanker-in-persian-gulf-20031163.htm",
+              "source": "CNBC TV18, 11 November 2026"
+            }
+          ],
+          "nationalities": []
+        },
+        "human_impact": {
+          "injured": {
+            "count": 4,
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://timesofindia.indiatimes.com/india/indian-seafarer-injured-as-projectile-hits-liberia-flagged-oil-tanker-in-persian-gulf/articleshow/135724389.cms",
+                "source": "The Times of India, 11 November 2026"
+              },
+              {
+                "url": "https://www.khaleejtimes.com/world/gulf/tanker-hit-arabian-gulf-indian-seafarers-injured",
+                "source": "Khaleej Times, 11 November 2026"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-11-11T13:10:00Z",
+          "text": "The corpus row had no vessel name, was dated 11 November and described all four injured crew as Indian. India's shipping minister named the ship as the Liberia-flagged VLCC MT FUJAIRAH ENERGY and dated the attack to 10 November, on passage from Al Ruwais to Dubai, so the reviewed date and identity are corrected here. One of the four injured was an Indian national with minor injuries, taken ashore for examination, and the remaining 18 crew including five other Indian seafarers were safe and accounted for; the casualty line is therefore corrected from four Indians injured to four injured, one of them Indian. No death is recorded, because every account accounts for the whole crew alive. The other three injured seafarers' nationalities are not established. Nationality here comes from the Indian government statement, never from the Liberian flag. Two further reports of 10 November are kept apart from this one: ADNOC Logistics and Services said an unnamed vessel of its own was damaged in UAE territorial waters, and UKMTO warning 201-26 reported a projectile strike on an unnamed tanker 19 nautical miles north-east of Lima, Oman. No source names either ship, so neither is merged with this record.",
+          "sources": [
+            {
+              "url": "https://timesofindia.indiatimes.com/india/indian-seafarer-injured-as-projectile-hits-liberia-flagged-oil-tanker-in-persian-gulf/articleshow/135724389.cms",
+              "source": "The Times of India, 11 November 2026"
+            },
+            {
+              "url": "https://www.cnbctv18.com/india/indian-sailor-injured-as-projectile-hits-liberia-flagged-oil-tanker-in-persian-gulf-20031163.htm",
+              "source": "CNBC TV18, 11 November 2026"
+            },
+            {
+              "url": "https://safety4sea.com/four-seafarers-injured-as-attacks-on-vessels-continue-in-the-persian-gulf/",
+              "source": "Safety4Sea, 11 November 2026"
+            },
+            {
+              "url": "https://adnocls.ae/en/news-and-media/press-releases/2026/november-10-statement",
+              "source": "ADNOC Logistics and Services statement, 10 November 2026"
+            },
+            {
+              "url": "https://gcaptain.com/adnoc-vessel-damaged-in-gulf-attack-as-ukmto-reports-fresh-tanker-strike-near-hormuz",
+              "source": "gCaptain, 10 November 2026, citing UKMTO warning 201-26"
             }
           ]
         }
