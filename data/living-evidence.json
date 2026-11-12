@@ -20702,6 +20702,63 @@
           ]
         }
       ]
+    },
+    "INC-20261107-017": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://safety4sea.com/four-seafarers-injured-as-attacks-on-vessels-continue-in-the-persian-gulf/",
+            "source": "SAFETY4SEA, 11 November 2026, quoting the Philippines DMW and DZRH: all crew safe"
+          }
+        ],
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-12T01:21:49Z",
+        "vessel_name": "TARIF",
+        "imo": "9828390",
+        "date_utc": "2026-11-07",
+        "vessel_type": "Tanker",
+        "region": "Strait of Hormuz",
+        "summary": "TARIF, IMO 9828390, a Liberian-flagged Aframax tanker, was struck by a projectile while crossing the Strait of Hormuz on 7 November 2026. The IMO register of highlighted confirmed incidents, read on 11 November 2026, records the same hull and date as damaged with no pollution and gives no casualty figure. SAFETY4SEA reported on 11 November that her licensed manning agency told the Philippines Department of Migrant Workers, as carried by DZRH, that all crew were safe and that the tanker remained operational with its power and engine systems working normally. Trade reports call her a crude oil tanker, while the Department of Migrant Workers called the same ship a chemical tanker when 12 Filipino crew were repatriated after an August 2026 attack, so the reviewed type is left at Tanker.",
+        "sources": [
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9828390-2026-11-07",
+            "source": "IMO (confirmed incidents list), read 11 November 2026"
+          },
+          {
+            "url": "https://safety4sea.com/iran-claims-tanker-hit-mine-in-strait-of-hormuz/",
+            "source": "SAFETY4SEA, 11 November 2026, on the 7 November strike and the vessel's second attack of 2026"
+          },
+          {
+            "url": "https://safety4sea.com/four-seafarers-injured-as-attacks-on-vessels-continue-in-the-persian-gulf/",
+            "source": "SAFETY4SEA, 11 November 2026, quoting the Philippines DMW and DZRH on all crew safe"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-12T01:21:49Z",
+          "text": "First structured verification for the 7 November strike on TARIF. The IMO register names the hull, the date and the strait, and the manning agency statement carried through the Philippines Department of Migrant Workers establishes that no crew were killed, so deaths are recorded as zero on an explicit source rather than left unknown. Two points are recorded and left open. The vessel type is given as a crude oil tanker by trade outlets and as a chemical tanker by the Department of Migrant Workers on 27 August 2026 when 12 of her Filipino crew were repatriated, so the reviewed type stays at Tanker. The earlier attack on the same hull in August 2026, dated 14 August by Windward and 13 August by a Turkish shipping security brief, needs its own historical record once that date conflict is resolved, and it must not be merged into this row.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9828390-2026-11-07",
+              "source": "IMO (confirmed incidents list)"
+            },
+            {
+              "url": "https://safety4sea.com/four-seafarers-injured-as-attacks-on-vessels-continue-in-the-persian-gulf/",
+              "source": "SAFETY4SEA, 11 November 2026"
+            },
+            {
+              "url": "https://logisticsnews.ph/2026/08/27/dmw-welcomes-home-12-filipino-seafarers-repatriated-from-damaged-tanker-in-strait-of-hormuz/",
+              "source": "Logistics News PH, 27 August 2026, on the DMW repatriation of 12 crew from M/V Tarif"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -41021,6 +41078,70 @@
             {
               "url": "https://maritime-executive.com/article/adnoc-confirms-strike-on-tanker-in-uae-s-territorial-waters",
               "source": "The Maritime Executive, 10 November 2026: ADNOC Logistics and Services said one of its vessels was damaged in an attack on Tuesday afternoon within UAE territorial waters in the Arabian Gulf and did not name the ship"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6811564159,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6811564159",
+      "author": "iMariner",
+      "received_at": "2026-11-12T01:21:53Z",
+      "incident_id": "INC-20261107-017",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261107-017",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-12T01:21:49Z",
+          "vessel_name": "TARIF",
+          "imo": "9828390",
+          "date_utc": "2026-11-07",
+          "vessel_type": "Tanker",
+          "region": "Strait of Hormuz",
+          "summary": "TARIF, IMO 9828390, a Liberian-flagged Aframax tanker, was struck by a projectile while crossing the Strait of Hormuz on 7 November 2026. The IMO register of highlighted confirmed incidents, read on 11 November 2026, records the same hull and date as damaged with no pollution and gives no casualty figure. SAFETY4SEA reported on 11 November that her licensed manning agency told the Philippines Department of Migrant Workers, as carried by DZRH, that all crew were safe and that the tanker remained operational with its power and engine systems working normally. Trade reports call her a crude oil tanker, while the Department of Migrant Workers called the same ship a chemical tanker when 12 Filipino crew were repatriated after an August 2026 attack, so the reviewed type is left at Tanker.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9828390-2026-11-07",
+              "source": "IMO (confirmed incidents list), read 11 November 2026"
+            },
+            {
+              "url": "https://safety4sea.com/iran-claims-tanker-hit-mine-in-strait-of-hormuz/",
+              "source": "SAFETY4SEA, 11 November 2026, on the 7 November strike and the vessel's second attack of 2026"
+            },
+            {
+              "url": "https://safety4sea.com/four-seafarers-injured-as-attacks-on-vessels-continue-in-the-persian-gulf/",
+              "source": "SAFETY4SEA, 11 November 2026, quoting the Philippines DMW and DZRH on all crew safe"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://safety4sea.com/four-seafarers-injured-as-attacks-on-vessels-continue-in-the-persian-gulf/",
+              "source": "SAFETY4SEA, 11 November 2026, quoting the Philippines DMW and DZRH: all crew safe"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-12T01:21:49Z",
+          "text": "First structured verification for the 7 November strike on TARIF. The IMO register names the hull, the date and the strait, and the manning agency statement carried through the Philippines Department of Migrant Workers establishes that no crew were killed, so deaths are recorded as zero on an explicit source rather than left unknown. Two points are recorded and left open. The vessel type is given as a crude oil tanker by trade outlets and as a chemical tanker by the Department of Migrant Workers on 27 August 2026 when 12 of her Filipino crew were repatriated, so the reviewed type stays at Tanker. The earlier attack on the same hull in August 2026, dated 14 August by Windward and 13 August by a Turkish shipping security brief, needs its own historical record once that date conflict is resolved, and it must not be merged into this row.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9828390-2026-11-07",
+              "source": "IMO (confirmed incidents list)"
+            },
+            {
+              "url": "https://safety4sea.com/four-seafarers-injured-as-attacks-on-vessels-continue-in-the-persian-gulf/",
+              "source": "SAFETY4SEA, 11 November 2026"
+            },
+            {
+              "url": "https://logisticsnews.ph/2026/08/27/dmw-welcomes-home-12-filipino-seafarers-repatriated-from-damaged-tanker-in-strait-of-hormuz/",
+              "source": "Logistics News PH, 27 August 2026, on the DMW repatriation of 12 crew from M/V Tarif"
             }
           ]
         }
