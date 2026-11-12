@@ -1,6 +1,100 @@
 [
   {
     "region": "Black Sea",
+    "date_utc": "2026-11-12",
+    "summary": "A Qatari outlet headline says Russia announced it struck a cargo vessel in the Black Sea. No vessel name, position, weapon type, damage or casualty details are given, and the claim is Russia's alone.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 26.0,
+    "lon": 51.9,
+    "location_text": "Black Sea",
+    "attack_type": "other",
+    "damage": "Russia's defence ministry said the dry cargo vessel was struck; no damage details given",
+    "casualties": null,
+    "attribution_claimed": "Russia (announced by Russia)",
+    "independent_evidence": false,
+    "id": "INC-20261112-001",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOWlViRU1mdFE2NEFIMjg2aFFiZ3hCWWczZ2xqbm9uT2ZkeU02X1BmSkh2Uzg2bVI3U1RKVk5Qc2NyVGFORU9aRk5yZzMxSHVyRUZjUHlqeDBfOTQyR3FqUVNXMlc4MXQ1M0x3emxvdkpsZ0dFM3VkQVpBNmdwclZmR3BGTHJfRTZzVmhPaGtuSFA4Znd1bVNESXlmMmcweDFzc0l5b0ctQlBZTzlpR25FdmRxMUhMV3pYNmJxR3VDVEtCajBNTUNPejBSa1Rra0VRbmlkVDN4MlBlck5SQTM0OG1COFhnbmpjWmR5QjBpN0JpVWJCRDYtV0xadWp4RFJzMHZMYk9Td0dLc2RJYTdtOE10QUFnTElV?oc=5",
+        "source": "مرسال قطر",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-12T10:30:00Z",
+        "title": "روسيا تعلن استهداف سفينة شحن في البحر الأسود - مرسال قطر"
+      },
+      {
+        "url": "https://t.me/dva_majors/101881",
+        "source": "Dva Mayora",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "osint",
+        "published_at": "2026-11-12T06:10:39+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/68950",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-12T06:09:26+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNekNYNURMek40aXpSclczRjl0NFNWX2NhTmNiUUlHdGZOR3Q5VlhNVnJSY3dsOW1TamU1WlJuYkpCZVAwbjM4bDhMVU44azdhSGRRZjBNR2E0eDNzWGNncVhranl4MXZpNC1CeFJ5ck80czNwSGl4THd6NGM3Z29xREh5SXJBVHR1WDBWRkp6ajJmUQ?oc=5",
+        "source": "Breakingthenews.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-12T05:45:00Z",
+        "title": "Russia hits Kyiv infrastructure, Odessa ship - Breakingthenews.net"
+      },
+      {
+        "url": "https://t.me/rian_ru/349594",
+        "source": "RIA Novosti",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-11-12T04:55:42+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/68948",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-12T04:54:01+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVEpRQnU2cDdCU3RUaFhkTW4xQ1ZLdWxIZjR4Um9OSzNKM3pJY2RHWE45cEIwV2ZxM1MzWnNsWHZ4RkhqaWZQWWFoNnhJS3JEVGc3OFdHQ0lrVGlSbFBTZ3FMNncxZEQyTXNIbEJidVVQUlJTSnBEMmRUVHBvdGRBQlpyQ2plMF9WWnhjR2VrWnF2TU5VMEdrcE5R?oc=5",
+        "source": "Военное дело",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-12T04:20:34Z",
+        "title": "Russian Strikes Hit Drone Plants, Power Sites and Ship - Военное дело"
+      }
+    ],
+    "first_seen": "2026-11-12T11:45:22Z",
+    "last_updated": "2026-11-12T11:45:36Z",
+    "verification_issue": 382,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
     "date_utc": "2026-11-11",
     "summary": "Russia's defence ministry claimed its overnight drone strikes hit a dry cargo vessel south-west of Odesa in the Black Sea carrying weapons and military equipment for Ukraine's armed forces. The report repeats the ministry's statement without independent confirmation or vessel details.",
     "official_source_cited": "India's Ministry of External Affairs (MEA)",
@@ -151,7 +245,7 @@
     "summary": "A Liberia-flagged oil tanker bound for Dubai with six Indian seafarers was hit by a projectile in the Persian Gulf on 11 November, injuring four crew according to Indian officials and media. A separate headline reported a tanker catching fire after hitting a sea mine east of the Strait of Hormuz, an Iranian naval claim with no vessel name or position.",
     "official_source_cited": "Iranian Naval Forces",
     "conflicting": true,
-    "confidence": 0.6,
+    "confidence": 0.75,
     "vessel_name": "FUJAIRAH ENERGY",
     "imo": "9723071",
     "flag": "Liberia",
@@ -164,7 +258,7 @@
     "damage": "tanker caught fire",
     "casualties": "Four Indian crew members injured",
     "attribution_claimed": null,
-    "independent_evidence": false,
+    "independent_evidence": true,
     "id": "INC-20261111-002",
     "sources": [
       {
@@ -292,10 +386,37 @@
         "kind": "verification",
         "published_at": "2026-11-12T04:32:46Z",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeDg5X292XzhoSG9weEJBQTBxallKYXlqQ0p4XzVsM3Q3Skl4MU9iWjJERkJqaTZGc3VNSnp4dElQQU81clVXOWllWkZlanBueUJqemtsNGM2RzZ6RDBiT0tXaUxfSlNCcS11TldlcG9QekFBYk5Jd0lFV3hkbmdFbzlaQkpfdWVxdG1GWDBB?oc=5",
+        "source": "INDToday",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-11T09:57:01Z",
+        "title": "Indian Seafarer Injured as Projectile Hits Ship in Persian Gulf - INDToday"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTmFNTVJjN2JodFYwRkxESFh6ZmY3d3BwYnV4cTJ2V2Z4YlB3Q1p5aDQ4ZUJaNGRmaVZkVGJ1d01ieVlBajhHWEdiQVI5anRRN0thRG1XSzZqZVdOS3RYSEFNWFAtSGhQYl9kMzZZS1dUNTZabThnYmQtaTVkdkdqd1h5Z3NNYXBVaFl6VUdGdFZMQi1Yckc4ZnVzNGpnS3dqMGhEQnduY3ROUk1veFN6MXNlNXlrelBL?oc=5",
+        "source": "Telangana Today",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-11T05:56:09Z",
+        "title": "Indian seafarer among four injured as projectile hits Liberia-flagged ship in Persian Gulf - Telangana Today"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNYWp3dTFzUDE3Qk1zNjVZcGpjYWlsOUhwd0xyQXZaa3pRZnFmVmF1UzBmbmdZY1JLZTlobDAtTlJVOW42OW5FeW9ZaDYxVV8wU0ZKaGpfZ0tHVlYzRGtNakdVdldzcGdlSzRlckkxLUV6WkRLUU14dXpHODlEel9kNlk5d2xuMTR1UE1jblBBWk9XQUlPakIwLXBvTEYyaENfbC1EM1hCQmFaUldhN3M0Y1N2RXRUSGhsMks1MW1uM3N0SHpMdEVidmpSejJGSmRsbEFVQno5Z3lCcEd2Mmd6UzN4bUlIa0UzelhhNXBRRFItSVJMV2tkOURR0gH6AUFVX3lxTE1hand1MXNQMTdCTXM2NVlwamNhaWw5SHB3THJBdlprelFmcWZWYXVTMGZuZ1ljUktlOWhsMC1OUlU5bjY5bkV5b1loNjFVXzBTRkpoal9nS0dWVjNEa01qR1V2V3NwZ2VLNGVySTEtRXpaREtRTXh1ekc4OUR6X2Q2WTl3bG4xNHVQTWNuUEFaT1dBSU9qQjAtcG9MRjJoQ19sLUQzWEJCYVpSV2E3czRjU3ZFdFRIaGwySzUxbW4zc3RIekx0RWJ2alJ6MkZKZGxsQVVCejlneUJwR3YyZ3pTM3htSUhrRTN6WGE1cFFEUi1JUkxXa2Q5RFE?oc=5",
+        "source": "Devdiscourse",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-11T04:22:52Z",
+        "title": "Liberia-flagged tanker carrying 6 Indians seafarers attacked in Persian Gulf, one Indian injured: Sonowal - Devdiscourse"
       }
     ],
     "first_seen": "2026-11-11T07:00:12Z",
-    "last_updated": "2026-11-12T04:32:46Z",
+    "last_updated": "2026-11-12T11:45:39Z",
     "verification_issue": 377,
     "verdict": {
       "status": "reported",
@@ -560,7 +681,7 @@
     "damage": null,
     "casualties": "three Indian seafarers reported safe",
     "attribution_claimed": "Iran claimed two ships were struck",
-    "independent_evidence": false,
+    "independent_evidence": true,
     "id": "INC-20261111-006",
     "sources": [
       {
@@ -697,10 +818,19 @@
         "kind": "verification",
         "published_at": "2026-11-12T04:32:44Z",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQekV3emo4MWxsWWFrZkpPYlZWdnhJeHpCMVBJdGNsQ3dEYzYwNEMwLTRTMEw3M2wyZ2hSQ2hmRHpJR2w2cWt1RXVwX0x1Y2E2ZnN4cEZKRUtVM3hCSTl0UE9DRTlfT2JuOVFtbExhbjFWRXBkbktKaU5sTzRFeU1ZMi1aa0VZZl9BTzdEaklaTW1aOWEyN3ZYSTRKSVFWcVo0OVd0ak90NmVPQ1hnNHl6cURFaG1tUDVQeTYxaHpmM200U2ZRWUJzZTR5Y3FsWDNYOHR2LURtaDdnMDI2WmtGZVRKUzN6cm9RdkliRzVkOTc?oc=5",
+        "source": "ANI News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-11T12:31:00Z",
+        "title": "\"All 3 Indian nationals\" safe after \"possible\" attack on Saudi-flagged tanker: Shipping Minister Sonowal - ANI News"
       }
     ],
     "first_seen": "2026-11-11T22:14:27Z",
-    "last_updated": "2026-11-12T04:32:44Z",
+    "last_updated": "2026-11-12T11:45:36Z",
     "verification_issue": 380,
     "verdict": {
       "status": "claimed",
@@ -859,6 +989,47 @@
     "status": "rejected",
     "position_approx": true,
     "status_changed_at": "2026-11-12T04:32:43Z"
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-11-11",
+    "summary": "Seatrade Maritime reports four injured on a Sinokor VLCC as multiple tankers were attacked in the Strait of Hormuz, saying Iran continues daily attacks on commercial shipping. The vessel is not named and no position or weapon details are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": "four injured",
+    "attribution_claimed": "Iran",
+    "independent_evidence": false,
+    "id": "INC-20261111-010",
+    "sources": [
+      {
+        "url": "https://www.seatrade-maritime.com/security/four-injured-on-sinokor-vlcc-as-multiple-tankers-attacked-in-hormuz",
+        "source": "Seatrade Maritime",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-12T03:14:44Z",
+        "title": "Four injured on Sinokor VLCC as multiple tankers attacked in Hormuz"
+      }
+    ],
+    "first_seen": "2026-11-12T11:45:36Z",
+    "last_updated": "2026-11-12T11:45:39Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261110-006",
+    "position_approx": true
   },
   {
     "region": "Black Sea",
@@ -1589,10 +1760,28 @@
         "kind": "media",
         "published_at": "2026-11-11T18:39:30Z",
         "title": "Tanker caught fire in Hormuz: Iran - MillenniumPost"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBrcXJfdjd2YVhNRUxrek80Qmd1ZFJ3YjFkb3M1Y0xmNlFZZEdIQzJmb0QwNHpaNGNEUHZ4NlRxMjFBUUpuRHp2LUs0OS1HQVRfcmRzbExLWk1mTFdLV0VF?oc=5",
+        "source": "Yemen Online",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-11T19:18:16Z",
+        "title": "UKMTO: Oil Tanker Hit by Projectile Off Oman - Yemen Online"
+      },
+      {
+        "url": "https://www.seatrade-maritime.com/security/four-injured-on-sinokor-vlcc-as-multiple-tankers-attacked-in-hormuz",
+        "source": "Seatrade Maritime",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-12T03:14:44Z",
+        "title": "Four injured on Sinokor VLCC as multiple tankers attacked in Hormuz"
       }
     ],
     "first_seen": "2026-11-10T18:09:58Z",
-    "last_updated": "2026-11-11T22:14:42Z",
+    "last_updated": "2026-11-12T11:45:39Z",
     "verification_issue": 372,
     "verdict": {
       "status": "confirmed",
