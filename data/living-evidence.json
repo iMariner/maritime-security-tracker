@@ -6097,20 +6097,22 @@
     "HIST-BS-20250311-MJ-PINAR": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T03:06:19.845439+00:00",
+        "checked_at": "2026-11-12T13:48:00Z",
         "vessel_name": "MJ PINAR",
         "date_utc": "2025-03-11",
-        "vessel_type": "bulk carrier",
+        "vessel_type": "Bulk carrier",
         "region": "Black Sea",
-        "summary": "Ukraine’s submission A34/23/2 to IMO lists MJ PINAR as damaged in an attack on 2025-03-11. The annex identifies four Syrian crew members killed. Shore casualties are not included in this seafarer count.",
+        "imo": "9406051",
+        "location_text": "Odesa Sea Port, Ukraine",
+        "attack_type": "Ballistic missile strike on the port berth at which the ship was loading",
+        "date_note": "The annex gives 20:17 local time on 11 March 2025 at Odesa Sea Port. Day precision only; no UTC conversion is asserted.",
+        "summary": "Ukraine's submission A34/23/2 to the IMO Assembly records in annex entry 23 that the Barbados flagged bulk carrier MJ PINAR, IMO 9406051, was loading wheat at Odesa Sea Port at 20:17 on 11 March 2025 when a ballistic missile strike damaged her hull and knocked out her portholes. The same entry records four people killed, all crew members and Syrian citizens, and two people injured, one watchman and one crew member. Port-worker casualties are not counted as seafarers here.",
         "sources": [
           {
             "url": "https://data.consilium.europa.eu/doc/document/WK-15310-2025-INIT/en/pdf",
-            "source": "Ukraine submission A34/23/2 hosted Council EU",
-            "source_type": "primary government submission"
+            "source": "Ukraine's submission to the 34th IMO Assembly, A 34/23/2, annex entry 23, circulated by the Council of the EU as WK 15310/2025 and read again on 12 November 2026: bulk carrier MJ PINAR, IMO 9406051, flag Barbados, Odesa Sea Port, 20:17 on 11 March 2025, ballistic missile, hull shrapnel damage and portholes knocked out, four people killed, all crew members and Syrian citizens, two injured, one watchman and one crew member"
           }
-        ],
-        "imo": "9406051"
+        ]
       },
       "casualties": {
         "status": "confirmed",
@@ -6118,24 +6120,54 @@
         "sources": [
           {
             "url": "https://data.consilium.europa.eu/doc/document/WK-15310-2025-INIT/en/pdf",
-            "source": "Ukraine submission A34/23/2 hosted Council EU",
-            "source_type": "primary government submission"
+            "source": "Ukraine's submission to the 34th IMO Assembly, A 34/23/2, annex entry 23, circulated by the Council of the EU as WK 15310/2025 and read again on 12 November 2026: bulk carrier MJ PINAR, IMO 9406051, flag Barbados, Odesa Sea Port, 20:17 on 11 March 2025, ballistic missile, hull shrapnel damage and portholes knocked out, four people killed, all crew members and Syrian citizens, two injured, one watchman and one crew member"
           }
         ],
         "nationalities": [
           {
             "nationality": "Syrian",
+            "status": "confirmed",
             "deaths": 4,
             "sources": [
-              "https://data.consilium.europa.eu/doc/document/WK-15310-2025-INIT/en/pdf"
-            ],
-            "status": "confirmed"
+              {
+                "url": "https://data.consilium.europa.eu/doc/document/WK-15310-2025-INIT/en/pdf",
+                "source": "Ukraine's submission to the 34th IMO Assembly, A 34/23/2, annex entry 23, circulated by the Council of the EU as WK 15310/2025 and read again on 12 November 2026: bulk carrier MJ PINAR, IMO 9406051, flag Barbados, Odesa Sea Port, 20:17 on 11 March 2025, ballistic missile, hull shrapnel damage and portholes knocked out, four people killed, all crew members and Syrian citizens, two injured, one watchman and one crew member"
+              }
+            ]
           }
         ]
       },
       "audit_notes": [
         "Annex entry 23 four Syrian crew killed",
         "Attack account attributed to the government submission; not a claim that this is a complete regional list. Port-worker casualties excluded."
+      ],
+      "human_impact": {
+        "injured": {
+          "count": 1,
+          "as_of": "2025-03-11",
+          "sources": [
+            {
+              "url": "https://data.consilium.europa.eu/doc/document/WK-15310-2025-INIT/en/pdf",
+              "source": "Ukraine's submission to the 34th IMO Assembly, A 34/23/2, annex entry 23, circulated by the Council of the EU as WK 15310/2025 and read again on 12 November 2026: bulk carrier MJ PINAR, IMO 9406051, flag Barbados, Odesa Sea Port, 20:17 on 11 March 2025, ballistic missile, hull shrapnel damage and portholes knocked out, four people killed, all crew members and Syrian citizens, two injured, one watchman and one crew member"
+            }
+          ]
+        }
+      },
+      "updates": [
+        {
+          "at": "2026-11-12T13:48:00Z",
+          "text": "Checked again on 12 November 2026 against the primary document. Entry 23 of the annex to Ukraine's submission A34/23/2 places the strike at 20:17 on 11 March 2025 in Odesa Sea Port and states that four people were killed, all of them crew members and Syrian citizens, and that two were injured, one watchman and one crew member. The watchman is not identified as a seafarer in the annex, so the injured snapshot added here counts one crew member and excludes the watchman, and it is not added to any death figure. The nationality attribution is left as recorded, four dead attributed to Syrian nationality on the annex's explicit wording, but a later revision of the Ukrainian monitoring group's database, published on 11 December 2025, states that the four dead were three Syrians and one Ukrainian with another sailor and a pilot company employee injured. No source read here reconciles the two accounts, the total of four is common to both, and the discrepancy is recorded for review rather than used to change the count. No new attack is asserted and no second strike is implied.",
+          "sources": [
+            {
+              "url": "https://data.consilium.europa.eu/doc/document/WK-15310-2025-INIT/en/pdf",
+              "source": "Ukraine's submission to the 34th IMO Assembly, A 34/23/2, annex entry 23, circulated by the Council of the EU as WK 15310/2025 and read again on 12 November 2026: bulk carrier MJ PINAR, IMO 9406051, flag Barbados, Odesa Sea Port, 20:17 on 11 March 2025, ballistic missile, hull shrapnel damage and portholes knocked out, four people killed, all crew members and Syrian citizens, two injured, one watchman and one crew member"
+            },
+            {
+              "url": "https://blackseanews.net/en/read/239081",
+              "source": "BlackSeaNews and the Black Sea Institute for Strategic Studies, database of Russian attacks on Black Sea ports January-November 2025, 11 December 2025 revision: MJ Pinar, Barbados flagged, four crew members killed, three Syrians and one Ukrainian, another sailor and a pilot company employee injured"
+            }
+          ]
+        }
       ]
     },
     "HIST-BS-20250311-ARKOS": {
@@ -41983,6 +42015,128 @@
             {
               "url": "https://www.tradewindsnews.com/tankers/remains-of-six-seafarers-found-on-tanker-bombed-in-the-black-sea/2-1-2071734",
               "source": "TradeWinds, November 2026: remains of six seafarers found on the tanker; seven of twelve crew were reported missing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6825221449,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6825221449",
+      "author": "iMariner",
+      "received_at": "2026-11-12T13:41:27Z",
+      "incident_id": "HIST-BS-20250311-MJ-PINAR",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T03:06:19.845439+00:00",
+          "vessel_name": "MJ PINAR",
+          "date_utc": "2025-03-11",
+          "vessel_type": "bulk carrier",
+          "region": "Black Sea",
+          "summary": "Ukraine’s submission A34/23/2 to IMO lists MJ PINAR as damaged in an attack on 2025-03-11. The annex identifies four Syrian crew members killed. Shore casualties are not included in this seafarer count.",
+          "sources": [
+            {
+              "url": "https://data.consilium.europa.eu/doc/document/WK-15310-2025-INIT/en/pdf",
+              "source": "Ukraine submission A34/23/2 hosted Council EU",
+              "source_type": "primary government submission"
+            }
+          ],
+          "imo": "9406051"
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 4,
+          "sources": [
+            {
+              "url": "https://data.consilium.europa.eu/doc/document/WK-15310-2025-INIT/en/pdf",
+              "source": "Ukraine submission A34/23/2 hosted Council EU",
+              "source_type": "primary government submission"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Syrian",
+              "deaths": 4,
+              "sources": [
+                "https://data.consilium.europa.eu/doc/document/WK-15310-2025-INIT/en/pdf"
+              ],
+              "status": "confirmed"
+            }
+          ]
+        },
+        "audit_notes": [
+          "Annex entry 23 four Syrian crew killed",
+          "Attack account attributed to the government submission; not a claim that this is a complete regional list. Port-worker casualties excluded."
+        ]
+      },
+      "change": {
+        "incident_id": "HIST-BS-20250311-MJ-PINAR",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-12T13:48:00Z",
+          "vessel_name": "MJ PINAR",
+          "date_utc": "2025-03-11",
+          "vessel_type": "Bulk carrier",
+          "region": "Black Sea",
+          "imo": "9406051",
+          "location_text": "Odesa Sea Port, Ukraine",
+          "attack_type": "Ballistic missile strike on the port berth at which the ship was loading",
+          "date_note": "The annex gives 20:17 local time on 11 March 2025 at Odesa Sea Port. Day precision only; no UTC conversion is asserted.",
+          "summary": "Ukraine's submission A34/23/2 to the IMO Assembly records in annex entry 23 that the Barbados flagged bulk carrier MJ PINAR, IMO 9406051, was loading wheat at Odesa Sea Port at 20:17 on 11 March 2025 when a ballistic missile strike damaged her hull and knocked out her portholes. The same entry records four people killed, all crew members and Syrian citizens, and two people injured, one watchman and one crew member. Port-worker casualties are not counted as seafarers here.",
+          "sources": [
+            {
+              "url": "https://data.consilium.europa.eu/doc/document/WK-15310-2025-INIT/en/pdf",
+              "source": "Ukraine's submission to the 34th IMO Assembly, A 34/23/2, annex entry 23, circulated by the Council of the EU as WK 15310/2025 and read again on 12 November 2026: bulk carrier MJ PINAR, IMO 9406051, flag Barbados, Odesa Sea Port, 20:17 on 11 March 2025, ballistic missile, hull shrapnel damage and portholes knocked out, four people killed, all crew members and Syrian citizens, two injured, one watchman and one crew member"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 4,
+          "sources": [
+            {
+              "url": "https://data.consilium.europa.eu/doc/document/WK-15310-2025-INIT/en/pdf",
+              "source": "Ukraine's submission to the 34th IMO Assembly, A 34/23/2, annex entry 23, circulated by the Council of the EU as WK 15310/2025 and read again on 12 November 2026: bulk carrier MJ PINAR, IMO 9406051, flag Barbados, Odesa Sea Port, 20:17 on 11 March 2025, ballistic missile, hull shrapnel damage and portholes knocked out, four people killed, all crew members and Syrian citizens, two injured, one watchman and one crew member"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Syrian",
+              "status": "confirmed",
+              "deaths": 4,
+              "sources": [
+                {
+                  "url": "https://data.consilium.europa.eu/doc/document/WK-15310-2025-INIT/en/pdf",
+                  "source": "Ukraine's submission to the 34th IMO Assembly, A 34/23/2, annex entry 23, circulated by the Council of the EU as WK 15310/2025 and read again on 12 November 2026: bulk carrier MJ PINAR, IMO 9406051, flag Barbados, Odesa Sea Port, 20:17 on 11 March 2025, ballistic missile, hull shrapnel damage and portholes knocked out, four people killed, all crew members and Syrian citizens, two injured, one watchman and one crew member"
+                }
+              ]
+            }
+          ]
+        },
+        "human_impact": {
+          "injured": {
+            "count": 1,
+            "as_of": "2025-03-11",
+            "sources": [
+              {
+                "url": "https://data.consilium.europa.eu/doc/document/WK-15310-2025-INIT/en/pdf",
+                "source": "Ukraine's submission to the 34th IMO Assembly, A 34/23/2, annex entry 23, circulated by the Council of the EU as WK 15310/2025 and read again on 12 November 2026: bulk carrier MJ PINAR, IMO 9406051, flag Barbados, Odesa Sea Port, 20:17 on 11 March 2025, ballistic missile, hull shrapnel damage and portholes knocked out, four people killed, all crew members and Syrian citizens, two injured, one watchman and one crew member"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-11-12T13:48:00Z",
+          "text": "Checked again on 12 November 2026 against the primary document. Entry 23 of the annex to Ukraine's submission A34/23/2 places the strike at 20:17 on 11 March 2025 in Odesa Sea Port and states that four people were killed, all of them crew members and Syrian citizens, and that two were injured, one watchman and one crew member. The watchman is not identified as a seafarer in the annex, so the injured snapshot added here counts one crew member and excludes the watchman, and it is not added to any death figure. The nationality attribution is left as recorded, four dead attributed to Syrian nationality on the annex's explicit wording, but a later revision of the Ukrainian monitoring group's database, published on 11 December 2025, states that the four dead were three Syrians and one Ukrainian with another sailor and a pilot company employee injured. No source read here reconciles the two accounts, the total of four is common to both, and the discrepancy is recorded for review rather than used to change the count. No new attack is asserted and no second strike is implied.",
+          "sources": [
+            {
+              "url": "https://data.consilium.europa.eu/doc/document/WK-15310-2025-INIT/en/pdf",
+              "source": "Ukraine's submission to the 34th IMO Assembly, A 34/23/2, annex entry 23, circulated by the Council of the EU as WK 15310/2025 and read again on 12 November 2026: bulk carrier MJ PINAR, IMO 9406051, flag Barbados, Odesa Sea Port, 20:17 on 11 March 2025, ballistic missile, hull shrapnel damage and portholes knocked out, four people killed, all crew members and Syrian citizens, two injured, one watchman and one crew member"
+            },
+            {
+              "url": "https://blackseanews.net/en/read/239081",
+              "source": "BlackSeaNews and the Black Sea Institute for Strategic Studies, database of Russian attacks on Black Sea ports January-November 2025, 11 December 2025 revision: MJ Pinar, Barbados flagged, four crew members killed, three Syrians and one Ukrainian, another sailor and a pilot company employee injured"
             }
           ]
         }
