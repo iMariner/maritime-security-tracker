@@ -20759,6 +20759,56 @@
           ]
         }
       ]
+    },
+    "INC-20260908-001": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/update-095-jmic-advisory-note-10-september.pdf",
+            "source": "JMIC advisory update 095: crew abandoned to a life raft and were recovered safely to a bunker barge"
+          }
+        ],
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-12T01:22:44Z",
+        "vessel_name": "HORIZON 1",
+        "imo": "9130456",
+        "date_utc": "2026-09-08",
+        "vessel_type": "LPG tanker",
+        "region": "Gulf of Oman",
+        "location_text": "International waters, 38 nautical miles north-east of Dibba, United Arab Emirates",
+        "summary": "HORIZON 1, IMO 9130456, an LPG tanker, was struck by a projectile on her stern at 20:05 UTC on 8 September 2026 in international waters 38 nautical miles north-east of Dibba, United Arab Emirates. UKMTO warning 128-26, as repeated in JMIC advisory update 095 dated 10 September 2026, records that the managers reported a fire which spread to the accommodation block, that the vessel anchored with 3,177 tonnes of LPG on board, and that the crew abandoned to a life raft and were recovered safely to a bunker barge. The same advisory records that US forces directed the crew to abandon ship before the strike and that CENTCOM stated the vessel was one of several subjected to disabling action by US military forces. The IMO register lists the same hull, date and position as damaged with no pollution.",
+        "sources": [
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9130456-2026-09-08",
+            "source": "IMO (confirmed incidents list), read 11 November 2026"
+          },
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/update-095-jmic-advisory-note-10-september.pdf",
+            "source": "UKMTO warning 128-26 as repeated in JMIC advisory update 095, 10 September 2026"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-12T01:22:44Z",
+          "text": "First structured verification for HORIZON 1. UKMTO 128-26 and the JMIC advisory fix the time, the projectile hit on the stern, the fire in the accommodation block, the LPG cargo and the safe recovery of the crew, so deaths are recorded as zero on an explicit source. Two corrections to the corpus row follow. The region is the Gulf of Oman, where UKMTO lists the incident and where 38 nautical miles north-east of Dibba places it, not the Strait of Hormuz. The disabling action is attributed by CENTCOM to US military forces enforcing the blockade, not to an Iranian attack, and the row should not be read as an attack on neutral shipping.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-095-jmic-advisory-note-10-september.pdf",
+              "source": "JMIC advisory update 095, 10 September 2026, recording UKMTO 128-26 and the CENTCOM statement"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9130456-2026-09-08",
+              "source": "IMO (confirmed incidents list)"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -41142,6 +41192,63 @@
             {
               "url": "https://logisticsnews.ph/2026/08/27/dmw-welcomes-home-12-filipino-seafarers-repatriated-from-damaged-tanker-in-strait-of-hormuz/",
               "source": "Logistics News PH, 27 August 2026, on the DMW repatriation of 12 crew from M/V Tarif"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6811578432,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6811578432",
+      "author": "iMariner",
+      "received_at": "2026-11-12T01:22:45Z",
+      "incident_id": "INC-20260908-001",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20260908-001",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-12T01:22:44Z",
+          "vessel_name": "HORIZON 1",
+          "imo": "9130456",
+          "date_utc": "2026-09-08",
+          "vessel_type": "LPG tanker",
+          "region": "Gulf of Oman",
+          "location_text": "International waters, 38 nautical miles north-east of Dibba, United Arab Emirates",
+          "summary": "HORIZON 1, IMO 9130456, an LPG tanker, was struck by a projectile on her stern at 20:05 UTC on 8 September 2026 in international waters 38 nautical miles north-east of Dibba, United Arab Emirates. UKMTO warning 128-26, as repeated in JMIC advisory update 095 dated 10 September 2026, records that the managers reported a fire which spread to the accommodation block, that the vessel anchored with 3,177 tonnes of LPG on board, and that the crew abandoned to a life raft and were recovered safely to a bunker barge. The same advisory records that US forces directed the crew to abandon ship before the strike and that CENTCOM stated the vessel was one of several subjected to disabling action by US military forces. The IMO register lists the same hull, date and position as damaged with no pollution.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9130456-2026-09-08",
+              "source": "IMO (confirmed incidents list), read 11 November 2026"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-095-jmic-advisory-note-10-september.pdf",
+              "source": "UKMTO warning 128-26 as repeated in JMIC advisory update 095, 10 September 2026"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-095-jmic-advisory-note-10-september.pdf",
+              "source": "JMIC advisory update 095: crew abandoned to a life raft and were recovered safely to a bunker barge"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-12T01:22:44Z",
+          "text": "First structured verification for HORIZON 1. UKMTO 128-26 and the JMIC advisory fix the time, the projectile hit on the stern, the fire in the accommodation block, the LPG cargo and the safe recovery of the crew, so deaths are recorded as zero on an explicit source. Two corrections to the corpus row follow. The region is the Gulf of Oman, where UKMTO lists the incident and where 38 nautical miles north-east of Dibba places it, not the Strait of Hormuz. The disabling action is attributed by CENTCOM to US military forces enforcing the blockade, not to an Iranian attack, and the row should not be read as an attack on neutral shipping.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-095-jmic-advisory-note-10-september.pdf",
+              "source": "JMIC advisory update 095, 10 September 2026, recording UKMTO 128-26 and the CENTCOM statement"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9130456-2026-09-08",
+              "source": "IMO (confirmed incidents list)"
             }
           ]
         }
