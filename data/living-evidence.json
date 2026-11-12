@@ -5268,22 +5268,97 @@
     "HIST-BS-20220403-AZBURG": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T03:06:19.845439+00:00",
+        "checked_at": "2026-11-12T13:42:14Z",
         "vessel_name": "AZBURG",
         "date_utc": "2022-04-03",
-        "vessel_type": "general cargo",
+        "vessel_type": "General cargo ship",
         "region": "Black Sea",
-        "summary": "Dominica’s registry reported that Azburg was first hit by missiles at Mariupol on3April and sank on5April following repeated attacks. One of12crew needed treatment; others evacuated.",
+        "location_text": "Mariupol Commercial Sea Port, Ukraine, on the Sea of Azov",
+        "attack_type": "Missile strikes and shelling on the port berth at which the ship lay",
+        "date_note": "Dominica's registry dates the first two missile hits to 3 April 2022 and the heavier firing to about 22:40 local time on 4 April, with the ship sinking early on 5 April. Day precision only, and the recorded incident date is the first strike.",
+        "summary": "AZBURG, a general cargo ship of 9,085 deadweight tonnes under the flag of Dominica, was at a berth in Mariupol commercial sea port without cargo when she was hit by two missiles on 3 April 2022 and came under heavy fire again at about 22:40 local time on 4 April, when a shell exploded in the engine room and set it on fire. The crew abandoned ship, the fire spread and the ship sank early on 5 April. Dominica's Maritime Administration, quoted by Reuters, said one of the twelve crew needed medical treatment and the rest were evacuated onto neighbouring vessels, and Ukraine's State Border Guard Service reported one crew member wounded in the engine room fire. Ukraine's parliamentary human rights commissioner said on 10 April 2022 that the crews of AZBURG and LADY AUGUSTA had been taken from the port to occupied Donetsk and that AZBURG's twelve crew were Ukrainian citizens. No seafarer death was reported and all twelve were accounted for alive on 10 April, one of them wounded and in captivity.",
         "sources": [
           {
-            "url": "https://gcaptain.com/merchant-ship-sank-missile-mariupol-ukrainian-official/",
-            "source": "Reuters quoting Dominica Maritime Administration"
+            "url": "https://international.astroawani.com/global-news/foreign-ship-sinks-mariupol-after-missile-attacks-says-flag-registry-355434",
+            "source": "Reuters, 6 April 2022, reporting the Dominica Maritime Administration statement: AZBURG hit by two missiles on 3 April, heavily fired upon about 22:40 local time on 4 April, fire in the engine room, one of 12 crew needed medical treatment and the rest were evacuated, ship sank early on 5 April"
+          },
+          {
+            "url": "https://en.interfax.com.ua/news/general/821253.html",
+            "source": "Interfax-Ukraine, 5 April 2022, quoting Ukraine's State Border Guard Service: a civilian ship at a berth in Mariupol port was hit during shelling from the sea, one crew member wounded, engine room fire, ship sinking, crew evacuated"
+          },
+          {
+            "url": "https://ukranews.com/en/news/849328-invaders-capture-crews-of-2-more-civilian-ships-in-mariupol-seaport-ombudsman-denisova",
+            "source": "Ukrainian News Agency, 13 April 2022, reporting Liudmyla Denisova, Ukraine's parliamentary human rights commissioner: the crews of AZBURG and LADY AUGUSTA were taken from Mariupol commercial sea port to occupied Donetsk on 10 April 2022, and AZBURG's 12 sailors are Ukrainian citizens; one live shell hit the engine room on 4 April and injured the motorist, who was taken to hospital"
           }
-        ],
-        "date_note": "Event began3April; sinking5April. ExactUTC time unavailable."
+        ]
       },
       "audit_notes": [
         "Research reviewed linked authoritative/reputable reports; attribution preserved. Unknown deaths are not zero."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://international.astroawani.com/global-news/foreign-ship-sinks-mariupol-after-missile-attacks-says-flag-registry-355434",
+            "source": "Reuters, 6 April 2022, reporting the Dominica Maritime Administration statement: AZBURG hit by two missiles on 3 April, heavily fired upon about 22:40 local time on 4 April, fire in the engine room, one of 12 crew needed medical treatment and the rest were evacuated, ship sank early on 5 April"
+          },
+          {
+            "url": "https://ukranews.com/en/news/849328-invaders-capture-crews-of-2-more-civilian-ships-in-mariupol-seaport-ombudsman-denisova",
+            "source": "Ukrainian News Agency, 13 April 2022, reporting Liudmyla Denisova, Ukraine's parliamentary human rights commissioner: the crews of AZBURG and LADY AUGUSTA were taken from Mariupol commercial sea port to occupied Donetsk on 10 April 2022, and AZBURG's 12 sailors are Ukrainian citizens; one live shell hit the engine room on 4 April and injured the motorist, who was taken to hospital"
+          }
+        ],
+        "nationalities": []
+      },
+      "human_impact": {
+        "injured": {
+          "count": 1,
+          "as_of": "2022-04-05",
+          "sources": [
+            {
+              "url": "https://international.astroawani.com/global-news/foreign-ship-sinks-mariupol-after-missile-attacks-says-flag-registry-355434",
+              "source": "Reuters, 6 April 2022, reporting the Dominica Maritime Administration statement: AZBURG hit by two missiles on 3 April, heavily fired upon about 22:40 local time on 4 April, fire in the engine room, one of 12 crew needed medical treatment and the rest were evacuated, ship sank early on 5 April"
+            },
+            {
+              "url": "https://en.interfax.com.ua/news/general/821253.html",
+              "source": "Interfax-Ukraine, 5 April 2022, quoting Ukraine's State Border Guard Service: a civilian ship at a berth in Mariupol port was hit during shelling from the sea, one crew member wounded, engine room fire, ship sinking, crew evacuated"
+            },
+            {
+              "url": "https://ukranews.com/en/news/849328-invaders-capture-crews-of-2-more-civilian-ships-in-mariupol-seaport-ombudsman-denisova",
+              "source": "Ukrainian News Agency, 13 April 2022, reporting Liudmyla Denisova, Ukraine's parliamentary human rights commissioner: the crews of AZBURG and LADY AUGUSTA were taken from Mariupol commercial sea port to occupied Donetsk on 10 April 2022, and AZBURG's 12 sailors are Ukrainian citizens; one live shell hit the engine room on 4 April and injured the motorist, who was taken to hospital"
+            }
+          ]
+        },
+        "captive": {
+          "count": 12,
+          "as_of": "2022-04-10",
+          "sources": [
+            {
+              "url": "https://ukranews.com/en/news/849328-invaders-capture-crews-of-2-more-civilian-ships-in-mariupol-seaport-ombudsman-denisova",
+              "source": "Ukrainian News Agency, 13 April 2022, reporting Liudmyla Denisova, Ukraine's parliamentary human rights commissioner: the crews of AZBURG and LADY AUGUSTA were taken from Mariupol commercial sea port to occupied Donetsk on 10 April 2022, and AZBURG's 12 sailors are Ukrainian citizens; one live shell hit the engine room on 4 April and injured the motorist, who was taken to hospital"
+            }
+          ]
+        }
+      },
+      "updates": [
+        {
+          "at": "2026-11-12T13:42:14Z",
+          "text": "Reviewed on 12 November 2026 and the casualty structure is set for the first time. The Dominica Maritime Administration, quoted by Reuters, records two missiles hitting AZBURG at her berth on 3 April 2022, heavy firing at about 22:40 local time on 4 April that caused an engine room fire, and the ship sinking early on 5 April, with one of the twelve crew needing medical treatment and the rest evacuated onto neighbouring vessels. Ukraine's State Border Guard Service reported one seafarer wounded, and Ukraine's parliamentary human rights commissioner recorded on 10 April 2022 that AZBURG's twelve crew, all Ukrainian citizens, had been taken with the crew of LADY AUGUSTA to occupied Donetsk. No authority or registry report read here records a death on AZBURG and the twelve are enumerated as alive, so deaths are confirmed as zero for this attack rather than left unknown, with one injured and twelve captive seafarers kept as separate snapshots. The captivity is recorded as at 10 April 2022: no source read here reports their release, and their later fate is not asserted. The one injured crew member is the motorist treated in hospital. LADY AUGUSTA, a Jamaican flagged ship whose Syrian crew was taken at the same time, is not yet recorded in either store and is named here only as the companion vessel in that detention, not as a second casualty of this attack.",
+          "sources": [
+            {
+              "url": "https://international.astroawani.com/global-news/foreign-ship-sinks-mariupol-after-missile-attacks-says-flag-registry-355434",
+              "source": "Reuters, 6 April 2022, reporting the Dominica Maritime Administration statement: AZBURG hit by two missiles on 3 April, heavily fired upon about 22:40 local time on 4 April, fire in the engine room, one of 12 crew needed medical treatment and the rest were evacuated, ship sank early on 5 April"
+            },
+            {
+              "url": "https://en.interfax.com.ua/news/general/821253.html",
+              "source": "Interfax-Ukraine, 5 April 2022, quoting Ukraine's State Border Guard Service: a civilian ship at a berth in Mariupol port was hit during shelling from the sea, one crew member wounded, engine room fire, ship sinking, crew evacuated"
+            },
+            {
+              "url": "https://ukranews.com/en/news/849328-invaders-capture-crews-of-2-more-civilian-ships-in-mariupol-seaport-ombudsman-denisova",
+              "source": "Ukrainian News Agency, 13 April 2022, reporting Liudmyla Denisova, Ukraine's parliamentary human rights commissioner: the crews of AZBURG and LADY AUGUSTA were taken from Mariupol commercial sea port to occupied Donetsk on 10 April 2022, and AZBURG's 12 sailors are Ukrainian citizens; one live shell hit the engine room on 4 April and injured the motorist, who was taken to hospital"
+            }
+          ]
+        }
       ]
     },
     "HIST-BS-20230124-TUZLA": {
@@ -42137,6 +42212,126 @@
             {
               "url": "https://blackseanews.net/en/read/239081",
               "source": "BlackSeaNews and the Black Sea Institute for Strategic Studies, database of Russian attacks on Black Sea ports January-November 2025, 11 December 2025 revision: MJ Pinar, Barbados flagged, four crew members killed, three Syrians and one Ukrainian, another sailor and a pilot company employee injured"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6825240115,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6825240115",
+      "author": "iMariner",
+      "received_at": "2026-11-12T13:42:14Z",
+      "incident_id": "HIST-BS-20220403-AZBURG",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T03:06:19.845439+00:00",
+          "vessel_name": "AZBURG",
+          "date_utc": "2022-04-03",
+          "vessel_type": "general cargo",
+          "region": "Black Sea",
+          "summary": "Dominica’s registry reported that Azburg was first hit by missiles at Mariupol on3April and sank on5April following repeated attacks. One of12crew needed treatment; others evacuated.",
+          "sources": [
+            {
+              "url": "https://gcaptain.com/merchant-ship-sank-missile-mariupol-ukrainian-official/",
+              "source": "Reuters quoting Dominica Maritime Administration"
+            }
+          ],
+          "date_note": "Event began3April; sinking5April. ExactUTC time unavailable."
+        },
+        "audit_notes": [
+          "Research reviewed linked authoritative/reputable reports; attribution preserved. Unknown deaths are not zero."
+        ]
+      },
+      "change": {
+        "incident_id": "HIST-BS-20220403-AZBURG",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-12T13:42:14Z",
+          "vessel_name": "AZBURG",
+          "date_utc": "2022-04-03",
+          "vessel_type": "General cargo ship",
+          "region": "Black Sea",
+          "location_text": "Mariupol Commercial Sea Port, Ukraine, on the Sea of Azov",
+          "attack_type": "Missile strikes and shelling on the port berth at which the ship lay",
+          "date_note": "Dominica's registry dates the first two missile hits to 3 April 2022 and the heavier firing to about 22:40 local time on 4 April, with the ship sinking early on 5 April. Day precision only, and the recorded incident date is the first strike.",
+          "summary": "AZBURG, a general cargo ship of 9,085 deadweight tonnes under the flag of Dominica, was at a berth in Mariupol commercial sea port without cargo when she was hit by two missiles on 3 April 2022 and came under heavy fire again at about 22:40 local time on 4 April, when a shell exploded in the engine room and set it on fire. The crew abandoned ship, the fire spread and the ship sank early on 5 April. Dominica's Maritime Administration, quoted by Reuters, said one of the twelve crew needed medical treatment and the rest were evacuated onto neighbouring vessels, and Ukraine's State Border Guard Service reported one crew member wounded in the engine room fire. Ukraine's parliamentary human rights commissioner said on 10 April 2022 that the crews of AZBURG and LADY AUGUSTA had been taken from the port to occupied Donetsk and that AZBURG's twelve crew were Ukrainian citizens. No seafarer death was reported and all twelve were accounted for alive on 10 April, one of them wounded and in captivity.",
+          "sources": [
+            {
+              "url": "https://international.astroawani.com/global-news/foreign-ship-sinks-mariupol-after-missile-attacks-says-flag-registry-355434",
+              "source": "Reuters, 6 April 2022, reporting the Dominica Maritime Administration statement: AZBURG hit by two missiles on 3 April, heavily fired upon about 22:40 local time on 4 April, fire in the engine room, one of 12 crew needed medical treatment and the rest were evacuated, ship sank early on 5 April"
+            },
+            {
+              "url": "https://en.interfax.com.ua/news/general/821253.html",
+              "source": "Interfax-Ukraine, 5 April 2022, quoting Ukraine's State Border Guard Service: a civilian ship at a berth in Mariupol port was hit during shelling from the sea, one crew member wounded, engine room fire, ship sinking, crew evacuated"
+            },
+            {
+              "url": "https://ukranews.com/en/news/849328-invaders-capture-crews-of-2-more-civilian-ships-in-mariupol-seaport-ombudsman-denisova",
+              "source": "Ukrainian News Agency, 13 April 2022, reporting Liudmyla Denisova, Ukraine's parliamentary human rights commissioner: the crews of AZBURG and LADY AUGUSTA were taken from Mariupol commercial sea port to occupied Donetsk on 10 April 2022, and AZBURG's 12 sailors are Ukrainian citizens; one live shell hit the engine room on 4 April and injured the motorist, who was taken to hospital"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://international.astroawani.com/global-news/foreign-ship-sinks-mariupol-after-missile-attacks-says-flag-registry-355434",
+              "source": "Reuters, 6 April 2022, reporting the Dominica Maritime Administration statement: AZBURG hit by two missiles on 3 April, heavily fired upon about 22:40 local time on 4 April, fire in the engine room, one of 12 crew needed medical treatment and the rest were evacuated, ship sank early on 5 April"
+            },
+            {
+              "url": "https://ukranews.com/en/news/849328-invaders-capture-crews-of-2-more-civilian-ships-in-mariupol-seaport-ombudsman-denisova",
+              "source": "Ukrainian News Agency, 13 April 2022, reporting Liudmyla Denisova, Ukraine's parliamentary human rights commissioner: the crews of AZBURG and LADY AUGUSTA were taken from Mariupol commercial sea port to occupied Donetsk on 10 April 2022, and AZBURG's 12 sailors are Ukrainian citizens; one live shell hit the engine room on 4 April and injured the motorist, who was taken to hospital"
+            }
+          ],
+          "nationalities": []
+        },
+        "human_impact": {
+          "injured": {
+            "count": 1,
+            "as_of": "2022-04-05",
+            "sources": [
+              {
+                "url": "https://international.astroawani.com/global-news/foreign-ship-sinks-mariupol-after-missile-attacks-says-flag-registry-355434",
+                "source": "Reuters, 6 April 2022, reporting the Dominica Maritime Administration statement: AZBURG hit by two missiles on 3 April, heavily fired upon about 22:40 local time on 4 April, fire in the engine room, one of 12 crew needed medical treatment and the rest were evacuated, ship sank early on 5 April"
+              },
+              {
+                "url": "https://en.interfax.com.ua/news/general/821253.html",
+                "source": "Interfax-Ukraine, 5 April 2022, quoting Ukraine's State Border Guard Service: a civilian ship at a berth in Mariupol port was hit during shelling from the sea, one crew member wounded, engine room fire, ship sinking, crew evacuated"
+              },
+              {
+                "url": "https://ukranews.com/en/news/849328-invaders-capture-crews-of-2-more-civilian-ships-in-mariupol-seaport-ombudsman-denisova",
+                "source": "Ukrainian News Agency, 13 April 2022, reporting Liudmyla Denisova, Ukraine's parliamentary human rights commissioner: the crews of AZBURG and LADY AUGUSTA were taken from Mariupol commercial sea port to occupied Donetsk on 10 April 2022, and AZBURG's 12 sailors are Ukrainian citizens; one live shell hit the engine room on 4 April and injured the motorist, who was taken to hospital"
+              }
+            ]
+          },
+          "captive": {
+            "count": 12,
+            "as_of": "2022-04-10",
+            "sources": [
+              {
+                "url": "https://ukranews.com/en/news/849328-invaders-capture-crews-of-2-more-civilian-ships-in-mariupol-seaport-ombudsman-denisova",
+                "source": "Ukrainian News Agency, 13 April 2022, reporting Liudmyla Denisova, Ukraine's parliamentary human rights commissioner: the crews of AZBURG and LADY AUGUSTA were taken from Mariupol commercial sea port to occupied Donetsk on 10 April 2022, and AZBURG's 12 sailors are Ukrainian citizens; one live shell hit the engine room on 4 April and injured the motorist, who was taken to hospital"
+              }
+            ]
+          }
+        },
+        "update": {
+          "at": "2026-11-12T13:42:14Z",
+          "text": "Reviewed on 12 November 2026 and the casualty structure is set for the first time. The Dominica Maritime Administration, quoted by Reuters, records two missiles hitting AZBURG at her berth on 3 April 2022, heavy firing at about 22:40 local time on 4 April that caused an engine room fire, and the ship sinking early on 5 April, with one of the twelve crew needing medical treatment and the rest evacuated onto neighbouring vessels. Ukraine's State Border Guard Service reported one seafarer wounded, and Ukraine's parliamentary human rights commissioner recorded on 10 April 2022 that AZBURG's twelve crew, all Ukrainian citizens, had been taken with the crew of LADY AUGUSTA to occupied Donetsk. No authority or registry report read here records a death on AZBURG and the twelve are enumerated as alive, so deaths are confirmed as zero for this attack rather than left unknown, with one injured and twelve captive seafarers kept as separate snapshots. The captivity is recorded as at 10 April 2022: no source read here reports their release, and their later fate is not asserted. The one injured crew member is the motorist treated in hospital. LADY AUGUSTA, a Jamaican flagged ship whose Syrian crew was taken at the same time, is not yet recorded in either store and is named here only as the companion vessel in that detention, not as a second casualty of this attack.",
+          "sources": [
+            {
+              "url": "https://international.astroawani.com/global-news/foreign-ship-sinks-mariupol-after-missile-attacks-says-flag-registry-355434",
+              "source": "Reuters, 6 April 2022, reporting the Dominica Maritime Administration statement: AZBURG hit by two missiles on 3 April, heavily fired upon about 22:40 local time on 4 April, fire in the engine room, one of 12 crew needed medical treatment and the rest were evacuated, ship sank early on 5 April"
+            },
+            {
+              "url": "https://en.interfax.com.ua/news/general/821253.html",
+              "source": "Interfax-Ukraine, 5 April 2022, quoting Ukraine's State Border Guard Service: a civilian ship at a berth in Mariupol port was hit during shelling from the sea, one crew member wounded, engine room fire, ship sinking, crew evacuated"
+            },
+            {
+              "url": "https://ukranews.com/en/news/849328-invaders-capture-crews-of-2-more-civilian-ships-in-mariupol-seaport-ombudsman-denisova",
+              "source": "Ukrainian News Agency, 13 April 2022, reporting Liudmyla Denisova, Ukraine's parliamentary human rights commissioner: the crews of AZBURG and LADY AUGUSTA were taken from Mariupol commercial sea port to occupied Donetsk on 10 April 2022, and AZBURG's 12 sailors are Ukrainian citizens; one live shell hit the engine room on 4 April and injured the motorist, who was taken to hospital"
             }
           ]
         }
