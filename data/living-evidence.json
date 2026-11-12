@@ -3919,35 +3919,92 @@
     "HIST-ME-20260502-BADR-VOLANS-TOW-OPERATION": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T03:06:19.845439+00:00",
+        "checked_at": "2026-11-12T07:35:00Z",
         "vessel_name": "BADR (VOLANS TOW OPERATION)",
         "date_utc": "2026-05-02",
-        "vessel_type": "barge",
-        "region": "Strait of Hormuz",
-        "location_text": "32NM northeast of  Dibba Al-Fujairah, UAE",
-        "summary": "IMO lists a joint VOLANS/BADR tow-operation incident on 2026-05-02 near 32NM northeast of  Dibba Al-Fujairah, UAE. The register identifies BADR as the damaged barge and confirms one seafarer death in the operation, without establishing aboard which vessel the person died.",
+        "vessel_type": "Barge, in tow with the tug VOLANS",
+        "region": "Gulf of Oman",
+        "location_text": "About 32 nautical miles north-east of Dibba Al-Fujairah, United Arab Emirates",
+        "attack_type": "Attack by munitions that struck the tow; no attacker named by the IMO register",
+        "date_note": "Day precision from the IMO confirmed incident register, which dates the incident 2 May. Tanzania Shipping Agencies Corporation dates the death to 3 May 2026; no UTC time is given by either source, and the register's day is kept.",
+        "summary": "BADR, a barge under tow by the tug VOLANS, was damaged in an attack about 32 nautical miles north-east of Dibba Al-Fujairah, United Arab Emirates, on 2 May 2026, and one seafarer was killed in the operation. The IMO confirmed incident register reads, for 2 May: VOLANS (IMO 9298856) / BADR (BARGE), 32NM northeast of Dibba Al-Fujairah, UAE, damaged (Badr - Barge), no pollution, one seafarer fatality. Tanzania Shipping Agencies Corporation named the dead man as Mchama Maregesi Mongu, a Tanzanian seafarer serving aboard the tug VOLANS under the flag of the United Arab Emirates, and said he died on 3 May 2026 after the vessel, on passage from the United Arab Emirates to Oman, was struck. The register does not name an attacker; trade press attributes the attack to Iranian forces.",
         "sources": [
           {
             "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 21 October 2026"
+            "source": "IMO confirmed incident register, re-read 12 November 2026: entry for 2 May, VOLANS (IMO 9298856) / BADR (BARGE), 32NM northeast of Dibba Al-Fujairah, UAE, damaged (Badr - Barge), no pollution, one seafarer fatality; register totals 134 confirmed incidents and 25 confirmed seafarer fatalities as at 11 November 2026"
+          },
+          {
+            "url": "https://ippmedia.co.tz/the-guardian/news/local-news/read/tanzanian-seafarer-killed-in-bomb-attack-at-strait-of-hormuz-2026-05-06-122839",
+            "source": "The Guardian (Tanzania), 6 May 2026, carrying a Tanzania Shipping Agencies Corporation statement: Tanzanian seafarer Mchama Maregesi Mongu died on 3 May 2026 while serving aboard the tugboat VOLANS, IMO number 929856 as printed, UAE flag, on passage from the UAE to Oman after the vessel was struck"
+          },
+          {
+            "url": "https://seatrade-maritime.com/security/three-civilian-seafarers-dead-in-us-attack-on-settebello",
+            "source": "Seatrade Maritime, June 2026, listing IMO-register incidents with deaths: 2 May, Volans (tug) / Badr (barge), one seafarer fatality, attacked by Iranian forces"
+          },
+          {
+            "url": "https://mediawireexpress.co.tz/tanzanian-seafarers-body-returns-after-attack",
+            "source": "Media Wire Express (Tanzania), 18 May 2026: the body of seafarer Mchama Mongu, killed when the tugboat Volans was struck, arrived at Julius Nyerere International Airport in Dar es Salaam"
           }
-        ],
-        "date_note": "Day-precision date from IMO; an exact UTC event time is not provided."
+        ]
       },
       "casualties": {
         "status": "confirmed",
         "deaths": 1,
-        "nationalities": [],
         "sources": [
           {
             "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 21 October 2026"
+            "source": "IMO confirmed incident register, re-read 12 November 2026: one seafarer fatality in the 2 May VOLANS/BADR entry"
+          },
+          {
+            "url": "https://ippmedia.co.tz/the-guardian/news/local-news/read/tanzanian-seafarer-killed-in-bomb-attack-at-strait-of-hormuz-2026-05-06-122839",
+            "source": "Tanzania Shipping Agencies Corporation statement carried by The Guardian (Tanzania), 6 May 2026: one Tanzanian seafarer, Mchama Maregesi Mongu, died after the tug VOLANS was struck"
+          }
+        ],
+        "nationalities": [
+          {
+            "nationality": "Tanzanian",
+            "status": "confirmed",
+            "deaths": 1,
+            "sources": [
+              {
+                "url": "https://ippmedia.co.tz/the-guardian/news/local-news/read/tanzanian-seafarer-killed-in-bomb-attack-at-strait-of-hormuz-2026-05-06-122839",
+                "source": "Tanzania Shipping Agencies Corporation statement carried by The Guardian (Tanzania), 6 May 2026: names Mchama Maregesi Mongu as a Tanzanian seafarer who died while serving aboard the tug VOLANS"
+              },
+              {
+                "url": "https://mediawireexpress.co.tz/tanzanian-seafarers-body-returns-after-attack",
+                "source": "Media Wire Express (Tanzania), 18 May 2026: the body of Tanzanian seafarer Mchama Mongu returned to Dar es Salaam"
+              }
+            ]
           }
         ]
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used.",
         "One damaged barge record, no VOLANS IMO, one joint-operation fatality counted once. No nationality inferred."
+      ],
+      "updates": [
+        {
+          "at": "2026-11-12T07:35:00Z",
+          "text": "Nationality recorded for the single death in this tow operation, with the count unchanged at one. The IMO confirmed incident register, re-read on 12 November 2026, still carries one entry for 2 May reading VOLANS (IMO 9298856) / BADR (BARGE), 32NM northeast of Dibba Al-Fujairah, UAE, damaged (Badr - Barge), no pollution, one seafarer fatality. Tanzania Shipping Agencies Corporation said in a statement carried by The Guardian (Tanzania) on 6 May 2026 that a Tanzanian seafarer, Mchama Maregesi Mongu, died on 3 May 2026 while serving aboard the tug VOLANS under the flag of the United Arab Emirates, on passage from the United Arab Emirates to Oman, and that it was working with Tanzania's foreign ministry to repatriate the body; Media Wire Express reported on 18 May 2026 that the body had reached Dar es Salaam. That agency statement, naming both the man and the ship, is the basis for recording one Tanzanian death; the nationality is not taken from the tug's flag, which is Emirati, nor from the barge's identity. Three corrections are recorded with it. The register's IMO 9298856 belongs to the tug VOLANS and is therefore not attached to this record, which is named for the barge BADR. The region moves from Strait of Hormuz to Gulf of Oman, because an offset 32 nautical miles north-east of Dibba Al-Fujairah lies outside the strait, the same geography already used here for HORIZON 1 on 8 September. Tanzania's agency dates the death to 3 May while the register dates the incident to 2 May; the register's day is kept and both are noted. Trade press attributes the attack to Iranian forces; the register does not name an attacker, so no attribution is asserted. No source read here says how many people were on the two vessels or whether anyone else was hurt, so no injury figure is recorded.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, re-read 12 November 2026"
+            },
+            {
+              "url": "https://ippmedia.co.tz/the-guardian/news/local-news/read/tanzanian-seafarer-killed-in-bomb-attack-at-strait-of-hormuz-2026-05-06-122839",
+              "source": "The Guardian (Tanzania), 6 May 2026, carrying the Tanzania Shipping Agencies Corporation statement"
+            },
+            {
+              "url": "https://seatrade-maritime.com/security/three-civilian-seafarers-dead-in-us-attack-on-settebello",
+              "source": "Seatrade Maritime, June 2026, listing the 2 May Volans (tug) / Badr (barge) one-fatality incident as attributed to Iranian forces"
+            },
+            {
+              "url": "https://mediawireexpress.co.tz/tanzanian-seafarers-body-returns-after-attack",
+              "source": "Media Wire Express (Tanzania), 18 May 2026, on the repatriation of Mchama Mongu's body"
+            }
+          ]
+        }
       ]
     },
     "HIST-ME-20260422-EUPHORIA": {
@@ -41356,6 +41413,133 @@
             {
               "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9294252-2026-09-09",
               "source": "IMO (confirmed incidents list)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6817611968,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6817611968",
+      "author": "iMariner",
+      "received_at": "2026-11-12T07:33:05Z",
+      "incident_id": "HIST-ME-20260502-BADR-VOLANS-TOW-OPERATION",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T03:06:19.845439+00:00",
+          "vessel_name": "BADR (VOLANS TOW OPERATION)",
+          "date_utc": "2026-05-02",
+          "vessel_type": "barge",
+          "region": "Strait of Hormuz",
+          "location_text": "32NM northeast of  Dibba Al-Fujairah, UAE",
+          "summary": "IMO lists a joint VOLANS/BADR tow-operation incident on 2026-05-02 near 32NM northeast of  Dibba Al-Fujairah, UAE. The register identifies BADR as the damaged barge and confirms one seafarer death in the operation, without establishing aboard which vessel the person died.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            }
+          ],
+          "date_note": "Day-precision date from IMO; an exact UTC event time is not provided."
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 1,
+          "nationalities": [],
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            }
+          ]
+        },
+        "audit_notes": [
+          "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used.",
+          "One damaged barge record, no VOLANS IMO, one joint-operation fatality counted once. No nationality inferred."
+        ]
+      },
+      "change": {
+        "incident_id": "HIST-ME-20260502-BADR-VOLANS-TOW-OPERATION",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-12T07:35:00Z",
+          "vessel_name": "BADR (VOLANS TOW OPERATION)",
+          "date_utc": "2026-05-02",
+          "vessel_type": "Barge, in tow with the tug VOLANS",
+          "region": "Gulf of Oman",
+          "location_text": "About 32 nautical miles north-east of Dibba Al-Fujairah, United Arab Emirates",
+          "attack_type": "Attack by munitions that struck the tow; no attacker named by the IMO register",
+          "date_note": "Day precision from the IMO confirmed incident register, which dates the incident 2 May. Tanzania Shipping Agencies Corporation dates the death to 3 May 2026; no UTC time is given by either source, and the register's day is kept.",
+          "summary": "BADR, a barge under tow by the tug VOLANS, was damaged in an attack about 32 nautical miles north-east of Dibba Al-Fujairah, United Arab Emirates, on 2 May 2026, and one seafarer was killed in the operation. The IMO confirmed incident register reads, for 2 May: VOLANS (IMO 9298856) / BADR (BARGE), 32NM northeast of Dibba Al-Fujairah, UAE, damaged (Badr - Barge), no pollution, one seafarer fatality. Tanzania Shipping Agencies Corporation named the dead man as Mchama Maregesi Mongu, a Tanzanian seafarer serving aboard the tug VOLANS under the flag of the United Arab Emirates, and said he died on 3 May 2026 after the vessel, on passage from the United Arab Emirates to Oman, was struck. The register does not name an attacker; trade press attributes the attack to Iranian forces.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, re-read 12 November 2026: entry for 2 May, VOLANS (IMO 9298856) / BADR (BARGE), 32NM northeast of Dibba Al-Fujairah, UAE, damaged (Badr - Barge), no pollution, one seafarer fatality; register totals 134 confirmed incidents and 25 confirmed seafarer fatalities as at 11 November 2026"
+            },
+            {
+              "url": "https://ippmedia.co.tz/the-guardian/news/local-news/read/tanzanian-seafarer-killed-in-bomb-attack-at-strait-of-hormuz-2026-05-06-122839",
+              "source": "The Guardian (Tanzania), 6 May 2026, carrying a Tanzania Shipping Agencies Corporation statement: Tanzanian seafarer Mchama Maregesi Mongu died on 3 May 2026 while serving aboard the tugboat VOLANS, IMO number 929856 as printed, UAE flag, on passage from the UAE to Oman after the vessel was struck"
+            },
+            {
+              "url": "https://seatrade-maritime.com/security/three-civilian-seafarers-dead-in-us-attack-on-settebello",
+              "source": "Seatrade Maritime, June 2026, listing IMO-register incidents with deaths: 2 May, Volans (tug) / Badr (barge), one seafarer fatality, attacked by Iranian forces"
+            },
+            {
+              "url": "https://mediawireexpress.co.tz/tanzanian-seafarers-body-returns-after-attack",
+              "source": "Media Wire Express (Tanzania), 18 May 2026: the body of seafarer Mchama Mongu, killed when the tugboat Volans was struck, arrived at Julius Nyerere International Airport in Dar es Salaam"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 1,
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, re-read 12 November 2026: one seafarer fatality in the 2 May VOLANS/BADR entry"
+            },
+            {
+              "url": "https://ippmedia.co.tz/the-guardian/news/local-news/read/tanzanian-seafarer-killed-in-bomb-attack-at-strait-of-hormuz-2026-05-06-122839",
+              "source": "Tanzania Shipping Agencies Corporation statement carried by The Guardian (Tanzania), 6 May 2026: one Tanzanian seafarer, Mchama Maregesi Mongu, died after the tug VOLANS was struck"
+            }
+          ],
+          "nationalities": [
+            {
+              "nationality": "Tanzanian",
+              "status": "confirmed",
+              "deaths": 1,
+              "sources": [
+                {
+                  "url": "https://ippmedia.co.tz/the-guardian/news/local-news/read/tanzanian-seafarer-killed-in-bomb-attack-at-strait-of-hormuz-2026-05-06-122839",
+                  "source": "Tanzania Shipping Agencies Corporation statement carried by The Guardian (Tanzania), 6 May 2026: names Mchama Maregesi Mongu as a Tanzanian seafarer who died while serving aboard the tug VOLANS"
+                },
+                {
+                  "url": "https://mediawireexpress.co.tz/tanzanian-seafarers-body-returns-after-attack",
+                  "source": "Media Wire Express (Tanzania), 18 May 2026: the body of Tanzanian seafarer Mchama Mongu returned to Dar es Salaam"
+                }
+              ]
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-11-12T07:35:00Z",
+          "text": "Nationality recorded for the single death in this tow operation, with the count unchanged at one. The IMO confirmed incident register, re-read on 12 November 2026, still carries one entry for 2 May reading VOLANS (IMO 9298856) / BADR (BARGE), 32NM northeast of Dibba Al-Fujairah, UAE, damaged (Badr - Barge), no pollution, one seafarer fatality. Tanzania Shipping Agencies Corporation said in a statement carried by The Guardian (Tanzania) on 6 May 2026 that a Tanzanian seafarer, Mchama Maregesi Mongu, died on 3 May 2026 while serving aboard the tug VOLANS under the flag of the United Arab Emirates, on passage from the United Arab Emirates to Oman, and that it was working with Tanzania's foreign ministry to repatriate the body; Media Wire Express reported on 18 May 2026 that the body had reached Dar es Salaam. That agency statement, naming both the man and the ship, is the basis for recording one Tanzanian death; the nationality is not taken from the tug's flag, which is Emirati, nor from the barge's identity. Three corrections are recorded with it. The register's IMO 9298856 belongs to the tug VOLANS and is therefore not attached to this record, which is named for the barge BADR. The region moves from Strait of Hormuz to Gulf of Oman, because an offset 32 nautical miles north-east of Dibba Al-Fujairah lies outside the strait, the same geography already used here for HORIZON 1 on 8 September. Tanzania's agency dates the death to 3 May while the register dates the incident to 2 May; the register's day is kept and both are noted. Trade press attributes the attack to Iranian forces; the register does not name an attacker, so no attribution is asserted. No source read here says how many people were on the two vessels or whether anyone else was hurt, so no injury figure is recorded.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, re-read 12 November 2026"
+            },
+            {
+              "url": "https://ippmedia.co.tz/the-guardian/news/local-news/read/tanzanian-seafarer-killed-in-bomb-attack-at-strait-of-hormuz-2026-05-06-122839",
+              "source": "The Guardian (Tanzania), 6 May 2026, carrying the Tanzania Shipping Agencies Corporation statement"
+            },
+            {
+              "url": "https://seatrade-maritime.com/security/three-civilian-seafarers-dead-in-us-attack-on-settebello",
+              "source": "Seatrade Maritime, June 2026, listing the 2 May Volans (tug) / Badr (barge) one-fatality incident as attributed to Iranian forces"
+            },
+            {
+              "url": "https://mediawireexpress.co.tz/tanzanian-seafarers-body-returns-after-attack",
+              "source": "Media Wire Express (Tanzania), 18 May 2026, on the repatriation of Mchama Mongu's body"
             }
           ]
         }
