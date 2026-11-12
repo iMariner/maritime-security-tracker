@@ -110,15 +110,39 @@
         "kind": "media",
         "published_at": "2026-11-11T04:20:02Z",
         "title": "Russian Drones Hit Ukraine Substations and Cargo Ship - Военное дело"
+      },
+      {
+        "url": "https://www.devdiscourse.com/article/international/4004974-russia-says-it-hit-cargo-vessel-in-black-sea-three-ukraine-power-substations",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-12T04:32:48Z",
+        "title": null
+      },
+      {
+        "url": "https://www.intellinews.com/missile-war-monitor-ukrainian-drones-set-fire-to-russia-s-ust-luga-port-russian-strikes-cut-power-to-135-000-in-ukraine-s-odesa-region-483846/",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-12T04:32:48Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-11T07:00:12Z",
-    "last_updated": "2026-11-11T22:14:42Z",
+    "last_updated": "2026-11-12T04:32:48Z",
     "verification_issue": 376,
-    "verdict": null,
+    "verdict": {
+      "status": "claimed",
+      "by": "iMariner",
+      "at": "2026-11-12T04:32:48Z",
+      "note": "Only Russia's defence ministry reports the strike, it names no vessel and gives no position or damage, and no Ukrainian or independent confirmation of a ship being hit was found.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/376#issuecomment-6814603080"
+    },
     "published_in": [],
-    "status": "reported",
-    "status_changed_at": "2026-11-11T07:00:30Z",
+    "status": "claimed",
+    "status_changed_at": "2026-11-12T04:32:48Z",
     "position_approx": true
   },
   {
@@ -128,8 +152,8 @@
     "official_source_cited": "Iranian Naval Forces",
     "conflicting": true,
     "confidence": 0.6,
-    "vessel_name": null,
-    "imo": null,
+    "vessel_name": "FUJAIRAH ENERGY",
+    "imo": "9723071",
     "flag": "Liberia",
     "vessel_type": "tanker",
     "vessel_category": "merchant",
@@ -250,16 +274,41 @@
         "kind": "media",
         "published_at": "2026-11-11T17:30:57Z",
         "title": "Iranian Naval Forces Say Tanker Caught Fire After Hitting Mine in Strait of Hormuz: how 16 outlets framed it - NewsCord"
+      },
+      {
+        "url": "https://www.thehindu.com/news/national/liberia-flagged-vlcc-hit-in-persian-gulf-six-indian-seafarers-aboard-sarbananda-sonowal/article71688307.ece",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-12T04:32:46Z",
+        "title": null
+      },
+      {
+        "url": "https://www.seatrade-maritime.com/security/four-injured-on-sinokor-vlcc-as-multiple-tankers-attacked-in-hormuz",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-12T04:32:46Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-11T07:00:12Z",
-    "last_updated": "2026-11-11T22:14:42Z",
+    "last_updated": "2026-11-12T04:32:46Z",
     "verification_issue": 377,
-    "verdict": null,
+    "verdict": {
+      "status": "reported",
+      "by": "iMariner",
+      "at": "2026-11-12T04:32:46Z",
+      "note": "The Liberia-flagged VLCC Fujairah Energy was hit by a projectile on 10 November, not 11 November, while sailing from Al Ruwais to Dubai, injuring four of her 22 crew, per India's shipping minister and trade press, with no UKMTO notice or flag state statement naming her.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/377#issuecomment-6814603376"
+    },
     "published_in": [],
-    "status": "claimed",
+    "status": "reported",
     "position_approx": true,
-    "date_approx": false
+    "date_approx": false,
+    "status_changed_at": "2026-11-12T04:32:46Z"
   },
   {
     "region": "Strait of Hormuz",
@@ -630,12 +679,36 @@
         "kind": "media",
         "published_at": "2026-11-11T13:35:35Z",
         "title": "Saudi-Flagged Tanker With Indian Crew Attacked In Strait Of Hormuz, All Safe - Times Now"
+      },
+      {
+        "url": "https://www.khaleejtimes.com/world/asia/three-indians-safe-oil-tanker-possibly-attacked-ncc-fajr-nov-11-2026",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-12T04:32:44Z",
+        "title": null
+      },
+      {
+        "url": "https://www.seatrade-maritime.com/security/four-injured-on-sinokor-vlcc-as-multiple-tankers-attacked-in-hormuz",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-12T04:32:44Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-11T22:14:27Z",
-    "last_updated": "2026-11-11T22:14:42Z",
+    "last_updated": "2026-11-12T04:32:44Z",
     "verification_issue": 380,
-    "verdict": null,
+    "verdict": {
+      "status": "claimed",
+      "by": "iMariner",
+      "at": "2026-11-12T04:32:44Z",
+      "note": "The report is only a possible attack relayed by India's shipping minister, with no position, weapon or damage given and no confirmation from the owner, the flag state or any maritime authority.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/380#issuecomment-6814603658"
+    },
     "published_in": [],
     "status": "claimed",
     "date_approx": false
@@ -752,15 +825,40 @@
         "kind": "media",
         "published_at": "2026-11-11T20:40:53Z",
         "title": "U.S. Strikes Three Iranian Oil Tankers After Missile Attacks on Navy Warships - EnergyNow.com"
+      },
+      {
+        "url": "https://apnews.com/article/iran-us-war-oil-tankers-b3650799901c56a6deeca962cbaa4109",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-12T04:32:43Z",
+        "title": null
+      },
+      {
+        "url": "https://energynow.com/2026/09/u-s-strikes-three-iranian-oil-tankers-after-missile-attacks-on-navy-warships",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-12T04:32:43Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-12T03:18:55Z",
-    "last_updated": "2026-11-12T03:18:55Z",
+    "last_updated": "2026-11-12T04:32:43Z",
     "verification_issue": 381,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-11-12T04:32:43Z",
+      "note": "The headline repeats the 5 September 2026 US strikes on the Iranian tankers Downy, Stark 1 and Kylo, the only source is a September EnergyNow article, so the record is mis-dated, and INC-20261023-018 already rejected the same headline.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/381#issuecomment-6814603960"
+    },
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-11-12T04:32:43Z"
   },
   {
     "region": "Black Sea",
