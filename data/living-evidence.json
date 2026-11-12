@@ -20809,6 +20809,56 @@
           ]
         }
       ]
+    },
+    "INC-20260909-002": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/update-095-jmic-advisory-note-10-september.pdf",
+            "source": "JMIC advisory update 095, UKMTO 131-26: no casualties reported and all crew reported as safe"
+          }
+        ],
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-12T01:23:40Z",
+        "vessel_name": "NEW ANDROS",
+        "imo": "9294252",
+        "date_utc": "2026-09-09",
+        "vessel_type": "Tanker",
+        "region": "Persian Gulf",
+        "location_text": "About 28 nautical miles from Al-Faw, Iraq, per UKMTO warning 131-26",
+        "summary": "NEW ANDROS, IMO 9294252, a tanker, was struck without prior warning by an unknown projectile at 02:30 UTC on 9 September 2026 about 28 nautical miles from Al-Faw, Iraq, in the Persian Gulf. UKMTO warning 131-26, as repeated in JMIC advisory update 095 dated 10 September 2026, records that the master reported the projectile hitting the forward ballast tank, that the vessel anchored with local authorities on scene, and that no casualties were reported and all crew were reported as safe. The IMO register lists the same hull and date as damaged with no pollution. Neither record names an attacker.",
+        "sources": [
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9294252-2026-09-09",
+            "source": "IMO (confirmed incidents list), read 11 November 2026"
+          },
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/update-095-jmic-advisory-note-10-september.pdf",
+            "source": "UKMTO warning 131-26 as repeated in JMIC advisory update 095, 10 September 2026"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-12T01:23:40Z",
+          "text": "First structured verification for NEW ANDROS. UKMTO 131-26 gives the time, the point of impact in the forward ballast tank and an explicit statement that all crew were reported as safe, so deaths are recorded as zero on a source. The corpus row placed this attack in the Strait of Hormuz, while UKMTO records it in the Arabian Gulf, which the tracker records as the Persian Gulf, about 28 nautical miles from Al-Faw in Iraq, and the reviewed region follows the authority. No attacker is named in either record and none is asserted here.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-095-jmic-advisory-note-10-september.pdf",
+              "source": "JMIC advisory update 095, 10 September 2026, recording UKMTO 131-26"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9294252-2026-09-09",
+              "source": "IMO (confirmed incidents list)"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -41248,6 +41298,63 @@
             },
             {
               "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9130456-2026-09-08",
+              "source": "IMO (confirmed incidents list)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6811592750,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6811592750",
+      "author": "iMariner",
+      "received_at": "2026-11-12T01:23:41Z",
+      "incident_id": "INC-20260909-002",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20260909-002",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-12T01:23:40Z",
+          "vessel_name": "NEW ANDROS",
+          "imo": "9294252",
+          "date_utc": "2026-09-09",
+          "vessel_type": "Tanker",
+          "region": "Persian Gulf",
+          "location_text": "About 28 nautical miles from Al-Faw, Iraq, per UKMTO warning 131-26",
+          "summary": "NEW ANDROS, IMO 9294252, a tanker, was struck without prior warning by an unknown projectile at 02:30 UTC on 9 September 2026 about 28 nautical miles from Al-Faw, Iraq, in the Persian Gulf. UKMTO warning 131-26, as repeated in JMIC advisory update 095 dated 10 September 2026, records that the master reported the projectile hitting the forward ballast tank, that the vessel anchored with local authorities on scene, and that no casualties were reported and all crew were reported as safe. The IMO register lists the same hull and date as damaged with no pollution. Neither record names an attacker.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9294252-2026-09-09",
+              "source": "IMO (confirmed incidents list), read 11 November 2026"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-095-jmic-advisory-note-10-september.pdf",
+              "source": "UKMTO warning 131-26 as repeated in JMIC advisory update 095, 10 September 2026"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-095-jmic-advisory-note-10-september.pdf",
+              "source": "JMIC advisory update 095, UKMTO 131-26: no casualties reported and all crew reported as safe"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-12T01:23:40Z",
+          "text": "First structured verification for NEW ANDROS. UKMTO 131-26 gives the time, the point of impact in the forward ballast tank and an explicit statement that all crew were reported as safe, so deaths are recorded as zero on a source. The corpus row placed this attack in the Strait of Hormuz, while UKMTO records it in the Arabian Gulf, which the tracker records as the Persian Gulf, about 28 nautical miles from Al-Faw in Iraq, and the reviewed region follows the authority. No attacker is named in either record and none is asserted here.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/update-095-jmic-advisory-note-10-september.pdf",
+              "source": "JMIC advisory update 095, 10 September 2026, recording UKMTO 131-26"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9294252-2026-09-09",
               "source": "IMO (confirmed incidents list)"
             }
           ]
