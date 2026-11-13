@@ -1,5 +1,46 @@
 [
   {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-11-12T15:54:35Z",
+    "summary": "A headline reports that a damaged Qatari LNG tanker is awaiting salvage after a strike as Hormuz risks escalate. No vessel name, date, position, weapon type or casualty details are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": "Qatar",
+    "vessel_type": "LNG/LPG carrier",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": "damaged, awaiting salvage",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "date_approx": true,
+    "id": "INC-20261112-007",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQ3NvSDZxd0xkb2w2ZDFUNjlLaU9lR3BtWENNeGItOXZ1dGljOU00bGtDLWt2alZDVUR6TzFtR3ZmN05udTZDMndnQ2NPaW9uM2dQYnVZc1JoRlo5ZzV5RV9kREtOaWVfakpBRExhc0hQYVJIMUc4Z0YzVXpfU1BRTS0ycnJqUDFqb3BQTGQ0UmxHdnpwYjh3TUVYVFNKbUpOcDlvM2Z4b3BoU1lzMmc?oc=5",
+        "source": "EnergyNow.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-12T15:54:35Z",
+        "title": "Damaged Qatari LNG Tanker Awaits Salvage After Strike as Hormuz Risks Escalate - EnergyNow.com"
+      }
+    ],
+    "first_seen": "2026-11-13T01:26:33Z",
+    "last_updated": "2026-11-13T01:26:33Z",
+    "verification_issue": 385,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
     "region": "Black Sea",
     "date_utc": "2026-11-12",
     "summary": "A Qatari outlet headline says Russia announced it struck a cargo vessel in the Black Sea. No vessel name, position, weapon type, damage or casualty details are given, and the claim is Russia's alone.",
@@ -222,14 +263,15 @@
       }
     ],
     "first_seen": "2026-11-12T20:22:00Z",
-    "last_updated": "2026-11-12T20:22:06Z",
+    "last_updated": "2026-11-13T01:26:36Z",
     "verification_issue": 383,
     "verdict": null,
     "published_in": [],
-    "status": "reported",
+    "status": "merged",
     "status_changed_at": "2026-11-12T20:22:02Z",
     "date_approx": false,
-    "position_approx": true
+    "position_approx": true,
+    "merged_into": "INC-20261111-002"
   },
   {
     "region": "Black Sea",
@@ -264,13 +306,14 @@
       }
     ],
     "first_seen": "2026-11-12T20:22:00Z",
-    "last_updated": "2026-11-12T20:22:06Z",
+    "last_updated": "2026-11-13T01:26:36Z",
     "verification_issue": 384,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
+    "status": "merged",
     "date_approx": false,
-    "position_approx": true
+    "position_approx": true,
+    "merged_into": "INC-20261111-001"
   },
   {
     "region": "Black Sea",
@@ -355,9 +398,49 @@
     "position_approx": true
   },
   {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-11-12",
+    "summary": "A headline reports that explosive devices were attached to a tanker in one of at least two attacks in the Strait of Hormuz. No vessel name, position, date, damage or casualty details are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261112-008",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORy1WS0haSGplX2RwSWpIcjJqa1k5V3Y2bmNKVTB1QWhtZkpVN3dLNC1OMHN5TmxFM3BPSWxPLTdzNDVQeG9JWkppOGhKN09FQWNLc2s2NVMxd2o3WlNwb1VGQTZfME9NS3dlSTNncGh0NVF2ZWNEVVJBbktUVWxzNVBWNW1JQ2c2a1FWS0wzSXlRcGdvbzdNVTJHZWh1Z20wMUNGcHQwUlpJbmVGcEY2bnI5eDZ5LU5EeHh3VGtYd3ptdS1EWlJj?oc=5",
+        "source": "www.rivieramm.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-12T08:58:04Z",
+        "title": "Explosive devices attached to tanker in one of at least two attacks in Hormuz - www.rivieramm.com"
+      }
+    ],
+    "first_seen": "2026-11-13T01:26:35Z",
+    "last_updated": "2026-11-13T01:26:35Z",
+    "verification_issue": 386,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
     "region": "Black Sea",
     "date_utc": "2026-11-11",
-    "summary": "Russia's defence ministry claimed its overnight drone strikes hit a dry cargo vessel in the Black Sea south-west of Odesa carrying weapons and military equipment for Ukraine. A Qatari outlet repeated the claim of a Russian strike on a cargo ship in the Black Sea with no vessel name, position or independent confirmation.",
+    "summary": "Russia's defence ministry claimed its drones struck a dry cargo vessel in the Black Sea south-west of Odesa, saying it carried weapons and military equipment for Ukraine. A follow-up ministry statement repeated the claim and added a second dry cargo vessel struck at Chornomorsk port, with no vessel names and no independent confirmation.",
     "official_source_cited": "India's Ministry of External Affairs (MEA)",
     "conflicting": false,
     "confidence": 0.8,
@@ -555,10 +638,19 @@
         "kind": "media",
         "published_at": "2026-11-12T07:32:00Z",
         "title": "New Attack in the Black Sea: Russian Strike on a Cargo Ship ᐉ News from Fakti.bg - World - Fakti.bg"
+      },
+      {
+        "url": "https://t.me/mod_russia/68959",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-12T14:31:28+00:00",
+        "title": null
       }
     ],
     "first_seen": "2026-11-11T07:00:12Z",
-    "last_updated": "2026-11-12T20:22:06Z",
+    "last_updated": "2026-11-13T01:26:36Z",
     "verification_issue": 376,
     "verdict": {
       "status": "claimed",
@@ -576,7 +668,7 @@
   {
     "region": "Persian Gulf",
     "date_utc": "2026-11-11",
-    "summary": "A Liberia-flagged oil tanker bound for Dubai with six Indian seafarers was hit by a projectile in the Persian Gulf on 11 November, injuring four crew according to Indian officials and media. A separate headline reported a tanker catching fire after hitting a sea mine east of the Strait of Hormuz, an Iranian naval claim with no vessel name or position.",
+    "summary": "A Liberia-flagged oil tanker bound for Dubai with Indian crew was hit by a projectile in the Persian Gulf on 11 November, with Indian officials reporting several crew injured. A follow-up report on 12 November described an oil tanker with 19 Indian crew targeted off the UAE with all crew safe, and a separate headline reported two tanker attacks in Gulf waters within 24 hours.",
     "official_source_cited": "Iranian Naval Forces",
     "conflicting": true,
     "confidence": 0.75,
@@ -756,10 +848,64 @@
         "kind": "media",
         "published_at": "2026-11-11T06:20:38Z",
         "title": "Indian seafarer among four injured as projectile hits Liberia-flagged oil tanker in Persian Gulf - India TV News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUzBVOC1CRndrWFpDMTE3QlBQY3JuZjZ2aEdoSVZpd1ZYU0xTX1FSdjVSR2EzV3hJMG11YTFlbVdTWjRPcF9fem1IZi1IN1FwWDNYVE1XYmdULXNIRWVrTHNaVTBUcHdwT3lRWU5CRDlNMlNINXcxbWxPYmxkUzZQQXFlcXpaY0dTT0Vvb2V1eVRHVUhJNHRjdmZfX2FjU2NCWThmSEpMZDc2aWhFUHlkYjNCVHlOQUNvWU9ycU5RcFc0SFFhNG53bERJRzJ5UdIB2wFBVV95cUxPQTdDOHN6SlZLbWdWODIydU4xa3RMNnZENXBhV2Q3SF9ZUy1KcGFOYnJoSEx4aWNucFJrNEp3MFJQUG1oRG9IU1gwdmNlS2M5Vi02NzM4Yy1pNUVkVDNobm9mZ0dWUU0weFFUU2EzczIyOHBhbHcwaF9VMm9Dc1J1ZE9TeGdUZWZaZm9CU2Q3Nm12dWdlNHdQdGlZS2daM0pZdXZkVktyRkc3aTFDSTJGc3A4Mm5uTnZ5ejkwOGVCZUttMURGLTJXakZscUt5M19aT3ZScUlMN3pqSm8?oc=5",
+        "source": "The New Indian Express",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-12T15:26:49Z",
+        "title": "Oil tanker carrying 19 Indians targeted in projectile attack off UAE; all crew safe - The New Indian Express"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcTlQamw1bXIxUEdRdjZsMk9BSDl5X0dudy1Kd0p0ay1CN09rWWE5TEdFUmRtRkZJc29VX1RFNDVkS3VOQkJxbmdhRERhRUJoeEFTYnlUU1hXV0F3MDMxeVhqS25MV25UX29ibVhBQjl1ZFU1X3J6dUVUTU5Ha2F6MlZHeTVGLXc1TFJDZFVQUDJTTzVRY0lXYmNmRkZsMDZCV2ZkSWZ0MzE4TFRpWS10TTAwZmxnakVC0gG-AUFVX3lxTE12Q1pKZktGeHE3d085c3VGbzgxMmpiNXZlWG9mWDdDWUtHM0w4eFdwMmpvd2w3V29zYzktMDgwUm9TaFV6NUc2SHFNVmhIeS1xSHVUVy1qMWdmWHdTTURUR01rVGFYMmVjdkxKd0IzMXVUOUVNNHJjSTYtOG03QVdvaU9teEtWYThxMHFTRXg2ckNFTUFQR1FnalR5ZTJtNXRzVjhQZE1ySGNrSjNvaU82NVRhRTJFTEJ1dEFqWkE?oc=5",
+        "source": "ABP Live English",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-12T14:54:32Z",
+        "title": "19 Indians Rescued After Oil Tanker Comes Under Projectile Attack Off UAE - ABP Live English"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOYjF6MFgwdFpfSVpzQjg2bnR2T0ppTl9KUkJxeUdPd0pXanY2SGFMY2RPZ2VCLXB3bmhraFlWOU82cC1DV0VRLVlxdThDcnhvTDIwSERFaU41MlB3Z1kyeUl2dzJtQnA1QzQzTkZwYVZIMmRjeVFCRE8tRXJOdThlb0YwOA?oc=5",
+        "source": "Pragativadi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-12T14:16:19Z",
+        "title": "Crude Oil Tanker Hit Off UAE Coast; All 19 Indian Seafarers Safely Evacuated - Pragativadi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRlhSaTRDenROZ1hWeDVoZ3VaVWNCSHJpbV9ob282VVBmRVdGWTdTMDdhS1B4dHhfajdpZWU5eGdkQkFPNV9UcE0wWFJsNnp0TENoVVdobV9SVnptcnZzMjlKVzNLcUlucXlDZEdYVFhtMlNXLVVyUHBRVkhOSkVoZ1pGYWswazJjVk5QMFRxOFJ4N3U1UGxHSlFjcTNPWE1QTm10VERSYnVBSzVnZDJDWnYyWUJSdVFMUTNnZzBB?oc=5",
+        "source": "Times of Oman",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-12T13:33:00Z",
+        "title": "All 19 Indian seafarers safe after tanker \"attack\" off UAE: Shipping Minister Sonowal - Times of Oman"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5uUFBRdmZLUHFjZlFoeUd1QndHeWZIRzlVMkRKdWhsaE42ZFRzYldCYWlXMkI5TW05Skh5OXhyQm9OMVdKMTRJUVJSNVQzY3ky?oc=5",
+        "source": "JFeed",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-12T17:15:52Z",
+        "title": "Ship Struck by Projectile in Strait of Hormuz - JFeed"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQ1dtU0hOSmVxUnRiTFU1QUFKR1BKd2hnQ3pTa0hfaWczcE1ZTEY3UXhwWTlTUXNMcGluWTZZYkIxMi1VYUEtaWI3MGRIT1U5NXczUnc2Ym5vamp2NWg1V2pfQVdxeXRrZ1NqNjE4TldkdS0zQ3JRaVlLcWF3VThwUGJiZmZFSnV2YjZFTFFlUllvVXZP0gGaAUFVX3lxTE1OeUEtdXB0RHBqVk50QkwzZ2R1UThFUHlHcXJUU0JFWGpFak5XMTc0TUhtNmM2N05heHlmRlFFcnBLblhyaVM2d3EyWUtnbHVNcktQWEpDOGoycXppTUpTYU5hSjFMZW9yVVlvTF9lQk1teG1DazFFM3dmbE5Lbjh1TkdDZjVrQ2tyV01IN0Q3X1hjREVBVlBoQ0E?oc=5",
+        "source": "The Siasat Daily",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-12T14:55:19Z",
+        "title": "Two tanker attacks reported in Gulf waters within 24 hours - The Siasat Daily"
       }
     ],
     "first_seen": "2026-11-11T07:00:12Z",
-    "last_updated": "2026-11-12T20:22:05Z",
+    "last_updated": "2026-11-13T01:26:36Z",
     "verification_issue": 377,
     "verdict": {
       "status": "reported",
@@ -2121,10 +2267,19 @@
         "kind": "media",
         "published_at": "2026-11-12T03:14:44Z",
         "title": "Four injured on Sinokor VLCC as multiple tankers attacked in Hormuz"
+      },
+      {
+        "url": "https://maritime-executive.com/article/three-tankers-attacked-in-two-days-in-strait-of-hormuz-crisis",
+        "source": "The Maritime Executive",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-12T20:39:00Z",
+        "title": "Three Tankers Attacked in Two Days in Strait of Hormuz Crisis"
       }
     ],
     "first_seen": "2026-11-10T18:09:58Z",
-    "last_updated": "2026-11-12T11:45:39Z",
+    "last_updated": "2026-11-13T01:26:36Z",
     "verification_issue": 372,
     "verdict": {
       "status": "confirmed",
@@ -2282,6 +2437,47 @@
     ],
     "first_seen": "2026-11-10T23:40:34Z",
     "last_updated": "2026-11-10T23:40:43Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261110-006",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-11-10",
+    "summary": "The same report says at least three VLCCs were hit by suspected Iranian attacks over Tuesday and Wednesday, citing UKMTO. This entry covers the Wednesday (11 November) strikes; no vessel names, positions, weapon types, damage or casualties are given.",
+    "official_source_cited": "UK Maritime Trade Operations (UKMTO)",
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "suspected Iranian attacks",
+    "independent_evidence": true,
+    "id": "INC-20261110-009",
+    "sources": [
+      {
+        "url": "https://maritime-executive.com/article/three-tankers-attacked-in-two-days-in-strait-of-hormuz-crisis",
+        "source": "The Maritime Executive",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-12T20:39:00Z",
+        "title": "Three Tankers Attacked in Two Days in Strait of Hormuz Crisis"
+      }
+    ],
+    "first_seen": "2026-11-13T01:26:33Z",
+    "last_updated": "2026-11-13T01:26:36Z",
     "verification_issue": null,
     "verdict": null,
     "published_in": [],
