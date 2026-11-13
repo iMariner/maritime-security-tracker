@@ -3346,28 +3346,68 @@
     "HIST-ME-20260706-AL-REKAYYAT": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T03:06:19.845439+00:00",
+        "checked_at": "2026-11-13T01:58:00Z",
         "vessel_name": "AL REKAYYAT",
+        "imo": "9397339",
         "date_utc": "2026-07-06",
-        "vessel_type": "LNG tanker",
-        "region": "Strait of Hormuz",
-        "location_text": "8NM east of Limah, Oman",
-        "summary": "IMO records AL REKAYYAT in its confirmed incident register for 2026-07-06 near 8NM east of Limah, Oman. Vessel damage was reported.",
+        "vessel_type": "LNG carrier (Q-Flex)",
+        "region": "Gulf of Oman",
+        "location_text": "About 8 nautical miles east of Limah, Oman",
+        "attack_type": "Projectile strike, port side; no attacker identified",
+        "date_note": "UKMTO warning 080-26 records the strike at 2119 UTC on 6 July 2026, which was 0119 local time on 7 July in Oman. Nakilat's statement and Reuters describe the attack as in the early hours of Tuesday 7 July. The record keeps the UTC day, 6 July, which is also the date in the IMO register.",
+        "summary": "AL REKAYYAT, Nakilat's Q-Flex LNG carrier, was struck by an unknown projectile on her port side at 2119 UTC on 6 July 2026 while southbound about 8 nautical miles east of Limah, Oman. UKMTO warning 080-26 recorded the master's report of a fire on board and no casualties or environmental impact reported at that stage. Nakilat said in a statement on 8 July that none of the crew members on board were injured and that there was no environmental impact. Reuters reported on 8 July, citing industry sources, that all the crew had been safely evacuated, that the LNG in the tanks was intact with no breach, and that the laden vessel was stationary near the entrance to the Strait of Hormuz awaiting salvage with a tug and a service ship alongside while the engine room fire was fought. No authority named the attacker. Qatar's foreign ministry said Iran bore full legal responsibility for the attack, and Reuters reported that the US Navy led Joint Maritime Information Center raised the threat level for transiting the strait to severe from substantial after the attacks on Al Rekayyat and two other tankers.",
         "sources": [
           {
-            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 21 October 2026"
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20260706-ukmto_warning_080-26_attack.pdf",
+            "source": "UKMTO warning 080-26, 6 July 2026"
           },
           {
-            "source": "Green Award certified ships register",
-            "url": "https://staging.greenaward.org/sea-shipping/certificate-holders-ships/list-of-certified-ships/"
+            "url": "https://www.thepeninsulaqatar.com/article/08/07/2026/nakilat-issues-statement-on-al-rekayyat-vessel-incident-in-hormuz",
+            "source": "Nakilat statement, carried by The Peninsula Qatar, 8 July 2026"
+          },
+          {
+            "url": "https://gcaptain.com/damaged-qatari-lng-tanker-awaits-salvage-after-strike-near-hormuz/",
+            "source": "Reuters, 8 July 2026, carried by gCaptain"
           }
-        ],
-        "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
-        "imo": "9397339"
+        ]
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://www.thepeninsulaqatar.com/article/08/07/2026/nakilat-issues-statement-on-al-rekayyat-vessel-incident-in-hormuz",
+            "source": "Nakilat statement, 8 July 2026: none of the crew members on board were injured"
+          },
+          {
+            "url": "https://gcaptain.com/damaged-qatari-lng-tanker-awaits-salvage-after-strike-near-hormuz/",
+            "source": "Reuters, 8 July 2026: all the crew have been safely evacuated"
+          }
+        ],
+        "nationalities": []
+      },
+      "updates": [
+        {
+          "at": "2026-11-13T01:58:00Z",
+          "text": "This record held only an IMO register line and no casualty data. UKMTO warning 080-26 supplies the time, position and weapon effect, namely an unknown projectile on the port side causing a fire at 2119 UTC on 6 July 2026, 8 nautical miles east of Limah, Oman. Nakilat's statement of 8 July establishes that no crew member was injured, and Reuters that all the crew were evacuated with the cargo tanks intact. Deaths are therefore recorded as a confirmed zero rather than as unknown, and no nationalities are recorded because no source read here gives the crew's nationalities; the flag is not evidence of them. The reviewed region is set to Gulf of Oman, where the position lies, and it groups publicly with the Strait of Hormuz as before. Two later consequences are added: Qatar's foreign ministry blamed Iran for the attack, and the Joint Maritime Information Center raised the transit threat level to severe. A separate corpus row, INC-20261112-007, carries the same July 2026 salvage story as a 12 November attack; that dating comes from a July headline reprinted in November, this record is the attack's correct home, and the 12 November date should not be published as a new attack.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20260706-ukmto_warning_080-26_attack.pdf",
+              "source": "UKMTO warning 080-26, 6 July 2026"
+            },
+            {
+              "url": "https://www.thepeninsulaqatar.com/article/08/07/2026/nakilat-issues-statement-on-al-rekayyat-vessel-incident-in-hormuz",
+              "source": "Nakilat statement, carried by The Peninsula Qatar, 8 July 2026"
+            },
+            {
+              "url": "https://gcaptain.com/damaged-qatari-lng-tanker-awaits-salvage-after-strike-near-hormuz/",
+              "source": "Reuters, 8 July 2026, carried by gCaptain"
+            }
+          ]
+        }
       ]
     },
     "HIST-ME-20260627-KIKU": {
@@ -42780,6 +42820,103 @@
             {
               "url": "https://www.vesseltracker.com/en/Ships/Fujairah-Energy-9723071.html",
               "source": "VesselTracker ship record for FUJAIRAH ENERGY, IMO 9723071, Liberia"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6841536278,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6841536278",
+      "author": "iMariner",
+      "received_at": "2026-11-13T01:57:58Z",
+      "incident_id": "HIST-ME-20260706-AL-REKAYYAT",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T03:06:19.845439+00:00",
+          "vessel_name": "AL REKAYYAT",
+          "date_utc": "2026-07-06",
+          "vessel_type": "LNG tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "8NM east of Limah, Oman",
+          "summary": "IMO records AL REKAYYAT in its confirmed incident register for 2026-07-06 near 8NM east of Limah, Oman. Vessel damage was reported.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            },
+            {
+              "source": "Green Award certified ships register",
+              "url": "https://staging.greenaward.org/sea-shipping/certificate-holders-ships/list-of-certified-ships/"
+            }
+          ],
+          "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
+          "imo": "9397339"
+        },
+        "audit_notes": [
+          "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+        ]
+      },
+      "change": {
+        "incident_id": "HIST-ME-20260706-AL-REKAYYAT",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-13T01:58:00Z",
+          "vessel_name": "AL REKAYYAT",
+          "imo": "9397339",
+          "date_utc": "2026-07-06",
+          "vessel_type": "LNG carrier (Q-Flex)",
+          "region": "Gulf of Oman",
+          "location_text": "About 8 nautical miles east of Limah, Oman",
+          "attack_type": "Projectile strike, port side; no attacker identified",
+          "date_note": "UKMTO warning 080-26 records the strike at 2119 UTC on 6 July 2026, which was 0119 local time on 7 July in Oman. Nakilat's statement and Reuters describe the attack as in the early hours of Tuesday 7 July. The record keeps the UTC day, 6 July, which is also the date in the IMO register.",
+          "summary": "AL REKAYYAT, Nakilat's Q-Flex LNG carrier, was struck by an unknown projectile on her port side at 2119 UTC on 6 July 2026 while southbound about 8 nautical miles east of Limah, Oman. UKMTO warning 080-26 recorded the master's report of a fire on board and no casualties or environmental impact reported at that stage. Nakilat said in a statement on 8 July that none of the crew members on board were injured and that there was no environmental impact. Reuters reported on 8 July, citing industry sources, that all the crew had been safely evacuated, that the LNG in the tanks was intact with no breach, and that the laden vessel was stationary near the entrance to the Strait of Hormuz awaiting salvage with a tug and a service ship alongside while the engine room fire was fought. No authority named the attacker. Qatar's foreign ministry said Iran bore full legal responsibility for the attack, and Reuters reported that the US Navy led Joint Maritime Information Center raised the threat level for transiting the strait to severe from substantial after the attacks on Al Rekayyat and two other tankers.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20260706-ukmto_warning_080-26_attack.pdf",
+              "source": "UKMTO warning 080-26, 6 July 2026"
+            },
+            {
+              "url": "https://www.thepeninsulaqatar.com/article/08/07/2026/nakilat-issues-statement-on-al-rekayyat-vessel-incident-in-hormuz",
+              "source": "Nakilat statement, carried by The Peninsula Qatar, 8 July 2026"
+            },
+            {
+              "url": "https://gcaptain.com/damaged-qatari-lng-tanker-awaits-salvage-after-strike-near-hormuz/",
+              "source": "Reuters, 8 July 2026, carried by gCaptain"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.thepeninsulaqatar.com/article/08/07/2026/nakilat-issues-statement-on-al-rekayyat-vessel-incident-in-hormuz",
+              "source": "Nakilat statement, 8 July 2026: none of the crew members on board were injured"
+            },
+            {
+              "url": "https://gcaptain.com/damaged-qatari-lng-tanker-awaits-salvage-after-strike-near-hormuz/",
+              "source": "Reuters, 8 July 2026: all the crew have been safely evacuated"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-13T01:58:00Z",
+          "text": "This record held only an IMO register line and no casualty data. UKMTO warning 080-26 supplies the time, position and weapon effect, namely an unknown projectile on the port side causing a fire at 2119 UTC on 6 July 2026, 8 nautical miles east of Limah, Oman. Nakilat's statement of 8 July establishes that no crew member was injured, and Reuters that all the crew were evacuated with the cargo tanks intact. Deaths are therefore recorded as a confirmed zero rather than as unknown, and no nationalities are recorded because no source read here gives the crew's nationalities; the flag is not evidence of them. The reviewed region is set to Gulf of Oman, where the position lies, and it groups publicly with the Strait of Hormuz as before. Two later consequences are added: Qatar's foreign ministry blamed Iran for the attack, and the Joint Maritime Information Center raised the transit threat level to severe. A separate corpus row, INC-20261112-007, carries the same July 2026 salvage story as a 12 November attack; that dating comes from a July headline reprinted in November, this record is the attack's correct home, and the 12 November date should not be published as a new attack.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20260706-ukmto_warning_080-26_attack.pdf",
+              "source": "UKMTO warning 080-26, 6 July 2026"
+            },
+            {
+              "url": "https://www.thepeninsulaqatar.com/article/08/07/2026/nakilat-issues-statement-on-al-rekayyat-vessel-incident-in-hormuz",
+              "source": "Nakilat statement, carried by The Peninsula Qatar, 8 July 2026"
+            },
+            {
+              "url": "https://gcaptain.com/damaged-qatari-lng-tanker-awaits-salvage-after-strike-near-hormuz/",
+              "source": "Reuters, 8 July 2026, carried by gCaptain"
             }
           ]
         }
