@@ -21250,6 +21250,78 @@
           ]
         }
       ]
+    },
+    "INC-20261111-011": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261112-ukmto_warning_204-26.pdf",
+            "source": "UKMTO warning 204-26: no casualties have been reported and all crew have been evacuated safely"
+          },
+          {
+            "url": "https://www.khaleejtimes.com/world/gulf/indian-minister-22-sailors-evacuated-uae-coast-guard-attack-oil-tanker-mt-dominica-prosperity-november-11",
+            "source": "Khaleej Times, 12 November 2026, quoting Sarbananda Sonowal: the entire 22-member crew was safely evacuated and all 19 Indian nationals were completely safe with no injuries"
+          }
+        ],
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-14T02:50:00+05:30",
+        "vessel_name": "DOMINICA PROSPERITY",
+        "imo": "9395496",
+        "date_utc": "2026-11-11",
+        "vessel_type": "Crude oil tanker (VLCC)",
+        "region": "Persian Gulf",
+        "location_text": "14 nautical miles northwest of Ra’s al Khaymah, UAE, near Mina Saqr",
+        "attack_type": "Struck by an unknown projectile in the engine room; no attacker identified",
+        "date_note": "UKMTO warning 204-26 times the strike at 111800Z, that is 1800 UTC on 11 November 2026, but the warning was issued time-late on 12 November and the Joint Maritime Information Center lists the case under 12 November, its publication date. The attack date is kept as 11 November.",
+        "summary": "DOMINICA PROSPERITY, a Liberia flagged crude oil tanker of 297,274 deadweight tonnes built in 2011, was struck by an unknown projectile in the engine room at 1800 UTC on 11 November 2026 while drifting 14 nautical miles northwest of Ra’s al Khaymah in the United Arab Emirates, near Mina Saqr. UKMTO warning 204-26 records that no casualties were reported, that all the crew were evacuated safely and that fire-fighting was still under way. India’s Minister of Ports, Shipping and Waterways, Sarbananda Sonowal, said the entire 22-member crew was evacuated by the UAE Coast Guard and that all 19 Indian nationals on board were safe with no injuries. Ambrey placed the strike near the stern as the vessel left the Strait of Hormuz. The extent of the damage and any environmental impact were unknown when UKMTO reported; the IMO register line records the vessel as damaged with no pollution. No source read here names the attacker.",
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261112-ukmto_warning_204-26.pdf",
+            "source": "UKMTO warning 204-26, issued 12 November 2026: time-late report of an incident at 1800 UTC on 11 November, 14NM northwest of Ra’s al Khaymah, UAE, a tanker struck by an unknown projectile in the engine room, no casualties reported, all crew evacuated safely, fire-fighting ongoing"
+          },
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_113_12-nov.pdf",
+            "source": "Joint Maritime Information Center advisory update 113, 12 November 2026, listing DOMINICA PROSPERITY, tanker, attack, Arabian Gulf"
+          },
+          {
+            "url": "https://gcaptain.com/tanker-ablaze-off-uae-as-more-attacks-rattle-gulf-shipping/",
+            "source": "gCaptain (Mike Schuler), 12 November 2026, reporting UKMTO and the JMIC advisory and quoting India’s shipping minister"
+          },
+          {
+            "url": "https://www.khaleejtimes.com/world/gulf/indian-minister-22-sailors-evacuated-uae-coast-guard-attack-oil-tanker-mt-dominica-prosperity-november-11",
+            "source": "Khaleej Times, 12 November 2026, reporting India’s Minister of Ports, Shipping and Waterways Sarbananda Sonowal"
+          },
+          {
+            "url": "https://vesselfinder.com/vessels/details/9395496",
+            "source": "VesselFinder vessel record, read 14 November 2026: DOMINICA PROSPERITY, IMO 9395496, Liberia flag, crude oil tanker, 297,274 deadweight tonnes, built 2011"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-14T02:50:00+05:30",
+          "text": "The corpus row carried only an IMO register line, a position and the note damaged, no pollution. The reviewed reports establish the identity and the human outcome. UKMTO warning 204-26 gives the time as 1800 UTC on 11 November 2026, the place as 14 nautical miles northwest of Ra’s al Khaymah near Mina Saqr, and the effect as an unknown projectile in the engine room, with no casualties reported and the whole crew evacuated safely; the warning was issued time-late on 12 November, which is why the Joint Maritime Information Center lists the case under that date. The vessel record read here gives DOMINICA PROSPERITY as IMO 9395496, Liberia flagged, a crude oil tanker of 297,274 deadweight tonnes built in 2011. India’s shipping minister, Sarbananda Sonowal, independently confirmed that the 22-member crew was evacuated by the UAE Coast Guard and that all 19 Indian seafarers were safe with no injuries, so deaths are recorded as a confirmed nil rather than unknown. No nationality is counted as a death because nobody was killed, and the 19 Indians are crew composition, not a casualty figure. The reviewed region is corrected from Strait of Hormuz to Persian Gulf: the position northwest of Ra’s al Khaymah near Mina Saqr lies inside the gulf and the Joint Maritime Information Center records the case in the Arabian Gulf. The flag is not treated as evidence of crew nationality.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261112-ukmto_warning_204-26.pdf",
+              "source": "UKMTO warning 204-26"
+            },
+            {
+              "url": "https://gcaptain.com/tanker-ablaze-off-uae-as-more-attacks-rattle-gulf-shipping/",
+              "source": "gCaptain, 12 November 2026, reporting UKMTO and the JMIC advisory and quoting the Indian minister"
+            },
+            {
+              "url": "https://vesselfinder.com/vessels/details/9395496",
+              "source": "VesselFinder record for IMO 9395496, read 14 November 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -43145,6 +43217,85 @@
             {
               "url": "https://iranwire.com/en/news/160192-irgc-claims-liquefied-gas-carrier-hit-naval-mine-and-exploded-in-strait-of-hormuz/",
               "source": "IranWire, 13 November 2026, the report checked for this record"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6864214625,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6864214625",
+      "author": "iMariner",
+      "received_at": "2026-11-13T20:34:02Z",
+      "incident_id": "INC-20261111-011",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261111-011",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-14T02:50:00+05:30",
+          "vessel_name": "DOMINICA PROSPERITY",
+          "imo": "9395496",
+          "date_utc": "2026-11-11",
+          "vessel_type": "Crude oil tanker (VLCC)",
+          "region": "Persian Gulf",
+          "location_text": "14 nautical miles northwest of Ra’s al Khaymah, UAE, near Mina Saqr",
+          "attack_type": "Struck by an unknown projectile in the engine room; no attacker identified",
+          "date_note": "UKMTO warning 204-26 times the strike at 111800Z, that is 1800 UTC on 11 November 2026, but the warning was issued time-late on 12 November and the Joint Maritime Information Center lists the case under 12 November, its publication date. The attack date is kept as 11 November.",
+          "summary": "DOMINICA PROSPERITY, a Liberia flagged crude oil tanker of 297,274 deadweight tonnes built in 2011, was struck by an unknown projectile in the engine room at 1800 UTC on 11 November 2026 while drifting 14 nautical miles northwest of Ra’s al Khaymah in the United Arab Emirates, near Mina Saqr. UKMTO warning 204-26 records that no casualties were reported, that all the crew were evacuated safely and that fire-fighting was still under way. India’s Minister of Ports, Shipping and Waterways, Sarbananda Sonowal, said the entire 22-member crew was evacuated by the UAE Coast Guard and that all 19 Indian nationals on board were safe with no injuries. Ambrey placed the strike near the stern as the vessel left the Strait of Hormuz. The extent of the damage and any environmental impact were unknown when UKMTO reported; the IMO register line records the vessel as damaged with no pollution. No source read here names the attacker.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261112-ukmto_warning_204-26.pdf",
+              "source": "UKMTO warning 204-26, issued 12 November 2026: time-late report of an incident at 1800 UTC on 11 November, 14NM northwest of Ra’s al Khaymah, UAE, a tanker struck by an unknown projectile in the engine room, no casualties reported, all crew evacuated safely, fire-fighting ongoing"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_113_12-nov.pdf",
+              "source": "Joint Maritime Information Center advisory update 113, 12 November 2026, listing DOMINICA PROSPERITY, tanker, attack, Arabian Gulf"
+            },
+            {
+              "url": "https://gcaptain.com/tanker-ablaze-off-uae-as-more-attacks-rattle-gulf-shipping/",
+              "source": "gCaptain (Mike Schuler), 12 November 2026, reporting UKMTO and the JMIC advisory and quoting India’s shipping minister"
+            },
+            {
+              "url": "https://www.khaleejtimes.com/world/gulf/indian-minister-22-sailors-evacuated-uae-coast-guard-attack-oil-tanker-mt-dominica-prosperity-november-11",
+              "source": "Khaleej Times, 12 November 2026, reporting India’s Minister of Ports, Shipping and Waterways Sarbananda Sonowal"
+            },
+            {
+              "url": "https://vesselfinder.com/vessels/details/9395496",
+              "source": "VesselFinder vessel record, read 14 November 2026: DOMINICA PROSPERITY, IMO 9395496, Liberia flag, crude oil tanker, 297,274 deadweight tonnes, built 2011"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261112-ukmto_warning_204-26.pdf",
+              "source": "UKMTO warning 204-26: no casualties have been reported and all crew have been evacuated safely"
+            },
+            {
+              "url": "https://www.khaleejtimes.com/world/gulf/indian-minister-22-sailors-evacuated-uae-coast-guard-attack-oil-tanker-mt-dominica-prosperity-november-11",
+              "source": "Khaleej Times, 12 November 2026, quoting Sarbananda Sonowal: the entire 22-member crew was safely evacuated and all 19 Indian nationals were completely safe with no injuries"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-14T02:50:00+05:30",
+          "text": "The corpus row carried only an IMO register line, a position and the note damaged, no pollution. The reviewed reports establish the identity and the human outcome. UKMTO warning 204-26 gives the time as 1800 UTC on 11 November 2026, the place as 14 nautical miles northwest of Ra’s al Khaymah near Mina Saqr, and the effect as an unknown projectile in the engine room, with no casualties reported and the whole crew evacuated safely; the warning was issued time-late on 12 November, which is why the Joint Maritime Information Center lists the case under that date. The vessel record read here gives DOMINICA PROSPERITY as IMO 9395496, Liberia flagged, a crude oil tanker of 297,274 deadweight tonnes built in 2011. India’s shipping minister, Sarbananda Sonowal, independently confirmed that the 22-member crew was evacuated by the UAE Coast Guard and that all 19 Indian seafarers were safe with no injuries, so deaths are recorded as a confirmed nil rather than unknown. No nationality is counted as a death because nobody was killed, and the 19 Indians are crew composition, not a casualty figure. The reviewed region is corrected from Strait of Hormuz to Persian Gulf: the position northwest of Ra’s al Khaymah near Mina Saqr lies inside the gulf and the Joint Maritime Information Center records the case in the Arabian Gulf. The flag is not treated as evidence of crew nationality.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261112-ukmto_warning_204-26.pdf",
+              "source": "UKMTO warning 204-26"
+            },
+            {
+              "url": "https://gcaptain.com/tanker-ablaze-off-uae-as-more-attacks-rattle-gulf-shipping/",
+              "source": "gCaptain, 12 November 2026, reporting UKMTO and the JMIC advisory and quoting the Indian minister"
+            },
+            {
+              "url": "https://vesselfinder.com/vessels/details/9395496",
+              "source": "VesselFinder record for IMO 9395496, read 14 November 2026"
             }
           ]
         }
