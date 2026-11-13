@@ -21159,6 +21159,65 @@
           ]
         }
       ]
+    },
+    "INC-20261111-006": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://www.aninews.in/news/world/middle-east/all-3-indian-nationals-safe-after-possible-attack-on-saudi-flagged-tanker-shipping-minister-sonowal20261111180139",
+            "source": "ANI, 11 November 2026, quoting India's Minister for Ports, Shipping and Waterways: all three Indian nationals along with the entire crew of NCC FAJR were safe"
+          }
+        ],
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-13T14:20:00Z",
+        "vessel_name": "NCC FAJR",
+        "imo": "9595644",
+        "date_utc": "2026-11-11",
+        "vessel_type": "Chemical and oil products tanker",
+        "region": "Strait of Hormuz",
+        "location_text": "Strait of Hormuz, north of Khasab, Oman",
+        "attack_type": "Projectile strike, projectile type unidentified",
+        "summary": "NCC FAJR, a Saudi Arabia flagged chemical and oil products tanker of 81,336 deadweight tonnes built in 2013, was struck by an unidentified projectile while transiting the Strait of Hormuz on 11 November 2026. The Joint Maritime Information Center, in the advisory update of 12 November 2026 reported by gCaptain, names NCC Fajr among the tanker attacks it recorded, places the attack north of Khasab in Oman, and records that the UK Maritime Trade Operations centre first reported the incident without confirming a strike and then reclassified it as an attack after receiving confirmation that the vessel had been hit. India's Minister of Ports, Shipping and Waterways, Sarbananda Sonowal, said in a post on X on 11 November 2026 that the Saudi Arabia flagged oil tanker NCC FAJR, carrying three Indian seafarers, was involved in a possible attack while transiting the strait, and that all three Indian nationals along with the entire crew were safe. No source read here gives a damage assessment, a weapon type or a claim of responsibility, and the Iranian mine claim of the same day named no vessel.",
+        "sources": [
+          {
+            "url": "https://www.aninews.in/news/world/middle-east/all-3-indian-nationals-safe-after-possible-attack-on-saudi-flagged-tanker-shipping-minister-sonowal20261111180139",
+            "source": "ANI, 11 November 2026, quoting Sarbananda Sonowal's post on X: Saudi Arabia flagged oil tanker NCC FAJR, carrying three Indian seafarers, was involved in a possible attack while transiting the Strait of Hormuz on 11 November, and all three Indians along with the entire crew were safe"
+          },
+          {
+            "url": "https://gcaptain.com/tanker-ablaze-off-uae-as-more-attacks-rattle-gulf-shipping/",
+            "source": "gCaptain (Mike Schuler), 12 November 2026, reporting the Joint Maritime Information Center advisory update: NCC Fajr was struck by an unknown projectile while transiting the Strait of Hormuz on 11 November, and UKMTO reclassified the incident as an attack after receiving confirmation the vessel had been hit"
+          },
+          {
+            "url": "https://www.vesselfinder.com/vessels/details/9595644",
+            "source": "VesselFinder vessel record, read 13 November 2026: NCC FAJR, IMO 9595644, Saudi Arabia flag, chemical and oil products tanker, 81,336 deadweight tonnes, built 2013"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-13T14:20:00Z",
+          "text": "Verification is now carried on this row because it is the record that INC-20261111-003 merges into. The reviewed assertion of 11 November sat on the merged row, which the public export withholds, so the canonical row for this attack stayed unreviewed and no reviewed NCC FAJR record was reaching the public tracker. This check re-read the underlying reports rather than copying the earlier review: the Joint Maritime Information Center advisory update of 12 November, reported by gCaptain, names NCC Fajr as struck by an unknown projectile in the Strait of Hormuz and records that UKMTO reclassified the case as an attack once the hit was confirmed, and India's shipping minister reported that all three Indian seafarers and the whole crew were safe. The vessel record gives NCC FAJR as IMO 9595644, a Saudi Arabia flagged chemical and oil products tanker built in 2013. The zero is a confirmed nil for the crew and not an unknown, and no nationality is counted as a death because nobody was killed. The Iranian claim of mine strikes the same day named no vessel and is not attached to this record.",
+          "sources": [
+            {
+              "url": "https://gcaptain.com/tanker-ablaze-off-uae-as-more-attacks-rattle-gulf-shipping/",
+              "source": "gCaptain, 12 November 2026, reporting the JMIC advisory update and the UKMTO reclassification of the NCC Fajr incident"
+            },
+            {
+              "url": "https://www.aninews.in/news/world/middle-east/all-3-indian-nationals-safe-after-possible-attack-on-saudi-flagged-tanker-shipping-minister-sonowal20261111180139",
+              "source": "ANI, 11 November 2026, quoting Sarbananda Sonowal on the safety of the three Indian seafarers and the whole crew"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9595644",
+              "source": "VesselFinder vessel record for NCC FAJR, IMO 9595644, read 13 November 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -42917,6 +42976,72 @@
             {
               "url": "https://gcaptain.com/damaged-qatari-lng-tanker-awaits-salvage-after-strike-near-hormuz/",
               "source": "Reuters, 8 July 2026, carried by gCaptain"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6855588331,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6855588331",
+      "author": "iMariner",
+      "received_at": "2026-11-13T14:19:00Z",
+      "incident_id": "INC-20261111-006",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261111-006",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-13T14:20:00Z",
+          "vessel_name": "NCC FAJR",
+          "imo": "9595644",
+          "date_utc": "2026-11-11",
+          "vessel_type": "Chemical and oil products tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "Strait of Hormuz, north of Khasab, Oman",
+          "attack_type": "Projectile strike, projectile type unidentified",
+          "summary": "NCC FAJR, a Saudi Arabia flagged chemical and oil products tanker of 81,336 deadweight tonnes built in 2013, was struck by an unidentified projectile while transiting the Strait of Hormuz on 11 November 2026. The Joint Maritime Information Center, in the advisory update of 12 November 2026 reported by gCaptain, names NCC Fajr among the tanker attacks it recorded, places the attack north of Khasab in Oman, and records that the UK Maritime Trade Operations centre first reported the incident without confirming a strike and then reclassified it as an attack after receiving confirmation that the vessel had been hit. India's Minister of Ports, Shipping and Waterways, Sarbananda Sonowal, said in a post on X on 11 November 2026 that the Saudi Arabia flagged oil tanker NCC FAJR, carrying three Indian seafarers, was involved in a possible attack while transiting the strait, and that all three Indian nationals along with the entire crew were safe. No source read here gives a damage assessment, a weapon type or a claim of responsibility, and the Iranian mine claim of the same day named no vessel.",
+          "sources": [
+            {
+              "url": "https://www.aninews.in/news/world/middle-east/all-3-indian-nationals-safe-after-possible-attack-on-saudi-flagged-tanker-shipping-minister-sonowal20261111180139",
+              "source": "ANI, 11 November 2026, quoting Sarbananda Sonowal's post on X: Saudi Arabia flagged oil tanker NCC FAJR, carrying three Indian seafarers, was involved in a possible attack while transiting the Strait of Hormuz on 11 November, and all three Indians along with the entire crew were safe"
+            },
+            {
+              "url": "https://gcaptain.com/tanker-ablaze-off-uae-as-more-attacks-rattle-gulf-shipping/",
+              "source": "gCaptain (Mike Schuler), 12 November 2026, reporting the Joint Maritime Information Center advisory update: NCC Fajr was struck by an unknown projectile while transiting the Strait of Hormuz on 11 November, and UKMTO reclassified the incident as an attack after receiving confirmation the vessel had been hit"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9595644",
+              "source": "VesselFinder vessel record, read 13 November 2026: NCC FAJR, IMO 9595644, Saudi Arabia flag, chemical and oil products tanker, 81,336 deadweight tonnes, built 2013"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.aninews.in/news/world/middle-east/all-3-indian-nationals-safe-after-possible-attack-on-saudi-flagged-tanker-shipping-minister-sonowal20261111180139",
+              "source": "ANI, 11 November 2026, quoting India's Minister for Ports, Shipping and Waterways: all three Indian nationals along with the entire crew of NCC FAJR were safe"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-13T14:20:00Z",
+          "text": "Verification is now carried on this row because it is the record that INC-20261111-003 merges into. The reviewed assertion of 11 November sat on the merged row, which the public export withholds, so the canonical row for this attack stayed unreviewed and no reviewed NCC FAJR record was reaching the public tracker. This check re-read the underlying reports rather than copying the earlier review: the Joint Maritime Information Center advisory update of 12 November, reported by gCaptain, names NCC Fajr as struck by an unknown projectile in the Strait of Hormuz and records that UKMTO reclassified the case as an attack once the hit was confirmed, and India's shipping minister reported that all three Indian seafarers and the whole crew were safe. The vessel record gives NCC FAJR as IMO 9595644, a Saudi Arabia flagged chemical and oil products tanker built in 2013. The zero is a confirmed nil for the crew and not an unknown, and no nationality is counted as a death because nobody was killed. The Iranian claim of mine strikes the same day named no vessel and is not attached to this record.",
+          "sources": [
+            {
+              "url": "https://gcaptain.com/tanker-ablaze-off-uae-as-more-attacks-rattle-gulf-shipping/",
+              "source": "gCaptain, 12 November 2026, reporting the JMIC advisory update and the UKMTO reclassification of the NCC Fajr incident"
+            },
+            {
+              "url": "https://www.aninews.in/news/world/middle-east/all-3-indian-nationals-safe-after-possible-attack-on-saudi-flagged-tanker-shipping-minister-sonowal20261111180139",
+              "source": "ANI, 11 November 2026, quoting Sarbananda Sonowal on the safety of the three Indian seafarers and the whole crew"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9595644",
+              "source": "VesselFinder vessel record for NCC FAJR, IMO 9595644, read 13 November 2026"
             }
           ]
         }
