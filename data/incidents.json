@@ -6,7 +6,7 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.5,
-    "vessel_name": null,
+    "vessel_name": "AL REKAYYAT",
     "imo": null,
     "flag": "Qatar",
     "vessel_type": "LNG/LPG carrier",
@@ -30,15 +30,31 @@
         "kind": "media",
         "published_at": "2026-11-12T15:54:35Z",
         "title": "Damaged Qatari LNG Tanker Awaits Salvage After Strike as Hormuz Risks Escalate - EnergyNow.com"
+      },
+      {
+        "url": "https://energynow.com/2026/07/damaged-qatari-lng-tanker-awaits-salvage-after-strike-as-hormuz-risks-escalate",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-13T04:33:00Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-13T01:26:33Z",
-    "last_updated": "2026-11-13T01:26:33Z",
+    "last_updated": "2026-11-13T04:33:00Z",
     "verification_issue": 385,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-11-13T04:33:00Z",
+      "note": "The article carrying this headline is dated 8 July 2026 and describes the Qatari LNG tanker Al Rekayyat awaiting salvage after being hit by a projectile off Oman on 7 July, so the record is mis-dated by four months and is not a 12 November attack.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/385#issuecomment-6844046591"
+    },
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-11-13T04:33:00Z"
   },
   {
     "region": "Black Sea",
@@ -404,7 +420,7 @@
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.5,
-    "vessel_name": null,
+    "vessel_name": "LOUISE 1",
     "imo": null,
     "flag": null,
     "vessel_type": "tanker",
@@ -427,15 +443,31 @@
         "kind": "media",
         "published_at": "2026-11-12T08:58:04Z",
         "title": "Explosive devices attached to tanker in one of at least two attacks in Hormuz - www.rivieramm.com"
+      },
+      {
+        "url": "https://www.rivieramm.com/news-content-hub/news-content-hub/explosive-devices-attached-to-tanker-in-one-of-at-least-two-attacks-in-hormuz-90428",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-13T04:32:58Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-13T01:26:35Z",
-    "last_updated": "2026-11-13T01:26:35Z",
+    "last_updated": "2026-11-13T04:32:58Z",
     "verification_issue": 386,
-    "verdict": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "iMariner",
+      "at": "2026-11-13T04:32:58Z",
+      "note": "The headline is a Riviera article dated 30 October 2026 about two explosive devices attached by a small boat to the Panama-flagged tanker Louise 1 on 29 October, already recorded as INC-20261029-021, so this record is mis-dated by two weeks.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/386#issuecomment-6844046174"
+    },
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "rejected",
+    "position_approx": true,
+    "status_changed_at": "2026-11-13T04:32:58Z"
   },
   {
     "region": "Black Sea",
