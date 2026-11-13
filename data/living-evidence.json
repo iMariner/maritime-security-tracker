@@ -21238,6 +21238,16 @@
               "source": "IMO list of highlighted confirmed incidents, read 13 November 2026: most recent entry dated 7 November 2026, no entry matching a 13 November mine strike"
             }
           ]
+        },
+        {
+          "at": "2026-11-13T14:27:30Z",
+          "text": "Correction to the audit trail only, with no change to any fact. The note above was submitted at 14:22 UTC on 13 November 2026 but carried a timestamp of 14:35 UTC, which was ahead of the actual review. This entry records the true review time so the order of checks on this record is not misread. The finding is unchanged: the 13 November mine claim names no vessel, no maritime authority has confirmed it, and the death count stays unknown and uncounted.",
+          "sources": [
+            {
+              "url": "https://iranwire.com/en/news/160192-irgc-claims-liquefied-gas-carrier-hit-naval-mine-and-exploded-in-strait-of-hormuz/",
+              "source": "IranWire, 13 November 2026, the report checked for this record"
+            }
+          ]
         }
       ]
     }
@@ -43093,6 +43103,48 @@
             {
               "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
               "source": "IMO list of highlighted confirmed incidents, read 13 November 2026: most recent entry dated 7 November 2026, no entry matching a 13 November mine strike"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6855789775,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6855789775",
+      "author": "iMariner",
+      "received_at": "2026-11-13T14:26:33Z",
+      "incident_id": "INC-20261113-001",
+      "before": {
+        "updates": [
+          {
+            "at": "2026-11-13T14:35:00Z",
+            "text": "Checked on 13 November 2026 and no vessel can be identified, so no verification is submitted. The Islamic Revolutionary Guard Corps Navy said on the morning of 13 November 2026 that a liquefied gas carrier suffered a severe explosion and caught fire east of the Strait of Hormuz after striking a naval mine on the route Iran calls unauthorised, as carried by IranWire, which reported that the claim had not been verified by any independent maritime monitoring agency and that no details of the vessel's name, flag, crew status or casualties had been released; the corps also claimed the ship was escorted by US fighter jets, which IranWire said was not independently confirmed. Anadolu Agency carried the same claim as the third oil tanker explosion after a mine strike in the strait in three days, so even the type of ship differs between the accounts. No maritime authority has confirmed a mine strike here: the IMO confirmed incident register read on 13 November 2026 stops at 7 November 2026 and carries no matching entry, and no UKMTO notice naming a gas or oil carrier in the strait on 13 November 2026 was found. With no ship identified and no authority reporting a crew outcome, the death count stays unknown rather than zero and no count is asserted. The row stays unreviewed and outside published totals, and it must not be joined to the 11 November NCC FAJR or Dominica Prosperity attacks, which UKMTO confirmed as separate strikes.",
+            "sources": [
+              {
+                "url": "https://iranwire.com/en/news/160192-irgc-claims-liquefied-gas-carrier-hit-naval-mine-and-exploded-in-strait-of-hormuz/",
+                "source": "IranWire, 13 November 2026: IRGC Navy claimed a liquefied gas carrier exploded and caught fire east of the Strait of Hormuz after striking a naval mine, the claim was not verified by independent monitoring agencies, and no vessel name, flag, crew status or casualty details were released"
+              },
+              {
+                "url": "https://www.aa.com.tr/en/middle-east/iran-says-3rd-oil-tanker-explodes-after-hitting-naval-mine-in-strait-of-hormuz/4119401",
+                "source": "Anadolu Agency, 13 November 2026: Iran says the third oil tanker in three days exploded after hitting a naval mine in the Strait of Hormuz"
+              },
+              {
+                "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+                "source": "IMO list of highlighted confirmed incidents, read 13 November 2026: most recent entry dated 7 November 2026, no entry matching a 13 November mine strike"
+              }
+            ]
+          }
+        ]
+      },
+      "change": {
+        "incident_id": "INC-20261113-001",
+        "update": {
+          "at": "2026-11-13T14:27:30Z",
+          "text": "Correction to the audit trail only, with no change to any fact. The note above was submitted at 14:22 UTC on 13 November 2026 but carried a timestamp of 14:35 UTC, which was ahead of the actual review. This entry records the true review time so the order of checks on this record is not misread. The finding is unchanged: the 13 November mine claim names no vessel, no maritime authority has confirmed it, and the death count stays unknown and uncounted.",
+          "sources": [
+            {
+              "url": "https://iranwire.com/en/news/160192-irgc-claims-liquefied-gas-carrier-hit-naval-mine-and-exploded-in-strait-of-hormuz/",
+              "source": "IranWire, 13 November 2026, the report checked for this record"
             }
           ]
         }
