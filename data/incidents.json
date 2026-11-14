@@ -110,12 +110,27 @@
         "kind": "media",
         "published_at": "2026-11-13T20:30:00Z",
         "title": "Ship catches fire off Oman coast: Crew evacuated – VIDEO - TodayPress.tv"
+      },
+      {
+        "url": "https://tass.com/world/2217633",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-14T04:33:13Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-13T08:42:26Z",
-    "last_updated": "2026-11-14T03:30:42Z",
+    "last_updated": "2026-11-14T04:33:13Z",
     "verification_issue": 388,
-    "verdict": null,
+    "verdict": {
+      "status": "claimed",
+      "by": "iMariner",
+      "at": "2026-11-14T04:33:13Z",
+      "note": "Only Iran's IRGC Navy, through Iranian state media, reports the gas carrier hitting a mine, it names no vessel and gives no position, and UKMTO and JMIC have published no product for 13 November.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/388#issuecomment-6871773138"
+    },
     "published_in": [],
     "status": "claimed",
     "position_approx": true,
