@@ -3440,28 +3440,84 @@
     "HIST-ME-20260625-EVER-LOVELY": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T03:06:19.845439+00:00",
+        "checked_at": "2026-11-14T02:42:00Z",
         "vessel_name": "EVER LOVELY",
+        "imo": "9629110",
         "date_utc": "2026-06-25",
-        "vessel_type": "container",
+        "vessel_type": "Container ship",
         "region": "Strait of Hormuz",
-        "location_text": "7.5NM southeast of Dahit, Oman",
-        "summary": "IMO records EVER LOVELY in its confirmed incident register for 2026-06-25 near 7.5NM southeast of Dahit, Oman. Vessel damage was reported.",
+        "location_text": "7.5 nautical miles southeast of Dahit, Oman, in the Musandam exclave",
+        "attack_type": "Struck on the starboard side by an unknown projectile, causing damage to the bridge; no attacker identified by the maritime authority",
+        "date_note": "UKMTO warning 074-26 was issued at 1410 UTC on 25 June 2026 and Singapore's Maritime and Port Authority times the strike at about 2200 Singapore time on 25 June, which is 1400 UTC the same day. Some outlets carried the story on 26 June in Asian time zones. The UTC day of the attack is kept as 25 June.",
+        "summary": "EVER LOVELY, a Singapore-flagged container ship of about 104,000 deadweight tonnes and 8,508 TEU built in 2015 and owned by Evergreen Marine Group of Taiwan, was struck on the starboard side by an unknown projectile while leaving the Strait of Hormuz on 25 June 2026. UKMTO warning 074-26, issued from the master's report at 1410 UTC, places the strike 7.5 nautical miles southeast of Dahit in Oman's Musandam exclave and records damage to the bridge with no casualties and no environmental impact. Vanguard Tech and three maritime security sources named the vessel as Ever Lovely, as reported by Reuters and AFP. Singapore's Maritime and Port Authority said the ship sustained minor damage to the bridge area at about 2200 Singapore time, that all 21 crew members were safe and that no Singaporeans were on board, and that she completed the transit and continued her voyage. Evergreen said all crew members remained safe, along with the vessel and its cargo. The UN International Maritime Organization paused its planned evacuation of more than 11,000 stranded seafarers after the attack. UKMTO did not attribute the strike; US officials blamed Iran, according to the New York Times, and CENTCOM described the attack on commercial shipping as a violation of the ceasefire.",
         "sources": [
           {
-            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 21 October 2026"
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20260625-ukmto_warning_attack-074-26.pdf",
+            "source": "UKMTO warning 074-26, issued 1410 UTC on 25 June 2026: 7.5NM southeast of Dahit, Oman, cargo vessel hit on the starboard side by an unknown projectile, damage to the bridge, master reported no casualties and no environmental impact"
           },
           {
-            "source": "VesselFinder",
-            "url": "https://www.vesselfinder.com/vessels/details/9629110"
+            "url": "https://www.mpa.gov.sg/media-centre/details/minor-damage-to-bridge-of-singapore-registered-vessel-ever-lovely",
+            "source": "Maritime and Port Authority of Singapore, 26 June 2026: EVER LOVELY sustained minor damage to the bridge area from an unknown projectile while leaving the Strait of Hormuz on 25 June at about 2200 Singapore time, all 21 crew safe, no Singaporeans on board, vessel completed transit"
+          },
+          {
+            "url": "https://www.bairdmaritime.com/security/incidents/suspected-attack-on-cargo-ship-crossing-hormuz-reported-near-oman-coast",
+            "source": "Reuters, 25 June 2026: UKMTO reports a cargo vessel struck on the starboard side 7.5NM southeast of Dahit, no casualties or environmental impact; Vanguard and three maritime security sources name the Singapore-flagged container ship Ever Lovely"
+          },
+          {
+            "url": "https://www.bbc.com/news/articles/cjwg9np904qo",
+            "source": "BBC News, 25 June 2026: the IMO paused the evacuation of more than 11,000 stranded sailors after the attack; Evergreen said all crew members remain safe as does the vessel and all cargo"
+          },
+          {
+            "url": "https://nytimes.com/2026/06/25/business/hormuz-ship-attack-iran.html",
+            "source": "The New York Times, 25 June 2026: a US official said Iran's military struck the container ship Ever Lovely, owned by Evergreen Marine of Taiwan"
+          },
+          {
+            "url": "https://tidearo.com/atlas/vessels/ever-lovely-9629110",
+            "source": "Vessel particulars, Tidearo: EVER LOVELY, IMO 9629110, container ship built 2015, Singapore flag, owner and manager Evergreen Marine Group of Taipei"
           }
-        ],
-        "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
-        "imo": "9629110"
+        ]
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20260625-ukmto_warning_attack-074-26.pdf",
+            "source": "UKMTO warning 074-26, 25 June 2026: master reported no casualties"
+          },
+          {
+            "url": "https://www.mpa.gov.sg/media-centre/details/minor-damage-to-bridge-of-singapore-registered-vessel-ever-lovely",
+            "source": "Maritime and Port Authority of Singapore, 26 June 2026: all 21 crew members are safe"
+          }
+        ],
+        "nationalities": []
+      },
+      "updates": [
+        {
+          "at": "2026-11-14T02:42:00Z",
+          "text": "This historical record held only a name, a region and a reported status, with no date, position, type, summary or casualty basis. The review adds them from the flag state and the maritime authority. UKMTO warning 074-26 fixes the attack at 1410 UTC on 25 June 2026, 7.5 nautical miles southeast of Dahit in Oman's Musandam exclave, with an unknown projectile on the starboard side, damage to the bridge and no casualties or environmental impact. Singapore's Maritime and Port Authority confirms the identity and flag, puts the crew at 21 and all safe, and records that the ship completed her transit. Deaths are recorded as a confirmed zero on those two authority statements, not inferred from silence, and no nationalities are recorded because MPA gives only that no Singaporean was aboard; the flag is not evidence of crew nationality. Two corpus rows, INC-20261010-012 and INC-20261109-006, are the same June 2026 story with October and November crawl dates, one of them holding an EnergyNow page whose path dates it to June; neither is a new attack on those dates and neither should be published as one. This record is the attack's correct home. The attribution stays a claim: UKMTO named no attacker, US officials blamed Iran and CENTCOM called the strike a breach of the ceasefire.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20260625-ukmto_warning_attack-074-26.pdf",
+              "source": "UKMTO warning 074-26, 25 June 2026"
+            },
+            {
+              "url": "https://www.mpa.gov.sg/media-centre/details/minor-damage-to-bridge-of-singapore-registered-vessel-ever-lovely",
+              "source": "Maritime and Port Authority of Singapore, 26 June 2026"
+            },
+            {
+              "url": "https://www.bbc.com/news/articles/cjwg9np904qo",
+              "source": "BBC News, 25 June 2026, reporting the IMO evacuation pause and Evergreen's statement"
+            },
+            {
+              "url": "https://nytimes.com/2026/06/25/business/hormuz-ship-attack-iran.html",
+              "source": "The New York Times, 25 June 2026, the US attribution"
+            }
+          ]
+        }
       ]
     },
     "HIST-ME-20260612-BOCHEM-MARENGO": {
@@ -43296,6 +43352,119 @@
             {
               "url": "https://vesselfinder.com/vessels/details/9395496",
               "source": "VesselFinder record for IMO 9395496, read 14 November 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6870364239,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6870364239",
+      "author": "iMariner",
+      "received_at": "2026-11-14T02:40:33Z",
+      "incident_id": "HIST-ME-20260625-EVER-LOVELY",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T03:06:19.845439+00:00",
+          "vessel_name": "EVER LOVELY",
+          "date_utc": "2026-06-25",
+          "vessel_type": "container",
+          "region": "Strait of Hormuz",
+          "location_text": "7.5NM southeast of Dahit, Oman",
+          "summary": "IMO records EVER LOVELY in its confirmed incident register for 2026-06-25 near 7.5NM southeast of Dahit, Oman. Vessel damage was reported.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            },
+            {
+              "source": "VesselFinder",
+              "url": "https://www.vesselfinder.com/vessels/details/9629110"
+            }
+          ],
+          "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
+          "imo": "9629110"
+        },
+        "audit_notes": [
+          "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+        ]
+      },
+      "change": {
+        "incident_id": "HIST-ME-20260625-EVER-LOVELY",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-14T02:42:00Z",
+          "vessel_name": "EVER LOVELY",
+          "imo": "9629110",
+          "date_utc": "2026-06-25",
+          "vessel_type": "Container ship",
+          "region": "Strait of Hormuz",
+          "location_text": "7.5 nautical miles southeast of Dahit, Oman, in the Musandam exclave",
+          "attack_type": "Struck on the starboard side by an unknown projectile, causing damage to the bridge; no attacker identified by the maritime authority",
+          "date_note": "UKMTO warning 074-26 was issued at 1410 UTC on 25 June 2026 and Singapore's Maritime and Port Authority times the strike at about 2200 Singapore time on 25 June, which is 1400 UTC the same day. Some outlets carried the story on 26 June in Asian time zones. The UTC day of the attack is kept as 25 June.",
+          "summary": "EVER LOVELY, a Singapore-flagged container ship of about 104,000 deadweight tonnes and 8,508 TEU built in 2015 and owned by Evergreen Marine Group of Taiwan, was struck on the starboard side by an unknown projectile while leaving the Strait of Hormuz on 25 June 2026. UKMTO warning 074-26, issued from the master's report at 1410 UTC, places the strike 7.5 nautical miles southeast of Dahit in Oman's Musandam exclave and records damage to the bridge with no casualties and no environmental impact. Vanguard Tech and three maritime security sources named the vessel as Ever Lovely, as reported by Reuters and AFP. Singapore's Maritime and Port Authority said the ship sustained minor damage to the bridge area at about 2200 Singapore time, that all 21 crew members were safe and that no Singaporeans were on board, and that she completed the transit and continued her voyage. Evergreen said all crew members remained safe, along with the vessel and its cargo. The UN International Maritime Organization paused its planned evacuation of more than 11,000 stranded seafarers after the attack. UKMTO did not attribute the strike; US officials blamed Iran, according to the New York Times, and CENTCOM described the attack on commercial shipping as a violation of the ceasefire.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20260625-ukmto_warning_attack-074-26.pdf",
+              "source": "UKMTO warning 074-26, issued 1410 UTC on 25 June 2026: 7.5NM southeast of Dahit, Oman, cargo vessel hit on the starboard side by an unknown projectile, damage to the bridge, master reported no casualties and no environmental impact"
+            },
+            {
+              "url": "https://www.mpa.gov.sg/media-centre/details/minor-damage-to-bridge-of-singapore-registered-vessel-ever-lovely",
+              "source": "Maritime and Port Authority of Singapore, 26 June 2026: EVER LOVELY sustained minor damage to the bridge area from an unknown projectile while leaving the Strait of Hormuz on 25 June at about 2200 Singapore time, all 21 crew safe, no Singaporeans on board, vessel completed transit"
+            },
+            {
+              "url": "https://www.bairdmaritime.com/security/incidents/suspected-attack-on-cargo-ship-crossing-hormuz-reported-near-oman-coast",
+              "source": "Reuters, 25 June 2026: UKMTO reports a cargo vessel struck on the starboard side 7.5NM southeast of Dahit, no casualties or environmental impact; Vanguard and three maritime security sources name the Singapore-flagged container ship Ever Lovely"
+            },
+            {
+              "url": "https://www.bbc.com/news/articles/cjwg9np904qo",
+              "source": "BBC News, 25 June 2026: the IMO paused the evacuation of more than 11,000 stranded sailors after the attack; Evergreen said all crew members remain safe as does the vessel and all cargo"
+            },
+            {
+              "url": "https://nytimes.com/2026/06/25/business/hormuz-ship-attack-iran.html",
+              "source": "The New York Times, 25 June 2026: a US official said Iran's military struck the container ship Ever Lovely, owned by Evergreen Marine of Taiwan"
+            },
+            {
+              "url": "https://tidearo.com/atlas/vessels/ever-lovely-9629110",
+              "source": "Vessel particulars, Tidearo: EVER LOVELY, IMO 9629110, container ship built 2015, Singapore flag, owner and manager Evergreen Marine Group of Taipei"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20260625-ukmto_warning_attack-074-26.pdf",
+              "source": "UKMTO warning 074-26, 25 June 2026: master reported no casualties"
+            },
+            {
+              "url": "https://www.mpa.gov.sg/media-centre/details/minor-damage-to-bridge-of-singapore-registered-vessel-ever-lovely",
+              "source": "Maritime and Port Authority of Singapore, 26 June 2026: all 21 crew members are safe"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-14T02:42:00Z",
+          "text": "This historical record held only a name, a region and a reported status, with no date, position, type, summary or casualty basis. The review adds them from the flag state and the maritime authority. UKMTO warning 074-26 fixes the attack at 1410 UTC on 25 June 2026, 7.5 nautical miles southeast of Dahit in Oman's Musandam exclave, with an unknown projectile on the starboard side, damage to the bridge and no casualties or environmental impact. Singapore's Maritime and Port Authority confirms the identity and flag, puts the crew at 21 and all safe, and records that the ship completed her transit. Deaths are recorded as a confirmed zero on those two authority statements, not inferred from silence, and no nationalities are recorded because MPA gives only that no Singaporean was aboard; the flag is not evidence of crew nationality. Two corpus rows, INC-20261010-012 and INC-20261109-006, are the same June 2026 story with October and November crawl dates, one of them holding an EnergyNow page whose path dates it to June; neither is a new attack on those dates and neither should be published as one. This record is the attack's correct home. The attribution stays a claim: UKMTO named no attacker, US officials blamed Iran and CENTCOM called the strike a breach of the ceasefire.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20260625-ukmto_warning_attack-074-26.pdf",
+              "source": "UKMTO warning 074-26, 25 June 2026"
+            },
+            {
+              "url": "https://www.mpa.gov.sg/media-centre/details/minor-damage-to-bridge-of-singapore-registered-vessel-ever-lovely",
+              "source": "Maritime and Port Authority of Singapore, 26 June 2026"
+            },
+            {
+              "url": "https://www.bbc.com/news/articles/cjwg9np904qo",
+              "source": "BBC News, 25 June 2026, reporting the IMO evacuation pause and Evergreen's statement"
+            },
+            {
+              "url": "https://nytimes.com/2026/06/25/business/hormuz-ship-attack-iran.html",
+              "source": "The New York Times, 25 June 2026, the US attribution"
             }
           ]
         }
