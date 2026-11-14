@@ -1380,28 +1380,65 @@
     "HIST-ME-20261004-GAS-VELA": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T03:06:19.845439+00:00",
+        "checked_at": "2026-11-14T09:05:00Z",
         "vessel_name": "GAS VELA",
+        "imo": "9969845",
         "date_utc": "2026-10-04",
         "vessel_type": "LPG tanker",
         "region": "Strait of Hormuz",
-        "location_text": "Strait of Hormuz",
-        "summary": "IMO records GAS VELA in its confirmed incident register for 2026-10-04 near Strait of Hormuz. Vessel damage was reported.",
+        "location_text": "Strait of Hormuz, on an inbound transit",
+        "attack_type": "drone",
+        "summary": "GAS VELA, a Singapore flagged LPG tanker of 58,155 deadweight tonnes built in 2024, was struck by a drone in the Strait of Hormuz on 4 October 2026 while on an inbound transit. UKMTO disclosed the attack with a warning at 17:16 UTC on 4 October recording an unknown projectile and withholding the name, and maritime security sources subsequently identified the hull as Gas Vela, operated and managed by Sinogas Maritime. The German Navy Shipping Centre's security update brief for 1 to 8 October 2026 records the hit on 4 October by a drone. The IMO confirmed incident register lists the vessel at the Strait of Hormuz on 4 October as damaged with no pollution. No source read here states the condition of the crew, so the death count stays unknown rather than zero, and no injury or missing count is set.",
+        "date_note": "The IMO register, UKMTO and the German Navy brief all date the strike 4 October 2026. UKMTO disclosed it retrospectively on 5 October with an incident time of 17:16 UTC on 4 October; day precision is kept.",
         "sources": [
           {
-            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 21 October 2026"
+            "url": "https://table.media/assets/documents/20261008_security_brief_soh.pdf",
+            "source": "German Navy Shipping Centre, Security Update Brief Persian Gulf, timeframe 1 to 8 October 2026: GAS VELA (IMO 9969845), LPG tanker (Singapore), hit on 4 October by a drone"
           },
           {
-            "source": "VesselFinder",
-            "url": "https://www.vesselfinder.com/vessels/details/9969845"
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO confirmed incident register, read 14 November 2026: GAS VELA (IMO 9969845), Strait of Hormuz, 4 October, damaged, no pollution"
+          },
+          {
+            "url": "https://www.seatrade-maritime.com/tankers/sinokor-maran-gas-and-sinogas-ships-hit-in-spate-of-hormuz-attacks",
+            "source": "Seatrade Maritime News, 6 October 2026, reporting Vanguard Tech and Pole Star Global: the late-reported 4 October attack on an LPG tanker was the Singapore flagged Gas Vela, operated and managed by Sinogas Maritime"
+          },
+          {
+            "url": "https://fish4news.co.uk/four-tankers-hit-strait-hormuz-shipping-attacks",
+            "source": "Fish 4 News, 6 October 2026: UKMTO warning of a strike at 17:16 UTC on 4 October on an inbound LPG tanker, unknown projectile, later identified by maritime security sources as the Singapore flagged Gas Vela of Sinogas Maritime"
+          },
+          {
+            "url": "https://www.vesselfinder.com/vessels/details/9969845",
+            "source": "VesselFinder particulars for IMO 9969845, read 14 November 2026: LPG tanker, Singapore, built 2024, 58,155 deadweight tonnes, earlier name ASTIPALEA"
           }
-        ],
-        "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
-        "imo": "9969845"
+        ]
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+      ],
+      "updates": [
+        {
+          "at": "2026-11-14T09:05:00Z",
+          "text": "First documented review of this record beyond the register line, which until now carried a single IMO register summary and no dated update. Recorded the attack type as a drone rather than an unnamed projectile: the German Navy Shipping Centre brief for 1 to 8 October 2026 states the vessel was hit on 4 October by a drone, and Vanguard Tech, reported by Seatrade Maritime News, gave the same identification. Added the reporting sequence behind the row: UKMTO's late disclosure on 5 October with an incident time of 17:16 UTC on 4 October, and the identification of the hull as the Singapore flagged Gas Vela of Sinogas Maritime. Added particulars from the register (58,155 deadweight tonnes, built 2024, earlier name ASTIPALEA). No source checked states the crew's condition, so the death count remains unknown rather than zero and no nationality is set.",
+          "sources": [
+            {
+              "url": "https://table.media/assets/documents/20261008_security_brief_soh.pdf",
+              "source": "German Navy Shipping Centre, Security Update Brief Persian Gulf, timeframe 1 to 8 October 2026: GAS VELA (IMO 9969845), LPG tanker (Singapore), hit on 4 October by a drone"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/tankers/sinokor-maran-gas-and-sinogas-ships-hit-in-spate-of-hormuz-attacks",
+              "source": "Seatrade Maritime News, 6 October 2026, reporting Vanguard Tech and Pole Star Global: the late-reported 4 October attack on an LPG tanker was the Singapore flagged Gas Vela, operated and managed by Sinogas Maritime"
+            },
+            {
+              "url": "https://fish4news.co.uk/four-tankers-hit-strait-hormuz-shipping-attacks",
+              "source": "Fish 4 News, 6 October 2026: UKMTO warning of a strike at 17:16 UTC on 4 October on an inbound LPG tanker, unknown projectile, later identified by maritime security sources as the Singapore flagged Gas Vela of Sinogas Maritime"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, read 14 November 2026: GAS VELA (IMO 9969845), Strait of Hormuz, 4 October, damaged, no pollution"
+            }
+          ]
+        }
       ]
     },
     "HIST-ME-20261004-CAMEROON-PROSPERITY": {
@@ -43794,6 +43831,100 @@
             {
               "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
               "source": "IMO confirmed incident register, read 14 November 2026: MARAN GAS MYSTRAS (IMO 9658238), Strait of Hormuz, 5 October, damaged, no pollution, no fatality"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6874822732,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6874822732",
+      "author": "iMariner",
+      "received_at": "2026-11-14T08:53:35Z",
+      "incident_id": "HIST-ME-20261004-GAS-VELA",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T03:06:19.845439+00:00",
+          "vessel_name": "GAS VELA",
+          "date_utc": "2026-10-04",
+          "vessel_type": "LPG tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "Strait of Hormuz",
+          "summary": "IMO records GAS VELA in its confirmed incident register for 2026-10-04 near Strait of Hormuz. Vessel damage was reported.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            },
+            {
+              "source": "VesselFinder",
+              "url": "https://www.vesselfinder.com/vessels/details/9969845"
+            }
+          ],
+          "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
+          "imo": "9969845"
+        },
+        "audit_notes": [
+          "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+        ]
+      },
+      "change": {
+        "incident_id": "HIST-ME-20261004-GAS-VELA",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-14T09:05:00Z",
+          "vessel_name": "GAS VELA",
+          "imo": "9969845",
+          "date_utc": "2026-10-04",
+          "vessel_type": "LPG tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "Strait of Hormuz, on an inbound transit",
+          "attack_type": "drone",
+          "summary": "GAS VELA, a Singapore flagged LPG tanker of 58,155 deadweight tonnes built in 2024, was struck by a drone in the Strait of Hormuz on 4 October 2026 while on an inbound transit. UKMTO disclosed the attack with a warning at 17:16 UTC on 4 October recording an unknown projectile and withholding the name, and maritime security sources subsequently identified the hull as Gas Vela, operated and managed by Sinogas Maritime. The German Navy Shipping Centre's security update brief for 1 to 8 October 2026 records the hit on 4 October by a drone. The IMO confirmed incident register lists the vessel at the Strait of Hormuz on 4 October as damaged with no pollution. No source read here states the condition of the crew, so the death count stays unknown rather than zero, and no injury or missing count is set.",
+          "date_note": "The IMO register, UKMTO and the German Navy brief all date the strike 4 October 2026. UKMTO disclosed it retrospectively on 5 October with an incident time of 17:16 UTC on 4 October; day precision is kept.",
+          "sources": [
+            {
+              "url": "https://table.media/assets/documents/20261008_security_brief_soh.pdf",
+              "source": "German Navy Shipping Centre, Security Update Brief Persian Gulf, timeframe 1 to 8 October 2026: GAS VELA (IMO 9969845), LPG tanker (Singapore), hit on 4 October by a drone"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, read 14 November 2026: GAS VELA (IMO 9969845), Strait of Hormuz, 4 October, damaged, no pollution"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/tankers/sinokor-maran-gas-and-sinogas-ships-hit-in-spate-of-hormuz-attacks",
+              "source": "Seatrade Maritime News, 6 October 2026, reporting Vanguard Tech and Pole Star Global: the late-reported 4 October attack on an LPG tanker was the Singapore flagged Gas Vela, operated and managed by Sinogas Maritime"
+            },
+            {
+              "url": "https://fish4news.co.uk/four-tankers-hit-strait-hormuz-shipping-attacks",
+              "source": "Fish 4 News, 6 October 2026: UKMTO warning of a strike at 17:16 UTC on 4 October on an inbound LPG tanker, unknown projectile, later identified by maritime security sources as the Singapore flagged Gas Vela of Sinogas Maritime"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9969845",
+              "source": "VesselFinder particulars for IMO 9969845, read 14 November 2026: LPG tanker, Singapore, built 2024, 58,155 deadweight tonnes, earlier name ASTIPALEA"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-11-14T09:05:00Z",
+          "text": "First documented review of this record beyond the register line, which until now carried a single IMO register summary and no dated update. Recorded the attack type as a drone rather than an unnamed projectile: the German Navy Shipping Centre brief for 1 to 8 October 2026 states the vessel was hit on 4 October by a drone, and Vanguard Tech, reported by Seatrade Maritime News, gave the same identification. Added the reporting sequence behind the row: UKMTO's late disclosure on 5 October with an incident time of 17:16 UTC on 4 October, and the identification of the hull as the Singapore flagged Gas Vela of Sinogas Maritime. Added particulars from the register (58,155 deadweight tonnes, built 2024, earlier name ASTIPALEA). No source checked states the crew's condition, so the death count remains unknown rather than zero and no nationality is set.",
+          "sources": [
+            {
+              "url": "https://table.media/assets/documents/20261008_security_brief_soh.pdf",
+              "source": "German Navy Shipping Centre, Security Update Brief Persian Gulf, timeframe 1 to 8 October 2026: GAS VELA (IMO 9969845), LPG tanker (Singapore), hit on 4 October by a drone"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/tankers/sinokor-maran-gas-and-sinogas-ships-hit-in-spate-of-hormuz-attacks",
+              "source": "Seatrade Maritime News, 6 October 2026, reporting Vanguard Tech and Pole Star Global: the late-reported 4 October attack on an LPG tanker was the Singapore flagged Gas Vela, operated and managed by Sinogas Maritime"
+            },
+            {
+              "url": "https://fish4news.co.uk/four-tankers-hit-strait-hormuz-shipping-attacks",
+              "source": "Fish 4 News, 6 October 2026: UKMTO warning of a strike at 17:16 UTC on 4 October on an inbound LPG tanker, unknown projectile, later identified by maritime security sources as the Singapore flagged Gas Vela of Sinogas Maritime"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, read 14 November 2026: GAS VELA (IMO 9969845), Strait of Hormuz, 4 October, damaged, no pollution"
             }
           ]
         }
