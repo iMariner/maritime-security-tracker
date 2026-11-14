@@ -1186,28 +1186,84 @@
     "HIST-ME-20261005-MARAN-GAS-MYSTRAS": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T03:06:19.845439+00:00",
+        "checked_at": "2026-11-14T09:05:00Z",
         "vessel_name": "MARAN GAS MYSTRAS",
+        "imo": "9658238",
         "date_utc": "2026-10-05",
         "vessel_type": "LNG tanker",
         "region": "Strait of Hormuz",
         "location_text": "Strait of Hormuz",
-        "summary": "IMO records MARAN GAS MYSTRAS in its confirmed incident register for 2026-10-05 near Strait of Hormuz. Vessel damage was reported.",
+        "attack_type": "unknown projectile",
+        "summary": "MARAN GAS MYSTRAS, a Greek flagged LNG carrier of 89,269 deadweight tonnes built in 2015 and now listed as MYSTRAS I, was struck by an unknown projectile in the engine room while in the Strait of Hormuz on 5 October 2026 and caught fire, and the fire was extinguished. UKMTO disclosed the attack on 5 October with a master's report timed 16:37 UTC of an unknown projectile causing an engine room fire, withholding the name, and Greek reporting identified the vessel as Maran Gas Mystras. The German Navy Shipping Centre's security update brief for 1 to 8 October 2026 lists the hit on 5 October in the engine room with the resulting fire extinguished. The IMO confirmed incident register lists the vessel at the Strait of Hormuz on 5 October as damaged with no pollution. The owner Maran Gas said the ship and her crew were safe and that she remained fully operational and continued her voyage. No injury, missing person or death appears in any source read here, so the death count is a confirmed nil on the owner's statement.",
+        "date_note": "The IMO register, UKMTO and the German Navy brief all date the strike 5 October 2026. Day precision only; no event time is asserted beyond UKMTO's 16:37 UTC report of the strike.",
         "sources": [
           {
-            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 21 October 2026"
+            "url": "https://table.media/assets/documents/20261008_security_brief_soh.pdf",
+            "source": "German Navy Shipping Centre, Security Update Brief Persian Gulf, timeframe 1 to 8 October 2026: MARAN GAS MYSTRAS (IMO 9658238), LNG tanker (Greece), hit on 5 October in the engine room, the resulting fire extinguished"
           },
           {
-            "source": "INTERTANKO member fleet register",
-            "url": "https://www.intertanko.com/about-us/membership/fleet-search"
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO confirmed incident register, read 14 November 2026: MARAN GAS MYSTRAS (IMO 9658238), Strait of Hormuz, 5 October, damaged, no pollution, no fatality"
+          },
+          {
+            "url": "https://fish4news.co.uk/four-tankers-hit-strait-hormuz-shipping-attacks",
+            "source": "Fish 4 News, 6 October 2026: UKMTO warning of a strike at 16:37 UTC on 5 October, unknown projectile, engine room fire; vessel identified as the Greek flagged LNG carrier Maran Gas Mystras; the crew were reported safe and the vessel remained operational"
+          },
+          {
+            "url": "https://www.seatrade-maritime.com/tankers/sinokor-maran-gas-and-sinogas-ships-hit-in-spate-of-hormuz-attacks",
+            "source": "Seatrade Maritime News, 6 October 2026: Maran Gas clarified that the vessel and its crew were safe and that the ship remained fully operational and continued her voyage"
+          },
+          {
+            "url": "https://www.vesselfinder.com/vessels/details/9658238",
+            "source": "VesselFinder particulars for IMO 9658238, read 14 November 2026: LNG tanker, Greece, built 2015, 89,269 deadweight tonnes, now listed as MYSTRAS I"
           }
-        ],
-        "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
-        "imo": "9658238"
+        ]
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.seatrade-maritime.com/tankers/sinokor-maran-gas-and-sinogas-ships-hit-in-spate-of-hormuz-attacks",
+            "source": "Seatrade Maritime News, 6 October 2026: Maran Gas clarified that the vessel and its crew were safe and that the ship remained fully operational and continued her voyage"
+          },
+          {
+            "url": "https://fish4news.co.uk/four-tankers-hit-strait-hormuz-shipping-attacks",
+            "source": "Fish 4 News, 6 October 2026: UKMTO warning of a strike at 16:37 UTC on 5 October, unknown projectile, engine room fire; vessel identified as the Greek flagged LNG carrier Maran Gas Mystras; the crew were reported safe and the vessel remained operational"
+          },
+          {
+            "url": "https://table.media/assets/documents/20261008_security_brief_soh.pdf",
+            "source": "German Navy Shipping Centre, Security Update Brief Persian Gulf, timeframe 1 to 8 October 2026: MARAN GAS MYSTRAS (IMO 9658238), LNG tanker (Greece), hit on 5 October in the engine room, the resulting fire extinguished"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-14T09:05:00Z",
+          "text": "First documented review of this record beyond the register line, which until now carried a single IMO register summary and no dated update. Added the source reporting behind the strike: UKMTO's disclosure of 5 October at 16:37 UTC of an unknown projectile causing an engine room fire, the German Navy Shipping Centre brief for 1 to 8 October recording the same hit and the fire being put out, and the identification of the hull as the Greek flagged Maran Gas Mystras. Added the vessel's particulars from the register (89,269 deadweight tonnes, built 2015, now listed as MYSTRAS I). The owner Maran Gas stated that the ship and her crew were safe and that she continued her voyage, so deaths are recorded as a confirmed zero rather than left unstated; nothing in that statement concerns injuries, so no injury count is set. No nationality is recorded because no source names one.",
+          "sources": [
+            {
+              "url": "https://table.media/assets/documents/20261008_security_brief_soh.pdf",
+              "source": "German Navy Shipping Centre, Security Update Brief Persian Gulf, timeframe 1 to 8 October 2026: MARAN GAS MYSTRAS (IMO 9658238), LNG tanker (Greece), hit on 5 October in the engine room, the resulting fire extinguished"
+            },
+            {
+              "url": "https://fish4news.co.uk/four-tankers-hit-strait-hormuz-shipping-attacks",
+              "source": "Fish 4 News, 6 October 2026: UKMTO warning of a strike at 16:37 UTC on 5 October, unknown projectile, engine room fire; vessel identified as the Greek flagged LNG carrier Maran Gas Mystras; the crew were reported safe and the vessel remained operational"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/tankers/sinokor-maran-gas-and-sinogas-ships-hit-in-spate-of-hormuz-attacks",
+              "source": "Seatrade Maritime News, 6 October 2026: Maran Gas clarified that the vessel and its crew were safe and that the ship remained fully operational and continued her voyage"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, read 14 November 2026: MARAN GAS MYSTRAS (IMO 9658238), Strait of Hormuz, 5 October, damaged, no pollution, no fatality"
+            }
+          ]
+        }
       ]
     },
     "HIST-ME-20261005-ON-PEACE": {
@@ -43625,6 +43681,119 @@
             {
               "url": "https://www.mpa.gov.sg/media-centre/details/minor-damage-to-bridge-of-singapore-registered-vessel-ever-lovely",
               "source": "Maritime and Port Authority of Singapore, 26 June 2026"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6874821862,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6874821862",
+      "author": "iMariner",
+      "received_at": "2026-11-14T08:53:30Z",
+      "incident_id": "HIST-ME-20261005-MARAN-GAS-MYSTRAS",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T03:06:19.845439+00:00",
+          "vessel_name": "MARAN GAS MYSTRAS",
+          "date_utc": "2026-10-05",
+          "vessel_type": "LNG tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "Strait of Hormuz",
+          "summary": "IMO records MARAN GAS MYSTRAS in its confirmed incident register for 2026-10-05 near Strait of Hormuz. Vessel damage was reported.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            },
+            {
+              "source": "INTERTANKO member fleet register",
+              "url": "https://www.intertanko.com/about-us/membership/fleet-search"
+            }
+          ],
+          "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
+          "imo": "9658238"
+        },
+        "audit_notes": [
+          "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+        ]
+      },
+      "change": {
+        "incident_id": "HIST-ME-20261005-MARAN-GAS-MYSTRAS",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-14T09:05:00Z",
+          "vessel_name": "MARAN GAS MYSTRAS",
+          "imo": "9658238",
+          "date_utc": "2026-10-05",
+          "vessel_type": "LNG tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "Strait of Hormuz",
+          "attack_type": "unknown projectile",
+          "summary": "MARAN GAS MYSTRAS, a Greek flagged LNG carrier of 89,269 deadweight tonnes built in 2015 and now listed as MYSTRAS I, was struck by an unknown projectile in the engine room while in the Strait of Hormuz on 5 October 2026 and caught fire, and the fire was extinguished. UKMTO disclosed the attack on 5 October with a master's report timed 16:37 UTC of an unknown projectile causing an engine room fire, withholding the name, and Greek reporting identified the vessel as Maran Gas Mystras. The German Navy Shipping Centre's security update brief for 1 to 8 October 2026 lists the hit on 5 October in the engine room with the resulting fire extinguished. The IMO confirmed incident register lists the vessel at the Strait of Hormuz on 5 October as damaged with no pollution. The owner Maran Gas said the ship and her crew were safe and that she remained fully operational and continued her voyage. No injury, missing person or death appears in any source read here, so the death count is a confirmed nil on the owner's statement.",
+          "date_note": "The IMO register, UKMTO and the German Navy brief all date the strike 5 October 2026. Day precision only; no event time is asserted beyond UKMTO's 16:37 UTC report of the strike.",
+          "sources": [
+            {
+              "url": "https://table.media/assets/documents/20261008_security_brief_soh.pdf",
+              "source": "German Navy Shipping Centre, Security Update Brief Persian Gulf, timeframe 1 to 8 October 2026: MARAN GAS MYSTRAS (IMO 9658238), LNG tanker (Greece), hit on 5 October in the engine room, the resulting fire extinguished"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, read 14 November 2026: MARAN GAS MYSTRAS (IMO 9658238), Strait of Hormuz, 5 October, damaged, no pollution, no fatality"
+            },
+            {
+              "url": "https://fish4news.co.uk/four-tankers-hit-strait-hormuz-shipping-attacks",
+              "source": "Fish 4 News, 6 October 2026: UKMTO warning of a strike at 16:37 UTC on 5 October, unknown projectile, engine room fire; vessel identified as the Greek flagged LNG carrier Maran Gas Mystras; the crew were reported safe and the vessel remained operational"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/tankers/sinokor-maran-gas-and-sinogas-ships-hit-in-spate-of-hormuz-attacks",
+              "source": "Seatrade Maritime News, 6 October 2026: Maran Gas clarified that the vessel and its crew were safe and that the ship remained fully operational and continued her voyage"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9658238",
+              "source": "VesselFinder particulars for IMO 9658238, read 14 November 2026: LNG tanker, Greece, built 2015, 89,269 deadweight tonnes, now listed as MYSTRAS I"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "nationalities": [],
+          "sources": [
+            {
+              "url": "https://www.seatrade-maritime.com/tankers/sinokor-maran-gas-and-sinogas-ships-hit-in-spate-of-hormuz-attacks",
+              "source": "Seatrade Maritime News, 6 October 2026: Maran Gas clarified that the vessel and its crew were safe and that the ship remained fully operational and continued her voyage"
+            },
+            {
+              "url": "https://fish4news.co.uk/four-tankers-hit-strait-hormuz-shipping-attacks",
+              "source": "Fish 4 News, 6 October 2026: UKMTO warning of a strike at 16:37 UTC on 5 October, unknown projectile, engine room fire; vessel identified as the Greek flagged LNG carrier Maran Gas Mystras; the crew were reported safe and the vessel remained operational"
+            },
+            {
+              "url": "https://table.media/assets/documents/20261008_security_brief_soh.pdf",
+              "source": "German Navy Shipping Centre, Security Update Brief Persian Gulf, timeframe 1 to 8 October 2026: MARAN GAS MYSTRAS (IMO 9658238), LNG tanker (Greece), hit on 5 October in the engine room, the resulting fire extinguished"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-11-14T09:05:00Z",
+          "text": "First documented review of this record beyond the register line, which until now carried a single IMO register summary and no dated update. Added the source reporting behind the strike: UKMTO's disclosure of 5 October at 16:37 UTC of an unknown projectile causing an engine room fire, the German Navy Shipping Centre brief for 1 to 8 October recording the same hit and the fire being put out, and the identification of the hull as the Greek flagged Maran Gas Mystras. Added the vessel's particulars from the register (89,269 deadweight tonnes, built 2015, now listed as MYSTRAS I). The owner Maran Gas stated that the ship and her crew were safe and that she continued her voyage, so deaths are recorded as a confirmed zero rather than left unstated; nothing in that statement concerns injuries, so no injury count is set. No nationality is recorded because no source names one.",
+          "sources": [
+            {
+              "url": "https://table.media/assets/documents/20261008_security_brief_soh.pdf",
+              "source": "German Navy Shipping Centre, Security Update Brief Persian Gulf, timeframe 1 to 8 October 2026: MARAN GAS MYSTRAS (IMO 9658238), LNG tanker (Greece), hit on 5 October in the engine room, the resulting fire extinguished"
+            },
+            {
+              "url": "https://fish4news.co.uk/four-tankers-hit-strait-hormuz-shipping-attacks",
+              "source": "Fish 4 News, 6 October 2026: UKMTO warning of a strike at 16:37 UTC on 5 October, unknown projectile, engine room fire; vessel identified as the Greek flagged LNG carrier Maran Gas Mystras; the crew were reported safe and the vessel remained operational"
+            },
+            {
+              "url": "https://www.seatrade-maritime.com/tankers/sinokor-maran-gas-and-sinogas-ships-hit-in-spate-of-hormuz-attacks",
+              "source": "Seatrade Maritime News, 6 October 2026: Maran Gas clarified that the vessel and its crew were safe and that the ship remained fully operational and continued her voyage"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, read 14 November 2026: MARAN GAS MYSTRAS (IMO 9658238), Strait of Hormuz, 5 October, damaged, no pollution, no fatality"
             }
           ]
         }
