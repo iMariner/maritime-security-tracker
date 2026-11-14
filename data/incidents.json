@@ -1,9 +1,256 @@
 [
   {
     "region": "Strait of Hormuz",
-    "date_utc": "2026-11-13",
-    "summary": "Iran's IRGC Navy claimed a gas carrier on the prohibited southern route in the Strait of Hormuz struck a sea mine, causing an explosion and fire on 13 November. A separate headline reported a ship catching fire off the Oman coast with the crew evacuated, but no vessel name, position or cause was given, so the link between the two reports is unconfirmed.",
+    "date_utc": "2026-11-14",
+    "summary": "Iran's IRGC said two oil tankers caught fire after hitting sea mines in the Strait of Hormuz. No vessel names, positions, damage details beyond the fires, or casualties were given.",
+    "official_source_cited": "IRGC",
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "mine",
+    "damage": "caught fire after hitting a sea mine",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261114-001",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSXFoNFFYdTBqTjZjZ3pBRTk4bm9QWkRnRUstbndsQV8wd1dhX281Y1hhblZCNjdJT2dZWGZXZWZBWGZTWDBZNXg0bVc1a1hGbjNSWHFNb2FveFY3VjhXRy1ZRU1CVWFUa3B4aGtNdjVwZU5WTmR2VkhHNmJHYjZ1VGg5dXpYWG5JWmVuSExGQ3MwLUE?oc=5",
+        "source": "The National",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-14T10:45:42Z",
+        "title": "Middle East latest: IRGC says two oil tankers caught fire after hitting sea mines in Hormuz - The National"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8tSjl4QjZza3RGdnpLblNYRmVGR0ptRUp0TmVobWdaeWtHWTBxWlB1SmxXN3hFd2U1aGdIR01nZ3MtMnZWQndfLUxOU2FEeWY4eEFBMUdvd0pGWWdLMkRsWDZMbw?oc=5",
+        "source": "Rudaw",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-14T06:00:20Z",
+        "title": "IRGC says two oil tankers explode after striking mines in Strait of Hormuz - Rudaw"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQc2tDUWNJaWdCRlY1ckFoZ1dBX094NEVFd1dKRnpKa193Z0t4N3RzaUozOHJ1dGsyT2pKS0RkTFBkUmctSU1ScnpkUVF2Qy1EUk1JcnFXcjNWWXJYLTNodHBOYUdybW8zOHp2c3VFWlpzcFVLdGVoRmNtbVN5ZFJCeWJIUEZFUW5ZVDlDOWlGVlRlbmlZYnh0cTg1eFAwbmkwYXotTDJ1eXpab3Rwa3d1Q0VYdw?oc=5",
+        "source": "Aaj English TV",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-14T04:46:38Z",
+        "title": "Two oil tankers explode after hitting mines in Strait of Hormuz, Iran claims - Aaj English TV"
+      }
+    ],
+    "first_seen": "2026-11-14T10:52:28Z",
+    "last_updated": "2026-11-14T10:52:48Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261113-001",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-11-14",
+    "summary": "A vessel was hit by a drone near Sfântu Gheorghe beach in Romanian territorial waters. Romania's defence minister said authorities always view such incidents with concern; no vessel name, damage or casualties were given.",
+    "official_source_cited": "Romanian Defence Minister",
+    "conflicting": false,
+    "confidence": 0.75,
+    "vessel_name": "LARISSA",
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "near Sfântu Gheorghe beach, Romanian territorial waters, Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": "Cargo ship's crane destroyed, per sources cited",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261114-002",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQazJNQnBMNHNUcE9EbFVWbFhRSEZwSnZ3OEtjYnNXTVNKSDJQX2NyZkgyOGtSSEhWZmROVFhVSVowQkNoZVJaYTI2MWVRblBxZ2tlZUFjLUhySGt2MkxXbXhnOU96UEp5bTdXaHN2bzNfS20xcktydDFsZk1FejEya2pTWC1vbzFtRmNnVGk1SkNGOV9ydk15a3I0YmF1b3pmdFVHbkM2am54WE1mRGpfUWFxQVA?oc=5",
+        "source": "Euronews România",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-14T10:25:28Z",
+        "title": "Navă lovită de o dronă aproape de plaja din Sfântu Gheorghe. Ministrul Apărării: Întotdeauna ne uităm cu îngrijorare la astfel de lucruri - Euronews România"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbHBHUmo0ZHlZZ1FKRWhQMjRBbEx5MGNKMlpyQ21sWEhWVFhqWlFXb2VoT2RtUEVqV2pZVFhZQWJBVDY2RVQ4bVpNZFEtc0ZaTEFlVmNkTzNLMmZpVXdWbzA2SG9SVmZ6MlZzNlJ2RW9xenR1R0E3Z1ctVGxvZkRXTW56Snl6NUs2WE5tbV9FOUQ3eTIzdGFKSjR1RHRtTGJqaXc?oc=5",
+        "source": "Spotmedia.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-14T09:12:00Z",
+        "title": "O navă a fost lovită de dronă în apele teritoriale ale României - Spotmedia.ro"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxQZmJVT21hMnpxZ3hIUXo2YWxrWlhDd0NSXzgzRHZKN0lRS2tybC04NWVHSnVQU1pnYzFnaE1SLUlScFBacXRZTXA4cHEzbUVzRnpjdVBUOUtZS3JUbkZHaWZCVU1DWEhLR1hzVzVoeTRuMWJURGVpMTE2N3gtb3lrNHdLVkp6ZElCRHFPcFZ3eVE5d2tZa3FSbnpVbmEzWE9sb2VKT2JTLWhqNnFhMVZPaVd6Y1lkLW91eDRGczRUNFBKWnJtcURwdHI0WkRyNE0yb2Ezc0tNd1MxUXdUWF8tMUdwT09wS1pWVHR4YTMtWDN6NGp1cDhRRkJYTW1FYVRwbTZfVFJ2ek1EN3g1ZE9nTHpfTWRFZFFweFdkRjZQd0RaTkFfOUQ2MFlPN3BVcDhuSlhsMmVVdlg2UQ?oc=5",
+        "source": "Ziarul Amprenta",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-14T09:10:04Z",
+        "title": "Ministrul apărării naționale, declarații la Constanța după ce o dronă a lovit nava Larissa în apele teritoriale române: Piloții români sunt eroi în cadrul forțelor NATO - Ziarul Amprenta"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeG1wS1FiVTdEQmxmWkZqZ1BteE5RdU5SVm1GWDBfQWxXRFc3Q2MtWEtGclJUWWxpWFRPOWRGVzVyNTBUbXltbzZaSVBrN2ZKeVFKV0E5Nkp5LWxTRWpUWUlVZ2h2a2VnSWhqX2E2bkRjRWNZVmhPUnp1b3R6LUhFeV9nOTIwb2x0dGUyQXVfX09jWW84MnpKWENodjRvLW5FbG5JemtRTXd4YUc0OFZrbXFZRVZFU2hSSnM0RFdXV19HcVpYMFZHYkVEdVYzRFkxNXVwZ0JyRWFFNDA?oc=5",
+        "source": "Constanta INFO",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-14T08:52:30Z",
+        "title": "Navă lovită de o dronă în apele teritoriale ale României, lângă Sfântu Gheorghe. Surse: macaraua cargoului a fost distrusă - Constanta INFO"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNVVA5Y1FLemNKQnFycHJDb1dOZDdFWUV2cXlVUllBX3c1M0pMYjFSYnpVRlpscW1FdVJDaWFCVG8zWUZhRVh0c0cwNU4wNldpa1prTzFmOG13UzYyRE96WkhJMXNPRmtUNlUxaVE0bUhlREs3QmhlS2Z6SU91aWgyYm4wYXlhcGpiSVFXdUM1cUhzYllianhBRm56cENKVlRFVHpMQmluR2tnNjY4VnZSdFhkNFJWZGo0UE5mT3N2QWxvQlVucGgyWlNBSEh4R3RRWWhpQk5n?oc=5",
+        "source": "Romania TV",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-14T08:17:00Z",
+        "title": "Continuă atacurile din Marea Neagră! O navă comercială a fost lovită de o dronă lângă Sfântu Gheorghe - Romania TV"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOOFVjMzNIZEJCZ011RkNOUFUzdjhFZFlIWURrS0xlRVEyWVpVWHRfQjU2blUwdEowRHdjOUR0SkVIR1lQV1lLTGxvRGtrV2UtMWdvOXNIZWhIaUd1c2t3QnFtV3RqNzZKdGI3YjRselRHWnhMZDJNWGxNQWRkRlowVmh2TWxZZGxvYm5LQzdESUlpTVlyck94cUJHaGFJb0FMeHF3R21xdlJTaHd1RHVOQUVBYXlPeHRlVzJjeG1UT0lzbmg2WHpqSXZXRmlfeWhiQzNn?oc=5",
+        "source": "Realitatea.NET",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-14T08:13:00Z",
+        "title": "Alertă în Marea Neagră! O navă comercială, lovită de o dronă în apropiere de Sfântu Gheorghe - Realitatea.NET"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOW1mMno1dXY5ZDRNR2w1VUl5WXdNby1SOV9LbkpuMU5lTDYwOFRyaXY2eWNQMjZuLUFwMVg1RVVHWXJWTlNDY0o3aXljb3F0eEhmSXFkR1UtVlFNeGtHbzlYN3RDTENFVTlLQk51bFRkM2l1bzlXdW9iYTRiYVJwQ3hZODJRa0RCaEVmZkxhcTdtVVZoQzVyODRTdGhNWm9pQU11VURJeGtQWUY0Vzc1Ym93?oc=5",
+        "source": ": Europa FM",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-14T07:23:13Z",
+        "title": "Un nou atac în apele teritoriale române. O navă străină a fost lovită de o dronă aeriană, la mai puțin de 7 mile marine de Sfântu Gheorghe - : Europa FM"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNUldBWnA3cFludll6NUZ3SEFJUVBBbGNpMnVwMmUtT3JqU2ZsVHhUWHppR0FkUmFibndJaS1rejZsOVJEcmZnYnhrTXVrSExoNzNRLXZkVVpFSkhYLXc0bjZ0LTRBUVl1QXZVeXpzazRpSTVQTVRSRVdVeTVJaVQ1MVRsb1JyTG81X2N2RHRYTHdNLUp6Z1hYejNCOVh4OTFTSTA2bnRwbkFLdGJXZTNmblExV3NndGlLYU9DcEc0NW5aVUZkVkNzSG9ZajZLYllJQTE0TEo0VE9ZR3g3b09JdGp5NklqQ2JmQXNZbA?oc=5",
+        "source": "Kanal D Romania",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-14T07:08:52Z",
+        "title": "NEWS ALERT! O navă comercială a fost atacată de o dronă în apele teritoriale ale României. Cargoul se îndrepta spre Ucraina - Kanal D Romania"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQR0YyVDFHcUExeXVZQUVCTVJuSFlMak1zMzcyckwzeUUycnp5UjhSN0NLcUk2MmhXN3pvczE3bEpmMEN1MzZjRW9RUWF3VU9QMnBMZ09xWUdsY040NTFid2NQVmxJd0o1UFFSRVI3M1pMTGNCLWltSkFDVnpsUWVVUkR6bjAtMnB2ZkRxS0ozN3hfaDV4NnZNNjh3emtOWDFaeFZDdTBSc1piY0w5cXFhR25XVXNWOGRYU01QRXg2ME9VX3VHcDEtRGtaQkZtQUprMXBYSUtiMUwyWVpDOGIxNldUV3JtbTc0RkVVVllR?oc=5",
+        "source": "Stiripesurse",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-14T06:59:57Z",
+        "title": "O navă comercială a fost lovită de o dronă în Marea Neagră, lângă Sfântu Gheorghe - Stiripesurse"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMDEwb2ZsNHllemtiU3dpWm1RbzVCaU5fRDBMQXRLbHREeUJ5T0dDSWl0cER1Rk5KblBIMGlmUHFnYWhWM3A5MlpLMmRHc29XbGNYV2hwOGktZ1czNUxwWTQyY3NiMlMwS3dvRkgzOG9HdG9wMC03ODFGODhPQ0hlWmJ6MG0yeXBfYm12aHEyTjNvWWY1Sm9nbnpzTy00MG51NmZDX09yMzFxOUF4NlhTM1ZnWFl0ZFgxb29rSElpN1lrODlSeEhyRUFzM1ZjRHBGV2xKUGpyR1lkUQ?oc=5",
+        "source": "Observator News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-14T06:53:00Z",
+        "title": "O navă a fost lovită de o dronă în apele teritoriale ale României, la doar 12 km de Sf. Gheorghe - Observator News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNamhKUVhYcHJQek14aWhIcjhDVzlwUXNWT0k4amptUGNYRDJzaHVxQV9tRU1tdUtYRDNhbUpCVlhLZllSV21ITXpucEVkb1prVDgtUzAxXzk1TGp2NmRRdzQ3d1l4Q3JMRDF3TTN2cTRqY0JiaUl4UjVubmdTRkRSQ1FrSkR2aWtEZkdnVzFTakluVHJLMEZiZkJjamR1dmctTXFOUXhQeUswWmpJdDgtMXRXeEZndFVuVmhxVENwOW85RzV5TGJvQlhoeml6MjFySzFaRWhoaFh0Z0Y4SVE?oc=5",
+        "source": "ZIUA de Constanta",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-14T05:55:00Z",
+        "title": "Alertă pe Marea Neagră, în apropiere de Sfântu Gheorghe! O navă a fost lovită de o dronă - ZIUA de Constanta"
+      }
+    ],
+    "first_seen": "2026-11-14T10:52:28Z",
+    "last_updated": "2026-11-14T10:52:41Z",
+    "verification_issue": 391,
+    "verdict": null,
+    "published_in": [],
+    "status": "reported",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-11-14",
+    "summary": "Russia's defence ministry said it hit a dry cargo ship near Odesa in the Black Sea. No vessel name, position, weapon details, damage or casualties were given.",
     "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 46.49,
+    "lon": 30.74,
+    "location_text": "near Odesa, Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": "struck",
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry",
+    "independent_evidence": false,
+    "id": "INC-20261114-003",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNnZGODcxM2RzVHE0d3NjbXY3c19mSGVUSXJhVEJTYW8tVmhSRXVINnFZZU1zUzY0SXBSNXdJeWgwRXNYWjJINHh1SDVLX2drVlNocXREaUU4MGpENFFyX2pLSV9VMUFiRkRyeHVnc1pZMXVydVZfdllDYS1kRGR5N2MwRWVva3FEVjdjS1BMelp6REVV?oc=5",
+        "source": "Breakingthenews.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-14T05:40:00Z",
+        "title": "Russia says it hit dry cargo ship near Odessa - Breakingthenews.net"
+      },
+      {
+        "url": "https://t.me/mod_russia/69004",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-14T05:02:18+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/rian_ru/349718",
+        "source": "RIA Novosti",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-11-14T05:01:23+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-11-14T10:52:41Z",
+    "last_updated": "2026-11-14T10:52:41Z",
+    "verification_issue": 392,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-11-13",
+    "summary": "Iran's IRGC claimed that a gas carrier on the prohibited southern route in the Strait of Hormuz struck a sea mine on 13 November, causing an explosion and fire. A follow-up IRGC claim said two oil tankers caught fire after hitting mines in the Strait of Hormuz, with no names, positions or casualties given.",
+    "official_source_cited": "IRGC",
     "conflicting": false,
     "confidence": 0.6,
     "vessel_name": null,
@@ -119,10 +366,46 @@
         "kind": "verification",
         "published_at": "2026-11-14T04:33:13Z",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNY0dON1lZTmJUdDFSbzJKQkZNMWZxT0x6ZzhIZTVCODM4WWpIZHNza2ZFeGlnME5tb0hZOGRTazYyRlFFRkdudGk3VjJHckJXWVV4UmtjaWU4QW1STEFheTFBUXZfLTNWeHRTY2V5RUVjQXd4bTc5NzZsUjdFQUpVOG5RcC1tcHUyaU5FS3hIQzZFaEg1ekhnRzFuWnZ3LWZoUlVNRFBtdUJSdTk5bjBONkZFc09GTjByRnhNc1ZZZU82djZiNlVpbUlOUEJ3X2I3OWVsSGFyV01NaC1UejQ3OXVyMGY4UENZT0puR1pPbWllT1lCV1HSAfsBQVVfeXFMUFQtN01NVmhUbEtGaFJnZFFfdTdNQVBpcmw4YndrOUc3MnZ5NGZ6MjZva3poaUF0eklway1uSXNWWGpXXzhHeUxvV1BWT1k2RGxUNHRmRGpPSm9qQWRPei1fRzQ2cHhIYm5xV0hhaENwY2Y1UUMweU9FNjdIX3BHVVhVcnpYaE9nb2oxOWtibG9PdUpjcFU1OGVwMG9GMUlXYm1oak1sbEFQQjdXU0w0TEJ1alhycnNmMUN3RE9GNHUwU2c3TFg5US1jblhmRFF6elJxR0lUM3JNZE1IZ2dxTmxZZzlycnBwX1VqdGdtdDZCOFRDcFIzNkZ3S3c?oc=5",
+        "source": "The Times of India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-13T09:36:00Z",
+        "title": "Iran claims destruction of US radar in Bahrain, tanker hits mine in Strait of Hormuz - The Times of India"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSXFoNFFYdTBqTjZjZ3pBRTk4bm9QWkRnRUstbndsQV8wd1dhX281Y1hhblZCNjdJT2dZWGZXZWZBWGZTWDBZNXg0bVc1a1hGbjNSWHFNb2FveFY3VjhXRy1ZRU1CVWFUa3B4aGtNdjVwZU5WTmR2VkhHNmJHYjZ1VGg5dXpYWG5JWmVuSExGQ3MwLUE?oc=5",
+        "source": "The National",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-14T10:45:42Z",
+        "title": "Middle East latest: IRGC says two oil tankers caught fire after hitting sea mines in Hormuz - The National"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8tSjl4QjZza3RGdnpLblNYRmVGR0ptRUp0TmVobWdaeWtHWTBxWlB1SmxXN3hFd2U1aGdIR01nZ3MtMnZWQndfLUxOU2FEeWY4eEFBMUdvd0pGWWdLMkRsWDZMbw?oc=5",
+        "source": "Rudaw",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-14T06:00:20Z",
+        "title": "IRGC says two oil tankers explode after striking mines in Strait of Hormuz - Rudaw"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQc2tDUWNJaWdCRlY1ckFoZ1dBX094NEVFd1dKRnpKa193Z0t4N3RzaUozOHJ1dGsyT2pKS0RkTFBkUmctSU1ScnpkUVF2Qy1EUk1JcnFXcjNWWXJYLTNodHBOYUdybW8zOHp2c3VFWlpzcFVLdGVoRmNtbVN5ZFJCeWJIUEZFUW5ZVDlDOWlGVlRlbmlZYnh0cTg1eFAwbmkwYXotTDJ1eXpab3Rwa3d1Q0VYdw?oc=5",
+        "source": "Aaj English TV",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-14T04:46:38Z",
+        "title": "Two oil tankers explode after hitting mines in Strait of Hormuz, Iran claims - Aaj English TV"
       }
     ],
     "first_seen": "2026-11-13T08:42:26Z",
-    "last_updated": "2026-11-14T04:33:13Z",
+    "last_updated": "2026-11-14T10:52:48Z",
     "verification_issue": 388,
     "verdict": {
       "status": "claimed",
@@ -2331,10 +2614,28 @@
         "kind": "media",
         "published_at": "2026-11-12T16:14:38Z",
         "title": "Tanker struck by unknown projectile in Strait of Hormuz: UK agency - Anadolu Ajansı"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxPRFRaYlZ4SDNJbjAwNkt0QVIyaUMybzh2ZXFQRUhZQnRCSXlmY2pKOTc1V1k3UGV5eGJwMFRsbVhtSG56VEVfLURyeWJyZm1NT3VfbWhYLVhlQmx0S2EzN2NaNUlXRUxmanFocTEyVlptUF9rNm5aMjRuVFA2dGlTdUNvZjA0VkM5VTM1eU0zVkhjamZHUWZVRlBFeG9RVVZDeGFhSzBRQ3NWb1VmelVUNlV4eXYzbU5CV3U2TWo0R1JTcVdhb1I0bDV4dUVuemhQRktybFhNVmc1N3huVlZCWUdOc3lVd3hSSUZ6QXVlSm45b3Nuc2dUbjZ6M1FEeDRUWXNiMWdRUjVEaC1tQWd3eFc5SlBHcGs4aUlKWnptbXI3Tk9SR2hZRUZ3Y1J3ckR6MFhuSXcwNndseTBuOUkxekpfMXdOWVVNRnVrM0RITQ?oc=5",
+        "source": "أخبار حياة",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-12T20:21:10Z",
+        "title": "استهداف ناقلة نفط بمقذوف مجهول أثناء عبورها مضيق هرمز - أخبار حياة"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBzOWhwSDFGV3dTdmRVMlBWbGgwTFN2bVk0LWZzVFQ5dFgzSGJ3UlF6eFpjRnRPdHVyZHhuMDdwQWsxYXUxOGNkYjFCeTNUVkVS?oc=5",
+        "source": "شبكة يافا الإخبارية",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-12T17:56:55Z",
+        "title": "British Agency: Tanker Attacked by Unknown Projectile While Transiting the Strait of Hormuz - شبكة يافا الإخبارية"
       }
     ],
     "first_seen": "2026-11-11T07:00:12Z",
-    "last_updated": "2026-11-14T03:30:41Z",
+    "last_updated": "2026-11-14T10:52:47Z",
     "verification_issue": 377,
     "verdict": {
       "status": "reported",
