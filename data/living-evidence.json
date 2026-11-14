@@ -545,28 +545,80 @@
     "HIST-ME-20261011-AL-MAQAM": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T03:06:19.845439+00:00",
+        "checked_at": "2026-11-14T15:03:23Z",
         "vessel_name": "AL MAQAM",
+        "imo": "9732577",
         "date_utc": "2026-10-11",
-        "vessel_type": "crude oil tanker",
+        "vessel_type": "Crude oil tanker (VLCC)",
         "region": "Strait of Hormuz",
-        "location_text": "Strait of Hormuz",
-        "summary": "IMO records AL MAQAM in its confirmed incident register for 2026-10-11 near Strait of Hormuz. Vessel damage was reported.",
+        "location_text": "Strait of Hormuz at 26°24'N 056°34'E, on an outbound transit",
+        "attack_type": "Unknown projectile",
+        "summary": "AL MAQAM, a Liberian-flagged very large crude carrier (IMO 9732577), was struck by an unknown projectile while transiting the Strait of Hormuz outbound on 11 October 2026, at a position UKMTO gives as 26°24'N 056°34'E. UKMTO warning 166-26 records no crew injuries and leaves vessel damage and environmental impact unknown; the German Navy Shipping Centre's brief for 22 to 29 October 2026 reports significant fire damage, a tug on scene using its fixed firefighting monitors, and the crew reportedly safe. Iran's IRGC-affiliated Tasnim News Agency published video it said showed the tanker on fire, and the IRGC Navy claimed the strike; UKMTO named no attacker. Pole Star Global data reported by Seatrade Maritime News places the ship with ADNOC Logistics and Services, and Marisks, reported by Riviera, records her as the former Front Humber.",
+        "date_note": "Every source read dates the strike 11 October 2026; UKMTO published late reports of that day's attacks between 12 and 14 October, and the German Navy brief lists it under 11 October. Day precision is kept. The 26°24'N 056°34'E position is UKMTO's own.",
         "sources": [
           {
-            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 21 October 2026"
+            "url": "https://ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf?rev=ae23f6713bc24322b5f58190a6923b58",
+            "source": "JMIC, Update 105 to the advisory note for 1 March to 15 October 2026, ICOD 151300 UTC 15 October 2026: UKMTO 166-26 reports a tanker identified by the IMO as AL MAQAM struck by an unknown projectile in the Strait of Hormuz on 11 October, no crew injuries reported, vessel damage and environmental impact unknown; UKMTO 173-26 reports a container ship identified by the IMO as AL SAADIYAT struck by an unknown projectile on 13 October, minor damage, vessel continued her voyage, no crew injuries or environmental impact reported"
           },
           {
-            "source": "INTERTANKO member fleet register",
-            "url": "https://www.intertanko.com/about-us/membership/fleet-search"
+            "url": "https://ukmto.org/-/media/ukmto/products/20261016-ukmto_vra_overview_u.pdf",
+            "source": "UKMTO Voluntary Reporting Area weekly overview, report 11, produced 16 October 2026: incident table gives 11/10/2026 AL MAQAM IMO 9732577 tanker at 26°24'N 056°34'E, attack 166-26; 11/10/2026 tanker at 26°19'N 056°34'E, attack 164-26, name withheld; 13/10/2026 AL SAADIYAT IMO 9760598 container ship at 26°20'N 056°30'E, attack 173-26"
+          },
+          {
+            "url": "https://table.media/assets/documents/20261029_security_brief_soh.pdf",
+            "source": "German Navy Shipping Centre, Security Update Brief Persian Gulf, timeframe 22 to 29 October 2026, annex list of attacks: item 88 ANGOLA PROSPERITY (IMO 9896414), crude oil tanker (Liberia), hit on 11 October on the port side with damage to a cargo tank and the steering gear compartment; item 90 AL MAQAM (IMO 9732577), tanker (Liberia), hit on 11 October, significant fire damage, a tug on scene using its fixed firefighting monitors, crew reportedly safe; item 97 AL SAADIYAT (IMO 9760598), container vessel (Singapore), hit on 14 October by an unidentified projectile on the port side"
+          },
+          {
+            "url": "https://seatrade-maritime.com/security/ukmto-issues-four-hormuz-attack-reports-iran-claims-adnoc-tanker-strike",
+            "source": "Seatrade Maritime News, October 2026: UKMTO issued four late-time reports of attacks in the Strait of Hormuz on 11 October; the IRGC-affiliated Tasnim News Agency published video of the apparently laden Liberian-registered VLCC Al Maqam with a fire-blackened funnel and a tug attempting to extinguish a fire; Pole Star Global data puts Al Maqam with ADNOC Logistics and Services"
+          },
+          {
+            "url": "https://maritime-executive.com/article/ukmto-reports-third-strike-in-a-day-on-a-tanker-in-the-mideast",
+            "source": "The Maritime Executive, 11 October 2026: UKMTO recorded four more previously unreported attacks on ships in the Strait of Hormuz that day; the IRGC Navy released video footage purporting to show an attack on the UAE-owned tanker Al Maqam (IMO 9732577)"
           }
-        ],
-        "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
-        "imo": "9732577"
+        ]
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf?rev=ae23f6713bc24322b5f58190a6923b58",
+            "source": "JMIC, Update 105 to the advisory note for 1 March to 15 October 2026, ICOD 151300 UTC 15 October 2026: UKMTO 166-26 reports a tanker identified by the IMO as AL MAQAM struck by an unknown projectile in the Strait of Hormuz on 11 October, no crew injuries reported, vessel damage and environmental impact unknown; UKMTO 173-26 reports a container ship identified by the IMO as AL SAADIYAT struck by an unknown projectile on 13 October, minor damage, vessel continued her voyage, no crew injuries or environmental impact reported"
+          },
+          {
+            "url": "https://table.media/assets/documents/20261029_security_brief_soh.pdf",
+            "source": "German Navy Shipping Centre, Security Update Brief Persian Gulf, timeframe 22 to 29 October 2026, annex list of attacks: item 88 ANGOLA PROSPERITY (IMO 9896414), crude oil tanker (Liberia), hit on 11 October on the port side with damage to a cargo tank and the steering gear compartment; item 90 AL MAQAM (IMO 9732577), tanker (Liberia), hit on 11 October, significant fire damage, a tug on scene using its fixed firefighting monitors, crew reportedly safe; item 97 AL SAADIYAT (IMO 9760598), container vessel (Singapore), hit on 14 October by an unidentified projectile on the port side"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-14T15:03:23Z",
+          "text": "This record carried only a one-line register summary with no dated update. Added the source reporting behind the strike: UKMTO warning 166-26 of 11 October recording an unknown projectile outbound, no crew injuries and damage and environmental impact unknown; the UKMTO weekly overview giving the position 26°24'N 056°34'E and IMO 9732577; and the German Navy Shipping Centre brief recording significant fire damage, a tug using its fixed firefighting monitors and the crew reportedly safe. Added the claimed attribution and the ownership: the IRGC Navy said it struck the ship and its Tasnim agency published video of the tanker on fire, while UKMTO named no attacker, and Pole Star Global data reported by Seatrade puts the hull with ADNOC Logistics and Services. Deaths are recorded as a confirmed zero on UKMTO's report of no crew injuries and the German Navy's account of the crew as safe, not on silence; no injury count is set because the reports give none, and no nationality is recorded because no source names one.",
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf?rev=ae23f6713bc24322b5f58190a6923b58",
+              "source": "JMIC, Update 105 to the advisory note for 1 March to 15 October 2026, ICOD 151300 UTC 15 October 2026: UKMTO 166-26 reports a tanker identified by the IMO as AL MAQAM struck by an unknown projectile in the Strait of Hormuz on 11 October, no crew injuries reported, vessel damage and environmental impact unknown; UKMTO 173-26 reports a container ship identified by the IMO as AL SAADIYAT struck by an unknown projectile on 13 October, minor damage, vessel continued her voyage, no crew injuries or environmental impact reported"
+            },
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/20261016-ukmto_vra_overview_u.pdf",
+              "source": "UKMTO Voluntary Reporting Area weekly overview, report 11, produced 16 October 2026: incident table gives 11/10/2026 AL MAQAM IMO 9732577 tanker at 26°24'N 056°34'E, attack 166-26; 11/10/2026 tanker at 26°19'N 056°34'E, attack 164-26, name withheld; 13/10/2026 AL SAADIYAT IMO 9760598 container ship at 26°20'N 056°30'E, attack 173-26"
+            },
+            {
+              "url": "https://table.media/assets/documents/20261029_security_brief_soh.pdf",
+              "source": "German Navy Shipping Centre, Security Update Brief Persian Gulf, timeframe 22 to 29 October 2026, annex list of attacks: item 88 ANGOLA PROSPERITY (IMO 9896414), crude oil tanker (Liberia), hit on 11 October on the port side with damage to a cargo tank and the steering gear compartment; item 90 AL MAQAM (IMO 9732577), tanker (Liberia), hit on 11 October, significant fire damage, a tug on scene using its fixed firefighting monitors, crew reportedly safe; item 97 AL SAADIYAT (IMO 9760598), container vessel (Singapore), hit on 14 October by an unidentified projectile on the port side"
+            },
+            {
+              "url": "https://seatrade-maritime.com/security/ukmto-issues-four-hormuz-attack-reports-iran-claims-adnoc-tanker-strike",
+              "source": "Seatrade Maritime News, October 2026: UKMTO issued four late-time reports of attacks in the Strait of Hormuz on 11 October; the IRGC-affiliated Tasnim News Agency published video of the apparently laden Liberian-registered VLCC Al Maqam with a fire-blackened funnel and a tug attempting to extinguish a fire; Pole Star Global data puts Al Maqam with ADNOC Logistics and Services"
+            }
+          ]
+        }
       ]
     },
     "HIST-ME-20261011-DP-WORLD-KAVERI": {
@@ -43925,6 +43977,115 @@
             {
               "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
               "source": "IMO confirmed incident register, read 14 November 2026: GAS VELA (IMO 9969845), Strait of Hormuz, 4 October, damaged, no pollution"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6879341233,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6879341233",
+      "author": "iMariner",
+      "received_at": "2026-11-14T15:03:28Z",
+      "incident_id": "HIST-ME-20261011-AL-MAQAM",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T03:06:19.845439+00:00",
+          "vessel_name": "AL MAQAM",
+          "date_utc": "2026-10-11",
+          "vessel_type": "crude oil tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "Strait of Hormuz",
+          "summary": "IMO records AL MAQAM in its confirmed incident register for 2026-10-11 near Strait of Hormuz. Vessel damage was reported.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            },
+            {
+              "source": "INTERTANKO member fleet register",
+              "url": "https://www.intertanko.com/about-us/membership/fleet-search"
+            }
+          ],
+          "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
+          "imo": "9732577"
+        },
+        "audit_notes": [
+          "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+        ]
+      },
+      "change": {
+        "incident_id": "HIST-ME-20261011-AL-MAQAM",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-14T15:03:23Z",
+          "vessel_name": "AL MAQAM",
+          "imo": "9732577",
+          "date_utc": "2026-10-11",
+          "vessel_type": "Crude oil tanker (VLCC)",
+          "region": "Strait of Hormuz",
+          "location_text": "Strait of Hormuz at 26°24'N 056°34'E, on an outbound transit",
+          "attack_type": "Unknown projectile",
+          "summary": "AL MAQAM, a Liberian-flagged very large crude carrier (IMO 9732577), was struck by an unknown projectile while transiting the Strait of Hormuz outbound on 11 October 2026, at a position UKMTO gives as 26°24'N 056°34'E. UKMTO warning 166-26 records no crew injuries and leaves vessel damage and environmental impact unknown; the German Navy Shipping Centre's brief for 22 to 29 October 2026 reports significant fire damage, a tug on scene using its fixed firefighting monitors, and the crew reportedly safe. Iran's IRGC-affiliated Tasnim News Agency published video it said showed the tanker on fire, and the IRGC Navy claimed the strike; UKMTO named no attacker. Pole Star Global data reported by Seatrade Maritime News places the ship with ADNOC Logistics and Services, and Marisks, reported by Riviera, records her as the former Front Humber.",
+          "date_note": "Every source read dates the strike 11 October 2026; UKMTO published late reports of that day's attacks between 12 and 14 October, and the German Navy brief lists it under 11 October. Day precision is kept. The 26°24'N 056°34'E position is UKMTO's own.",
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf?rev=ae23f6713bc24322b5f58190a6923b58",
+              "source": "JMIC, Update 105 to the advisory note for 1 March to 15 October 2026, ICOD 151300 UTC 15 October 2026: UKMTO 166-26 reports a tanker identified by the IMO as AL MAQAM struck by an unknown projectile in the Strait of Hormuz on 11 October, no crew injuries reported, vessel damage and environmental impact unknown; UKMTO 173-26 reports a container ship identified by the IMO as AL SAADIYAT struck by an unknown projectile on 13 October, minor damage, vessel continued her voyage, no crew injuries or environmental impact reported"
+            },
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/20261016-ukmto_vra_overview_u.pdf",
+              "source": "UKMTO Voluntary Reporting Area weekly overview, report 11, produced 16 October 2026: incident table gives 11/10/2026 AL MAQAM IMO 9732577 tanker at 26°24'N 056°34'E, attack 166-26; 11/10/2026 tanker at 26°19'N 056°34'E, attack 164-26, name withheld; 13/10/2026 AL SAADIYAT IMO 9760598 container ship at 26°20'N 056°30'E, attack 173-26"
+            },
+            {
+              "url": "https://table.media/assets/documents/20261029_security_brief_soh.pdf",
+              "source": "German Navy Shipping Centre, Security Update Brief Persian Gulf, timeframe 22 to 29 October 2026, annex list of attacks: item 88 ANGOLA PROSPERITY (IMO 9896414), crude oil tanker (Liberia), hit on 11 October on the port side with damage to a cargo tank and the steering gear compartment; item 90 AL MAQAM (IMO 9732577), tanker (Liberia), hit on 11 October, significant fire damage, a tug on scene using its fixed firefighting monitors, crew reportedly safe; item 97 AL SAADIYAT (IMO 9760598), container vessel (Singapore), hit on 14 October by an unidentified projectile on the port side"
+            },
+            {
+              "url": "https://seatrade-maritime.com/security/ukmto-issues-four-hormuz-attack-reports-iran-claims-adnoc-tanker-strike",
+              "source": "Seatrade Maritime News, October 2026: UKMTO issued four late-time reports of attacks in the Strait of Hormuz on 11 October; the IRGC-affiliated Tasnim News Agency published video of the apparently laden Liberian-registered VLCC Al Maqam with a fire-blackened funnel and a tug attempting to extinguish a fire; Pole Star Global data puts Al Maqam with ADNOC Logistics and Services"
+            },
+            {
+              "url": "https://maritime-executive.com/article/ukmto-reports-third-strike-in-a-day-on-a-tanker-in-the-mideast",
+              "source": "The Maritime Executive, 11 October 2026: UKMTO recorded four more previously unreported attacks on ships in the Strait of Hormuz that day; the IRGC Navy released video footage purporting to show an attack on the UAE-owned tanker Al Maqam (IMO 9732577)"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "nationalities": [],
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf?rev=ae23f6713bc24322b5f58190a6923b58",
+              "source": "JMIC, Update 105 to the advisory note for 1 March to 15 October 2026, ICOD 151300 UTC 15 October 2026: UKMTO 166-26 reports a tanker identified by the IMO as AL MAQAM struck by an unknown projectile in the Strait of Hormuz on 11 October, no crew injuries reported, vessel damage and environmental impact unknown; UKMTO 173-26 reports a container ship identified by the IMO as AL SAADIYAT struck by an unknown projectile on 13 October, minor damage, vessel continued her voyage, no crew injuries or environmental impact reported"
+            },
+            {
+              "url": "https://table.media/assets/documents/20261029_security_brief_soh.pdf",
+              "source": "German Navy Shipping Centre, Security Update Brief Persian Gulf, timeframe 22 to 29 October 2026, annex list of attacks: item 88 ANGOLA PROSPERITY (IMO 9896414), crude oil tanker (Liberia), hit on 11 October on the port side with damage to a cargo tank and the steering gear compartment; item 90 AL MAQAM (IMO 9732577), tanker (Liberia), hit on 11 October, significant fire damage, a tug on scene using its fixed firefighting monitors, crew reportedly safe; item 97 AL SAADIYAT (IMO 9760598), container vessel (Singapore), hit on 14 October by an unidentified projectile on the port side"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-11-14T15:03:23Z",
+          "text": "This record carried only a one-line register summary with no dated update. Added the source reporting behind the strike: UKMTO warning 166-26 of 11 October recording an unknown projectile outbound, no crew injuries and damage and environmental impact unknown; the UKMTO weekly overview giving the position 26°24'N 056°34'E and IMO 9732577; and the German Navy Shipping Centre brief recording significant fire damage, a tug using its fixed firefighting monitors and the crew reportedly safe. Added the claimed attribution and the ownership: the IRGC Navy said it struck the ship and its Tasnim agency published video of the tanker on fire, while UKMTO named no attacker, and Pole Star Global data reported by Seatrade puts the hull with ADNOC Logistics and Services. Deaths are recorded as a confirmed zero on UKMTO's report of no crew injuries and the German Navy's account of the crew as safe, not on silence; no injury count is set because the reports give none, and no nationality is recorded because no source names one.",
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf?rev=ae23f6713bc24322b5f58190a6923b58",
+              "source": "JMIC, Update 105 to the advisory note for 1 March to 15 October 2026, ICOD 151300 UTC 15 October 2026: UKMTO 166-26 reports a tanker identified by the IMO as AL MAQAM struck by an unknown projectile in the Strait of Hormuz on 11 October, no crew injuries reported, vessel damage and environmental impact unknown; UKMTO 173-26 reports a container ship identified by the IMO as AL SAADIYAT struck by an unknown projectile on 13 October, minor damage, vessel continued her voyage, no crew injuries or environmental impact reported"
+            },
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/20261016-ukmto_vra_overview_u.pdf",
+              "source": "UKMTO Voluntary Reporting Area weekly overview, report 11, produced 16 October 2026: incident table gives 11/10/2026 AL MAQAM IMO 9732577 tanker at 26°24'N 056°34'E, attack 166-26; 11/10/2026 tanker at 26°19'N 056°34'E, attack 164-26, name withheld; 13/10/2026 AL SAADIYAT IMO 9760598 container ship at 26°20'N 056°30'E, attack 173-26"
+            },
+            {
+              "url": "https://table.media/assets/documents/20261029_security_brief_soh.pdf",
+              "source": "German Navy Shipping Centre, Security Update Brief Persian Gulf, timeframe 22 to 29 October 2026, annex list of attacks: item 88 ANGOLA PROSPERITY (IMO 9896414), crude oil tanker (Liberia), hit on 11 October on the port side with damage to a cargo tank and the steering gear compartment; item 90 AL MAQAM (IMO 9732577), tanker (Liberia), hit on 11 October, significant fire damage, a tug on scene using its fixed firefighting monitors, crew reportedly safe; item 97 AL SAADIYAT (IMO 9760598), container vessel (Singapore), hit on 14 October by an unidentified projectile on the port side"
+            },
+            {
+              "url": "https://seatrade-maritime.com/security/ukmto-issues-four-hormuz-attack-reports-iran-claims-adnoc-tanker-strike",
+              "source": "Seatrade Maritime News, October 2026: UKMTO issued four late-time reports of attacks in the Strait of Hormuz on 11 October; the IRGC-affiliated Tasnim News Agency published video of the apparently laden Liberian-registered VLCC Al Maqam with a fire-blackened funnel and a tug attempting to extinguish a fire; Pole Star Global data puts Al Maqam with ADNOC Logistics and Services"
             }
           ]
         }
