@@ -518,28 +518,72 @@
     "HIST-ME-20261013-AL-SAADIYAT": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T03:06:19.845439+00:00",
+        "checked_at": "2026-11-14T15:03:23Z",
         "vessel_name": "AL SAADIYAT",
+        "imo": "9760598",
         "date_utc": "2026-10-13",
-        "vessel_type": "container",
+        "vessel_type": "Container ship",
         "region": "Strait of Hormuz",
-        "location_text": "1 NM from the coast of Oman",
-        "summary": "IMO records AL SAADIYAT in its confirmed incident register for 2026-10-13 near 1 NM from the coast of Oman. Vessel damage was reported.",
+        "location_text": "Strait of Hormuz at 26°20'N 056°30'E, on an outbound transit",
+        "attack_type": "Unknown projectile",
+        "summary": "AL SAADIYAT, a Singapore-flagged container ship (IMO 9760598), was struck by an unknown projectile while transiting the Strait of Hormuz outbound on 13 October 2026. UKMTO warning 173-26, published on 14 October, reports minor damage, the vessel able to continue her voyage, and no crew injuries or environmental impact; the UKMTO weekly overview gives the position as 26°20'N 056°30'E. The German Navy Shipping Centre's brief for 22 to 29 October lists her as a Singapore container vessel hit by an unidentified projectile on the port side and dates the strike 14 October. Riviera, reporting the four strikes of 13 October, describes Al Saadiyat as GFS-managed and struck at about 1700 UTC on an outbound transit.",
+        "date_note": "UKMTO warning 173-26 and the UKMTO weekly overview both date the attack 13 October 2026, and the record keeps that day. The German Navy Shipping Centre brief dates the same port-side projectile hit 14 October; the same brief dates the GFS Giselle hit 14 October where UKMTO has 13 October, so the day difference is a reporting boundary rather than a second attack.",
         "sources": [
           {
-            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 21 October 2026"
+            "url": "https://ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf?rev=ae23f6713bc24322b5f58190a6923b58",
+            "source": "JMIC, Update 105 to the advisory note for 1 March to 15 October 2026, ICOD 151300 UTC 15 October 2026: UKMTO 166-26 reports a tanker identified by the IMO as AL MAQAM struck by an unknown projectile in the Strait of Hormuz on 11 October, no crew injuries reported, vessel damage and environmental impact unknown; UKMTO 173-26 reports a container ship identified by the IMO as AL SAADIYAT struck by an unknown projectile on 13 October, minor damage, vessel continued her voyage, no crew injuries or environmental impact reported"
           },
           {
-            "source": "VesselFinder",
-            "url": "https://www.vesselfinder.com/vessels/details/9760598"
+            "url": "https://ukmto.org/-/media/ukmto/products/20261016-ukmto_vra_overview_u.pdf",
+            "source": "UKMTO Voluntary Reporting Area weekly overview, report 11, produced 16 October 2026: incident table gives 11/10/2026 AL MAQAM IMO 9732577 tanker at 26°24'N 056°34'E, attack 166-26; 11/10/2026 tanker at 26°19'N 056°34'E, attack 164-26, name withheld; 13/10/2026 AL SAADIYAT IMO 9760598 container ship at 26°20'N 056°30'E, attack 173-26"
+          },
+          {
+            "url": "https://table.media/assets/documents/20261029_security_brief_soh.pdf",
+            "source": "German Navy Shipping Centre, Security Update Brief Persian Gulf, timeframe 22 to 29 October 2026, annex list of attacks: item 88 ANGOLA PROSPERITY (IMO 9896414), crude oil tanker (Liberia), hit on 11 October on the port side with damage to a cargo tank and the steering gear compartment; item 90 AL MAQAM (IMO 9732577), tanker (Liberia), hit on 11 October, significant fire damage, a tug on scene using its fixed firefighting monitors, crew reportedly safe; item 97 AL SAADIYAT (IMO 9760598), container vessel (Singapore), hit on 14 October by an unidentified projectile on the port side"
+          },
+          {
+            "url": "https://www.rivieramm.com/news-content-hub/hormuz-two-ships-sink-off-oman-amidst-attacks-on-three-uae-linked-container-ships-and-a-tanker-90265",
+            "source": "Riviera, 14 October 2026: four commercial vessels were reported hit in separate attacks in the Strait of Hormuz on 13 October; GFS-managed container ship Al Saadiyat was reportedly struck at about 1700 UTC while making an outbound transit"
           }
-        ],
-        "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
-        "imo": "9760598"
+        ]
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf?rev=ae23f6713bc24322b5f58190a6923b58",
+            "source": "JMIC, Update 105 to the advisory note for 1 March to 15 October 2026, ICOD 151300 UTC 15 October 2026: UKMTO 166-26 reports a tanker identified by the IMO as AL MAQAM struck by an unknown projectile in the Strait of Hormuz on 11 October, no crew injuries reported, vessel damage and environmental impact unknown; UKMTO 173-26 reports a container ship identified by the IMO as AL SAADIYAT struck by an unknown projectile on 13 October, minor damage, vessel continued her voyage, no crew injuries or environmental impact reported"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-14T15:03:23Z",
+          "text": "This record carried only a one-line register summary. Added the attack and its outcome from UKMTO warning 173-26: a container ship identified by the IMO as AL SAADIYAT struck by an unknown projectile outbound on 13 October, minor damage, able to continue her voyage, no crew injuries and no environmental impact. Added the position 26°20'N 056°30'E and the Singapore flag. Recorded the day conflict rather than choosing between sources: the German Navy Shipping Centre brief lists the same port-side hit on 14 October, and it dates the GFS Giselle strike 14 October where UKMTO has 13 October, so the day is kept as UKMTO reports it and the difference is explained. Added Riviera's account that the ship is GFS-managed and was struck at about 1700 UTC. Deaths are a confirmed zero on UKMTO's report of no crew injuries or environmental impact; no injury count and no nationality are set because the authority names none.",
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf?rev=ae23f6713bc24322b5f58190a6923b58",
+              "source": "JMIC, Update 105 to the advisory note for 1 March to 15 October 2026, ICOD 151300 UTC 15 October 2026: UKMTO 166-26 reports a tanker identified by the IMO as AL MAQAM struck by an unknown projectile in the Strait of Hormuz on 11 October, no crew injuries reported, vessel damage and environmental impact unknown; UKMTO 173-26 reports a container ship identified by the IMO as AL SAADIYAT struck by an unknown projectile on 13 October, minor damage, vessel continued her voyage, no crew injuries or environmental impact reported"
+            },
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/20261016-ukmto_vra_overview_u.pdf",
+              "source": "UKMTO Voluntary Reporting Area weekly overview, report 11, produced 16 October 2026: incident table gives 11/10/2026 AL MAQAM IMO 9732577 tanker at 26°24'N 056°34'E, attack 166-26; 11/10/2026 tanker at 26°19'N 056°34'E, attack 164-26, name withheld; 13/10/2026 AL SAADIYAT IMO 9760598 container ship at 26°20'N 056°30'E, attack 173-26"
+            },
+            {
+              "url": "https://table.media/assets/documents/20261029_security_brief_soh.pdf",
+              "source": "German Navy Shipping Centre, Security Update Brief Persian Gulf, timeframe 22 to 29 October 2026, annex list of attacks: item 88 ANGOLA PROSPERITY (IMO 9896414), crude oil tanker (Liberia), hit on 11 October on the port side with damage to a cargo tank and the steering gear compartment; item 90 AL MAQAM (IMO 9732577), tanker (Liberia), hit on 11 October, significant fire damage, a tug on scene using its fixed firefighting monitors, crew reportedly safe; item 97 AL SAADIYAT (IMO 9760598), container vessel (Singapore), hit on 14 October by an unidentified projectile on the port side"
+            },
+            {
+              "url": "https://www.rivieramm.com/news-content-hub/hormuz-two-ships-sink-off-oman-amidst-attacks-on-three-uae-linked-container-ships-and-a-tanker-90265",
+              "source": "Riviera, 14 October 2026: four commercial vessels were reported hit in separate attacks in the Strait of Hormuz on 13 October; GFS-managed container ship Al Saadiyat was reportedly struck at about 1700 UTC while making an outbound transit"
+            }
+          ]
+        }
       ]
     },
     "HIST-ME-20261011-AL-MAQAM": {
@@ -44086,6 +44130,107 @@
             {
               "url": "https://seatrade-maritime.com/security/ukmto-issues-four-hormuz-attack-reports-iran-claims-adnoc-tanker-strike",
               "source": "Seatrade Maritime News, October 2026: UKMTO issued four late-time reports of attacks in the Strait of Hormuz on 11 October; the IRGC-affiliated Tasnim News Agency published video of the apparently laden Liberian-registered VLCC Al Maqam with a fire-blackened funnel and a tug attempting to extinguish a fire; Pole Star Global data puts Al Maqam with ADNOC Logistics and Services"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6879342693,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6879342693",
+      "author": "iMariner",
+      "received_at": "2026-11-14T15:03:34Z",
+      "incident_id": "HIST-ME-20261013-AL-SAADIYAT",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T03:06:19.845439+00:00",
+          "vessel_name": "AL SAADIYAT",
+          "date_utc": "2026-10-13",
+          "vessel_type": "container",
+          "region": "Strait of Hormuz",
+          "location_text": "1 NM from the coast of Oman",
+          "summary": "IMO records AL SAADIYAT in its confirmed incident register for 2026-10-13 near 1 NM from the coast of Oman. Vessel damage was reported.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            },
+            {
+              "source": "VesselFinder",
+              "url": "https://www.vesselfinder.com/vessels/details/9760598"
+            }
+          ],
+          "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
+          "imo": "9760598"
+        },
+        "audit_notes": [
+          "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+        ]
+      },
+      "change": {
+        "incident_id": "HIST-ME-20261013-AL-SAADIYAT",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-14T15:03:23Z",
+          "vessel_name": "AL SAADIYAT",
+          "imo": "9760598",
+          "date_utc": "2026-10-13",
+          "vessel_type": "Container ship",
+          "region": "Strait of Hormuz",
+          "location_text": "Strait of Hormuz at 26°20'N 056°30'E, on an outbound transit",
+          "attack_type": "Unknown projectile",
+          "summary": "AL SAADIYAT, a Singapore-flagged container ship (IMO 9760598), was struck by an unknown projectile while transiting the Strait of Hormuz outbound on 13 October 2026. UKMTO warning 173-26, published on 14 October, reports minor damage, the vessel able to continue her voyage, and no crew injuries or environmental impact; the UKMTO weekly overview gives the position as 26°20'N 056°30'E. The German Navy Shipping Centre's brief for 22 to 29 October lists her as a Singapore container vessel hit by an unidentified projectile on the port side and dates the strike 14 October. Riviera, reporting the four strikes of 13 October, describes Al Saadiyat as GFS-managed and struck at about 1700 UTC on an outbound transit.",
+          "date_note": "UKMTO warning 173-26 and the UKMTO weekly overview both date the attack 13 October 2026, and the record keeps that day. The German Navy Shipping Centre brief dates the same port-side projectile hit 14 October; the same brief dates the GFS Giselle hit 14 October where UKMTO has 13 October, so the day difference is a reporting boundary rather than a second attack.",
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf?rev=ae23f6713bc24322b5f58190a6923b58",
+              "source": "JMIC, Update 105 to the advisory note for 1 March to 15 October 2026, ICOD 151300 UTC 15 October 2026: UKMTO 166-26 reports a tanker identified by the IMO as AL MAQAM struck by an unknown projectile in the Strait of Hormuz on 11 October, no crew injuries reported, vessel damage and environmental impact unknown; UKMTO 173-26 reports a container ship identified by the IMO as AL SAADIYAT struck by an unknown projectile on 13 October, minor damage, vessel continued her voyage, no crew injuries or environmental impact reported"
+            },
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/20261016-ukmto_vra_overview_u.pdf",
+              "source": "UKMTO Voluntary Reporting Area weekly overview, report 11, produced 16 October 2026: incident table gives 11/10/2026 AL MAQAM IMO 9732577 tanker at 26°24'N 056°34'E, attack 166-26; 11/10/2026 tanker at 26°19'N 056°34'E, attack 164-26, name withheld; 13/10/2026 AL SAADIYAT IMO 9760598 container ship at 26°20'N 056°30'E, attack 173-26"
+            },
+            {
+              "url": "https://table.media/assets/documents/20261029_security_brief_soh.pdf",
+              "source": "German Navy Shipping Centre, Security Update Brief Persian Gulf, timeframe 22 to 29 October 2026, annex list of attacks: item 88 ANGOLA PROSPERITY (IMO 9896414), crude oil tanker (Liberia), hit on 11 October on the port side with damage to a cargo tank and the steering gear compartment; item 90 AL MAQAM (IMO 9732577), tanker (Liberia), hit on 11 October, significant fire damage, a tug on scene using its fixed firefighting monitors, crew reportedly safe; item 97 AL SAADIYAT (IMO 9760598), container vessel (Singapore), hit on 14 October by an unidentified projectile on the port side"
+            },
+            {
+              "url": "https://www.rivieramm.com/news-content-hub/hormuz-two-ships-sink-off-oman-amidst-attacks-on-three-uae-linked-container-ships-and-a-tanker-90265",
+              "source": "Riviera, 14 October 2026: four commercial vessels were reported hit in separate attacks in the Strait of Hormuz on 13 October; GFS-managed container ship Al Saadiyat was reportedly struck at about 1700 UTC while making an outbound transit"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "nationalities": [],
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf?rev=ae23f6713bc24322b5f58190a6923b58",
+              "source": "JMIC, Update 105 to the advisory note for 1 March to 15 October 2026, ICOD 151300 UTC 15 October 2026: UKMTO 166-26 reports a tanker identified by the IMO as AL MAQAM struck by an unknown projectile in the Strait of Hormuz on 11 October, no crew injuries reported, vessel damage and environmental impact unknown; UKMTO 173-26 reports a container ship identified by the IMO as AL SAADIYAT struck by an unknown projectile on 13 October, minor damage, vessel continued her voyage, no crew injuries or environmental impact reported"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-11-14T15:03:23Z",
+          "text": "This record carried only a one-line register summary. Added the attack and its outcome from UKMTO warning 173-26: a container ship identified by the IMO as AL SAADIYAT struck by an unknown projectile outbound on 13 October, minor damage, able to continue her voyage, no crew injuries and no environmental impact. Added the position 26°20'N 056°30'E and the Singapore flag. Recorded the day conflict rather than choosing between sources: the German Navy Shipping Centre brief lists the same port-side hit on 14 October, and it dates the GFS Giselle strike 14 October where UKMTO has 13 October, so the day is kept as UKMTO reports it and the difference is explained. Added Riviera's account that the ship is GFS-managed and was struck at about 1700 UTC. Deaths are a confirmed zero on UKMTO's report of no crew injuries or environmental impact; no injury count and no nationality are set because the authority names none.",
+          "sources": [
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/update-105-jmic-advisory-note-15-october.pdf?rev=ae23f6713bc24322b5f58190a6923b58",
+              "source": "JMIC, Update 105 to the advisory note for 1 March to 15 October 2026, ICOD 151300 UTC 15 October 2026: UKMTO 166-26 reports a tanker identified by the IMO as AL MAQAM struck by an unknown projectile in the Strait of Hormuz on 11 October, no crew injuries reported, vessel damage and environmental impact unknown; UKMTO 173-26 reports a container ship identified by the IMO as AL SAADIYAT struck by an unknown projectile on 13 October, minor damage, vessel continued her voyage, no crew injuries or environmental impact reported"
+            },
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/20261016-ukmto_vra_overview_u.pdf",
+              "source": "UKMTO Voluntary Reporting Area weekly overview, report 11, produced 16 October 2026: incident table gives 11/10/2026 AL MAQAM IMO 9732577 tanker at 26°24'N 056°34'E, attack 166-26; 11/10/2026 tanker at 26°19'N 056°34'E, attack 164-26, name withheld; 13/10/2026 AL SAADIYAT IMO 9760598 container ship at 26°20'N 056°30'E, attack 173-26"
+            },
+            {
+              "url": "https://table.media/assets/documents/20261029_security_brief_soh.pdf",
+              "source": "German Navy Shipping Centre, Security Update Brief Persian Gulf, timeframe 22 to 29 October 2026, annex list of attacks: item 88 ANGOLA PROSPERITY (IMO 9896414), crude oil tanker (Liberia), hit on 11 October on the port side with damage to a cargo tank and the steering gear compartment; item 90 AL MAQAM (IMO 9732577), tanker (Liberia), hit on 11 October, significant fire damage, a tug on scene using its fixed firefighting monitors, crew reportedly safe; item 97 AL SAADIYAT (IMO 9760598), container vessel (Singapore), hit on 14 October by an unidentified projectile on the port side"
+            },
+            {
+              "url": "https://www.rivieramm.com/news-content-hub/hormuz-two-ships-sink-off-oman-amidst-attacks-on-three-uae-linked-container-ships-and-a-tanker-90265",
+              "source": "Riviera, 14 October 2026: four commercial vessels were reported hit in separate attacks in the Strait of Hormuz on 13 October; GFS-managed container ship Al Saadiyat was reportedly struck at about 1700 UTC while making an outbound transit"
             }
           ]
         }
