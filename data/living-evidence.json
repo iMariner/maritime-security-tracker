@@ -809,28 +809,68 @@
     "HIST-ME-20261011-ANGOLA-PROSPERITY": {
       "verification": {
         "status": "verified",
-        "checked_at": "2026-10-21T03:06:19.845439+00:00",
+        "checked_at": "2026-11-14T15:06:26Z",
         "vessel_name": "ANGOLA PROSPERITY",
+        "imo": "9896414",
         "date_utc": "2026-10-11",
-        "vessel_type": "chemical/products tanker",
+        "vessel_type": "Crude oil tanker",
         "region": "Strait of Hormuz",
-        "location_text": "8NM from the coast of Oman",
-        "summary": "IMO records ANGOLA PROSPERITY in its confirmed incident register for 2026-10-11 near 8NM from the coast of Oman. Vessel damage was reported.",
+        "location_text": "Strait of Hormuz at 26°19'N 056°34'E, on an outbound transit",
+        "attack_type": "Unknown projectile",
+        "summary": "ANGOLA PROSPERITY, a Liberian-flagged crude oil tanker (IMO 9896414), was struck on the port side by an unknown projectile at about 1200 UTC on 11 October 2026 while transiting the Strait of Hormuz outbound. UKMTO alert 164-26 withheld the name and reported an outbound tanker hit on the port side causing damage but no casualties and no environmental impact, as recorded by Riviera; the UKMTO weekly overview places that alert at 26°19'N 056°34'E. Marisks, reported by Riviera, identified the hull as Angola Prosperity, said the impact damaged the steering gear room and a port-side water tank, that all crew were reported safe and that the ship proceeded towards Fujairah anchorage. The German Navy Shipping Centre's brief for 22 to 29 October records the port-side hit on 11 October with damage to a cargo tank and the steering gear compartment, and gives the flag as Liberian.",
+        "date_note": "UKMTO's alert, the German Navy brief and Marisks all date the strike 11 October 2026; Marisks gives the time as 1200 UTC. Day precision is kept in the date field.",
         "sources": [
           {
-            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-            "source": "IMO confirmed incident register, checked 21 October 2026"
+            "url": "https://www.rivieramm.com/news-content-hub/two-missing-after-iran-linked-attacks-us-disables-vessel-90245",
+            "source": "Riviera, 13 October 2026: UKMTO alerts 167, 168 and 169 covered attacks reported retrospectively on 12 October; Marisks reported the Liberia-flagged crude tanker Angola Prosperity struck on the port side by an unidentified projectile at 1200 UTC on 11 October, damaging the steering gear room and a port-side water tank, all crew reported safe, no environmental impact, vessel proceeded towards Fujairah anchorage; the incident corresponds with UKMTO alert 164, which reported an outbound tanker struck on its port side causing damage but no casualties or environmental impact"
           },
           {
-            "source": "INTERTANKO member fleet register",
-            "url": "https://www.intertanko.com/about-us/membership/fleet-search"
+            "url": "https://ukmto.org/-/media/ukmto/products/20261016-ukmto_vra_overview_u.pdf",
+            "source": "UKMTO Voluntary Reporting Area weekly overview, report 11, produced 16 October 2026: incident table gives 11/10/2026 AL MAQAM IMO 9732577 tanker at 26°24'N 056°34'E, attack 166-26; 11/10/2026 tanker at 26°19'N 056°34'E, attack 164-26, name withheld; 13/10/2026 AL SAADIYAT IMO 9760598 container ship at 26°20'N 056°30'E, attack 173-26"
+          },
+          {
+            "url": "https://table.media/assets/documents/20261029_security_brief_soh.pdf",
+            "source": "German Navy Shipping Centre, Security Update Brief Persian Gulf, timeframe 22 to 29 October 2026, annex list of attacks: item 88 ANGOLA PROSPERITY (IMO 9896414), crude oil tanker (Liberia), hit on 11 October on the port side with damage to a cargo tank and the steering gear compartment; item 90 AL MAQAM (IMO 9732577), tanker (Liberia), hit on 11 October, significant fire damage, a tug on scene using its fixed firefighting monitors, crew reportedly safe; item 97 AL SAADIYAT (IMO 9760598), container vessel (Singapore), hit on 14 October by an unidentified projectile on the port side"
           }
-        ],
-        "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
-        "imo": "9896414"
+        ]
       },
       "audit_notes": [
         "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+      ],
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "nationalities": [],
+        "sources": [
+          {
+            "url": "https://www.rivieramm.com/news-content-hub/two-missing-after-iran-linked-attacks-us-disables-vessel-90245",
+            "source": "Riviera, 13 October 2026: UKMTO alerts 167, 168 and 169 covered attacks reported retrospectively on 12 October; Marisks reported the Liberia-flagged crude tanker Angola Prosperity struck on the port side by an unidentified projectile at 1200 UTC on 11 October, damaging the steering gear room and a port-side water tank, all crew reported safe, no environmental impact, vessel proceeded towards Fujairah anchorage; the incident corresponds with UKMTO alert 164, which reported an outbound tanker struck on its port side causing damage but no casualties or environmental impact"
+          },
+          {
+            "url": "https://table.media/assets/documents/20261029_security_brief_soh.pdf",
+            "source": "German Navy Shipping Centre, Security Update Brief Persian Gulf, timeframe 22 to 29 October 2026, annex list of attacks: item 88 ANGOLA PROSPERITY (IMO 9896414), crude oil tanker (Liberia), hit on 11 October on the port side with damage to a cargo tank and the steering gear compartment; item 90 AL MAQAM (IMO 9732577), tanker (Liberia), hit on 11 October, significant fire damage, a tug on scene using its fixed firefighting monitors, crew reportedly safe; item 97 AL SAADIYAT (IMO 9760598), container vessel (Singapore), hit on 14 October by an unidentified projectile on the port side"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-14T15:06:26Z",
+          "text": "This record carried only a one-line register summary. Corrected the vessel type from chemical and products tanker to crude oil tanker: the German Navy Shipping Centre brief lists ANGOLA PROSPERITY (IMO 9896414) as a crude oil tanker under the Liberian flag, and Riviera and Marisks describe the same Liberia-flagged crude tanker. Added the attack detail: an unknown projectile on the port side at about 1200 UTC on 11 October, damage to the steering gear room and a port-side water tank, no casualties and no environmental impact, and the ship proceeding to Fujairah. Added the position from the UKMTO weekly overview, 26°19'N 056°34'E, noting that UKMTO withheld the name and that the identification comes from Marisks and Riviera. Deaths are recorded as a confirmed zero on UKMTO's reported no casualties and Marisks' account that all crew were safe; no nationality is recorded because no source names one. Resubmitted on 14 November 2026 because the workflow run triggered by the first submission of this comment was cancelled while queued behind two other evidence comments; the record was unchanged in the overlay when rechecked, and the evidence is posted again without alteration.",
+          "sources": [
+            {
+              "url": "https://www.rivieramm.com/news-content-hub/two-missing-after-iran-linked-attacks-us-disables-vessel-90245",
+              "source": "Riviera, 13 October 2026: UKMTO alerts 167, 168 and 169 covered attacks reported retrospectively on 12 October; Marisks reported the Liberia-flagged crude tanker Angola Prosperity struck on the port side by an unidentified projectile at 1200 UTC on 11 October, damaging the steering gear room and a port-side water tank, all crew reported safe, no environmental impact, vessel proceeded towards Fujairah anchorage; the incident corresponds with UKMTO alert 164, which reported an outbound tanker struck on its port side causing damage but no casualties or environmental impact"
+            },
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/20261016-ukmto_vra_overview_u.pdf",
+              "source": "UKMTO Voluntary Reporting Area weekly overview, report 11, produced 16 October 2026: incident table gives 11/10/2026 AL MAQAM IMO 9732577 tanker at 26°24'N 056°34'E, attack 166-26; 11/10/2026 tanker at 26°19'N 056°34'E, attack 164-26, name withheld; 13/10/2026 AL SAADIYAT IMO 9760598 container ship at 26°20'N 056°30'E, attack 173-26"
+            },
+            {
+              "url": "https://table.media/assets/documents/20261029_security_brief_soh.pdf",
+              "source": "German Navy Shipping Centre, Security Update Brief Persian Gulf, timeframe 22 to 29 October 2026, annex list of attacks: item 88 ANGOLA PROSPERITY (IMO 9896414), crude oil tanker (Liberia), hit on 11 October on the port side with damage to a cargo tank and the steering gear compartment; item 90 AL MAQAM (IMO 9732577), tanker (Liberia), hit on 11 October, significant fire damage, a tug on scene using its fixed firefighting monitors, crew reportedly safe; item 97 AL SAADIYAT (IMO 9760598), container vessel (Singapore), hit on 14 October by an unidentified projectile on the port side"
+            }
+          ]
+        }
       ]
     },
     "HIST-ME-20261011-PETRO-DOLPHIN": {
@@ -44231,6 +44271,103 @@
             {
               "url": "https://www.rivieramm.com/news-content-hub/hormuz-two-ships-sink-off-oman-amidst-attacks-on-three-uae-linked-container-ships-and-a-tanker-90265",
               "source": "Riviera, 14 October 2026: four commercial vessels were reported hit in separate attacks in the Strait of Hormuz on 13 October; GFS-managed container ship Al Saadiyat was reportedly struck at about 1700 UTC while making an outbound transit"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6879385149,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6879385149",
+      "author": "iMariner",
+      "received_at": "2026-11-14T15:06:27Z",
+      "incident_id": "HIST-ME-20261011-ANGOLA-PROSPERITY",
+      "before": {
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-10-21T03:06:19.845439+00:00",
+          "vessel_name": "ANGOLA PROSPERITY",
+          "date_utc": "2026-10-11",
+          "vessel_type": "chemical/products tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "8NM from the coast of Oman",
+          "summary": "IMO records ANGOLA PROSPERITY in its confirmed incident register for 2026-10-11 near 8NM from the coast of Oman. Vessel damage was reported.",
+          "sources": [
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incident register, checked 21 October 2026"
+            },
+            {
+              "source": "INTERTANKO member fleet register",
+              "url": "https://www.intertanko.com/about-us/membership/fleet-search"
+            }
+          ],
+          "date_note": "Day-precision date from IMO; an exact UTC event time is not provided.",
+          "imo": "9896414"
+        },
+        "audit_notes": [
+          "Name, day, location and outcomes read from the IMO confirmed register. No injury, missing-person or nationality inference is used."
+        ]
+      },
+      "change": {
+        "incident_id": "HIST-ME-20261011-ANGOLA-PROSPERITY",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-14T15:06:26Z",
+          "vessel_name": "ANGOLA PROSPERITY",
+          "imo": "9896414",
+          "date_utc": "2026-10-11",
+          "vessel_type": "Crude oil tanker",
+          "region": "Strait of Hormuz",
+          "location_text": "Strait of Hormuz at 26°19'N 056°34'E, on an outbound transit",
+          "attack_type": "Unknown projectile",
+          "summary": "ANGOLA PROSPERITY, a Liberian-flagged crude oil tanker (IMO 9896414), was struck on the port side by an unknown projectile at about 1200 UTC on 11 October 2026 while transiting the Strait of Hormuz outbound. UKMTO alert 164-26 withheld the name and reported an outbound tanker hit on the port side causing damage but no casualties and no environmental impact, as recorded by Riviera; the UKMTO weekly overview places that alert at 26°19'N 056°34'E. Marisks, reported by Riviera, identified the hull as Angola Prosperity, said the impact damaged the steering gear room and a port-side water tank, that all crew were reported safe and that the ship proceeded towards Fujairah anchorage. The German Navy Shipping Centre's brief for 22 to 29 October records the port-side hit on 11 October with damage to a cargo tank and the steering gear compartment, and gives the flag as Liberian.",
+          "date_note": "UKMTO's alert, the German Navy brief and Marisks all date the strike 11 October 2026; Marisks gives the time as 1200 UTC. Day precision is kept in the date field.",
+          "sources": [
+            {
+              "url": "https://www.rivieramm.com/news-content-hub/two-missing-after-iran-linked-attacks-us-disables-vessel-90245",
+              "source": "Riviera, 13 October 2026: UKMTO alerts 167, 168 and 169 covered attacks reported retrospectively on 12 October; Marisks reported the Liberia-flagged crude tanker Angola Prosperity struck on the port side by an unidentified projectile at 1200 UTC on 11 October, damaging the steering gear room and a port-side water tank, all crew reported safe, no environmental impact, vessel proceeded towards Fujairah anchorage; the incident corresponds with UKMTO alert 164, which reported an outbound tanker struck on its port side causing damage but no casualties or environmental impact"
+            },
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/20261016-ukmto_vra_overview_u.pdf",
+              "source": "UKMTO Voluntary Reporting Area weekly overview, report 11, produced 16 October 2026: incident table gives 11/10/2026 AL MAQAM IMO 9732577 tanker at 26°24'N 056°34'E, attack 166-26; 11/10/2026 tanker at 26°19'N 056°34'E, attack 164-26, name withheld; 13/10/2026 AL SAADIYAT IMO 9760598 container ship at 26°20'N 056°30'E, attack 173-26"
+            },
+            {
+              "url": "https://table.media/assets/documents/20261029_security_brief_soh.pdf",
+              "source": "German Navy Shipping Centre, Security Update Brief Persian Gulf, timeframe 22 to 29 October 2026, annex list of attacks: item 88 ANGOLA PROSPERITY (IMO 9896414), crude oil tanker (Liberia), hit on 11 October on the port side with damage to a cargo tank and the steering gear compartment; item 90 AL MAQAM (IMO 9732577), tanker (Liberia), hit on 11 October, significant fire damage, a tug on scene using its fixed firefighting monitors, crew reportedly safe; item 97 AL SAADIYAT (IMO 9760598), container vessel (Singapore), hit on 14 October by an unidentified projectile on the port side"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "nationalities": [],
+          "sources": [
+            {
+              "url": "https://www.rivieramm.com/news-content-hub/two-missing-after-iran-linked-attacks-us-disables-vessel-90245",
+              "source": "Riviera, 13 October 2026: UKMTO alerts 167, 168 and 169 covered attacks reported retrospectively on 12 October; Marisks reported the Liberia-flagged crude tanker Angola Prosperity struck on the port side by an unidentified projectile at 1200 UTC on 11 October, damaging the steering gear room and a port-side water tank, all crew reported safe, no environmental impact, vessel proceeded towards Fujairah anchorage; the incident corresponds with UKMTO alert 164, which reported an outbound tanker struck on its port side causing damage but no casualties or environmental impact"
+            },
+            {
+              "url": "https://table.media/assets/documents/20261029_security_brief_soh.pdf",
+              "source": "German Navy Shipping Centre, Security Update Brief Persian Gulf, timeframe 22 to 29 October 2026, annex list of attacks: item 88 ANGOLA PROSPERITY (IMO 9896414), crude oil tanker (Liberia), hit on 11 October on the port side with damage to a cargo tank and the steering gear compartment; item 90 AL MAQAM (IMO 9732577), tanker (Liberia), hit on 11 October, significant fire damage, a tug on scene using its fixed firefighting monitors, crew reportedly safe; item 97 AL SAADIYAT (IMO 9760598), container vessel (Singapore), hit on 14 October by an unidentified projectile on the port side"
+            }
+          ]
+        },
+        "update": {
+          "at": "2026-11-14T15:06:26Z",
+          "text": "This record carried only a one-line register summary. Corrected the vessel type from chemical and products tanker to crude oil tanker: the German Navy Shipping Centre brief lists ANGOLA PROSPERITY (IMO 9896414) as a crude oil tanker under the Liberian flag, and Riviera and Marisks describe the same Liberia-flagged crude tanker. Added the attack detail: an unknown projectile on the port side at about 1200 UTC on 11 October, damage to the steering gear room and a port-side water tank, no casualties and no environmental impact, and the ship proceeding to Fujairah. Added the position from the UKMTO weekly overview, 26°19'N 056°34'E, noting that UKMTO withheld the name and that the identification comes from Marisks and Riviera. Deaths are recorded as a confirmed zero on UKMTO's reported no casualties and Marisks' account that all crew were safe; no nationality is recorded because no source names one. Resubmitted on 14 November 2026 because the workflow run triggered by the first submission of this comment was cancelled while queued behind two other evidence comments; the record was unchanged in the overlay when rechecked, and the evidence is posted again without alteration.",
+          "sources": [
+            {
+              "url": "https://www.rivieramm.com/news-content-hub/two-missing-after-iran-linked-attacks-us-disables-vessel-90245",
+              "source": "Riviera, 13 October 2026: UKMTO alerts 167, 168 and 169 covered attacks reported retrospectively on 12 October; Marisks reported the Liberia-flagged crude tanker Angola Prosperity struck on the port side by an unidentified projectile at 1200 UTC on 11 October, damaging the steering gear room and a port-side water tank, all crew reported safe, no environmental impact, vessel proceeded towards Fujairah anchorage; the incident corresponds with UKMTO alert 164, which reported an outbound tanker struck on its port side causing damage but no casualties or environmental impact"
+            },
+            {
+              "url": "https://ukmto.org/-/media/ukmto/products/20261016-ukmto_vra_overview_u.pdf",
+              "source": "UKMTO Voluntary Reporting Area weekly overview, report 11, produced 16 October 2026: incident table gives 11/10/2026 AL MAQAM IMO 9732577 tanker at 26°24'N 056°34'E, attack 166-26; 11/10/2026 tanker at 26°19'N 056°34'E, attack 164-26, name withheld; 13/10/2026 AL SAADIYAT IMO 9760598 container ship at 26°20'N 056°30'E, attack 173-26"
+            },
+            {
+              "url": "https://table.media/assets/documents/20261029_security_brief_soh.pdf",
+              "source": "German Navy Shipping Centre, Security Update Brief Persian Gulf, timeframe 22 to 29 October 2026, annex list of attacks: item 88 ANGOLA PROSPERITY (IMO 9896414), crude oil tanker (Liberia), hit on 11 October on the port side with damage to a cargo tank and the steering gear compartment; item 90 AL MAQAM (IMO 9732577), tanker (Liberia), hit on 11 October, significant fire damage, a tug on scene using its fixed firefighting monitors, crew reportedly safe; item 97 AL SAADIYAT (IMO 9760598), container vessel (Singapore), hit on 14 October by an unidentified projectile on the port side"
             }
           ]
         }
