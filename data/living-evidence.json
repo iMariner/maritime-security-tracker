@@ -21662,6 +21662,70 @@
           ]
         }
       ]
+    },
+    "INC-20261114-002": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://www.ziuaconstanta.ro/stiri/actualitate/alerta-pe-marea-neagra-in-apropiere-de-sfantu-gheorghe-o-nava-a-fost-lovita-de-o-drona-960427.html",
+            "source": "ZIUA de Constanta, 14 November 2026: the master reported to the naval authorities at Sulina that no sailor was injured"
+          },
+          {
+            "url": "https://radiosvoboda.org/a/news-dron-atakuvav-vantazhne-sudno-terytorialni-vody-rumunii/33898642.html",
+            "source": "Radio Svoboda (RFE/RL), 14 November 2026: no member of the crew was injured, according to the master"
+          }
+        ],
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-14T21:18:45Z",
+        "vessel_name": "LARISSA 1",
+        "imo": "9154268",
+        "date_utc": "2026-11-13",
+        "vessel_type": "General cargo ship",
+        "region": "Black Sea",
+        "location_text": "6.8 nautical miles north east of Sfantu Gheorghe, in Romanian territorial waters",
+        "attack_type": "Drone strike; attacker not identified",
+        "date_note": "Romanian outlets reported the strike on the morning of 14 November as having happened the previous evening, 13 November, with the master's report to the naval authorities at Sulina timed 21:40 local time, that is EET, UTC+2. The corpus row was collected on 14 November, the publication date, so the verified attack date is 13 November. Day precision only; no finer UTC time is asserted.",
+        "summary": "LARISSA 1, a Palau flagged general cargo ship of 17,064 deadweight tonnes built in 1999, was struck by a drone at about 21:40 local time on 13 November 2026, 6.8 nautical miles north east of Sfantu Gheorghe inside Romanian territorial waters. The master reported to the Romanian naval authorities at Sulina that no crew member was injured, that no fire followed the strike, and that the drone destroyed only the cargo crane. The vessel was heading for the roads of Sulina on passage to Ukraine. Romania's defence minister, Stefan-Radu Oprea, confirmed that he knew of the incident and said he could not say where the drone had come from until the technical investigation reported. No source checked names the attacker, the number of crew or their nationalities.",
+        "sources": [
+          {
+            "url": "https://www.ziuaconstanta.ro/stiri/actualitate/alerta-pe-marea-neagra-in-apropiere-de-sfantu-gheorghe-o-nava-a-fost-lovita-de-o-drona-960427.html",
+            "source": "ZIUA de Constanta, 14 November 2026: the Palau flagged ship Larissa 1 was hit by a drone 6.8 nautical miles north east of Sfantu Gheorghe in Romanian territorial waters, the attack reported at 21.40, the master told the naval authorities at Sulina that no sailor was injured and that there was no fire, and the drone destroyed only the cargo crane"
+          },
+          {
+            "url": "https://radiosvoboda.org/a/news-dron-atakuvav-vantazhne-sudno-terytorialni-vody-rumunii/33898642.html",
+            "source": "Radio Svoboda (RFE/RL), 14 November 2026, citing Romanian media: the drone attacked the cargo ship Larissa 1 in Romanian territorial waters on the evening of 13 November, 6.8 nautical miles north east of Sfantu Gheorghe, no crew member injured, no fire, the cargo crane damaged, and Romania's defence minister confirmed he knew of the incident"
+          },
+          {
+            "url": "https://ua.news/en/world/dron-atakuvav-vantazhne-sudno-larissa-1-u-teritorialnikh-vodakh-rumuniyi",
+            "source": "UA.NEWS, 14 November 2026: Larissa 1 was bound for the Romanian port of Sulina and then for Ukraine, and defence minister Stefan-Radu Oprea said he could not say where the drone came from until the technical investigation reported"
+          },
+          {
+            "url": "https://www.vesselfinder.com/vessels/details/9154268",
+            "source": "VesselFinder vessel record: LARISSA 1, IMO 9154268, general cargo ship built 1999, 17,064 deadweight tonnes, Palau flag"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-14T21:18:45Z",
+          "text": "This row held a headline only and placed the event on 14 November, the date the reports appeared. Checked against Romanian reporting of 14 November: the strike happened on the evening of 13 November, the ship is LARISSA 1 (IMO 9154268), a Palau flagged general cargo vessel, the drone damaged her cargo crane, no crew member was injured and no fire followed. Added identity, IMO, corrected attack date, position, attack type, damage, crew outcome and a confirmed nil death count; the day was corrected from 14 to 13 November. No nationality is recorded and no death is recorded.",
+          "sources": [
+            {
+              "url": "https://www.ziuaconstanta.ro/stiri/actualitate/alerta-pe-marea-neagra-in-apropiere-de-sfantu-gheorghe-o-nava-a-fost-lovita-de-o-drona-960427.html",
+              "source": "ZIUA de Constanta, 14 November 2026"
+            },
+            {
+              "url": "https://radiosvoboda.org/a/news-dron-atakuvav-vantazhne-sudno-terytorialni-vody-rumunii/33898642.html",
+              "source": "Radio Svoboda (RFE/RL), 14 November 2026"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -44524,6 +44588,77 @@
             {
               "url": "https://www.rivieramm.com/news-content-hub/hormuz-two-ships-sink-off-oman-amidst-attacks-on-three-uae-linked-container-ships-and-a-tanker-90265",
               "source": "Riviera, 14 October 2026: four commercial vessels were reported hit in separate attacks in the Strait of Hormuz on 13 October; GFS-managed container ship Al Saadiyat was reportedly struck at about 1700 UTC while making an outbound transit"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6884351268,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6884351268",
+      "author": "iMariner",
+      "received_at": "2026-11-14T21:18:45Z",
+      "incident_id": "INC-20261114-002",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261114-002",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-14T21:18:45Z",
+          "vessel_name": "LARISSA 1",
+          "imo": "9154268",
+          "date_utc": "2026-11-13",
+          "vessel_type": "General cargo ship",
+          "region": "Black Sea",
+          "location_text": "6.8 nautical miles north east of Sfantu Gheorghe, in Romanian territorial waters",
+          "attack_type": "Drone strike; attacker not identified",
+          "date_note": "Romanian outlets reported the strike on the morning of 14 November as having happened the previous evening, 13 November, with the master's report to the naval authorities at Sulina timed 21:40 local time, that is EET, UTC+2. The corpus row was collected on 14 November, the publication date, so the verified attack date is 13 November. Day precision only; no finer UTC time is asserted.",
+          "summary": "LARISSA 1, a Palau flagged general cargo ship of 17,064 deadweight tonnes built in 1999, was struck by a drone at about 21:40 local time on 13 November 2026, 6.8 nautical miles north east of Sfantu Gheorghe inside Romanian territorial waters. The master reported to the Romanian naval authorities at Sulina that no crew member was injured, that no fire followed the strike, and that the drone destroyed only the cargo crane. The vessel was heading for the roads of Sulina on passage to Ukraine. Romania's defence minister, Stefan-Radu Oprea, confirmed that he knew of the incident and said he could not say where the drone had come from until the technical investigation reported. No source checked names the attacker, the number of crew or their nationalities.",
+          "sources": [
+            {
+              "url": "https://www.ziuaconstanta.ro/stiri/actualitate/alerta-pe-marea-neagra-in-apropiere-de-sfantu-gheorghe-o-nava-a-fost-lovita-de-o-drona-960427.html",
+              "source": "ZIUA de Constanta, 14 November 2026: the Palau flagged ship Larissa 1 was hit by a drone 6.8 nautical miles north east of Sfantu Gheorghe in Romanian territorial waters, the attack reported at 21.40, the master told the naval authorities at Sulina that no sailor was injured and that there was no fire, and the drone destroyed only the cargo crane"
+            },
+            {
+              "url": "https://radiosvoboda.org/a/news-dron-atakuvav-vantazhne-sudno-terytorialni-vody-rumunii/33898642.html",
+              "source": "Radio Svoboda (RFE/RL), 14 November 2026, citing Romanian media: the drone attacked the cargo ship Larissa 1 in Romanian territorial waters on the evening of 13 November, 6.8 nautical miles north east of Sfantu Gheorghe, no crew member injured, no fire, the cargo crane damaged, and Romania's defence minister confirmed he knew of the incident"
+            },
+            {
+              "url": "https://ua.news/en/world/dron-atakuvav-vantazhne-sudno-larissa-1-u-teritorialnikh-vodakh-rumuniyi",
+              "source": "UA.NEWS, 14 November 2026: Larissa 1 was bound for the Romanian port of Sulina and then for Ukraine, and defence minister Stefan-Radu Oprea said he could not say where the drone came from until the technical investigation reported"
+            },
+            {
+              "url": "https://www.vesselfinder.com/vessels/details/9154268",
+              "source": "VesselFinder vessel record: LARISSA 1, IMO 9154268, general cargo ship built 1999, 17,064 deadweight tonnes, Palau flag"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.ziuaconstanta.ro/stiri/actualitate/alerta-pe-marea-neagra-in-apropiere-de-sfantu-gheorghe-o-nava-a-fost-lovita-de-o-drona-960427.html",
+              "source": "ZIUA de Constanta, 14 November 2026: the master reported to the naval authorities at Sulina that no sailor was injured"
+            },
+            {
+              "url": "https://radiosvoboda.org/a/news-dron-atakuvav-vantazhne-sudno-terytorialni-vody-rumunii/33898642.html",
+              "source": "Radio Svoboda (RFE/RL), 14 November 2026: no member of the crew was injured, according to the master"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-14T21:18:45Z",
+          "text": "This row held a headline only and placed the event on 14 November, the date the reports appeared. Checked against Romanian reporting of 14 November: the strike happened on the evening of 13 November, the ship is LARISSA 1 (IMO 9154268), a Palau flagged general cargo vessel, the drone damaged her cargo crane, no crew member was injured and no fire followed. Added identity, IMO, corrected attack date, position, attack type, damage, crew outcome and a confirmed nil death count; the day was corrected from 14 to 13 November. No nationality is recorded and no death is recorded.",
+          "sources": [
+            {
+              "url": "https://www.ziuaconstanta.ro/stiri/actualitate/alerta-pe-marea-neagra-in-apropiere-de-sfantu-gheorghe-o-nava-a-fost-lovita-de-o-drona-960427.html",
+              "source": "ZIUA de Constanta, 14 November 2026"
+            },
+            {
+              "url": "https://radiosvoboda.org/a/news-dron-atakuvav-vantazhne-sudno-terytorialni-vody-rumunii/33898642.html",
+              "source": "Radio Svoboda (RFE/RL), 14 November 2026"
             }
           ]
         }
