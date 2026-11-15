@@ -21824,6 +21824,37 @@
           ]
         }
       ]
+    },
+    "INC-20261114-005": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "updates": [
+        {
+          "at": "2026-11-15T03:30:29Z",
+          "text": "Checked on 15 November 2026. The tanker fire in this row is an event of Friday 13 November 2026, not 14 November. TradeWinds published 'Firefighting underway after tanker hit by unidentified object in Hormuz' at 18:47 GMT on 13 November 2026, reporting that a tanker was on fire that Friday night after being struck by an unidentified object, according to a maritime security firm. The security firm Vanguard, as relayed by the analyst Noam Raydan, put the strike at about 18:40 UTC on 13 November during an outbound transit of the strait, with a fire on board and firefighting under way. The Google News entry that produced this row was indexed on 14 November 2026, which is a feed date and not the attack date. This is not UKMTO warning 204-26, which covers the 18:00 UTC on 11 November strike in the engine room of the tanker Dominica Prosperity, already held as INC-20261111-011, where all crew were evacuated and no casualties were reported. No authority read here has named the outbound tanker of 13 November or published a crew outcome for her, so deaths stay unknown rather than zero, no count is asserted and she must not be joined to the IRGC navy claim of the same evening that two tankers struck mines, held as INC-20261113-001. The row also absorbed two headlines about other reports, that a Chinese owned oil tanker was hit near the strait and that the United States struck three Iranian oil tankers after missile attacks on navy warships, so this record is a bundle of separate reports and must not be read as one attack or as a count of attacks.",
+          "sources": [
+            {
+              "url": "https://www.tradewindsnews.com/casualties/firefighting-underway-after-tanker-hit-by-unidentified-object-in-hormuz/2-1-2074254",
+              "source": "TradeWinds, published 13 November 2026 at 18:47 GMT: a tanker was on fire on Friday night after it was struck by an unidentified object in the Strait of Hormuz, according to a maritime security firm, with Iranian media saying two oil tankers caught fire after hitting sea mines"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261112-ukmto_warning_204-26.pdf",
+              "source": "UKMTO warning 204-26: incident date 11 November 2026, 1800 UTC, a tanker struck by an unknown projectile in the engine room 14 nautical miles northwest of Ras al Khaimah, no casualties reported, all crew evacuated safely, firefighting ongoing"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_113_12-nov.pdf?rev=7fe7908661f24d2ebb037b750628f240",
+              "source": "JMIC Advisory Update 113, covering 1 March to 12 November 2026: UKMTO 204-26 is recorded as the 11 November strike on DOMINICA PROSPERITY, and UKMTO issued no warning for a strait strike after that advisory"
+            },
+            {
+              "url": "https://x.com/NoamRaydan/status/2121359458647281884",
+              "source": "Noam Raydan, analyst, post of 13 November 2026 relaying Vanguard: a crude oil tanker struck by an unidentified object at about 18:40 UTC on 13 November while on outbound transit through the Strait of Hormuz, fire on board, firefighting operations ongoing, not yet reported by UKMTO"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -45287,6 +45318,44 @@
             {
               "url": "https://komersant.ua/en/rosijski-propagandisti-zayavili-pro-udar-po-suhovantazhu-v-portu-chornomorska/",
               "source": "Komersant Ukrainian, 14 November 2026: the ministry gave no evidence for the claim, and there was no official information from the Ukrainian side about the consequences of the attack or the condition of the port infrastructure"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6888581600,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6888581600",
+      "author": "iMariner",
+      "received_at": "2026-11-15T03:30:30Z",
+      "incident_id": "INC-20261114-005",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261114-005",
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-15T03:30:29Z",
+          "text": "Checked on 15 November 2026. The tanker fire in this row is an event of Friday 13 November 2026, not 14 November. TradeWinds published 'Firefighting underway after tanker hit by unidentified object in Hormuz' at 18:47 GMT on 13 November 2026, reporting that a tanker was on fire that Friday night after being struck by an unidentified object, according to a maritime security firm. The security firm Vanguard, as relayed by the analyst Noam Raydan, put the strike at about 18:40 UTC on 13 November during an outbound transit of the strait, with a fire on board and firefighting under way. The Google News entry that produced this row was indexed on 14 November 2026, which is a feed date and not the attack date. This is not UKMTO warning 204-26, which covers the 18:00 UTC on 11 November strike in the engine room of the tanker Dominica Prosperity, already held as INC-20261111-011, where all crew were evacuated and no casualties were reported. No authority read here has named the outbound tanker of 13 November or published a crew outcome for her, so deaths stay unknown rather than zero, no count is asserted and she must not be joined to the IRGC navy claim of the same evening that two tankers struck mines, held as INC-20261113-001. The row also absorbed two headlines about other reports, that a Chinese owned oil tanker was hit near the strait and that the United States struck three Iranian oil tankers after missile attacks on navy warships, so this record is a bundle of separate reports and must not be read as one attack or as a count of attacks.",
+          "sources": [
+            {
+              "url": "https://www.tradewindsnews.com/casualties/firefighting-underway-after-tanker-hit-by-unidentified-object-in-hormuz/2-1-2074254",
+              "source": "TradeWinds, published 13 November 2026 at 18:47 GMT: a tanker was on fire on Friday night after it was struck by an unidentified object in the Strait of Hormuz, according to a maritime security firm, with Iranian media saying two oil tankers caught fire after hitting sea mines"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261112-ukmto_warning_204-26.pdf",
+              "source": "UKMTO warning 204-26: incident date 11 November 2026, 1800 UTC, a tanker struck by an unknown projectile in the engine room 14 nautical miles northwest of Ras al Khaimah, no casualties reported, all crew evacuated safely, firefighting ongoing"
+            },
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_113_12-nov.pdf?rev=7fe7908661f24d2ebb037b750628f240",
+              "source": "JMIC Advisory Update 113, covering 1 March to 12 November 2026: UKMTO 204-26 is recorded as the 11 November strike on DOMINICA PROSPERITY, and UKMTO issued no warning for a strait strike after that advisory"
+            },
+            {
+              "url": "https://x.com/NoamRaydan/status/2121359458647281884",
+              "source": "Noam Raydan, analyst, post of 13 November 2026 relaying Vanguard: a crude oil tanker struck by an unidentified object at about 18:40 UTC on 13 November while on outbound transit through the Strait of Hormuz, fire on board, firefighting operations ongoing, not yet reported by UKMTO"
             }
           ]
         }
