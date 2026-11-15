@@ -22047,6 +22047,34 @@
           ]
         }
       ]
+    },
+    "INC-20261102-012": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "verification": null,
+      "updates": [
+        {
+          "at": "2026-11-15T15:53:00Z",
+          "text": "This row is the same attack as the verified AL JUSUFI record INC-20261103-004 and must not be counted as a second attack or a second death. The Ministry of External Affairs of India said on 3 November 2026 that the Indian flagged mechanised sailing vessel AL JUSUFI was attacked near Limah in Oman on the evening of 2 November, that 13 of the 14 Indian nationals aboard were rescued and that one Indian national died of his injuries. Indian reporting named the dead seafarer as Gandhar Nahim Ajij of Gujarat and recorded that the Omani Coast Guard rescued the crew and that the vessel later sank off the coast of Oman. INC-20261103-004 already carries that attack with one death and an Indian nationality count, verified on 3 November 2026. This row adds no separate event, no separate vessel and no separate death, so it is withheld from the published tracker and the single death stays on INC-20261103-004.",
+          "sources": [
+            {
+              "url": "https://www.mea.gov.in/Speeches-Statements.htm?dtl/41284",
+              "source": "Ministry of External Affairs, India, statement of 3 November 2026 on the attack on MSV AL JUSUFI near Limah, Oman, 13 rescued and one dead"
+            },
+            {
+              "url": "https://indianexpress.com/article/india/west-asia-middle-east-indian-sailor-killed-indian-oman-waters-10948660/",
+              "source": "The Indian Express, 3 November 2026: MSV Al Jusufi, 14 Indian crew, Gandhar Nahim Ajij of Porbandar killed, Omani coast guard rescue, vessel sank off Oman"
+            },
+            {
+              "url": "https://www.hindustantimes.com/india-news/one-seafarer-dead-in-attack-on-indian-flagged-cargo-vessel-al-jusufi-off-oman-coast-govt-us-iran-war-strait-of-hormuz-news-101793680530699.html",
+              "source": "Hindustan Times, 3 November 2026: shipping minister Sarbananda Sonowal confirms the death of Gandhar Nahim Ajij and 13 rescued"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -45763,6 +45791,41 @@
             {
               "url": "https://eurasiadaily.org/en/news/2026/04/16/the-ukrainian-armed-forces-hit-a-tanker-under-the-flag-of-liberia-in-the-territorial-waters-of-russia",
               "source": "EADaily, 16 April 2026, quoting Svetlana Petrenko of the Investigative Committee of Russia on the Liberian flagged tanker and its Turkish master"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6897124808,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6897124808",
+      "author": "iMariner",
+      "received_at": "2026-11-15T15:49:03Z",
+      "incident_id": "INC-20261102-012",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261102-012",
+        "verification": null,
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-15T15:53:00Z",
+          "text": "This row is the same attack as the verified AL JUSUFI record INC-20261103-004 and must not be counted as a second attack or a second death. The Ministry of External Affairs of India said on 3 November 2026 that the Indian flagged mechanised sailing vessel AL JUSUFI was attacked near Limah in Oman on the evening of 2 November, that 13 of the 14 Indian nationals aboard were rescued and that one Indian national died of his injuries. Indian reporting named the dead seafarer as Gandhar Nahim Ajij of Gujarat and recorded that the Omani Coast Guard rescued the crew and that the vessel later sank off the coast of Oman. INC-20261103-004 already carries that attack with one death and an Indian nationality count, verified on 3 November 2026. This row adds no separate event, no separate vessel and no separate death, so it is withheld from the published tracker and the single death stays on INC-20261103-004.",
+          "sources": [
+            {
+              "url": "https://www.mea.gov.in/Speeches-Statements.htm?dtl/41284",
+              "source": "Ministry of External Affairs, India, statement of 3 November 2026 on the attack on MSV AL JUSUFI near Limah, Oman, 13 rescued and one dead"
+            },
+            {
+              "url": "https://indianexpress.com/article/india/west-asia-middle-east-indian-sailor-killed-indian-oman-waters-10948660/",
+              "source": "The Indian Express, 3 November 2026: MSV Al Jusufi, 14 Indian crew, Gandhar Nahim Ajij of Porbandar killed, Omani coast guard rescue, vessel sank off Oman"
+            },
+            {
+              "url": "https://www.hindustantimes.com/india-news/one-seafarer-dead-in-attack-on-indian-flagged-cargo-vessel-al-jusufi-off-oman-coast-govt-us-iran-war-strait-of-hormuz-news-101793680530699.html",
+              "source": "Hindustan Times, 3 November 2026: shipping minister Sarbananda Sonowal confirms the death of Gandhar Nahim Ajij and 13 rescued"
             }
           ]
         }
