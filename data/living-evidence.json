@@ -21789,6 +21789,41 @@
           ]
         }
       ]
+    },
+    "INC-20261114-003": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "updates": [
+        {
+          "at": "2026-11-15T03:29:32Z",
+          "text": "Checked on 15 November 2026 against the ministry's own posts and against independent reporting, with no verification asserted because no vessel can be identified. The three posts in this row are three separate statements and none names a vessel or reports a casualty. The first, at 05:02 UTC on 14 November 2026, said drones struck energy, port and railway infrastructure and a sea vessel of the dry cargo type on passage delivering military cargo to the port of Odesa, alongside a power substation at Priluki in Chernihiv region and two locomotives near the Matveevka station. The second, at 15:58 UTC the same day, said drones struck port infrastructure and a dry cargo type vessel delivering military property in the port of Chornomorsk. The third, at 18:35 UTC, is a daily summary that repeats the claim without detail. Reuters carried the Chornomorsk claim and said it could not independently verify the ministry's assertions, and Komersant Ukrainian reported on 14 November that the ministry gave no evidence for the claim and that there was no official information from the Ukrainian side on the consequences of the attack or on the state of the port infrastructure. The ministry names no vessel, gives no flag and no position beyond the two ports, and reports no death or injury aboard, so deaths stay unknown rather than zero and no count is asserted. This row also merges the night statement against a vessel bound for Odesa with the daytime statement at Chornomorsk, and the separate row INC-20261114-004 is merged into it, so it is a record of claims and not a count of attacks. Russia's defence ministry has issued such statements on most days since late October and the number of rows they generate must never be read as the number of ships struck. The row remains unreviewed and outside published totals.",
+          "sources": [
+            {
+              "url": "https://t.me/mod_russia/69004",
+              "source": "Russian Ministry of Defence, 14 November 2026 at 05:02 UTC: drones struck a dry cargo type vessel on passage delivering military cargo to the port of Odesa, a power substation at Priluki and two locomotives near Matveevka; no vessel named, no casualty reported"
+            },
+            {
+              "url": "https://t.me/mod_russia/69016",
+              "source": "Russian Ministry of Defence, 14 November 2026 at 15:58 UTC: drones struck a dry cargo type vessel delivering military property and port infrastructure in the port of Chornomorsk; no vessel named, no casualty reported"
+            },
+            {
+              "url": "https://t.me/mod_russia/69021",
+              "source": "Russian Ministry of Defence, 14 November 2026 at 18:35 UTC: daily summary repeating the claim of strikes on energy and port infrastructure and on sea vessels used in the interests of Ukraine's armed forces, with no further detail"
+            },
+            {
+              "url": "https://www.devdiscourse.com/article/international/4007005-russia-says-it-hit-cargo-vessel-infrastructurein-ukraines-chornomorsk-port---ria",
+              "source": "Reuters, 14 November 2026: Russia said it struck a cargo vessel and port infrastructure in Chornomorsk, and Reuters could not independently verify the ministry's assertions"
+            },
+            {
+              "url": "https://komersant.ua/en/rosijski-propagandisti-zayavili-pro-udar-po-suhovantazhu-v-portu-chornomorska/",
+              "source": "Komersant Ukrainian, 14 November 2026: the ministry gave no evidence for the claim, and there was no official information from the Ukrainian side about the consequences of the attack or the condition of the port infrastructure"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -45210,6 +45245,48 @@
             {
               "url": "https://www.bta.bg/en/news/bulgaria/1218986-drone-attack-on-two-merchant-ships-in-bulgarias-exclusive-economic-zone-prompts",
               "source": "Bulgarian News Agency (BTA), 6 October 2026: the Togo flagged Alfa Watan sank east of the Bulgarian coast about 70 nautical miles east of Byala and her crew remain unaccounted for; the Palau flagged Able caught fire and all 18 crew were rescued"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6888572038,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6888572038",
+      "author": "iMariner",
+      "received_at": "2026-11-15T03:29:33Z",
+      "incident_id": "INC-20261114-003",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261114-003",
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-15T03:29:32Z",
+          "text": "Checked on 15 November 2026 against the ministry's own posts and against independent reporting, with no verification asserted because no vessel can be identified. The three posts in this row are three separate statements and none names a vessel or reports a casualty. The first, at 05:02 UTC on 14 November 2026, said drones struck energy, port and railway infrastructure and a sea vessel of the dry cargo type on passage delivering military cargo to the port of Odesa, alongside a power substation at Priluki in Chernihiv region and two locomotives near the Matveevka station. The second, at 15:58 UTC the same day, said drones struck port infrastructure and a dry cargo type vessel delivering military property in the port of Chornomorsk. The third, at 18:35 UTC, is a daily summary that repeats the claim without detail. Reuters carried the Chornomorsk claim and said it could not independently verify the ministry's assertions, and Komersant Ukrainian reported on 14 November that the ministry gave no evidence for the claim and that there was no official information from the Ukrainian side on the consequences of the attack or on the state of the port infrastructure. The ministry names no vessel, gives no flag and no position beyond the two ports, and reports no death or injury aboard, so deaths stay unknown rather than zero and no count is asserted. This row also merges the night statement against a vessel bound for Odesa with the daytime statement at Chornomorsk, and the separate row INC-20261114-004 is merged into it, so it is a record of claims and not a count of attacks. Russia's defence ministry has issued such statements on most days since late October and the number of rows they generate must never be read as the number of ships struck. The row remains unreviewed and outside published totals.",
+          "sources": [
+            {
+              "url": "https://t.me/mod_russia/69004",
+              "source": "Russian Ministry of Defence, 14 November 2026 at 05:02 UTC: drones struck a dry cargo type vessel on passage delivering military cargo to the port of Odesa, a power substation at Priluki and two locomotives near Matveevka; no vessel named, no casualty reported"
+            },
+            {
+              "url": "https://t.me/mod_russia/69016",
+              "source": "Russian Ministry of Defence, 14 November 2026 at 15:58 UTC: drones struck a dry cargo type vessel delivering military property and port infrastructure in the port of Chornomorsk; no vessel named, no casualty reported"
+            },
+            {
+              "url": "https://t.me/mod_russia/69021",
+              "source": "Russian Ministry of Defence, 14 November 2026 at 18:35 UTC: daily summary repeating the claim of strikes on energy and port infrastructure and on sea vessels used in the interests of Ukraine's armed forces, with no further detail"
+            },
+            {
+              "url": "https://www.devdiscourse.com/article/international/4007005-russia-says-it-hit-cargo-vessel-infrastructurein-ukraines-chornomorsk-port---ria",
+              "source": "Reuters, 14 November 2026: Russia said it struck a cargo vessel and port infrastructure in Chornomorsk, and Reuters could not independently verify the ministry's assertions"
+            },
+            {
+              "url": "https://komersant.ua/en/rosijski-propagandisti-zayavili-pro-udar-po-suhovantazhu-v-portu-chornomorska/",
+              "source": "Komersant Ukrainian, 14 November 2026: the ministry gave no evidence for the claim, and there was no official information from the Ukrainian side about the consequences of the attack or the condition of the port infrastructure"
             }
           ]
         }
