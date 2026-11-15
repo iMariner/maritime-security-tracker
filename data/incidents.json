@@ -1,5 +1,95 @@
 [
   {
+    "region": "Black Sea",
+    "date_utc": "2026-11-15",
+    "summary": "Russia's defence ministry said its drones struck a dry cargo vessel at sea that was carrying military and dual-use cargo to Odesa port overnight on 15 November. No vessel name, damage details or casualties were given, and the claim was not independently confirmed.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 46.49,
+    "lon": 30.74,
+    "location_text": "at sea en route to Odesa port, Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": "Russia's defence ministry claimed the dry cargo vessel was struck",
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry claimed it",
+    "independent_evidence": false,
+    "id": "INC-20261115-001",
+    "sources": [
+      {
+        "url": "https://t.me/mod_russia/69025",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-15T05:42:06+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/rian_ru/349773",
+        "source": "RIA Novosti",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-11-15T05:38:22+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-11-15T09:50:22Z",
+    "last_updated": "2026-11-15T09:50:22Z",
+    "verification_issue": 398,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-11-15",
+    "summary": "Two commercial vessels were hit by drones near Sulina, with fires on board that were extinguished and no casualties reported. No vessel names, flags or further details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "near Sulina, Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": "fires on board, extinguished",
+    "casualties": "no casualties reported",
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261115-002",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaFpsNlEtQll6eXhlOW10WnJMeVZKSE1yVHFLT3FFdm5NNGYyR2ctVldBWThpSTByOUhhZ2ZWZEJUMnV5WEFZc0RVSXNEMDFsRTVPemVLUWdzMEZ3a2tYeVgwczRLSmJGTnVDWDh3WDhaNTJraXBtZWpvQnZVRGpXS0VVUzJvZEFqZWR6bmtSUHdjZkVqYkxXSFk0ZmNfTkRITXFEdjRQOVoxUmRMWS1IZw?oc=5",
+        "source": "Informat.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T05:14:29Z",
+        "title": "Two commercial vessels were hit by drones near Sulina / The fires on board were extinguished and no casualties were reported - Informat.ro"
+      }
+    ],
+    "first_seen": "2026-11-15T09:50:22Z",
+    "last_updated": "2026-11-15T09:50:28Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261114-002",
+    "position_approx": true
+  },
+  {
     "region": "Strait of Hormuz",
     "date_utc": "2026-11-14",
     "summary": "Iran's IRGC said two oil tankers caught fire after hitting sea mines in the Strait of Hormuz. No vessel names, positions, damage details beyond the fires, or casualties were given.",
@@ -61,7 +151,7 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-11-14",
-    "summary": "A drone struck the Palau-flagged cargo vessel Larissa 1 in Romanian territorial waters about 12 km off Sfantu Gheorghe overnight on 14 November while it was heading to Sulina, damaging the cargo crane with no fire or injuries, according to Digi24 and Romanian authorities. A Kyiv Independent headline reported three commercial ships struck by drones near Romania's Black Sea coast over two days, a roundup that includes this attack.",
+    "summary": "A drone struck the Palau-flagged general cargo vessel Larissa 1 in Romanian territorial waters about 12 km off Sfantu Gheorghe overnight on 14 November while it was heading to Sulina, damaging the cargo crane with no fire or injuries, according to Digi24 and Romanian authorities. A separate report of two commercial vessels hit by drones near Sulina with fires extinguished and no casualties appears to describe the same waters and timeframe, though it gives no vessel names.",
     "official_source_cited": "Romanian Defence Minister",
     "conflicting": false,
     "confidence": 0.85,
@@ -466,10 +556,73 @@
         "kind": "verification",
         "published_at": "2026-11-15T04:32:18Z",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1yLUh4cEQ5TGhIYk11Y3ZOVkp5NVVXUWlndjlaWk5oU2xWWFBXYWNmcXpYS25EWDllbjJQWDU5T0NRTjBaWWszeHo2NA?oc=5",
+        "source": "Kyiv Post",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T07:56:11Z",
+        "title": "Drone Strikes Cargo Ship Bound for Ukraine in Romanian Waters - Kyiv Post"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMWJpMm8wZWpTN2t2X1RjcEVmUmFYeWVyUGk3Mi14cjBaTDBERXNQeGZLOU1PbTJfY0Y0a1M0OHJaWExhYjhSbUUteUc4ZE1iYlg0MWVqWGVMVzNsc2FlNWZianJFUzMwV05PdUVUcVNQS3RwZmxXYTFCZXItYzB5aG90MzdyeHhCQ3NkMkZVWjZKWWhvVDI0?oc=5",
+        "source": "Deniz Haber",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T07:30:00Z",
+        "title": "Romanya karasularında yük gemisine İHA saldırısı - Deniz Haber"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUkRWVzlHSU56VDVPUzdnS0wwUnd1WG5DX3dxOC02QzVlbkx0SUx2c1E1WUFCU0xPNkdVc2ZjRWRkYVY5RnVBS1lITE5iQXluTldNRFlRVDhqaklfYmF6UjNDYXhFOENkNDJqTUdrQXVZMGxaeTA4NE1mVU14cmxaeXRfV1ZZSVp2TlhB?oc=5",
+        "source": "EUalive",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T07:06:26Z",
+        "title": "Drone strikes commercial vessel in Romanian territorial waters - EUalive"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVm1yV3ZDNzFyYkVseWIwSzFKNmVLaGFZUzVlMnl3VU5KMWI4UDJQZVJjMjIxZUpCSmRKcTdkOFU1VGJfdkNZd1RLSVVpcjA3Q0NrSnJtenpFNGRHODFEQW1UdXZfNEM1V0FKSUM0cVMtWFAtRkVibWZMcmhhOFVYa3phVUtmSm40Vk5TS1JrNUNDeHNPWnFaWFV1WjZuSE9YTFhuNGRQTTlOVEZSX0VHakdXX210UHotYUQ0bkhnTQ?oc=5",
+        "source": "https://versal.media/",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T04:08:07Z",
+        "title": "Три комерційні судна зазнали удару дронів біля узбережжя Чорного моря Румунії за два дні - https://versal.media/"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOLWRIMmU4YjVrdC0yMXJOS0tnc3R5cTVSQmlQTjVGZFFFLWZzTUxyWTBkdlpTV0lEQXlTNGpqandkX05FYlh5RTVMMERKY19raUtFb0I5T2V4UzB2alZMX3I5MDFMVGlaNER3eEoxRGFFNUY4TEM2T20tWGtuODd2aGJtY3l1ck94M0NsS2hRQ0ZSMnhsQnR4NXhHWHBCclJXMExDV1hBeEFVVDRabTA0N1ROMlJOX0dRemNz?oc=5",
+        "source": "PS News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-14T11:52:27Z",
+        "title": "Continuă atacurile din Marea Neagră. O navă comercială a fost lovită de o dronă lângă Sfântu Gheorghe - PS News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaEQtUExYVGF1TTFwZDNWQ0dkazFkb05NN0tCMDNGaDN4QlBGTlBzSXRIR3RDVjFZbmV6UWtmYjhpWnQteUUyay0zSU1NODlHV0FGcDBOcHBvU3RhNHppUTQ0aFI0OEgydWQ2Zm1RLXA3aW5vbzh4UFY2S1hjek5qSjl6ajNXOURJMGxMMFdHeURyYkhCUWRCTmsyRWE4YmhkdWlPT3RybGZ0R2M1cm1scEs5ZDJab0VXQW9V?oc=5",
+        "source": "HotNews.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-14T10:35:12Z",
+        "title": "Navă lovită de o dronă în apele României, lângă Sfântu Gheorghe. Anunțul Ministerului Apărării - HotNews.ro"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaFpsNlEtQll6eXhlOW10WnJMeVZKSE1yVHFLT3FFdm5NNGYyR2ctVldBWThpSTByOUhhZ2ZWZEJUMnV5WEFZc0RVSXNEMDFsRTVPemVLUWdzMEZ3a2tYeVgwczRLSmJGTnVDWDh3WDhaNTJraXBtZWpvQnZVRGpXS0VVUzJvZEFqZWR6bmtSUHdjZkVqYkxXSFk0ZmNfTkRITXFEdjRQOVoxUmRMWS1IZw?oc=5",
+        "source": "Informat.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T05:14:29Z",
+        "title": "Two commercial vessels were hit by drones near Sulina / The fires on board were extinguished and no casualties were reported - Informat.ro"
       }
     ],
     "first_seen": "2026-11-14T10:52:28Z",
-    "last_updated": "2026-11-15T04:32:18Z",
+    "last_updated": "2026-11-15T09:50:28Z",
     "verification_issue": 391,
     "verdict": {
       "status": "confirmed",
@@ -1425,10 +1578,37 @@
         "kind": "media",
         "published_at": "2026-11-14T07:52:12Z",
         "title": "Iran Claims Attacks on U.S. Radar Station in Bahrain, LNG Tanker in Strait of Hormuz - Breitbart News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNR3dDbTZlcHo5dlpoNDJsVG81MEpfZ1ZnMlJCVmRNV1FUSkZsZEh5UjRZcjNuOUJGbV9aT0RzSUlRWVd0eXRwRjktWkh3Y25PVGE5TG5nY2dtQU1falVaaXZhMUphV1ZmdXZxa2R3NGFZZnJ6RXlSSFlJYTRNenBZZGFkSEMyTTJuRERnS1JfcVV2cWR3QlZzSVdDR0l6cW9qMGE4cGpBRXJEb2lBaWE4Wml0Q3VYUlFMdDdWOXpLSW9hU29kRHFzTWpCM3dGNWJOZngxOTRScGNhN3g1XzA00gHkAUFVX3lxTE9ycDdHWTJQcU1zMlJyeS14aWl5Y2tZX21NMmp4Mm9xWHFVa2hBcGtqaU0zT0RoSEdObFNIZjc4MWZhb2VZUTB5c1NVTDdvZ0VPZDNDU0N6YTQ3X2M1S3c5WTdLWEwzOWhxSWtMRTRMSG16RXlKMnlIb3dFbkNSNHo3MnlkcWIxVUxBSC01VEUycGp5QThGRU9pd0RyNU0yTTRhYlNyRkQ1VWNZZWg1Tk45WW1uV1B3M2k3MjVRU3dGS2N4eVhRbjRIZUFHSGVrT1ZDVWhTMUhtaDBMaUw4cHNtWXVVag?oc=5",
+        "source": "The Economic Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T06:43:13Z",
+        "title": "Iran claims attack on US radar in Bahrain as tanker fires raise Hormuz tensions - The Economic Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTU1yMWtOQ3E2QjhBS3hOY2wwN01heDZsSDFldElwbmFxWVV5dENVM1ExbEJEdklJRTBjWFVOWGZrLTF3bTZkdnhLN2s5UE1wZFE0X0NnV1V4eldDeWdZR2ZlS1ExYndMVHl2cV9fV2NfRVZyMWt3bG1aamNEdS1KN1BzNGZRTnNxZ3IzNkt3Ylp2dEtfLWVDZGRocWlwZmkzNE5KX0FVLU4wRGtwSVkw?oc=5",
+        "source": "Fakti.bg",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-14T04:59:00Z",
+        "title": "Iran: Tanker catches fire after striking a mine near the Strait of Hormuz ᐉ News from Fakti.bg - World - Fakti.bg"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMnFRd1ZPZjF5dmJpTVd4MW5jVlZSenRTU3Zad1NxYWJEMWRsNW1GYnRWeHlwdU5KRFkwTXNDZUJvUHhRRFp3SzRTU09Yd1BmTWZzVG9oYjMtNXhOdnlsWThudGFyZEVmSTFyODl4dGZ0VzVJOEhwOElOS1QwVjdOcFJXTlY5WjZrck1KZ2RkbVBoUQ?oc=5",
+        "source": "Sada Elbalad English",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-13T12:32:49Z",
+        "title": "IRGC: LNG Tanker Explodes After Hitting Sea Mine in Strait of Hormuz - Sada Elbalad English"
       }
     ],
     "first_seen": "2026-11-13T08:42:26Z",
-    "last_updated": "2026-11-15T02:05:39Z",
+    "last_updated": "2026-11-15T09:50:27Z",
     "verification_issue": 388,
     "verdict": {
       "status": "claimed",
