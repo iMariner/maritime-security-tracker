@@ -21766,6 +21766,29 @@
           ]
         }
       ]
+    },
+    "INC-20261114-011": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "updates": [
+        {
+          "at": "2026-11-15T03:29:25Z",
+          "text": "Checked on 15 November 2026. This row is not an attack of 14 November 2026. The article behind it is Riviera's report 'Crew missing from sunken ship as drone strikes on merchant ships in Black Sea intensify', published on 6 October 2026, which sets out Ambrey's account of the drone strikes off Bulgaria in the early hours of that day. The sunken ship whose crew are missing is the Togo flagged general cargo vessel Alfa Watan, which sank about 70 nautical miles east of Byala inside Bulgaria's exclusive economic zone; the Bulgarian News Agency recorded on 6 October 2026 that her crew remained unaccounted for. She is already held and verified as INC-20261006-001, with ten seafarers aboard and one death confirmed as a minimum, and the second ship in the same Riviera report is the Palau flagged Able, held as INC-20261006-011, whose 18 crew were rescued. The Google News feed entry that produced this row was indexed on 14 November 2026, which is a feed date and not an attack date. No authority read here reports a merchant ship sunk or attacked in the Black Sea on 14 November 2026, so no casualty belongs to this row and deaths stay unknown rather than zero. The row stays unreviewed and outside published totals, and it must not be counted as a November attack or as a further sinking.",
+          "sources": [
+            {
+              "url": "https://www.rivieramm.com/news-content-hub/crew-missing-from-sunken-ship-as-drone-strikes-on-merchant-ships-in-black-sea-intensify-90196",
+              "source": "Riviera Maritime Media, published 6 October 2026: roundup of the 6 October drone strikes off Bulgaria, the Togo flagged general cargo ship whose entire crew are missing 70 nautical miles southeast of Varna, and the Palau flagged ship whose 18 crew abandoned ship and were rescued with two injured"
+            },
+            {
+              "url": "https://www.bta.bg/en/news/bulgaria/1218986-drone-attack-on-two-merchant-ships-in-bulgarias-exclusive-economic-zone-prompts",
+              "source": "Bulgarian News Agency (BTA), 6 October 2026: the Togo flagged Alfa Watan sank east of the Bulgarian coast about 70 nautical miles east of Byala and her crew remain unaccounted for; the Palau flagged Able caught fire and all 18 crew were rescued"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -45157,6 +45180,36 @@
             {
               "url": "https://www.bta.bg/en/news/world/1224856-bulgaria-abandons-search-for-crew-of-hs-dignity",
               "source": "Bulgarian News Agency (BTA), 14 October 2026, quoting the Ministry of Transport and Communications: six crew rescued and 10 unaccounted for when the search was abandoned"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6888570743,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6888570743",
+      "author": "iMariner",
+      "received_at": "2026-11-15T03:29:25Z",
+      "incident_id": "INC-20261114-011",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261114-011",
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-15T03:29:25Z",
+          "text": "Checked on 15 November 2026. This row is not an attack of 14 November 2026. The article behind it is Riviera's report 'Crew missing from sunken ship as drone strikes on merchant ships in Black Sea intensify', published on 6 October 2026, which sets out Ambrey's account of the drone strikes off Bulgaria in the early hours of that day. The sunken ship whose crew are missing is the Togo flagged general cargo vessel Alfa Watan, which sank about 70 nautical miles east of Byala inside Bulgaria's exclusive economic zone; the Bulgarian News Agency recorded on 6 October 2026 that her crew remained unaccounted for. She is already held and verified as INC-20261006-001, with ten seafarers aboard and one death confirmed as a minimum, and the second ship in the same Riviera report is the Palau flagged Able, held as INC-20261006-011, whose 18 crew were rescued. The Google News feed entry that produced this row was indexed on 14 November 2026, which is a feed date and not an attack date. No authority read here reports a merchant ship sunk or attacked in the Black Sea on 14 November 2026, so no casualty belongs to this row and deaths stay unknown rather than zero. The row stays unreviewed and outside published totals, and it must not be counted as a November attack or as a further sinking.",
+          "sources": [
+            {
+              "url": "https://www.rivieramm.com/news-content-hub/crew-missing-from-sunken-ship-as-drone-strikes-on-merchant-ships-in-black-sea-intensify-90196",
+              "source": "Riviera Maritime Media, published 6 October 2026: roundup of the 6 October drone strikes off Bulgaria, the Togo flagged general cargo ship whose entire crew are missing 70 nautical miles southeast of Varna, and the Palau flagged ship whose 18 crew abandoned ship and were rescued with two injured"
+            },
+            {
+              "url": "https://www.bta.bg/en/news/bulgaria/1218986-drone-attack-on-two-merchant-ships-in-bulgarias-exclusive-economic-zone-prompts",
+              "source": "Bulgarian News Agency (BTA), 6 October 2026: the Togo flagged Alfa Watan sank east of the Bulgarian coast about 70 nautical miles east of Byala and her crew remain unaccounted for; the Palau flagged Able caught fire and all 18 crew were rescued"
             }
           ]
         }
