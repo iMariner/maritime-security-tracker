@@ -22019,6 +22019,34 @@
           ]
         }
       ]
+    },
+    "INC-20261105-012": {
+      "casualties": {
+        "status": "unknown",
+        "deaths": null,
+        "nationalities": []
+      },
+      "verification": null,
+      "updates": [
+        {
+          "at": "2026-11-15T15:52:00Z",
+          "text": "This row reproduces a Reuters report of 16 April 2026 on a Ukrainian drone attack on the Russian port of Tuapse and does not record a merchant ship casualty on 5 November 2026. Reuters reported on 16 April 2026 that the attack killed two people, a 14 year old girl and an adult woman, injured seven and hit a Liberian flagged oil tanker, and that the Investigative Committee of Russia said the master of the tanker, a Turkish national, was injured and taken to hospital. The DD News copy of that dispatch, which is the item held in this row, carries the publication time 16/04/26 6:00 pm. The two dead were civilians ashore in Tuapse and are not seafarer deaths, so deaths on this row stay unknown rather than two, and no nationality is attached to the crew. Nothing checked connects this headline to any ship casualty on 5 November 2026, and the row is withheld from the published tracker until a November event is separately identified. The same April 2026 headline also sits in corpus row INC-20261002-018, which repeats this row and needs the same treatment.",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/europe/two-children-dead-russias-tuapse-port-area-hit-ukrainian-drone-attacks-governor-2026-04-16/",
+              "source": "Reuters, 16 April 2026: Tuapse drone attack killed two civilians and injured seven, and the Investigative Committee of Russia said a Liberian flagged oil tanker was hit and its master, a Turkish national, hospitalised"
+            },
+            {
+              "url": "https://ddnews.gov.in/en/ukrainian-drone-attack-on-russias-tuapse-port-kills-two-including-teenage-girl-hits-oil-tanker/",
+              "source": "DD News carrying the Reuters dispatch, publication time 16/04/26 6:00 pm, the item held in this corpus row"
+            },
+            {
+              "url": "https://eurasiadaily.org/en/news/2026/04/16/the-ukrainian-armed-forces-hit-a-tanker-under-the-flag-of-liberia-in-the-territorial-waters-of-russia",
+              "source": "EADaily, 16 April 2026, quoting Svetlana Petrenko of the Investigative Committee of Russia on the Liberian flagged tanker and its Turkish master"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -45700,6 +45728,41 @@
             {
               "url": "https://kyivindependent.com/three-commercial-ships-struck-by-drones-near-romanias-black-sea-coast-over-two-days/",
               "source": "Kyiv Independent, 15 November 2026, citing Romania's Defence Ministry through News.ro: two more commercial vessels were struck by drones near Romania's Black Sea coast on the evening of 14 November, the Greek flagged tanker Evia Petrol V at about 21:10 about 4 nautical miles east south east of Sulina and the bulk carrier Marsol near the Sulina Canal about 35 minutes later, both fires put out by the crews, no casualties reported"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6897123968,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6897123968",
+      "author": "iMariner",
+      "received_at": "2026-11-15T15:48:59Z",
+      "incident_id": "INC-20261105-012",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261105-012",
+        "verification": null,
+        "casualties": {
+          "status": "unknown",
+          "deaths": null,
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-15T15:52:00Z",
+          "text": "This row reproduces a Reuters report of 16 April 2026 on a Ukrainian drone attack on the Russian port of Tuapse and does not record a merchant ship casualty on 5 November 2026. Reuters reported on 16 April 2026 that the attack killed two people, a 14 year old girl and an adult woman, injured seven and hit a Liberian flagged oil tanker, and that the Investigative Committee of Russia said the master of the tanker, a Turkish national, was injured and taken to hospital. The DD News copy of that dispatch, which is the item held in this row, carries the publication time 16/04/26 6:00 pm. The two dead were civilians ashore in Tuapse and are not seafarer deaths, so deaths on this row stay unknown rather than two, and no nationality is attached to the crew. Nothing checked connects this headline to any ship casualty on 5 November 2026, and the row is withheld from the published tracker until a November event is separately identified. The same April 2026 headline also sits in corpus row INC-20261002-018, which repeats this row and needs the same treatment.",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/europe/two-children-dead-russias-tuapse-port-area-hit-ukrainian-drone-attacks-governor-2026-04-16/",
+              "source": "Reuters, 16 April 2026: Tuapse drone attack killed two civilians and injured seven, and the Investigative Committee of Russia said a Liberian flagged oil tanker was hit and its master, a Turkish national, hospitalised"
+            },
+            {
+              "url": "https://ddnews.gov.in/en/ukrainian-drone-attack-on-russias-tuapse-port-kills-two-including-teenage-girl-hits-oil-tanker/",
+              "source": "DD News carrying the Reuters dispatch, publication time 16/04/26 6:00 pm, the item held in this corpus row"
+            },
+            {
+              "url": "https://eurasiadaily.org/en/news/2026/04/16/the-ukrainian-armed-forces-hit-a-tanker-under-the-flag-of-liberia-in-the-territorial-waters-of-russia",
+              "source": "EADaily, 16 April 2026, quoting Svetlana Petrenko of the Investigative Committee of Russia on the Liberian flagged tanker and its Turkish master"
             }
           ]
         }
