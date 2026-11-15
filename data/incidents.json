@@ -5,7 +5,7 @@
     "summary": "Russia's defence ministry said its drones struck a dry cargo vessel at sea that was carrying military and dual-use cargo to Odesa port overnight on 15 November. No vessel name, damage details or casualties were given, and the claim was not independently confirmed.",
     "official_source_cited": null,
     "conflicting": false,
-    "confidence": 0.5,
+    "confidence": 0.6,
     "vessel_name": null,
     "imo": null,
     "flag": null,
@@ -38,10 +38,19 @@
         "kind": "media",
         "published_at": "2026-11-15T05:38:22+00:00",
         "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/69043",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-15T15:13:54+00:00",
+        "title": null
       }
     ],
     "first_seen": "2026-11-15T09:50:22Z",
-    "last_updated": "2026-11-15T09:50:22Z",
+    "last_updated": "2026-11-15T17:23:14Z",
     "verification_issue": 398,
     "verdict": null,
     "published_in": [],
@@ -87,6 +96,283 @@
     "published_in": [],
     "status": "merged",
     "merged_into": "INC-20261114-002",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-11-15",
+    "summary": "UKMTO reported that a tanker was attacked near the Strait of Hormuz and that the crew were safe. No vessel name, weapon details or damage were given.",
+    "official_source_cited": "UKMTO",
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "near the Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": "crew reported safe",
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261115-003",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdzNSREpOSGs3TzBVOTJCNTFCdnFVOEdqMVFad3dVMkstVFBhSzZhY1p0a1NrQjZUeU5ZNm14Mkp0eXhNNkxfMUhkUjBxOTN5WGxTbGkzX2J0S05oX1F4NDRVUi1teEk1VVo3d2llTnBEb1hOVlBPMnB1dlE2UmpfX25BQWk0QkMyOUtZcndhaw?oc=5",
+        "source": "TripuraTimes.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T17:00:17Z",
+        "title": "Tanker attacked near Hormuz, crew safe: UKMTO - TripuraTimes.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPWUdfY3IzZXpkeFVrOE5VNzRUcEpvdk9XS2hvTVdWQWotQTlmME5ZeXZHT1ROa2d5bnRNeENrMXAtaXdoMTlrTDVRelJHbE5xVTNXSW9MYkNVdVNMbVFCLUlrZnh1QzhlRW8zY3lqYzZEZVB1M3Bndnhvc0JDUlhNYTRiWXZ5bDlpbE82T1hfZUVnMmRJNUZXVjFtaHdVTEJiMVNNRHBMWmlkWkFibmNpN0tVT0VodUFNYmFad0Z0V2ttQkg0YXRaZmF3TmNHbEo0cVBCRFlBUS0?oc=5",
+        "source": "The Hawk",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T16:22:36Z",
+        "title": "Indian shipping authorities report attack on tanker in Arabian Gulf near Hormuz, crew safe: UKMTO - The Hawk"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1WLTdZdExGZ2k1bU9vRmpWTTBpc0JESjRfbnJWUnY5eTVINHZoZ0tMaVpCYmk2TUhDSUFZZ2FqVkt5RXZKdnJVTVprZXkzVGtXN3paQ1g3NWF5WjJOWmhoY1J4VDdkQ1VfNEpTN2dMd2xMTDFQakZRY215b3I?oc=5",
+        "source": "شفق نيوز",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T14:41:37Z",
+        "title": "Shafaq News..Tanker hit in Gulf, Iran reports mine strikes - شفق نيوز"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPd2RXWFdXS3BTaDBMSG5sdUpGRVRSWGxTcndQVnZhNTJ0QUZENkI5QXlxUHcxX0VFMlpMU1ZPbHZ1T0JnSmotWGE4NnJ4LU5XZlZqWldQcVM0dTBsVVN2cWxLYWNYU1ZvZF9TOXVKYmluWFB1STh5N3Y2aFZiNU15cFd3SFdRanc0MzZTLWJudzJUQS1aRTlKUDRpREs2Vm9oVHF2d3hBNHphc0l1bEFrNA?oc=5",
+        "source": "Arab Times Kuwait News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T14:22:09Z",
+        "title": "Indian shipping authorities report tanker attack east of Strait of Hormuz - Arab Times Kuwait News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQb1V3b1lSczNlMW5XM2NsaFQtemRVVG1vdXJQRWdwVmxoa0dYY3FyRGpsU3dwZ3lNSnk3ZHNpQXRydGZaZzJaXzB5TmJTaVozNjNkUXpmN1p4QWZEbGN6NTU4eFBQaEd4NWNGTk1iaDFiU2FYSUpzSHJFSkJMamV2MlFR?oc=5",
+        "source": "Latest news from Azerbaijan",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T13:42:34Z",
+        "title": "Tanker attacked in Arabian Gulf before Strait of Hormuz - Latest news from Azerbaijan"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWkRhd1dzYzRTblN2R0Nlbmc4Q05hdi13Ti1kS0FUTUFOTjFZOVl5NGl2NG45MFVVdm5kNE14dXd5T2VlTHVPMWRMOGw2TkJLWWY1Zko0VFk3b196Q01tcVZZR0V0MWVYTGgtSnpsdGxDbWNYckxQZ0FSTzF6SHBYd3lmWVBtU1R5OWh3?oc=5",
+        "source": "Report.az",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T13:37:31Z",
+        "title": "India-linked tanker attacked off coast of Oman - Report.az"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMlE2VVJuYzczVUNGSDNPV2JHVUNZU19MQnc2ZXhzZUpGS21Sc1F6SjdYWkZmb0VGZi14cnJwQVJpcUdiTjROMVZJelRkMFlPdnpNQ3dxdWc4bEZtcWxlaklEQUpzUml1U2tmRVFobE9Gc2xtSjRnZzlPNG1hRjZCclFUdnRrU2p0cGdVT3Y0UWNiM3o0bl9GbEgzaHRna1Z0dlM1c1BJd19IRjRsN18ySEdWRmZuRkk?oc=5",
+        "source": "UA.NEWS",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T13:27:41Z",
+        "title": "Tanker attacked in Arabian Gulf waters before Strait of Hormuz — Anadolu Agency - UA.NEWS"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQeEtmdHcyYVUtcTRndUVQM25Qa2pwQWtRanpUc2lKa0ZxZFpMLUMzdjd5VWozcHl6bERzaXB6N2JOX21KVkdrY0dibzJLMG13U1NHMk9hN3dJRkdYNnNSdFJtVGkxSDYxd0JsRk94WDRFV2tYS1lDei1jUDlNZWpKTjBFSWZNTjJCXzBqd3JheU5GUlVnZmFrT2JNNFdVMnlZamJLQm16ZGwyb0xYWlhib1ZrV25ISzJRZWVGc3RadTEwUlhDTUpVamNUZUxDZEdyUHU5aEVtQ1lxc0ZXYzg1cHB4bWJOUGlFczZMWXdwTXktS3RjQ3M1VUJCajlUNlIwZS1kM1dQM3dqczVqM1FocklzQnjSAZQCQVVfeXFMUHhLZnR3MmFVLXE0Z3VFUDNuUGtqcEFrUWp6VHNpSmtGcWRaTC1DM3Y3eVVqM3B5emxEc2lwejdiTl9tSlZHa2NHYm8ySzBtd1NTRzJPYTd3SUZHWDZzUnRSbVRpMUg2MXdCbEZPeFg0RVdrWEtZQ3otY1A5TWVqSk4wRUlmTU4yQl8wandyYXlORlJVZ2Zha09iTTRXVTJ5WWpiS0JtemRsMm9MWFpYYm9Wa1duSEsyUWVlRnN0WnUxMFJYQ01KVWpjVGVMQ2RHclB1OWhFbUNZcXNGV2M4NXBweG1iTlBpRXM2TFl3cE15LUt0Y0NzNVVCQmo5VDZSMGUtZDNXUDN3anM1ajNRaHJJc0J4?oc=5",
+        "source": "The Sunday Guardian",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T13:21:30Z",
+        "title": "US-Israel-Iran War Latest News: Energy Tanker Reportedly Attacked Near Strait of Hormuz, Raising Concerns Over Security of Global Oil Route - The Sunday Guardian"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOMUNSWV9BQUN3WjFEbERJOHFaN3JPd2c5eDJoVl9mQzF1Q0ptbUZFSWVLR2lvb2Mwdm5BcTlGQmI2QWdJYjNrMG03OGpwQ2MwWEx4endoRWJsVnRKbzRDOV9BNzZtajUyLVpDOW5fQTBCdFdVYXVldGtfLWd2bzlJZUh5T09hY0s0X2NIWlhLLXdjeDBCbGtZS05BTE5TQnYyUEFRR0FpVjhGLTcyUFYxT3YzV0RrUWFxSWRyNDROeXZOVlNpOXVYZzEtOTZmd0NPWFJ3T1RySEVqVDVDT0MtbEl2OHFCLTlvY0E3R01ndzlyMDk1SHBqc1BvT0duZXJZM2IydmNxX0h2VE52Uk1r0gGUAkFVX3lxTFB4S2Z0dzJhVS1xNGd1RVAzblBranBBa1FqelRzaUprRnFkWkwtQzN2N3lVajNweXpsRHNpcHo3Yk5fbUpWR2tjR2JvMkswbXdTU0cyT2E3d0lGR1g2c1J0Um1UaTFINjF3QmxGT3hYNEVXa1hLWUN6LWNQOU1lakpOMEVJZk1OMkJfMGp3cmF5TkZSVWdmYWtPYk00V1UyeVlqYktCbXpkbDJvTFhaWGJvVmtXbkhLMlFlZUZzdFp1MTBSWENNSlVqY1RlTENkR3JQdTloRW1DWXFzRldjODVwcHhtYk5QaUVzNkxZd3BNeS1LdGNDczVVQkJqOVQ2UjBlLWQzV1Azd2pzNWozUWhySXNCeA?oc=5",
+        "source": "The Sunday Guardian",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T13:20:48Z",
+        "title": "US-Israel-Iran War Latest News: Energy Tanker Reportedly Attacked Near Strait of Hormuz, Raising Concerns Over Security of Global Oil Route - The Sunday Guardian"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdFRlWEJDVkRaX0tPVzBZOEtHV0NNUThCclp1ODdubHFtVkwzOXB4NWpaSVRKYW9hX3RnamFUelhlTEFLZm9iNjFvSWVQdDhuN2xWRjNhTUxsb2liLVprMkhKZjd5RDdva0JzbXhKdkIzZzFaWEVMQlpiS2dDRXB2VzJMQllfNl96RDEzT2xxYUpKUERsdklUdk56TdIBmwFBVV95cUxNdFRlWEJDVkRaX0tPVzBZOEtHV0NNUThCclp1ODdubHFtVkwzOXB4NWpaSVRKYW9hX3RnamFUelhlTEFLZm9iNjFvSWVQdDhuN2xWRjNhTUxsb2liLVprMkhKZjd5RDdva0JzbXhKdkIzZzFaWEVMQlpiS2dDRXB2VzJMQllfNl96RDEzT2xxYUpKUERsdklUdk56TQ?oc=5",
+        "source": "The Siasat Daily",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T12:57:00Z",
+        "title": "Indian authorities report tanker attack before Hormuz entry - The Siasat Daily"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ZdkxXMXltRmQ3ekI4Sk5GYVJndEVIbExyNkpOLThLTXM4TTNGRWh3YVN4V08yaWUyaXVDaUNXV3ZvU2E2MlJzaHd2NXc5STRBZTI0NVdJTWlXcDdrZGJDZTZ0Q004MllG?oc=5",
+        "source": "WANA News Agency",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T12:51:15Z",
+        "title": "Tanker Attacked Near Strait of Hormuz - WANA News Agency"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTm9MWXFrR01rSjliRkM0Wnl3T2JyVlloNWtPc05uNUlRMlBVZmRLdi1PR2NqZW5aczBqdWZRRTA1N1J2ZWlNTzdKOTJrMWRoQ0w5Q1JSb0ppcnVkM0h5VWhwWWQwMHItdFVJWWNoOVRYclpOX1JLYjRWOXR0WXFiT2t2X0FocjVzaW8zOU1xVUdRRWZpOGxFOTlpd9IBoAFBVV95cUxPMDM0OXRsajhvRkFjeFpYSENjQ28ydnNhbWJCRzFvUVhQVmdsMUU3VlpIck01LWw2OWFNXzBTQTktMjc4TEotMC1RYXZva2YzTEg3dE8xRDVPdmxZRmtsWEdGTDZqc01CUVF6TUNDa0EtazdJcHk5eHBKSGFHYk9MTXBsSlpvcVlWZS12WFdkSkxSTnNQZm1IaDJKU2pnZzkz?oc=5",
+        "source": "Demócrata",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T12:44:27Z",
+        "title": "Attack against an oil tanker in the Strait of Hormuz - Demócrata"
+      }
+    ],
+    "first_seen": "2026-11-15T17:23:09Z",
+    "last_updated": "2026-11-15T17:23:38Z",
+    "verification_issue": 399,
+    "verdict": null,
+    "published_in": [],
+    "status": "confirmed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-11-15",
+    "summary": "The EU's chief diplomat said EU forces boarded a tanker suspected of belonging to Russia's shadow fleet, according to a Ukrainian outlet headline. No vessel name, position, damage or casualty details are given.",
+    "official_source_cited": "EU chief diplomat",
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "off NATO coast",
+    "attack_type": "boarding/seizure",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "EU forces",
+    "independent_evidence": false,
+    "id": "INC-20261115-004",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ETVBGc25TRTZfREhSWnZOMFJGbF9SbnpfeFQyWnJVVXB2NXdrNTFSb0l2ZlhIY2JQQjljQzBFMDl4UUZmUXQ2dDgtSTd2S2FHZy1GVWljZFlDUFJCT24zWFc1SUhXVUYzRFVRLXMyU3XSAXBBVV95cUxNRE1QRnNuU0U2X0RIUlp2TjBSRmxfUm56X3hUMlpyVVVwdjV3azUxUm9JdmZYSGNiUEI5Y0MwRTA5eFFGZlF0NnQ4LUk3dkthR2ctRlVpY2RZQ1BSQk9uM1hXNUlIV1VGM0RVUS1zMlN1?oc=5",
+        "source": "Українська правда",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T14:24:00Z",
+        "title": "EU forces boarded suspected Russian shadow fleet tanker, says chief diplomat – photos - Українська правда"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMHVNTS04bHdlUDRMMURrTHk3Vk9SVlRpRU01TFgxWHEyY24tclJUbFRXY0JvTERJaF9zZlJWQ0FlYkUyMTVVczhZanJKYURJUVFXOHJxVDV4aDY3a1d0aUo3QS0xcTNYWWcyUW1Pdm5xYThHZlJKRU8yeXhOdTFqcDNVOFBRMUtGTnJGTTh0R0FYeFV6emRwa3BjQUtjTEZNOFVWU3ZMdFNod3RpSGMzSklkTmwxRTRYMk43R1VublhIcHJwVVJuZ2FB?oc=5",
+        "source": "London Business News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T14:22:42Z",
+        "title": "Putin’s shadow fleet under fire: EU boards Russian tanker as drones set ships ablaze off NATO coast - London Business News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRS1mdk9QWnZXamUxTUFtT04zRzZDM0l1bEtkamE3QzJXZnhCcGpnVEg0R0tQRGd0VURLT2R0UmZiY3ExUVFsUW5QdUdvR0hwb2VORkdnenpHZ29RT0lrTk9yYk1CMnR6YzNPd2hHYkk4Q1ZWeVhISXJ3b2hTQ0ptdg?oc=5",
+        "source": "Yahoo News Singapore",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T10:42:07Z",
+        "title": "Suspected Russian shadow fleet oil tanker boarded by EU forces in the Mediterranean - Yahoo News Singapore"
+      }
+    ],
+    "first_seen": "2026-11-15T17:23:25Z",
+    "last_updated": "2026-11-15T17:23:44Z",
+    "verification_issue": 400,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Red Sea",
+    "date_utc": "2026-11-15",
+    "summary": "The Houthis announced they targeted an Israeli oil tanker in the Red Sea. No vessel name, weapon details, damage or casualties were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 17.5,
+    "lon": 40.5,
+    "location_text": "Red Sea",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "the Houthis claimed",
+    "independent_evidence": false,
+    "id": "INC-20261115-005",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuwRBVV95cUxPMl9aNnlEdU1oX0x5aE1rWXBfTHRKcmc1QlJ6TzlmdHp1U1A0UUNkRzhiVjlYYzZCQllVNm1kbFd4YWFhSDVkQ29OU0FmZDUwVUNUZkp6VnBkOG1GMklLUktkc2NXa1VPWklTLU5GeVZDYTMtZkJSQnVVNHBJVmMyUFNGRVBId2dkeEU3NldIQXZiTmJPZlltM2FKLUtOV1BHbzI1RXQ4Zk1paVJyU0thRkl3OXc5anZNSG1QODlzV29ZSUE1eDdtUEFTbTBQcVdtdUxVd1BRUFpDT29nR1MzVTlMVXFERmdmNGlZVE1DT3F4RVBJcHdib21ZOEdIRkVrNmZDWjJUaHZDZ2dfOGJZNzBQbHRaQWZHTzNmejI1ZnZYY2o2UGJ0YXlKVEtiWDdEUy1kLUxvdG5VZElUY1NRQTRMcWhEak1oTDZ2d1BONzlzNmZ0TEVWX192X0xoZHFxRTh0dkY2WDZLcDByNklRaFd5a1hlSERxbThhWmh6QUprTll2MjNkbm1uRTNJckxOODU5WEpYREkyZVZCYmJHT3NlUUxfcDZrVEE2eEZhMTU4S3pkSkFwX01BUmhaUGVMcmhkRlR5Tm16cDFsN25wSXdUUHRZbWwyWWw3ZFhtV0l3ekFrZ0pTeGxqWHNMaVJKdVoxTzZhWU5fLUJkUW8yN1lCYUZacWV5ZFcxYWszYmtmOElhLXF0a3laZlhySnczQUgyeEtER0xHS0VmUjZuM2lBMXhrd0JnRjc4?oc=5",
+        "source": "www.alghad.tv",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T12:53:00Z",
+        "title": "الحوثيون يعلنون استهداف ناقلة نفط إسرائيلية في البحر الأحمر - www.alghad.tv"
+      }
+    ],
+    "first_seen": "2026-11-15T17:23:38Z",
+    "last_updated": "2026-11-15T17:23:38Z",
+    "verification_issue": 401,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-11-15",
+    "summary": "A headline reports that a ship carrying 13 Azerbaijani citizens was attacked by a drone in the Black Sea, with video. No vessel name, position, damage or casualty details are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261115-006",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNLV9VdUFHMWwxdGpRd0gxc24zQU5kS3A2RVJDWGJ1TzlWSFBrbkhWa2Z2WWtOOW5seFFJeTdjU3AxTThqbEQxdVZvaUIwTmI1c2xPcl9oLVVNR3FPNUQ0R0hOWEJqcGNfREZQc28teGdCV3NZYTRmQVdEbFEyREdlbTN5TkN3dGxRZV9LaFBnWlBIY2hJVUVqbWsxTTBsLWtjNDBSTVZaXy1oNFFfMC1fZXVWZXo?oc=5",
+        "source": "Apa.az",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T11:14:00Z",
+        "title": "Ship carrying 13 Azerbaijani citizens attacked by drone in Black Sea- VIDEO - Apa.az"
+      }
+    ],
+    "first_seen": "2026-11-15T17:23:44Z",
+    "last_updated": "2026-11-15T17:23:44Z",
+    "verification_issue": 402,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
     "position_approx": true
   },
   {
@@ -166,7 +452,7 @@
     "attack_type": "drone (UAV)",
     "damage": "Cargo ship's crane destroyed, per sources cited",
     "casualties": "no crew injured",
-    "attribution_claimed": null,
+    "attribution_claimed": "Russia (per Romanian PM's condemnation)",
     "independent_evidence": true,
     "id": "INC-20261114-002",
     "sources": [
@@ -619,10 +905,271 @@
         "kind": "media",
         "published_at": "2026-11-15T05:14:29Z",
         "title": "Two commercial vessels were hit by drones near Sulina / The fires on board were extinguished and no casualties were reported - Informat.ro"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWHpyYTlNeGh2b3drZHhENVZVeGJ1eU5qcGEyNlF1UXdhTXRaYVI5VTVzX2FwcXhXcUo5QllwamQyeFlLcW1ZWm0td21od25WMGRWeS1paVFGNm1FRzZGZmxrbVl0eE9OU0xZOEFiU3RDRFk5TTdvSTFRbDlUQndsZ2xvWW1iY3JW?oc=5",
+        "source": "Haberler.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T16:54:25Z",
+        "title": "UAV attack on 3 commercial ships in the Black Sea! Romania scrambled its fighter jets - Haberler.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWUhSbnMwX2JVQjh1LU83QXJkSy1JZ3M3aUd5NlY0T0w5S3RKam05OFRpRXFBYjdpdjF2alRBUGdaWWNseUZPelM4THhJV3hlTDRkTkRGU29uN0szMWQ3Y0hRWllDSmkzNEs2QmNFdDY4RlpQR2lQOVBwb3FoV2lJVWMza183TnEyc0RkSTlpRVlBVUJ4UTc2ZHRkNFJXd9IBmAFBVV95cUxQNThfODRxRFNhYmx4dHI4SGtMcXB4YlpXNGwwWTctel83c0lQUUd1c3F1bFNxOFFZMDliT3prUEJpanhkOFFtNUFQb21RY05WRTNIazhrY0I4S3lMZjFyTTAwV2I0dnRSVmVHOUpiVmF1Q3hhbkhFREdaUWxuYmluN2VFT2dUNlMtNmk1RGg3S0EtcU1Wc19Rbg?oc=5",
+        "source": "Haberler",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T16:41:00Z",
+        "title": "Karadeniz'de 3 ticari gemiye İHA saldırısı! Romanya savaş uçaklarını havalandırdı - Haberler"
+      },
+      {
+        "url": "https://t.me/UkraineNow/85322",
+        "source": "Ukraine NOW",
+        "source_type": "telegram",
+        "side": "ua",
+        "kind": "media",
+        "published_at": "2026-11-15T16:26:27+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/operativnoZSU/226188",
+        "source": "Operatyvnyi ZSU",
+        "source_type": "telegram",
+        "side": "ua",
+        "kind": "media",
+        "published_at": "2026-11-15T16:22:30+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOaGhoQlZpS2xfUUp3aVBiaG5GNzFUTy1BTGNEbm9OT1hDYVptTy1ueUtwWEJfSGNTZUNvbkZ0b2l6cldiZU5zZ0hiZ05Kem1aZHA5a3ZxcjdiUjlpdF9qYndMQ0xncXNGbXd6OWJuN2U0NTl3MDBfcTNISk90clozWThnZjhLVlpldGgtXzN3YUQ4VnZCclY4WHNfR0FHNVM4ZUZnamYwM2VKbWxudUdV?oc=5",
+        "source": "Bölge Gündemi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T16:07:39Z",
+        "title": "Karadeniz’de 3 Gemi İHA Saldırısına Uğradı Tulça’da Alarm Verildi - Bölge Gündemi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa2N2VzM1SERXUS1Gb3djUHhPVGZIdko2dnZRVEVnN3d2Qk96cGVoSndVeWdaUlVSaUxHTFlSSnM4NXRiMVBoa1lSM3QzY09PSmhqeUZCQ0NRWDRxcHViZjZxQncwRUxOem5CMmdhZnZnYUZGTGxaSkIycnhCWDItalBYNA?oc=5",
+        "source": "Ege Alternatif",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T15:27:00Z",
+        "title": "Romanya'da 3 gemiye İHA saldırısı - Ege Alternatif"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVFZtTFI1ZXV5Ny1iaF91cnQwMUZsOEYtTU1XYURXMU95UUxBbWRtOWxuazZfYmM1X1pBUTFmZGRlR29kRUF2a2p0aW9aTTl5aktuaDlJakFSSklNNkJVZlFmY1pDaUMzNVlrdVJkZVh2NDRyTDNpTVV0RzY4SUthU3c2WnhSNUQ1OS11VFZqeklZdDQwT0c2ZTg4QkFwaVV4QWJLeDB0M2nSAacBQVVfeXFMTmFHM053cFk0Tm90QW9vXzAwckdaVV93NW45c0FUdnptZEZmS3lQZkxaS3ZfYnVJcklxb2JzMlp3bkUzS28zSFNZZWZXTXRnR2hRWm8ydnlkc1l0U1d5andzZ1ZfbVFpNmhEcWU3X3V0S0RuNnB1MFpPRjZJdkU4V3AtWHMybjlkclBidVlGT1NuS1RrOHJWTHJ5eE95blZlTW9xeGRNZlU?oc=5",
+        "source": "Українські Національні Новини (УНН)",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T15:15:58Z",
+        "title": "Unknown drones damaged three ships in the Black Sea near a Romanian shipping channel - Українські Національні Новини (УНН)"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMjQ0NUthMzdGV21nZXhsbm9WMUZpbTRfWW4zb0MwTXU0RWotT0hiVUpsT1JBZVh2bFcwcWQtVVdjdXB0VXh3ZHBrZzQ2cnhsdHFDeWNvT2c3WUJ1d1RYRUlDTmRfcGE1ZExtM2EtWW1zUmxmWHU3V3hILUEzUGx1cjdpaENRSzZFYzhWaWlhUQ?oc=5",
+        "source": "Birgün Gazetesi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T15:13:00Z",
+        "title": "Romanya açıklarında üç ticari gemiye İHA saldırısı - Birgün Gazetesi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMnlQd25RT2c3aV8xVFlDRE9ZUUR0OG9rZWxmdFo1OHg1dG9GNFhYYTk0VmVsdlhPYVA0WDNRcnZyWHVhTWNvS0xQbERnRld3Mjg5UlFMSjIwX1pYdU9qVGdpRzNBazZhTVl0TVRJb1BuQ19ac3AydXlreWFla0Z2SkVsNmxzQdIBiwFBVV95cUxNWEpuOHV4ZEh4Tml6RVRwUmFaWGx3REVVTVA2X1pNVGxZZGhQY21YNVFZNHRYS0w3R1NIeFdTYjkta2xBWFUxRDl2b0d1R0R3aHk4eVBERE1zZmRKd0EyamUwWEJWQU4zMGRreUZ3Qy1iZ0NKclQyRzZ3OEctMEVobE5FMGFhT3NLbmtZ?oc=5",
+        "source": "NTV Haber",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T15:11:47Z",
+        "title": "Karadeniz'de üç ticari gemiye İHA saldırısı - NTV Haber"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNm5RMVhYNFJsbEswQndSNWo3cmgxOUE5dWJ1dEVxX1FKRnNhSnAwekFld3RzcnlYWE5xOWtZOEF6RmRTYmY3WDVqTURNMTk2c2RuV0JQTW5QeVZYb0Zzanl4dExzMUZsRWN3Y2VaQTFOQ1drVFFiRkpvNkJqOWJ0QU5Dc0ZqMDlFSm5PcURVSTV1MGhYa3c?oc=5",
+        "source": "Gazete Kritik",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T15:07:44Z",
+        "title": "Romanya Açıklarında 3 Ticari Gemiye İHA Saldırısı! - Gazete Kritik"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0xS2tPSEduWEV5aVRDVjBSZzV4ZHBVYUJxOEQ0ZDZ6R0pBWEQ5cHo1NmtOWjI3RGRVdlJlZzJFNlhZN0ZWUm9BOS11bFhkRWxSWVZYNWNvU1BZTGFDVGdLQXcwemxNZUp1NVhVb1ZmdEFvYW5qNDg2SUJ3?oc=5",
+        "source": "Ege Saati",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T15:00:00Z",
+        "title": "Karadeniz'de üç ticari gemiye İHA saldırısı - Ege Saati"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQT3MxUW5JbmJWaWlxWWFSbl9YbWxfeVVWbGJkUlZReFF1WnhxalJvMDdORUl6SDkxdXEtZnRMR0JPWDV1VmxjRW43RWxwSWN3czZ1ZjFLdW1DVEk4R2Y2djBEeXFzY2ljN0szRW91WXVjZV9yaG1WTUJnMHZsVHpaM1JUTWg3WXgzOHc?oc=5",
+        "source": "Habererk.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T14:49:00Z",
+        "title": "Romanya açıklarında üç gemiye İHA saldırısı - Habererk.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9aeGtkaHkxc1hxNHZiYzFXTmpsejVaLUFic2ZoNlUxdXFpTWdIeWhyc1JLVTZpdzVieWZ4emZHYkFiR0ZEWFZwNDFuNzUxNmVrbEdBbHdZa0d0MFBLUkJCTVNOQWTSAXBBVV95cUxQeFdjQlN3YzhibkxaR1J0VHdVbHBCbi1tempvYVlFVHdiOXFOUTBGRmhxSUFMQmQ0cHZvaElrejFYdTI3RjJmNTRXZHZvV2pNM05jTjVGZVVBNDRjRWk3NGxibl8tTkdFNjVmSUM3c1lh?oc=5",
+        "source": "Українська правда",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T14:41:00Z",
+        "title": "Romanian PM condemns Russian attack on three commercial vessels in Black Sea - Українська правда"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSm5HQUVGbXhyQ0txX3ZBZVRMeTVLR3FFRTlZY3JyZWFPYjFsdDZuZlFtcklpZk1UNC1PNVVKWEZWVjNROHZXc1BfcnZtQjVwcXdYcDA2YjNRUkVMZlVmQ05HcDVZZjdLeGt3QS01QXVuZEwxSDJGNVZQYms0Z2RoR2t5Tl9iMWM0Q1NQVGVPNFN3bXlnRWFRdEtENGJhcEZBaEVUcXRiVTNJRXVBcmpr?oc=5",
+        "source": "TGRT Haber",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T14:29:39Z",
+        "title": "Karadeniz'de büyük gerilim: Romanya karasularında gemilere İHA saldırısı - TGRT Haber"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNjhpWUVOaDJpQkcwVVdXNjgxTzZ0OWIxbExHeGp0QzBQTUNoQWFWVWdFU0Jkbzk5S1ZkOWZXTWFmT2Z2aTZWRFJfTmhIQkt2dVZxQi1icDNxNElTWEhVUGZMNXRMQlRLeU45andSa05keGRzRUUxNWdnSDl2aVhLRHh2QkF3TlRCMWpKVzdncHd1MU4yX0hF0gGXAUFVX3lxTE02OGlZRU5oMmlCRzBVV1c2ODFPNnQ5YjFsTEd4anRDMFBNQ2hBYVZVZ0VTQmRvOTlLVmQ5ZldNYWZPZnZpNlZEUl9OaEhCS3Z1VnFCLWJwM3E0SVNYSFVQZkw1dExCVEt5Tjlqd1JrTmR4ZHNFRTE1Z2dIOXZpWEtEeHZCQXdOVEIxakpXN2dwd3UxTjJfSEU?oc=5",
+        "source": "Bursada Bugün",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T14:02:05Z",
+        "title": "Karadeniz'de ticari gemilere İHA saldırısı! - Bursada Bugün"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQb1pVenlzY1UtQ0pLWFFrVjB1SlBWWEpPY3kyRXVhd1BsZGVybUZIWUw0Y25EUFN1OGdITUkySzlEMTA2M3NSa0RndGxIelFUMXAza1pwaG1qSmZWVVRuVGtzS2Q2Z2o5TkpEc2lRY0hxdlpjSFJvdVEtaVZzZjhvNUdlcGUzSE5kMm9SeGRQVkdkNnR2UU1ZdElNTXZxZHEyN3Q3M3pzNTl4RHk2V0liY2FIazFiYm9LYmlqQtIBV0FVX3lxTE5JajFyVGR4akdQUm15cmRLZ25kdkdPa0Y0R0JPQTlmaEpyRGt6ckhZMTcyQ2cycWxpaml4ZWExNkFUNm5Db3BtQkpfOVVGYy1yX3VvZVB2UQ?oc=5",
+        "source": "Mersin Haber",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T13:59:00Z",
+        "title": "Karadeniz Sulina Kanalı'nda Üç Ticari Geminin İHA Saldırısına Uğradığı Açıklandı - Mersin Haber"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcHBybHQxcE1hbnI2ZndsLXlBM2o0SVBIaW56ZzVydW9fMmtoUUFvYlg1ME9pSWtwS3Bwa0tRTHBxaWN2VzN4d2RvRXNpUHJDemFNa1Zwc2hlWkh2UnJqYmFheFFuN1lEaklYeEx1M3ZIZnpfczZoZUlEbmhYaFRuOTVxVzhWT2VvOVpPZmNvSXZTVmJIQlN4bHZkdEwxbndGU2xmeHZhM1RPelNCcHc?oc=5",
+        "source": "Euronews.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T13:55:30Z",
+        "title": "Three commercial vessels struck by drones near Romania's black sea, PM says - Euronews.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYkJpUE5Fb3RMVm04V3kwRjdxdHFQRzlYNXp4eUs3N3VRYXJGRTExMHdtaDBKZ3VDZVl2ZVZ6ZjlxU19FN19mYjlaeE1xNGF6Q21rUnBfZU0tN0F2X2x5MmVTS25BeUVjRzR4aUNndDJUS21aV1RLU1ZDcDRwQVZUMlFXeVAzbHRZN0UtWjlB?oc=5",
+        "source": "УНІАН",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T13:50:00Z",
+        "title": "\"Історія війни до цього вела\": у ВМС прокоментували атаку по судну біля Румунії - УНІАН"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNT1BIUDVrMGdzS09wdGdYU3ZVRVdpNmRQRTFYYzJOVVJiVFE2WkljUm1DMVFwQ0dKNWZRWWtBdTAwZkN5SDExeWI1dURUZmdUT3BGZFRtSGlSYnVZUFFINDJtdllxZFgybjdRczNOTzN1U2MzTmNZYUJxNVZucWNlOTB0R0JMcVRKbkcyN1A3dWYtajVhNjZkTA?oc=5",
+        "source": "Constanța 100%",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T12:53:41Z",
+        "title": "A treia navă comercială lovită de o dronă în apropierea gurilor Dunării - Constanța 100%"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWEpyZzYwM3Y0YzMtU0h3LXZXb1RBQ00yS3lLZklVczJEOUVtcFU0MWYzRlNIMWxKN1RlMkZrSXZ3eFJkdjV4cTJuQVJBbVZob3JfYjdEbFotQ21iQzFQSHJYUE5VNUJDRDA0aV9OYy1qQTRVQ0EtOXJlSWQzWDV2VnpCRXdkQUpWSEhzUHVFWGstd2t4anhiMnZ4RHdVOHl4UjkxYjdWVmI0LTF3b2x1UTZJdGotUGU5bXkwVUF6N2IwY3g4S2lxbVNvM0kyZVBoTmR5YQ?oc=5",
+        "source": "Reuters",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T12:49:16Z",
+        "title": "Three ships struck by drones in Black Sea near Romanian shipping canal, PM says - Reuters"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUkhSVzdaTktpS2RUS0pfVngybktBbm5ldEFCQVAwaXBBMGlwbjlyUGUtUWZTTGxBRllVRWhWT3VaalZaRTRodFo4S29Vclg4ZnI2V2N2M0k3YzhQYmRUUjdHSWZMQmxmZ09QTTJkRGtRSFByQkw0aDF6YjFNdGZhYWdJNmppdVNwdmVQQV9RWnh3SmkzTnZDaUotZ3lmeEFnM0NwOVY1WWQ5MWFoV1NEOE9vWDI3LW1kRjE0bG5sNA?oc=5",
+        "source": "Anadolu Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T12:41:50Z",
+        "title": "Drone strikes reportedly hit 3 commercial ships near Romania's Black Sea coast - Anadolu Ajansı"
+      },
+      {
+        "url": "https://t.me/dva_majors/102055",
+        "source": "Dva Mayora",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "osint",
+        "published_at": "2026-11-15T12:25:10+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNWW9ZelQ5ZFFJQWNTSHdQV1gzUk1yQjk5WGxYWjVZVzJsNEFtNjlhMXIwRTliWUQzdTAtYUoxOUFJQU83SFkyUVZPaFd1eDQxMWRsSmtsOW1lNEFUbDRyVkdELXg5R3JJNm41dEFHTTNDUzlLaFR1WXlGMjRhdzdtVFZHamQwUnlwWkxtaHduWnpfb0xKOFVHWXBxS3BfYTdhZlZqdDVKNXBDcE1POVNCVkItakx5QWE2RzFmcEhnX3lScGFYeEdVdzB5WjRSR0d4Q0YtcWhBSUZzcEw2LUpvUXdLMk0yT2JRNi1DVWlsUGk5MjFnemZRM081UHlsazVHLW10YkZn?oc=5",
+        "source": "ZIUA de Constanta",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T11:50:00Z",
+        "title": "„Alo! Am fost loviți!” - Imagini de pe nava lovită de dronă lângă Sulina! Cum a luptat echipajul cu flăcările și vântul - ZIUA de Constanta"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbjhZS0lBbnRSNGhiYlZmbEFOUjN5V1lSNWlTTEgxcFVYQlljYlFuRkFNZHFDLWI0OVNrUVBhTjdxRi1QR3hFeDlaYlVKWE5oSnZYVkV5aURIeHk5VnFwd0FnNEtrVlFuUm02YzFVaUdFY2ZWTGNsYTZkNmc5bVZ0eU5ZdllaWlo0UlU5czhuSmtDSW1zZURMUW9Bdw?oc=5",
+        "source": "SSBCrack",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T11:25:12Z",
+        "title": "Drones Strike Three Commercial Vessels Near Romania’s Black Sea Coast - SSBCrack"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORVB6bGZuYk1GRGdBcmhIMVNsOF9sX29EYUVKaXp0TDBVQTl0MUJGQ2NrZmpjYnZoM2hkSE53QXZyUnppN2l2TnBpNUh5WEM4LU1rQk12WFZLQUc0b2pIMGgxNTMtS2F5REpieXdxbExZdHBZbnl0N1FaUXBZNHA2YlV0NFJGeUtqYmQ2bEhqT002cXlOU2xZdzl6OGI3VE1lQjVhTEVMSnQ?oc=5",
+        "source": "İlke Haber Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T11:20:48Z",
+        "title": "Romanya açıklarında 3 gemiye İHA saldırısı: Tulça bölgesinde kırmızı alarm - İlke Haber Ajansı"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUHJNOGxYVjY4S2xWYU5pNndHUWNrcjlKMnRJQ2J3RnppT0tEWUZoazRyNVdSTm8xNUFvVTV6eVBHYl9nV3c2WEV5enl6ZWo3MkZsQ3NKVlJ2NGlFdmZ3ZHJIUktidFQ2NzFSSTE2R1EzbmJHb1NlRWRVOGhGR1dxdzVIWkkwdmRkR3RXVA?oc=5",
+        "source": "Diriliş Postası",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T10:50:17Z",
+        "title": "Sulina'da 3 gemiye İHA saldırısı: Tulça'da kırmızı alarm - Diriliş Postası"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNc2lBVkJHa0hwTmpEWkYwdVBuNW51a0ptMnRneVVYdkROd1hfY3NkZUptUXc1UWJUWmhoMVA1RXFGLUNVTDlFOFRRY2lCVGVTRUp5Tmc0aS1sdW5IYm1lRUUtQV8ydDhkOTN6UEVRaWJJLXZhYTdZWjdnVUl4bjE5WVN0Q3duWVVLMUdjUkVhc3FPbHZFWlRKbmhMQi1icmZRcExpU2hONU90SEJ6dUVRd040OVdZN21O0gG7AUFVX3lxTE1FNDlTaFp3T09Kc1BTYXpFNnNEYzFPMU0ycEhhT2RqMExsZ0NzSm1YSFdzR0FXdFJUdkphczRQNUlRU0tuQTU5aHp6OFFydkVVQ091QkNScDBEQWlzd1pCWmFMOF94UDBJYnF5bGxBd25aUEJqdjF5SUxPTUVWb0RVTXRsZll2bW9fbzdpcTBwbHZHNXMzWm5TVG96c2g5ZnlsTEJNb3YwN2l4aTduNFdjQ0ZVdE5Qdk1LUTQ?oc=5",
+        "source": "AKŞAM",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T10:38:00Z",
+        "title": "Karadeniz'de peş peşe saldırı! 3 gemide yangın çıktı, kırmızı alarm verildi - AKŞAM"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUjJvUUNjOXJGOVJPdzdBU0xsdnpfWTJKWWJEaVM3TFhRSmZqaXZBdVBzY0Z3eHZBcVpQeWhJcWdVOWZGLWVpTlE2X2R0TUVzOWtKVnFnOG8zeXUwVWh6b2NncjB2ZzNjbi11VGdGMU5sTzZVRHI5UjBGSmxXSnk0TjlFeWlBaUM5TkE4REtLeFFYOGs?oc=5",
+        "source": "İşçi Haber",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T10:37:27Z",
+        "title": "Romanya karadeniz kıyısında 3 gemiye İHA saldırısı - İşçi Haber"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOV2FDMDR4VHFtNklzbjBTYjVtNlVMYnVXLXlYdC05Ny1WRkFDcjUtdzE4cjJDUHdTZHp0STc2bDFjNkh4QW8yUXZhdUp5S2NhWFJiSTdja0tPNG1wUHZJeG5xbUZDbVkzb1Q0SGg0Rml5TklzRGxTR3pxSGxocUtncFBPNUxGLUxGQzVmNVJxcDhIMGZQQXNnQzVhaWk0dnlpNW9sMjhR?oc=5",
+        "source": "Türkgün",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T10:33:42Z",
+        "title": "Romanya'nın Karadeniz kıyısında İHA saldırısı! 3 gemide yangın çıktı - Türkgün"
       }
     ],
     "first_seen": "2026-11-14T10:52:28Z",
-    "last_updated": "2026-11-15T09:50:28Z",
+    "last_updated": "2026-11-15T17:23:47Z",
     "verification_issue": 391,
     "verdict": {
       "status": "confirmed",
