@@ -22075,6 +22075,74 @@
           ]
         }
       ]
+    },
+    "INC-20261002-019": {
+      "casualties": {
+        "status": "confirmed",
+        "deaths": 0,
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261002-ukmto_warning_149_26.pdf",
+            "source": "UKMTO warning 149-26, 2 October 2026: all crew reported safe"
+          },
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO confirmed incidents list, read 15 November 2026: the PROMISE entry records damage and no pollution and carries no seafarer fatality, unlike the entries for VELOS SAPPHIRE and CAPE DAO which print one fatality each"
+          }
+        ],
+        "nationalities": []
+      },
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-11-15T22:05:00Z",
+        "vessel_name": "PROMISE",
+        "imo": "1038896",
+        "date_utc": "2026-10-02",
+        "vessel_type": "Crude oil tanker (VLCC)",
+        "region": "Strait of Hormuz",
+        "location_text": "Four nautical miles east of the coast of Oman, at the southern approach to the Strait of Hormuz",
+        "attack_type": "projectile",
+        "date_note": "UKMTO issued warning 149-26 at 21:42 UTC on 2 October 2026 and the IMO register and the German Navy brief both date the strike 2 October. A commercial event database places the impact at about 01:40 local time in Oman on 3 October, which is the same 2 October evening in UTC; the day-precision UTC date is kept as 2 October.",
+        "summary": "PROMISE, a 299,999 dwt crude oil tanker under the flag of Liberia, was struck by an unknown projectile on her port side four nautical miles east of the coast of Oman at 21:42 UTC on 2 October 2026 while transiting outbound through the Strait of Hormuz. The master reported the strike to UKMTO, which issued attack warning 149-26 the same evening and recorded that all crew were reported safe with no environmental impact at that time. The IMO list of highlighted confirmed incidents records the ship as damaged with no pollution, and the German Navy Shipping Centre's security brief of 29 October 2026 records smoke in the engine room and that the vessel was left unable to manoeuvre. The Red Zone's analysis of the October strikes, citing Equasis, records the registered owner and manager as On Promise Inc of Panama, with Anglo-Eastern Tanker Management as ISM manager.",
+        "sources": [
+          {
+            "url": "https://www.ukmto.org/-/media/ukmto/products/20261002-ukmto_warning_149_26.pdf",
+            "source": "UKMTO attack warning 149-26, issued 2 October 2026 at 21:42 UTC, sourced to the master: a crude oil tanker struck by an unknown projectile on the port side 4NM east of Oman, all crew reported safe, no environmental impact reported at that time"
+          },
+          {
+            "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+            "source": "IMO list of highlighted confirmed incidents, read 15 November 2026: 2 October PROMISE (IMO 1038896) at 4NM east of Oman, damaged, no pollution, and no fatality against the entry"
+          },
+          {
+            "url": "https://vda.org.tr/upload/duyuru/20261029_Security_Brief_SoH.pdf",
+            "source": "German Navy Shipping Centre, Security Update Brief Persian Gulf, 29 October 2026, annex item 77: PROMISE (IMO 1038896), crude oil tanker (Liberia), hit on 2 October on the port side, smoke reported in the engine room and the vessel left unable to manoeuvre"
+          },
+          {
+            "url": "https://theredzone-newsletter.beehiiv.com/p/hormuz-vlcc-strikes-owners-october",
+            "source": "The Red Zone, Hormuz strikes ownership analysis, 23 October 2026, pairing PROMISE (IMO 1038896) with UKMTO 149-26 at 4NM east of Oman and recording On Promise Inc, Panama, as registered owner and manager on Equasis"
+          }
+        ]
+      },
+      "updates": [
+        {
+          "at": "2026-11-15T22:05:00Z",
+          "text": "Vessel, date and damage are now established from the master's report through UKMTO and from two authority compilations, so this row is verified. UKMTO warning 149-26 records a crude oil tanker struck by an unknown projectile on the port side at 21:42 UTC on 2 October 2026, four nautical miles east of Oman, with all crew reported safe and no environmental impact. The IMO register names the hull as PROMISE, IMO 1038896, at the same position and date, damaged with no pollution. The German Navy brief adds smoke in the engine room and loss of manoeuvring. The IMO register prints a fatality against other hulls where one occurred and prints none here, and UKMTO reported the crew safe, so deaths are recorded as zero rather than unknown; if a later report contradicts that, this entry will be corrected. No nationality is recorded because no source names the crew's nationalities. The row previously carried the IMO entry alone and no vessel type; the type, position and casualty basis are added now.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261002-ukmto_warning_149_26.pdf",
+              "source": "UKMTO attack warning 149-26, 2 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents list, read 15 November 2026"
+            },
+            {
+              "url": "https://vda.org.tr/upload/duyuru/20261029_Security_Brief_SoH.pdf",
+              "source": "German Navy Shipping Centre security brief, 29 October 2026, annex item 77"
+            }
+          ]
+        }
+      ]
     }
   },
   "audit": [
@@ -45826,6 +45894,81 @@
             {
               "url": "https://www.hindustantimes.com/india-news/one-seafarer-dead-in-attack-on-indian-flagged-cargo-vessel-al-jusufi-off-oman-coast-govt-us-iran-war-strait-of-hormuz-news-101793680530699.html",
               "source": "Hindustan Times, 3 November 2026: shipping minister Sarbananda Sonowal confirms the death of Gandhar Nahim Ajij and 13 rescued"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "comment_id": 6902025542,
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/38#issuecomment-6902025542",
+      "author": "iMariner",
+      "received_at": "2026-11-15T21:58:07Z",
+      "incident_id": "INC-20261002-019",
+      "before": {},
+      "change": {
+        "incident_id": "INC-20261002-019",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-15T22:05:00Z",
+          "vessel_name": "PROMISE",
+          "imo": "1038896",
+          "date_utc": "2026-10-02",
+          "vessel_type": "Crude oil tanker (VLCC)",
+          "region": "Strait of Hormuz",
+          "location_text": "Four nautical miles east of the coast of Oman, at the southern approach to the Strait of Hormuz",
+          "attack_type": "projectile",
+          "date_note": "UKMTO issued warning 149-26 at 21:42 UTC on 2 October 2026 and the IMO register and the German Navy brief both date the strike 2 October. A commercial event database places the impact at about 01:40 local time in Oman on 3 October, which is the same 2 October evening in UTC; the day-precision UTC date is kept as 2 October.",
+          "summary": "PROMISE, a 299,999 dwt crude oil tanker under the flag of Liberia, was struck by an unknown projectile on her port side four nautical miles east of the coast of Oman at 21:42 UTC on 2 October 2026 while transiting outbound through the Strait of Hormuz. The master reported the strike to UKMTO, which issued attack warning 149-26 the same evening and recorded that all crew were reported safe with no environmental impact at that time. The IMO list of highlighted confirmed incidents records the ship as damaged with no pollution, and the German Navy Shipping Centre's security brief of 29 October 2026 records smoke in the engine room and that the vessel was left unable to manoeuvre. The Red Zone's analysis of the October strikes, citing Equasis, records the registered owner and manager as On Promise Inc of Panama, with Anglo-Eastern Tanker Management as ISM manager.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261002-ukmto_warning_149_26.pdf",
+              "source": "UKMTO attack warning 149-26, issued 2 October 2026 at 21:42 UTC, sourced to the master: a crude oil tanker struck by an unknown projectile on the port side 4NM east of Oman, all crew reported safe, no environmental impact reported at that time"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO list of highlighted confirmed incidents, read 15 November 2026: 2 October PROMISE (IMO 1038896) at 4NM east of Oman, damaged, no pollution, and no fatality against the entry"
+            },
+            {
+              "url": "https://vda.org.tr/upload/duyuru/20261029_Security_Brief_SoH.pdf",
+              "source": "German Navy Shipping Centre, Security Update Brief Persian Gulf, 29 October 2026, annex item 77: PROMISE (IMO 1038896), crude oil tanker (Liberia), hit on 2 October on the port side, smoke reported in the engine room and the vessel left unable to manoeuvre"
+            },
+            {
+              "url": "https://theredzone-newsletter.beehiiv.com/p/hormuz-vlcc-strikes-owners-october",
+              "source": "The Red Zone, Hormuz strikes ownership analysis, 23 October 2026, pairing PROMISE (IMO 1038896) with UKMTO 149-26 at 4NM east of Oman and recording On Promise Inc, Panama, as registered owner and manager on Equasis"
+            }
+          ]
+        },
+        "casualties": {
+          "status": "confirmed",
+          "deaths": 0,
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261002-ukmto_warning_149_26.pdf",
+              "source": "UKMTO warning 149-26, 2 October 2026: all crew reported safe"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents list, read 15 November 2026: the PROMISE entry records damage and no pollution and carries no seafarer fatality, unlike the entries for VELOS SAPPHIRE and CAPE DAO which print one fatality each"
+            }
+          ],
+          "nationalities": []
+        },
+        "update": {
+          "at": "2026-11-15T22:05:00Z",
+          "text": "Vessel, date and damage are now established from the master's report through UKMTO and from two authority compilations, so this row is verified. UKMTO warning 149-26 records a crude oil tanker struck by an unknown projectile on the port side at 21:42 UTC on 2 October 2026, four nautical miles east of Oman, with all crew reported safe and no environmental impact. The IMO register names the hull as PROMISE, IMO 1038896, at the same position and date, damaged with no pollution. The German Navy brief adds smoke in the engine room and loss of manoeuvring. The IMO register prints a fatality against other hulls where one occurred and prints none here, and UKMTO reported the crew safe, so deaths are recorded as zero rather than unknown; if a later report contradicts that, this entry will be corrected. No nationality is recorded because no source names the crew's nationalities. The row previously carried the IMO entry alone and no vessel type; the type, position and casualty basis are added now.",
+          "sources": [
+            {
+              "url": "https://www.ukmto.org/-/media/ukmto/products/20261002-ukmto_warning_149_26.pdf",
+              "source": "UKMTO attack warning 149-26, 2 October 2026"
+            },
+            {
+              "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+              "source": "IMO confirmed incidents list, read 15 November 2026"
+            },
+            {
+              "url": "https://vda.org.tr/upload/duyuru/20261029_Security_Brief_SoH.pdf",
+              "source": "German Navy Shipping Centre security brief, 29 October 2026, annex item 77"
             }
           ]
         }
