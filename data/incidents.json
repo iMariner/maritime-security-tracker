@@ -47,12 +47,36 @@
         "kind": "official",
         "published_at": "2026-11-15T15:13:54+00:00",
         "title": null
+      },
+      {
+        "url": "https://cyprus-mail.com/2026/11/15/russia-strikes-ukrainian-cargo-ship-in-black-sea-interfax-reports",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-16T04:32:09Z",
+        "title": null
+      },
+      {
+        "url": "https://ria.ru/20261115/sukhogruz-2131642878.html",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-16T04:32:09Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-15T09:50:22Z",
-    "last_updated": "2026-11-15T17:23:14Z",
+    "last_updated": "2026-11-16T04:32:09Z",
     "verification_issue": 398,
-    "verdict": null,
+    "verdict": {
+      "status": "claimed",
+      "by": "iMariner",
+      "at": "2026-11-16T04:32:09Z",
+      "note": "Only Russia's defence ministry reports the strike on a dry cargo vessel at sea bound for Odesa, it gives no name, flag, position or damage detail, and Reuters could not independently verify the report.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/398#issuecomment-6907378693"
+    },
     "published_in": [],
     "status": "claimed",
     "position_approx": true
@@ -290,12 +314,36 @@
         "kind": "media",
         "published_at": "2026-11-15T14:07:37Z",
         "title": "تصاعد الهجمات في مضيق هرمز.. ناقلات نفط تحترق وبلاغ جديد عن استهداف سفينة - صوت بيروت إنترناشونال"
+      },
+      {
+        "url": "https://www.ukmto.org/-/media/ukmto/products/20261115-ukmto_warning-205-26.pdf",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-16T04:32:07Z",
+        "title": null
+      },
+      {
+        "url": "https://www.ukmto.org/-/media/ukmto/products/update-114_jmic_advisory_15-nov.pdf",
+        "source": "Verifier evidence",
+        "source_type": "verification",
+        "side": "neutral",
+        "kind": "verification",
+        "published_at": "2026-11-16T04:32:07Z",
+        "title": null
       }
     ],
     "first_seen": "2026-11-15T17:23:09Z",
-    "last_updated": "2026-11-16T02:22:26Z",
+    "last_updated": "2026-11-16T04:32:07Z",
     "verification_issue": 399,
-    "verdict": null,
+    "verdict": {
+      "status": "confirmed",
+      "by": "iMariner",
+      "at": "2026-11-16T04:32:07Z",
+      "note": "UKMTO warning 205-26 and JMIC advisory update 114 both record the attack on a tanker in the Arabian Gulf eastbound before the Strait of Hormuz on 15 November, reported by Indian shipping authorities with the crew safe, so the record's Red Sea region is wrong.",
+      "comment_url": "https://github.com/iMariner/maritime-security-tracker/issues/399#issuecomment-6907378986"
+    },
     "published_in": [],
     "status": "confirmed",
     "position_approx": true,
