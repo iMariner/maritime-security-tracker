@@ -101,7 +101,7 @@
   {
     "region": "Red Sea",
     "date_utc": "2026-11-15",
-    "summary": "UKMTO reported that a tanker was attacked near the Strait of Hormuz on 15 November and that the crew were safe, with no name, weapon or damage details given. The Houthis separately claimed to have targeted an Israeli oil tanker in the Red Sea the same day, a claim that remains unconfirmed.",
+    "summary": "UKMTO reported that a tanker was attacked near the Strait of Hormuz on 15 November and that the crew were safe, with no name, weapon or damage details given. A separate headline reported tankers burning in the Strait of Hormuz and a new report of a vessel targeted, without naming a ship.",
     "official_source_cited": "UKMTO",
     "conflicting": false,
     "confidence": 0.8,
@@ -114,7 +114,7 @@
     "lon": 56.35,
     "location_text": "near the Strait of Hormuz",
     "attack_type": "other",
-    "damage": null,
+    "damage": "oil tankers on fire",
     "casualties": "crew reported safe",
     "attribution_claimed": "the Houthis claimed",
     "independent_evidence": true,
@@ -272,10 +272,28 @@
         "kind": "media",
         "published_at": "2026-11-15T12:53:00Z",
         "title": "الحوثيون يعلنون استهداف ناقلة نفط إسرائيلية في البحر الأحمر - www.alghad.tv"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaE92anNRczcyZk5CamdrZDhvaUpURXNMUWIwXzRaemdUNUNxTWwwX0NTcmVxLU9FYWRUOGRLYlpiMTU5aFdDYURRbWt5UTJnN0YxbXBBN2RrdHBiQ1FwZkVlQk1RS2dETU9SN203b2pxUGNXTFYwM3N3aVU5N2Q2Nm13OVN5aHc5bFBScTFURFRfQTY0bllsSVJsYWhKY1hLNTdpVUJSUkc4V2RYX3B2cE9nRjNhZjF6dmJ5Znc0eUxjd0pQcDYwVmVtTQ?oc=5",
+        "source": "Cityairnews",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T23:15:00Z",
+        "title": "Indian shipping authorities report attack on tanker in Arabian Gulf near Hormuz, crew safe: UKMTO - Cityairnews"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxOdkVVWjFxT0piZ1BraUEwa2E0aWJTWENERm5oUm9jVWRiZXFxZHY1VlJqUHZfa1JJMGtiNlM1aEJ5VzBwQ21HMm52QjdQby1QUnNZOC0xOUhVU3RNX2J6SXFjajBHZmJIbVFhWkdhWXhqNDB4QXRZSGxHaDRfemFCUmJXbzk3alVDZm52MWpjQnR6TWV6TENoYkItOHZFbVd1cHVtTmNuUE5Ed3puWFZRSGNlWnZGaXBOYWZteUJfZkNUWEY0U3pzOFAzMG5GMzBDX2VqN0N4d0NwRGhrMENJSnFvNWdpSGF6aEwwNXJEaGRMSDlCSUQyV19KOF9ZYjQ1TVRhNkJfaDc2UnFLNnRubXEyR25nUHAweU1XTHR5Q3MwUWxQbkRwcjBaelI0aXdZMGlMa0NhOE1mbEgzQkQ3OUwwWHIyRV8yb243b1lrS2k?oc=5",
+        "source": "صوت بيروت إنترناشونال",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T14:07:37Z",
+        "title": "تصاعد الهجمات في مضيق هرمز.. ناقلات نفط تحترق وبلاغ جديد عن استهداف سفينة - صوت بيروت إنترناشونال"
       }
     ],
     "first_seen": "2026-11-15T17:23:09Z",
-    "last_updated": "2026-11-15T22:01:45Z",
+    "last_updated": "2026-11-16T02:22:26Z",
     "verification_issue": 399,
     "verdict": null,
     "published_in": [],
@@ -431,6 +449,47 @@
     "status": "merged",
     "position_approx": true,
     "merged_into": "INC-20261114-002"
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-11-15",
+    "summary": "A headline reports escalating attacks in the Strait of Hormuz, with oil tankers burning and a new report of a vessel being targeted. No vessel name, position, weapon or casualty details are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.4,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": "oil tankers on fire",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261115-007",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxOdkVVWjFxT0piZ1BraUEwa2E0aWJTWENERm5oUm9jVWRiZXFxZHY1VlJqUHZfa1JJMGtiNlM1aEJ5VzBwQ21HMm52QjdQby1QUnNZOC0xOUhVU3RNX2J6SXFjajBHZmJIbVFhWkdhWXhqNDB4QXRZSGxHaDRfemFCUmJXbzk3alVDZm52MWpjQnR6TWV6TENoYkItOHZFbVd1cHVtTmNuUE5Ed3puWFZRSGNlWnZGaXBOYWZteUJfZkNUWEY0U3pzOFAzMG5GMzBDX2VqN0N4d0NwRGhrMENJSnFvNWdpSGF6aEwwNXJEaGRMSDlCSUQyV19KOF9ZYjQ1TVRhNkJfaDc2UnFLNnRubXEyR25nUHAweU1XTHR5Q3MwUWxQbkRwcjBaelI0aXdZMGlMa0NhOE1mbEgzQkQ3OUwwWHIyRV8yb243b1lrS2k?oc=5",
+        "source": "صوت بيروت إنترناشونال",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T14:07:37Z",
+        "title": "تصاعد الهجمات في مضيق هرمز.. ناقلات نفط تحترق وبلاغ جديد عن استهداف سفينة - صوت بيروت إنترناشونال"
+      }
+    ],
+    "first_seen": "2026-11-16T02:22:25Z",
+    "last_updated": "2026-11-16T02:22:26Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261115-003",
+    "position_approx": true
   },
   {
     "region": "Strait of Hormuz",
@@ -1376,10 +1435,46 @@
         "kind": "media",
         "published_at": "2026-11-15T10:24:00Z",
         "title": "Tanker carrying Azerbaijani crew hit by drone near Romania's Black Sea coast [VIDEO] - AzerNews"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTnBDOVFudXlHWUVqTkl2MFp6WVFtdzdjUGZ3aWRDdnNObGRudkJ4cVdjQkUxVHZsaFZCVXFNT1JaSWFQMDlpazVqRmZyRktCMjd5YTJyUUFJTWd5U1ZSNnhNRnJlMTJCQUtpMGNpX0NlS05NcDNlTGFpUUtvcmNIVw?oc=5",
+        "source": "Dawn",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-16T02:14:35Z",
+        "title": "Three ships struck by drones in Black Sea - Dawn"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObzk3aFVyckUyV0J4ak5qRW01N3lfNVkybHRtQjIyakNNVVhyQi1yYkU4UlJZQnhKaFhudXFPRDNvUUVHM2ctZ0N5VlJZbmt2b0RhX3VacmVSVzdDa2VGOXZKR0lpM0E2QzAyeGU1bHloTzdQTUtDWjhxV2h3dzdsTXVtQmFZTkJVcm9OQ0sxczJvZHdKS2Y4cjJtc2lSc1A4WUlOZnlCRmFPelhUREZHdG9wekpZdw?oc=5",
+        "source": "UA.NEWS",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T22:06:00Z",
+        "title": "Румунія засудила удари дронів по трьох суднах біля узбережжя — Politico Europe - UA.NEWS"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbXljUUlNdS1waThaWTVxNl9NTFp6OTRhNXpYdk55OTNUYnhpQlB2cjBqd1FCWnkzNmNNVEQ1X2RkVXBNLXljb0hETi01MlB2Qzh4ZFFMTExzWUtjRmt1aktpUjc1eXI3UUg5cnRTV0M3cFBId01INlBMcVFOZ3pWTk1CWU9hMl9pZVJXUnBqaGlFVjg?oc=5",
+        "source": "gdh dijital",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T10:47:52Z",
+        "title": "Romanya açıklarında 3 gemi İHA saldırısına uğradı - gdh dijital"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbDhUX3NjZ0liM2txRjZuZ1dYdng2MTVKUC1IUUd3M2JDT3pGVFlsc3hhVlFjbkpWRXNCTG1OQVJfWGs1WE93LWlIYVpPZWRMQkpySGx2ZVhpMUk1YWtHcF93dERWenoyb2RmblVVLWVTNGtfZHpEaWwwSGstM0RkTDd3eXVvb25ZV1N3dFNYcWh4Q19EQ1lza3VkRW43Ymt5TC1tdXQ4OU54UTF4UjZHd0xUc1NwTVUy?oc=5",
+        "source": "112.ua",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-14T22:14:09Z",
+        "title": "Romania Steps Up Black Sea Security Following Drone Strikes on Three Commercial Vessels Near Sulina - 112.ua"
       }
     ],
     "first_seen": "2026-11-14T10:52:28Z",
-    "last_updated": "2026-11-15T22:01:45Z",
+    "last_updated": "2026-11-16T02:22:25Z",
     "verification_issue": 391,
     "verdict": {
       "status": "confirmed",
@@ -2398,10 +2493,19 @@
         "kind": "media",
         "published_at": "2026-11-15T01:41:06Z",
         "title": "В Ормузском проливе два танкера подорвались на минах - prospect.com.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbThSRnR5Y0xJclVZc0hzeXl4bFJteHo1MTRpYnJpM1FZR0VfV2ExdDhmQXVYS2tvdTlIOWtzTFNocjVIbkhWMW1zLVZ2dmdXNllWX0pFZ0ZBLXNDQV9nZVNEU2w5bzAwcHBHd3Q2bEpYaGRBNnBVelBoZTZmd2ZnSjY2VnJXank4SjR5Q0lzMkVGWHM1bnpVTA?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-15T21:23:40Z",
+        "title": "В Ормузском проливе на минах подорвались два танкера - prospect.com.ru"
       }
     ],
     "first_seen": "2026-11-13T08:42:26Z",
-    "last_updated": "2026-11-15T22:01:44Z",
+    "last_updated": "2026-11-16T02:22:25Z",
     "verification_issue": 388,
     "verdict": {
       "status": "claimed",
