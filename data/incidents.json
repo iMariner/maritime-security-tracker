@@ -1,6 +1,454 @@
 [
   {
     "region": "Black Sea",
+    "date_utc": "2026-11-18T09:31:42Z",
+    "summary": "The vessel Larissa 1 was pulled into Inebolu port after being attacked by a drone, according to a Turkish outlet headline. No date, attacker or damage details are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": "LARISSA 1",
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Inebolu port, Kastamonu, Turkey (Black Sea)",
+    "attack_type": "drone (UAV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "date_approx": true,
+    "id": "INC-20261118-005",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOeWFERlFFUWpLc3RYR1h2ZFFiM3VKcTVsc3NSTWh2YnFTMU01eTU3MzdJV2tUT2gxcDlrYUFVM3VrUFA0NlpLenhRQVJicWY2Sk5iVVZIS2F4VlV4VU9MeV9XR19NV0xwWG9KS1NVOHd0RXhsYXNYcGJjSUoxNTljUnhMbEpTSEpLNEo4Ug?oc=5",
+        "source": "Haber Kenti",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T09:31:42Z",
+        "title": "Larissa 1 gemisi saldırı sonrası İnebolu Limanı'na çekildi - Haber Kenti"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSzkwckJVVVpHLXNIYXdYSTJxN3pkaVRPTEVVSUkya1lvSlMwTGpkejJfYUlXclJyeHVaeC1PYkdUUHhQWlVpcGlJNm4wR3VlZ09wQ2t3WkZoazhaTGxQN2N5M0hPSlFOY2R3akgyQmp6U1I3LThLZFU3T0U5MXI4OEhONWtjeFozSU41QVAtS3RESXEzY2VEcGhPcFpBTDZUTENB0gFXQVVfeXFMTmhxVG8xeE8xcHpOb3pDRDNPcXNOYjlNYmYzMDB3aVV0UjFOdi1XcGkxY09BWk4yTHhKOHA2UFFkYjM4YTQtQzFkLXBRbnJOTU9kMmVXQzc0?oc=5",
+        "source": "Mersin Haber",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T09:24:00Z",
+        "title": "Kastamonu İnebolu'da Drondan Saldırıya Uğrayan Geminin Durumu - Mersin Haber"
+      }
+    ],
+    "first_seen": "2026-11-18T13:23:16Z",
+    "last_updated": "2026-11-18T13:23:24Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261114-002",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-11-18",
+    "summary": "The ADNOC product tanker Navig8 Messi was attacked in the Strait of Hormuz on 18 November 2026, with one person missing and 11 injured, and reports say it was the second attack on the vessel in four months. A UKMTO headline reporting an oil tanker hit by missile in Hormuz with no name is consistent with the same strike.",
+    "official_source_cited": "ADNOC",
+    "conflicting": false,
+    "confidence": 0.9,
+    "vessel_name": "NAVIG8 MESSI",
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": "11 injured, one missing",
+    "attribution_claimed": "Iran (per headline framing of Iranian attacks)",
+    "independent_evidence": true,
+    "id": "INC-20261118-001",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMGRsRDJlcGR5MzRLOElRUXBCcXY5SFFTS0M5YUp0RkhmUjJtSjN2Q1liaW92dUkyWS03T0Jac3k2c2dGNy1BRmM1QXVoTjBCWDFDRjRoQjFrU0NuV01iRk1MNFpRUmJKQnQ2TG1HWTdsVXN6RG0xZ2F0YjhoOFd4SnZjcWxqOHIyX202Mlp1X0lFdw?oc=5",
+        "source": "Il Sole 24 ORE",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T13:02:32Z",
+        "title": "War, Middle East: latest news. Iran: a ship attacked in the Strait of Hormuz – 11 injured and one missing. Drones spotted over a US base in Kuwait - Il Sole 24 ORE"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxON1ZNYjZtOWtxWGpocGFhQndHY050SVJURGkwVWtWZ0Q1N21RSWJRVEN0clloRUwtOTNqSmRkOHJVc2U5OWt1dXRrWkZzaXpIVmhTUl9WcEJUU3BIN1Y2LTZ4ZmozREtrNmJlRTBlcTJxaWJYcVlQMUt4WjNpRi1FeENXVQ?oc=5",
+        "source": "شفق نيوز",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T13:02:13Z",
+        "title": "Shafaq News..ADNOC: Hormuz vessel attack injures 11, one missing - شفق نيوز"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUTJCUzVGMi13TGtZZl9LX25VMFJlV2c3MjRRWXNHbmZ2NXdoS1ZWS0RnWGRSSjZ1SVJMcWxDeEtBdGlORWo1MlZjbENtOWxWMDUwUGFCV1FVcHRWYUlKWE92MGRWcXdrNWYzWmNzelo5amxjd3RiSTBvQ2FHSE1QN0s2QlNaZ05BTERZc3dfMU4waWQ2d2xMWGlRajhTYnRDN09j?oc=5",
+        "source": "Seatrade Maritime News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T12:45:01Z",
+        "title": "One missing, 11 injured in attack on ADNOC tanker in Hormuz - Seatrade Maritime News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE96RmdQMkxFUWgtS3BuNjdiZ1ZvcmRGaVdCd0dCMURjQ29JY3dPWmoyaU1KYWhXRmpoZFFkN1JVTlVhcUY2TFVzQW9QbGJMMzJ5clVyZGVmUkk1WVFDOGhYWVZtMWdYWVBLUi05cF9RemhKRER5U3ZXRUZ3?oc=5",
+        "source": "Peoples Gazette Nigeria",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T12:38:17Z",
+        "title": "11 injured, one missing in Hormuz vessel attack - Peoples Gazette Nigeria"
+      },
+      {
+        "url": "https://www.seatrade-maritime.com/security/one-missing-11-injured-in-attack-on-adnoc-tanker-in-hormuz",
+        "source": "Seatrade Maritime",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-18T12:31:38Z",
+        "title": "One missing, 11 injured in attack on ADNOC tanker in Hormuz"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTVluSkFDZVFlVmk4aU9hRG9va1hfZFFTSWpzYTZ6OXNBUVRSMEZvS3hKcktERXo1bFV4eXRWV2ZTeDJQQ05obnMwVGoxcUI1RkFhcGFpaWFhV2VCeHFUZGdEYjlRcm11dF9TZ2JablRkZVRXenhKQlRqbnZvTzRINkswV09RallfZVM4NFNmZ2JrRmhlOFljYWVZcFcwdGdvc2ktZWRrYw?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T11:59:53Z",
+        "title": "Adnoc tanker struck a second time in Strait of Hormuz - TradeWinds News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUDd5VXotMXQ4TWoyNFpZeTFpdjZ2TFhiUkI0NjBKaUw3anFZNUVlSjltNDU2THUtcldIWGRpdmwtX1Fyd0VrQnB0aGowRnIwR3hDRVhhTXo5dU4wM25UYzNkbElhem1VQ0t5U1JjbUwtTjljVVZkOVVtWl90bVdwRnlud3VKbGoxWGdQNmYtNDEtSENHVFkwam1zNy1fQVU5b21jaHU5cU5KSmE4b2c?oc=5",
+        "source": "www.nationpathindia.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T11:56:44Z",
+        "title": "India Condemns Hormuz Tanker Attack; 21 Indian Crew Members Rescued, One Missing - www.nationpathindia.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQWRHVkxSSDZySHh1bnhfVTFGcXczUkQ4NUM2R3RXRnRYdWVmUGxxT0RCajA4LVBPSTdjRmZ5UE10WGV5TzN2TmVmdllrYVE3VDNfMzRPRjZaTElBRmdSUTlCVk5xVXhLQ3phcFp3Tld2ZnFjS2QzOWZZbzBQTFI5MnBFanJ3T1ZQUVQ2SDBVcEZXaG01N2ZYMzdzQmRtdUtoME5iV2JnOVo5WmR0NkdRanRwX2t3NjV0?oc=5",
+        "source": "Goemkarponn",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T11:33:18Z",
+        "title": "“Must End”: India Strongly Condemns Hormuz Tanker Attack as One Indian Seafarer Remains Missing - Goemkarponn"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9naE5US2dkbG5EZmFLeHFkZllfeWxYVDBIUnVWYUk5SGZWeWdhdzNqQ3hjRWhHZDhDX2RDWW1DTU9BNHY0T2hhWWtQVG1RRUlDYVJyeE5fZWtYb0tSa2I0VHBoN1JxNFpIVDNRVjhTR1M?oc=5",
+        "source": "Oil & Gas Middle East",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T11:19:12Z",
+        "title": "ADNOC L&S vessel attacked in Strait of Hormuz with one crew member missing and 11 injured - Oil & Gas Middle East"
+      },
+      {
+        "url": "https://www.hellenicshippingnews.com/adnoc-ls-confirms-attack-on-one-of-its-vessels/",
+        "source": "Hellenic Shipping News",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-18T11:00:53Z",
+        "title": "ADNOC L&S Confirms Attack on One Of Its Vessels"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQ3VacGM4Zk9FdHRLZmZaRTZQYVNXQjYzYkJnc2hwcEJWMl84bDdVdWpTVG5xNmJUWENoZ3FtYWlzQnpWSzE2WWUycFVtMzR3aHMtcUlZZUJlVkdKYWVDdTRuVWQ4eDRObDZCb0Q1cXVaNFk1ZG42N1FnUmltQnFzeXdSZXh0Zm5pUk9kOUVydTNEV1VFU0l3TDFxZC1vUVJCanJxWl9SRUdsbmRGTXd4aWt0SnVHVHBLRHZmWHIxeVlUdHkwTW9SV1Jabw?oc=5",
+        "source": "The National",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T10:28:20Z",
+        "title": "Adnoc L&S ship attacked in Strait of Hormuz with one crew member missing - The National"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNVRJMTBzR1MtR2JXNDVrQzNjT01oWk5QNmZMSGpweVU1eEdCb3RBQ0NKXzU4c0FmN0dya18yZjYwXzZrX2FRRzZIZVNNYWRLS1Y3WUliQjF0REdraXc3cDRFc1FmNjgxdUd0QmVoZFJZYVVKTExkdmFidy1EZ1p6elNFamdEYWlJUDU2STF2eEhyeXZhOWhyQzlwQU9MM3dHZmVnVmFtY1BLdDA4UVg2Wm1mQ1dWOTlDTnFBUmUxWVR2U2N5U29HY9IB1gFBVV95cUxNZUVfMktvdkt2VUw4MExtalFQQk9xNGlRUjJrWHhod1RlRFNrdndRWlVrUXhZYlpNaDhaZ2oyekpkUWZyQTNHZks2bGt4aDZYWUxHenV2Mkd2RkVsWHF3U21RUmxnVzQ5NzdQQ2F0RzQybm1nS1UwZ1RBeWh5eWJHT3pHVkFMNkpHem5IbHp0SmxyN1U3UllLYUswREFMa2tNYUdaaVcxQktBcDFBcVRLbDA3WU9BNE9PUGFON3B1MlJEOXlfYzJlLXhoSXlUaDhlNXBnanJn?oc=5",
+        "source": "Baird Maritime",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T10:05:14Z",
+        "title": "ADNOC L&S says one missing, 11 injured in Strait of Hormuz ship attack - Baird Maritime"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1OYTFRcDVwbW5XVng2X1NpZFpmOW5YQi1FejQzdlFQUWJUZ2pnWnJBMmlxSC1zWTlmQTN6MFVFeVB6c0I5MXo0VFFEU3Rmd0FUYzhTZFU5ZWxCeHdTZ1l3?oc=5",
+        "source": "https://houseofsaud.com/",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T10:04:17Z",
+        "title": "ADNOC Vessel Hit in Hormuz Leaves 1 Missing and 11 Injured - https://houseofsaud.com/"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNc1E5RkszZ1JwWi1xcEZCNUtXbWw5Qmc3VEgweFAwZjlnU3hNX1A5LTYzOVJ1UGtzZk0xeE1WVTdablI1dUxYel9rX0JNNlFCMHBsaGI0Ym1URUFCSHRyTVdZOEN1QzJHSlhMWC1lcExDeE1ZQnVVQm5IUUJkUnhWTzZQYm5JbUFieW1UN2FwRnhvNV9RcVl1UUtSNjZsNHp5TFZmZ1o0ZWVhaklBR2I4N2lLUW9qNnVGV2V2WE9R?oc=5",
+        "source": "TimelineDaily",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T10:00:24Z",
+        "title": "Iran Attacks US Bases In Bahrain, Kuwait; ADNOC Vessel Hit In Hormuz As US Strikes Iran - TimelineDaily"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1MT0ZUbEVEWW5LaWxzcTdocWNhY3ZVX3dRaDdjOGVyUGt2VFlOT3VEcGxpcE1yclQ2MEM1WU1TZlhkYUlQMHF4SFRpMEdvYU9qMDFxSGEzV3VYRVBMc3J2RVc1Q3kzUndBVDZxNWd3d0I5UQ?oc=5",
+        "source": "دنيا الوطن",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T09:53:49Z",
+        "title": "\"أدنوك\" الإماراتية: إصابة 11 وفقدان شخص جراء استهداف سفينة في مضيق هرمز - دنيا الوطن"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcTBCaERIZUd5QWNVc25GWlZNNnBoQVN0ZjRCMHZ1aUM1N3YxXzFlRm9uaUYyMjQyYUhnd0t0M3llUHBPc1NRNHFURVhmWEszb1VYSzd1ZDhIMllSNjliOVlXNC1yVlA4MVZQMFVSU0pTQUpQVFZZSllhVU1PUV9QOUNrSEpKQTd0R3hWYU02U1RTOVozVXpvVGRfM2xKcUhRSVhLUnZFVG1VSzQ?oc=5",
+        "source": "Yeni Safak English",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T09:36:48Z",
+        "title": "ADNOC L&S vessel attacked in Strait of Hormuz, one crew member missing - Yeni Safak English"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRTBtbHhzbm9rMUVNa3EzSjdtR29qaU9tUmkzbXlVUUItczNGNVBaMzQ3VHlIZEhua2w0OUZPTWxJWEJ5MGVWS2Z1YUd2QmstcmRuQkpOc3RySTc5V1BELTBfWkgySlZCcmtZRHVWcm9sX054cHVaRWxUOHg1WFpkaWJOUWFmWHQybU1wZDB4aWdJcVhRRUNFWnZTM3BrOXNINko0eFl2UdIBpwFBVV95cUxNRTBtbHhzbm9rMUVNa3EzSjdtR29qaU9tUmkzbXlVUUItczNGNVBaMzQ3VHlIZEhua2w0OUZPTWxJWEJ5MGVWS2Z1YUd2QmstcmRuQkpOc3RySTc5V1BELTBfWkgySlZCcmtZRHVWcm9sX054cHVaRWxUOHg1WFpkaWJOUWFmWHQybU1wZDB4aWdJcVhRRUNFWnZTM3BrOXNINko0eFl2UQ?oc=5",
+        "source": "Kuwait Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T09:13:00Z",
+        "title": "11 injured in attack on ADNOC vessel in Strait of Hormuz - Kuwait Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1UNlVFSGxiSF9YOTh2ZlM3dDdydDBjaTZGTHZKU3FPaHp6WW1oRmNMWkd2ekF1bmZCanRMY243cDdFdzBBYXEzS3BkUGQxQkhPNFVGczU3VUhuUU5GbFpjVnZmUVpPUGV4VnVyQlZnWkRzaVE?oc=5",
+        "source": "UkrMedia News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T09:08:45Z",
+        "title": "A vessel belonging to a UAE energy company was struck in the Strait of Hormuz - UkrMedia News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNMVI4bGZVblVfNUE2R0dDY2xjOVFhQUQ3YzMtV3hWRGZQLV9yX2V6MU1DMEZRY3Z6RVVLZVN2UmFveEQ2eTFCSkJWdGlGNVYyb1oxZTFiazk2cmRJRG9MRDFZM0hLU2tqSWlUQWpzd0lWeFlwTGFuWTZTZkJtTlZHSVdEc3NTZy1nVVR5aGNXbXMyVjNmXzhCRUtRN3p5Q1NhYWFWUndBNWtKY2FYZVFiT2hhc2puVDREemVaV0x3YUNuNnRrMFk3b2hHZzMyRVBVOVY1QWZtczRlM3NyZXBxcVEyY3ZiQk9ncUdaNEIxcE44VW8xSjNv?oc=5",
+        "source": "ANF | Articles",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T09:06:11Z",
+        "title": "استهداف سفينة إماراتية في هرمز يُسفر عن إصابة وفقدان 12 بحّاراً - ANF | Articles"
+      },
+      {
+        "url": "https://gcaptain.com/uaes-adnoc-ls-says-one-crew-member-missing-after-attack-on-its-vessel-in-hormuz/",
+        "source": "gCaptain",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-18T09:04:07Z",
+        "title": "UAE’s ADNOC L&S Says One Crew Member Missing After Attack on Its Vessel in Hormuz"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWnkteVd2SkZHYm9tQ043X0tnM0lERXA3WXpNS3BnZDkwLV8zbkFwcDRUOUxoX3V3dEZiLW0zWXJCb0YyNGQxRlBHMHNSU2FMNEtIeFlqNHNWTkdEMzhqQjJQd0JpVGxzSEE5Mkh1WVY3cXJYekdsV1ZLa0taV3o1WEc2aXMwSlh5YWh4Xzh2akpvZ3pqZGZKSlB5NFd4VldoY1pyT21fVVg3VVI5VFR1dnJlSVJGWmx6LXc?oc=5",
+        "source": "Dubai Eye 103.8",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T08:55:20Z",
+        "title": "ADNOC L&S says one crew member missing after attack on its vessel in Hormuz - Dubai Eye 103.8"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUWg0U2NBa1FhZWpKbmk1Y3F0SXZSa2RkOTIxSEdtN25uUVpaTEhQWkxuaHFQaEpTb2N2bVlJY2E3ODdLXzJ2dUtkdGdtZG8zS2ZwbU5JZ0tWWTN0eTY1QWxwbmdlSnZ1MXE1b3d0SUpENU5GRF8tVDFEaWNMWjlqRjhVTE5iV3JWdnc?oc=5",
+        "source": "Haberler.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T08:50:42Z",
+        "title": "New attack in Hormuz! 11 crew members injured on a UAE-owned ADNOC vessel, 1 person is being sought. - Haberler.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSW51N0ZoTlk3LVhRb0J1V3ZxNHZPYk1ub3JteVUwb3JmRTk0X2NXLVJuNXQtSzc4RTN1c285ZlgyQVJENmRfNHdYRWZIS3dLSmRKdEl6cHBKdEdTQThWbUNoSDNhTzJIVHpVM1c5a2Q0ekNoU3I3Mzloa1k0MXNISGIzWjRmTElEOXl4MTEtcVFYTTltSDE1b1hkWHZJNkpfLVlra3p0T1V3dEdOd2ZwRFllSW5CV0F2N1poVExsb091R291OXBoRXFrVnpkUQ?oc=5",
+        "source": "Upstream Online",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T08:36:52Z",
+        "title": "Adnoc subsidiary confirms vessel attack in Strait of Hormuz, one crew member missing - Upstream Online"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQTBHQ05CWXYxaVBHeVJfbnhtQnlnQy1qWkwtTDd2d3Eyd0RZOGJUWENKVngwbzZGSUNwT21fMlJzNElhamtwTnBURC1Qekdyb3JqUGJWTVkxX0NpU0dONTFpNzNHRG5FbV9GQUhraGwyeFJJODZ3TVlJbU5XTlk1TnZiSVRZaGNGWHBWUW5wRnZ5c0JBOVY0bE1WM0RvUEJUWUpGNjEtcmQ?oc=5",
+        "source": "Egypt Today",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T08:35:00Z",
+        "title": "Iranian attacks target Kuwait, Bahrain; 1 missing, 11 injured in ADNOC vessel attack in Hormuz - Egypt Today"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMFVEMlJuVUVnVWNWbXFUR01OZFFqaHoyd3hIREtXRXozRGdRTGw2U2hZbGk3R1gwNHA0NWx6UUJhbExRdV93dE1sdTJjS2ozZFhBWmlfWWYxUG5SVFlpaG9NMG1LSUM4eU5tX1ppdnJieHVsTmpLd2FhaXRmNjJtRjNPREhTQ0FsRnkyVC16RXBQUdIBlwFBVV95cUxNMEw1WVphaTM1SFJiWFZiczdjdGZzRkF3aUZYTUZIMUZ5SmxXWHdURERvTUU1Y1VKZ2J5aEdIYlhtNDdkNHZMZHA4NFpoeEVRTTRfMzVFeDFTZDJBMVlxZEdyLVJNRGEzVlVTQVVIaUE5ekZjUFlVRE56VzVPOHJsN3pZMDdJRFY5clh0R0Ntb1piSllMUTJR?oc=5",
+        "source": "The Siasat Daily",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T08:30:31Z",
+        "title": "One missing, 11 injured after ADNOC ship attack in Hormuz - The Siasat Daily"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZEdIdHNNV1pQbXI3cGF4ak83d3dZVDNpdHJFT0xZeDUwVmROUHlPVFJnUVA4MWxmYVR1QmFOU2VBMW5BWUhuYzg5bjVFQ2pkWGIxeXpIeXhKWTdJTWhmT3U0WHVFZnpiOFNNTW1rdV9xMllNQ1Jobm9oZENyZzBxY0VFQnJSOExPcllFQkd2a1pqbWhlb2s2ZE5n?oc=5",
+        "source": "Breakingthenews.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T12:10:00Z",
+        "title": "UKMTO: Oil tanker hit by missile in Hormuz strait - Breakingthenews.net"
+      }
+    ],
+    "first_seen": "2026-11-18T13:22:53Z",
+    "last_updated": "2026-11-18T13:23:24Z",
+    "verification_issue": 419,
+    "verdict": null,
+    "published_in": [],
+    "status": "reported",
+    "date_approx": false,
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-11-18",
+    "summary": "A headline says a third tanker struck a mine in the Strait of Hormuz, alongside reports that Iran targeted US Patriot systems. No vessel name, position or casualty details are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "mine",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261118-002",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQUFUSlpQZ0w2dXg0VDB2c3pId0o5bFJRRUhUT0FyQTRHN0hQdW8tcVNLbU5YSWhxamVySi1SV05yWmJEUDVuMHRpMndQaEFSNndVUEljSGV6TzdwemFib0tSMDltRHJJd1U3VktQUG9aTGZBTzNoRmdpbG1KWTBFd3JiQ0VzZzY4c25KTk12MmNhd3RCazRxaUhoRXBhMGUxOExpTnFR?oc=5",
+        "source": "Palestine Chronicle",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T12:42:43Z",
+        "title": "Iran Targets US Patriot Systems as Third Tanker Hits Mine in Hormuz - Palestine Chronicle"
+      }
+    ],
+    "first_seen": "2026-11-18T13:22:53Z",
+    "last_updated": "2026-11-18T13:22:53Z",
+    "verification_issue": 420,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-11-18",
+    "summary": "UKMTO reported that an oil tanker was hit by a missile in the Strait of Hormuz, according to a headline. No vessel name, position, damage or casualty details are given.",
+    "official_source_cited": "UKMTO",
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "missile",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261118-003",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZEdIdHNNV1pQbXI3cGF4ak83d3dZVDNpdHJFT0xZeDUwVmROUHlPVFJnUVA4MWxmYVR1QmFOU2VBMW5BWUhuYzg5bjVFQ2pkWGIxeXpIeXhKWTdJTWhmT3U0WHVFZnpiOFNNTW1rdV9xMllNQ1Jobm9oZENyZzBxY0VFQnJSOExPcllFQkd2a1pqbWhlb2s2ZE5n?oc=5",
+        "source": "Breakingthenews.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T12:10:00Z",
+        "title": "UKMTO: Oil tanker hit by missile in Hormuz strait - Breakingthenews.net"
+      }
+    ],
+    "first_seen": "2026-11-18T13:22:57Z",
+    "last_updated": "2026-11-18T13:23:24Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261118-001",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-11-18",
+    "summary": "An LPG tanker erupted in flames after a projectile strike in the Strait of Hormuz, according to a London Business News headline. No vessel name, attacker or casualty details are given.",
+    "official_source_cited": "Iran (reported by Iranian authorities)",
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "LNG/LPG carrier",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "missile",
+    "damage": "vessel erupted in flames",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261118-004",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wOG9UdzZUZGlEWmhvYmppVWc4cnZ4Vm1TM1BwTDdaVDE4MVJyeWFEbFlaSnRnd2owMFAxWGd5Nnh2M0xHdllsUnEwQ1VBVEJ0NnBF?oc=5",
+        "source": "London Business News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T11:37:56Z",
+        "title": "LPG tanker erupts in flames after projectile strike in Strait of Hormuz - London Business News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNEhZZlMzWEhGa04wQ3lyLUNsQkpfb3EzYjJ5SWhieWM3RzVrekZCTzI0VW8zbUFoT2VWMWlDdFpnOEFxeXdqdUNXdWtBYlRHeHlDYXJEX3VGRmYtR2UwdGh4d09wYkJWQWFCTGlrY2hDUV9hTTYzUTNESDBzY3dsMWhRUXlUdGVuMnozTDZETzVHQkxqa1JGVThXLTVFYkhudmNMVWs1c1VKS3Q3X0lGSzM1aTA?oc=5",
+        "source": "Data Portuaria",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T11:25:20Z",
+        "title": "Iran Reports Attack and Fire Aboard Gas Carrier in Strait of Hormuz - Data Portuaria"
+      }
+    ],
+    "first_seen": "2026-11-18T13:23:02Z",
+    "last_updated": "2026-11-18T13:23:24Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261117-004",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
     "date_utc": "2026-11-17T12:57:42Z",
     "summary": "The vessel Mariam ran aground on Vadu beach in Romania after being hit by a drone, according to a Romanian outlet headline. No date, position details, attacker or casualty information is given.",
     "official_source_cited": null,
@@ -279,7 +727,7 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-11-17",
-    "summary": "The Liberia-flagged gas carrier Gas Husky sank in Bulgaria's Black Sea EEZ on 17 November after what the captain described as four drone strikes, though the cause is not officially confirmed. All 19 Filipino crew were rescued, and separate reports say two vessels sank off Bulgaria with seafarers injured and 31 rescued.",
+    "summary": "The Liberia-flagged gas carrier Gas Husky sank in Bulgaria's Black Sea EEZ on 17 November after what the captain described as four drone strikes, though the cause is not officially confirmed. All 19 Filipino crew were rescued, and a social media post also referenced a sea drone strike with Bulgarian sailors and rescuers but named no vessel.",
     "official_source_cited": "ship's captain",
     "conflicting": true,
     "confidence": 0.9,
@@ -504,10 +952,28 @@
         "kind": "media",
         "published_at": "2026-11-17T13:56:31Z",
         "title": "Ships Sink for Second Straight Day in the Black Sea off Bulgaria; Anxiety Grows Over Possible Drone Attacks - 파이낸셜뉴스"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY0h0c0lVb0MtVnc1Z0g0aGYtMFhpNlMzUzVPSWtpUGMzd25fVUl3cDNJYldlWU5NYTN1ZTY5dmhhbU9EYUY4NHN3cG1rYzlQa3NDU2NxTjZzeWw1MWpEZzJ2MWd5RTVqOE1ub0gxMWhTOFdQNng0LS1jNGpwWUdBcUdMXzNLVHk5TEVCWmowcXBGbW1rMjI5OThic0huSGs?oc=5",
+        "source": "Dosya Haber",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T13:08:36Z",
+        "title": "Karadeniz'de Batan Gas Husky Tankerine 4 Saldırı Düzenlendi - Dosya Haber"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9FM0NuMnBtUWo3M0JNU1EtZUQ0UnoxS1RvVG1MVm9CLUdZc3gzZmNHVW9kMV9UMlhLbUwxQm9HaXpQY1Y4QUVMd0Nn?oc=5",
+        "source": "ВКонтакте",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-17T16:20:05Z",
+        "title": "Не будет топлива по морю новый удар БЭК в Черном море Осень 2026 года болгарские моряки и спасатели будут вспоминать... 2026 - ВКонтакте"
       }
     ],
     "first_seen": "2026-11-17T13:48:08Z",
-    "last_updated": "2026-11-18T03:51:42Z",
+    "last_updated": "2026-11-18T13:23:24Z",
     "verification_issue": 409,
     "verdict": null,
     "published_in": [],
@@ -519,7 +985,7 @@
   {
     "region": "Strait of Hormuz",
     "date_utc": "2026-11-17",
-    "summary": "The Panama-flagged LPG tanker Tara Gas, carrying about 24 Indian crew, was hit by a missile in the Strait of Hormuz north of Khasab on 17 November 2026. India's shipping minister said all crew were safe, while other reports said one Indian was missing and UKMTO reported the tanker was hit twice; unnamed video and headline reports of a burning gas tanker in Hormuz on the same day describe the same strike.",
+    "summary": "The Panama-flagged LPG tanker Tara Gas, carrying about 24 Indian crew, was hit by a missile in the Strait of Hormuz north of Khasab on 17 November 2026. India's shipping minister said all crew were safe, while other reports said one Indian was missing and UKMTO reported the tanker was hit twice; an unnamed report of an LPG tanker erupting in flames after a projectile strike in Hormuz describes the same event.",
     "official_source_cited": "India's government (per headline)",
     "conflicting": false,
     "confidence": 0.9,
@@ -1284,10 +1750,55 @@
         "kind": "media",
         "published_at": "2026-11-17T17:02:38Z",
         "title": "American Warships BLINDED? Iran BLOWS UP 'U.S.-Linked' Vessel With Crew In Huge Hormuz Attack - The Times of India"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORGg1V2pkLTlad0w0cEpGeWttVzQwZkYyUG5mbDVaVjk3V1BXVVBLVURxc2xvN3BHRW02OHpxMDR4eHZkOWpiSEUySThORFVHekt1UVFnRUJLMnZYYjFWelBMblozbXp5LVhMUGZLYTVCRnVjZmpYOE12a0QzcjlQRVpvNnkyS05LYlc5NDFDT0xHcEwwTjlJRF9ocEZ2U1E0XzZHeA?oc=5",
+        "source": "theopenpress.in",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T12:09:13Z",
+        "title": "One Indian Sailor Missing, Two Injured After LPG Tanker MT Tara Gas Attacked Twice in Strait of Hormuz - theopenpress.in"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWTdoWVNSRWZGYWlXTE54cWIxa21HQzNGMTd2dW5YZ0tyZUM2UkpWWUNvd0Q5QVFqMldvMUFqTzh4bGpKbkJKdlpBMFpveDcxYmM1T1JPX2hZM1VveDhmUTdTNWprM2VfeVFaQzVXeDhzVlJfNWc3RDJ2N3BsSnp0R0NLX0pnOV9nTWQ0Z01uNWMxNTc2YndjOEU2eDExd3PSAaQBQVVfeXFMTzYxQXcxdURuV1Z0Q0lMMjZaUHBROVZEeS10d3dkSWlIYWlvUXUxUlBRaGw1VUVKUWVfYjJtYlozQnpLb056cHNPNUp5bmEwTThHc2VxSU9lSzNlS1F1OVlNVzlPMjlyRnhmNEEyR0w5d2tsb2VFdnpiTG1TU2pGVlBqLV9PT3F1VGNYX2x6eHRYSUg2QUszNjI3T0dnWWlKZ1BPX3E?oc=5",
+        "source": "Daily Express",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T10:36:00Z",
+        "title": "Moment flames engulf tanker hit with missile as 24 crew members evacuated - Daily Express"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMktrSHNWMG1SOEZrNmZad2RsNU9WVEN0cXFyWjhkbkhQQTNFS3E4a2o4OFNMbkt4MkZKOGRfd0ZjRk5tbkZYQ3NkYXpzUzNzWHFmVGxlUE1YNzZvSUxvejNOaXMzWFMtclE0Skwtakhfekg5ZWdLd09MNWhFQTNxdV90eEpFVEhpcWlSVG1FN05YLURObndIZmVSZXlNZFZzNjIxNHVoc3liSm9OLWdhdnRn?oc=5",
+        "source": "Yeniçağ Gazetesi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T10:32:48Z",
+        "title": "Hürmüz Boğazı'nda LPG tankerine saldırı: 24 mürettebat tahliye edildi - Yeniçağ Gazetesi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wOG9UdzZUZGlEWmhvYmppVWc4cnZ4Vm1TM1BwTDdaVDE4MVJyeWFEbFlaSnRnd2owMFAxWGd5Nnh2M0xHdllsUnEwQ1VBVEJ0NnBF?oc=5",
+        "source": "London Business News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T11:37:56Z",
+        "title": "LPG tanker erupts in flames after projectile strike in Strait of Hormuz - London Business News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNEhZZlMzWEhGa04wQ3lyLUNsQkpfb3EzYjJ5SWhieWM3RzVrekZCTzI0VW8zbUFoT2VWMWlDdFpnOEFxeXdqdUNXdWtBYlRHeHlDYXJEX3VGRmYtR2UwdGh4d09wYkJWQWFCTGlrY2hDUV9hTTYzUTNESDBzY3dsMWhRUXlUdGVuMnozTDZETzVHQkxqa1JGVThXLTVFYkhudmNMVWs1c1VKS3Q3X0lGSzM1aTA?oc=5",
+        "source": "Data Portuaria",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T11:25:20Z",
+        "title": "Iran Reports Attack and Fire Aboard Gas Carrier in Strait of Hormuz - Data Portuaria"
       }
     ],
     "first_seen": "2026-11-17T13:48:08Z",
-    "last_updated": "2026-11-18T03:51:42Z",
+    "last_updated": "2026-11-18T13:23:24Z",
     "verification_issue": 410,
     "verdict": null,
     "published_in": [],
@@ -1580,7 +2091,7 @@
       }
     ],
     "first_seen": "2026-11-17T22:37:01Z",
-    "last_updated": "2026-11-18T03:51:42Z",
+    "last_updated": "2026-11-18T13:23:24Z",
     "verification_issue": 412,
     "verdict": null,
     "published_in": [],
@@ -1712,12 +2223,13 @@
       }
     ],
     "first_seen": "2026-11-17T22:37:22Z",
-    "last_updated": "2026-11-17T22:37:22Z",
+    "last_updated": "2026-11-18T13:23:24Z",
     "verification_issue": 414,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261117-003"
   },
   {
     "region": "Black Sea",
@@ -4973,7 +5485,7 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-11-14",
-    "summary": "A drone struck the Palau-flagged general cargo vessel Larissa 1 in Romanian territorial waters about 12 km off Sfantu Gheorghe overnight on 14 November, damaging its cargo crane with no fire or injuries, according to Digi24 and Romanian authorities. Turkish outlets later reported a damaged tanker that tried to transit the Bosphorus without reporting an attack and was anchored off Florya.",
+    "summary": "A drone struck the Palau-flagged general cargo vessel Larissa 1 in Romanian territorial waters about 12 km off Sfantu Gheorghe overnight on 14 November, damaging its cargo crane with no fire or injuries, according to Digi24 and Romanian authorities. Turkish outlets later reported the same Larissa 1 was pulled into Inebolu port after the drone attack.",
     "official_source_cited": "Romanian Defence Minister",
     "conflicting": false,
     "confidence": 0.85,
@@ -4982,8 +5494,8 @@
     "flag": "Palau",
     "vessel_type": "general cargo",
     "vessel_category": "merchant",
-    "lat": 41.2,
-    "lon": 29.12,
+    "lat": 43.4,
+    "lon": 34.5,
     "location_text": "near Sfântu Gheorghe beach, Romanian territorial waters, Black Sea",
     "attack_type": "drone (UAV)",
     "damage": "Cargo ship's crane destroyed, per sources cited",
@@ -6008,10 +6520,28 @@
         "kind": "media",
         "published_at": "2026-11-17T10:54:11Z",
         "title": "Karadeniz'de Vurulan Tanker Saldırıyı Bildirmeden İstanbul Boğazı'ndan Geçmeye Çalıştı - Gazetem İzmir"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOeWFERlFFUWpLc3RYR1h2ZFFiM3VKcTVsc3NSTWh2YnFTMU01eTU3MzdJV2tUT2gxcDlrYUFVM3VrUFA0NlpLenhRQVJicWY2Sk5iVVZIS2F4VlV4VU9MeV9XR19NV0xwWG9KS1NVOHd0RXhsYXNYcGJjSUoxNTljUnhMbEpTSEpLNEo4Ug?oc=5",
+        "source": "Haber Kenti",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T09:31:42Z",
+        "title": "Larissa 1 gemisi saldırı sonrası İnebolu Limanı'na çekildi - Haber Kenti"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSzkwckJVVVpHLXNIYXdYSTJxN3pkaVRPTEVVSUkya1lvSlMwTGpkejJfYUlXclJyeHVaeC1PYkdUUHhQWlVpcGlJNm4wR3VlZ09wQ2t3WkZoazhaTGxQN2N5M0hPSlFOY2R3akgyQmp6U1I3LThLZFU3T0U5MXI4OEhONWtjeFozSU41QVAtS3RESXEzY2VEcGhPcFpBTDZUTENB0gFXQVVfeXFMTmhxVG8xeE8xcHpOb3pDRDNPcXNOYjlNYmYzMDB3aVV0UjFOdi1XcGkxY09BWk4yTHhKOHA2UFFkYjM4YTQtQzFkLXBRbnJOTU9kMmVXQzc0?oc=5",
+        "source": "Mersin Haber",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T09:24:00Z",
+        "title": "Kastamonu İnebolu'da Drondan Saldırıya Uğrayan Geminin Durumu - Mersin Haber"
       }
     ],
     "first_seen": "2026-11-14T10:52:28Z",
-    "last_updated": "2026-11-18T03:51:38Z",
+    "last_updated": "2026-11-18T13:23:24Z",
     "verification_issue": 391,
     "verdict": {
       "status": "confirmed",
