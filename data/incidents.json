@@ -1,5 +1,122 @@
 [
   {
+    "region": "Black Sea",
+    "date_utc": "2026-11-20",
+    "summary": "A headline reports that two vessels sank off Bulgaria as missile attacks in the Black Sea continue. No vessel names, dates, attacker, positions or casualty details are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.0,
+    "lon": 28.3,
+    "location_text": "off Bulgaria, Black Sea",
+    "attack_type": "missile",
+    "damage": "two vessels sank",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261120-001",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQmxybF9hbW1nVjJwWUd1UEt1VTlkM2Q5MkF0US1VNjZLeDNrV1llQjUzdGlIM1FVQU9EV1FKdENJcDFjT21FZ2hpVDllR2Z4Q1d3aGlZZXFodXZERmJONDJVNGU2eHZCWVdPNjBkWmRBd3FYUGdFbkx2VTZaR1ZfTnY5Q2ExX0prN1U2MGtJZi1lSDNKWVhBNGNMUVg0OC1TeDd0bmdsNlRPSEFkODVBUVE2OWJOTlE2TDFpUnJUVjRiaXhPRktNRDhOYk1pMWE0cG5fQ3hjOElNUQ?oc=5",
+        "source": "www.shipmanagementinternational.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-20T08:14:49Z",
+        "title": "Two vessels sink off Bulgaria as missile attacks in the Black Sea continue — SMI DIGITAL - www.shipmanagementinternational.com"
+      }
+    ],
+    "first_seen": "2026-11-20T10:24:04Z",
+    "last_updated": "2026-11-20T10:24:21Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261117-003",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-11-20",
+    "summary": "Russia's Ministry of Defence said its forces struck port infrastructure in Odesa region and sea vessels used in the interests of the Ukrainian Armed Forces during a massed overnight strike with precision weapons and drones. The report names no vessel, gives no position, damage or casualty details, and the claim is one-sided.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 46.49,
+    "lon": 30.74,
+    "location_text": "at sea, en route to Odesa port, Black Sea",
+    "attack_type": "missile",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Russia's Ministry of Defence",
+    "independent_evidence": false,
+    "id": "INC-20261120-002",
+    "sources": [
+      {
+        "url": "https://t.me/dva_majors/102292",
+        "source": "Dva Mayora",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "osint",
+        "published_at": "2026-11-20T07:55:08+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/69183",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-20T07:25:09+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/tass_agency/406794",
+        "source": "TASS",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-11-20T07:23:26+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/astrapress/131648",
+        "source": "ASTRA",
+        "source_type": "telegram",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-20T06:10:46+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/69180",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-20T05:32:05+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-11-20T10:24:08Z",
+    "last_updated": "2026-11-20T10:24:11Z",
+    "verification_issue": 438,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
     "region": "Red Sea",
     "date_utc": "2026-11-19T22:18:29Z",
     "summary": "The Houthis accused Saudi Arabia of killing nearly 20 people in an attack on a vessel in Yemen. The claim is one-sided and the headline gives no vessel name, date, position or weapon details.",
@@ -666,10 +783,19 @@
         "kind": "media",
         "published_at": "2026-11-19T22:00:49Z",
         "title": "Two supertankers struck mines in Strait of Hormuz, Iran’s Revolutionary Guard says"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYUNIUmZEX2s0d3BuQVRyekhwME9XMkV6RWIyY01xUHVldTE1YU1kSEh2LXpmLTJjSDhTTkFWbTdZd2NiNHVPNGsteHlLSE9aYzZCOE1Zc05GWEQzSWtaRnlIWW0yamRtaGEwYlNpS3FGbnMwQnBMZzVsZGFsaHR3QVk2SHg0dlI4S1RlS0JLaF81d2pUMy1IS1E3NU5DTlZwY3A5U2o2NHJ6SVZTMzJkaUJZeHo0MUt6?oc=5",
+        "source": "www.muhalif.com.tr",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-19T05:43:15Z",
+        "title": "Hürmüz Boğazı'nda tehlikeli gerilim: Üç tanker mayınlara çarparak alev aldı - www.muhalif.com.tr"
       }
     ],
     "first_seen": "2026-11-20T02:33:15Z",
-    "last_updated": "2026-11-20T02:33:15Z",
+    "last_updated": "2026-11-20T10:24:16Z",
     "verification_issue": 437,
     "verdict": null,
     "published_in": [],
@@ -1348,10 +1474,28 @@
         "kind": "media",
         "published_at": "2026-11-18T07:15:15Z",
         "title": "Hürmüz Boğazı’nda ADNOC gemisine saldırı: 11 yaralı - https://www.ensondakika.com.tr/"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYzVtOWtScmhZZkI0N2VIMG5fcGhidGlCelkxQzIwTS1SOWpaamhibGNxNXp4SW5abGxaczZobVBYRzFFbGstcWlvejVVWWJrN3YyZmlQWmZrNi1VOWRtVk5rbFlnRG84MVkySldxLXJoT21fdkRDMDF5dGJJZDRzRndWQVY3WDI0ZXVfeTlJWGtVTjIyTUhrME9R?oc=5",
+        "source": "Mehr News Agency",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T14:42:00Z",
+        "title": "Fire breaks out aboard tanker targeted in Strait of Hormuz - Mehr News Agency"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZXgxZF9PX2EzZ0NPbjgtaWxhck9iR2Q0TklGRnh5N2FsRkVlaVJPdTA3bG1xcWhxY0ZWR1FidHBfM01keFdNQXQ0ZEpkdUJuYkVlNHc3ZHVHR0s2VjFrQjNzN3RNb3cyOEtESDdvN1VOSDM1akdNZjNkWm5vWXg2ME5XZUx2RU0xaTBxRHF2WTktcTNkM3FUZ1p5UnNXLW9LclR5a0FBZ3RKYU9hRnozSDhlU19aOXYtWGJN?oc=5",
+        "source": "Goemkarponn",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T11:46:55Z",
+        "title": "“Must End”: India Strongly Condemns Hormuz Tanker Attack as One Indian Seafarer Remains Missing - Goemkarponn"
       }
     ],
     "first_seen": "2026-11-18T13:22:53Z",
-    "last_updated": "2026-11-20T02:33:33Z",
+    "last_updated": "2026-11-20T10:24:20Z",
     "verification_issue": 419,
     "verdict": null,
     "published_in": [],
@@ -2042,10 +2186,28 @@
         "kind": "media",
         "published_at": "2026-11-18T08:54:58Z",
         "title": "ADNOC L&S says one crew member missing after attack on its vessel in Hormuz - ARN News Centre"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTUFSNjIzemZyX2V6cm85RURjdmsyT2FjWmdDc1VDdEpRejNYdEV4NFVtVDNTbWctVVhOYWd0czVHNkkzZjlURFBhdXVUZmFnOFpRNUhBVUp1RkNxSVc1TXJRZmRZT0NsaENfaWE2emlsOEVOeUhhU1hUZDFGWklDYTUzcTFwamxnOGlJeXp1T1NJS0JqOW16ZHJmTGFTeGlKSV9xOG5JX1d1Qi1lU0ptTWdHS1VDZ3ZmVkNkb1VhTQ?oc=5",
+        "source": "Forbes Middle East",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T14:16:33Z",
+        "title": "ADNOC L&S Confirms Vessel Attack Amid Hormuz Tensions - Forbes Middle East"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPT0VsY3lYdllrVlZkTHpWNklzS1JLSDhXV1g1SzMwYjRjT0kzSWMtN2lVY29CRWNaUDdHYUZrSkxyVC1yTmpVT1JEenNWUlVaNGFKU0YyZEYyMWpZUGktMkdhUUQ3aUxaazJ3RHlKN1dZT2FSd1kwUWFBSjZ3azVITjB0TFZhUzZCSFFSNWJ3NTZkamRhbS0xZ1E3NFpyNE5OazFrYU4tdGM0bVFh?oc=5",
+        "source": "KFGO",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T12:24:28Z",
+        "title": "UAE’s ADNOC L&S says one crew member missing after attack on its vessel in Hormuz - KFGO"
       }
     ],
     "first_seen": "2026-11-19T02:46:59Z",
-    "last_updated": "2026-11-20T02:33:26Z",
+    "last_updated": "2026-11-20T10:24:20Z",
     "verification_issue": 426,
     "verdict": null,
     "published_in": [],
@@ -2694,7 +2856,7 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-11-17",
-    "summary": "The Liberia-flagged gas carrier Gas Husky sank in Bulgaria's Black Sea EEZ on 17 November after what her captain described as four drone strikes, with the cause not officially confirmed. All 19 Filipino crew were rescued, and later reports describe the crew of a gas carrier bound for Romania being rescued from the same strike.",
+    "summary": "The Liberia-flagged gas carrier Gas Husky sank in Bulgaria's Black Sea EEZ on 17 November after what her captain described as four drone strikes, with the cause not officially confirmed and all 19 crew rescued. A later headline reporting two vessels sunk off Bulgaria in missile attacks refers to the same sinkings and adds no new incident.",
     "official_source_cited": "ship's captain",
     "conflicting": true,
     "confidence": 0.9,
@@ -3153,10 +3315,46 @@
         "kind": "media",
         "published_at": "2026-11-18T08:17:57Z",
         "title": "Gas Husky Tanker Reportedly Attacked by Drones in Black Sea Off Bulgaria - SFG Media"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWGhwX0lTeXF4YWVFWHJTaHJKSHIyNWFXR1NaMVBaclRyZkJ0MzE3alBmUml6RFpaNGZxQTFvMEpHX2lwY3pHUlJkWUg0RE5lTUpDaUV4WWNFeDl1SEdqeW5XZ09MUFhaeVdCNzJ3RVdYMHhfbGI2ZUJOU2hQWWNLYkVFZlJfWVhKcnN1cHpfUF9CRmd3LVA4Yg?oc=5",
+        "source": "Malaya Business Insight",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-20T08:42:29Z",
+        "title": "19 Pinoy seafarers safe from Black Sea drone attack - Malaya Business Insight"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdWprQ0t0cnY5U2llYU9fSmJndm9Kemxlb1Q0eFNVREJPN3p3dHVvRkRuUEUwWTZ0RVBIRGxRUzAwSnZkV05neXdUdVQ5eXVPcHFmcm5QYTc1TWw3UlRzYm5NRkF5cHJCTm1scHNlRDdFM3dXSWZ6MndYNlR1OG1KRVNhYVdpVGVY?oc=5",
+        "source": "Wisevoter",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-19T03:28:31Z",
+        "title": "Drone Strike Hits Tanker Off Bulgaria - Wisevoter"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONGpGaWl3ajZjbzdjS0xha1hYLW1OVmNYZU5NcGNaTm9YVGJ4b0ttMDhyaUhoMTRrUGZSelJyMjRfVWFXWG0zN1pfSGswX0pBeWRFM1ROZjdNYXlraEppNU4tTUFrUzJJOEw2c3piV01QZ1MtRXFwOFB5RFdmSTk2MUVhTkhacXM1MHdN?oc=5",
+        "source": "Ziare.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T11:31:49Z",
+        "title": "O navă care transporta GPL spre portul Midia s-a scufundat după un atac cu drone. Echipajul a fost salvat - Ziare.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQmxybF9hbW1nVjJwWUd1UEt1VTlkM2Q5MkF0US1VNjZLeDNrV1llQjUzdGlIM1FVQU9EV1FKdENJcDFjT21FZ2hpVDllR2Z4Q1d3aGlZZXFodXZERmJONDJVNGU2eHZCWVdPNjBkWmRBd3FYUGdFbkx2VTZaR1ZfTnY5Q2ExX0prN1U2MGtJZi1lSDNKWVhBNGNMUVg0OC1TeDd0bmdsNlRPSEFkODVBUVE2OWJOTlE2TDFpUnJUVjRiaXhPRktNRDhOYk1pMWE0cG5fQ3hjOElNUQ?oc=5",
+        "source": "www.shipmanagementinternational.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-20T08:14:49Z",
+        "title": "Two vessels sink off Bulgaria as missile attacks in the Black Sea continue — SMI DIGITAL - www.shipmanagementinternational.com"
       }
     ],
     "first_seen": "2026-11-17T13:48:08Z",
-    "last_updated": "2026-11-20T02:33:33Z",
+    "last_updated": "2026-11-20T10:24:21Z",
     "verification_issue": 409,
     "verdict": null,
     "published_in": [],
@@ -3168,7 +3366,7 @@
   {
     "region": "Strait of Hormuz",
     "date_utc": "2026-11-17",
-    "summary": "The Panama-flagged LPG tanker Tara Gas, carrying about 24 Indian crew, was hit by a missile in the Strait of Hormuz north of Khasab on 17 November 2026. India's shipping minister said all crew were safe while other reports said one Indian was missing, and a later UKMTO report of a tanker struck by a projectile near Khasab appears to describe the same attack.",
+    "summary": "The Panama-flagged LPG tanker Tara Gas, carrying about 24 Indian crew, was hit by a missile in the Strait of Hormuz north of Khasab on 17 November 2026. India's shipping minister said all crew were safe while other reports said one Indian was missing.",
     "official_source_cited": "India's government (per headline)",
     "conflicting": false,
     "confidence": 0.9,
@@ -4329,10 +4527,28 @@
         "kind": "media",
         "published_at": "2026-11-19T04:07:49Z",
         "title": "DMW assists 13 Filipino seafarers aboard vessel hit in Arabian Gulf MANILA – The Department of Migrant Workers (DMW) is providing medical, financial, and repatriation assistance to 13 Filipino crew members of an LNG carrier struck by unidentified objects i - Facebook"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbTRWMzNHeDk0ZDFUSjYzUEU4UWEzU0NWbkF2NGhQTXcxVWw2T0RKMEIydm9WVjVxUHZ1aFdwclNxZzdnaHhLTnRMeV9icm9NRWQwX29nZWM5X2hwVVRpaWdNSEtQOVk2RG1odDluSVhFeE10RTA5LXJRZDRMMm1YWlNxeldvTWV4eG00U3BOMHZxSDFWSDFGT0ZkZ2xHOWpYOFZzRUd3?oc=5",
+        "source": "ARYnews.tv",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T19:30:35Z",
+        "title": "Tanker struck by unknown projectile near Oman's Khasab, says UKMTO - ARYnews.tv"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPUUt3QnowZEpMUXVsa1FqelV1RlZrRGtxSG12VFRGd2MyMFFMZDBWVFNwQzRIOFE3ZWh4RnVLbTM2UTl6Ym85LXNiT25SV251U243Qk16NUFrLXYyNjlDWWlSbU13NnJWd2taclFnTm1VZkk0dWpCdzBoamQyMVkzZ2ExVl9kYndadjlja1ExclcwR1Z4aXYyYllVRFVTYjBWcWhqRkwzRWcwUUJfMVpiT0d0ZjR1WTRoUWhpRWdVVmttUzVmUFUtbXVyc0U0ajBSS1dyb3J4VkRzNTduWW9VVGNIa1h2UGd1VU43bnF3?oc=5",
+        "source": "sonhaberler.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-17T09:25:00Z",
+        "title": "ABD-İran savaşında son haberler: Bahreyn'de yeni saldırı, Hürmüz'de tanker krizi! Trump ve Tahran'dan peş peşe açıklamalar - sonhaberler.com"
       }
     ],
     "first_seen": "2026-11-17T13:48:08Z",
-    "last_updated": "2026-11-20T02:33:37Z",
+    "last_updated": "2026-11-20T10:24:21Z",
     "verification_issue": 410,
     "verdict": null,
     "published_in": [],
@@ -4625,7 +4841,7 @@
       }
     ],
     "first_seen": "2026-11-17T22:37:01Z",
-    "last_updated": "2026-11-20T02:33:37Z",
+    "last_updated": "2026-11-20T10:24:21Z",
     "verification_issue": 412,
     "verdict": null,
     "published_in": [],
@@ -5221,12 +5437,13 @@
       }
     ],
     "first_seen": "2026-11-18T03:51:42Z",
-    "last_updated": "2026-11-18T03:51:42Z",
+    "last_updated": "2026-11-20T10:24:21Z",
     "verification_issue": 418,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261117-004"
   },
   {
     "region": "Strait of Hormuz",
