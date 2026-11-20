@@ -1,5 +1,55 @@
 [
   {
+    "region": "Red Sea",
+    "date_utc": "2026-11-19T22:18:29Z",
+    "summary": "The Houthis accused Saudi Arabia of killing nearly 20 people in an attack on a vessel in Yemen. The claim is one-sided and the headline gives no vessel name, date, position or weapon details.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.4,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 19.5,
+    "lon": 39.5,
+    "location_text": "Yemen",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": "nearly 20 people killed, per Houthi claim",
+    "attribution_claimed": "Saudi Arabia (per Houthi accusation)",
+    "independent_evidence": false,
+    "date_approx": true,
+    "id": "INC-20261119-008",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdjNpTUVfU2lHZTdxV3hsRGNoWW96UWsxc2xzbDg3Nk5yd3J2c3VZNkxxcnJvRFI2NmxZampoc04ycUhXWG5nX3BUN2RjYTFkNHZFaExrLW9KY1FPcU93ZkxCNVM0Qk5HTjZuYVNZcjZQaHVGYkhMQjBWcElNV0x3X3laZTFRdmYyZG41cHpuYVQtQVpOZE9ESVdjNzl0NjRWaDFkem91UHBPZUcyd0JMNmJGNDZnMW9OWGNkUHVkYkN0NGJEcVhjZ0NwZXJGMDFmcXp2WHFva9IB1wFBVV95cUxOdjNpTUVfU2lHZTdxV3hsRGNoWW96UWsxc2xzbDg3Nk5yd3J2c3VZNkxxcnJvRFI2NmxZampoc04ycUhXWG5nX3BUN2RjYTFkNHZFaExrLW9KY1FPcU93ZkxCNVM0Qk5HTjZuYVNZcjZQaHVGYkhMQjBWcElNV0x3X3laZTFRdmYyZG41cHpuYVQtQVpOZE9ESVdjNzl0NjRWaDFkem91UHBPZUcyd0JMNmJGNDZnMW9OWGNkUHVkYkN0NGJEcVhjZ0NwZXJGMDFmcXp2WHFvaw?oc=5",
+        "source": "Demócrata",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-19T22:18:29Z",
+        "title": "The Houthis accuse Saudi Arabia of killing nearly 20 people in an attack on a vessel in Yemen - Demócrata"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOaUt5NnJFRlhhSGYtUHY2VzRraGU4dlNLVDNQckEweXV1ZlBqa2VTT3RIVmR4OWE2UTlaV21fVmZkUU9KbkZqOVNjRF90Q1RDMGI1SWZVTDBBWkc3VjN3V3dtbWN6blZUaHB5RnJTem83ZGpuSjNHbkZRdi1vWUp5VUJjakEyTk02SlhhUHUtX1poYmhNQ0FxLXl5REkxTlZYMVRkSFFqSmU1Q2g4QkpscFJjNEkxYjItaEtGcTJqTkNZbE03b0hhTUE5SzMxd2xqbkHSAdcBQVVfeXFMTnYzaU1FX1NpR2U3cVd4bERjaFlvelFrMXNsc2w4NzZOcndydnN1WTZMcXJyb0RSNjZsWWpqaHNOMnFIV1huZ19wVDdkY2ExZDR2RWhMay1vSmNRT3FPd2ZMQjVTNEJOR042bmFTWXI2UGh1RmJITEIwVnBJTVdMd195WmUxUXZmMmRuNXB6bmFULUFaTmRPRElXYzc5dDY0VmgxZHpvdVBwT2VHMndCTDZiRjQ2ZzFvTlhjZFB1ZGJDdDRiRHFYY2dDcGVyRjAxZnF6dlhxb2s?oc=5",
+        "source": "Demócrata",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-19T22:18:29Z",
+        "title": "The Houthis accuse Saudi Arabia of killing nearly 20 people in an attack on a vessel in Yemen - Demócrata"
+      }
+    ],
+    "first_seen": "2026-11-20T02:33:06Z",
+    "last_updated": "2026-11-20T02:33:06Z",
+    "verification_issue": 436,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
     "region": "Black Sea",
     "date_utc": "2026-11-19T11:28:03Z",
     "summary": "A report says a UAV damaged a Liberia-flagged tanker in Novorossiysk, and that Russia's Marine Rescue Service assisted the crew and later demanded payment. No vessel name or date is given.",
@@ -259,13 +309,14 @@
       }
     ],
     "first_seen": "2026-11-19T12:03:49Z",
-    "last_updated": "2026-11-19T20:56:52Z",
+    "last_updated": "2026-11-20T02:33:37Z",
     "verification_issue": 431,
     "verdict": null,
     "published_in": [],
-    "status": "confirmed",
+    "status": "merged",
     "status_changed_at": "2026-11-19T12:03:54Z",
-    "date_approx": false
+    "date_approx": false,
+    "merged_into": "INC-20261117-004"
   },
   {
     "region": "Black Sea",
@@ -583,6 +634,46 @@
     "published_in": [],
     "status": "merged",
     "merged_into": "INC-20261116-007",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-11-19",
+    "summary": "A second supertanker was said by Iran's Revolutionary Guard to have caught fire after hitting a mine in the Strait of Hormuz while on an 'unauthorized route'. The claim, made to state broadcaster IRIB, gives no vessel name, position or independent confirmation.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "mine",
+    "damage": "caught fire after hitting a mine",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261119-009",
+    "sources": [
+      {
+        "url": "https://www.hellenicshippingnews.com/two-supertankers-struck-mines-in-strait-of-hormuz-irans-revolutionary-guard-says/",
+        "source": "Hellenic Shipping News",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-19T22:00:49Z",
+        "title": "Two supertankers struck mines in Strait of Hormuz, Iran’s Revolutionary Guard says"
+      }
+    ],
+    "first_seen": "2026-11-20T02:33:15Z",
+    "last_updated": "2026-11-20T02:33:15Z",
+    "verification_issue": 437,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
     "position_approx": true
   },
   {
@@ -1212,10 +1303,55 @@
         "kind": "media",
         "published_at": "2026-11-18T23:13:17Z",
         "title": "Hürmüz Boğazı’nda tankere saldırı: Makine dairesinde yangın çıktı - Yeni Akit Gazetesi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdTZqSFJKcVMzRW9RQzJFX1lXTEViREhxVGNRWmR6clpWNXFfbzFoa2hIUk96RkpTUkIyNnMzLUdiT29YQUZaYWtqZ3RTb2FDLXROMG5MOGI2MFhqQV9IUmtBN0k3QnEydHgyVmhlclE4OU81cTJYbmw0SHF4WXBhS3dabUdLSzEzcE5sNGhFbzg5U28wZWV3WTA0d1NnVnNp0gGcAUFVX3lxTE0wc3U2dG1KNl9rbnczM1RlYkVqU2QyNjA1bGlFdURPNE9RVmxxUUR5LXRXNlFSQ2YxSTBvei0tMk1IQkRKalZYc20wd3gzbFR3YzI3SkQzcUVmalgzTldyNUZjMS00OHZnbE5qSEpJRmQzRTBrZzFQZnplWUdLdTVyb01rcjVBaFJsc2MwNXJrRTRXcGdzNGc4MFhsbg?oc=5",
+        "source": "Son Dakika",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T11:58:06Z",
+        "title": "ADNOC tankerine Hürmüz'de saldırı 11 mürettebatı yaraladı, 1 kişiden haber yok - Son Dakika"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRnhVSlM5dmFncWIxVkVxTDQ3MXNxQU5Xa0RDaTRwTV9ITHpkVnFEUTdSUkhiaXR3MGU0TldWQjVqaXN4bTdxU0YtYWsyTm40TlpLNW12NDJjSHpKRXQ1TjhUOWlic1JacXhDU1JaMWRwWXpnTmZWeDd5SmlKT01iZW1HZmhXOExRQ085c3ItNE9HcTlTbGlnQ21VbW5lUWVoeU80ejVlYjBOZ1NEQmRZVm1qYkFBRW9zenZMMGV6cHdiUjJQQVpIS0xaZVdnUQ?oc=5",
+        "source": "First India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T10:53:49Z",
+        "title": "India strongly condemns Strait of Hormuz tanker attack as one national remains missing - First India"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONms2aFBnazlCNnU0R1A3bC1RNnJrekQwYW5xX05ydXR4bGJNN3dvSGlEOUhqbENSTWtjeThrWTJsdUlNT0hNR3J6aGg3dF9Tckpwdk1MdnJzVXFIYldXMXoya2JtdjRJaTlJb3BDQ1dQN0t0cWZvSklzRGtjcmlNdEE1NWVud180bFRXM3otNWtoUjk0RllqNmZVQzFUR0x0YlV6QkF3bTVQaEF1aUEzd2lMSy1YQUJiWl9Wbg?oc=5",
+        "source": "Yıldırım Gazetesi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T08:43:00Z",
+        "title": "Hürmüz’de yeni saldırı! BAE’ye ait ADNOC gemisinde 11 mürettebat yaralandı, 1 kişi aranıyor - Yıldırım Gazetesi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaHhSajJsOVhsOEVFYTZ0dFJVR0dKdHBUZDcyVXp2M3lqbGJ5V1BtOWJiOVdCa1FzNTJoY1FFM3ZuLVFtTVd5bTFBQUtuSjdWUUpDbElFVjJHQkdrSXhER2llbkptUnNudkE1bW9PTFRzZ0xWSnVPVWdkTmoxRE5QeC1fMDFIaXREMm56SlJyQ0ltbGFIbVA1djd2U2h1eV840gGcAUFVX3lxTFBXWGdnSmR3SXE0ZnRYb2lnU2ZuM1J5TkpqRHZGbjh5eWJDcVg5WWFZMk9aMlpLUUdWc3hzM25vQ2xiM3c0bWFPblcwSUluTURHVTdYOWNHalhqOEZrZHRDbmk1VGdMSVFUNG5ENm1KaGtkWUV1WWZSNm9UYzVmYjJrWUlJNTB1VW9LWGZjSHFnVnNKM1dMWkwwaE85Qg?oc=5",
+        "source": "Son Dakika",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T07:18:53Z",
+        "title": "Hürmüz’de yeni saldırı! BAE’ye ait ADNOC gemisinde 11 mürettebat yaralandı, 1 kişi aranıyor - Son Dakika"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQa1NodWJWT3A5Nk5EdWd3eGxhQXZselhtbk5LaUI4N213RTNrRV9SbE1GU1VQcng4SGJvYldEMUlTNmpSME9taDlpUnlFdjVwSkxMemtSYVNJbkRfSDRJRVdjRWtzdXRtZHpUYkpyWElsSlJGYnBxWDRmMTVDQW14eVU0Uk5IVWRZaUtYNUtvcENvRU0?oc=5",
+        "source": "https://www.ensondakika.com.tr/",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T07:15:15Z",
+        "title": "Hürmüz Boğazı’nda ADNOC gemisine saldırı: 11 yaralı - https://www.ensondakika.com.tr/"
       }
     ],
     "first_seen": "2026-11-18T13:22:53Z",
-    "last_updated": "2026-11-19T20:56:52Z",
+    "last_updated": "2026-11-20T02:33:33Z",
     "verification_issue": 419,
     "verdict": null,
     "published_in": [],
@@ -1870,10 +2006,46 @@
         "kind": "media",
         "published_at": "2026-11-18T15:39:54Z",
         "title": "Abu Dhabi oil company reports attack on vessel in Strait of Hormuz, one missing - Tribune Online"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNd2Q2YW9HUVllSERTY0ZFaHEySTlZOVJ6MGl5cnloTWE3V2FNTF9US29rakNCT1V1TWlVZVMwUnAxdUtGMEwzVGdvZUNJa2ItZjRfOE9zSkpINGtzZjRVTzNUaUxpRjFPT3VuZlQwU2xvUDBaNFQ1akhrUFY0cDNmaEJhdlExZ1ZtWmE5MElJOTFQbGYzb2RtQl9lMV92ZXp2NUhtdkZsbVl2Q3pkRFRXbDU1UFVxNFhzSWdycmNWNEYyanV2UTI4N2o4T3FpMFlmMmh30gHYAUFVX3lxTE1yZld1Qm81TlBzWWtOdTJVUUNZcTJtRGczTTJRd2U1NVE0Z3dBRzNCbzg3V1VqSDBxekZUd00xT2daeWlCNnRobVhYZDQwRUlYdEs3SDJqOE9vT0ctWjc3SHFRNGJ4cC16R3pjeGhwRkp2QmNkN0xKY01FN3dsQWgwd0VhcVBEZzNmT3lPTktuRkpUTVE3aXpmQkpid0VkdElNOWdpMmJqUmdNaTVONF96aDR1ZnlOei1oNEJhZkZPTnFSd1JWWWYzVHIzNU0wSlJRZlhHUEVOOQ?oc=5",
+        "source": "Demócrata",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T13:22:52Z",
+        "title": "A missing sailor and eleven injured after an attack on an ADNOC vessel in the Strait of Hormuz - Demócrata"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5GN0RtNnZLVUx6MVVsZVlUbzJEXzZzdVJrR0pqR1dlMVctMjZUd3dRU1d3bndyVWt1Z1pNTDBxbjRzYl9NNnAyWkM3eGNfZWNCTmROeV9PcmstWjR5TEE?oc=5",
+        "source": "SuaraGarut.ID",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T12:05:02Z",
+        "title": "ADNOC Ship Attack in Hormuz Leaves One Crew Member Missing - SuaraGarut.ID"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE12ZkVvU2tDRFEzSjFEWmVfeXdBSjRiYzlUUGdzS2RZSEVoaUc0azRqVVZ4WVBEOTJwTl82aV96MDJvS1plRW5ielluZUlEaW94SG5Oam56Z045VTJm?oc=5",
+        "source": "Peradaban.id",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T12:00:35Z",
+        "title": "ADNOC Ship Attack in Hormuz Leaves One Crew Member Missing - Peradaban.id"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUF9tY1pjWEE0VnZhY2RHRXEzRXVyWTh4ZVBVMWJWVHBKQXg1dXBhd2VhX2JpSlRtU1FIUVQ0QnZzdF9ydW0xUmFfQjVLTkFKV0dDd01hZWZ2b255TW5mWVF0cGN4U1JqNlU0MlBNdW1uVDlrYkNnd0RiTmdFRS1ZUXFXXzkzNTZjMFZjRllFQ2NhYl9UZ2ZZWmtqMF9QQmRuMjdPZnQydjJmREJnWHAxaVozSXBVdkk?oc=5",
+        "source": "ARN News Centre",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T08:54:58Z",
+        "title": "ADNOC L&S says one crew member missing after attack on its vessel in Hormuz - ARN News Centre"
       }
     ],
     "first_seen": "2026-11-19T02:46:59Z",
-    "last_updated": "2026-11-19T20:56:51Z",
+    "last_updated": "2026-11-20T02:33:26Z",
     "verification_issue": 426,
     "verdict": null,
     "published_in": [],
@@ -1991,10 +2163,28 @@
         "kind": "media",
         "published_at": "2026-11-19T15:40:51Z",
         "title": "Search continues for Jordanian sailor missing after UAE oil tanker attacked in Strait of Hormuz - Gulf News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1Yby0zQVVkT2xPSi1tX3RKeHBhVldfdk16eU1jd0xzaE9FSDNHczdLZHN4OWlZWVFFZXA5d0VRQWZodjRfTWw1T3RR?oc=5",
+        "source": "بوابة مولانا",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-19T15:29:36Z",
+        "title": "اختفاء ضابط أردني بعد استهداف ناقلة نفط في مضيق هرمز - بوابة مولانا"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzYlFHb0h6TS1FZW5YVEV4MXUwT0o4enRLcGgtaE14TWsybFBnanU1dy1hUnBGWmM1MmNfbWZmYU4wT2J4UnpBRTdDTGx1OUU?oc=5",
+        "source": "Ammon News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-19T08:55:28Z",
+        "title": "Jordanian sailor missing after oil tanker attack in Strait of Hormuz - Ammon News"
       }
     ],
     "first_seen": "2026-11-19T20:56:35Z",
-    "last_updated": "2026-11-19T20:56:35Z",
+    "last_updated": "2026-11-20T02:33:15Z",
     "verification_issue": 434,
     "verdict": null,
     "published_in": [],
@@ -2927,10 +3117,46 @@
         "kind": "media",
         "published_at": "2026-11-18T15:59:00Z",
         "title": "Atacurile din Marea Neagră ajung la o navă cu GPL spre România - TRUmedia.ro"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdldjdUZDWHF0TlFZLS11WnBOQkMwSGFVQ1FXZTlibFYtX0pBajdXNHUxckp0VFo5WVk3QVNrSzJmaG1QMF9NNkY3SGJXY2M2Yk5LRDRDeDlBMFJQbDVfVmVUUzVDMmN6YTNHejJwTUFqUzh3YVJ2N3h1UzhnSVY5NU0tcGZCY3U3NXdfd0tMc3FlNnk2TlBQa3FNZU9JcXh3ZHhhZTF1S21keWJPV2lJ?oc=5",
+        "source": "Daily Tribune",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T16:39:07Z",
+        "title": "Crew rescued from gas carrier struck in Black Sea - Daily Tribune"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNlVzQzlSX3FXakhvMVA2MGZvWXVpVHltdWh3WkdQeThMeTE0eFpoTmZIVzllVzB6dkhOQnY4YkhDNjlNUGRTVTJPQWk1SlFXOXVVUTktdU5aNXBYd2ljcjdDVk1Nb2pXbTFFOUQ0S2VSUElOS180UHktYWdzNUxXTVdqdEZIdGMzY05iaFcwYnZvTDdsdnlIUlQ3RXdkbWvSAZoBQVVfeXFMUEVkbnM4aXRoTHZaZ0Y3bXUzOWdUM1RHYnhwM3hyMDVvcnBtRXJFY19Oel90OVU2NEpHbHJfZ21tNGp0TmxFLUVZY1VwRzBpUS0yOG5RdnpGeXE5UUVHcy11QWp0cUdHYlRiOHVlLXBPOTlfbUlMSXU5dndXV3pEWk9FZC03V3JhOEp5MUJqaUFjSVNlZld5V1ctZw?oc=5",
+        "source": "Haberler",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T12:50:13Z",
+        "title": "Batan Gas Husky tankerine Karadeniz'de 4 saldırı yapıldığı belirlendi - Haberler"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQYmdQenBKOWtOa0lHaXprcGJSU2tkUkxpeXAtWTViWE8wNGVRZEFHR0IyeGw4SGRta043T1RkcFM4NHBxcGlvQUNnLWlHTW9qcnRqMDltNFBqbGFNVG43SUZGUlpVS1laU3ZkZ1huUEh3cWxkZFJYaVAxUEtTWkdlS24zdXdtZEtZNXV0SVNHN2o?oc=5",
+        "source": "ipn.md",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T12:19:10Z",
+        "title": "Nava scufundată marți în Marea Neagră ar fi fost atacată de patru drone - ipn.md"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdlZIbG5TVUFVb3lZM2UzNlZtd1RvOHZWeDJOOUEybm9fMDJSelBGMWNPUVpmeWZIRTdvZDROYVpUeWthTHJJeVZIdVVpOE9KNjRVcVgxRml5OFY4TnZJbmhOUmlLUTN4VjZkaU45SFI4QW82eDg4dUhWZERlZjdCSjQ1UQ?oc=5",
+        "source": "SFG Media",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T08:17:57Z",
+        "title": "Gas Husky Tanker Reportedly Attacked by Drones in Black Sea Off Bulgaria - SFG Media"
       }
     ],
     "first_seen": "2026-11-17T13:48:08Z",
-    "last_updated": "2026-11-19T20:56:52Z",
+    "last_updated": "2026-11-20T02:33:33Z",
     "verification_issue": 409,
     "verdict": null,
     "published_in": [],
@@ -2942,7 +3168,7 @@
   {
     "region": "Strait of Hormuz",
     "date_utc": "2026-11-17",
-    "summary": "The Panama-flagged LPG tanker Tara Gas, carrying about 24 Indian crew, was hit by a missile in the Strait of Hormuz north of Khasab on 17 November 2026. India's shipping minister said all crew were safe while other reports said one Indian was missing, and video reports showed a gas tanker in flames.",
+    "summary": "The Panama-flagged LPG tanker Tara Gas, carrying about 24 Indian crew, was hit by a missile in the Strait of Hormuz north of Khasab on 17 November 2026. India's shipping minister said all crew were safe while other reports said one Indian was missing, and a later UKMTO report of a tanker struck by a projectile near Khasab appears to describe the same attack.",
     "official_source_cited": "India's government (per headline)",
     "conflicting": false,
     "confidence": 0.9,
@@ -3923,10 +4149,190 @@
         "kind": "media",
         "published_at": "2026-11-17T19:42:00Z",
         "title": "Iran Reports Tanker Fires as Hormuz Attacks Escalate - cwibc.co.id"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMkc5NGhCcXEzcTZnVG11dzJRRDlzQUdsSXNJUDRWSXo1NTR4V28tTEF1clN4T1Z6VmxPSlVpX1NVOW9wZHFwZ056djkzSVdFd21yeDZlVHdZakxoNFdISWhEaFpuZ0xUd3o3V0p3N3FjbDRCSjZ1ZTZkbkxNM0w1cjA0MWVDajJIT0pZWHYwQ2JaRzhOYm9nLVhOVk5GSkZJMjZ6OWk0OEJyRnp3X04xVDRwcU1HOG11MWxmeE4tb1pxM2JQM2JqcEIxYVlVMXPSAdYBQVVfeXFMTWJWcFVxVzNhX3pFQXdyOUFIUGE0aVZKUUhhNS1kVmliZzBqMndUclB0Qy04TGNKTnpMaEp0TkZyNVhTeHF0UUdJWDA5LXFFV1VQbWFaT243S0VndTZSeTNNb1VYZXlBQ0pONzBoXzhSVTdtMHN1RWFIblBVTkFBa241ajUydmkyUEJsZWJFUnFhc2xiYkh2QkpZODFUZHI0TUhhMHc0eDhpc3NnV3A5bUdRTk93SHhkU2UxRzYzcGhqQU9tLW8zcmJvaURSTC1iN0s3aGtiQQ?oc=5",
+        "source": "The Financial Express",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T04:28:26Z",
+        "title": "India condemns missile attack on LPG tanker in Hormuz; 1 crew member still missing - The Financial Express"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaDJrNkJlNzl0Q2FnTTJWQ25RRGJpZUZ2YllNWTNIeTBLQ3ZBellOMFFSa0V2bE1mRzBYcjNVSjhhQ2xtUFRLd0lULVlJRVZfTkdvRkt3WGlkZ0NXU3hLYTBXN0lDWjhUeVQwTWI5VFhrOE1zSEl4b2lPd2JscGNaeU81X05NUVRxckxR0gGYAUFVX3lxTFBBMG5uNFFJT0VRVmV4WVYyTXAwUk5iSzNDMm9kM3FxMlRReDBsbGt0Rl9ISkcyM0lvTWc1bzRxQ21ZaGxWaXg4WVZPR05vMTBFdW0wc3BLUjFyOUlBSUM3Yzh4emxPR3NCZEJacXVZWmVSTHk5ZV94UHJBTVFvanNiSm1tSUJuS3lzMTJjOEpuYjZsUENNZWNp?oc=5",
+        "source": "Daily Pioneer",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T04:25:53Z",
+        "title": "One Indian sailor missing, two injured in attack on LPG tanker near Iran - Daily Pioneer"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdWV6VmxBSkU3YzI1X2V0c3VNNmpJeHhMT1N1S0sxcTlsa0dnYUp1ejl6T3dtWWJmVVFtZmhNWmNuVmItNmFqX1ByRGoyNHQ5ajVCVUhxME5XZE42bWFxSmFKT0tyWXNfazhySjZFLUdvOXZzdXp0U3FSX1o1aW9vOUY1M2FCTmpVTFA2OTdHLXpmeTVzNF9YWnBnUnpxV04wcnExVVk0aWlmQVNEZVB5M1U4Nk4zc3hEUVdkcWFMblJGczJTaXl1eDBGZ0FJd9IB0wFBVV95cUxPSUJZVVlONXJJNFBFcEpvYm9hNTJkT0pzM3FzRUNLSy1qMjcyTXFlWFRhRHV0alU3dUVNT0kwS0hnUHRlUklqQVZIdWFETnBLVDhTSVl6bUNLdjJSTzRQaDd3ZHJEX01penFLdTZ1RURJYWhXSURUVTRCQk1fU3RpQmRxTnprQjJkNlF6ZnE0eUwxVVJFYzg5dnZMVENPZEFxcUdnTlVDVVZmcGZUNUtlc0tIZFJjT1RkTjY5aWF0NXZEN1ZFclMyOGV0MFlXUXRPN3NV?oc=5",
+        "source": "Times Now",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T03:05:49Z",
+        "title": "MEA Condemns Attack On LPG Tanker In Hormuz As One Seafarer Goes Missing, 2 Suffer Injuries - Times Now"
+      },
+      {
+        "url": "https://www.seatrade-maritime.com/security/lpg-tanker-suffers-engine-room-fire-following-hormuz-attack",
+        "source": "Seatrade Maritime",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-17T04:05:53Z",
+        "title": "LPG tanker attacked twice in Hormuz, seafarer missing"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOTzJHY0JkTmhVTDZCeC1nUzRzVkxvWHJuaUpVQkVaSzNEcjVMeGhtYTFCci15M25udV9pTnRDS05zdmgxUnhlRThFUGlwRm53SFRJb2NGN3dQZmpxV3p5UVhxOEUwNWNPWkphRXR3ZmxiMUI3OHp5TXdCVDhIWXQwdXI2aERwNnpSWmFvWEV3bU51eGxOejJzNkRieEgzRjR6ZGE2S1FEWDNfY29xYVJVMk1ReFoxNGFORVNZdkk2LTFIUUc5Z3NUUjZyamtONVk4bGlVYTZvQnY5T3c1bVhyaE5TaUVZcUwwSTJTdDkzRUpOQllOREpDZ0x2WS13YlRkTUVEekVvdWFhalh00gGSAkFVX3lxTE1mVDN1dHl1R081QW9lRFMtYWNlVl8tTWNZYk5EQ3Z2aXdBaG5aXzBoTDVTWVZ4WHNBZlBOMXl5RDB0N3F5MXRtT1lmUUVXTm5jRDNsRTlWeG54aUtWZGhFVlY3MFZyeUQ1MUN6Uk9PbXlhN1NDZ0JIZE9sYXBnT284NW5GUm5fakZPeUZaUGkya1U0NWJZRGpJYldMS3BXSmNSRjM1a3lIbmhzS3NzeUZyMko4VS1jcHAwcllEdnpvM25DeDVqVE9qX2VTMmN0YUNvd2VGTnRhb3NzNzNIU2NlYTh6S0NteThDMW9wLWxaeGFJb1ZrNWM0ZnlrQ2UtVHllcGZKcGFGamxqN0dFZHNOVlE?oc=5",
+        "source": "The Times of India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-19T09:13:58Z",
+        "title": "Strait Of Hormuz Erupts Again: Another Transiting Tanker Struck Near Oman As Shipping Crisis Deepens - The Times of India"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9jMDJ5aDhuaUlnUXpuYWRZY3VHb24xODk0bmNsdmlIMnh6SmNjN2szYjM5MEpCZ05MM2N4WWItREtUSHhDeU5hZ3R2QjdjbVJIMHVnM1VyaFN6OW8yMVpfSFNKNURaMWx2R2g4UHdscHVBc25nb1AtWldsaGo?oc=5",
+        "source": "https://houseofsaud.com/",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-19T07:48:23Z",
+        "title": "ADNOC CEO Demands Hormuz Reopen Unconditionally After Latest Vessel Attack - https://houseofsaud.com/"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5XU3Vrb1Y5RnBqTjk0LVlYY0IySkRQUFZsMEpXVHdOakoydW1WVWszdTV1c0xlWTJpUS05SUxxbk5PMlJyQWhaWXVuVV9qcFROd2ZUa2lUZEtiZW5Vd2tKT1I0cXM0NFlhN2ppYnNnMHgySVMtTmtuUldKSXE?oc=5",
+        "source": "Splash247",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-19T07:30:42Z",
+        "title": "Fresh tanker strike adds to bloody week in Hormuz - Splash247"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVXhTa2JpXzNnMFA0eUVudVVxMHota1BQamVMQUc4c0F0STNnaXVVYUE4VjlSMm1tNGlLdnlVMXZ2UTJramtRQ2dNcERBU2Z3WThxbDR5MlgzbTRYczZ2RWc5eXh0Q0NDY2w3VlpobFNTWUVuTGdzT3hkOXFRVVRCWU9VWkFDcURDWVExdFNlYklPZ2FtVTV1VXlxeUZlTE1UT2pybnRLRkozRXcwZTRKc3JzRUloN3dxTGdia0VTb0tiZUVtR2hjZnJSdDU3Zw?oc=5",
+        "source": "MLQ.ai",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-19T07:02:07Z",
+        "title": "Iran says three tankers hit mines east of Hormuz as a UK agency reports a tanker struck by a projectile off Oman - MLQ.ai"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUDRlZ1NlVnlEeE9aend0RUpBdERLSWNrNWVhVXExdWswa1A4YWpXbFVRb0NMVU5DMWo5eTAyQkJlaWtZdFV2UkpldUU3djZhblBNUlhKRFZ2T2dXanhJaTYyMk14MDQ0WUZaZXM0TFpLSGtrOWxUSHZ5Q3pqYk9aYmZjVFJvU0lrVXRuNmZwRGxqU2hN?oc=5",
+        "source": "Daily Beirut",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-19T06:32:53Z",
+        "title": "UKMTO Reports Tanker Hit by Projectile Near Oman's Khasab - Daily Beirut"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYW9wcU9lYXdZbkUxNW81T2ptOE45aUVmVmRpTldaRmZPSkNjMk5DcWwyZXhUNzlYNU5YTkVTOUVYRWhVLVVCeUJDOC11dFNyazJBTV95YWY4MC01WEJxaVhRb01sZTdXZWNGcmtFNGJWeE9kTS1ZVDdJY0NGOE1YYkpoTUh1Qlg3bGpaOGhtRk5HSHVpUUFITg?oc=5",
+        "source": "Türkgün",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-19T05:14:00Z",
+        "title": "Hürmüz Boğazı yakınlarında tankere saldırı! UKMTO duyurdu - Türkgün"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZjhQc0FQRjh4bHU5M1ZqTE5IaFNOak5XVEdkUk1PR0tKTHg1emNNZ3RTV3lEdy12emlrTl9Nek9ia0h3UXNCdmcyVDlsdU80UWV6MEFVaVE3NjNYUFZXb2kteDVoQTZ6WXNNWldRSE95bXBWc1RBNnRJWnNpcjkwdUR0WVgwN3ByTnZfcnlLU3N6ZXladHdTYUduRnJwT28?oc=5",
+        "source": "www.muhalif.com.tr",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-19T05:11:44Z",
+        "title": "Hürmüz Boğazı'nda tehlikeli saldırı: Tanker hedef alındı - www.muhalif.com.tr"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX0lzSjh5VjNwQkxYZnFfNzdYbmVZRVZVUEctS3hQaTR5RnZDbXREWEpxXzdQMVpqQ2FtR3U2UFl5SmgtQXdaRWlJMjN2eVhVQjROQXQ3SXEwMy1DRzl0TzU1Z0dzZFhzNHR0WktERWx2ZDhtaGRMQ3FiZUh0MFo2UnNEZUR2bnBQZ01xLXJQdWg?oc=5",
+        "source": "Apa.az",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-19T04:56:00Z",
+        "title": "Oil tanker comes under missile attack in Strait of Hormuz - Apa.az"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNb1Q3UTFoRkg0YnRKRjNFcTlobVk2X0stNWVfelVPZHZOVkRTOUdxcUhTTWFibnQ1YTNLUUdneUh0czZuSzc3a3U2SjVfR2FyOF9FWGU4N3JITzdIaURibV9LeE5ZYVJEM093UmxLZTJMRkhUSFkzYVJ4cUtSM1c2dGEtWTZaWW93R0x4alRHSGRLT1c5a2o1NXU1RlFiREVTSnpaSFduRXFJYk1NajYxQjVFS3NVVnR1M3luUm9nU19ndDhE?oc=5",
+        "source": "www.tmgm.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-19T03:43:45Z",
+        "title": "Tanker hit by projectile near Oman’s Khasab, UKMTO reports - www.tmgm.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQUFUSlpQZ0w2dXg0VDB2c3pId0o5bFJRRUhUT0FyQTRHN0hQdW8tcVNLbU5YSWhxamVySi1SV05yWmJEUDVuMHRpMndQaEFSNndVUEljSGV6TzdwemFib0tSMDltRHJJd1U3VktQUG9aTGZBTzNoRmdpbG1KWTBFd3JiQ0VzZzY4c25KTk12MmNhd3RCazRxaUhoRXBhMGUxOExpTnFR?oc=5",
+        "source": "Palestine Chronicle",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T12:42:43Z",
+        "title": "Iran Targets US Patriot Systems as Third Tanker Hits Mine in Hormuz - Palestine Chronicle"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9aWjF1VGUwRURVV2lnWUJiWmFQblpaVzUyelNRd29udmJXVW00b05wMW16ZGpUaF9IbFRlNTM1UEo0MW52UmtHVmVxTlV6ZzRheWwxVi04ZE12eGZULWhaRXF1eDczbk9UU2N4dlFkT1dfbFBnRmt1VlFBb9IBgAFBVV95cUxPN0kwSmZXb2o1bTJGRk1tYWJXczdUVGxmTGxnakZ5eEMzbDJjN0ZHbmNMdGRIeXhSVjlTVENZdzRjajN6dkY5c1NqSmF4YzVqM1RYaHIyNFpTZmNocXZ3MDlmUXFnemVqMjVEN0NVRDVOTGlKMHZ4LV9ReWswalJsYQ?oc=5",
+        "source": "NewsNation",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T22:02:28Z",
+        "title": "Iran claims 3 oil tankers hit mines - NewsNation"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNkhkbEhLOXFYSFF4eDJ5Q0x1cTAwbHc0WUxJWWxRMlJUSmZWN3k2Y2RXUGJoc0tGby15bHlGbEdrZFVzckttSzl5U0l3TGd2cjN3MjFUVHJLZXltekhmUVdmOTJLUmx0UUtYNTVORFVVSE1KRjR5dE8yOHRnaWV3RWhIdXlpWnFN?oc=5",
+        "source": "International Business Times Australia",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T13:23:04Z",
+        "title": "Strait of Hormuz: US Strikes Iran's Qeshm Island as Tehran Claims More Tanker Mine Hits, Says Strait Is Closed - International Business Times Australia"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOLVB0d004UExaZzFwQl9KSE9IODA0aGE1OVpkVTZDTmZxMG80LXEzMThycElvSmYzS29xbV9vMGJNODZUY0hjZGZoWTdmS0R2Q1VSbUJEQjNDdG13Zy1xbk11UENPRHlKRW1QS3ZZdUxVcnVaZERtU3JucUdwM1F3aHNSVHV5Sm1LOHd6VEhZcjNZV0ZmcjFaT21iemhPRmw5N3VLRmZmLXhUdEpCN1Y0Zzdn?oc=5",
+        "source": "EnergyNow",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-19T17:24:47Z",
+        "title": "Vessel Struck by Unknown Projectile Off UAE Coast Amid Surge in Attacks, UKMTO Says - EnergyNow"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1za3FXNkFIOThDRlluc0tSaVJxal9Id3M3MUNKbC04R2VmSWdBbVdHTkNpVlBsOGpWWmtqVDNBbVdSQk50M3ZhV0xLdHVsWGZtbE5nZ2xVXzRpN01heUFmbm1ITi1EOTdhSFE?oc=5",
+        "source": "https://houseofsaud.com/",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-19T01:25:56Z",
+        "title": "Iran Claims 3 Tankers Hit Mines East of Hormuz After Muscat Talks Fail - https://houseofsaud.com/"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNmsyUWp0c1Z4RWZQWmJHWml4RU4xZTJjZnpqRzZCSzlDR3NJT0RnSk81aDhDNU1tLVRCY2VWWEptNlZHS3UyVnNzVmI4b3NCNEk4RFJFa0p0TkZOZmN4aVYxcVFKOXdNUlRfT0xMcU9aSC1DRkVQUG9aNUJVQVFCRFVNaVV6VkoyWnBqZ0RqbTBHT3hPeUp6dlBUN0lYUENRNy0zR2Fn?oc=5",
+        "source": "ARYnews.tv",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T19:30:35Z",
+        "title": "Tanker struck by unknown projectile near Oman's Khasab, says UKMTO - ARYnews.tv"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZ1NsS2JTRDBPR2VpY3NDM09leVFYd1NZSGxkLXpyOG9Fbkp5UVRKNTJUUzlQaS1RWmFRaHNlLS1aczBhTU9XbHpDYlZaQ2tyTS04OHlIOEVrVzdIekVSdi14RUhIX2dXWHZrdjFmNXRjMk0xa25PQllnLWY0Ymhxcl9zaUc5eWM2clNKWUJiSE04NFVVLTZvT3B3T2FNVndmanp0OVBycGg3dDlsbW9na29ISnVZWmJzbTdxVjRia0JXT1BzV2ZMQlRZWUVaaFNJU1Q1Ng?oc=5",
+        "source": "Facebook",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-19T04:07:49Z",
+        "title": "DMW assists 13 Filipino seafarers aboard vessel hit in Arabian Gulf MANILA – The Department of Migrant Workers (DMW) is providing medical, financial, and repatriation assistance to 13 Filipino crew members of an LNG carrier struck by unidentified objects i - Facebook"
       }
     ],
     "first_seen": "2026-11-17T13:48:08Z",
-    "last_updated": "2026-11-19T20:56:52Z",
+    "last_updated": "2026-11-20T02:33:37Z",
     "verification_issue": 410,
     "verdict": null,
     "published_in": [],
@@ -4219,7 +4625,7 @@
       }
     ],
     "first_seen": "2026-11-17T22:37:01Z",
-    "last_updated": "2026-11-19T20:56:52Z",
+    "last_updated": "2026-11-20T02:33:37Z",
     "verification_issue": 412,
     "verdict": null,
     "published_in": [],
@@ -4914,13 +5320,13 @@
     "vessel_name": "WADI AL ARAB",
     "imo": null,
     "flag": null,
-    "vessel_type": null,
+    "vessel_type": "general cargo",
     "vessel_category": "merchant",
     "lat": 43.4,
     "lon": 34.5,
     "location_text": "Black Sea",
     "attack_type": "other",
-    "damage": null,
+    "damage": "third strike shook the vessel completely, per crew account",
     "casualties": null,
     "attribution_claimed": null,
     "independent_evidence": true,
@@ -4944,10 +5350,37 @@
         "kind": "media",
         "published_at": "2026-11-16T20:38:00Z",
         "title": "أحمد موسى يشيد بتكريم طاقم سفينة «وادي العرب» بعد نجاتهم من هجوم المسيرات بالبحر الأسود - صدى البلد"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBKX3BRRTkxYXQ4QTNmUl8tLUVBdEROOGNwTG0yWEhRSWZZTVlzUFpiNFZfRngwUnFSd2tVNzZNZk5EdFVaNHBzNHJSNktzMFc3eURyX0hDTzlCZm9NMXBZ?oc=5",
+        "source": "المصري اليوم",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-20T00:16:00Z",
+        "title": "قبطان سفينة «وادي العرب» يروي لـ المصري اليوم تفاصيل استهدافها بـ3 مسيّرات في البحر الأسود - المصري اليوم"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBRY0NZbkZFTXMzOEZRZnhjUnplS1dqeE94djBON3BEZFJ5em40cmtldHM3MnFLampfalhNbnd5eThIVzJKcW9CQjFsVDdWQkJVOUxWUjRSVm85MzBtTGNn?oc=5",
+        "source": "المصري اليوم",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-19T22:23:00Z",
+        "title": "«أبحرنا بالخرائط الورقية بعد هجوم 3 مسيرات».. كبير ضباط سفينة «وادي العرب» يروي كواليس إنقاذ شحنة قمح وطاقم من 30 بحارًا من روسيا إلى بورسودان (خاص) - المصري اليوم"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFA1eTVfR0JaRlFhemlSTTZzd2pDTGpkUElpMFpFTUN0WWdWdkUyTjdZMlh2NFFNNDIzUllGRFJ3QjJMYTA?oc=5",
+        "source": "www.youlyou.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-19T22:00:50Z",
+        "title": "الضربة الثالثة هزت المركب بالكامل.. طاقم سفينة وادي العرب يروي تفاصيل هجوم المسيرات - www.youlyou.com"
       }
     ],
     "first_seen": "2026-11-16T10:07:24Z",
-    "last_updated": "2026-11-16T20:40:24Z",
+    "last_updated": "2026-11-20T02:33:06Z",
     "verification_issue": 403,
     "verdict": null,
     "published_in": [],
@@ -6195,10 +6628,19 @@
         "kind": "media",
         "published_at": "2026-11-18T18:15:06Z",
         "title": "Karadeniz'in ortasında dehşeti yaşadı: Saldırıya uğrayan dev kargo gemisi Türkiye'ye sığındı - Havadis"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZjFRZUlMajVXV3VtS3Eta1VheUVFUm85VnpvOV8ydXJSaXdXb3EySjZpbVQ2RjBRenZHZV84UFVicXprZjV5WE9LMjdMWE1jWTNDeUxldDNxREVOS1JDSWJ6VURqejEzb0hxd3NNMVl3Y2prM3JrbzNLc3ZHOW5iVlF5Z1A5Z1dhZlpGdERBZG9uNzlHNVB0U3FCbzlFZ9IBowFBVV95cUxQNm9Sd0NnU2wzNmVBN3A1bHAzRmZ3TVdlRTBQWmdGNUZQUEViS1hFSEFnSHZacEJXdDAzWjhuMjBENTY1NXFpcURNcEY0REtIcWpkYldyMld1NVVlUU1MRXMzbC1OSlJFallfYmdhQ1pTVHFKWEM3cWNYMXNET1RQZjRLTDh6a0NOZ01xT09QLWs1Q1dHQlVhY3FHelhHQnM0MXo0?oc=5",
+        "source": "Inquirer.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-19T21:46:00Z",
+        "title": "2 Filipino seafarers hurt in Black Sea ship attack – DMW - Inquirer.net"
       }
     ],
     "first_seen": "2026-11-16T20:40:24Z",
-    "last_updated": "2026-11-19T20:56:52Z",
+    "last_updated": "2026-11-20T02:33:15Z",
     "verification_issue": 406,
     "verdict": null,
     "published_in": [],
@@ -8938,10 +9380,28 @@
         "kind": "media",
         "published_at": "2026-11-14T16:16:00Z",
         "title": "Russia says it hit cargo vessel, infrastructure in Ukraine's Chornomorsk port - RIA - Reuters"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTVhwdW5kU0ZJemYzTTRrQXlxY01NdTFJdkdZSElxUVlwNzNwczJDV1ZxZW04ZTdnMm5SOHpzMlNuTWI2ZkFWenB5dUpfc3IxeHFxWHltLWVsYTh5elluM2JLZ1JxWlExdkN1dDdTNTU3TDlsSmJ0Q3ZXQVhrbmFJZWJpMFVXeDRUa0tmcjdNYngwRTd5c2pV0gGcAUFVX3lxTE1ONjdpUmZOSndMN0NEbVVkSXVKLS1OVVNwdjc2dW5sbjVMVXZPQXcxU1VxUEp0TXB1Skh2WmVEUUlWU29MQ19SdGNmeDBQWGxuLTNkSFQtNjZLRnV2cmcwb3pKS211MVdub3lvR3FGbHZCcGJnZTh0b2Z5ZGc0Tk9lUjdsb0NDY2M2eVRYQzAyRXRsNDVDVVpsUUg4dg?oc=5",
+        "source": "Denizcilik Haberleri",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-19T06:00:24Z",
+        "title": "Karadeniz'de İHA saldırısına uğrayan gemi İnebolu'ya çekildi - Denizcilik Haberleri"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaTJfTzdWMUVRZGlHV2Z3NzBBX3pZalgzOFN6aktTeXlJLW4xd1ZQTnNwejBuZnZlYkYtaGw3dFA3ZnVKckRsMUFiLS1DV2k1X1JpVDhSYlBfbGVQdnJhQ21TR0ZrVkRpanlNNGowNm1meG5FT09GYnI5NTB4ZHBENE9uaVJZYWtyWWg0LXVEQUJlWUZFZmZpbmw4a1ZNUnU1c19NTVF6dmMzZFE?oc=5",
+        "source": "Gazete Pano",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T09:30:46Z",
+        "title": "Karadeniz’de saldırıya uğrayan Larissa 1 gemisi İnebolu Limanı’na ulaştı - Gazete Pano"
       }
     ],
     "first_seen": "2026-11-14T10:52:28Z",
-    "last_updated": "2026-11-19T12:04:12Z",
+    "last_updated": "2026-11-20T02:33:26Z",
     "verification_issue": 391,
     "verdict": {
       "status": "confirmed",
