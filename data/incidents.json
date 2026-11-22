@@ -222,7 +222,7 @@
     "summary": "A Turkish outlet headline reports that a ship carrying military cargo was struck in the Black Sea. No vessel name, date, attacker, damage or casualty details are given.",
     "official_source_cited": null,
     "conflicting": false,
-    "confidence": 0.5,
+    "confidence": 0.6,
     "vessel_name": null,
     "imo": null,
     "flag": null,
@@ -273,15 +273,34 @@
         "kind": "official",
         "published_at": "2026-11-22T05:44:30+00:00",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9oUlRLZXdvamlmRFpCQzc2M3JpNXRuUE9DbE9iOXh5NjhERk0xLW5jZEdFbU1Vb3Z6cXNvQmlkT004aENSYmlUaWtxMzI?oc=5",
+        "source": "البوابة نيوز",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T16:25:00Z",
+        "title": "استهداف سفينة شحن روسية تنقل مواد مزدوجة الاستخدام للجيش الأوكراني في البحر الأسود - البوابة نيوز"
+      },
+      {
+        "url": "https://t.me/mod_russia/69254",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-22T15:41:07+00:00",
+        "title": null
       }
     ],
     "first_seen": "2026-11-22T10:14:11Z",
-    "last_updated": "2026-11-22T10:14:23Z",
+    "last_updated": "2026-11-22T18:01:18Z",
     "verification_issue": 450,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261122-009"
   },
   {
     "region": "Black Sea",
@@ -325,12 +344,460 @@
       }
     ],
     "first_seen": "2026-11-22T10:14:27Z",
-    "last_updated": "2026-11-22T10:14:35Z",
+    "last_updated": "2026-11-22T18:01:18Z",
     "verification_issue": 451,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261122-009"
+  },
+  {
+    "region": "Gulf of Oman",
+    "date_utc": "2026-11-22",
+    "summary": "Radio Svoboda publishes satellite images said to show the Russian vessel attacked in Benghazi, Libya, which Naval News says was used by Russian authorities like the Sparta II. The item does not name the vessel or describe the attack.",
+    "official_source_cited": "Hammad government (Libya)",
+    "conflicting": true,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": "Russia",
+    "vessel_type": "other",
+    "vessel_category": "merchant",
+    "lat": 24.8,
+    "lon": 58.2,
+    "location_text": "near Benghazi, Libya",
+    "attack_type": "sea drone (USV)",
+    "damage": "vessel reportedly attacked by uncrewed boat",
+    "casualties": "10 injured in the port attack",
+    "attribution_claimed": "Ukraine (Ukrainian USVs, per the outlet)",
+    "independent_evidence": true,
+    "id": "INC-20261122-006",
+    "sources": [
+      {
+        "url": "https://t.me/Crimeanwind/113306",
+        "source": "Crimean Wind",
+        "source_type": "telegram",
+        "side": "ua",
+        "kind": "osint",
+        "published_at": "2026-11-22T17:58:02+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/UkraineNow/85466",
+        "source": "Ukraine NOW",
+        "source_type": "telegram",
+        "side": "ua",
+        "kind": "media",
+        "published_at": "2026-11-22T17:55:14+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/operativnoZSU/226746",
+        "source": "Operatyvnyi ZSU",
+        "source_type": "telegram",
+        "side": "ua",
+        "kind": "media",
+        "published_at": "2026-11-22T17:49:22+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5lZVNjTmxkdmVKSUVGeFk5a0o0ZFlrTEtPa0R5UG1pZy1wR19XWWN2LUZ4VW51dXlLbmRhWThZQ1l6R0JRZTBuRjNPLTdRWjFVdklocjdSdlRQVUlRWTNR?oc=5",
+        "source": "المصري اليوم",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T17:48:00Z",
+        "title": "استهداف سفينة تجارية قبالة بنغازي بزورق مسير مفخخ.. وإصابة 10 في هجوم على الميناء - المصري اليوم"
+      },
+      {
+        "url": "https://t.me/uniannet/207838",
+        "source": "UNIAN",
+        "source_type": "telegram",
+        "side": "ua",
+        "kind": "media",
+        "published_at": "2026-11-22T17:38:25+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/operativnoZSU/226743",
+        "source": "Operatyvnyi ZSU",
+        "source_type": "telegram",
+        "side": "ua",
+        "kind": "media",
+        "published_at": "2026-11-22T17:32:03+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMzJoWHJVVVJZa3E3dU1TU0hRX0NQMkNoOXVDc09FSFBoYlhjV1RQeWdobHBXVS1pWVJtTE0wU0NNWGxNOHJHdF9zRnhDSmpNcnk3VmtCb0hPaUxMTlJMYWhqZDlEcFp2VURCZWpTd1gwYjc0cGlyclY3ZU12X0JPeW1vdGZ5Um9oYVYzS0k4Uksta3RnMURZMW5lQ3lCZHFqQ0E?oc=5",
+        "source": "HotNews.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T17:31:05Z",
+        "title": "O navă rusească a fost lovită de o dronă într-un port la Marea Mediterană - HotNews.ro"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdzgxQjUwV0pfTERWbFJKR2o3OUxtVTczSkRlNzc4Q3ZacmlrRkU4cmFsekhUb1pSVmxsYXJ0enlhZzB4RDl4QXd6dDZNYVA3Qk4xN0FNTmxaUXhpUlFOU2lhTVRjWnpVRnNDclpDcmI2c183cDR0RVBEcTdkMVBIdkJQaHNybmlVZGhYVEQ4OVEyRjRHMU13d0NLaXlWaUJ2dWctMlh6WFM3SFVPVlJybVgyS09PX3cya3ZpWE5R?oc=5",
+        "source": "Il Sole 24 ORE",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T17:26:35Z",
+        "title": "War, latest news. Media reports: Russian ship hit in Libya by Ukrainian drone strikes - Il Sole 24 ORE"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZzU3ZEZYME5lS0ROc3NoTHNrNlpjVlUyd2xjVnRLREpzSWlZWXMyS1E3OTJMZmxZNHZJV1BpbGM1U045c3JTc2p2dlFTYTNTSU9qdnVZamZZN29zR0JBY3ZpYjZ0Z1FpVXc2cDViTFZRMHNwejhPcTBrUHVqdFhZZG5XTTFSYi1Yc3AxaVlLc09VcTdyVzdFaNIBngFBVV95cUxNZlFIcHE3SVRDUFdGeE9CTEgtM3I3T2o3OTBUZWlQaU5IbWhXNVY4NjVqQ2s2eEJLVTRlUXFXakFWdkc0T3ViME1EMUt5US1zejJPSkthWjVaejRkTExNOGJ3LURHWDB3dndjeDBBM0hyRWt6d05ESnE0Ul9BbzlzSXZLSS1MZHM2RUJ4ZjJaMVFZSmlWS3ZSMEgtR2RJdw?oc=5",
+        "source": "Al Jazeera",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T17:15:00Z",
+        "title": "Russian vessel hit by suspected sea drone at Libya’s Benghazi naval base - Al Jazeera"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5rSVg0Wl9uc3ZzbDkyQmdJcDJEbWJkZWtqQ2dXWEotUTF4M0I3WEhyOE9HdWhoOEQ0VXo3MHRmTy1YTXpwUmxwRVhHTTRGclhqWGh0aEZ2WnFfNGc?oc=5",
+        "source": "صحيفة جدة 24",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T17:14:32Z",
+        "title": "ليبيا.. حكومة حماد تعلن استهداف سفينة روسية بمسيرات في قاعدة بنغازي البحرية - صحيفة جدة 24"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOa3Njd2E1M2NSa3E3OXB6aGNzdElKN1VYeG16TE5xNUZ4UjNnRUVuQ0lTVWNKY0VjZEp4SGpiZFUxME9TTkJfNkRieUF5dDhSOVY0TEVlSkNpOHJ0Mmg4cHVtdWtsclhvelpHWVpienZINmpvSm5MXzNialY0R01sREFFS1ZZSm9INUpVR2FRanNiNGpvQXVib0VxNXhmUXIzZUhHd0h5WnJzVEduRWFLWXBsQjJzajVGME9HSFhjWHRiVXFLa3UzVzZhSTNJZlJuUGtETA?oc=5",
+        "source": "G4Media",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T17:10:36Z",
+        "title": "VIDEO | Explozie la bordul unei nave rusești în portul libian Benghazi / Autoritățile suspectează un atac cu dronă - G4Media"
+      },
+      {
+        "url": "https://t.me/astrapress/131936",
+        "source": "ASTRA",
+        "source_type": "telegram",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-22T17:10:17+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-11-22T18:00:47Z",
+    "last_updated": "2026-11-22T18:00:54Z",
+    "verification_issue": 452,
+    "verdict": null,
+    "published_in": [],
+    "status": "reported",
+    "status_changed_at": "2026-11-22T18:00:54Z",
     "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-11-22",
+    "summary": "An Arabic outlet, citing Libyan sources, reports that six explosive-laden Ukrainian sea drones struck a Russian ship in Benghazi, Libya, and that Libyan armed forces foiled a second attack; Libya has opened an investigation. The item does not name the vessel.",
+    "official_source_cited": "East Libya government",
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": "MERCURY",
+    "imo": null,
+    "flag": "Russia",
+    "vessel_type": "other",
+    "vessel_category": "naval",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Benghazi port, Libya",
+    "attack_type": "sea drone (USV)",
+    "damage": "Russian vessel struck by explosive sea drones; Libyan sources say six drones took part",
+    "casualties": null,
+    "attribution_claimed": "Ukrainian sea drones, per Libyan sources cited by the outlet",
+    "independent_evidence": true,
+    "id": "INC-20261122-007",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwRBVV95cUxQbXowaXpGczVHMTFHS1pkb3prRDlINjRweks5dXRaMmJoM21Sc2dPRGlRNWN4TDY1ZzMwNzg5cVBBU3pHMlkyMFZ6SThRTWdLZThudWQtRDcyYUhjUjlKSmM0ZWVfek1iWFFGNVA2VmhEUmh0a0pqUjl1QmxHQnA1YV9OQVBhSG12V1VBWXZPNjE5NFhnZDhzeTVFNTJRNlVXWUhUazNTQldCMzlJWTJtQ2xodDc0clR5anFURU1tbTVLZkZXQXVCNEFLTHhueUl0ZHJ2bWRzTHl3clBLRDl6UldlNVFXZTFsN0kwdGF0bWZOMU5welk0X2g0Uy1IX2wySVc2TXpnVWY5NUNuNmcwMHBlTUt0cGdYUjdSQUliOW5ZOUsybjFIbVZzdGFNamRMeTdBM0lnRGxubVo5N0pxelJaR3lsTklWRUhFcF9nREZBRk8zRVFuTEVYM0FRdG9qVUt0NVl5ZW5vSzViVl9neTFQaDhBcEt1RFhZaEVTZGdIWFQ4VURpSXcwa2hENlljMjBHVWJPdDFJb3o2bVlKWExRXzRaZnpSeXl2RENLUUlQVFY5Z3dZWks1N1N4a1JxUkhDYXUzOUlONmh0MTNxUTdoSVJlSEdqWWVTdnU0OXFHeGF5ejVRVDJBTHdtdDBPUXdxZk44emprTks1T3NwLWZSMDU2M2k2OTVUUGd1a194SC15WGxNbjVQaFE3aVJIdnlWUVJjUllRSkppMGFKbkNRckdjNlXSAbIEQVVfeXFMTlUwRmF5WVA2QS1jaVJ6bUVsRVhDa1lLS285a085RW0wT3A3d20xWnhYOF9ySFMyeWUwRVJnVVJtQ0lFZTlucHJsQnVtMU5YOVNMdGhZVjRjMnptcGgzcnBrNjZqZVhQU184dDB1c1ptYlIteUlzS1RYdXNTNVBWTzRWeXNSUmwxekltcUN5UHVUc0wyenRGeDN2Tml1bWJJZzN1OGhLRGJUeHRDOE40Z1dldll3SlFCRkQ1X3hoMEViV1lOX0FiMU9ieWx1MnB0LWtWSVNwc0I0RnItV08yX1RkUXEwX1Qyc0dlZnI4M3E1czFkeHFPZlJJaDdDeFIySnNsTHJ6djNGbnFFdHoyemFrdnQ3SUtGTWNveEJKRHVMUXVQYWhQVldkT3IwbFBoSndaa241U3pFM3EyaTRIS2RFcXZ6Z0w4OWpNZWtZZmFwRFA0N2t3X3hKTGN5STNScjVBM1JrZUZOXzRTSExDTFdsb29vUGlvNkJKYU1iX1YtMHJ3N3kxVm45cVlVcHJUWjZzd21fb19pUkxnUHBHbFp6OXpUYU9qbTVWTjRIQjVJcjAydC1PcWdLUjI0dXQxUEVlRHFzR1RFSkNySW9pOXhLTDRvUXN0c3NfaTNjMUJaMndxNlphT3RJZkMzZTlzLVRVWlJiX1JsVmJWaloxTnAzTFpWcXdQcXowRF84Rm9LUWJsdUtQeWlTNTRVN1cyaklpRWNUV0VEajZDd2tZNlhMZw?oc=5",
+        "source": "اليوم السابع",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T17:09:00Z",
+        "title": "ننشر التفاصيل الكاملة لاستهداف سفينة روسية بزوارق أوكرانية مفخخة في بنغازي.. مصادر ليبية لـ«اليوم السابع»: 6 زوارق مفخخة نفذت الهجوم.. والقوات المسلحة الليبية تحبط هجومًا ثانيًا.. وليبيا تفتح تحقيقًا شاملًا - اليوم السابع"
+      },
+      {
+        "url": "https://t.me/Crimeanwind/113302",
+        "source": "Crimean Wind",
+        "source_type": "telegram",
+        "side": "ua",
+        "kind": "osint",
+        "published_at": "2026-11-22T17:02:21+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbF9aWXo1Mk1Jb1c3UGM0eGx4a0p1LVF5SlJBY0xkUjlEMlNsZXk3cTg3a1dITndxcGRXbDhfQWFfZGR0LTZwLWItZ0VzLWxYOURmRVhiNHk1eXVENFdxN0xTSUhKeERYbTg5OFlYdXZVUGt6MjdHVHhnbEJrMnZ2MFViOTBjSFpaOVJTVUxrQlEzN1UyTU1vX2Y4MnhTUUVLa1VMUkxRQWR4Q3NFaTlSa2pR0gHEAUFVX3lxTE9OeVpMVFc5dF80QmJuR1QyNVUyZi1mRTktR3phaEJkVFlIMlhQQTJlU1Z2M1VFUDR2X1ZJZUdFWWlUNmlBVzNjYmNjcW1LZVI4TFRrQkotdlVKTm1iWmxKZU9ZTkVjMjl4RXdSOEtwVk1FcGpzdnJFOWt1STdPNEVNWlpyM0ItemNJS2pOajljblFQUDU2a2toQmRBcmg4VzRzdnM2NC1CX09Wemx5dV9nRC1QSXhlMV81RUZTazVXa0RBc2g?oc=5",
+        "source": "Gulf News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T16:48:06Z",
+        "title": "Libya suspects drone strike on Russian ship caused blast in Benghazi - Gulf News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQa1ctSWpvcWxFWWhNSy1NTkhEbklFaDJNZXloeWRRaW9YUnhTeVM4RFpCLXdLak1OWkhQaGk2UEU4VVMzWlhxUVU2UDZramVPMTVuRU9rR0htVlpXeEpJTkNqbHNweWVPVWp4M2hWYkd5MG1DaDYxamZxSFE0WU40NWlYMXcyWGhDRHE3TFNzNHNCTUtwczZTbnBn?oc=5",
+        "source": "Yahoo",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T16:40:56Z",
+        "title": "Drone destroys Russian warship at Libyan naval base - Yahoo"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCLS1yVGV3eFFZVWRvczY4bHo0NmlDV254SVJhdFdJaVZhZWV3VC1BVFFsTzN0SzN5bHRVU0RqRFdDTUg1RFg1LUlTVGxqS1l3cks0?oc=5",
+        "source": "شبكة تواصل الإخبارية",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T16:36:42Z",
+        "title": "Libya Suspects Drone Strike on Russian Ship Caused Blast in Benghazi - شبكة تواصل الإخبارية"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwgRBVV95cUxNNzdIMlFFSDVycF9NLVRSTmVGbGt5YU56YmYteWR2dGxqSm1LaW9CMlZaY2c2dUVZNWpfTWpHT0FPeTYzN1R1NVMtMUQ3Q1dUT3Z0R05zaFp5dHYzOGRPSWtNUU9uVXluOHBvZmlGV2l0Q3ItMEZMT3dVYk9qZUE1ZTA3MHhJc3NDbEVKS0tYelQ2MHB2LTAzcFIyeF9uZUpqeURpQU83N1RfUnFzUUxnV2UzNUxBMnZUYlRwX09SdFZTc0hxYnhlczZhV0daN3dsWU56Z19tN0VTY1EyRHk5eFJ5MHlYd05TSEU5aVdJQnJDMmNNRFVzSktybE0wbGRTZDk4b01udEc1TFhPNEtTRWpVVThEY1lVSEczQWt5TnRON3Mxd241bnlualpKcWN6d2trOEM0RlIwZExTakZYNmxhSE1QeUNhSjI4SDJiTktnTjJ2OFlVZzFtM0laSlNwdlNxNHl0bG1MRnItN09JdDlBSmtYUldMYXlFSTY0ZVFOb1l6QXIwMnhEcmQyamlpdm1JYXNONGFVdzRaam5hNnh5Wk42aWRwZTdRcWRvMlVYdGduTkpZaHYtMnU3Ym5DUE9ic1NtRjkydm5mN25YbXg4aTlqLTkyMGlSYlo0bDFyLXFCT1ptTzNVX1p1bkdmV21FUzJXZk5sS3JreE9KNlR6cEpyWnVfampYX18yY2FSSjNEN1kwMEVMX0VIc3pWb2NvZ2NOdkZTTkxHdlBpZ25zS0xuN2lVZnZ5SmJmNmlrZ9IBxwRBVV95cUxNYTJ3Njgxa3p6eTA3ajQ1SXFORDltdXQtbjFWQVZBenNIVTFBdzdDa1ZDZ01jZUtRalhBOGU0a3M0MGN1aTZxcEIzRlJDczJITzU5ekpmZjhaa3dyYlRJRWZjenNYREI3b3dXWmw0OGtla2RraHA5RzI0d2pLUk9pU0k2ODZtNmduMkk2ejZ1VGFzSlYwTHB1QkpRUG1YaTJ2RFgtTTlzd2lrYklJTzBZVGlqcDNjUGE5NWloYXFrWXFlcFFoTHJfMEV5V3Z5RWh3UWMzZEhrWVd0S3NBM0h2dldDUVdWcXc1S0c2cUJwdElob2Zia0wtaUtJUGVySXJZc3ZKNnRPdlpXWWZtcjNvYUduR1JraDltdTBPNTNmREQ2Y1JCWm9OTDBQX2NlWlJVdjZsaDJ3MkZnUDhlbDBTOUFHeWVydGxwYXlxS0VnNWNiaVFNMFZ1Y0liVUMzTEQwYmhVZEdCRy1TMzl4QmNOWVdnbWp6NlVaQ2kzZV9JY3JxcTRKN3RKdnlxUW41WE9oMlZjLXNUcTFhMzFBNkRYdVZzV3E0VTFrRVItZE9JVUsyV1hyWWFKV2hiM3lrWm1UbktMeVVqU1hySkl3ZThEQjhrNWU2QUQtbWw2TlU5aHpJajhOVDZieTY3ZTIwNUs2M204a0h6elBIaTRISW4yZklCcEIxYlpvb2ZZUlZiOUE1UHhFVlNCOFE3TUlRS0NjR2RacnZacG5tNjdNdHB2RDBMdzNiejFmTk9BV0JVbUJ4UjNILTM4?oc=5",
+        "source": "العربية",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T16:24:19Z",
+        "title": "حكومة شرق ليبيا: لن نتعامل مع استهداف سفينة روسية باعتباره حادثا عابرا - العربية"
+      },
+      {
+        "url": "https://t.me/Crimeanwind/113295",
+        "source": "Crimean Wind",
+        "source_type": "telegram",
+        "side": "ua",
+        "kind": "osint",
+        "published_at": "2026-11-22T15:20:29+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWGxrU3RvVEdwVWZlMUR2UFlaeTFjTVUwdEtFMFpqNTZHVEhoNTF2OHhKakVjTTQ3anRiMlFMUUxsNFRheEJ1ZVZ5MWtsQmoxZHYxc2JiRk9leTJkT0FkVjY0SzZSSHZURlE1U3M0eXZ3a2Zoa1lscWN5ZHVoOWhaUWNfWFJFeVRSWTJPUWRGNEMxOGlQU1p1VTAyTEVvZlN6bmlaanJybWd6aG15clROOHZzcndaWFRWQjVveGttNm0zYi1lTjdTcFQ2UHhoaWM?oc=5",
+        "source": "TV8.md",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T15:19:38Z",
+        "title": "/VIDEO/ Explozie la o bază navală din estul Libiei: O navă din Rusia, vizată de un presupus atac cu dronă - TV8.md"
+      },
+      {
+        "url": "https://t.me/rybar/84869",
+        "source": "Rybar",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "osint",
+        "published_at": "2026-11-22T15:14:02+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWTFaWGNSOGVEUmpiS0N1akVQcHphTFZqaG5RUEZtbGtheU56LVlBSG5nZVBSMkpIRC11LUlUOEc5ME9STjZMZDlTZFhCdzNxVEQwY3ZkQWE0akVhaHZ1eTUzWUd4d2pUTl9QSk5kd1R4ZWlRaFBnaWpFNUotV0pkWTVrTXpnSlpac0xKc0xJU2hYbHFFM0RoS3ZR?oc=5",
+        "source": "gCaptain",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T15:09:48Z",
+        "title": "Suspected Drone Attack Caused Explosion On Russian Ship At Benghazi Port - gCaptain"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVzl2Q3NDZDNxaFBKZWY0X3ByU0xWeUEzbVFhOWJuRGlUOXJZckp2NkF0dnh2N3hEbXZxOURwQ2I5SzBvZHVDNlBXa2M1cV9UWHFwU3VCUDBYSXNlUnptVktLSnhqdXdPcE5QelU4SV9rdGp3WUZtcGpfY2ZfYkZWcklHMEh4WEhCblMzR2hhVWdoUWczSXRTelZSdXlGdw?oc=5",
+        "source": "جريدة القدس",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T15:02:43Z",
+        "title": "الحكومة الليبية تكشف تفاصيل استهداف سفينة روسية في قاعدة بنغازي البحرية - جريدة القدس"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOdHM0Yk4xZDNZbFh3ZE1makY2bGxmNWtDUU1aV1cyeURXX2dKN0JRVXBiMC1SbVBFQTVxSmI5bHh1bWpSamJJYlVFeW1MaS03U3NsQ1p3YV9pSV9BcnQ1OE5fbTlKS19Nbkp5SkQ5alNCZEJhMnBpWGwwdVFLOTRTcW1FbzFFYlB3QUtVNFpXLS1oRTktX2Jab0ZhN0tKNng2SmRjaTBXSjlvc3lONTBuS3J3VGp2TWgzTnhwQTlKZF9DdlNlSXR2b2xXc2JSM21uMjlQendSUG1meXBSUDc0S2dPQnVaN1d5V2NCbVlVSEdBQQ?oc=5",
+        "source": "News.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T15:02:09Z",
+        "title": "Libia: Explozie la bordul unei nave ruseşti în portul Benghazi; Autorităţile suspectează un atac cu drone - News.ro"
+      }
+    ],
+    "first_seen": "2026-11-22T18:00:59Z",
+    "last_updated": "2026-11-22T18:01:18Z",
+    "verification_issue": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "review pass",
+      "at": "2026-11-22T18:01:18Z",
+      "note": "Out of scope: (b) target reported as a Russian naval/warship in Benghazi, Libya, outside the area"
+    },
+    "published_in": [],
+    "status": "rejected",
+    "status_changed_at": "2026-11-22T18:01:04Z",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-11-22",
+    "summary": "In its news roundup, TASS reports that Russian forces struck a dry cargo vessel in the Black Sea. No vessel name, date detail, weapon, damage or casualty information is given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Russia's armed forces",
+    "independent_evidence": false,
+    "id": "INC-20261122-008",
+    "sources": [
+      {
+        "url": "https://t.me/tass_agency/407085",
+        "source": "TASS",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-11-22T17:01:01+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-11-22T18:00:59Z",
+    "last_updated": "2026-11-22T18:01:18Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261122-009",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-11-22",
+    "summary": "Russia's Ministry of Defence claimed its forces struck a cargo vessel in the Black Sea south-west of Mykolaiv that it said was carrying dual-use cargo for the Ukrainian Armed Forces. Turkish and Arabic outlets repeated the claim, with one also mentioning a transformer substation, but no vessel name, weapon, damage or casualties were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea, south-west of Mykolaiv",
+    "attack_type": "other",
+    "damage": "dry cargo vessel struck",
+    "casualties": null,
+    "attribution_claimed": "Russia's Ministry of Defence",
+    "independent_evidence": false,
+    "id": "INC-20261122-009",
+    "sources": [
+      {
+        "url": "https://t.me/rian_ru/350277",
+        "source": "RIA Novosti",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-11-22T15:15:18+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTTBFMUQ5RndFQWhraVV1NDctLXVUSmRudGpVS3ZvZVNOSUczTWF3UzBvOFRkNVlmOVNVYnljeFBObmg3ZkNOSG5JWjlvS0FDOEJ5dFZOc0FUS3lVNnBnZG4ySkVkWjR2Z05JQ0NEblFJUTFDLU1PSGVjTmpzZGc2TThFMFZXWXlkSHd6ZnRMTWwtQkVvYjZHdVBpSTlPdw?oc=5",
+        "source": "Van Bölge Gazetesi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T08:12:00Z",
+        "title": "Karadeniz’de dikkat çeken saldırı: Askeri yük taşıyan gemi vuruldu - Van Bölge Gazetesi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNc2wwVUZ3ejgzejJNel9WcVV4anB1djRVMFZSbFNBU1dXcTV1U3pkZ3RhMlAzNzZlZm1oVkd5UjF3c05BVDFMXy1admxIWWVfcC1fTkxJdW00TTF5R3kySlBJeGJOczRWdHhFMmFVVkY1MmtJRndjVTBrYU9GeVVCak9mLWE3TjBBUHdLZGFjYmxtOEHSAZMBQVVfeXFMTXNsMFVGd3o4M3oyTXpfVnFVeGpwdXY0VTBWUmxTQVNXV3E1dVN6ZGd0YTJQMzc2ZWZtaFZHeVIxd3NOQVQxTF8tWnZsSFllX3AtX05MSXVtNE0xeUd5MkpQSXhiTnM0VnR4RTJhVVZGNTJrSUZ3Y1Uwa2FPRnlVQmpPZi1hN04wQVB3S2RhY2JsbThB?oc=5",
+        "source": "Denizcilik Haberleri",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T08:03:05Z",
+        "title": "Karadeniz'de Askeri Yük Taşıyan Gemiye İHA Saldırısı - Denizcilik Haberleri"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWWdHeG10SEtpdTZPQy0tYzJtcmNkVkxWcVJFZGRfdG9wWXZocWF0T2FqU1NocDc4THpKTjJaZWRnNG9NaDA2MDhtVGN5ZFZlejZEV2RkYTd3TkczVTkwNHNiQnJmV3pUdml0SzNMRHhGdlN5X3QxaTJhRDBLeTVKdXVORHd1MVFJSEVHbzNPVDhTQTVpNk10Sk55WjlDd2NXTHBJX1BWa1pNb3B5SFpn?oc=5",
+        "source": "sonhaberler.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T07:14:00Z",
+        "title": "Rusya’dan Ukrayna’ya peş peşe saldırılar: Karadeniz’de yük gemisi vuruldu - sonhaberler.com"
+      },
+      {
+        "url": "https://t.me/mod_russia/69236",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-22T05:44:30+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9oUlRLZXdvamlmRFpCQzc2M3JpNXRuUE9DbE9iOXh5NjhERk0xLW5jZEdFbU1Vb3Z6cXNvQmlkT004aENSYmlUaWtxMzI?oc=5",
+        "source": "البوابة نيوز",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T16:25:00Z",
+        "title": "استهداف سفينة شحن روسية تنقل مواد مزدوجة الاستخدام للجيش الأوكراني في البحر الأسود - البوابة نيوز"
+      },
+      {
+        "url": "https://t.me/mod_russia/69254",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-22T15:41:07+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONEt3TjJiNFhzeFJpMmY5ckFwV3Y0aWhOcmJ3c0RPMDZWTFNreHR6RlQ1cmstb1hOcF9zczNmaDNQNzQwYTRXMEJpVkRSSmpQUDVhVncweVVYMFBPYTM2cjVhVkxIR3JxZHNyVzM0bmp4QUlWZFdOTmluN0IzWjVTWkNTNVdKaHBDSmZsSmlpZ1FQVEJfNURBME5HMVl5aVFHRmtkSm1NSXZidw?oc=5",
+        "source": "İşçi Haber",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T05:42:00Z",
+        "title": "Rusya'dan Ukrayna'ya saldırı açıklaması: Trafo merkezi ve gemi vuruldu - İşçi Haber"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinANBVV95cUxNMEczRmo2d0c3ekRXb1RtOFBCcWpoYVd5ckNCOE5FdzlCWFhqaTFWMlQwVFVXWGdvd2RxZ0U0THRoUFZWa1oxQm5fcDNMRVJlYUFmWmxzbEZSVHpzY0Z1YUpMRnhxeEtsbGJ5R2FQT0N2ZFM1NDZhYUMxR2trMC1tWW5vcW9ldnhjZE5KdUNQM09EdVJ2NUhkX296LVVwYS1icG1Gc0JwaHFMaVliakp1ZG9rRk50WElSdllld0syZFRfX2Zyc0Y1SXFYRHNHeGEwcnFVOXN5cnpvbnpKcnctMjUyZjdpYWlERjN1aHBkdkJNcnByOFItbU5qZ1NtS3lReUFQMlJKcVB5U2JENndZbWxHbkhlTGhfRW9lbGdLS2hKYkFud3V5OEhvUURKWnJpay1uVUlJVW9Qa3lmZmtQcTg1Z0pvUDF3Yzd4U0VIV2hCcG5OQ2tIT1J2RS1ZZkYzQ2EySk9YUGMwV0lOZm9HdnFJM0taUkJKZmQ5aHp5d3ZoUU1BdGxXLVZQb25qT2h0TThONi1oMkx1bWRf0gGiA0FVX3lxTE54UmN4S3djbVR1NkVmMXpiZVp1ekhQeWhWZGNPRUJfTDFRMzhjMWNHbGhJdDZsbDVsWnluWFJiQm92dmpmZlV3OTg4MjlCZmxIdnljc0dpbUprbnJYVjhrRjJZRlRLSlliX3BpbC1rYlZQTlE5eXppWEo0VVp1OFhuX3hBWUhmZ2lfZnZCa1NuTWM5d3VZVmxtOTZDVGhNT2RZdU50YmJFVXBudFNSZVduMVVfSnpxTURteDg0ckhJRGVRZmI0dTRnZzNyakxaTzdYT0c5R2dMemR5aDZvS3d0NUZGdlVpTUdabkY0MGFjSGZsY3MweFRnTk4ybHZ5MUhPdFUyc05jdDZCb1kyeENHMm42bmthYnBOR0pfYTFEZzZqWDd3ZlY3cENOUDNnQW1Sd0VCMnE2QThuX0U2U2hSWUhseEhCalpfM2pIR091cjAxQ2dJaGhUU3NSbFRxc3ZxbVk0OG13Uy1TOFB4M211ZG9RY1NJTWJfZXNVVElNYzUtZW00S1hvS0pRNVc1T1JJcFZLSnAxU0tVVXBvTl93Zmc?oc=5",
+        "source": "العربي الجديد",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-21T08:25:12Z",
+        "title": "روسيا تعلن استهداف سفينة ومنشآت طاقة في أوكرانيا - العربي الجديد"
+      },
+      {
+        "url": "https://t.me/tass_agency/407085",
+        "source": "TASS",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-11-22T17:01:01+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-11-22T18:01:11Z",
+    "last_updated": "2026-11-22T18:01:18Z",
+    "verification_issue": 453,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "date_approx": false
   },
   {
     "region": "Red Sea",
@@ -1833,10 +2300,19 @@
         "kind": "media",
         "published_at": "2026-11-22T06:40:42Z",
         "title": "Attack on vessel in Baltic Sea poses new risks to Russian grain exports - УкрАгроКонсалт"
+      },
+      {
+        "url": "https://t.me/operativnoZSU/226719",
+        "source": "Operatyvnyi ZSU",
+        "source_type": "telegram",
+        "side": "ua",
+        "kind": "media",
+        "published_at": "2026-11-22T12:01:28+00:00",
+        "title": null
       }
     ],
     "first_seen": "2026-11-21T16:56:14Z",
-    "last_updated": "2026-11-22T10:14:38Z",
+    "last_updated": "2026-11-22T18:01:17Z",
     "verification_issue": 446,
     "verdict": null,
     "published_in": [],
@@ -2610,7 +3086,7 @@
       }
     ],
     "first_seen": "2026-11-21T08:44:06Z",
-    "last_updated": "2026-11-22T10:14:38Z",
+    "last_updated": "2026-11-22T18:01:18Z",
     "verification_issue": 445,
     "verdict": null,
     "published_in": [],
@@ -7565,7 +8041,7 @@
       }
     ],
     "first_seen": "2026-11-17T22:37:01Z",
-    "last_updated": "2026-11-22T10:14:38Z",
+    "last_updated": "2026-11-22T18:01:18Z",
     "verification_issue": 412,
     "verdict": null,
     "published_in": [],
