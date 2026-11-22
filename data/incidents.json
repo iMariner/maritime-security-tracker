@@ -1,5 +1,110 @@
 [
   {
+    "region": "Black Sea",
+    "date_utc": "2026-11-22T09:32:10Z",
+    "summary": "An Arabic outlet reports that a Russian cargo ship is still on fire in the Baltic Sea after being targeted by drones. No vessel name, date or position is given, and the Baltic is outside the monitored regions.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.4,
+    "vessel_name": null,
+    "imo": null,
+    "flag": "Russia",
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Baltic Sea",
+    "attack_type": "drone (UAV)",
+    "damage": "fire still burning on board",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "date_approx": true,
+    "id": "INC-20261122-003",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVzJfcWg0cjRGQ2VUUWtQMnQ0eTNOT2k2SmNYV0xxbTI1ZHhwOXpzTV90Mm1rZjhPbVN6SXdjYWNLekV2MF9GQkJmclFFdGZueTRSUF9VMHI4T1dEcXAya09ObTJIVjRGaUVGWXhST2lpWFVJemVnR3hSZ3ZzQUNselBibzBLX3FQNFE?oc=5",
+        "source": "جريدة القدس",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T09:32:10Z",
+        "title": "استمرار اشتعال سفينة شحن روسية في بحر البلطيق عقب استهدافها بطائرات مسيرة - جريدة القدس"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNeTBPOHRqV19RZzRVTkFaRzR2NWN5elBZaUVxOTV2MDNPcUJVZk9jTzhBNnRZQlJQaTd2LXNaRU9Mb2gwUUJUVHZKcXZValBuU1doTDlMZlhnUmI5VU5YWW1iVF9Fa18td0NyVklRUXYySHlxb0Y5THo4N1ZqNHBLZl9fZVdhcDhSbl9DUXd5aXdnRE9oYzNPV0UtQ2ZJWXdaSFBPenVndWR1TUtUY2cxcTF5aDRCSXNDVk9xWFY0UXlaM1oxTkRGYXRRVExtd1hLVWVfejBxM1lWc3JNeDQ0TjVHcWNzT0d2QXFJ?oc=5",
+        "source": "Epoch Times România",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T08:49:57Z",
+        "title": "Echipajul a fost evacuat în timpul operaţiunilor de stingere a incendiului de pe nava rusească lovită de drone - Epoch Times România"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUHpuQVo4aHpJRHUzZkdra0t6ZGs0Wk5KNWJJbkhBQ0twNXJmSVBsYTNSTDN1Q3FfVnRRRVpvdmNtWEVUT09oeWFTdEYxb0tIVEJoYlp3R1JhdHRNM1U3YVRyczZqQXVFYXp0YzU2akY5RzRnMThnZTJ2SVJFTmxCSUhOVFRleElHc05LWlB6OW5kakNuUlRFb01KdTg?oc=5",
+        "source": "Arab News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T08:38:01Z",
+        "title": "Russian cargo ship still on fire off Finland after attack - Arab News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNWDFoc2M1UkwwMzlBc3o1Rm9PaC1NQ2ZKYWJxT3k4MTF3NlVvZEhRVUZhYnF5R0ltbkowNzAzV2VYXzBELTFpQkkteDVQS3VzOWxDNF91bzcyUnRoWGsyMlIxWjJFMm1vUzYtWXBPV1NyYWthNnVFV0t6YUxEWlJDRU9xUGI1dUhEN1VCMUxzbjFHMGZ5YTVHOHA4NjZ1cHNfRHBPclFrSjJEN1FDa3FYcjZkcHdCamwwNWcxR0FYa1BQQVZZblFNUFc3eEhCemVLNVljYWI3ZXJlSXJ1TnhEVk5tdXQ1M1dQM2VHY0pFY0VSRWxJVUczOFJzOFRlLTZ0ZWNLNzFpQ1Jzb1VaeUp4c0lLZVNCUVpGZW9Sa1o4UUVYS0pTcnZIczFoZXVfZ0xBT1haUVVR?oc=5",
+        "source": "Epoch Times România",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T08:34:44Z",
+        "title": "Prezentare privind conflictul din Ucraina: O navă cargo rusească a fost lovită de o dronă în Marea Baltică, în timp ce premierul Finlandei afirmă că războiul „se extinde” - Epoch Times România"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOeEt3MGk2YnRMQ29CX3pxYWVVVlloLUYxVnJBVVU2cGxSYS1rTVlaX1hjUXgwZS0yX0h6ZzFYWWxPWGFKWW1LMTZFNHBVMUNyY2tDYnVQTTF0YkJBaDFYczJCRHlDYUZqLWdyR3R5aE9fWXFtZ21yNzQ4RUItWmRoZzFyVk56cm1Hb3JQa2xFVmZ6U0o4Q3dkS3d0RkJCSXZ6UGw0LUNrMFBPWXIzZ1dDY1gtdkpoOWhVSmVvNVFKdEM1cGd2R0dZS2k2clI5Y282RUZGTDBWVU1ZZ2dRbU9wYmhEV3BnN2Z0cmFqN3ZmbmcwUFBjWm5XemlOME1HaExLclhMVUl3aw?oc=5",
+        "source": "News.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T08:28:00Z",
+        "title": "Nava rusă atacată cu drone în Marea Baltică este supusă sancţiunilor SUA şi ar fi putut transporta echipamente militare - News.ro"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUXhiUWNkN20xQnZHek9sNzF3LThENlJGUTlLdUp2VjNNRFB2a2pkeDhEOHQ4Ti1HVl8yUWlhTjZLNGp0REJDZ05ySEdGM29TMUlGYms0VFhJNTd1NTBYUFROdGpWVTJUanI1RVlRbkFBdU1GU2drNEhFRFFPVjNianBEeVd1MXhoc05oV2dOM2wtY2UtU25sazVKLUVwbFhpR2pibmpwd21hajMwY2hRZzlUbGQ0YjlBNUE?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T08:12:31Z",
+        "title": "Russian ship on fire and abandoned after Baltic Sea drone attack - TradeWinds News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaVJfSVpWQmpuYkgzVlZZWWdQWjBaV0lPZHZKWGRoaU91ay16bkJyNEhLQlJfblZxRkM1a0VhWGhKZjhpT0o4T25QNVRYREhEMklYcFQtb0VuTXJBM0tZdDlLSHRYRnVnd3JHTzBOYjJkZ1hqNlJ1d09nN21MOWhZSWpZMHlGRHhMNHRpdlpzSWJsZUlnVTBhc1o5U0xlbFRTTm1VU2pTaGtmaHpQLVdhcE9iQVgyN2FORHFucU1ZSVpYclh3aUdQQ1Fwby1mX0JIMURWZQ?oc=5",
+        "source": "Financial Intelligence",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T06:59:17Z",
+        "title": "O navă rusească de marfă a luat foc în Marea Baltică în urma unui atac cu drone, echipajul a fost evacuat - Financial Intelligence"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMWdqR3NXT2hjVXk4TTN0cEwzcktJV0Nock9hdF80R2NzTGU1OWZsMFhRcnVzS1dmbGRkLURpa2ViV3lEYUtwbzd4Vmg5NFJ0MzNWQThqOUFZMnNqQjNuVDRtVEo0ellJY082VWZlUWU5ci1Za2lBLWJPUUxpRlEyQkZPQklFcU5NdGlFRm5lSm9PdW5MTllJdGR4RTl3N1dkVFZST0VoNFpmR1k?oc=5",
+        "source": "УкрАгроКонсалт",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T06:40:42Z",
+        "title": "Attack on vessel in Baltic Sea poses new risks to Russian grain exports - УкрАгроКонсалт"
+      }
+    ],
+    "first_seen": "2026-11-22T10:14:07Z",
+    "last_updated": "2026-11-22T10:14:38Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261121-004",
+    "position_approx": true
+  },
+  {
     "region": "Strait of Hormuz",
     "date_utc": "2026-11-22T00:42:30Z",
     "summary": "The Jordan Maritime Commission said a search is continuing for a Jordanian sailor missing after an attack on a tanker in the Strait of Hormuz. The headline gives no vessel name, date or attacker.",
@@ -112,6 +217,122 @@
     "position_approx": true
   },
   {
+    "region": "Black Sea",
+    "date_utc": "2026-11-22",
+    "summary": "A Turkish outlet headline reports that a ship carrying military cargo was struck in the Black Sea. No vessel name, date, attacker, damage or casualty details are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": "dry cargo vessel struck",
+    "casualties": null,
+    "attribution_claimed": "Russia (implied by headline framing)",
+    "independent_evidence": false,
+    "id": "INC-20261122-004",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTTBFMUQ5RndFQWhraVV1NDctLXVUSmRudGpVS3ZvZVNOSUczTWF3UzBvOFRkNVlmOVNVYnljeFBObmg3ZkNOSG5JWjlvS0FDOEJ5dFZOc0FUS3lVNnBnZG4ySkVkWjR2Z05JQ0NEblFJUTFDLU1PSGVjTmpzZGc2TThFMFZXWXlkSHd6ZnRMTWwtQkVvYjZHdVBpSTlPdw?oc=5",
+        "source": "Van Bölge Gazetesi",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T08:12:00Z",
+        "title": "Karadeniz’de dikkat çeken saldırı: Askeri yük taşıyan gemi vuruldu - Van Bölge Gazetesi"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNc2wwVUZ3ejgzejJNel9WcVV4anB1djRVMFZSbFNBU1dXcTV1U3pkZ3RhMlAzNzZlZm1oVkd5UjF3c05BVDFMXy1admxIWWVfcC1fTkxJdW00TTF5R3kySlBJeGJOczRWdHhFMmFVVkY1MmtJRndjVTBrYU9GeVVCak9mLWE3TjBBUHdLZGFjYmxtOEHSAZMBQVVfeXFMTXNsMFVGd3o4M3oyTXpfVnFVeGpwdXY0VTBWUmxTQVNXV3E1dVN6ZGd0YTJQMzc2ZWZtaFZHeVIxd3NOQVQxTF8tWnZsSFllX3AtX05MSXVtNE0xeUd5MkpQSXhiTnM0VnR4RTJhVVZGNTJrSUZ3Y1Uwa2FPRnlVQmpPZi1hN04wQVB3S2RhY2JsbThB?oc=5",
+        "source": "Denizcilik Haberleri",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T08:03:05Z",
+        "title": "Karadeniz'de Askeri Yük Taşıyan Gemiye İHA Saldırısı - Denizcilik Haberleri"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWWdHeG10SEtpdTZPQy0tYzJtcmNkVkxWcVJFZGRfdG9wWXZocWF0T2FqU1NocDc4THpKTjJaZWRnNG9NaDA2MDhtVGN5ZFZlejZEV2RkYTd3TkczVTkwNHNiQnJmV3pUdml0SzNMRHhGdlN5X3QxaTJhRDBLeTVKdXVORHd1MVFJSEVHbzNPVDhTQTVpNk10Sk55WjlDd2NXTHBJX1BWa1pNb3B5SFpn?oc=5",
+        "source": "sonhaberler.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T07:14:00Z",
+        "title": "Rusya’dan Ukrayna’ya peş peşe saldırılar: Karadeniz’de yük gemisi vuruldu - sonhaberler.com"
+      },
+      {
+        "url": "https://t.me/mod_russia/69236",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-22T05:44:30+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-11-22T10:14:11Z",
+    "last_updated": "2026-11-22T10:14:23Z",
+    "verification_issue": 450,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-11-22",
+    "summary": "A Turkish outlet headline reports that Russia's defence ministry announced it struck a transformer substation and a ship in Ukraine. No vessel name, date, position, weapon, damage or casualty details are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Ukraine (location not specified)",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry claimed it struck a ship and a transformer substation in Ukraine",
+    "independent_evidence": false,
+    "id": "INC-20261122-005",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONEt3TjJiNFhzeFJpMmY5ckFwV3Y0aWhOcmJ3c0RPMDZWTFNreHR6RlQ1cmstb1hOcF9zczNmaDNQNzQwYTRXMEJpVkRSSmpQUDVhVncweVVYMFBPYTM2cjVhVkxIR3JxZHNyVzM0bmp4QUlWZFdOTmluN0IzWjVTWkNTNVdKaHBDSmZsSmlpZ1FQVEJfNURBME5HMVl5aVFHRmtkSm1NSXZidw?oc=5",
+        "source": "İşçi Haber",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T05:42:00Z",
+        "title": "Rusya'dan Ukrayna'ya saldırı açıklaması: Trafo merkezi ve gemi vuruldu - İşçi Haber"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinANBVV95cUxNMEczRmo2d0c3ekRXb1RtOFBCcWpoYVd5ckNCOE5FdzlCWFhqaTFWMlQwVFVXWGdvd2RxZ0U0THRoUFZWa1oxQm5fcDNMRVJlYUFmWmxzbEZSVHpzY0Z1YUpMRnhxeEtsbGJ5R2FQT0N2ZFM1NDZhYUMxR2trMC1tWW5vcW9ldnhjZE5KdUNQM09EdVJ2NUhkX296LVVwYS1icG1Gc0JwaHFMaVliakp1ZG9rRk50WElSdllld0syZFRfX2Zyc0Y1SXFYRHNHeGEwcnFVOXN5cnpvbnpKcnctMjUyZjdpYWlERjN1aHBkdkJNcnByOFItbU5qZ1NtS3lReUFQMlJKcVB5U2JENndZbWxHbkhlTGhfRW9lbGdLS2hKYkFud3V5OEhvUURKWnJpay1uVUlJVW9Qa3lmZmtQcTg1Z0pvUDF3Yzd4U0VIV2hCcG5OQ2tIT1J2RS1ZZkYzQ2EySk9YUGMwV0lOZm9HdnFJM0taUkJKZmQ5aHp5d3ZoUU1BdGxXLVZQb25qT2h0TThONi1oMkx1bWRf0gGiA0FVX3lxTE54UmN4S3djbVR1NkVmMXpiZVp1ekhQeWhWZGNPRUJfTDFRMzhjMWNHbGhJdDZsbDVsWnluWFJiQm92dmpmZlV3OTg4MjlCZmxIdnljc0dpbUprbnJYVjhrRjJZRlRLSlliX3BpbC1rYlZQTlE5eXppWEo0VVp1OFhuX3hBWUhmZ2lfZnZCa1NuTWM5d3VZVmxtOTZDVGhNT2RZdU50YmJFVXBudFNSZVduMVVfSnpxTURteDg0ckhJRGVRZmI0dTRnZzNyakxaTzdYT0c5R2dMemR5aDZvS3d0NUZGdlVpTUdabkY0MGFjSGZsY3MweFRnTk4ybHZ5MUhPdFUyc05jdDZCb1kyeENHMm42bmthYnBOR0pfYTFEZzZqWDd3ZlY3cENOUDNnQW1Sd0VCMnE2QThuX0U2U2hSWUhseEhCalpfM2pIR091cjAxQ2dJaGhUU3NSbFRxc3ZxbVk0OG13Uy1TOFB4M211ZG9RY1NJTWJfZXNVVElNYzUtZW00S1hvS0pRNVc1T1JJcFZLSnAxU0tVVXBvTl93Zmc?oc=5",
+        "source": "العربي الجديد",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-21T08:25:12Z",
+        "title": "روسيا تعلن استهداف سفينة ومنشآت طاقة في أوكرانيا - العربي الجديد"
+      }
+    ],
+    "first_seen": "2026-11-22T10:14:27Z",
+    "last_updated": "2026-11-22T10:14:35Z",
+    "verification_issue": 451,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
     "region": "Red Sea",
     "date_utc": "2026-11-21T14:14:19Z",
     "summary": "A headline reports gunmen attacked a ship off Hadramout, Yemen. No vessel name, date, damage or casualty details are given.",
@@ -142,15 +363,25 @@
         "kind": "media",
         "published_at": "2026-11-21T14:14:19Z",
         "title": "Gunmen Attack Ship off Hadramout as Tanker Attacks Escalate in Strait of Hormuz - مركز سوث24"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5SNFVRaUtubkp6b3o0ZUlQZlBaTzFNVWhGckZhOHY5U1NpUnpyZ3ZzYlN3TGJGVnNTdWZYWWJLQk5pR2dzZDg5cGVFakRpQ09HbzBubWhR?oc=5",
+        "source": "مركز سوث24",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-21T14:57:09Z",
+        "title": "Gunmen Attack Ship off Hadramout as Tanker Attacks Escalate in Strait of Hormuz - مركز سوث24"
       }
     ],
     "first_seen": "2026-11-22T02:36:24Z",
-    "last_updated": "2026-11-22T02:36:24Z",
+    "last_updated": "2026-11-22T10:14:38Z",
     "verification_issue": 448,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261120-008"
   },
   {
     "region": "Black Sea",
@@ -548,10 +779,73 @@
         "kind": "media",
         "published_at": "2026-11-21T08:24:00Z",
         "title": "Trump seeks “permanent” Iran nuclear deal; two tankers hit off Oman - Investing.com UK"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUC1nSFhWMVdEVnZQN0FOOEY2T2M4UmNjb2llSHV4RzlsajVTUll4ODFjd0RSWTVta2tkc29TTmZ1Mjlib1BINUktN2RvVjRSNmpHU2pwcWZnVDZlWnlpcUZQVHVCaFFKQU83NUczU2FraVNRb1RiLUxQZG51anJtTkpMS1dkZWthNDRHVDBpTjJsTVVaWFhMcGMzVDdnM01BY1JZX3lGRndxQVFoZkFn?oc=5",
+        "source": "Para Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T07:00:00Z",
+        "title": "Hürmüz Boğazı'nda iki tankere saldırı: İran \"abluka kırılmalı\" diyor - Para Ajansı"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSXNTS19RZG5RRG1PVm9VX0hnSEM2c0VoTlN0d1dPVEFBUlpsLWVlVEd5NnAwZ0JQOVQ5MVNIOXpDS2tIRXMwWjlnQlBZNnYtYWFZZTBFUjZ6bDRManlHajZTS3ZzNU5oZFZXeDBjbXU4VXJ2SnhvWUtXWTZqNm9OekYxVzBmU3h6VXB4TTdIeEozUW9BUjlneUcyLWsxVjBfeHpjamJCZDAyUzV3?oc=5",
+        "source": "Marine News Magazine",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T02:28:14Z",
+        "title": "UKMTO reports two tanker strikes near Khasab as Iran cites mine blast - Marine News Magazine"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRkpoeVVwWHF0ejNvUUVVdDcwRm9VM1l1ZHlqSmNWYjlxOTUzX1pOajl3MWlQZjE5ajZTdWlQb3hyd2hFRnJoNWQxbUgycXhEQmNrV0w3Ynd4X09rcFh2SXdGSm9HaFBESGZBekV3Rl82cjdrQ041Vm1GVUtQZDZWbWZFWHczT2Z0aUxYa3R5Z2RNUWJ6NlpWTGdHbGV1TmtkT214SEd5c0N6U1pxQzExVXBhT1ZKV1pfWThTS0lSM3NTTXBzVnlYY2pMMTY4VEVCNUVn0gHYAUFVX3lxTE90NHRLNXg0ZUZoaTZqVl8yTXhKRGtzbHIwMlJzYjF4OFlFUFoySkZqVmhQQjhWdWdWVmRzcUFzWUExM2RBVGtXRkhrcE1XZFk3b1NCZGE2Zl83UFRuMVhUaXM0dXVTM0dua196R3JFdTBVQjJ2MlF3MWdsUGJzeDZidnp3UlhTWHk1VU5JeGFwTG5PaW5ILXlQMHdvbGRNODBBUjBsNWpoT05CX0UzWWxiRGNxOUtHbUxyeXp5WGtONDJHUzRVend6UXBLaUZvV3NmZjZqbXFtQQ?oc=5",
+        "source": "Times Now",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-21T13:27:47Z",
+        "title": "Two Tankers Hit Near Strait Of Hormuz; Iran Says Vessel Struck Naval Mine - Times Now"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMzdTS0tDcG9SQ3ZBRUdiaDVuMFNDbjA2UUVyOS1zTzUycXhhS2dHbTZHUWxfTllqWHl0SVNCejRYbjdRWmUxUmRpMGIzdm81aFp0UkhYc2pDLTRpaHhpekdVaWtkQWJVemg3bVJlcFdZMVE0V3BMUmJ1RTN5Y2dwTWhNV3FoRHEtRU9xd0VzdWJEclpHSE9GeEVHSm82YXhwOW5JTF9ZcDVqdWZm0gGsAUFVX3lxTE8zN1NLS0Nwb1JDdkFFR2JoNW4wU0NuMDZRRXI5LXNPNTJxeGFLZ0dtNkdRbF9OWWpYeXRJU0J6NFhuN1FaZTFSZGkwYjN2bzVoWnRSSFhzakMtNGloeGl6R1Vpa2RBYlV6aDdtUmVwV1kxUTRXcExSYnVFM3ljZ3BNaE1XcWhEcS1FT3F3RXN1YkRyWkdIT0Z4RUdKbzZheHA5bklMX1lwNWp1ZmY?oc=5",
+        "source": "Lokmat Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-21T11:43:03Z",
+        "title": "Two Tankers Attacked Near Oman's Khasab, UKMTO Reports - Lokmat Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94YUp3dE56NDM3SUpnNmQtNVQ2NDZpZ09QSXFGTFU0WnhUaXd2NjItcE41cHlPN0NtNDhWLWg5a29VU3ZBUGZZQkwtRGZLZ3pla0E?oc=5",
+        "source": "Yemen Online",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-21T11:15:37Z",
+        "title": "UKMTO: Two Tankers Hit by Unknown Projectiles Near Khasab, Oman - Yemen Online"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaXI5MnJNTUxYQnNWT1pKTGg3akQzaENKMGZiTEhvZFlGOUNiRGU5QVM0S2RTb1JCSUM1N3U5WnBqeGZqVy1uZ3ZWeGN6YUF2djU2VlRFZmtRV1JNcmlKWnAtbzVaNGJxWm4tZGhDY05OUllicHdsX2duSHQ1NDF0ZkhOaU9qMFZFdHc?oc=5",
+        "source": "SRN News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-21T09:44:56Z",
+        "title": "Two tanker attack incidents reported near Oman’s Khasab on Saturday, UKMTO says - SRN News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcnZPRU5CY25TNldpQXl2VnNsRi04OGpFU1k0QWpDTVF6WDFPYzVQOVRoWEZJYS1xZnR6X3VfM1lQRXU1S3FTSDZ5ZGdFZEVhZGtGZG5TNllkOGRJTnNwSk0tckp4VGowMHdYWl8tMFBVRWJtSDZycWtUeVpIaG1NeXlzU05jdmJPNVJiSjFHMHJyOW1E?oc=5",
+        "source": "Roya News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-21T08:01:01Z",
+        "title": "Tanker hit by unknown projectile in Hormuz, UKMTO says - Roya News"
       }
     ],
     "first_seen": "2026-11-21T08:43:54Z",
-    "last_updated": "2026-11-22T02:37:09Z",
+    "last_updated": "2026-11-22T10:14:37Z",
     "verification_issue": 442,
     "verdict": null,
     "published_in": [],
@@ -655,17 +949,18 @@
       }
     ],
     "first_seen": "2026-11-21T08:44:00Z",
-    "last_updated": "2026-11-22T02:37:09Z",
+    "last_updated": "2026-11-22T10:14:38Z",
     "verification_issue": 443,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261116-007"
   },
   {
     "region": "Black Sea",
     "date_utc": "2026-11-21",
-    "summary": "A drone attack damaged the Russian general cargo ship Sparta II in international waters of the Gulf of Finland west of Suursaari, starting a fire on board; Finland's defence forces detected the strike and the crew declined evacuation. A later headline reported a Russian cargo ship catching fire after a Ukrainian strike in the Baltic, which matches this same Gulf of Finland incident.",
+    "summary": "A drone attack damaged the Russian general cargo ship Sparta II in international waters of the Gulf of Finland west of Suursaari, starting a fire on board; Finland's defence forces detected the strike and the crew declined evacuation. A later Arabic-language report said the Russian cargo ship was still on fire in the Baltic Sea after the drone attack, without naming the vessel.",
     "official_source_cited": "Finnish Ministry of Defence / Finnish Defence Forces",
     "conflicting": false,
     "confidence": 0.9,
@@ -1394,10 +1689,154 @@
         "kind": "media",
         "published_at": "2026-11-21T17:24:13Z",
         "title": "Дрозденко: В нейтральных водах Финского залива 2 БПЛА атаковали грузовое судно, следовавшее в Калининград - prospect.com.ru"
+      },
+      {
+        "url": "https://t.me/tass_agency/407058",
+        "source": "TASS",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-11-22T08:11:01+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA5SjFvZllzb2VmOWxIWmlyeUNKRk9leUhia2M0UHBpUGNjdUhIZ1kzMkNKc1hlWjhCY1pvN1FiaHlWaXRYU0o4d3Q2Y3BqRW5YdXlyTERqdGlYeC1VbHpSS04zQUNsS1ZZM05GMjZIVG4weG8?oc=5",
+        "source": "Ukr.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T07:26:38Z",
+        "title": "У Фінській затоці після атаки дронів горить російське вантажне судно - Ukr.net"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRE9yZkRpQW5CSHlOU19RYmtEcXRjMkM2cmY3bGM0SUxFbDdqdW95U0hrV0xJdjBKN3dlNHBvNjNnTnlYT2pxcndRYUYwRXBiMGJBTndBeDlOY0JpbUtMMno1RTExOGZVWWtXQzZqU0ZYb1d3S2dBajFma0xLeTVGaEYxYkl0aDlXMFJqdVo2ak82a2ppYWp0clhrSlZRVUYwTkZjNk8taEUwWS1weHRZVFB2SF8?oc=5",
+        "source": "Informat.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T07:23:24Z",
+        "title": "A Russian cargo ship caught fire in the Baltic Sea following a drone attack /. The crew was evacuated - Informat.ro"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbVRzTGRyTjAzOFozMGtwcHc0VjVNczNGSDQ0RThYNFdCOGdwYlFWMTdZSVVWNzJzSEMxcTdZRFdLTUEyd2ZEU0Nzd1JYWTFYVkdrM0ZEM013bmhpWVFid0VId0d6YWloWDBRMGVQYnl3NXVjWEkybHlmRW9SVjE2UlpjVzdXNmN1RWR3b01MekNpRm9GSjluclpVeENVQQ?oc=5",
+        "source": "Informat.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T07:23:24Z",
+        "title": "O navă cargo rusească a fost cuprinsă de flăcări în Marea Baltică, în urma unui atac cu dron /. Echipajul a fost evacuat - Informat.ro"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE92ekczdmFjT3A1aHE0REpkb3VSRXdZSFBGSVNGdFNOUnBaMUVKek5rUlVXX3k2ejh2X3o2aGN2NHd0R2dRcDNPNmI3T2xuY21tVU9temZWVkFJaUw5VDBoa09WNk02bjhjVEp2eUZWbTZobkE5alhpSQ?oc=5",
+        "source": "Vietnam.vn",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T06:34:55Z",
+        "title": "Navă de marfă rusească atacată în Golful Finlandei - Vietnam.vn"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOS1mQ2NmNUctT1p3VldwWFJqdHlsckxmT05DckpROHBRamFtQ09zLUJNTjZoTjlFZTlmOHNwUWtUdjRxWFlTVk95TldHZjA1TVVRLTg4NlVqYXBLc0NfdERGN0gyTjFkSXVKYndCa0t6c3pBM0E5dEszendESkdDbHR2TQ?oc=5",
+        "source": "Al-Bawaba",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T06:09:50Z",
+        "title": "Ukraine strikes Russian Sparta II cargo ship in Baltic Sea - Al-Bawaba"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOVF3eU5OMmw3Vm55Mm9jbENFM3ZUQjlxdnQwYVpuZnFOMGZLMmQ0cGNBUnl5RkJlNWgyd1dkRjhvbVE0ZTBJZG01cjlHSUoyN2M0Ml8yVjhhVm9IWjU5a3lwdXNDbUd6dEwtYjFpQzE0enJXeTdzdkFESjgxX2UxZ0VfM01mVE0?oc=5",
+        "source": "Wisevoter",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T00:04:13Z",
+        "title": "Drone Strike Hits Russian Ship in Gulf of Finland - Wisevoter"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWFR0S3g2YkZjX2dOVnJwM1VyTS1YY3NTUWsweXVNYUZsTDZ0Y3JhZVN0eXhBUzVNb1lLYW45REgxbDBzdmpXWXgwWi1nYlpJNV9WTmVwWEVNOFZXd2tKWTRJWGswU3JPWGhMQk5BVU9JcnpyQl9lb19RRi1PdG9mMUNudDN3aS1aeWRjZC1oVks5MTVldzN1d1NzYlRwQ2syWFhWWUIzMA?oc=5",
+        "source": "Nacionale",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-21T22:08:23Z",
+        "title": "Russian ship catches fire after drone attack as Finland warns of war spreading - Nacionale"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVzJfcWg0cjRGQ2VUUWtQMnQ0eTNOT2k2SmNYV0xxbTI1ZHhwOXpzTV90Mm1rZjhPbVN6SXdjYWNLekV2MF9GQkJmclFFdGZueTRSUF9VMHI4T1dEcXAya09ObTJIVjRGaUVGWXhST2lpWFVJemVnR3hSZ3ZzQUNselBibzBLX3FQNFE?oc=5",
+        "source": "جريدة القدس",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T09:32:10Z",
+        "title": "استمرار اشتعال سفينة شحن روسية في بحر البلطيق عقب استهدافها بطائرات مسيرة - جريدة القدس"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNeTBPOHRqV19RZzRVTkFaRzR2NWN5elBZaUVxOTV2MDNPcUJVZk9jTzhBNnRZQlJQaTd2LXNaRU9Mb2gwUUJUVHZKcXZValBuU1doTDlMZlhnUmI5VU5YWW1iVF9Fa18td0NyVklRUXYySHlxb0Y5THo4N1ZqNHBLZl9fZVdhcDhSbl9DUXd5aXdnRE9oYzNPV0UtQ2ZJWXdaSFBPenVndWR1TUtUY2cxcTF5aDRCSXNDVk9xWFY0UXlaM1oxTkRGYXRRVExtd1hLVWVfejBxM1lWc3JNeDQ0TjVHcWNzT0d2QXFJ?oc=5",
+        "source": "Epoch Times România",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T08:49:57Z",
+        "title": "Echipajul a fost evacuat în timpul operaţiunilor de stingere a incendiului de pe nava rusească lovită de drone - Epoch Times România"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUHpuQVo4aHpJRHUzZkdra0t6ZGs0Wk5KNWJJbkhBQ0twNXJmSVBsYTNSTDN1Q3FfVnRRRVpvdmNtWEVUT09oeWFTdEYxb0tIVEJoYlp3R1JhdHRNM1U3YVRyczZqQXVFYXp0YzU2akY5RzRnMThnZTJ2SVJFTmxCSUhOVFRleElHc05LWlB6OW5kakNuUlRFb01KdTg?oc=5",
+        "source": "Arab News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T08:38:01Z",
+        "title": "Russian cargo ship still on fire off Finland after attack - Arab News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNWDFoc2M1UkwwMzlBc3o1Rm9PaC1NQ2ZKYWJxT3k4MTF3NlVvZEhRVUZhYnF5R0ltbkowNzAzV2VYXzBELTFpQkkteDVQS3VzOWxDNF91bzcyUnRoWGsyMlIxWjJFMm1vUzYtWXBPV1NyYWthNnVFV0t6YUxEWlJDRU9xUGI1dUhEN1VCMUxzbjFHMGZ5YTVHOHA4NjZ1cHNfRHBPclFrSjJEN1FDa3FYcjZkcHdCamwwNWcxR0FYa1BQQVZZblFNUFc3eEhCemVLNVljYWI3ZXJlSXJ1TnhEVk5tdXQ1M1dQM2VHY0pFY0VSRWxJVUczOFJzOFRlLTZ0ZWNLNzFpQ1Jzb1VaeUp4c0lLZVNCUVpGZW9Sa1o4UUVYS0pTcnZIczFoZXVfZ0xBT1haUVVR?oc=5",
+        "source": "Epoch Times România",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T08:34:44Z",
+        "title": "Prezentare privind conflictul din Ucraina: O navă cargo rusească a fost lovită de o dronă în Marea Baltică, în timp ce premierul Finlandei afirmă că războiul „se extinde” - Epoch Times România"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOeEt3MGk2YnRMQ29CX3pxYWVVVlloLUYxVnJBVVU2cGxSYS1rTVlaX1hjUXgwZS0yX0h6ZzFYWWxPWGFKWW1LMTZFNHBVMUNyY2tDYnVQTTF0YkJBaDFYczJCRHlDYUZqLWdyR3R5aE9fWXFtZ21yNzQ4RUItWmRoZzFyVk56cm1Hb3JQa2xFVmZ6U0o4Q3dkS3d0RkJCSXZ6UGw0LUNrMFBPWXIzZ1dDY1gtdkpoOWhVSmVvNVFKdEM1cGd2R0dZS2k2clI5Y282RUZGTDBWVU1ZZ2dRbU9wYmhEV3BnN2Z0cmFqN3ZmbmcwUFBjWm5XemlOME1HaExLclhMVUl3aw?oc=5",
+        "source": "News.ro",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T08:28:00Z",
+        "title": "Nava rusă atacată cu drone în Marea Baltică este supusă sancţiunilor SUA şi ar fi putut transporta echipamente militare - News.ro"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUXhiUWNkN20xQnZHek9sNzF3LThENlJGUTlLdUp2VjNNRFB2a2pkeDhEOHQ4Ti1HVl8yUWlhTjZLNGp0REJDZ05ySEdGM29TMUlGYms0VFhJNTd1NTBYUFROdGpWVTJUanI1RVlRbkFBdU1GU2drNEhFRFFPVjNianBEeVd1MXhoc05oV2dOM2wtY2UtU25sazVKLUVwbFhpR2pibmpwd21hajMwY2hRZzlUbGQ0YjlBNUE?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T08:12:31Z",
+        "title": "Russian ship on fire and abandoned after Baltic Sea drone attack - TradeWinds News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaVJfSVpWQmpuYkgzVlZZWWdQWjBaV0lPZHZKWGRoaU91ay16bkJyNEhLQlJfblZxRkM1a0VhWGhKZjhpT0o4T25QNVRYREhEMklYcFQtb0VuTXJBM0tZdDlLSHRYRnVnd3JHTzBOYjJkZ1hqNlJ1d09nN21MOWhZSWpZMHlGRHhMNHRpdlpzSWJsZUlnVTBhc1o5U0xlbFRTTm1VU2pTaGtmaHpQLVdhcE9iQVgyN2FORHFucU1ZSVpYclh3aUdQQ1Fwby1mX0JIMURWZQ?oc=5",
+        "source": "Financial Intelligence",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T06:59:17Z",
+        "title": "O navă rusească de marfă a luat foc în Marea Baltică în urma unui atac cu drone, echipajul a fost evacuat - Financial Intelligence"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMWdqR3NXT2hjVXk4TTN0cEwzcktJV0Nock9hdF80R2NzTGU1OWZsMFhRcnVzS1dmbGRkLURpa2ViV3lEYUtwbzd4Vmg5NFJ0MzNWQThqOUFZMnNqQjNuVDRtVEo0ellJY082VWZlUWU5ci1Za2lBLWJPUUxpRlEyQkZPQklFcU5NdGlFRm5lSm9PdW5MTllJdGR4RTl3N1dkVFZST0VoNFpmR1k?oc=5",
+        "source": "УкрАгроКонсалт",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T06:40:42Z",
+        "title": "Attack on vessel in Baltic Sea poses new risks to Russian grain exports - УкрАгроКонсалт"
       }
     ],
     "first_seen": "2026-11-21T16:56:14Z",
-    "last_updated": "2026-11-22T02:37:11Z",
+    "last_updated": "2026-11-22T10:14:38Z",
     "verification_issue": 446,
     "verdict": null,
     "published_in": [],
@@ -2096,7 +2535,7 @@
   {
     "region": "Red Sea",
     "date_utc": "2026-11-20",
-    "summary": "A cargo ship came under gunfire off Yemen's coast near Mukalla on 20 November 2026, and armed guards on board repelled the attack. UKMTO and other outlets reported the same armed attack on a cargo ship with no injuries.",
+    "summary": "A cargo ship came under gunfire off Yemen's coast near Mukalla on 20 November 2026, and armed guards on board repelled the attack. UKMTO and other outlets reported the same armed attack on a cargo ship with no injuries, and a later headline reported gunmen attacking a ship off Hadramout.",
     "official_source_cited": "UK maritime agency (UKMTO)",
     "conflicting": false,
     "confidence": 0.75,
@@ -2150,10 +2589,28 @@
         "kind": "media",
         "published_at": "2026-11-20T15:33:16Z",
         "title": "Armed men fire at cargo ship off Yemen’s coast — Anadolu Agency - UA.NEWS"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ19SdlF2ZzRHcnVjX1hyUlVMWlVCODRlb01ZSUxBT1NKWGUtU1VVWUtlS1B4T1R5Ty0tSGhhb0xIWV9sWjhKYkI1Q0toWXctbEpSUE1MbHRfZXF3Z0ljSTZVQXVHV1FnQ09XWlYxckFNWDUtcmN4QkhjbEVDSVF1amc5c0dvS0RiNkNqbzRNZE5YeE5PTjc2RWRPSnc3RnpIbF9iVHNlVENXUUZRRFVIUnBvTHVxQVFtV21TMmF5OXhmenJfQmZF?oc=5",
+        "source": "مركز سوث24",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-21T14:14:19Z",
+        "title": "Gunmen Attack Ship off Hadramout as Tanker Attacks Escalate in Strait of Hormuz - مركز سوث24"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5SNFVRaUtubkp6b3o0ZUlQZlBaTzFNVWhGckZhOHY5U1NpUnpyZ3ZzYlN3TGJGVnNTdWZYWWJLQk5pR2dzZDg5cGVFakRpQ09HbzBubWhR?oc=5",
+        "source": "مركز سوث24",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-21T14:57:09Z",
+        "title": "Gunmen Attack Ship off Hadramout as Tanker Attacks Escalate in Strait of Hormuz - مركز سوث24"
       }
     ],
     "first_seen": "2026-11-21T08:44:06Z",
-    "last_updated": "2026-11-22T02:37:11Z",
+    "last_updated": "2026-11-22T10:14:38Z",
     "verification_issue": 445,
     "verdict": null,
     "published_in": [],
@@ -3678,10 +4135,19 @@
         "kind": "media",
         "published_at": "2026-11-22T00:42:30Z",
         "title": "Search continues for Jordanian sailor missing after Hormuz tanker attack — JMC - Jordan Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPa0RQQ1pnVHhNYkVXZG13ZTBlaEprN3NVeGlfenZnTnJDdGtSeC1menJkbUdTQ0Fpbk0wUXJvaUNKajhHUV9UQUItWEp4VzU4NXNhUk9RTjdMMlhZQ3pXM0U2QzhINTl4Zk5WRGYtTmh0Vll5YnQxTVlxcTE4dzY3bHl1MnRpSGZESE5hYlNHNDlfSDY5WU5kRG16Z3IzOWFfQUsxZGo2aFNrUlE?oc=5",
+        "source": "DD News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T03:20:49Z",
+        "title": "India condemns attack on LPG tanker in Strait of Hormuz; one Indian sailor missing - DD News"
       }
     ],
     "first_seen": "2026-11-18T13:22:53Z",
-    "last_updated": "2026-11-22T02:37:11Z",
+    "last_updated": "2026-11-22T10:14:27Z",
     "verification_issue": 419,
     "verdict": null,
     "published_in": [],
@@ -7099,7 +7565,7 @@
       }
     ],
     "first_seen": "2026-11-17T22:37:01Z",
-    "last_updated": "2026-11-22T02:37:11Z",
+    "last_updated": "2026-11-22T10:14:38Z",
     "verification_issue": 412,
     "verdict": null,
     "published_in": [],
@@ -8780,7 +9246,7 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-11-16",
-    "summary": "The general cargo ship Betul 8 capsized and sank in the Black Sea east of Bulgaria on the morning of 16 November after a reported drone attack, and Bulgaria rescued all 12 crew. Russia's defence ministry claimed its drones struck a dry cargo vessel en route to Odesa overnight on 15 November, which matches the same attack.",
+    "summary": "The general cargo ship Betul 8 capsized and sank in the Black Sea east of Bulgaria on the morning of 16 November after a reported drone attack, and Bulgaria rescued all 12 crew. Russia's defence ministry claimed its drones struck a dry cargo vessel near Odesa en route to Odesa overnight on 15 November that it said carried goods for Ukrainian forces, a one-sided claim with no name or damage details.",
     "official_source_cited": "Bulgarian Air Force rescue operation",
     "conflicting": false,
     "confidence": 0.9,
@@ -9446,10 +9912,82 @@
         "kind": "media",
         "published_at": "2026-11-20T08:05:05Z",
         "title": "Russia says it hits sea vessels, energy and transport facilities in Ukraine - Fresno Bee"
+      },
+      {
+        "url": "https://t.me/astrapress/131747",
+        "source": "ASTRA",
+        "source_type": "telegram",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-21T05:23:17+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/rian_ru/350209",
+        "source": "RIA Novosti",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-11-21T05:01:00+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/69201",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-21T04:54:18+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd1pGYlo3YURVMjVtckd2VWhwcjMyXzd6ZHdQZFhKTUpGelRSYlBOdWk1aTZYZWJnMjhKVkdXLTBwTExfTVlVX1JHZEZNcGdiSllDbkRleW53Q25sWkxSZGRaZ2VhdldMSUpNV1lWaUNyVEFwOG14OHhudVJ2a3dxYlUtSmI3R3Z4WldrRHpIZTRsM3BhZTVWakF6MjlYTGJabVZ0SWNEM2xtQVFWN2RIWG9B?oc=5",
+        "source": "Il Sole 24 ORE",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-21T16:34:16Z",
+        "title": "Ukraine, latest news. Moscow: ‘A cargo ship used by Kyiv for military purposes has been struck in the Black Sea’ - Il Sole 24 ORE"
+      },
+      {
+        "url": "https://t.me/mod_russia/69216",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-21T15:27:10+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1nbkxPcFEwVVdTNGR6ekpUZjZrUDZWekNSM3EwRnJIMzl0eTJCSzdpTUd1WkNvM0p1bVlwUS11UngtNVhydGNjaFVJYlpaSmJ0eXBtMWw3YXU?oc=5",
+        "source": "TRT World",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-21T11:40:14Z",
+        "title": "Russia, Ukraine report strikes on energy facilities and cargo ships - TRT World"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQc0M3NFRGWVpBREczYnlxYmxVUEwwT0g3MTZDa01xVVg1QWhPbzhJMDlzM21kZW1MUEtCbzJGSjlFZHYtbTByOGEzMHpPemtRWlVOQU5CWkVGNzg1WW9IOUduQjFJdVNnc1MwZ3FsbDZxdFlCR1JjeXlQUlpTVHRzWnhoUHF4cllna2FCNkg1OVJSMXg1ajd3VXBIMjFpazBfRUpiRDdtVzBrT1VTRm1aWGx4NWdkRTNPR0xBak9EbmpuNDlfU2FTVUxJUktRUdIB0wFBVV95cUxNREM4cGNURk9fVWZWNXluZ3RkZVpGMkV3c242SU5zNDFWajYxS3Y5RDBWTC1GYXVwWXBnZy1xNVVBMEhObld5STNWUkQwdldmOWs0dzJwRmpZTDlPVU13ZkZwdFdqanJpN0pTQUp3X1J1QkFkTC1UZmM3bm8wMnJ5T2JkR3c5Q0NVaDJ2QkRFNE92aWl6NW10QldVbUpRbzFYSksyY19sb3lHY2R2Zjdsckd4NE5zbnRjelRvOVZjVzhTY1pDUmpkaGd3RFdCMTVRd3ZV?oc=5",
+        "source": "From-UA",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-21T08:04:00Z",
+        "title": "Вдарили і похвалилися: Міноборони РФ заявило про атаку дронами по енергетиці та судну в Україні - From-UA"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZ0JfR094U01MbG9fMHA2UGdDNmhKT2l2NnhnNS1YSEh1eWJEUVgyNVNhazBhRWtReU1wbVctQnpsX3g4cnNaa2hPVDVKYWsxZ2Y1bEoycE92X1pzZkZIZ2FLa19ieFBvOGNzZ29uQk1XU09PSXBUZldRTFU0N0tvaFdoM2dMU05fQUFGa2Jmb3MzbXZkTWc2REZjMXZfZ1k?oc=5",
+        "source": "Военное дело",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-21T05:59:04Z",
+        "title": "Russia Strikes Kryvyi Rih Power Plant and Ship Near Odesa - Военное дело"
       }
     ],
     "first_seen": "2026-11-16T20:40:24Z",
-    "last_updated": "2026-11-22T02:37:09Z",
+    "last_updated": "2026-11-22T10:14:38Z",
     "verification_issue": 406,
     "verdict": null,
     "published_in": [],
