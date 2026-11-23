@@ -1,15 +1,64 @@
 [
   {
+    "region": "Black Sea",
+    "date_utc": "2026-11-23",
+    "summary": "Russia's defence ministry said its drones struck a dry cargo vessel on passage south-west of Odesa that it claimed was delivering military cargo for Ukraine. It also said it hit port infrastructure in Izmail and a power substation in Dnipropetrovsk. The claim is one-sided and no vessel name, damage or casualty details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 46.49,
+    "lon": 30.74,
+    "location_text": "at sea south-west of Odesa, Black Sea",
+    "attack_type": "drone (UAV)",
+    "damage": "struck by drones, per Russia's defence ministry",
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry claimed it",
+    "independent_evidence": false,
+    "id": "INC-20261123-001",
+    "sources": [
+      {
+        "url": "https://t.me/mod_russia/69265",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-23T05:23:23+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOV2ZPWDNuSE9scmlJUDNqYkF3Q2xjNFVBcUFvMWJrUExfWUltUWV6MDJDQ3lDb1lYdUw0clgyQ201OTlUaGZxTDVDS3hfZ2tMLUVqRzNDQkNmLWZkaXdZeExfbVlmTHZTa3BJbHVKWk5ud2RaTG9KemZ2d0N3UzVtTjg5dzdTY0tkMHZsbXJwZk9KRkhaeXVIZUtaUHRvRHEzX1NyWER0SkVxZ1d4aDBCN2d3?oc=5",
+        "source": "prospect.com.ru",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-23T02:21:47Z",
+        "title": "В Минобороны заявили об ударе по сухогрузу в акватории Черного моря - prospect.com.ru"
+      }
+    ],
+    "first_seen": "2026-11-23T08:06:10Z",
+    "last_updated": "2026-11-23T08:06:21Z",
+    "verification_issue": 460,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
     "region": "Gulf of Aden",
     "date_utc": "2026-11-22T20:00:56Z",
     "summary": "A headline says the crew of a ship under an Egyptian master thwarted three attack attempts in the Gulf of Aden. No vessel name, date, attacker, damage or casualty details are given.",
     "official_source_cited": null,
     "conflicting": false,
-    "confidence": 0.5,
-    "vessel_name": null,
+    "confidence": 0.6,
+    "vessel_name": "GOLDEN JOY",
     "imo": null,
     "flag": "San Marino",
-    "vessel_type": null,
+    "vessel_type": "general cargo",
     "vessel_category": "merchant",
     "lat": 12.7,
     "lon": 45.2,
@@ -18,7 +67,7 @@
     "damage": null,
     "casualties": null,
     "attribution_claimed": null,
-    "independent_evidence": false,
+    "independent_evidence": true,
     "date_approx": true,
     "id": "INC-20261122-010",
     "sources": [
@@ -39,15 +88,43 @@
         "kind": "media",
         "published_at": "2026-11-22T18:43:39Z",
         "title": "Egyptian crew foils 3 suspected pirate attacks on San Marino-flagged ship in Gulf of Aden - US Muslims"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE15eE1Dc1pYSE9ZejQtbTNQelF1QlZjUk1pRXVjTFFGVF84TDluZE5YdDI2R3RzUEZ4eTloVmoyNHd5RDNwSVg1dFJkeWtFWlVEdnhTN01XdTZSZw?oc=5",
+        "source": "Yemen Online",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-23T02:18:09Z",
+        "title": "Yemen : Egyptian Crew Foils 3 Suspected Pirate Attacks on Cargo Ship in Gulf of Aden - Yemen Online"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPajhSeGpuTTVDS29Wb25zblNaU0ZkSFFxYjN0dW1Qa3JHYmlDNnFxd3EzQWRSbEMtSTgydHJMOXFmTU5oS2xZQlVMd2lPQktQWlJYY2NrakVlcjJraGtEVnd5cVE3bHZkUkpPVEktWnZfQVpqNEFvRy1KSEljaVJjMmVXR0xNRFFLUFphRUJvOFVXVF9aNDZKeXB5QWZvMDE2aHN1RjRhR1gtQXdYMjVqZHRheG5xMXZGZEHSAcoBQVVfeXFMTzFiZ1lIUTg2cERRZkdtZUJuX0RuOXJCR2ZvS1J3aVpsUW8tVlZCb2FmUkw0dmdNeTRJQ3pmWFFWZlFadFRUcnl6c1RDc3lRUzZobjVDTEhkLU1EbmM5R0huaTR3U2tJV3g4VFBRd0M1NlhzOWVqQ3R4c1BPM0tWY0E3cExiOURmYnJFM2VJQjhUMUZkOHczb254RFNsRE8tMHc1ZWFDX1ZlV0t3eWpaWG5SbnhCTzJEOXVnVG5EMC1xd3M4ZGlkSG9YUQ?oc=5",
+        "source": "US Muslims",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T18:43:00Z",
+        "title": "Egyptian Crew Foils Three Suspected Pirate Attacks on San Marino-Flagged Ship in Gulf of Aden - US Muslims"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSERGQXVvVVY2OV9pN0pDRmEzV2w5eFVadlhTQWJNQ3llcWJjMjdsd19yR1k5Q095YUJxdjgxZU5VR2Etamd2dV9DdzBKUlFjWE1Rci1pcXAwVnVhNUxRM3ZsQlJEMlhuaWZEVC1iWXZwYkRlUU1RYkg1aWxOYUY1dGhjTkd1RE0xYVJ4RA?oc=5",
+        "source": "Sada Elbalad English",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T18:35:42Z",
+        "title": "The GOLDEN JOY Incident: How an Egyptian Crew Thwarted Three Attacks - Sada Elbalad English"
       }
     ],
     "first_seen": "2026-11-22T23:46:53Z",
-    "last_updated": "2026-11-22T23:47:05Z",
+    "last_updated": "2026-11-23T08:06:28Z",
     "verification_issue": 454,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "reported",
+    "position_approx": true,
+    "status_changed_at": "2026-11-23T08:06:28Z"
   },
   {
     "region": "Gulf of Aden",
@@ -433,12 +510,13 @@
       }
     ],
     "first_seen": "2026-11-22T23:47:05Z",
-    "last_updated": "2026-11-22T23:47:21Z",
+    "last_updated": "2026-11-23T08:06:46Z",
     "verification_issue": 456,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261122-019"
   },
   {
     "region": "Black Sea",
@@ -1168,7 +1246,7 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-11-22",
-    "summary": "Russia's Ministry of Defence claimed its forces struck a cargo vessel in the Black Sea south-west of Mykolaiv that it said was carrying dual-use cargo for the Ukrainian Armed Forces. Turkish and Arabic outlets repeated the claim, with one also mentioning a transformer substation, but no vessel name, weapon, damage or casualties were given.",
+    "summary": "Russia's Ministry of Defence claimed its drones struck a cargo vessel in the Black Sea that it said was carrying dual-use or military cargo for Ukraine, and it also reported a strike on a port in Odesa region. Turkish, Arabic and Bulgarian outlets repeated the one-sided claim, and no vessel name, damage or casualty details were given.",
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.6,
@@ -1276,10 +1354,37 @@
         "kind": "media",
         "published_at": "2026-11-22T17:01:01+00:00",
         "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWmFQTFBaNmdmTjNLS1laRFI3X1ZCRnFCLVd3dHUxT1dISW1aaEhLQW92STN0cWFNZEg3a0lhS0lfVUVLVXlHdXpobmNSSS00OG9jdW10R3NUeXdEZ2JJQjhXUmNvam51cGJYTzZCajBIaTNsWmJOVDk5UmdzUjUxbVFud3B1b08zRDlLWEFn0gGTAUFVX3lxTE1zbDBVRnd6ODN6Mk16X1ZxVXhqcHV2NFUwVlJsU0FTV1dxNXVTemRndGEyUDM3NmVmbWhWR3lSMXdzTkFUMUxfLVp2bEhZZV9wLV9OTEl1bTRNMXlHeTJKUEl4Yk5zNFZ0eEUyYVVWRjUya0lGd2NVMGthT0Z5VUJqT2YtYTdOMEFQd0tkYWNibG04QQ?oc=5",
+        "source": "Denizcilik Haberleri",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T08:03:05Z",
+        "title": "Karadeniz'de Askeri Yük Taşıyan Gemiye İHA Saldırısı - Denizcilik Haberleri"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTFp6ZkNnSFdiUENuUmxGSUc3U29aTWlXQU9pYnY0U1dTS3R3NW41TGc0Z2xULTJ0TXlJN0VPTGE1OXpVcHA1NUJpYjlydDh4VlRJdS1UaTdadDM1Qmxma3ZlMzNWb0FMREY0MFM2S3FvYm9fMnc4YVprX1FTci12ZDV1TmdNMWFTNE13TGxlZ0Jnam0xZXFia0FRSjJEOVhudm52YzQwaFk2YVM1dW51bWlSa0ptOGE2MjVSeU5CYVVTVkFWOWc?oc=5",
+        "source": "BGNES",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T11:07:41Z",
+        "title": "Russia Admits Fresh Drone Strikes on Cargo Ship in Black Sea and Port in Ukraine’s Odesa Region - BGNES"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE10bWNrdjFlUDVlYUo0NXFoa04tM3NjVGpVRERBSzJVSE0yckNUeEVTdUViV1d5Q185R1lrTzdyZzJtLVRZS240MXZFUnhOYW4z?oc=5",
+        "source": "عاجل",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-23T06:59:00Z",
+        "title": "روسيا تعلن استهداف سفينة تنقل معدات عسكرية لأوكرانيا - عاجل"
       }
     ],
     "first_seen": "2026-11-22T18:01:11Z",
-    "last_updated": "2026-11-22T18:01:18Z",
+    "last_updated": "2026-11-23T08:06:46Z",
     "verification_issue": 453,
     "verdict": null,
     "published_in": [],
@@ -1292,7 +1397,7 @@
     "summary": "A Ukrainian military Telegram channel posted video of what it called an effective sea drone attack on the Russian cargo ship Ascalon at Benghazi, Libya, on 22 November 2026. Libyan and other outlets reported a Russian commercial ship struck by uncrewed boats and drones at Benghazi port, with Libya's Health Ministry reporting minor injuries among the crew and the Libyan army saying it repelled a new attack by uncrewed boats.",
     "official_source_cited": "Hammad government (Libya)",
     "conflicting": false,
-    "confidence": 0.6,
+    "confidence": 0.7,
     "vessel_name": "ASCALON",
     "imo": null,
     "flag": "Russia",
@@ -1596,10 +1701,82 @@
         "kind": "media",
         "published_at": "2026-11-22T18:41:28Z",
         "title": "Торговое судно у берегов Ливии атаковано безэкипажными катерами - prospect.com.ru"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSVV3R20wMlVNVkVuTXAyaHhTQ015T09zMVdvaXNFd2FrbHpydWo3VVJDZVU2eFhCdlM1d0FlWWpvLXN3NU5MUkFHMFl5MWJGLUNzcU50Rk5JQkdMM1BiUlhZNVJDREhHTmVCS01ZekFNMkdSWU9jdVpqWkt4ZHdjeDNyNXBTSGpGZHpqVTZ0ZHdOMVVDNHlXNjNPU0o5anpkUDlQRVhCcWkwSDI3dXNxNEI1YjZJWTJROHdkeDlzNEpVS3dxU3NTbk1rTGtvQXJJNkhEdnlR?oc=5",
+        "source": "WION",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-23T04:29:00Z",
+        "title": "Moment: Explosion hits Russian ship at Libya's Benghazi naval base, drone attack suspected - WION"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1CNGFESWlsQ3lnMGZfdVlNSXRfT1ByS1FzYUo0ZXpZT09hMDJMSGVVbXF3VGZlOFlTVDFBa1ZLaU1KUW1wbUFPQ3loUVpfQ2xhRmY0M3ZtZkhHX3hnVXNHTWx5M3VvZWs?oc=5",
+        "source": "Reuters",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-23T03:10:05Z",
+        "title": "Fire rages at Benghazi port after suspected drone attack on Russian ship - Reuters"
+      },
+      {
+        "url": "https://t.me/astrapress/131973",
+        "source": "ASTRA",
+        "source_type": "telegram",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-23T02:26:41+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQVRjMl9RY2w1QlpqbFdkV3Z2VGpDTENnSGNremdYeGlSOTdGOWFNN3c0ZHlJMmZGYndXV2hXR0tQTkcwcnlNSV92U0I0U3BOOXlrMDU2WXI1VTJZWU9ZZWNWVFh4VmRVaDViYnRsOVYwOU1BLWIyZElQblBHbi1NUXRtWDk5SEJQd1puOdIBjwFBVV95cUxQMHVheUJvbGxtT2NhcFotZjdxMUdfdzN4OERlUVJfNWQ2amFWaWZMeGREYngyQW5lbW9ZSm5CVWx6am5wTnlXdjg2Njg3SGpyaU9FbV91bTJVakVLQjNoVy1SWEVDTlZYNlhRV1NnNlBOSGNHVFZRU0RndDVBcG5EM2NzXzNCNFdKcXBFa00yQQ?oc=5",
+        "source": "Radio Free Europe/Radio Liberty",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T23:01:07Z",
+        "title": "Libya Says Suspected Drone Boat Hit Russian Ship Near Benghazi Amid Ukraine Speculation - Radio Free Europe/Radio Liberty"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNd2NsaklSNWZ3dmlHVG1fZFNEaHpFZWtoYjB3NUwwUE1Ja01VQ21KcUNrQjdrUk0zZE1XTTA0SDNxZDF2aDFLMDJ6YmtISjFPY2VKOVRZem5fNGtJMlJoYjNrMV9RSlVSOF9Nbmh4Qkg1LUdScEJLaVN1dHVqbFZJVkdqRk15dlBLdmVvWGU2TjVseVRvTS00Z2NGZnRYWmdTdDh0Y3hqU0x1T0tWY2ZDRlZB?oc=5",
+        "source": "Ahram Online",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T20:49:09Z",
+        "title": "Libya reports second drone attack on ships including Russian vessel - Region - World - Ahram Online"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOZVBqVmt0cjFGU0Q4X2FpTWNfRGx2T0M1amh5dTlYWkpxWDhVUnA2YXhpblBBMEdwLTk4RG5iTTVBcDRWODRSMmNWZ0lLS2dENzYwaExEY3U5TE5lWk1xMjlQeGZYV2ZtaEViOG1IbUpINEtyUkRrRy1Ob0cycGY1X2VWU014Q1JaWWFBSHVxbjFUeVlCUVlNOHhmbXpWQVNfZE5wT2NmX05JOWlpakl5LTR2d1JNRFVQUk5qVzhaN2ZTV3VhYXJMWnhRTGRvXy0yd1F0am16cGRzcExDZlRIdmhUWmJsTXUwUU9xbk1YMlBWYWs?oc=5",
+        "source": "Business Upturn",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T17:36:33Z",
+        "title": "BREAKING: Libya orders joint probe with Russia after suspected drone strike on Russian ship at Benghazi port - Business Upturn"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwRBVV95cUxQbXowaXpGczVHMTFHS1pkb3prRDlINjRweks5dXRaMmJoM21Sc2dPRGlRNWN4TDY1ZzMwNzg5cVBBU3pHMlkyMFZ6SThRTWdLZThudWQtRDcyYUhjUjlKSmM0ZWVfek1iWFFGNVA2VmhEUmh0a0pqUjl1QmxHQnA1YV9OQVBhSG12V1VBWXZPNjE5NFhnZDhzeTVFNTJRNlVXWUhUazNTQldCMzlJWTJtQ2xodDc0clR5anFURU1tbTVLZkZXQXVCNEFLTHhueUl0ZHJ2bWRzTHl3clBLRDl6UldlNVFXZTFsN0kwdGF0bWZOMU5welk0X2g0Uy1IX2wySVc2TXpnVWY5NUNuNmcwMHBlTUt0cGdYUjdSQUliOW5ZOUsybjFIbVZzdGFNamRMeTdBM0lnRGxubVo5N0pxelJaR3lsTklWRUhFcF9nREZBRk8zRVFuTEVYM0FRdG9qVUt0NVl5ZW5vSzViVl9neTFQaDhBcEt1RFhZaEVTZGdIWFQ4VURpSXcwa2hENlljMjBHVWJPdDFJb3o2bVlKWExRXzRaZnpSeXl2RENLUUlQVFY5Z3dZWks1N1N4a1JxUkhDYXUzOUlONmh0MTNxUTdoSVJlSEdqWWVTdnU0OXFHeGF5ejVRVDJBTHdtdDBPUXdxZk44emprTks1T3NwLWZSMDU2M2k2OTVUUGd1a194SC15WGxNbjVQaFE3aVJIdnlWUVJjUllRSkppMGFKbkNRckdjNlU?oc=5",
+        "source": "اليوم السابع",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T17:09:00Z",
+        "title": "ننشر التفاصيل الكاملة لاستهداف سفينة روسية بزوارق أوكرانية مفخخة في بنغازي.. مصادر ليبية لـ«اليوم السابع»: 6 زوارق مفخخة نفذت الهجوم.. والقوات المسلحة الليبية تحبط هجومًا ثانيًا.. وليبيا تفتح تحقيقًا شاملًا - اليوم السابع"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41cFpHQ1c5UGkxOHAtM0l0YU9jQ0F5bVliLVRCV3oyV21LT0ZyVTZaYlRob01BRzVMc2tOS1NDOVE3THlvSXBkY3RhUXlsLWxsQlg0b1puZHpWY01rU3VR?oc=5",
+        "source": "The Jerusalem Post",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T15:20:05Z",
+        "title": "Ukraine strikes Russian vessels docked in Libya as another Russian ship burns in Finnish waters - The Jerusalem Post"
       }
     ],
     "first_seen": "2026-11-22T23:46:53Z",
-    "last_updated": "2026-11-22T23:47:21Z",
+    "last_updated": "2026-11-23T08:06:28Z",
     "verification_issue": 455,
     "verdict": null,
     "published_in": [],
@@ -1638,11 +1815,254 @@
       }
     ],
     "first_seen": "2026-11-22T23:47:20Z",
-    "last_updated": "2026-11-22T23:47:20Z",
+    "last_updated": "2026-11-23T08:06:46Z",
     "verification_issue": 457,
     "verdict": null,
     "published_in": [],
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261122-009"
+  },
+  {
+    "region": "Gulf of Aden",
+    "date_utc": "2026-11-22",
+    "summary": "President Zelensky said Ukrainian forces used seven Ukrainian-made sea drones to strike the Russian general cargo ship MV Angara off Libya, which he said Russia used to carry weapons. No independent confirmation or damage details were given, and a separate report mentioned a supply vessel also hit in Libya by sea drones.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": "ANGARA",
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 12.5,
+    "lon": 47.5,
+    "location_text": "near the coast of Libya",
+    "attack_type": "sea drone (USV)",
+    "damage": "Zelensky said the vessel was hit; no damage details given",
+    "casualties": null,
+    "attribution_claimed": "Ukraine's Security Service (SBU), per Zelensky",
+    "independent_evidence": false,
+    "id": "INC-20261122-019",
+    "sources": [
+      {
+        "url": "https://t.me/ukrpravda_news/87017",
+        "source": "Ukrainska Pravda",
+        "source_type": "telegram",
+        "side": "ua",
+        "kind": "media",
+        "published_at": "2026-11-23T07:22:23+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/uniannet/207870",
+        "source": "UNIAN",
+        "source_type": "telegram",
+        "side": "ua",
+        "kind": "media",
+        "published_at": "2026-11-23T07:21:05+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/operativnoZSU/226788",
+        "source": "Operatyvnyi ZSU",
+        "source_type": "telegram",
+        "side": "ua",
+        "kind": "media",
+        "published_at": "2026-11-23T07:19:37+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/uniannet/207840",
+        "source": "UNIAN",
+        "source_type": "telegram",
+        "side": "ua",
+        "kind": "media",
+        "published_at": "2026-11-22T18:19:21+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/Crimeanwind/113309",
+        "source": "Crimean Wind",
+        "source_type": "telegram",
+        "side": "ua",
+        "kind": "osint",
+        "published_at": "2026-11-22T18:13:20+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-11-23T08:06:03Z",
+    "last_updated": "2026-11-23T08:06:46Z",
+    "verification_issue": 458,
+    "verdict": null,
+    "published_in": [],
     "status": "claimed",
+    "date_approx": false
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-11-22",
+    "summary": "Splash247 reports that three tankers were hit by projectiles in the Strait of Hormuz within 15 hours, and that the JMIC identified two of the vessels in a Sunday update. The item does not name the vessels or give damage or casualty details.",
+    "official_source_cited": "Joint Maritime Information Center (JMIC)",
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": "hit by projectiles; images show marine damage",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261122-020",
+    "sources": [
+      {
+        "url": "https://splash247.com/tanker-inferno-greets-un-oceans-advocates-swim-through-hormuz/",
+        "source": "Splash247",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-23T07:16:40Z",
+        "title": "Tanker inferno greets UN oceans advocate’s swim through Hormuz"
+      }
+    ],
+    "first_seen": "2026-11-23T08:06:08Z",
+    "last_updated": "2026-11-23T08:06:08Z",
+    "verification_issue": 459,
+    "verdict": null,
+    "published_in": [],
+    "status": "confirmed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-11-22",
+    "summary": "An Arabic outlet headline says Russia announced it struck a ship carrying military equipment for Ukraine. No vessel name, date, position, weapon, damage or casualty details are given, and the claim is one-sided.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.4,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 43.4,
+    "lon": 34.5,
+    "location_text": "Black Sea (location not specified)",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Russia (defence ministry announcement)",
+    "independent_evidence": false,
+    "id": "INC-20261122-021",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE10bWNrdjFlUDVlYUo0NXFoa04tM3NjVGpVRERBSzJVSE0yckNUeEVTdUViV1d5Q185R1lrTzdyZzJtLVRZS240MXZFUnhOYW4z?oc=5",
+        "source": "عاجل",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-23T06:59:00Z",
+        "title": "روسيا تعلن استهداف سفينة تنقل معدات عسكرية لأوكرانيا - عاجل"
+      }
+    ],
+    "first_seen": "2026-11-23T08:06:08Z",
+    "last_updated": "2026-11-23T08:06:46Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261122-009",
+    "position_approx": true
+  },
+  {
+    "region": "Gulf of Aden",
+    "date_utc": "2026-11-22",
+    "summary": "Libyan military sources told Reuters that a commercial vessel under the Maltese flag was hit in a second attack at Benghazi, Libya. No vessel name, damage or casualty details are given.",
+    "official_source_cited": "Reuters, citing Libyan military",
+    "conflicting": false,
+    "confidence": 0.6,
+    "vessel_name": null,
+    "imo": null,
+    "flag": "Malta",
+    "vessel_type": "other",
+    "vessel_category": "merchant",
+    "lat": 12.5,
+    "lon": 47.5,
+    "location_text": "Benghazi, Libya",
+    "attack_type": "sea drone (USV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261122-022",
+    "sources": [
+      {
+        "url": "https://t.me/astrapress/131973",
+        "source": "ASTRA",
+        "source_type": "telegram",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-23T02:26:41+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-11-23T08:06:21Z",
+    "last_updated": "2026-11-23T08:06:21Z",
+    "verification_issue": 461,
+    "verdict": null,
+    "published_in": [],
+    "status": "reported",
+    "position_approx": true
+  },
+  {
+    "region": "Gulf of Aden",
+    "date_utc": "2026-11-22",
+    "summary": "A Turkish-language headline reports that sea drones attacked a Russian warship in Libya. The item concerns a naval vessel and gives no further details.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.3,
+    "vessel_name": null,
+    "imo": null,
+    "flag": "Russia",
+    "vessel_type": "naval",
+    "vessel_category": "naval",
+    "lat": 12.5,
+    "lon": 47.5,
+    "location_text": "Libya",
+    "attack_type": "sea drone (USV)",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261122-023",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbzdhenZMUUQ0OFJEUHdoMTdMMmg3bVpUeHA4bEFkaVphZTZEWnZWLVVwZEhBYzM4amtFQ3F4VVN6X0VURlVmazdlbkZMbl9IeHFCV3BtWWc2WUlmWHBVd0NyNC1VbzFiSFBOZkZVZ0t1d1dNb05UdFBKRXR3Y2ZfM2FPdVdENUNualBzYVpHTQ?oc=5",
+        "source": "KOHA.net",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T17:17:19Z",
+        "title": "Libya'da Rus savaş gemisine deniz insansız hava araçlarıyla saldırı düzenlendi. - KOHA.net"
+      }
+    ],
+    "first_seen": "2026-11-23T08:06:28Z",
+    "last_updated": "2026-11-23T08:06:46Z",
+    "verification_issue": null,
+    "verdict": {
+      "status": "rejected",
+      "by": "review pass",
+      "at": "2026-11-23T08:06:46Z",
+      "note": "Out of scope: (b) target was a Russian warship, a naval vessel"
+    },
+    "published_in": [],
+    "status": "rejected",
     "position_approx": true
   },
   {
@@ -2155,10 +2575,64 @@
         "kind": "media",
         "published_at": "2026-11-21T08:01:01Z",
         "title": "Tanker hit by unknown projectile in Hormuz, UKMTO says - Roya News"
+      },
+      {
+        "url": "https://maritime-executive.com/article/two-more-tankers-hit-off-oman-as-houthis-threaten-saudi-red-sea-ports",
+        "source": "The Maritime Executive",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-23T03:03:00Z",
+        "title": "Two More Tankers Hit Off Oman as Houthis Threaten Saudi Red Sea Ports"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVWRheEp2TTBZbWE0WkFQTlozZm5mVy1Hc3BuOEVvYzNLdEdTWVFUUHYyUHVONGZ5VVVZTG5HRU45ZW5YQ1YzVFdSaGVud1ZScjB2OTBYVXprcTBoLUZxMkdncS1fN0RBVkJVclhwV3JQUjU5cTAtUVo2MmdNZWtjXzN2RmhPOXZrUE9ZcFdybnl5cG5oemU0VTZabVRkNV9hbHJZa0YxVDFMTF9m?oc=5",
+        "source": "The Maritime Executive",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-23T03:03:00Z",
+        "title": "Two More Tankers Hit Off Oman as Houthis Threaten Saudi Red Sea Ports - The Maritime Executive"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRGdJTll0TXUtSTE2V0dpeG56TmlpbHdYZWp5VTQ2WjFkYVpNV1d2Rmo1TTV2bm1VdWlmTi0wVFVscENjSzBoNVJ4REtDazBMaVVCNW1Bd25hY2hDeGEwQkY3X0Z5eHVCc0NlV3JYczlzMjgtbXZSMHdFSnZKeUVfTTg5azlDMENaTVgwV1U2VHV0X2NDMXVB?oc=5",
+        "source": "gCaptain",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-21T19:38:29Z",
+        "title": "Two Tanker Incidents Reported Near Oman; Vessel Hit Mine East Of Hormuz - gCaptain"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNLWZ2RkFpS1dzQURJZ1hKZGNILTE0NjJFY01KSFBqVDFZS0NTTGFCdEpZcFJxRTBXdDhaLWUwdWJxRjFfa1pfc2ljeVVKTG5fVUVOZk16RDBvb1A4QmxtMEhmR3VYWTg0bHFvVlZBZWJfZS1FT25wZ3hTeWtfQ0dPYXZxYmdBT0luMWVkakw2VnJ3MGJHUWgyNkpYMm1QU0pEVDB0VXVNVUgyWnJzazFXc0hqXzBjSC1GVC13cFhBLWxycnQ0UHVyNndR?oc=5",
+        "source": "Investing.com India",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-21T18:13:07Z",
+        "title": "Trump seeks “permanent” Iran nuclear deal; two tankers hit off Oman By Investing.com - Investing.com India"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOFpvUFFXS183QXNQNkxvZDlyZ2ZnU3Y0VVNaRWV0YldNd3JoYUVCQk1ZcXE4ZUNMbVFJeWtYX0FKeFBRRy1hcXA0RkVNTUhjU1djQlZjOWNjTk9RNUpDVERoSFByMFpmbnViRlF3ZERkSk5Sb0xoeUdZX0RlcTJXVHBVMUwxSXR5bmpkRVk3b2twc3RFa0VobzZlT20tRjV3NmNiZ3o1bDltdFJsdXVyZHFHeGtDS0ZjZEE?oc=5",
+        "source": "Arab News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-21T13:41:35Z",
+        "title": "Maritime agency says 2 tankers struck in Hormuz, as Iran says ship on fire - Arab News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMHRjc2lrVlZ3WWtYVEZvb0c0Ni1sLXRINzFDSngzUmExdEtZWjcwYjZyZEFwcGRsVWhZSW9pcnNZa1c1Uk1KUGlDSFhiMldmdUJXYXJlTnRvWHRLQ2M0VmloUnVJd3FST29JRGxsTEtudFhmY1dqU1dJVGFILVVwdnpoc285ZzRjVTI3eVZKaWxnQllFSF80OVdZWWhsTUljSkxhdGw3amZKX0tlLWhrbGJiSjRpZw?oc=5",
+        "source": "アラブニュース",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-21T12:50:55Z",
+        "title": "Tanker hit in Strait of Hormuz as missile strikes Iran's Qeshm Island - アラブニュース"
       }
     ],
     "first_seen": "2026-11-21T08:43:54Z",
-    "last_updated": "2026-11-22T10:14:37Z",
+    "last_updated": "2026-11-23T08:06:43Z",
     "verification_issue": 442,
     "verdict": null,
     "published_in": [],
@@ -3164,10 +3638,37 @@
         "kind": "media",
         "published_at": "2026-11-22T11:35:11Z",
         "title": "Біля берегів Фінляндії не можуть загасити судно РФ, яке зазнало атаки дронів - RFI"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xczJjcnNuQmFXcjJkSEFEdTZoUUYyNUNoTzBPNmtldzVSWmxFd2RuSE9JNXl1WGdrM1VUVy1NdkFoOUtZN3NtbFk5X2ZkUzBhazMzY3M5Mkh0QWNCWEd6S05HVjNlTTk4YUpXOTB5WmdsQQ?oc=5",
+        "source": "www.wltv.it",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T09:49:12Z",
+        "title": "Russian cargo ship hit in the Baltic Sea - www.wltv.it"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTkZNRTlCVDBlUTdLbWViVUEtU0VQaG9hWTFMVnJRNlBGeVlDdm83d2pSMXFjaC03UzA5UVc4eS1RUXZIVUFTdXoxSUxaUEJXYlFRUWRhS0JaMHhQaUhvcXI4S3ZDYW1qc2xzZDA1a2ZJdjZMNnJDQ1dZalk4QzlQQ2drZ1VOSEQyQ0l6SmU1a3p6amZZNnFn?oc=5",
+        "source": "Egyptian Gazette",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-22T09:30:17Z",
+        "title": "Russian cargo ship still ablaze off Finland after attack - Egyptian Gazette"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWERWMnpCdnBrUzBDeF8xTXI0TmlrdXBZa3pOdElPdUszb2hXYUJraEgzWmVGS3Y3bGZPOGNMcGdWOU1zWDhEM1ppQjNZWTRpZ2ZzckFsYWdabW4wYnhMc2JJcVloRlZUNVFjT3I3bU8yOTdlbjVlMUNzQm5iVTVXU3NtcFhteGNBblVQMU5iaWtsT01XTEZlVUxUVUJUMUNZVWhnMTVhZEV0TXQxVkJ1bXUxWTVhbWlVb08yNTctNXREZHfSAcIBQVVfeXFMUGEwT3lnaTZlRFRBWEExNlpsc0FwMEY1c19aeVBhckNlX0lsSWRwZFBadHRBa3dXbmlwcWhHdXRFVl95ODRzbXdLNVZfTVBnMl93NHYxVkpOLWNjMDBoM21iYzR6YlpQMDcwNFRGR2FaN0Y3VF9sb2ZHTnhidE84bHlfM1FLVzNLZnFka2pfYWxYdTViMXhINk5pZnZUaGtfRG1xY1p0aWY2anFGUU5uQ2dPZVFNamZHa09iOTdqMTNCRUE?oc=5",
+        "source": "Українські Національні Новини (УНН)",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-21T23:55:40Z",
+        "title": "The crew of the Russian cargo ship Sparta II was evacuated after a drone attack in the Gulf of Finland - Українські Національні Новини (УНН)"
       }
     ],
     "first_seen": "2026-11-21T16:56:14Z",
-    "last_updated": "2026-11-22T23:47:20Z",
+    "last_updated": "2026-11-23T08:06:34Z",
     "verification_issue": 446,
     "verdict": null,
     "published_in": [],
@@ -6280,12 +6781,13 @@
       }
     ],
     "first_seen": "2026-11-19T02:47:16Z",
-    "last_updated": "2026-11-19T02:47:16Z",
+    "last_updated": "2026-11-23T08:06:43Z",
     "verification_issue": 428,
     "verdict": null,
     "published_in": [],
-    "status": "confirmed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261117-028"
   },
   {
     "region": "Strait of Hormuz",
@@ -6566,6 +7068,64 @@
     "verdict": null,
     "published_in": [],
     "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-11-17T00:00:00Z",
+    "summary": "The IMO lists ON PHOENIX (IMO 9893228) as hit at 3NM from the coast of Oman on 17 November 2026. Damaged. No pollution.",
+    "official_source_cited": "IMO confirmed incidents list",
+    "conflicting": false,
+    "confidence": 1.0,
+    "vessel_name": "ON PHOENIX",
+    "imo": "9893228",
+    "flag": null,
+    "vessel_type": null,
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "3NM from the coast of Oman",
+    "attack_type": "other",
+    "damage": "Damaged. No pollution.",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261117-028",
+    "sources": [
+      {
+        "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx#9893228-2026-11-17",
+        "source": "IMO (confirmed incidents list)",
+        "source_type": "official",
+        "side": "neutral",
+        "kind": "official",
+        "published_at": "2026-11-23T08:06:43Z",
+        "title": "IMO confirmed incident: ON PHOENIX (IMO 9893228)"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GX2dja0ZNZkZZQ1BjS1U4ZExBcXZoNHJfSFl5a1NTM1g2N1g4cjRQNlAzSFhyUzBqWXJqVFphM0g3MVpsZmw4ZDNwU0EzMmtWZDI0a3d5RnBic242Q2pGNzVPVl9iQjQ?oc=5",
+        "source": "Yemen Online",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-18T05:16:10Z",
+        "title": "UKMTO : Cargo Ship Struck by Unknown Projectiles Near Mokha - Yemen Online"
+      },
+      {
+        "url": "https://maritime-executive.com/article/security-guards-fire-warning-shot-to-stop-boarding-in-gulf-of-aden",
+        "source": "The Maritime Executive",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-17T21:30:14Z",
+        "title": "Security Guards Fire Warning Shot to Stop Boarding in Gulf of Aden"
+      }
+    ],
+    "first_seen": "2026-11-23T08:06:43Z",
+    "last_updated": "2026-11-23T08:06:43Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "confirmed",
     "position_approx": true
   },
   {
@@ -8905,12 +9465,13 @@
       }
     ],
     "first_seen": "2026-11-17T22:37:01Z",
-    "last_updated": "2026-11-22T18:01:18Z",
+    "last_updated": "2026-11-23T08:06:43Z",
     "verification_issue": 412,
     "verdict": null,
     "published_in": [],
-    "status": "reported",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261117-028"
   },
   {
     "region": "Strait of Hormuz",
