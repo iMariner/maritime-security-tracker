@@ -1,8 +1,94 @@
 [
   {
+    "region": "Black Sea",
+    "date_utc": "2026-11-26T11:03:00Z",
+    "summary": "A Turkish outlet reports that a large Russian dry cargo ship heavily damaged in a UAV attack in the Black Sea has passed through the Istanbul Strait. The item gives no date, attacker or casualty details.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": "FORTIS",
+    "imo": null,
+    "flag": "Russia",
+    "vessel_type": "bulk carrier",
+    "vessel_category": "merchant",
+    "lat": 41.2,
+    "lon": 29.12,
+    "location_text": "Black Sea (vessel later transited the Bosphorus)",
+    "attack_type": "drone (UAV)",
+    "damage": "heavy damage, shown on camera",
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "date_approx": true,
+    "id": "INC-20261126-004",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNby1WLWtrcGNldkoyd0dxZFNTTWU1NDBfZEtFNVZxZ1V3TEowUGt4YWk3RktHVUZBU2puMDNtaE1XcXIyOTdOSU1pTXRPR0FBbHQxaC1ndkktQVJZcmEyVC10R1BVNElFNFkzM3hZYmJXdEFXVDV5a3JZaDNuNXQ0R2hUTFJVZW9FX3hmQkJVWXI5cEl3VFdUckVWclEtdGd4QjRBbWNqekZDUmVsYkh5bUhrN2tPNldIUFRIWjhxaW1jaGtZcGVYZkU5Tl9QaDJ3QWNEUS1mYXA1b1B2aGRN?oc=5",
+        "source": "Haber3",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T11:03:00Z",
+        "title": "Karadeniz'de İHA saldırısına uğrayan dev gemi İstanbul Boğazı'nda.. Aldığı ağır hasar kamerada! - Haber3"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdGJrbWxFX3VpaUJmRTZrSkVmbmRpbF90ZTVERVpzd1NadGMzYkJMRWVURGJGRnVscFVDamNYZ2VjQlB2aGo0dW9Xd0IzNFliYUlBOFMyN2Z0ckE3YzFXU05velJGRXVtVV8zSHZRYy0zYm5UM0RoU2p5TGRETDBVS1lVb2ZFNk5idjdINDdIR2tEby1QMUtIUUZXOA?oc=5",
+        "source": "Tek Haber Ajansı",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T10:51:49Z",
+        "title": "İHA Saldırısında Hasar Gören Rus Kuru Yük Gemisi İstanbul Boğazı’ndan Geçti - Tek Haber Ajansı"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxON3BsY1cwcDNOdmstVFgzR3RNRjdqMWRtYVlJcVNQRlB3a25YanFzeXY5dnVUYjJ3cVNfY1B3MHU5akhNa280QWlLQ0pRU0R2eXc4alY0aXlHczg5RXdaRThLUkVRV1dsSUJKc0lKNEQtbUpWTTFSa19sNGt3TVQwN24xNE03UQ?oc=5",
+        "source": "Haberler.com",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T09:44:15Z",
+        "title": "The Russian ship that burned in the UAV attack passed through the Fortis Strait! Its final destination has been revealed - Haberler.com"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMTFoQ0E1QWR6b1J0X1BVaDBwTnlrcElQejRWSkUzMHRQV3RXbEFwM1o5MFhiX3BZTmFEXzdHLU1YdTlDdU1GQmRaNE1TRHlqVjBHMlFzUXZWTmlBMzhyZkdkbnNZM2NyRWVPdHRkbWlfN01xQXJJbjNaNW13Rm52dGhxX1E4MmVXNWd5NGtBT2FQSjc3NTZpTDk2VE5ST1BIT3FvRVJULTVINTM1RmVsdkZJNGV3Z3E3YkhJ?oc=5",
+        "source": "İşçi Haber",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T09:29:00Z",
+        "title": "Karadeniz'de İHA saldırısında hasar alan FORTIS gemisi İstanbul Boğazı'ndan geçti - İşçi Haber"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcHY4aWd4TkxKTm5Qc25HaHhnX0xtT2k0WXRkdGxJRDJ1UTVMbkdFcGpPanRmb0tKcnBpLW4telZ2OEZnOG9DLUxiSnVhMU5jWEFlVmc4ajlHWDR4b0dPeElSQUpTaGhUREF2NkloblctRGc1LTUwUGVNM2ZHWDdxTHc1VEVBbklpVkFmOC0wRkZ6VmlPZEQweG1XQ01ndjdDdzlIRkZETXVldWY5UGU2UHRXdjhLWjdUZVMtQtIBV0FVX3lxTE4xVkNRNmNVb3N6al9LQjRMX1BMVFVDcm9WOW5iLWdDM2xieGRXMDhRd3BaZjcxaU5acVNESm40UmpLOHY4alA0SnRiRmRoSmF5QWhibHZKSQ?oc=5",
+        "source": "Mersin Haber",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T08:31:00Z",
+        "title": "Karadeniz'deki İHA Saldırısında Hasar Gören Gemi İstanbul Boğazı'ndan Geçiş Yaptı - Mersin Haber"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcnFLdEJwOWFXcUJmSE1NSTBYMEEyMVBTUGxJclIzRktFSk9OM28ydDhWYU5vdUx4ckM3R0lnVzZvTkRUb3htZ09VTFhnbi1RQ0hPZFl5OHlJMU15Tmd4ZVlfcTRHX0doMnFCeWpQclJJS3hnWTkzY01iRW5YNFotM3k5RHVROFgzY09udUx6ZzRxUUFsQm0tRVNkc3N1ZzJFajZPVjFRSXJJOTFtWlhHUFNjVWxaQ3dQYXQ0VDhqNA?oc=5",
+        "source": "www.muhalif.com.tr",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T08:25:11Z",
+        "title": "Saldırıya uğrayan Fortis gemisi İstanbul Boğazı'ndan geçiyor: Trafik durduruldu - www.muhalif.com.tr"
+      }
+    ],
+    "first_seen": "2026-11-26T13:04:50Z",
+    "last_updated": "2026-11-26T13:04:57Z",
+    "verification_issue": 488,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
     "region": "Persian Gulf",
     "date_utc": "2026-11-26",
-    "summary": "A tanker reported an explosion from an unknown projectile about 92 km west of Dubai. No vessel name, damage or casualty details are given.",
+    "summary": "Seatrade Maritime reports that a tanker had an explosive near-miss off Dubai, alongside strikes on Jazan and Jeddah ports and smoke at Ras Tanura. No vessel name, exact date or attacker is given.",
     "official_source_cited": "UK maritime agency (UKMTO)",
     "conflicting": false,
     "confidence": 0.7,
@@ -11,12 +97,12 @@
     "flag": null,
     "vessel_type": "tanker",
     "vessel_category": "merchant",
-    "lat": 26.8,
-    "lon": 52.5,
+    "lat": 21.5,
+    "lon": 39.0,
     "location_text": "92 km west of Dubai",
     "attack_type": "explosion (cause unknown)",
-    "damage": null,
-    "casualties": null,
+    "damage": "explosive near-miss",
+    "casualties": "Jordanian sailor's body recovered",
     "attribution_claimed": null,
     "independent_evidence": true,
     "id": "INC-20261126-001",
@@ -65,15 +151,281 @@
         "kind": "media",
         "published_at": "2026-11-25T23:30:16Z",
         "title": "Projectile explodes near tanker 50 nautical miles off Dubai as Gulf shipping attacks mount - investingLive"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaEZmUU5lUFBXRVNUcWdDempvbGQ5TzBQajQ1SlVfdi1tOEtTN1BJenFmQTNZVlJwZEZ2aEVHSzNDOHBrZnRFWEZfeHg3cnlCdjhQNFR0TGNsaENUZXRyb2NiSUVKekozcVFyX2d4cXJ2M3Z5VDdVbF9ndEp6WWdXM1pCUERJazZJUFY1eW1aQmNyTUJoV2c1T3gxcmh0S2E0dHZ1bk55bVV2cXJn?oc=5",
+        "source": "The Peninsula Qatar",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T12:46:43Z",
+        "title": "UKMTO reports tanker struck by unknown projectile near Oman - The Peninsula Qatar"
+      },
+      {
+        "url": "https://www.seatrade-maritime.com/security/oil-bounces-as-houthi-saudi-strikes-escalate",
+        "source": "Seatrade Maritime",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-26T12:35:39Z",
+        "title": "Oil bounces as Houthi-Saudi strikes escalate"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbzg2QTl3MDR5RXI2ZEh3YXc1TU01aEF3bU90bFNsWVgyN3VxUTBSWXNOSUl4RW5TX2RWN09zTEdSWXhOTTlobU1PTjdkcHdmazZGZnZzajF4NUw5S2IyQmpvUEhIdVU0cnVMOGpYeGRja3FKWHJTcGpVZGdJTmkyQk56ajN5clJJYkVoa1hEVFM5d1JFdURYSkx4SE1KRHlJN0V1U25rZEVuSU4xYVE?oc=5",
+        "source": "Daily Beirut",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T11:42:25Z",
+        "title": "Jordanian sailor’s body recovered near UAE coast after tanker attack - Daily Beirut"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNV0VKak9manFSYXJqQ2dJUnhfWVRqc1pDVGpFV0xyOGRQX1hQMkp4emR2dkcxYm5lYk5oWHVyNDNfNGR0TUlWRTRkSjFYNU9EdzBBbnltd3o0SVctT3pCNVRUTTU4RDEtaDEyUmdYajF1N0NFc1JaTmNfZ3JaNTZhU0lOUFZzVVh0djFzbGNBVGFKR2VoVjVlUmNNQVE5LUJ5ajM1WDNPX2ZIZW5uSXg4ZEozSWpsbTRJUGEzZ2JPTF94RlNN?oc=5",
+        "source": "Daily Pakistan",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T07:43:56Z",
+        "title": "Riyadh Missile Attack, Dubai Tanker Blast raise fears of Fresh Middle East Tensions - Daily Pakistan"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWGkzZ0tJTTM2aG5RSVQzRmhQOGo2U2xudGZreDdJdnlOaDBKS21SbGFIUnVraWFGVEFTV2h3ZTRPc2R1a0NraUFDUmV2UmNRaS05Y3RlSjJvSTVxTUx3OGkxZ3QzRFNaX1VaelVkSGZKVWIyZ0V3dHU2eHZNRk1jSjFxT0xKM3ZCeFEtZGhTNkh4a0tSRTVoNzdn?oc=5",
+        "source": "Yeni Safak English",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T06:19:35Z",
+        "title": "Explosion reported near tanker west of Dubai, UKMTO says | Middle East News - Yeni Safak English"
       }
     ],
     "first_seen": "2026-11-26T03:01:16Z",
-    "last_updated": "2026-11-26T03:01:20Z",
+    "last_updated": "2026-11-26T13:05:01Z",
     "verification_issue": 482,
     "verdict": null,
     "published_in": [],
     "status": "confirmed",
     "status_changed_at": "2026-11-26T03:01:16Z",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-11-26",
+    "summary": "Ukraine's Prime Minister Serhiy Koretsky said the Russian army attacked two foreign civilian vessels carrying more than 100,000 tonnes of grain overnight at sea near Odesa. No vessel names, weapons, damage or casualty details are given.",
+    "official_source_cited": "Ukraine's Prime Minister Serhiy Koretsky",
+    "conflicting": false,
+    "confidence": 0.7,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 46.49,
+    "lon": 30.74,
+    "location_text": "at sea near Odesa, Ukraine",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Russia (Ukraine's PM said the Russian army attacked)",
+    "independent_evidence": false,
+    "id": "INC-20261126-002",
+    "sources": [
+      {
+        "url": "https://t.me/suspilneodesa/84090",
+        "source": "Suspilne Odesa",
+        "source_type": "telegram",
+        "side": "ua",
+        "kind": "local",
+        "published_at": "2026-11-26T12:23:34+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPODFlMUx3NkxKQmxVaUI2cmJxVGdVbmV5ZlU5Um5NWHVqaWZMaVFyczdWejI5UmtzemdrdnozUldFazFCSkhPUnhtNkdRQkpFX0VtaEYzTFlTZmExZVJzOERlcU85NDZkZ2pPXzRlYW9hdnBna0NVaWVEZmwzMENuMkdKNFlNMzk2SVVwRXoxSlB4M1NnZWNnQ3pDZ1VRNmhMWGhIV1FpLWhfVDM3ZEtqclhDNVdwMFZJOU9sVFB5SzRqelc5Ukd2NGF2eVFiYko3YlFDWURB?oc=5",
+        "source": "Türkgün",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T11:59:00Z",
+        "title": "Rusya'dan Odessa Limanı yakınlarında iki yabancı gemiye saldırı: 100 bin tondan fazla tahıl hedef alındı - Türkgün"
+      },
+      {
+        "url": "https://t.me/ukrpravda_news/87174",
+        "source": "Ukrainska Pravda",
+        "source_type": "telegram",
+        "side": "ua",
+        "kind": "media",
+        "published_at": "2026-11-26T11:29:29+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/operativnoZSU/227047",
+        "source": "Operatyvnyi ZSU",
+        "source_type": "telegram",
+        "side": "ua",
+        "kind": "media",
+        "published_at": "2026-11-26T10:31:10+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-11-26T13:04:41Z",
+    "last_updated": "2026-11-26T13:04:50Z",
+    "verification_issue": 487,
+    "verdict": null,
+    "published_in": [],
+    "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-11-26",
+    "summary": "UAE-based Adnoc confirmed that missing crew are dead after a vessel attack in the Strait of Hormuz, according to Khaleej Times. No vessel name, date, weapon or attacker is given.",
+    "official_source_cited": "Adnoc (ship operator/owner)",
+    "conflicting": false,
+    "confidence": 0.8,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": "missing crew confirmed dead",
+    "attribution_claimed": null,
+    "independent_evidence": true,
+    "id": "INC-20261126-003",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORWFPM3NMLVMzU0JneWlTOUZjdHFzNHpXLXdnYlBaYWQ2Y3VsVjFpeFM5V1JQMlk2VkMtQ3I1enRtVU5qdnU1c1FVaFprMVQ4LXJvenNSRDd3R1dvQzVQWGI4c1ZkSTZUcFp4NFJIczQwLUVUNS1xb3pUUzQwcjIzV1VtY3JyVVdfZ1Y1cy1yYTU3OEl4QUxUU2ZBa00yRnU1dDlLbU5saWwwWW_SAbMBQVVfeXFMUFZraHFSbGlLZklFbmJoTDV2NHZqckJXU2xraTZmWVdVV0QwUmJVQlByMmxaWmNkckpSOUR3cHlYOV9Pb3BzS2pjeTRhbjR1SFcxWmRNQ2tZRDVOQzU2LWpUX3EyVHdqTGxuTENsUGJaMS1WSV9zcFBxNzI0Y1NiZG9zVC0zbTkxUEhJYzJYdjhMakl1UV84aDBTS0xqM0lmZUl0V1RPdTBEdlBjUl9wZjFBSFE?oc=5",
+        "source": "Khaleej Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T12:01:28Z",
+        "title": "UAE-based Adnoc confirms missing crew dead after Strait of Hormuz vessel attack - Khaleej Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUjVDN2g0OElmWkVHZGpsLWptMDJ3YnFTQzEzcFk5Wk1SWnpsWHJLRWQ2MVp2UWJzN205MHlibmNHdmpqb2JuM3lzdVhTM2FpZkcwanQ3UFZEaUYtdTJCdVRBNVRoMHB6d3lKektpNkx0STlPOUhKTHlGRzI4ME9PXzFvNHRLNWk3ZnlUcnhDWGxscGQ3RWZ5WHJRdWgwSHdUdFNvTDd4Y0xiekZQSlc3VHhZZlB1XzVMTXpUVW1lS2JjZw?oc=5",
+        "source": "NewsCord",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T11:24:10Z",
+        "title": "Body of Jordanian Sailor Found After Tanker Attack in Strait of Hormuz: what 5 outlets left out - NewsCord"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVWVNVXZrdTkyTnhiMjhkaGMxQUdXUVdPeXE3dS1KczRxUk5IV2FPTTVSZk9tc0loaXp0SGdEYzVvc2hCeHUxclVGeVVfU05SVlh5OE1udEs1cEtRbkhybWxHTFVWcVM0Y2FJWkh0NFZfUGVzTGZnRVNmbHNNd1RkRGNZVWJpY2dLbUl1QjduUXoxNjlHY2kwbnRnalJhd0RHb3dFRFp6emdkYUd3NG1aYnB3amtwUlnSAcoBQVVfeXFMTkNMOTVrSWRjU0FOblFkdGpkUFNJa2dDQllodU5OTVNwQUc5ckI2clcyeHRDdnVFdTZkamZIYTdIV1RvYUQxQkJJdmFWY1hzVmt5MHZWZWlic0NXSEU4V0ZDb2VSaVhrYmdOZVFicXY2ODcxUFZlMnZrb04wdnJuUU9oUE5PeEd6X21FZzg4TDE3NzdSMF9pVGhrNkl4c0xOdzg4MHA2T1dCdTR6c0VBLTB6OWNoMGdCZFphelFLeUNtRmxNbGxzZFVCQQ?oc=5",
+        "source": "Gulf News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T11:18:28Z",
+        "title": "ADNOC L&S confirms crew member’s death after Strait of Hormuz attack - Gulf News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRnBQTnZ4YjBmUXRRRktZdmZaQUN4S2VaQ3I3dlV1eDFsdFZKZTV6eWY1WTFFQW1icjE2MTVDY3Z3MjVfVEp6eGt4WDdvOXBESmZvbGg3Y0VDSG5ncGVwVTcwbDZ0cHRWRDJ0YU1lMVNGMHc4M1B3VWQzc2h1cFVkZHVWSTNCRU40S214TW9zS2lhempSZmdxb0pwbVY0b0hnY1NlRFVsYThmM0lY?oc=5",
+        "source": "UA.NEWS",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T10:36:19Z",
+        "title": "Body of Jordanian sailor found in UAE after tanker attack — The National - UA.NEWS"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQy02enhSTFVURkF1MTNrZDgyRHluWUMwSFdFSUVEOWo4REctd2o3VThLM0VQYXdqalB4a0NoOG9Vc0dtYktFMmZobXFpTmRIUVhJQ1JLcE9YM2J2RXlQVE4xWkVmaGNHbTZOdHpBMkhMTGNPVnh6cUVDZUFhVWF2bE55dWdNREZ5WnRDRnNfNlIwLVI3YjFRRi1wb1pZUGg2Ry1QTnRabWFWRjlMcWQ5eXNMRzhiWjFXTTN6Zw?oc=5",
+        "source": "The National",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T10:11:29Z",
+        "title": "Body of Jordanian sailor missing since tanker attack off UAE found - The National"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNb3pYMzBNZGViTHNWRXhvV1RCOUFySThBSXkwam5rWUhQY3ZZcmVZTmN0b2dRaEdjNVlBbmR2RHFsZWdjOUs2NktwTDFlYlNEc21lMExiMGVUNjhTNHV3WmEzcXlUVElyTExtRVBwOFFpNzM4bUVvU0l5cWRTS1RhLWZ0NXQyTzk3YXRubERTNDd3N3lWd216clZnVW8zRkJNVTMyQ1NNSVpXNHBERlhDcTJ0aGhpVl95NnRPU2xqalV2OTV4bFBSM0tMMDBkNndqY1BiVGRjNnl3dWg4TjlnVWEyQjdfZVFVVk5TSV9LeElFbVRqeFd6Qy1MaXliOUtnejdLeTVISjREUjJyQ2hTQ2pCaUs2LWVGUUlhWUJLbzFMeXlQSlZhVg?oc=5",
+        "source": "الجزيرة نت",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T10:05:33Z",
+        "title": "العثور على جثمان بحار أردني فُقد في هجوم على ناقلة نفط بهرمز - الجزيرة نت"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9QMzhxWEtyd3hlb2FOaURWempFWmR0VHBISm5YeXBYYjVqbVpJVFVpYzk0ZHFHZjRMRzFMOTBQZzlJZWdpQ0dkTFF5V3pYN0VJVUIzYUV6bEhWYnpJSzUwSFlHclIwQ0RfVUNtLThrMnU0V3RZVUt4UVlwb0EyWDg?oc=5",
+        "source": "Al-Bawaba",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T09:47:01Z",
+        "title": "Body of Jordanian sailor, lost in ADNOC oil tanker attack, was found - Al-Bawaba"
+      }
+    ],
+    "first_seen": "2026-11-26T13:04:41Z",
+    "last_updated": "2026-11-26T13:05:05Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261118-001",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-11-26",
+    "summary": "Russia's defence ministry said, according to Interfax, that it struck a cargo ship in the Black Sea in addition to military sites in Kyiv. No vessel name, weapon, damage or casualty details were given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.5,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "general cargo",
+    "vessel_category": "merchant",
+    "lat": 46.49,
+    "lon": 30.74,
+    "location_text": "Black Sea, south-east of Odesa, Ukraine",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": "Russia's defence ministry (via Interfax)",
+    "independent_evidence": false,
+    "id": "INC-20261126-005",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOXzBsLW1pY2F1V0pRUi1VY2I5LU5zbmhJUlBKdFc4YjFYZHBhNzgzczFzUDJ3YXRBQ3Vzd3lNUVZvdFNBeGhKeThFRnZrUGJqMTlFY1JsbTZsRF9QRU80ZzVsdDlLN0Y0S0dVNjVKZ0NkWWxZMUdIbWU2VkFQZ2dzTFhQRExkdTRuVDBTczFORnRYSENOejBuOWtSZlpQUUxrYmtMdHZmSURENkRtUHgwLVpBaXB0U0R3aGk3ay1UOVJhV2NKTDgtUHhOaGtXVi1VcUJWTDVuVWtfZ9IB2gFBVV95cUxOXzBsLW1pY2F1V0pRUi1VY2I5LU5zbmhJUlBKdFc4YjFYZHBhNzgzczFzUDJ3YXRBQ3Vzd3lNUVZvdFNBeGhKeThFRnZrUGJqMTlFY1JsbTZsRF9QRU80ZzVsdDlLN0Y0S0dVNjVKZ0NkWWxZMUdIbWU2VkFQZ2dzTFhQRExkdTRuVDBTczFORnRYSENOejBuOWtSZlpQUUxrYmtMdHZmSURENkRtUHgwLVpBaXB0U0R3aGk3ay1UOVJhV2NKTDgtUHhOaGtXVi1VcUJWTDVuVWtfZw?oc=5",
+        "source": "Devdiscourse",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T05:26:04Z",
+        "title": "Russia says it hit Kyiv military sites, cargo ship in Black Sea, Interfax reports - Devdiscourse"
+      },
+      {
+        "url": "https://t.me/mod_russia/69332",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-26T05:24:54+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/rian_ru/350470",
+        "source": "RIA Novosti",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-11-26T05:13:32+00:00",
+        "title": null
+      }
+    ],
+    "first_seen": "2026-11-26T13:05:04Z",
+    "last_updated": "2026-11-26T13:05:05Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261124-001",
     "position_approx": true
   },
   {
@@ -398,12 +750,13 @@
       }
     ],
     "first_seen": "2026-11-25T10:23:19Z",
-    "last_updated": "2026-11-25T10:23:22Z",
+    "last_updated": "2026-11-26T13:05:05Z",
     "verification_issue": 481,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "merged",
+    "position_approx": true,
+    "merged_into": "INC-20261124-001"
   },
   {
     "region": "Black Sea",
@@ -701,7 +1054,7 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-11-24",
-    "summary": "Russia's defence ministry claimed its drones struck an unnamed dry cargo vessel in the Black Sea south-west of Odesa, saying it carried military or dual-use cargo for Ukraine. A similar ministry claim the next day described a dry cargo vessel east of Odesa; neither claim was independently confirmed.",
+    "summary": "Russia's defence ministry claimed its drones struck an unnamed dry cargo vessel in the Black Sea south-west of Odesa, saying it carried military or dual-use cargo for Ukraine. Follow-on ministry claims described a dry cargo vessel in Chornomorsk port and another cargo ship south-east of Odesa, and none of the claims was independently confirmed.",
     "official_source_cited": null,
     "conflicting": false,
     "confidence": 0.6,
@@ -1007,10 +1360,55 @@
         "kind": "media",
         "published_at": "2026-11-25T18:39:10Z",
         "title": "وزارة الدفاع الروسية تعلن استهداف سفينة شحن تابعة للجيش الأوكراني في البحر الأسود - بوابة دار الهلال"
+      },
+      {
+        "url": "https://t.me/dva_majors/102487",
+        "source": "Dva Mayora",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "osint",
+        "published_at": "2026-11-25T05:29:30+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/mod_russia/69315",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-25T05:12:09+00:00",
+        "title": null
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOXzBsLW1pY2F1V0pRUi1VY2I5LU5zbmhJUlBKdFc4YjFYZHBhNzgzczFzUDJ3YXRBQ3Vzd3lNUVZvdFNBeGhKeThFRnZrUGJqMTlFY1JsbTZsRF9QRU80ZzVsdDlLN0Y0S0dVNjVKZ0NkWWxZMUdIbWU2VkFQZ2dzTFhQRExkdTRuVDBTczFORnRYSENOejBuOWtSZlpQUUxrYmtMdHZmSURENkRtUHgwLVpBaXB0U0R3aGk3ay1UOVJhV2NKTDgtUHhOaGtXVi1VcUJWTDVuVWtfZ9IB2gFBVV95cUxOXzBsLW1pY2F1V0pRUi1VY2I5LU5zbmhJUlBKdFc4YjFYZHBhNzgzczFzUDJ3YXRBQ3Vzd3lNUVZvdFNBeGhKeThFRnZrUGJqMTlFY1JsbTZsRF9QRU80ZzVsdDlLN0Y0S0dVNjVKZ0NkWWxZMUdIbWU2VkFQZ2dzTFhQRExkdTRuVDBTczFORnRYSENOejBuOWtSZlpQUUxrYmtMdHZmSURENkRtUHgwLVpBaXB0U0R3aGk3ay1UOVJhV2NKTDgtUHhOaGtXVi1VcUJWTDVuVWtfZw?oc=5",
+        "source": "Devdiscourse",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T05:26:04Z",
+        "title": "Russia says it hit Kyiv military sites, cargo ship in Black Sea, Interfax reports - Devdiscourse"
+      },
+      {
+        "url": "https://t.me/mod_russia/69332",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-26T05:24:54+00:00",
+        "title": null
+      },
+      {
+        "url": "https://t.me/rian_ru/350470",
+        "source": "RIA Novosti",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "media",
+        "published_at": "2026-11-26T05:13:32+00:00",
+        "title": null
       }
     ],
     "first_seen": "2026-11-24T16:17:28Z",
-    "last_updated": "2026-11-26T03:01:26Z",
+    "last_updated": "2026-11-26T13:05:05Z",
     "verification_issue": 470,
     "verdict": null,
     "published_in": [],
@@ -10010,10 +10408,73 @@
         "kind": "media",
         "published_at": "2026-11-22T16:40:16Z",
         "title": "Search ongoing for missing Jordanian sailor after tanker attack in Strait of Hormuz — ministry - Jordan Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORWFPM3NMLVMzU0JneWlTOUZjdHFzNHpXLXdnYlBaYWQ2Y3VsVjFpeFM5V1JQMlk2VkMtQ3I1enRtVU5qdnU1c1FVaFprMVQ4LXJvenNSRDd3R1dvQzVQWGI4c1ZkSTZUcFp4NFJIczQwLUVUNS1xb3pUUzQwcjIzV1VtY3JyVVdfZ1Y1cy1yYTU3OEl4QUxUU2ZBa00yRnU1dDlLbU5saWwwWW_SAbMBQVVfeXFMUFZraHFSbGlLZklFbmJoTDV2NHZqckJXU2xraTZmWVdVV0QwUmJVQlByMmxaWmNkckpSOUR3cHlYOV9Pb3BzS2pjeTRhbjR1SFcxWmRNQ2tZRDVOQzU2LWpUX3EyVHdqTGxuTENsUGJaMS1WSV9zcFBxNzI0Y1NiZG9zVC0zbTkxUEhJYzJYdjhMakl1UV84aDBTS0xqM0lmZUl0V1RPdTBEdlBjUl9wZjFBSFE?oc=5",
+        "source": "Khaleej Times",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T12:01:28Z",
+        "title": "UAE-based Adnoc confirms missing crew dead after Strait of Hormuz vessel attack - Khaleej Times"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUjVDN2g0OElmWkVHZGpsLWptMDJ3YnFTQzEzcFk5Wk1SWnpsWHJLRWQ2MVp2UWJzN205MHlibmNHdmpqb2JuM3lzdVhTM2FpZkcwanQ3UFZEaUYtdTJCdVRBNVRoMHB6d3lKektpNkx0STlPOUhKTHlGRzI4ME9PXzFvNHRLNWk3ZnlUcnhDWGxscGQ3RWZ5WHJRdWgwSHdUdFNvTDd4Y0xiekZQSlc3VHhZZlB1XzVMTXpUVW1lS2JjZw?oc=5",
+        "source": "NewsCord",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T11:24:10Z",
+        "title": "Body of Jordanian Sailor Found After Tanker Attack in Strait of Hormuz: what 5 outlets left out - NewsCord"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVWVNVXZrdTkyTnhiMjhkaGMxQUdXUVdPeXE3dS1KczRxUk5IV2FPTTVSZk9tc0loaXp0SGdEYzVvc2hCeHUxclVGeVVfU05SVlh5OE1udEs1cEtRbkhybWxHTFVWcVM0Y2FJWkh0NFZfUGVzTGZnRVNmbHNNd1RkRGNZVWJpY2dLbUl1QjduUXoxNjlHY2kwbnRnalJhd0RHb3dFRFp6emdkYUd3NG1aYnB3amtwUlnSAcoBQVVfeXFMTkNMOTVrSWRjU0FOblFkdGpkUFNJa2dDQllodU5OTVNwQUc5ckI2clcyeHRDdnVFdTZkamZIYTdIV1RvYUQxQkJJdmFWY1hzVmt5MHZWZWlic0NXSEU4V0ZDb2VSaVhrYmdOZVFicXY2ODcxUFZlMnZrb04wdnJuUU9oUE5PeEd6X21FZzg4TDE3NzdSMF9pVGhrNkl4c0xOdzg4MHA2T1dCdTR6c0VBLTB6OWNoMGdCZFphelFLeUNtRmxNbGxzZFVCQQ?oc=5",
+        "source": "Gulf News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T11:18:28Z",
+        "title": "ADNOC L&S confirms crew member’s death after Strait of Hormuz attack - Gulf News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRnBQTnZ4YjBmUXRRRktZdmZaQUN4S2VaQ3I3dlV1eDFsdFZKZTV6eWY1WTFFQW1icjE2MTVDY3Z3MjVfVEp6eGt4WDdvOXBESmZvbGg3Y0VDSG5ncGVwVTcwbDZ0cHRWRDJ0YU1lMVNGMHc4M1B3VWQzc2h1cFVkZHVWSTNCRU40S214TW9zS2lhempSZmdxb0pwbVY0b0hnY1NlRFVsYThmM0lY?oc=5",
+        "source": "UA.NEWS",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T10:36:19Z",
+        "title": "Body of Jordanian sailor found in UAE after tanker attack — The National - UA.NEWS"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQy02enhSTFVURkF1MTNrZDgyRHluWUMwSFdFSUVEOWo4REctd2o3VThLM0VQYXdqalB4a0NoOG9Vc0dtYktFMmZobXFpTmRIUVhJQ1JLcE9YM2J2RXlQVE4xWkVmaGNHbTZOdHpBMkhMTGNPVnh6cUVDZUFhVWF2bE55dWdNREZ5WnRDRnNfNlIwLVI3YjFRRi1wb1pZUGg2Ry1QTnRabWFWRjlMcWQ5eXNMRzhiWjFXTTN6Zw?oc=5",
+        "source": "The National",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T10:11:29Z",
+        "title": "Body of Jordanian sailor missing since tanker attack off UAE found - The National"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNb3pYMzBNZGViTHNWRXhvV1RCOUFySThBSXkwam5rWUhQY3ZZcmVZTmN0b2dRaEdjNVlBbmR2RHFsZWdjOUs2NktwTDFlYlNEc21lMExiMGVUNjhTNHV3WmEzcXlUVElyTExtRVBwOFFpNzM4bUVvU0l5cWRTS1RhLWZ0NXQyTzk3YXRubERTNDd3N3lWd216clZnVW8zRkJNVTMyQ1NNSVpXNHBERlhDcTJ0aGhpVl95NnRPU2xqalV2OTV4bFBSM0tMMDBkNndqY1BiVGRjNnl3dWg4TjlnVWEyQjdfZVFVVk5TSV9LeElFbVRqeFd6Qy1MaXliOUtnejdLeTVISjREUjJyQ2hTQ2pCaUs2LWVGUUlhWUJLbzFMeXlQSlZhVg?oc=5",
+        "source": "الجزيرة نت",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T10:05:33Z",
+        "title": "العثور على جثمان بحار أردني فُقد في هجوم على ناقلة نفط بهرمز - الجزيرة نت"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9QMzhxWEtyd3hlb2FOaURWempFWmR0VHBISm5YeXBYYjVqbVpJVFVpYzk0ZHFHZjRMRzFMOTBQZzlJZWdpQ0dkTFF5V3pYN0VJVUIzYUV6bEhWYnpJSzUwSFlHclIwQ0RfVUNtLThrMnU0V3RZVUt4UVlwb0EyWDg?oc=5",
+        "source": "Al-Bawaba",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T09:47:01Z",
+        "title": "Body of Jordanian sailor, lost in ADNOC oil tanker attack, was found - Al-Bawaba"
       }
     ],
     "first_seen": "2026-11-18T13:22:53Z",
-    "last_updated": "2026-11-22T23:47:17Z",
+    "last_updated": "2026-11-26T13:05:05Z",
     "verification_issue": 419,
     "verdict": null,
     "published_in": [],
