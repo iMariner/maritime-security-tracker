@@ -15,7 +15,7 @@
     "lon": 30.74,
     "location_text": "Black Sea, south-west of Odesa, Ukraine",
     "attack_type": "drone (UAV)",
-    "damage": null,
+    "damage": "vessel struck; no damage details given",
     "casualties": null,
     "attribution_claimed": "Russia's defence ministry",
     "independent_evidence": false,
@@ -65,14 +65,105 @@
         "kind": "media",
         "published_at": "2026-11-27T05:00:02Z",
         "title": "Russian Drone Strikes Hit Ukraine’s Factories and Cargo Ship - Военное дело"
+      },
+      {
+        "url": "https://t.me/mod_russia/69387",
+        "source": "Russian Ministry of Defence",
+        "source_type": "telegram",
+        "side": "ru",
+        "kind": "official",
+        "published_at": "2026-11-27T15:35:59+00:00",
+        "title": null
       }
     ],
     "first_seen": "2026-11-27T14:14:35Z",
-    "last_updated": "2026-11-27T14:14:35Z",
+    "last_updated": "2026-11-27T22:54:29Z",
     "verification_issue": 494,
     "verdict": null,
     "published_in": [],
     "status": "claimed",
+    "position_approx": true
+  },
+  {
+    "region": "Black Sea",
+    "date_utc": "2026-11-27",
+    "summary": "A headline reports that grain ships were hit in Odesa as Zelensky warned of a new massive Russian strike. No vessel names, exact dates, weapons, damage or casualty details are given.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.4,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "bulk carrier",
+    "vessel_category": "merchant",
+    "lat": 46.49,
+    "lon": 30.74,
+    "location_text": "Odesa, Ukraine (grain ships)",
+    "attack_type": "other",
+    "damage": null,
+    "casualties": null,
+    "attribution_claimed": null,
+    "independent_evidence": false,
+    "id": "INC-20261127-002",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeHNMWDRTWFVxZzUwTjdEU1YwcDYtcVhGaFhMbkJFVWJkdVdVWTJ3ZlV1NzRxLWloRkU5dzQ1ZzNreExUYl9hSHh6czA4ZF9iM2RPWS1TQVNMZ3ROalBwYmdGVWhWSUxHc2k0YWtRdkV5MFF1Vzk4QVp6LXRQSjNyN1I5RHdRb1R1X3cwa3I5RQ?oc=5",
+        "source": "Il Politico Web",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-27T14:35:03Z",
+        "title": "Odessa grain ships hit as Zelensky warns of a new massive Russian strike - Il Politico Web"
+      }
+    ],
+    "first_seen": "2026-11-27T22:54:29Z",
+    "last_updated": "2026-11-27T22:54:34Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261126-002",
+    "position_approx": true
+  },
+  {
+    "region": "Strait of Hormuz",
+    "date_utc": "2026-11-27",
+    "summary": "A headline says Iran claimed an oil tanker exploded after hitting a mine in the Strait of Hormuz. No vessel name, exact date, damage or casualty details are given, and the claim is not independently confirmed.",
+    "official_source_cited": null,
+    "conflicting": false,
+    "confidence": 0.4,
+    "vessel_name": null,
+    "imo": null,
+    "flag": null,
+    "vessel_type": "tanker",
+    "vessel_category": "merchant",
+    "lat": 26.55,
+    "lon": 56.35,
+    "location_text": "Strait of Hormuz",
+    "attack_type": "mine",
+    "damage": "explosion after hitting a mine; no further details",
+    "casualties": null,
+    "attribution_claimed": "Iran claimed the tanker hit a mine",
+    "independent_evidence": false,
+    "id": "INC-20261127-003",
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5nRUU5bllEZFhsa19DMmJBZHJiRm1ZY3I3TkdNVVQwazVCTTRfU2taYlN6QjJIR0VmT0RDUlZlOThnbTlvcmNXN19WWUJYaXVMUldOTGd1em5kcXJxbVZkSXk5OTVVYXlGTlZKdkdIcWtiZw?oc=5",
+        "source": "https://houseofsaud.com/",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-27T13:56:19Z",
+        "title": "Iran Claims Oil Tanker Explodes After Hitting Mine in Hormuz - https://houseofsaud.com/"
+      }
+    ],
+    "first_seen": "2026-11-27T22:54:29Z",
+    "last_updated": "2026-11-27T22:54:34Z",
+    "verification_issue": null,
+    "verdict": null,
+    "published_in": [],
+    "status": "merged",
+    "merged_into": "INC-20261126-006",
     "position_approx": true
   },
   {
@@ -462,10 +553,10 @@
   {
     "region": "Black Sea",
     "date_utc": "2026-11-26",
-    "summary": "Ukraine's Prime Minister Serhiy Koretsky said the Russian army attacked two foreign civilian vessels carrying more than 100,000 tonnes of grain overnight at sea near Odesa. No vessel names, weapons, damage or casualty details are given.",
+    "summary": "Ukraine's Prime Minister said Russia attacked two foreign civilian bulk carriers loaded with grain near Odesa overnight on 26 November, one of which had loaded at Pivdennyi and was leaving via Ukraine's maritime corridor. A separate headline reported grain ships hit in Odesa as Zelensky warned of a new massive Russian strike, with no vessel names or further details.",
     "official_source_cited": "Ukraine's Prime Minister Serhiy Koretsky",
     "conflicting": false,
-    "confidence": 0.7,
+    "confidence": 0.8,
     "vessel_name": null,
     "imo": null,
     "flag": "Greece",
@@ -478,7 +569,7 @@
     "damage": "two vessels hit, carrying over 100,000 tonnes of grain",
     "casualties": null,
     "attribution_claimed": "Russia (Ukraine's PM said the Russian army attacked)",
-    "independent_evidence": false,
+    "independent_evidence": true,
     "id": "INC-20261126-002",
     "sources": [
       {
@@ -561,15 +652,44 @@
         "kind": "media",
         "published_at": "2026-11-27T09:32:20Z",
         "title": "Russia strikes two Greek grain ships running blockade of Ukraine's ports - TradeWinds News"
+      },
+      {
+        "url": "https://www.hellenicshippingnews.com/russia-attacks-grain-ships-near-odesa-clouding-ukraine-corridor-recovery/",
+        "source": "Hellenic Shipping News",
+        "source_type": "news",
+        "side": "neutral",
+        "kind": "media",
+        "published_at": "2026-11-27T22:00:49Z",
+        "title": "Russia attacks grain ships near Odesa, clouding Ukraine corridor recovery"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNG5HZWxCbC11MWUxR1M2OHRNbjZVTURtSDhJY0l5SG1GMElZNk56S2lTRGF6dm5hdzdvcjJCUnBIVXRNT1B1SlZJSGdpRUhUZ1hGNTBabF9PVDdKMTQ1QVFIZGdDNjdlVkNQSmxGaHJ2X2oyS0p0Rm5wN05wcE1URWdMSnR5Q20tRzU4aHRkdzFveVphN3NacndmUWRoREJjWHRpeUw2Mzl1a2ppdVpaMWdzRUhXUDJ2aWh1UWVkbUg?oc=5",
+        "source": "електронна зернова біржа України",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-27T09:54:56Z",
+        "title": "On the night of November 26, the Russian Federation attacked two ships carrying over 100,000 tons of grain near Odessa. - електронна зернова біржа України"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeHNMWDRTWFVxZzUwTjdEU1YwcDYtcVhGaFhMbkJFVWJkdVdVWTJ3ZlV1NzRxLWloRkU5dzQ1ZzNreExUYl9hSHh6czA4ZF9iM2RPWS1TQVNMZ3ROalBwYmdGVWhWSUxHc2k0YWtRdkV5MFF1Vzk4QVp6LXRQSjNyN1I5RHdRb1R1X3cwa3I5RQ?oc=5",
+        "source": "Il Politico Web",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-27T14:35:03Z",
+        "title": "Odessa grain ships hit as Zelensky warns of a new massive Russian strike - Il Politico Web"
       }
     ],
     "first_seen": "2026-11-26T13:04:41Z",
-    "last_updated": "2026-11-27T14:14:29Z",
+    "last_updated": "2026-11-27T22:54:34Z",
     "verification_issue": 487,
     "verdict": null,
     "published_in": [],
-    "status": "claimed",
-    "position_approx": true
+    "status": "reported",
+    "position_approx": true,
+    "status_changed_at": "2026-11-27T22:54:25Z",
+    "date_approx": false
   },
   {
     "region": "Strait of Hormuz",
@@ -728,7 +848,7 @@
   {
     "region": "Strait of Hormuz",
     "date_utc": "2026-11-26",
-    "summary": "UKMTO reported that a tanker was struck by an unknown projectile near Khasab, Oman, close to the Strait of Hormuz on 26 November 2026, with a warning issued to transiting vessels. Iran's Revolutionary Guards separately claimed that two ships hit mines in Hormuz and that two tankers caught fire, a claim not independently confirmed.",
+    "summary": "UKMTO reported that a tanker was struck by an unknown projectile near Khasab, Oman, close to the Strait of Hormuz on 26 November 2026, and warned transiting vessels. Iran's Revolutionary Guards separately claimed that ships hit mines in Hormuz and that tankers caught fire, a claim that is not independently confirmed.",
     "official_source_cited": "UKMTO",
     "conflicting": false,
     "confidence": 0.75,
@@ -1025,10 +1145,37 @@
         "kind": "media",
         "published_at": "2026-11-25T21:24:21Z",
         "title": "Revolutionary Guard: LNG Tanker Catches Fire After Hitting Sea Mine in Strait of Hormuz - صحيفة سبق الإلكترونية"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8wRHpUVEFIeGh4a1dKc0xBOFFHa2lOdmE1S01jWHpLLWNuV3VBUGFpaXA0VkVKOFVVaTlfdEVIT1pvbnlSWHBGd2ZiM1RYRjF2NkE?oc=5",
+        "source": "Yemen Online",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T13:45:51Z",
+        "title": "Attack on a tanker in the Strait of Hormuz; warning issued to transiting vessels - Yemen Online"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbng4VTIyY3JIZzU4b2ZnamVRWUVaN2Nsd21SNUdUWkVVXzRHbGxIN2lvY1lFemFwcWVJZFM4YU1CYXdMeGRFYl9pN05yeTgzZ1ZpSmZsNFl0ZF9qV3R1OG9GVVJBRDhRZjB6WGRQX3VnblBxeG1TcFhPdGNtcTFjU3NTY2lZd2UxbzFfYUZWV1JHUUo3MzFsWnJaNUlrOHNGRkpCaEJENlgtWWRYZzVJcHZRNDdWYzVlSkFzQzhRT0w?oc=5",
+        "source": "TradeWinds News",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-26T12:40:39Z",
+        "title": "Two tankers ‘on fire’ in Strait of Hormuz after explosions claimed by Iran - TradeWinds News"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5nRUU5bllEZFhsa19DMmJBZHJiRm1ZY3I3TkdNVVQwazVCTTRfU2taYlN6QjJIR0VmT0RDUlZlOThnbTlvcmNXN19WWUJYaXVMUldOTGd1em5kcXJxbVZkSXk5OTVVYXlGTlZKdkdIcWtiZw?oc=5",
+        "source": "https://houseofsaud.com/",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-27T13:56:19Z",
+        "title": "Iran Claims Oil Tanker Explodes After Hitting Mine in Hormuz - https://houseofsaud.com/"
       }
     ],
     "first_seen": "2026-11-26T22:33:28Z",
-    "last_updated": "2026-11-27T14:14:42Z",
+    "last_updated": "2026-11-27T22:54:34Z",
     "verification_issue": 489,
     "verdict": null,
     "published_in": [],
@@ -11990,10 +12137,19 @@
         "kind": "official",
         "published_at": "2026-11-27T14:14:42Z",
         "title": "IMO confirmed incident: NAVIG8 MESSI (IMO 9482859)"
+      },
+      {
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNjNIRk5VblpiTDl5UHp5TDBjNHBJWE56UDdzM1J2alJad0xQdy1MVElIdEhjUDJQNUFibGduZGl4SExya0d4WjVOUkVPZnZEeTlqcEkwT090VHl5Zm82b0FuVTlyUEQ3TlA0SW5mc3FwcHBNdnQ2aUluUGVNcGVHcFVzLW1PTzZuMVR2REtGRzhXSWt3MEZ2eEM4TXJncnd6a2VxQ19Wa204ZGJZNEt3MWZaaEJIaGZfdmNIN1dLaTZiakVDUjBB?oc=5",
+        "source": "Upstream Online",
+        "source_type": "news",
+        "side": "unknown",
+        "kind": "media",
+        "published_at": "2026-11-27T07:54:17Z",
+        "title": "Adnoc subsidiary confirms crew member found dead after Strait of Hormuz attack - Upstream Online"
       }
     ],
     "first_seen": "2026-11-18T13:22:53Z",
-    "last_updated": "2026-11-27T14:14:42Z",
+    "last_updated": "2026-11-27T22:54:33Z",
     "verification_issue": 419,
     "verdict": null,
     "published_in": [],
